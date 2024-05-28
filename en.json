@@ -48,7 +48,25 @@
             "sign_out": "Sign Out"
         },
         "campaign": {
-            "supporters": "supporter|supporters"
+            "campaigns": "Campaigns",
+            "supporters": "supporter|supporters",
+            "created": "Created"
+        },
+        "collection": {
+            "collections": "Collections",
+            "campaigns": "{campaign} Campaigns"
+        },
+        "creator": {
+            "creators": "Creators"
+        },
+        "comment": {
+            "comment": "Comments",
+            "reply": "Reply",
+            "post": "Post",
+            "replies": "{replies} Replies",
+            "comments": "{comments} Comments",
+            "no_comment_yet": "No comment yet",
+            "start_conversation": "Start the Conversation"
         },
         "button": {
             "view_all": "View All",
@@ -59,7 +77,19 @@
             "back": "Back",
             "change": "Change",
             "delete": "Delete",
-            "save": "Save"
+            "save": "Save",
+            "sign_up": "Sign Up",
+            "sign_in": "Sign In",
+            "purchase_now": "Purchase Now",
+            "apply": "Apply",
+            "share": "Share",
+            "report": "Report"
+        },
+        "post": {
+            "post": "Post",
+            "pin_post": "Pin Post",
+            "hide_post": "Hide Post",
+            "post_shared": "Post shared on {date}"
         },
         "time": {
             "week": "Week",
@@ -67,6 +97,7 @@
             "year": "Year",
             "weekly": "Weekly",
             "monthly": "Monthly",
+            "yearly": "Yearly",
             "annual": "Annual"
         }
     },
@@ -92,7 +123,13 @@
             "twibbonize": "Twibbonize",
             "learn_more": "Learn More",
             "or": "or",
-            "try_it": "Try it now, Free!"
+            "try_it": "Try it now, Free!",
+            "for_creators": "For Creators"
+        },
+        "trending": {
+            "on_twibbonize": "Trending on Twibbonize",
+            "most_supporters": "Most Supported Campaigns in the Last 24 Hours",
+            "explore_more": "Explore More"
         }
     },
     "page_about": {
@@ -167,7 +204,14 @@
             "14": "Meeting Farhan, our backend engineer, for the first time. Glad he’s real (alive and not an AI)", 
             "15": "Our US-based Advisor, Harry Sugama, visiting us in our new HQ!",
             "16": "Working on our latest update"
+        },
+        "history": {
+            "the_history": "The History of Twibbon",
+            "in_this": "In this digital era, social media has become the go-to platform for one to express support, concerns, and other sentiments.",
+            "however": "However, we sometimes struggle with finding the right words and actions to convey our thoughts effectively.",
+            "visual_factor": "Visual factor holds great power in this context. Twibbon is a simple solution to become the extension of the ideas you want to convey."
         }
+
     },
     "page_contact": {
         "header": {
@@ -250,9 +294,13 @@
             "no_post_yet": "No Post Yet",
             "be_the_first": "Be the first to post your support here. Start with uploading your photo!"
         },
+        "pricing": {
+            "no_thankyou": "No, Thank you"
+        },
         "twibbon": {
             "choose_your_photo": "Choose Your Photo",
             "text": "Text",
+            "filter": "Filter",
             "download_successful": "Download Successful",
             "photo_not_download": "Photo not downloading?",
             "re_download": "Re-Download",
@@ -263,10 +311,31 @@
             "processing": "Processing",
             "buy_premium": "Buy Premium",
             "skip_the_ads": "Skip the ads & download instantly",
-            "upgrade_to_premium_from": "Upgrade to premium from {price} per week!" 
+            "upgrade_to_premium_from": "Upgrade to premium from {price} per week!" ,
+            "more_like_this": "More Like This",
+            "enter_your_text": "Enter your text",
+            "rotate": "Rotate",
+            "zoom": "Zoom",
+            "create_twibbon": "Create Twibbon",
+            "download": "Download",
+            "reset": "Reset",
+            "add_text": "Add Text"
         },
         "report": {
-            "report_campaign": "Report Campaign"
+            "report_campaign": "Report Campaign",
+            "report_profile": "Report Profile",
+            "plagiarism": "Plagiarism",
+            "sensitive": "Sensitive Content",
+            "danger": "Danger Content",
+            "spam": "Spam",
+            "why_report_campaign": "Why do you report this campaign?",
+            "protect_reporter": "Twibbonize Community Guidelines protect the privacy of reporter's identity.",
+            "read_more": "Read More",
+            "tell_us_more": "Tell Us More",
+            "received_report": "We've received your report!",
+            "thankyou": "Thank you! Please allow us to investigate your report, and we will send the feedback to your email as soon as possible.",
+            "learn_more_about": "Learn more about the {link}.",
+            "community_guideline": "Twibbonize Community Guidelines"
         },
         "discard": {
             "discard_edit": "Discard edits?",
@@ -287,6 +356,15 @@
             "realtime_estimates": "Real-time estimates",
             "last_month": "Last 30 days",
             "see_more_analytics": "See More Analytics"
+        },
+        "support": {
+            "for_people_1": "For people who want more",
+            "for_people_2": "out"
+        },
+        "share": {
+            "share_social_media": "Share to your social media",
+            "or_copy_link": "or copy link",
+            "copy": "Copy"
         }
     },
     "page_checkout": {
@@ -310,7 +388,11 @@
         },
         "plan": {
             "premium_creator": "Premium Creator",
-            "premium_supporter": "Premium Supporter"
+            "premium_supporter": "Premium Supporter",
+            "remove_watermark_all": "Remove the watermark for all of your supporters",
+            "use_twibbonize_without_ads": "Use Twibbonize without Ads",
+            "exclusive_features": "Exclusive Features for your Campaign",
+            "remove_own_account": "Remove watermark for your own account"
         }
     },
     "page_collection": {
@@ -346,7 +428,9 @@
             "sports": "Sports",
             "national_day": "National Day",
             "government": "Goverment & Politics",
-            "celebrations": "Celebrations"
+            "celebrations": "Celebrations",
+            "start_from_blank": "Start from Blank",
+            "search_template": "Search Template"
         },
         "form": {
             "please_fill_in": "please fill in all the required campaign data below",
@@ -363,12 +447,21 @@
             "caption_template": "Caption Template",
             "set_a_template": "Set a Template",
             "default_caption": "If others support your campaign without adding a caption, this will be the caption.",
-            "save_changes": "Save Changes"
+            "save_changes": "Save Changes",
+            "caption_copied": "Caption copied to clipboard",
+            "public": "Public",
+            "public_detail": "Your campaign can be found by all Twibbonize users",
+            "unlisted": "Unlisted",
+            "unlisted_detail": "Your campaign can only be accessed through the campaign link",
+            "private": "Private",
+            "private_detail": "Your campaign can only be accessed by people who have the access code"
         },
         "customization": {
             "campaign_customization": "Campaign Customization",
             "select_background": "Select Background",
-            "campaign_visibility": "Campaign Visibility"
+            "campaign_visibility": "Campaign Visibility",
+            "upload": "Upload",
+            "upgrade": "Upgrade"
         }
     },
     "page_for_creators": {
@@ -383,8 +476,46 @@
         },
         "features": {
             "remove_watermark": "Remove watermark for all of your campaign users",
-            "no-ads": "Use Twibbonize without Ads",
+            "no_ads": "Use Twibbonize without Ads",
             "exclusive": "Exclusive Features for your Campaign"
+        },
+        "bento": {
+            "all_in_one": "Your all-in-one, user-friendly campaign platform",
+            "tools_to_tailor": "Tools to tailor and expand your campaign as your support Grows.",
+            "one_of_a_kind": "One of a kind Twibbon Generator",
+            "bring_all_campaign": "Bring all your campaign’s supporter community on your Twibbonize page; where supporters connect and you see the impact!",
+            "learn_more": "Learn More",
+            "see_who_supports": "See who supports you",
+            "see_real_people": "See the real people who support your campaign",
+            "campaign_analytics": "Campaign Analytics",
+            "you_cant_improve": "You can’t improve what you can’t track.Track your campaign performance and take it to the new heights",
+            "know_supporters": "Know your supporters’ voices",
+            "let_them_leave": "Let them leave their mark by hearing their thoughts, or opinion on the supporter’s voice section. Also, let them interact with each others there",
+            "customizable_link": "Customizable campaign link",
+            "make_your_campaign": "Make your campaign easy to remember and share"
+        },
+        "package": {
+            "your_supporters_await": "Your supporters await",
+            "try_for_free": "Try for free, find what you need, and choose the best plan"
+        },
+        "frame": {
+            "more_than_frames": "More than just frames",
+            "spice_up": "Spice up your online campaign game, not only with a frame, but also with creative backgrounds",
+            "frame_twibbon": "Frame Twibbon",
+            "the_og_twibbon": "The OG Twibbon; a frame that's placed on your picture",
+            "backround_twibbon": "Background Twibbon",
+            "a_fresh_variation": "A fresh variation of Twibbon that poses as the background of your picture"
+        },
+        "tilt": {
+            "get_it_ready": "Get it ready anytime with our built in Twibbon Editor",
+            "effortless": "Effortless mobile-friendly editor with hundreds of pre-made templates for every occasions"
+        },
+        "carousel": {
+            "your_supporters": "your supporters",
+            "inspire_detail": "Twibbonize links atrracts the curious, drawing them to your cause and sparking interest in your campaign",
+            "unite_detail": "Bring all your campaign’s supporter community  on your Twibbonize page; where supporters connect and you see the impact!",
+            "entertain_detail": "Twibbonize engages your supporters by providing a shareable virtual Twibbon for social media and messaging.",
+            "grow_detail": "Gain more support with a Twibbonize campaign: it not only garners attetion but also creates a bandwagon effect, attracting a growing audience who don't want to miss out on your cause."
         }
     },
     "page_explore": {
@@ -394,7 +525,10 @@
             "campaigns": "Campaigns",
             "creators": "Creators",
             "collections": "Collections",
-            "sort_by": "Sort by:"
+            "sort_by": "Sort by:",
+            "see_all": "See All {type}",
+            "not_found": "Oops, no {type} were found :(",
+            "check_spelling": "Please check your spelling or try other keywords!"
         }
     },
     "page_leaderboard": {
@@ -428,97 +562,276 @@
             "no_more_ads": "No More Annoying Ads",
             "enjoy_uninterrupted": "Enjoy uninterrupted experience with no ads on Twibbonize. Get ready to embrace a cleaner, more user-friendly version of Twibbonize.",
             "right_tools": "Equipping you with the right tools",
-            "scale_up": "Scale up your campaign with our exclusive features."
+            "scale_up": "Scale up your campaign with our exclusive features.",
+            "campaign_analytics_1": "Campaign",
+            "campaign_analytics_2": "Analytics",
+            "easily_track": "Easily track your campaign performance",
+            "private_campaign_1": "Private",
+            "private_campaign_2": "Campaign",
+            "offer_exclusively": "Offer exclusivity to your supporter",
+            "campaign_customization_1": "Campaign",
+            "campaign_customization_2": "Customization",
+            "personalize_campaign": "Personalize your campaign page",
+            "multiple_frames_1": "Multiple Frames",
+            "multiple_frames_2": "per campaign",
+            "unleash_creativity": "Unleash creativity in versatility",
+            "top_notch": "The top-notch plan we’ve ever launched",
+            "considering_all": "Considering all the conveniences, it’s worth it.",
+            "remove_watermark_1": "Remove",
+            "remove_watermark_2": "Watermark",
+            "for_audience_1": "for",
+            "for_audience_2": "you & your audience",
+            "as_a_free_user": "As a free user, your Twibbon always features <strong>a watermark.</strong>",
+            "premium_supporter": "<strong>Premium Creator</strong> removes the watermark for a cleaner image.",
+            "now_you_can": "Now you can <strong>support any campaign</strong> without watermark."
         },
         "supporter": {
             "like_supporting_campaign_1": "Do you like supporting",
             "like_supporting_campaign_2": "different campaigns?",
             "right_plan_for_you": "Then Premium Supporter is the right plan for you.",
             "no_more_ads": "No More Annoying Ads",
-            "enjoy_uninterrupted": "Enjoy uninterrupted experience with no ads on Twibbonize. Get ready to embrace a cleaner, more user-friendly version of Twibbonize."
+            "enjoy_uninterrupted": "Enjoy uninterrupted experience with no ads on Twibbonize. Get ready to embrace a cleaner, more user-friendly version of Twibbonize.",
+            "remove_watermark": "Remove watermark for your own account",
+            "top_notch": "The top-notch plan we’ve ever launched",
+            "considering_all": "Considering all the conveniences, it’s worth it.",
+            "use_twibbonize_without_ads": "Use Twibbonize without Ads",
+            "as_a_free_user": "As a free user, your Twibbon always features <strong>a watermark.</strong>",
+            "premium_supporter": "<strong>Premium Supporter</strong> removes the watermark for a cleaner image.",
+            "now_you_can": "Now you can <strong>support any campaign</strong> without watermark.",
+            "remove_watermark_1": "Remove",
+            "remove_watermark_2": "Watermark",
+            "for_audience_1": "for",
+            "for_audience_2": "your own account",
+            "looking_to_remove": "Looking to Remove Watermark for all of your campaign users? Try"
+        },
+        "upgrade": {
+            "upgrade": "Upgrade",
+            "purchase_now": "Purchase Now",
+            "learn_more": "Learn More",
+            "all_same_benefit": "All same benefits from",
+            "free": "Free",
+            "plus": "plus:"
+        },
+        "invoice": {
+            "order_id": "Order ID",
+            "order_time": "Order Time",
+            "total": "Total",
+            "bill_to": "Bill To",
+            "title": "Invoice",
+            "invoice": "Invoice",
+            "date": "Invoice Date",
+            "invoice_amount": "Invoice Amount",
+            "status": "Status",
+            "subscription": "Subscription",
+            "billing_period": "Billing Period",
+            "billing_period_to": "{startDate} to {endDate}",
+            "next_billing_date": "Next Billing Date",
+            "description": "Description",
+            "amount": "Amount ({currency})",
+            "discount": "Discount",
+            "grand_total": "Grand Total",
+            "payment": "Payment",
+            "total_amount_paid": "{amount} was paid on {date} by {paymentMethod}",
+            "notes": "Notes",
+            "print": "Download Invoice",
+            "if_you_would_like_to_change": "If you would like to change your subscription or your payment information, please head to your billing settings"
+        },
+        "bento": {
+            "campaign_analytics_1": "Campaign",
+            "campaign_analytics_2": "Analytics",
+            "private_campaign_1": "Private",
+            "private_campaign_2": "Campaign",
+            "campaign_customization_1": "Campaign",
+            "campaign_customization_2": "Customization",
+            "multiple_frames_1": "Multiple Frames",
+            "multiple_frames_2": "per campaign",
+            "use_twibbonize_without_ads_1": "Use Twibbonize",
+            "use_twibbonize_without_ads_2": "without Ads",
+            "no_extra_features_1": "No Extra Features",
+            "no_extra_features_2": "Available",
+            "remove_all_watermark_1": "Remove watermark",
+            "remove_all_watermark_2": "all of your campaign users",
+            "remove_own_watermark_1": "Remove watermark",
+            "on": "on",
+            "remove_own_watermark_2": "your own account",
+            "extra_features": "Extra Features"
+        },
+        "modal": {
+            "congratulation": "Congratulation!",
+            "account_upgraded": "Your account has been upgraded to"
+        },
+        "faq": {
+            "faq": "Frequently asked questions",
+            "question_1": "Are the watermark-free and ad-free features only available to Twibbonize Premium account holders?",
+            "answer_1": "Watermark-free and ad-free are two exclusive features for Twibbonize Premium users. These features allow users to download twibbon without any watermark and enjoy the Twibbonize experience without disruptive ads",
+            "question_2": "How can we provide the free version of Twibbonize?",
+            "answer_2": "There are ads in every campaign page in Twibbonize that allow us to grow and provide more campaign pages. Of course, we are trying to manage these ads so they won't disturb your campaign's quality and experience.",
+            "question_3": "What does “Ad-Free” mean for the Twibbonize Premium users?",
+            "answer_3": "“Ad-Free” for Twibbonize Premium users means an uninterrupted experience with no advertisements. It allows for a cleaner, more user-friendly navigation throughout the Twibbonize platform.",
+            "question_4": "What can we customize in the campaign?",
+            "answer_4": "Twibbonize Premium users can customize the background and color of your campaign page on Twibbonize according to your brand or taste. So that your campaign can look different from the others.",
+            "question_5": "What is private campaign?",
+            "answer_5": "With private campaign feature, you can set your campaign to be visible only to certain people.",
+            "question_6": "What kind of information do I get in Analytics?",
+            "answer_6": "Analytics provide you with campaigns data. Those data include supporters, interactions, visitors, country & cities, and each module’s interactions data. With this information, you can predict and measure how successful your campaign is.",
+            "question_7": "What are my payment options?",
+            "answer_7": "You can easily pay online via a bank transfer, using a credit card, or e-wallet.",
+            "question_8": "Will I get an invoice?",
+            "answer_8": "You can easily download the invoice directly from your Twibbonize account.",
+            "question_9": "Where can I find help related to Twibbonize usage?",
+            "answer_9": "If you are looking for the “FAQ” page related to Twibbonize usage,click <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://help.twibbonize.com/hc/en-us\" class=\"font-bold text-main\">Help Center</a>"
+        },
+        "page_profile": {
+            "campaigns": {
+                "search_campaigns": "Search Campaigns",
+                "no_campaigns": "No Campaigns Yet",
+                "no_campaigns_details": "Create a campaigns, and share to twibbonize."
+            },
+            "posts": {
+                "no_posts": "No Posts Yet",
+                "no_post_details": "Find a campaign, and post your twibbon to Twibbonize."
+            },
+            "collections": {
+                "no_collections": "Organize your favorite campaigns",
+                "no_collections_details": "On the campaign page, just click the {icon} icon button to save campaigns you find interesting into your own collections."
+            },
+            "about": {
+                "about": "About",
+                "details": "Details",
+                "total_campaigns": "{campaigns} Campaigns",
+                "total_supporters": "{supporters} Supporters",
+                "joined": "Joined Since {created}",
+                "supporters": "Supporters",
+                "campaigns": "Campaigns"
+            }
+        },
+        "page_preference": {
+            "general": {
+                "profile_link": "Profile",
+                "settings_link": "Settings",
+                "profile": "Profile",
+                "billing": "Billing",
+                "account": "Account",
+                "notifications": "Notifications"
+            },
+            "profile": {
+                "your_profile": "Your Profile",
+                "add_more_information": "Add more information about you here",
+                "profile_image": "Profile Image",
+                "profile_image_size": "PNG or JPG. Recommended size: 300x300px",
+                "banner": "Banner",
+                "banner_size": "PNG or JPG. Recommended size: 1280x320px",
+                "username": "Username",
+                "your_url": "Your Twibbonize URL:",
+                "display_name": "Display Name",
+                "bio": "Bio",
+                "website": "Website",
+                "save_changes": "Save Changes",
+                "if_you_edit": "If you have made any edits, remember to save before you leave this page."
+            },
+            "billing": {
+                "billing_history": "Billing History",
+                "detailed_info": "See detailed info about all your past orders and download your invoices.",
+                "all": "All",
+                "waiting_for_payment": "Waiting for Payment",
+                "active": "Active",
+                "expired": "Expired",
+                "cancelled": "Cancelled",
+                "grace": "Grace Period",
+                "download_invoice": "Download Invoice",
+                "premium_annually": "Premium Annual"
+            },
+            "account": {
+                "update_email": "Update Email",
+                "current_email": "Current Email",
+                "new_email": "New Email",
+                "update_email_button": "Update Email",
+                "change_password": "Change Password",
+                "old_password": "Old Password",
+                "new_password": "New Password",
+                "update_password": "Update Password",
+                "social_media_connects": "Social Media Connects",
+                "facebook": "Facebook",
+                "google": "Google",
+                "apple": "Apple",
+                "delete_account_confirm": "Delete Account?",
+                "you_can_delete": "You can delete your account if it’s no longer in use. Please note that the account will be permanently deleted.",
+                "delete_account": "Delete Account",
+                "not_connected": "Not connected",
+                "deleting_account": "Deleting Account",
+                "permanent_delete": "Your account, campaigns and activities in Twibbonize will be deleted permanently.",
+                "type_to_confirm": "Type {username} to confirm"
+            },
+            "notifications": {
+                "notifications_settings": "Notifications Settings",
+                "pick_notifications": "Pick the notifications you want to get via push or email. These preferences only apply to push and email.",
+                "email": "Email",
+                "push": "Push",
+                "campaign_milestone": "Campaign Milestone",
+                "milestone_details": "You'll be notified of every progress on the campaign achievement.",
+                "comment": "Comment",
+                "comment_details": "Get notifications of supporter's comment on a campaign page.",
+                "trending_campaign": "Trending Campaign",
+                "trending_details": "Get notifications about trending campaigns in your region.",
+                "whats_new": "What's New",
+                "whats_new_details": "Get the latest update of our product on the web and app versions",
+                "article": "Articles",
+                "article_details": "You'll receive our recommended articles",
+                "toggle_all": "Toggle All"
+            },
+            "package": {
+                "free": "Free",
+                "premium_creator": "Premium Creator",
+                "premium_supporter":"Premium Supporter",
+                "upgrade": "Upgrade"
+            }
+        },
+        "page_analytics": {
+            "time": {
+                "today": "Today",
+                "last_7_days": "Last 7 Days",
+                "last_30_days": "Last 30 Days",
+                "previous_week": "Previous Week",
+                "this_week": "This Week",
+                "previous_month": "Previous Month",
+                "this_month": "This Month",
+                "custom": "Custom"
+            },
+            "graph": {
+                "page": "Page {currentPage} of {totalPage}",
+                "data_displayed": "Data displayed in UTC time zone (UTC+0)",
+                "trend": "Trend",
+                "country": "Country",
+                "city": "City",
+                "supporters": "Supporters",
+                "supporters_detail": "The number of people who support your campaign",
+                "interactions": "Interactions",
+                "interactions_detail": "The number of action from users to your campaign",
+                "unique_interactions": "Unique Interactions",
+                "unique_interactions_detail": "The number of single action from users to your campaign",
+                "visit": "Visit",
+                "visit_detail": "The number of single browsing session who have visited your campaign page",
+                "unique_visit": "Unique Visit",
+                "unique_visit_detail": "he number of people who have visited your campaign page"
+            }
+        },
+        "page_article": {
+            "block": {
+                "tip": "Tip"
+            }
         }
     },
-    "page_profile": {
-        "campaigns": {
-            "search_campaigns": "Search Campaigns",
-            "no_campaigns": "No Campaigns Yet",
-            "no_campaigns_details": "Create a campaigns, and share to twibbonize."
-        },
-        "posts": {
-            "no_posts": "No Posts Yet",
-            "no_post_details": "Find a campaign, and post your twibbon to Twibbonize."
-        },
-        "collections": {
-            "no_collections": "Organize your favorite campaigns",
-            "no_collections_details": "On the campaign page, just click the {icon} icon button to save campaigns you find interesting into your own collections."
+    "page_testimonials": {
+        "header": {
+            "testimonials": "Testimonials",
+            "trusted": "Trusted by names you trusted",
+            "read_stories": "Read stories from companies and organizations who successfully utilized our platform for their campaign programs."
         }
     },
-    "page_preference": {
-        "general": {
-            "profile_link": "Profile",
-            "settings_link": "Settings",
-            "profile": "Profile",
-            "billing": "Billing",
-            "account": "Account",
-            "notifications": "Notifications"
-        },
-        "profile": {
-            "your_profile": "Your Profile",
-            "add_more_information": "Add more information about you here",
-            "profile_image": "Profile Image",
-            "profile_image_size": "PNG or JPG. Recommended size: 300x300px",
-            "banner": "Banner",
-            "banner_size": "PNG or JPG. Recommended size: 1280x320px",
-            "username": "Username",
-            "your_url": "Your Twibbonize URL:",
-            "display_name": "Display Name",
-            "bio": "Bio",
-            "website": "Website",
-            "save_changes": "Save Changes",
-            "if_you_edit": "If you have made any edits, remember to save before you leave this page."
-        },
-        "billing": {
-            "billing_history": "Billing History",
-            "detailed_info": "See detailed info about all your past orders and download your invoices.",
-            "all": "All",
-            "waiting_for_payment": "Waiting for Payment",
-            "active": "Active",
-            "expired": "Expired",
-            "cancelled": "Cancelled",
-            "grace_period": "Grace Period"
-        },
-        "account": {
-            "update_email": "Update Email",
-            "current_email": "Current Email",
-            "new_email": "New Email",
-            "change_password": "Change Password",
-            "old_password": "Old Password",
-            "new_password": "New Password",
-            "update_password": "Update Password",
-            "social_media_connects": "Social Media Connects",
-            "facebook": "Facebook",
-            "google": "Google",
-            "apple": "Apple",
-            "delete_account_confirm": "Delete Account?",
-            "you_can_delete": "You can delete your account if it’s no longer in use. Please note that the account will be permanently deleted.",
-            "delete_account": "Delete Account"
-        },
-        "notifications": {
-            "notifications_settings": "Notifications Settings",
-            "pick_notifications": "Pick the notifications you want to get via push or email. These preferences only apply to push and email.",
-            "email": "Email",
-            "push": "Push",
-            "campaign_milestone": "Campaign Milestone",
-            "milestone_details": "You'll be notified of every progress on the campaign achievement.",
-            "comment": "Comment",
-            "comment_details": "Get notifications of supporter's comment on a campaign page.",
-            "trending_campaign": "Trending Campaign",
-            "trending_details": "Get notifications about trending campaigns in your region.",
-            "whats_new": "What's New",
-            "whats_new_details": "Get the latest update of our product on the web and app versions",
-            "article": "Articles",
-            "article_details": "You'll receive our recommended articles",
-            "toggle_all": "Toggle All"
+    "page_use_cases": {
+        "header": {
+            "use_cases": "Use Cases",
+            "ideas": "Ideas to use Twibbonize for"
         }
     }
 }
