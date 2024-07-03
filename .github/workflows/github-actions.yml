@@ -1,0 +1,83 @@
+name: Github action of bebenban based on Docker Image CI
+
+on:
+  push:
+    branches: ["main", "staging"]
+
+jobs:
+  deploy:
+    runs-on: "ubuntu-latest"
+    needs: build
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging' 
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1-node16
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+
+      ########################################
+      #
+      # For staging branch
+      #
+      ########################################
+
+      - name: Create S3 directory object if not exists
+        run: |
+          BUCKET_NAME=${{ secrets.AWS_BUCKET_NAME_STG }}
+          DIRECTORY_NAME=${{ env.AWS_BUCKET_OBJECT_NAME_01 }}
+
+          state=`aws s3 ls $BUCKET_NAME/$DIRECTORY_NAME`
+          if [ -z "$state" ]
+          then
+              aws s3api put-object --bucket "$BUCKET_NAME" --key "$DIRECTORY_NAME"
+          else
+              echo "Directory already exists"
+              exit 0
+          fi
+        if: ${{ github.ref == 'refs/heads/staging' }}
+
+        # Lokalise punya nama yang sama dengan destination dir
+      - name: Copy json lokalise objects to particular S3 directory
+        run: |
+          BUCKET_NAME=${{ secrets.AWS_BUCKET_NAME_STG }}
+          DIRECTORY_NAME=${{ env.AWS_BUCKET_OBJECT_NAME_01 }}
+          LOCAL_DIRECTORY="${{ env.AWS_BUCKET_OBJECT_NAME_01 }}"
+
+          aws s3 cp "$LOCAL_DIRECTORY" "s3://$BUCKET_NAME/$DIRECTORY_NAME" --recursive --exclude "*" --include "*.json"          
+        if: ${{ github.ref == 'refs/heads/staging' }}
+
+      ########################################
+      #
+      # For main branch
+      #
+      ########################################
+
+      - name: Create S3 directory object if not exists
+        run: |
+          BUCKET_NAME=${{ secrets.AWS_BUCKET_NAME_STG }}
+          DIRECTORY_NAME=${{ env.AWS_BUCKET_OBJECT_NAME_01 }}
+
+          state=`aws s3 ls $BUCKET_NAME/$DIRECTORY_NAME`
+          if [ -z "$state" ]
+          then
+              aws s3api put-object --bucket "$BUCKET_NAME" --key "$DIRECTORY_NAME"
+          else
+              echo "Directory already exists"
+              exit 0
+          fi
+        if: ${{ github.ref == 'refs/heads/main' }}
+
+        # Lokalise punya nama yang sama dengan destination dir
+      - name: Copy json lokalise objects to particular S3 directory
+        run: |
+          BUCKET_NAME=${{ secrets.AWS_BUCKET_NAME_STG }}
+          DIRECTORY_NAME=${{ env.AWS_BUCKET_OBJECT_NAME_01 }}
+          LOCAL_DIRECTORY="${{ env.AWS_BUCKET_OBJECT_NAME_01 }}"
+
+          aws s3 cp "$LOCAL_DIRECTORY" "s3://$BUCKET_NAME/$DIRECTORY_NAME" --recursive --exclude "*" --include "*.json"          
+        if: ${{ github.ref == 'refs/heads/main' }}
