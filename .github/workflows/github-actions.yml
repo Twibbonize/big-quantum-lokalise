@@ -28,7 +28,7 @@ jobs:
       - name: Create S3 directory object if not exists
         run: |
           BUCKET_NAME=${{ secrets.AWS_BUCKET_NAME_STG }}
-          DIRECTORY_NAME=${{ env.AWS_BUCKET_OBJECT_NAME_01 }}
+          DIRECTORY_NAME=${{ vars.AWS_BUCKET_OBJECT_NAME_01 }}
 
           state=`aws s3 ls $BUCKET_NAME/$DIRECTORY_NAME`
           if [ -z "$state" ]
@@ -44,8 +44,8 @@ jobs:
       - name: Copy json lokalise objects to particular S3 directory
         run: |
           BUCKET_NAME=${{ secrets.AWS_BUCKET_NAME_STG }}
-          DIRECTORY_NAME=${{ env.AWS_BUCKET_OBJECT_NAME_01 }}
-          LOCAL_DIRECTORY="${{ env.AWS_BUCKET_OBJECT_NAME_01 }}"
+          DIRECTORY_NAME=${{ vars.AWS_BUCKET_OBJECT_NAME_01 }}
+          LOCAL_DIRECTORY=${{ vars.AWS_BUCKET_OBJECT_NAME_01 }}
 
           aws s3 cp "$LOCAL_DIRECTORY" "s3://$BUCKET_NAME/$DIRECTORY_NAME" --recursive --exclude "*" --include "*.json"          
         if: ${{ github.ref == 'refs/heads/staging' }}
@@ -59,7 +59,7 @@ jobs:
       - name: Create S3 directory object if not exists
         run: |
           BUCKET_NAME=${{ secrets.AWS_BUCKET_NAME_STG }}
-          DIRECTORY_NAME=${{ env.AWS_BUCKET_OBJECT_NAME_01 }}
+          DIRECTORY_NAME=${{ vars.AWS_BUCKET_OBJECT_NAME_01 }}
 
           state=`aws s3 ls $BUCKET_NAME/$DIRECTORY_NAME`
           if [ -z "$state" ]
@@ -75,8 +75,8 @@ jobs:
       - name: Copy json lokalise objects to particular S3 directory
         run: |
           BUCKET_NAME=${{ secrets.AWS_BUCKET_NAME_STG }}
-          DIRECTORY_NAME=${{ env.AWS_BUCKET_OBJECT_NAME_01 }}
-          LOCAL_DIRECTORY="${{ env.AWS_BUCKET_OBJECT_NAME_01 }}"
+          DIRECTORY_NAME=${{ vars.AWS_BUCKET_OBJECT_NAME_01 }}
+          LOCAL_DIRECTORY="${{ vars.AWS_BUCKET_OBJECT_NAME_01 }}"
 
           aws s3 cp "$LOCAL_DIRECTORY" "s3://$BUCKET_NAME/$DIRECTORY_NAME" --recursive --exclude "*" --include "*.json"          
         if: ${{ github.ref == 'refs/heads/main' }}
