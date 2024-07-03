@@ -47,7 +47,7 @@ jobs:
           DIRECTORY_NAME=${{ vars.AWS_BUCKET_OBJECT_NAME_01 }}
           LOCAL_DIRECTORY=${{ vars.AWS_BUCKET_OBJECT_NAME_01 }}
 
-          aws s3 cp "$LOCAL_DIRECTORY" "s3://$BUCKET_NAME/$DIRECTORY_NAME" --recursive --exclude "*" --include "*.json"          
+          aws s3 cp "$LOCAL_DIRECTORY" "$BUCKET_NAME/$DIRECTORY_NAME" --recursive --exclude "*" --include "*.json"          
         if: ${{ github.ref == 'refs/heads/staging' }}
 
       ########################################
@@ -58,7 +58,7 @@ jobs:
 
       - name: Create S3 directory object if not exists
         run: |
-          BUCKET_NAME=${{ secrets.AWS_BUCKET_NAME_STG }}
+          BUCKET_NAME=${{ secrets.AWS_BUCKET_NAME_PROD }}
           DIRECTORY_NAME=${{ vars.AWS_BUCKET_OBJECT_NAME_01 }}
 
           state=`aws s3 ls $BUCKET_NAME/$DIRECTORY_NAME`
@@ -74,9 +74,9 @@ jobs:
         # Lokalise punya nama yang sama dengan destination dir
       - name: Copy json lokalise objects to particular S3 directory
         run: |
-          BUCKET_NAME=${{ secrets.AWS_BUCKET_NAME_STG }}
+          BUCKET_NAME=${{ secrets.AWS_BUCKET_NAME_PROD }}
           DIRECTORY_NAME=${{ vars.AWS_BUCKET_OBJECT_NAME_01 }}
           LOCAL_DIRECTORY="${{ vars.AWS_BUCKET_OBJECT_NAME_01 }}"
 
-          aws s3 cp "$LOCAL_DIRECTORY" "s3://$BUCKET_NAME/$DIRECTORY_NAME" --recursive --exclude "*" --include "*.json"          
+          aws s3 cp "$LOCAL_DIRECTORY" "$BUCKET_NAME/$DIRECTORY_NAME" --recursive --exclude "*" --include "*.json"          
         if: ${{ github.ref == 'refs/heads/main' }}
