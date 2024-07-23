@@ -97,7 +97,7 @@
             "comment": "Comments",
             "reply": "Reply",
             "post": "Post",
-            "replies": "View {count} more reply|View {count} more replies",
+            "replies": "{replies} Replies",
             "comments": "{comments} Comments",
             "no_comment_yet": "No comment yet",
             "start_conversation": "Start the Conversation"
@@ -105,11 +105,11 @@
         "post": {
             "post": "Post",
             "pin_post": "Pin Post",
-            "unpin_post": "Unpin Post",
             "hide_post": "Hide Post",
-            "unhide_post": "Unhide Post",
             "post_shared": "Post shared on {date}",
-            "share_message": "Share your message"
+            "share_message": "Share your message",
+            "unpin_post": "Unpin Post",
+            "unhide_post": "Unhide Post"
         }
     },
     "page_home": {
@@ -332,6 +332,22 @@
             "uploading_photo_to_remove": "Uploading your photo and removing its background.",
             "wait_for_moment": "Wait for a moment..."
         },
+        "report": {
+            "report_campaign": "Report Campaign",
+            "report_profile": "Report Profile",
+            "plagiarism": "Plagiarism",
+            "sensitive": "Sensitive Content",
+            "danger": "Dangerous Content",
+            "spam": "Spam",
+            "why_report_campaign": "Why do you report this campaign?",
+            "protect_reporter": "Twibbonize Community Guidelines protect the privacy of reporter's identity.",
+            "read_more": "Read More",
+            "tell_us_more": "Tell Us More",
+            "received_report": "We've received your report!",
+            "thankyou": "Thank you! Please allow us to investigate your report, and we will send the feedback to your email as soon as possible.",
+            "learn_more_about": "Learn more about the {link}.",
+            "community_guideline": "Twibbonize Community Guidelines"
+        },
         "discard": {
             "discard_edit": "Discard edits?",
             "go_back": "If you go back now, you'll lose all the edits you've made.",
@@ -393,13 +409,13 @@
             "user": "User",
             "billed": "Billed {frequency}",
             "upgrade": "Upgrade",
-            "change_plan": "Change Plan",
-            "current_plan": "Current Plan",
-            "downgrade": "Downgrade",
             "we_will_bill": "We'll bill you every {range} on {billDate}, unless you cancel. You can cancel anytime.",
             "save": "Save {percentage}%",
             "pay": "Pay {frequency}",
             "checkout_options": "Checkout Options",
+            "change_plan": "Change Plan",
+            "current_plan": "Current Plan",
+            "downgrade": "Downgrade",
             "current_plan_description": "You are subscribing this subscription now",
             "change_plan_description": "You are changing your plan to {plan}, which will be active after the current subscription ends.",
             "downgrade_description": "You are downgrade your plan to {plan}, which will be active after the current subscription ends.",
@@ -411,15 +427,15 @@
             "downgrade_active": "It will be active once your current subscription is end"
         },
         "plan": {
-            "silver": "Silver",
-            "gold": "Gold",
-            "platinum": "Platinum",
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
             "remove_watermark_all": "Remove the watermark for all of your supporters",
             "use_twibbonize_without_ads": "Use Twibbonize without Ads",
             "exclusive_features": "Exclusive Features for your Campaign",
             "remove_own_account": "Remove watermark for your own account",
+            "silver": "Silver",
+            "gold": "Gold",
+            "platinum": "Platinum",
             "watermark_title": "Remove Watermark",
             "high_quality_image_title": "High Quality Image",
             "ad_free_title": "Ad Free",
@@ -457,15 +473,10 @@
             "yes_leave": "Yes, Leave this Page",
             "no_stay": "No, Stay on this Page"
         },
-        "tab": {
-            "frames": "Frames",
-            "campaigns": "Campaigns",
-            "analytics": "Analytics"
-        },
         "dropzone": {
             "upload_design": "Upload your own design here",
             "type": "Type:",
-            "imagetype": "JPEG/PNG",
+            "imagetype": "JPEG\/PNG",
             "size": "Size:",
             "max_file": "Max. 5MB",
             "recommendation": "Recommendation:",
@@ -535,6 +546,11 @@
             "copy_link": "or Copy the Link",
             "go_to_campaign_page": "Go to Campaign Page",
             "go_back": "Go Back"
+        },
+        "tab": {
+            "frames": "Frames",
+            "campaigns": "Campaigns",
+            "analytics": "Analytics"
         }
     },
     "page_for_creators": {
@@ -655,9 +671,9 @@
             "remove_watermark_2": "Watermark",
             "for_audience_1": "for",
             "for_audience_2": "you & your audience",
-            "as_a_free_user": "As a free user, your Twibbon always features <strong>a watermark.</strong>",
-            "premium_supporter": "<strong>Premium Creator</strong> removes the watermark for a cleaner image.",
-            "now_you_can": "Now you can <strong>support any campaign</strong> without watermark."
+            "as_a_free_user": "As a free user, your Twibbon always features <strong>a watermark.<\/strong>",
+            "premium_supporter": "<strong>Premium Creator<\/strong> removes the watermark for a cleaner image.",
+            "now_you_can": "Now you can <strong>support any campaign<\/strong> without watermark."
         },
         "supporter": {
             "like_supporting_campaign_1": "Do you like supporting campaigns?",
@@ -669,9 +685,9 @@
             "top_notch": "Upgrade your campaign game",
             "considering_all": "Considering all the conveniences, it’s worth it.",
             "use_twibbonize_without_ads": "Use Twibbonize without Ads",
-            "as_a_free_user": "As a free user, your Twibbon always features <strong>a watermark.</strong>",
-            "premium_supporter": "<strong>Premium Supporter</strong> removes the watermark for a cleaner image.",
-            "now_you_can": "Now you can <strong>support any campaign</strong> without watermark.",
+            "as_a_free_user": "As a free user, your Twibbon always features <strong>a watermark.<\/strong>",
+            "premium_supporter": "<strong>Premium Supporter<\/strong> removes the watermark for a cleaner image.",
+            "now_you_can": "Now you can <strong>support any campaign<\/strong> without watermark.",
             "remove_watermark_1": "Remove",
             "remove_watermark_2": "Watermark",
             "for_audience_1": "for",
@@ -708,8 +724,8 @@
             "total_amount_paid": "{amount} was paid on {date} by {paymentMethod}",
             "notes": "Notes",
             "print": "Download Invoice",
-            "ending_in": "{card} ending in {number}",
-            "if_you_would_like_to_change": "If you would like to change your subscription or your payment information, please head to your billing settings"
+            "if_you_would_like_to_change": "If you would like to change your subscription or your payment information, please head to your billing settings",
+            "ending_in": "{card} ending in {number}"
         },
         "bento": {
             "campaign_analytics_1": "Campaign",
@@ -754,7 +770,7 @@
             "question_8": "Will I get an invoice?",
             "answer_8": "You can easily download the invoice directly from your Twibbonize account.",
             "question_9": "Where can I find help related to Twibbonize usage?",
-            "answer_9": "If you are looking for the “FAQ” page related to Twibbonize usage, click <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://help.twibbonize.com/hc/en-us\" class=\"font-bold text-main\">Help Center</a>"
+            "answer_9": "If you are looking for the “FAQ” page related to Twibbonize usage, click <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https:\/\/help.twibbonize.com\/hc\/en-us\" class=\"font-bold text-main\">Help Center<\/a>"
         }
     },
     "page_profile": {
@@ -813,7 +829,6 @@
             "detailed_info": "See detailed info about all your past orders or download your invoices.",
             "all": "All",
             "waiting_for_payment": "Waiting for Payment",
-            "paid": "Paid",
             "active": "Active",
             "expired": "Expired",
             "cancelled": "Cancelled",
@@ -826,6 +841,7 @@
             "adfree": "Ad-Free",
             "highquality": "High Quality",
             "nowatermark": "No Watermark",
+            "paid": "Paid",
             "are_you_sure_change": "Are you sure want to change plan?",
             "active_after_subscription": "It will be active once your current subscription is end",
             "are_you_sure_upgrade": "Are you sure want to upgrade?",
@@ -883,7 +899,6 @@
             "old_password": "Old Password",
             "new_password": "New Password",
             "update_password": "Update Password",
-            "add_password": "Add Password",
             "social_media_connects": "Social Media Connects",
             "facebook": "Facebook",
             "google": "Google",
@@ -905,6 +920,7 @@
             "create_new_password": "Create New Password",
             "make_it_easy": "Make it easy for you to remember and keep it secret from anyone!",
             "add_email_button": "Add Email",
+            "add_password": "Add Password",
             "cant_remove_account": "Oops, we can't remove your social media account.",
             "set_up_email": "You have to set up email or password first to remove your social media account.",
             "want_to_remove": "Want to remove you social media account?",
@@ -1233,7 +1249,6 @@
     },
     "page_account": {
         "modal": {
-            "name": "Name",
             "email": "Email",
             "password": "Password",
             "confirm_password": "Confirm Password",
@@ -1250,7 +1265,8 @@
             "login": "Log In",
             "signup": "Sign up",
             "terms": "Terms",
-            "privacy": "Privacy Policy"
+            "privacy": "Privacy Policy",
+            "name": "Name"
         }
     },
     "page_article": {
