@@ -72,7 +72,7 @@
             "edit": "সম্পাদনা করুন",
             "confirm": "নিশ্চিত করুন",
             "okay": "",
-            "view": "",
+            "view": "দেখুন",
             "send": "",
             "more": "",
             "less": ""
@@ -308,9 +308,9 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "এখনও কোন পোস্ট",
-            "uploading_your_photo": "",
-            "start_with": "",
-            "be_the_first": ""
+            "uploading_your_photo": "আপনার ছবি আপলোড করা হচ্ছে",
+            "start_with": "শুরু করা ",
+            "be_the_first": "এখানে আপনার সমর্থন পোস্ট করতে প্রথম হন."
         },
         "twibbon": {
             "choose_your_photo": "আপনার ছবি নির্বাচন করুন",
@@ -338,10 +338,10 @@
             "not_you": "",
             "uploading_photo_to_remove": "",
             "wait_for_moment": "",
-            "remove_watermark_for_you": "",
-            "blur": "",
-            "shadow": "",
-            "twibbon_success": ""
+            "remove_watermark_for_you": "জলছাপ সরান!",
+            "blur": "ঝাপসা",
+            "shadow": "ছায়া",
+            "twibbon_success": "ডাউনলোড করা হয়েছে"
         },
         "report": {
             "report_campaign": "প্রচার প্রচারণা",
@@ -492,8 +492,8 @@
             "recommendation": "সুপারিশ:",
             "image_dimension": "1080x1080px",
             "upload": "আপলোড করুন",
-            "backgroundtype": "",
-            "imagetype": ""
+            "backgroundtype": "JPEG\/PNG\/WEBP",
+            "imagetype": "পিএনজি"
         },
         "frame_editor": {
             "or_create": "অথবা এখন আপনার ফ্রেম তৈরি করুন",
@@ -510,7 +510,8 @@
             "no_transparent": "আপনার ছবিতে কোন স্বচ্ছ এলাকা সনাক্ত করা হয়নি",
             "no_hole_frame": "এর মানে হল আপনার ফ্রেমে কোন ছিদ্র নেই। প্রয়োজনীয় গর্ত দিতে; আপনি এই {link} অনুসরণ করতে পারেন",
             "help_center_article": "সহায়তা কেন্দ্র নিবন্ধ",
-            "understand": "আমি বুঝেছি"
+            "understand": "আমি বুঝেছি",
+            "height": "উচ্চতা"
         },
         "form": {
             "please_fill_in": "অনুগ্রহ করে নীচের সমস্ত প্রয়োজনীয় ক্যাম্পেইনের ডেটা পূরণ করুন৷",
@@ -604,10 +605,10 @@
         "frame": {
             "more_than_frames": "শুধু ফ্রেমের চেয়ে বেশি",
             "spice_up": "শুধুমাত্র একটি ফ্রেম নয়, সৃজনশীল ব্যাকগ্রাউন্ডের মাধ্যমেও আপনার অনলাইন ক্যাম্পেইনের খেলাকে মশলাদার করুন৷",
-            "frame_twibbon": "Twibbon ဘောင်",
             "the_og_twibbon": "অরিজিনাল টুইবন; একটি ফ্রেম যা আপনার ছবির উপর স্থাপন করা হয়েছে",
-            "backround_twibbon": "টুইবন পটভূমি",
-            "a_fresh_variation": "Twibbon এর একটি তাজা বৈচিত্র যা আপনার ছবির পটভূমি হিসাবে জাহির করে"
+            "a_fresh_variation": "Twibbon এর একটি তাজা বৈচিত্র যা আপনার ছবির পটভূমি হিসাবে জাহির করে",
+            "frame_twibbon": "ফ্রেম Twibbon",
+            "backround_twibbon": "পটভূমি Twibbon "
         },
         "tilt": {
             "get_it_ready": "আমাদের অন্তর্নির্মিত Twibbon Editor-এর সাথে যে কোনো সময় এটি প্রস্তুত করুন",
@@ -788,6 +789,16 @@
             "answer_8": "আপনি সহজেই আপনার Twibbonize অ্যাকাউন্ট থেকে সরাসরি চালান ডাউনলোড করতে পারেন।",
             "question_9": "আমি কোথায় Twibbonize ব্যবহার সম্পর্কিত সাহায্য পেতে পারি?",
             "answer_9": ""
+        },
+        "hero": {
+            "pricing": "মূল্য নির্ধারণ",
+            "find_the_right_premium_plan": "আপনার প্রয়োজনের জন্য সঠিক প্রিমিয়াম প্ল্যান খুঁজুন"
+        },
+        "card_premium_supporter": {
+            "subheading": "যারা Twibbonize থেকে আরও বেশি কিছু চান তাদের জন্য"
+        },
+        "card_premium_creator": {
+            "subheading": "যারা চূড়ান্ত Twibbonize অভিজ্ঞতা প্রয়োজন তাদের জন্য"
         }
     },
     "page_profile": {
@@ -1387,95 +1398,98 @@
     },
     "page_editor": {
         "general": {
-            "template": "",
-            "text": "",
-            "shape": "",
-            "image": "",
-            "graphic": "",
-            "upload": "",
-            "layer": "",
-            "resize": "",
-            "save": "",
-            "width": "",
-            "height": "",
-            "transparency": "",
-            "line_weight": "",
-            "align": "",
-            "group": "",
-            "ungroup": "",
-            "unlock": "",
-            "loading": ""
+            "template": "টেমপ্লেট",
+            "text": "পাঠ্য",
+            "shape": "আকৃতি",
+            "image": "ছবি",
+            "graphic": "গ্রাফিক",
+            "upload": "আপলোড করুন",
+            "layer": "স্তর",
+            "resize": "আকার পরিবর্তন করুন",
+            "save": "সংরক্ষণ",
+            "width": "প্রস্থ",
+            "height": "উচ্চতা",
+            "transparency": "স্বচ্ছতা",
+            "line_weight": "লাইন ওজন",
+            "align": "সারিবদ্ধ",
+            "group": "গ্রুপ",
+            "ungroup": "আনগ্রুপ করুন",
+            "unlock": "আনলক করুন",
+            "loading": "লোড হচ্ছে"
         },
         "text": {
-            "add_a_heading": "",
-            "add_a_subheading": "",
-            "document_fonts": "",
-            "text_effect": "",
-            "effects": ""
+            "add_a_heading": "একটি শিরোনাম যোগ করুন",
+            "add_a_subheading": "একটি উপশিরোনাম যোগ করুন",
+            "document_fonts": "নথির ফন্ট",
+            "text_effect": "পাঠ্য প্রভাব",
+            "effects": "প্রভাব",
+            "add_a_body_text": "সামান্য বিট বডি টেক্সট যোগ করুন"
         },
         "shape": {
-            "arrow": "",
-            "shape": ""
+            "arrow": "তীর",
+            "shape": "আকৃতি"
         },
         "upload": {
-            "upload_image": "",
-            "upload": ""
+            "upload_image": "চিত্র আপলোড",
+            "upload": "আপলোড করুন"
         },
         "toolbar": {
-            "copy": "",
-            "paste": "",
-            "duplicate": "",
-            "delete": "",
-            "layer": "",
-            "bring_forward": "",
-            "bring_to_front": "",
-            "send_backward": "",
-            "send_to_back": "",
-            "show_layers": "",
-            "left": "",
-            "center": "",
-            "right": "",
-            "top": "",
-            "middle": "",
-            "bottom": "",
-            "set_as_text_template": "",
-            "set_as_background_image": "",
-            "lock": "",
-            "letter_spacing": "",
-            "line_spacing": ""
+            "copy": "কপি",
+            "paste": "পেস্ট করুন",
+            "duplicate": "নকল",
+            "delete": "মুছে ফেলা",
+            "layer": "স্তর",
+            "bring_forward": "এগিয়ে আনা",
+            "bring_to_front": "সামনে আন",
+            "send_backward": "পিছনে পাঠান",
+            "send_to_back": "পশ্চাতে পাঠান",
+            "show_layers": "স্তরগুলি দেখান",
+            "left": "বাম",
+            "center": "কেন্দ্র",
+            "right": "ঠিক",
+            "top": "শীর্ষ",
+            "middle": "মধ্য",
+            "bottom": "নীচে",
+            "set_as_text_template": "টেক্সট টেমপ্লেট হিসাবে সেট করুন",
+            "set_as_background_image": "ব্যাকগ্রাউন্ড ইমেজ হিসেবে সেট করুন",
+            "lock": "তালা",
+            "letter_spacing": "অক্ষর ব্যবধান",
+            "line_spacing": "লাইন ব্যবধান",
+            "align": "সারিবদ্ধ"
         },
         "confirmation": {
-            "cancel": "",
-            "save": "",
-            "has_your_frame_been_completed": "",
-            "once_it_save": ""
+            "cancel": "বাতিল করুন",
+            "save": "সংরক্ষণ",
+            "has_your_frame_been_completed": "আপনার ফ্রেম সম্পন্ন হয়েছে?",
+            "once_it_save": "এটি সংরক্ষিত হয়ে গেলে, সম্পাদনা আর উপলব্ধ থাকে না"
         },
         "image": {
-            "image_template": "",
-            "image_template_1": "",
-            "edit_image": "",
-            "image_template_2": ""
+            "image_template": "ছবি {name} ",
+            "image_template_1": "চালু",
+            "edit_image": "ছবি সম্পাদনা করুন",
+            "image_template_2": "আনস্প্ল্যাশ"
         },
         "error": {
-            "minimum_dimension": ""
+            "minimum_dimension": "মাত্রা অবশ্যই কমপক্ষে 100px এবং 8000px এর বেশি হবে না।"
         },
         "text_effect": {
-            "style": "",
-            "none": "",
-            "shadow": "",
-            "text_effects": "",
-            "lift": "",
-            "offset": "",
-            "direction": "",
-            "blur": "",
-            "transparency": "",
-            "color": "",
-            "thickness": ""
+            "style": "শৈলী",
+            "none": "কোনোটিই নয়",
+            "shadow": "ছায়া",
+            "text_effects": "প্রভাব",
+            "lift": "উত্তোলন",
+            "offset": "অফসেট",
+            "direction": "অভিমুখ",
+            "blur": "ঝাপসা",
+            "transparency": "স্বচ্ছতা",
+            "color": "রঙ",
+            "thickness": "পুরুত্ব"
         },
         "colors": {
-            "colors": "",
-            "document_colors": "",
-            "default_colors": ""
+            "colors": "রং",
+            "document_colors": "নথির রং",
+            "default_colors": "ডিফল্ট রং"
         }
-    }
+    },
+    "page_create_campaign.Frame_editor.width": "প্রস্থ"
 }

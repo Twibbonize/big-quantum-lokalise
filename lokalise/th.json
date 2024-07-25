@@ -72,7 +72,7 @@
             "edit": "แก้ไข",
             "confirm": "ยืนยัน",
             "okay": "",
-            "view": "",
+            "view": "ดู",
             "send": "",
             "more": "",
             "less": ""
@@ -308,9 +308,9 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "ยังไม่มีการโพสต์",
-            "uploading_your_photo": "",
-            "start_with": "",
-            "be_the_first": ""
+            "uploading_your_photo": "กำลังอัปโหลดรูปภาพของคุณ",
+            "start_with": "เริ่มกับ ",
+            "be_the_first": "เป็นคนแรกที่จะโพสต์การสนับสนุนของคุณที่นี่"
         },
         "twibbon": {
             "choose_your_photo": "เลือกรูปภาพของคุณ",
@@ -338,10 +338,10 @@
             "not_you": "",
             "uploading_photo_to_remove": "",
             "wait_for_moment": "",
-            "remove_watermark_for_you": "",
-            "blur": "",
-            "shadow": "",
-            "twibbon_success": ""
+            "remove_watermark_for_you": "ลบลายน้ำ!",
+            "blur": "เบลอ",
+            "shadow": "เงา",
+            "twibbon_success": "ดาวน์โหลดแล้ว"
         },
         "report": {
             "report_campaign": "รายงานแคมเปญ",
@@ -492,8 +492,8 @@
             "recommendation": "คำแนะนำ:",
             "image_dimension": "1080x1080px",
             "upload": "ที่อัพโหลด",
-            "backgroundtype": "",
-            "imagetype": ""
+            "backgroundtype": "JPEG\/PNG\/เว็บพี",
+            "imagetype": "PNG"
         },
         "frame_editor": {
             "or_create": "หรือสร้างเฟรมของคุณตอนนี้",
@@ -510,7 +510,8 @@
             "no_transparent": "ไม่พบพื้นที่โปร่งใสบนรูปภาพของคุณ",
             "no_hole_frame": "ซึ่งหมายความว่าไม่มีรูบนเฟรมของคุณ เพื่อให้รูที่จำเป็น คุณสามารถติดตาม {link} นี้",
             "help_center_article": "บทความในศูนย์ช่วยเหลือ",
-            "understand": "ฉันเข้าใจ"
+            "understand": "ฉันเข้าใจ",
+            "height": "ความสูง"
         },
         "form": {
             "please_fill_in": "กรุณากรอกข้อมูลแคมเปญที่จำเป็นทั้งหมดด้านล่าง",
@@ -604,10 +605,10 @@
         "frame": {
             "more_than_frames": "มากกว่าแค่เฟรม",
             "spice_up": "เติมสีสันให้กับเกมแคมเปญออนไลน์ของคุณ ไม่เพียงแต่มีกรอบเท่านั้น แต่ยังมีพื้นหลังที่สร้างสรรค์อีกด้วย",
-            "frame_twibbon": "เฟรมทวิบบอน",
             "the_og_twibbon": "Twibbon ออริจินัล; กรอบที่วางอยู่บนรูปภาพของคุณ",
-            "backround_twibbon": "พื้นหลังทวิบบอน",
-            "a_fresh_variation": "Twibbon รูปแบบใหม่ที่ใช้เป็นพื้นหลังของรูปภาพของคุณ"
+            "a_fresh_variation": "Twibbon รูปแบบใหม่ที่ใช้เป็นพื้นหลังของรูปภาพของคุณ",
+            "frame_twibbon": "เฟรมทวิบบอน",
+            "backround_twibbon": "ทวิบบอนพื้นหลัง "
         },
         "tilt": {
             "get_it_ready": "เตรียมพร้อมได้ทุกเมื่อด้วย Twibbon Editor ในตัวของเรา",
@@ -788,6 +789,16 @@
             "answer_8": "คุณสามารถดาวน์โหลดใบแจ้งหนี้ได้โดยตรงจากบัญชี Twibbonize ของคุณ",
             "question_9": "ฉันจะขอความช่วยเหลือเกี่ยวกับการใช้งาน Twibbonize ได้ที่ไหน?",
             "answer_9": ""
+        },
+        "hero": {
+            "pricing": "ราคา",
+            "find_the_right_premium_plan": "ค้นหาแผนพรีเมียมที่เหมาะกับความต้องการของคุณ"
+        },
+        "card_premium_supporter": {
+            "subheading": "สำหรับผู้ที่ต้องการใช้ประโยชน์จาก Twibbonize ให้มากขึ้น"
+        },
+        "card_premium_creator": {
+            "subheading": "สำหรับผู้ที่ต้องการประสบการณ์ Twibbonize ขั้นสุดยอด"
         }
     },
     "page_profile": {
@@ -1387,95 +1398,98 @@
     },
     "page_editor": {
         "general": {
-            "template": "",
-            "text": "",
-            "shape": "",
-            "image": "",
-            "graphic": "",
-            "upload": "",
-            "layer": "",
-            "resize": "",
-            "save": "",
-            "width": "",
-            "height": "",
-            "transparency": "",
-            "line_weight": "",
-            "align": "",
-            "group": "",
-            "ungroup": "",
-            "unlock": "",
-            "loading": ""
+            "template": "แม่แบบ",
+            "text": "ข้อความ",
+            "shape": "รูปร่าง",
+            "image": "ภาพ",
+            "graphic": "กราฟิก",
+            "upload": "ที่อัพโหลด",
+            "layer": "ชั้น",
+            "resize": "ปรับขนาด",
+            "save": "บันทึก",
+            "width": "ความกว้าง",
+            "height": "ความสูง",
+            "transparency": "ความโปร่งใส",
+            "line_weight": "น้ำหนักเส้น",
+            "align": "จัดตำแหน่ง",
+            "group": "กลุ่ม",
+            "ungroup": "ยกเลิกการจัดกลุ่ม",
+            "unlock": "ปลดล็อค",
+            "loading": "กำลังโหลด"
         },
         "text": {
-            "add_a_heading": "",
-            "add_a_subheading": "",
-            "document_fonts": "",
-            "text_effect": "",
-            "effects": ""
+            "add_a_heading": "เพิ่มหัวเรื่อง",
+            "add_a_subheading": "เพิ่มหัวเรื่องย่อย",
+            "document_fonts": "แบบอักษรของเอกสาร",
+            "text_effect": "เอฟเฟกต์ข้อความ",
+            "effects": "ผลกระทบ",
+            "add_a_body_text": "เพิ่มข้อความเนื้อหาเล็กน้อย"
         },
         "shape": {
-            "arrow": "",
-            "shape": ""
+            "arrow": "ลูกศร",
+            "shape": "รูปร่าง"
         },
         "upload": {
-            "upload_image": "",
-            "upload": ""
+            "upload_image": "อัพโหลดรูปภาพ",
+            "upload": "ที่อัพโหลด"
         },
         "toolbar": {
-            "copy": "",
-            "paste": "",
-            "duplicate": "",
-            "delete": "",
-            "layer": "",
-            "bring_forward": "",
-            "bring_to_front": "",
-            "send_backward": "",
-            "send_to_back": "",
-            "show_layers": "",
-            "left": "",
-            "center": "",
-            "right": "",
-            "top": "",
-            "middle": "",
-            "bottom": "",
-            "set_as_text_template": "",
-            "set_as_background_image": "",
-            "lock": "",
-            "letter_spacing": "",
-            "line_spacing": ""
+            "copy": "สำเนา",
+            "paste": "แปะ",
+            "duplicate": "ทำซ้ำ",
+            "delete": "ลบ",
+            "layer": "ชั้น",
+            "bring_forward": "นำไปสู่",
+            "bring_to_front": "นำมาไว้ข้างหน้า",
+            "send_backward": "ส่งกลับ",
+            "send_to_back": "ส่งกลับ",
+            "show_layers": "แสดงเลเยอร์",
+            "left": "ซ้าย",
+            "center": "ศูนย์",
+            "right": "ขวา",
+            "top": "สูงสุด",
+            "middle": "กลาง",
+            "bottom": "ด้านล่าง",
+            "set_as_text_template": "ตั้งเป็นเทมเพลตข้อความ",
+            "set_as_background_image": "ตั้งเป็นภาพพื้นหลัง",
+            "lock": "ล็อค",
+            "letter_spacing": "การเว้นวรรคจดหมาย",
+            "line_spacing": "ระยะห่างระหว่างบรรทัด",
+            "align": "จัดตำแหน่ง"
         },
         "confirmation": {
-            "cancel": "",
-            "save": "",
-            "has_your_frame_been_completed": "",
-            "once_it_save": ""
+            "cancel": "ยกเลิก",
+            "save": "บันทึก",
+            "has_your_frame_been_completed": "เฟรมของคุณเสร็จสมบูรณ์แล้วหรือยัง?",
+            "once_it_save": "เมื่อบันทึกแล้ว การแก้ไขจะไม่สามารถใช้ได้อีกต่อไป"
         },
         "image": {
-            "image_template": "",
-            "image_template_1": "",
-            "edit_image": "",
-            "image_template_2": ""
+            "image_template": "ภาพถ่ายโดย {name} ",
+            "image_template_1": "บน",
+            "edit_image": "แก้ไขรูปภาพ",
+            "image_template_2": "Unsplash"
         },
         "error": {
-            "minimum_dimension": ""
+            "minimum_dimension": "ขนาดต้องมีอย่างน้อย 100px และไม่เกิน 8000px"
         },
         "text_effect": {
-            "style": "",
-            "none": "",
-            "shadow": "",
-            "text_effects": "",
-            "lift": "",
-            "offset": "",
-            "direction": "",
-            "blur": "",
-            "transparency": "",
-            "color": "",
-            "thickness": ""
+            "style": "สไตล์",
+            "none": "ไม่มี",
+            "shadow": "เงา",
+            "text_effects": "ผลกระทบ",
+            "lift": "ยก",
+            "offset": "ออฟเซ็ต",
+            "direction": "ทิศทาง",
+            "blur": "เบลอ",
+            "transparency": "ความโปร่งใส",
+            "color": "สี",
+            "thickness": "ความหนา"
         },
         "colors": {
-            "colors": "",
-            "document_colors": "",
-            "default_colors": ""
+            "colors": "สี",
+            "document_colors": "สีของเอกสาร",
+            "default_colors": "สีเริ่มต้น"
         }
-    }
+    },
+    "page_create_campaign.Frame_editor.width": "ความกว้าง"
 }
