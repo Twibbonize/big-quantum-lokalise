@@ -72,7 +72,7 @@
             "edit": "Biên tập",
             "confirm": "Xác nhận",
             "okay": "",
-            "view": "",
+            "view": "Xem",
             "send": "",
             "more": "",
             "less": ""
@@ -308,9 +308,9 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "Chưa có bài đăng nào",
-            "uploading_your_photo": "",
-            "start_with": "",
-            "be_the_first": ""
+            "uploading_your_photo": "đang tải ảnh của bạn lên",
+            "start_with": "Bắt đầu với ",
+            "be_the_first": "Hãy là người đầu tiên đăng bài hỗ trợ của bạn ở đây."
         },
         "twibbon": {
             "choose_your_photo": "Chọn ảnh của bạn",
@@ -338,10 +338,10 @@
             "not_you": "",
             "uploading_photo_to_remove": "",
             "wait_for_moment": "",
-            "remove_watermark_for_you": "",
-            "blur": "",
-            "shadow": "",
-            "twibbon_success": ""
+            "remove_watermark_for_you": "Xóa hình mờ!",
+            "blur": "Mơ hồ",
+            "shadow": "Bóng tối",
+            "twibbon_success": "Đã tải xuống"
         },
         "report": {
             "report_campaign": "Báo cáo chiến dịch",
@@ -492,8 +492,8 @@
             "recommendation": "Sự giới thiệu:",
             "image_dimension": "1080x1080px",
             "upload": "Tải lên",
-            "backgroundtype": "",
-            "imagetype": ""
+            "backgroundtype": "JPEG\/PNG\/WEBP",
+            "imagetype": "PNG"
         },
         "frame_editor": {
             "or_create": "hoặc tạo khung của bạn ngay bây giờ",
@@ -510,7 +510,8 @@
             "no_transparent": "Không phát hiện thấy vùng trong suốt nào trên hình ảnh của bạn",
             "no_hole_frame": "Điều này có nghĩa là không có lỗ trên khung của bạn. Để tạo ra lỗ cần thiết; bạn có thể theo dõi {link} này",
             "help_center_article": "Bài viết trong Trung tâm trợ giúp",
-            "understand": "Tôi hiểu"
+            "understand": "Tôi hiểu",
+            "height": "Chiều cao"
         },
         "form": {
             "please_fill_in": "vui lòng điền vào tất cả dữ liệu chiến dịch được yêu cầu bên dưới",
@@ -604,10 +605,10 @@
         "frame": {
             "more_than_frames": "Không chỉ là khung hình",
             "spice_up": "Hãy tô điểm thêm cho trò chơi chiến dịch trực tuyến của bạn, không chỉ bằng khung hình mà còn bằng hình nền sáng tạo",
-            "frame_twibbon": "Khung Twibbon",
             "the_og_twibbon": "Twibbon nguyên bản; một khung được đặt trên bức ảnh của bạn",
-            "backround_twibbon": "Nền Twibbon",
-            "a_fresh_variation": "Một biến thể mới của Twibbon dùng làm nền cho bức ảnh của bạn"
+            "a_fresh_variation": "Một biến thể mới của Twibbon dùng làm nền cho bức ảnh của bạn",
+            "frame_twibbon": "Khung Twibbon",
+            "backround_twibbon": "Twibbon nền "
         },
         "tilt": {
             "get_it_ready": "Chuẩn bị sẵn sàng bất cứ lúc nào với Twibbon Editor tích hợp của chúng tôi",
@@ -788,6 +789,16 @@
             "answer_8": "Bạn có thể dễ dàng tải xuống hóa đơn trực tiếp từ tài khoản Twibbonize của mình.",
             "question_9": "Tôi có thể tìm trợ giúp liên quan đến việc sử dụng Twibbonize ở đâu?",
             "answer_9": ""
+        },
+        "hero": {
+            "pricing": "GIÁ",
+            "find_the_right_premium_plan": "Tìm gói Premium phù hợp với nhu cầu của bạn"
+        },
+        "card_premium_supporter": {
+            "subheading": "Dành cho những người muốn sử dụng Twibbonize nhiều hơn"
+        },
+        "card_premium_creator": {
+            "subheading": "Dành cho những người cần trải nghiệm Twibbonize đỉnh cao"
         }
     },
     "page_profile": {
@@ -1387,95 +1398,98 @@
     },
     "page_editor": {
         "general": {
-            "template": "",
-            "text": "",
-            "shape": "",
-            "image": "",
-            "graphic": "",
-            "upload": "",
-            "layer": "",
-            "resize": "",
-            "save": "",
-            "width": "",
-            "height": "",
-            "transparency": "",
-            "line_weight": "",
-            "align": "",
-            "group": "",
-            "ungroup": "",
-            "unlock": "",
-            "loading": ""
+            "template": "Bản mẫu",
+            "text": "Chữ",
+            "shape": "Hình dạng",
+            "image": "Hình ảnh",
+            "graphic": "Đồ họa",
+            "upload": "Tải lên",
+            "layer": "Lớp",
+            "resize": "Thay đổi kích thước",
+            "save": "Cứu",
+            "width": "Chiều rộng",
+            "height": "Chiều cao",
+            "transparency": "Minh bạch",
+            "line_weight": "Độ dày đường",
+            "align": "Căn chỉnh",
+            "group": "Nhóm",
+            "ungroup": "Tách nhóm",
+            "unlock": "Mở khóa",
+            "loading": "Đang tải"
         },
         "text": {
-            "add_a_heading": "",
-            "add_a_subheading": "",
-            "document_fonts": "",
-            "text_effect": "",
-            "effects": ""
+            "add_a_heading": "Thêm tiêu đề",
+            "add_a_subheading": "Thêm một tiêu đề phụ",
+            "document_fonts": "Phông chữ tài liệu",
+            "text_effect": "Hiệu ứng văn bản",
+            "effects": "Các hiệu ứng",
+            "add_a_body_text": "Thêm một chút văn bản nội dung"
         },
         "shape": {
-            "arrow": "",
-            "shape": ""
+            "arrow": "Mũi tên",
+            "shape": "Hình dạng"
         },
         "upload": {
-            "upload_image": "",
-            "upload": ""
+            "upload_image": "Tải hình ảnh lên",
+            "upload": "Tải lên"
         },
         "toolbar": {
-            "copy": "",
-            "paste": "",
-            "duplicate": "",
-            "delete": "",
-            "layer": "",
-            "bring_forward": "",
-            "bring_to_front": "",
-            "send_backward": "",
-            "send_to_back": "",
-            "show_layers": "",
-            "left": "",
-            "center": "",
-            "right": "",
-            "top": "",
-            "middle": "",
-            "bottom": "",
-            "set_as_text_template": "",
-            "set_as_background_image": "",
-            "lock": "",
-            "letter_spacing": "",
-            "line_spacing": ""
+            "copy": "Sao chép",
+            "paste": "Dán",
+            "duplicate": "Nhân bản",
+            "delete": "Xóa bỏ",
+            "layer": "Lớp",
+            "bring_forward": "Mang về phía trước",
+            "bring_to_front": "Mang ra phía trước",
+            "send_backward": "Gửi trở lại",
+            "send_to_back": "Gửi về phía sau",
+            "show_layers": "Hiển thị lớp",
+            "left": "Bên trái",
+            "center": "Trung tâm",
+            "right": "Phải",
+            "top": "Đứng đầu",
+            "middle": "Ở giữa",
+            "bottom": "Đáy",
+            "set_as_text_template": "Đặt làm mẫu văn bản",
+            "set_as_background_image": "Đặt làm hình nền",
+            "lock": "Khóa",
+            "letter_spacing": "Khoảng cách chữ",
+            "line_spacing": "Khoảng cách dòng",
+            "align": "Căn chỉnh"
         },
         "confirmation": {
-            "cancel": "",
-            "save": "",
-            "has_your_frame_been_completed": "",
-            "once_it_save": ""
+            "cancel": "Hủy bỏ",
+            "save": "Cứu",
+            "has_your_frame_been_completed": "Khung của bạn đã hoàn thành chưa?",
+            "once_it_save": "Sau khi đã lưu, việc chỉnh sửa sẽ không còn khả dụng nữa"
         },
         "image": {
-            "image_template": "",
-            "image_template_1": "",
-            "edit_image": "",
-            "image_template_2": ""
+            "image_template": "Ảnh của {name} ",
+            "image_template_1": "TRÊN",
+            "edit_image": "Chỉnh sửa hình ảnh",
+            "image_template_2": "Bapt"
         },
         "error": {
-            "minimum_dimension": ""
+            "minimum_dimension": "Kích thước tối thiểu phải là 100px và không quá 8000px."
         },
         "text_effect": {
-            "style": "",
-            "none": "",
-            "shadow": "",
-            "text_effects": "",
-            "lift": "",
-            "offset": "",
-            "direction": "",
-            "blur": "",
-            "transparency": "",
-            "color": "",
-            "thickness": ""
+            "style": "Phong cách",
+            "none": "Không có",
+            "shadow": "Bóng tối",
+            "text_effects": "Các hiệu ứng",
+            "lift": "Thang máy",
+            "offset": "Bù lại",
+            "direction": "Phương hướng",
+            "blur": "Mơ hồ",
+            "transparency": "Minh bạch",
+            "color": "Màu sắc",
+            "thickness": "độ dày"
         },
         "colors": {
-            "colors": "",
-            "document_colors": "",
-            "default_colors": ""
+            "colors": "Màu sắc",
+            "document_colors": "Màu tài liệu",
+            "default_colors": "Màu mặc định"
         }
-    }
+    },
+    "page_create_campaign.Frame_editor.width": "Chiều rộng"
 }
