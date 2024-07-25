@@ -72,7 +72,7 @@
             "edit": "تحرير",
             "confirm": "تأكيد",
             "okay": "",
-            "view": "",
+            "view": "عرض",
             "send": "",
             "more": "",
             "less": ""
@@ -308,9 +308,9 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "لا يوجد منشور بعد",
-            "uploading_your_photo": "",
-            "start_with": "",
-            "be_the_first": ""
+            "uploading_your_photo": "تحميل صورتك",
+            "start_with": "ابدأ ب ",
+            "be_the_first": "كن أول من ينشر دعمك هنا."
         },
         "twibbon": {
             "choose_your_photo": "اختر صورتك",
@@ -338,10 +338,10 @@
             "not_you": "",
             "uploading_photo_to_remove": "",
             "wait_for_moment": "",
-            "remove_watermark_for_you": "",
-            "blur": "",
-            "shadow": "",
-            "twibbon_success": ""
+            "remove_watermark_for_you": "أزل العلامة المائية!",
+            "blur": "الضبابية",
+            "shadow": "الظل",
+            "twibbon_success": "تم التحميل"
         },
         "report": {
             "report_campaign": "تقرير الحملة",
@@ -492,8 +492,8 @@
             "recommendation": "التوصية:",
             "image_dimension": "1080 × 1080 × 1080 بكسل",
             "upload": "التحميل",
-            "backgroundtype": "",
-            "imagetype": ""
+            "backgroundtype": "JPEG\/PNG\/WEBP",
+            "imagetype": "PNG"
         },
         "frame_editor": {
             "or_create": "أو أنشئ إطارك الآن",
@@ -510,7 +510,8 @@
             "no_transparent": "لم يتم اكتشاف منطقة شفافة على صورتك",
             "no_hole_frame": "هذا يعني عدم وجود ثقب في الإطار الخاص بك. لإعطاء الفتحة اللازمة؛ يمكنك اتباع ما يلي {link}",
             "help_center_article": "مقالة مركز المساعدة",
-            "understand": "أنا أفهم"
+            "understand": "أنا أفهم",
+            "height": "الارتفاع"
         },
         "form": {
             "please_fill_in": "يرجى ملء جميع بيانات الحملة المطلوبة أدناه",
@@ -604,10 +605,10 @@
         "frame": {
             "more_than_frames": "أكثر من مجرد إطارات",
             "spice_up": "قم بإضفاء الإثارة على حملتك على الإنترنت، ليس فقط بإطار، ولكن أيضًا بخلفيات إبداعية",
-            "frame_twibbon": "إطار تويببون",
             "the_og_twibbon": "التويببون الأصلي؛ إطار يوضع على صورتك",
-            "backround_twibbon": "خلفية تويببون",
-            "a_fresh_variation": "شكل جديد من تويبون يشكل خلفية لصورتك"
+            "a_fresh_variation": "شكل جديد من تويبون يشكل خلفية لصورتك",
+            "frame_twibbon": "إطار تويبون",
+            "backround_twibbon": "تويبون الخلفية "
         },
         "tilt": {
             "get_it_ready": "جهزها في أي وقت مع Twibbon Editor المدمج لدينا",
@@ -788,6 +789,16 @@
             "answer_8": "يمكنك بسهولة تنزيل الفاتورة مباشرةً من حسابك على Twibbonize.",
             "question_9": "أين يمكنني العثور على المساعدة المتعلقة باستخدام Twibbonize؟",
             "answer_9": ""
+        },
+        "hero": {
+            "pricing": "الأسعار",
+            "find_the_right_premium_plan": "اعثر على الخطة المميزة المناسبة لاحتياجاتك"
+        },
+        "card_premium_supporter": {
+            "subheading": "للأشخاص الذين يريدون المزيد من Twibbonize"
+        },
+        "card_premium_creator": {
+            "subheading": "للأشخاص الذين يحتاجون إلى تجربة Twibbonize المثالية"
         }
     },
     "page_profile": {
@@ -1387,95 +1398,98 @@
     },
     "page_editor": {
         "general": {
-            "template": "",
-            "text": "",
-            "shape": "",
-            "image": "",
-            "graphic": "",
-            "upload": "",
-            "layer": "",
-            "resize": "",
-            "save": "",
-            "width": "",
-            "height": "",
-            "transparency": "",
-            "line_weight": "",
-            "align": "",
-            "group": "",
-            "ungroup": "",
-            "unlock": "",
-            "loading": ""
+            "template": "القالب",
+            "text": "النص",
+            "shape": "الشكل",
+            "image": "الصورة",
+            "graphic": "الرسم البياني",
+            "upload": "التحميل",
+            "layer": "الطبقة",
+            "resize": "تغيير الحجم",
+            "save": "الحفظ",
+            "width": "العرض",
+            "height": "الارتفاع",
+            "transparency": "الشفافية",
+            "line_weight": "وزن الخط",
+            "align": "محاذاة",
+            "group": "المجموعة",
+            "ungroup": "فك التجميع",
+            "unlock": "فتح القفل",
+            "loading": "التحميل"
         },
         "text": {
-            "add_a_heading": "",
-            "add_a_subheading": "",
-            "document_fonts": "",
-            "text_effect": "",
-            "effects": ""
+            "add_a_heading": "إضافة عنوان",
+            "add_a_subheading": "إضافة عنوان فرعي",
+            "document_fonts": "خطوط المستندات",
+            "text_effect": "المؤثرات النصية",
+            "effects": "التأثيرات",
+            "add_a_body_text": "إضافة القليل من النص الأساسي"
         },
         "shape": {
-            "arrow": "",
-            "shape": ""
+            "arrow": "السهم",
+            "shape": "الشكل"
         },
         "upload": {
-            "upload_image": "",
-            "upload": ""
+            "upload_image": "تحميل صورة",
+            "upload": "التحميل"
         },
         "toolbar": {
-            "copy": "",
-            "paste": "",
-            "duplicate": "",
-            "delete": "",
-            "layer": "",
-            "bring_forward": "",
-            "bring_to_front": "",
-            "send_backward": "",
-            "send_to_back": "",
-            "show_layers": "",
-            "left": "",
-            "center": "",
-            "right": "",
-            "top": "",
-            "middle": "",
-            "bottom": "",
-            "set_as_text_template": "",
-            "set_as_background_image": "",
-            "lock": "",
-            "letter_spacing": "",
-            "line_spacing": ""
+            "copy": "نسخ",
+            "paste": "لصق",
+            "duplicate": "مكررة",
+            "delete": "حذف",
+            "layer": "الطبقة",
+            "bring_forward": "أحضر إلى الأمام",
+            "bring_to_front": "إحضار إلى الأمام",
+            "send_backward": "إرسال إلى الوراء",
+            "send_to_back": "إرسال إلى الخلف",
+            "show_layers": "إظهار الطبقات",
+            "left": "يسار",
+            "center": "المركز",
+            "right": "صحيح",
+            "top": "أعلى",
+            "middle": "الأوسط",
+            "bottom": "القاع",
+            "set_as_text_template": "تعيين كقالب نصي",
+            "set_as_background_image": "تعيين كصورة خلفية",
+            "lock": "القفل",
+            "letter_spacing": "تباعد الحروف",
+            "line_spacing": "تباعد الأسطر",
+            "align": "محاذاة"
         },
         "confirmation": {
-            "cancel": "",
-            "save": "",
-            "has_your_frame_been_completed": "",
-            "once_it_save": ""
+            "cancel": "إلغاء",
+            "save": "الحفظ",
+            "has_your_frame_been_completed": "هل اكتمل الإطار الخاص بك؟",
+            "once_it_save": "بمجرد أن يتم حفظه، لا يعود التحرير متاحًا بعد ذلك"
         },
         "image": {
-            "image_template": "",
-            "image_template_1": "",
-            "edit_image": "",
-            "image_template_2": ""
+            "image_template": "الصورة من {name} ",
+            "image_template_1": "على",
+            "edit_image": "تحرير الصورة",
+            "image_template_2": "أنسبلاش"
         },
         "error": {
-            "minimum_dimension": ""
+            "minimum_dimension": "يجب ألا تقل الأبعاد عن 100 بكسل ولا تزيد عن 8000 بكسل."
         },
         "text_effect": {
-            "style": "",
-            "none": "",
-            "shadow": "",
-            "text_effects": "",
-            "lift": "",
-            "offset": "",
-            "direction": "",
-            "blur": "",
-            "transparency": "",
-            "color": "",
-            "thickness": ""
+            "style": "الطراز",
+            "none": "لا يوجد",
+            "shadow": "الظل",
+            "text_effects": "التأثيرات",
+            "lift": "الرفع",
+            "offset": "الأوفست",
+            "direction": "الاتجاه",
+            "blur": "الضبابية",
+            "transparency": "الشفافية",
+            "color": "اللون",
+            "thickness": "السُمك"
         },
         "colors": {
-            "colors": "",
-            "document_colors": "",
-            "default_colors": ""
+            "colors": "الألوان",
+            "document_colors": "ألوان المستندات",
+            "default_colors": "الألوان الافتراضية"
         }
-    }
+    },
+    "page_create_campaign.Frame_editor.width": "العرض"
 }
