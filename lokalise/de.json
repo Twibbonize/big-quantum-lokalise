@@ -308,7 +308,7 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "Noch kein Beitrag",
-            "uploading_your_photo": "Ihr Foto hochladen",
+            "uploading_your_photo": "Ihr Foto hochladen!",
             "start_with": "Beginnen Sie mit ",
             "be_the_first": "Seien Sie der Erste, der seine Unterstützung hier veröffentlicht."
         },
@@ -487,15 +487,15 @@
             "no_stay": "Nein, bleiben Sie auf dieser Seite"
         },
         "dropzone": {
-            "upload_design": "Laden Sie hier Ihr eigenes Design hoch",
             "type": "Art:",
             "size": "Größe:",
-            "max_file": "Max. 5MB",
             "recommendation": "Empfehlung:",
             "image_dimension": "1080x1080px",
             "upload": "Hochladen",
-            "backgroundtype": "JPEG\/PNG\/WEBP",
-            "imagetype": "PNG"
+            "imagetype": "PNG",
+            "max_file": "",
+            "backgroundtype": "",
+            "upload_design": ""
         },
         "frame_editor": {
             "or_create": "oder erstellen Sie jetzt Ihren Rahmen",
@@ -567,6 +567,11 @@
             "frames": "",
             "campaigns": "",
             "analytics": ""
+        },
+        "blank_design": {
+            "suggested": "",
+            "instagram_story": "",
+            "instagram_post": ""
         }
     },
     "page_for_creators": {
@@ -624,7 +629,22 @@
             "grow_detail": "Gewinnen Sie mehr Unterstützung mit einer Twibbonize-Kampagne: Sie erregt nicht nur Aufmerksamkeit, sondern erzeugt auch einen Mitnahmeeffekt, der ein wachsendes Publikum anzieht, das Ihr Anliegen nicht verpassen möchte.",
             "inspire": "",
             "unite": "",
-            "entertain": ""
+            "entertain": "",
+            "grow": ""
+        },
+        "use_cases": {
+            "heading": "Ideen zur Verwendung von Twibbonize für",
+            "subheading": "",
+            "corporate": "",
+            "corporate_title": "",
+            "education": "Bildung",
+            "education_title": "",
+            "event": "Veranstaltungen",
+            "events_title": ""
+        },
+        "testimonials": {
+            "testimonials": "Testimonials",
+            "heading": "Vertraut von Namen, denen Sie vertraut haben"
         }
     },
     "page_explore": {
@@ -763,8 +783,8 @@
             "use_twibbonize_without_ads_2": "ohne Werbeeinblendungen",
             "no_extra_features_1": "Keine zusätzlichen Funktionen",
             "no_extra_features_2": "Verfügbar",
-            "remove_all_watermark_1": "Wasserzeichen entfernen",
-            "remove_all_watermark_2": "alle Nutzer Ihrer Kampagne",
+            "remove_all_watermark_1": "Wasserzeichen",
+            "remove_all_watermark_2": "von allen Benutzern Ihrer Kampagne entfernen",
             "remove_own_watermark_1": "Wasserzeichen entfernen",
             "on": "auf",
             "remove_own_watermark_2": "Ihr eigenes Konto",
@@ -831,6 +851,12 @@
             "joined": "Verbunden seit {created}",
             "supporters": "Unterstützer",
             "campaigns": "Kampagnen"
+        },
+        "my_profile": {
+            "edit_profile": "",
+            "campaigns": "Kampagnen",
+            "collections": "Sammlungen",
+            "posts": ""
         }
     },
     "page_preference": {
@@ -1436,7 +1462,11 @@
         },
         "upload": {
             "upload_image": "Bild hochladen",
-            "upload": "Hochladen"
+            "upload": "Hochladen",
+            "type": "",
+            "size": "",
+            "type_image": "",
+            "maximum_size": ""
         },
         "toolbar": {
             "copy": "Kopieren",
@@ -1460,7 +1490,8 @@
             "lock": "Schloss",
             "letter_spacing": "Abstand zwischen den Buchstaben",
             "line_spacing": "Abstand zwischen den Zeilen",
-            "align": "Ausrichten"
+            "align": "Ausrichten",
+            "effects": "Auswirkungen"
         },
         "confirmation": {
             "cancel": "Abbrechen",
@@ -1496,5 +1527,18 @@
             "default_colors": "Standard-Farben"
         }
     },
-    "page_create_campaign.Frame_editor.width": "Breite"
+    "page_create_campaign.Frame_editor.width": "Breite",
+    "page__campaign_creation": {
+        "campaign_preview": {
+            "campaign_description": "",
+            "campaign_title": "Titel der Kampagne"
+        }
+    },
+    "page_my_campaign": {
+        "edit_campaign": {
+            "campaigns": "Kampagnen",
+            "frames": "",
+            "analytics": ""
+        }
+    }
 }

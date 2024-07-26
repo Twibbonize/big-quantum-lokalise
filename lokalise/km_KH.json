@@ -308,7 +308,7 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "មិនទាន់មាន Post នៅឡើយទេ",
-            "uploading_your_photo": "ការបង្ហោះរូបថតរបស់អ្នក។",
+            "uploading_your_photo": "ការបង្ហោះរូបថតរបស់អ្នក។!",
             "start_with": "ចាប់ផ្តើម​ជាមួយ ",
             "be_the_first": "ធ្វើជាអ្នកដំបូងដែលប្រកាសការគាំទ្ររបស់អ្នកនៅទីនេះ។"
         },
@@ -487,15 +487,15 @@
             "no_stay": "ទេ ស្នាក់នៅលើទំព័រនេះ។"
         },
         "dropzone": {
-            "upload_design": "បង្ហោះការរចនាផ្ទាល់ខ្លួនរបស់អ្នកនៅទីនេះ",
             "type": "ប្រភេទ៖",
             "size": "ទំហំ៖",
-            "max_file": "អតិបរមា។ 5 មេកាបៃ",
             "recommendation": "អនុសាសន៍៖",
             "image_dimension": "1080x1080px",
             "upload": "ផ្ទុកឡើង",
-            "backgroundtype": "JPEG\/PNG\/WEBP",
-            "imagetype": "PNG"
+            "imagetype": "PNG",
+            "max_file": "",
+            "backgroundtype": "",
+            "upload_design": ""
         },
         "frame_editor": {
             "or_create": "ឬបង្កើតស៊ុមរបស់អ្នកឥឡូវនេះ",
@@ -567,6 +567,11 @@
             "frames": "",
             "campaigns": "",
             "analytics": ""
+        },
+        "blank_design": {
+            "suggested": "",
+            "instagram_story": "",
+            "instagram_post": ""
         }
     },
     "page_for_creators": {
@@ -624,7 +629,22 @@
             "grow_detail": "ទទួលបានការគាំទ្រកាន់តែច្រើនជាមួយនឹងយុទ្ធនាការ Twibbonize៖ វាមិនត្រឹមតែទាក់ទាញការយកចិត្តទុកដាក់ប៉ុណ្ណោះទេ ប៉ុន្តែថែមទាំងបង្កើតបែបផែន bandwagon ទាក់ទាញទស្សនិកជនដែលកំពុងកើនឡើងដែលមិនចង់បាត់បង់បុព្វហេតុរបស់អ្នក។",
             "inspire": "",
             "unite": "",
-            "entertain": ""
+            "entertain": "",
+            "grow": ""
+        },
+        "use_cases": {
+            "heading": "គំនិតដើម្បីប្រើ Twibbonize សម្រាប់",
+            "subheading": "",
+            "corporate": "",
+            "corporate_title": "",
+            "education": "ការអប់រំ",
+            "education_title": "",
+            "event": "ព្រឹត្តិការណ៍",
+            "events_title": ""
+        },
+        "testimonials": {
+            "testimonials": "ទីបន្ទាល់",
+            "heading": "ទុកចិត្តដោយឈ្មោះដែលអ្នកទុកចិត្ត"
         }
     },
     "page_explore": {
@@ -763,8 +783,8 @@
             "use_twibbonize_without_ads_2": "ដោយគ្មានការផ្សាយពាណិជ្ជកម្ម",
             "no_extra_features_1": "មិនមានលក្ខណៈពិសេសបន្ថែមទេ។",
             "no_extra_features_2": "មាន",
-            "remove_all_watermark_1": "ដក​សញ្ញា​ទឹក​ចេញ",
-            "remove_all_watermark_2": "អ្នកប្រើប្រាស់យុទ្ធនាការរបស់អ្នក។",
+            "remove_all_watermark_1": "យកសញ្ញាទឹកចេញពីអ្នកប្រើប្រាស់យុទ្ធនាការរបស់អ្នកទាំងអស់។",
+            "remove_all_watermark_2": "",
             "remove_own_watermark_1": "ដក​សញ្ញា​ទឹក​ចេញ",
             "on": "នៅលើ",
             "remove_own_watermark_2": "គណនីផ្ទាល់ខ្លួនរបស់អ្នក។",
@@ -831,6 +851,12 @@
             "joined": "បានចូលរួមតាំងពី {created}",
             "supporters": "អ្នកគាំទ្រ",
             "campaigns": "យុទ្ធនាការ"
+        },
+        "my_profile": {
+            "edit_profile": "",
+            "campaigns": "យុទ្ធនាការ",
+            "collections": "បណ្តុំ",
+            "posts": ""
         }
     },
     "page_preference": {
@@ -1436,7 +1462,11 @@
         },
         "upload": {
             "upload_image": "បង្ហោះរូបភាព",
-            "upload": "ផ្ទុកឡើង"
+            "upload": "ផ្ទុកឡើង",
+            "type": "",
+            "size": "",
+            "type_image": "",
+            "maximum_size": ""
         },
         "toolbar": {
             "copy": "ចម្លង",
@@ -1460,7 +1490,8 @@
             "lock": "ចាក់សោ",
             "letter_spacing": "គម្លាតអក្សរ",
             "line_spacing": "គម្លាតបន្ទាត់",
-            "align": "តម្រឹម"
+            "align": "តម្រឹម",
+            "effects": "ផលប៉ះពាល់"
         },
         "confirmation": {
             "cancel": "បោះបង់",
@@ -1496,5 +1527,18 @@
             "default_colors": "ពណ៌លំនាំដើម"
         }
     },
-    "page_create_campaign.Frame_editor.width": "ទទឹង"
+    "page_create_campaign.Frame_editor.width": "ទទឹង",
+    "page__campaign_creation": {
+        "campaign_preview": {
+            "campaign_description": "",
+            "campaign_title": "ចំណងជើងយុទ្ធនាការ"
+        }
+    },
+    "page_my_campaign": {
+        "edit_campaign": {
+            "campaigns": "យុទ្ធនាការ",
+            "frames": "",
+            "analytics": ""
+        }
+    }
 }

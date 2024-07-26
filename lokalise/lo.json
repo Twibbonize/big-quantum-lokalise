@@ -308,7 +308,7 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "ບໍ່ມີການໂພສເທື່ອ",
-            "uploading_your_photo": "ກຳລັງອັບໂຫລດຮູບຂອງເຈົ້າ",
+            "uploading_your_photo": "ກຳລັງອັບໂຫລດຮູບຂອງເຈົ້າ!",
             "start_with": "ເລີ່ມຕົ້ນດ້ວຍ ",
             "be_the_first": "ເປັນຄົນທຳອິດທີ່ປະກາດການສະໜັບສະໜູນຂອງເຈົ້າຢູ່ບ່ອນນີ້."
         },
@@ -487,15 +487,15 @@
             "no_stay": "ບໍ່, ຢູ່ໃນໜ້ານີ້"
         },
         "dropzone": {
-            "upload_design": "ອັບໂຫຼດການອອກແບບຂອງທ່ານເອງທີ່ນີ້",
             "type": "ປະເພດ:",
             "size": "ຂະໜາດ:",
-            "max_file": "ສູງສຸດ. 5MB",
             "recommendation": "ຄຳແນະນຳ:",
             "image_dimension": "1080x1080px",
             "upload": "ອັບໂຫຼດ",
-            "backgroundtype": "JPEG\/PNG\/WEBP",
-            "imagetype": "PNG"
+            "imagetype": "PNG",
+            "max_file": "",
+            "backgroundtype": "",
+            "upload_design": ""
         },
         "frame_editor": {
             "or_create": "ຫຼືສ້າງກອບຂອງທ່ານດຽວນີ້",
@@ -567,6 +567,11 @@
             "frames": "",
             "campaigns": "",
             "analytics": ""
+        },
+        "blank_design": {
+            "suggested": "",
+            "instagram_story": "",
+            "instagram_post": ""
         }
     },
     "page_for_creators": {
@@ -624,7 +629,22 @@
             "grow_detail": "ໄດ້ຮັບການສະຫນັບສະຫນູນຫຼາຍຂຶ້ນກັບແຄມເປນ Twibbonize: ມັນບໍ່ພຽງແຕ່ດຶງດູດຄວາມສົນໃຈເທົ່ານັ້ນ, ແຕ່ຍັງສ້າງຜົນກະທົບຂອງ bandwagon, ດຶງດູດຜູ້ຊົມທີ່ເພີ່ມຂຶ້ນທີ່ບໍ່ຕ້ອງການທີ່ຈະພາດໂອກາດຂອງທ່ານ.",
             "inspire": "",
             "unite": "",
-            "entertain": ""
+            "entertain": "",
+            "grow": ""
+        },
+        "use_cases": {
+            "heading": "ແນວຄວາມຄິດທີ່ຈະໃຊ້ Twibbonize ສໍາລັບ",
+            "subheading": "",
+            "corporate": "",
+            "corporate_title": "",
+            "education": "ການສຶກສາ",
+            "education_title": "",
+            "event": "ເຫດການ",
+            "events_title": ""
+        },
+        "testimonials": {
+            "testimonials": "ປະຈັກພະຍານ",
+            "heading": "ເຊື່ອຖືໄດ້ໂດຍຊື່ທີ່ທ່ານໄວ້ວາງໃຈ"
         }
     },
     "page_explore": {
@@ -763,8 +783,8 @@
             "use_twibbonize_without_ads_2": "ໂດຍບໍ່ມີການໂຄສະນາ",
             "no_extra_features_1": "ບໍ່ມີຄຸນສົມບັດພິເສດ",
             "no_extra_features_2": "ມີໃຫ້",
-            "remove_all_watermark_1": "ເອົາລາຍນ້ຳອອກ",
-            "remove_all_watermark_2": "ຜູ້ໃຊ້ແຄມເປນທັງຫມົດຂອງທ່ານ",
+            "remove_all_watermark_1": "ເອົາລາຍນ້ຳອອກຈາກຜູ້ໃຊ້ແຄມເປນທັງຫມົດຂອງທ່ານ",
+            "remove_all_watermark_2": "",
             "remove_own_watermark_1": "ເອົາລາຍນ້ຳອອກ",
             "on": "ສຸດ",
             "remove_own_watermark_2": "ບັນ​ຊີ​ຂອງ​ທ່ານ​ເອງ​",
@@ -831,6 +851,12 @@
             "joined": "ເຂົ້າຮ່ວມຕັ້ງແຕ່ {created}",
             "supporters": "ຜູ້ສະຫນັບສະຫນູນ",
             "campaigns": "ແຄມເປນ"
+        },
+        "my_profile": {
+            "edit_profile": "",
+            "campaigns": "ແຄມເປນ",
+            "collections": "ຄໍເລັກຊັນ",
+            "posts": ""
         }
     },
     "page_preference": {
@@ -1436,7 +1462,11 @@
         },
         "upload": {
             "upload_image": "ອັບໂຫຼດຮູບ",
-            "upload": "ອັບໂຫຼດ"
+            "upload": "ອັບໂຫຼດ",
+            "type": "",
+            "size": "",
+            "type_image": "",
+            "maximum_size": ""
         },
         "toolbar": {
             "copy": "ສຳເນົາ",
@@ -1460,7 +1490,8 @@
             "lock": "ລັອກ",
             "letter_spacing": "ຊ່ອງຫວ່າງຕົວອັກສອນ",
             "line_spacing": "ໄລຍະຫ່າງແຖວ",
-            "align": "ຈັດຮຽງ"
+            "align": "ຈັດຮຽງ",
+            "effects": "ຜົນກະທົບ"
         },
         "confirmation": {
             "cancel": "ຍົກເລີກ",
@@ -1496,5 +1527,18 @@
             "default_colors": "ສີເລີ່ມຕົ້ນ"
         }
     },
-    "page_create_campaign.Frame_editor.width": "ກວ້າງ"
+    "page_create_campaign.Frame_editor.width": "ກວ້າງ",
+    "page__campaign_creation": {
+        "campaign_preview": {
+            "campaign_description": "",
+            "campaign_title": "ຊື່ແຄມເປນ"
+        }
+    },
+    "page_my_campaign": {
+        "edit_campaign": {
+            "campaigns": "ແຄມເປນ",
+            "frames": "",
+            "analytics": ""
+        }
+    }
 }

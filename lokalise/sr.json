@@ -72,7 +72,7 @@
             "edit": "Urediti",
             "confirm": "Potvrditi",
             "okay": "",
-            "view": "Поглед",
+            "view": "Pogled",
             "send": "",
             "more": "",
             "less": ""
@@ -308,9 +308,9 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "Još nema objave",
-            "uploading_your_photo": "отпремање ваше фотографије",
-            "start_with": "Почети са ",
-            "be_the_first": "Будите први који ће објавити своју подршку овде."
+            "uploading_your_photo": "otpremanjem svoje fotografije!",
+            "start_with": "Počnite sa",
+            "be_the_first": "Budite prvi koji će objaviti svoju podršku ovde."
         },
         "twibbon": {
             "choose_your_photo": "Odaberite svoju fotografiju",
@@ -340,10 +340,10 @@
             "wait_for_moment": "",
             "remove_watermark_for_you_2": "и уживајте у својим сликама без воденог жига!",
             "remove_watermark_for_you_1": "Истражите Твиббонизе без огласа,",
-            "remove_watermark_for_you": "Уклоните водени жиг!",
-            "blur": "Блур",
-            "shadow": "Схадов",
-            "twibbon_success": "Преузето"
+            "remove_watermark_for_you": "Uklonite vodeni žig!",
+            "blur": "Zamućenje",
+            "shadow": "Senka",
+            "twibbon_success": "Preuzeto"
         },
         "report": {
             "report_campaign": "Prijaviti kampanju",
@@ -487,15 +487,15 @@
             "no_stay": "Ne, ostati na ovoj stranici"
         },
         "dropzone": {
-            "upload_design": "Otpremite svoj dizajn ovde",
             "type": "Tip:",
             "size": "Veličina:",
-            "max_file": "Maks. 5MB",
             "recommendation": "Preporuka:",
             "image_dimension": "1080x1080pk",
             "upload": "Otpremiti",
-            "backgroundtype": "ЈПЕГ\/ПНГ\/ВЕБП",
-            "imagetype": "ПНГ"
+            "imagetype": "PNG",
+            "max_file": "",
+            "backgroundtype": "",
+            "upload_design": ""
         },
         "frame_editor": {
             "or_create": "ili kreirati svoj okvir sada",
@@ -513,7 +513,7 @@
             "no_hole_frame": "To znači da na vašem okviru nema rupe. Da daju potrebnu rupu; možete pratiti ovo {link}",
             "help_center_article": "Članak centra za pomoć",
             "understand": "Razumem",
-            "height": "Висина"
+            "height": "Visina"
         },
         "form": {
             "please_fill_in": "molimo popunite sve potrebne podatke o kampanji ispod",
@@ -567,6 +567,11 @@
             "frames": "",
             "campaigns": "",
             "analytics": ""
+        },
+        "blank_design": {
+            "suggested": "",
+            "instagram_story": "",
+            "instagram_post": ""
         }
     },
     "page_for_creators": {
@@ -609,8 +614,8 @@
             "spice_up": "Začinite svoju kampanju na mreži, ne samo okvirom, već i kreativnom pozadinom",
             "the_og_twibbon": "Originalni Twibbon; okvir koji je postavljen na vašu sliku",
             "a_fresh_variation": "Nova varijacija Twibbon-a koja predstavlja pozadinu vaše slike",
-            "frame_twibbon": "Фраме Твиббон",
-            "backround_twibbon": "Позадина Твиббон "
+            "frame_twibbon": "Okvir Twibbona",
+            "backround_twibbon": "Pozadina Twibbona"
         },
         "tilt": {
             "get_it_ready": "Pripremite ga bilo kada pomoću našeg ugrađenog Twibbon Editor",
@@ -624,7 +629,22 @@
             "grow_detail": "Dobijte veću podršku uz kampanju Twibbonize-a: ona ne samo da privlači pažnju već i stvara efekat kola, privlačeći rastuću publiku koja ne želi da propusti vaš cilj.",
             "inspire": "",
             "unite": "",
-            "entertain": ""
+            "entertain": "",
+            "grow": ""
+        },
+        "use_cases": {
+            "heading": "Ideje za korišćenje Tvibbonize-a",
+            "subheading": "",
+            "corporate": "",
+            "corporate_title": "",
+            "education": "Obrazovanje",
+            "education_title": "",
+            "event": "Događaji",
+            "events_title": ""
+        },
+        "testimonials": {
+            "testimonials": "Svedočenja",
+            "heading": "Pouzdani imenima kojima ste verovali"
         }
     },
     "page_explore": {
@@ -796,14 +816,14 @@
             "answer_9": ""
         },
         "hero": {
-            "pricing": "ПРИЦИНГ",
-            "find_the_right_premium_plan": "Пронађите прави Премиум план за своје потребе"
+            "pricing": "CENE",
+            "find_the_right_premium_plan": "Pronađite pravi plan Premium za svoje potrebe"
         },
         "card_premium_supporter": {
-            "subheading": "За људе који желе више од Твиббонизе-а"
+            "subheading": "Za ljude koji žele više od Twibbonize-a"
         },
         "card_premium_creator": {
-            "subheading": "За људе којима је потребно врхунско Твиббонизе искуство"
+            "subheading": "Za ljude kojima je potrebno vrhunsko iskustvo Twibbonize-a"
         }
     },
     "page_profile": {
@@ -831,6 +851,12 @@
             "joined": "Pridružen od {created}",
             "supporters": "Pristalice",
             "campaigns": "Kampanje"
+        },
+        "my_profile": {
+            "edit_profile": "",
+            "campaigns": "Kampanje",
+            "collections": "Zbirke",
+            "posts": ""
         }
     },
     "page_preference": {
@@ -1403,98 +1429,116 @@
     },
     "page_editor": {
         "general": {
-            "template": "Темплате",
-            "text": "Текст",
-            "shape": "Облик",
-            "image": "Слика",
-            "graphic": "Графика",
-            "upload": "Отпремити",
-            "layer": "Слој",
-            "resize": "Промените величину",
-            "save": "сачувати",
-            "width": "Ширина",
-            "height": "Висина",
-            "transparency": "Транспарентност",
-            "line_weight": "Тежина линије",
-            "align": "Поравнајте",
-            "group": "Група",
-            "ungroup": "Разгрупиши",
-            "unlock": "Откључај",
-            "loading": "Лоадинг"
+            "template": "Šablon",
+            "text": "Tekst",
+            "shape": "Oblik",
+            "image": "Slika",
+            "graphic": "Grafika",
+            "upload": "Otpremiti",
+            "layer": "Sloj",
+            "resize": "Promeniti veličinu",
+            "save": "Sačuvati",
+            "width": "Širina",
+            "height": "Visina",
+            "transparency": "Transparentnost",
+            "line_weight": "Težina linije",
+            "align": "Poravnati",
+            "group": "Grupisati",
+            "ungroup": "Razgrupisati",
+            "unlock": "Otključati",
+            "loading": "Učitava se"
         },
         "text": {
-            "add_a_heading": "Додајте наслов",
-            "add_a_subheading": "Додајте поднаслов",
-            "document_fonts": "Фонтови докумената",
-            "text_effect": "Тект Еффецтс",
-            "effects": "Ефекти",
-            "add_a_body_text": "Додајте мало основног текста"
+            "add_a_heading": "Dodati naslov",
+            "add_a_subheading": "Dodati podnaslov",
+            "document_fonts": "Fontovi dokumenata",
+            "text_effect": "Tekstualni efekti",
+            "effects": "Efekti",
+            "add_a_body_text": "Dodajte malo osnovnog teksta"
         },
         "shape": {
-            "arrow": "Стрелац",
-            "shape": "Облик"
+            "arrow": "Strelac",
+            "shape": "Oblik"
         },
         "upload": {
-            "upload_image": "Учитај слику",
-            "upload": "Отпремити"
+            "upload_image": "Otpremiti sliku",
+            "upload": "Otpremiti",
+            "type": "",
+            "size": "",
+            "type_image": "",
+            "maximum_size": ""
         },
         "toolbar": {
-            "copy": "Копирај",
-            "paste": "Залепите",
-            "duplicate": "Дупликат",
-            "delete": "Избриши",
-            "layer": "Слој",
-            "bring_forward": "Изнесе",
-            "bring_to_front": "Донети напред",
-            "send_backward": "Послати назад",
-            "send_to_back": "Пошаљи назад",
-            "show_layers": "Прикажи слојеве",
-            "left": "Лево",
-            "center": "Центар",
-            "right": "Јел тако",
-            "top": "Врх",
-            "middle": "Средњи",
-            "bottom": "Дно",
-            "set_as_text_template": "Постави као текстуални шаблон",
-            "set_as_background_image": "Постави као позадинску слику",
-            "lock": "закључати",
-            "letter_spacing": "Размак између слова",
-            "line_spacing": "Проред",
-            "align": "Поравнајте"
+            "copy": "Kopirati",
+            "paste": "Zalepiti",
+            "duplicate": "Duplirati",
+            "delete": "Izbrisati",
+            "layer": "Sloj",
+            "bring_forward": "Izneti napred",
+            "bring_to_front": "Izneti na prednji deo",
+            "send_backward": "Poslati nazad",
+            "send_to_back": "Poslati u pozadinu",
+            "show_layers": "Prikazati slojeve",
+            "left": "Levo",
+            "center": "Centar",
+            "right": "Desno",
+            "top": "Vrh",
+            "middle": "Srednji",
+            "bottom": "Dno",
+            "set_as_text_template": "Postaviti kao tekstualni šablon",
+            "set_as_background_image": "Postaviti kao pozadinsku sliku",
+            "lock": "Zaključati",
+            "letter_spacing": "Razmak između slova",
+            "line_spacing": "Prored",
+            "align": "Poravnati",
+            "effects": "Efekti"
         },
         "confirmation": {
-            "cancel": "Поништити, отказати",
-            "save": "сачувати",
-            "has_your_frame_been_completed": "Да ли је ваш оквир завршен?",
-            "once_it_save": "Када се сачува, уређивање више није доступно"
+            "cancel": "Otkazati",
+            "save": "Sačuvati",
+            "has_your_frame_been_completed": "Da li je vaš okvir završen?",
+            "once_it_save": "Kada se sačuva, uređivanje više nije dostupno"
         },
         "image": {
-            "image_template": "Аутор фотографије: {name} ",
-            "image_template_1": "на",
-            "edit_image": "Уреди слику",
-            "image_template_2": "Унспласх"
+            "image_template": "Autor fotografije: {name} ",
+            "image_template_1": "na",
+            "edit_image": "Urediti sliku",
+            "image_template_2": "Unsplash"
         },
         "error": {
-            "minimum_dimension": "Димензије морају бити најмање 100 пиксела и не веће од 8000 пиксела."
+            "minimum_dimension": "Dimenzije moraju biti najmanje 100 piksela i ne veće od 8000 piksela."
         },
         "text_effect": {
-            "style": "Стиле",
-            "none": "Ниједан",
-            "shadow": "Схадов",
-            "text_effects": "Ефекти",
-            "lift": "Лифт",
-            "offset": "Офсет",
-            "direction": "Правац",
-            "blur": "Блур",
-            "transparency": "Транспарентност",
-            "color": "Боја",
-            "thickness": "Дебљина"
+            "style": "Stil",
+            "none": "Nijedan",
+            "shadow": "Senka",
+            "text_effects": "Efekti",
+            "lift": "Lift",
+            "offset": "Ofset",
+            "direction": "Pravac",
+            "blur": "Zamućenje",
+            "transparency": "Transparentnost",
+            "color": "Boja",
+            "thickness": "Debljina"
         },
         "colors": {
-            "colors": "Боје",
-            "document_colors": "Боје документа",
-            "default_colors": "Подразумеване боје"
+            "colors": "Boje",
+            "document_colors": "Boje dokumenta",
+            "default_colors": "Podrazumevane boje"
         }
     },
-    "page_create_campaign.Frame_editor.width": "Ширина"
+    "page_create_campaign.Frame_editor.width": "Širina",
+    "page__campaign_creation": {
+        "campaign_preview": {
+            "campaign_description": "",
+            "campaign_title": "Naslov kampanje"
+        }
+    },
+    "page_my_campaign": {
+        "edit_campaign": {
+            "campaigns": "Kampanje",
+            "frames": "",
+            "analytics": ""
+        }
+    }
 }
