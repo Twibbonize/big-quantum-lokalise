@@ -406,6 +406,9 @@
             "photos_avoid": "",
             "bad_photo_caption": "",
             "understand": ""
+        },
+        "post_to_twibbonize": {
+            "caption": ""
         }
     },
     "page_checkout": {
@@ -513,6 +516,7 @@
             "no_hole_frame": "Dit beteken dat daar geen gaatjie op jou raam is nie. Om die nodige gat te gee; jy kan hierdie {link} volg",
             "help_center_article": "Hulpsentrum-artikel",
             "understand": "Ek verstaan",
+            "width": "Breedte",
             "height": "Hoogte"
         },
         "form": {
@@ -857,6 +861,9 @@
             "campaigns": "Veldtogte",
             "collections": "Versamelings",
             "posts": ""
+        },
+        "campaign_deletion": {
+            "are_you_sure": "Is jy seker?"
         }
     },
     "page_preference": {
@@ -1277,6 +1284,290 @@
             "paragraph_11": "Terwyl ons die digitale era se kapasiteit vir konnektiwiteit omhels, laat Twibbonize voortgaan om ons skerms te verf met simbole van solidariteit, wat 'n blywende impak op die gebied van sosiale voorspraak skep. Saam weef ons 'n visuele narratief wat grense oorskry, wat ons gedeelde verbintenis tot 'n meer deernisvolle en verenigde wêreld weerspieël."
         }
     },
+    "notification": {
+        "push": {
+            "campaign_milestone": {
+                "header": "🏆 {name}, nuwe mylpaal bereik!",
+                "body": "Geluk! Jou veldtog {title} het nou {amount} ondersteuners!"
+            },
+            "new_post": {
+                "header": "Nuwe Twibbon geplaas",
+                "body": "{participant} het 'n Twibbon in jou veldtog {title} se galery geplaas!"
+            },
+            "new_comment": {
+                "header": "Nuwe opmerking!",
+                "body": "{participant} het kommentaar gelewer op jou plasing in die veldtog {title} !"
+            },
+            "account_recap": {
+                "header": "🍺 {name}, hier is jou weeklikse samevatting!",
+                "body": "Jy het hierdie week {amount} nuwe ondersteuners gekry. Hou so aan!"
+            },
+            "billing": {
+                "creator": {
+                    "successful_payment": {
+                        "header": "Jou betaling was suksesvol",
+                        "body": "Maak gebruik van sy eksklusiewe kenmerke! Begin nou jou veldtog"
+                    },
+                    "plus_5": {
+                        "header": "Hallo {name} , hernu jou intekening nou",
+                        "body": "Hernu of gradeer jou plan nou op om voort te gaan om toegang tot jou veldtogontleding te kry."
+                    }
+                },
+                "international": {
+                    "renewed_plan": {
+                        "header": "Hallo {name}, jou hernuwingsbetaling is bevestig",
+                        "body": "Nou kan jy voortgaan om ons eksklusiewe kenmerke te gebruik!"
+                    },
+                    "creator": {
+                        "successful_payment": {
+                            "header": "Jou betaling was suksesvol",
+                            "body": "Maak gebruik van sy eksklusiewe kenmerke! Begin nou jou veldtog."
+                        },
+                        "plus_2": {
+                            "header": "Hallo {name} , hernu jou intekening nou",
+                            "body": "Hernu of gradeer jou plan nou op om voort te gaan om toegang tot jou veldtogontleding te kry."
+                        }
+                    },
+                    "supporter": {
+                        "successful_payment": {
+                            "header": "Jou betaling was suksesvol",
+                            "body": "Geniet jou advertensievrye ervaring en kry Twibbons sonder watermerke!"
+                        },
+                        "plus_2": {
+                            "header": "Hallo {name} , hernu jou intekening nou",
+                            "body": "Hernu jou plan nou om watermerkvrye Twibbons en 'n advertensievrye ervaring te geniet."
+                        }
+                    }
+                },
+                "supporter": {
+                    "successful_payment": {
+                        "body": "Geniet jou advertensievrye ervaring en kry Twibbons sonder watermerke!",
+                        "header": "Jou betaling was suksesvol"
+                    },
+                    "plus_5": {
+                        "body": "Hernu jou plan nou om watermerkvrye Twibbons en 'n advertensievrye ervaring te geniet.",
+                        "header": "Hallo {name}, hernu jou intekening nou"
+                    }
+                }
+            },
+            "new_reply": {
+                "header": "Nuwe antwoord!",
+                "body": "{participant} het kommentaar gelewer op jou opmerking in die veldtog {title}!"
+            }
+        },
+        "panel": {
+            "campaign_milestone": {
+                "body": "Baie geluk! Die veldtog {title} het nou {amount} ondersteuners!",
+                "header": "🏆 {name}, nuwe mylpaal bereik!"
+            },
+            "account_recap": {
+                "body": "Jy het die afgelope week {amount} nuwe ondersteuners by al jou veldtogte gekry. Hou aan met die goeie werk!",
+                "header": "🍺 {name} , Hier is jou weeklikse samevatting!"
+            },
+            "billing": {
+                "order_received": {
+                    "header": "Hallo {name}, voltooi asseblief jou betaling",
+                    "body": "Dankie dat jy die {product} bestel het. Gaan asseblief voort na betaling om jou transaksie te voltooi."
+                },
+                "order_canceled": {
+                    "header": "Jammer {name}, jou {product}-bestelling is gekanselleer",
+                    "body": "Moet asseblief nie voortgaan met betaling nie."
+                },
+                "creator": {
+                    "successful_payment": {
+                        "header": "Hallo {name}, jou betaling is ontvang",
+                        "body": "Dankie dat jy op die {product} ingeteken het. Skep nou jou veldtog en gebruik sy spesiale kenmerke!"
+                    },
+                    "min_3": {
+                        "header": "Hallo {name} , jou {product} sal oor 3 dae verval",
+                        "body": "Hernu of gradeer jou intekening op om voort te gaan om Twibbonize se eksklusiewe kenmerke te geniet."
+                    },
+                    "exp_day": {
+                        "header": "Hallo {name}, jou {product}-intekening het verval",
+                        "body": "Hernu of gradeer jou intekening op voor {date_plus_7} om toegang tot veldtogontledings en alle eksklusiewe kenmerke te behou."
+                    },
+                    "plus_5": {
+                        "header": "Hallo {name}, jou intekening sal oor 48 uur beëindig word",
+                        "body": "Hernu of gradeer jou plan binne 48 uur op om toegang tot jou veldtogontleding te behou."
+                    },
+                    "plus_7": {
+                        "header": "Hallo {name}, jou rekening is afgegradeer na Twibbonize Free",
+                        "body": "Hernu asseblief jou intekening om voort te gaan om {product}-funksies te gebruik."
+                    }
+                },
+                "international": {
+                    "creator": {
+                        "canceled_plan": {
+                            "header": "Hallo {name}, jou {product}-intekening is suksesvol gekanselleer",
+                            "body": "Jy sal aan die einde van jou faktuursiklus toegang tot alle {product}-funksies verloor."
+                        },
+                        "renewed_plan": {
+                            "header": "Hallo {name}, jou {product}-intekening is suksesvol hernu",
+                            "body": "Jou {product}-intekening sal aan die einde van jou faktuursiklus gehef word."
+                        },
+                        "canceled": {
+                            "exp_day": {
+                                "header": "Hallo {name}, jou rekening is afgegradeer na Twibbonize Free",
+                                "body": "Hernu asseblief jou intekening om voort te gaan om {product}-funksies te gebruik."
+                            }
+                        },
+                        "cancel_downgrade": {
+                            "header": "Hallo {name}, jou versoek om die afgradering te kanselleer is ontvang",
+                            "body": "Jou intekening sal voortgaan as Premium Creator."
+                        },
+                        "convert": {
+                            "header": "Hallo {name}, jou rekening is opgegradeer na Premium Creator",
+                            "body": "Baie geluk! Jy is nou 'n Premium Creator. Geniet nou al die kenmerke!"
+                        },
+                        "successful_payment": {
+                            "header": "Hallo {name}, jou betaling is ontvang",
+                            "body": "Dankie dat jy op die {product} ingeteken het. Skep nou jou veldtog en gebruik sy spesiale kenmerke!"
+                        },
+                        "exp_day": {
+                            "header": "Hallo {name}, jou {product}-intekening het verval",
+                            "body": "Dateer asseblief jou faktureringinligting op voor {date_plus_7} om voort te gaan om toegang tot jou veldtogontleding te kry."
+                        },
+                        "plus_2": {
+                            "header": "Hallo {name}, jou intekening sal oor 48 uur beëindig word",
+                            "body": "Dateer asseblief jou betaalkaart op om toegang tot jou veldtogontleding te behou."
+                        },
+                        "plus_5": {
+                            "header": "Hallo {name}, jou rekening is afgegradeer na Twibbonize Free",
+                            "body": "Hernu asseblief jou intekening om voort te gaan om {product}-funksies te gebruik."
+                        },
+                        "convert_addon": {
+                            "body": "Baie geluk! Jy is nou 'n Premium Creator. Geniet nou al die kenmerke!",
+                            "header": "Hallo {name}, jou rekening is opgegradeer na Premium Creator"
+                        }
+                    },
+                    "auth": {
+                        "exp_day": {
+                            "header": "Hallo {name}, jou betaalmetode moet stawing",
+                            "body": "Bevestig asseblief jou betalingstawing om jou intekening nou te voltooi."
+                        }
+                    },
+                    "renewed_plan": {
+                        "header": "Hallo {name}, jou hernuwingsbetaling is bevestig",
+                        "body": "Nou kan jy voortgaan om eksklusiewe kenmerke te geniet!"
+                    },
+                    "downgrade_received": {
+                        "header": "Hallo {name}, jou afgraderingversoek is ontvang",
+                        "body": "Jou rekening sal afgegradeer word na {product} aan die einde van jou faktuursiklus."
+                    },
+                    "supporter": {
+                        "convert": {
+                            "header": "Hallo {name} , Jou rekening is opgegradeer na Premium Supporter",
+                            "body": "Baie geluk! Jy is nou 'n Premium Supporter. Geniet nou al die kenmerke!"
+                        },
+                        "successful_payment": {
+                            "body": "",
+                            "header": "Hallo {name}, ons het jou betaling suksesvol ontvang"
+                        },
+                        "min_3": {
+                            "body": ""
+                        },
+                        "successful": {
+                            "body": "Dankie dat jy op die {product} ingeteken het. Nou kan jy Twibbon kry sonder watermerke en 'n advertensievrye ervaring!"
+                        },
+                        "exp_day": {
+                            "header": "Hallo {name}, jou betaling het nie deurgegaan nie",
+                            "body": "Dateer asseblief jou faktureringinligting op voor {date_plus_7} om eksklusiewe kenmerke, advertensievrye blaai en watermerkvrye Twibbon te geniet."
+                        },
+                        "plus_2": {
+                            "header": "Hallo {name}, jou intekening sal oor 48 uur beëindig word",
+                            "body": "Hernu jou plan nou om watermerkvrye Twibbons en 'n advertensievrye ervaring te geniet."
+                        },
+                        "plus_7": {
+                            "header": "Hallo {name}, jou rekening is afgegradeer na Twibbonize Free"
+                        },
+                        "canceled": {
+                            "exp_day": {
+                                "header": "Hallo {name}, jou rekening is afgegradeer na Twibbonize Free",
+                                "body": "Hernu asseblief jou intekening om voort te gaan om {product}-funksies te gebruik."
+                            }
+                        },
+                        "plus_5": {
+                            "header": "Hallo {name}, jou rekening is afgegradeer na Twibbonize Free",
+                            "body": "Hernu asseblief jou intekening om voort te gaan om {product}-funksies te gebruik."
+                        }
+                    },
+                    "period_changed": {
+                        "header": "Hallo {name}, ons het jou versoek ontvang om jou plan te verander",
+                        "body": "Jou rekening sal verander word na {product} aan die einde van jou faktuursiklus."
+                    },
+                    "cancel_change_period": {
+                        "header": "Hallo {name}, ons het jou versoek ontvang om die planverandering te kanselleer",
+                        "body": "Jou intekening sal voortgaan as Premium Creator."
+                    }
+                },
+                "india": {
+                    "auth": {
+                        "exp_day": {
+                            "header": "Hallo {name}, bevestig asseblief nou jou betaling vir intekening",
+                            "body": "Om voldoening aan sekuriteitsregulasies te verseker, vereis ons jou uitdruklike bevestiging vir jou herhalende betaling op jou Twibbonize-intekening."
+                        }
+                    }
+                },
+                "supporter": {
+                    "successful_payment": {
+                        "body": "Nou kan jy Twibbon kry sonder watermerke en 'n advertensievrye ervaring!",
+                        "header": "Hallo {name}, jou betaling is ontvang"
+                    },
+                    "exp_day": {
+                        "body": "Hernu of gradeer jou intekening op voor {date_plus_7} om voort te gaan om eksklusiewe kenmerke, advertensievrye blaai en watermerkvrye Twibbon te geniet.",
+                        "header": "Hallo {name}, jou {product}-intekening het verval"
+                    },
+                    "plus_5": {
+                        "body": "Hernu jou plan binne 48 uur om aan te hou om watermerkvrye Twibbon en 'n advertensievrye ervaring te geniet.",
+                        "header": "Hallo {name}, jou intekening sal oor 48 uur beëindig word"
+                    },
+                    "min_3": {
+                        "body": "Hernu of gradeer jou intekening nou op om voort te gaan om advertensievrye blaai en watermerkvrye Twibbons te geniet.",
+                        "header": "Hallo {name}, jou {product} sal oor 3 dae verval"
+                    },
+                    "plus_7": {
+                        "body": "Hernu asseblief jou intekening om voort te gaan om {product}-funksies te gebruik."
+                    }
+                }
+            },
+            "launch": {
+                "prem_sub": {
+                    "min_1": {
+                        "header": "Nuwe Twibbonize Premium-intekening",
+                        "body": "Bekendstelling van Twibbonize se nuwe premium-intekeninge - Bekendstelling 8 Julie!"
+                    }
+                },
+                "short_link": {
+                    "min_1": {
+                        "header": "Nuwe Twibbonize Kort Skakel",
+                        "body": "Stel Twibbonize se nuwe kort skakel bekend - Verander 8 Julie!"
+                    }
+                }
+            },
+            "campaign_addon": {
+                "adfree_quota_remaining": {
+                    "header": "Advertensievrye kwota oor",
+                    "body": "Jy het advertensievrye kwota oor vir 50 ondersteuners op {campaignlink}. Geniet 'n advertensievrye ervaring terwyl dit duur!"
+                },
+                "adfree_quota_runout": {
+                    "header": "Advertensievrye kwota het uitgeput",
+                    "body": "Jou {campaignlink} ondersteuners sal advertensies begin sien terwyl hulle op ons platform blaai."
+                }
+            },
+            "new_post": {
+                "header": "Nuwe Twibbon geplaas",
+                "body": "{participant} het 'n Twibbon in jou veldtog {title} se galery geplaas!"
+            },
+            "new_comment": {
+                "header": "Nuwe opmerking!",
+                "body": "{participant} het kommentaar gelewer op jou plasing in die veldtog {title}!"
+            },
+            "new_reply": {
+                "header": "Nuwe antwoord!",
+                "body": "{participant} het kommentaar gelewer op jou opmerking in die veldtog {title} !"
+            }
+        }
+    },
     "page_analytics": {
         "time": {
             "today": "Vandag",
@@ -1490,6 +1781,8 @@
             "lock": "Sluit",
             "letter_spacing": "Letterspasiëring",
             "line_spacing": "Lynspasiëring",
+            "border_weight": "",
+            "corner_rounding": "",
             "align": "Belyn",
             "effects": "Effekte"
         },
@@ -1527,7 +1820,6 @@
             "default_colors": "Standaardkleure"
         }
     },
-    "page_create_campaign.Frame_editor.width": "Breedte",
     "page__campaign_creation": {
         "campaign_preview": {
             "campaign_description": "",
