@@ -406,6 +406,9 @@
             "photos_avoid": "",
             "bad_photo_caption": "",
             "understand": ""
+        },
+        "post_to_twibbonize": {
+            "caption": ""
         }
     },
     "page_checkout": {
@@ -513,6 +516,7 @@
             "no_hole_frame": "이것은 프레임에 구멍이 없다는 것을 의미합니다. 필요한 구멍을 만들려면 다음과 같이 하면 됩니다. {link}",
             "help_center_article": "헬프 센터 문서",
             "understand": "이해합니다",
+            "width": "너비",
             "height": "높이"
         },
         "form": {
@@ -857,6 +861,9 @@
             "campaigns": "캠페인",
             "collections": "컬렉션",
             "posts": ""
+        },
+        "campaign_deletion": {
+            "are_you_sure": "확실하신가요?"
         }
     },
     "page_preference": {
@@ -1277,6 +1284,290 @@
             "paragraph_11": "디지털 시대의 연결성을 수용함에 따라, 트위본라이즈는 계속해서 연대의 상징으로 화면을 채우고 사회적 옹호의 영역에서 지속적인 영향력을 발휘할 수 있도록 노력할 것입니다. 우리는 함께 경계를 뛰어넘는 시각적 내러티브를 만들어 더 자비롭고 단합된 세상을 향한 우리의 공통된 약속을 반영합니다."
         }
     },
+    "notification": {
+        "push": {
+            "campaign_milestone": {
+                "header": "🏆 {name}, 새로운 마일스톤에 도달했습니다!",
+                "body": "축하합니다! 캠페인 {title} 이제 {amount} 지지자가 생겼습니다!"
+            },
+            "new_post": {
+                "header": "새로운 Twibbon 게시",
+                "body": "{participant}가자]가 캠페인 {title}의 갤러리에 Twibbon을 게시했습니다!"
+            },
+            "new_comment": {
+                "header": "새 댓글!",
+                "body": "{participant}가자]가 캠페인 {title}의 게시물에 댓글을 달았습니다!"
+            },
+            "account_recap": {
+                "header": "🍺 {name}, 주간 요약입니다!",
+                "body": "이번 주에 {amount}의 신규 후원자를 확보했습니다. 계속하세요!"
+            },
+            "billing": {
+                "creator": {
+                    "successful_payment": {
+                        "header": "결제가 완료되었습니다.",
+                        "body": "독점 기능을 활용하세요! 지금 캠페인 시작하기"
+                    },
+                    "plus_5": {
+                        "header": "안녕하세요 {name}, 지금 구독을 갱신하세요",
+                        "body": "지금 요금제를 갱신하거나 업그레이드하여 캠페인 분석 기능을 계속 이용하세요."
+                    }
+                },
+                "international": {
+                    "renewed_plan": {
+                        "header": "안녕하세요 {name}, 갱신 결제가 확인되었습니다.",
+                        "body": "이제 독점 기능을 계속 사용할 수 있습니다!"
+                    },
+                    "creator": {
+                        "successful_payment": {
+                            "header": "결제가 완료되었습니다.",
+                            "body": "독점 기능을 활용하세요! 지금 캠페인을 시작하세요."
+                        },
+                        "plus_2": {
+                            "header": "안녕하세요 {name}, 지금 구독을 갱신하세요",
+                            "body": "지금 요금제를 갱신하거나 업그레이드하여 캠페인 분석 기능을 계속 이용하세요."
+                        }
+                    },
+                    "supporter": {
+                        "successful_payment": {
+                            "header": "결제가 완료되었습니다.",
+                            "body": "광고 없는 경험을 즐기고 워터마크 없이 Twibbon을 받으세요!"
+                        },
+                        "plus_2": {
+                            "header": "안녕하세요 {name}, 지금 구독을 갱신하세요",
+                            "body": "지금 요금제를 갱신하고 워터마크 없는 Twibbon과 광고 없는 경험을 즐겨보세요."
+                        }
+                    }
+                },
+                "supporter": {
+                    "successful_payment": {
+                        "body": "광고 없는 경험을 즐기고 워터마크 없이 트위본을 받으세요!",
+                        "header": "결제가 완료되었습니다."
+                    },
+                    "plus_5": {
+                        "body": "지금 요금제를 갱신하고 워터마크 없는 Twibbon과 광고 없는 경험을 즐겨보세요.",
+                        "header": "안녕하세요 {name}, 지금 구독을 갱신하세요"
+                    }
+                }
+            },
+            "new_reply": {
+                "header": "새 답글!",
+                "body": "{participant} 캠페인에 댓글을 달았습니다 {title}!"
+            }
+        },
+        "panel": {
+            "campaign_milestone": {
+                "body": "축하합니다! 캠페인 {title}의 후원자가 {amount}명이 되었습니다!",
+                "header": "{name}, 새로운 이정표에 도달했습니다!"
+            },
+            "account_recap": {
+                "body": "지난 한 주 동안 모든 캠페인에서 {amount} 신규 지지자를 확보했습니다. 계속 수고하세요!",
+                "header": "{name}, 주간 요약입니다!"
+            },
+            "billing": {
+                "order_received": {
+                    "header": "안녕하세요 {name}, 결제를 완료해 주세요.",
+                    "body": "주문해 주셔서 감사합니다 {product}. 거래를 완료하려면 결제를 진행하세요."
+                },
+                "order_canceled": {
+                    "header": "죄송합니다 {name}님, {product}에 대한 주문이 취소되었습니다.",
+                    "body": "결제를 계속 진행하지 마세요."
+                },
+                "creator": {
+                    "successful_payment": {
+                        "header": "안녕하세요 {name}, 결제가 완료되었습니다.",
+                        "body": "{product} 을 구독해 주셔서 감사합니다. 지금 캠페인을 만들고 특별한 기능을 사용해 보세요!"
+                    },
+                    "min_3": {
+                        "header": "안녕하세요 {name}, {product} 이 3일 후에 만료됩니다.",
+                        "body": "구독을 갱신하거나 업그레이드하여 Twibbonize의 독점 기능을 계속 이용하세요."
+                    },
+                    "exp_day": {
+                        "header": "안녕하세요 {name}님, {product}의 구독이 만료되었습니다.",
+                        "body": "{date_plus_7} 이전에 구독을 갱신하거나 업그레이드하여 캠페인 분석 및 모든 독점 기능에 계속 액세스하세요."
+                    },
+                    "plus_5": {
+                        "header": "안녕하세요 {name}, 구독이 48시간 후에 종료됩니다.",
+                        "body": "캠페인 분석에 계속 액세스하려면 48시간 이내에 요금제를 갱신하거나 업그레이드하세요."
+                    },
+                    "plus_7": {
+                        "header": "안녕하세요 {name}, 귀하의 계정이 Twibbonize Free로 다운그레이드되었습니다.",
+                        "body": "{product} 기능을 계속 사용하려면 구독을 갱신하세요."
+                    }
+                },
+                "international": {
+                    "creator": {
+                        "canceled_plan": {
+                            "header": "안녕하세요 {name}님, {product}의 구독이 성공적으로 취소되었습니다.",
+                            "body": "청구 주기가 끝나면 모든 {product} 기능에 액세스할 수 없게 됩니다."
+                        },
+                        "renewed_plan": {
+                            "header": "안녕하세요 {name}, {product} 구독이 성공적으로 갱신되었습니다.",
+                            "body": "{product} 구독 요금은 청구 주기가 끝날 때 청구됩니다."
+                        },
+                        "canceled": {
+                            "exp_day": {
+                                "header": "안녕하세요 {name}, 귀하의 계정이 Twibbonize Free로 다운그레이드되었습니다.",
+                                "body": "{product} 기능을 계속 사용하려면 구독을 갱신하세요."
+                            }
+                        },
+                        "cancel_downgrade": {
+                            "header": "안녕하세요 {name}, 다운그레이드 취소 요청이 접수되었습니다.",
+                            "body": "구독은 Premium Creator 계속 유지됩니다."
+                        },
+                        "convert": {
+                            "header": "안녕하세요 {name}, 귀하의 계정이 Premium Creator 업그레이드되었습니다.",
+                            "body": "축하합니다! 이제 Premium Creator가 되셨습니다. 지금 모든 기능을 즐겨보세요!"
+                        },
+                        "successful_payment": {
+                            "header": "안녕하세요 {name}, 결제가 완료되었습니다.",
+                            "body": "{product} 을 구독해 주셔서 감사합니다. 지금 캠페인을 만들고 특별한 기능을 사용해 보세요!"
+                        },
+                        "exp_day": {
+                            "header": "안녕하세요 {name}님, {product}의 구독이 만료되었습니다.",
+                            "body": "캠페인 분석에 계속 액세스하려면 {date_plus_7} 이전에 청구 정보를 업데이트하세요."
+                        },
+                        "plus_2": {
+                            "header": "안녕하세요 {name}, 구독이 48시간 후에 종료됩니다.",
+                            "body": "캠페인 분석에 계속 액세스하려면 결제 카드를 업데이트하세요."
+                        },
+                        "plus_5": {
+                            "header": "안녕하세요 {name}, 귀하의 계정이 Twibbonize Free로 다운그레이드되었습니다.",
+                            "body": "{product} 기능을 계속 사용하려면 구독을 갱신하세요."
+                        },
+                        "convert_addon": {
+                            "body": "축하합니다! 이제 Premium Creator가 되셨습니다. 지금 모든 기능을 즐겨보세요!",
+                            "header": "안녕하세요 {name}, 귀하의 계정이 Premium Creator 업그레이드되었습니다."
+                        }
+                    },
+                    "auth": {
+                        "exp_day": {
+                            "header": "안녕하세요 {name}, 결제 방법에 인증이 필요합니다.",
+                            "body": "지금 결제 인증을 확인하여 구독을 완료하세요."
+                        }
+                    },
+                    "renewed_plan": {
+                        "header": "안녕하세요 {name}, 갱신 결제가 확인되었습니다.",
+                        "body": "이제 독점 기능을 계속 즐길 수 있습니다!"
+                    },
+                    "downgrade_received": {
+                        "header": "안녕하세요 {name}, 다운그레이드 요청이 접수되었습니다.",
+                        "body": "청구 주기가 끝나면 계정이 {product} 으로 다운그레이드됩니다."
+                    },
+                    "supporter": {
+                        "convert": {
+                            "header": "안녕하세요 {name}, 귀하의 계정이 프리미엄 서포터로 업그레이드되었습니다.",
+                            "body": "축하합니다! 이제 Premium Supporter 되셨습니다. 지금 모든 기능을 즐겨보세요!"
+                        },
+                        "successful_payment": {
+                            "body": "",
+                            "header": "안녕하세요 {name} 님, 결제가 성공적으로 접수되었습니다."
+                        },
+                        "min_3": {
+                            "body": ""
+                        },
+                        "successful": {
+                            "body": "{product} 을 구독해 주셔서 감사합니다. 이제 워터마크 없이 광고 없이 Twibbon을 이용할 수 있습니다!"
+                        },
+                        "exp_day": {
+                            "header": "안녕하세요 {name}님, 결제가 완료되지 않았습니다",
+                            "body": "독점 기능, 광고 없는 브라우징, 워터마크 없는 트위본을 이용하려면 {date_plus_7} 이전에 결제 정보를 업데이트하세요."
+                        },
+                        "plus_2": {
+                            "header": "안녕하세요 {name}, 구독이 48시간 후에 종료됩니다.",
+                            "body": "지금 요금제를 갱신하고 워터마크 없는 Twibbon과 광고 없는 경험을 즐겨보세요."
+                        },
+                        "plus_7": {
+                            "header": "안녕하세요 {name}, 귀하의 계정이 Twibbonize Free로 다운그레이드되었습니다."
+                        },
+                        "canceled": {
+                            "exp_day": {
+                                "header": "안녕하세요 {name}, 귀하의 계정이 Twibbonize Free로 다운그레이드되었습니다.",
+                                "body": "{product} 기능을 계속 사용하려면 구독을 갱신하세요."
+                            }
+                        },
+                        "plus_5": {
+                            "header": "안녕하세요 {name}, 귀하의 계정이 Twibbonize Free로 다운그레이드되었습니다.",
+                            "body": "{product} 기능을 계속 사용하려면 구독을 갱신하세요."
+                        }
+                    },
+                    "period_changed": {
+                        "header": "안녕하세요 {name}님, 요금제 변경 요청을 받았습니다.",
+                        "body": "청구 주기가 끝날 때 계정이 {product}으로 변경됩니다."
+                    },
+                    "cancel_change_period": {
+                        "header": "안녕하세요 {name}님, 요금제 변경 취소 요청을 받았습니다.",
+                        "body": "구독은 Premium Creator 계속 유지됩니다."
+                    }
+                },
+                "india": {
+                    "auth": {
+                        "exp_day": {
+                            "header": "안녕하세요 {name}, 지금 구독 결제를 확인해 주세요.",
+                            "body": "보안 규정 준수를 위해 Twibbonize 정기결제에 대한 귀하의 명시적인 확인이 필요합니다."
+                        }
+                    }
+                },
+                "supporter": {
+                    "successful_payment": {
+                        "body": "이제 워터마크 없이 광고 없이 Twibbon을 이용할 수 있습니다!",
+                        "header": "안녕하세요 {name}, 결제가 완료되었습니다."
+                    },
+                    "exp_day": {
+                        "body": "{date_plus_7} 전에 구독을 갱신하거나 업그레이드하여 독점 기능, 광고 없는 브라우징, 워터마크 없는 Twibbon을 계속 즐기세요.",
+                        "header": "안녕하세요 {name}님, {product}의 구독이 만료되었습니다."
+                    },
+                    "plus_5": {
+                        "body": "48시간 이내에 요금제를 갱신하면 워터마크가 없는 트위본을 광고 없이 계속 이용할 수 있습니다.",
+                        "header": "안녕하세요 {name}, 구독이 48시간 후에 종료됩니다."
+                    },
+                    "min_3": {
+                        "body": "지금 구독을 갱신하거나 업그레이드하여 광고 없는 브라우징과 워터마크 없는 Twibbon을 계속 즐기세요.",
+                        "header": "안녕하세요 {name}, {product} 이 3일 후에 만료됩니다."
+                    },
+                    "plus_7": {
+                        "body": "{product} 기능을 계속 사용하려면 구독을 갱신하세요."
+                    }
+                }
+            },
+            "launch": {
+                "prem_sub": {
+                    "min_1": {
+                        "header": "새로운 Twibbonize Premium 구독",
+                        "body": "7월 8일 출시되는 Twibbonize의 새로운 프리미엄 구독을 소개합니다!"
+                    }
+                },
+                "short_link": {
+                    "min_1": {
+                        "header": "새로운 Twibbonize 쇼트 링크",
+                        "body": "Twibbonize의 새로운 쇼트 링크를 소개합니다 - 7월 8일 변경!"
+                    }
+                }
+            },
+            "campaign_addon": {
+                "adfree_quota_remaining": {
+                    "header": "남은 광고 없는 할당량",
+                    "body": "50명의 서포터에게 {campaignlink}의 광고 없는 할당량이 남아 있습니다. 남은 기간 동안 광고 없는 경험을 즐겨보세요!"
+                },
+                "adfree_quota_runout": {
+                    "header": "광고 없는 할당량이 모두 소진되었습니다.",
+                    "body": "{campaignlink} 서포터는 플랫폼에서 검색하는 동안 광고가 표시되기 시작합니다."
+                }
+            },
+            "new_post": {
+                "header": "새로운 Twibbon 게시",
+                "body": "{participant} 캠페인 {title} 의 갤러리에 트위본을 게시했습니다!"
+            },
+            "new_comment": {
+                "header": "새 댓글!",
+                "body": "{participant}가 캠페인 {title}의 게시물에 댓글을 달았습니다!"
+            },
+            "new_reply": {
+                "header": "새 답글!",
+                "body": "{participant} 캠페인에 댓글을 달았습니다 {title}!"
+            }
+        }
+    },
     "page_analytics": {
         "time": {
             "today": "오늘",
@@ -1490,6 +1781,8 @@
             "lock": "잠금",
             "letter_spacing": "문자 간격",
             "line_spacing": "줄 간격",
+            "border_weight": "",
+            "corner_rounding": "",
             "align": "정렬",
             "effects": "효과"
         },
@@ -1527,7 +1820,6 @@
             "default_colors": "기본 색상"
         }
     },
-    "page_create_campaign.Frame_editor.width": "너비",
     "page__campaign_creation": {
         "campaign_preview": {
             "campaign_description": "",

@@ -406,6 +406,9 @@
             "photos_avoid": "",
             "bad_photo_caption": "",
             "understand": ""
+        },
+        "post_to_twibbonize": {
+            "caption": ""
         }
     },
     "page_checkout": {
@@ -513,6 +516,7 @@
             "no_hole_frame": "Ini bermakna tiada lubang pada bingkai anda. Untuk memberikan lubang yang diperlukan; anda boleh mengikuti {link} ini",
             "help_center_article": "Artikel Pusat Bantuan",
             "understand": "Saya faham",
+            "width": "Lebar",
             "height": "Ketinggian"
         },
         "form": {
@@ -857,6 +861,9 @@
             "campaigns": "Kempen",
             "collections": "Koleksi",
             "posts": ""
+        },
+        "campaign_deletion": {
+            "are_you_sure": "Adakah anda pasti?"
         }
     },
     "page_preference": {
@@ -1277,6 +1284,290 @@
             "paragraph_11": "Sambil kami menerima kapasiti era digital untuk ketersambungan, biarkan Twibbonize terus melukis skrin kami dengan simbol perpaduan, mewujudkan impak yang berkekalan dalam bidang advokasi sosial. Bersama-sama, kami menganyam naratif visual yang melangkaui sempadan, mengulangi komitmen bersama kami kepada dunia yang lebih belas kasihan dan bersatu."
         }
     },
+    "notification": {
+        "push": {
+            "campaign_milestone": {
+                "header": "🏆 {name}, pencapaian baharu dicapai!",
+                "body": "Tahniah! Kempen anda {title} kini mempunyai {amount} penyokong!"
+            },
+            "new_post": {
+                "header": "Twibbon baharu disiarkan",
+                "body": "{participant} menyiarkan Twibbon dalam galeri {title} kempen anda!"
+            },
+            "new_comment": {
+                "header": "Komen baru!",
+                "body": "{participant} mengulas pada siaran anda dalam kempen {title}!"
+            },
+            "account_recap": {
+                "header": "🍺 {name}, inilah ikhtisar mingguan anda!",
+                "body": "Anda memperoleh {amount} penyokong baharu minggu ini. Teruskan!"
+            },
+            "billing": {
+                "creator": {
+                    "successful_payment": {
+                        "header": "Pembayaran anda berjaya",
+                        "body": "Manfaatkan ciri eksklusifnya! Mulakan kempen anda sekarang"
+                    },
+                    "plus_5": {
+                        "header": "Hai {name} , perbaharui langganan anda sekarang",
+                        "body": "Perbaharui atau tingkatkan pelan anda sekarang untuk terus mengakses analitis kempen anda."
+                    }
+                },
+                "international": {
+                    "renewed_plan": {
+                        "header": "Helo {name}, pembayaran pembaharuan anda telah disahkan",
+                        "body": "Kini anda boleh terus menggunakan ciri eksklusif kami!"
+                    },
+                    "creator": {
+                        "successful_payment": {
+                            "header": "Pembayaran anda berjaya",
+                            "body": "Manfaatkan ciri eksklusifnya! Mulakan kempen anda sekarang."
+                        },
+                        "plus_2": {
+                            "header": "Hai {name} , perbaharui langganan anda sekarang",
+                            "body": "Perbaharui atau tingkatkan pelan anda sekarang untuk terus mengakses analitis kempen anda."
+                        }
+                    },
+                    "supporter": {
+                        "successful_payment": {
+                            "header": "Pembayaran anda berjaya",
+                            "body": "Nikmati pengalaman tanpa iklan anda dan dapatkan Twibbons tanpa tera air!"
+                        },
+                        "plus_2": {
+                            "header": "Hai {name} , perbaharui langganan anda sekarang",
+                            "body": "Perbaharui pelan anda sekarang untuk menikmati Twibbon tanpa tera air dan pengalaman tanpa iklan."
+                        }
+                    }
+                },
+                "supporter": {
+                    "successful_payment": {
+                        "body": "Nikmati pengalaman tanpa iklan anda dan dapatkan Twibbons tanpa tera air!",
+                        "header": "Pembayaran anda berjaya"
+                    },
+                    "plus_5": {
+                        "body": "Perbaharui pelan anda sekarang untuk menikmati Twibbon tanpa tera air dan pengalaman tanpa iklan.",
+                        "header": "Hai {name}, perbaharui langganan anda sekarang"
+                    }
+                }
+            },
+            "new_reply": {
+                "header": "Balasan baharu!",
+                "body": "{participant} mengulas pada ulasan anda dalam kempen {title}!"
+            }
+        },
+        "panel": {
+            "campaign_milestone": {
+                "body": "Tahniah! Kempen {title} kini mempunyai {amount} penyokong!",
+                "header": "🏆 {name}, pencapaian baharu dicapai!"
+            },
+            "account_recap": {
+                "body": "Anda telah memperoleh {amount} penyokong baharu pada minggu lalu merentas semua kempen anda. Teruskan kerja hebat!",
+                "header": "🍺 {name} , Inilah imbasan mingguan anda!"
+            },
+            "billing": {
+                "order_received": {
+                    "header": "Helo {name}, sila selesaikan pembayaran anda",
+                    "body": "Terima kasih kerana memesan {product}. Sila teruskan ke pembayaran untuk menyelesaikan transaksi anda."
+                },
+                "order_canceled": {
+                    "header": "Maaf {name}, pesanan {product} anda telah dibatalkan",
+                    "body": "Tolong jangan teruskan pembayaran."
+                },
+                "creator": {
+                    "successful_payment": {
+                        "header": "Helo {name}, bayaran anda telah diterima",
+                        "body": "Terima kasih kerana melanggan {product}. Buat kempen anda sekarang dan gunakan ciri khasnya!"
+                    },
+                    "min_3": {
+                        "header": "Hai {name}, {product} anda akan tamat tempoh dalam masa 3 hari",
+                        "body": "Perbaharui atau tingkatkan langganan anda untuk terus menikmati ciri eksklusif Twibbonize."
+                    },
+                    "exp_day": {
+                        "header": "Helo {name}, langganan {product} anda telah tamat tempoh",
+                        "body": "Baharui atau tingkatkan langganan anda sebelum {date_plus_7} untuk mengekalkan akses kepada analitis kempen dan semua ciri eksklusif."
+                    },
+                    "plus_5": {
+                        "header": "Hai {name}, langganan anda akan ditamatkan dalam masa 48 jam",
+                        "body": "Perbaharui atau tingkatkan pelan anda dalam masa 48 jam untuk mengekalkan akses kepada analitis kempen anda."
+                    },
+                    "plus_7": {
+                        "header": "Hai {name}, akaun anda telah diturunkan taraf kepada Twibbonize Free",
+                        "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri {product}."
+                    }
+                },
+                "international": {
+                    "creator": {
+                        "canceled_plan": {
+                            "header": "Hai {name}, langganan {product} anda telah berjaya dibatalkan",
+                            "body": "Anda akan kehilangan akses kepada semua ciri {product} pada penghujung kitaran pengebilan anda."
+                        },
+                        "renewed_plan": {
+                            "header": "Hai {name}, langganan {product} anda telah berjaya diperbaharui",
+                            "body": "Langganan {product} anda akan dicaj pada penghujung kitaran pengebilan anda."
+                        },
+                        "canceled": {
+                            "exp_day": {
+                                "header": "Hai {name}, akaun anda telah diturunkan taraf kepada Twibbonize Free",
+                                "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri {product} ."
+                            }
+                        },
+                        "cancel_downgrade": {
+                            "header": "Helo {name}, permintaan anda untuk membatalkan penurunan taraf telah diterima",
+                            "body": "Langganan anda akan diteruskan sebagai Premium Creator."
+                        },
+                        "convert": {
+                            "header": "Helo {name}, akaun anda telah dinaik taraf kepada Premium Creator",
+                            "body": "tahniah! Anda kini seorang Premium Creator. Nikmati semua ciri sekarang!"
+                        },
+                        "successful_payment": {
+                            "header": "Helo {name}, bayaran anda telah diterima",
+                            "body": "Terima kasih kerana melanggan {product}. Buat kempen anda sekarang dan gunakan ciri khasnya!"
+                        },
+                        "exp_day": {
+                            "header": "Helo {name}, langganan {product} anda telah tamat tempoh",
+                            "body": "Sila kemas kini maklumat pengebilan anda sebelum {date_plus_7} untuk terus mengakses analitis kempen anda."
+                        },
+                        "plus_2": {
+                            "header": "Hai {name}, langganan anda akan ditamatkan dalam masa 48 jam",
+                            "body": "Sila kemas kini kad pembayaran anda untuk mengekalkan akses kepada analitis kempen anda."
+                        },
+                        "plus_5": {
+                            "header": "Hai {name}, akaun anda telah diturunkan taraf kepada Twibbonize Free",
+                            "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri {product} ."
+                        },
+                        "convert_addon": {
+                            "body": "Tahniah! Anda kini seorang Premium Creator. Nikmati semua ciri sekarang!",
+                            "header": "Helo {name}, akaun anda telah dinaik taraf kepada Premium Creator"
+                        }
+                    },
+                    "auth": {
+                        "exp_day": {
+                            "header": "Hai {name}, kaedah pembayaran anda memerlukan pengesahan",
+                            "body": "Sila sahkan pengesahan pembayaran anda untuk melengkapkan langganan anda sekarang."
+                        }
+                    },
+                    "renewed_plan": {
+                        "header": "Helo {name}, pembayaran pembaharuan anda telah disahkan",
+                        "body": "Kini, anda boleh terus menikmati ciri eksklusif!"
+                    },
+                    "downgrade_received": {
+                        "header": "Helo {name}, permintaan turun taraf anda telah diterima",
+                        "body": "Akaun anda akan diturunkan taraf kepada {product} pada penghujung kitaran pengebilan anda."
+                    },
+                    "supporter": {
+                        "convert": {
+                            "header": "Helo {name} , Akaun anda telah dinaik taraf kepada Penyokong Premium",
+                            "body": "Tahniah! Anda kini seorang Premium Supporter. Nikmati semua ciri sekarang!"
+                        },
+                        "successful_payment": {
+                            "body": "",
+                            "header": "Hai {name}, kami telah berjaya menerima bayaran anda"
+                        },
+                        "min_3": {
+                            "body": ""
+                        },
+                        "successful": {
+                            "body": "Terima kasih kerana melanggan {product}. Kini, anda boleh mendapatkan Twibbon tanpa tera air dan pengalaman tanpa iklan!"
+                        },
+                        "exp_day": {
+                            "header": "Helo {name}, bayaran anda tidak berjaya",
+                            "body": "Sila kemas kini maklumat pengebilan anda sebelum {date_plus_7} untuk menikmati ciri eksklusif, penyemakan imbas tanpa iklan dan Twibbon tanpa tera air."
+                        },
+                        "plus_2": {
+                            "header": "Hai {name}, langganan anda akan ditamatkan dalam masa 48 jam",
+                            "body": "Perbaharui pelan anda sekarang untuk menikmati Twibbon tanpa tera air dan pengalaman tanpa iklan."
+                        },
+                        "plus_7": {
+                            "header": "Hai {name}, akaun anda telah diturunkan taraf kepada Twibbonize Free"
+                        },
+                        "canceled": {
+                            "exp_day": {
+                                "header": "Hai {name}, akaun anda telah diturunkan taraf kepada Twibbonize Free",
+                                "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri {product} ."
+                            }
+                        },
+                        "plus_5": {
+                            "header": "Hai {name}, akaun anda telah diturunkan taraf kepada Twibbonize Free",
+                            "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri {product} ."
+                        }
+                    },
+                    "period_changed": {
+                        "header": "Helo {name}, kami telah menerima permintaan anda untuk menukar pelan anda",
+                        "body": "Akaun anda akan ditukar kepada {product} pada penghujung kitaran pengebilan anda."
+                    },
+                    "cancel_change_period": {
+                        "header": "Helo {name}, kami telah menerima permintaan anda untuk membatalkan perubahan pelan",
+                        "body": "Langganan anda akan diteruskan sebagai Premium Creator."
+                    }
+                },
+                "india": {
+                    "auth": {
+                        "exp_day": {
+                            "header": "Hai {name}, sila sahkan pembayaran anda untuk langganan sekarang",
+                            "body": "Untuk memastikan pematuhan dengan peraturan keselamatan, kami memerlukan pengesahan eksplisit anda untuk pembayaran berulang anda pada langganan Twibbonize anda."
+                        }
+                    }
+                },
+                "supporter": {
+                    "successful_payment": {
+                        "body": "Kini, anda boleh mendapatkan Twibbon tanpa tera air dan pengalaman tanpa iklan!",
+                        "header": "Helo {name}, bayaran anda telah diterima"
+                    },
+                    "exp_day": {
+                        "body": "Perbaharui atau tingkatkan langganan anda sebelum {date_plus_7} untuk terus menikmati ciri eksklusif, penyemakan imbas tanpa iklan dan Twibbon tanpa tera air.",
+                        "header": "Helo {name}, langganan {product} anda telah tamat tempoh"
+                    },
+                    "plus_5": {
+                        "body": "Perbaharui pelan anda dalam masa 48 jam untuk terus menikmati Twibbon tanpa tera air dan pengalaman tanpa iklan.",
+                        "header": "Hai {name}, langganan anda akan ditamatkan dalam masa 48 jam"
+                    },
+                    "min_3": {
+                        "body": "Perbaharui atau tingkatkan langganan anda sekarang untuk terus menikmati penyemakan imbas tanpa iklan dan Twibbon tanpa tera air.",
+                        "header": "Hai {name}, {product} anda akan tamat tempoh dalam masa 3 hari"
+                    },
+                    "plus_7": {
+                        "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri {product} ."
+                    }
+                }
+            },
+            "launch": {
+                "prem_sub": {
+                    "min_1": {
+                        "header": "Langganan Premium Twibbonize Baharu",
+                        "body": "Memperkenalkan Langganan Premium Baharu Twibbonize - Dilancarkan pada 8 Julai!"
+                    }
+                },
+                "short_link": {
+                    "min_1": {
+                        "header": "Pautan Pendek Twibbonize Baharu",
+                        "body": "Memperkenalkan Pautan Pendek Baharu Twibbonize - Menukar 8 Julai!"
+                    }
+                }
+            },
+            "campaign_addon": {
+                "adfree_quota_remaining": {
+                    "header": "Sisa kuota Tanpa Iklan",
+                    "body": "Anda mempunyai baki kuota Tanpa Iklan untuk 50 Penyokong pada {campaignlink}. Nikmati pengalaman Tanpa Iklan selagi ia berlangsung!"
+                },
+                "adfree_quota_runout": {
+                    "header": "Kuota Tanpa Iklan telah habis",
+                    "body": "Penyokong {campaignlink} anda akan mula melihat iklan semasa menyemak imbas di platform kami."
+                }
+            },
+            "new_post": {
+                "header": "Twibbon baharu disiarkan",
+                "body": "{participant} menyiarkan Twibbon dalam galeri {title} kempen anda!"
+            },
+            "new_comment": {
+                "header": "Komen baru!",
+                "body": "{participant} mengulas pada siaran anda dalam kempen {title}!"
+            },
+            "new_reply": {
+                "header": "Balasan baharu!",
+                "body": "{participant} mengulas pada ulasan anda dalam kempen {title} !"
+            }
+        }
+    },
     "page_analytics": {
         "time": {
             "today": "Hari ini",
@@ -1490,6 +1781,8 @@
             "lock": "Kunci",
             "letter_spacing": "Jarak Huruf",
             "line_spacing": "Jarak baris",
+            "border_weight": "",
+            "corner_rounding": "",
             "align": "Selaraskan",
             "effects": "Kesan"
         },
@@ -1527,7 +1820,6 @@
             "default_colors": "Warna Lalai"
         }
     },
-    "page_create_campaign.Frame_editor.width": "Lebar",
     "page__campaign_creation": {
         "campaign_preview": {
             "campaign_description": "",
