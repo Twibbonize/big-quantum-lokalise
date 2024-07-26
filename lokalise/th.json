@@ -308,7 +308,7 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "ยังไม่มีการโพสต์",
-            "uploading_your_photo": "กำลังอัปโหลดรูปภาพของคุณ",
+            "uploading_your_photo": "กำลังอัปโหลดรูปภาพของคุณ!",
             "start_with": "เริ่มกับ ",
             "be_the_first": "เป็นคนแรกที่จะโพสต์การสนับสนุนของคุณที่นี่"
         },
@@ -487,15 +487,15 @@
             "no_stay": "ไม่ อยู่ในหน้านี้ต่อไป"
         },
         "dropzone": {
-            "upload_design": "อัปโหลดการออกแบบของคุณเองที่นี่",
             "type": "พิมพ์:",
             "size": "ขนาด:",
-            "max_file": "สูงสุด 5MB",
             "recommendation": "คำแนะนำ:",
             "image_dimension": "1080x1080px",
             "upload": "ที่อัพโหลด",
-            "backgroundtype": "JPEG\/PNG\/เว็บพี",
-            "imagetype": "PNG"
+            "imagetype": "PNG",
+            "max_file": "",
+            "backgroundtype": "",
+            "upload_design": ""
         },
         "frame_editor": {
             "or_create": "หรือสร้างเฟรมของคุณตอนนี้",
@@ -567,6 +567,11 @@
             "frames": "",
             "campaigns": "",
             "analytics": ""
+        },
+        "blank_design": {
+            "suggested": "",
+            "instagram_story": "",
+            "instagram_post": ""
         }
     },
     "page_for_creators": {
@@ -624,7 +629,22 @@
             "grow_detail": "รับการสนับสนุนมากขึ้นด้วยแคมเปญ Twibbonize: ไม่เพียงแต่ดึงดูดความสนใจ แต่ยังสร้างเอฟเฟกต์แบบ bandwagon ดึงดูดผู้ชมที่เพิ่มมากขึ้นซึ่งไม่อยากพลาดกิจกรรมของคุณ",
             "inspire": "",
             "unite": "",
-            "entertain": ""
+            "entertain": "",
+            "grow": ""
+        },
+        "use_cases": {
+            "heading": "ไอเดียการใช้ Twibbonize สำหรับ",
+            "subheading": "",
+            "corporate": "",
+            "corporate_title": "",
+            "education": "การศึกษา",
+            "education_title": "",
+            "event": "กิจกรรม",
+            "events_title": ""
+        },
+        "testimonials": {
+            "testimonials": "ข้อความรับรอง",
+            "heading": "ได้รับความไว้วางใจจากชื่อที่คุณไว้วางใจ"
         }
     },
     "page_explore": {
@@ -763,8 +783,8 @@
             "use_twibbonize_without_ads_2": "ไม่มีโฆษณา",
             "no_extra_features_1": "ไม่มีคุณสมบัติพิเศษ",
             "no_extra_features_2": "มีอยู่",
-            "remove_all_watermark_1": "ลบลายน้ำ",
-            "remove_all_watermark_2": "ผู้ใช้แคมเปญของคุณทั้งหมด",
+            "remove_all_watermark_1": "ลบลายน้ำจากผู้ใช้แคมเปญทั้งหมดของคุณ",
+            "remove_all_watermark_2": "",
             "remove_own_watermark_1": "ลบลายน้ำ",
             "on": "บน",
             "remove_own_watermark_2": "บัญชีของคุณเอง",
@@ -831,6 +851,12 @@
             "joined": "เข้าร่วมตั้งแต่ {created}",
             "supporters": "ผู้สนับสนุน",
             "campaigns": "แคมเปญ"
+        },
+        "my_profile": {
+            "edit_profile": "",
+            "campaigns": "แคมเปญ",
+            "collections": "คอลเลกชัน",
+            "posts": ""
         }
     },
     "page_preference": {
@@ -1436,7 +1462,11 @@
         },
         "upload": {
             "upload_image": "อัพโหลดรูปภาพ",
-            "upload": "ที่อัพโหลด"
+            "upload": "ที่อัพโหลด",
+            "type": "",
+            "size": "",
+            "type_image": "",
+            "maximum_size": ""
         },
         "toolbar": {
             "copy": "สำเนา",
@@ -1460,7 +1490,8 @@
             "lock": "ล็อค",
             "letter_spacing": "การเว้นวรรคจดหมาย",
             "line_spacing": "ระยะห่างระหว่างบรรทัด",
-            "align": "จัดตำแหน่ง"
+            "align": "จัดตำแหน่ง",
+            "effects": "ผลกระทบ"
         },
         "confirmation": {
             "cancel": "ยกเลิก",
@@ -1496,5 +1527,18 @@
             "default_colors": "สีเริ่มต้น"
         }
     },
-    "page_create_campaign.Frame_editor.width": "ความกว้าง"
+    "page_create_campaign.Frame_editor.width": "ความกว้าง",
+    "page__campaign_creation": {
+        "campaign_preview": {
+            "campaign_description": "",
+            "campaign_title": "ชื่อแคมเปญ"
+        }
+    },
+    "page_my_campaign": {
+        "edit_campaign": {
+            "campaigns": "แคมเปญ",
+            "frames": "",
+            "analytics": ""
+        }
+    }
 }
