@@ -350,7 +350,6 @@
             "report_profile": "Rapporter profil",
             "plagiarism": "Plagiat",
             "sensitive": "Sensitivt innhold",
-            "danger": "Farlig innhold",
             "spam": "Søppelpost",
             "why_report_campaign": "Hvorfor rapporterer du om denne kampanjen?",
             "protect_reporter": "Twibbonize Community Guidelines beskytter personvernet til reporterens identitet.",
@@ -359,7 +358,21 @@
             "received_report": "Vi har mottatt rapporten din!",
             "thankyou": "Takk skal du ha! La oss undersøke rapporten din, så sender vi tilbakemeldingen til e-postadressen din så snart som mulig.",
             "learn_more_about": "Finn ut mer om {link}.",
-            "community_guideline": "Retningslinjer for Twibbonize-fellesskapet"
+            "community_guideline": "Retningslinjer for Twibbonize-fellesskapet",
+            "title": "",
+            "danger": "",
+            "impersonation": "",
+            "piracy": "",
+            "vulgar_language": "",
+            "nudity_pornography": "",
+            "suicidal_self_harm": "",
+            "violent_graphic_content": "",
+            "harassment_cyberbullying": "",
+            "proactive_threatening_content": "",
+            "statement": "",
+            "read_more_copy": "Les mer",
+            "please_select_one": "",
+            "write_a_message": ""
         },
         "discard": {
             "discard_edit": "Forkaste redigeringer?",
@@ -408,7 +421,19 @@
             "understand": ""
         },
         "post_to_twibbonize": {
-            "caption": ""
+            "caption": "",
+            "unpin_post": ""
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": ""
+        },
+        "share_campaign": {
+            "or_share_to": "",
+            "save_share": ""
+        },
+        "post": {
+            "post_uploaded": "",
+            "post_deleted": ""
         }
     },
     "page_checkout": {
@@ -864,6 +889,21 @@
         },
         "campaign_deletion": {
             "are_you_sure": "Er du sikker?"
+        },
+        "campaign": {
+            "delete_campaign": "",
+            "confirm_delete_campaign": ""
+        },
+        "collection": {
+            "delete_collection": "",
+            "confirm_delete_collection": "",
+            "delete_campaign": ""
+        },
+        "report": {
+            "title": "",
+            "abusive_harmful": "",
+            "pretending_someone": "",
+            "sensitive_content": ""
         }
     },
     "page_preference": {
@@ -1284,290 +1324,6 @@
             "paragraph_11": "La Twibbonize fortsette å male skjermene våre med solidaritetssymboler og skape en varig effekt når det gjelder sosialt engasjement, samtidig som vi omfavner den digitale tidsalderens evne til å koble oss opp. Sammen skaper vi en visuell fortelling som overskrider grenser, og som gjenspeiler vårt felles engasjement for en mer medmenneskelig og forent verden."
         }
     },
-    "notification": {
-        "push": {
-            "campaign_milestone": {
-                "header": "🏆 {name}, ny milepæl nådd!",
-                "body": "Gratulerer! Kampanjen din {title} har nå {amount} supportere!"
-            },
-            "new_post": {
-                "header": "Ny Twibbon lagt ut",
-                "body": "{participant} la ut en Twibbon i galleriet til kampanjen din {title}!"
-            },
-            "new_comment": {
-                "header": "Ny kommentar!",
-                "body": "{participant} kommenterte innlegget ditt i kampanjen {title}!"
-            },
-            "account_recap": {
-                "header": "🍺 {name}, her er din ukentlige oppsummering!",
-                "body": "Du har fått {amount} nye supportere denne uken. Fortsett slik!"
-            },
-            "billing": {
-                "creator": {
-                    "successful_payment": {
-                        "header": "Betalingen din var vellykket",
-                        "body": "Dra nytte av de eksklusive funksjonene! Start kampanjen din nå"
-                    },
-                    "plus_5": {
-                        "header": "Hei {name}, fornye abonnementet ditt nå",
-                        "body": "Forny eller oppgrader abonnementet ditt nå for å fortsette å få tilgang til kampanjeanalysene dine."
-                    }
-                },
-                "international": {
-                    "renewed_plan": {
-                        "header": "Hei {name}, fornyelsesbetalingen din er bekreftet",
-                        "body": "Nå kan du fortsette å bruke våre eksklusive funksjoner!"
-                    },
-                    "creator": {
-                        "successful_payment": {
-                            "header": "Betalingen din var vellykket",
-                            "body": "Dra nytte av de eksklusive funksjonene! Start kampanjen din nå."
-                        },
-                        "plus_2": {
-                            "header": "Hei {name}, fornye abonnementet ditt nå",
-                            "body": "Forny eller oppgrader abonnementet ditt nå for å fortsette å få tilgang til kampanjeanalysene dine."
-                        }
-                    },
-                    "supporter": {
-                        "successful_payment": {
-                            "header": "Betalingen din var vellykket",
-                            "body": "Nyt den reklamefrie opplevelsen og få Twibboner uten vannmerker!"
-                        },
-                        "plus_2": {
-                            "header": "Hei {name}, fornye abonnementet ditt nå",
-                            "body": "Forny abonnementet ditt nå for å nyte Twibboner uten vannmerker og en reklamefri opplevelse."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Nyt den reklamefrie opplevelsen og få Twibboner uten vannmerker!",
-                        "header": "Betalingen din var vellykket"
-                    },
-                    "plus_5": {
-                        "body": "Forny abonnementet ditt nå for å nyte Twibboner uten vannmerker og en reklamefri opplevelse.",
-                        "header": "Hei {name}, fornye abonnementet ditt nå"
-                    }
-                }
-            },
-            "new_reply": {
-                "header": "Nytt svar!",
-                "body": "{participant} kommenterte kommentaren din i kampanjen {title}!"
-            }
-        },
-        "panel": {
-            "campaign_milestone": {
-                "body": "Vi gratulerer! Kampanjen {title} har nå {amount} supportere!",
-                "header": "🏆 {name}, ny milepæl nådd!"
-            },
-            "account_recap": {
-                "body": "Du har fått {amount} nye støttespillere i løpet av den siste uken på tvers av alle kampanjene dine. Fortsett det gode arbeidet!",
-                "header": "🍺 {name}, Her er din ukentlige oppsummering!"
-            },
-            "billing": {
-                "order_received": {
-                    "header": "Hei {name}, vennligst fullfør betalingen din",
-                    "body": "Takk for at du bestilte {product}. Vennligst gå videre til betaling for å fullføre transaksjonen."
-                },
-                "order_canceled": {
-                    "header": "Beklager {name}, bestillingen din på {product} er kansellert",
-                    "body": "Vennligst ikke fortsett å betale."
-                },
-                "creator": {
-                    "successful_payment": {
-                        "header": "Hei {name}, betalingen din er mottatt",
-                        "body": "Takk for at du abonnerer på {product}. Opprett kampanjen din nå og bruk de spesielle funksjonene!"
-                    },
-                    "min_3": {
-                        "header": "Hei {name}, din {product} vil utløpe om 3 dager",
-                        "body": "Forny eller oppgrader abonnementet ditt for å fortsette å nyte godt av Twibbonize sine eksklusive funksjoner."
-                    },
-                    "exp_day": {
-                        "header": "Hei {name}, abonnementet ditt på {product} har utløpt",
-                        "body": "Forny eller oppgrader abonnementet ditt før {date_plus_7} for å opprettholde tilgangen til kampanjeanalyser og alle eksklusive funksjoner."
-                    },
-                    "plus_5": {
-                        "header": "Hei {name}, abonnementet ditt vil bli avsluttet om 48 timer",
-                        "body": "Forny eller oppgrader abonnementet ditt innen 48 timer for å opprettholde tilgangen til kampanjeanalysene dine."
-                    },
-                    "plus_7": {
-                        "header": "Hei {name}, kontoen din har blitt nedgradert til Twibbonize Free",
-                        "body": "Forny abonnementet ditt for å fortsette å bruke funksjonene i {product}."
-                    }
-                },
-                "international": {
-                    "creator": {
-                        "canceled_plan": {
-                            "header": "Hei {name}, abonnementet ditt på {product} ble kansellert",
-                            "body": "Du mister tilgangen til alle {product} -funksjoner ved slutten av faktureringssyklusen."
-                        },
-                        "renewed_plan": {
-                            "header": "Hei {name}, abonnementet ditt på {product} ble fornyet.",
-                            "body": "Abonnementet ditt på {product} vil bli belastet ved slutten av faktureringssyklusen."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Hei {name}, kontoen din har blitt nedgradert til Twibbonize Free",
-                                "body": "Forny abonnementet ditt for å fortsette å bruke {product} -funksjonene."
-                            }
-                        },
-                        "cancel_downgrade": {
-                            "header": "Hei {name}, forespørselen din om å avbryte nedgraderingen er mottatt",
-                            "body": "Abonnementet ditt vil fortsette som Premium Creator."
-                        },
-                        "convert": {
-                            "header": "Hei {name}, kontoen din har blitt oppgradert til Premium Creator",
-                            "body": "Vi gratulerer deg! Du er nå en Premium Creator. Nyt alle funksjonene nå!"
-                        },
-                        "successful_payment": {
-                            "header": "Hei {name}, betalingen din er mottatt",
-                            "body": "Takk for at du abonnerer på {product}. Opprett kampanjen din nå og bruk de spesielle funksjonene!"
-                        },
-                        "exp_day": {
-                            "header": "Hei {name}, abonnementet ditt på {product} har utløpt",
-                            "body": "Oppdater faktureringsinformasjonen din før {date_plus_7} for å fortsette å få tilgang til kampanjeanalysene dine."
-                        },
-                        "plus_2": {
-                            "header": "Hei {name}, abonnementet ditt vil bli avsluttet om 48 timer",
-                            "body": "Oppdater betalingskortet ditt for å opprettholde tilgangen til kampanjeanalysene dine."
-                        },
-                        "plus_5": {
-                            "header": "Hei {name}, kontoen din har blitt nedgradert til Twibbonize Free",
-                            "body": "Forny abonnementet ditt for å fortsette å bruke {product} -funksjonene."
-                        },
-                        "convert_addon": {
-                            "body": "Vi gratulerer deg! Du er nå en Premium Creator. Nyt alle funksjonene nå!",
-                            "header": "Hei {name}, kontoen din har blitt oppgradert til Premium Creator"
-                        }
-                    },
-                    "auth": {
-                        "exp_day": {
-                            "header": "Hei {name}, betalingsmåten din trenger autentisering",
-                            "body": "Bekreft betalingsgodkjenningen for å fullføre abonnementet ditt nå."
-                        }
-                    },
-                    "renewed_plan": {
-                        "header": "Hei {name}, fornyelsesbetalingen din er bekreftet",
-                        "body": "Nå kan du fortsette å nyte eksklusive funksjoner!"
-                    },
-                    "downgrade_received": {
-                        "header": "Hei {name}, din nedgraderingsforespørsel er mottatt",
-                        "body": "Kontoen din vil bli nedgradert til {product} ved slutten av faktureringssyklusen."
-                    },
-                    "supporter": {
-                        "convert": {
-                            "header": "Hei {name}, Kontoen din har blitt oppgradert til Premium Supporter",
-                            "body": "Vi gratulerer deg! Du er nå en Premium Supporter. Nyt alle funksjonene nå!"
-                        },
-                        "successful_payment": {
-                            "body": "",
-                            "header": "Hei {name}, vi har mottatt betalingen din"
-                        },
-                        "min_3": {
-                            "body": ""
-                        },
-                        "successful": {
-                            "body": "Takk for at du abonnerer på {product}. Nå kan du få Twibbon uten vannmerker og en reklamefri opplevelse!"
-                        },
-                        "exp_day": {
-                            "header": "Hei {name}, betalingen din gikk ikke gjennom",
-                            "body": "Oppdater faktureringsinformasjonen din før {date_plus_7} for å få eksklusive funksjoner, reklamefri surfing og Twibbon uten vannmerker."
-                        },
-                        "plus_2": {
-                            "header": "Hei {name}, abonnementet ditt vil bli avsluttet om 48 timer",
-                            "body": "Forny abonnementet ditt nå for å nyte Twibboner uten vannmerker og en reklamefri opplevelse."
-                        },
-                        "plus_7": {
-                            "header": "Hei {name}, kontoen din har blitt nedgradert til Twibbonize Free"
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Hei {name}, kontoen din har blitt nedgradert til Twibbonize Free",
-                                "body": "Forny abonnementet ditt for å fortsette å bruke {product} -funksjonene."
-                            }
-                        },
-                        "plus_5": {
-                            "header": "Hei {name}, kontoen din har blitt nedgradert til Twibbonize Free",
-                            "body": "Forny abonnementet ditt for å fortsette å bruke {product} -funksjonene."
-                        }
-                    },
-                    "period_changed": {
-                        "header": "Hei {name}, vi har mottatt forespørselen din om å endre abonnementet ditt",
-                        "body": "Kontoen din vil bli endret til {product} på slutten av faktureringssyklusen din."
-                    },
-                    "cancel_change_period": {
-                        "header": "Hei {name}, vi har mottatt forespørselen din om å kansellere planendringen",
-                        "body": "Abonnementet ditt vil fortsette som Premium Creator."
-                    }
-                },
-                "india": {
-                    "auth": {
-                        "exp_day": {
-                            "header": "Hei {name}, vennligst bekreft betalingen for abonnementet ditt nå",
-                            "body": "For å sikre at vi overholder sikkerhetsforskriftene, krever vi en eksplisitt bekreftelse fra deg for tilbakevendende betaling på Twibbonize-abonnementet ditt."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Nå kan du få Twibbon uten vannmerker og en reklamefri opplevelse!",
-                        "header": "Hei {name}, betalingen din er mottatt"
-                    },
-                    "exp_day": {
-                        "body": "Forny eller oppgrader abonnementet ditt før {date_plus_7} for å fortsette å nyte eksklusive funksjoner, reklamefri surfing og Twibbon uten vannmerker.",
-                        "header": "Hei {name}, abonnementet ditt på {product} har utløpt"
-                    },
-                    "plus_5": {
-                        "body": "Forny abonnementet ditt innen 48 timer for å fortsette å nyte Twibbon uten vannmerker og en reklamefri opplevelse.",
-                        "header": "Hei {name}, abonnementet ditt vil bli avsluttet om 48 timer"
-                    },
-                    "min_3": {
-                        "body": "Forny eller oppgrader abonnementet ditt nå for å fortsette å glede deg over reklamefri surfing og Twibboner uten vannmerker.",
-                        "header": "Hei {name}, din {product} vil utløpe om 3 dager"
-                    },
-                    "plus_7": {
-                        "body": "Forny abonnementet ditt for å fortsette å bruke {product} -funksjonene."
-                    }
-                }
-            },
-            "launch": {
-                "prem_sub": {
-                    "min_1": {
-                        "header": "Nytt Twibbonize Premium-abonnement",
-                        "body": "Vi presenterer Twibbonizes nye premiumabonnementer - lanseres 8. juli!"
-                    }
-                },
-                "short_link": {
-                    "min_1": {
-                        "header": "Ny kort lenke til Twibbonize",
-                        "body": "Vi introduserer Twibbonizes nye kortlenke - endring 8. juli!"
-                    }
-                }
-            },
-            "campaign_addon": {
-                "adfree_quota_remaining": {
-                    "header": "Gjenværende reklamefri kvote",
-                    "body": "Du har reklamefri kvote igjen for 50 supportere på {campaignlink}. Nyt en reklamefri opplevelse så lenge det varer!"
-                },
-                "adfree_quota_runout": {
-                    "header": "Reklamefri kvote er oppbrukt",
-                    "body": "Dine {campaignlink}-supportere vil begynne å se annonser mens de surfer på plattformen vår."
-                }
-            },
-            "new_post": {
-                "header": "Ny Twibbon lagt ut",
-                "body": "{participant} postet en Twibbon i kampanjen din {title}'s galleri!"
-            },
-            "new_comment": {
-                "header": "Ny kommentar!",
-                "body": "{participant} kommenterte innlegget ditt i kampanjen {title}!"
-            },
-            "new_reply": {
-                "header": "Nytt svar!",
-                "body": "{participant} kommenterte kommentaren din i kampanjen {title}!"
-            }
-        }
-    },
     "page_analytics": {
         "time": {
             "today": "I dag",
@@ -1678,12 +1434,9 @@
         "impersonation": "",
         "piracy": "",
         "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
         "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
         "harassment_cyberbullying": "",
         "provocative_threatening_content": "",
-        "spam": "",
         "privacy_violations": "",
         "unauthorized_use_of_personal_information": "",
         "child_exploitation": "",
@@ -1710,13 +1463,13 @@
         "why_report_collection": "",
         "select_one": "",
         "protect_privacy_reporter": "",
-        "read_more": "",
         "tell_us_more": "",
         "received_report": "",
         "thankyou": "",
         "learn_more_about": "",
         "community_guideline": "",
-        "placeholder_write_here": ""
+        "placeholder_write_here": "",
+        "report_sent": ""
     },
     "page_editor": {
         "general": {
@@ -1781,8 +1534,6 @@
             "lock": "Lås",
             "letter_spacing": "Bokstavavstand",
             "line_spacing": "Linjeavstand",
-            "border_weight": "",
-            "corner_rounding": "",
             "align": "Juster",
             "effects": "Effekter"
         },
@@ -1832,5 +1583,50 @@
             "frames": "",
             "analytics": ""
         }
+    },
+    "page_post": {
+        "report": {
+            "title": "",
+            "plagiarism ": "Plagiat",
+            "impersonation ": "",
+            "piracy ": "",
+            "vulgar_language": "",
+            "nudity_pornography": "",
+            "suicidal_self_harm": "",
+            "danger": "",
+            "violent_graphic_content": "",
+            "harassment_cyberbullying": "",
+            "provocative_threatening_content": "",
+            "spam": "Søppelpost"
+        },
+        "report_comment": {
+            "title": "",
+            "abusive_harmful": "",
+            "harassment": "",
+            "terrorism": "",
+            "violence": "",
+            "false_information": "",
+            "health": "",
+            "politics": "",
+            "social_issue": "",
+            "sensitive_content": "",
+            "nudity": "",
+            "vulgar_language": "",
+            "hate_speech": "",
+            "disability_disease": "",
+            "race_or_ethnicity": "",
+            "religious_affiliation": "",
+            "sexual_orientation": "",
+            "spam": "Søppelpost"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": ""
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "",
+        "failed_apple_login": ""
     }
 }

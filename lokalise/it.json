@@ -350,7 +350,6 @@
             "report_profile": "Profilo del rapporto",
             "plagiarism": "Plagio",
             "sensitive": "Contenuti sensibili",
-            "danger": "Contenuto pericoloso",
             "spam": "Spam",
             "why_report_campaign": "Perché segnalate questa campagna?",
             "protect_reporter": "Le linee guida della comunità di Twibbonize proteggono la privacy dell'identità del giornalista.",
@@ -359,7 +358,21 @@
             "received_report": "Abbiamo ricevuto il tuo rapporto!",
             "thankyou": "Grazie! Per favore, permettici di indagare sulla tua segnalazione e invieremo il feedback al tuo indirizzo e-mail il prima possibile.",
             "learn_more_about": "Per saperne di più su {link}.",
-            "community_guideline": "Linee guida della comunità Twibbonize"
+            "community_guideline": "Linee guida della comunità Twibbonize",
+            "title": "",
+            "danger": "",
+            "impersonation": "",
+            "piracy": "",
+            "vulgar_language": "",
+            "nudity_pornography": "",
+            "suicidal_self_harm": "",
+            "violent_graphic_content": "",
+            "harassment_cyberbullying": "",
+            "proactive_threatening_content": "",
+            "statement": "",
+            "read_more_copy": "Per saperne di più",
+            "please_select_one": "",
+            "write_a_message": ""
         },
         "discard": {
             "discard_edit": "Scartare le modifiche?",
@@ -408,7 +421,19 @@
             "understand": ""
         },
         "post_to_twibbonize": {
-            "caption": ""
+            "caption": "",
+            "unpin_post": ""
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": ""
+        },
+        "share_campaign": {
+            "or_share_to": "",
+            "save_share": ""
+        },
+        "post": {
+            "post_uploaded": "",
+            "post_deleted": ""
         }
     },
     "page_checkout": {
@@ -864,6 +889,21 @@
         },
         "campaign_deletion": {
             "are_you_sure": "Sei sicuro?"
+        },
+        "campaign": {
+            "delete_campaign": "",
+            "confirm_delete_campaign": ""
+        },
+        "collection": {
+            "delete_collection": "",
+            "confirm_delete_collection": "",
+            "delete_campaign": ""
+        },
+        "report": {
+            "title": "",
+            "abusive_harmful": "",
+            "pretending_someone": "",
+            "sensitive_content": ""
         }
     },
     "page_preference": {
@@ -1284,290 +1324,6 @@
             "paragraph_11": "Mentre abbracciamo la capacità di connettività dell'era digitale, lasciamo che Twibbonize continui a dipingere i nostri schermi con simboli di solidarietà, creando un impatto duraturo nel campo della difesa sociale. Insieme, tessiamo una narrazione visiva che trascende i confini, facendo eco al nostro impegno condiviso per un mondo più compassionevole e unito."
         }
     },
-    "notification": {
-        "push": {
-            "campaign_milestone": {
-                "header": "🏆 {name}, nuovo traguardo raggiunto!",
-                "body": "Congratulazioni! La tua campagna {title} ha ora {amount} sostenitori!"
-            },
-            "new_post": {
-                "header": "Pubblicato il nuovo Twibbon",
-                "body": "{participant} ha pubblicato un Twibbon nella galleria della tua campagna {title}!"
-            },
-            "new_comment": {
-                "header": "Nuovo commento!",
-                "body": "{participant} ha commentato il suo post nella campagna {title}!"
-            },
-            "account_recap": {
-                "header": "🍺 {name}, ecco il tuo riassunto settimanale!",
-                "body": "Questa settimana hai guadagnato {amount} nuovi sostenitori. Continuate così!"
-            },
-            "billing": {
-                "creator": {
-                    "successful_payment": {
-                        "header": "Il pagamento è andato a buon fine",
-                        "body": "Approfittate delle sue caratteristiche esclusive! Inizia subito la tua campagna"
-                    },
-                    "plus_5": {
-                        "header": "Ciao {name}, rinnova ora il tuo abbonamento",
-                        "body": "Rinnova o aggiorna il tuo piano ora per continuare ad accedere all'analisi delle tue campagne."
-                    }
-                },
-                "international": {
-                    "renewed_plan": {
-                        "header": "Ciao {name}, il pagamento del tuo rinnovo è stato confermato.",
-                        "body": "Ora potete continuare a utilizzare le nostre funzioni esclusive!"
-                    },
-                    "creator": {
-                        "successful_payment": {
-                            "header": "Il pagamento è andato a buon fine",
-                            "body": "Approfittate delle sue caratteristiche esclusive! Inizia subito la tua campagna."
-                        },
-                        "plus_2": {
-                            "header": "Ciao {name}, rinnova ora il tuo abbonamento",
-                            "body": "Rinnova o aggiorna il tuo piano ora per continuare ad accedere all'analisi delle tue campagne."
-                        }
-                    },
-                    "supporter": {
-                        "successful_payment": {
-                            "header": "Il pagamento è andato a buon fine",
-                            "body": "Goditi la tua esperienza senza pubblicità e ottieni Twibbons senza filigrane!"
-                        },
-                        "plus_2": {
-                            "header": "Ciao {name}, rinnova ora il tuo abbonamento",
-                            "body": "Rinnovate ora il vostro piano per godere di Twibbon senza watermark e di un'esperienza priva di pubblicità."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Godetevi la vostra esperienza senza pubblicità e ottenete Twibbons senza filigrane!",
-                        "header": "Il pagamento è andato a buon fine"
-                    },
-                    "plus_5": {
-                        "body": "Rinnovate ora il vostro piano per godere di Twibbon senza watermark e di un'esperienza priva di pubblicità.",
-                        "header": "Ciao {name}, rinnova ora il tuo abbonamento"
-                    }
-                }
-            },
-            "new_reply": {
-                "header": "Nuova risposta!",
-                "body": "{participant} ha commentato il tuo commento nella campagna {title}!"
-            }
-        },
-        "panel": {
-            "campaign_milestone": {
-                "body": "Congratulazioni! La campagna {title} ha ora {amount} sostenitori!",
-                "header": "🏆 {name}, nuovo traguardo raggiunto!"
-            },
-            "account_recap": {
-                "body": "Nell'ultima settimana avete guadagnato {amount} nuovi sostenitori in tutte le vostre campagne. Continuate a lavorare bene!",
-                "header": "🍺 {name}, Ecco il vostro riassunto settimanale!"
-            },
-            "billing": {
-                "order_received": {
-                    "header": "Ciao {name}, per favore completa il tuo pagamento",
-                    "body": "Grazie per aver ordinato {product}. Procedere al pagamento per completare la transazione."
-                },
-                "order_canceled": {
-                    "header": "Spiacente {name}, il tuo ordine di {product} è stato annullato.",
-                    "body": "Non continuare a pagare."
-                },
-                "creator": {
-                    "successful_payment": {
-                        "header": "Ciao {name}, il tuo pagamento è stato ricevuto",
-                        "body": "Grazie per esserti iscritto a {product}. Crea subito la tua campagna e utilizza le sue funzioni speciali!"
-                    },
-                    "min_3": {
-                        "header": "Ciao {name}, il tuo {product} scadrà tra 3 giorni.",
-                        "body": "Rinnovate o aggiornate il vostro abbonamento per continuare a usufruire delle funzioni esclusive di Twibbonize."
-                    },
-                    "exp_day": {
-                        "header": "Ciao {name}, il tuo abbonamento a {product} è scaduto.",
-                        "body": "Rinnova o aggiorna il tuo abbonamento prima del {date_plus_7} per mantenere l'accesso all'analisi delle campagne e a tutte le funzionalità esclusive."
-                    },
-                    "plus_5": {
-                        "header": "Ciao {name}, il tuo abbonamento terminerà tra 48 ore.",
-                        "body": "Rinnova o aggiorna il tuo piano entro 48 ore per mantenere l'accesso all'analisi della tua campagna."
-                    },
-                    "plus_7": {
-                        "header": "Ciao {name}, il tuo conto è stato declassato a Twibbonize Free.",
-                        "body": "Rinnovare l'abbonamento per continuare a utilizzare le funzioni di {product}."
-                    }
-                },
-                "international": {
-                    "creator": {
-                        "canceled_plan": {
-                            "header": "Ciao {name}, il tuo abbonamento a {product} è stato annullato con successo.",
-                            "body": "Perderete l'accesso a tutte le funzioni di {product} alla fine del vostro ciclo di fatturazione."
-                        },
-                        "renewed_plan": {
-                            "header": "Ciao {name}, il tuo abbonamento a {product} è stato rinnovato con successo.",
-                            "body": "L'abbonamento a {product} verrà addebitato alla fine del ciclo di fatturazione."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Ciao {name}, il tuo account è stato declassato a Twibbonize Free.",
-                                "body": "Rinnovare l'abbonamento per continuare a utilizzare le funzioni di {product}."
-                            }
-                        },
-                        "cancel_downgrade": {
-                            "header": "Ciao {name}, la tua richiesta di annullamento del downgrade è stata ricevuta.",
-                            "body": "L'abbonamento continuerà ad essere Premium Creator."
-                        },
-                        "convert": {
-                            "header": "Ciao {name}, il tuo account è stato aggiornato a Premium Creator.",
-                            "body": "Congratulazioni! Ora sei un Premium Creator. Approfitta subito di tutte le funzionalità!"
-                        },
-                        "successful_payment": {
-                            "header": "Ciao {name}, il tuo pagamento è stato ricevuto",
-                            "body": "Grazie per esserti iscritto a {product}. Crea subito la tua campagna e utilizza le sue funzioni speciali!"
-                        },
-                        "exp_day": {
-                            "header": "Ciao {name}, il tuo abbonamento a {product} è scaduto.",
-                            "body": "Si prega di aggiornare i dati di fatturazione prima del {date_plus_7} per continuare ad accedere all'analisi della campagna."
-                        },
-                        "plus_2": {
-                            "header": "Ciao {name}, il tuo abbonamento terminerà tra 48 ore.",
-                            "body": "Si prega di aggiornare la carta di pagamento per mantenere l'accesso alle analisi della campagna."
-                        },
-                        "plus_5": {
-                            "header": "Ciao {name}, il tuo account è stato declassato a Twibbonize Free.",
-                            "body": "Rinnovare l'abbonamento per continuare a utilizzare le funzioni di {product}."
-                        },
-                        "convert_addon": {
-                            "body": "Congratulazioni! Ora sei un Premium Creator. Approfitta subito di tutte le funzionalità!",
-                            "header": "Ciao {name}, il tuo account è stato aggiornato a Premium Creator."
-                        }
-                    },
-                    "auth": {
-                        "exp_day": {
-                            "header": "Ciao {name}, il tuo metodo di pagamento deve essere autenticato.",
-                            "body": "Confermare l'autenticazione del pagamento per completare l'abbonamento."
-                        }
-                    },
-                    "renewed_plan": {
-                        "header": "Ciao {name}, il pagamento del tuo rinnovo è stato confermato.",
-                        "body": "Ora puoi continuare a godere di funzioni esclusive!"
-                    },
-                    "downgrade_received": {
-                        "header": "Ciao {name}, la tua richiesta di downgrade è stata ricevuta.",
-                        "body": "L'account verrà declassato a {product} alla fine del ciclo di fatturazione."
-                    },
-                    "supporter": {
-                        "convert": {
-                            "header": "Ciao {name}, Il tuo account è stato aggiornato a Sostenitore Premium.",
-                            "body": "Congratulazioni! Ora sei un Premium Supporter. Approfitta subito di tutte le funzionalità!"
-                        },
-                        "successful_payment": {
-                            "body": "",
-                            "header": "Salve {name}, abbiamo ricevuto con successo il tuo pagamento."
-                        },
-                        "min_3": {
-                            "body": ""
-                        },
-                        "successful": {
-                            "body": "Grazie per esserti iscritto a {product}. Ora è possibile ottenere Twibbon senza filigrane e un'esperienza priva di pubblicità!"
-                        },
-                        "exp_day": {
-                            "header": "Ciao {name}, il tuo pagamento non è andato a buon fine",
-                            "body": "Aggiorna i tuoi dati di fatturazione prima del {date_plus_7} per usufruire di funzioni esclusive, navigazione senza pubblicità e Twibbon senza filigrana."
-                        },
-                        "plus_2": {
-                            "header": "Ciao {name}, il tuo abbonamento terminerà tra 48 ore.",
-                            "body": "Rinnovate ora il vostro piano per godere di Twibbon senza watermark e di un'esperienza priva di pubblicità."
-                        },
-                        "plus_7": {
-                            "header": "Ciao {name}, il tuo account è stato declassato a Twibbonize Free."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Ciao {name}, il tuo account è stato declassato a Twibbonize Free.",
-                                "body": "Rinnovare l'abbonamento per continuare a utilizzare le funzioni di {product}."
-                            }
-                        },
-                        "plus_5": {
-                            "header": "Ciao {name}, il tuo account è stato declassato a Twibbonize Free.",
-                            "body": "Rinnovare l'abbonamento per continuare a utilizzare le funzioni di {product}."
-                        }
-                    },
-                    "period_changed": {
-                        "header": "Salve {name}, abbiamo ricevuto la tua richiesta di cambio piano",
-                        "body": "Il tuo account passerà a {product} alla fine del ciclo di fatturazione."
-                    },
-                    "cancel_change_period": {
-                        "header": "Salve {name}, abbiamo ricevuto la tua richiesta di annullare il cambio di piano.",
-                        "body": "L'abbonamento continuerà ad essere Premium Creator."
-                    }
-                },
-                "india": {
-                    "auth": {
-                        "exp_day": {
-                            "header": "Ciao {name}, per favore conferma il tuo pagamento per l'abbonamento ora",
-                            "body": "Per garantire la conformità alle norme di sicurezza, richiediamo la tua conferma esplicita per il pagamento ricorrente del tuo abbonamento a Twibbonize."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Ora è possibile ottenere Twibbon senza filigrane e un'esperienza priva di pubblicità!",
-                        "header": "Ciao {name}, il tuo pagamento è stato ricevuto"
-                    },
-                    "exp_day": {
-                        "body": "Rinnova o aggiorna il tuo abbonamento prima di {date_plus_7} per continuare a usufruire di funzioni esclusive, navigare senza pubblicità e Twibbon senza filigrana.",
-                        "header": "Ciao {name}, il tuo abbonamento a {product} è scaduto."
-                    },
-                    "plus_5": {
-                        "body": "Rinnova il tuo piano entro 48 ore per continuare a usufruire di Twibbon senza filigrana e di un'esperienza senza pubblicità.",
-                        "header": "Ciao {name}, il tuo abbonamento terminerà tra 48 ore."
-                    },
-                    "min_3": {
-                        "body": "Rinnova o aggiorna il tuo abbonamento per continuare a navigare senza pubblicità e Twibbon senza filigrana.",
-                        "header": "Ciao {name}, il tuo {product} scadrà tra 3 giorni."
-                    },
-                    "plus_7": {
-                        "body": "Rinnovare l'abbonamento per continuare a utilizzare le funzioni di {product}."
-                    }
-                }
-            },
-            "launch": {
-                "prem_sub": {
-                    "min_1": {
-                        "header": "Nuovo abbonamento Twibbonize Premium",
-                        "body": "Presentazione dei nuovi abbonamenti Premium di Twibbonize: lancio l'8 luglio!"
-                    }
-                },
-                "short_link": {
-                    "min_1": {
-                        "header": "Nuovo link breve Twibbonize",
-                        "body": "Presentazione del nuovo link breve di Twibbonize - Cambiamento l'8 luglio!"
-                    }
-                }
-            },
-            "campaign_addon": {
-                "adfree_quota_remaining": {
-                    "header": "Quota senza pubblicità rimanente",
-                    "body": "È rimasta una quota senza pubblicità per 50 sostenitori su {campaignlink}. Goditi un'esperienza senza pubblicità finché dura!"
-                },
-                "adfree_quota_runout": {
-                    "header": "Quota senza pubblicità si è esaurita",
-                    "body": "I tuoi sostenitori di {campaignlink} inizieranno a vedere annunci pubblicitari mentre navigano sulla nostra piattaforma."
-                }
-            },
-            "new_post": {
-                "header": "Pubblicato il nuovo Twibbon",
-                "body": "{participant} ha pubblicato un Twibbon nella galleria della sua campagna {title}!"
-            },
-            "new_comment": {
-                "header": "Nuovo commento!",
-                "body": "{participant} ha commentato il tuo post nella campagna {title}!"
-            },
-            "new_reply": {
-                "header": "Nuova risposta!",
-                "body": "{participant} ha commentato il tuo commento nella campagna {title}!"
-            }
-        }
-    },
     "page_analytics": {
         "time": {
             "today": "Oggi",
@@ -1678,12 +1434,9 @@
         "impersonation": "",
         "piracy": "",
         "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
         "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
         "harassment_cyberbullying": "",
         "provocative_threatening_content": "",
-        "spam": "",
         "privacy_violations": "",
         "unauthorized_use_of_personal_information": "",
         "child_exploitation": "",
@@ -1710,13 +1463,13 @@
         "why_report_collection": "",
         "select_one": "",
         "protect_privacy_reporter": "",
-        "read_more": "",
         "tell_us_more": "",
         "received_report": "",
         "thankyou": "",
         "learn_more_about": "",
         "community_guideline": "",
-        "placeholder_write_here": ""
+        "placeholder_write_here": "",
+        "report_sent": ""
     },
     "page_editor": {
         "general": {
@@ -1781,8 +1534,6 @@
             "lock": "Blocco",
             "letter_spacing": "Spaziatura tra le lettere",
             "line_spacing": "Interlinea",
-            "border_weight": "",
-            "corner_rounding": "",
             "align": "Allineare",
             "effects": "Effetti"
         },
@@ -1832,5 +1583,50 @@
             "frames": "",
             "analytics": ""
         }
+    },
+    "page_post": {
+        "report": {
+            "title": "",
+            "plagiarism ": "Plagio",
+            "impersonation ": "",
+            "piracy ": "",
+            "vulgar_language": "",
+            "nudity_pornography": "",
+            "suicidal_self_harm": "",
+            "danger": "",
+            "violent_graphic_content": "",
+            "harassment_cyberbullying": "",
+            "provocative_threatening_content": "",
+            "spam": "Spam"
+        },
+        "report_comment": {
+            "title": "",
+            "abusive_harmful": "",
+            "harassment": "",
+            "terrorism": "",
+            "violence": "",
+            "false_information": "",
+            "health": "",
+            "politics": "",
+            "social_issue": "",
+            "sensitive_content": "",
+            "nudity": "",
+            "vulgar_language": "",
+            "hate_speech": "",
+            "disability_disease": "",
+            "race_or_ethnicity": "",
+            "religious_affiliation": "",
+            "sexual_orientation": "",
+            "spam": "Spam"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": ""
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "",
+        "failed_apple_login": ""
     }
 }

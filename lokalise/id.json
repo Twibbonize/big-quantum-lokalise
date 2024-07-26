@@ -308,7 +308,7 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "Belum Ada Postingan",
-            "uploading_your_photo": "unggah foto Anda!",
+            "uploading_your_photo": "mengunggah foto Anda!",
             "start_with": "Mulai dengan ",
             "be_the_first": "Jadilah yang pertama untuk mengirimkan dukungan Anda di sini."
         },
@@ -350,7 +350,6 @@
             "report_profile": "Laporkan Profil",
             "plagiarism": "Plagiarisme",
             "sensitive": "Konten Sensitif",
-            "danger": "Konten Berbahaya",
             "spam": "Spam",
             "why_report_campaign": "Kenapa kamu melaporkan kampanye ini?",
             "protect_reporter": "Pedoman Komunitas Twibbonize melindungi privasi identitas pelapor.",
@@ -359,7 +358,21 @@
             "received_report": "Kami telah menerima laporanmu!",
             "thankyou": "Terima kasih! Kami akan memeriksa laporanmu dan mengirim hasilnya ke emailmu secepatya.",
             "learn_more_about": "Pelajari lebih lanjut tentang {link}",
-            "community_guideline": "Pedoman Komunitas Twibbonize"
+            "community_guideline": "Pedoman Komunitas Twibbonize",
+            "title": "",
+            "danger": "",
+            "impersonation": "",
+            "piracy": "",
+            "vulgar_language": "",
+            "nudity_pornography": "",
+            "suicidal_self_harm": "",
+            "violent_graphic_content": "",
+            "harassment_cyberbullying": "",
+            "proactive_threatening_content": "",
+            "statement": "",
+            "read_more_copy": "Selengkapnya",
+            "please_select_one": "",
+            "write_a_message": ""
         },
         "discard": {
             "discard_edit": "Batalkan perubahan?",
@@ -408,7 +421,19 @@
             "understand": ""
         },
         "post_to_twibbonize": {
-            "caption": ""
+            "caption": "",
+            "unpin_post": ""
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": ""
+        },
+        "share_campaign": {
+            "or_share_to": "",
+            "save_share": ""
+        },
+        "post": {
+            "post_uploaded": "",
+            "post_deleted": ""
         }
     },
     "page_checkout": {
@@ -517,7 +542,7 @@
             "help_center_article": "Artikel Pusat Bantuan",
             "understand": "Saya Mengerti",
             "width": "Lebar",
-            "height": "Tinggi badan"
+            "height": "Tinggi"
         },
         "form": {
             "please_fill_in": "lengkapi data-data yang dibutuhkan di bawah",
@@ -864,6 +889,21 @@
         },
         "campaign_deletion": {
             "are_you_sure": "Kamu yakin?"
+        },
+        "campaign": {
+            "delete_campaign": "",
+            "confirm_delete_campaign": ""
+        },
+        "collection": {
+            "delete_collection": "",
+            "confirm_delete_collection": "",
+            "delete_campaign": ""
+        },
+        "report": {
+            "title": "",
+            "abusive_harmful": "",
+            "pretending_someone": "",
+            "sensitive_content": ""
         }
     },
     "page_preference": {
@@ -1284,290 +1324,6 @@
             "paragraph_11": ""
         }
     },
-    "notification": {
-        "push": {
-            "campaign_milestone": {
-                "header": "🏆 {name}, pencapaian baru, nih!",
-                "body": "Selamat! Kampanye {title} sekarang sudah memiliki {amount} dukungan!"
-            },
-            "new_post": {
-                "header": "Ada postingan Twibbon baru!",
-                "body": "{participant} baru posting Twibbon di galeri {title}!"
-            },
-            "new_comment": {
-                "header": "Ada komentar baru!",
-                "body": "{participant} memberikan komentar di kampanye {title}!"
-            },
-            "account_recap": {
-                "header": "🍺 {name}, ini dia rekapan mingguanmu!",
-                "body": "Kamu telah mendapatkan {amount} dukungan baru dalam minggu ini. Pertahankan, ya!"
-            },
-            "billing": {
-                "creator": {
-                    "successful_payment": {
-                        "header": "Pembayaranmu telah diterima",
-                        "body": "Saatnya mencoba fitur-fitur ekslusif dengan membuat kampanye sekarang!"
-                    },
-                    "plus_5": {
-                        "header": "Hai {name}, perbarui paket berlanggananmu sekarang",
-                        "body": "Perbarui atau upgrade paket berlanggananmu dalam 48 jam untuk tetap mengakses data analitik kampanyemu."
-                    }
-                },
-                "international": {
-                    "renewed_plan": {
-                        "header": "Hai {name}, pembaruan pembayaranmu berhasil",
-                        "body": "Sekarang, kamu bisa lanjut menggunakan fitur eksklusif kami!"
-                    },
-                    "creator": {
-                        "successful_payment": {
-                            "header": "Pembayaranmu telah diterima",
-                            "body": "Saatnya mencoba fitur-fitur eksklusif dengan membuat kampanye sekarang!"
-                        },
-                        "plus_2": {
-                            "header": "Hai {name}, perbarui paket berlanggananmu sekarang",
-                            "body": "Perbarui atau upgrade paket berlanggananmu dalam 48 jam untuk tetap mengakses analisis kampanyemu."
-                        }
-                    },
-                    "supporter": {
-                        "successful_payment": {
-                            "header": "Pembayaranmu telah diterima",
-                            "body": "Dengan {product}, kamu bisa akses Twibbonize tanpa iklan ataupun watermark!"
-                        },
-                        "plus_2": {
-                            "header": "Hai {name}, perbarui paket berlanggananmu sekarang",
-                            "body": "Jangan sampai kehilangan akses Twibbonize tanpa iklan dan Twibbon tanpa watermark."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Dengan {product}, kamu bisa akses Twibbonize tanpa iklan ataupun watermark!",
-                        "header": "Pembayaranmu telah diterima"
-                    },
-                    "plus_5": {
-                        "body": "Jangan sampai kehilangan akses Twibbonize tanpa iklan dan Twibbon tanpa watermark.",
-                        "header": "Hai {name}, perbarui paket berlanggananmu sekarang"
-                    }
-                }
-            },
-            "new_reply": {
-                "header": "Ada yang membalas komentarmu!",
-                "body": "{participant} membalas komentarmu pada kampanye {title}!"
-            }
-        },
-        "panel": {
-            "campaign_milestone": {
-                "body": "Selamat! Kampanye {title} sekarang sudah memiliki {amount} dukungan!",
-                "header": "🏆 {name}, pencapaian baru, nih!"
-            },
-            "account_recap": {
-                "body": "Kamu telah mendapatkan {amount} dukungan baru dalam minggu ini. Pertahankan, ya!",
-                "header": "🍺 {name}, ini dia rekapan mingguanmu!"
-            },
-            "billing": {
-                "order_received": {
-                    "header": "Halo {name}, mohon selesaikan pembayaranmu.",
-                    "body": "Terima kasih sudah memesan {product}. Lakukan pembayaran untuk menyelesaikan pembelian ini."
-                },
-                "order_canceled": {
-                    "header": "Maaf {name}, pemesanan {product}-mu telah dibatalkan",
-                    "body": "Kamu tidak perlu melakukan pembayaran untuk pemesanan ini."
-                },
-                "creator": {
-                    "successful_payment": {
-                        "header": "Halo {name}, pembayaranmu telah diterima",
-                        "body": "Terima kasih sudah berlangganan {product}. Buat kampanye sekarang dan nikmati fitur spesial!"
-                    },
-                    "min_3": {
-                        "header": "Hai {name}, {product} kamu akan berakhir dalam 3 hari",
-                        "body": "Perbarui atau upgrade paket berlanggananmu untuk tetap menggunakan fitur spesial di Twibbonize."
-                    },
-                    "exp_day": {
-                        "header": "Hai {name}, paket berlangganan {product} telah berakhir",
-                        "body": "Perbarui atau upgrade paket berlanggananmu  sebelum {date_plus_7} untuk tetap mengakses data analitik kampanye dan fitur spesial di Twibbonize."
-                    },
-                    "plus_5": {
-                        "header": "Hai {name}, paket berlanggananmu akan berakhir dalam 48 jam",
-                        "body": "Perbarui atau upgrade paket berlanggananmu dalam 48 jam untuk tetap mengakses analisis kampanyemu."
-                    },
-                    "plus_7": {
-                        "header": "Hai {name}, sekarang akun kamu kembali ke Twibbonize Free",
-                        "body": "Perbarui atau upgrade paket berlanggananmu  agar tetap bisa menggunakan fitur {product}."
-                    }
-                },
-                "international": {
-                    "creator": {
-                        "canceled_plan": {
-                            "header": "Hai {name}, paket berlangganan {product} berhasil dibatalkan",
-                            "body": "Kamu akan kehilangan akses untuk menggunakan fitur {product} di akhir periode berlangganan."
-                        },
-                        "renewed_plan": {
-                            "header": "Hai {name}, paket berlangganan {product} kembali aktif",
-                            "body": "Biaya paket berlangganan {product} akan dikenakan di akhir periode berlangganan."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Hai {name}, sekarang akun kamu kembali ke Twibbonize Free",
-                                "body": "Perbarui atau upgrade paket berlanggananmu  agar tetap bisa menggunakan fitur {product}."
-                            }
-                        },
-                        "cancel_downgrade": {
-                            "header": "Hi {name}, permintaan downgrade paket telah dibatalkan",
-                            "body": "Paket berlangganan Premium Creator akan tetap aktif."
-                        },
-                        "convert": {
-                            "header": "Hai {name}, akun kamu telah di-upgrade ke Premium Creator.",
-                            "body": "Selamat! Kamu sekarang Premium Creator. Kini kamu bisa mencoba semua fitur-fiturnya!"
-                        },
-                        "successful_payment": {
-                            "header": "Halo {name}, pembayaranmu telah diterima",
-                            "body": "Terima kasih sudah berlangganan {product}. Buat kampanye sekarang dan nikmati fitur spesial!"
-                        },
-                        "exp_day": {
-                            "header": "Hai {name}, paket berlangganan {product} telah berakhir",
-                            "body": "Silahkan perbarui informasi penagihan kamu sebelum {date_plus_7} untuk tetap mengakses analisis kampanyemu."
-                        },
-                        "plus_2": {
-                            "header": "Hai {name}, paket berlanggananmu akan berakhir dalam 48 jam",
-                            "body": "Perbarui atau upgrade paket berlanggananmu dalam 48 jam untuk tetap mengakses analisis kampanyemu."
-                        },
-                        "plus_5": {
-                            "header": "Hai {name}, sekarang akun kamu kembali ke Twibbonize Free",
-                            "body": "Perbarui atau upgrade paket berlanggananmu agar tetap bisa menggunakan fitur {product}."
-                        },
-                        "convert_addon": {
-                            "body": "Selamat! Kamu sekarang Premium Creator. Kini kamu bisa mencoba semua fitur-fiturnya!",
-                            "header": "Hai {name}, akun kamu telah di-upgrade ke Premium Creator."
-                        }
-                    },
-                    "auth": {
-                        "exp_day": {
-                            "header": "Hi {name}, metode pembayaran yang dipilih memerlukan verifikasi",
-                            "body": "Lakukan verifikasi pembayaran untuk menyelesaikan transaksi ini."
-                        }
-                    },
-                    "renewed_plan": {
-                        "header": "Hi {name}, pembaharuan pembayaranmu berhasil",
-                        "body": "Sekarang, kamu bisa lanjut menggunakan fitur eksklusif!"
-                    },
-                    "downgrade_received": {
-                        "header": "Hi {name}, permintaan downgrade paket berlanggananmu telah diterima",
-                        "body": "Akunmu akan di-downgrade ke {product} pada akhir periode berlangganan."
-                    },
-                    "supporter": {
-                        "convert": {
-                            "header": "Hai {name}, akun kamu telah di-upgrade ke Premium Creator.",
-                            "body": "Selamat! Kamu sekarang Premium Supporter. Kini kamu bisa mencoba semua fitur-fiturnya!"
-                        },
-                        "successful_payment": {
-                            "body": "",
-                            "header": "Halo {name}, pembayaranmu telah diterima"
-                        },
-                        "min_3": {
-                            "body": ""
-                        },
-                        "successful": {
-                            "body": "Dengan {product}, kamu bisa akses Twibbonize tanpa iklan ataupun watermark!"
-                        },
-                        "exp_day": {
-                            "header": "Hai {name}, pembayaran kamu tidak berhasil",
-                            "body": "Silahkan perbarui informasi penagihan Anda sebelum {date_plus_7} untuk menikmati Twibbonize tanpa iklan & watermark."
-                        },
-                        "plus_2": {
-                            "header": "Hai {name}, paket berlanggananmu akan berakhir dalam 48 jam",
-                            "body": "Jangan sampai kehilangan akses Twibbonize tanpa iklan dan Twibbon tanpa watermark."
-                        },
-                        "plus_7": {
-                            "header": "Hai {name}, sekarang akun kamu kembali ke Twibbonize Free"
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Hai {name}, sekarang akun kamu kembali ke Twibbonize Free",
-                                "body": "Perbarui atau upgrade paket berlanggananmu agar tetap bisa menggunakan fitur {product}."
-                            }
-                        },
-                        "plus_5": {
-                            "header": "Hai {name}, sekarang akun kamu kembali ke Twibbonize Free",
-                            "body": "Perbarui atau upgrade paket berlanggananmu agar tetap bisa menggunakan fitur {product}."
-                        }
-                    },
-                    "period_changed": {
-                        "header": "Hai {name}, permintaan perubahan paket berlanggananmu telah diterima",
-                        "body": "Akun akan di ubah ke {product} pada akhir periode berlangganan."
-                    },
-                    "cancel_change_period": {
-                        "header": "Hai {name}, permintaan perubahan paket telah dibatalkan",
-                        "body": "Paket berlangganan Premium Creator akan tetap aktif."
-                    }
-                },
-                "india": {
-                    "auth": {
-                        "exp_day": {
-                            "header": "Hi {name}, mohon konfirmasi pembayaran berlanggananmu sekarang",
-                            "body": "Untuk mematuhi peraturan keamanan, mohon berikan konfirmasi atas pembayaran berkelanjutan untuk paket berlangganan di Twibbonize."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Dengan {product}, kamu bisa menggunakan Twibbonize tanpa iklan ataupun watermark!",
-                        "header": "Halo {name}, pembayaranmu telah diterima"
-                    },
-                    "exp_day": {
-                        "body": "Perbarui atau upgrade paket berlanggananmu  sebelum {date_plus_7} untuk tetap mengakses data analitik kampanye dan fitur spesial di Twibbonize.",
-                        "header": "Hai {name}, paket berlangganan {product} telah berakhir"
-                    },
-                    "plus_5": {
-                        "body": "Perbarui atau upgrade paket berlanggananmu dalam 48 jam untuk tetap mengakses data analitik kampanyemu.",
-                        "header": "Hai {name}, paket berlanggananmu akan berakhir dalam 48 jam"
-                    },
-                    "min_3": {
-                        "body": "Perbarui atau upgrade paket berlanggananmu untuk menikmati Twibbonize tanpa iklan & watermark.",
-                        "header": "Hai {name}, {product} kamu akan berakhir dalam 3 hari"
-                    },
-                    "plus_7": {
-                        "body": "Perbarui atau upgrade paket berlanggananmu agar tetap bisa menggunakan fitur {product}."
-                    }
-                }
-            },
-            "launch": {
-                "prem_sub": {
-                    "min_1": {
-                        "header": "Paket berlangganan Twibbonize Premium",
-                        "body": "Memperkenalkan paket berlangganan baru di Twibbonize - Rilis 8 Juli!"
-                    }
-                },
-                "short_link": {
-                    "min_1": {
-                        "header": "Short Link baru Twibbonize",
-                        "body": "Memperkenalkan Short Link baru - Mulai 8 Juli!"
-                    }
-                }
-            },
-            "campaign_addon": {
-                "adfree_quota_remaining": {
-                    "header": "Sisa kuota bebas iklan",
-                    "body": "Kamu masih memiliki 50 kuota bebas iklan untuk pendukungmu di {campaignlink}. Yuk, manfaatkan sebaik mungkin!"
-                },
-                "adfree_quota_runout": {
-                    "header": "Kuota bebas iklan sudah habis",
-                    "body": "Pendukung kampanye {campaignlink} akan mulai melihat iklan saat mengakses Twibbonize."
-                }
-            },
-            "new_post": {
-                "header": "Ada Twibbon baru!",
-                "body": "{participant} baru membuat Twibbon di galeri {title}!"
-            },
-            "new_comment": {
-                "header": "Ada komentar baru!",
-                "body": "{participant} memberikan komentar di kampanye {title}!"
-            },
-            "new_reply": {
-                "header": "Ada yang membalas komentarmu!",
-                "body": "{participant} membalas komentarmu pada kampanye {title}!"
-            }
-        }
-    },
     "page_analytics": {
         "time": {
             "today": "Hari Ini",
@@ -1678,12 +1434,9 @@
         "impersonation": "",
         "piracy": "",
         "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
         "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
         "harassment_cyberbullying": "",
         "provocative_threatening_content": "",
-        "spam": "",
         "privacy_violations": "",
         "unauthorized_use_of_personal_information": "",
         "child_exploitation": "",
@@ -1710,17 +1463,17 @@
         "why_report_collection": "",
         "select_one": "",
         "protect_privacy_reporter": "",
-        "read_more": "",
         "tell_us_more": "",
         "received_report": "",
         "thankyou": "",
         "learn_more_about": "",
         "community_guideline": "",
-        "placeholder_write_here": ""
+        "placeholder_write_here": "",
+        "report_sent": ""
     },
     "page_editor": {
         "general": {
-            "template": "Template",
+            "template": "Templat",
             "text": "Teks",
             "shape": "Bentuk",
             "image": "Gambar",
@@ -1730,18 +1483,18 @@
             "resize": "Ubah ukuran",
             "save": "Simpan",
             "width": "Lebar",
-            "height": "Tinggi badan",
+            "height": "Tinggi ",
             "transparency": "Transparansi",
-            "line_weight": "Berat Garis",
+            "line_weight": "Tebal Garis",
             "align": "Sejajarkan",
-            "group": "Kelompok",
+            "group": "Kelompokan",
             "ungroup": "Pisahkan kelompok",
-            "unlock": "Membuka kunci",
+            "unlock": "Buka kunci",
             "loading": "Memuat"
         },
         "text": {
-            "add_a_heading": "Menambahkan judul",
-            "add_a_subheading": "Menambahkan subjudul",
+            "add_a_heading": "Tambahkan judul",
+            "add_a_subheading": "Tambahkan subjudul",
             "document_fonts": "Font dokumen",
             "text_effect": "Efek Teks",
             "effects": "Efek",
@@ -1763,31 +1516,29 @@
             "copy": "Salin",
             "paste": "Tempel",
             "duplicate": "Duplikat",
-            "delete": "Menghapus",
+            "delete": "Hapus",
             "layer": "Lapisan",
-            "bring_forward": "Maju",
+            "bring_forward": "Buat Maju",
             "bring_to_front": "Bawa ke Depan",
-            "send_backward": "Kirim Mundur",
-            "send_to_back": "Kirim ke Kembali",
+            "send_backward": "Buat Mundur",
+            "send_to_back": "Pindahkan ke belakang",
             "show_layers": "Tampilkan Lapisan",
             "left": "Kiri",
-            "center": "Pusat",
-            "right": "Benar.",
+            "center": "Tengah",
+            "right": "Kanan",
             "top": "Atas",
             "middle": "Tengah",
             "bottom": "Bawah",
             "set_as_text_template": "Tetapkan sebagai Templat Teks",
             "set_as_background_image": "Tetapkan sebagai Gambar Latar Belakang",
-            "lock": "Mengunci",
+            "lock": "Kunci",
             "letter_spacing": "Spasi Huruf",
             "line_spacing": "Jarak Baris",
-            "border_weight": "",
-            "corner_rounding": "",
             "align": "Sejajarkan",
             "effects": "Efek"
         },
         "confirmation": {
-            "cancel": "Batal",
+            "cancel": "Batalkan",
             "save": "Simpan",
             "has_your_frame_been_completed": "Apakah bingkai Anda sudah selesai?",
             "once_it_save": "Setelah disimpan, pengeditan tidak lagi tersedia"
@@ -1832,5 +1583,50 @@
             "frames": "",
             "analytics": ""
         }
+    },
+    "page_post": {
+        "report": {
+            "title": "",
+            "plagiarism ": "Plagiarisme",
+            "impersonation ": "",
+            "piracy ": "",
+            "vulgar_language": "",
+            "nudity_pornography": "",
+            "suicidal_self_harm": "",
+            "danger": "",
+            "violent_graphic_content": "",
+            "harassment_cyberbullying": "",
+            "provocative_threatening_content": "",
+            "spam": "Spam"
+        },
+        "report_comment": {
+            "title": "",
+            "abusive_harmful": "",
+            "harassment": "",
+            "terrorism": "",
+            "violence": "",
+            "false_information": "",
+            "health": "",
+            "politics": "",
+            "social_issue": "",
+            "sensitive_content": "",
+            "nudity": "",
+            "vulgar_language": "",
+            "hate_speech": "",
+            "disability_disease": "",
+            "race_or_ethnicity": "",
+            "religious_affiliation": "",
+            "sexual_orientation": "",
+            "spam": "Spam"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": ""
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "",
+        "failed_apple_login": ""
     }
 }

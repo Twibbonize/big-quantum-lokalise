@@ -350,7 +350,6 @@
             "report_profile": "報告簡介",
             "plagiarism": "剽窃",
             "sensitive": "敏感内容",
-            "danger": "危险内容",
             "spam": "垃圾邮件",
             "why_report_campaign": "你为什么要举报此活动？",
             "protect_reporter": "Twibbonize 社区准则保护记者身份的隐私。",
@@ -359,7 +358,21 @@
             "received_report": "我们已收到您的报告！",
             "thankyou": "谢谢！请允许我们调查您的报告，我们会尽快将反馈发送到您的电子邮箱。",
             "learn_more_about": "了解有关{link}的更多信息。",
-            "community_guideline": "Twibbonize 社区准则"
+            "community_guideline": "Twibbonize 社区准则",
+            "title": "",
+            "danger": "",
+            "impersonation": "",
+            "piracy": "",
+            "vulgar_language": "",
+            "nudity_pornography": "",
+            "suicidal_self_harm": "",
+            "violent_graphic_content": "",
+            "harassment_cyberbullying": "",
+            "proactive_threatening_content": "",
+            "statement": "",
+            "read_more_copy": "阅读更多",
+            "please_select_one": "",
+            "write_a_message": ""
         },
         "discard": {
             "discard_edit": "放弃编辑？",
@@ -408,7 +421,19 @@
             "understand": ""
         },
         "post_to_twibbonize": {
-            "caption": ""
+            "caption": "",
+            "unpin_post": ""
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": ""
+        },
+        "share_campaign": {
+            "or_share_to": "",
+            "save_share": ""
+        },
+        "post": {
+            "post_uploaded": "",
+            "post_deleted": ""
         }
     },
     "page_checkout": {
@@ -864,6 +889,21 @@
         },
         "campaign_deletion": {
             "are_you_sure": "你确定吗？"
+        },
+        "campaign": {
+            "delete_campaign": "",
+            "confirm_delete_campaign": ""
+        },
+        "collection": {
+            "delete_collection": "",
+            "confirm_delete_collection": "",
+            "delete_campaign": ""
+        },
+        "report": {
+            "title": "",
+            "abusive_harmful": "",
+            "pretending_someone": "",
+            "sensitive_content": ""
         }
     },
     "page_preference": {
@@ -1284,290 +1324,6 @@
             "paragraph_11": "当我们拥抱数字时代的连接能力时，让 Twibbonize 继续在我们的屏幕上描绘团结的象征，在社会倡导领域产生持久影响。我们一起编织一个超越界限的视觉叙事，呼应我们对更加富有同情心和团结的世界的共同承诺。"
         }
     },
-    "notification": {
-        "push": {
-            "campaign_milestone": {
-                "header": "🏆 {name}，达成新的里程碑！",
-                "body": "恭喜！您的活动{title}现在有{amount}位支持者！"
-            },
-            "new_post": {
-                "header": "新 Twibbon 发布",
-                "body": "{participant}在你的活动{title}的画廊中发布了一个 Twibbon！"
-            },
-            "new_comment": {
-                "header": "新评论！",
-                "body": "{participant} 在活动 {title} 中对您的帖子进行了评论！"
-            },
-            "account_recap": {
-                "header": "🍺 {name}，这是您的每周回顾！",
-                "body": "本周您获得了 {amount} 名新支持者。继续加油！"
-            },
-            "billing": {
-                "creator": {
-                    "successful_payment": {
-                        "header": "您的付款已成功",
-                        "body": "充分利用其独有的功能！立即开始您的活动"
-                    },
-                    "plus_5": {
-                        "header": "您好{name} ，立即续订",
-                        "body": "立即续订或升级您的计划以继续访问您的活动分析。"
-                    }
-                },
-                "international": {
-                    "renewed_plan": {
-                        "header": "您好 {name}，您的续订付款已确认",
-                        "body": "现在您可以继续使用我们的独有功能！"
-                    },
-                    "creator": {
-                        "successful_payment": {
-                            "header": "您的付款已成功",
-                            "body": "充分利用其独有的功能！立即开始您的活动"
-                        },
-                        "plus_2": {
-                            "header": "您好{name} ，立即续订",
-                            "body": "立即续订或升级您的计划，以继续访问您的广告系列分析"
-                        }
-                    },
-                    "supporter": {
-                        "successful_payment": {
-                            "header": "您的付款已成功",
-                            "body": "享受无广告体验并获得没有水印的 Twibbon！"
-                        },
-                        "plus_2": {
-                            "header": "您好{name} ，立即续订",
-                            "body": "立即续订您的计划，享受无水印的 Twibbon 和无广告的体验。"
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "享受无广告体验并获得没有水印的 Twibbons！",
-                        "header": "您的付款已成功"
-                    },
-                    "plus_5": {
-                        "body": "立即续订您的计划，享受无水印的 Twibbon 和无广告的体验。",
-                        "header": "您好 {name}，请立即续订"
-                    }
-                }
-            },
-            "new_reply": {
-                "header": "新回覆！",
-                "body": "{participant} 在活动 {title}中对你的评论进行了评论！"
-            }
-        },
-        "panel": {
-            "campaign_milestone": {
-                "body": "恭喜您！活动 {title} 现在有 {amount} 个支持者！",
-                "header": "🏆 {name}，达成新的里程碑！"
-            },
-            "account_recap": {
-                "body": "过去一周，您在所有活动中获得了{amount}新支持者。继续努力！",
-                "header": "🍺 {name} ，这是您的每周回顾！"
-            },
-            "billing": {
-                "order_received": {
-                    "header": "您好{name}，请完成付款",
-                    "body": "感谢您订购{product} 。请继续付款以完成交易。"
-                },
-                "order_canceled": {
-                    "header": "抱歉 {name}, 您的 {product} 订单已被取消",
-                    "body": "请不要继续付款。"
-                },
-                "creator": {
-                    "successful_payment": {
-                        "header": "您好{name}，您的付款已收到",
-                        "body": "感谢您订阅{product}。立即创建您的活动并利用其特殊功能！"
-                    },
-                    "min_3": {
-                        "header": "您好{name} ，您的{product}将在 3 天后过期",
-                        "body": "续订或升级您的订阅以继续享受 Twibbonize 的独有功能。"
-                    },
-                    "exp_day": {
-                        "header": "您好{name}，您的{product}订阅已过期",
-                        "body": "请在{date_plus_7}之前续订或升级您的订阅，以继续访问活动分析和所有独有功能。"
-                    },
-                    "plus_5": {
-                        "header": "您好{name}，您的订阅将在 48 小时后结束",
-                        "body": "在 48 小时内续订或升级您的计划，以保持对您的活动分析的访问。"
-                    },
-                    "plus_7": {
-                        "header": "你好{name}，你的帐户已降级为 Twibbonize Free",
-                        "body": "请续订您的订阅以继续使用 {product} 的功能。"
-                    }
-                },
-                "international": {
-                    "creator": {
-                        "canceled_plan": {
-                            "header": "您好{name}，您的{product}订阅已成功取消",
-                            "body": "在结算周期结束时，您将无法访问所有{product}功能。"
-                        },
-                        "renewed_plan": {
-                            "header": "您好{name}，您的{product}订阅已成功续订",
-                            "body": "您的{product}订阅将在您的结算周期结束时收取费用。"
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "您好{name} ，您的帐户已降级为 Twibbonize Free",
-                                "body": "请续订您的订阅以继续使用{product}功能。"
-                            }
-                        },
-                        "cancel_downgrade": {
-                            "header": "你好{name}，你取消降级的请求已收到",
-                            "body": "您的订阅将继续为Premium Creator。"
-                        },
-                        "convert": {
-                            "header": "您好{name}，您的帐户已升级为 Premium Creator",
-                            "body": "恭喜！您现在已成为Premium Creator。立即享受所有功能！"
-                        },
-                        "successful_payment": {
-                            "header": "您好{name}，您的付款已收到",
-                            "body": "感谢您订阅{product}。立即创建您的活动并利用其特殊功能！"
-                        },
-                        "exp_day": {
-                            "header": "您好{name}，您的{product}订阅已过期",
-                            "body": "请在 {date_plus_7} 之前更新您的账单信息，以便继续访问您的营销活动分析。"
-                        },
-                        "plus_2": {
-                            "header": "您好{name}，您的订阅将在 48 小时后结束",
-                            "body": "请更新您的支付卡以保持对广告活动分析的访问。"
-                        },
-                        "plus_5": {
-                            "header": "您好{name} ，您的帐户已降级为 Twibbonize Free",
-                            "body": "请续订您的订阅以继续使用{product}功能。"
-                        },
-                        "convert_addon": {
-                            "body": "恭喜！您现在已成为Premium Creator。立即享受所有功能！",
-                            "header": "您好{name}，您的帐户已升级为 Premium Creator"
-                        }
-                    },
-                    "auth": {
-                        "exp_day": {
-                            "header": "您好{name}，您的付款方式需要验证",
-                            "body": "请确认您的付款认证以立即完成您的订阅。"
-                        }
-                    },
-                    "renewed_plan": {
-                        "header": "您好{name}，您的续订付款已确认",
-                        "body": "现在，您可以继续享受独家功能！"
-                    },
-                    "downgrade_received": {
-                        "header": "你好{name}，你的降级请求已收到",
-                        "body": "您的帐户将在结算周期结束时降级为{product} 。"
-                    },
-                    "supporter": {
-                        "convert": {
-                            "header": "你好{name} ，你的账户已升级为高级支持者",
-                            "body": "恭喜！您现在是Premium Supporter。立即享受所有功能！"
-                        },
-                        "successful_payment": {
-                            "body": "",
-                            "header": "您好 {name}，我们已成功收到您的付款"
-                        },
-                        "min_3": {
-                            "body": ""
-                        },
-                        "successful": {
-                            "body": "感谢您订阅{product}。现在，您可以获得没有水印的 Twibbon 并享受无广告的体验！"
-                        },
-                        "exp_day": {
-                            "header": "您好{name}，您的付款没有通过",
-                            "body": "请在 {date_plus_7} 之前更新您的账单信息，以享受独家功能、无广告浏览和无水印 Twibbon。"
-                        },
-                        "plus_2": {
-                            "header": "您好{name}，您的订阅将在 48 小时后结束",
-                            "body": "立即续订您的计划，享受无水印的 Twibbon 和无广告的体验。"
-                        },
-                        "plus_7": {
-                            "header": "您好{name} ，您的帐户已降级为 Twibbonize Free"
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "您好{name} ，您的帐户已降级为 Twibbonize Free",
-                                "body": "请续订您的订阅以继续使用{product}功能。"
-                            }
-                        },
-                        "plus_5": {
-                            "header": "您好{name} ，您的帐户已降级为 Twibbonize Free",
-                            "body": "请续订您的订阅以继续使用{product}功能。"
-                        }
-                    },
-                    "period_changed": {
-                        "header": "您好 {name}，我们收到了您更改计划的请求",
-                        "body": "您的帐户将在账单周期结束时更改为 {product}。"
-                    },
-                    "cancel_change_period": {
-                        "header": "您好 {name}，我们已收到您取消计划变更的请求",
-                        "body": "您的订阅将继续作为 Premium Creator。"
-                    }
-                },
-                "india": {
-                    "auth": {
-                        "exp_day": {
-                            "header": "您好{name}，请立即确认您的订阅付款",
-                            "body": "为了确保遵守安全法规，我们需要您明确确认 Twibbonize 订阅的定期付款。"
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "现在，您可以获得没有水印的 Twibbon 并享受无广告的体验！",
-                        "header": "您好{name}，您的付款已收到"
-                    },
-                    "exp_day": {
-                        "body": "请在{date_plus_7}之前续订或升级您的订阅，以继续享受独家功能、无广告浏览和无水印的 Twibbon。",
-                        "header": "您好{name}，您的{product}订阅已过期"
-                    },
-                    "plus_5": {
-                        "body": "在 48 小时内续订您的计划，以继续享受无水印的 Twibbon 和无广告的体验。",
-                        "header": "您好{name}，您的订阅将在 48 小时后结束"
-                    },
-                    "min_3": {
-                        "body": "立即续订或升级您的订阅，以继续享受无广告浏览和无水印的 Twibbon。",
-                        "header": "您好{name}，您的{product}将在 3 天后过期"
-                    },
-                    "plus_7": {
-                        "body": "请续订您的订阅以继续使用{product}功能。"
-                    }
-                }
-            },
-            "launch": {
-                "prem_sub": {
-                    "min_1": {
-                        "header": "新的 Twibbonize Premium 订阅",
-                        "body": "推出 Twibbonize 的新高级订阅 - 7 月 8 日推出！"
-                    }
-                },
-                "short_link": {
-                    "min_1": {
-                        "header": "新的 Twibbonize 短链接",
-                        "body": "介绍 Twibbonize 的新短链接 - 7 月 8 日更改！"
-                    }
-                }
-            },
-            "campaign_addon": {
-                "adfree_quota_remaining": {
-                    "header": "剩余无广告配额",
-                    "body": "您在 {campaignlink} 上还有 50 位支持者的无广告配额。请尽情享受无广告体验！"
-                },
-                "adfree_quota_runout": {
-                    "header": "无广告配额已用完",
-                    "body": "您的{campaignlink}支持者将在浏览我们的平台时开始看到广告。"
-                }
-            },
-            "new_post": {
-                "header": "新 Twibbon 发布",
-                "body": "{participant}在你的活动{title}的画廊中发布了一个 Twibbon！"
-            },
-            "new_comment": {
-                "header": "新评论！",
-                "body": "{participant} 在活动 {title} 中对您的帖子进行了评论！"
-            },
-            "new_reply": {
-                "header": "新回覆！",
-                "body": "{participant} 在活动 {title}中对你的评论进行了评论！"
-            }
-        }
-    },
     "page_analytics": {
         "time": {
             "today": "今天",
@@ -1678,12 +1434,9 @@
         "impersonation": "",
         "piracy": "",
         "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
         "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
         "harassment_cyberbullying": "",
         "provocative_threatening_content": "",
-        "spam": "",
         "privacy_violations": "",
         "unauthorized_use_of_personal_information": "",
         "child_exploitation": "",
@@ -1710,13 +1463,13 @@
         "why_report_collection": "",
         "select_one": "",
         "protect_privacy_reporter": "",
-        "read_more": "",
         "tell_us_more": "",
         "received_report": "",
         "thankyou": "",
         "learn_more_about": "",
         "community_guideline": "",
-        "placeholder_write_here": ""
+        "placeholder_write_here": "",
+        "report_sent": ""
     },
     "page_editor": {
         "general": {
@@ -1781,8 +1534,6 @@
             "lock": "锁",
             "letter_spacing": "字母间距",
             "line_spacing": "行间距",
-            "border_weight": "",
-            "corner_rounding": "",
             "align": "对齐",
             "effects": "效果"
         },
@@ -1832,5 +1583,50 @@
             "frames": "",
             "analytics": ""
         }
+    },
+    "page_post": {
+        "report": {
+            "title": "",
+            "plagiarism ": "剽窃",
+            "impersonation ": "",
+            "piracy ": "",
+            "vulgar_language": "",
+            "nudity_pornography": "",
+            "suicidal_self_harm": "",
+            "danger": "",
+            "violent_graphic_content": "",
+            "harassment_cyberbullying": "",
+            "provocative_threatening_content": "",
+            "spam": "垃圾邮件"
+        },
+        "report_comment": {
+            "title": "",
+            "abusive_harmful": "",
+            "harassment": "",
+            "terrorism": "",
+            "violence": "",
+            "false_information": "",
+            "health": "",
+            "politics": "",
+            "social_issue": "",
+            "sensitive_content": "",
+            "nudity": "",
+            "vulgar_language": "",
+            "hate_speech": "",
+            "disability_disease": "",
+            "race_or_ethnicity": "",
+            "religious_affiliation": "",
+            "sexual_orientation": "",
+            "spam": "垃圾邮件"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": ""
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "",
+        "failed_apple_login": ""
     }
 }
