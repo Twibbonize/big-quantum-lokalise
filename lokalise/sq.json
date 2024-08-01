@@ -35,7 +35,7 @@
             "terms": "Termat & Kushtet",
             "privacy_policy": "Politika e privatësisë",
             "cookie_policy": "Politika e kukive",
-            "sitemap": ""
+            "sitemap": "Harta e faqes"
         },
         "menu": {
             "explore": "Eksploroni",
@@ -47,11 +47,6 @@
             "sign_in": "Hyni",
             "sign_up": "Regjistrohu",
             "sign_out": "Dilni"
-        },
-        "campaign": {
-            "supporters": "përkrahës|mbështetës",
-            "campaigns": "Fushatat",
-            "created": "Krijuar"
         },
         "button": {
             "view_all": "Shiko te gjitha",
@@ -71,11 +66,12 @@
             "report": "Raportoj",
             "edit": "Redakto",
             "confirm": "Konfirmo",
-            "okay": "",
+            "okay": "Mirë",
             "view": "Pamje",
-            "send": "",
-            "more": "",
-            "less": ""
+            "send": "Dërgo",
+            "more": "Më shumë",
+            "less": "Më pak",
+            "submit": "Paraqisni"
         },
         "time": {
             "week": "javë",
@@ -86,9 +82,14 @@
             "annual": "vjetore",
             "yearly": "vjetore"
         },
+        "campaign": {
+            "campaigns": "Fushatat",
+            "created": "Krijuar",
+            "supporters": "përkrahës|mbështetës|mbështetës"
+        },
         "collection": {
             "collections": "Koleksionet",
-            "campaigns": "{campaign} Fushata"
+            "campaigns": "Fushatat {campaign}"
         },
         "creator": {
             "creators": "Krijuesit"
@@ -108,14 +109,21 @@
             "hide_post": "Fshihe postimin",
             "post_shared": "Postimi u nda në {date}",
             "share_message": "Ndani mesazhin tuaj",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "Zhgozhdoni postimin",
+            "unhide_post": "Shfaq postimin"
         },
         "pricing": {
-            "creator_subscribe_to": "",
-            "plan": "",
-            "support_without_watermark": "",
-            "all_supporters_without_watermark": ""
+            "creator_subscribe_to": "Ky Krijues është abonuar në",
+            "plan": "plani",
+            "support_without_watermark": "Ata mund të mbështesin çdo fushatë pa filigranë!",
+            "all_supporters_without_watermark": "Ju mund ta mbështesni të gjithë këtë fushatë të Krijuesit pa filigranë!"
+        },
+        "campaign_card": {
+            "a_month_ago": " |Një muaj më parë",
+            "a_day_ago": " |Një ditë më parë"
+        },
+        "search": {
+            "searching": "Po kërkon..."
         }
     },
     "page_home": {
@@ -262,8 +270,8 @@
         "process": {
             "how_twibbonize_1": "Si revolucionarizojnë Twibbonize",
             "how_twibbonize_2": "Fushata Twibbon",
-            "sharing_twibbon_1": "Ndarja e Twibbon dikur ishte një proces kompleks edhe ne jemi gjithashtu",
-            "sharing_twibbon_2": "jam lodhur ta shpjegoj."
+            "sharing_twibbon_1": "Ndarja e Twibbon dikur ishte një proces kompleks, madje jemi shumë",
+            "sharing_twibbon_2": "të lodhur për t'jua shpjeguar."
         },
         "frame": {
             "twibbon_frame": "Në Twibbonize, Twibbon është më shumë se korniza",
@@ -334,10 +342,10 @@
             "download": "Shkarko",
             "reset": "Rivendos",
             "add_text": "Shto tekst",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": "",
+            "posting_as": "Postimi si ",
+            "not_you": "Jo ju? ",
+            "uploading_photo_to_remove": "Duke ngarkuar foton tuaj dhe duke hequr sfondin e saj.",
+            "wait_for_moment": "Prisni një moment...",
             "remove_watermark_for_you_2": "dhe shijoni imazhet tuaja pa filigranë!",
             "remove_watermark_for_you_1": "Eksploroni Twibbonize pa reklama,",
             "remove_watermark_for_you": "Hiqni filigranin!",
@@ -350,7 +358,6 @@
             "report_profile": "Raporto Profilin",
             "plagiarism": "Plagjiaturë",
             "sensitive": "Përmbajtje e ndjeshme",
-            "danger": "Përmbajtje e rrezikshme",
             "spam": "Të bllokuara",
             "why_report_campaign": "Pse e raportoni këtë fushatë?",
             "protect_reporter": "Udhëzimet e komunitetit Twibbonize mbrojnë privatësinë e identitetit të gazetarit.",
@@ -359,7 +366,21 @@
             "received_report": "Ne kemi marrë raportin tuaj!",
             "thankyou": "Faleminderit! Ju lutemi na lejoni të hetojmë raportin tuaj dhe ne do t'i dërgojmë komentet në emailin tuaj sa më shpejt të jetë e mundur.",
             "learn_more_about": "Mësoni më shumë rreth {link} .",
-            "community_guideline": "Twibbonize Udhëzimet e Komunitetit"
+            "community_guideline": "Twibbonize Udhëzimet e Komunitetit",
+            "title": "Pse po e raportoni këtë fushatë?",
+            "danger": "E rrezikshme ose e dëmshme ",
+            "impersonation": "Imitimi ",
+            "piracy": "Pirateria",
+            "vulgar_language": "Gjuhë vulgare",
+            "nudity_pornography": "Lakuriqësi & Pornografi",
+            "suicidal_self_harm": "Përmbajtja vetëvrasëse dhe vetëdëmtimi ",
+            "violent_graphic_content": "Përmbajtje grafike e dhunshme",
+            "harassment_cyberbullying": "Ngacmimi dhe ngacmimi kibernetik",
+            "proactive_threatening_content": "Përmbajtje provokuese dhe kërcënuese",
+            "statement": "Udhëzimet e komunitetit Twibbonize mbrojnë privatësinë e identitetit të gazetarit.",
+            "read_more_copy": "Lexo më shumë",
+            "please_select_one": "Ju lutemi zgjidhni një",
+            "write_a_message": "Shkruani një mesazh"
         },
         "discard": {
             "discard_edit": "Të hiqen modifikimet?",
@@ -377,9 +398,10 @@
             "supporters": "Mbështetësit",
             "interactions": "Ndërveprimet",
             "visits": "Vizitat",
-            "realtime_estimates": "Vlerësime në kohë reale",
             "last_month": "30 ditët e fundit",
-            "see_more_analytics": "Shikoni më shumë Analitikë"
+            "see_more_analytics": "Shikoni më shumë Analitikë",
+            "realtime_estimates": "Vlerësime në kohë reale nga 30 ditët e fundit",
+            "view_analytics": "Shiko analitikën"
         },
         "pricing": {
             "no_thankyou": "Jo faleminderit"
@@ -400,15 +422,37 @@
             "reply_as_user": "Përgjigju si {user}"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "Ndiqni udhëzimet për rezultatet më të mira!",
+            "good_photo_examples": "Shembuj të mirë fotografish:",
+            "good_photo_caption": "Selfie nga afër, foto portreti, fytyrë e pastër",
+            "photos_avoid": "Fotografitë për të shmangur:",
+            "bad_photo_caption": "Foto me trup të plotë, foto në grup, foto nga mbrapa",
+            "understand": "Unë e kuptoj"
         },
         "post_to_twibbonize": {
-            "caption": ""
+            "caption": "Shkruani një mesazh për këtë fushatë...",
+            "unpin_post": "Zhgozhdoni postimin"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "Rregulloni foton tuaj"
+        },
+        "share_campaign": {
+            "or_share_to": "ose ndaje tek",
+            "save_share": "Ruaj & Ndani"
+        },
+        "post": {
+            "post_uploaded": "Postimi u ngarkua",
+            "post_deleted": "Postimi u fshi",
+            "post_failed_deleted": "Postimi dështoi, u fshi"
+        },
+        "create_campaign": {
+            "custom_field": "Shto një fushë të personalizuar"
+        },
+        "collection": {
+            "sign_up_add_collection": "Regjistrohu në Shto në Koleksion"
+        },
+        "posts": {
+            "has_no_posts": "Ky përdorues nuk ka postuar asgjë në Twibbonize"
         }
     },
     "page_checkout": {
@@ -417,9 +461,8 @@
             "account_update": "Llogaria juaj do të përditësohet, me të gjitha veçoritë e reja të shkyçura"
         },
         "checkout": {
-            "back_to_plans": "Kthehu te Planet",
             "upgrade_to": "Përmirëso në {plan}",
-            "gather_your_supports": "Mblidhni mbështetësit tuaj dhe zgjeroni fushatën tuaj me veçoritë tona ekskluzive.",
+            "gather_your_supports": "Mblidhni mbështetësit tuaj dhe zgjeroni fushatën tuaj me veçoritë tona ekskluzive",
             "billing_option": "Opsioni i faturimit",
             "details": "Detajet",
             "user": "Përdoruesi",
@@ -429,18 +472,19 @@
             "save": "Kurse {percentage} %",
             "pay": "Paguaj {frequency}",
             "checkout_options": "Opsionet e blerjes",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "Rregulloni planin",
+            "current_plan": "Plani aktual",
+            "downgrade": "Ulje",
+            "current_plan_description": "Ju jeni duke abonuar këtë abonim tani",
+            "change_plan_description": "Ju po ndryshoni planin tuaj në {plan} , i cili do të jetë aktiv pasi të përfundojë abonimi aktual.",
+            "downgrade_description": "Ju po ulni planin tuaj në {plan} , i cili do të jetë aktiv pasi të përfundojë abonimi aktual.",
+            "change_plan_confirm": "A je i sigurt?",
+            "upgrade_confirm": "Je i sigurt që dëshiron të përmirësosh?",
+            "downgrade_confirm": "Jeni i sigurt që dëshironi ta ulni planin?",
+            "change_plan_active": "Ai do të jetë aktiv pasi të përfundojë abonimi juaj aktual",
+            "upgrade_active": "Do të jetë aktive sapo të përfundoni pagesën",
+            "downgrade_active": "Ai do të jetë aktiv pasi të përfundojë abonimi juaj aktual",
+            "back_to_plans": "Mbrapa"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -449,14 +493,14 @@
             "use_twibbonize_without_ads": "Përdorni Twibbonize pa reklama",
             "exclusive_features": "Karakteristikat ekskluzive për fushatën tuaj",
             "remove_own_account": "Hiq filigranin për llogarinë tënde",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "Argjendi",
+            "gold": "Ari",
+            "platinum": "Platinum",
+            "watermark_title": "Hiq filigranin",
+            "high_quality_image_title": "Imazh me cilësi të lartë",
+            "ad_free_title": "Pa reklama",
+            "campaign_addon": "Shtesa e fushatës",
+            "on": "në"
         }
     },
     "page_collection": {
@@ -496,9 +540,9 @@
             "image_dimension": "1080x1080px",
             "upload": "Ngarkoni",
             "imagetype": "PNG",
-            "max_file": "",
-            "backgroundtype": "",
-            "upload_design": ""
+            "max_file": "Maksimumi 5 MB",
+            "backgroundtype": "JPEG, PNG ose WEBP",
+            "upload_design": "Ngarkoni dizajnin tuaj këtu"
         },
         "frame_editor": {
             "or_create": "ose krijoni kornizën tuaj tani",
@@ -524,9 +568,9 @@
             "publish": "Publikoni",
             "campaign_details": "Detajet e fushatës",
             "campaign_title": "Titulli i fushatës",
-            "campaign_title_placeholder": "Mund të përbëhet nga numra, alfabete ose karaktere të veçanta.",
+            "campaign_title_placeholder": "Mund të përbëhet nga numra, alfabete ose karaktere të veçanta",
             "campaign_description": "Përshkrim",
-            "campaign_description_placeholder": "Ndani detaje rreth fushatës suaj për të tërhequr vëmendjen dhe për të marrë mbështetje.",
+            "campaign_description_placeholder": "Ndani detaje rreth fushatës suaj për të tërhequr vëmendjen dhe për të marrë mbështetje",
             "campaign_link": "Lidhja e fushatës",
             "campaign_link_placeholder": "fushatë-lidhje",
             "campaign_category": "Kategoria e fushatës",
@@ -545,7 +589,7 @@
             "url_not_available": "URL nuk disponohet",
             "caption_placeholder": "Përshëndetje, emri im është [[Emri yt]] dhe jam gati të mbështes këtë fushatë. Le të mblidhemi dhe të bëjmë një ndikim të vërtetë me këtë fushatë së bashku!",
             "enter_description": "Futni përshkrimin",
-            "optional": ""
+            "optional": "Fakultative"
         },
         "customization": {
             "campaign_customization": "Përshtatja e fushatës",
@@ -568,14 +612,14 @@
             "go_back": "Kthehu mbrapa"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "Korniza",
+            "campaigns": "Fushatat",
+            "analytics": "Analiza"
         },
         "blank_design": {
-            "suggested": "",
-            "instagram_story": "",
-            "instagram_post": ""
+            "suggested": "Sugjeruar",
+            "instagram_story": "Historia në Instagram",
+            "instagram_post": "Postimi në Instagram"
         }
     },
     "page_for_creators": {
@@ -585,8 +629,8 @@
             "purchase_now": "Blini Tani",
             "learn_more": "Mëso më shumë",
             "want_to_create": "Dëshironi të krijoni fushatën tuaj falas?",
-            "try_now": "Provo tani!",
-            "per": "për {time}"
+            "per": "për {time}",
+            "try_now": "Provo tani!"
         },
         "features": {
             "remove_watermark": "Hiq filigranin për të gjithë përdoruesit e fushatës suaj",
@@ -631,20 +675,20 @@
             "unite_detail": "Sillni të gjithë komunitetin e mbështetësve të fushatës suaj në faqen tuaj Twibbonize; ku mbështetësit lidhen dhe ju shikoni ndikimin!",
             "entertain_detail": "Twibbonize angazhon mbështetësit tuaj duke ofruar një Twibbon virtual të ndashëm për mediat sociale dhe mesazhet",
             "grow_detail": "Fitoni më shumë mbështetje me një fushatë Twibbonize: jo vetëm që tërheq vëmendjen, por gjithashtu krijon një efekt bandwagon, duke tërhequr një audiencë në rritje që nuk dëshiron të humbasë kauzën tuaj.",
-            "inspire": "",
-            "unite": "",
-            "entertain": "",
-            "grow": ""
+            "inspire": "Frymëzoni ",
+            "unite": "Bashkohuni",
+            "entertain": "Argëtoni",
+            "grow": "Rriten"
         },
         "use_cases": {
             "heading": "Ide për të përdorur Twibbonize",
-            "subheading": "",
-            "corporate": "",
-            "corporate_title": "",
+            "subheading": "Filloni eksplorimin tuaj me shembuj të zgjedhur me dorë nga 5,000,000+ fushatat tona Twibbonize",
+            "corporate": "Korporata",
+            "corporate_title": "Përdorni fuqinë e bollëkut të personelit dhe klientëve tuaj",
             "education": "Arsimi",
-            "education_title": "",
+            "education_title": "Është një mënyrë argëtuese për të shtuar procesin e të mësuarit",
             "event": "Ngjarjet",
-            "events_title": ""
+            "events_title": "Zbuloni ngjarjen tuaj me fuqinë e viralitetit të menjëhershëm"
         },
         "testimonials": {
             "testimonials": "Dëshmitë",
@@ -688,8 +732,8 @@
             "proud_partner": "Ne jemi krenarë që bashkëpunojmë me njerëz që janë thellësisht të lidhur me misionin tonë"
         },
         "honorary": {
-            "honorary_mentions": "",
-            "significant_contributions": ""
+            "honorary_mentions": "Përmendje Nderi",
+            "significant_contributions": "Ata që dhanë kontribut të rëndësishëm në zhvillimin tonë"
         }
     },
     "page_pricing": {
@@ -706,8 +750,8 @@
             "private_campaign_1": "Privat",
             "private_campaign_2": "Fushata",
             "offer_exclusively": "Ofroni ekskluzivitet për mbështetësit tuaj",
-            "campaign_customization_1": "Fushata",
-            "campaign_customization_2": "Përshtatje",
+            "campaign_customization_1": "Përshtatja e",
+            "campaign_customization_2": "fushatës",
             "personalize_campaign": "Personalizoni faqen tuaj të fushatës",
             "multiple_frames_1": "Twibbon e shumëfishtë",
             "multiple_frames_2": "për fushatë",
@@ -715,9 +759,9 @@
             "top_notch": "Përmirësoni lojën tuaj të fushatës",
             "considering_all": "Duke marrë parasysh të gjitha lehtësitë, ia vlen",
             "remove_watermark_1": "Hiq",
-            "remove_watermark_2": "Filigram",
+            "remove_watermark_2": "filigranin",
             "for_audience_1": "për",
-            "for_audience_2": "ju dhe audienca juaj",
+            "for_audience_2": "ty dhe audiencën tënde",
             "as_a_free_user": "Si përdorues falas, Twibbon juaj gjithmonë përmban <strong> një filigran. <\/strong>",
             "premium_supporter": "<strong> Premium Creator <\/strong> heq filigranin për një imazh më të pastër.",
             "now_you_can": "Tani mund të <strong> mbështesni çdo fushatë <\/strong> pa filigranë."
@@ -736,9 +780,9 @@
             "premium_supporter": "<strong> Premium Supporter <\/strong> heq filigranin për një imazh më të pastër.",
             "now_you_can": "Tani mund të <strong> mbështesni çdo fushatë <\/strong> pa filigranë.",
             "remove_watermark_1": "Hiq",
-            "remove_watermark_2": "Filigram",
+            "remove_watermark_2": "filigranin",
             "for_audience_1": "për",
-            "for_audience_2": "llogarinë tuaj",
+            "for_audience_2": "llogarinë tënde",
             "looking_to_remove": "Po kërkoni të hiqni filigranin për të gjithë përdoruesit e fushatës suaj? Provoni"
         },
         "upgrade": {
@@ -772,15 +816,15 @@
             "notes": "Shënime",
             "print": "Shkarkoni faturën",
             "if_you_would_like_to_change": "Nëse dëshironi të ndryshoni abonimin ose informacionin tuaj të pagesës, drejtohuni te cilësimet tuaja të faturimit",
-            "ending_in": ""
+            "ending_in": "{card} që mbaron me {number}"
         },
         "bento": {
             "campaign_analytics_1": "Fushata",
             "campaign_analytics_2": "Analitikë",
             "private_campaign_1": "Privat",
             "private_campaign_2": "Fushata",
-            "campaign_customization_1": "Fushata",
-            "campaign_customization_2": "Përshtatje",
+            "campaign_customization_1": "Përshtatja e",
+            "campaign_customization_2": "fushatës",
             "multiple_frames_1": "Korniza të shumta",
             "multiple_frames_2": "për fushatë",
             "use_twibbonize_without_ads_1": "Përdorni Twibbonize",
@@ -828,6 +872,9 @@
         },
         "card_premium_creator": {
             "subheading": "Për njerëzit që kanë nevojë për përvojën përfundimtare të Twibbonize"
+        },
+        "same_plan": {
+            "adjust_plan": "Rregulloni planin"
         }
     },
     "page_profile": {
@@ -835,17 +882,17 @@
             "search_campaigns": "Kërkoni fushatat",
             "no_campaigns": "Nuk ka ende fushata",
             "no_campaigns_details": "Krijoni një fushatë dhe shpërndajeni për t'u bërë twibbonize.",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "Jeni i sigurt që do ta fshini këtë fushatë?",
+            "delete_detail": "Fshirja e \" {title} \" do të jetë e përhershme dhe nuk mund të zhbëhet.",
+            "delete_campaign": "Fshi fushatën"
         },
         "posts": {
             "no_posts": "Ende nuk ka postime",
-            "no_post_details": "Gjeni një fushatë dhe postoni twibbon tuaj në Twibbonize."
+            "no_post_details": "Gjeni një fushatë dhe postoni twibbon tuaj në Twibbonize"
         },
         "collections": {
             "no_collections": "Organizoni fushatat tuaja të preferuara",
-            "no_collections_details": "Në faqen e fushatës, thjesht klikoni butonin e ikonës {icon} për të ruajtur fushatat që ju duken interesante në koleksionet tuaja."
+            "no_collections_details": "Klikoni në ikonën {icon} në çdo fushatë për të ruajtur fushatën në koleksionet tuaja"
         },
         "about": {
             "about": "Rreth",
@@ -857,13 +904,32 @@
             "campaigns": "Fushatat"
         },
         "my_profile": {
-            "edit_profile": "",
+            "edit_profile": "Redakto profilin",
             "campaigns": "Fushatat",
             "collections": "Koleksionet",
-            "posts": ""
+            "posts": "Postimet"
         },
         "campaign_deletion": {
             "are_you_sure": "A je i sigurt?"
+        },
+        "campaign": {
+            "delete_campaign": "Fshirja e \" {campaign_name} \" do të jetë e përhershme dhe nuk mund të zhbëhet.",
+            "confirm_delete_campaign": "Fshi fushatën"
+        },
+        "collection": {
+            "delete_collection": "Koleksioni \" {collection_name} \" do të fshihet përgjithmonë.",
+            "confirm_delete_collection": "Fshi Koleksionin",
+            "delete_campaign": "Fushata \" {campaign_name} \" do të hiqet përgjithmonë nga koleksioni \" {collection_name} \"",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "Pse po e raportoni këtë profil?",
+            "abusive_harmful": "Abuzive ose e dëmshme",
+            "pretending_someone": "Duke pretenduar se jeni dikush tjetër",
+            "sensitive_content": "Përmbajtje e ndjeshme"
+        },
+        "account": {
+            "email_changed": "Email-i juaj ka ndryshuar së fundi. Mund ta përditësoni sërish pas 90 ditësh."
         }
     },
     "page_preference": {
@@ -907,55 +973,55 @@
             "adfree": "Pa reklama",
             "highquality": "Cilesi e larte",
             "nowatermark": "Nuk ka ujëra",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "I paguar",
+            "are_you_sure_change": "A je i sigurt?",
+            "active_after_subscription": "Ai do të jetë aktiv pasi të përfundojë abonimi juaj aktual",
+            "are_you_sure_upgrade": "Je i sigurt që dëshiron të përmirësosh?",
+            "plan_changing_info": "Kalo te {package} e marrë. Plani i ri fillon pasi të përfundojë ai aktual",
+            "active_after_payment": "Do të jetë aktive sapo të përfundoni pagesën",
+            "are_you_sure_downgrade": "Je i sigurt që dëshiron ta ulësh planin?",
+            "plan_downgrade_info": "Ulja në {package} u mor. Plani i ri fillon pasi të përfundojë ai aktual",
+            "renew_plan": "Rinovoni planin",
+            "renew_subscription": "Rinovo Abonimin",
+            "upgrade_now": "Përmirëso tani",
+            "warning": "Paralajmërim!",
+            "important": "E rëndësishme!",
+            "premium_expired": "Plani yt i krijuesit Premium ka skaduar. Ju lutemi rinovoni deri në {date}",
+            "last_attempted": "Akuzat tona të fundit në tentativë ishin të pasuksesshme. Përditëso mënyrën tënde të pagesës.",
+            "renewal_date": "Data e rinovimit",
+            "payment_method": "Metoda e pagesës",
+            "update_now": "Përditëso tani",
+            "cancel_subscription": "Anulo abonimin",
+            "change_payment_method": "Ndryshoni mënyrën e pagesës",
+            "card_end_with": "{card} që mbaron me {number}",
+            "no_transactions": "Nuk ka ende histori transaksionesh",
+            "transactions_will_shown": "Historia juaj e transaksioneve do të shfaqet këtu sapo të bëhet e disponueshme",
+            "are_you_sure": "A je i sigurt?",
+            "once_cancel_plan": "Pasi të anuloni planin, do të humbni qasjen në të gjitha veçoritë tuaja të përmirësuara në fund të ciklit të faturimit",
+            "yes_cancel_plan": "Po, Anulo planin",
+            "no_keep_plan": "Jo, Mbaje planin",
+            "once_renew_plan": "Pasi të rinovoni planin, plani juaj do të jetë sërish aktiv",
+            "yes_renew_plan": "Po, Rinovo planin",
+            "no_cancel": "Jo, Anulo",
+            "if_cancel_downgrade": "Nëse e anuloni uljen, plani juaj aktual do të jetë sërish aktiv",
+            "yes_downgrade": "Po, Vazhdo Degradimin",
+            "if_cancel_change_billing": "Nëse anuloni ndryshimin e faturimit, plani juaj aktual do të jetë sërish aktiv",
+            "yes_continue": "Po, Vazhdo",
+            "info": "Informacion",
+            "your_request_cancel": "Kërkesa juaj për të anuluar planin tuaj {plan} është marrë. Ai do të përfundojë në ciklin e ardhshëm të faturimit",
+            "your_request_downgrade": "Kërkesa juaj për të zbritur në {plan} është marrë. Plani juaj i ri do të aktivizohet sapo të përfundojë plani aktual.",
+            "cancel_downgrade": "Anulo uljen",
+            "cancel_change": "Anulo Ndrysho faturimin",
+            "your_request_billing": "Kërkesa juaj për të ndryshuar faturimin në {plan} është marrë. Plani juaj i ri do të aktivizohet sapo të përfundojë plani aktual.",
+            "manage_inapp": "Menaxhoni abonimin tuaj në aplikacionin Twibbonize {appOs}",
+            "manage_inapp_subscription": "Për të menaxhuar abonimin tuaj në Twibbonize në {appOs} , hapni aplikacionin, shkoni te \"Cilësimet\" dhe zgjidhni \"Faturimi\".",
+            "success_cancel_subscription": "Anulo abonimin me sukses",
+            "success_renew_subscription": "Rinovo abonimin me sukses",
+            "success_change_subscription": "Abonimi i ndryshimit të suksesshëm",
+            "success_cancel_change_subscription": "Sukses Anulo abonimin Ndrysho",
+            "last_attempted_authentication": "Akuzat tona të fundit në tentativë ishin të pasuksesshme. Pagesa juaj ka nevojë për vërtetim.",
+            "authenticate_now": "Vërtetojeni Tani",
+            "recurring_payment": "Ne kërkojmë konfirmimin tuaj të qartë për pagesën tuaj të përsëritur. Ju lutem kontrolloni emailin tuaj"
         },
         "account": {
             "update_email": "Përditëso emailin",
@@ -985,19 +1051,19 @@
             "confirm_password": "Konfirmo fjalëkalimin",
             "create_new_password": "Krijo një fjalëkalim të ri",
             "make_it_easy": "Bëjeni të lehtë për ju të mbani mend dhe mbajeni të fshehtë nga kushdo!",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "Shto email",
+            "add_password": "Shto fjalëkalim",
+            "cant_remove_account": "Mos, nuk mund ta heqim llogarinë tënde në rrjetet sociale.",
+            "set_up_email": "Së pari duhet të vendosni emailin ose fjalëkalimin për të hequr llogarinë tuaj të mediave sociale.",
+            "want_to_remove": "Dëshironi të hiqni llogarinë tuaj në rrjetet sociale?",
+            "your_account_will_be_removed": "Llogaria juaj {provider} do të hiqet. Kliko \"kupto\" për të hequr llogaritë e tua të mediave sociale.",
+            "continue_to_revoke": "Vazhdoni të revokoni ",
+            "revoke_success": "Revoko me sukses llogarinë {provider}",
+            "cannot_update_email": "Mos, nuk mund ta përditësojmë email-in tuaj",
+            "setup_password_to_update_email": "Duhet të vendosni një fjalëkalim përpara se të përditësoni emailin tuaj.",
+            "email_change_request": "Kërkesa për ndryshimin e emailit u anulua",
+            "we_have_sent_password": "Ne kemi dërguar udhëzime për rivendosjen e fjalëkalimit në emailin tuaj. Ju lutemi rivendosni fjalëkalimin tuaj brenda 1 ore për arsye sigurie.",
+            "go_to_homepage": "Shkoni te Faqja kryesore"
         },
         "notifications": {
             "notifications_settings": "Cilësimet e njoftimeve",
@@ -1015,10 +1081,10 @@
             "article": "Artikuj",
             "article_details": "Do të merrni artikujt tanë të rekomanduar.",
             "toggle_all": "Të gjitha",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "Posto në Twibbonize",
+            "post_twibbonize_details": "Merrni njoftime për postimin e mbështetësit në një faqe fushate.",
+            "account_recap": "Përmbledhje e llogarisë",
+            "account_recap_details": "Përmbledhje javore e mbështetësve dhe vizitave për të gjitha fushatat tuaja"
         },
         "package": {
             "free": "Falas",
@@ -1284,290 +1350,6 @@
             "paragraph_11": "Ndërsa përqafojmë kapacitetin e epokës dixhitale për lidhje, le Twibbonize të vazhdojë të pikturojë ekranet tona me simbole solidariteti, duke krijuar një ndikim të qëndrueshëm në fushën e avokimit social. Së bashku, ne thurim një rrëfim vizual që i kapërcen kufijtë, duke i bërë jehonë angazhimit tonë të përbashkët për një botë më të dhembshur dhe të bashkuar."
         }
     },
-    "notification": {
-        "push": {
-            "campaign_milestone": {
-                "header": "🏆 {name}, u arrit një moment i ri!",
-                "body": "Urime! Fushata juaj {title} tani ka {amount} mbështetës!"
-            },
-            "new_post": {
-                "header": "Twibbon i ri u postua",
-                "body": "{participant} postoi një Twibbon në galerinë e fushatës suaj {title} !"
-            },
-            "new_comment": {
-                "header": "Koment i ri!",
-                "body": "{participant} komentoi postimin tuaj në fushatën {title}!"
-            },
-            "account_recap": {
-                "header": "🍺 {name}, ja përmbledhja juaj javore!",
-                "body": "Ju fituat {amount} mbështetës të rinj këtë javë. Vazhdo kështu!"
-            },
-            "billing": {
-                "creator": {
-                    "successful_payment": {
-                        "header": "Pagesa juaj ishte e suksesshme",
-                        "body": "Përfitoni nga veçoritë e tij ekskluzive! Filloni fushatën tuaj tani"
-                    },
-                    "plus_5": {
-                        "header": "Përshëndetje {name} , rinovoni tani abonimin tuaj",
-                        "body": "Rinovoni ose përmirësoni planin tuaj tani për të vazhduar qasjen në analitikën e fushatës suaj."
-                    }
-                },
-                "international": {
-                    "renewed_plan": {
-                        "header": "Përshëndetje {name}, pagesa juaj e rinovimit është konfirmuar",
-                        "body": "Tani mund të vazhdoni të përdorni veçoritë tona ekskluzive!"
-                    },
-                    "creator": {
-                        "successful_payment": {
-                            "header": "Pagesa juaj ishte e suksesshme",
-                            "body": "Përfitoni nga veçoritë e tij ekskluzive! Filloni fushatën tuaj tani."
-                        },
-                        "plus_2": {
-                            "header": "Përshëndetje {name} , rinovoni tani abonimin tuaj",
-                            "body": "Rinovoni ose përmirësoni planin tuaj tani për të vazhduar qasjen në analitikën e fushatës suaj."
-                        }
-                    },
-                    "supporter": {
-                        "successful_payment": {
-                            "header": "Pagesa juaj ishte e suksesshme",
-                            "body": "Shijoni përvojën tuaj pa reklama dhe merrni Twibbon pa filigranë!"
-                        },
-                        "plus_2": {
-                            "header": "Përshëndetje {name} , rinovoni tani abonimin tuaj",
-                            "body": "Rinovoni planin tuaj tani për të shijuar Twibbon pa filigranë dhe një përvojë pa reklama."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Shijoni përvojën tuaj pa reklama dhe merrni Twibbons pa filigranë!",
-                        "header": "Pagesa juaj ishte e suksesshme"
-                    },
-                    "plus_5": {
-                        "body": "Rinovoni planin tuaj tani për të shijuar Twibbon pa filigranë dhe një përvojë pa reklama.",
-                        "header": "Përshëndetje {name}, rinovoni tani abonimin tuaj"
-                    }
-                }
-            },
-            "new_reply": {
-                "header": "Përgjigje e re!",
-                "body": "{participant} komentoi komentin tuaj në fushatën {title}!"
-            }
-        },
-        "panel": {
-            "campaign_milestone": {
-                "body": "Urime! Fushata {title} tani ka {amount} mbështetës!",
-                "header": "🏆 {name}, u arrit një moment i ri!"
-            },
-            "account_recap": {
-                "body": "Ju keni fituar {amount} mbështetës të rinj javën e kaluar në të gjitha fushatat tuaja. Vazhdoni punën e madhe!",
-                "header": "🍺 {name} , Ja përmbledhja juaj javore!"
-            },
-            "billing": {
-                "order_received": {
-                    "header": "Përshëndetje {name}, ju lutemi plotësoni pagesën tuaj",
-                    "body": "Faleminderit që porositët {product}. Ju lutemi vazhdoni me pagesën për të përfunduar transaksionin tuaj."
-                },
-                "order_canceled": {
-                    "header": "Na vjen keq {name}, porosia juaj {product} është anuluar",
-                    "body": "Ju lutemi mos vazhdoni të paguani."
-                },
-                "creator": {
-                    "successful_payment": {
-                        "header": "Përshëndetje {name}, pagesa juaj është marrë",
-                        "body": "Faleminderit që u abonuat në {product}. Krijo fushatën tënde tani dhe përdor veçoritë e saj të veçanta!"
-                    },
-                    "min_3": {
-                        "header": "Përshëndetje {name} , {product} juaj do të skadojë për 3 ditë",
-                        "body": "Rinovoni ose përmirësoni abonimin tuaj për të vazhduar të shijoni veçoritë ekskluzive të Twibbonize."
-                    },
-                    "exp_day": {
-                        "header": "Përshëndetje {name}, abonimi juaj për {product} ka skaduar",
-                        "body": "Rinovoni ose përmirësoni abonimin tuaj përpara {date_plus_7} për të ruajtur aksesin në analitikën e fushatës dhe të gjitha veçoritë ekskluzive."
-                    },
-                    "plus_5": {
-                        "header": "Përshëndetje {name}, abonimi juaj do të përfundojë për 48 orë",
-                        "body": "Rinovoni ose përmirësoni planin tuaj brenda 48 orëve për të ruajtur aksesin në analitikën e fushatës suaj."
-                    },
-                    "plus_7": {
-                        "header": "Përshëndetje {name}, llogaria juaj është ulur në Twibbonize Free",
-                        "body": "Ju lutemi, rinovoni abonimin tuaj për të vazhduar përdorimin e veçorive të {product} ."
-                    }
-                },
-                "international": {
-                    "creator": {
-                        "canceled_plan": {
-                            "header": "Përshëndetje {name}, abonimi juaj për {product} u anulua me sukses",
-                            "body": "Do të humbasësh qasjen në të gjitha veçoritë e {product} në fund të ciklit të faturimit."
-                        },
-                        "renewed_plan": {
-                            "header": "Përshëndetje {name}, abonimi juaj i {product} u rinovua me sukses",
-                            "body": "Abonimi juaj {product} do të tarifohet në fund të ciklit tuaj të faturimit."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Përshëndetje {name}, llogaria juaj është ulur në Twibbonize Free",
-                                "body": "Ju lutemi, rinovoni abonimin tuaj për të vazhduar përdorimin e veçorive të {product} ."
-                            }
-                        },
-                        "cancel_downgrade": {
-                            "header": "Përshëndetje {name} , kërkesa juaj për të anuluar uljen është marrë",
-                            "body": "Abonimi juaj do të vazhdojë si Premium Creator."
-                        },
-                        "convert": {
-                            "header": "Përshëndetje {name} , llogaria juaj është përmirësuar në Premium Creator",
-                            "body": "urime! Tani jeni një Premium Creator. Shijoni të gjitha veçoritë tani!"
-                        },
-                        "successful_payment": {
-                            "header": "Përshëndetje {name}, pagesa juaj është marrë",
-                            "body": "Faleminderit që u abonuat në {product}. Krijo fushatën tënde tani dhe përdor veçoritë e saj të veçanta!"
-                        },
-                        "exp_day": {
-                            "header": "Përshëndetje {name}, abonimi juaj për {product} ka skaduar",
-                            "body": "Përditëso informacionin e faturimit përpara {date_plus_7} për të vazhduar qasjen në analitikën e fushatës suaj."
-                        },
-                        "plus_2": {
-                            "header": "Përshëndetje {name} , abonimi juaj do të përfundojë për 48 orë",
-                            "body": "Ju lutemi përditësoni kartën tuaj të pagesës për të ruajtur aksesin në analitikën e fushatës suaj."
-                        },
-                        "plus_5": {
-                            "header": "Përshëndetje {name}, llogaria juaj është ulur në Twibbonize Free",
-                            "body": "Ju lutemi, rinovoni abonimin tuaj për të vazhduar përdorimin e veçorive të {product} ."
-                        },
-                        "convert_addon": {
-                            "body": "Urime! Tani jeni një Premium Creator. Shijoni të gjitha veçoritë tani!",
-                            "header": "Përshëndetje {name} , llogaria juaj është përmirësuar në Premium Creator"
-                        }
-                    },
-                    "auth": {
-                        "exp_day": {
-                            "header": "Përshëndetje {name}, mënyra juaj e pagesës ka nevojë për vërtetim",
-                            "body": "Ju lutemi konfirmoni vërtetimin e pagesës për të përfunduar abonimin tuaj tani."
-                        }
-                    },
-                    "renewed_plan": {
-                        "header": "Përshëndetje {name}, pagesa juaj e rinovimit është konfirmuar",
-                        "body": "Tani, mund të vazhdoni të shijoni veçori ekskluzive!"
-                    },
-                    "downgrade_received": {
-                        "header": "Përshëndetje {name}, kërkesa juaj për ulje është marrë",
-                        "body": "Llogaria juaj do të ulet në {product} në fund të ciklit tuaj të faturimit."
-                    },
-                    "supporter": {
-                        "convert": {
-                            "header": "Përshëndetje {name} , Llogaria juaj është përmirësuar në Mbështetës Premium",
-                            "body": "urime! Tani jeni një Premium Supporter. Shijoni të gjitha veçoritë tani!"
-                        },
-                        "successful_payment": {
-                            "body": "",
-                            "header": "Përshëndetje {name}, e kemi marrë me sukses pagesën tuaj"
-                        },
-                        "min_3": {
-                            "body": ""
-                        },
-                        "successful": {
-                            "body": "Faleminderit që u abonuat në {product}. Tani, mund të merrni Twibbon pa filigranë dhe një përvojë pa reklama!"
-                        },
-                        "exp_day": {
-                            "header": "Përshëndetje {name}, pagesa juaj nuk u krye",
-                            "body": "Përditëso informacionin e faturimit përpara {date_plus_7} për të shijuar veçori ekskluzive, shfletim pa reklama dhe Twibbon pa filigranë."
-                        },
-                        "plus_2": {
-                            "header": "Përshëndetje {name} , abonimi juaj do të përfundojë për 48 orë",
-                            "body": "Rinovoni planin tuaj tani për të shijuar Twibbon pa filigranë dhe një përvojë pa reklama."
-                        },
-                        "plus_7": {
-                            "header": "Përshëndetje {name}, llogaria juaj është ulur në Twibbonize Free"
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Përshëndetje {name}, llogaria juaj është ulur në Twibbonize Free",
-                                "body": "Ju lutemi, rinovoni abonimin tuaj për të vazhduar përdorimin e veçorive të {product} ."
-                            }
-                        },
-                        "plus_5": {
-                            "header": "Përshëndetje {name}, llogaria juaj është ulur në Twibbonize Free",
-                            "body": "Ju lutemi, rinovoni abonimin tuaj për të vazhduar përdorimin e veçorive të {product} ."
-                        }
-                    },
-                    "period_changed": {
-                        "header": "Përshëndetje {name}, ne kemi marrë kërkesën tuaj për të ndryshuar planin tuaj",
-                        "body": "Llogaria juaj do të ndryshohet në {product} në fund të ciklit tuaj të faturimit."
-                    },
-                    "cancel_change_period": {
-                        "header": "Përshëndetje {name}, ne kemi marrë kërkesën tuaj për të anuluar ndryshimin e planit",
-                        "body": "Abonimi juaj do të vazhdojë si Premium Creator."
-                    }
-                },
-                "india": {
-                    "auth": {
-                        "exp_day": {
-                            "header": "Përshëndetje {name}, ju lutemi konfirmoni pagesën tuaj për abonim tani",
-                            "body": "Për të siguruar pajtueshmërinë me rregulloret e sigurisë, ne kërkojmë konfirmimin tuaj të qartë për pagesën tuaj të përsëritur në pajtimin tuaj në Twibbonize."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Tani, mund të merrni Twibbon pa filigranë dhe një përvojë pa reklama!",
-                        "header": "Përshëndetje {name}, pagesa juaj është marrë"
-                    },
-                    "exp_day": {
-                        "body": "Rinovoni ose përmirësoni abonimin tuaj përpara {date_plus_7} për të vazhduar të shijoni veçori ekskluzive, shfletim pa reklama dhe Twibbon pa filigranë.",
-                        "header": "Përshëndetje {name}, abonimi juaj për {product} ka skaduar"
-                    },
-                    "plus_5": {
-                        "body": "Rinovoni planin tuaj brenda 48 orëve për të vazhduar të shijoni Twibbon pa filigranë dhe një përvojë pa reklama.",
-                        "header": "Përshëndetje {name} , abonimi juaj do të përfundojë për 48 orë"
-                    },
-                    "min_3": {
-                        "body": "Rinovoni ose përmirësoni abonimin tuaj tani për të vazhduar të shijoni shfletimin pa reklama dhe Twibbons pa filigranë.",
-                        "header": "Përshëndetje {name}, {product} juaj do të skadojë për 3 ditë"
-                    },
-                    "plus_7": {
-                        "body": "Ju lutemi, rinovoni abonimin tuaj për të vazhduar përdorimin e veçorive të {product} ."
-                    }
-                }
-            },
-            "launch": {
-                "prem_sub": {
-                    "min_1": {
-                        "header": "Abonim i ri Twibbonize Premium",
-                        "body": "Prezantimi i Abonimeve të reja Premium të Twibbonize - Nis më 8 korrik!"
-                    }
-                },
-                "short_link": {
-                    "min_1": {
-                        "header": "Lidhje e re e shkurtër Twibbonize",
-                        "body": "Prezantimi i lidhjes së re të shkurtër të Twibbonize - Ndryshon 8 korrik!"
-                    }
-                }
-            },
-            "campaign_addon": {
-                "adfree_quota_remaining": {
-                    "header": "Kuota pa reklama e mbetur",
-                    "body": "Ju keni mbetur kuotë pa reklama për 50 mbështetës në {campaignlink}. Shijo një përvojë pa reklama sa zgjat!"
-                },
-                "adfree_quota_runout": {
-                    "header": "Kuota pa reklama ka mbaruar",
-                    "body": "Mbështetësit tuaj të {campaignlink} do të fillojnë të shohin reklama gjatë shfletimit në platformën tonë."
-                }
-            },
-            "new_post": {
-                "header": "Twibbon i ri u postua",
-                "body": "{participant} postoi një Twibbon në galerinë e fushatës suaj {title} !"
-            },
-            "new_comment": {
-                "header": "Koment i ri!",
-                "body": "{participant} komentoi postimin tuaj në fushatën {title}!"
-            },
-            "new_reply": {
-                "header": "Përgjigje e re!",
-                "body": "{participant} komentoi komentin tuaj në fushatën {title} !"
-            }
-        }
-    },
     "page_analytics": {
         "time": {
             "today": "Sot",
@@ -1581,7 +1363,6 @@
         },
         "graph": {
             "page": "Faqja {currentPage} nga {totalPage}",
-            "data_displayed": "Të dhënat e shfaqura në zonën kohore UTC (UTC+0)",
             "trend": "Trendi",
             "country": "Vendi",
             "city": "Qyteti",
@@ -1594,7 +1375,8 @@
             "visit": "Vizitoni",
             "visit_detail": "Numri i sesioneve të vetme të shfletimit që kanë vizituar faqen e fushatës suaj",
             "unique_visit": "Vizitë unike",
-            "unique_visit_detail": "Numri i njerëzve që kanë vizituar faqen tuaj të fushatës"
+            "unique_visit_detail": "Numri i njerëzve që kanë vizituar faqen tuaj të fushatës",
+            "data_displayed": "Të dhënat shfaqen në zonën kohore UTC+0"
         }
     },
     "page_account": {
@@ -1602,8 +1384,6 @@
             "email": "Email",
             "password": "Fjalëkalimi",
             "confirm_password": "Konfirmo fjalëkalimin",
-            "login_with_google": "Hyni me Google",
-            "login_with_facebook": "Identifikohu me Facebook",
             "login_with_email": "ose identifikohu me email",
             "signup_with_google": "Regjistrohu me Google",
             "signup_with_facebook": "Regjistrohu me Facebook",
@@ -1616,7 +1396,9 @@
             "signup": "Regjistrohu",
             "terms": "Kushtet",
             "privacy": "Politika e privatësisë",
-            "name": ""
+            "name": "Emri",
+            "login_with_facebook": "Kyçuni nëpërmjet facebook",
+            "login_with_google": "Identifikohu me Google"
         }
     },
     "page_article": {
@@ -1625,98 +1407,95 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "Identifikohu për të Postuar në Twibbonize",
+        "sign_in_to_comment": "Identifikohu për të lënë një koment",
+        "sign_in_to_like": "Identifikohu për të dhënë një pëlqim",
+        "sign_up_to_post": "Regjistrohu në Posto në Twibbonize",
+        "sign_up_to_comment": "Regjistrohuni për të Lini një Koment",
+        "sign_up_to_like": "Regjistrohu për të dhënë një pëlqim",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "Identifikohu me sukses! Mirëse u ktheve.",
+                "error": "Identifikimi dështoi. Ju lutemi kontrolloni kredencialet tuaja dhe provoni përsëri."
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "Regjistrohu me sukses! Mirë se vini në bord.",
+                "error": "Regjistrimi dështoi. Ju lutemi kontrolloni të dhënat tuaja dhe provoni përsëri."
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "Email tashmë i regjistruar",
+        "email_registered_lead": "Ky email është i regjistruar tashmë. Dëshironi të identifikoheni në vend të kësaj?"
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "Konfirmo Fshij",
+            "delete_lead": "Jeni i sigurt që dëshironi ta fshini këtë postim? Ky veprim nuk mund të zhbëhet.",
+            "delete_yes": "Po, Fshije",
+            "delete_no": "Anulo"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "Ndani mesazhin tuaj",
+            "logged_in_placeholder": "Koment si {name}",
+            "comment_posted": "Komenti i postuar",
+            "comment_deleted": "Komenti u fshi",
+            "reply_deleted": "Përgjigja u fshi"
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "Postimi u ngarkua",
+            "hidden": "I fshehur",
+            "unhidden": "I pafshehur",
+            "reported": "Raportuar",
+            "deleted": "Fshirë",
+            "pinned": "E ngulitur",
+            "unpinned": "U zhgozhdua"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "Raporto fushatën",
+        "report_profile": "Raporto Profilin",
+        "abusive_or_harmful": "Abuzive ose e dëmshme",
+        "pretending_to_be_someone_else": "Duke pretenduar se jeni dikush tjetër",
+        "sensitive_content": "Përmbajtje e ndjeshme",
+        "plagiarism": "Plagjiaturë",
+        "impersonation": "Imitimi",
+        "piracy": "Pirateria",
+        "nudity_pornography": "Lakuriqësi & Pornografi",
+        "dangerous_or_harmful": "E rrezikshme ose e dëmshme",
+        "harassment_cyberbullying": "Ngacmimi dhe ngacmimi kibernetik",
+        "provocative_threatening_content": "Përmbajtje provokuese dhe kërcënuese",
+        "privacy_violations": "Shkeljet e privatësisë",
+        "unauthorized_use_of_personal_information": "Përdorimi i paautorizuar i të dhënave personale",
+        "child_exploitation": "Shfrytëzimi i Fëmijëve",
+        "harassment": "Ngacmimi",
+        "terrorism": "Terrorizmi",
+        "violence": "Dhuna",
+        "false_information": "Informacion i rremë",
+        "health": "Shëndeti",
+        "politics": "Politika",
+        "social_issue": "Çështja Sociale",
+        "hate_speech": "Gjuha e urrejtjes",
+        "disability_or_disease": "Paaftësi ose sëmundje",
+        "race_or_ethnicity": "Raca ose përkatësia etnike",
+        "religious_affiliation": "Përkatësia fetare",
+        "sexual_orientation": "Orientimi seksual",
+        "nudity": "Lakuriqësia",
+        "suicide_or_self_harm": "Vetëvrasje ose vetëdëmtim",
+        "vulgar_language": "Gjuhë vulgare",
+        "dangerous_content": "Përmbajtje e rrezikshme",
+        "why_report_campaign": "Pse po e raportoni këtë fushatë?",
+        "why_report_profile": "Pse po e raportoni këtë profil?",
+        "why_report_submission": "Pse po e raportoni këtë paraqitje?",
+        "why_report_comment_reply": "Pse po e raportoni këtë koment?",
+        "why_report_collection": "Pse po e raportoni këtë koleksion?",
+        "select_one": "Ju lutemi zgjidhni një",
+        "protect_privacy_reporter": "Udhëzimet e komunitetit Twibbonize mbrojnë privatësinë e identitetit të gazetarit.",
+        "tell_us_more": "Na trego më shumë",
+        "received_report": "Ne kemi marrë raportin tuaj!",
+        "thankyou": "Faleminderit! Ju lutemi na lejoni të hetojmë raportin tuaj dhe ne do t'i dërgojmë komentet në emailin tuaj sa më shpejt të jetë e mundur.",
+        "learn_more_about": "Mësoni më shumë rreth {link} .",
+        "community_guideline": "Twibbonize Udhëzimet e Komunitetit",
+        "placeholder_write_here": "Shkruaj këtu",
+        "report_sent": "Raporti u dërgua"
     },
     "page_editor": {
         "general": {
@@ -1754,10 +1533,10 @@
         "upload": {
             "upload_image": "Ngarko imazh",
             "upload": "Ngarkoni",
-            "type": "",
-            "size": "",
-            "type_image": "",
-            "maximum_size": ""
+            "type": "Lloji:",
+            "size": "Madhësia:",
+            "type_image": "JPG, PNG ose SVG",
+            "maximum_size": "Maksimumi 5 MB"
         },
         "toolbar": {
             "copy": "Kopjo",
@@ -1781,8 +1560,7 @@
             "lock": "Kyç",
             "letter_spacing": "Hapësira e shkronjave",
             "line_spacing": "Hapësira e vijës",
-            "border_weight": "",
-            "corner_rounding": "",
+            "border_weight": "Pesha kufitare",
             "align": "Rreshtoni",
             "effects": "Efektet"
         },
@@ -1822,15 +1600,203 @@
     },
     "page__campaign_creation": {
         "campaign_preview": {
-            "campaign_description": "",
+            "campaign_description": "Përshkrimi i fushatës",
             "campaign_title": "Titulli i fushatës"
         }
     },
     "page_my_campaign": {
         "edit_campaign": {
             "campaigns": "Fushatat",
-            "frames": "",
-            "analytics": ""
+            "frames": "Korniza",
+            "analytics": "Analiza"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "Pse po e raportoni këtë postim?",
+            "plagiarism ": "Plagjiaturë",
+            "impersonation ": "Imitimi ",
+            "piracy ": "Pirateria",
+            "vulgar_language": "Gjuhë vulgare",
+            "nudity_pornography": "Lakuriqësi & Pornografi",
+            "suicidal_self_harm": "Përmbajtja vetëvrasëse dhe vetëdëmtimi ",
+            "danger": "E rrezikshme ose e dëmshme ",
+            "violent_graphic_content": "Përmbajtje grafike e dhunshme",
+            "harassment_cyberbullying": "Ngacmimi dhe ngacmimi kibernetik ",
+            "provocative_threatening_content": "Përmbajtje provokuese dhe kërcënuese",
+            "spam": "Të bllokuara"
+        },
+        "report_comment": {
+            "title": "Pse po e raportoni këtë koment?",
+            "abusive_harmful": "Abuzive ose e dëmshme",
+            "harassment": "Ngacmimi",
+            "terrorism": "Terrorizmi",
+            "violence": "Dhuna",
+            "false_information": "",
+            "health": "Shëndeti",
+            "politics": "Politika",
+            "social_issue": "Çështja Sociale",
+            "sensitive_content": "Përmbajtje e ndjeshme ",
+            "nudity": "Lakuriqësia",
+            "vulgar_language": "Gjuhë vulgare",
+            "hate_speech": "Gjuha e urrejtjes",
+            "disability_disease": "Paaftësi ose sëmundje",
+            "race_or_ethnicity": "Raca ose përkatësia etnike",
+            "religious_affiliation": "Përkatësia fetare ",
+            "sexual_orientation": "Orientimi seksual",
+            "spam": "Të bllokuara"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "Url i pavlefshëm"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "Identifikimi në Google dështoi",
+        "failed_apple_login": "Identifikimi në Apple dështoi"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "Skedari i fotografisë tejkalon madhësinë maksimale prej 5 MB",
+            "cannot_create_twibbon": "Nuk mund të krijohet Twibbon. Provo përsëri"
+        },
+        "log_in": {
+            "complete_verification": "Përfundo verifikimin për të vazhduar",
+            "email_no_password": "Ky email nuk ka fjalëkalim. Hyni përmes Google",
+            "social_media_already_registered": "Email-i i llogarisë suaj të mediave sociale është tashmë i regjistruar dhe i lidhur me një llogari tjetër nga një shërbim i ngjashëm i mediave sociale. Ju lutemi provoni të identifikoheni duke përdorur formularët e emailit dhe fjalëkalimit."
+        },
+        "sign_up": {
+            "email_already_registered": "Ky email është i regjistruar tashmë. Përdor një email tjetër ose provo të identifikohesh",
+            "password_minimum_required": "Fjalëkalimi duhet të jetë së paku 8 karaktere.",
+            "password_character_exceeded": "Fjalëkalimi nuk duhet të kalojë 128 karaktere",
+            "password_must_be_standard": "Fjalëkalimi duhet të jetë standard alfanumerik",
+            "password_does_not_match": "Konfirmimi i fjalëkalimit nuk përputhet. Provo përsëri"
+        },
+        "verification": {
+            "code_incorrect": "Kodi i gabuar. Provo përsëri",
+            "code_expired": "Kodi ka skaduar. Kërkoni një të re",
+            "maximum_attempt_reached": "U arritën përpjekjet maksimale. Provo sërish pas 5 orësh",
+            "code_requested_exceeded": "Kërkesat për kod e kaluan kufirin maksimal"
+        },
+        "forgot_password": {
+            "email_not_found": "Email nuk u gjet. Provo sërish ose regjistrohu",
+            "link_expired": "Lidhja për të ndryshuar fjalëkalimin ka skaduar. Kërkoni një të re",
+            "link_used": "Është përdorur lidhja për të ndryshuar fjalëkalimin. Kërkoni një të re"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "Skedari i kornizës tejkalon madhësinë maksimale prej 5 MB",
+            "background_file_exceed": "Skedari i sfondit tejkalon madhësinë maksimale prej 5 MB",
+            "image_not_transparent": "Imazhi duhet të jetë transparent. Provo përsëri",
+            "invalid_format": "Format i pavlefshëm i skedarit. Përdorni një format të mbështetur",
+            "allow_only_1_frame": "Llogaritë falas lejojnë vetëm 1 ngarkim kornizë. Përmirëso për të vazhduar",
+            "allow_only_1_background": "Llogaritë falas lejojnë vetëm 1 ngarkim në sfond. Përmirëso për të vazhduar",
+            "campaign_title_exceed_limit": "Titulli i fushatës tejkalon kufirin maksimal të karaktereve",
+            "description_exceed_limit": "Përshkrimi e kalon kufirin maksimal të karaktereve",
+            "link_unavailable": "Lidhja e fushatës është tashmë në përdorim. Zgjidhni një tjetër",
+            "link_criteria": "Lidhja e fushatës duhet të jetë alfanumerike dhe vizë (-)",
+            "caption_exceed_limit": "Modeli i titrave tejkalon kufirin maksimal të karaktereve",
+            "background_exceed_limit": "Skedari i sfondit tejkalon madhësinë maksimale prej 5 MB",
+            "photo_exceed_limit": "Skedari i fotografisë miniaturë tejkalon madhësinë maksimale prej 5 MB",
+            "link_exceed_limit": "Lidhja e fushatës tejkalon kufirin maksimal të karaktereve"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "Skedari i kornizës tejkalon madhësinë maksimale prej 5 MB",
+            "background_file_exceed": "Skedari i sfondit tejkalon madhësinë maksimale prej 5 MB"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "Imazhi duhet të jetë transparent. Provo përsëri",
+            "invalid_format": "Format i pavlefshëm i skedarit. Përdorni një format të mbështetur",
+            "allow_only_1_frame": "Llogaritë falas lejojnë vetëm 1 ngarkim kornizë. Përmirëso për të vazhduar",
+            "allow_only_1_background": "Llogaritë falas lejojnë vetëm 1 ngarkim në sfond. Përmirëso për të vazhduar",
+            "campaign_title_exceed_limit": "Titulli i fushatës tejkalon kufirin maksimal të karaktereve",
+            "description_exceed_limit": "Përshkrimi e kalon kufirin maksimal të karaktereve",
+            "link_unavailable": "Lidhja e fushatës është tashmë në përdorim. Zgjidhni një tjetër",
+            "link_criteria": "Lidhja e fushatës duhet të jetë alfanumerike dhe vizë (-)",
+            "link_exceed_limit": "Lidhja e fushatës tejkalon kufirin maksimal të karaktereve",
+            "caption_exceed_limit": "Modeli i titrave tejkalon kufirin maksimal të karaktereve",
+            "background_exceed_limit": "Skedari i sfondit tejkalon madhësinë maksimale prej 5 MB",
+            "thumbnail_exceeds": "Skedari i fotografisë miniaturë tejkalon madhësinë maksimale prej 5 MB"
+        },
+        "settings": {
+            "profile_image_exceed": "Imazhi i profilit e kalon kufirin maksimal prej 5 MB",
+            "background_image_exceed": "Imazhi i sfondit tejkalon madhësinë maksimale prej 5 MB",
+            "username_unavailable": "Emri i përdoruesit është marrë tashmë. Provoni një tjetër",
+            "username_exceed_limit": "Emri i përdoruesit tejkalon kufirin maksimal të karaktereve",
+            "username_invalid": "Emri i përdoruesit është i pavlefshëm. Provo sërish me formatin e duhur",
+            "display_exceed_limit": "Emri i shfaqur tejkalon kufirin maksimal të karaktereve",
+            "bio_exceed_limit": "Bio tejkalon kufirin maksimal të karaktereve",
+            "email_already_registered": "Email tashmë është regjistruar. Provoni një tjetër",
+            "password_incorrect": "Fjalëkalimi është i pasaktë. Provo përsëri",
+            "password_minimum_character": "Fjalëkalimi duhet të jetë së paku 8 karaktere",
+            "password_maximum_character": "Fjalëkalimi nuk duhet të kalojë 128 karaktere",
+            "password_standard_format": "Fjalëkalimi duhet të ndjekë formatin standard alfanumerik",
+            "account_deleted": "Llogaria u fshi",
+            "account_integrated": "Llogaria e integruar",
+            "account_revoked": "Llogaria u anulua"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "Seksioni \"Na trego më shumë\" tejkalon kufirin maksimal të karaktereve"
+        },
+        "general": {
+            "something_went_wrong": "Dicka shkoi keq"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "Numri i fushatave të shtuara e kalon kufirin maksimal",
+            "description_exceeds": "Përshkrimi e kalon kufirin maksimal të karaktereve",
+            "title_exceeds": "Titulli i koleksionit tejkalon kufirin maksimal të karaktereve"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "Lidhja u kopjua",
+            "social_media_already_linked": "Llogaria e mediave sociale tashmë është e lidhur me një llogari tjetër Twibbonize. Provoni një tjetër"
+        },
+        "campaign_creation": {
+            "link_available": "Lidhja është e disponueshme"
+        },
+        "campaign_edit": {
+            "link_available": "Lidhja është e disponueshme"
+        },
+        "settings": {
+            "photo_updated": "Fotografia e përditësuar",
+            "banner_updated": "Baneri u përditësua",
+            "banner_deleted": "Banneri u fshi",
+            "photo_deleted": "Fotoja u fshi",
+            "password_updated": "Fjalëkalimi u përditësua",
+            "email_updated": "Email-i u përditësua"
+        },
+        "my_profile": {
+            "campaign_deleted": "Fushata u fshi"
+        },
+        "collection": {
+            "campaign_added": "Fushata u shtua"
+        },
+        "campaign_page": {
+            "account_upgraded": "Llogaria u përditësua",
+            "link_copied": "Lidhja u kopjua"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "Email nuk u gjet. Provo sërish ose regjistrohu"
+        },
+        "password": {
+            "password_incorrect": "Fjalëkalimi është i pasaktë. Provo përsëri"
+        },
+        "maximum_attempt": "U arritën përpjekjet maksimale. Provo sërish pas 1 ore"
+    },
+    "page_notification": {
+        "no_notification_heading": "Nuk ka ende njoftime",
+        "no_notification_subheading": "Nuk ka asnjë njoftim për momentin"
+    },
+    "page_general": {
+        "no_internet_connection": "Nuk ka lidhje interneti. Trokit për të riprovuar",
+        "could_not_connect_internet": "Nuk mund të lidhej me internetin. Kalo në një rrjet tjetër dhe provo sërish."
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "Shkyç?"
         }
     }
 }

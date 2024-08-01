@@ -35,7 +35,7 @@
             "terms": "Feltételek és feltételek",
             "privacy_policy": "Adatvédelmi irányelvek",
             "cookie_policy": "Cookie szabályzat",
-            "sitemap": ""
+            "sitemap": "Oldaltérkép"
         },
         "menu": {
             "explore": "Fedezze fel a  oldalt.",
@@ -47,11 +47,6 @@
             "sign_in": "Bejelentkezés",
             "sign_up": "Feliratkozás",
             "sign_out": "Kijelentkezés"
-        },
-        "campaign": {
-            "supporters": "támogató|támogatók",
-            "campaigns": "Kampányok",
-            "created": "Létrehozva"
         },
         "button": {
             "view_all": "Minden megtekintése",
@@ -71,11 +66,12 @@
             "report": "Jelentse",
             "edit": "Szerkesztés",
             "confirm": "Megerősítés",
-            "okay": "",
+            "okay": "oké",
             "view": "A  megtekintése",
-            "send": "",
-            "more": "",
-            "less": ""
+            "send": "Küld",
+            "more": "Több",
+            "less": "Kevésbé",
+            "submit": "Beküldés"
         },
         "time": {
             "week": "Hét",
@@ -86,9 +82,14 @@
             "annual": "Éves",
             "yearly": "Éves"
         },
+        "campaign": {
+            "campaigns": "Kampányok",
+            "created": "Létrehozva",
+            "supporters": "támogató|támogató|támogatók"
+        },
         "collection": {
             "collections": "Gyűjtemények",
-            "campaigns": "{campaign} Kampányok"
+            "campaigns": "{campaign} kampányok"
         },
         "creator": {
             "creators": "Alkotók"
@@ -108,14 +109,21 @@
             "hide_post": "Post elrejtése",
             "post_shared": "Megosztott poszt {date}",
             "share_message": "Ossza meg üzenetét",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "A bejegyzés rögzítésének feloldása",
+            "unhide_post": "Bejegyzés felfedése"
         },
         "pricing": {
-            "creator_subscribe_to": "",
-            "plan": "",
-            "support_without_watermark": "",
-            "all_supporters_without_watermark": ""
+            "creator_subscribe_to": "Ez az alkotó előfizetett a",
+            "plan": "terv",
+            "support_without_watermark": "Bármilyen kampányt támogathatnak vízjel nélkül!",
+            "all_supporters_without_watermark": "Támogathatod az Alkotó kampányát vízjel nélkül!"
+        },
+        "campaign_card": {
+            "a_month_ago": " |Egy hónapja",
+            "a_day_ago": " |Egy napja"
+        },
+        "search": {
+            "searching": "Keresés..."
         }
     },
     "page_home": {
@@ -262,8 +270,8 @@
         "process": {
             "how_twibbonize_1": "Hogyan forradalmasítja a Twibbonize",
             "how_twibbonize_2": "Twibbon kampány",
-            "sharing_twibbon_1": "Megosztása Twibbon használt, hogy egy bonyolult folyamat vagyunk még túlságosan is",
-            "sharing_twibbon_2": "fáradt vagyok, hogy elmagyarázzam neked."
+            "sharing_twibbon_1": "A Twibbon megosztása korábban egy bonyolult folyamat volt, amit még ahhoz is túl",
+            "sharing_twibbon_2": "fáradtak vagyunk, hogy elmagyarázzuk neked"
         },
         "frame": {
             "twibbon_frame": "A Twibbonize-ban a Twibbon több, mint keretek",
@@ -334,10 +342,10 @@
             "download": "Letöltés",
             "reset": "Reset",
             "add_text": "Szöveg hozzáadása",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": "",
+            "posting_as": "Feladás mint ",
+            "not_you": "Nem te? ",
+            "uploading_photo_to_remove": "A fénykép feltöltése és a háttér eltávolítása.",
+            "wait_for_moment": "Várj egy pillanatot...",
             "remove_watermark_for_you_2": "és élvezze képeit vízjelmentesen!",
             "remove_watermark_for_you_1": "Fedezze fel a Twibbonize-t hirdetések nélkül,",
             "remove_watermark_for_you": "Távolítsa el a vízjelet!",
@@ -350,7 +358,6 @@
             "report_profile": "Jelentés profil",
             "plagiarism": "Plágium",
             "sensitive": "Érzékeny tartalom",
-            "danger": "Veszélyes tartalom",
             "spam": "Spam",
             "why_report_campaign": "Miért jelentik ezt a kampányt?",
             "protect_reporter": "A Twibbonize közösségi irányelvek védik a riporterek személyazonosságának védelmét.",
@@ -359,7 +366,21 @@
             "received_report": "Megkaptuk a jelentését!",
             "thankyou": "Köszönöm! Kérjük, engedje meg, hogy kivizsgáljuk a bejelentését, és a visszajelzést a lehető leghamarabb elküldjük az e-mail címére.",
             "learn_more_about": "Tudjon meg többet a {link}.",
-            "community_guideline": "Twibbonize közösségi iránymutatások"
+            "community_guideline": "Twibbonize közösségi iránymutatások",
+            "title": "Miért jelentik ezt a kampányt?",
+            "danger": "Veszélyes vagy ártalmas ",
+            "impersonation": "Megszemélyesítés ",
+            "piracy": "Kalózkodás",
+            "vulgar_language": "Vulgáris nyelvezet",
+            "nudity_pornography": "Meztelenség és pornográfia",
+            "suicidal_self_harm": "Öngyilkossági és önkárosító tartalmak ",
+            "violent_graphic_content": "Erőszakos grafikai tartalom",
+            "harassment_cyberbullying": "Zaklatás és internetes zaklatás",
+            "proactive_threatening_content": "Provokatív és fenyegető tartalom",
+            "statement": "A Twibbonize közösségi irányelvek védik a riporter személyazonosságának védelmét.",
+            "read_more_copy": "Olvass tovább",
+            "please_select_one": "Kérjük, válasszon egyet",
+            "write_a_message": "Írjon üzenetet"
         },
         "discard": {
             "discard_edit": "Elvetni a szerkesztéseket?",
@@ -377,9 +398,10 @@
             "supporters": "Támogatók",
             "interactions": "Kölcsönhatások",
             "visits": "Látogatások",
-            "realtime_estimates": "Valós idejű becslések",
             "last_month": "Az elmúlt 30 napban",
-            "see_more_analytics": "További elemzések megtekintése"
+            "see_more_analytics": "További elemzések megtekintése",
+            "realtime_estimates": "Valós idejű becslések az elmúlt 30 napból",
+            "view_analytics": "Az Analytics megtekintése"
         },
         "pricing": {
             "no_thankyou": "Nem, köszönöm"
@@ -400,15 +422,37 @@
             "reply_as_user": "Válaszolj mint {user}"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "A legjobb eredmény érdekében kövesse az irányelveket!",
+            "good_photo_examples": "Jó fotó példák:",
+            "good_photo_caption": "Közeli szelfi, portréfotó, tiszta arc",
+            "photos_avoid": "Kerülendő fotók:",
+            "bad_photo_caption": "Teljes testkép, csoportkép, fotó hátulról",
+            "understand": "Megértem"
         },
         "post_to_twibbonize": {
-            "caption": ""
+            "caption": "Írjon üzenetet erről a kampányról...",
+            "unpin_post": "Hozzászólás kitapasztásának feloldása"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "Állítsa be a fényképet"
+        },
+        "share_campaign": {
+            "or_share_to": "vagy ossza meg a",
+            "save_share": "Mentés és megosztás"
+        },
+        "post": {
+            "post_uploaded": "Hozzászólás feltöltve",
+            "post_deleted": "Törölt poszt",
+            "post_failed_deleted": "Post Sikertelen, Törölt"
+        },
+        "create_campaign": {
+            "custom_field": "Egyéni mező hozzáadása"
+        },
+        "collection": {
+            "sign_up_add_collection": "Regisztráljon a Hozzáadás a gyűjteményhez szolgáltatásra"
+        },
+        "posts": {
+            "has_no_posts": "Ez a felhasználó nem tett közzé semmit a Twibbonize-on"
         }
     },
     "page_checkout": {
@@ -417,9 +461,8 @@
             "account_update": "A fiókja frissítve lesz, az összes új funkcióval feloldva."
         },
         "checkout": {
-            "back_to_plans": "Vissza a tervekhez",
             "upgrade_to": "Frissítés a {plan}",
-            "gather_your_supports": "Gyűjtse össze támogatóit és növelje kampánya méretét exkluzív funkcióinkkal.",
+            "gather_your_supports": "Gyűjtse össze támogatóit és növelje kampánya méretét exkluzív funkcióinkkal",
             "billing_option": "Számlázási opció",
             "details": "Részletek",
             "user": "Felhasználó",
@@ -429,18 +472,19 @@
             "save": "Mentés {percentage}%",
             "pay": "Fizetés {frequency}",
             "checkout_options": "Pénztári beállítások",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "Terv módosítása",
+            "current_plan": "Aktuális terv",
+            "downgrade": "Leminősítés",
+            "current_plan_description": "Ön most előfizet erre az előfizetésre",
+            "change_plan_description": "A csomagot a következőre módosítja: {plan} , amely a jelenlegi előfizetés lejárta után lesz aktív.",
+            "downgrade_description": "Előfizetését a következőre váltja: {plan} , amely a jelenlegi előfizetés lejárta után lesz aktív.",
+            "change_plan_confirm": "biztos vagy ebben?",
+            "upgrade_confirm": "Biztosan frissíteni akar?",
+            "downgrade_confirm": "Biztosan le akarja váltani a tervet?",
+            "change_plan_active": "Aktív lesz, ha lejár az aktuális előfizetésed",
+            "upgrade_active": "A fizetés befejezése után lesz aktív",
+            "downgrade_active": "Aktív lesz, ha lejár az aktuális előfizetésed",
+            "back_to_plans": "Vissza"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -449,14 +493,14 @@
             "use_twibbonize_without_ads": "Twibbonize használata hirdetések nélkül",
             "exclusive_features": "Exkluzív funkciók az Ön kampányához",
             "remove_own_account": "Vízjel eltávolítása a saját számlájához",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "Ezüst",
+            "gold": "Arany",
+            "platinum": "Platina",
+            "watermark_title": "Távolítsa el a vízjelet",
+            "high_quality_image_title": "Kiváló minőségű kép",
+            "ad_free_title": "Reklámmentes",
+            "campaign_addon": "Kampány kiegészítés",
+            "on": "tovább"
         }
     },
     "page_collection": {
@@ -496,9 +540,9 @@
             "image_dimension": "1080x1080px",
             "upload": "Feltöltés",
             "imagetype": "PNG",
-            "max_file": "",
-            "backgroundtype": "",
-            "upload_design": ""
+            "max_file": "Maximum 5 MB",
+            "backgroundtype": "JPEG, PNG vagy WEBP",
+            "upload_design": "Töltse fel a tervét itt"
         },
         "frame_editor": {
             "or_create": "vagy hozza létre keretét most",
@@ -526,7 +570,7 @@
             "campaign_title": "Kampány címe",
             "campaign_title_placeholder": "Állhat számokból, betűjelekből vagy speciális karakterekből.",
             "campaign_description": "Leírás",
-            "campaign_description_placeholder": "Oszd meg a kampányod részleteit, hogy felhívd magadra a figyelmet és támogatást szerezz.",
+            "campaign_description_placeholder": "Oszd meg a kampányod részleteit, hogy felhívd magadra a figyelmet és támogatást szerezz",
             "campaign_link": "Kampány link",
             "campaign_link_placeholder": "kampány-link",
             "campaign_category": "Kampány kategória",
@@ -545,7 +589,7 @@
             "url_not_available": "URL nem elérhető",
             "caption_placeholder": "Szia, a nevem [[A neved]] , és támogatom ezt a kampányt. Gyűljünk össze, és tegyünk együtt valódi hatást ezzel a kampánnyal!",
             "enter_description": "Adja meg a leírást",
-            "optional": ""
+            "optional": "Választható"
         },
         "customization": {
             "campaign_customization": "Kampány testreszabása",
@@ -568,14 +612,14 @@
             "go_back": "Vissza"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "Keretek",
+            "campaigns": "Kampányok",
+            "analytics": "Analitika"
         },
         "blank_design": {
-            "suggested": "",
-            "instagram_story": "",
-            "instagram_post": ""
+            "suggested": "Javasolt",
+            "instagram_story": "Instagram történet",
+            "instagram_post": "Instagram bejegyzés"
         }
     },
     "page_for_creators": {
@@ -585,8 +629,8 @@
             "purchase_now": "Vásárlás most",
             "learn_more": "Tudjon meg többet",
             "want_to_create": "Szeretné ingyen létrehozni a kampányát?",
-            "try_now": "Próbálja ki most!",
-            "per": "per {time}"
+            "per": "per {time}",
+            "try_now": "Próbálja ki most!"
         },
         "features": {
             "remove_watermark": "Vízjel eltávolítása a kampány összes felhasználója számára",
@@ -631,20 +675,20 @@
             "unite_detail": "Hozd össze kampányod összes támogatóját a Twibbonize oldaladon; ahol a támogatók összekapcsolódnak, és te látod a hatást!",
             "entertain_detail": "A Twibbonize egy megosztható virtuális Twibbon közösségi médiához és üzenetküldéshez való virtuális Twibbon biztosítása révén vonja be támogatóit",
             "grow_detail": "Egy Twibbonize-kampánnyal nagyobb támogatást nyerhetsz: nemcsak figyelmet kelt, hanem egyfajta szekérhatást is létrehoz, amely egyre nagyobb közönséget vonz, akik nem akarnak lemaradni az ügyedről.",
-            "inspire": "",
-            "unite": "",
-            "entertain": "",
-            "grow": ""
+            "inspire": "Inspiráljon ",
+            "unite": "Unite",
+            "entertain": "Entertain",
+            "grow": "Grow"
         },
         "use_cases": {
             "heading": "Ötletek a Twibbonize használatára",
-            "subheading": "",
-            "corporate": "",
-            "corporate_title": "",
+            "subheading": "Kezdje el a felfedezést a több mint 5,000,000 Twibbonize kampányunkból kézzel válogatott példákkal.",
+            "corporate": "Vállalati",
+            "corporate_title": "Használja ki a személyzete és ügyfelei bőségének erejét",
             "education": "Oktatás",
-            "education_title": "",
+            "education_title": "Ez egy szórakoztató módja annak, hogy a tanulási folyamatot kiegészítsük",
             "event": "Események",
-            "events_title": ""
+            "events_title": "Az azonnali viralitás erejével népszerűsítheti eseményét"
         },
         "testimonials": {
             "testimonials": "Ajánlások",
@@ -688,8 +732,8 @@
             "proud_partner": "Büszkék vagyunk arra, hogy olyan emberekkel dolgozhatunk együtt, akik mélyen azonosulnak küldetésünkkel."
         },
         "honorary": {
-            "honorary_mentions": "",
-            "significant_contributions": ""
+            "honorary_mentions": "Tiszteletbeli elismerések",
+            "significant_contributions": "Akik jelentős mértékben hozzájárultak fejlődésünkhöz"
         }
     },
     "page_pricing": {
@@ -707,17 +751,17 @@
             "private_campaign_2": "Kampány",
             "offer_exclusively": "Ajánljon exkluzivitást támogatóinak",
             "campaign_customization_1": "Kampány",
-            "campaign_customization_2": "Testreszabás",
+            "campaign_customization_2": "testreszabása",
             "personalize_campaign": "Személyre szabhatja kampányoldalát",
             "multiple_frames_1": "Többszörös Twibbon",
             "multiple_frames_2": "kampányonként",
             "unleash_creativity": "A kreativitás sokoldalúságának kibontakoztatása",
             "top_notch": "Frissítse kampányjátékát",
             "considering_all": "Figyelembe véve az összes kényelmet, megéri",
-            "remove_watermark_1": "Távolítsa el a",
-            "remove_watermark_2": "Vízjel",
-            "for_audience_1": "a  oldalon.",
-            "for_audience_2": "Ön és közönsége",
+            "remove_watermark_1": "Vízjel",
+            "remove_watermark_2": "eltávolítása",
+            "for_audience_1": "az",
+            "for_audience_2": "Ön és közönsége számára",
             "as_a_free_user": "Ingyenes felhasználóként a Twibbon mindig rendelkezik <strong>vízjellel.<\/strong>",
             "premium_supporter": "<strong>A Premium Creator<\/strong> eltávolítja a vízjelet a tisztább kép érdekében.",
             "now_you_can": "Mostantól <strong>támogathat bármilyen kampányt<\/strong> vízjel nélkül."
@@ -735,10 +779,10 @@
             "as_a_free_user": "Ingyenes felhasználóként a Twibbon mindig rendelkezik <strong>vízjellel.<\/strong>",
             "premium_supporter": "<strong>A Premium Supporter<\/strong> eltávolítja a vízjelet a tisztább kép érdekében.",
             "now_you_can": "Mostantól <strong>támogathat bármilyen kampányt<\/strong> vízjel nélkül.",
-            "remove_watermark_1": "Távolítsa el a",
-            "remove_watermark_2": "Vízjel",
-            "for_audience_1": "a  oldalon.",
-            "for_audience_2": "a saját számlád",
+            "remove_watermark_1": "Vízjel",
+            "remove_watermark_2": "eltávolítása",
+            "for_audience_1": "",
+            "for_audience_2": "a saját fiókod számára",
             "looking_to_remove": "Szeretné eltávolítani a vízjelet az összes kampányfelhasználó számára? Próbálja ki a"
         },
         "upgrade": {
@@ -772,7 +816,7 @@
             "notes": "Megjegyzések",
             "print": "Számla letöltése",
             "if_you_would_like_to_change": "Ha módosítani szeretné előfizetését vagy fizetési adatait, kérjük, lépjen be a számlázási beállításokba.",
-            "ending_in": ""
+            "ending_in": "{ {number} végződő {card}"
         },
         "bento": {
             "campaign_analytics_1": "Kampány",
@@ -780,18 +824,18 @@
             "private_campaign_1": "Privát",
             "private_campaign_2": "Kampány",
             "campaign_customization_1": "Kampány",
-            "campaign_customization_2": "Testreszabás",
-            "multiple_frames_1": "Több keret",
-            "multiple_frames_2": "kampányonként",
+            "campaign_customization_2": "testreszabása",
+            "multiple_frames_1": "Kampányonként",
+            "multiple_frames_2": "több képkocka",
             "use_twibbonize_without_ads_1": "Twibbonize használata",
-            "use_twibbonize_without_ads_2": "Hirdetések nélkül",
+            "use_twibbonize_without_ads_2": "hirdetések nélkül",
             "no_extra_features_1": "Nincsenek extra funkciók",
             "no_extra_features_2": "Elérhető",
-            "remove_all_watermark_1": "Távolítsa el a vízjelet",
-            "remove_all_watermark_2": "az összes kampány felhasználójától",
+            "remove_all_watermark_1": "Vízjel eltávolítása",
+            "remove_all_watermark_2": "a kampány összes felhasználójától",
             "remove_own_watermark_1": "Vízjel eltávolítása",
-            "on": "a  oldalon",
-            "remove_own_watermark_2": "a saját számlád",
+            "on": "",
+            "remove_own_watermark_2": "a saját fiókodon",
             "extra_features": "Extra jellemzők"
         },
         "modal": {
@@ -828,6 +872,9 @@
         },
         "card_premium_creator": {
             "subheading": "Azoknak, akiknek a tökéletes Twibbonize élményre van szükségük"
+        },
+        "same_plan": {
+            "adjust_plan": "Terv módosítása"
         }
     },
     "page_profile": {
@@ -835,17 +882,17 @@
             "search_campaigns": "Kampányok keresése",
             "no_campaigns": "Még nincsenek kampányok",
             "no_campaigns_details": "Hozzon létre egy kampányt, és ossza meg a twibbonize-on.",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "Biztosan törli ezt a kampányt?",
+            "delete_detail": "A(z) \" {title} \" törlése végleges, és nem vonható vissza.",
+            "delete_campaign": "Kampány törlése"
         },
         "posts": {
             "no_posts": "Még nincs hozzászólás",
-            "no_post_details": "Keress egy kampányt, és küldd el a Twibbonize-ra a twibbonodat."
+            "no_post_details": "Keress egy kampányt, és küldd el a Twibbonize-ra a twibbonodat"
         },
         "collections": {
             "no_collections": "Szervezze kedvenc kampányait",
-            "no_collections_details": "A kampányok oldalán egyszerűen kattintson a {icon} ikonra, és mentse az érdekesnek talált kampányokat saját gyűjteményébe."
+            "no_collections_details": "Kattintson bármelyik kampányban az {icon} ikonra, ha el szeretné menteni a kampányt a gyűjteményeibe"
         },
         "about": {
             "about": "A  oldalról",
@@ -857,13 +904,32 @@
             "campaigns": "Kampányok"
         },
         "my_profile": {
-            "edit_profile": "",
+            "edit_profile": "Profil szerkesztése",
             "campaigns": "Kampányok",
             "collections": "Gyűjtemények",
-            "posts": ""
+            "posts": "Hozzászólások"
         },
         "campaign_deletion": {
             "are_you_sure": "Biztos vagy benne?"
+        },
+        "campaign": {
+            "delete_campaign": "A \"{campaign_name}\" törlése végleges és nem vonható vissza.",
+            "confirm_delete_campaign": "Kampány törlése"
+        },
+        "collection": {
+            "delete_collection": "A \"{collection_name}\" gyűjtemény véglegesen törlésre kerül.",
+            "confirm_delete_collection": "Gyűjtemény törlése",
+            "delete_campaign": "A \"{campaign_name}\" kampányt véglegesen eltávolítjuk a \"{collection_name}\" gyűjteményből.",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "Miért jelenti ezt a profilt?",
+            "abusive_harmful": "Bántalmazó vagy ártalmas",
+            "pretending_someone": "Valaki másnak tettetni magad",
+            "sensitive_content": "Érzékeny tartalom"
+        },
+        "account": {
+            "email_changed": "Az e-mail címed nemrég megváltozott. 90 napon belül újra frissítheti."
         }
     },
     "page_preference": {
@@ -907,55 +973,55 @@
             "adfree": "Ad-Free",
             "highquality": "Kiváló minőség",
             "nowatermark": "Vízjel nélkül",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "Fizetett",
+            "are_you_sure_change": "biztos vagy ebben?",
+            "active_after_subscription": "Aktív lesz, ha lejár az aktuális előfizetésed",
+            "are_you_sure_upgrade": "Biztosan frissíteni akar?",
+            "plan_changing_info": "Váltás a következőre: {package} megérkezett. Az új terv a jelenlegi lejárta után indul",
+            "active_after_payment": "A fizetés befejezése után lesz aktív",
+            "are_you_sure_downgrade": "Biztosan le akarja váltani a tervet?",
+            "plan_downgrade_info": "Megérkezett a visszalépés a(z) {package} . Az új terv a jelenlegi lejárta után indul",
+            "renew_plan": "Terv megújítása",
+            "renew_subscription": "Előfizetés megújítása",
+            "upgrade_now": "Frissíts most",
+            "warning": "Figyelem!",
+            "important": "Fontos!",
+            "premium_expired": "Prémium alkotói csomagod lejárt. Kérjük, újítsa meg {date} -ig",
+            "last_attempted": "A legutóbbi vádemelési kísérletünk sikertelen volt. Kérjük, frissítse fizetési módját.",
+            "renewal_date": "Megújítás dátuma",
+            "payment_method": "Fizetési mód",
+            "update_now": "Frissítse most",
+            "cancel_subscription": "Feliratkozás visszavonása",
+            "change_payment_method": "Fizetési mód megváltoztatása",
+            "card_end_with": "{ {number} végződő {card}",
+            "no_transactions": "Még nincsenek tranzakciók előzményei",
+            "transactions_will_shown": "A tranzakciós előzmények itt jelennek meg, amint elérhetővé válik",
+            "are_you_sure": "biztos vagy ebben?",
+            "once_cancel_plan": "Ha lemondja a csomagot, a számlázási ciklus végén elveszíti hozzáférését az összes frissített funkcióhoz",
+            "yes_cancel_plan": "Igen, törölje a tervet",
+            "no_keep_plan": "Nem, tartsd a tervet",
+            "once_renew_plan": "A terv megújítása után a terv újra aktív lesz",
+            "yes_renew_plan": "Igen, Terv megújítása",
+            "no_cancel": "Nem, Mégsem",
+            "if_cancel_downgrade": "Ha lemondja a leminősítést, a jelenlegi csomagja ismét aktív lesz",
+            "yes_downgrade": "Igen, folytassa az alacsonyabb verzióra",
+            "if_cancel_change_billing": "Ha lemondja a számlázás módosítását, a jelenlegi csomag újra aktív lesz",
+            "yes_continue": "Igen, Folytatás",
+            "info": "Info",
+            "your_request_cancel": "A {plan} csomag törlésére vonatkozó kérése megérkezett. A következő számlázási ciklusban ér véget",
+            "your_request_downgrade": "{plan} verzióra való visszalépésre vonatkozó kérése megérkezett. Az új csomag a jelenlegi csomag lejárta után aktiválódik.",
+            "cancel_downgrade": "Törölje a visszalépést",
+            "cancel_change": "Törölje a számlázás módosítását",
+            "your_request_billing": "Megérkezett a kérése, hogy módosítsa a számlázást a következőre: {plan} . Az új csomag a jelenlegi csomag lejárta után aktiválódik.",
+            "manage_inapp": "Kezelje előfizetését a Twibbonize {appOs} alkalmazásban",
+            "manage_inapp_subscription": "Ha kezelni szeretné Twibbonize-előfizetését {appOs} webhelyen, nyissa meg az alkalmazást, lépjen a \"Beállítások\" menübe, és válassza a \"Számlázás\" lehetőséget.",
+            "success_cancel_subscription": "Sikeres Előfizetés lemondása",
+            "success_renew_subscription": "Sikeres előfizetés megújítása",
+            "success_change_subscription": "Az előfizetés módosítása sikeres",
+            "success_cancel_change_subscription": "Sikeres Az előfizetés lemondása",
+            "last_attempted_authentication": "A legutóbbi vádemelési kísérletünk sikertelen volt. Fizetését hitelesíteni kell.",
+            "authenticate_now": "Hitelesítés most",
+            "recurring_payment": "Az ismétlődő fizetéshez kifejezett visszaigazolásra van szükségünk. Kérem nézze meg email-jeit"
         },
         "account": {
             "update_email": "E-mail frissítése",
@@ -985,19 +1051,19 @@
             "confirm_password": "Jelszó megerősítése",
             "create_new_password": "Új jelszó létrehozása",
             "make_it_easy": "Könnyen megjegyezd, és tartsd titokban bárki előtt!",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "E-mail hozzáadása",
+            "add_password": "Jelszó hozzáadása",
+            "cant_remove_account": "Hoppá, nem tudjuk eltávolítani közösségimédia-fiókját.",
+            "set_up_email": "Először be kell állítania az e-mail-címet vagy a jelszót a közösségi médiafiók eltávolításához.",
+            "want_to_remove": "El szeretné távolítani közösségimédia-fiókját?",
+            "your_account_will_be_removed": "{provider} -fiókját eltávolítjuk. Kattintson a Megértés gombra a közösségimédia-fiókok eltávolításához.",
+            "continue_to_revoke": "Folytassa a Visszavonás lehetőséggel ",
+            "revoke_success": "Sikeres fiók visszavonása {provider}",
+            "cannot_update_email": "Hoppá, nem tudjuk frissíteni az e-mail-címét",
+            "setup_password_to_update_email": "Az e-mail-cím frissítése előtt be kell állítania egy jelszót.",
+            "email_change_request": "E-mail módosítási kérelem visszavonva",
+            "we_have_sent_password": "A jelszó-visszaállítási utasításokat elküldtük az Ön e-mail címére. Kérjük, biztonsági okokból állítsa vissza jelszavát 1 órán belül.",
+            "go_to_homepage": "Menj a főoldalra"
         },
         "notifications": {
             "notifications_settings": "Értesítések beállításai",
@@ -1015,10 +1081,10 @@
             "article": "Cikkek",
             "article_details": "Megkapja az ajánlott cikkeinket.",
             "toggle_all": "Minden",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "Közzététel a Twibbonize-hoz",
+            "post_twibbonize_details": "Értesítéseket kaphat a támogatói bejegyzésekről egy kampányoldalon.",
+            "account_recap": "Fiók összefoglaló",
+            "account_recap_details": "Heti összefoglaló a támogatókról és az összes kampány látogatásáról"
         },
         "package": {
             "free": "Ingyenes",
@@ -1284,290 +1350,6 @@
             "paragraph_11": "Miközben elfogadjuk a digitális korszak kapcsolódási képességét, hagyjuk, hogy a Twibbonize továbbra is a szolidaritás szimbólumaival fesse a képernyőinket, tartós hatást gyakorolva a társadalmi érdekérvényesítés területén. Együtt olyan vizuális narratívát szövünk, amely átlépi a határokat, és visszhangozza közös elkötelezettségünket egy együttérzőbb és egységesebb világ iránt."
         }
     },
-    "notification": {
-        "push": {
-            "campaign_milestone": {
-                "header": "🏆 {name}, új mérföldkőhöz érkeztünk!",
-                "body": "Gratulálok! A {title} kampányodnak már {amount} támogatója van!"
-            },
-            "new_post": {
-                "header": "Új Twibbon postázva",
-                "body": "{participant} egy Twibbont tett közzé a kampányod galériájában {title}!"
-            },
-            "new_comment": {
-                "header": "Új megjegyzés!",
-                "body": "{participant} hozzászólásodhoz a kampányban {title}!"
-            },
-            "account_recap": {
-                "header": "🍺 {name}, itt a heti összefoglaló!",
-                "body": "A héten új támogatókat szereztél a {amount} oldalon. Csak így tovább!"
-            },
-            "billing": {
-                "creator": {
-                    "successful_payment": {
-                        "header": "A fizetés sikeres volt",
-                        "body": "Használja ki az exkluzív funkciókat! Indítsa el kampányát most"
-                    },
-                    "plus_5": {
-                        "header": "Szia {name}, újítsa meg előfizetését most",
-                        "body": "Újítsa meg vagy frissítse csomagját most, hogy továbbra is hozzáférhessen kampányelemzéseihez."
-                    }
-                },
-                "international": {
-                    "renewed_plan": {
-                        "header": "Szia {name}, a megújítás kifizetését visszaigazoltuk.",
-                        "body": "Mostantól továbbra is használhatja exkluzív funkcióinkat!"
-                    },
-                    "creator": {
-                        "successful_payment": {
-                            "header": "A fizetés sikeres volt",
-                            "body": "Használja ki az exkluzív funkciókat! Indítsa el kampányát most."
-                        },
-                        "plus_2": {
-                            "header": "Szia {name}, újítsa meg előfizetését most",
-                            "body": "Újítsa meg vagy frissítse csomagját most, hogy továbbra is hozzáférhessen kampányelemzéseihez."
-                        }
-                    },
-                    "supporter": {
-                        "successful_payment": {
-                            "header": "A fizetés sikeres volt",
-                            "body": "Élvezze a reklámmentes élményt, és szerezzen Twibbonokat vízjelek nélkül!"
-                        },
-                        "plus_2": {
-                            "header": "Szia {name}, újítsa meg előfizetését most",
-                            "body": "Újítsa meg csomagját most, hogy élvezhesse a vízjelmentes Twibbonokat és a reklámoktól mentes élményt."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Élvezze a reklámmentes élményt, és szerezzen Twibbonokat vízjelek nélkül!",
-                        "header": "A fizetés sikeres volt"
-                    },
-                    "plus_5": {
-                        "body": "Újítsa meg csomagját most, hogy élvezhesse a vízjelmentes Twibbonokat és a reklámoktól mentes élményt.",
-                        "header": "Szia {name}, újítsa meg előfizetését most"
-                    }
-                }
-            },
-            "new_reply": {
-                "header": "Új válasz!",
-                "body": "{participant} hozzászólásodhoz a kampányban {title}!"
-            }
-        },
-        "panel": {
-            "campaign_milestone": {
-                "body": "Gratulálunk! A {title} kampánynak már {amount} támogatója van!",
-                "header": "🏆 {name}, új mérföldkőhöz érkeztünk!"
-            },
-            "account_recap": {
-                "body": "Az elmúlt héten az összes kampányodban {amount} új támogatót szereztél. Csak így tovább!",
-                "header": "🍺 {name}, Itt a heti összefoglaló!"
-            },
-            "billing": {
-                "order_received": {
-                    "header": "Hello {name}, kérjük, töltse ki a fizetést",
-                    "body": "Köszönjük, hogy megrendelte a {product}. Kérjük, folytassa a fizetést a tranzakció befejezéséhez."
-                },
-                "order_canceled": {
-                    "header": "Sajnáljuk {name}, a {product} megrendelését töröltük.",
-                    "body": "Kérjük, ne folytassa a fizetést."
-                },
-                "creator": {
-                    "successful_payment": {
-                        "header": "Hello {name}, a fizetésed megérkezett",
-                        "body": "Köszönjük, hogy feliratkozott a {product} oldalra. Hozzon létre kampányt most, és használja ki a különleges funkciókat!"
-                    },
-                    "min_3": {
-                        "header": "Szia {name}, a {product} 3 nap múlva lejár.",
-                        "body": "Újítsa meg vagy frissítse előfizetését, hogy továbbra is élvezhesse a Twibbonize exkluzív funkcióit."
-                    },
-                    "exp_day": {
-                        "header": "Hello {name}, a {product} előfizetése lejárt.",
-                        "body": "Újítsa meg vagy frissítse előfizetését a {date_plus_7} előtt, hogy továbbra is hozzáférjen a kampányelemzésekhez és az összes exkluzív funkcióhoz."
-                    },
-                    "plus_5": {
-                        "header": "Szia {name}, az előfizetésed 48 órán belül megszűnik.",
-                        "body": "A kampányelemzésekhez való hozzáférés fenntartásához 48 órán belül megújíthatja vagy frissítheti csomagját."
-                    },
-                    "plus_7": {
-                        "header": "Szia {name}, a fiókod leminősült Twibbonize Free-re.",
-                        "body": "Kérjük, újítsa meg előfizetését a {product} funkciók további használatához."
-                    }
-                },
-                "international": {
-                    "creator": {
-                        "canceled_plan": {
-                            "header": "Szia {name}, a {product} előfizetését sikeresen lemondtuk.",
-                            "body": "A számlázási ciklus végén elveszíti a hozzáférést a {product} összes funkciójához."
-                        },
-                        "renewed_plan": {
-                            "header": "Szia {name}, a {product} előfizetésed sikeresen megújult.",
-                            "body": "A {product} előfizetés a számlázási ciklus végén kerül felszámításra."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Szia {name}, a fiókod leminősült Twibbonize Free-re.",
-                                "body": "Kérjük, újítsa meg előfizetését a {product} funkciók további használatához."
-                            }
-                        },
-                        "cancel_downgrade": {
-                            "header": "Hello {name}, a leminősítés törlésére vonatkozó kérését megkaptuk.",
-                            "body": "Az előfizetésed Premium Creator néven folytatódik."
-                        },
-                        "convert": {
-                            "header": "Hello {name}, a fiókodat Premium Creatorrá fejlesztettük.",
-                            "body": "Gratulálunk! Ön mostantól Prémium Creator. Élvezze az összes funkciót!"
-                        },
-                        "successful_payment": {
-                            "header": "Hello {name}, a fizetésed megérkezett",
-                            "body": "Köszönjük, hogy feliratkozott a {product} oldalra. Hozzon létre kampányt most, és használja ki a különleges funkciókat!"
-                        },
-                        "exp_day": {
-                            "header": "Hello {name}, a {product} előfizetése lejárt.",
-                            "body": "Kérjük, frissítse számlázási adatait {date_plus_7} előtt, hogy továbbra is hozzáférhessen a kampányelemzésekhez."
-                        },
-                        "plus_2": {
-                            "header": "Szia {name}, az előfizetésed 48 órán belül megszűnik.",
-                            "body": "Kérjük, frissítse fizetési kártyáját, hogy továbbra is hozzáférhessen a kampányelemzésekhez."
-                        },
-                        "plus_5": {
-                            "header": "Szia {name}, a fiókod leminősült Twibbonize Free-re.",
-                            "body": "Kérjük, újítsa meg előfizetését a {product} funkciók további használatához."
-                        },
-                        "convert_addon": {
-                            "body": "Gratulálunk! Ön mostantól Prémium Creator. Élvezze az összes funkciót!",
-                            "header": "Hello {name}, a fiókodat Premium Creatorrá fejlesztettük."
-                        }
-                    },
-                    "auth": {
-                        "exp_day": {
-                            "header": "Szia {name}, a fizetési módodnak hitelesítésre van szüksége.",
-                            "body": "Kérjük, erősítse meg a fizetés hitelesítését, hogy az előfizetés most befejeződjön."
-                        }
-                    },
-                    "renewed_plan": {
-                        "header": "Hello {name}, a megújítási kifizetését megerősítették.",
-                        "body": "Mostantól továbbra is élvezheti az exkluzív funkciókat!"
-                    },
-                    "downgrade_received": {
-                        "header": "Helló {name}, a leminősítési kérelmét megkaptuk.",
-                        "body": "Számlája a számlázási ciklus végén visszaminősítésre kerül a {product} címre."
-                    },
-                    "supporter": {
-                        "convert": {
-                            "header": "Hello {name}, A fiókodat Premium Supporterré léptettük elő.",
-                            "body": "Gratulálunk! Ön mostantól Premium Supporter. Élvezze az összes funkciót!"
-                        },
-                        "successful_payment": {
-                            "body": "",
-                            "header": "Üdvözlöm {name}, sikeresen megkaptuk a fizetését."
-                        },
-                        "min_3": {
-                            "body": ""
-                        },
-                        "successful": {
-                            "body": "Köszönjük, hogy feliratkozott a {product} oldalra. Most már vízjelek nélkül és reklámmentes élményt nyújt a Twibbon!"
-                        },
-                        "exp_day": {
-                            "header": "Hello {name}, a fizetésed nem történt meg",
-                            "body": "Kérjük, frissítse számlázási adatait {date_plus_7} előtt, hogy élvezhesse az exkluzív funkciókat, a reklámmentes böngészést és a vízjelmentes Twibbont."
-                        },
-                        "plus_2": {
-                            "header": "Szia {name}, az előfizetésed 48 órán belül megszűnik.",
-                            "body": "Újítsa meg csomagját most, hogy élvezhesse a vízjelmentes Twibbonokat és a reklámoktól mentes élményt."
-                        },
-                        "plus_7": {
-                            "header": "Szia {name}, a fiókod leminősült Twibbonize Free-re."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Szia {name}, a fiókod leminősült Twibbonize Free-re.",
-                                "body": "Kérjük, újítsa meg előfizetését a {product} funkciók további használatához."
-                            }
-                        },
-                        "plus_5": {
-                            "header": "Szia {name}, a fiókod leminősült Twibbonize Free-re.",
-                            "body": "Kérjük, újítsa meg előfizetését a {product} funkciók további használatához."
-                        }
-                    },
-                    "period_changed": {
-                        "header": "Szia {name}, megkaptuk a tervezetváltoztatásra vonatkozó kérését.",
-                        "body": "A számlázási ciklus végén a fiókját {product} tervezetre változtatjuk."
-                    },
-                    "cancel_change_period": {
-                        "header": "Szia {name}, megkaptuk a tervmódosítás törlésére vonatkozó kérelmét.",
-                        "body": "Az előfizetésed Premium Creator néven folytatódik."
-                    }
-                },
-                "india": {
-                    "auth": {
-                        "exp_day": {
-                            "header": "Szia {name}, kérjük, erősítse meg az előfizetés kifizetését most.",
-                            "body": "A biztonsági előírások betartása érdekében a Twibbonize-előfizetésedre vonatkozó ismétlődő fizetésedhez kifejezett megerősítésre van szükségünk."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Most már vízjelek nélkül és reklámmentes élményt nyújt a Twibbon!",
-                        "header": "Hello {name}, a fizetésed megérkezett"
-                    },
-                    "exp_day": {
-                        "body": "Újítsa meg vagy frissítse előfizetését a {date_plus_7} előtt, hogy továbbra is élvezhesse az exkluzív funkciókat, a reklámmentes böngészést és a vízjelmentes Twibbont.",
-                        "header": "Hello {name}, a {product} előfizetése lejárt."
-                    },
-                    "plus_5": {
-                        "body": "Ha 48 órán belül megújítod a csomagodat, továbbra is élvezheted a vízjelmentes Twibbont és a reklámmentes élményt.",
-                        "header": "Szia {name}, az előfizetésed 48 órán belül megszűnik."
-                    },
-                    "min_3": {
-                        "body": "Újítsa meg vagy frissítse előfizetését most, hogy továbbra is élvezhesse a reklámmentes böngészést és a vízjelmentes Twibbonokat.",
-                        "header": "Szia {name}, a {product} 3 nap múlva lejár."
-                    },
-                    "plus_7": {
-                        "body": "Kérjük, újítsa meg előfizetését a {product} funkciók további használatához."
-                    }
-                }
-            },
-            "launch": {
-                "prem_sub": {
-                    "min_1": {
-                        "header": "Új Twibbonize Premium előfizetés",
-                        "body": "Bemutatjuk a Twibbonize új prémium előfizetéseit - indul július 8-án!"
-                    }
-                },
-                "short_link": {
-                    "min_1": {
-                        "header": "Új Twibbonize rövid link",
-                        "body": "Bemutatjuk a Twibbonize új rövid linkjét - július 8-án változik!"
-                    }
-                }
-            },
-            "campaign_addon": {
-                "adfree_quota_remaining": {
-                    "header": "Maradék reklámmentes kvóta",
-                    "body": "Önnek még 50 támogató számára maradt reklámmentes kvótája a {campaignlink} oldalon. Élvezze a reklámmentes élményt, amíg tart!"
-                },
-                "adfree_quota_runout": {
-                    "header": "Reklámmentes kvóta elfogyott",
-                    "body": "A {campaignlink} támogatói hirdetéseket fognak látni a platformunkon való böngészés közben."
-                }
-            },
-            "new_post": {
-                "header": "Új Twibbon postázva",
-                "body": "{participant} posztolt egy Twibbon a kampányodban {title}'s galériában!"
-            },
-            "new_comment": {
-                "header": "Új megjegyzés!",
-                "body": "{participant} hozzászólt a {title} kampány bejegyzéséhez!"
-            },
-            "new_reply": {
-                "header": "Új válasz!",
-                "body": "{participant} hozzászólásodhoz a kampányban {title}!"
-            }
-        }
-    },
     "page_analytics": {
         "time": {
             "today": "Ma",
@@ -1581,7 +1363,6 @@
         },
         "graph": {
             "page": "Oldal {currentPage} of {totalPage}",
-            "data_displayed": "Az adatok UTC időzónában (UTC+0) jelennek meg.",
             "trend": "Trend",
             "country": "Ország",
             "city": "Város",
@@ -1594,7 +1375,8 @@
             "visit": "Látogasson el a  oldalra.",
             "visit_detail": "A kampányoldalt meglátogató egyetlen böngészési munkamenet száma",
             "unique_visit": "Egyedülálló látogatás",
-            "unique_visit_detail": "A kampányoldaladat meglátogatók száma"
+            "unique_visit_detail": "A kampányoldaladat meglátogatók száma",
+            "data_displayed": "Az adatok UTC+0 időzónában jelennek meg"
         }
     },
     "page_account": {
@@ -1602,8 +1384,6 @@
             "email": "E-mail",
             "password": "Jelszó",
             "confirm_password": "Jelszó megerősítése",
-            "login_with_google": "Bejelentkezés a Google segítségével",
-            "login_with_facebook": "Bejelentkezés Facebookkal",
             "login_with_email": "vagy jelentkezzen be e-mailben",
             "signup_with_google": "Regisztráció a Google-nál",
             "signup_with_facebook": "Regisztráljon a Facebookon",
@@ -1616,7 +1396,9 @@
             "signup": "Feliratkozás",
             "terms": "Feltételek",
             "privacy": "Adatvédelmi irányelvek",
-            "name": ""
+            "name": "Név",
+            "login_with_facebook": "Jelentkezz be facebookal",
+            "login_with_google": "Jelentkezzen be a Google-lal"
         }
     },
     "page_article": {
@@ -1625,98 +1407,95 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "Jelentkezzen be a Post to Twibbonize szolgáltatásba",
+        "sign_in_to_comment": "Jelentkezzen be, ha megjegyzést szeretne hagyni",
+        "sign_in_to_like": "Lájkoláshoz jelentkezz be",
+        "sign_up_to_post": "Regisztráljon a Post to Twibbonize szolgáltatásra",
+        "sign_up_to_comment": "Regisztráljon, hogy megjegyzést írjon",
+        "sign_up_to_like": "Iratkozz fel, hogy adj egy lájkot",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "Sikeres bejelentkezés! Üdv újra.",
+                "error": "Bejelentkezés sikertelen. Kérjük, ellenőrizze hitelesítő adatait, és próbálja újra."
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "Sikeres regisztráció! Üdv a fedélzeten.",
+                "error": "A regisztráció sikertelen. Kérjük, ellenőrizze adatait, és próbálja újra."
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "E-mail már regisztrálva",
+        "email_registered_lead": "Ez az e-mail cím már regisztrálva van. Szeretne inkább bejelentkezni?"
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "Törlés jóváhagyása",
+            "delete_lead": "Biztosan törlöd ezt a bejegyzést? Ez a művelet nem visszavonható.",
+            "delete_yes": "Igen, Törlés",
+            "delete_no": "Megszünteti"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "Ossza meg üzenetét",
+            "logged_in_placeholder": "Comment as {name}",
+            "comment_posted": "Megjegyzés közzétéve",
+            "comment_deleted": "Megjegyzés törölve",
+            "reply_deleted": "Válasz törölve"
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "A bejegyzés feltöltve",
+            "hidden": "Rejtett",
+            "unhidden": "Felfedve",
+            "reported": "Jelentették",
+            "deleted": "Törölve",
+            "pinned": "Rögzítve",
+            "unpinned": "Feloldva"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "Kampány bejelentése",
+        "report_profile": "Profil jelentése",
+        "abusive_or_harmful": "Visszaélésszerű vagy káros",
+        "pretending_to_be_someone_else": "Úgy tesz, mintha valaki más lenne",
+        "sensitive_content": "Érzékeny tartalom",
+        "plagiarism": "Plágium",
+        "impersonation": "Megszemélyesítés",
+        "piracy": "Kalózkodás",
+        "nudity_pornography": "Meztelenség és pornográfia",
+        "dangerous_or_harmful": "Veszélyes vagy káros",
+        "harassment_cyberbullying": "Zaklatás és internetes zaklatás",
+        "provocative_threatening_content": "Provokatív és fenyegető tartalom",
+        "privacy_violations": "Adatvédelmi jogsértések",
+        "unauthorized_use_of_personal_information": "Személyes adatok jogosulatlan felhasználása",
+        "child_exploitation": "Gyermekkizsákmányolás",
+        "harassment": "Zaklatás",
+        "terrorism": "Terrorizmus",
+        "violence": "Erőszak",
+        "false_information": "Hamis információ",
+        "health": "Egészség",
+        "politics": "Politika",
+        "social_issue": "Társadalmi probléma",
+        "hate_speech": "Gyűlöletbeszéd",
+        "disability_or_disease": "Fogyatékosság vagy betegség",
+        "race_or_ethnicity": "Faj vagy etnikai hovatartozás",
+        "religious_affiliation": "Vallási hovatartozás",
+        "sexual_orientation": "Szexuális irányultság",
+        "nudity": "Meztelenség",
+        "suicide_or_self_harm": "Öngyilkosság vagy önkárosítás",
+        "vulgar_language": "Vulgáris nyelv",
+        "dangerous_content": "Veszélyes tartalom",
+        "why_report_campaign": "Miért jelenti be ezt a kampányt?",
+        "why_report_profile": "Miért jelented ezt a profilt?",
+        "why_report_submission": "Miért jelenti be ezt a beadványt?",
+        "why_report_comment_reply": "Miért jelenti be ezt a megjegyzést?",
+        "why_report_collection": "Miért jelenti be ezt a gyűjteményt?",
+        "select_one": "Kérlek válassz egyet",
+        "protect_privacy_reporter": "A Twibbonize közösségi irányelvei védik a riporter személyazonosságának adatait.",
+        "tell_us_more": "Mondj nekünk többet",
+        "received_report": "Megkaptuk a bejelentését!",
+        "thankyou": "Köszönöm! Kérjük, engedje meg, hogy kivizsgálhassuk bejelentését, és a visszajelzést a lehető leghamarabb elküldjük e-mail-címére.",
+        "learn_more_about": "További információ a {link} webhelyről.",
+        "community_guideline": "A Twibbonize közösségi irányelvei",
+        "placeholder_write_here": "Írj ide",
+        "report_sent": "Elküldött jelentés"
     },
     "page_editor": {
         "general": {
@@ -1754,10 +1533,10 @@
         "upload": {
             "upload_image": "Kép feltöltése",
             "upload": "Feltöltés",
-            "type": "",
-            "size": "",
-            "type_image": "",
-            "maximum_size": ""
+            "type": "Típus:",
+            "size": "Méret:",
+            "type_image": "JPG, PNG vagy SVG",
+            "maximum_size": "Maximum 5 MB"
         },
         "toolbar": {
             "copy": "Másolás",
@@ -1781,8 +1560,7 @@
             "lock": "Lock",
             "letter_spacing": "Betűtávolság",
             "line_spacing": "Vonaltávolság",
-            "border_weight": "",
-            "corner_rounding": "",
+            "border_weight": "Szegély súlya",
             "align": "Align",
             "effects": "Hatások"
         },
@@ -1822,15 +1600,203 @@
     },
     "page__campaign_creation": {
         "campaign_preview": {
-            "campaign_description": "",
+            "campaign_description": "Kampány leírása",
             "campaign_title": "Kampány címe"
         }
     },
     "page_my_campaign": {
         "edit_campaign": {
             "campaigns": "Kampányok",
-            "frames": "",
-            "analytics": ""
+            "frames": "Keretek",
+            "analytics": "Analitika"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "Miért jelented ezt a hozzászólást?",
+            "plagiarism ": "Plágium",
+            "impersonation ": "Megszemélyesítés ",
+            "piracy ": "Kalózkodás",
+            "vulgar_language": "Vulgáris nyelvezet",
+            "nudity_pornography": "Meztelenség és pornográfia",
+            "suicidal_self_harm": "Öngyilkossági és önkárosító tartalmak ",
+            "danger": "Veszélyes vagy ártalmas ",
+            "violent_graphic_content": "Erőszakos grafikai tartalom",
+            "harassment_cyberbullying": "Zaklatás és internetes zaklatás ",
+            "provocative_threatening_content": "Provokatív és fenyegető tartalom",
+            "spam": "Spam"
+        },
+        "report_comment": {
+            "title": "Miért jelented ezt a hozzászólást?",
+            "abusive_harmful": "Bántalmazó vagy ártalmas",
+            "harassment": "Zaklatás",
+            "terrorism": "Terrorizmus",
+            "violence": "Erőszak",
+            "false_information": "",
+            "health": "Egészség",
+            "politics": "Politika",
+            "social_issue": "Szociális kérdés",
+            "sensitive_content": "Érzékeny tartalom ",
+            "nudity": "Meztelenség",
+            "vulgar_language": "Vulgáris nyelvezet",
+            "hate_speech": "Gyűlöletbeszéd",
+            "disability_disease": "Fogyatékosság vagy betegség",
+            "race_or_ethnicity": "Faj vagy etnikai hovatartozás",
+            "religious_affiliation": "Vallási hovatartozás ",
+            "sexual_orientation": "Szexuális irányultság",
+            "spam": "Spam"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "Url érvénytelen"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "Sikertelen Google bejelentkezés",
+        "failed_apple_login": "Sikertelen Apple bejelentkezés"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "A fotófájl mérete meghaladja az 5 MB-os maximális méretet",
+            "cannot_create_twibbon": "Nem hozható létre Twibbon. Próbáld újra"
+        },
+        "log_in": {
+            "complete_verification": "A folytatáshoz fejezze be az ellenőrzést",
+            "email_no_password": "Ebben az e-mailben nincs jelszó. Jelentkezzen be a Google-n keresztül",
+            "social_media_already_registered": "Az Ön közösségimédia-fiókjának e-mail-címe már regisztrálva van, és egy hasonló közösségimédia-szolgáltatás másik fiókjához kapcsolódik. Kérjük, próbáljon meg bejelentkezni az e-mail és jelszó űrlap használatával."
+        },
+        "sign_up": {
+            "email_already_registered": "Ez az e-mail cím már regisztrálva van. Használjon másik e-mail-címet, vagy próbáljon meg bejelentkezni",
+            "password_minimum_required": "A jelszónak legalább 8 karakterből kell állnia.",
+            "password_character_exceeded": "A jelszó nem haladhatja meg a 128 karaktert",
+            "password_must_be_standard": "A jelszónak szabványos alfanumerikusnak kell lennie",
+            "password_does_not_match": "A jelszó megerősítése nem egyezik. Próbáld újra"
+        },
+        "verification": {
+            "code_incorrect": "A kód helytelen. Próbáld újra",
+            "code_expired": "A kód lejárt. Kérjen újat",
+            "maximum_attempt_reached": "Elérte a kísérletek maximális számát. Próbálja újra 5 óra múlva",
+            "code_requested_exceeded": "A kódkérések túllépték a maximális korlátot"
+        },
+        "forgot_password": {
+            "email_not_found": "E-mail nem található. Próbálja újra, vagy regisztráljon",
+            "link_expired": "A jelszó megváltoztatására szolgáló link lejárt. Kérjen újat",
+            "link_used": "A jelszó megváltoztatására szolgáló linket használták. Kérjen újat"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "A keretfájl mérete meghaladja az 5 MB-os maximális méretet",
+            "background_file_exceed": "A háttérfájl mérete meghaladja az 5 MB-os maximális méretet",
+            "image_not_transparent": "A képnek átlátszónak kell lennie. Próbáld újra",
+            "invalid_format": "Érvénytelen fájlformátum. Használjon támogatott formátumot",
+            "allow_only_1_frame": "Az ingyenes fiókok csak 1 képkocka feltöltést tesznek lehetővé. A folytatáshoz frissítsen",
+            "allow_only_1_background": "Az ingyenes fiókok csak 1 háttérfeltöltést tesznek lehetővé. A folytatáshoz frissítsen",
+            "campaign_title_exceed_limit": "A kampány címe meghaladja a maximális karakterkorlátot",
+            "description_exceed_limit": "A leírás meghaladja a maximális karakterkorlátot",
+            "link_unavailable": "A kampány linkje már használatban van. Válassz másikat",
+            "link_criteria": "A kampány linkjének alfanumerikusnak és kötőjelnek (-) kell lennie",
+            "caption_exceed_limit": "A feliratsablon meghaladja a maximális karakterkorlátot",
+            "background_exceed_limit": "A háttérfájl mérete meghaladja az 5 MB-os maximális méretet",
+            "photo_exceed_limit": "A miniatűr fotófájl mérete meghaladja az 5 MB-os maximális méretet",
+            "link_exceed_limit": "A kampány linkje meghaladja a maximális karakterkorlátot"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "A keretfájl mérete meghaladja az 5 MB-os maximális méretet",
+            "background_file_exceed": "A háttérfájl mérete meghaladja az 5 MB-os maximális méretet"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "A képnek átlátszónak kell lennie. Próbáld újra",
+            "invalid_format": "Érvénytelen fájlformátum. Használjon támogatott formátumot",
+            "allow_only_1_frame": "Az ingyenes fiókok csak 1 képkocka feltöltést tesznek lehetővé. A folytatáshoz frissítsen",
+            "allow_only_1_background": "Az ingyenes fiókok csak 1 háttérfeltöltést tesznek lehetővé. A folytatáshoz frissítsen",
+            "campaign_title_exceed_limit": "A kampány címe meghaladja a maximális karakterkorlátot",
+            "description_exceed_limit": "A leírás meghaladja a maximális karakterkorlátot",
+            "link_unavailable": "A kampány linkje már használatban van. Válassz másikat",
+            "link_criteria": "A kampány linkjének alfanumerikusnak és kötőjelnek (-) kell lennie",
+            "link_exceed_limit": "A kampány linkje meghaladja a maximális karakterkorlátot",
+            "caption_exceed_limit": "A feliratsablon meghaladja a maximális karakterkorlátot",
+            "background_exceed_limit": "A háttérfájl mérete meghaladja az 5 MB-os maximális méretet",
+            "thumbnail_exceeds": "A miniatűr fotófájl mérete meghaladja az 5 MB-os maximális méretet"
+        },
+        "settings": {
+            "profile_image_exceed": "A profilkép meghaladja az 5 MB-os maximális korlátot",
+            "background_image_exceed": "A háttérkép mérete meghaladja az 5 MB-os maximális méretet",
+            "username_unavailable": "A felhasználónév már foglalt. Próbáljon ki egy másikat",
+            "username_exceed_limit": "A felhasználónév meghaladja a maximális karakterkorlátot",
+            "username_invalid": "Felhasználónév érvénytelen. Próbálja újra a megfelelő formátummal",
+            "display_exceed_limit": "A megjelenített név meghaladja a maximális karakterkorlátot",
+            "bio_exceed_limit": "Az életrajz meghaladja a maximális karakterkorlátot",
+            "email_already_registered": "Már regisztrált e-mail cím. Próbáljon ki egy másikat",
+            "password_incorrect": "Helytelen jelszó. Próbáld újra",
+            "password_minimum_character": "A jelszónak legalább 8 karakterből kell állnia",
+            "password_maximum_character": "A jelszó nem haladhatja meg a 128 karaktert",
+            "password_standard_format": "A jelszónak az alfanumerikus szabványos formátumot kell követnie",
+            "account_deleted": "Fiók törölve",
+            "account_integrated": "Fiók integrálva",
+            "account_revoked": "Fiók visszavonva"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "A „Tell Us More” szakasz meghaladja a maximális karakterkorlátot"
+        },
+        "general": {
+            "something_went_wrong": "Valami elromlott"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "A hozzáadott kampányok száma meghaladja a maximális korlátot",
+            "description_exceeds": "A leírás meghaladja a maximális karakterkorlátot",
+            "title_exceeds": "A gyűjtemény címe meghaladja a maximális karakterszámot"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "Link másolva",
+            "social_media_already_linked": "A közösségimédia-fiók már össze van kapcsolva egy másik Twibbonize-fiókkal. Próbáljon ki egy másikat"
+        },
+        "campaign_creation": {
+            "link_available": "A link elérhető"
+        },
+        "campaign_edit": {
+            "link_available": "A link elérhető"
+        },
+        "settings": {
+            "photo_updated": "Fotó frissítve",
+            "banner_updated": "Banner frissítve",
+            "banner_deleted": "Banner törölve",
+            "photo_deleted": "Fotó törölve",
+            "password_updated": "Jelszó frissítve",
+            "email_updated": "E-mail frissítve"
+        },
+        "my_profile": {
+            "campaign_deleted": "Kampány törölve"
+        },
+        "collection": {
+            "campaign_added": "Kampány hozzáadva"
+        },
+        "campaign_page": {
+            "account_upgraded": "Fiók frissítve",
+            "link_copied": "Link másolva"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "E-mail nem található. Próbálja újra, vagy regisztráljon"
+        },
+        "password": {
+            "password_incorrect": "Helytelen jelszó. Próbáld újra"
+        },
+        "maximum_attempt": "Elérte a kísérletek maximális számát. Próbálja újra 1 óra múlva"
+    },
+    "page_notification": {
+        "no_notification_heading": "Még nincsenek értesítések",
+        "no_notification_subheading": "Jelenleg nincsenek értesítések"
+    },
+    "page_general": {
+        "no_internet_connection": "Nincs internetkapcsolat. Újrapróbáláshoz érintsd meg",
+        "could_not_connect_internet": "Nem sikerült csatlakozni az internethez. Váltson másik hálózatra, és próbálja újra."
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "Kijelentkezés?"
         }
     }
 }

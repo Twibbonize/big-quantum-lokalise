@@ -35,7 +35,7 @@
             "terms": "Ehdot ja edellytykset",
             "privacy_policy": "Tietosuojakäytäntö",
             "cookie_policy": "Evästekäytäntö",
-            "sitemap": ""
+            "sitemap": "Sivustokartta"
         },
         "menu": {
             "explore": "Tutustu",
@@ -47,11 +47,6 @@
             "sign_in": "Kirjaudu sisään",
             "sign_up": "Rekisteröidy",
             "sign_out": "Kirjaudu ulos"
-        },
-        "campaign": {
-            "supporters": "kannattaja|tukijat",
-            "campaigns": "Kampanjat",
-            "created": "Luotu"
         },
         "button": {
             "view_all": "Näytä kaikki",
@@ -71,11 +66,12 @@
             "report": "Raportoi",
             "edit": "Muokkaa",
             "confirm": "Vahvista",
-            "okay": "",
+            "okay": "Okei",
             "view": "Näytä",
-            "send": "",
-            "more": "",
-            "less": ""
+            "send": "Lähettää",
+            "more": "Lisää",
+            "less": "Vähemmän",
+            "submit": "Lähetä"
         },
         "time": {
             "week": "Viikko",
@@ -86,9 +82,14 @@
             "annual": "Vuosittainen",
             "yearly": "Vuosittain"
         },
+        "campaign": {
+            "campaigns": "Kampanjat",
+            "created": "Luotu",
+            "supporters": "kannattaja|kannattaja|kannattajat"
+        },
         "collection": {
             "collections": "Kokoelmat",
-            "campaigns": "{campaign} Kampanjat"
+            "campaigns": "{campaign}-kampanjat"
         },
         "creator": {
             "creators": "Tekijät"
@@ -108,14 +109,21 @@
             "hide_post": "Piilota viesti",
             "post_shared": "Post jaettu {date}",
             "share_message": "Jaa viestisi",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "Irrota viesti",
+            "unhide_post": "Näytä viesti"
         },
         "pricing": {
-            "creator_subscribe_to": "",
-            "plan": "",
-            "support_without_watermark": "",
-            "all_supporters_without_watermark": ""
+            "creator_subscribe_to": "Tämä Creator on tilannut",
+            "plan": "suunnitelma",
+            "support_without_watermark": "He voivat tukea mitä tahansa kampanjaa ilman vesileimaa!",
+            "all_supporters_without_watermark": "Voit tukea kaikkea tätä Creatorin kampanjaa ilman vesileimaa!"
+        },
+        "campaign_card": {
+            "a_month_ago": " |Kuukausi sitten",
+            "a_day_ago": " |Päivä sitten"
+        },
+        "search": {
+            "searching": "Haetaan..."
         }
     },
     "page_home": {
@@ -262,8 +270,8 @@
         "process": {
             "how_twibbonize_1": "Miten Twibbonize mullistaa",
             "how_twibbonize_2": "Twibbon-kampanja",
-            "sharing_twibbon_1": "Jakaminen Twibbon käytetään olla monimutkainen prosessi olemme jopa liian",
-            "sharing_twibbon_2": "väsynyt selittämään sitä sinulle."
+            "sharing_twibbon_1": "Twibbonin jakaminen oli aiemmin monimutkainen prosessi, joten olemme jopa liian",
+            "sharing_twibbon_2": "väsyneitä selittämään sitä sinulle."
         },
         "frame": {
             "twibbon_frame": "Twibbonizessa Twibbon on enemmän kuin kehykset.",
@@ -334,10 +342,10 @@
             "download": "Lataa",
             "reset": "Nollaa",
             "add_text": "Lisää tekstiä",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": "",
+            "posting_as": "Lähetetään nimellä ",
+            "not_you": "Et sinä? ",
+            "uploading_photo_to_remove": "Valokuvasi lataaminen ja sen taustan poistaminen.",
+            "wait_for_moment": "Odota hetki...",
             "remove_watermark_for_you_2": "ja nauti kuvistasi ilman vesileimaa!",
             "remove_watermark_for_you_1": "Tutustu Twibbonizeen ilman mainoksia,",
             "remove_watermark_for_you": "Poista vesileima!",
@@ -350,7 +358,6 @@
             "report_profile": "Raportin profiili",
             "plagiarism": "Plagiointi",
             "sensitive": "Arkaluonteinen sisältö",
-            "danger": "Vaarallinen sisältö",
             "spam": "Roskaposti",
             "why_report_campaign": "Miksi ilmoitatte tästä kampanjasta?",
             "protect_reporter": "Twibbonize-yhteisön ohjeet suojaavat toimittajan henkilöllisyyden yksityisyyttä.",
@@ -359,7 +366,21 @@
             "received_report": "Olemme saaneet raporttisi!",
             "thankyou": "Kiitos! Anna meidän tutkia raporttisi, ja lähetämme palautteen sähköpostiisi mahdollisimman pian.",
             "learn_more_about": "Lisätietoja {link}.",
-            "community_guideline": "Twibbonize-yhteisön ohjeet"
+            "community_guideline": "Twibbonize-yhteisön ohjeet",
+            "title": "Miksi raportoitte tästä kampanjasta?",
+            "danger": "Vaarallinen tai haitallinen ",
+            "impersonation": "Henkilönimitys ",
+            "piracy": "Piratismi",
+            "vulgar_language": "Vulgääri kieli",
+            "nudity_pornography": "Alastomuus ja pornografia",
+            "suicidal_self_harm": "Itsetuhoinen ja itsensä vahingoittaminen Sisältö ",
+            "violent_graphic_content": "Väkivaltainen graafinen sisältö",
+            "harassment_cyberbullying": "Häirintä ja verkkokiusaaminen",
+            "proactive_threatening_content": "Provosoiva ja uhkaava sisältö",
+            "statement": "Twibbonize-yhteisön ohjeet suojaavat toimittajan henkilöllisyyden yksityisyyttä.",
+            "read_more_copy": "Lue lisää",
+            "please_select_one": "Valitse yksi",
+            "write_a_message": "Kirjoita viesti"
         },
         "discard": {
             "discard_edit": "Hylätä muokkaukset?",
@@ -377,9 +398,10 @@
             "supporters": "Tukijat",
             "interactions": "Vuorovaikutukset",
             "visits": "Vierailut",
-            "realtime_estimates": "Reaaliaikaiset arviot",
             "last_month": "Viimeiset 30 päivää",
-            "see_more_analytics": "Katso lisää analytiikkaa"
+            "see_more_analytics": "Katso lisää analytiikkaa",
+            "realtime_estimates": "Reaaliaikaiset arviot viimeisten 30 päivän ajalta",
+            "view_analytics": "Näytä Analytics"
         },
         "pricing": {
             "no_thankyou": "Ei, kiitos"
@@ -400,15 +422,37 @@
             "reply_as_user": "Vastaa kuten {user}"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "Noudata ohjeita saadaksesi parhaat tulokset!",
+            "good_photo_examples": "Hyviä esimerkkejä valokuvasta:",
+            "good_photo_caption": "Lähikuva selfie, muotokuva, selkeät kasvot",
+            "photos_avoid": "Vältettävät kuvat:",
+            "bad_photo_caption": "Koko vartalokuva, ryhmäkuva, kuva takaa",
+            "understand": "Ymmärrän"
         },
         "post_to_twibbonize": {
-            "caption": ""
+            "caption": "Kirjoita viesti tästä kampanjasta...",
+            "unpin_post": "Unpin Post"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "Säädä valokuvaa"
+        },
+        "share_campaign": {
+            "or_share_to": "tai jaa osoitteeseen",
+            "save_share": "Tallenna & Jaa"
+        },
+        "post": {
+            "post_uploaded": "Posti ladattu",
+            "post_deleted": "Posti poistettu",
+            "post_failed_deleted": "Post Failed, Poistettu"
+        },
+        "create_campaign": {
+            "custom_field": "Lisää mukautettu kenttä"
+        },
+        "collection": {
+            "sign_up_add_collection": "Rekisteröidy Lisää kokoelmaan"
+        },
+        "posts": {
+            "has_no_posts": "Tämä käyttäjä ei ole lähettänyt mitään Twibbonizeen"
         }
     },
     "page_checkout": {
@@ -417,9 +461,8 @@
             "account_update": "Tilisi päivitetään, ja kaikki uudet ominaisuudet avataan."
         },
         "checkout": {
-            "back_to_plans": "Takaisin suunnitelmiin",
             "upgrade_to": "Päivitä {plan}",
-            "gather_your_supports": "Kerää tukijoitasi ja kasvata kampanjaasi yksinoikeudella tarjoamiemme ominaisuuksien avulla.",
+            "gather_your_supports": "Kerää tukijoitasi ja kasvata kampanjaasi yksinoikeudella tarjoamiemme ominaisuuksien avulla",
             "billing_option": "Laskutusvaihtoehto",
             "details": "Yksityiskohdat",
             "user": "Käyttäjä",
@@ -429,18 +472,19 @@
             "save": "Tallenna {percentage}%",
             "pay": "Palkka {frequency}",
             "checkout_options": "Kassan vaihtoehdot",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "Muokkaa suunnitelmaa",
+            "current_plan": "Nykyinen suunnitelma",
+            "downgrade": "Vähennä",
+            "current_plan_description": "Olet nyt tilaamassa tätä tilausta",
+            "change_plan_description": "Olet vaihtamassa sopimukseksi {plan} , joka tulee voimaan nykyisen tilauksen päätyttyä.",
+            "downgrade_description": "Olet alentamassa suunnitelmaasi hintaan {plan} , joka tulee voimaan nykyisen tilauksen päätyttyä.",
+            "change_plan_confirm": "Oletko varma?",
+            "upgrade_confirm": "Haluatko varmasti päivittää?",
+            "downgrade_confirm": "Haluatko varmasti alentaa suunnitelmaa?",
+            "change_plan_active": "Se on aktiivinen, kun nykyinen tilauksesi on päättynyt",
+            "upgrade_active": "Se on aktiivinen, kun olet suorittanut maksun",
+            "downgrade_active": "Se on aktiivinen, kun nykyinen tilauksesi on päättynyt",
+            "back_to_plans": "Takaisin"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -449,14 +493,14 @@
             "use_twibbonize_without_ads": "Käytä Twibbonizea ilman mainoksia",
             "exclusive_features": "Yksinomaiset ominaisuudet kampanjaasi varten",
             "remove_own_account": "Poista vesileima omalle tilillesi",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "Hopea",
+            "gold": "Kulta",
+            "platinum": "Platina",
+            "watermark_title": "Poista vesileima",
+            "high_quality_image_title": "Korkealaatuinen kuva",
+            "ad_free_title": "Mainosvapaa",
+            "campaign_addon": "Kampanjan lisäys",
+            "on": "päällä"
         }
     },
     "page_collection": {
@@ -496,9 +540,9 @@
             "image_dimension": "1080x1080px",
             "upload": "Lataa",
             "imagetype": "PNG",
-            "max_file": "",
-            "backgroundtype": "",
-            "upload_design": ""
+            "max_file": "Enintään 5 MB",
+            "backgroundtype": "JPEG, PNG tai WEBP",
+            "upload_design": "Lataa suunnittelusi täältä"
         },
         "frame_editor": {
             "or_create": "tai luo kehys nyt",
@@ -526,7 +570,7 @@
             "campaign_title": "Kampanjan nimi",
             "campaign_title_placeholder": "Voi koostua numeroista, aakkosista tai erikoismerkeistä.",
             "campaign_description": "Kuvaus",
-            "campaign_description_placeholder": "Kerro kampanjasi yksityiskohtia, jotta saat huomiota ja kannatusta.",
+            "campaign_description_placeholder": "Kerro kampanjasi yksityiskohtia, jotta saat huomiota ja kannatusta",
             "campaign_link": "Kampanjan linkki",
             "campaign_link_placeholder": "kampanjalinkki",
             "campaign_category": "Kampanjan luokka",
@@ -545,7 +589,7 @@
             "url_not_available": "URL-osoite ei ole käytettävissä",
             "caption_placeholder": "Hei, nimeni on [[Sinun nimesi]] , ja olen mukana tukemassa tätä kampanjaa. Kokoonnutaan yhdessä ja saadaan aikaan todellista vaikutusta tällä kampanjalla!",
             "enter_description": "Kirjoita kuvaus",
-            "optional": ""
+            "optional": "Valinnainen"
         },
         "customization": {
             "campaign_customization": "Kampanjan mukauttaminen",
@@ -568,14 +612,14 @@
             "go_back": "Palaa takaisin"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "Kehykset",
+            "campaigns": "Kampanjat",
+            "analytics": "Analytics"
         },
         "blank_design": {
-            "suggested": "",
-            "instagram_story": "",
-            "instagram_post": ""
+            "suggested": "Ehdotettu",
+            "instagram_story": "Instagram-tarina",
+            "instagram_post": "Instagram-postaus"
         }
     },
     "page_for_creators": {
@@ -585,8 +629,8 @@
             "purchase_now": "Osta nyt",
             "learn_more": "Lue lisää",
             "want_to_create": "Haluatko luoda kampanjan ilmaiseksi?",
-            "try_now": "Kokeile nyt!",
-            "per": "per {time}"
+            "per": "per {time}",
+            "try_now": "Kokeile nyt!"
         },
         "features": {
             "remove_watermark": "Poista vesileima kaikilta kampanjan käyttäjiltä.",
@@ -631,20 +675,20 @@
             "unite_detail": "Tuo kaikki kampanjasi tukijat yhteen Twibbonize-sivullesi, jossa tukijat ovat yhteydessä toisiinsa ja sinä näet vaikutuksen!",
             "entertain_detail": "Twibbonize sitouttaa tukijasi tarjoamalla jaettavan virtuaalisen Twibbonin sosiaaliseen mediaan ja viestintään",
             "grow_detail": "Twibbonize-kampanja saa lisää kannatusta: se herättää huomiota, mutta myös vetovoimaa ja houkuttelee kasvavaa yleisöä, joka ei halua jäädä paitsi asiastasi.",
-            "inspire": "",
-            "unite": "",
-            "entertain": "",
-            "grow": ""
+            "inspire": "Inspiroi ",
+            "unite": "Unite",
+            "entertain": "Viihdytä",
+            "grow": "Kasvata"
         },
         "use_cases": {
             "heading": "Ideoita Twibbonizen käyttöön",
-            "subheading": "",
-            "corporate": "",
-            "corporate_title": "",
+            "subheading": "Aloita tutkimuksesi käsin valituilla esimerkeillä yli 5 000 000 Twibbonize-kampanjastamme.",
+            "corporate": "Yritys",
+            "corporate_title": "Hyödynnä henkilökuntasi ja asiakkaidesi runsauden voimaa.",
             "education": "Koulutus",
-            "education_title": "",
+            "education_title": "Se on hauska tapa lisätä oppimisprosessia",
             "event": "Tapahtumat",
-            "events_title": ""
+            "events_title": "Hypeä tapahtumaasi välittömän viraliteetin voimalla"
         },
         "testimonials": {
             "testimonials": "Suosittelut",
@@ -688,8 +732,8 @@
             "proud_partner": "Olemme ylpeitä saadessamme tehdä yhteistyötä sellaisten ihmisten kanssa, jotka ovat syvästi samaa mieltä missiomme kanssa."
         },
         "honorary": {
-            "honorary_mentions": "",
-            "significant_contributions": ""
+            "honorary_mentions": "Kunniamaininnat",
+            "significant_contributions": "He, jotka ovat vaikuttaneet merkittävästi kehitykseemme"
         }
     },
     "page_pricing": {
@@ -706,8 +750,8 @@
             "private_campaign_1": "Yksityinen",
             "private_campaign_2": "Kampanja",
             "offer_exclusively": "Tarjoa yksinoikeutta kannattajillesi",
-            "campaign_customization_1": "Kampanja",
-            "campaign_customization_2": "Mukauttaminen",
+            "campaign_customization_1": "Kampanjan",
+            "campaign_customization_2": "mukauttaminen",
             "personalize_campaign": "Personoi kampanjasivusi",
             "multiple_frames_1": "Useita Twibbon",
             "multiple_frames_2": "kampanjaa kohden",
@@ -715,9 +759,9 @@
             "top_notch": "Päivitä kampanjapeliäsi",
             "considering_all": "Kun otetaan huomioon kaikki mukavuudet, se on sen arvoista",
             "remove_watermark_1": "Poista",
-            "remove_watermark_2": "Vesileima",
-            "for_audience_1": "osoitteessa",
-            "for_audience_2": "sinä ja yleisösi",
+            "remove_watermark_2": "vesileima",
+            "for_audience_1": "",
+            "for_audience_2": "sinulle ja yleisöllesi",
             "as_a_free_user": "Ilmaiskäyttäjänä Twibbonissasi on aina vesileima <strong>.<\/strong>",
             "premium_supporter": "<strong>Premium Creator<\/strong> poistaa vesileiman, jolloin kuva on puhtaampi.",
             "now_you_can": "Nyt voit <strong>tukea mitä tahansa kampanjaa<\/strong> ilman vesileimaa."
@@ -736,9 +780,9 @@
             "premium_supporter": "<strong>Premium Supporter<\/strong> poistaa vesileiman, jolloin kuva on puhtaampi.",
             "now_you_can": "Nyt voit <strong>tukea mitä tahansa kampanjaa<\/strong> ilman vesileimaa.",
             "remove_watermark_1": "Poista",
-            "remove_watermark_2": "Vesileima",
-            "for_audience_1": "osoitteessa",
-            "for_audience_2": "oma tilisi",
+            "remove_watermark_2": "vesileima",
+            "for_audience_1": "",
+            "for_audience_2": "omalle tilillesi",
             "looking_to_remove": "Haluatko poistaa vesileiman kaikilta kampanjan käyttäjiltäsi? Kokeile"
         },
         "upgrade": {
@@ -772,15 +816,15 @@
             "notes": "Huomautukset",
             "print": "Lataa lasku",
             "if_you_would_like_to_change": "Jos haluat muuttaa tilaustasi tai maksutietojasi, siirry laskutusasetuksiin.",
-            "ending_in": ""
+            "ending_in": "{card} joka päättyy {number}"
         },
         "bento": {
             "campaign_analytics_1": "Kampanja",
             "campaign_analytics_2": "Analytiikka",
             "private_campaign_1": "Yksityinen",
             "private_campaign_2": "Kampanja",
-            "campaign_customization_1": "Kampanja",
-            "campaign_customization_2": "Mukauttaminen",
+            "campaign_customization_1": "Kampanjan",
+            "campaign_customization_2": "mukauttaminen",
             "multiple_frames_1": "Useita kehyksiä",
             "multiple_frames_2": "kampanjaa kohden",
             "use_twibbonize_without_ads_1": "Käytä Twibbonizea",
@@ -788,10 +832,10 @@
             "no_extra_features_1": "Ei lisäominaisuuksia",
             "no_extra_features_2": "Saatavilla",
             "remove_all_watermark_1": "Poista vesileima",
-            "remove_all_watermark_2": "kaikilta kampanjan käyttäjiltäsi",
+            "remove_all_watermark_2": "kaikilta kampanjasi käyttäjiltä",
             "remove_own_watermark_1": "Poista vesileima",
-            "on": "osoitteessa",
-            "remove_own_watermark_2": "oma tilisi",
+            "on": "",
+            "remove_own_watermark_2": "omalta tililtäsi",
             "extra_features": "Lisäominaisuudet"
         },
         "modal": {
@@ -827,7 +871,10 @@
             "subheading": "Ihmisille, jotka haluavat Twibbonizesta enemmän irti"
         },
         "card_premium_creator": {
-            "subheading": "Ihmisille, jotka tarvitsevat täydellisen Twibbonize-kokemuksen."
+            "subheading": "Ihmisille, jotka tarvitsevat täydellisen Twibbonize-kokemuksen"
+        },
+        "same_plan": {
+            "adjust_plan": "Muokkaa suunnitelmaa"
         }
     },
     "page_profile": {
@@ -835,17 +882,17 @@
             "search_campaigns": "Etsi kampanjoita",
             "no_campaigns": "Ei kampanjoita vielä",
             "no_campaigns_details": "Luo kampanjat ja jaa twibbonizeen.",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "Haluatko varmasti poistaa tämän kampanjan?",
+            "delete_detail": "\" {title} \" poistetaan pysyvästi, eikä sitä voi kumota.",
+            "delete_campaign": "Poista kampanja"
         },
         "posts": {
             "no_posts": "Ei viestejä vielä",
-            "no_post_details": "Etsi kampanja ja lähetä twibbonisi Twibbonizeen."
+            "no_post_details": "Etsi kampanja ja lähetä twibbonisi Twibbonizeen"
         },
         "collections": {
             "no_collections": "Järjestä suosikkikampanjasi",
-            "no_collections_details": "Napsauta kampanjasivulla {icon} -kuvaketta tallentaaksesi kiinnostavia kampanjoita omiin kokoelmiisi."
+            "no_collections_details": "Napsauta minkä tahansa kampanjan kuvaketta {icon} tallentaaksesi kampanjan kokoelmiisi"
         },
         "about": {
             "about": "Tietoja",
@@ -857,13 +904,32 @@
             "campaigns": "Kampanjat"
         },
         "my_profile": {
-            "edit_profile": "",
+            "edit_profile": "Muokkaa profiilia",
             "campaigns": "Kampanjat",
             "collections": "Kokoelmat",
-            "posts": ""
+            "posts": "Virat"
         },
         "campaign_deletion": {
             "are_you_sure": "Oletko varma?"
+        },
+        "campaign": {
+            "delete_campaign": "Poistaminen \"{campaign_name}\" on pysyvää eikä sitä voi peruuttaa.",
+            "confirm_delete_campaign": "Poista kampanja"
+        },
+        "collection": {
+            "delete_collection": "Kokoelma \"{collection_name}\" poistetaan pysyvästi.",
+            "confirm_delete_collection": "Poista kokoelma",
+            "delete_campaign": "Kampanja \"{campaign_name}\" poistetaan pysyvästi kokoelmasta \"{collection_name}\".",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "Miksi ilmoitat tästä profiilista?",
+            "abusive_harmful": "Väärinkäytökset tai haitat",
+            "pretending_someone": "Teeskentelemällä olevasi joku muu",
+            "sensitive_content": "Arkaluonteinen sisältö"
+        },
+        "account": {
+            "email_changed": "Sähköpostiosoitteesi on hiljattain muuttunut. Voit päivittää sen uudelleen 90 päivän kuluttua."
         }
     },
     "page_preference": {
@@ -907,55 +973,55 @@
             "adfree": "Ad-Free",
             "highquality": "Korkea laatu",
             "nowatermark": "Ei vesileimaa",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "Maksettu",
+            "are_you_sure_change": "Oletko varma?",
+            "active_after_subscription": "Se on aktiivinen, kun nykyinen tilauksesi on päättynyt",
+            "are_you_sure_upgrade": "Haluatko varmasti päivittää?",
+            "plan_changing_info": "Vaihda tilaukseen {package} vastaanotettu. Uusi suunnitelma alkaa nykyisen päättymisen jälkeen",
+            "active_after_payment": "Se on aktiivinen, kun olet suorittanut maksun",
+            "are_you_sure_downgrade": "Haluatko varmasti alentaa suunnitelmaa?",
+            "plan_downgrade_info": "Päivitys pakettiin {package} vastaanotettu. Uusi suunnitelma alkaa nykyisen päättymisen jälkeen",
+            "renew_plan": "Uusi suunnitelma",
+            "renew_subscription": "Uusi tilaus",
+            "upgrade_now": "Päivitä nyt",
+            "warning": "Varoitus!",
+            "important": "Tärkeä!",
+            "premium_expired": "Premium Creator -pakettisi on vanhentunut. Uusi {date} mennessä",
+            "last_attempted": "Viimeiset maksuyrityksemme epäonnistuivat. Päivitä maksutapasi.",
+            "renewal_date": "Uusintapäivämäärä",
+            "payment_method": "Maksutapa",
+            "update_now": "Päivitä nyt",
+            "cancel_subscription": "Peruuta tilaus",
+            "change_payment_method": "Vaihda maksutapaa",
+            "card_end_with": "{card} joka päättyy {number}",
+            "no_transactions": "Ei vielä tapahtumahistoriaa",
+            "transactions_will_shown": "Tapahtumahistoriasi näytetään täällä, kun se tulee saataville",
+            "are_you_sure": "Oletko varma?",
+            "once_cancel_plan": "Kun peruutat sopimuksen, menetät pääsyn kaikkiin päivitettyihin ominaisuuksiisi laskutusjaksosi lopussa",
+            "yes_cancel_plan": "Kyllä, peruuta suunnitelma",
+            "no_keep_plan": "Ei, pidä suunnitelma",
+            "once_renew_plan": "Kun uusit suunnitelman, suunnitelmasi on jälleen aktiivinen",
+            "yes_renew_plan": "Kyllä, uusi suunnitelma",
+            "no_cancel": "Ei, peruuta",
+            "if_cancel_downgrade": "Jos peruutat alemman version, nykyinen suunnitelmasi on jälleen aktiivinen",
+            "yes_downgrade": "Kyllä, jatka vanhempaan versioon",
+            "if_cancel_change_billing": "Jos peruutat laskutuksen muutoksen, nykyinen suunnitelmasi on jälleen aktiivinen",
+            "yes_continue": "Kyllä, Jatka",
+            "info": "Tiedot",
+            "your_request_cancel": "Pyyntösi peruuttaa suunnitelmasi {plan} on vastaanotettu. Se päättyy seuraavalla laskutusjaksolla",
+            "your_request_downgrade": "Pyyntösi päivittää versioksi {plan} on vastaanotettu. Uusi suunnitelmasi aktivoidaan, kun nykyinen suunnitelma päättyy.",
+            "cancel_downgrade": "Peruuta alempaan versioon",
+            "cancel_change": "Peruuta Muuta laskutusta",
+            "your_request_billing": "Pyyntösi muuttaa laskutuksesi muotoon {plan} on vastaanotettu. Uusi suunnitelmasi aktivoidaan, kun nykyinen suunnitelma päättyy.",
+            "manage_inapp": "Hallinnoi tilaustasi Twibbonize {appOs} -sovelluksessa",
+            "manage_inapp_subscription": "Voit hallita Twibbonize-tilaustasi {appOs} -palvelussa avaamalla sovelluksen, siirtymällä kohtaan \"Asetukset\" ja valitsemalla \"Laskutus\".",
+            "success_cancel_subscription": "Onnistui Peruuta tilaus",
+            "success_renew_subscription": "Tilauksen uusiminen onnistui",
+            "success_change_subscription": "Onnistui Tilauksen muuttaminen",
+            "success_cancel_change_subscription": "Onnistui Peruuta Muuta tilaus",
+            "last_attempted_authentication": "Viimeiset maksuyrityksemme epäonnistuivat. Maksusi vaatii todennuksen.",
+            "authenticate_now": "Todenna nyt",
+            "recurring_payment": "Tarvitsemme nimenomaisen vahvistuksen toistuvaa maksua varten. Ole hyvä ja tarkista sähköpostisi"
         },
         "account": {
             "update_email": "Päivitä sähköposti",
@@ -985,19 +1051,19 @@
             "confirm_password": "Vahvista salasana",
             "create_new_password": "Luo uusi salasana",
             "make_it_easy": "Tee siitä helppo muistaa ja pidä se salassa keneltäkään!",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "Lisää sähköpostiosoite",
+            "add_password": "Lisää salasana",
+            "cant_remove_account": "Hups, emme voi poistaa sosiaalisen median tiliäsi.",
+            "set_up_email": "Sinun on ensin määritettävä sähköpostiosoite tai salasana, jotta voit poistaa sosiaalisen median tilisi.",
+            "want_to_remove": "Haluatko poistaa sosiaalisen median tilisi?",
+            "your_account_will_be_removed": "Tilisi {provider} poistetaan. Napsauta Ymmärrä poistaaksesi sosiaalisen median tilisi.",
+            "continue_to_revoke": "Jatka kohtaan Peruuta ",
+            "revoke_success": "Tili {provider} peruuttaminen onnistui",
+            "cannot_update_email": "Hups, emme voi päivittää sähköpostiasi",
+            "setup_password_to_update_email": "Sinun on asetettava salasana ennen sähköpostisi päivittämistä.",
+            "email_change_request": "Sähköpostin muutospyyntö peruutettu",
+            "we_have_sent_password": "Olemme lähettäneet salasanan palautusohjeet sähköpostiisi. Palauta salasanasi 1 tunnin sisällä turvallisuussyistä.",
+            "go_to_homepage": "Mene kotisivulle"
         },
         "notifications": {
             "notifications_settings": "Ilmoitusten asetukset",
@@ -1015,10 +1081,10 @@
             "article": "Artikkelit",
             "article_details": "Saat suositellut artikkelimme.",
             "toggle_all": "Kaikki",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "Lähetä Twibbonizeen",
+            "post_twibbonize_details": "Saat ilmoituksia os-tukijoiden julkaisusta kampanjasivulla.",
+            "account_recap": "Tilin yhteenveto",
+            "account_recap_details": "Viikoittainen yhteenveto kaikkien kampanjoidesi kannattajista ja vierailuista"
         },
         "package": {
             "free": "Vapaa",
@@ -1284,290 +1350,6 @@
             "paragraph_11": "Kun omaksumme digitaalisen aikakauden yhteydenpitokyvyn, anna Twibbonizen jatkaa näytöillämme solidaarisuuden symbolien maalaamista ja luoda pysyviä vaikutuksia yhteiskunnallisen edunvalvonnan alalla. Yhdessä kudomme visuaalisen kertomuksen, joka ylittää rajat ja heijastaa yhteistä sitoutumistamme myötätuntoisempaan ja yhtenäisempään maailmaan."
         }
     },
-    "notification": {
-        "push": {
-            "campaign_milestone": {
-                "header": "🏆 {name}, uusi virstanpylväs saavutettu!",
-                "body": "Onneksi olkoon! Kampanjallasi {title} on nyt {amount} tukijoita!"
-            },
-            "new_post": {
-                "header": "Uusi Twibbon lähetetty",
-                "body": "{participant} julkaisi Twibbonin kampanjasi {title} galleriassa!"
-            },
-            "new_comment": {
-                "header": "Uusi kommentti!",
-                "body": "{participant} kommentoi viestiäsi kampanjassa {title}!"
-            },
-            "account_recap": {
-                "header": "🍺 {name}, tässä on viikoittainen yhteenvetosi!",
-                "body": "Sait tällä viikolla {amount} uusia tukijoita. Jatkakaa samaan malliin!"
-            },
-            "billing": {
-                "creator": {
-                    "successful_payment": {
-                        "header": "Maksusi onnistui",
-                        "body": "Hyödynnä sen ainutlaatuisia ominaisuuksia! Aloita kampanja nyt"
-                    },
-                    "plus_5": {
-                        "header": "Hei {name}, uudista tilauksesi nyt",
-                        "body": "Uudista tai päivitä suunnitelmasi nyt, jotta voit jatkaa kampanjaanalyysin käyttöä."
-                    }
-                },
-                "international": {
-                    "renewed_plan": {
-                        "header": "Hei {name}, uusintamaksusi on vahvistettu.",
-                        "body": "Nyt voit jatkaa eksklusiivisten ominaisuuksiemme käyttöä!"
-                    },
-                    "creator": {
-                        "successful_payment": {
-                            "header": "Maksusi onnistui",
-                            "body": "Hyödynnä sen ainutlaatuisia ominaisuuksia! Aloita kampanja nyt."
-                        },
-                        "plus_2": {
-                            "header": "Hei {name}, uudista tilauksesi nyt",
-                            "body": "Uudista tai päivitä suunnitelmasi nyt, jotta voit jatkaa kampanjaanalyysin käyttöä."
-                        }
-                    },
-                    "supporter": {
-                        "successful_payment": {
-                            "header": "Maksusi onnistui",
-                            "body": "Nauti mainosvapaasta kokemuksesta ja saat Twibbonsin ilman vesileimoja!"
-                        },
-                        "plus_2": {
-                            "header": "Hei {name}, uudista tilauksesi nyt",
-                            "body": "Uudista tilauksesi nyt ja nauti vesileimattomista Twibbonista ja mainoksettomasta kokemuksesta."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Nauti mainosvapaasta kokemuksesta ja saat Twibbonsin ilman vesileimoja!",
-                        "header": "Maksusi onnistui"
-                    },
-                    "plus_5": {
-                        "body": "Uudista tilauksesi nyt ja nauti vesileimattomista Twibbonista ja mainoksettomasta kokemuksesta.",
-                        "header": "Hei {name}, uudista tilauksesi nyt"
-                    }
-                }
-            },
-            "new_reply": {
-                "header": "Uusi vastaus!",
-                "body": "{participant} kommentoi kommenttiisi kampanjaan {title}!"
-            }
-        },
-        "panel": {
-            "campaign_milestone": {
-                "body": "Onnittelut! Kampanjalla {title} on nyt {amount} tukijaa!",
-                "header": "🏆 {name}, uusi virstanpylväs saavutettu!"
-            },
-            "account_recap": {
-                "body": "Olet saanut {amount} uusia tukijoita viime viikolla kaikissa kampanjoissasi. Jatkakaa hienoa työtä!",
-                "header": "🍺 {name}, Tässä on viikoittainen yhteenvetosi!"
-            },
-            "billing": {
-                "order_received": {
-                    "header": "Hei {name}, suorittakaa maksunne",
-                    "body": "Kiitos, että tilasit {product}. Ole hyvä ja siirry maksuun suorittaaksesi maksutapahtuman."
-                },
-                "order_canceled": {
-                    "header": "Pahoittelut {name}, {product}-tilauksesi on peruttu.",
-                    "body": "Älä jatka maksamista."
-                },
-                "creator": {
-                    "successful_payment": {
-                        "header": "Hei {name}, maksusi on vastaanotettu",
-                        "body": "Kiitos, että tilasit {product}. Luo kampanjasi nyt ja käytä sen erikoisominaisuuksia!"
-                    },
-                    "min_3": {
-                        "header": "Hei {name}, {product} päättyy 3 päivän kuluttua.",
-                        "body": "Uudista tai päivitä tilauksesi ja jatka Twibbonizen yksinoikeusominaisuuksista nauttimista."
-                    },
-                    "exp_day": {
-                        "header": "Hei {name}, {product}-tilauksesi on päättynyt.",
-                        "body": "Uudista tai päivitä tilauksesi ennen {date_plus_7}, jotta saat kampanja-analyysit ja kaikki yksinoikeusominaisuudet edelleen käyttöösi."
-                    },
-                    "plus_5": {
-                        "header": "Hei {name}, tilauksesi päättyy 48 tunnin kuluttua.",
-                        "body": "Uudista tai päivitä suunnitelmasi 48 tunnin kuluessa, jotta saat kampanjan analyysit edelleen käyttöösi."
-                    },
-                    "plus_7": {
-                        "header": "Hei {name}, tilisi on alennettu Twibbonize Free-tiliksi.",
-                        "body": "Jatka tilauksesi uusimista, jotta voit jatkaa {product} ominaisuuksien käyttöä."
-                    }
-                },
-                "international": {
-                    "creator": {
-                        "canceled_plan": {
-                            "header": "Hei {name}, {product}-tilauksesi peruutettiin onnistuneesti.",
-                            "body": "Menetät pääsyn kaikkiin {product}-ominaisuuksiin laskutusjakson lopussa."
-                        },
-                        "renewed_plan": {
-                            "header": "Hei {name}, {product} tilauksesi uusittiin onnistuneesti.",
-                            "body": "{product}-tilauksesi veloitetaan laskutusjakson lopussa."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Hei {name}, tilisi on alennettu Twibbonize Free-tiliksi.",
-                                "body": "Jatka tilauksesi uusimista, jotta voit jatkaa {product} ominaisuuksien käyttöä."
-                            }
-                        },
-                        "cancel_downgrade": {
-                            "header": "Hei {name}, pyyntösi peruuttaa downgrade on vastaanotettu.",
-                            "body": "Tilauksesi jatkuu Premium Creator-tilauksena."
-                        },
-                        "convert": {
-                            "header": "Hei {name}, tilisi on päivitetty Premium Creatoriksi.",
-                            "body": "Onnittelut! Olet nyt Premium Creator. Nauti nyt kaikista ominaisuuksista!"
-                        },
-                        "successful_payment": {
-                            "header": "Hei {name}, maksusi on vastaanotettu",
-                            "body": "Kiitos, että tilasit {product}. Luo kampanjasi nyt ja käytä sen erikoisominaisuuksia!"
-                        },
-                        "exp_day": {
-                            "header": "Hei {name}, {product}-tilauksesi on päättynyt.",
-                            "body": "Päivitä laskutustietosi ennen {date_plus_7}, jotta voit jatkaa kampanjan analytiikan käyttöä."
-                        },
-                        "plus_2": {
-                            "header": "Hei {name}, tilauksesi päättyy 48 tunnin kuluttua.",
-                            "body": "Päivitä maksukorttisi, jotta voit säilyttää pääsyn kampanjan analytiikkaan."
-                        },
-                        "plus_5": {
-                            "header": "Hei {name}, tilisi on alennettu Twibbonize Free-tiliksi.",
-                            "body": "Jatka tilauksesi uusimista, jotta voit jatkaa {product} ominaisuuksien käyttöä."
-                        },
-                        "convert_addon": {
-                            "body": "Onnittelut! Olet nyt Premium Creator. Nauti nyt kaikista ominaisuuksista!",
-                            "header": "Hei {name}, tilisi on päivitetty Premium Creatoriksi."
-                        }
-                    },
-                    "auth": {
-                        "exp_day": {
-                            "header": "Hei {name}, maksutapasi tarvitsee todentamista.",
-                            "body": "Vahvista maksun todennus, jotta saat tilauksesi valmiiksi nyt."
-                        }
-                    },
-                    "renewed_plan": {
-                        "header": "Hei {name}, uusintamaksusi on vahvistettu.",
-                        "body": "Nyt voit jatkaa yksinoikeusominaisuuksista nauttimista!"
-                    },
-                    "downgrade_received": {
-                        "header": "Hei {name}, downgrade-pyyntösi on vastaanotettu.",
-                        "body": "Tilisi alennetaan osoitteeseen {product} laskutusjakson lopussa."
-                    },
-                    "supporter": {
-                        "convert": {
-                            "header": "Hei {name}, tilisi on päivitetty Premium Supporteriksi.",
-                            "body": "Onnittelut! Olet nyt Premium Supporter. Nauti nyt kaikista ominaisuuksista!"
-                        },
-                        "successful_payment": {
-                            "body": "",
-                            "header": "Hei {name}, olemme vastaanottaneet maksunne onnistuneesti."
-                        },
-                        "min_3": {
-                            "body": ""
-                        },
-                        "successful": {
-                            "body": "Kiitos, että tilasit {product}. Nyt saat Twibbonin ilman vesileimoja ja ilman mainoksia!"
-                        },
-                        "exp_day": {
-                            "header": "Hei {name}, maksusi ei mennyt läpi",
-                            "body": "Päivitä laskutustietosi ennen {date_plus_7} nauttiaksesi yksinoikeusominaisuuksista, mainoksettomasta selaamisesta ja vesileimattomasta Twibbonista."
-                        },
-                        "plus_2": {
-                            "header": "Hei {name}, tilauksesi päättyy 48 tunnin kuluttua.",
-                            "body": "Uudista tilauksesi nyt ja nauti vesileimattomista Twibbonista ja mainoksettomasta kokemuksesta."
-                        },
-                        "plus_7": {
-                            "header": "Hei {name}, tilisi on alennettu Twibbonize Free-tiliksi."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Hei {name}, tilisi on alennettu Twibbonize Free-tiliksi.",
-                                "body": "Jatka tilauksesi uusimista, jotta voit jatkaa {product} ominaisuuksien käyttöä."
-                            }
-                        },
-                        "plus_5": {
-                            "header": "Hei {name}, tilisi on alennettu Twibbonize Free-tiliksi.",
-                            "body": "Jatka tilauksesi uusimista, jotta voit jatkaa {product} ominaisuuksien käyttöä."
-                        }
-                    },
-                    "period_changed": {
-                        "header": "Hei {name}, olemme vastaanottaneet pyyntösi vaihtaa suunnitelmaa.",
-                        "body": "Tilisi muutetaan {product} laskutusjakson lopussa."
-                    },
-                    "cancel_change_period": {
-                        "header": "Hei {name}, olemme vastaanottaneet pyyntösi peruuttaa suunnitelman muutos.",
-                        "body": "Tilauksesi jatkuu Premium Creator-tilauksena."
-                    }
-                },
-                "india": {
-                    "auth": {
-                        "exp_day": {
-                            "header": "Hei {name}, vahvista tilausmaksusi nyt.",
-                            "body": "Turvallisuusmääräysten noudattamisen varmistamiseksi vaadimme nimenomaisen vahvistuksen Twibbonize-tilauksen toistuvalle maksulle."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Nyt saat Twibbonin ilman vesileimoja ja ilman mainoksia!",
-                        "header": "Hei {name}, maksusi on vastaanotettu"
-                    },
-                    "exp_day": {
-                        "body": "Uudista tai päivitä tilauksesi ennen {date_plus_7}, jotta voit edelleen nauttia yksinoikeusominaisuuksista, mainoksettomasta selaamisesta ja vesileimattomasta Twibbonista.",
-                        "header": "Hei {name}, {product}-tilauksesi on päättynyt."
-                    },
-                    "plus_5": {
-                        "body": "Uudista tilauksesi 48 tunnin kuluessa, jotta voit edelleen nauttia vesileimattomasta Twibbonista ja mainoksettomasta kokemuksesta.",
-                        "header": "Hei {name}, tilauksesi päättyy 48 tunnin kuluttua."
-                    },
-                    "min_3": {
-                        "body": "Uudista tai päivitä tilauksesi nyt ja nauti edelleen mainoksettomasta selaamisesta ja vesileimattomista Twibboneista.",
-                        "header": "Hei {name}, {product} päättyy 3 päivän kuluttua."
-                    },
-                    "plus_7": {
-                        "body": "Jatka tilauksesi uusimista, jotta voit jatkaa {product} ominaisuuksien käyttöä."
-                    }
-                }
-            },
-            "launch": {
-                "prem_sub": {
-                    "min_1": {
-                        "header": "Uusi Twibbonize Premium-tilaus",
-                        "body": "Esittelyssä Twibbonizen uudet Premium-tilaukset - käynnistyy 8. heinäkuuta!"
-                    }
-                },
-                "short_link": {
-                    "min_1": {
-                        "header": "Uusi Twibbonize lyhyt linkki",
-                        "body": "Esittelyssä Twibbonizen uusi lyhyt linkki - muuttuu 8. heinäkuuta!"
-                    }
-                }
-            },
-            "campaign_addon": {
-                "adfree_quota_remaining": {
-                    "header": "Mainokseton kiintiö jäljellä",
-                    "body": "Sinulla on jäljellä 50 tukijan mainokseton kiintiö {campaignlink}. Nauti mainosvapaasta kokemuksesta niin kauan kuin sitä riittää!"
-                },
-                "adfree_quota_runout": {
-                    "header": "Mainokseton kiintiö on loppunut",
-                    "body": "{campaignlink}-tukijasi alkavat nähdä mainoksia selatessaan alustaa."
-                }
-            },
-            "new_post": {
-                "header": "Uusi Twibbon lähetetty",
-                "body": "{participant} posted Twibbon in your campaign {title}'s gallery!"
-            },
-            "new_comment": {
-                "header": "Uusi kommentti!",
-                "body": "{participant} kommentoi viestiäsi kampanjassa {title}!"
-            },
-            "new_reply": {
-                "header": "Uusi vastaus!",
-                "body": "{participant} kommentoi kommenttiisi kampanjaan {title}!"
-            }
-        }
-    },
     "page_analytics": {
         "time": {
             "today": "Tänään",
@@ -1581,7 +1363,6 @@
         },
         "graph": {
             "page": "Sivu {currentPage} of {totalPage}",
-            "data_displayed": "Tiedot näytetään UTC-aikavyöhykkeellä (UTC+0).",
             "trend": "Trendi",
             "country": "Maa",
             "city": "Kaupunki",
@@ -1594,7 +1375,8 @@
             "visit": "Käy osoitteessa",
             "visit_detail": "Kampanjasivullasi vierailleiden yksittäisten selailuistuntojen määrä.",
             "unique_visit": "Ainutlaatuinen vierailu",
-            "unique_visit_detail": "Kampanjasivullasi vierailleiden henkilöiden määrä"
+            "unique_visit_detail": "Kampanjasivullasi vierailleiden henkilöiden määrä",
+            "data_displayed": "Tiedot näytetään UTC+0-aikavyöhykkeellä"
         }
     },
     "page_account": {
@@ -1602,8 +1384,6 @@
             "email": "Sähköposti",
             "password": "Salasana",
             "confirm_password": "Vahvista salasana",
-            "login_with_google": "Kirjaudu sisään Googlen kanssa",
-            "login_with_facebook": "Kirjaudu sisään Facebookilla",
             "login_with_email": "tai kirjaudu sisään sähköpostilla",
             "signup_with_google": "Rekisteröidy Googlen kanssa",
             "signup_with_facebook": "Rekisteröidy Facebookin kautta",
@@ -1616,7 +1396,9 @@
             "signup": "Rekisteröidy",
             "terms": "Ehdot",
             "privacy": "Tietosuojakäytäntö",
-            "name": ""
+            "name": "Nimi",
+            "login_with_facebook": "Kirjaudu sisään Facebookilla",
+            "login_with_google": "Kirjaudu sisään Googlella"
         }
     },
     "page_article": {
@@ -1625,98 +1407,95 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "Kirjaudu sisään Post to Twibbonizeen",
+        "sign_in_to_comment": "Kirjaudu sisään jättääksesi kommentin",
+        "sign_in_to_like": "Kirjaudu sisään antaaksesi tykkäys",
+        "sign_up_to_post": "Rekisteröidy Post to Twibbonize -palveluun",
+        "sign_up_to_comment": "Rekisteröidy jättääksesi kommentti",
+        "sign_up_to_like": "Rekisteröidy antaaksesi tykkäyksen",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "Kirjautuminen onnistui! Tervetuloa takaisin.",
+                "error": "Kirjautuminen epäonnistui. Tarkista kirjautumistietosi ja yritä uudelleen."
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "Ilmoittautuminen onnistui! Tervetuloa mukaan.",
+                "error": "Rekisteröityminen epäonnistui. Tarkista tietosi ja yritä uudelleen."
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "Sähköposti on jo rekisteröity",
+        "email_registered_lead": "Tämä sähköpostiosoite on jo rekisteröity. Haluatko kirjautua sisään sen sijaan?"
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "Vahvista poistaminen",
+            "delete_lead": "Haluatko varmasti poistaa tämän viestin? Tätä toimintoa ei voi kumota.",
+            "delete_yes": "Kyllä, Poista",
+            "delete_no": "Peruuttaa"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "Jaa viestisi",
+            "logged_in_placeholder": "Kommentti kuin {name}",
+            "comment_posted": "Kommentti lähetetty",
+            "comment_deleted": "Kommentti poistettu",
+            "reply_deleted": "Vastaus poistettu"
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "Viesti ladattu",
+            "hidden": "Piilotettu",
+            "unhidden": "Piilotettu",
+            "reported": "Ilmoitettu",
+            "deleted": "Poistettu",
+            "pinned": "Kiinnitetty",
+            "unpinned": "Irrotettu"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "Ilmoita kampanjasta",
+        "report_profile": "Ilmoita profiilista",
+        "abusive_or_harmful": "Harmittava tai haitallinen",
+        "pretending_to_be_someone_else": "Teeskentelee olevansa joku muu",
+        "sensitive_content": "Arkaluonteinen sisältö",
+        "plagiarism": "Plagiointi",
+        "impersonation": "Toisena henkilönä esiintyminen",
+        "piracy": "Piratismi",
+        "nudity_pornography": "Alastomuus ja pornografia",
+        "dangerous_or_harmful": "Vaarallinen tai haitallinen",
+        "harassment_cyberbullying": "Häirintä ja verkkokiusaaminen",
+        "provocative_threatening_content": "Provokoiva ja uhkaava sisältö",
+        "privacy_violations": "Yksityisyyden loukkaukset",
+        "unauthorized_use_of_personal_information": "Henkilötietojen luvaton käyttö",
+        "child_exploitation": "Lasten hyväksikäyttö",
+        "harassment": "Häirintä",
+        "terrorism": "Terrorismi",
+        "violence": "Väkivalta",
+        "false_information": "Väärää tietoa",
+        "health": "Terveys",
+        "politics": "Politiikka",
+        "social_issue": "Yhteiskunnallinen ongelma",
+        "hate_speech": "Vihapuhe",
+        "disability_or_disease": "Vamma tai sairaus",
+        "race_or_ethnicity": "Rotu tai etnisyys",
+        "religious_affiliation": "Uskonnollinen kuuluvuus",
+        "sexual_orientation": "Seksuaalinen suuntautuminen",
+        "nudity": "Alastomuus",
+        "suicide_or_self_harm": "Itsemurha tai itsensä vahingoittaminen",
+        "vulgar_language": "Vulgaari kieli",
+        "dangerous_content": "Vaarallinen sisältö",
+        "why_report_campaign": "Miksi ilmoitat tästä kampanjasta?",
+        "why_report_profile": "Miksi ilmoitat tästä profiilista?",
+        "why_report_submission": "Miksi ilmoitat tästä lähetyksestä?",
+        "why_report_comment_reply": "Miksi ilmoitat tästä kommentista?",
+        "why_report_collection": "Miksi ilmoitat tästä kokoelmasta?",
+        "select_one": "Valitse yksi, kiitos",
+        "protect_privacy_reporter": "Twibbonizen yhteisön säännöt suojaavat toimittajan henkilöllisyyden yksityisyyttä.",
+        "tell_us_more": "Kerro meille lisää",
+        "received_report": "Olemme vastaanottaneet raporttisi!",
+        "thankyou": "Kiitos! Anna meidän tutkia ilmoituksesi, niin lähetämme palautteen sähköpostiisi mahdollisimman pian.",
+        "learn_more_about": "Lisätietoja {link} .",
+        "community_guideline": "Twibbonize-yhteisön säännöt",
+        "placeholder_write_here": "Kirjoita tähän",
+        "report_sent": "Lähetetty raportti"
     },
     "page_editor": {
         "general": {
@@ -1754,10 +1533,10 @@
         "upload": {
             "upload_image": "Lataa kuva",
             "upload": "Lataa",
-            "type": "",
-            "size": "",
-            "type_image": "",
-            "maximum_size": ""
+            "type": "Tyyppi:",
+            "size": "Koko:",
+            "type_image": "JPG, PNG tai SVG",
+            "maximum_size": "Enintään 5 MB"
         },
         "toolbar": {
             "copy": "Kopioi",
@@ -1781,8 +1560,7 @@
             "lock": "Lukitus",
             "letter_spacing": "Kirjainväli",
             "line_spacing": "Riviväli",
-            "border_weight": "",
-            "corner_rounding": "",
+            "border_weight": "Reunan paino",
             "align": "Kohdista",
             "effects": "Vaikutukset"
         },
@@ -1822,15 +1600,203 @@
     },
     "page__campaign_creation": {
         "campaign_preview": {
-            "campaign_description": "",
+            "campaign_description": "Kampanjan kuvaus",
             "campaign_title": "Kampanjan nimi"
         }
     },
     "page_my_campaign": {
         "edit_campaign": {
             "campaigns": "Kampanjat",
-            "frames": "",
-            "analytics": ""
+            "frames": "Kehykset",
+            "analytics": "Analytiikka"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "Miksi ilmoitat tästä viestistä?",
+            "plagiarism ": "Plagiointi",
+            "impersonation ": "Henkilönimitys ",
+            "piracy ": "Piratismi",
+            "vulgar_language": "Vulgääri kieli",
+            "nudity_pornography": "Alastomuus ja pornografia",
+            "suicidal_self_harm": "Itsetuhoinen ja itsensä vahingoittaminen Sisältö ",
+            "danger": "Vaarallinen tai haitallinen ",
+            "violent_graphic_content": "Väkivaltainen graafinen sisältö",
+            "harassment_cyberbullying": "Häirintä ja verkkokiusaaminen ",
+            "provocative_threatening_content": "Provosoiva ja uhkaava sisältö",
+            "spam": "Roskaposti"
+        },
+        "report_comment": {
+            "title": "Miksi ilmoitat tästä kommentista?",
+            "abusive_harmful": "Väärinkäytökset tai haitat",
+            "harassment": "Häirintä",
+            "terrorism": "Terrorismi",
+            "violence": "Väkivalta",
+            "false_information": "",
+            "health": "Terveys",
+            "politics": "Politiikka",
+            "social_issue": "Sosiaalinen ongelma",
+            "sensitive_content": "Arkaluonteinen sisältö ",
+            "nudity": "Alastomuus",
+            "vulgar_language": "Vulgääri kieli",
+            "hate_speech": "Vihapuheet",
+            "disability_disease": "Vamma tai sairaus",
+            "race_or_ethnicity": "Rotu tai etninen alkuperä",
+            "religious_affiliation": "Uskontokunta ",
+            "sexual_orientation": "Seksuaalinen suuntautuminen",
+            "spam": "Roskaposti"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "Url virheellinen"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "Google-kirjautuminen epäonnistui",
+        "failed_apple_login": "Apple-kirjautuminen epäonnistui"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "Valokuvatiedosto ylittää 5 Mt:n enimmäiskoon",
+            "cannot_create_twibbon": "Twibbonia ei voi luoda. Yritä uudelleen"
+        },
+        "log_in": {
+            "complete_verification": "Suorita vahvistus jatkaaksesi",
+            "email_no_password": "Tässä sähköpostissa ei ole salasanaa. Kirjaudu sisään Googlen kautta",
+            "social_media_already_registered": "Sosiaalisen median tilisi sähköpostiosoite on jo rekisteröity ja yhdistetty toiseen tiliin samankaltaisesta sosiaalisen median palvelusta. Yritä kirjautua sisään käyttämällä sähköposti- ja salasanalomakkeita."
+        },
+        "sign_up": {
+            "email_already_registered": "Tämä sähköpostiosoite on jo rekisteröity. Käytä toista sähköpostiosoitetta tai yritä kirjautua sisään",
+            "password_minimum_required": "Salasanassa on oltava vähintään 8 merkkiä.",
+            "password_character_exceeded": "Salasana ei saa ylittää 128 merkkiä",
+            "password_must_be_standard": "Salasanan on oltava tavallinen aakkosnumeerinen",
+            "password_does_not_match": "Salasanan vahvistus ei täsmää. Yritä uudelleen"
+        },
+        "verification": {
+            "code_incorrect": "Koodi väärä. Yritä uudelleen",
+            "code_expired": "Koodi on vanhentunut. Pyydä uusi",
+            "maximum_attempt_reached": "Yritysten enimmäismäärä saavutettu. Yritä uudelleen 5 tunnin kuluttua",
+            "code_requested_exceeded": "Koodipyynnöt ylittivät enimmäisrajan"
+        },
+        "forgot_password": {
+            "email_not_found": "Sähköpostia ei löydy. Yritä uudelleen tai rekisteröidy",
+            "link_expired": "Salasanan vaihtolinkki on vanhentunut. Pyydä uusi",
+            "link_used": "Linkki salasanan vaihtoon on käytetty. Pyydä uusi"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "Kehystiedosto ylittää 5 Mt:n enimmäiskoon",
+            "background_file_exceed": "Taustatiedosto ylittää 5 Mt:n enimmäiskoon",
+            "image_not_transparent": "Kuvan tulee olla läpinäkyvä. Yritä uudelleen",
+            "invalid_format": "Virheellinen tiedostomuoto. Käytä tuettua muotoa",
+            "allow_only_1_frame": "Ilmaiset tilit sallivat vain yhden kehyksen latauksen. Päivitä jatkaaksesi",
+            "allow_only_1_background": "Ilmaiset tilit sallivat vain yhden taustalatauksen. Päivitä jatkaaksesi",
+            "campaign_title_exceed_limit": "Kampanjan otsikko ylittää merkkirajoituksen",
+            "description_exceed_limit": "Kuvaus ylittää merkkien enimmäisrajoituksen",
+            "link_unavailable": "Kampanjalinkki on jo käytössä. Valitse toinen",
+            "link_criteria": "Kampanjalinkin on oltava aakkosnumeerinen ja viiva (-)",
+            "caption_exceed_limit": "Tekstitysmalli ylittää merkkien enimmäisrajoituksen",
+            "background_exceed_limit": "Taustatiedosto ylittää 5 Mt:n enimmäiskoon",
+            "photo_exceed_limit": "Pikkukuvatiedosto ylittää 5 Mt:n enimmäiskoon",
+            "link_exceed_limit": "Kampanjan linkki ylittää merkkien enimmäisrajoituksen"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "Kehystiedosto ylittää 5 Mt:n enimmäiskoon",
+            "background_file_exceed": "Taustatiedosto ylittää 5 Mt:n enimmäiskoon"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "Kuvan tulee olla läpinäkyvä. Yritä uudelleen",
+            "invalid_format": "Virheellinen tiedostomuoto. Käytä tuettua muotoa",
+            "allow_only_1_frame": "Ilmaiset tilit sallivat vain yhden kehyksen latauksen. Päivitä jatkaaksesi",
+            "allow_only_1_background": "Ilmaiset tilit sallivat vain yhden taustalatauksen. Päivitä jatkaaksesi",
+            "campaign_title_exceed_limit": "Kampanjan otsikko ylittää merkkirajoituksen",
+            "description_exceed_limit": "Kuvaus ylittää merkkien enimmäisrajoituksen",
+            "link_unavailable": "Kampanjalinkki on jo käytössä. Valitse toinen",
+            "link_criteria": "Kampanjalinkin on oltava aakkosnumeerinen ja viiva (-)",
+            "link_exceed_limit": "Kampanjan linkki ylittää merkkien enimmäisrajoituksen",
+            "caption_exceed_limit": "Tekstitysmalli ylittää merkkien enimmäisrajoituksen",
+            "background_exceed_limit": "Taustatiedosto ylittää 5 Mt:n enimmäiskoon",
+            "thumbnail_exceeds": "Pikkukuvatiedosto ylittää 5 Mt:n enimmäiskoon"
+        },
+        "settings": {
+            "profile_image_exceed": "Profiilikuva ylittää 5 Mt:n enimmäisrajan",
+            "background_image_exceed": "Taustakuva ylittää 5 Mt:n enimmäiskoon",
+            "username_unavailable": "Käyttäjänimi on jo varattu. Kokeile toista",
+            "username_exceed_limit": "Käyttäjätunnus ylittää merkkirajoituksen",
+            "username_invalid": "Käyttäjätunnus virheellinen. Yritä uudelleen oikeassa muodossa",
+            "display_exceed_limit": "Näyttönimi ylittää merkkien enimmäisrajoituksen",
+            "bio_exceed_limit": "Bio ylittää merkkien enimmäisrajan",
+            "email_already_registered": "Sähköposti on jo rekisteröity. Kokeile toista",
+            "password_incorrect": "Salasana väärin. Yritä uudelleen",
+            "password_minimum_character": "Salasanassa on oltava vähintään 8 merkkiä",
+            "password_maximum_character": "Salasana ei saa ylittää 128 merkkiä",
+            "password_standard_format": "Salasanan tulee noudattaa aakkosnumeerista standardimuotoa",
+            "account_deleted": "Tili poistettu",
+            "account_integrated": "Tili integroitu",
+            "account_revoked": "Tili peruutettu"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "\"Kerro meille lisää\" -osio ylittää merkkien enimmäisrajoituksen"
+        },
+        "general": {
+            "something_went_wrong": "Jotain meni pieleen"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "Lisättyjen kampanjoiden määrä ylittää enimmäisrajan",
+            "description_exceeds": "Kuvaus ylittää merkkien enimmäisrajoituksen",
+            "title_exceeds": "Kokoelman nimi ylittää merkkien enimmäisrajoituksen"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "Linkki kopioitu",
+            "social_media_already_linked": "Sosiaalisen median tili on jo linkitetty toiseen Twibbonize-tiliin. Kokeile toista"
+        },
+        "campaign_creation": {
+            "link_available": "Linkki on saatavilla"
+        },
+        "campaign_edit": {
+            "link_available": "Linkki on saatavilla"
+        },
+        "settings": {
+            "photo_updated": "Kuva päivitetty",
+            "banner_updated": "Banneri päivitetty",
+            "banner_deleted": "Banneri poistettu",
+            "photo_deleted": "Kuva poistettu",
+            "password_updated": "Salasana päivitetty",
+            "email_updated": "Sähköposti päivitetty"
+        },
+        "my_profile": {
+            "campaign_deleted": "Kampanja poistettu"
+        },
+        "collection": {
+            "campaign_added": "Kampanja lisätty"
+        },
+        "campaign_page": {
+            "account_upgraded": "Tili päivitetty",
+            "link_copied": "Linkki kopioitu"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "Sähköpostia ei löydy. Yritä uudelleen tai rekisteröidy"
+        },
+        "password": {
+            "password_incorrect": "Salasana väärin. Yritä uudelleen"
+        },
+        "maximum_attempt": "Yritysten enimmäismäärä saavutettu. Yritä uudelleen 1 tunnin kuluttua"
+    },
+    "page_notification": {
+        "no_notification_heading": "Ei vielä ilmoituksia",
+        "no_notification_subheading": "Tällä hetkellä ei ole ilmoituksia"
+    },
+    "page_general": {
+        "no_internet_connection": "Ei Internet-yhteyttä. Yritä uudelleen napauttamalla",
+        "could_not_connect_internet": "Internet-yhteyttä ei voitu muodostaa. Vaihda toiseen verkkoon ja yritä uudelleen."
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "Kirjautua ulos?"
         }
     }
 }

@@ -35,7 +35,7 @@
             "terms": "이용 약관",
             "privacy_policy": "개인정보 보호정책",
             "cookie_policy": "쿠키 정책",
-            "sitemap": ""
+            "sitemap": "사이트 맵"
         },
         "menu": {
             "explore": "탐색",
@@ -47,11 +47,6 @@
             "sign_in": "로그인",
             "sign_up": "가입하기",
             "sign_out": "로그아웃"
-        },
-        "campaign": {
-            "supporters": "서포터|서포터",
-            "campaigns": "캠페인",
-            "created": "생성됨"
         },
         "button": {
             "view_all": "모두 보기",
@@ -71,11 +66,12 @@
             "report": "신고하기",
             "edit": "편집",
             "confirm": "확인",
-            "okay": "",
+            "okay": "좋아요",
             "view": "보기",
-            "send": "",
-            "more": "",
-            "less": ""
+            "send": "보내다",
+            "more": "더",
+            "less": "더 적은",
+            "submit": "제출하다"
         },
         "time": {
             "week": "주",
@@ -85,6 +81,11 @@
             "monthly": "월간",
             "annual": "연간",
             "yearly": "연간"
+        },
+        "campaign": {
+            "campaigns": "캠페인",
+            "created": "생성됨",
+            "supporters": "지지자|후원자|후원자"
         },
         "collection": {
             "collections": "컬렉션",
@@ -108,14 +109,21 @@
             "hide_post": "게시물 숨기기",
             "post_shared": "게시물 공유 {date}",
             "share_message": "메시지 공유",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "게시물 고정 해제",
+            "unhide_post": "게시물 숨기기 해제"
         },
         "pricing": {
-            "creator_subscribe_to": "",
-            "plan": "",
-            "support_without_watermark": "",
-            "all_supporters_without_watermark": ""
+            "creator_subscribe_to": "이 크리에이터는 다음을 구독하고 있습니다.",
+            "plan": "계획",
+            "support_without_watermark": "워터마크 없이 어떤 캠페인도 지원할 수 있습니다!",
+            "all_supporters_without_watermark": "워터마크 없이도 이 크리에이터의 모든 캠페인을 후원하실 수 있습니다!"
+        },
+        "campaign_card": {
+            "a_month_ago": "한 달 전",
+            "a_day_ago": "하루 전"
+        },
+        "search": {
+            "searching": "수색..."
         }
     },
     "page_home": {
@@ -262,8 +270,8 @@
         "process": {
             "how_twibbonize_1": "트위본라이즈 혁신의 방법",
             "how_twibbonize_2": "트위본 캠페인",
-            "sharing_twibbon_1": "트위본 공유는 저희도 복잡한 과정이었습니다",
-            "sharing_twibbon_2": "설명하는 것이 지겨울 정도입니다."
+            "sharing_twibbon_1": "트위본 공유는 설명하기조차 피곤할",
+            "sharing_twibbon_2": "정도로 복잡한 과정이었어요"
         },
         "frame": {
             "twibbon_frame": "트윕본라이즈에서 트윕본은 프레임 그 이상입니다.",
@@ -334,10 +342,10 @@
             "download": "다운로드",
             "reset": "초기화",
             "add_text": "텍스트 추가",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": "",
+            "posting_as": "다음으로 게시 ",
+            "not_you": "너 말고? ",
+            "uploading_photo_to_remove": "사진을 업로드하고 배경을 제거하는 중입니다.",
+            "wait_for_moment": "잠시만 기다려주세요...",
             "remove_watermark_for_you_2": "워터마크 없이 이미지를 즐기세요!",
             "remove_watermark_for_you_1": "광고 없이 Twibbonize를 살펴보세요,",
             "remove_watermark_for_you": "워터마크를 제거하세요!",
@@ -350,7 +358,6 @@
             "report_profile": "프로필 보고",
             "plagiarism": "표절",
             "sensitive": "민감한 콘텐츠",
-            "danger": "위험한 콘텐츠",
             "spam": "스팸",
             "why_report_campaign": "이 캠페인을 신고하는 이유는 무엇인가요?",
             "protect_reporter": "트위본라이즈 커뮤니티 가이드라인은 리포터의 신원을 보호합니다.",
@@ -359,7 +366,21 @@
             "received_report": "신고를 접수했습니다!",
             "thankyou": "감사합니다! 신고 내용을 조사할 수 있도록 시간을 주시면 최대한 빨리 피드백을 이메일로 보내드리겠습니다.",
             "learn_more_about": "에 대해 자세히 알아보기 {link}.",
-            "community_guideline": "트위본라이즈 커뮤니티 가이드라인"
+            "community_guideline": "트위본라이즈 커뮤니티 가이드라인",
+            "title": "이 캠페인을 신고하는 이유는 무엇인가요?",
+            "danger": "위험하거나 유해한 콘텐츠 ",
+            "impersonation": "사칭 ",
+            "piracy": "불법 복제",
+            "vulgar_language": "저속한 언어",
+            "nudity_pornography": "누드 및 음란물",
+            "suicidal_self_harm": "자살 및 자해 콘텐츠 ",
+            "violent_graphic_content": "폭력적인 그래픽 콘텐츠",
+            "harassment_cyberbullying": "괴롭힘 및 사이버 괴롭힘",
+            "proactive_threatening_content": "도발적이고 위협적인 콘텐츠",
+            "statement": "트위본라이즈 커뮤니티 가이드라인은 리포터의 신원을 보호합니다.",
+            "read_more_copy": "자세히 보기",
+            "please_select_one": "하나를 선택해 주세요.",
+            "write_a_message": "메시지 작성"
         },
         "discard": {
             "discard_edit": "편집 내용을 삭제하시겠습니까?",
@@ -377,9 +398,10 @@
             "supporters": "서포터즈",
             "interactions": "상호 작용",
             "visits": "방문",
-            "realtime_estimates": "실시간 견적",
             "last_month": "지난 30일",
-            "see_more_analytics": "더 많은 분석 보기"
+            "see_more_analytics": "더 많은 분석 보기",
+            "realtime_estimates": "지난 30일간의 실시간 추정치",
+            "view_analytics": "분석 보기"
         },
         "pricing": {
             "no_thankyou": "아니요, 괜찮습니다."
@@ -400,15 +422,37 @@
             "reply_as_user": "댓글로 {user}"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "최상의 결과를 얻으려면 지침을 따르십시오!",
+            "good_photo_examples": "좋은 사진 예:",
+            "good_photo_caption": "클로즈업 셀카, 인물 사진, 선명한 얼굴",
+            "photos_avoid": "피해야 할 사진:",
+            "bad_photo_caption": "전신사진, 단체사진, 뒷모습 사진",
+            "understand": "이해합니다"
         },
         "post_to_twibbonize": {
-            "caption": ""
+            "caption": "이 캠페인에 대한 메시지 작성하기...",
+            "unpin_post": "게시물 고정 해제"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "사진 조정"
+        },
+        "share_campaign": {
+            "or_share_to": "또는 공유",
+            "save_share": "저장 및 공유"
+        },
+        "post": {
+            "post_uploaded": "게시물 업로드",
+            "post_deleted": "게시물 삭제됨",
+            "post_failed_deleted": "게시물 실패, 삭제"
+        },
+        "create_campaign": {
+            "custom_field": "사용자 정의 필드 추가"
+        },
+        "collection": {
+            "sign_up_add_collection": "컬렉션에 추가하려면 가입하세요"
+        },
+        "posts": {
+            "has_no_posts": "이 사용자는 Twibbonize에 아무 것도 게시하지 않았습니다."
         }
     },
     "page_checkout": {
@@ -417,9 +461,8 @@
             "account_update": "계정이 업데이트되고 모든 새로운 기능이 잠금 해제됩니다."
         },
         "checkout": {
-            "back_to_plans": "요금제로 돌아가기",
             "upgrade_to": "다음으로 업그레이드 {plan}",
-            "gather_your_supports": "독점 기능으로 지지자를 모으고 캠페인을 확장하세요.",
+            "gather_your_supports": "독점 기능으로 지지자를 모으고 캠페인을 확장하세요",
             "billing_option": "청구 옵션",
             "details": "세부 정보",
             "user": "사용자",
@@ -429,18 +472,19 @@
             "save": "저장 {percentage}%",
             "pay": "결제 {frequency}",
             "checkout_options": "결제 옵션",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "계획 조정",
+            "current_plan": "현재 계획",
+            "downgrade": "다운그레이드",
+            "current_plan_description": "귀하는 지금 이 구독을 구독하고 있습니다.",
+            "change_plan_description": "현재 구독이 종료된 후에 활성화되는 {plan} 로 요금제를 변경하려고 합니다.",
+            "downgrade_description": "현재 구독이 종료된 후에 활성화되는 {plan} 로 요금제를 다운그레이드하려고 합니다.",
+            "change_plan_confirm": "확실합니까?",
+            "upgrade_confirm": "정말로 업그레이드하시겠습니까?",
+            "downgrade_confirm": "요금제를 다운그레이드하시겠습니까?",
+            "change_plan_active": "현재 구독이 종료되면 활성화됩니다.",
+            "upgrade_active": "결제가 완료되면 활성화됩니다.",
+            "downgrade_active": "현재 구독이 종료되면 활성화됩니다.",
+            "back_to_plans": "뒤쪽에"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -449,14 +493,14 @@
             "use_twibbonize_without_ads": "광고 없이 트위본라이즈 사용",
             "exclusive_features": "캠페인 전용 기능",
             "remove_own_account": "내 계정에 대한 워터마크 제거",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "은",
+            "gold": "금",
+            "platinum": "백금",
+            "watermark_title": "워터마크 제거",
+            "high_quality_image_title": "고품질 이미지",
+            "ad_free_title": "광고 없음",
+            "campaign_addon": "캠페인 애드온",
+            "on": "~에"
         }
     },
     "page_collection": {
@@ -496,9 +540,9 @@
             "image_dimension": "1080x1080px",
             "upload": "업로드",
             "imagetype": "PNG",
-            "max_file": "",
-            "backgroundtype": "",
-            "upload_design": ""
+            "max_file": "최대 5MB",
+            "backgroundtype": "JPEG, PNG 또는 WEBP",
+            "upload_design": "여기에서 디자인 업로드"
         },
         "frame_editor": {
             "or_create": "또는 지금 프레임을 만드세요",
@@ -526,7 +570,7 @@
             "campaign_title": "캠페인 제목",
             "campaign_title_placeholder": "숫자, 알파벳 또는 특수 문자로 구성할 수 있습니다.",
             "campaign_description": "설명",
-            "campaign_description_placeholder": "캠페인에 대한 세부 정보를 공유하여 관심을 끌고 지지를 얻으세요.",
+            "campaign_description_placeholder": "캠페인에 대한 세부 정보를 공유하여 관심을 끌고 지지를 얻으세요",
             "campaign_link": "캠페인 링크",
             "campaign_link_placeholder": "캠페인 링크",
             "campaign_category": "캠페인 카테고리",
@@ -545,7 +589,7 @@
             "url_not_available": "URL을 사용할 수 없습니다.",
             "caption_placeholder": "안녕하세요, 제 이름은 [[당신의 이름]]입니다. 이며, 이 캠페인을 지지합니다. 이 캠페인에 함께 힘을 모아 진정한 영향력을 발휘합시다!",
             "enter_description": "설명 입력",
-            "optional": ""
+            "optional": "선택 과목"
         },
         "customization": {
             "campaign_customization": "캠페인 사용자 지정",
@@ -568,14 +612,14 @@
             "go_back": "뒤로 가기"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "프레임",
+            "campaigns": "캠페인",
+            "analytics": "해석학"
         },
         "blank_design": {
-            "suggested": "",
-            "instagram_story": "",
-            "instagram_post": ""
+            "suggested": "추천",
+            "instagram_story": "인스타그램 스토리",
+            "instagram_post": "인스타그램 게시물"
         }
     },
     "page_for_creators": {
@@ -585,8 +629,8 @@
             "purchase_now": "지금 구매하기",
             "learn_more": "자세히 알아보기",
             "want_to_create": "캠페인을 무료로 만들고 싶으신가요?",
-            "try_now": "지금 체험해 보세요!",
-            "per": "{time}당"
+            "per": "{time}당",
+            "try_now": "지금 시도해보세요!"
         },
         "features": {
             "remove_watermark": "모든 캠페인 사용자에 대한 워터마크 제거",
@@ -631,20 +675,20 @@
             "unite_detail": "캠페인의 모든 서포터 커뮤니티를 트위본라이즈 페이지로 가져오면 서포터가 연결되고 그 영향력을 확인할 수 있습니다!",
             "entertain_detail": "트위본라이즈는 소셜 미디어와 메시징을 위한 공유 가능한 가상 트위본을 제공하여 지지자들의 참여를 유도합니다",
             "grow_detail": "트위본라이즈 캠페인으로 더 많은 지지를 얻으세요: 관심을 끌 뿐만 아니라 밴드왜건 효과를 창출하여 대의를 놓치고 싶지 않은 오디언스를 끌어들일 수 있습니다.",
-            "inspire": "",
-            "unite": "",
-            "entertain": "",
-            "grow": ""
+            "inspire": "영감 ",
+            "unite": "Unite",
+            "entertain": "엔터테인먼트",
+            "grow": "성장"
         },
         "use_cases": {
             "heading": "트윕본라이즈 사용 아이디어",
-            "subheading": "",
-            "corporate": "",
-            "corporate_title": "",
+            "subheading": "5,000,000건 이상의 트위본라이즈 캠페인에서 엄선한 사례로 탐색을 시작하세요.",
+            "corporate": "기업",
+            "corporate_title": "풍부한 직원과 고객의 힘을 활용하세요.",
             "education": "교육",
-            "education_title": "",
+            "education_title": "학습 과정에 재미를 더할 수 있는 방법입니다",
             "event": "이벤트",
-            "events_title": ""
+            "events_title": "즉각적인 바이럴의 힘으로 이벤트 홍보하기"
         },
         "testimonials": {
             "testimonials": "사용 후기",
@@ -688,8 +732,8 @@
             "proud_partner": "저희의 사명에 깊이 공감하는 사람들과 파트너가 된 것을 자랑스럽게 생각합니다."
         },
         "honorary": {
-            "honorary_mentions": "",
-            "significant_contributions": ""
+            "honorary_mentions": "명예 언급",
+            "significant_contributions": "당사 발전에 크게 기여한 분들"
         }
     },
     "page_pricing": {
@@ -772,7 +816,7 @@
             "notes": "참고",
             "print": "송장 다운로드",
             "if_you_would_like_to_change": "구독 또는 결제 정보를 변경하려면 청구 설정으로 이동하세요.",
-            "ending_in": ""
+            "ending_in": "{number} )로 끝나는 {card}"
         },
         "bento": {
             "campaign_analytics_1": "캠페인",
@@ -781,10 +825,10 @@
             "private_campaign_2": "캠페인",
             "campaign_customization_1": "캠페인",
             "campaign_customization_2": "사용자 지정",
-            "multiple_frames_1": "다중 프레임",
-            "multiple_frames_2": "캠페인당",
-            "use_twibbonize_without_ads_1": "트윕본화 사용",
-            "use_twibbonize_without_ads_2": "광고 없음",
+            "multiple_frames_1": "캠페인당",
+            "multiple_frames_2": "여러 프레임",
+            "use_twibbonize_without_ads_1": "광고 없이",
+            "use_twibbonize_without_ads_2": "Twibbonize 사용",
             "no_extra_features_1": "추가 기능 없음",
             "no_extra_features_2": "사용 가능",
             "remove_all_watermark_1": "모든 캠페인 사용자로부터",
@@ -828,6 +872,9 @@
         },
         "card_premium_creator": {
             "subheading": "최고의 Twibbonize 경험이 필요한 분들을 위해"
+        },
+        "same_plan": {
+            "adjust_plan": "계획 조정"
         }
     },
     "page_profile": {
@@ -835,17 +882,17 @@
             "search_campaigns": "캠페인 찾기",
             "no_campaigns": "아직 캠페인 없음",
             "no_campaigns_details": "캠페인을 생성하고 공유하여 트위본화하세요.",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "이 캠페인을 삭제하시겠습니까?",
+            "delete_detail": "' {title} ' 삭제는 영구적이며 취소할 수 없습니다.",
+            "delete_campaign": "캠페인 삭제"
         },
         "posts": {
             "no_posts": "아직 게시물이 없습니다",
-            "no_post_details": "캠페인을 찾아 트위본라이즈에 트위본을 게시합니다."
+            "no_post_details": "캠페인을 찾아 트위본라이즈에 트위본을 게시합니다"
         },
         "collections": {
             "no_collections": "좋아하는 캠페인 정리하기",
-            "no_collections_details": "캠페인 페이지에서 {icon} 아이콘 버튼을 클릭하면 관심 있는 캠페인을 내 컬렉션에 저장할 수 있습니다."
+            "no_collections_details": "캠페인을 컬렉션에 저장하려면 캠페인에서 {icon} 아이콘을 클릭하세요."
         },
         "about": {
             "about": "정보",
@@ -857,13 +904,32 @@
             "campaigns": "캠페인"
         },
         "my_profile": {
-            "edit_profile": "",
+            "edit_profile": "프로필 수정",
             "campaigns": "캠페인",
             "collections": "컬렉션",
-            "posts": ""
+            "posts": "게시물"
         },
         "campaign_deletion": {
             "are_you_sure": "확실하신가요?"
+        },
+        "campaign": {
+            "delete_campaign": "\"{campaign_name}\"를 삭제하면 영구적으로 삭제되며 되돌릴 수 없습니다.",
+            "confirm_delete_campaign": "캠페인 삭제"
+        },
+        "collection": {
+            "delete_collection": "\"{collection_name}\" 컬렉션은 영구적으로 삭제됩니다.",
+            "confirm_delete_collection": "컬렉션 삭제",
+            "delete_campaign": "\"{campaign_name}\" 캠페인은 \"{collection_name}\" 컬렉션에서 영구적으로 삭제됩니다.",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "이 프로필을 신고하는 이유는 무엇인가요?",
+            "abusive_harmful": "가학적이거나 유해한 콘텐츠",
+            "pretending_someone": "다른 사람인 척하기",
+            "sensitive_content": "민감한 콘텐츠"
+        },
+        "account": {
+            "email_changed": "귀하의 이메일이 최근에 변경되었습니다. 90일 후에 다시 업데이트할 수 있습니다."
         }
     },
     "page_preference": {
@@ -907,55 +973,55 @@
             "adfree": "광고 없음",
             "highquality": "고품질",
             "nowatermark": "워터마크 없음",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "유급의",
+            "are_you_sure_change": "확실합니까?",
+            "active_after_subscription": "현재 구독이 종료되면 활성화됩니다.",
+            "are_you_sure_upgrade": "정말로 업그레이드하시겠습니까?",
+            "plan_changing_info": "수신된 {package} 로 전환하세요. 현재 계획이 종료된 후에 새 계획이 시작됩니다.",
+            "active_after_payment": "결제가 완료되면 활성화됩니다.",
+            "are_you_sure_downgrade": "요금제를 다운그레이드하시겠습니까?",
+            "plan_downgrade_info": "{package} 로의 다운그레이드를 받았습니다. 현재 계획이 종료된 후 새 계획이 시작됩니다.",
+            "renew_plan": "플랜 갱신",
+            "renew_subscription": "구독 갱신",
+            "upgrade_now": "지금 업그레이드",
+            "warning": "경고!",
+            "important": "중요한!",
+            "premium_expired": "귀하의 Premium Creator 플랜이 만료되었습니다. {date} 까지 갱신해주세요",
+            "last_attempted": "마지막으로 시도한 청구가 실패했습니다. 결제 수단을 업데이트하세요.",
+            "renewal_date": "갱신일",
+            "payment_method": "결제수단",
+            "update_now": "지금 업데이트",
+            "cancel_subscription": "구독 취소",
+            "change_payment_method": "결제 수단 변경",
+            "card_end_with": "{number} )로 끝나는 {card}",
+            "no_transactions": "아직 거래 내역이 없습니다.",
+            "transactions_will_shown": "거래 내역이 제공되면 여기에 표시됩니다.",
+            "are_you_sure": "확실합니까?",
+            "once_cancel_plan": "요금제를 취소하면 결제 주기가 끝나면 업그레이드된 모든 기능에 액세스할 수 없게 됩니다.",
+            "yes_cancel_plan": "예, 계획을 취소합니다",
+            "no_keep_plan": "아니요, 계획을 유지하세요",
+            "once_renew_plan": "요금제를 갱신하면 요금제가 다시 활성화됩니다.",
+            "yes_renew_plan": "예, 플랜을 갱신합니다",
+            "no_cancel": "아니요, 취소합니다.",
+            "if_cancel_downgrade": "다운그레이드를 취소하면 현재 요금제가 다시 활성화됩니다.",
+            "yes_downgrade": "예, 계속 다운그레이드합니다",
+            "if_cancel_change_billing": "변경 청구를 취소하면 현재 요금제가 다시 활성화됩니다.",
+            "yes_continue": "예, 계속하세요",
+            "info": "정보",
+            "your_request_cancel": "귀하의 {plan} 요금제 취소 요청이 접수되었습니다. 다음 결제 주기에 종료됩니다.",
+            "your_request_downgrade": "{plan} 으로 다운그레이드해 달라는 귀하의 요청이 접수되었습니다. 현재 요금제가 종료되면 새 요금제가 활성화됩니다.",
+            "cancel_downgrade": "다운그레이드 취소",
+            "cancel_change": "청구 변경 취소",
+            "your_request_billing": "청구서를 {plan} 으로 변경해 달라는 귀하의 요청이 접수되었습니다. 현재 요금제가 종료되면 새 요금제가 활성화됩니다.",
+            "manage_inapp": "Twibbonize {appOs} 앱에서 구독을 관리하세요",
+            "manage_inapp_subscription": "{appOs} 에서 Twibbonize 구독을 관리하려면 앱을 열고 '설정'으로 이동한 후 '결제'를 선택하세요.",
+            "success_cancel_subscription": "성공 구독 취소",
+            "success_renew_subscription": "구독 갱신 성공",
+            "success_change_subscription": "성공 변경 구독",
+            "success_cancel_change_subscription": "성공 취소 구독 변경",
+            "last_attempted_authentication": "마지막으로 시도한 청구는 실패했습니다. 결제에 인증이 필요합니다.",
+            "authenticate_now": "지금 인증하세요",
+            "recurring_payment": "반복 결제에 대한 명시적인 확인이 필요합니다. 이메일을 확인해주세요"
         },
         "account": {
             "update_email": "이메일 업데이트",
@@ -985,19 +1051,19 @@
             "confirm_password": "비밀번호 확인",
             "create_new_password": "새 비밀번호 만들기",
             "make_it_easy": "기억하기 쉽고 누구에게도 비밀로 유지하세요!",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "이메일 추가",
+            "add_password": "비밀번호 추가",
+            "cant_remove_account": "죄송합니다. 귀하의 소셜 미디어 계정을 삭제할 수 없습니다.",
+            "set_up_email": "소셜 미디어 계정을 제거하려면 먼저 이메일이나 비밀번호를 설정해야 합니다.",
+            "want_to_remove": "소셜 미디어 계정을 삭제하고 싶으신가요?",
+            "your_account_will_be_removed": "귀하의 {provider} 계정이 제거됩니다. 소셜 미디어 계정을 제거하려면 이해를 클릭하세요.",
+            "continue_to_revoke": "계속해서 취소하세요 ",
+            "revoke_success": "계정 취소 성공 {provider}",
+            "cannot_update_email": "죄송합니다. 이메일을 업데이트할 수 없습니다.",
+            "setup_password_to_update_email": "이메일을 업데이트하기 전에 비밀번호를 설정해야 합니다.",
+            "email_change_request": "이메일 변경 요청이 취소되었습니다.",
+            "we_have_sent_password": "귀하의 이메일로 비밀번호 재설정 지침을 보내드렸습니다. 보안상의 이유로 1시간 이내에 비밀번호를 재설정해주세요.",
+            "go_to_homepage": "홈페이지로 이동"
         },
         "notifications": {
             "notifications_settings": "알림 설정",
@@ -1015,10 +1081,10 @@
             "article": "기사",
             "article_details": "추천 기사를 받아보실 수 있습니다.",
             "toggle_all": "모두",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "Twibbonize에 게시",
+            "post_twibbonize_details": "캠페인 페이지에서 지지자의 게시물에 대한 알림을 받으세요.",
+            "account_recap": "계정 요약",
+            "account_recap_details": "모든 캠페인에 대한 지지자 및 방문에 대한 주간 요약"
         },
         "package": {
             "free": "무료",
@@ -1284,290 +1350,6 @@
             "paragraph_11": "디지털 시대의 연결성을 수용함에 따라, 트위본라이즈는 계속해서 연대의 상징으로 화면을 채우고 사회적 옹호의 영역에서 지속적인 영향력을 발휘할 수 있도록 노력할 것입니다. 우리는 함께 경계를 뛰어넘는 시각적 내러티브를 만들어 더 자비롭고 단합된 세상을 향한 우리의 공통된 약속을 반영합니다."
         }
     },
-    "notification": {
-        "push": {
-            "campaign_milestone": {
-                "header": "🏆 {name}, 새로운 마일스톤에 도달했습니다!",
-                "body": "축하합니다! 캠페인 {title} 이제 {amount} 지지자가 생겼습니다!"
-            },
-            "new_post": {
-                "header": "새로운 Twibbon 게시",
-                "body": "{participant}가자]가 캠페인 {title}의 갤러리에 Twibbon을 게시했습니다!"
-            },
-            "new_comment": {
-                "header": "새 댓글!",
-                "body": "{participant}가자]가 캠페인 {title}의 게시물에 댓글을 달았습니다!"
-            },
-            "account_recap": {
-                "header": "🍺 {name}, 주간 요약입니다!",
-                "body": "이번 주에 {amount}의 신규 후원자를 확보했습니다. 계속하세요!"
-            },
-            "billing": {
-                "creator": {
-                    "successful_payment": {
-                        "header": "결제가 완료되었습니다.",
-                        "body": "독점 기능을 활용하세요! 지금 캠페인 시작하기"
-                    },
-                    "plus_5": {
-                        "header": "안녕하세요 {name}, 지금 구독을 갱신하세요",
-                        "body": "지금 요금제를 갱신하거나 업그레이드하여 캠페인 분석 기능을 계속 이용하세요."
-                    }
-                },
-                "international": {
-                    "renewed_plan": {
-                        "header": "안녕하세요 {name}, 갱신 결제가 확인되었습니다.",
-                        "body": "이제 독점 기능을 계속 사용할 수 있습니다!"
-                    },
-                    "creator": {
-                        "successful_payment": {
-                            "header": "결제가 완료되었습니다.",
-                            "body": "독점 기능을 활용하세요! 지금 캠페인을 시작하세요."
-                        },
-                        "plus_2": {
-                            "header": "안녕하세요 {name}, 지금 구독을 갱신하세요",
-                            "body": "지금 요금제를 갱신하거나 업그레이드하여 캠페인 분석 기능을 계속 이용하세요."
-                        }
-                    },
-                    "supporter": {
-                        "successful_payment": {
-                            "header": "결제가 완료되었습니다.",
-                            "body": "광고 없는 경험을 즐기고 워터마크 없이 Twibbon을 받으세요!"
-                        },
-                        "plus_2": {
-                            "header": "안녕하세요 {name}, 지금 구독을 갱신하세요",
-                            "body": "지금 요금제를 갱신하고 워터마크 없는 Twibbon과 광고 없는 경험을 즐겨보세요."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "광고 없는 경험을 즐기고 워터마크 없이 트위본을 받으세요!",
-                        "header": "결제가 완료되었습니다."
-                    },
-                    "plus_5": {
-                        "body": "지금 요금제를 갱신하고 워터마크 없는 Twibbon과 광고 없는 경험을 즐겨보세요.",
-                        "header": "안녕하세요 {name}, 지금 구독을 갱신하세요"
-                    }
-                }
-            },
-            "new_reply": {
-                "header": "새 답글!",
-                "body": "{participant} 캠페인에 댓글을 달았습니다 {title}!"
-            }
-        },
-        "panel": {
-            "campaign_milestone": {
-                "body": "축하합니다! 캠페인 {title}의 후원자가 {amount}명이 되었습니다!",
-                "header": "{name}, 새로운 이정표에 도달했습니다!"
-            },
-            "account_recap": {
-                "body": "지난 한 주 동안 모든 캠페인에서 {amount} 신규 지지자를 확보했습니다. 계속 수고하세요!",
-                "header": "{name}, 주간 요약입니다!"
-            },
-            "billing": {
-                "order_received": {
-                    "header": "안녕하세요 {name}, 결제를 완료해 주세요.",
-                    "body": "주문해 주셔서 감사합니다 {product}. 거래를 완료하려면 결제를 진행하세요."
-                },
-                "order_canceled": {
-                    "header": "죄송합니다 {name}님, {product}에 대한 주문이 취소되었습니다.",
-                    "body": "결제를 계속 진행하지 마세요."
-                },
-                "creator": {
-                    "successful_payment": {
-                        "header": "안녕하세요 {name}, 결제가 완료되었습니다.",
-                        "body": "{product} 을 구독해 주셔서 감사합니다. 지금 캠페인을 만들고 특별한 기능을 사용해 보세요!"
-                    },
-                    "min_3": {
-                        "header": "안녕하세요 {name}, {product} 이 3일 후에 만료됩니다.",
-                        "body": "구독을 갱신하거나 업그레이드하여 Twibbonize의 독점 기능을 계속 이용하세요."
-                    },
-                    "exp_day": {
-                        "header": "안녕하세요 {name}님, {product}의 구독이 만료되었습니다.",
-                        "body": "{date_plus_7} 이전에 구독을 갱신하거나 업그레이드하여 캠페인 분석 및 모든 독점 기능에 계속 액세스하세요."
-                    },
-                    "plus_5": {
-                        "header": "안녕하세요 {name}, 구독이 48시간 후에 종료됩니다.",
-                        "body": "캠페인 분석에 계속 액세스하려면 48시간 이내에 요금제를 갱신하거나 업그레이드하세요."
-                    },
-                    "plus_7": {
-                        "header": "안녕하세요 {name}, 귀하의 계정이 Twibbonize Free로 다운그레이드되었습니다.",
-                        "body": "{product} 기능을 계속 사용하려면 구독을 갱신하세요."
-                    }
-                },
-                "international": {
-                    "creator": {
-                        "canceled_plan": {
-                            "header": "안녕하세요 {name}님, {product}의 구독이 성공적으로 취소되었습니다.",
-                            "body": "청구 주기가 끝나면 모든 {product} 기능에 액세스할 수 없게 됩니다."
-                        },
-                        "renewed_plan": {
-                            "header": "안녕하세요 {name}, {product} 구독이 성공적으로 갱신되었습니다.",
-                            "body": "{product} 구독 요금은 청구 주기가 끝날 때 청구됩니다."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "안녕하세요 {name}, 귀하의 계정이 Twibbonize Free로 다운그레이드되었습니다.",
-                                "body": "{product} 기능을 계속 사용하려면 구독을 갱신하세요."
-                            }
-                        },
-                        "cancel_downgrade": {
-                            "header": "안녕하세요 {name}, 다운그레이드 취소 요청이 접수되었습니다.",
-                            "body": "구독은 Premium Creator 계속 유지됩니다."
-                        },
-                        "convert": {
-                            "header": "안녕하세요 {name}, 귀하의 계정이 Premium Creator 업그레이드되었습니다.",
-                            "body": "축하합니다! 이제 Premium Creator가 되셨습니다. 지금 모든 기능을 즐겨보세요!"
-                        },
-                        "successful_payment": {
-                            "header": "안녕하세요 {name}, 결제가 완료되었습니다.",
-                            "body": "{product} 을 구독해 주셔서 감사합니다. 지금 캠페인을 만들고 특별한 기능을 사용해 보세요!"
-                        },
-                        "exp_day": {
-                            "header": "안녕하세요 {name}님, {product}의 구독이 만료되었습니다.",
-                            "body": "캠페인 분석에 계속 액세스하려면 {date_plus_7} 이전에 청구 정보를 업데이트하세요."
-                        },
-                        "plus_2": {
-                            "header": "안녕하세요 {name}, 구독이 48시간 후에 종료됩니다.",
-                            "body": "캠페인 분석에 계속 액세스하려면 결제 카드를 업데이트하세요."
-                        },
-                        "plus_5": {
-                            "header": "안녕하세요 {name}, 귀하의 계정이 Twibbonize Free로 다운그레이드되었습니다.",
-                            "body": "{product} 기능을 계속 사용하려면 구독을 갱신하세요."
-                        },
-                        "convert_addon": {
-                            "body": "축하합니다! 이제 Premium Creator가 되셨습니다. 지금 모든 기능을 즐겨보세요!",
-                            "header": "안녕하세요 {name}, 귀하의 계정이 Premium Creator 업그레이드되었습니다."
-                        }
-                    },
-                    "auth": {
-                        "exp_day": {
-                            "header": "안녕하세요 {name}, 결제 방법에 인증이 필요합니다.",
-                            "body": "지금 결제 인증을 확인하여 구독을 완료하세요."
-                        }
-                    },
-                    "renewed_plan": {
-                        "header": "안녕하세요 {name}, 갱신 결제가 확인되었습니다.",
-                        "body": "이제 독점 기능을 계속 즐길 수 있습니다!"
-                    },
-                    "downgrade_received": {
-                        "header": "안녕하세요 {name}, 다운그레이드 요청이 접수되었습니다.",
-                        "body": "청구 주기가 끝나면 계정이 {product} 으로 다운그레이드됩니다."
-                    },
-                    "supporter": {
-                        "convert": {
-                            "header": "안녕하세요 {name}, 귀하의 계정이 프리미엄 서포터로 업그레이드되었습니다.",
-                            "body": "축하합니다! 이제 Premium Supporter 되셨습니다. 지금 모든 기능을 즐겨보세요!"
-                        },
-                        "successful_payment": {
-                            "body": "",
-                            "header": "안녕하세요 {name} 님, 결제가 성공적으로 접수되었습니다."
-                        },
-                        "min_3": {
-                            "body": ""
-                        },
-                        "successful": {
-                            "body": "{product} 을 구독해 주셔서 감사합니다. 이제 워터마크 없이 광고 없이 Twibbon을 이용할 수 있습니다!"
-                        },
-                        "exp_day": {
-                            "header": "안녕하세요 {name}님, 결제가 완료되지 않았습니다",
-                            "body": "독점 기능, 광고 없는 브라우징, 워터마크 없는 트위본을 이용하려면 {date_plus_7} 이전에 결제 정보를 업데이트하세요."
-                        },
-                        "plus_2": {
-                            "header": "안녕하세요 {name}, 구독이 48시간 후에 종료됩니다.",
-                            "body": "지금 요금제를 갱신하고 워터마크 없는 Twibbon과 광고 없는 경험을 즐겨보세요."
-                        },
-                        "plus_7": {
-                            "header": "안녕하세요 {name}, 귀하의 계정이 Twibbonize Free로 다운그레이드되었습니다."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "안녕하세요 {name}, 귀하의 계정이 Twibbonize Free로 다운그레이드되었습니다.",
-                                "body": "{product} 기능을 계속 사용하려면 구독을 갱신하세요."
-                            }
-                        },
-                        "plus_5": {
-                            "header": "안녕하세요 {name}, 귀하의 계정이 Twibbonize Free로 다운그레이드되었습니다.",
-                            "body": "{product} 기능을 계속 사용하려면 구독을 갱신하세요."
-                        }
-                    },
-                    "period_changed": {
-                        "header": "안녕하세요 {name}님, 요금제 변경 요청을 받았습니다.",
-                        "body": "청구 주기가 끝날 때 계정이 {product}으로 변경됩니다."
-                    },
-                    "cancel_change_period": {
-                        "header": "안녕하세요 {name}님, 요금제 변경 취소 요청을 받았습니다.",
-                        "body": "구독은 Premium Creator 계속 유지됩니다."
-                    }
-                },
-                "india": {
-                    "auth": {
-                        "exp_day": {
-                            "header": "안녕하세요 {name}, 지금 구독 결제를 확인해 주세요.",
-                            "body": "보안 규정 준수를 위해 Twibbonize 정기결제에 대한 귀하의 명시적인 확인이 필요합니다."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "이제 워터마크 없이 광고 없이 Twibbon을 이용할 수 있습니다!",
-                        "header": "안녕하세요 {name}, 결제가 완료되었습니다."
-                    },
-                    "exp_day": {
-                        "body": "{date_plus_7} 전에 구독을 갱신하거나 업그레이드하여 독점 기능, 광고 없는 브라우징, 워터마크 없는 Twibbon을 계속 즐기세요.",
-                        "header": "안녕하세요 {name}님, {product}의 구독이 만료되었습니다."
-                    },
-                    "plus_5": {
-                        "body": "48시간 이내에 요금제를 갱신하면 워터마크가 없는 트위본을 광고 없이 계속 이용할 수 있습니다.",
-                        "header": "안녕하세요 {name}, 구독이 48시간 후에 종료됩니다."
-                    },
-                    "min_3": {
-                        "body": "지금 구독을 갱신하거나 업그레이드하여 광고 없는 브라우징과 워터마크 없는 Twibbon을 계속 즐기세요.",
-                        "header": "안녕하세요 {name}, {product} 이 3일 후에 만료됩니다."
-                    },
-                    "plus_7": {
-                        "body": "{product} 기능을 계속 사용하려면 구독을 갱신하세요."
-                    }
-                }
-            },
-            "launch": {
-                "prem_sub": {
-                    "min_1": {
-                        "header": "새로운 Twibbonize Premium 구독",
-                        "body": "7월 8일 출시되는 Twibbonize의 새로운 프리미엄 구독을 소개합니다!"
-                    }
-                },
-                "short_link": {
-                    "min_1": {
-                        "header": "새로운 Twibbonize 쇼트 링크",
-                        "body": "Twibbonize의 새로운 쇼트 링크를 소개합니다 - 7월 8일 변경!"
-                    }
-                }
-            },
-            "campaign_addon": {
-                "adfree_quota_remaining": {
-                    "header": "남은 광고 없는 할당량",
-                    "body": "50명의 서포터에게 {campaignlink}의 광고 없는 할당량이 남아 있습니다. 남은 기간 동안 광고 없는 경험을 즐겨보세요!"
-                },
-                "adfree_quota_runout": {
-                    "header": "광고 없는 할당량이 모두 소진되었습니다.",
-                    "body": "{campaignlink} 서포터는 플랫폼에서 검색하는 동안 광고가 표시되기 시작합니다."
-                }
-            },
-            "new_post": {
-                "header": "새로운 Twibbon 게시",
-                "body": "{participant} 캠페인 {title} 의 갤러리에 트위본을 게시했습니다!"
-            },
-            "new_comment": {
-                "header": "새 댓글!",
-                "body": "{participant}가 캠페인 {title}의 게시물에 댓글을 달았습니다!"
-            },
-            "new_reply": {
-                "header": "새 답글!",
-                "body": "{participant} 캠페인에 댓글을 달았습니다 {title}!"
-            }
-        }
-    },
     "page_analytics": {
         "time": {
             "today": "오늘",
@@ -1581,7 +1363,6 @@
         },
         "graph": {
             "page": "페이지 {currentPage} {totalPage}",
-            "data_displayed": "UTC 표준 시간대(UTC+0)로 표시되는 데이터",
             "trend": "트렌드",
             "country": "국가",
             "city": "도시",
@@ -1594,7 +1375,8 @@
             "visit": "방문",
             "visit_detail": "캠페인 페이지를 방문한 단일 브라우징 세션의 수입니다.",
             "unique_visit": "고유 방문",
-            "unique_visit_detail": "캠페인 페이지를 방문한 사람 수"
+            "unique_visit_detail": "캠페인 페이지를 방문한 사람 수",
+            "data_displayed": "UTC+0 시간대로 표시된 데이터"
         }
     },
     "page_account": {
@@ -1602,8 +1384,6 @@
             "email": "이메일",
             "password": "비밀번호",
             "confirm_password": "비밀번호 확인",
-            "login_with_google": "Google로 로그인",
-            "login_with_facebook": "Facebook으로 로그인",
             "login_with_email": "또는 이메일로 로그인",
             "signup_with_google": "Google에 가입하기",
             "signup_with_facebook": "페이스북에 가입하기",
@@ -1616,7 +1396,9 @@
             "signup": "가입하기",
             "terms": "약관",
             "privacy": "개인정보 보호정책",
-            "name": ""
+            "name": "이름",
+            "login_with_facebook": "페이스북으로 로그인",
+            "login_with_google": "구글로 로그인"
         }
     },
     "page_article": {
@@ -1625,98 +1407,95 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "Twibbonize에 게시하려면 로그인하세요.",
+        "sign_in_to_comment": "댓글을 남기려면 로그인하세요",
+        "sign_in_to_like": "좋아요를 보내려면 로그인하세요",
+        "sign_up_to_post": "Twibbonize에 게시하려면 가입하세요",
+        "sign_up_to_comment": "댓글을 남기려면 가입하세요",
+        "sign_up_to_like": "좋아요를 보내려면 에 가입하세요",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "성공적 로그인! 돌아온 것을 환영합니다.",
+                "error": "로그인 실패. 자격 증명을 확인하고 다시 시도하십시오."
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "가입이 완료되었습니다! 탑승을 환영합니다.",
+                "error": "가입 실패. 세부정보를 확인하신 후 다시 시도해 주세요."
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "이메일이 이미 등록되었습니다",
+        "email_registered_lead": "이 이메일은 이미 등록되어 있습니다. 대신 로그인하시겠습니까?"
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "삭제 확인",
+            "delete_lead": "이 게시물을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+            "delete_yes": "예, 삭제합니다",
+            "delete_no": "취소"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "메시지를 공유하세요",
+            "logged_in_placeholder": "댓글로 {name}",
+            "comment_posted": "댓글이 게시되었습니다.",
+            "comment_deleted": "댓글이 삭제되었습니다.",
+            "reply_deleted": "답글이 삭제되었습니다."
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "게시물이 업로드되었습니다.",
+            "hidden": "숨겨진",
+            "unhidden": "숨김 해제됨",
+            "reported": "신고됨",
+            "deleted": "삭제됨",
+            "pinned": "고정됨",
+            "unpinned": "고정 해제됨"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "캠페인 보고",
+        "report_profile": "프로필 신고",
+        "abusive_or_harmful": "모욕적이거나 유해한",
+        "pretending_to_be_someone_else": "다른 사람인 척",
+        "sensitive_content": "민감한 콘텐츠",
+        "plagiarism": "표절",
+        "impersonation": "인격화",
+        "piracy": "불법 복제",
+        "nudity_pornography": "과도한 노출 및 포르노",
+        "dangerous_or_harmful": "위험하거나 해로운 것",
+        "harassment_cyberbullying": "괴롭힘 및 사이버 괴롭힘",
+        "provocative_threatening_content": "도발적이고 위협적인 콘텐츠",
+        "privacy_violations": "개인정보 침해",
+        "unauthorized_use_of_personal_information": "개인 정보의 무단 사용",
+        "child_exploitation": "아동 착취",
+        "harassment": "괴롭힘",
+        "terrorism": "테러",
+        "violence": "폭행",
+        "false_information": "허위정보",
+        "health": "건강",
+        "politics": "정치",
+        "social_issue": "사회이슈",
+        "hate_speech": "연설을 증오",
+        "disability_or_disease": "장애 또는 질병",
+        "race_or_ethnicity": "인종 또는 민족",
+        "religious_affiliation": "종교적 소속",
+        "sexual_orientation": "성적 취향",
+        "nudity": "나체",
+        "suicide_or_self_harm": "자살 또는 자해",
+        "vulgar_language": "저속한 언어",
+        "dangerous_content": "위험한 콘텐츠",
+        "why_report_campaign": "이 캠페인을 신고하려는 이유는 무엇입니까?",
+        "why_report_profile": "이 프로필을 신고하려는 이유는 무엇인가요?",
+        "why_report_submission": "이 제출물을 신고하는 이유는 무엇입니까?",
+        "why_report_comment_reply": "이 댓글을 신고하려는 이유는 무엇인가요?",
+        "why_report_collection": "이 컬렉션을 신고하는 이유는 무엇인가요?",
+        "select_one": "하나를 골라주세요",
+        "protect_privacy_reporter": "Twibbonize 커뮤니티 가이드라인은 신고자의 신원을 보호합니다.",
+        "tell_us_more": "더 많은 정보를 알려주세요",
+        "received_report": "귀하의 신고가 접수되었습니다!",
+        "thankyou": "감사합니다! 귀하의 신고 내용을 조사해 보겠습니다. 최대한 빨리 귀하의 이메일로 피드백을 보내드리겠습니다.",
+        "learn_more_about": "{link} 에 대해 자세히 알아보세요.",
+        "community_guideline": "Twibbonize 커뮤니티 가이드라인",
+        "placeholder_write_here": "여기 쓰시 오",
+        "report_sent": "보고서 전송"
     },
     "page_editor": {
         "general": {
@@ -1754,10 +1533,10 @@
         "upload": {
             "upload_image": "이미지 업로드",
             "upload": "업로드",
-            "type": "",
-            "size": "",
-            "type_image": "",
-            "maximum_size": ""
+            "type": "유형:",
+            "size": "크기:",
+            "type_image": "JPG, PNG 또는 SVG",
+            "maximum_size": "최대 5MB"
         },
         "toolbar": {
             "copy": "복사",
@@ -1781,8 +1560,7 @@
             "lock": "잠금",
             "letter_spacing": "문자 간격",
             "line_spacing": "줄 간격",
-            "border_weight": "",
-            "corner_rounding": "",
+            "border_weight": "테두리 가중치",
             "align": "정렬",
             "effects": "효과"
         },
@@ -1822,15 +1600,203 @@
     },
     "page__campaign_creation": {
         "campaign_preview": {
-            "campaign_description": "",
+            "campaign_description": "캠페인 설명",
             "campaign_title": "캠페인 제목"
         }
     },
     "page_my_campaign": {
         "edit_campaign": {
             "campaigns": "캠페인",
-            "frames": "",
-            "analytics": ""
+            "frames": "프레임",
+            "analytics": "분석"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "이 게시물을 신고하는 이유는 무엇인가요?",
+            "plagiarism ": "표절",
+            "impersonation ": "사칭 ",
+            "piracy ": "불법 복제",
+            "vulgar_language": "저속한 언어",
+            "nudity_pornography": "누드 및 음란물",
+            "suicidal_self_harm": "자살 및 자해 콘텐츠 ",
+            "danger": "위험하거나 유해한 콘텐츠 ",
+            "violent_graphic_content": "폭력적인 그래픽 콘텐츠",
+            "harassment_cyberbullying": "괴롭힘 및 사이버 괴롭힘 ",
+            "provocative_threatening_content": "도발적이고 위협적인 콘텐츠",
+            "spam": "스팸"
+        },
+        "report_comment": {
+            "title": "이 댓글을 신고하는 이유는 무엇인가요?",
+            "abusive_harmful": "가학적이거나 유해한 콘텐츠",
+            "harassment": "괴롭힘",
+            "terrorism": "테러리즘",
+            "violence": "폭력",
+            "false_information": "",
+            "health": "건강",
+            "politics": "정치",
+            "social_issue": "사회적 이슈",
+            "sensitive_content": "민감한 콘텐츠 ",
+            "nudity": "누드",
+            "vulgar_language": "저속한 언어",
+            "hate_speech": "혐오 발언",
+            "disability_disease": "장애 또는 질병",
+            "race_or_ethnicity": "인종 또는 민족",
+            "religious_affiliation": "종교적 소속 ",
+            "sexual_orientation": "성적 취향",
+            "spam": "스팸"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "URL이 잘못되었습니다."
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "Google 로그인을 수행하지 못했습니다.",
+        "failed_apple_login": "Apple 로그인에 실패했습니다."
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "사진 파일이 최대 크기인 5MB를 초과했습니다.",
+            "cannot_create_twibbon": "Twibbon을 생성할 수 없습니다. 다시 시도하십시오"
+        },
+        "log_in": {
+            "complete_verification": "계속하려면 확인을 완료하세요.",
+            "email_no_password": "이 이메일에는 비밀번호가 없습니다. Google을 통해 로그인",
+            "social_media_already_registered": "귀하의 소셜 미디어 계정의 이메일은 이미 유사한 소셜 미디어 서비스의 다른 계정에 등록되어 연결되어 있습니다. 이메일과 비밀번호 양식을 사용하여 로그인해 보세요."
+        },
+        "sign_up": {
+            "email_already_registered": "이 이메일은 이미 등록되어 있습니다. 다른 이메일을 사용하거나 로그인해 보세요.",
+            "password_minimum_required": "비밀번호는 8자 이상이어야 합니다.",
+            "password_character_exceeded": "비밀번호는 128자를 초과할 수 없습니다.",
+            "password_must_be_standard": "비밀번호는 표준 영숫자여야 합니다.",
+            "password_does_not_match": "비밀번호 확인이 일치하지 않습니다. 다시 시도하십시오"
+        },
+        "verification": {
+            "code_incorrect": "코드가 잘못되었습니다. 다시 시도하십시오",
+            "code_expired": "코드가 만료되었습니다. 새로운 것을 요청하세요",
+            "maximum_attempt_reached": "최대 시도 횟수에 도달했습니다. 5시간 후에 다시 시도하세요",
+            "code_requested_exceeded": "코드 요청이 최대 한도를 초과했습니다."
+        },
+        "forgot_password": {
+            "email_not_found": "이메일을 찾을 수 없습니다. 다시 시도하거나 가입하세요",
+            "link_expired": "비밀번호 변경 링크가 만료되었습니다. 새로운 것을 요청하세요",
+            "link_used": "비밀번호 변경 링크가 사용되었습니다. 새로운 것을 요청하세요"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "프레임 파일이 최대 크기인 5MB를 초과했습니다.",
+            "background_file_exceed": "배경 파일이 최대 크기인 5MB를 초과합니다.",
+            "image_not_transparent": "이미지는 투명해야 합니다. 다시 시도하십시오",
+            "invalid_format": "파일 형식이 잘못되었습니다. 지원되는 형식을 사용하세요.",
+            "allow_only_1_frame": "무료 계정은 1개의 프레임 업로드만 허용합니다. 계속하려면 업그레이드하세요",
+            "allow_only_1_background": "무료 계정은 백그라운드 업로드를 1회만 허용합니다. 계속하려면 업그레이드하세요",
+            "campaign_title_exceed_limit": "캠페인 제목이 최대 글자 수 제한을 초과했습니다.",
+            "description_exceed_limit": "설명이 최대 글자 수 제한을 초과했습니다.",
+            "link_unavailable": "캠페인 링크가 이미 사용 중입니다. 다른 것을 선택하세요",
+            "link_criteria": "캠페인 링크는 영숫자 및 대시(-)여야 합니다.",
+            "caption_exceed_limit": "캡션 템플릿이 최대 글자 수 제한을 초과했습니다.",
+            "background_exceed_limit": "배경 파일이 최대 크기인 5MB를 초과합니다.",
+            "photo_exceed_limit": "썸네일 사진 파일이 최대 크기 5MB를 초과했습니다.",
+            "link_exceed_limit": "캠페인 링크가 최대 글자 수 제한을 초과했습니다."
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "프레임 파일이 최대 크기인 5MB를 초과했습니다.",
+            "background_file_exceed": "배경 파일이 최대 크기인 5MB를 초과합니다."
+        },
+        "campaign_edit": {
+            "image_not_transparent": "이미지는 투명해야 합니다. 다시 시도하십시오",
+            "invalid_format": "파일 형식이 잘못되었습니다. 지원되는 형식을 사용하세요.",
+            "allow_only_1_frame": "무료 계정은 1개의 프레임 업로드만 허용합니다. 계속하려면 업그레이드하세요",
+            "allow_only_1_background": "무료 계정은 백그라운드 업로드를 1회만 허용합니다. 계속하려면 업그레이드하세요",
+            "campaign_title_exceed_limit": "캠페인 제목이 최대 글자 수 제한을 초과했습니다.",
+            "description_exceed_limit": "설명이 최대 글자 수 제한을 초과했습니다.",
+            "link_unavailable": "캠페인 링크가 이미 사용 중입니다. 다른 것을 선택하세요",
+            "link_criteria": "캠페인 링크는 영숫자 및 대시(-)여야 합니다.",
+            "link_exceed_limit": "캠페인 링크가 최대 글자 수 제한을 초과했습니다.",
+            "caption_exceed_limit": "캡션 템플릿이 최대 글자 수 제한을 초과했습니다.",
+            "background_exceed_limit": "배경 파일이 최대 크기인 5MB를 초과합니다.",
+            "thumbnail_exceeds": "썸네일 사진 파일이 최대 크기 5MB를 초과했습니다."
+        },
+        "settings": {
+            "profile_image_exceed": "프로필 이미지가 최대 한도인 5MB를 초과했습니다.",
+            "background_image_exceed": "배경 이미지가 최대 크기인 5MB를 초과합니다.",
+            "username_unavailable": "이미 사용중인 이름입니다. 다른 것을 시도해 보세요",
+            "username_exceed_limit": "사용자 이름이 최대 글자 수 제한을 초과했습니다.",
+            "username_invalid": "사용자 이름이 잘못되었습니다. 올바른 형식으로 다시 시도해 보세요.",
+            "display_exceed_limit": "표시 이름이 최대 글자 수 제한을 초과했습니다.",
+            "bio_exceed_limit": "자기소개가 최대 글자 수 제한을 초과했습니다.",
+            "email_already_registered": "이메일이 이미 등록되었습니다. 다른 것을 시도해 보세요",
+            "password_incorrect": "비밀번호 오류. 다시 시도하십시오",
+            "password_minimum_character": "비밀번호는 8자 이상이어야 합니다.",
+            "password_maximum_character": "비밀번호는 128자를 초과할 수 없습니다.",
+            "password_standard_format": "비밀번호는 영숫자 표준 형식을 따라야 합니다.",
+            "account_deleted": "계정이 삭제되었습니다",
+            "account_integrated": "계정 통합",
+            "account_revoked": "계정이 취소되었습니다."
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "\"추가 정보\" 섹션이 최대 글자 수 제한을 초과했습니다."
+        },
+        "general": {
+            "something_went_wrong": "문제가 발생했습니다."
+        },
+        "collection": {
+            "campaigns_added_exceeds": "추가된 캠페인 수가 최대 한도를 초과했습니다.",
+            "description_exceeds": "설명이 최대 글자 수 제한을 초과했습니다.",
+            "title_exceeds": "컬렉션 제목이 최대 글자 수 제한을 초과했습니다."
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "링크가 복사되었습니다",
+            "social_media_already_linked": "소셜 미디어 계정이 이미 다른 Twibbonize 계정과 연결되어 있습니다. 다른 것을 시도해 보세요"
+        },
+        "campaign_creation": {
+            "link_available": "링크를 사용할 수 있습니다"
+        },
+        "campaign_edit": {
+            "link_available": "링크를 사용할 수 있습니다"
+        },
+        "settings": {
+            "photo_updated": "사진이 업데이트되었습니다.",
+            "banner_updated": "배너 업데이트됨",
+            "banner_deleted": "배너가 삭제되었습니다.",
+            "photo_deleted": "사진이 삭제되었습니다.",
+            "password_updated": "비밀번호가 업데이트되었습니다.",
+            "email_updated": "이메일이 업데이트되었습니다."
+        },
+        "my_profile": {
+            "campaign_deleted": "캠페인이 삭제되었습니다."
+        },
+        "collection": {
+            "campaign_added": "캠페인이 추가됨"
+        },
+        "campaign_page": {
+            "account_upgraded": "계정이 업그레이드되었습니다.",
+            "link_copied": "링크가 복사되었습니다"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "이메일을 찾을 수 없습니다. 다시 시도하거나 가입하세요"
+        },
+        "password": {
+            "password_incorrect": "비밀번호 오류. 다시 시도하십시오"
+        },
+        "maximum_attempt": "최대 시도 횟수에 도달했습니다. 1시간 후에 다시 시도하세요"
+    },
+    "page_notification": {
+        "no_notification_heading": "아직 알림이 없습니다",
+        "no_notification_subheading": "지금은 알림이 없습니다"
+    },
+    "page_general": {
+        "no_internet_connection": "인터넷에 연결되지 않음. 터치하여 재시도",
+        "could_not_connect_internet": "인터넷에 연결할 수 없습니다. 다른 네트워크로 전환하고 다시 시도해 보세요."
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "로그 아웃?"
         }
     }
 }

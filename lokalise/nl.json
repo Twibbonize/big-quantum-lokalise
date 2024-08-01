@@ -35,7 +35,7 @@
             "terms": "Algemene voorwaarden",
             "privacy_policy": "Privacybeleid",
             "cookie_policy": "Cookiebeleid",
-            "sitemap": ""
+            "sitemap": "Sitemap"
         },
         "menu": {
             "explore": "Verken",
@@ -47,11 +47,6 @@
             "sign_in": "Aanmelden",
             "sign_up": "Aanmelden",
             "sign_out": "Afmelden"
-        },
-        "campaign": {
-            "supporters": "supporters",
-            "campaigns": "Campagnes",
-            "created": "Gemaakt"
         },
         "button": {
             "view_all": "Alles bekijken",
@@ -71,11 +66,12 @@
             "report": "Rapporteer",
             "edit": "Bewerk",
             "confirm": "Bevestig",
-            "okay": "",
+            "okay": "Oké",
             "view": "Bekijk",
-            "send": "",
-            "more": "",
-            "less": ""
+            "send": "Versturen",
+            "more": "Meer",
+            "less": "Minder",
+            "submit": "Indienen"
         },
         "time": {
             "week": "Week",
@@ -86,9 +82,14 @@
             "annual": "Jaarlijks",
             "yearly": "Jaarlijks"
         },
+        "campaign": {
+            "campaigns": "Campagnes",
+            "created": "Gemaakt",
+            "supporters": "aanhanger|ondersteuner|ondersteuners"
+        },
         "collection": {
             "collections": "Collecties",
-            "campaigns": "{campaign} Campagnes"
+            "campaigns": "{campaign}-campagnes"
         },
         "creator": {
             "creators": "Makers"
@@ -108,14 +109,21 @@
             "hide_post": "Verberg bericht",
             "post_shared": "Post gedeeld op {date}",
             "share_message": "Deel uw bericht",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "Bericht losmaken",
+            "unhide_post": "Bericht zichtbaar maken"
         },
         "pricing": {
-            "creator_subscribe_to": "",
-            "plan": "",
-            "support_without_watermark": "",
-            "all_supporters_without_watermark": ""
+            "creator_subscribe_to": "Deze maker is geabonneerd op de",
+            "plan": "plan",
+            "support_without_watermark": "Ze kunnen elke campagne steunen zonder watermerk!",
+            "all_supporters_without_watermark": "Je kunt de hele campagne van deze maker steunen zonder het watermerk!"
+        },
+        "campaign_card": {
+            "a_month_ago": " |Een maand geleden",
+            "a_day_ago": " |Een dag geleden"
+        },
+        "search": {
+            "searching": "Zoeken..."
         }
     },
     "page_home": {
@@ -262,7 +270,7 @@
         "process": {
             "how_twibbonize_1": "Hoe Twibbonize een revolutie teweegbrengt",
             "how_twibbonize_2": "Twibbon-campagne",
-            "sharing_twibbon_1": "Twibbon delen was vroeger een ingewikkeld proces dat we nu zelfs te",
+            "sharing_twibbon_1": "Twibbon delen was vroeger een ingewikkeld proces, we zijn zelfs te",
             "sharing_twibbon_2": "moe om het je uit te leggen."
         },
         "frame": {
@@ -334,10 +342,10 @@
             "download": "Downloaden",
             "reset": "Reset",
             "add_text": "Tekst toevoegen",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": "",
+            "posting_as": "Posten als ",
+            "not_you": "Jij niet? ",
+            "uploading_photo_to_remove": "Upload uw foto en verwijder de achtergrond.",
+            "wait_for_moment": "Wacht even...",
             "remove_watermark_for_you_2": "en geniet van je afbeeldingen zonder watermerk!",
             "remove_watermark_for_you_1": "Verken Twibbonize zonder advertenties,",
             "remove_watermark_for_you": "Verwijder het watermerk!",
@@ -350,7 +358,6 @@
             "report_profile": "Rapport Profiel",
             "plagiarism": "Plagiaat",
             "sensitive": "Gevoelige inhoud",
-            "danger": "Gevaarlijke inhoud",
             "spam": "Spam",
             "why_report_campaign": "Waarom rapporteer je deze campagne?",
             "protect_reporter": "De Twibbonize Community Guidelines beschermen de privacy van de identiteit van de melder.",
@@ -359,7 +366,21 @@
             "received_report": "We hebben je rapport ontvangen!",
             "thankyou": "Bedankt! Laat ons je melding onderzoeken en we sturen de feedback zo snel mogelijk naar je e-mail.",
             "learn_more_about": "Meer informatie over de {link}.",
-            "community_guideline": "Twibbonize Richtlijnen voor de gemeenschap"
+            "community_guideline": "Twibbonize Richtlijnen voor de gemeenschap",
+            "title": "Waarom rapporteer je deze campagne?",
+            "danger": "Gevaarlijk of schadelijk ",
+            "impersonation": "Imitatie ",
+            "piracy": "Piraterij",
+            "vulgar_language": "Vulgair taalgebruik",
+            "nudity_pornography": "Naaktheid & pornografie",
+            "suicidal_self_harm": "Zelfmoord en zelfbeschadiging inhoud ",
+            "violent_graphic_content": "Gewelddadige grafische inhoud",
+            "harassment_cyberbullying": "Intimidatie en cyberpesten",
+            "proactive_threatening_content": "Provocerende en bedreigende inhoud",
+            "statement": "De Twibbonize Community richtlijnen beschermen de privacy van de identiteit van de verslaggever.",
+            "read_more_copy": "Meer lezen",
+            "please_select_one": "Selecteer er een",
+            "write_a_message": "Schrijf een bericht"
         },
         "discard": {
             "discard_edit": "Bewerkingen verwijderen?",
@@ -377,9 +398,10 @@
             "supporters": "Supporters",
             "interactions": "Interacties",
             "visits": "Bezoek",
-            "realtime_estimates": "Real-time schattingen",
             "last_month": "Laatste 30 dagen",
-            "see_more_analytics": "Meer analyses bekijken"
+            "see_more_analytics": "Meer analyses bekijken",
+            "realtime_estimates": "Realtime schattingen van de afgelopen 30 dagen",
+            "view_analytics": "Bekijk Analytics"
         },
         "pricing": {
             "no_thankyou": "Nee, dank u"
@@ -400,15 +422,37 @@
             "reply_as_user": "Antwoord als {user}"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "Volg de richtlijnen voor het beste resultaat!",
+            "good_photo_examples": "Goede fotovoorbeelden:",
+            "good_photo_caption": "Close-up selfie, portretfoto, helder gezicht",
+            "photos_avoid": "Foto's om te vermijden:",
+            "bad_photo_caption": "Volledige lichaamsfoto, groepsfoto, foto vanaf de achterkant",
+            "understand": "Ik begrijp"
         },
         "post_to_twibbonize": {
-            "caption": ""
+            "caption": "Schrijf een bericht over deze campagne...",
+            "unpin_post": "Post verwijderen"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "Pas je foto aan"
+        },
+        "share_campaign": {
+            "or_share_to": "of delen naar",
+            "save_share": "Opslaan en delen"
+        },
+        "post": {
+            "post_uploaded": "Geüpload bericht",
+            "post_deleted": "Verwijderde post",
+            "post_failed_deleted": "Post mislukt, verwijderd"
+        },
+        "create_campaign": {
+            "custom_field": "Aangepast veld toevoegen"
+        },
+        "collection": {
+            "sign_up_add_collection": "Meld u aan voor Toevoegen aan collectie"
+        },
+        "posts": {
+            "has_no_posts": "Deze gebruiker heeft nog niets gepost op Twibbonize"
         }
     },
     "page_checkout": {
@@ -417,9 +461,8 @@
             "account_update": "Je account wordt bijgewerkt, met alle nieuwe functies ontgrendeld"
         },
         "checkout": {
-            "back_to_plans": "Terug naar Plannen",
             "upgrade_to": "Upgrade naar {plan}",
-            "gather_your_supports": "Verzamel je supporters en breid je campagne uit met onze exclusieve functies.",
+            "gather_your_supports": "Verzamel je supporters en breid je campagne uit met onze exclusieve functies",
             "billing_option": "Factureringsoptie",
             "details": "Details",
             "user": "Gebruiker",
@@ -429,18 +472,19 @@
             "save": "Opslaan {percentage}%",
             "pay": "Betaal {frequency}",
             "checkout_options": "Afrekenopties",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "Plan aanpassen",
+            "current_plan": "Huidige plan",
+            "downgrade": "Downgraden",
+            "current_plan_description": "U tekent nu voor dit abonnement",
+            "change_plan_description": "U wijzigt uw abonnement naar {plan} , dat actief wordt nadat het huidige abonnement afloopt.",
+            "downgrade_description": "U downgradet uw abonnement naar {plan} , dat actief zal zijn nadat het huidige abonnement afloopt.",
+            "change_plan_confirm": "Weet je het zeker?",
+            "upgrade_confirm": "Weet je zeker dat je wilt upgraden?",
+            "downgrade_confirm": "Weet u zeker dat u het abonnement wilt downgraden?",
+            "change_plan_active": "Het wordt actief zodra uw huidige abonnement afloopt",
+            "upgrade_active": "Het wordt actief zodra u de betaling voltooit",
+            "downgrade_active": "Het wordt actief zodra uw huidige abonnement afloopt",
+            "back_to_plans": "Rug"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -449,14 +493,14 @@
             "use_twibbonize_without_ads": "Twibbonize gebruiken zonder advertenties",
             "exclusive_features": "Exclusieve functies voor je campagne",
             "remove_own_account": "Watermerk verwijderen voor je eigen account",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "Zilver",
+            "gold": "Goud",
+            "platinum": "Platina",
+            "watermark_title": "Verwijder watermerk",
+            "high_quality_image_title": "Hoge kwaliteit beeld",
+            "ad_free_title": "Reclamevrij",
+            "campaign_addon": "Campagne-add-on",
+            "on": "op"
         }
     },
     "page_collection": {
@@ -496,9 +540,9 @@
             "image_dimension": "1080x1080px",
             "upload": "uploaden",
             "imagetype": "PNG",
-            "max_file": "",
-            "backgroundtype": "",
-            "upload_design": ""
+            "max_file": "Maximaal 5 MB",
+            "backgroundtype": "JPEG, PNG of WEBP",
+            "upload_design": "Upload hier je ontwerp"
         },
         "frame_editor": {
             "or_create": "of maak nu je eigen frame",
@@ -526,7 +570,7 @@
             "campaign_title": "Campagnetitel",
             "campaign_title_placeholder": "Kan bestaan uit cijfers, alfabetten of speciale tekens.",
             "campaign_description": "Beschrijving",
-            "campaign_description_placeholder": "Deel details over je campagne om aandacht en steun te trekken.",
+            "campaign_description_placeholder": "Deel details over je campagne om aandacht en steun te trekken",
             "campaign_link": "Campagne Link",
             "campaign_link_placeholder": "campagne-link",
             "campaign_category": "Campagne Categorie",
@@ -545,7 +589,7 @@
             "url_not_available": "URL niet beschikbaar",
             "caption_placeholder": "Hallo, mijn naam is [[Jouw naam]] , en ik ben helemaal in om deze campagne te steunen. Laten we samenkomen en een echte impact maken met deze campagne!",
             "enter_description": "Beschrijving invoeren",
-            "optional": ""
+            "optional": "Optioneel"
         },
         "customization": {
             "campaign_customization": "Campagne aanpassen",
@@ -568,14 +612,14 @@
             "go_back": "Ga terug"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "Kozijnen",
+            "campaigns": "Campagnes",
+            "analytics": "Analyses"
         },
         "blank_design": {
-            "suggested": "",
-            "instagram_story": "",
-            "instagram_post": ""
+            "suggested": "Aanbevolen",
+            "instagram_story": "Instagram Verhaal",
+            "instagram_post": "Instagram bericht"
         }
     },
     "page_for_creators": {
@@ -585,8 +629,8 @@
             "purchase_now": "Nu kopen",
             "learn_more": "Meer leren",
             "want_to_create": "Wil je gratis een campagne maken?",
-            "try_now": "Probeer nu!",
-            "per": "per {time}"
+            "per": "per {time}",
+            "try_now": "Probeer nu!"
         },
         "features": {
             "remove_watermark": "Watermerk verwijderen voor alle gebruikers van je campagne",
@@ -631,20 +675,20 @@
             "unite_detail": "Breng alle supporters van je campagne samen op je Twibbonize-pagina; waar supporters met elkaar in contact komen en jij de impact ziet!",
             "entertain_detail": "Twibbonize betrekt je supporters door ze een deelbare virtuele Twibbon te geven voor sociale media en berichten",
             "grow_detail": "Win meer steun met een Twibbonize-campagne: het zorgt niet alleen voor aandacht, maar creëert ook een bandwagon-effect, waardoor een groeiend publiek wordt aangetrokken dat jouw doel niet wil missen.",
-            "inspire": "",
-            "unite": "",
-            "entertain": "",
-            "grow": ""
+            "inspire": "Inspireer ",
+            "unite": "Verenig",
+            "entertain": "Entertain",
+            "grow": "Kweek"
         },
         "use_cases": {
             "heading": "Ideeën om Twibbonize te gebruiken voor",
-            "subheading": "",
-            "corporate": "",
-            "corporate_title": "",
+            "subheading": "Start je ontdekkingstocht met zelfgekozen voorbeelden uit onze 5.000.000+ Twibbonize-campagnes",
+            "corporate": "Bedrijven",
+            "corporate_title": "Gebruik de kracht van de overvloed van je personeel en klanten",
             "education": "Onderwijs",
-            "education_title": "",
+            "education_title": "Het is een leuke manier om het leerproces te verrijken",
             "event": "Evenementen",
-            "events_title": ""
+            "events_title": "Hype je evenement met de kracht van directe viraliteit"
         },
         "testimonials": {
             "testimonials": "Getuigenissen",
@@ -688,8 +732,8 @@
             "proud_partner": "We zijn er trots op samen te werken met mensen die volledig achter onze missie staan"
         },
         "honorary": {
-            "honorary_mentions": "",
-            "significant_contributions": ""
+            "honorary_mentions": "Eervolle vermeldingen",
+            "significant_contributions": "Degenen die een belangrijke bijdrage hebben geleverd aan onze ontwikkeling"
         }
     },
     "page_pricing": {
@@ -706,8 +750,8 @@
             "private_campaign_1": "Privé",
             "private_campaign_2": "Campagne",
             "offer_exclusively": "Bied exclusiviteit aan je supporters",
-            "campaign_customization_1": "Campagne",
-            "campaign_customization_2": "Aanpassing",
+            "campaign_customization_1": "",
+            "campaign_customization_2": "Campagne-aanpassing",
             "personalize_campaign": "Personaliseer je campagnepagina",
             "multiple_frames_1": "Meervoudig Twibbon",
             "multiple_frames_2": "per campagne",
@@ -715,9 +759,9 @@
             "top_notch": "Verbeter je campagnespel",
             "considering_all": "Gezien alle gemakken is het de moeite waard",
             "remove_watermark_1": "Verwijder",
-            "remove_watermark_2": "Watermerk",
+            "remove_watermark_2": "watermerk",
             "for_audience_1": "voor",
-            "for_audience_2": "je & je publiek",
+            "for_audience_2": "jou & je publiek",
             "as_a_free_user": "Als gratis gebruiker is je Twibbon altijd voorzien van <strong>een watermerk.<\/strong>",
             "premium_supporter": "<strong>Premium Creator<\/strong> verwijdert het watermerk voor een schonere afbeelding.",
             "now_you_can": "Nu kun je <strong>elke campagne<\/strong> ondersteunen zonder watermerk."
@@ -736,7 +780,7 @@
             "premium_supporter": "<strong>Premium Supporter<\/strong> verwijdert het watermerk voor een schonere afbeelding.",
             "now_you_can": "Nu kun je <strong>elke campagne<\/strong> ondersteunen zonder watermerk.",
             "remove_watermark_1": "Verwijder",
-            "remove_watermark_2": "Watermerk",
+            "remove_watermark_2": "watermerk",
             "for_audience_1": "voor",
             "for_audience_2": "je eigen account",
             "looking_to_remove": "Wil je het watermerk verwijderen voor alle gebruikers van je campagne? Probeer"
@@ -772,14 +816,14 @@
             "notes": "Opmerkingen",
             "print": "Factuur downloaden",
             "if_you_would_like_to_change": "Als je je abonnement of je betalingsgegevens wilt wijzigen, ga dan naar je factureringsinstellingen",
-            "ending_in": ""
+            "ending_in": "{card} eindigend op {number}"
         },
         "bento": {
             "campaign_analytics_1": "Campagne",
             "campaign_analytics_2": "Analytics",
             "private_campaign_1": "Privé",
             "private_campaign_2": "Campagne",
-            "campaign_customization_1": "Campagne",
+            "campaign_customization_1": "",
             "campaign_customization_2": "Aanpassing",
             "multiple_frames_1": "Meerdere frames",
             "multiple_frames_2": "per campagne",
@@ -787,9 +831,9 @@
             "use_twibbonize_without_ads_2": "zonder advertenties",
             "no_extra_features_1": "Geen extra functies",
             "no_extra_features_2": "Beschikbaar",
-            "remove_all_watermark_1": "Verwijder het watermerk",
-            "remove_all_watermark_2": "van al je campagnegebruikers",
-            "remove_own_watermark_1": "Watermerk verwijderen",
+            "remove_all_watermark_1": "Verwijder watermerk",
+            "remove_all_watermark_2": "van alle gebruikers van je campagne",
+            "remove_own_watermark_1": "Verwijder watermerk",
             "on": "op",
             "remove_own_watermark_2": "je eigen account",
             "extra_features": "Extra functies"
@@ -828,6 +872,9 @@
         },
         "card_premium_creator": {
             "subheading": "Voor mensen die de ultieme Twibbonize-ervaring nodig hebben"
+        },
+        "same_plan": {
+            "adjust_plan": "Plan aanpassen"
         }
     },
     "page_profile": {
@@ -835,17 +882,17 @@
             "search_campaigns": "Campagnes zoeken",
             "no_campaigns": "Nog geen campagnes",
             "no_campaigns_details": "Maak een campagne en deel deze met twibbonize.",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "Weet u zeker dat u deze campagne wilt verwijderen?",
+            "delete_detail": "Het verwijderen van \" {title} \" is definitief en kan niet ongedaan worden gemaakt.",
+            "delete_campaign": "Campagne verwijderen"
         },
         "posts": {
             "no_posts": "Nog geen berichten",
-            "no_post_details": "Zoek een campagne en post je twibbon op Twibbonize."
+            "no_post_details": "Zoek een campagne en post je twibbon op Twibbonize"
         },
         "collections": {
             "no_collections": "Organiseer je favoriete campagnes",
-            "no_collections_details": "Klik op de campagnepagina op het pictogram {icon} om campagnes die je interessant vindt op te slaan in je eigen collecties."
+            "no_collections_details": "Klik op het pictogram {icon} bij een campagne om de campagne in uw collecties op te slaan"
         },
         "about": {
             "about": "Over",
@@ -857,13 +904,32 @@
             "campaigns": "Campagnes"
         },
         "my_profile": {
-            "edit_profile": "",
+            "edit_profile": "Profiel bewerken",
             "campaigns": "Campagnes",
             "collections": "Collecties",
-            "posts": ""
+            "posts": "Berichten"
         },
         "campaign_deletion": {
             "are_you_sure": "Weet je het zeker?"
+        },
+        "campaign": {
+            "delete_campaign": "Het verwijderen van \"{campaign_name}\" is permanent en kan niet ongedaan worden gemaakt.",
+            "confirm_delete_campaign": "Campagne verwijderen"
+        },
+        "collection": {
+            "delete_collection": "De collectie \"{collection_name}\" wordt permanent verwijderd.",
+            "confirm_delete_collection": "Collectie verwijderen",
+            "delete_campaign": "De campagne \"{campaign_name}\" wordt permanent verwijderd uit de collectie \"{collection_name}\".",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "Waarom rapporteer je dit profiel?",
+            "abusive_harmful": "Misbruik of schade",
+            "pretending_someone": "Doen alsof je iemand anders bent",
+            "sensitive_content": "Gevoelige inhoud"
+        },
+        "account": {
+            "email_changed": "Uw e-mailadres is onlangs gewijzigd. Je kunt het over 90 dagen opnieuw bijwerken."
         }
     },
     "page_preference": {
@@ -907,55 +973,55 @@
             "adfree": "Advertentievrij",
             "highquality": "Hoge kwaliteit",
             "nowatermark": "Geen watermerk",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "Betaald",
+            "are_you_sure_change": "Weet je het zeker?",
+            "active_after_subscription": "Het wordt actief zodra uw huidige abonnement afloopt",
+            "are_you_sure_upgrade": "Weet je zeker dat je wilt upgraden?",
+            "plan_changing_info": "Schakel over naar {package} ontvangen. Een nieuw abonnement begint nadat het huidige eindigt",
+            "active_after_payment": "Het wordt actief zodra u de betaling voltooit",
+            "are_you_sure_downgrade": "Weet u zeker dat u het abonnement wilt downgraden?",
+            "plan_downgrade_info": "Downgrade naar {package} ontvangen. Een nieuw abonnement begint nadat het huidige eindigt",
+            "renew_plan": "Plan verlengen",
+            "renew_subscription": "Abonnement vernieuwen",
+            "upgrade_now": "Waardeer nu op",
+            "warning": "Waarschuwing!",
+            "important": "Belangrijk!",
+            "premium_expired": "Uw Premium Creator-abonnement is verlopen. Verleng vóór {date}",
+            "last_attempted": "Onze laatste poging tot beschuldiging was niet succesvol. Update uw betaalmethode.",
+            "renewal_date": "Vernieuwingsdatum",
+            "payment_method": "Betalingsmiddel",
+            "update_now": "Update nu",
+            "cancel_subscription": "Annuleer abonnement",
+            "change_payment_method": "Verander betaalmethode",
+            "card_end_with": "{card} eindigend op {number}",
+            "no_transactions": "Nog geen transactiegeschiedenis",
+            "transactions_will_shown": "Uw transactiegeschiedenis wordt hier weergegeven zodra deze beschikbaar komt",
+            "are_you_sure": "Weet je het zeker?",
+            "once_cancel_plan": "Zodra u het abonnement opzegt, verliest u aan het einde van uw factureringscyclus de toegang tot al uw geüpgradede functies",
+            "yes_cancel_plan": "Ja, abonnement opzeggen",
+            "no_keep_plan": "Nee, plan behouden",
+            "once_renew_plan": "Zodra u het abonnement verlengt, is uw abonnement weer actief",
+            "yes_renew_plan": "Ja, plan verlengen",
+            "no_cancel": "Nee, annuleren",
+            "if_cancel_downgrade": "Als u de downgrade annuleert, is uw huidige abonnement weer actief",
+            "yes_downgrade": "Ja, ga door met downgraden",
+            "if_cancel_change_billing": "Als u de wijzigingsfacturering annuleert, is uw huidige abonnement weer actief",
+            "yes_continue": "Ja, ga door",
+            "info": "Info",
+            "your_request_cancel": "Uw verzoek om uw {plan} -abonnement te annuleren is ontvangen. Het eindigt bij de volgende factureringscyclus",
+            "your_request_downgrade": "Uw verzoek om te downgraden naar {plan} is ontvangen. Uw nieuwe abonnement wordt geactiveerd zodra het huidige abonnement afloopt.",
+            "cancel_downgrade": "Downgraden annuleren",
+            "cancel_change": "Wijzigingsfacturering annuleren",
+            "your_request_billing": "Uw verzoek om uw facturering te wijzigen naar {plan} is ontvangen. Uw nieuwe abonnement wordt geactiveerd zodra het huidige abonnement afloopt.",
+            "manage_inapp": "Beheer uw abonnement via de Twibbonize {appOs} -app",
+            "manage_inapp_subscription": "Om uw Twibbonize-abonnement op {appOs} te beheren, opent u de app, gaat u naar 'Instellingen' en selecteert u 'Facturering'.",
+            "success_cancel_subscription": "Succes Abonnement opzeggen",
+            "success_renew_subscription": "Succes abonnement verlengen",
+            "success_change_subscription": "Succes abonnement wijzigen",
+            "success_cancel_change_subscription": "Succes Annuleren Wijzig abonnement",
+            "last_attempted_authentication": "Onze laatste poging tot beschuldiging was niet succesvol. Uw betaling heeft authenticatie nodig.",
+            "authenticate_now": "Authenticeer nu",
+            "recurring_payment": "Voor uw terugkerende betaling hebben wij uw expliciete bevestiging nodig. Controleer uw e-mail"
         },
         "account": {
             "update_email": "E-mail bijwerken",
@@ -985,19 +1051,19 @@
             "confirm_password": "Wachtwoord bevestigen",
             "create_new_password": "Nieuw wachtwoord maken",
             "make_it_easy": "Maak het je gemakkelijk om te onthouden en hou het voor iedereen geheim!",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "E-mail toevoegen",
+            "add_password": "Wachtwoord toevoegen",
+            "cant_remove_account": "Oeps, we kunnen je sociale media-account niet verwijderen.",
+            "set_up_email": "U moet eerst een e-mailadres of wachtwoord instellen om uw sociale media-account te verwijderen.",
+            "want_to_remove": "Wilt u uw sociale media-account verwijderen?",
+            "your_account_will_be_removed": "Uw {provider} -account wordt verwijderd. Klik op begrijpen om uw sociale media-accounts te verwijderen.",
+            "continue_to_revoke": "Ga door met intrekken ",
+            "revoke_success": "Succes met intrekken van account {provider}",
+            "cannot_update_email": "Oeps, we kunnen je e-mailadres niet bijwerken",
+            "setup_password_to_update_email": "U moet een wachtwoord instellen voordat u uw e-mailadres bijwerkt.",
+            "email_change_request": "Wijzigingsverzoek voor e-mail geannuleerd",
+            "we_have_sent_password": "We hebben instructies voor het opnieuw instellen van het wachtwoord naar uw e-mailadres gestuurd. Om veiligheidsredenen verzoeken wij u uw wachtwoord binnen 1 uur opnieuw in te stellen.",
+            "go_to_homepage": "Ga naar homepagina"
         },
         "notifications": {
             "notifications_settings": "Instellingen meldingen",
@@ -1015,10 +1081,10 @@
             "article": "Artikelen",
             "article_details": "Je ontvangt onze aanbevolen artikelen.",
             "toggle_all": "Alle",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "Post op Twibbonize",
+            "post_twibbonize_details": "Ontvang meldingen over berichten van supporters op een campagnepagina.",
+            "account_recap": "Accountoverzicht",
+            "account_recap_details": "Wekelijkse samenvatting van supporters en bezoeken voor al uw campagnes"
         },
         "package": {
             "free": "Gratis",
@@ -1284,290 +1350,6 @@
             "paragraph_11": "Laat Twibbonize, terwijl we de connectiviteit van het digitale tijdperk omarmen, onze schermen blijven beschilderen met symbolen van solidariteit en een blijvende impact creëren op het gebied van sociale belangenbehartiging. Samen weven we een visueel verhaal dat grenzen overstijgt en onze gedeelde toewijding aan een meer compassievolle en verenigde wereld weerspiegelt."
         }
     },
-    "notification": {
-        "push": {
-            "campaign_milestone": {
-                "header": "🏆 {name}, nieuwe mijlpaal bereikt!",
-                "body": "Gefeliciteerd! Je campagne {title} heeft nu {amount} supporters!"
-            },
-            "new_post": {
-                "header": "Nieuwe Twibbon geplaatst",
-                "body": "{participant} heeft een Twibbon geplaatst in de galerij van je campagne {title}!"
-            },
-            "new_comment": {
-                "header": "Nieuw commentaar!",
-                "body": "{participant} gereageerd op je bericht in de campagne {title}!"
-            },
-            "account_recap": {
-                "header": "{name}, hier is je wekelijkse samenvatting!",
-                "body": "Je hebt deze week {amount} nieuwe supporters gekregen. Ga zo door!"
-            },
-            "billing": {
-                "creator": {
-                    "successful_payment": {
-                        "header": "Je betaling is gelukt",
-                        "body": "Profiteer van de exclusieve functies! Start nu je campagne"
-                    },
-                    "plus_5": {
-                        "header": "Hoi {name}, verleng je abonnement nu",
-                        "body": "Verleng of upgrade je plan nu om toegang te blijven houden tot je campagneanalyses."
-                    }
-                },
-                "international": {
-                    "renewed_plan": {
-                        "header": "Hallo {name}, je betaling voor de verlenging is bevestigd",
-                        "body": "Nu kun je onze exclusieve functies blijven gebruiken!"
-                    },
-                    "creator": {
-                        "successful_payment": {
-                            "header": "Je betaling is gelukt",
-                            "body": "Profiteer van de exclusieve functies! Start nu je campagne."
-                        },
-                        "plus_2": {
-                            "header": "Hoi {name}, verleng je abonnement nu",
-                            "body": "Verleng of upgrade je plan nu om toegang te blijven houden tot je campagneanalyses."
-                        }
-                    },
-                    "supporter": {
-                        "successful_payment": {
-                            "header": "Je betaling is gelukt",
-                            "body": "Geniet van je reclamevrije ervaring en ontvang Twibbons zonder watermerken!"
-                        },
-                        "plus_2": {
-                            "header": "Hoi {name}, verleng je abonnement nu",
-                            "body": "Verleng je abonnement nu om te genieten van Twibbons zonder watermerk en een reclamevrije ervaring."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Geniet van je reclamevrije ervaring en ontvang Twibbons zonder watermerken!",
-                        "header": "Je betaling is gelukt"
-                    },
-                    "plus_5": {
-                        "body": "Verleng je abonnement nu om te genieten van Twibbons zonder watermerk en een reclamevrije ervaring.",
-                        "header": "Hoi {name}, verleng je abonnement nu"
-                    }
-                }
-            },
-            "new_reply": {
-                "header": "Nieuw antwoord!",
-                "body": "{participant} gereageerd op je commentaar in de campagne {title}!"
-            }
-        },
-        "panel": {
-            "campaign_milestone": {
-                "body": "Gefeliciteerd! De campagne {title} heeft nu {amount} supporters!",
-                "header": "🏆 {name}, nieuwe mijlpaal bereikt!"
-            },
-            "account_recap": {
-                "body": "Je hebt de afgelopen week {amount} nieuwe supporters gekregen voor al je campagnes. Ga zo door!",
-                "header": "{name}, Hier is je wekelijkse samenvatting!"
-            },
-            "billing": {
-                "order_received": {
-                    "header": "Hallo {name}, voltooi je betaling",
-                    "body": "Bedankt voor het bestellen van het {product}. Ga naar betaling om uw transactie te voltooien."
-                },
-                "order_canceled": {
-                    "header": "Sorry {name}, je {product}-bestelling is geannuleerd",
-                    "body": "Ga niet verder met betalen."
-                },
-                "creator": {
-                    "successful_payment": {
-                        "header": "Hallo {name}, je betaling is ontvangen",
-                        "body": "Bedankt voor je aanmelding op {product}. Maak nu je campagne aan en maak gebruik van de speciale functies!"
-                    },
-                    "min_3": {
-                        "header": "Hallo {name}, je {product} vervalt over 3 dagen.",
-                        "body": "Verleng of upgrade je abonnement om te kunnen blijven genieten van de exclusieve functies van Twibbonize."
-                    },
-                    "exp_day": {
-                        "header": "Hallo {name}, je abonnement op {product} is verlopen",
-                        "body": "Verleng of upgrade je abonnement voor {date_plus_7} om toegang te houden tot campagneanalyses en alle exclusieve functies."
-                    },
-                    "plus_5": {
-                        "header": "Hoi {name}, je abonnement wordt over 48 uur beëindigd.",
-                        "body": "Verleng of upgrade je plan binnen 48 uur om toegang te houden tot je campagneanalyses."
-                    },
-                    "plus_7": {
-                        "header": "Hoi {name}, je account is gedegradeerd naar Twibbonize Free",
-                        "body": "Verleng uw abonnement om de functies van {product} te kunnen blijven gebruiken."
-                    }
-                },
-                "international": {
-                    "creator": {
-                        "canceled_plan": {
-                            "header": "Hallo {name}, je abonnement op {product} is succesvol geannuleerd.",
-                            "body": "Je verliest de toegang tot alle {product}-functies aan het einde van je factureringscyclus."
-                        },
-                        "renewed_plan": {
-                            "header": "Hallo {name}, je {product} abonnement is succesvol verlengd.",
-                            "body": "Je {product}-abonnement wordt aan het einde van je factureringscyclus in rekening gebracht."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Hoi {name}, je account is gedegradeerd naar Twibbonize Free",
-                                "body": "Verleng je abonnement om gebruik te kunnen blijven maken van {product} functies."
-                            }
-                        },
-                        "cancel_downgrade": {
-                            "header": "Hallo {name}, je verzoek om de downgrade te annuleren is ontvangen",
-                            "body": "Je abonnement wordt voortgezet als Premium Creator."
-                        },
-                        "convert": {
-                            "header": "Hallo {name}, je account is geüpgraded naar Premium Creator",
-                            "body": "Gefeliciteerd! Je bent nu een Premium Creator. Geniet nu van alle functies!"
-                        },
-                        "successful_payment": {
-                            "header": "Hallo {name}, je betaling is ontvangen",
-                            "body": "Bedankt voor je aanmelding op {product}. Maak nu je campagne aan en maak gebruik van de speciale functies!"
-                        },
-                        "exp_day": {
-                            "header": "Hallo {name}, je abonnement op {product} is verlopen",
-                            "body": "Werk je factureringsgegevens bij vóór {date_plus_7} om toegang te houden tot je campagneanalyses."
-                        },
-                        "plus_2": {
-                            "header": "Hoi {name}, je abonnement wordt over 48 uur beëindigd.",
-                            "body": "Werk je betaalkaart bij om toegang te houden tot je campagneanalyses."
-                        },
-                        "plus_5": {
-                            "header": "Hoi {name}, je account is gedegradeerd naar Twibbonize Free",
-                            "body": "Verleng je abonnement om gebruik te kunnen blijven maken van {product} functies."
-                        },
-                        "convert_addon": {
-                            "body": "Gefeliciteerd! Je bent nu een Premium Creator. Geniet nu van alle functies!",
-                            "header": "Hallo {name}, je account is geüpgraded naar Premium Creator"
-                        }
-                    },
-                    "auth": {
-                        "exp_day": {
-                            "header": "Hallo {name}, je betaalmethode moet worden geverifieerd",
-                            "body": "Bevestig je betalingsauthenticatie om je abonnement nu te voltooien."
-                        }
-                    },
-                    "renewed_plan": {
-                        "header": "Hallo {name}, je betaling voor de verlenging is bevestigd",
-                        "body": "Nu kun je blijven genieten van exclusieve functies!"
-                    },
-                    "downgrade_received": {
-                        "header": "Hallo {name}, je downgradeverzoek is ontvangen",
-                        "body": "Je account wordt aan het einde van je factureringscyclus gedowngraded naar {product}."
-                    },
-                    "supporter": {
-                        "convert": {
-                            "header": "Hallo {name}, Je account is geüpgraded naar Premium Supporter",
-                            "body": "Gefeliciteerd! Je bent nu een Premium Supporter. Geniet nu van alle functies!"
-                        },
-                        "successful_payment": {
-                            "body": "",
-                            "header": "Hallo {name}, we hebben je betaling succesvol ontvangen"
-                        },
-                        "min_3": {
-                            "body": ""
-                        },
-                        "successful": {
-                            "body": "Bedankt voor je aanmelding op {product}. Nu kun je Twibbon krijgen zonder watermerken en een reclamevrije ervaring!"
-                        },
-                        "exp_day": {
-                            "header": "Hallo {name}, je betaling is niet gelukt",
-                            "body": "Werk je factureringsgegevens bij vóór {date_plus_7} om te genieten van exclusieve functies, reclamevrij browsen en Twibbon zonder watermerk."
-                        },
-                        "plus_2": {
-                            "header": "Hoi {name}, je abonnement wordt over 48 uur beëindigd.",
-                            "body": "Verleng je abonnement nu om te genieten van Twibbons zonder watermerk en een reclamevrije ervaring."
-                        },
-                        "plus_7": {
-                            "header": "Hoi {name}, je account is gedegradeerd naar Twibbonize Free"
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Hoi {name}, je account is gedegradeerd naar Twibbonize Free",
-                                "body": "Verleng je abonnement om gebruik te kunnen blijven maken van {product} functies."
-                            }
-                        },
-                        "plus_5": {
-                            "header": "Hoi {name}, je account is gedegradeerd naar Twibbonize Free",
-                            "body": "Verleng je abonnement om gebruik te kunnen blijven maken van {product} functies."
-                        }
-                    },
-                    "period_changed": {
-                        "header": "Hallo {name}, we hebben je verzoek ontvangen om je plan te wijzigen",
-                        "body": "Je account zal worden gewijzigd in {product} aan het einde van je factureringscyclus."
-                    },
-                    "cancel_change_period": {
-                        "header": "Hallo {name}, we hebben je verzoek om de planwijziging te annuleren ontvangen.",
-                        "body": "Je abonnement zal worden voortgezet als Premium Creator."
-                    }
-                },
-                "india": {
-                    "auth": {
-                        "exp_day": {
-                            "header": "Hoi {name}, bevestig nu je betaling voor het abonnement",
-                            "body": "Om aan de veiligheidsvoorschriften te voldoen, hebben we je uitdrukkelijke bevestiging nodig voor je terugkerende betaling op je Twibbonize-abonnement."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Nu kun je Twibbon krijgen zonder watermerken en een reclamevrije ervaring!",
-                        "header": "Hallo {name}, je betaling is ontvangen"
-                    },
-                    "exp_day": {
-                        "body": "Verleng of upgrade je abonnement voor {date_plus_7} om te blijven genieten van exclusieve functies, reclamevrij browsen en Twibbon zonder watermerk.",
-                        "header": "Hallo {name}, je abonnement op {product} is verlopen"
-                    },
-                    "plus_5": {
-                        "body": "Verleng je abonnement binnen 48 uur om te blijven genieten van Twibbon zonder watermerk en een reclamevrije ervaring.",
-                        "header": "Hoi {name}, je abonnement wordt over 48 uur beëindigd."
-                    },
-                    "min_3": {
-                        "body": "Verleng of upgrade je abonnement nu om te blijven genieten van reclamevrij browsen en watermerkvrije Twibbons.",
-                        "header": "Hallo {name}, je {product} vervalt over 3 dagen."
-                    },
-                    "plus_7": {
-                        "body": "Verleng je abonnement om gebruik te kunnen blijven maken van {product} functies."
-                    }
-                }
-            },
-            "launch": {
-                "prem_sub": {
-                    "min_1": {
-                        "header": "Nieuw Twibbonize Premium-abonnement",
-                        "body": "Twibbonize's nieuwe Premium abonnementen - Lancering op 8 juli!"
-                    }
-                },
-                "short_link": {
-                    "min_1": {
-                        "header": "Nieuwe korte Twibbonize-link",
-                        "body": "Maak kennis met de nieuwe korte link van Twibbonize - Verandert op 8 juli!"
-                    }
-                }
-            },
-            "campaign_addon": {
-                "adfree_quota_remaining": {
-                    "header": "Resterende reclamevrije quota",
-                    "body": "Je hebt nog reclamevrije quota over voor 50 Supporters op {campaignlink}. Geniet van een reclamevrije ervaring zolang het duurt!"
-                },
-                "adfree_quota_runout": {
-                    "header": "Reclamevrije quotum is op",
-                    "body": "Je {campaignlink} supporters zullen advertenties te zien krijgen tijdens het browsen op ons platform."
-                }
-            },
-            "new_post": {
-                "header": "Nieuwe Twibbon geplaatst",
-                "body": "{participant} plaatste een Twibbon in je campagne {title}'s galerij!"
-            },
-            "new_comment": {
-                "header": "Nieuw commentaar!",
-                "body": "{participant} heeft gereageerd op je bericht in de campagne {title}!"
-            },
-            "new_reply": {
-                "header": "Nieuw antwoord!",
-                "body": "{participant} gereageerd op je commentaar in de campagne {title}!"
-            }
-        }
-    },
     "page_analytics": {
         "time": {
             "today": "Vandaag",
@@ -1581,7 +1363,6 @@
         },
         "graph": {
             "page": "Pagina {currentPage} van {totalPage}",
-            "data_displayed": "Gegevens weergegeven in UTC-tijdzone (UTC+0)",
             "trend": "Trend",
             "country": "Land",
             "city": "Stad",
@@ -1594,7 +1375,8 @@
             "visit": "Bezoek",
             "visit_detail": "Het aantal afzonderlijke browsers die je campagnepagina hebben bezocht",
             "unique_visit": "Uniek bezoek",
-            "unique_visit_detail": "Het aantal mensen dat je campagnepagina heeft bezocht"
+            "unique_visit_detail": "Het aantal mensen dat je campagnepagina heeft bezocht",
+            "data_displayed": "Gegevens weergegeven in UTC+0 tijdzone"
         }
     },
     "page_account": {
@@ -1602,8 +1384,6 @@
             "email": "E-mail",
             "password": "Wachtwoord",
             "confirm_password": "Wachtwoord bevestigen",
-            "login_with_google": "Aanmelden met Google",
-            "login_with_facebook": "Aanmelden met Facebook",
             "login_with_email": "of log in met e-mail",
             "signup_with_google": "Aanmelden bij Google",
             "signup_with_facebook": "Aanmelden via Facebook",
@@ -1616,7 +1396,9 @@
             "signup": "Aanmelden",
             "terms": "Voorwaarden",
             "privacy": "Privacybeleid",
-            "name": ""
+            "name": "Naam",
+            "login_with_facebook": "Inloggen met Facebook",
+            "login_with_google": "Log in met Google"
         }
     },
     "page_article": {
@@ -1625,98 +1407,95 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "Meld u aan bij Posten op Twibbonize",
+        "sign_in_to_comment": "Log in om een reactie achter te laten",
+        "sign_in_to_like": "Log in om een like te geven",
+        "sign_up_to_post": "Meld u aan om te posten op Twibbonize",
+        "sign_up_to_comment": "Meld u aan om een reactie achter te laten",
+        "sign_up_to_like": "Schrijf je in voor Geef een Like",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "Succesvol ingelogd! Welkom terug.",
+                "error": "Aanmelden mislukt. Controleer uw gegevens en probeer het opnieuw."
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "Uw inschrijving was succesvol! Welkom aan boord.",
+                "error": "Registratie mislukt. Controleer uw gegevens en probeer het opnieuw."
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "E-mailadres Al geregistreerd",
+        "email_registered_lead": "Deze e-mail is al geregistreerd. Wilt u liever inloggen?"
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "Bevestig verwijderen",
+            "delete_lead": "Weet je zeker dat je dit bericht wilt verwijderen? Deze actie kan niet ongedaan gemaakt worden.",
+            "delete_yes": "Ja, verwijderen",
+            "delete_no": "Annuleren"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "Deel uw bericht",
+            "logged_in_placeholder": "Commentaar als {name}",
+            "comment_posted": "Reactie geplaatst",
+            "comment_deleted": "Reactie verwijderd",
+            "reply_deleted": "Antwoord verwijderd"
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "Bericht geüpload",
+            "hidden": "Verborgen",
+            "unhidden": "Onzichtbaar",
+            "reported": "Gerapporteerd",
+            "deleted": "Verwijderd",
+            "pinned": "Vastgezet",
+            "unpinned": "Losgemaakt"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "Campagne rapporteren",
+        "report_profile": "Rapporteer profiel",
+        "abusive_or_harmful": "Beledigend of schadelijk",
+        "pretending_to_be_someone_else": "Doen alsof je iemand anders bent",
+        "sensitive_content": "Gevoelige inhoud",
+        "plagiarism": "Plagiaat",
+        "impersonation": "Nabootsing",
+        "piracy": "Piraterij",
+        "nudity_pornography": "Naaktheid en pornografie",
+        "dangerous_or_harmful": "Gevaarlijk of schadelijk",
+        "harassment_cyberbullying": "Intimidatie en cyberpesten",
+        "provocative_threatening_content": "Provocerende en bedreigende inhoud",
+        "privacy_violations": "Privacyschendingen",
+        "unauthorized_use_of_personal_information": "Ongeautoriseerd gebruik van persoonlijke informatie",
+        "child_exploitation": "Uitbuiting van kinderen",
+        "harassment": "Intimidatie",
+        "terrorism": "Terrorisme",
+        "violence": "Geweld",
+        "false_information": "Valse informatie",
+        "health": "Gezondheid",
+        "politics": "Politiek",
+        "social_issue": "Sociaal probleem",
+        "hate_speech": "Haattoespraak",
+        "disability_or_disease": "Handicap of ziekte",
+        "race_or_ethnicity": "Ras of etniciteit",
+        "religious_affiliation": "Religieuze overtuiging",
+        "sexual_orientation": "Seksuele geaardheid",
+        "nudity": "Naaktheid",
+        "suicide_or_self_harm": "Zelfmoord of zelfbeschadiging",
+        "vulgar_language": "Vulgaire taal",
+        "dangerous_content": "Gevaarlijke inhoud",
+        "why_report_campaign": "Waarom rapporteert u deze campagne?",
+        "why_report_profile": "Waarom rapporteer je dit profiel?",
+        "why_report_submission": "Waarom rapporteert u deze inzending?",
+        "why_report_comment_reply": "Waarom rapporteer je deze reactie?",
+        "why_report_collection": "Waarom rapporteert u deze collectie?",
+        "select_one": "Selecteer er een alstublieft",
+        "protect_privacy_reporter": "De communityrichtlijnen van Twibbonize beschermen de privacy van de identiteit van de verslaggever.",
+        "tell_us_more": "Vertel ons meer",
+        "received_report": "Wij hebben uw melding ontvangen!",
+        "thankyou": "Bedankt! Sta ons toe uw melding te onderzoeken en we sturen de feedback zo snel mogelijk naar uw e-mail.",
+        "learn_more_about": "Meer informatie over de {link} .",
+        "community_guideline": "Communityrichtlijnen voor Twibbonize",
+        "placeholder_write_here": "Schrijf hier",
+        "report_sent": "Verzonden rapport"
     },
     "page_editor": {
         "general": {
@@ -1754,10 +1533,10 @@
         "upload": {
             "upload_image": "Afbeelding uploaden",
             "upload": "uploaden",
-            "type": "",
-            "size": "",
-            "type_image": "",
-            "maximum_size": ""
+            "type": "Type:",
+            "size": "Grootte:",
+            "type_image": "JPG, PNG of SVG",
+            "maximum_size": "Maximaal 5 MB"
         },
         "toolbar": {
             "copy": "Kopie",
@@ -1781,8 +1560,7 @@
             "lock": "Slot",
             "letter_spacing": "Letterafstand",
             "line_spacing": "Regelafstand",
-            "border_weight": "",
-            "corner_rounding": "",
+            "border_weight": "Grensgewicht",
             "align": "uitlijnen",
             "effects": "Effecten"
         },
@@ -1822,15 +1600,203 @@
     },
     "page__campaign_creation": {
         "campaign_preview": {
-            "campaign_description": "",
+            "campaign_description": "Campagne Beschrijving",
             "campaign_title": "Campagnetitel"
         }
     },
     "page_my_campaign": {
         "edit_campaign": {
             "campaigns": "Campagnes",
-            "frames": "",
-            "analytics": ""
+            "frames": "Kozijnen",
+            "analytics": "Analytics"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "Waarom rapporteer je dit bericht?",
+            "plagiarism ": "Plagiaat",
+            "impersonation ": "Imitatie ",
+            "piracy ": "Piraterij",
+            "vulgar_language": "Vulgair taalgebruik",
+            "nudity_pornography": "Naaktheid & pornografie",
+            "suicidal_self_harm": "Zelfmoord en zelfbeschadiging inhoud ",
+            "danger": "Gevaarlijk of schadelijk ",
+            "violent_graphic_content": "Gewelddadige grafische inhoud",
+            "harassment_cyberbullying": "Intimidatie en cyberpesten ",
+            "provocative_threatening_content": "Provocerende en bedreigende inhoud",
+            "spam": "Spam"
+        },
+        "report_comment": {
+            "title": "Waarom rapporteer je deze opmerking?",
+            "abusive_harmful": "Misbruik of schade",
+            "harassment": "Intimidatie",
+            "terrorism": "Terrorisme",
+            "violence": "Geweld",
+            "false_information": "",
+            "health": "Gezondheid",
+            "politics": "Politiek",
+            "social_issue": "Sociale kwestie",
+            "sensitive_content": "Gevoelige inhoud ",
+            "nudity": "Naaktheid",
+            "vulgar_language": "Vulgair taalgebruik",
+            "hate_speech": "Haatzaaien",
+            "disability_disease": "Handicap of ziekte",
+            "race_or_ethnicity": "Ras of etniciteit",
+            "religious_affiliation": "Religieuze affiliatie ",
+            "sexual_orientation": "Seksuele geaardheid",
+            "spam": "Spam"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "Url ongeldig"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "Inloggen bij Google mislukt",
+        "failed_apple_login": "Aanmelden bij Apple mislukt"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "Het fotobestand overschrijdt de maximale grootte van 5 MB",
+            "cannot_create_twibbon": "Kan Twibbon niet maken. Probeer het nog eens"
+        },
+        "log_in": {
+            "complete_verification": "Voltooi de verificatie om door te gaan",
+            "email_no_password": "Deze e-mail heeft geen wachtwoord. Log in via Google",
+            "social_media_already_registered": "Het e-mailadres van uw sociale media-account is al geregistreerd en verbonden met een ander account van een vergelijkbare sociale mediadienst. Probeer in te loggen met behulp van de e-mail- en wachtwoordformulieren."
+        },
+        "sign_up": {
+            "email_already_registered": "Deze e-mail is al geregistreerd. Gebruik een ander e-mailadres of probeer in te loggen",
+            "password_minimum_required": "Wachtwoord moet minimaal 8 tekens lang zijn.",
+            "password_character_exceeded": "Wachtwoord mag niet langer zijn dan 128 tekens",
+            "password_must_be_standard": "Het wachtwoord moet standaard alfanumeriek zijn",
+            "password_does_not_match": "Wachtwoordbevestiging komt niet overeen. Probeer het nog eens"
+        },
+        "verification": {
+            "code_incorrect": "Code onjuist. Probeer het nog eens",
+            "code_expired": "De code is verlopen. Vraag een nieuwe aan",
+            "maximum_attempt_reached": "Maximale pogingen bereikt. Probeer het over 5 uur opnieuw",
+            "code_requested_exceeded": "Codeverzoeken overschreden de maximumlimiet"
+        },
+        "forgot_password": {
+            "email_not_found": "E-mail niet gevonden. Probeer het opnieuw of meld u aan",
+            "link_expired": "De link om het wachtwoord te wijzigen is verlopen. Vraag een nieuwe aan",
+            "link_used": "De link om het wachtwoord te wijzigen is gebruikt. Vraag een nieuwe aan"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "Framebestand overschrijdt de maximale grootte van 5 MB",
+            "background_file_exceed": "Het achtergrondbestand overschrijdt de maximale grootte van 5 MB",
+            "image_not_transparent": "De afbeelding moet transparant zijn. Probeer het nog eens",
+            "invalid_format": "Ongeldig bestandsformaat. Gebruik een ondersteund formaat",
+            "allow_only_1_frame": "Gratis accounts staan slechts 1 frame-upload toe. Upgrade om door te gaan",
+            "allow_only_1_background": "Gratis accounts staan slechts één achtergrondupload toe. Upgrade om door te gaan",
+            "campaign_title_exceed_limit": "Campagnetitel overschrijdt de maximale tekenlimiet",
+            "description_exceed_limit": "Beschrijving overschrijdt de maximale tekenlimiet",
+            "link_unavailable": "Campagnelink is al in gebruik. Kies een andere",
+            "link_criteria": "Campagnelink moet alfanumeriek en streepjes (-) zijn",
+            "caption_exceed_limit": "Bijschrifttemplate overschrijdt de maximale tekenlimiet",
+            "background_exceed_limit": "Het achtergrondbestand overschrijdt de maximale grootte van 5 MB",
+            "photo_exceed_limit": "Het miniatuurfotobestand overschrijdt de maximale grootte van 5 MB",
+            "link_exceed_limit": "Campagnelink overschrijdt de maximale tekenlimiet"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "Framebestand overschrijdt de maximale grootte van 5 MB",
+            "background_file_exceed": "Het achtergrondbestand overschrijdt de maximale grootte van 5 MB"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "De afbeelding moet transparant zijn. Probeer het nog eens",
+            "invalid_format": "Ongeldig bestandsformaat. Gebruik een ondersteund formaat",
+            "allow_only_1_frame": "Gratis accounts staan slechts 1 frame-upload toe. Upgrade om door te gaan",
+            "allow_only_1_background": "Gratis accounts staan slechts één achtergrondupload toe. Upgrade om door te gaan",
+            "campaign_title_exceed_limit": "Campagnetitel overschrijdt de maximale tekenlimiet",
+            "description_exceed_limit": "Beschrijving overschrijdt de maximale tekenlimiet",
+            "link_unavailable": "Campagnelink is al in gebruik. Kies een andere",
+            "link_criteria": "Campagnelink moet alfanumeriek en streepjes (-) zijn",
+            "link_exceed_limit": "Campagnelink overschrijdt de maximale tekenlimiet",
+            "caption_exceed_limit": "Bijschrifttemplate overschrijdt de maximale tekenlimiet",
+            "background_exceed_limit": "Het achtergrondbestand overschrijdt de maximale grootte van 5 MB",
+            "thumbnail_exceeds": "Het miniatuurfotobestand overschrijdt de maximale grootte van 5 MB"
+        },
+        "settings": {
+            "profile_image_exceed": "Profielafbeelding overschrijdt de maximale limiet van 5 MB",
+            "background_image_exceed": "Achtergrondafbeelding overschrijdt de maximale grootte van 5 MB",
+            "username_unavailable": "Gebruikersnaam is al bezet. Probeer een andere",
+            "username_exceed_limit": "Gebruikersnaam overschrijdt de maximale tekenlimiet",
+            "username_invalid": "Gebruikersnaam ongeldig. Probeer het opnieuw met het juiste formaat",
+            "display_exceed_limit": "Weergavenaam overschrijdt de maximale tekenlimiet",
+            "bio_exceed_limit": "Bio overschrijdt de maximale tekenlimiet",
+            "email_already_registered": "E-mailadres al geregistreerd. Probeer een andere",
+            "password_incorrect": "Fout wachtwoord. Probeer het nog eens",
+            "password_minimum_character": "Wachtwoord moet minimaal 8 tekens lang zijn",
+            "password_maximum_character": "Wachtwoord mag niet langer zijn dan 128 tekens",
+            "password_standard_format": "Het wachtwoord moet het alfanumerieke standaardformaat volgen",
+            "account_deleted": "Account verwijderd",
+            "account_integrated": "Account geïntegreerd",
+            "account_revoked": "Account ingetrokken"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "Het gedeelte 'Vertel ons meer' overschrijdt de maximale tekenlimiet"
+        },
+        "general": {
+            "something_went_wrong": "Er is iets fout gegaan"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "Het aantal toegevoegde campagnes overschrijdt de maximumlimiet",
+            "description_exceeds": "Beschrijving overschrijdt de maximale tekenlimiet",
+            "title_exceeds": "Titel van collectie overschrijdt de maximale tekenlimiet"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "Link gekopieerd",
+            "social_media_already_linked": "Social media-account al gekoppeld aan een ander Twibbonize-account. Probeer een andere"
+        },
+        "campaign_creation": {
+            "link_available": "Link is beschikbaar"
+        },
+        "campaign_edit": {
+            "link_available": "Link is beschikbaar"
+        },
+        "settings": {
+            "photo_updated": "Foto bijgewerkt",
+            "banner_updated": "Banner bijgewerkt",
+            "banner_deleted": "Banner verwijderd",
+            "photo_deleted": "Foto verwijderd",
+            "password_updated": "wachtwoord bijgewerkt",
+            "email_updated": "E-mail bijgewerkt"
+        },
+        "my_profile": {
+            "campaign_deleted": "Campagne verwijderd"
+        },
+        "collection": {
+            "campaign_added": "Campagne toegevoegd"
+        },
+        "campaign_page": {
+            "account_upgraded": "Account geüpgraded",
+            "link_copied": "Link gekopieerd"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "E-mail niet gevonden. Probeer het opnieuw of meld u aan"
+        },
+        "password": {
+            "password_incorrect": "Fout wachtwoord. Probeer het nog eens"
+        },
+        "maximum_attempt": "Maximale pogingen bereikt. Probeer het over 1 uur opnieuw"
+    },
+    "page_notification": {
+        "no_notification_heading": "Nog geen meldingen",
+        "no_notification_subheading": "Er zijn momenteel geen meldingen"
+    },
+    "page_general": {
+        "no_internet_connection": "Geen internet verbinding. Tik om het opnieuw te proberen",
+        "could_not_connect_internet": "Kan geen verbinding maken met internet. Schakel over naar een ander netwerk en probeer het opnieuw."
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "Uitloggen?"
         }
     }
 }
