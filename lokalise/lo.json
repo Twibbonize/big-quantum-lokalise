@@ -35,7 +35,7 @@
             "terms": "ຂໍ້ກຳນົດ ແລະເງື່ອນໄຂ",
             "privacy_policy": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ",
             "cookie_policy": "ນະໂຍບາຍຄຸກກີ",
-            "sitemap": ""
+            "sitemap": "ແຜນຜັງເວັບໄຊທ໌"
         },
         "menu": {
             "explore": "ສຳຫຼວດ",
@@ -47,11 +47,6 @@
             "sign_in": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
             "sign_up": "ລົງ​ທະ​ບຽນ",
             "sign_out": "ອອກ​ຈາກ​ລະ​ບົບ"
-        },
-        "campaign": {
-            "supporters": "ຜູ້ສະໜັບສະໜູນ|ຜູ້ສະໜັບສະໜູນ",
-            "campaigns": "ແຄມເປນ",
-            "created": "ສ້າງແລ້ວ"
         },
         "button": {
             "view_all": "ເບິ່ງ​ທັງ​ຫມົດ",
@@ -71,11 +66,12 @@
             "report": "ລາຢງານ",
             "edit": "ແກ້ໄຂ",
             "confirm": "ຢືນຢັນ",
-            "okay": "",
+            "okay": "ຕົກລົງ",
             "view": "ເບິ່ງ",
-            "send": "",
-            "more": "",
-            "less": ""
+            "send": "ສົ່ງ",
+            "more": "ເພີ່ມເຕີມ",
+            "less": "ຫນ້ອຍ",
+            "submit": "ສົ່ງ"
         },
         "time": {
             "week": "ອາທິດ",
@@ -86,9 +82,14 @@
             "annual": "ປະຈໍາປີ",
             "yearly": "ປະຈຳປີ"
         },
+        "campaign": {
+            "campaigns": "ແຄມເປນ",
+            "created": "ສ້າງແລ້ວ",
+            "supporters": "ຜູ້ສະໜັບສະໜູນ|ຜູ້ສະໜັບສະໜູນ|ຜູ້ສະໜັບສະໜູນ"
+        },
         "collection": {
             "collections": "ຄໍເລັກຊັນ",
-            "campaigns": "{campaign} ແຄມເປນ"
+            "campaigns": "ແຄມເປນ {campaign}"
         },
         "creator": {
             "creators": "ຜູ້ສ້າງ"
@@ -108,14 +109,21 @@
             "hide_post": "ເຊື່ອງໂພສ",
             "post_shared": "ແບ່ງປັນໂພສເມື່ອ {date}",
             "share_message": "ແບ່ງປັນຂໍ້ຄວາມຂອງທ່ານ",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "ຖອນປັກໝຸດໂພສ",
+            "unhide_post": "ເຊົາເຊື່ອງໂພສ"
         },
         "pricing": {
-            "creator_subscribe_to": "",
-            "plan": "",
-            "support_without_watermark": "",
-            "all_supporters_without_watermark": ""
+            "creator_subscribe_to": "ຜູ້ສ້າງນີ້ແມ່ນສະໝັກໃຊ້",
+            "plan": "ແຜນການ",
+            "support_without_watermark": "ພວກເຂົາສາມາດສະຫນັບສະຫນູນແຄມເປນໃດກໍ່ຕາມໂດຍບໍ່ມີ watermark!",
+            "all_supporters_without_watermark": "ທ່ານສາມາດສະໜັບສະໜຸນທຸກແຄມເປນຂອງຜູ້ສ້າງນີ້ໂດຍບໍ່ມີລາຍນ້ຳ!"
+        },
+        "campaign_card": {
+            "a_month_ago": "ເດືອນກ່ອນ",
+            "a_day_ago": "ມື້ກ່ອນ"
+        },
+        "search": {
+            "searching": "ກຳລັງຊອກຫາ..."
         }
     },
     "page_home": {
@@ -262,8 +270,8 @@
         "process": {
             "how_twibbonize_1": "Twibbonize ປະຕິວັດແນວໃດ",
             "how_twibbonize_2": "ແຄມເປນ Twibbon",
-            "sharing_twibbon_1": "ການແບ່ງປັນ Twibbon ເຄີຍເປັນຂະບວນການທີ່ສັບສົນທີ່ພວກເຮົາກໍາລັງຄືກັນ",
-            "sharing_twibbon_2": "ເມື່ອຍທີ່ຈະອະທິບາຍໃຫ້ເຈົ້າຟັງ."
+            "sharing_twibbon_1": "ການແບ່ງປັນ Twibbon ເຄີຍເປັນຂະບວນການທີ່ສັບສົນ",
+            "sharing_twibbon_2": "ພວກເຮົາກໍ່ເມື່ອຍເກີນໄປທີ່ຈະອະທິບາຍໃຫ້ທ່ານຟັງ."
         },
         "frame": {
             "twibbon_frame": "ໃນ Twibbonize, Twibbon ແມ່ນຫຼາຍກ່ວາກອບ",
@@ -334,10 +342,10 @@
             "download": "ດາວໂຫຼດ",
             "reset": "ຣີເຊັດ",
             "add_text": "ເພີ່ມຂໍ້ຄວາມ",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": "",
+            "posting_as": "ປະກາດເປັນ ",
+            "not_you": "ບໍ່​ແມ່ນ​ເຈົ້າ? ",
+            "uploading_photo_to_remove": "ກຳລັງອັບໂຫລດຮູບຂອງເຈົ້າ ແລະລຶບພື້ນຫຼັງຂອງມັນອອກ.",
+            "wait_for_moment": "ລໍຖ້າຈັກໜ່ອຍ...",
             "remove_watermark_for_you_2": "ແລະເພີດເພີນກັບຮູບພາບຂອງທ່ານທີ່ບໍ່ມີລາຍນໍ້າ!",
             "remove_watermark_for_you_1": "ສຳຫຼວດ Twibbonize ໂດຍບໍ່ມີໂຄສະນາ,",
             "remove_watermark_for_you": "ເອົາລາຍນ້ຳອອກ!",
@@ -350,7 +358,6 @@
             "report_profile": "ລາຍງານໂປຣໄຟລ໌",
             "plagiarism": "ການຫຼອກລວງ",
             "sensitive": "ເນື້ອໃນທີ່ລະອຽດອ່ອນ",
-            "danger": "ເນື້ອຫາອັນຕະລາຍ",
             "spam": "ຂີ້ເຫຍື້ອ",
             "why_report_campaign": "ເປັນຫຍັງເຈົ້າຈຶ່ງລາຍງານແຄມເປນນີ້?",
             "protect_reporter": "ຂໍ້ແນະນຳຊຸມຊົນ Twibbonize ປົກປ້ອງຄວາມເປັນສ່ວນຕົວຂອງຕົວຕົນຂອງນັກຂ່າວ.",
@@ -359,7 +366,21 @@
             "received_report": "ພວກເຮົາໄດ້ຮັບລາຍງານຂອງເຈົ້າແລ້ວ!",
             "thankyou": "ຂອບ​ໃຈ! ກະລຸນາອະນຸຍາດໃຫ້ພວກເຮົາສືບສວນລາຍງານຂອງເຈົ້າ, ແລະພວກເຮົາຈະສົ່ງຄໍາຕິຊົມໄປຫາອີເມວຂອງເຈົ້າໄວເທົ່າທີ່ຈະໄວໄດ້.",
             "learn_more_about": "ສຶກສາເພີ່ມເຕີມກ່ຽວກັບ {link} .",
-            "community_guideline": "ຂໍ້ແນະນຳຊຸມຊົນ Twibbonize"
+            "community_guideline": "ຂໍ້ແນະນຳຊຸມຊົນ Twibbonize",
+            "title": "ເປັນຫຍັງເຈົ້າຈຶ່ງລາຍງານແຄມເປນນີ້?",
+            "danger": "ອັນຕະລາຍ ຫຼືເປັນອັນຕະລາຍ ",
+            "impersonation": "ການປອມຕົວ ",
+            "piracy": "ການລະເມີດລິຂະສິດ",
+            "vulgar_language": "ພາສາຫຍາບຄາຍ",
+            "nudity_pornography": "ການໂປ້ເປືອຍ & ຮູບລາມົກ",
+            "suicidal_self_harm": "ເນື້ອຫາຂ້າຕົວຕາຍ ແລະທຳຮ້າຍຕົນເອງ ",
+            "violent_graphic_content": "ເນື້ອໃນກາຟິກທີ່ຮຸນແຮງ",
+            "harassment_cyberbullying": "ການຂົ່ມເຫັງ & ການຂົ່ມເຫັງທາງອິນເຕີເນັດ",
+            "proactive_threatening_content": "ເນື້ອຫາກະຕຸ້ນ ແລະຂົ່ມຂູ່",
+            "statement": "ຂໍ້ແນະນຳຊຸມຊົນ Twibbonize ປົກປ້ອງຄວາມເປັນສ່ວນຕົວຂອງຕົວຕົນຂອງນັກຂ່າວ.",
+            "read_more_copy": "ອ່ານ​ຕື່ມ",
+            "please_select_one": "ກະລຸນາເລືອກອັນໜຶ່ງ",
+            "write_a_message": "ຂຽນຂໍ້ຄວາມ"
         },
         "discard": {
             "discard_edit": "ຍົກເລີກການແກ້ໄຂບໍ?",
@@ -377,9 +398,10 @@
             "supporters": "ຜູ້ສະຫນັບສະຫນູນ",
             "interactions": "ການໂຕ້ຕອບ",
             "visits": "ການຢ້ຽມຢາມ",
-            "realtime_estimates": "ການຄາດຄະເນໃນເວລາຈິງ",
             "last_month": "30 ມື້ທີ່ຜ່ານມາ",
-            "see_more_analytics": "ເບິ່ງການວິເຄາະເພີ່ມເຕີມ"
+            "see_more_analytics": "ເບິ່ງການວິເຄາະເພີ່ມເຕີມ",
+            "realtime_estimates": "ການຄາດຄະເນແບບສົດໆຈາກ 30 ມື້ທີ່ຜ່ານມາ",
+            "view_analytics": "ເບິ່ງການວິເຄາະ"
         },
         "pricing": {
             "no_thankyou": "ບໍ່​ຂອບ​ໃຈ"
@@ -400,15 +422,37 @@
             "reply_as_user": "ຕອບກັບໃນນາມ {user}"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "ປະຕິບັດຕາມຄໍາແນະນໍາສໍາລັບຜົນໄດ້ຮັບທີ່ດີທີ່ສຸດ!",
+            "good_photo_examples": "ຕົວຢ່າງຮູບພາບທີ່ດີ:",
+            "good_photo_caption": "ເຊວຟີແບບໃກ້ຕົວ, ຮູບແນວຕັ້ງ, ໃບໜ້າຈະແຈ້ງ",
+            "photos_avoid": "ຮູບພາບເພື່ອຫຼີກເວັ້ນ:",
+            "bad_photo_caption": "ຮູບເຕັມຕົວ, ຮູບກຸ່ມ, ຮູບຈາກດ້ານຫຼັງ",
+            "understand": "ຂ້ອຍ​ເຂົ້າ​ໃຈ"
         },
         "post_to_twibbonize": {
-            "caption": ""
+            "caption": "ຂຽນຂໍ້ຄວາມກ່ຽວກັບແຄມເປນນີ້ ...",
+            "unpin_post": "ຖອນປັກໝຸດໂພສ"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "ປັບຮູບຂອງເຈົ້າ"
+        },
+        "share_campaign": {
+            "or_share_to": "ຫຼືແບ່ງປັນໃຫ້",
+            "save_share": "ບັນທຶກ & ແບ່ງປັນ"
+        },
+        "post": {
+            "post_uploaded": "ອັບໂຫຼດໂພສ",
+            "post_deleted": "ໂພສຖືກລຶບແລ້ວ",
+            "post_failed_deleted": "ໂພສລົ້ມເຫລວ, ຖືກລຶບແລ້ວ"
+        },
+        "create_campaign": {
+            "custom_field": "ເພີ່ມຊ່ອງຂໍ້ມູນແບບກຳນົດເອງ"
+        },
+        "collection": {
+            "sign_up_add_collection": "ລົງທະບຽນເພື່ອເພີ່ມໃສ່ຄໍເລັກຊັນ"
+        },
+        "posts": {
+            "has_no_posts": "ຜູ້ໃຊ້ນີ້ບໍ່ໄດ້ໂພສຫຍັງໃນ Twibbonize"
         }
     },
     "page_checkout": {
@@ -417,9 +461,8 @@
             "account_update": "ບັນຊີຂອງທ່ານຈະຖືກອັບເດດ, ດ້ວຍການປົດລັອກຄຸນສົມບັດໃໝ່ທັງໝົດ"
         },
         "checkout": {
-            "back_to_plans": "ກັບໄປທີ່ແຜນການ",
             "upgrade_to": "ອັບເກຣດເປັນ {plan}",
-            "gather_your_supports": "ລວບລວມຜູ້ສະຫນັບສະຫນູນຂອງທ່ານແລະຂະຫຍາຍແຄມເປນຂອງທ່ານດ້ວຍຄຸນສົມບັດພິເສດຂອງພວກເຮົາ.",
+            "gather_your_supports": "ລວບລວມຜູ້ສະຫນັບສະຫນູນຂອງທ່ານແລະຂະຫຍາຍແຄມເປນຂອງທ່ານດ້ວຍຄຸນສົມບັດພິເສດຂອງພວກເຮົາ",
             "billing_option": "ທາງເລືອກການເອີ້ນເກັບເງິນ",
             "details": "ລາຍລະອຽດ",
             "user": "ຜູ້ໃຊ້",
@@ -429,18 +472,19 @@
             "save": "ປະຢັດໄດ້ {percentage} %",
             "pay": "ຈ່າຍ {frequency}",
             "checkout_options": "ທາງເລືອກໃນການຈ່າຍເງິນ",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "ປັບແຜນການ",
+            "current_plan": "ແຜນປະຈຸບັນ",
+            "downgrade": "ດາວເກຣດ",
+            "current_plan_description": "ທ່ານກໍາລັງສະຫມັກສະມາຊິກນີ້ໃນປັດຈຸບັນ",
+            "change_plan_description": "ທ່ານກຳລັງປ່ຽນແຜນຂອງທ່ານເປັນ {plan} , ເຊິ່ງຈະມີການເຄື່ອນໄຫວຫຼັງຈາກການສະໝັກໃຊ້ປັດຈຸບັນສິ້ນສຸດລົງ.",
+            "downgrade_description": "ທ່ານກຳລັງດາວເກຣດແຜນຂອງທ່ານເປັນ {plan} , ເຊິ່ງຈະມີການເຄື່ອນໄຫວຫຼັງຈາກການສະໝັກໃຊ້ປັດຈຸບັນສິ້ນສຸດລົງ.",
+            "change_plan_confirm": "ເຈົ້າ​ແນ່​ໃຈ​ບໍ່?",
+            "upgrade_confirm": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການອັບເກຣດ?",
+            "downgrade_confirm": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການດາວເກຣດແພັກເກດ?",
+            "change_plan_active": "ມັນຈະມີການເຄື່ອນໄຫວເມື່ອການສະໝັກໃຊ້ປັດຈຸບັນຂອງທ່ານສິ້ນສຸດລົງ",
+            "upgrade_active": "ມັນຈະມີການເຄື່ອນໄຫວເມື່ອທ່ານເຮັດສຳເລັດການຈ່າຍເງິນ",
+            "downgrade_active": "ມັນຈະມີການເຄື່ອນໄຫວເມື່ອການສະໝັກໃຊ້ປັດຈຸບັນຂອງທ່ານສິ້ນສຸດລົງ",
+            "back_to_plans": "ກັບຄືນໄປບ່ອນ"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -449,14 +493,14 @@
             "use_twibbonize_without_ads": "ໃຊ້ Twibbonize ໂດຍບໍ່ມີການໂຄສະນາ",
             "exclusive_features": "ຄຸນສົມບັດສະເພາະສຳລັບແຄມເປນຂອງທ່ານ",
             "remove_own_account": "ເອົາ watermark ອອກສໍາລັບບັນຊີຂອງທ່ານເອງ",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "ເງິນ",
+            "gold": "ຄໍາ",
+            "platinum": "Platinum",
+            "watermark_title": "ເອົາ Watermark ອອກ",
+            "high_quality_image_title": "ຮູບພາບຄຸນນະພາບສູງ",
+            "ad_free_title": "ໂຄສະນາຟຣີ",
+            "campaign_addon": "ແຄມເປນ Addon",
+            "on": "ສຸດ"
         }
     },
     "page_collection": {
@@ -496,9 +540,9 @@
             "image_dimension": "1080x1080px",
             "upload": "ອັບໂຫຼດ",
             "imagetype": "PNG",
-            "max_file": "",
-            "backgroundtype": "",
-            "upload_design": ""
+            "max_file": "ສູງສຸດ 5 MB",
+            "backgroundtype": "JPEG, PNG ຫຼື WEBP",
+            "upload_design": "ອັບໂຫຼດການອອກແບບຂອງທ່ານທີ່ນີ້"
         },
         "frame_editor": {
             "or_create": "ຫຼືສ້າງກອບຂອງທ່ານດຽວນີ້",
@@ -526,7 +570,7 @@
             "campaign_title": "ຊື່ແຄມເປນ",
             "campaign_title_placeholder": "ສາມາດປະກອບດ້ວຍຕົວເລກ, ຕົວອັກສອນ, ຫຼືຕົວອັກສອນພິເສດ.",
             "campaign_description": "ລາຍລະອຽດ",
-            "campaign_description_placeholder": "ແບ່ງປັນລາຍລະອຽດກ່ຽວກັບແຄມເປນຂອງທ່ານເພື່ອດຶງດູດຄວາມສົນໃຈ ແລະສະໜັບສະໜູນ.",
+            "campaign_description_placeholder": "ແບ່ງປັນລາຍລະອຽດກ່ຽວກັບແຄມເປນຂອງທ່ານເພື່ອດຶງດູດຄວາມສົນໃຈ ແລະສະໜັບສະໜູນ",
             "campaign_link": "ລິ້ງແຄມເປນ",
             "campaign_link_placeholder": "campaign-link",
             "campaign_category": "ໝວດໝູ່ແຄມເປນ",
@@ -545,7 +589,7 @@
             "url_not_available": "URL ບໍ່ສາມາດໃຊ້ໄດ້",
             "caption_placeholder": "ສະບາຍດີ, ຂ້ອຍຊື່ [[ຊື່ຂອງເຈົ້າ]] , ແລະຂ້ອຍທັງໝົດໃນການຊ່ວຍເຫຼືອແຄມເປນນີ້. ມາຮວບຮວມແລະສ້າງຜົນກະທົບທີ່ແທ້ຈິງກັບແຄມເປນນີ້ຮ່ວມກັນ!",
             "enter_description": "ໃສ່ຄຳອະທິບາຍ",
-            "optional": ""
+            "optional": "ທາງເລືອກ"
         },
         "customization": {
             "campaign_customization": "ການປັບແຕ່ງແຄມເປນ",
@@ -568,14 +612,14 @@
             "go_back": "ກັບ​ຄືນ"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "ກອບ",
+            "campaigns": "ແຄມເປນ",
+            "analytics": "ການວິເຄາະ"
         },
         "blank_design": {
-            "suggested": "",
-            "instagram_story": "",
-            "instagram_post": ""
+            "suggested": "ແນະນຳ",
+            "instagram_story": "Instagram Story",
+            "instagram_post": "ໂພສ Instagram"
         }
     },
     "page_for_creators": {
@@ -585,8 +629,8 @@
             "purchase_now": "ຊື້ດຽວນີ້",
             "learn_more": "ສຶກສາເພີ່ມເຕີມ",
             "want_to_create": "ຕ້ອງການສ້າງແຄມເປນຂອງທ່ານໂດຍບໍ່ເສຍຄ່າບໍ?",
-            "try_now": "ລອງດຽວນີ້!",
-            "per": "ຕໍ່ {time}"
+            "per": "ຕໍ່ {time}",
+            "try_now": "ລອງດຽວນີ້!"
         },
         "features": {
             "remove_watermark": "ເອົາ watermark ອອກສໍາລັບຜູ້ໃຊ້ແຄມເປນທັງຫມົດຂອງທ່ານ",
@@ -631,20 +675,20 @@
             "unite_detail": "ເອົາຊຸມຊົນສະຫນັບສະຫນູນແຄມເປນຂອງທ່ານທັງຫມົດຢູ່ໃນຫນ້າ Twibbonize ຂອງທ່ານ; ບ່ອນທີ່ຜູ້ສະຫນັບສະຫນູນເຊື່ອມຕໍ່ແລະທ່ານເຫັນຜົນກະທົບ!",
             "entertain_detail": "Twibbonize ມີສ່ວນຮ່ວມກັບຜູ້ສະຫນັບສະຫນູນຂອງທ່ານໂດຍການສະຫນອງ Twibbon virtual ທີ່ສາມາດແບ່ງປັນໄດ້ສໍາລັບສື່ມວນຊົນສັງຄົມແລະການສົ່ງຂໍ້ຄວາມ",
             "grow_detail": "ໄດ້ຮັບການສະຫນັບສະຫນູນຫຼາຍຂຶ້ນກັບແຄມເປນ Twibbonize: ມັນບໍ່ພຽງແຕ່ດຶງດູດຄວາມສົນໃຈເທົ່ານັ້ນ, ແຕ່ຍັງສ້າງຜົນກະທົບຂອງ bandwagon, ດຶງດູດຜູ້ຊົມທີ່ເພີ່ມຂຶ້ນທີ່ບໍ່ຕ້ອງການທີ່ຈະພາດໂອກາດຂອງທ່ານ.",
-            "inspire": "",
-            "unite": "",
-            "entertain": "",
-            "grow": ""
+            "inspire": "ດົນໃຈ ",
+            "unite": "ສາມັກຄີ",
+            "entertain": "ບັນເທີງ",
+            "grow": "ເຕີບໃຫຍ່"
         },
         "use_cases": {
             "heading": "ແນວຄວາມຄິດທີ່ຈະໃຊ້ Twibbonize ສໍາລັບ",
-            "subheading": "",
-            "corporate": "",
-            "corporate_title": "",
+            "subheading": "ເລີ່ມການສຳຫຼວດຂອງທ່ານດ້ວຍຕົວຢ່າງທີ່ເລືອກດ້ວຍມືຈາກ 5,000,000+ ແຄມເປນ Twibbonize ຂອງພວກເຮົາ",
+            "corporate": "ບໍລິສັດ",
+            "corporate_title": "ນໍາໃຊ້ພະລັງງານຂອງຄວາມອຸດົມສົມບູນຂອງບຸກຄະລາກອນແລະລູກຄ້າຂອງທ່ານ",
             "education": "ການສຶກສາ",
-            "education_title": "",
+            "education_title": "ມັນເປັນວິທີທີ່ມ່ວນທີ່ຈະເພີ່ມຂະບວນການຮຽນຮູ້",
             "event": "ເຫດການ",
-            "events_title": ""
+            "events_title": "ກະຕຸ້ນເຫດການຂອງເຈົ້າດ້ວຍພະລັງຂອງໄວລັດທັນທີ"
         },
         "testimonials": {
             "testimonials": "ປະຈັກພະຍານ",
@@ -688,8 +732,8 @@
             "proud_partner": "ພວກເຮົາພູມໃຈທີ່ໄດ້ຮ່ວມມືກັບຄົນທີ່ມີຄວາມສອດຄ່ອງຢ່າງເລິກເຊິ່ງກັບພາລະກິດຂອງພວກເຮົາ"
         },
         "honorary": {
-            "honorary_mentions": "",
-            "significant_contributions": ""
+            "honorary_mentions": "ກຽດຕິຍົດ",
+            "significant_contributions": "ຜູ້ທີ່ໄດ້ປະກອບສ່ວນທີ່ສໍາຄັນຕໍ່ການພັດທະນາຂອງພວກເຮົາ"
         }
     },
     "page_pricing": {
@@ -706,18 +750,18 @@
             "private_campaign_1": "ສ່ວນຕົວ",
             "private_campaign_2": "ແຄມເປນ",
             "offer_exclusively": "ສະເໜີໃຫ້ຜູ້ສະໜັບສະໜູນຂອງທ່ານ",
-            "campaign_customization_1": "ແຄມເປນ",
-            "campaign_customization_2": "ການປັບແຕ່ງ",
+            "campaign_customization_1": "",
+            "campaign_customization_2": "ການປັບແຕ່ງແຄມເປນ",
             "personalize_campaign": "ປັບແຕ່ງໜ້າແຄມເປນຂອງທ່ານ",
             "multiple_frames_1": "Twibbon ຫຼາຍ",
             "multiple_frames_2": "ຕໍ່ແຄມເປນ",
             "unleash_creativity": "ປົດປ່ອຍຄວາມຄິດສ້າງສັນໃນຄວາມຄ່ອງແຄ້ວ",
             "top_notch": "ອັບເກຣດເກມແຄມເປນຂອງທ່ານ",
             "considering_all": "ພິຈາລະນາຄວາມສະດວກສະບາຍທັງຫມົດ, ມັນຄຸ້ມຄ່າ",
-            "remove_watermark_1": "ເອົາອອກ",
-            "remove_watermark_2": "ລາຍນ້ຳ",
-            "for_audience_1": "ສໍາລັບ",
-            "for_audience_2": "ທ່ານ​ແລະ​ຜູ້​ຊົມ​ຂອງ​ທ່ານ​",
+            "remove_watermark_1": "",
+            "remove_watermark_2": "",
+            "for_audience_1": "",
+            "for_audience_2": "ເອົາ watermark ສໍາລັບທ່ານແລະຜູ້ຊົມຂອງທ່ານ",
             "as_a_free_user": "ໃນ​ຖາ​ນະ​ເປັນ​ຜູ້​ໃຊ້​ຟຣີ​, Twibbon ຂອງ​ທ່ານ​ສະ​ເຫມີ​ໄປ​ສະ​ເຫມີ​ໄປ​ເປັນ <strong> ລາຍ​ນ​້​ໍາ​. <\/strong>",
             "premium_supporter": "<strong> Premium Creator <\/strong> ເອົາລາຍນໍ້າອອກເພື່ອໃຫ້ຮູບພາບທີ່ສະອາດຂຶ້ນ.",
             "now_you_can": "ໃນປັດຈຸບັນທ່ານສາມາດ <strong> ສະຫນັບສະຫນູນແຄມເປນໃດໆ <\/strong> ໂດຍບໍ່ມີ watermark."
@@ -735,10 +779,10 @@
             "as_a_free_user": "ໃນ​ຖາ​ນະ​ເປັນ​ຜູ້​ໃຊ້​ຟຣີ​, Twibbon ຂອງ​ທ່ານ​ສະ​ເຫມີ​ໄປ​ສະ​ເຫມີ​ໄປ​ເປັນ <strong> ລາຍ​ນ​້​ໍາ​. <\/strong>",
             "premium_supporter": "<strong> Premium Supporter <\/strong> ເອົາ watermark ອອກເພື່ອໃຫ້ຮູບພາບທີ່ສະອາດຂຶ້ນ.",
             "now_you_can": "ໃນປັດຈຸບັນທ່ານສາມາດ <strong> ສະຫນັບສະຫນູນແຄມເປນໃດໆ <\/strong> ໂດຍບໍ່ມີ watermark.",
-            "remove_watermark_1": "ເອົາອອກ",
-            "remove_watermark_2": "ລາຍນ້ຳ",
-            "for_audience_1": "ສໍາລັບ",
-            "for_audience_2": "ບັນ​ຊີ​ຂອງ​ທ່ານ​ເອງ​",
+            "remove_watermark_1": "",
+            "remove_watermark_2": "",
+            "for_audience_1": "",
+            "for_audience_2": "ເອົາ watermark ອອກສໍາລັບບັນຊີຂອງທ່ານເອງ",
             "looking_to_remove": "ຊອກຫາການລຶບ Watermark ສໍາລັບຜູ້ໃຊ້ແຄມເປນທັງຫມົດຂອງທ່ານບໍ? ພະຍາຍາມ"
         },
         "upgrade": {
@@ -772,26 +816,26 @@
             "notes": "ບັນທຶກ",
             "print": "ດາວໂຫລດໃບແຈ້ງໜີ້",
             "if_you_would_like_to_change": "ຖ້າທ່ານຕ້ອງການປ່ຽນການສະໝັກໃຊ້ ຫຼືຂໍ້ມູນການຈ່າຍເງິນຂອງທ່ານ, ກະລຸນາໄປທີ່ການຕັ້ງຄ່າການຮຽກເກັບເງິນຂອງທ່ານ",
-            "ending_in": ""
+            "ending_in": "{card} ທີ່ລົງທ້າຍດ້ວຍ {number}"
         },
         "bento": {
             "campaign_analytics_1": "ແຄມເປນ",
             "campaign_analytics_2": "ການວິເຄາະ",
             "private_campaign_1": "ສ່ວນຕົວ",
             "private_campaign_2": "ແຄມເປນ",
-            "campaign_customization_1": "ແຄມເປນ",
-            "campaign_customization_2": "ການປັບແຕ່ງ",
-            "multiple_frames_1": "ຫຼາຍກອບ",
-            "multiple_frames_2": "ຕໍ່ແຄມເປນ",
-            "use_twibbonize_without_ads_1": "ໃຊ້ Twibbonize",
-            "use_twibbonize_without_ads_2": "ໂດຍບໍ່ມີການໂຄສະນາ",
+            "campaign_customization_1": "",
+            "campaign_customization_2": "ການປັບແຕ່ງແຄມເປນ",
+            "multiple_frames_1": "ຫຼາຍເຟຣມຕໍ່ແຄມເປນ",
+            "multiple_frames_2": "",
+            "use_twibbonize_without_ads_1": "",
+            "use_twibbonize_without_ads_2": "ໃຊ້ Twibbonize ໂດຍບໍ່ມີການໂຄສະນາ",
             "no_extra_features_1": "ບໍ່ມີຄຸນສົມບັດພິເສດ",
             "no_extra_features_2": "ມີໃຫ້",
-            "remove_all_watermark_1": "ເອົາລາຍນ້ຳອອກຈາກຜູ້ໃຊ້ແຄມເປນທັງຫມົດຂອງທ່ານ",
-            "remove_all_watermark_2": "",
-            "remove_own_watermark_1": "ເອົາລາຍນ້ຳອອກ",
-            "on": "ສຸດ",
-            "remove_own_watermark_2": "ບັນ​ຊີ​ຂອງ​ທ່ານ​ເອງ​",
+            "remove_all_watermark_1": "",
+            "remove_all_watermark_2": "ເອົາ watermark ອອກຈາກຜູ້ໃຊ້ແຄມເປນທັງຫມົດຂອງທ່ານ",
+            "remove_own_watermark_1": "",
+            "on": "",
+            "remove_own_watermark_2": "ເອົາ watermark ອອກຈາກບັນຊີຂອງທ່ານເອງ",
             "extra_features": "ຄຸນສົມບັດພິເສດ"
         },
         "modal": {
@@ -828,6 +872,9 @@
         },
         "card_premium_creator": {
             "subheading": "ສໍາລັບຄົນທີ່ຕ້ອງການປະສົບການ Twibbonize ສຸດທ້າຍ"
+        },
+        "same_plan": {
+            "adjust_plan": "ປັບແຜນການ"
         }
     },
     "page_profile": {
@@ -835,17 +882,17 @@
             "search_campaigns": "ຊອກຫາແຄມເປນ",
             "no_campaigns": "ບໍ່ມີແຄມເປນເທື່ອ",
             "no_campaigns_details": "ສ້າງແຄມເປນ, ແລະແບ່ງປັນເພື່ອ twibbonize.",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "ທ່ານແນ່ໃຈບໍ່ທີ່ຈະລຶບແຄມເປນນີ້?",
+            "delete_detail": "ການລຶບ \" {title} \" ຈະເປັນແບບຖາວອນ ແລະບໍ່ສາມາດຍົກເລີກໄດ້.",
+            "delete_campaign": "ລຶບແຄມເປນ"
         },
         "posts": {
             "no_posts": "ບໍ່ມີໂພສເທື່ອ",
-            "no_post_details": "ຊອກຫາແຄມເປນ, ແລະປະກາດ twibbon ຂອງທ່ານໃສ່ Twibbonize."
+            "no_post_details": "ຊອກຫາແຄມເປນ, ແລະປະກາດ twibbon ຂອງທ່ານໃສ່ Twibbonize"
         },
         "collections": {
             "no_collections": "ຈັດຕັ້ງແຄມເປນທີ່ທ່ານມັກ",
-            "no_collections_details": "ໃນຫນ້າແຄມເປນ, ພຽງແຕ່ຄລິກໃສ່ປຸ່ມໄອຄອນ {icon} ເພື່ອບັນທຶກແຄມເປນທີ່ທ່ານສົນໃຈເຂົ້າໄປໃນຄໍເລັກຊັນຂອງທ່ານເອງ."
+            "no_collections_details": "ຄລິກທີ່ໄອຄອນ {icon} ໃນແຄມເປນໃດນຶ່ງເພື່ອບັນທຶກແຄມເປນເຂົ້າໃນຄໍເລັກຊັນຂອງທ່ານ"
         },
         "about": {
             "about": "ກ່ຽວກັບ",
@@ -857,13 +904,32 @@
             "campaigns": "ແຄມເປນ"
         },
         "my_profile": {
-            "edit_profile": "",
+            "edit_profile": "ແກ້ໄຂໂປຣໄຟລ໌",
             "campaigns": "ແຄມເປນ",
             "collections": "ຄໍເລັກຊັນ",
-            "posts": ""
+            "posts": "ໂພສ"
         },
         "campaign_deletion": {
             "are_you_sure": "ເຈົ້າ​ແນ່​ໃຈ​ບໍ່?"
+        },
+        "campaign": {
+            "delete_campaign": "ການລຶບ \" {campaign_name} \" ຈະເປັນແບບຖາວອນ ແລະບໍ່ສາມາດຍົກເລີກໄດ້.",
+            "confirm_delete_campaign": "ລຶບແຄມເປນ"
+        },
+        "collection": {
+            "delete_collection": "ຄໍເລັກຊັນ \" {collection_name} \" ຈະຖືກລຶບອອກຖາວອນ.",
+            "confirm_delete_collection": "ລຶບຄໍເລັກຊັນ",
+            "delete_campaign": "ແຄມເປນ \" {campaign_name} \" ຈະຖືກລຶບອອກຈາກຄໍເລັກຊັນ \" {collection_name} \" ຢ່າງຖາວອນ.",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "ເປັນຫຍັງເຈົ້າຈຶ່ງລາຍງານໂປຣໄຟລ໌ນີ້?",
+            "abusive_harmful": "ລ່ວງລະເມີດ ຫຼືເປັນອັນຕະລາຍ",
+            "pretending_someone": "ທຳທ່າເປັນຄົນອື່ນ",
+            "sensitive_content": "ເນື້ອໃນທີ່ລະອຽດອ່ອນ"
+        },
+        "account": {
+            "email_changed": "ອີເມວຂອງທ່ານມີການປ່ຽນແປງເມື່ອບໍ່ດົນມານີ້. ທ່ານສາມາດອັບເດດມັນໄດ້ອີກຄັ້ງໃນ 90 ມື້."
         }
     },
     "page_preference": {
@@ -907,55 +973,55 @@
             "adfree": "ບໍ່ມີໂຄສະນາ",
             "highquality": "ຄຸນ​ນະ​ພາບ​ສູງ",
             "nowatermark": "ບໍ່ມີ Watermark",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "ຈ່າຍແລ້ວ",
+            "are_you_sure_change": "ເຈົ້າ​ແນ່​ໃຈ​ບໍ່?",
+            "active_after_subscription": "ມັນຈະມີການເຄື່ອນໄຫວເມື່ອການສະໝັກໃຊ້ປັດຈຸບັນຂອງທ່ານສິ້ນສຸດລົງ",
+            "are_you_sure_upgrade": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການອັບເກຣດ?",
+            "plan_changing_info": "ສະຫຼັບໄປ {package} ໄດ້ຮັບ. ແຜນ​ການ​ໃໝ່​ເລີ່ມ​ຕົ້ນ​ຫຼັງ​ຈາກ​ປະ​ຈຸ​ບັນ​ສິ້ນ​ສຸດ​ລົງ",
+            "active_after_payment": "ມັນຈະມີການເຄື່ອນໄຫວເມື່ອທ່ານເຮັດສຳເລັດການຈ່າຍເງິນ",
+            "are_you_sure_downgrade": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການດາວເກຣດແພັກເກດ?",
+            "plan_downgrade_info": "ດາວເກຣດເປັນ {package} ໄດ້ຮັບແລ້ວ. ແຜນ​ການ​ໃໝ່​ເລີ່ມ​ຕົ້ນ​ຫຼັງ​ຈາກ​ປະ​ຈຸ​ບັນ​ສິ້ນ​ສຸດ​ລົງ",
+            "renew_plan": "ແຜນການຕໍ່ອາຍຸ",
+            "renew_subscription": "ຕໍ່ອາຍຸການສະໝັກໃຊ້",
+            "upgrade_now": "ອັບເກຣດດຽວນີ້",
+            "warning": "ເຕືອນໄພ!",
+            "important": "ສຳຄັນ!",
+            "premium_expired": "ແພັກເກດ Premium Creator ຂອງທ່ານໄດ້ໝົດອາຍຸແລ້ວ. ກະລຸນາຕໍ່ອາຍຸພາຍໃນ {date}",
+            "last_attempted": "ຄວາມພະຍາຍາມຄັ້ງສຸດທ້າຍຂອງພວກເຮົາບໍ່ປະສົບຜົນສຳເລັດ. ກະລຸນາອັບເດດວິທີການຈ່າຍເງິນຂອງທ່ານ.",
+            "renewal_date": "ວັນທີຕໍ່ອາຍຸ",
+            "payment_method": "ວິທີການຊໍາລະເງິນ",
+            "update_now": "ອັບເດດດຽວນີ້",
+            "cancel_subscription": "ຍົກເລີກການສະໝັກໃຊ້",
+            "change_payment_method": "ປ່ຽນວິທີການຊໍາລະເງິນ",
+            "card_end_with": "{card} ທີ່ລົງທ້າຍດ້ວຍ {number}",
+            "no_transactions": "ບໍ່ມີປະຫວັດທຸລະກໍາເທື່ອ",
+            "transactions_will_shown": "ປະຫວັດທຸລະກໍາຂອງທ່ານຈະສະແດງຢູ່ບ່ອນນີ້ເມື່ອມັນສາມາດໃຊ້ໄດ້",
+            "are_you_sure": "ເຈົ້າ​ແນ່​ໃຈ​ບໍ່?",
+            "once_cancel_plan": "ເມື່ອທ່ານຍົກເລີກແຜນການ, ທ່ານຈະສູນເສຍການເຂົ້າເຖິງຄຸນສົມບັດທີ່ອັບເກຣດທັງໝົດຂອງທ່ານໃນຕອນທ້າຍຂອງຮອບບິນຂອງທ່ານ",
+            "yes_cancel_plan": "ແມ່ນແລ້ວ, ຍົກເລີກແຜນການ",
+            "no_keep_plan": "ບໍ່, Keep Plan",
+            "once_renew_plan": "ເມື່ອທ່ານຕໍ່ອາຍຸແຜນການ, ແຜນການຂອງທ່ານຈະເຄື່ອນໄຫວອີກຄັ້ງ",
+            "yes_renew_plan": "ແມ່ນແລ້ວ, ແຜນການຕໍ່ອາຍຸ",
+            "no_cancel": "ບໍ່, ຍົກເລີກ",
+            "if_cancel_downgrade": "ຖ້າ​ຫາກ​ທ່ານ​ຍົກ​ເລີກ​ການ​ດາວ​ໂຫຼດ​, ແຜນ​ການ​ໃນ​ປະ​ຈຸ​ບັນ​ຂອງ​ທ່ານ​ຈະ​ມີ​ການ​ເຄື່ອນ​ໄຫວ​ອີກ​ເທື່ອ​ຫນຶ່ງ​",
+            "yes_downgrade": "ແມ່ນແລ້ວ, ສືບຕໍ່ດາວເກຣດ",
+            "if_cancel_change_billing": "ຖ້າທ່ານຍົກເລີກການປ່ຽນແປງໃບບິນ, ແຜນການປະຈຸບັນຂອງທ່ານຈະເຮັດວຽກອີກເທື່ອຫນຶ່ງ",
+            "yes_continue": "ແມ່ນແລ້ວ, ສືບຕໍ່",
+            "info": "ຂໍ້ມູນ",
+            "your_request_cancel": "ໄດ້ຮັບຄຳຮ້ອງຂໍຍົກເລີກແຜນ {plan} ຂອງທ່ານແລ້ວ. ມັນຈະສິ້ນສຸດໃນຮອບບິນຕໍ່ໄປ",
+            "your_request_downgrade": "ການຮ້ອງຂໍຂອງທ່ານເພື່ອດາວເກຣດເປັນ {plan} ໄດ້ຮັບແລ້ວ. ແຜນການໃໝ່ຂອງທ່ານຈະຖືກເປີດໃຊ້ເມື່ອແຜນການປັດຈຸບັນສິ້ນສຸດລົງ.",
+            "cancel_downgrade": "ຍົກເລີກການດາວເກຣດ",
+            "cancel_change": "ຍົກເລີກການປ່ຽນແປງໃບບິນ",
+            "your_request_billing": "ໄດ້ຮັບຄຳຮ້ອງຂໍປ່ຽນໃບບິນຂອງທ່ານເປັນ {plan} ແລ້ວ. ແຜນການໃໝ່ຂອງທ່ານຈະຖືກເປີດໃຊ້ເມື່ອແຜນການປັດຈຸບັນສິ້ນສຸດລົງ.",
+            "manage_inapp": "ຈັດການການສະໝັກໃຊ້ຂອງທ່ານໃນແອັບ Twibbonize {appOs}",
+            "manage_inapp_subscription": "ເພື່ອຈັດການການສະໝັກໃຊ້ Twibbonize ຂອງທ່ານໃນ {appOs} , ເປີດແອັບ, ໄປທີ່ 'ການຕັ້ງຄ່າ' ແລະເລືອກ 'ການຮຽກເກັບເງິນ.'",
+            "success_cancel_subscription": "ສຳເລັດການຍົກເລີກການສະໝັກໃຊ້",
+            "success_renew_subscription": "ສຳເລັດການຕໍ່ອາຍຸການສະໝັກໃຊ້",
+            "success_change_subscription": "ສຳເລັດການປ່ຽນການສະໝັກໃຊ້",
+            "success_cancel_change_subscription": "ສຳເລັດການຍົກເລີກການປ່ຽນແປງການສະໝັກໃຊ້",
+            "last_attempted_authentication": "ຄວາມພະຍາຍາມຄັ້ງສຸດທ້າຍຂອງພວກເຮົາບໍ່ປະສົບຜົນສຳເລັດ. ການຈ່າຍເງິນຂອງທ່ານຕ້ອງການການພິສູດຢືນຢັນ.",
+            "authenticate_now": "ພິສູດຢືນຢັນດຽວນີ້",
+            "recurring_payment": "ພວກເຮົາຕ້ອງການການຢືນຢັນຢ່າງຈະແຈ້ງຂອງທ່ານສໍາລັບການຈ່າຍເງິນທີ່ເກີດຂຶ້ນເລື້ອຍໆຂອງທ່ານ. ກະລຸນາກວດເບິ່ງອີເມວຂອງທ່ານ"
         },
         "account": {
             "update_email": "ອັບເດດອີເມວ",
@@ -985,19 +1051,19 @@
             "confirm_password": "ຢືນ​ຢັນ​ລະ​ຫັດ",
             "create_new_password": "ສ້າງລະຫັດຜ່ານໃໝ່",
             "make_it_easy": "ເຮັດ​ໃຫ້​ມັນ​ງ່າຍ​ສໍາ​ລັບ​ທ່ານ​ທີ່​ຈະ​ຈື່​ຈໍາ​ແລະ​ຮັກ​ສາ​ມັນ​ເປັນ​ຄວາມ​ລັບ​ຂອງ​ໃຜ​!",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "ເພີ່ມອີເມວ",
+            "add_password": "ເພີ່ມລະຫັດຜ່ານ",
+            "cant_remove_account": "ຂໍອະໄພ, ພວກເຮົາບໍ່ສາມາດລຶບບັນຊີສື່ສັງຄົມຂອງທ່ານອອກໄດ້.",
+            "set_up_email": "ທ່ານຕ້ອງຕັ້ງຄ່າອີເມວ ຫຼືລະຫັດຜ່ານກ່ອນເພື່ອລຶບບັນຊີສື່ສັງຄົມຂອງທ່ານ.",
+            "want_to_remove": "ຕ້ອງການລຶບບັນຊີສື່ສັງຄົມຂອງທ່ານອອກບໍ?",
+            "your_account_will_be_removed": "ບັນຊີ {provider} ຂອງທ່ານຈະຖືກລຶບອອກ. ຄລິກເຂົ້າໃຈເພື່ອລຶບບັນຊີສື່ສັງຄົມຂອງທ່ານ.",
+            "continue_to_revoke": "ສືບຕໍ່ຖອນຄືນ ",
+            "revoke_success": "ສຳເລັດການຖອນບັນຊີ {provider}",
+            "cannot_update_email": "ຂໍອະໄພ, ພວກເຮົາບໍ່ສາມາດອັບເດດອີເມວຂອງທ່ານໄດ້",
+            "setup_password_to_update_email": "ທ່ານຕ້ອງຕັ້ງລະຫັດຜ່ານກ່ອນທີ່ຈະອັບເດດອີເມວຂອງທ່ານ.",
+            "email_change_request": "ຍົກເລີກການຮ້ອງຂໍການປ່ຽນແປງອີເມວ",
+            "we_have_sent_password": "ພວກເຮົາໄດ້ສົ່ງຄໍາແນະນໍາການປ່ຽນລະຫັດຜ່ານໄປຫາອີເມວຂອງທ່ານ. ກະລຸນາຣີເຊັດລະຫັດຜ່ານຂອງທ່ານພາຍໃນ 1 ຊົ່ວໂມງເພື່ອຄວາມປອດໄພ.",
+            "go_to_homepage": "ໄປທີ່ຫນ້າທໍາອິດ"
         },
         "notifications": {
             "notifications_settings": "ການຕັ້ງຄ່າການແຈ້ງເຕືອນ",
@@ -1015,10 +1081,10 @@
             "article": "ບົດຄວາມ",
             "article_details": "ທ່ານຈະໄດ້ຮັບບົດຄວາມແນະນໍາຂອງພວກເຮົາ.",
             "toggle_all": "ທັງໝົດ",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "ໂພສໃສ່ Twibbonize",
+            "post_twibbonize_details": "ໄດ້ຮັບການແຈ້ງເຕືອນ os ຜູ້ສະຫນັບສະຫນູນການປະກາດໃນຫນ້າແຄມເປນ.",
+            "account_recap": "ສະຫຼຸບບັນຊີ",
+            "account_recap_details": "ສະຫຼຸບປະຈໍາອາທິດຂອງຜູ້ສະຫນັບສະຫນູນແລະການຢ້ຽມຢາມສໍາລັບທຸກໆແຄມເປນຂອງທ່ານ"
         },
         "package": {
             "free": "ຟຣີ",
@@ -1284,290 +1350,6 @@
             "paragraph_11": "ໃນຂະນະທີ່ພວກເຮົາຍອມຮັບຄວາມສາມາດໃນການເຊື່ອມຕໍ່ຂອງຍຸກດິຈິຕອນ, ໃຫ້ Twibbonize ສືບຕໍ່ທາສີຫນ້າຈໍຂອງພວກເຮົາດ້ວຍສັນຍາລັກຂອງຄວາມສາມັກຄີ, ສ້າງຜົນກະທົບທີ່ຍືນຍົງໃນຂອບເຂດຂອງການໂຄສະນາທາງສັງຄົມ. ຮ່ວມ​ກັນ, ພວກ​ເຮົາ​ໄດ້​ເຊື່ອມ​ຕໍ່​ການ​ເລົ່າ​ເລື່ອງ​ທີ່​ເປັນ​ພາບ​ທີ່​ຂ້າມ​ຊາຍ​ແດນ, ສະ​ແດງ​ໃຫ້​ເຫັນ​ຄຳ​ໝັ້ນ​ສັນ​ຍາ​ຮ່ວມ​ກັນ​ຂອງ​ພວກ​ເຮົາ​ຕໍ່​ໂລກ​ທີ່​ມີ​ຄວາມ​ເມດ​ຕາ​ສົງ​ໄສ ແລະ​ເປັນ​ເອ​ກະ​ພາບ."
         }
     },
-    "notification": {
-        "push": {
-            "campaign_milestone": {
-                "header": "🏆 {name}, ບັນລຸເປົ້າໝາຍໃໝ່!",
-                "body": "ຊົມເຊີຍ! ແຄມເປນຂອງທ່ານ {title} ຕອນນີ້ມີຜູ້ສະໜັບສະໜູນ {amount}!"
-            },
-            "new_post": {
-                "header": "Twibbon ໃໝ່ ປະກາດ",
-                "body": "{participant} ໂພສ Twibbon ໃນຄັງຮູບພາບຂອງແຄມເປນ {title}!"
-            },
-            "new_comment": {
-                "header": "ຄຳເຫັນໃໝ່!",
-                "body": "{participant} ຂຽນຄຳເຫັນໃສ່ໂພສຂອງທ່ານໃນແຄມເປນ {title}!"
-            },
-            "account_recap": {
-                "header": "🍺 {name}, ນີ້ແມ່ນສະຫຼຸບປະຈຳອາທິດຂອງເຈົ້າ!",
-                "body": "ທ່ານໄດ້ຮັບ {amount} ຜູ້ສະຫນັບສະຫນູນໃຫມ່ໃນອາທິດນີ້. ຮັກສາມັນໄວ້!"
-            },
-            "billing": {
-                "creator": {
-                    "successful_payment": {
-                        "header": "ການຈ່າຍເງິນຂອງທ່ານສຳເລັດແລ້ວ",
-                        "body": "ໃຊ້ປະໂຫຍດຈາກຄຸນສົມບັດສະເພາະຂອງມັນ! ເລີ່ມແຄມເປນຂອງທ່ານດຽວນີ້"
-                    },
-                    "plus_5": {
-                        "header": "ສະບາຍດີ {name} , ຕໍ່ອາຍຸການສະໝັກໃຊ້ຂອງທ່ານດຽວນີ້",
-                        "body": "ຕໍ່ອາຍຸ ຫຼືຍົກລະດັບແຜນການຂອງທ່ານຕອນນີ້ເພື່ອສືບຕໍ່ເຂົ້າເຖິງການວິເຄາະແຄມເປນຂອງທ່ານ."
-                    }
-                },
-                "international": {
-                    "renewed_plan": {
-                        "header": "ສະບາຍດີ {name}, ການຈ່າຍເງິນຕໍ່ອາຍຸຂອງທ່ານໄດ້ຮັບການຢືນຢັນແລ້ວ",
-                        "body": "ດຽວນີ້ທ່ານສາມາດສືບຕໍ່ໃຊ້ຄຸນສົມບັດສະເພາະຂອງພວກເຮົາໄດ້!"
-                    },
-                    "creator": {
-                        "successful_payment": {
-                            "header": "ການຈ່າຍເງິນຂອງທ່ານສຳເລັດແລ້ວ",
-                            "body": "ໃຊ້ປະໂຫຍດຈາກຄຸນສົມບັດສະເພາະຂອງມັນ! ເລີ່ມແຄມເປນຂອງທ່ານດຽວນີ້"
-                        },
-                        "plus_2": {
-                            "header": "ສະບາຍດີ {name} , ຕໍ່ອາຍຸການສະໝັກໃຊ້ຂອງທ່ານດຽວນີ້",
-                            "body": "ຕໍ່ອາຍຸ ຫຼືຍົກລະດັບແຜນການຂອງທ່ານຕອນນີ້ເພື່ອສືບຕໍ່ເຂົ້າເຖິງການວິເຄາະແຄມເປນຂອງທ່ານ."
-                        }
-                    },
-                    "supporter": {
-                        "successful_payment": {
-                            "header": "ການຈ່າຍເງິນຂອງທ່ານສຳເລັດແລ້ວ",
-                            "body": "ເພີດເພີນໄປກັບປະສົບການທີ່ບໍ່ມີໂຄສະນາຂອງທ່ານແລະໄດ້ຮັບ Twibbon ໂດຍບໍ່ມີລາຍນໍ້າ!"
-                        },
-                        "plus_2": {
-                            "header": "ສະບາຍດີ {name} , ຕໍ່ອາຍຸການສະໝັກໃຊ້ຂອງທ່ານດຽວນີ້",
-                            "body": "ຕໍ່ອາຍຸແຜນການຂອງທ່ານດຽວນີ້ເພື່ອເພີດເພີນໄປກັບ Twibbon ທີ່ບໍ່ມີລາຍນ້ຳ ແລະປະສົບການທີ່ບໍ່ມີໂຄສະນາ."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "ເພີດເພີນໄປກັບປະສົບການທີ່ບໍ່ມີໂຄສະນາຂອງທ່ານແລະໄດ້ຮັບ Twibbons ໂດຍບໍ່ມີລາຍນໍ້າ!",
-                        "header": "ການຈ່າຍເງິນຂອງທ່ານສຳເລັດແລ້ວ"
-                    },
-                    "plus_5": {
-                        "body": "ຕໍ່ອາຍຸແຜນການຂອງທ່ານດຽວນີ້ເພື່ອເພີດເພີນໄປກັບ Twibbon ທີ່ບໍ່ມີລາຍນ້ຳ ແລະປະສົບການທີ່ບໍ່ມີໂຄສະນາ.",
-                        "header": "ສະບາຍດີ {name}, ຕໍ່ອາຍຸການສະໝັກໃຊ້ຂອງທ່ານດຽວນີ້"
-                    }
-                }
-            },
-            "new_reply": {
-                "header": "ຕອບກັບໃໝ່!",
-                "body": "{participant} ໄດ້ສະແດງຄວາມຄິດເຫັນຂອງທ່ານຢູ່ໃນແຄມເປນ {title}!"
-            }
-        },
-        "panel": {
-            "campaign_milestone": {
-                "body": "ຊົມເຊີຍ! ແຄມເປນ {title} ດຽວນີ້ມີຜູ້ສະໜັບສະໜູນ {amount} ຄົນ!",
-                "header": "🏆 {name}, ບັນລຸເປົ້າໝາຍໃໝ່!"
-            },
-            "account_recap": {
-                "body": "ທ່ານໄດ້ຮັບ {amount} ຜູ້ສະຫນັບສະຫນູນໃຫມ່ໃນອາທິດທີ່ຜ່ານມາໃນທົ່ວທຸກແຄມເປນຂອງທ່ານ. ສືບຕໍ່ເຮັດວຽກທີ່ຍິ່ງໃຫຍ່!",
-                "header": "🍺 {name} , ນີ້ແມ່ນສະຫຼຸບປະຈຳອາທິດຂອງເຈົ້າ!"
-            },
-            "billing": {
-                "order_received": {
-                    "header": "ສະບາຍດີ {name}, ກະລຸນາເຮັດສຳເລັດການຈ່າຍເງິນຂອງທ່ານ",
-                    "body": "ຂອບໃຈທີ່ສັ່ງ {product}. ກະລຸນາດໍາເນີນການຊໍາລະເພື່ອເຮັດທຸລະກໍາຂອງທ່ານໃຫ້ສໍາເລັດ."
-                },
-                "order_canceled": {
-                    "header": "ຂໍອະໄພ {name}, ການສັ່ງຊື້ {product} ຂອງທ່ານໄດ້ຖືກຍົກເລີກແລ້ວ",
-                    "body": "ກະລຸນາຢ່າສືບຕໍ່ຈ່າຍເງິນ."
-                },
-                "creator": {
-                    "successful_payment": {
-                        "header": "ສະບາຍດີ {name}, ການຈ່າຍເງິນຂອງເຈົ້າໄດ້ຮັບແລ້ວ",
-                        "body": "ຂໍ​ຂອບ​ໃຈ​ທ່ານ​ສໍາ​ລັບ​ການ​ສະ​ຫມັກ​ກັບ {product}. ສ້າງແຄມເປນຂອງທ່ານດຽວນີ້ແລະໃຊ້ຄຸນສົມບັດພິເສດຂອງມັນ!"
-                    },
-                    "min_3": {
-                        "header": "ສະບາຍດີ {name}, {product} ຂອງທ່ານຈະໝົດອາຍຸໃນ 3 ມື້",
-                        "body": "ຕໍ່ອາຍຸ ຫຼືຍົກລະດັບການສະໝັກໃຊ້ຂອງທ່ານເພື່ອສືບຕໍ່ເພີດເພີນກັບຄຸນສົມບັດສະເພາະຂອງ Twibbonize."
-                    },
-                    "exp_day": {
-                        "header": "ສະບາຍດີ {name}, ການສະໝັກໃຊ້ {product} ຂອງທ່ານໝົດອາຍຸແລ້ວ",
-                        "body": "ຕໍ່ອາຍຸ ຫຼືຍົກລະດັບການສະໝັກໃຊ້ຂອງທ່ານກ່ອນ {date_plus_7} ເພື່ອຮັກສາການເຂົ້າເຖິງການວິເຄາະແຄມເປນ ແລະຄຸນສົມບັດສະເພາະທັງໝົດ."
-                    },
-                    "plus_5": {
-                        "header": "ສະບາຍດີ {name}, ການສະໝັກໃຊ້ຂອງທ່ານຈະສິ້ນສຸດໃນ 48 ຊົ່ວໂມງ",
-                        "body": "ຕໍ່ອາຍຸ ຫຼືຍົກລະດັບແຜນການຂອງທ່ານພາຍໃນ 48 ຊົ່ວໂມງເພື່ອຮັກສາການເຂົ້າເຖິງການວິເຄາະແຄມເປນຂອງທ່ານ."
-                    },
-                    "plus_7": {
-                        "header": "ສະບາຍດີ {name}, ບັນຊີຂອງທ່ານໄດ້ດາວເກຣດເປັນ Twibbonize Free",
-                        "body": "ກະລຸນາຕໍ່ອາຍຸການສະໝັກໃຊ້ຂອງທ່ານເພື່ອສືບຕໍ່ນຳໃຊ້ຄຸນສົມບັດ {product} ."
-                    }
-                },
-                "international": {
-                    "creator": {
-                        "canceled_plan": {
-                            "header": "ສະບາຍດີ {name}, ການສະໝັກໃຊ້ {product} ຂອງທ່ານໄດ້ຖືກຍົກເລີກສຳເລັດແລ້ວ",
-                            "body": "ທ່ານຈະສູນເສຍການເຂົ້າເຖິງຄຸນສົມບັດ {product} ທັງໝົດໃນຕອນທ້າຍຂອງຮອບບິນຂອງທ່ານ."
-                        },
-                        "renewed_plan": {
-                            "header": "ສະບາຍດີ {name}, ການສະໝັກໃຊ້ {product} ຂອງທ່ານໄດ້ຖືກຕໍ່ອາຍຸສຳເລັດແລ້ວ",
-                            "body": "ການສະໝັກໃຊ້ {product} ຂອງທ່ານຈະຖືກຮຽກເກັບເງິນໃນຕອນທ້າຍຂອງຮອບບິນຂອງທ່ານ."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "ສະບາຍດີ {name} , ບັນຊີຂອງທ່ານໄດ້ດາວເກຣດເປັນ Twibbonize Free",
-                                "body": "ກະລຸນາຕໍ່ອາຍຸການສະໝັກໃຊ້ຂອງທ່ານເພື່ອສືບຕໍ່ນຳໃຊ້ຄຸນສົມບັດ {product} ."
-                            }
-                        },
-                        "cancel_downgrade": {
-                            "header": "ສະບາຍດີ {name} ໄດ້ຮັບການຮ້ອງຂໍຍົກເລີກການດາວເກຣດຂອງທ່ານແລ້ວ",
-                            "body": "ການສະໝັກໃຊ້ຂອງທ່ານຈະສືບຕໍ່ເປັນ Premium Creator."
-                        },
-                        "convert": {
-                            "header": "ສະບາຍດີ {name}, ບັນຊີຂອງທ່ານໄດ້ຖືກອັບເກຣດເປັນ Premium Creator ແລ້ວ",
-                            "body": "ຊົມເຊີຍ! ດຽວນີ້ເຈົ້າເປັນ Premium Creator. ເພີດເພີນໄປກັບຄຸນສົມບັດທັງໝົດດຽວນີ້!"
-                        },
-                        "successful_payment": {
-                            "header": "ສະບາຍດີ {name}, ການຈ່າຍເງິນຂອງເຈົ້າໄດ້ຮັບແລ້ວ",
-                            "body": "ຂໍ​ຂອບ​ໃຈ​ທ່ານ​ສໍາ​ລັບ​ການ​ສະ​ຫມັກ​ກັບ {product}. ສ້າງແຄມເປນຂອງທ່ານດຽວນີ້ແລະໃຊ້ຄຸນສົມບັດພິເສດຂອງມັນ!"
-                        },
-                        "exp_day": {
-                            "header": "ສະບາຍດີ {name}, ການສະໝັກໃຊ້ {product} ຂອງທ່ານໝົດອາຍຸແລ້ວ",
-                            "body": "ກະລຸນາອັບເດດຂໍ້ມູນໃບບິນຂອງທ່ານກ່ອນ {date_plus_7} ເພື່ອສືບຕໍ່ເຂົ້າເຖິງການວິເຄາະແຄມເປນຂອງທ່ານ."
-                        },
-                        "plus_2": {
-                            "header": "ສະບາຍດີ {name}, ການສະໝັກໃຊ້ຂອງທ່ານຈະສິ້ນສຸດໃນ 48 ຊົ່ວໂມງ",
-                            "body": "ກະລຸນາອັບເດດບັດຊໍາລະຂອງທ່ານເພື່ອຮັກສາການເຂົ້າເຖິງການວິເຄາະແຄມເປນຂອງທ່ານ."
-                        },
-                        "plus_5": {
-                            "header": "ສະບາຍດີ {name} , ບັນຊີຂອງທ່ານໄດ້ດາວເກຣດເປັນ Twibbonize Free",
-                            "body": "ກະລຸນາຕໍ່ອາຍຸການສະໝັກໃຊ້ຂອງທ່ານເພື່ອສືບຕໍ່ນຳໃຊ້ຄຸນສົມບັດ {product} ."
-                        },
-                        "convert_addon": {
-                            "body": "ຊົມເຊີຍ! ດຽວນີ້ເຈົ້າເປັນ Premium Creator. ເພີດເພີນໄປກັບຄຸນສົມບັດທັງໝົດດຽວນີ້!",
-                            "header": "ສະບາຍດີ {name} , ບັນຊີຂອງທ່ານໄດ້ຖືກອັບເກຣດເປັນ Premium Creator ແລ້ວ"
-                        }
-                    },
-                    "auth": {
-                        "exp_day": {
-                            "header": "ສະບາຍດີ {name}, ວິທີການຈ່າຍເງິນຂອງທ່ານຕ້ອງການການພິສູດຢືນຢັນ",
-                            "body": "ກະລຸນາຢືນຢັນການຢືນຢັນການຈ່າຍເງິນຂອງທ່ານເພື່ອເຮັດສຳເລັດການສະໝັກສະມາຊິກຂອງທ່ານດຽວນີ້."
-                        }
-                    },
-                    "renewed_plan": {
-                        "header": "ສະບາຍດີ {name}, ການຈ່າຍເງິນຕໍ່ອາຍຸຂອງທ່ານໄດ້ຮັບການຢືນຢັນແລ້ວ",
-                        "body": "ດຽວນີ້, ທ່ານສາມາດສືບຕໍ່ເພີດເພີນກັບຄຸນສົມບັດສະເພາະ!"
-                    },
-                    "downgrade_received": {
-                        "header": "ສະບາຍດີ {name}, ໄດ້ຮັບການຮ້ອງຂໍການດາວເກຣດຂອງທ່ານແລ້ວ",
-                        "body": "ບັນຊີຂອງທ່ານຈະຖືກດາວເກຣດເປັນ {product} ໃນຕອນທ້າຍຂອງຮອບບິນຂອງທ່ານ."
-                    },
-                    "supporter": {
-                        "convert": {
-                            "header": "ສະບາຍດີ {name} , ບັນຊີຂອງທ່ານໄດ້ຮັບການອັບເກຣດເປັນ Premium Supporter ແລ້ວ",
-                            "body": "ຊົມເຊີຍ! ດຽວນີ້ເຈົ້າເປັນ Premium Supporter. ເພີດເພີນໄປກັບຄຸນສົມບັດທັງໝົດດຽວນີ້!"
-                        },
-                        "successful_payment": {
-                            "body": "",
-                            "header": "ສະບາຍດີ {name}, ພວກເຮົາໄດ້ຮັບການຈ່າຍເງິນຂອງເຈົ້າສຳເລັດແລ້ວ"
-                        },
-                        "min_3": {
-                            "body": ""
-                        },
-                        "successful": {
-                            "body": "ຂໍ​ຂອບ​ໃຈ​ທ່ານ​ສໍາ​ລັບ​ການ​ສະ​ຫມັກ​ກັບ {product}. ດຽວນີ້, ທ່ານສາມາດໄດ້ຮັບ Twibbon ໂດຍບໍ່ມີລາຍນ້ຳ ແລະປະສົບການທີ່ບໍ່ມີໂຄສະນາ!"
-                        },
-                        "exp_day": {
-                            "header": "ສະບາຍດີ {name}, ການຈ່າຍເງິນຂອງເຈົ້າບໍ່ຜ່ານ",
-                            "body": "ກະລຸນາອັບເດດຂໍ້ມູນໃບບິນຂອງທ່ານກ່ອນ {date_plus_7} ເພື່ອເພີດເພີນໄປກັບຄຸນສົມບັດສະເພາະ, ການທ່ອງເວັບແບບບໍ່ມີໂຄສະນາ ແລະ Twibbon ທີ່ບໍ່ມີລາຍນໍ້າ."
-                        },
-                        "plus_2": {
-                            "header": "ສະບາຍດີ {name}, ການສະໝັກໃຊ້ຂອງທ່ານຈະສິ້ນສຸດໃນ 48 ຊົ່ວໂມງ",
-                            "body": "ຕໍ່ອາຍຸແຜນການຂອງທ່ານດຽວນີ້ເພື່ອເພີດເພີນໄປກັບ Twibbon ທີ່ບໍ່ມີລາຍນ້ຳ ແລະປະສົບການທີ່ບໍ່ມີໂຄສະນາ."
-                        },
-                        "plus_7": {
-                            "header": "ສະບາຍດີ {name} , ບັນຊີຂອງທ່ານໄດ້ດາວເກຣດເປັນ Twibbonize Free"
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "ສະບາຍດີ {name} , ບັນຊີຂອງທ່ານໄດ້ດາວເກຣດເປັນ Twibbonize Free",
-                                "body": "ກະລຸນາຕໍ່ອາຍຸການສະໝັກໃຊ້ຂອງທ່ານເພື່ອສືບຕໍ່ນຳໃຊ້ຄຸນສົມບັດ {product} ."
-                            }
-                        },
-                        "plus_5": {
-                            "header": "ສະບາຍດີ {name} , ບັນຊີຂອງທ່ານໄດ້ດາວເກຣດເປັນ Twibbonize Free",
-                            "body": "ກະລຸນາຕໍ່ອາຍຸການສະໝັກໃຊ້ຂອງທ່ານເພື່ອສືບຕໍ່ນຳໃຊ້ຄຸນສົມບັດ {product} ."
-                        }
-                    },
-                    "period_changed": {
-                        "header": "ສະບາຍດີ {name}, ພວກເຮົາໄດ້ຮັບການຮ້ອງຂໍໃຫ້ປ່ຽນແຜນຂອງເຈົ້າແລ້ວ",
-                        "body": "ບັນຊີຂອງທ່ານຈະຖືກປ່ຽນເປັນ {product} ໃນຕອນທ້າຍຂອງຮອບບິນຂອງທ່ານ."
-                    },
-                    "cancel_change_period": {
-                        "header": "ສະບາຍດີ {name}, ພວກເຮົາໄດ້ຮັບຄໍາຮ້ອງຂໍຂອງທ່ານໃຫ້ຍົກເລີກການປ່ຽນແປງແຜນ",
-                        "body": "ການສະໝັກໃຊ້ຂອງທ່ານຈະສືບຕໍ່ເປັນ Premium Creator."
-                    }
-                },
-                "india": {
-                    "auth": {
-                        "exp_day": {
-                            "header": "ສະບາຍດີ {name}, ກະລຸນາຢືນຢັນການຈ່າຍເງິນຂອງທ່ານສຳລັບການສະໝັກດຽວນີ້",
-                            "body": "ເພື່ອຮັບປະກັນການປະຕິບັດຕາມກົດລະບຽບຄວາມປອດໄພ, ພວກເຮົາຕ້ອງການການຢືນຢັນຢ່າງຈະແຈ້ງຂອງທ່ານສໍາລັບການຈ່າຍເງິນທີ່ເກີດຂຶ້ນຊ້ຳໆໃນການສະໝັກໃຊ້ Twibbonize ຂອງທ່ານ."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "ດຽວນີ້, ທ່ານສາມາດໄດ້ຮັບ Twibbon ໂດຍບໍ່ມີລາຍນ້ຳ ແລະປະສົບການທີ່ບໍ່ມີໂຄສະນາ!",
-                        "header": "ສະບາຍດີ {name}, ການຈ່າຍເງິນຂອງເຈົ້າໄດ້ຮັບແລ້ວ"
-                    },
-                    "exp_day": {
-                        "body": "ຕໍ່ອາຍຸ ຫຼືອັບເກຣດການສະໝັກໃຊ້ຂອງທ່ານກ່ອນ {date_plus_7} ເພື່ອສືບຕໍ່ເພີດເພີນໄປກັບຄຸນສົມບັດພິເສດສະເພາະ, ການຊອກຫາແບບບໍ່ມີໂຄສະນາ ແລະ Twibbon ທີ່ບໍ່ມີລາຍນໍ້າ.",
-                        "header": "ສະບາຍດີ {name}, ການສະໝັກໃຊ້ {product} ຂອງທ່ານໝົດອາຍຸແລ້ວ"
-                    },
-                    "plus_5": {
-                        "body": "ຕໍ່ອາຍຸແຜນການຂອງທ່ານພາຍໃນ 48 ຊົ່ວໂມງເພື່ອສືບຕໍ່ເພີດເພີນກັບ Twibbon ທີ່ບໍ່ມີລາຍນ້ຳ ແລະປະສົບການທີ່ບໍ່ມີໂຄສະນາ.",
-                        "header": "ສະບາຍດີ {name}, ການສະໝັກໃຊ້ຂອງທ່ານຈະສິ້ນສຸດໃນ 48 ຊົ່ວໂມງ"
-                    },
-                    "min_3": {
-                        "body": "ຕໍ່ອາຍຸ ຫຼືອັບເກຣດການສະໝັກໃຊ້ຂອງທ່ານດຽວນີ້ເພື່ອສືບຕໍ່ເພີດເພີນໄປກັບການຊອກຫາແບບບໍ່ມີໂຄສະນາ ແລະ Twibbon ທີ່ບໍ່ມີລາຍນ້ຳ.",
-                        "header": "ສະບາຍດີ {name}, {product} ຂອງທ່ານຈະໝົດອາຍຸໃນ 3 ມື້"
-                    },
-                    "plus_7": {
-                        "body": "ກະລຸນາຕໍ່ອາຍຸການສະໝັກໃຊ້ຂອງທ່ານເພື່ອສືບຕໍ່ນຳໃຊ້ຄຸນສົມບັດ {product} ."
-                    }
-                }
-            },
-            "launch": {
-                "prem_sub": {
-                    "min_1": {
-                        "header": "ການສະໝັກໃຊ້ Twibbonize Premium ໃໝ່",
-                        "body": "ຂໍແນະນຳການສະໝັກໃຊ້ Premium ໃໝ່ຂອງ Twibbonize - ເປີດຕົວໃນວັນທີ 8 ກໍລະກົດນີ້!"
-                    }
-                },
-                "short_link": {
-                    "min_1": {
-                        "header": "ລິ້ງສັ້ນ Twibbonize ໃໝ່",
-                        "body": "ຂໍແນະນຳຕົວເຊື່ອມຕໍ່ສັ້ນໃໝ່ຂອງ Twibbonize - ປ່ຽນວັນທີ 8 ກໍລະກົດ!"
-                    }
-                }
-            },
-            "campaign_addon": {
-                "adfree_quota_remaining": {
-                    "header": "ຍັງເຫຼືອໂຄຕ້າບໍ່ມີໂຄສະນາ",
-                    "body": "ທ່ານມີໂຄຕ້າທີ່ບໍ່ມີການໂຄສະນາທີ່ຍັງເຫຼືອສໍາລັບ 50 ຜູ້ສະຫນັບສະຫນູນໃນ {campaignlink}. ເພີດເພີນໄປກັບປະສົບການທີ່ບໍ່ມີໂຄສະນາໃນຂະນະທີ່ມັນຢູ່!"
-                },
-                "adfree_quota_runout": {
-                    "header": "ໂຄຕ້າບໍ່ມີໂຄສະນາໝົດແລ້ວ",
-                    "body": "ຜູ້ສະຫນັບສະຫນູນ {campaignlink} ຂອງທ່ານຈະເລີ່ມເຫັນໂຄສະນາໃນຂະນະທີ່ຊອກຫາຢູ່ໃນເວທີຂອງພວກເຮົາ."
-                }
-            },
-            "new_post": {
-                "header": "Twibbon ໃໝ່ ປະກາດ",
-                "body": "{participant} ໂພສ Twibbon ໃນຄັງຮູບພາບຂອງແຄມເປນ {title} !"
-            },
-            "new_comment": {
-                "header": "ຄຳເຫັນໃໝ່!",
-                "body": "{participant} ຂຽນຄຳເຫັນໃສ່ໂພສຂອງທ່ານໃນແຄມເປນ {title}!"
-            },
-            "new_reply": {
-                "header": "ຕອບກັບໃໝ່!",
-                "body": "{participant} ໄດ້ສະແດງຄວາມຄິດເຫັນຂອງທ່ານຢູ່ໃນແຄມເປນ {title} !"
-            }
-        }
-    },
     "page_analytics": {
         "time": {
             "today": "ມື້​ນີ້",
@@ -1581,7 +1363,6 @@
         },
         "graph": {
             "page": "ໜ້າ {currentPage} ຂອງ {totalPage}",
-            "data_displayed": "ຂໍ້ມູນສະແດງຢູ່ໃນເຂດເວລາ UTC (UTC+0)",
             "trend": "ທ່າອ່ຽງ",
             "country": "ປະເທດ",
             "city": "ເມືອງ",
@@ -1594,7 +1375,8 @@
             "visit": "ຢ້ຽມຢາມ",
             "visit_detail": "ຈໍານວນກອງປະຊຸມຄົ້ນຫາດຽວທີ່ໄດ້ໄປຢ້ຽມຢາມຫນ້າແຄມເປນຂອງທ່ານ",
             "unique_visit": "ການຢ້ຽມຢາມເປັນເອກະລັກ",
-            "unique_visit_detail": "ຈໍານວນຄົນທີ່ໄດ້ໄປຢ້ຽມຢາມຫນ້າແຄມເປນຂອງທ່ານ"
+            "unique_visit_detail": "ຈໍານວນຄົນທີ່ໄດ້ໄປຢ້ຽມຢາມຫນ້າແຄມເປນຂອງທ່ານ",
+            "data_displayed": "ຂໍ້ມູນສະແດງຢູ່ໃນເຂດເວລາ UTC+0"
         }
     },
     "page_account": {
@@ -1602,8 +1384,6 @@
             "email": "ອີເມວ",
             "password": "ລະຫັດຜ່ານ",
             "confirm_password": "ຢືນ​ຢັນ​ລະ​ຫັດ",
-            "login_with_google": "ເຂົ້າສູ່ລະບົບດ້ວຍ Google",
-            "login_with_facebook": "ເຂົ້າສູ່ລະບົບດ້ວຍ Facebook",
             "login_with_email": "ຫຼືເຂົ້າສູ່ລະບົບດ້ວຍອີເມວ",
             "signup_with_google": "ລົງທະບຽນກັບ Google",
             "signup_with_facebook": "ລົງທະບຽນກັບ Facebook",
@@ -1616,7 +1396,9 @@
             "signup": "ລົງ​ທະ​ບຽນ",
             "terms": "ເງື່ອນໄຂ",
             "privacy": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ",
-            "name": ""
+            "name": "ຊື່",
+            "login_with_facebook": "ເຂົ້າສູ່ລະບົບດ້ວຍ Facebook",
+            "login_with_google": "ເຂົ້າສູ່ລະບົບດ້ວຍ Google"
         }
     },
     "page_article": {
@@ -1625,98 +1407,95 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "ເຂົ້າສູ່ລະບົບເພື່ອ Post to Twibbonize",
+        "sign_in_to_comment": "ເຂົ້າສູ່ລະບົບເພື່ອອອກຄໍາເຫັນ",
+        "sign_in_to_like": "ເຂົ້າສູ່ລະບົບເພື່ອ Like",
+        "sign_up_to_post": "ລົງທະບຽນເພື່ອ Post to Twibbonize",
+        "sign_up_to_comment": "ລົງທະບຽນເພື່ອອອກຄໍາເຫັນ",
+        "sign_up_to_like": "ລົງທະບຽນເພື່ອ Like",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "ເຂົ້າສູ່ລະບົບສຳເລັດແລ້ວ! ຍິນ​ດີ​ຕ້ອນ​ຮັບ​ກັບ.",
+                "error": "ເຂົ້າສູ່ລະບົບລົ້ມເຫລວ. ກະລຸນາກວດເບິ່ງຂໍ້ມູນປະຈຳຕົວຂອງເຈົ້າແລ້ວລອງໃໝ່ອີກຄັ້ງ."
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "ສະໝັກສຳເລັດ! ຍິນດີຕ້ອນຮັບຂຶ້ນເຮືອ.",
+                "error": "ສະໝັກບໍ່ສຳເລັດ. ກະລຸນາກວດເບິ່ງລາຍລະອຽດຂອງເຈົ້າແລ້ວລອງໃໝ່ອີກຄັ້ງ."
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "ລົງທະບຽນອີເມວແລ້ວ",
+        "email_registered_lead": "ອີເມວນີ້ຖືກລົງທະບຽນແລ້ວ. ທ່ານຕ້ອງການເຂົ້າສູ່ລະບົບແທນບໍ?"
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "ຢືນຢັນການລຶບ",
+            "delete_lead": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບໂພສນີ້? ຄຳສັ່ງນີ້ບໍ່ສາມາດຍົກເລີກໄດ້.",
+            "delete_yes": "ແມ່ນແລ້ວ, ລຶບ",
+            "delete_no": "ຍົກເລີກ"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "ແບ່ງປັນຂໍ້ຄວາມຂອງທ່ານ",
+            "logged_in_placeholder": "ຂຽນຄຳເຫັນໃນ {name}",
+            "comment_posted": "ຂຽນຄຳເຫັນ",
+            "comment_deleted": "ລຶບຄຳເຫັນອອກແລ້ວ",
+            "reply_deleted": "ລຶບການຕອບກັບແລ້ວ"
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "ອັບໂຫຼດໂພສ",
+            "hidden": "ເຊື່ອງໄວ້",
+            "unhidden": "ບໍ່ໄດ້ເຊື່ອງໄວ້",
+            "reported": "ລາຍງານ",
+            "deleted": "ລຶບແລ້ວ",
+            "pinned": "ປັກໝຸດ",
+            "unpinned": "ຖອດປັກໝຸດແລ້ວ"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "ລາຍງານແຄມເປນ",
+        "report_profile": "ລາຍງານໂປຣໄຟລ໌",
+        "abusive_or_harmful": "ລ່ວງລະເມີດ ຫຼືເປັນອັນຕະລາຍ",
+        "pretending_to_be_someone_else": "ທຳທ່າເປັນຄົນອື່ນ",
+        "sensitive_content": "ເນື້ອໃນທີ່ລະອຽດອ່ອນ",
+        "plagiarism": "ການຫຼອກລວງ",
+        "impersonation": "ການປອມຕົວ",
+        "piracy": "ການລະເມີດລິຂະສິດ",
+        "nudity_pornography": "ການໂປ້ເປືອຍ & ຮູບລາມົກ",
+        "dangerous_or_harmful": "ອັນຕະລາຍຫຼືເປັນອັນຕະລາຍ",
+        "harassment_cyberbullying": "ການຂົ່ມເຫັງ & ການຂົ່ມເຫັງທາງອິນເຕີເນັດ",
+        "provocative_threatening_content": "ເນື້ອຫາກະຕຸ້ນ ແລະຂົ່ມຂູ່",
+        "privacy_violations": "ການລະເມີດຄວາມເປັນສ່ວນຕົວ",
+        "unauthorized_use_of_personal_information": "ການນໍາໃຊ້ຂໍ້ມູນສ່ວນຕົວໂດຍບໍ່ໄດ້ຮັບອະນຸຍາດ",
+        "child_exploitation": "ການຂູດຮີດເດັກນ້ອຍ",
+        "harassment": "ການຂົ່ມເຫັງ",
+        "terrorism": "ການກໍ່ການຮ້າຍ",
+        "violence": "ຄວາມຮຸນແຮງ",
+        "false_information": "ຂໍ້ມູນທີ່ບໍ່ຖືກຕ້ອງ",
+        "health": "ສຸ​ຂະ​ພາບ",
+        "politics": "ການເມືອງ",
+        "social_issue": "ບັນຫາສັງຄົມ",
+        "hate_speech": "ຄຳເວົ້າກຽດຊັງ",
+        "disability_or_disease": "ຄວາມພິການຫຼືພະຍາດ",
+        "race_or_ethnicity": "ເຊື້ອຊາດຫຼືຊົນເຜົ່າ",
+        "religious_affiliation": "ການຕິດພັນກັບສາສະໜາ",
+        "sexual_orientation": "ທັດສະນະທາງເພດ",
+        "nudity": "ການເປືອຍກາຍ",
+        "suicide_or_self_harm": "ການຂ້າຕົວຕາຍ ຫຼື ການທຳຮ້າຍຕົນເອງ",
+        "vulgar_language": "ພາສາຫຍາບຄາຍ",
+        "dangerous_content": "ເນື້ອຫາອັນຕະລາຍ",
+        "why_report_campaign": "ເປັນຫຍັງເຈົ້າຈຶ່ງລາຍງານແຄມເປນນີ້?",
+        "why_report_profile": "ເປັນຫຍັງເຈົ້າຈຶ່ງລາຍງານໂປຣໄຟລ໌ນີ້?",
+        "why_report_submission": "ເປັນຫຍັງເຈົ້າຈຶ່ງລາຍງານການຍື່ນສະເໜີນີ້?",
+        "why_report_comment_reply": "ເປັນຫຍັງເຈົ້າຈຶ່ງລາຍງານຄຳເຫັນນີ້?",
+        "why_report_collection": "ເປັນຫຍັງເຈົ້າຈຶ່ງລາຍງານຄໍເລັກຊັນນີ້?",
+        "select_one": "ກະລຸນາເລືອກອັນໜຶ່ງ",
+        "protect_privacy_reporter": "ຂໍ້ແນະນຳຊຸມຊົນ Twibbonize ປົກປ້ອງຄວາມເປັນສ່ວນຕົວຂອງຕົວຕົນຂອງນັກຂ່າວ.",
+        "tell_us_more": "ບອກພວກເຮົາເພີ່ມເຕີມ",
+        "received_report": "ພວກເຮົາໄດ້ຮັບລາຍງານຂອງເຈົ້າແລ້ວ!",
+        "thankyou": "ຂອບ​ໃຈ! ກະ​ລຸ​ນາ​ອະ​ນຸ​ຍາດ​ໃຫ້​ພວກ​ເຮົາ​ເພື່ອ​ສືບ​ສວນ​ການ​ລາຍ​ງານ​ຂອງ​ທ່ານ​, ແລະ​ພວກ​ເຮົາ​ຈະ​ສົ່ງ​ຄໍາ​ຄຶດ​ຄໍາ​ເຫັນ​ກັບ​ອີ​ເມລ​໌​ຂອງ​ທ່ານ​ໄວ​ທີ່​ສຸດ​.",
+        "learn_more_about": "ສຶກສາເພີ່ມເຕີມກ່ຽວກັບ {link} .",
+        "community_guideline": "ຂໍ້ແນະນຳຊຸມຊົນ Twibbonize",
+        "placeholder_write_here": "ຂຽນທີ່ນີ້",
+        "report_sent": "ສົ່ງລາຍງານແລ້ວ"
     },
     "page_editor": {
         "general": {
@@ -1754,10 +1533,10 @@
         "upload": {
             "upload_image": "ອັບໂຫຼດຮູບ",
             "upload": "ອັບໂຫຼດ",
-            "type": "",
-            "size": "",
-            "type_image": "",
-            "maximum_size": ""
+            "type": "ປະເພດ:",
+            "size": "ຂະໜາດ:",
+            "type_image": "JPG, PNG ຫຼື SVG",
+            "maximum_size": "ສູງສຸດ 5 MB"
         },
         "toolbar": {
             "copy": "ສຳເນົາ",
@@ -1781,8 +1560,7 @@
             "lock": "ລັອກ",
             "letter_spacing": "ຊ່ອງຫວ່າງຕົວອັກສອນ",
             "line_spacing": "ໄລຍະຫ່າງແຖວ",
-            "border_weight": "",
-            "corner_rounding": "",
+            "border_weight": "ນ້ຳໜັກຊາຍແດນ",
             "align": "ຈັດຮຽງ",
             "effects": "ຜົນກະທົບ"
         },
@@ -1822,15 +1600,203 @@
     },
     "page__campaign_creation": {
         "campaign_preview": {
-            "campaign_description": "",
+            "campaign_description": "ລາຍລະອຽດແຄມເປນ",
             "campaign_title": "ຊື່ແຄມເປນ"
         }
     },
     "page_my_campaign": {
         "edit_campaign": {
             "campaigns": "ແຄມເປນ",
-            "frames": "",
-            "analytics": ""
+            "frames": "ກອບ",
+            "analytics": "ການວິເຄາະ"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "ເປັນຫຍັງເຈົ້າຈຶ່ງລາຍງານໂພສນີ້?",
+            "plagiarism ": "ການຫຼອກລວງ",
+            "impersonation ": "ການປອມຕົວ ",
+            "piracy ": "ການລະເມີດລິຂະສິດ",
+            "vulgar_language": "ພາສາຫຍາບຄາຍ",
+            "nudity_pornography": "ການໂປ້ເປືອຍ & ຮູບລາມົກ",
+            "suicidal_self_harm": "ເນື້ອຫາຂ້າຕົວຕາຍ ແລະທຳຮ້າຍຕົນເອງ ",
+            "danger": "ອັນຕະລາຍ ຫຼືເປັນອັນຕະລາຍ ",
+            "violent_graphic_content": "ເນື້ອໃນກາຟິກທີ່ຮຸນແຮງ",
+            "harassment_cyberbullying": "ການຂົ່ມເຫັງ & ການຂົ່ມເຫັງທາງອິນເຕີເນັດ ",
+            "provocative_threatening_content": "ເນື້ອຫາກະຕຸ້ນ ແລະຂົ່ມຂູ່",
+            "spam": "ຂີ້ເຫຍື້ອ"
+        },
+        "report_comment": {
+            "title": "ເປັນຫຍັງເຈົ້າຈຶ່ງລາຍງານຄຳເຫັນນີ້?",
+            "abusive_harmful": "ລ່ວງລະເມີດ ຫຼືເປັນອັນຕະລາຍ",
+            "harassment": "ການຂົ່ມເຫັງ",
+            "terrorism": "ການກໍ່ການຮ້າຍ",
+            "violence": "ຄວາມຮຸນແຮງ",
+            "false_information": "",
+            "health": "ສຸ​ຂະ​ພາບ",
+            "politics": "ການເມືອງ",
+            "social_issue": "ບັນຫາສັງຄົມ",
+            "sensitive_content": "ເນື້ອໃນທີ່ລະອຽດອ່ອນ ",
+            "nudity": "ການເປືອຍກາຍ",
+            "vulgar_language": "ພາສາຫຍາບຄາຍ",
+            "hate_speech": "ຄຳເວົ້າກຽດຊັງ",
+            "disability_disease": "ຄວາມພິການຫຼືພະຍາດ",
+            "race_or_ethnicity": "ເຊື້ອຊາດຫຼືຊົນເຜົ່າ",
+            "religious_affiliation": "ການ​ເຊື່ອມ​ໂຍງ​ທາງ​ສາດ​ສະ​ຫນາ​ ",
+            "sexual_orientation": "ປະຖົມນິເທດທາງເພດ",
+            "spam": "ຂີ້ເຫຍື້ອ"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "URL ບໍ່ຖືກຕ້ອງ"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "ປະຕິບັດການເຂົ້າສູ່ລະບົບ Google ບໍ່ສຳເລັດ",
+        "failed_apple_login": "ປະຕິບັດການເຂົ້າສູ່ລະບົບ Apple ລົ້ມເຫລວ"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "ໄຟລ໌ຮູບພາບເກີນຂະໜາດສູງສຸດ 5MB",
+            "cannot_create_twibbon": "ບໍ່ສາມາດສ້າງ Twibbon ໄດ້. ລອງ​ອີກ​ຄັ້ງ"
+        },
+        "log_in": {
+            "complete_verification": "ສໍາເລັດການກວດສອບເພື່ອສືບຕໍ່",
+            "email_no_password": "ອີເມວນີ້ບໍ່ມີລະຫັດຜ່ານ. ເຂົ້າສູ່ລະບົບຜ່ານ Google",
+            "social_media_already_registered": "ອີເມວຂອງບັນຊີສື່ມວນຊົນສັງຄົມຂອງທ່ານໄດ້ຖືກລົງທະບຽນແລ້ວແລະເຊື່ອມຕໍ່ກັບບັນຊີອື່ນຈາກບໍລິການສື່ສັງຄົມທີ່ຄ້າຍຄືກັນ. ກະລຸນາລອງເຂົ້າສູ່ລະບົບໂດຍໃຊ້ແບບຟອມອີເມວ ແລະລະຫັດຜ່ານ."
+        },
+        "sign_up": {
+            "email_already_registered": "ອີເມວນີ້ຖືກລົງທະບຽນແລ້ວ. ໃຊ້ອີເມວອື່ນ ຫຼືລອງເຂົ້າສູ່ລະບົບ",
+            "password_minimum_required": "ລະຫັດຜ່ານຕ້ອງມີຢ່າງໜ້ອຍ 8 ຕົວອັກສອນ.",
+            "password_character_exceeded": "ລະຫັດຜ່ານຈະຕ້ອງບໍ່ເກີນ 128 ຕົວອັກສອນ",
+            "password_must_be_standard": "ລະຫັດຜ່ານຕ້ອງເປັນຕົວເລກມາດຕະຖານ",
+            "password_does_not_match": "ການຢືນຢັນລະຫັດຜ່ານບໍ່ກົງກັນ. ລອງ​ອີກ​ຄັ້ງ"
+        },
+        "verification": {
+            "code_incorrect": "ລະຫັດບໍ່ຖືກຕ້ອງ. ລອງ​ອີກ​ຄັ້ງ",
+            "code_expired": "ລະຫັດໝົດອາຍຸແລ້ວ. ຂໍອັນໃໝ່",
+            "maximum_attempt_reached": "ບັນລຸຄວາມພະຍາຍາມສູງສຸດ. ລອງໃໝ່ໃນອີກ 5 ຊົ່ວໂມງ",
+            "code_requested_exceeded": "ການຮ້ອງຂໍລະຫັດເກີນຂອບເຂດຈໍາກັດສູງສຸດ"
+        },
+        "forgot_password": {
+            "email_not_found": "ບໍ່ພົບອີເມວ. ລອງອີກຄັ້ງ ຫຼືສະໝັກ",
+            "link_expired": "ລິ້ງເພື່ອປ່ຽນລະຫັດຜ່ານໝົດອາຍຸແລ້ວ. ຂໍອັນໃໝ່",
+            "link_used": "ການເຊື່ອມຕໍ່ເພື່ອປ່ຽນລະຫັດຜ່ານໄດ້ຖືກນໍາໃຊ້. ຂໍອັນໃໝ່"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "ໄຟລ໌ກອບມີຂະໜາດເກີນຂະໜາດສູງສຸດ 5MB",
+            "background_file_exceed": "ໄຟລ໌ພື້ນຫຼັງເກີນຂະໜາດສູງສຸດ 5MB",
+            "image_not_transparent": "ຮູບພາບຕ້ອງມີຄວາມໂປ່ງໃສ. ລອງ​ອີກ​ຄັ້ງ",
+            "invalid_format": "ຮູບແບບໄຟລ໌ບໍ່ຖືກຕ້ອງ. ໃຊ້ຮູບແບບທີ່ຮອງຮັບ",
+            "allow_only_1_frame": "ບັນຊີຟຣີອະນຸຍາດໃຫ້ອັບໂຫລດພຽງແຕ່ 1 ເຟຣມ. ອັບເກຣດເພື່ອສືບຕໍ່",
+            "allow_only_1_background": "ບັນຊີຟຣີອະນຸຍາດໃຫ້ອັບໂຫລດພື້ນຫຼັງໄດ້ພຽງແຕ່ 1 ອັນ. ອັບເກຣດເພື່ອສືບຕໍ່",
+            "campaign_title_exceed_limit": "ຊື່ແຄມເປນເກີນຂີດຈຳກັດຕົວອັກສອນສູງສຸດ",
+            "description_exceed_limit": "ຄຳອະທິບາຍເກີນຂີດຈຳກັດຕົວອັກສອນສູງສຸດ",
+            "link_unavailable": "ລິ້ງແຄມເປນຖືກໃຊ້ແລ້ວ. ເລືອກອັນອື່ນ",
+            "link_criteria": "ລິ້ງແຄມເປນຕ້ອງເປັນຕົວເລກ ແລະຕົວເລກ (-)",
+            "caption_exceed_limit": "ແມ່ແບບຄຳບັນຍາຍເກີນຂີດຈຳກັດຕົວອັກສອນສູງສຸດ",
+            "background_exceed_limit": "ໄຟລ໌ພື້ນຫຼັງເກີນຂະໜາດສູງສຸດ 5MB",
+            "photo_exceed_limit": "ໄຟລ໌ຮູບຂະໜາດນ້ອຍເກີນຂະໜາດສູງສຸດ 5MB",
+            "link_exceed_limit": "ລິ້ງແຄມເປນເກີນຂີດຈຳກັດຕົວອັກສອນສູງສຸດ"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "ໄຟລ໌ກອບມີຂະໜາດເກີນຂະໜາດສູງສຸດ 5MB",
+            "background_file_exceed": "ໄຟລ໌ພື້ນຫຼັງເກີນຂະໜາດສູງສຸດ 5MB"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "ຮູບພາບຕ້ອງມີຄວາມໂປ່ງໃສ. ລອງ​ອີກ​ຄັ້ງ",
+            "invalid_format": "ຮູບແບບໄຟລ໌ບໍ່ຖືກຕ້ອງ. ໃຊ້ຮູບແບບທີ່ຮອງຮັບ",
+            "allow_only_1_frame": "ບັນຊີຟຣີອະນຸຍາດໃຫ້ອັບໂຫລດພຽງແຕ່ 1 ເຟຣມ. ອັບເກຣດເພື່ອສືບຕໍ່",
+            "allow_only_1_background": "ບັນຊີຟຣີອະນຸຍາດໃຫ້ອັບໂຫລດພື້ນຫຼັງໄດ້ພຽງແຕ່ 1 ອັນ. ອັບເກຣດເພື່ອສືບຕໍ່",
+            "campaign_title_exceed_limit": "ຊື່ແຄມເປນເກີນຂີດຈຳກັດຕົວອັກສອນສູງສຸດ",
+            "description_exceed_limit": "ຄຳອະທິບາຍເກີນຂີດຈຳກັດຕົວອັກສອນສູງສຸດ",
+            "link_unavailable": "ລິ້ງແຄມເປນຖືກໃຊ້ແລ້ວ. ເລືອກອັນອື່ນ",
+            "link_criteria": "ລິ້ງແຄມເປນຕ້ອງເປັນຕົວເລກ ແລະຕົວເລກ (-)",
+            "link_exceed_limit": "ລິ້ງແຄມເປນເກີນຂີດຈຳກັດຕົວອັກສອນສູງສຸດ",
+            "caption_exceed_limit": "ແມ່ແບບຄຳບັນຍາຍເກີນຂີດຈຳກັດຕົວອັກສອນສູງສຸດ",
+            "background_exceed_limit": "ໄຟລ໌ພື້ນຫຼັງເກີນຂະໜາດສູງສຸດ 5MB",
+            "thumbnail_exceeds": "ໄຟລ໌ຮູບຂະໜາດນ້ອຍເກີນຂະໜາດສູງສຸດ 5MB"
+        },
+        "settings": {
+            "profile_image_exceed": "ຮູບໂປຣໄຟລ໌ເກີນຂີດຈຳກັດສູງສຸດ 5MB",
+            "background_image_exceed": "ຮູບພາບພື້ນຫຼັງເກີນຂະໜາດສູງສຸດ 5MB",
+            "username_unavailable": "ຊື່ຜູ້ໃຊ້ຖືກເອົາໄປກ່ອນແລ້ວ. ລອງອັນອື່ນ",
+            "username_exceed_limit": "ຊື່ຜູ້ໃຊ້ເກີນຂີດຈຳກັດຕົວອັກສອນສູງສຸດ",
+            "username_invalid": "ຊື່ຜູ້ໃຊ້ບໍ່ຖືກຕ້ອງ. ລອງອີກຄັ້ງດ້ວຍຮູບແບບທີ່ຖືກຕ້ອງ",
+            "display_exceed_limit": "ຊື່ສະແດງເກີນຂີດຈຳກັດຕົວອັກສອນສູງສຸດ",
+            "bio_exceed_limit": "Bio ເກີນຂີດຈຳກັດຕົວອັກສອນສູງສຸດ",
+            "email_already_registered": "ລົງທະບຽນອີເມວແລ້ວ. ລອງອັນອື່ນ",
+            "password_incorrect": "ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ. ລອງ​ອີກ​ຄັ້ງ",
+            "password_minimum_character": "ລະຫັດຜ່ານຕ້ອງມີຢ່າງໜ້ອຍ 8 ຕົວອັກສອນ",
+            "password_maximum_character": "ລະຫັດຜ່ານຈະຕ້ອງບໍ່ເກີນ 128 ຕົວອັກສອນ",
+            "password_standard_format": "ລະຫັດຜ່ານຕ້ອງປະຕິບັດຕາມຮູບແບບມາດຕະຖານທີ່ເປັນຕົວເລກ",
+            "account_deleted": "ລຶບບັນຊີແລ້ວ",
+            "account_integrated": "ບັນຊີປະສົມປະສານ",
+            "account_revoked": "ບັນຊີຖືກຖອນຄືນ"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "ພາກສ່ວນ \"ບອກພວກເຮົາເພີ່ມເຕີມ\" ເກີນຂີດຈຳກັດຕົວອັກສອນສູງສຸດ"
+        },
+        "general": {
+            "something_went_wrong": "ມີບາງຢ່າງຜິດພາດ"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "ຈໍານວນແຄມເປນທີ່ເພີ່ມເຂົ້າມາເກີນຂີດຈຳກັດສູງສຸດ",
+            "description_exceeds": "ຄຳອະທິບາຍເກີນຂີດຈຳກັດຕົວອັກສອນສູງສຸດ",
+            "title_exceeds": "ຊື່ຄໍເລັກຊັນເກີນຂີດຈຳກັດຕົວອັກສອນສູງສຸດ"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "ສຳເນົາລິ້ງແລ້ວ",
+            "social_media_already_linked": "ບັນຊີສື່ສັງຄົມທີ່ເຊື່ອມໂຍງແລ້ວກັບບັນຊີ Twibbonize ອື່ນ. ລອງອັນອື່ນ"
+        },
+        "campaign_creation": {
+            "link_available": "ລິ້ງມີໃຫ້"
+        },
+        "campaign_edit": {
+            "link_available": "ລິ້ງມີໃຫ້"
+        },
+        "settings": {
+            "photo_updated": "ອັບເດດຮູບແລ້ວ",
+            "banner_updated": "ອັບເດດປ້າຍໂຄສະນາແລ້ວ",
+            "banner_deleted": "ປ້າຍໂຄສະນາຖືກລຶບ",
+            "photo_deleted": "ລຶບຮູບແລ້ວ",
+            "password_updated": "ອັບເດດລະຫັດຜ່ານ",
+            "email_updated": "ອັບເດດອີເມວແລ້ວ"
+        },
+        "my_profile": {
+            "campaign_deleted": "ລຶບແຄມເປນແລ້ວ"
+        },
+        "collection": {
+            "campaign_added": "ເພີ່ມແຄມເປນແລ້ວ"
+        },
+        "campaign_page": {
+            "account_upgraded": "ອັບເກຣດບັນຊີແລ້ວ",
+            "link_copied": "ສຳເນົາລິ້ງແລ້ວ"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "ບໍ່ພົບອີເມວ. ລອງອີກຄັ້ງ ຫຼືສະໝັກ"
+        },
+        "password": {
+            "password_incorrect": "ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ. ລອງ​ອີກ​ຄັ້ງ"
+        },
+        "maximum_attempt": "ບັນລຸຄວາມພະຍາຍາມສູງສຸດ. ລອງໃໝ່ໃນອີກ 1 ຊົ່ວໂມງ"
+    },
+    "page_notification": {
+        "no_notification_heading": "ບໍ່ມີການແຈ້ງເຕືອນເທື່ອ",
+        "no_notification_subheading": "ບໍ່ມີການແຈ້ງເຕືອນໃນຂະນະນີ້"
+    },
+    "page_general": {
+        "no_internet_connection": "ບໍ່ມີການເຊື່ອມຕໍ່ອິນເຕີເນັດ. ແຕະເພື່ອລອງໃໝ່",
+        "could_not_connect_internet": "ບໍ່ສາມາດເຊື່ອມຕໍ່ອິນເຕີເນັດໄດ້. ສະຫຼັບໄປໃຊ້ເຄືອຂ່າຍອື່ນ ແລະລອງໃໝ່ອີກ."
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "ອອກ​ຈາກ​ລະ​ບົບ?"
         }
     }
 }

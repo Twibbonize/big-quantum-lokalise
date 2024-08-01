@@ -35,7 +35,7 @@
             "terms": "Şartlar ve Koşullar",
             "privacy_policy": "Gizlilik Politikası",
             "cookie_policy": "Çerez Politikası",
-            "sitemap": ""
+            "sitemap": "Site Haritası"
         },
         "menu": {
             "explore": "Keşfedin",
@@ -47,11 +47,6 @@
             "sign_in": "Oturum Aç",
             "sign_up": "Kaydolun",
             "sign_out": "Çıkış Yapın"
-        },
-        "campaign": {
-            "supporters": "destekçi|destekçiler",
-            "campaigns": "Kampanyalar",
-            "created": "Oluşturuldu"
         },
         "button": {
             "view_all": "Tümünü Görüntüle",
@@ -71,11 +66,12 @@
             "report": "Rapor etmek",
             "edit": "Düzenle",
             "confirm": "Onaylayın",
-            "okay": "",
+            "okay": "Tamam",
             "view": "Görünüm",
-            "send": "",
-            "more": "",
-            "less": ""
+            "send": "Göndermek",
+            "more": "Daha",
+            "less": "Az",
+            "submit": "Göndermek"
         },
         "time": {
             "week": "Hafta",
@@ -86,9 +82,14 @@
             "annual": "Yıllık",
             "yearly": "Yıllık"
         },
+        "campaign": {
+            "campaigns": "Kampanyalar",
+            "created": "Oluşturuldu",
+            "supporters": "destekçi|destekçi|destekçiler"
+        },
         "collection": {
             "collections": "Koleksiyonlar",
-            "campaigns": "{campaign} Kampanya"
+            "campaigns": "{campaign} Kampanyaları"
         },
         "creator": {
             "creators": "Yaratıcılar"
@@ -108,14 +109,21 @@
             "hide_post": "Gönderiyi Gizle",
             "post_shared": "Paylaşılan gönderi {date}",
             "share_message": "Mesajınızı paylaşın",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "Gönderinin Sabitlemesini Kaldır",
+            "unhide_post": "Gönderiyi Göster"
         },
         "pricing": {
-            "creator_subscribe_to": "",
-            "plan": "",
-            "support_without_watermark": "",
-            "all_supporters_without_watermark": ""
+            "creator_subscribe_to": "Bu Yaratıcı şuna abone oldu:",
+            "plan": "plan",
+            "support_without_watermark": "Filigran olmadan herhangi bir kampanyayı destekleyebilirler!",
+            "all_supporters_without_watermark": "Bu Yaratıcının tüm kampanyalarını filigran olmadan destekleyebilirsiniz!"
+        },
+        "campaign_card": {
+            "a_month_ago": " |Bir ay önce",
+            "a_day_ago": " |Bir gün önce"
+        },
+        "search": {
+            "searching": "Aranıyor..."
         }
     },
     "page_home": {
@@ -262,8 +270,8 @@
         "process": {
             "how_twibbonize_1": "Twibbonize nasıl devrim yaratıyor?",
             "how_twibbonize_2": "Twibbon Kampanyası",
-            "sharing_twibbon_1": "Twibbon'u paylaşmak eskiden karmaşık bir süreçti, biz bile",
-            "sharing_twibbon_2": "Sana açıklamaktan yoruldum."
+            "sharing_twibbon_1": "Twibbon'u paylaşmak eskiden karmaşık bir süreçti,",
+            "sharing_twibbon_2": "artık bunu size açıklamaktan bile yorulduk."
         },
         "frame": {
             "twibbon_frame": "Twibbonize'da Twibbon çerçevelerden daha fazlasıdır",
@@ -334,10 +342,10 @@
             "download": "İndir",
             "reset": "Sıfırla",
             "add_text": "Metin Ekle",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": "",
+            "posting_as": "Şu şekilde yayınlanıyor: ",
+            "not_you": "Sen değil? ",
+            "uploading_photo_to_remove": "Fotoğrafınız yükleniyor ve arka planı kaldırılıyor.",
+            "wait_for_moment": "Biraz bekle...",
             "remove_watermark_for_you_2": "ve resimlerinizin filigransız keyfini çıkarın!",
             "remove_watermark_for_you_1": "Twibbonize'ı reklamsız keşfedin,",
             "remove_watermark_for_you": "Filigranı kaldırın!",
@@ -350,7 +358,6 @@
             "report_profile": "Rapor Profili",
             "plagiarism": "İntihal",
             "sensitive": "Hassas İçerik",
-            "danger": "Tehlikeli Bilgiler",
             "spam": "Spam",
             "why_report_campaign": "Bu kampanyayı neden rapor ediyorsunuz?",
             "protect_reporter": "Twibbonize Topluluk Kuralları, muhabirin kimliğinin gizliliğini korur.",
@@ -359,7 +366,21 @@
             "received_report": "Raporunuzu aldık!",
             "thankyou": "Teşekkür ederiz! Lütfen raporunuzu incelememize izin verin, geri bildirimi mümkün olan en kısa sürede e-postanıza göndereceğiz.",
             "learn_more_about": "{link} hakkında daha fazla bilgi edinin.",
-            "community_guideline": "Twibbonize Topluluk Kuralları"
+            "community_guideline": "Twibbonize Topluluk Kuralları",
+            "title": "Bu kampanyayı neden rapor ediyorsunuz?",
+            "danger": "Tehlikeli veya Zararlı ",
+            "impersonation": "Taklitçilik ",
+            "piracy": "Korsanlık",
+            "vulgar_language": "Kaba Dil",
+            "nudity_pornography": "Çıplaklık & Pornografi",
+            "suicidal_self_harm": "İntihar ve Kendine Zarar Verme İçeriği ",
+            "violent_graphic_content": "Şiddet İçeren Grafik İçerik",
+            "harassment_cyberbullying": "Taciz ve Siber Zorbalık",
+            "proactive_threatening_content": "Kışkırtıcı ve Tehdit Edici İçerik",
+            "statement": "Twibbonize Topluluk Kuralları muhabirin kimliğinin gizliliğini korur.",
+            "read_more_copy": "Daha fazla bilgi edinin",
+            "please_select_one": "Lütfen birini seçin",
+            "write_a_message": "Bir mesaj yazın"
         },
         "discard": {
             "discard_edit": "Düzenlemeleri atalım mı?",
@@ -377,9 +398,10 @@
             "supporters": "Destekçiler",
             "interactions": "Etkileşimler",
             "visits": "Ziyaretler",
-            "realtime_estimates": "Gerçek zamanlı tahminler",
             "last_month": "Son 30 gün",
-            "see_more_analytics": "Daha Fazla Analitik Gör"
+            "see_more_analytics": "Daha Fazla Analitik Gör",
+            "realtime_estimates": "Son 30 güne ait gerçek zamanlı tahminler",
+            "view_analytics": "Analitikleri Görüntüle"
         },
         "pricing": {
             "no_thankyou": "Hayır, teşekkür ederim."
@@ -400,15 +422,37 @@
             "reply_as_user": "Cevap olarak {user}"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "En iyi sonuçlar için yönergeleri izleyin!",
+            "good_photo_examples": "İyi fotoğraf örnekleri:",
+            "good_photo_caption": "Yakın çekim selfie, portre fotoğrafı, net yüz",
+            "photos_avoid": "Kaçınılması gereken fotoğraflar:",
+            "bad_photo_caption": "Tam vücut fotoğrafı, grup fotoğrafı, arkadan fotoğraf",
+            "understand": "Anladım"
         },
         "post_to_twibbonize": {
-            "caption": ""
+            "caption": "Bu kampanya hakkında bir mesaj yazın...",
+            "unpin_post": "Gönderiyi Sabitlemeyi Kaldır"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "Fotoğrafınızı ayarlayın"
+        },
+        "share_campaign": {
+            "or_share_to": "veya paylaşmak için",
+            "save_share": "Kaydet & Paylaş"
+        },
+        "post": {
+            "post_uploaded": "Gönderi Yüklendi",
+            "post_deleted": "Silinmiş Gönderi",
+            "post_failed_deleted": "Gönderi Başarısız, Silindi"
+        },
+        "create_campaign": {
+            "custom_field": "Özel Alan Ekle"
+        },
+        "collection": {
+            "sign_up_add_collection": "Koleksiyona Eklemek için Kaydolun"
+        },
+        "posts": {
+            "has_no_posts": "Bu kullanıcı Twibbonize'de hiçbir şey yayınlamadı"
         }
     },
     "page_checkout": {
@@ -417,9 +461,8 @@
             "account_update": "Hesabınız güncellenecek ve tüm yeni özelliklerin kilidi açılacak"
         },
         "checkout": {
-            "back_to_plans": "Planlara Geri Dön",
             "upgrade_to": "Yükseltme {plan}",
-            "gather_your_supports": "Özel özelliklerimizle destekçilerinizi toplayın ve kampanyanızı ölçeklendirin.",
+            "gather_your_supports": "Özel özelliklerimizle destekçilerinizi toplayın ve kampanyanızı ölçeklendirin",
             "billing_option": "Faturalandırma Seçeneği",
             "details": "Detaylar",
             "user": "Kullanıcı",
@@ -429,18 +472,19 @@
             "save": "Kaydet {percentage}%",
             "pay": "Ödeme {frequency}",
             "checkout_options": "Ödeme Seçenekleri",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "Planı Ayarla",
+            "current_plan": "Mevcut Plan",
+            "downgrade": "Sürüm düşürme",
+            "current_plan_description": "Şimdi bu aboneliğe abone oluyorsunuz",
+            "change_plan_description": "Planınızı, mevcut abonelik sona erdikten sonra etkin olacak olan {plan} olarak değiştiriyorsunuz.",
+            "downgrade_description": "Planınızı, mevcut abonelik sona erdikten sonra etkin olacak olan {plan} sürümüne düşürüyorsunuz.",
+            "change_plan_confirm": "Emin misin?",
+            "upgrade_confirm": "Yükseltmek istediğinizden emin misiniz?",
+            "downgrade_confirm": "Planın sürümünü düşürmek istediğinizden emin misiniz?",
+            "change_plan_active": "Mevcut aboneliğiniz sona erdiğinde aktif olacaktır",
+            "upgrade_active": "Ödemeyi tamamladığınızda aktif olacaktır",
+            "downgrade_active": "Mevcut aboneliğiniz sona erdiğinde aktif olacaktır",
+            "back_to_plans": "Geri"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -449,14 +493,14 @@
             "use_twibbonize_without_ads": "Twibbonize'ı Reklamsız Kullanın",
             "exclusive_features": "Kampanyanız için Ayrıcalıklı Özellikler",
             "remove_own_account": "Kendi hesabınız için filigranı kaldırın",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "Gümüş",
+            "gold": "Altın",
+            "platinum": "Platin",
+            "watermark_title": "Filigranı Kaldır",
+            "high_quality_image_title": "Yüksek Kaliteli Görüntü",
+            "ad_free_title": "Reklamsız",
+            "campaign_addon": "Kampanya Eklentisi",
+            "on": "Açık"
         }
     },
     "page_collection": {
@@ -496,9 +540,9 @@
             "image_dimension": "1080x1080px",
             "upload": "Yükle",
             "imagetype": "PNG",
-            "max_file": "",
-            "backgroundtype": "",
-            "upload_design": ""
+            "max_file": "Maksimum 5 MB",
+            "backgroundtype": "JPEG, PNG veya WEBP",
+            "upload_design": "Tasarımınızı buraya yükleyin"
         },
         "frame_editor": {
             "or_create": "veya çerçevenizi şimdi oluşturun",
@@ -526,7 +570,7 @@
             "campaign_title": "Kampanya Başlığı",
             "campaign_title_placeholder": "Rakamlar, alfabeler veya özel karakterlerden oluşabilir.",
             "campaign_description": "Açıklama",
-            "campaign_description_placeholder": "Dikkat çekmek ve destek toplamak için kampanyanızla ilgili ayrıntıları paylaşın.",
+            "campaign_description_placeholder": "Dikkat çekmek ve destek toplamak için kampanyanızla ilgili ayrıntıları paylaşın",
             "campaign_link": "Kampanya Bağlantısı",
             "campaign_link_placeholder": "kampanya-bağlantısı",
             "campaign_category": "Kampanya Kategorisi",
@@ -545,7 +589,7 @@
             "url_not_available": "URL mevcut değil",
             "caption_placeholder": "Merhaba, benim adım [[Adınız]] ve ben bu kampanyayı desteklemek için varım. Bir araya gelelim ve bu kampanya ile gerçek bir etki yaratalım!",
             "enter_description": "Açıklama girin",
-            "optional": ""
+            "optional": "İsteğe bağlı"
         },
         "customization": {
             "campaign_customization": "Kampanya Özelleştirme",
@@ -568,14 +612,14 @@
             "go_back": "Geri Dön"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "Çerçeveler",
+            "campaigns": "Kampanyalar",
+            "analytics": "Analitik"
         },
         "blank_design": {
-            "suggested": "",
-            "instagram_story": "",
-            "instagram_post": ""
+            "suggested": "Önerilen",
+            "instagram_story": "Instagram Hikayesi",
+            "instagram_post": "Instagram Gönderisi"
         }
     },
     "page_for_creators": {
@@ -585,8 +629,8 @@
             "purchase_now": "Şimdi Satın Alın",
             "learn_more": "Daha Fazla Bilgi",
             "want_to_create": "Kampanyanızı ücretsiz oluşturmak ister misiniz?",
-            "try_now": "Şimdi dene!",
-            "per": "{time} başına"
+            "per": "{time} başına",
+            "try_now": "Şimdi dene!"
         },
         "features": {
             "remove_watermark": "Tüm kampanya kullanıcılarınız için filigranı kaldırın",
@@ -631,20 +675,20 @@
             "unite_detail": "Kampanyanızın tüm destekçilerini Twibbonize sayfanızda bir araya getirin; destekçiler burada bağlantı kurar ve siz de etkiyi görürsünüz!",
             "entertain_detail": "Twibbonize, sosyal medya ve mesajlaşma için paylaşılabilir sanal bir Twibbon sağlayarak destekçilerinizin ilgisini çeker",
             "grow_detail": "Bir Twibbonize kampanyası ile daha fazla destek kazanın: sadece dikkat çekmekle kalmaz, aynı zamanda bir bandwagon etkisi yaratır ve amacınızı kaçırmak istemeyen büyüyen bir kitleyi çeker.",
-            "inspire": "",
-            "unite": "",
-            "entertain": "",
-            "grow": ""
+            "inspire": "İlham verin ",
+            "unite": "Birleşin",
+            "entertain": "Eğlendirmek",
+            "grow": "Büyümek"
         },
         "use_cases": {
             "heading": "Twibbonize'ı kullanmak için fikirler",
-            "subheading": "",
-            "corporate": "",
-            "corporate_title": "",
+            "subheading": "Keşfinize 5.000.000'dan fazla Twibbonize kampanyamızdan özenle seçilmiş örneklerle başlayın",
+            "corporate": "Kurumsal",
+            "corporate_title": "Personelinizin ve müşterilerinizin bolluğunun gücünden yararlanın",
             "education": "Eğitim",
-            "education_title": "",
+            "education_title": "Öğrenme sürecine katkıda bulunmanın eğlenceli bir yolu",
             "event": "Etkinlikler",
-            "events_title": ""
+            "events_title": "Anında viralliğin gücüyle etkinliğinizi öne çıkarın"
         },
         "testimonials": {
             "testimonials": "Görüşler",
@@ -688,8 +732,8 @@
             "proud_partner": "Misyonumuzla derinden uyumlu kişilerle ortaklık yapmaktan gurur duyuyoruz"
         },
         "honorary": {
-            "honorary_mentions": "",
-            "significant_contributions": ""
+            "honorary_mentions": "Onursal Mansiyonlar",
+            "significant_contributions": "Gelişimimize önemli katkıları olanlar"
         }
     },
     "page_pricing": {
@@ -707,17 +751,17 @@
             "private_campaign_2": "Kampanya",
             "offer_exclusively": "Destekçilerinize ayrıcalık sunun",
             "campaign_customization_1": "Kampanya",
-            "campaign_customization_2": "Özelleştirme",
+            "campaign_customization_2": "Özelleştirmesi",
             "personalize_campaign": "Kampanya sayfanızı kişiselleştirin",
             "multiple_frames_1": "Çoklu Twibbon",
             "multiple_frames_2": "kampanya başına",
             "unleash_creativity": "Çok yönlülükte yaratıcılığı ortaya çıkarın",
             "top_notch": "Kampanya oyununuzu yükseltin",
             "considering_all": "Tüm kolaylıklar düşünüldüğünde, buna değer",
-            "remove_watermark_1": "Kaldırmak",
-            "remove_watermark_2": "Filigran",
-            "for_audience_1": "için",
-            "for_audience_2": "si̇z ve i̇zleyi̇ci̇leri̇ni̇z",
+            "remove_watermark_1": "Siz ve izleyicileriniz için",
+            "remove_watermark_2": "",
+            "for_audience_1": "",
+            "for_audience_2": "filigranı kaldırın",
             "as_a_free_user": "Ücretsiz bir kullanıcı olarak Twibbon'unuzda her zaman <strong>bir filigran bulunur.<\/strong>",
             "premium_supporter": "<strong>Premium Creator<\/strong> daha temiz bir görüntü için filigranı kaldırır.",
             "now_you_can": "Artık <strong>herhangi bir kampanyayı<\/strong> filigran olmadan destekleyebilirsiniz."
@@ -735,10 +779,10 @@
             "as_a_free_user": "Ücretsiz bir kullanıcı olarak Twibbon'unuzda her zaman <strong>bir filigran bulunur.<\/strong>",
             "premium_supporter": "<strong>Premium Supporter<\/strong> daha temiz bir görüntü için filigranı kaldırır.",
             "now_you_can": "Artık <strong>herhangi bir kampanyayı<\/strong> filigran olmadan destekleyebilirsiniz.",
-            "remove_watermark_1": "Kaldırmak",
-            "remove_watermark_2": "Filigran",
-            "for_audience_1": "için",
-            "for_audience_2": "kendi hesabınız",
+            "remove_watermark_1": "Kendi hesabınız için",
+            "remove_watermark_2": "",
+            "for_audience_1": "",
+            "for_audience_2": "filigranı kaldırın",
             "looking_to_remove": "Tüm kampanya kullanıcılarınız için Filigran Kaldırmak mı istiyorsunuz? Deneyin"
         },
         "upgrade": {
@@ -772,7 +816,7 @@
             "notes": "Notlar",
             "print": "Fatura İndir",
             "if_you_would_like_to_change": "Aboneliğinizi veya ödeme bilgilerinizi değiştirmek isterseniz, lütfen fatura ayarlarınıza gidin",
-            "ending_in": ""
+            "ending_in": "{number} {card} }"
         },
         "bento": {
             "campaign_analytics_1": "Kampanya",
@@ -780,18 +824,18 @@
             "private_campaign_1": "Özel",
             "private_campaign_2": "Kampanya",
             "campaign_customization_1": "Kampanya",
-            "campaign_customization_2": "Özelleştirme",
-            "multiple_frames_1": "Çoklu Çerçeveler",
-            "multiple_frames_2": "kampanya başına",
-            "use_twibbonize_without_ads_1": "Twibbonize kullanın",
-            "use_twibbonize_without_ads_2": "Reklamsız",
+            "campaign_customization_2": "Özelleştirmesi",
+            "multiple_frames_1": "Kampanya başına",
+            "multiple_frames_2": "birden fazla çerçeve",
+            "use_twibbonize_without_ads_1": "Twibbonize'ı",
+            "use_twibbonize_without_ads_2": "Reklamsız kullanın",
             "no_extra_features_1": "Ekstra Özellik Yok",
             "no_extra_features_2": "Mevcut",
             "remove_all_watermark_1": "Tüm kampanya kullanıcılarınızdan",
             "remove_all_watermark_2": "filigranı kaldırın",
-            "remove_own_watermark_1": "Filigranı kaldır",
-            "on": "üzerinde",
-            "remove_own_watermark_2": "kendi hesabınız",
+            "remove_own_watermark_1": "Kendi hesabınızdaki",
+            "on": "",
+            "remove_own_watermark_2": "filigranı kaldırın",
             "extra_features": "Ekstra Özellikler"
         },
         "modal": {
@@ -828,6 +872,9 @@
         },
         "card_premium_creator": {
             "subheading": "En üst düzey Twibbonize deneyimine ihtiyaç duyan kişiler için"
+        },
+        "same_plan": {
+            "adjust_plan": "Planı Ayarla"
         }
     },
     "page_profile": {
@@ -835,17 +882,17 @@
             "search_campaigns": "Kampanyaları arayın",
             "no_campaigns": "Henüz Kampanya Yok",
             "no_campaigns_details": "Bir kampanya oluşturun ve twibbonize'da paylaşın.",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "Bu kampanyayı sileceğinizden emin misiniz?",
+            "delete_detail": "\" {title} \" öğesinin silinmesi kalıcı olacaktır ve geri alınamaz.",
+            "delete_campaign": "Kampanyayı Sil"
         },
         "posts": {
             "no_posts": "Henüz Gönderi Yok",
-            "no_post_details": "Bir kampanya bulun ve twibbonunuzu Twibbonize'a gönderin."
+            "no_post_details": "Bir kampanya bulun ve twibbonunuzu Twibbonize'a gönderin"
         },
         "collections": {
             "no_collections": "Favori kampanyalarınızı düzenleyin",
-            "no_collections_details": "Kampanya sayfasında, ilginç bulduğunuz kampanyaları kendi koleksiyonlarınıza kaydetmek için {icon} simge düğmesine tıklamanız yeterlidir."
+            "no_collections_details": "Kampanyayı koleksiyonlarınıza kaydetmek için herhangi bir kampanyadaki {icon} simgesini tıklayın"
         },
         "about": {
             "about": "Hakkında",
@@ -857,13 +904,32 @@
             "campaigns": "Kampanyalar"
         },
         "my_profile": {
-            "edit_profile": "",
+            "edit_profile": "Profil Düzenle",
             "campaigns": "Kampanyalar",
             "collections": "Koleksiyonlar",
-            "posts": ""
+            "posts": "Mesajlar"
         },
         "campaign_deletion": {
             "are_you_sure": "Emin misin?"
+        },
+        "campaign": {
+            "delete_campaign": "\"{campaign_name}\" adresinin silinmesi kalıcı olacaktır ve geri alınamaz.",
+            "confirm_delete_campaign": "Kampanyayı Sil"
+        },
+        "collection": {
+            "delete_collection": "\"{collection_name}\" koleksiyonu kalıcı olarak silinecektir.",
+            "confirm_delete_collection": "Koleksiyon Silme",
+            "delete_campaign": "\"{campaign_name}\" kampanyası \"{collection_name}\" koleksiyonundan kalıcı olarak kaldırılacaktır.",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "Bu profili neden rapor ediyorsunuz?",
+            "abusive_harmful": "İstismarcı veya Zararlı",
+            "pretending_someone": "Başka biri gibi davranmak",
+            "sensitive_content": "Hassas İçerik"
+        },
+        "account": {
+            "email_changed": "E-postanız yakın zamanda değişti. 90 gün sonra tekrar güncelleyebilirsiniz."
         }
     },
     "page_preference": {
@@ -907,55 +973,55 @@
             "adfree": "Reklamsız",
             "highquality": "Yüksek Kalite",
             "nowatermark": "Filigran Yok",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "Paralı",
+            "are_you_sure_change": "Emin misin?",
+            "active_after_subscription": "Mevcut aboneliğiniz sona erdiğinde aktif olacaktır",
+            "are_you_sure_upgrade": "Yükseltmek istediğinizden emin misiniz?",
+            "plan_changing_info": "Alınan {package} paketine geçin. Mevcut plan bittikten sonra yeni plan başlıyor",
+            "active_after_payment": "Ödemeyi tamamladığınızda aktif olacaktır",
+            "are_you_sure_downgrade": "Planın sürümünü düşürmek istediğinizden emin misiniz?",
+            "plan_downgrade_info": "{package} sürümüne geçiş alındı. Mevcut plan bittikten sonra yeni plan başlıyor",
+            "renew_plan": "Planı Yenile",
+            "renew_subscription": "Aboneliği yenile",
+            "upgrade_now": "Hemen Yükselt",
+            "warning": "Uyarı!",
+            "important": "Önemli!",
+            "premium_expired": "Premium İçerik Oluşturucu planınızın süresi doldu. Lütfen {date} kadar yenileyin",
+            "last_attempted": "Son denemelerimiz başarısızlıkla sonuçlandı. Lütfen ödeme yönteminizi güncelleyin.",
+            "renewal_date": "Yenileme tarihi",
+            "payment_method": "Ödeme yöntemi",
+            "update_now": "Şimdi güncelle",
+            "cancel_subscription": "Aboneliği iptal et",
+            "change_payment_method": "Ödeme yöntemini değiştir",
+            "card_end_with": "{number} {card} }",
+            "no_transactions": "Henüz işlem geçmişi yok",
+            "transactions_will_shown": "İşlem geçmişiniz kullanıma sunulduğunda burada gösterilecek",
+            "are_you_sure": "Emin misin?",
+            "once_cancel_plan": "Planı iptal ettiğinizde, faturalandırma döngünüzün sonunda yükseltilmiş özelliklerin tümüne erişiminizi kaybedersiniz",
+            "yes_cancel_plan": "Evet, Planı İptal Et",
+            "no_keep_plan": "Hayır, Planı Koru",
+            "once_renew_plan": "Planınızı yenilediğinizde planınız tekrar aktif olacaktır.",
+            "yes_renew_plan": "Evet, Planı Yenile",
+            "no_cancel": "Hayır, İptal",
+            "if_cancel_downgrade": "Düşürmeyi iptal ederseniz mevcut planınız tekrar etkin hale gelecektir",
+            "yes_downgrade": "Evet, Sürüm Düşürmeye Devam Et",
+            "if_cancel_change_billing": "Faturalandırmayı değiştirmeyi iptal ederseniz mevcut planınız tekrar etkin hale gelecektir",
+            "yes_continue": "Evet devam et",
+            "info": "Bilgi",
+            "your_request_cancel": "{plan} planınızı iptal etme isteğiniz alındı. Bir sonraki faturalandırma döngüsünde sona erecek",
+            "your_request_downgrade": "{plan} sürümüne geçme isteğiniz alındı. Mevcut planınız sona erdiğinde yeni planınız etkinleştirilecektir.",
+            "cancel_downgrade": "Sürüm Düşürmeyi İptal Et",
+            "cancel_change": "Faturalandırmayı Değiştirmeyi İptal Et",
+            "your_request_billing": "Faturalandırmanızı {plan} olarak değiştirme talebiniz alındı. Mevcut planınız sona erdiğinde yeni planınız etkinleştirilecektir.",
+            "manage_inapp": "Aboneliğinizi Twibbonize {appOs} uygulamasında yönetin",
+            "manage_inapp_subscription": "{appOs} üzerinde Twibbonize aboneliğinizi yönetmek için uygulamayı açın, 'Ayarlar'a gidin ve 'Faturalandırma'yı seçin.",
+            "success_cancel_subscription": "Başarılı Aboneliği İptal Et",
+            "success_renew_subscription": "Başarılı Aboneliği Yenile",
+            "success_change_subscription": "Başarılı Aboneliği Değiştir",
+            "success_cancel_change_subscription": "Başarılı Aboneliği İptal Et",
+            "last_attempted_authentication": "Son denemelerimiz başarısızlıkla sonuçlandı. Ödemenizin kimlik doğrulaması gerekiyor.",
+            "authenticate_now": "Şimdi Kimlik Doğrula",
+            "recurring_payment": "Yinelenen ödemeniz için açık onayınıza ihtiyacımız var. Lütfen emailinizi kontrol edin"
         },
         "account": {
             "update_email": "E-posta Güncelleme",
@@ -985,19 +1051,19 @@
             "confirm_password": "Şifreyi Onayla",
             "create_new_password": "Yeni Şifre Oluştur",
             "make_it_easy": "Hatırlamanızı kolaylaştırın ve herkesten gizli tutun!",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "E-posta Ekle",
+            "add_password": "Şifre Ekle",
+            "cant_remove_account": "Hata! Sosyal medya hesabınızı kaldıramıyoruz.",
+            "set_up_email": "Sosyal medya hesabınızı kaldırmak için öncelikle e-posta veya şifre ayarlamanız gerekir.",
+            "want_to_remove": "Sosyal medya hesabınızı kaldırmak mı istiyorsunuz?",
+            "your_account_will_be_removed": "{provider} hesabınız kaldırılacak. Sosyal medya hesaplarınızı kaldırmak için anla'yı tıklayın.",
+            "continue_to_revoke": "İptal Etmeye Devam Et ",
+            "revoke_success": "{provider} Hesabını İptal Etme Başarılı",
+            "cannot_update_email": "Hata, e-postanızı güncelleyemiyoruz",
+            "setup_password_to_update_email": "E-postanızı güncellemeden önce bir şifre belirlemelisiniz.",
+            "email_change_request": "E-posta Değişikliği İsteği İptal Edildi",
+            "we_have_sent_password": "Şifre sıfırlama talimatlarını e-posta adresinize gönderdik. Lütfen güvenlik nedeniyle şifrenizi 1 saat içinde sıfırlayın.",
+            "go_to_homepage": "Ana sayfaya git"
         },
         "notifications": {
             "notifications_settings": "Bildirim Ayarları",
@@ -1015,10 +1081,10 @@
             "article": "Makaleler",
             "article_details": "Önerilen makalelerimizi alacaksınız.",
             "toggle_all": "Tümü",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "Twibbonize'de yayınla",
+            "post_twibbonize_details": "Bir kampanya sayfasında destekçinin gönderileriyle ilgili bildirimler alın.",
+            "account_recap": "Hesap Özeti",
+            "account_recap_details": "Tüm Kampanyalarınız İçin Destekçilerin ve Ziyaretlerin Haftalık Özeti"
         },
         "package": {
             "free": "Ücretsiz",
@@ -1284,290 +1350,6 @@
             "paragraph_11": "Dijital çağın bağlanabilirlik kapasitesini kucaklarken, Twibbonize'ın ekranlarımızı dayanışma sembolleriyle boyamaya devam etmesine ve sosyal savunuculuk alanında kalıcı bir etki yaratmasına izin verin. Birlikte, sınırları aşan, daha şefkatli ve birleşik bir dünyaya olan ortak bağlılığımızı yansıtan görsel bir anlatı örüyoruz."
         }
     },
-    "notification": {
-        "push": {
-            "campaign_milestone": {
-                "header": "🏆 {name}, yeni bir kilometre taşına ulaşıldı!",
-                "body": "Tebrikler! {title} kampanyanızın artık {amount} destekçisi var!"
-            },
-            "new_post": {
-                "header": "Yeni Twibbon gönderildi",
-                "body": "{participant} kampanyanızın {title} galerisinde bir Twibbon yayınladı!"
-            },
-            "new_comment": {
-                "header": "Yeni yorum!",
-                "body": "{participant} {title} kampanyasındaki gönderinize yorum yaptı!"
-            },
-            "account_recap": {
-                "header": "🍺 {name}, işte haftalık özetiniz!",
-                "body": "Bu hafta {amount} yeni destekçiler kazandınız. Böyle devam edin!"
-            },
-            "billing": {
-                "creator": {
-                    "successful_payment": {
-                        "header": "Ödemeniz başarılı oldu",
-                        "body": "Ayrıcalıklı özelliklerinden yararlanın! Kampanyanızı şimdi başlatın"
-                    },
-                    "plus_5": {
-                        "header": "Merhaba {name}, aboneliğinizi şimdi yenileyin",
-                        "body": "Kampanya analizlerinize erişmeye devam etmek için planınızı şimdi yenileyin veya yükseltin."
-                    }
-                },
-                "international": {
-                    "renewed_plan": {
-                        "header": "Merhaba {name}, yenileme ödemeniz onaylandı",
-                        "body": "Şimdi özel özelliklerimizi kullanmaya devam edebilirsiniz!"
-                    },
-                    "creator": {
-                        "successful_payment": {
-                            "header": "Ödemeniz başarılı oldu",
-                            "body": "Ayrıcalıklı özelliklerinden yararlanın! Kampanyanızı şimdi başlatın."
-                        },
-                        "plus_2": {
-                            "header": "Merhaba {name}, aboneliğinizi şimdi yenileyin",
-                            "body": "Kampanya analizlerinize erişmeye devam etmek için planınızı şimdi yenileyin veya yükseltin."
-                        }
-                    },
-                    "supporter": {
-                        "successful_payment": {
-                            "header": "Ödemeniz başarılı oldu",
-                            "body": "Reklamsız deneyiminizin keyfini çıkarın ve filigransız Twibbons alın!"
-                        },
-                        "plus_2": {
-                            "header": "Merhaba {name}, aboneliğinizi şimdi yenileyin",
-                            "body": "Filigransız Twibbon'ların ve reklamsız bir deneyimin keyfini çıkarmak için planınızı şimdi yenileyin."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Reklamsız deneyiminizin keyfini çıkarın ve filigransız Twibbon'ları alın!",
-                        "header": "Ödemeniz başarılı oldu"
-                    },
-                    "plus_5": {
-                        "body": "Filigransız Twibbon'ların ve reklamsız bir deneyimin keyfini çıkarmak için planınızı şimdi yenileyin.",
-                        "header": "Merhaba {name}, aboneliğinizi şimdi yenileyin"
-                    }
-                }
-            },
-            "new_reply": {
-                "header": "Yeni cevap!",
-                "body": "{participant} {title} kampanyasındaki yorumunuza yorum yaptım!"
-            }
-        },
-        "panel": {
-            "campaign_milestone": {
-                "body": "Tebrikler! {title} kampanyasının artık {amount} destekçisi var!",
-                "header": "🏆 {name}, yeni bir kilometre taşına ulaşıldı!"
-            },
-            "account_recap": {
-                "body": "Geçtiğimiz hafta tüm kampanyalarınızda {amount} yeni destekçiler kazandınız. Harika çalışmaya devam edin!",
-                "header": "🍺 {name}, İşte haftalık özetiniz!"
-            },
-            "billing": {
-                "order_received": {
-                    "header": "Merhaba {name}, lütfen ödemenizi tamamlayın",
-                    "body": "{product} adresinden sipariş verdiğiniz için teşekkür ederiz. İşleminizi tamamlamak için lütfen ödemeye geçin."
-                },
-                "order_canceled": {
-                    "header": "Üzgünüz {name}, {product} siparişiniz iptal edildi",
-                    "body": "Lütfen ödemeye devam etmeyin."
-                },
-                "creator": {
-                    "successful_payment": {
-                        "header": "Merhaba {name}, ödemeniz alınmıştır",
-                        "body": "{product} adresine abone olduğunuz için teşekkür ederiz. Kampanyanızı şimdi oluşturun ve özel özelliklerini kullanın!"
-                    },
-                    "min_3": {
-                        "header": "Merhaba {name}, {product} adresinizin süresi 3 gün içinde dolacaktır",
-                        "body": "Twibbonize'ın ayrıcalıklı özelliklerinden yararlanmaya devam etmek için aboneliğinizi yenileyin veya yükseltin."
-                    },
-                    "exp_day": {
-                        "header": "Merhaba {name}, {product} aboneliğinizin süresi doldu",
-                        "body": "Kampanya analizlerine ve tüm özel özelliklere erişmeye devam etmek için {date_plus_7} adresinden önce aboneliğinizi yenileyin veya yükseltin."
-                    },
-                    "plus_5": {
-                        "header": "Merhaba {name}, aboneliğiniz 48 saat içinde sona erecektir",
-                        "body": "Kampanya analizlerinize erişiminizi sürdürmek için planınızı 48 saat içinde yenileyin veya yükseltin."
-                    },
-                    "plus_7": {
-                        "header": "Merhaba {name}, hesabınız Twibbonize Free'ye düşürüldü",
-                        "body": "{product} özelliklerini kullanmaya devam etmek için lütfen aboneliğinizi yenileyin."
-                    }
-                },
-                "international": {
-                    "creator": {
-                        "canceled_plan": {
-                            "header": "Merhaba {name}, {product} aboneliğiniz başarıyla iptal edildi",
-                            "body": "Fatura döneminizin sonunda tüm {product} özelliklerine erişiminizi kaybedersiniz."
-                        },
-                        "renewed_plan": {
-                            "header": "Merhaba {name}, {product} aboneliğiniz başarıyla yenilendi",
-                            "body": "{product} aboneliğiniz fatura döneminizin sonunda ücretlendirilecektir."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Merhaba {name}, hesabınız Twibbonize Free'ye düşürüldü",
-                                "body": "{product} özelliklerini kullanmaya devam etmek için lütfen aboneliğinizi yenileyin."
-                            }
-                        },
-                        "cancel_downgrade": {
-                            "header": "Merhaba {name}, sürüm düşürme iptal talebiniz alınmıştır",
-                            "body": "Aboneliğiniz Premium Creator olarak devam edecektir."
-                        },
-                        "convert": {
-                            "header": "Merhaba {name}, hesabınız Premium Creator'a yükseltildi",
-                            "body": "Tebrikler! Artık bir Premium Creator'siniz. Şimdi tüm özelliklerin tadını çıkarın!"
-                        },
-                        "successful_payment": {
-                            "header": "Merhaba {name}, ödemeniz alınmıştır",
-                            "body": "{product} adresine abone olduğunuz için teşekkür ederiz. Kampanyanızı şimdi oluşturun ve özel özelliklerini kullanın!"
-                        },
-                        "exp_day": {
-                            "header": "Merhaba {name}, {product} aboneliğinizin süresi doldu",
-                            "body": "Kampanya analizlerinize erişmeye devam etmek için lütfen {date_plus_7} tarihinden önce fatura bilgilerinizi güncelleyin."
-                        },
-                        "plus_2": {
-                            "header": "Merhaba {name}, aboneliğiniz 48 saat içinde sona erecektir",
-                            "body": "Kampanya analizlerinize erişiminizi sürdürmek için lütfen ödeme kartınızı güncelleyin."
-                        },
-                        "plus_5": {
-                            "header": "Merhaba {name}, hesabınız Twibbonize Free'ye düşürüldü",
-                            "body": "{product} özelliklerini kullanmaya devam etmek için lütfen aboneliğinizi yenileyin."
-                        },
-                        "convert_addon": {
-                            "body": "Tebrikler! Artık bir Premium Creator'siniz. Şimdi tüm özelliklerin tadını çıkarın!",
-                            "header": "Merhaba {name}, hesabınız Premium Creator'a yükseltildi"
-                        }
-                    },
-                    "auth": {
-                        "exp_day": {
-                            "header": "Merhaba {name}, ödeme yönteminizin kimlik doğrulamasına ihtiyacı var",
-                            "body": "Aboneliğinizi şimdi tamamlamak için lütfen ödeme doğrulamanızı onaylayın."
-                        }
-                    },
-                    "renewed_plan": {
-                        "header": "Merhaba {name}, yenileme ödemeniz onaylandı",
-                        "body": "Şimdi, özel özelliklerin keyfini çıkarmaya devam edebilirsiniz!"
-                    },
-                    "downgrade_received": {
-                        "header": "Merhaba {name}, sürüm düşürme talebiniz alınmıştır",
-                        "body": "Fatura döneminizin sonunda hesabınız {product} adresine düşürülecektir."
-                    },
-                    "supporter": {
-                        "convert": {
-                            "header": "Merhaba {name}, Hesabınız Premium Destekçiye yükseltildi",
-                            "body": "Tebrikler! Artık bir Premium Supporter'siniz. Şimdi tüm özelliklerin tadını çıkarın!"
-                        },
-                        "successful_payment": {
-                            "body": "",
-                            "header": "Merhaba {name}, ödemenizi başarıyla aldık"
-                        },
-                        "min_3": {
-                            "body": ""
-                        },
-                        "successful": {
-                            "body": "{product} paketine abone olduğunuz için teşekkür ederiz. Artık Twibbon'a filigransız ve reklamsız bir deneyimle sahip olabilirsiniz!"
-                        },
-                        "exp_day": {
-                            "header": "Merhaba {name}, ödemeniz gerçekleşmedi",
-                            "body": "Özel özelliklerin, reklamsız gezinmenin ve filigransız Twibbon'un keyfini çıkarmak için lütfen {date_plus_7} tarihinden önce fatura bilgilerinizi güncelleyin."
-                        },
-                        "plus_2": {
-                            "header": "Merhaba {name}, aboneliğiniz 48 saat içinde sona erecektir",
-                            "body": "Filigransız Twibbon'ların ve reklamsız bir deneyimin keyfini çıkarmak için planınızı şimdi yenileyin."
-                        },
-                        "plus_7": {
-                            "header": "Merhaba {name}, hesabınız Twibbonize Free'ye düşürüldü"
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Merhaba {name}, hesabınız Twibbonize Free'ye düşürüldü",
-                                "body": "{product} özelliklerini kullanmaya devam etmek için lütfen aboneliğinizi yenileyin."
-                            }
-                        },
-                        "plus_5": {
-                            "header": "Merhaba {name}, hesabınız Twibbonize Free'ye düşürüldü",
-                            "body": "{product} özelliklerini kullanmaya devam etmek için lütfen aboneliğinizi yenileyin."
-                        }
-                    },
-                    "period_changed": {
-                        "header": "Merhaba {name}, planınızı değiştirme talebinizi aldık",
-                        "body": "Hesabınız fatura döneminizin sonunda {product} olarak değiştirilecektir."
-                    },
-                    "cancel_change_period": {
-                        "header": "Merhaba {name}, plan değişikliğini iptal etme talebinizi aldık",
-                        "body": "Aboneliğiniz Premium Creator olarak devam edecektir."
-                    }
-                },
-                "india": {
-                    "auth": {
-                        "exp_day": {
-                            "header": "Merhaba {name}, lütfen abonelik için ödemenizi şimdi onaylayın",
-                            "body": "Güvenlik düzenlemelerine uygunluğu sağlamak için, Twibbonize aboneliğinizde yinelenen ödemeniz için açık onayınızı istiyoruz."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Artık Twibbon'a filigransız ve reklamsız bir deneyimle sahip olabilirsiniz!",
-                        "header": "Merhaba {name}, ödemeniz alınmıştır"
-                    },
-                    "exp_day": {
-                        "body": "Özel özelliklerin, reklamsız gezinmenin ve filigransız Twibbon'un keyfini çıkarmaya devam etmek için {date_plus_7} adresinden önce aboneliğinizi yenileyin veya yükseltin.",
-                        "header": "Merhaba {name}, {product} aboneliğinizin süresi doldu"
-                    },
-                    "plus_5": {
-                        "body": "Filigransız Twibbon'un ve reklamsız bir deneyimin keyfini çıkarmaya devam etmek için planınızı 48 saat içinde yenileyin.",
-                        "header": "Merhaba {name}, aboneliğiniz 48 saat içinde sona erecektir"
-                    },
-                    "min_3": {
-                        "body": "Reklamsız gezinmenin ve filigransız Twibbon'ların keyfini çıkarmaya devam etmek için aboneliğinizi şimdi yenileyin veya yükseltin.",
-                        "header": "Merhaba {name}, {product} adresinizin süresi 3 gün içinde dolacaktır"
-                    },
-                    "plus_7": {
-                        "body": "{product} özelliklerini kullanmaya devam etmek için lütfen aboneliğinizi yenileyin."
-                    }
-                }
-            },
-            "launch": {
-                "prem_sub": {
-                    "min_1": {
-                        "header": "Yeni Twibbonize Premium Aboneliği",
-                        "body": "Twibbonize'ın Yeni Premium Abonelikleriyle Tanışın - 8 Temmuz'da Başlıyor!"
-                    }
-                },
-                "short_link": {
-                    "min_1": {
-                        "header": "Yeni Twibbonize Kısa Bağlantı",
-                        "body": "Twibbonize'ın Yeni Kısa Bağlantısı ile Tanışın - 8 Temmuz'da Değişiyor!"
-                    }
-                }
-            },
-            "campaign_addon": {
-                "adfree_quota_remaining": {
-                    "header": "Kalan Reklamsız kota",
-                    "body": "{campaignlink} üzerinde 50 Destekçi için Reklamsız kotanız kaldı. Sürdüğü sürece Reklamsız bir deneyimin tadını çıkarın!"
-                },
-                "adfree_quota_runout": {
-                    "header": "Reklamsız kota doldu",
-                    "body": "{campaignlink} destekçileriniz platformumuzda gezinirken reklamlar görmeye başlayacaktır."
-                }
-            },
-            "new_post": {
-                "header": "Yeni Twibbon gönderildi",
-                "body": "{participant} kampanyanızda bir Twibbon yayınladı {title}'un galerisi!"
-            },
-            "new_comment": {
-                "header": "Yeni yorum!",
-                "body": "{participant} {title} kampanyasındaki gönderinize yorum yaptım!"
-            },
-            "new_reply": {
-                "header": "Yeni cevap!",
-                "body": "{participant} {title} kampanyasındaki yorumunuza yorum yaptım!"
-            }
-        }
-    },
     "page_analytics": {
         "time": {
             "today": "Bugün",
@@ -1581,7 +1363,6 @@
         },
         "graph": {
             "page": "Sayfa {currentPage} of {totalPage}",
-            "data_displayed": "UTC zaman diliminde görüntülenen veriler (UTC+0)",
             "trend": "Trend",
             "country": "Ülke",
             "city": "Şehir",
@@ -1594,7 +1375,8 @@
             "visit": "Ziyaret etmek",
             "visit_detail": "Kampanya sayfanızı ziyaret eden tekil tarama oturumu sayısı",
             "unique_visit": "Eşsiz Ziyaret",
-            "unique_visit_detail": "Kampanya sayfanızı ziyaret eden kişi sayısı"
+            "unique_visit_detail": "Kampanya sayfanızı ziyaret eden kişi sayısı",
+            "data_displayed": "UTC+0 saat diliminde görüntülenen veriler"
         }
     },
     "page_account": {
@@ -1602,8 +1384,6 @@
             "email": "E-posta",
             "password": "Şifre",
             "confirm_password": "Şifreyi Onayla",
-            "login_with_google": "Google ile Oturum Açın",
-            "login_with_facebook": "Facebook ile Oturum Açın",
             "login_with_email": "veya e-posta ile giriş yapın",
             "signup_with_google": "Google ile Kaydolun",
             "signup_with_facebook": "Facebook ile Kaydolun",
@@ -1616,7 +1396,9 @@
             "signup": "Kaydolun",
             "terms": "Şartlar",
             "privacy": "Gizlilik Politikası",
-            "name": ""
+            "name": "İsim",
+            "login_with_facebook": "Facebook ile giriş",
+            "login_with_google": "Google ile Giriş Yapın"
         }
     },
     "page_article": {
@@ -1625,98 +1407,95 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "Twibbonize'de paylaşım yapmak için giriş yapın",
+        "sign_in_to_comment": "Yorum bırakmak için giriş yapın",
+        "sign_in_to_like": "Beğeni vermek için giriş yapın",
+        "sign_up_to_post": "Twibbonize'de yayınlamak için kaydolun",
+        "sign_up_to_comment": "Yorum bırakmak için kaydolun",
+        "sign_up_to_like": "Beğeni vermek için kayıt olun",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "Giriş başarılı! Tekrar hoşgeldiniz.",
+                "error": "Giriş başarısız oldu. Lütfen kimlik bilgilerinizi kontrol edip tekrar deneyin."
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "Kayıt başarılı! Gemiye Hoşgeldiniz.",
+                "error": "Kayıt başarısız oldu. Lütfen bilgilerinizi kontrol edip tekrar deneyin."
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "E-posta zaten kayıtlı",
+        "email_registered_lead": "Bu e-posta zaten kayıtlı. Bunun yerine giriş yapmak ister misiniz?"
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "Silmeyi Onayla",
+            "delete_lead": "Bu gönderiyi silmek istediğinizden emin misiniz? Bu eylem geri alınamaz.",
+            "delete_yes": "Evet, Sil",
+            "delete_no": "İptal etmek"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "Mesajınızı paylaşın",
+            "logged_in_placeholder": "Yorum olarak {name}",
+            "comment_posted": "Yorum gönderildi",
+            "comment_deleted": "Yorum silindi",
+            "reply_deleted": "Yanıt silindi"
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "Gönderi yüklendi",
+            "hidden": "Gizlenmiş",
+            "unhidden": "Gizlenmemiş",
+            "reported": "Bildirildi",
+            "deleted": "silindi",
+            "pinned": "Sabitlendi",
+            "unpinned": "Sabitleme kaldırıldı"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "Kampanyayı Bildir",
+        "report_profile": "Profili rapor et",
+        "abusive_or_harmful": "Kötüye kullanım veya zararlı",
+        "pretending_to_be_someone_else": "Başka biriymiş gibi davranmak",
+        "sensitive_content": "Hassas içerik",
+        "plagiarism": "İntihal",
+        "impersonation": "Kimliğe bürünme",
+        "piracy": "Korsanlık",
+        "nudity_pornography": "Çıplaklık ve Pornografi",
+        "dangerous_or_harmful": "Tehlikeli veya zararlı",
+        "harassment_cyberbullying": "Taciz ve Siber Zorbalık",
+        "provocative_threatening_content": "Kışkırtıcı ve Tehditkar İçerik",
+        "privacy_violations": "Gizlilik İhlalleri",
+        "unauthorized_use_of_personal_information": "Kişisel Bilgilerin İzinsiz Kullanımı",
+        "child_exploitation": "Çocuk istismarı",
+        "harassment": "Taciz",
+        "terrorism": "Terörizm",
+        "violence": "Şiddet",
+        "false_information": "Yanlış bilgi",
+        "health": "Sağlık",
+        "politics": "Siyaset",
+        "social_issue": "Sosyal mesele",
+        "hate_speech": "Nefret söylemi",
+        "disability_or_disease": "Engellilik veya hastalık",
+        "race_or_ethnicity": "Irk veya etnik köken",
+        "religious_affiliation": "Dini bağlılık",
+        "sexual_orientation": "Cinsel yönelim",
+        "nudity": "Çıplaklık",
+        "suicide_or_self_harm": "İntihar veya Kendine Zarar Verme",
+        "vulgar_language": "Kaba dil",
+        "dangerous_content": "Tehlikeli İçerik",
+        "why_report_campaign": "Bu kampanyayı neden bildiriyorsunuz?",
+        "why_report_profile": "Bu profili neden bildiriyorsunuz?",
+        "why_report_submission": "Bu gönderimi neden bildiriyorsunuz?",
+        "why_report_comment_reply": "Bu yorumu neden bildiriyorsunuz?",
+        "why_report_collection": "Bu koleksiyonu neden bildiriyorsunuz?",
+        "select_one": "Lütfen birini seçin",
+        "protect_privacy_reporter": "Twibbonize Topluluk Kuralları, muhabirin kimliğinin gizliliğini korur.",
+        "tell_us_more": "Bize daha fazlasını anlatın",
+        "received_report": "Raporunuzu aldık!",
+        "thankyou": "Teşekkür ederim! Lütfen raporunuzu incelememize izin verin; geri bildiriminizi mümkün olan en kısa sürede e-postanıza göndereceğiz.",
+        "learn_more_about": "{link} hakkında daha fazla bilgi edinin.",
+        "community_guideline": "Twibbonize Topluluk Kuralları",
+        "placeholder_write_here": "Buraya yaz",
+        "report_sent": "Rapor Gönderildi"
     },
     "page_editor": {
         "general": {
@@ -1754,10 +1533,10 @@
         "upload": {
             "upload_image": "Resim Yükle",
             "upload": "Yükle",
-            "type": "",
-            "size": "",
-            "type_image": "",
-            "maximum_size": ""
+            "type": "Tip:",
+            "size": "Boyut:",
+            "type_image": "JPG, PNG veya SVG",
+            "maximum_size": "Maksimum 5 MB"
         },
         "toolbar": {
             "copy": "Anlaşıldı",
@@ -1781,8 +1560,7 @@
             "lock": "Kilit",
             "letter_spacing": "Harf Aralığı",
             "line_spacing": "Satır Aralığı",
-            "border_weight": "",
-            "corner_rounding": "",
+            "border_weight": "Kenar Ağırlığı",
             "align": "Hizala",
             "effects": "Etkileri"
         },
@@ -1822,15 +1600,203 @@
     },
     "page__campaign_creation": {
         "campaign_preview": {
-            "campaign_description": "",
+            "campaign_description": "Kampanya Açıklaması",
             "campaign_title": "Kampanya Başlığı"
         }
     },
     "page_my_campaign": {
         "edit_campaign": {
             "campaigns": "Kampanyalar",
-            "frames": "",
-            "analytics": ""
+            "frames": "Çerçeveler",
+            "analytics": "Analitik"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "Bu gönderiyi neden rapor ediyorsunuz?",
+            "plagiarism ": "İntihal",
+            "impersonation ": "Taklitçilik ",
+            "piracy ": "Korsanlık",
+            "vulgar_language": "Kaba Dil",
+            "nudity_pornography": "Çıplaklık & Pornografi",
+            "suicidal_self_harm": "İntihar ve Kendine Zarar Verme İçeriği ",
+            "danger": "Tehlikeli veya Zararlı ",
+            "violent_graphic_content": "Şiddet İçeren Grafik İçerik",
+            "harassment_cyberbullying": "Taciz ve Siber Zorbalık ",
+            "provocative_threatening_content": "Kışkırtıcı ve Tehdit Edici İçerik",
+            "spam": "Spam"
+        },
+        "report_comment": {
+            "title": "Bu yorumu neden rapor ediyorsunuz?",
+            "abusive_harmful": "İstismarcı veya Zararlı",
+            "harassment": "Taciz",
+            "terrorism": "Terörizm",
+            "violence": "Şiddet",
+            "false_information": "",
+            "health": "Sağlık",
+            "politics": "Politika",
+            "social_issue": "Sosyal Mesele",
+            "sensitive_content": "Hassas İçerik ",
+            "nudity": "Çıplaklık",
+            "vulgar_language": "Kaba Dil",
+            "hate_speech": "Nefret Söylemi",
+            "disability_disease": "Engellilik veya Hastalık",
+            "race_or_ethnicity": "Irk veya Etnik Köken",
+            "religious_affiliation": "Dini Bağlılık ",
+            "sexual_orientation": "Cinsel Yönelim",
+            "spam": "Spam"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "URL geçersiz"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "Google girişi gerçekleştirilemedi",
+        "failed_apple_login": "Apple oturum açma işlemi gerçekleştirilemedi"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "Fotoğraf dosyası maksimum 5MB boyutunu aşıyor",
+            "cannot_create_twibbon": "Twibbon oluşturulamıyor. Tekrar deneyin"
+        },
+        "log_in": {
+            "complete_verification": "Devam etmek için doğrulamayı tamamlayın",
+            "email_no_password": "Bu e-postanın şifresi yok. Google aracılığıyla giriş yapın",
+            "social_media_already_registered": "Sosyal medya hesabınızın e-postası zaten kayıtlı ve benzer bir sosyal medya hizmetindeki başka bir hesaba bağlı. Lütfen e-posta ve şifre formlarını kullanarak giriş yapmayı deneyin."
+        },
+        "sign_up": {
+            "email_already_registered": "Bu e-posta zaten kayıtlı. Farklı bir e-posta kullanın veya oturum açmayı deneyin",
+            "password_minimum_required": "Şifre en az 8 karakter olmalıdır.",
+            "password_character_exceeded": "Şifre 128 karakteri geçmemelidir",
+            "password_must_be_standard": "Şifre standart alfanümerik olmalıdır",
+            "password_does_not_match": "Şifre onayı eşleşmiyor. Tekrar deneyin"
+        },
+        "verification": {
+            "code_incorrect": "Kod yanlış. Tekrar deneyin",
+            "code_expired": "Kodun süresi doldu. Yeni bir tane isteyin",
+            "maximum_attempt_reached": "Maksimum deneme sayısına ulaşıldı. 5 saat sonra tekrar deneyin",
+            "code_requested_exceeded": "Kod istekleri maksimum sınırı aştı"
+        },
+        "forgot_password": {
+            "email_not_found": "Email bulunamadı. Tekrar deneyin veya kaydolun",
+            "link_expired": "Şifreyi değiştirme bağlantısının süresi doldu. Yeni bir tane isteyin",
+            "link_used": "Şifre değiştirme linki kullanıldı. Yeni bir tane isteyin"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "Çerçeve dosyası maksimum 5 MB boyutunu aşıyor",
+            "background_file_exceed": "Arka plan dosyası maksimum 5 MB boyutunu aşıyor",
+            "image_not_transparent": "Görüntü şeffaf olmalıdır. Tekrar deneyin",
+            "invalid_format": "Geçersiz dosya formatı. Desteklenen bir format kullanın",
+            "allow_only_1_frame": "Ücretsiz hesaplar yalnızca 1 kare yüklemeye izin verir. Devam etmek için yükseltme yapın",
+            "allow_only_1_background": "Ücretsiz hesaplar yalnızca 1 arka plan yüklemesine izin verir. Devam etmek için yükseltme yapın",
+            "campaign_title_exceed_limit": "Kampanya başlığı maksimum karakter sınırını aşıyor",
+            "description_exceed_limit": "Açıklama maksimum karakter sınırını aşıyor",
+            "link_unavailable": "Kampanya bağlantısı zaten kullanımda. Başka bir tane seç",
+            "link_criteria": "Kampanya bağlantısı alfasayısal ve kısa çizgi (-) olmalıdır",
+            "caption_exceed_limit": "Altyazı şablonu maksimum karakter sınırını aşıyor",
+            "background_exceed_limit": "Arka plan dosyası maksimum 5 MB boyutunu aşıyor",
+            "photo_exceed_limit": "Küçük resim fotoğraf dosyası maksimum 5 MB boyutunu aşıyor",
+            "link_exceed_limit": "Kampanya bağlantısı maksimum karakter sınırını aşıyor"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "Çerçeve dosyası maksimum 5 MB boyutunu aşıyor",
+            "background_file_exceed": "Arka plan dosyası maksimum 5 MB boyutunu aşıyor"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "Görüntü şeffaf olmalıdır. Tekrar deneyin",
+            "invalid_format": "Geçersiz dosya formatı. Desteklenen bir format kullanın",
+            "allow_only_1_frame": "Ücretsiz hesaplar yalnızca 1 kare yüklemeye izin verir. Devam etmek için yükseltme yapın",
+            "allow_only_1_background": "Ücretsiz hesaplar yalnızca 1 arka plan yüklemesine izin verir. Devam etmek için yükseltme yapın",
+            "campaign_title_exceed_limit": "Kampanya başlığı maksimum karakter sınırını aşıyor",
+            "description_exceed_limit": "Açıklama maksimum karakter sınırını aşıyor",
+            "link_unavailable": "Kampanya bağlantısı zaten kullanımda. Başka bir tane seç",
+            "link_criteria": "Kampanya bağlantısı alfasayısal ve kısa çizgi (-) olmalıdır",
+            "link_exceed_limit": "Kampanya bağlantısı maksimum karakter sınırını aşıyor",
+            "caption_exceed_limit": "Altyazı şablonu maksimum karakter sınırını aşıyor",
+            "background_exceed_limit": "Arka plan dosyası maksimum 5 MB boyutunu aşıyor",
+            "thumbnail_exceeds": "Küçük resim fotoğraf dosyası maksimum 5 MB boyutunu aşıyor"
+        },
+        "settings": {
+            "profile_image_exceed": "Profil resmi maksimum 5 MB sınırını aşıyor",
+            "background_image_exceed": "Arka plan resmi maksimum 5 MB boyutunu aşıyor",
+            "username_unavailable": "Kullanıcı adı zaten alınmış. Başka bir tane dene",
+            "username_exceed_limit": "Kullanıcı adı maksimum karakter sınırını aşıyor",
+            "username_invalid": "Kullanıcı adı geçersiz. Doğru formatla tekrar deneyin",
+            "display_exceed_limit": "Görünen ad maksimum karakter sınırını aşıyor",
+            "bio_exceed_limit": "Bio maksimum karakter sınırını aşıyor",
+            "email_already_registered": "E-posta zaten kayıtlı. Başka bir tane dene",
+            "password_incorrect": "Yanlış şifre. Tekrar deneyin",
+            "password_minimum_character": "Şifre en az 8 karakter olmalıdır",
+            "password_maximum_character": "Şifre 128 karakteri geçmemelidir",
+            "password_standard_format": "Şifre alfanümerik standart formata uygun olmalıdır",
+            "account_deleted": "Hesap silindi",
+            "account_integrated": "Hesap entegre",
+            "account_revoked": "Hesap iptal edildi"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "\"Bize Daha Fazla Bilgi Verin\" bölümü maksimum karakter sınırını aşıyor"
+        },
+        "general": {
+            "something_went_wrong": "Bir şeyler yanlış gitti"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "Eklenen kampanyaların sayısı maksimum sınırı aşıyor",
+            "description_exceeds": "Açıklama maksimum karakter sınırını aşıyor",
+            "title_exceeds": "Koleksiyon başlığı maksimum karakter sınırını aşıyor"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "Bağlantı kopyalandı",
+            "social_media_already_linked": "Sosyal medya hesabı zaten başka bir Twibbonize hesabına bağlı. Başka bir tane dene"
+        },
+        "campaign_creation": {
+            "link_available": "Bağlantı mevcut"
+        },
+        "campaign_edit": {
+            "link_available": "Bağlantı mevcut"
+        },
+        "settings": {
+            "photo_updated": "Fotoğraf Güncellendi",
+            "banner_updated": "Banner Güncellendi",
+            "banner_deleted": "Banner Silindi",
+            "photo_deleted": "Fotoğraf Silindi",
+            "password_updated": "şifre güncellendi",
+            "email_updated": "E-posta Güncellendi"
+        },
+        "my_profile": {
+            "campaign_deleted": "Kampanya silindi"
+        },
+        "collection": {
+            "campaign_added": "Kampanya eklendi"
+        },
+        "campaign_page": {
+            "account_upgraded": "Hesap yükseltildi",
+            "link_copied": "Bağlantı kopyalandı"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "Email bulunamadı. Tekrar deneyin veya kaydolun"
+        },
+        "password": {
+            "password_incorrect": "Yanlış şifre. Tekrar deneyin"
+        },
+        "maximum_attempt": "Maksimum deneme sayısına ulaşıldı. 1 saat sonra tekrar deneyin"
+    },
+    "page_notification": {
+        "no_notification_heading": "Henüz bildirim yok",
+        "no_notification_subheading": "Şu anda herhangi bir bildirim yok"
+    },
+    "page_general": {
+        "no_internet_connection": "İnternet bağlantısı yok. Tekrar denemek için tıkla",
+        "could_not_connect_internet": "İnternete bağlanılamadı. Başka bir ağa geçin ve tekrar deneyin."
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "Çıkış Yap?"
         }
     }
 }

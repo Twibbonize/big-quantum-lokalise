@@ -35,7 +35,7 @@
             "terms": "Sheria na Masharti",
             "privacy_policy": "Sera ya Faragha",
             "cookie_policy": "Sera ya Vidakuzi",
-            "sitemap": ""
+            "sitemap": "Ramani ya Tovuti"
         },
         "menu": {
             "explore": "Chunguza",
@@ -47,11 +47,6 @@
             "sign_in": "Weka sahihi",
             "sign_up": "Jisajili",
             "sign_out": "Toka"
-        },
-        "campaign": {
-            "supporters": "wafuasi|wafuasi",
-            "campaigns": "Kampeni",
-            "created": "Imeundwa"
         },
         "button": {
             "view_all": "Tazama zote",
@@ -71,11 +66,12 @@
             "report": "Ripoti",
             "edit": "Hariri",
             "confirm": "Thibitisha",
-            "okay": "",
+            "okay": "Sawa",
             "view": "Tazama",
-            "send": "",
-            "more": "",
-            "less": ""
+            "send": "Tuma",
+            "more": "Zaidi",
+            "less": "Chini",
+            "submit": "Wasilisha"
         },
         "time": {
             "week": "Wiki",
@@ -86,9 +82,14 @@
             "annual": "Mwaka",
             "yearly": "Kila mwaka"
         },
+        "campaign": {
+            "campaigns": "Kampeni",
+            "created": "Imeundwa",
+            "supporters": "mfuasi|msaidizi|wafuasi"
+        },
         "collection": {
             "collections": "Mikusanyiko",
-            "campaigns": "{campaign} Kampeni"
+            "campaigns": "Kampeni za {campaign}"
         },
         "creator": {
             "creators": "Waumbaji"
@@ -108,14 +109,21 @@
             "hide_post": "Ficha Chapisho",
             "post_shared": "Chapisho lilishirikiwa mnamo {date}",
             "share_message": "Shiriki ujumbe wako",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "Bandua Chapisho",
+            "unhide_post": "Onyesha Chapisho"
         },
         "pricing": {
-            "creator_subscribe_to": "",
-            "plan": "",
-            "support_without_watermark": "",
-            "all_supporters_without_watermark": ""
+            "creator_subscribe_to": "Mtayarishi huyu amejisajili kwa",
+            "plan": "mpango",
+            "support_without_watermark": "Wanaweza kusaidia kampeni yoyote bila watermark!",
+            "all_supporters_without_watermark": "Unaweza kuunga mkono kampeni hii yote ya Watayarishi bila alama maalum!"
+        },
+        "campaign_card": {
+            "a_month_ago": " |Mwezi mmoja uliopita",
+            "a_day_ago": " |Siku moja iliyopita"
+        },
+        "search": {
+            "searching": "Inatafuta..."
         }
     },
     "page_home": {
@@ -262,8 +270,8 @@
         "process": {
             "how_twibbonize_1": "Jinsi Twibbonize anavyofanya mapinduzi",
             "how_twibbonize_2": "Kampeni ya Twibbon",
-            "sharing_twibbon_1": "Kushiriki Twibbon zamani ilikuwa mchakato changamano sisi pia",
-            "sharing_twibbon_2": "nimechoka kukueleza."
+            "sharing_twibbon_1": "Kushiriki Twibbon zamani ilikuwa mchakato changamano hata",
+            "sharing_twibbon_2": "tumechoka sana kuweza kukueleza."
         },
         "frame": {
             "twibbon_frame": "Katika Twibbonize, Twibbon ni zaidi ya fremu",
@@ -334,10 +342,10 @@
             "download": "Pakua",
             "reset": "Weka upya",
             "add_text": "Ongeza Maandishi",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": "",
+            "posting_as": "Inachapisha kama ",
+            "not_you": "Si wewe? ",
+            "uploading_photo_to_remove": "Inapakia picha yako na kuondoa usuli wake.",
+            "wait_for_moment": "Subiri kidogo...",
             "remove_watermark_for_you_2": "na ufurahie picha zako bila watermark!",
             "remove_watermark_for_you_1": "Gundua Twibbonize bila matangazo,",
             "remove_watermark_for_you": "Ondoa watermark!",
@@ -350,7 +358,6 @@
             "report_profile": "Ripoti Wasifu",
             "plagiarism": "Wizi",
             "sensitive": "Maudhui Nyeti",
-            "danger": "Maudhui ya Hatari",
             "spam": "Barua taka",
             "why_report_campaign": "Kwa nini unaripoti kampeni hii?",
             "protect_reporter": "Miongozo ya Jumuiya ya Twibbonize hulinda ufaragha wa utambulisho wa ripota.",
@@ -359,7 +366,21 @@
             "received_report": "Tumepokea ripoti yako!",
             "thankyou": "Asante! Tafadhali turuhusu tuchunguze ripoti yako, na tutatuma maoni kwa barua pepe yako haraka iwezekanavyo.",
             "learn_more_about": "Pata maelezo zaidi kuhusu {link} .",
-            "community_guideline": "Twibbonize Miongozo ya Jumuiya"
+            "community_guideline": "Twibbonize Miongozo ya Jumuiya",
+            "title": "Kwa nini unaripoti kampeni hii?",
+            "danger": "Hatari au Madhara ",
+            "impersonation": "Uigaji ",
+            "piracy": "Uharamia",
+            "vulgar_language": "Lugha chafu",
+            "nudity_pornography": "Uchi na Ponografia",
+            "suicidal_self_harm": "Maudhui ya Kujiua na Kujidhuru ",
+            "violent_graphic_content": "Maudhui ya Picha ya Vurugu",
+            "harassment_cyberbullying": "Unyanyasaji na Unyanyasaji Mtandaoni",
+            "proactive_threatening_content": "Maudhui ya Kuchokoza na Kutishia",
+            "statement": "Miongozo ya Jumuiya ya Twibbonize hulinda ufaragha wa utambulisho wa ripota.",
+            "read_more_copy": "Soma zaidi",
+            "please_select_one": "Tafadhali chagua moja",
+            "write_a_message": "Andika ujumbe"
         },
         "discard": {
             "discard_edit": "Ungependa kutupa mabadiliko?",
@@ -377,9 +398,10 @@
             "supporters": "Wafuasi",
             "interactions": "Maingiliano",
             "visits": "Ziara",
-            "realtime_estimates": "Makadirio ya wakati halisi",
             "last_month": "Siku 30 zilizopita",
-            "see_more_analytics": "Tazama Uchanganuzi Zaidi"
+            "see_more_analytics": "Tazama Uchanganuzi Zaidi",
+            "realtime_estimates": "Makadirio ya muda halisi kutoka siku 30 zilizopita",
+            "view_analytics": "Tazama Uchanganuzi"
         },
         "pricing": {
             "no_thankyou": "Hapana Asante"
@@ -400,15 +422,37 @@
             "reply_as_user": "Jibu kama {user}"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "Fuata miongozo kwa matokeo bora!",
+            "good_photo_examples": "Mifano nzuri ya picha:",
+            "good_photo_caption": "Selfie ya karibu, picha ya wima, uso safi",
+            "photos_avoid": "Picha za kuepuka:",
+            "bad_photo_caption": "Picha kamili ya mwili, picha ya kikundi, picha kutoka nyuma",
+            "understand": "Naelewa"
         },
         "post_to_twibbonize": {
-            "caption": ""
+            "caption": "Andika ujumbe kuhusu kampeni hii...",
+            "unpin_post": "Bandua Chapisho"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "Rekebisha picha yako"
+        },
+        "share_campaign": {
+            "or_share_to": "au kushiriki kwa",
+            "save_share": "Hifadhi na Shiriki"
+        },
+        "post": {
+            "post_uploaded": "Chapisho Limepakiwa",
+            "post_deleted": "Chapisho Limefutwa",
+            "post_failed_deleted": "Chapisho Limeshindwa, Limefutwa"
+        },
+        "create_campaign": {
+            "custom_field": "Ongeza Sehemu Maalum"
+        },
+        "collection": {
+            "sign_up_add_collection": "Jisajili ili Ongeza kwenye Mkusanyiko"
+        },
+        "posts": {
+            "has_no_posts": "Mtumiaji huyu hajachapisha chochote kwenye Twibbonize"
         }
     },
     "page_checkout": {
@@ -417,9 +461,8 @@
             "account_update": "Akaunti yako itasasishwa, na vipengele vyote vipya vimefunguliwa"
         },
         "checkout": {
-            "back_to_plans": "Rudi kwa Mipango",
             "upgrade_to": "Pata toleo jipya la {plan}",
-            "gather_your_supports": "Kusanya wafuasi wako na uongeze kampeni yako kwa vipengele vyetu vya kipekee.",
+            "gather_your_supports": "Kusanya wafuasi wako na uongeze kampeni yako kwa vipengele vyetu vya kipekee",
             "billing_option": "Chaguo la Malipo",
             "details": "Maelezo",
             "user": "Mtumiaji",
@@ -429,18 +472,19 @@
             "save": "Okoa {percentage} %",
             "pay": "Lipa {frequency}",
             "checkout_options": "Chaguzi za Malipo",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "Rekebisha Mpango",
+            "current_plan": "Mpango wa Sasa",
+            "downgrade": "Punguza kiwango",
+            "current_plan_description": "Unasajili usajili huu sasa",
+            "change_plan_description": "Unabadilisha mpango wako kuwa {plan} , ambao utatumika baada ya usajili wa sasa kuisha.",
+            "downgrade_description": "Unashusha gredi mpango wako hadi {plan} , ambao utaanza kutumika baada ya usajili wa sasa kuisha.",
+            "change_plan_confirm": "Una uhakika?",
+            "upgrade_confirm": "Je, una uhakika unataka kuboresha?",
+            "downgrade_confirm": "Je, una uhakika unataka kushusha kiwango cha mpango?",
+            "change_plan_active": "Itaanza kutumika mara baada ya usajili wako wa sasa kuisha",
+            "upgrade_active": "Itaanza kutumika mara tu utakapokamilisha malipo",
+            "downgrade_active": "Itaanza kutumika pindi usajili wako wa sasa utakapokamilika",
+            "back_to_plans": "Nyuma"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -449,14 +493,14 @@
             "use_twibbonize_without_ads": "Tumia Twibbonize bila Matangazo",
             "exclusive_features": "Vipengele vya Kipekee vya Kampeni yako",
             "remove_own_account": "Ondoa watermark kwa akaunti yako mwenyewe",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "Fedha",
+            "gold": "Dhahabu",
+            "platinum": "Platinamu",
+            "watermark_title": "Ondoa Watermark",
+            "high_quality_image_title": "Picha ya Ubora wa Juu",
+            "ad_free_title": "Bila Tangazo",
+            "campaign_addon": "Kampeni ya Addon",
+            "on": "juu"
         }
     },
     "page_collection": {
@@ -496,9 +540,9 @@
             "image_dimension": "1080x1080px",
             "upload": "Pakia",
             "imagetype": "PNG",
-            "max_file": "",
-            "backgroundtype": "",
-            "upload_design": ""
+            "max_file": "Upeo wa 5 MB",
+            "backgroundtype": "JPEG, PNG au WEBP",
+            "upload_design": "Pakia muundo wako hapa"
         },
         "frame_editor": {
             "or_create": "au unda fremu yako sasa",
@@ -526,7 +570,7 @@
             "campaign_title": "Kichwa cha Kampeni",
             "campaign_title_placeholder": "Inaweza kujumuisha nambari, alfabeti au herufi maalum.",
             "campaign_description": "Maelezo",
-            "campaign_description_placeholder": "Shiriki maelezo kuhusu kampeni yako ili kuvutia umakini na kupata usaidizi.",
+            "campaign_description_placeholder": "Shiriki maelezo kuhusu kampeni yako ili kuvutia umakini na kupata usaidizi",
             "campaign_link": "Kiungo cha Kampeni",
             "campaign_link_placeholder": "kiungo cha kampeni",
             "campaign_category": "Kitengo cha Kampeni",
@@ -545,7 +589,7 @@
             "url_not_available": "URL haipatikani",
             "caption_placeholder": "Hujambo, jina langu ni [[Jina Lako]], na niko tayari kuunga mkono kampeni hii. Hebu tukusanye na tufanye athari ya kweli na kampeni hii pamoja!",
             "enter_description": "Ingiza maelezo",
-            "optional": ""
+            "optional": "Hiari"
         },
         "customization": {
             "campaign_customization": "Ubinafsishaji wa Kampeni",
@@ -568,14 +612,14 @@
             "go_back": "Rudi nyuma"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "Fremu",
+            "campaigns": "Kampeni",
+            "analytics": "Uchanganuzi"
         },
         "blank_design": {
-            "suggested": "",
-            "instagram_story": "",
-            "instagram_post": ""
+            "suggested": "Imependekezwa",
+            "instagram_story": "Hadithi ya Instagram",
+            "instagram_post": "Chapisho la Instagram"
         }
     },
     "page_for_creators": {
@@ -585,8 +629,8 @@
             "purchase_now": "Nunua Sasa",
             "learn_more": "Jifunze zaidi",
             "want_to_create": "Je, ungependa kuunda kampeni yako bila malipo?",
-            "try_now": "Jaribu Sasa!",
-            "per": "kwa {time}"
+            "per": "kwa {time}",
+            "try_now": "Jaribu Sasa!"
         },
         "features": {
             "remove_watermark": "Ondoa watermark kwa watumiaji wako wote wa kampeni",
@@ -631,20 +675,20 @@
             "unite_detail": "Leta jumuiya yote ya wafuasi wa kampeni yako kwenye ukurasa wako wa Twibbonize; ambapo wafuasi wanaungana na unaona athari!",
             "entertain_detail": "Twibbonize hushirikisha wafuasi wako kwa kutoa Twibbon pepe inayoweza kushirikiwa kwa mitandao ya kijamii na ujumbe",
             "grow_detail": "Pata uungwaji mkono zaidi na kampeni ya Twibbonize: haileti usikivu tu bali pia inaleta athari, na kuvutia hadhira inayokua ambayo haitaki kukosa lengo lako.",
-            "inspire": "",
-            "unite": "",
-            "entertain": "",
-            "grow": ""
+            "inspire": "Hamasisha ",
+            "unite": "Ungana",
+            "entertain": "Burudisha",
+            "grow": "Kukua"
         },
         "use_cases": {
             "heading": "Mawazo ya kutumia Twibbonize kwa",
-            "subheading": "",
-            "corporate": "",
-            "corporate_title": "",
+            "subheading": "Anza uchunguzi wako kwa mifano uliyochagua kutoka kwa kampeni zetu 5,000,000+ za Twibbonize",
+            "corporate": "Kampuni",
+            "corporate_title": "Tumia nguvu ya wingi wa wafanyikazi wako na wateja",
             "education": "Elimu",
-            "education_title": "",
+            "education_title": "Ni njia ya kufurahisha ya kuongeza kwenye mchakato wa kujifunza",
             "event": "Matukio",
-            "events_title": ""
+            "events_title": "Shirikisha tukio lako kwa nguvu ya virusi vya papo hapo"
         },
         "testimonials": {
             "testimonials": "Ushuhuda",
@@ -688,8 +732,8 @@
             "proud_partner": "Tunajivunia kushirikiana na watu ambao wanalingana kwa kina na dhamira yetu"
         },
         "honorary": {
-            "honorary_mentions": "",
-            "significant_contributions": ""
+            "honorary_mentions": "Majina ya Heshima",
+            "significant_contributions": "Wale waliotoa mchango mkubwa katika maendeleo yetu"
         }
     },
     "page_pricing": {
@@ -706,8 +750,8 @@
             "private_campaign_1": "Privat",
             "private_campaign_2": "Kampeni",
             "offer_exclusively": "Toa upekee kwa wafuasi wako",
-            "campaign_customization_1": "Kampeni",
-            "campaign_customization_2": "Kubinafsisha",
+            "campaign_customization_1": "Ubinafsishaji",
+            "campaign_customization_2": "wa Kampeni",
             "personalize_campaign": "Binafsisha ukurasa wako wa kampeni",
             "multiple_frames_1": "Twibbon nyingi",
             "multiple_frames_2": "kwa kampeni",
@@ -715,9 +759,9 @@
             "top_notch": "Boresha mchezo wako wa kampeni",
             "considering_all": "Kuzingatia manufaa yote, ni thamani yake",
             "remove_watermark_1": "Ondoa",
-            "remove_watermark_2": "Alama ya maji",
+            "remove_watermark_2": "alama ya maji",
             "for_audience_1": "kwa",
-            "for_audience_2": "wewe na hadhira yako",
+            "for_audience_2": "ajili yako na hadhira yako",
             "as_a_free_user": "Kama mtumiaji bila malipo, Twibbon yako huwa na <strong> watermark. <\/strong>",
             "premium_supporter": "<strong> Premium Creator <\/strong> huondoa watermark ili kupata picha safi.",
             "now_you_can": "Sasa unaweza <strong> kuunga mkono kampeni yoyote <\/strong> bila watermark."
@@ -736,7 +780,7 @@
             "premium_supporter": "<strong> Premium Supporter <\/strong> huondoa watermark kwa picha safi.",
             "now_you_can": "Sasa unaweza <strong> kuunga mkono kampeni yoyote <\/strong> bila watermark.",
             "remove_watermark_1": "Ondoa",
-            "remove_watermark_2": "Alama ya maji",
+            "remove_watermark_2": "alama ya maji",
             "for_audience_1": "kwa",
             "for_audience_2": "akaunti yako mwenyewe",
             "looking_to_remove": "Je, unatafuta Kuondoa Watermark kwa watumiaji wako wote wa kampeni? Jaribu"
@@ -772,25 +816,25 @@
             "notes": "Vidokezo",
             "print": "Pakua ankara",
             "if_you_would_like_to_change": "Ikiwa ungependa kubadilisha usajili wako au maelezo yako ya malipo, tafadhali nenda kwenye mipangilio yako ya malipo",
-            "ending_in": ""
+            "ending_in": "{card} inayoisha kwa {number}"
         },
         "bento": {
             "campaign_analytics_1": "Kampeni",
             "campaign_analytics_2": "Uchanganuzi",
             "private_campaign_1": "Privat",
             "private_campaign_2": "Kampeni",
-            "campaign_customization_1": "Kampeni",
-            "campaign_customization_2": "Kubinafsisha",
+            "campaign_customization_1": "Ubinafsishaji",
+            "campaign_customization_2": "wa Kampeni",
             "multiple_frames_1": "Fremu Nyingi",
             "multiple_frames_2": "kwa kampeni",
             "use_twibbonize_without_ads_1": "Tumia Twibbonize",
-            "use_twibbonize_without_ads_2": "bila Matangazo",
+            "use_twibbonize_without_ads_2": "bila matangazo",
             "no_extra_features_1": "Hakuna Vipengele vya Ziada",
             "no_extra_features_2": "Inapatikana",
-            "remove_all_watermark_1": "Ondoa watermark",
+            "remove_all_watermark_1": "Ondoa alama ya maji",
             "remove_all_watermark_2": "kutoka kwa watumiaji wote wa kampeni yako",
-            "remove_own_watermark_1": "Ondoa watermark",
-            "on": "juu",
+            "remove_own_watermark_1": "Ondoa alama ya maji",
+            "on": "kwenye",
             "remove_own_watermark_2": "akaunti yako mwenyewe",
             "extra_features": "Sifa za Ziada"
         },
@@ -828,6 +872,9 @@
         },
         "card_premium_creator": {
             "subheading": "Kwa watu wanaohitaji matumizi bora zaidi ya Twibbonize"
+        },
+        "same_plan": {
+            "adjust_plan": "Rekebisha Mpango"
         }
     },
     "page_profile": {
@@ -835,17 +882,17 @@
             "search_campaigns": "Tafuta kampeni",
             "no_campaigns": "Bado Hakuna Kampeni",
             "no_campaigns_details": "Unda kampeni, na ushiriki ili kufichua.",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "Je, una uhakika wa kufuta kampeni hii?",
+            "delete_detail": "Kufuta \" {title} \" hakutakuwa na mwisho na hakuwezi kutenduliwa.",
+            "delete_campaign": "Futa Kampeni"
         },
         "posts": {
             "no_posts": "Bado Hakuna Machapisho",
-            "no_post_details": "Tafuta kampeni, na uchapishe twibbon yako kwenye Twibbonize."
+            "no_post_details": "Tafuta kampeni, na uchapishe twibbon yako kwenye Twibbonize"
         },
         "collections": {
             "no_collections": "Panga kampeni zako uzipendazo",
-            "no_collections_details": "Kwenye ukurasa wa kampeni, bofya tu kitufe cha aikoni ya {icon} ili kuhifadhi kampeni unazozipata za kuvutia kwenye mikusanyiko yako mwenyewe."
+            "no_collections_details": "Bofya aikoni ya {icon} kwenye kampeni yoyote ili kuhifadhi kampeni kwenye mikusanyiko yako"
         },
         "about": {
             "about": "Kuhusu",
@@ -857,13 +904,32 @@
             "campaigns": "Kampeni"
         },
         "my_profile": {
-            "edit_profile": "",
+            "edit_profile": "Hariri Wasifu",
             "campaigns": "Kampeni",
             "collections": "Mikusanyiko",
-            "posts": ""
+            "posts": "Machapisho"
         },
         "campaign_deletion": {
             "are_you_sure": "Una uhakika?"
+        },
+        "campaign": {
+            "delete_campaign": "Kufuta \" {campaign_name} \" hakutakuwa na mwisho na hakuwezi kutenduliwa.",
+            "confirm_delete_campaign": "Futa Kampeni"
+        },
+        "collection": {
+            "delete_collection": "Mkusanyiko wa \" {collection_name} \" utafutwa kabisa.",
+            "confirm_delete_collection": "Futa Mkusanyiko",
+            "delete_campaign": "Kampeni ya \" {campaign_name} \" itaondolewa kabisa kutoka kwa mkusanyiko \" {collection_name} \"",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "Kwa nini unaripoti wasifu huu?",
+            "abusive_harmful": "Matusi au Madhara",
+            "pretending_someone": "Kujifanya mtu mwingine",
+            "sensitive_content": "Maudhui Nyeti"
+        },
+        "account": {
+            "email_changed": "Barua pepe yako imebadilika hivi majuzi. Unaweza kuisasisha tena baada ya siku 90."
         }
     },
     "page_preference": {
@@ -907,55 +973,55 @@
             "adfree": "Bila Matangazo",
             "highquality": "Ubora wa juu",
             "nowatermark": "Hakuna Watermark",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "Imelipwa",
+            "are_you_sure_change": "Una uhakika?",
+            "active_after_subscription": "Itaanza kutumika mara baada ya usajili wako wa sasa kuisha",
+            "are_you_sure_upgrade": "Je, una uhakika unataka kuboresha?",
+            "plan_changing_info": "Badili hadi {package} iliyopokelewa. Mpango mpya huanza baada ya ule wa sasa kuisha",
+            "active_after_payment": "Itaanza kutumika mara tu utakapokamilisha malipo",
+            "are_you_sure_downgrade": "Je, una uhakika unataka kushusha kiwango cha mpango?",
+            "plan_downgrade_info": "Pakua kiwango cha {package} kilichopokelewa. Mpango mpya huanza baada ya ule wa sasa kuisha",
+            "renew_plan": "Mpango upya",
+            "renew_subscription": "Sasisha Usajili",
+            "upgrade_now": "Kuboresha sasa",
+            "warning": "Onyo!",
+            "important": "Muhimu!",
+            "premium_expired": "Mpango wako wa Watayarishi wa Premium umekwisha. Tafadhali usasishe kabla ya {date}",
+            "last_attempted": "Ushtaki wetu wa mara ya mwisho haukufaulu. Tafadhali sasisha njia yako ya kulipa.",
+            "renewal_date": "Tarehe ya Upya",
+            "payment_method": "Njia ya malipo",
+            "update_now": "Sasisha Sasa",
+            "cancel_subscription": "Ghairi Usajili",
+            "change_payment_method": "Badilisha Njia ya Malipo",
+            "card_end_with": "{card} inayoisha kwa {number}",
+            "no_transactions": "Bado hakuna historia ya miamala",
+            "transactions_will_shown": "Historia yako ya muamala itaonyeshwa hapa pindi itakapopatikana",
+            "are_you_sure": "Una uhakika?",
+            "once_cancel_plan": "Ukighairi mpango, utapoteza uwezo wa kufikia vipengele vyako vyote vilivyoboreshwa mwishoni mwa kipindi chako cha bili",
+            "yes_cancel_plan": "Ndiyo, Ghairi Mpango",
+            "no_keep_plan": "Hapana, Weka Mpango",
+            "once_renew_plan": "Ukishasasisha mpango, mpango wako utaanza kutumika tena",
+            "yes_renew_plan": "Ndiyo, Panga upya",
+            "no_cancel": "Hapana, Ghairi",
+            "if_cancel_downgrade": "Ukighairi kushusha kiwango, mpango wako wa sasa utaanza kutumika tena",
+            "yes_downgrade": "Ndiyo, Endelea Kushusha daraja",
+            "if_cancel_change_billing": "Ukighairi malipo ya mabadiliko, mpango wako wa sasa utaanza kutumika tena",
+            "yes_continue": "Ndiyo, Endelea",
+            "info": "Habari",
+            "your_request_cancel": "Ombi lako la kughairi mpango wako wa {plan} limepokelewa. Itaisha katika mzunguko unaofuata wa bili",
+            "your_request_downgrade": "Ombi lako la kushusha kiwango hadi {plan} limepokelewa. Mpango wako mpya utaamilishwa mara tu mpango wa sasa utakapokamilika.",
+            "cancel_downgrade": "Ghairi Kushusha daraja",
+            "cancel_change": "Ghairi Malipo ya Mabadiliko",
+            "your_request_billing": "Ombi lako la kubadilisha malipo yako kuwa {plan} limepokelewa. Mpango wako mpya utaamilishwa mara tu mpango wa sasa utakapokamilika.",
+            "manage_inapp": "Dhibiti usajili wako kwenye programu ya Twibbonize {appOs}",
+            "manage_inapp_subscription": "Ili kudhibiti usajili wako wa Twibbonize kwenye {appOs} , fungua programu, nenda kwenye 'Mipangilio,' na uchague 'Malipo.'",
+            "success_cancel_subscription": "Umefanikiwa Kughairi Usajili",
+            "success_renew_subscription": "Umefaulu Kusasisha Usajili",
+            "success_change_subscription": "Mafanikio ya Kubadilisha Usajili",
+            "success_cancel_change_subscription": "Mafanikio Ghairi Kubadilisha Usajili",
+            "last_attempted_authentication": "Ushtaki wetu wa mara ya mwisho haukufaulu. Malipo yako yanahitaji uthibitishaji.",
+            "authenticate_now": "Thibitisha Sasa",
+            "recurring_payment": "Tunahitaji uthibitisho wako wazi kwa malipo yako ya mara kwa mara. Tafadhali angalia barua pepe yako"
         },
         "account": {
             "update_email": "Sasisha Barua pepe",
@@ -985,19 +1051,19 @@
             "confirm_password": "Thibitisha Nenosiri",
             "create_new_password": "Unda Nenosiri Jipya",
             "make_it_easy": "Ifanye iwe rahisi kwako kukumbuka na kuiweka siri kutoka kwa mtu yeyote!",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "Ongeza Barua pepe",
+            "add_password": "Ongeza Nenosiri",
+            "cant_remove_account": "Lo, hatuwezi kuondoa akaunti yako ya mitandao ya kijamii.",
+            "set_up_email": "Lazima uweke barua pepe au nenosiri kwanza ili kuondoa akaunti yako ya mitandao ya kijamii.",
+            "want_to_remove": "Je, ungependa kuondoa akaunti yako ya mitandao ya kijamii?",
+            "your_account_will_be_removed": "Akaunti yako ya {provider} itaondolewa. Bofya kuelewa ili kuondoa akaunti zako za mitandao ya kijamii.",
+            "continue_to_revoke": "Endelea Kubatilisha ",
+            "revoke_success": "Umefanikiwa Kubatilisha Akaunti {provider}",
+            "cannot_update_email": "Lo, hatuwezi kusasisha barua pepe yako",
+            "setup_password_to_update_email": "Lazima uweke nenosiri kabla ya kusasisha barua pepe yako.",
+            "email_change_request": "Ombi la Kubadilisha Barua Pepe Limeghairiwa",
+            "we_have_sent_password": "Tumetuma maagizo ya kuweka upya nenosiri kwenye barua pepe yako. Tafadhali weka upya nenosiri lako ndani ya saa 1 kwa sababu za usalama.",
+            "go_to_homepage": "Nenda kwenye Ukurasa wa Nyumbani"
         },
         "notifications": {
             "notifications_settings": "Mipangilio ya Arifa",
@@ -1015,10 +1081,10 @@
             "article": "Makala",
             "article_details": "Utapokea makala zetu zinazopendekezwa.",
             "toggle_all": "Wote",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "Chapisha kwa Twibbonize",
+            "post_twibbonize_details": "Pata arifa za chapisho la wafuasi kwenye ukurasa wa kampeni.",
+            "account_recap": "Muhtasari wa Akaunti",
+            "account_recap_details": "Muhtasari wa Kila Wiki wa Wafuasi na Ziara za Kampeni Zako Zote"
         },
         "package": {
             "free": "Bure",
@@ -1284,290 +1350,6 @@
             "paragraph_11": "Tunapokumbatia uwezo wa muunganisho wa enzi ya dijitali, acha Twibbonize iendelee kupaka skrini zetu alama za mshikamano, na hivyo kuleta athari ya kudumu katika nyanja ya utetezi wa kijamii. Kwa pamoja, tunatengeneza simulizi inayoonekana ambayo inavuka mipaka, ikirejea ahadi yetu ya pamoja kwa ulimwengu wenye huruma na umoja."
         }
     },
-    "notification": {
-        "push": {
-            "campaign_milestone": {
-                "header": "🏆 {name}, hatua mpya imefikiwa!",
-                "body": "Hongera! Kampeni yako {title} sasa ina wafuasi {amount}!"
-            },
-            "new_post": {
-                "header": "Twibbon Mpya imechapishwa",
-                "body": "{participant} alichapisha Twibbon katika matunzio ya kampeni yako {title}!"
-            },
-            "new_comment": {
-                "header": "Maoni mapya!",
-                "body": "{participant} alitoa maoni kuhusu chapisho lako kwenye kampeni {title}!"
-            },
-            "account_recap": {
-                "header": "🍺 {name}, huu hapa ni muhtasari wako wa kila wiki!",
-                "body": "Umepata {amount} wafuasi wapya wiki hii. Endelea!"
-            },
-            "billing": {
-                "creator": {
-                    "successful_payment": {
-                        "header": "Malipo yako yamefaulu",
-                        "body": "Chukua fursa ya vipengele vyake vya kipekee! Anza kampeni yako sasa"
-                    },
-                    "plus_5": {
-                        "header": "Hujambo {name} , sasisha usajili wako sasa",
-                        "body": "Sasisha au uboresha mpango wako sasa ili uendelee kufikia takwimu za kampeni yako."
-                    }
-                },
-                "international": {
-                    "renewed_plan": {
-                        "header": "Hujambo {name}, malipo yako ya kusasisha yamethibitishwa",
-                        "body": "Sasa unaweza kuendelea kutumia vipengele vyetu vya kipekee!"
-                    },
-                    "creator": {
-                        "successful_payment": {
-                            "header": "Malipo yako yamefaulu",
-                            "body": "Chukua fursa ya vipengele vyake vya kipekee! Anza kampeni yako sasa."
-                        },
-                        "plus_2": {
-                            "header": "Hujambo {name} , sasisha usajili wako sasa",
-                            "body": "Sasisha au uboresha mpango wako sasa ili uendelee kufikia takwimu za kampeni yako."
-                        }
-                    },
-                    "supporter": {
-                        "successful_payment": {
-                            "header": "Malipo yako yamefaulu",
-                            "body": "Furahia matumizi yako bila matangazo na upate Twibbon bila watermark!"
-                        },
-                        "plus_2": {
-                            "header": "Hujambo {name} , sasisha usajili wako sasa",
-                            "body": "Sasisha mpango wako sasa ili ufurahie Twibbon bila watermark na matumizi bila matangazo."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Furahia matumizi yako bila matangazo na upate Twibbon bila watermark!",
-                        "header": "Malipo yako yamefaulu"
-                    },
-                    "plus_5": {
-                        "body": "Sasisha mpango wako sasa ili ufurahie Twibbon bila watermark na matumizi bila matangazo.",
-                        "header": "Hujambo {name}, sasisha usajili wako sasa"
-                    }
-                }
-            },
-            "new_reply": {
-                "header": "Jibu jipya!",
-                "body": "{participant} alitoa maoni kuhusu maoni yako kwenye kampeni {title}!"
-            }
-        },
-        "panel": {
-            "campaign_milestone": {
-                "body": "Hongera! Kampeni {title} sasa ina wafuasi {amount}!",
-                "header": "🏆 {name}, hatua mpya imefikiwa!"
-            },
-            "account_recap": {
-                "body": "Umepata {amount} wafuasi wapya katika wiki iliyopita katika kampeni zako zote. Endelea na kazi nzuri!",
-                "header": "🍺 {name} , Huu hapa ni muhtasari wako wa kila wiki!"
-            },
-            "billing": {
-                "order_received": {
-                    "header": "Hujambo {name}, tafadhali kamilisha malipo yako",
-                    "body": "Asante kwa kuagiza {product}. Tafadhali endelea na malipo ili ukamilishe muamala wako."
-                },
-                "order_canceled": {
-                    "header": "Samahani {name}, agizo lako la {product} limeghairiwa",
-                    "body": "Tafadhali usiendelee kulipa."
-                },
-                "creator": {
-                    "successful_payment": {
-                        "header": "Hujambo {name} , malipo yako yamepokelewa",
-                        "body": "Asante kwa kujisajili kwa {product}. Unda kampeni yako sasa na utumie vipengele vyake maalum!"
-                    },
-                    "min_3": {
-                        "header": "Hujambo {name} , muda wako wa {product} utaisha baada ya siku 3",
-                        "body": "Sasisha au uboresha usajili wako ili kuendelea kufurahia vipengele vya kipekee vya Twibbonize."
-                    },
-                    "exp_day": {
-                        "header": "Hujambo {name}, muda wa usajili wako wa {product} umeisha",
-                        "body": "Sasisha au uboresha usajili wako kabla ya {date_plus_7} ili kudumisha ufikiaji wa takwimu za kampeni na vipengele vyote vya kipekee."
-                    },
-                    "plus_5": {
-                        "header": "Hujambo {name} , usajili wako utaisha baada ya saa 48",
-                        "body": "Sasisha au uboresha mpango wako ndani ya saa 48 ili kudumisha ufikiaji wa takwimu za kampeni yako."
-                    },
-                    "plus_7": {
-                        "header": "Hujambo {name}, akaunti yako imeshuka hadi Twibbonize Free",
-                        "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya {product}."
-                    }
-                },
-                "international": {
-                    "creator": {
-                        "canceled_plan": {
-                            "header": "Hujambo {name}, usajili wako wa {product} umeghairiwa",
-                            "body": "Utapoteza uwezo wa kufikia vipengele vyote vya {product} mwishoni mwa kipindi chako cha bili."
-                        },
-                        "renewed_plan": {
-                            "header": "Hujambo {name}, usajili wako wa {product} ulisasishwa kwa ufanisi",
-                            "body": "Usajili wako wa {product} utatozwa mwishoni mwa kipindi chako cha bili."
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Hujambo {name}, akaunti yako imeshuka hadi Twibbonize Free",
-                                "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya {product} ."
-                            }
-                        },
-                        "cancel_downgrade": {
-                            "header": "Hujambo {name} , ombi lako la kughairi ushushaji daraja limepokelewa",
-                            "body": "Usajili wako utaendelea kama Premium Creator."
-                        },
-                        "convert": {
-                            "header": "Hujambo {name}, akaunti yako imepandishwa daraja na kuwa Premium Creator",
-                            "body": "Hongera! Sasa wewe ni Premium Creator. Furahia vipengele vyote sasa!"
-                        },
-                        "successful_payment": {
-                            "header": "Hujambo {name} , malipo yako yamepokelewa",
-                            "body": "Asante kwa kujisajili kwa {product}. Unda kampeni yako sasa na utumie vipengele vyake maalum!"
-                        },
-                        "exp_day": {
-                            "header": "Hujambo {name}, muda wa usajili wako wa {product} umeisha",
-                            "body": "Tafadhali sasisha maelezo yako ya malipo kabla ya {date_plus_7} ili kuendelea kufikia takwimu za kampeni yako."
-                        },
-                        "plus_2": {
-                            "header": "Hujambo {name} , usajili wako utaisha baada ya saa 48",
-                            "body": "Tafadhali sasisha kadi yako ya malipo ili kudumisha ufikiaji wa takwimu za kampeni yako."
-                        },
-                        "plus_5": {
-                            "header": "Hujambo {name}, akaunti yako imeshuka hadi Twibbonize Free",
-                            "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya {product} ."
-                        },
-                        "convert_addon": {
-                            "body": "Hongera! Sasa wewe ni Premium Creator. Furahia vipengele vyote sasa!",
-                            "header": "Hujambo {name}, akaunti yako imepandishwa daraja na kuwa Premium Creator"
-                        }
-                    },
-                    "auth": {
-                        "exp_day": {
-                            "header": "Hujambo {name}, njia yako ya kulipa inahitaji uthibitishaji",
-                            "body": "Tafadhali thibitisha uthibitishaji wako wa malipo ili kukamilisha usajili wako sasa."
-                        }
-                    },
-                    "renewed_plan": {
-                        "header": "Hujambo {name} , malipo yako ya kusasisha yamethibitishwa",
-                        "body": "Sasa, unaweza kuendelea kufurahia vipengele vya kipekee!"
-                    },
-                    "downgrade_received": {
-                        "header": "Hujambo {name}, ombi lako la kushusha kiwango limepokelewa",
-                        "body": "Akaunti yako itashushwa hadi {product} mwishoni mwa kipindi chako cha bili."
-                    },
-                    "supporter": {
-                        "convert": {
-                            "header": "Hujambo {name} , Akaunti yako imepandishwa daraja na kuwa Premium Supporter",
-                            "body": "Hongera! Sasa wewe ni Premium Supporter. Furahia vipengele vyote sasa!"
-                        },
-                        "successful_payment": {
-                            "body": "",
-                            "header": "Hujambo {name}, tumepokea malipo yako"
-                        },
-                        "min_3": {
-                            "body": ""
-                        },
-                        "successful": {
-                            "body": "Asante kwa kujisajili kwa {product}. Sasa, unaweza kupata Twibbon bila watermark na matumizi bila matangazo!"
-                        },
-                        "exp_day": {
-                            "header": "Hujambo {name}, malipo yako hayakutekelezwa",
-                            "body": "Tafadhali sasisha maelezo yako ya malipo kabla ya {date_plus_7} ili kufurahia vipengele vya kipekee, kuvinjari bila matangazo na Twibbon isiyo na watermark."
-                        },
-                        "plus_2": {
-                            "header": "Hujambo {name} , usajili wako utaisha baada ya saa 48",
-                            "body": "Sasisha mpango wako sasa ili ufurahie Twibbon bila watermark na matumizi bila matangazo."
-                        },
-                        "plus_7": {
-                            "header": "Hujambo {name}, akaunti yako imeshuka hadi Twibbonize Free"
-                        },
-                        "canceled": {
-                            "exp_day": {
-                                "header": "Hujambo {name}, akaunti yako imeshuka hadi Twibbonize Free",
-                                "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya {product} ."
-                            }
-                        },
-                        "plus_5": {
-                            "header": "Hujambo {name}, akaunti yako imeshuka hadi Twibbonize Free",
-                            "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya {product} ."
-                        }
-                    },
-                    "period_changed": {
-                        "header": "Hujambo {name}, tumepokea ombi lako la kubadilisha mpango wako",
-                        "body": "Akaunti yako itabadilishwa hadi {product} mwishoni mwa kipindi chako cha bili."
-                    },
-                    "cancel_change_period": {
-                        "header": "Hujambo {name}, tumepokea ombi lako la kughairi mabadiliko ya mpango",
-                        "body": "Usajili wako utaendelea kama Premium Creator."
-                    }
-                },
-                "india": {
-                    "auth": {
-                        "exp_day": {
-                            "header": "Hujambo {name}, tafadhali thibitisha malipo yako ya usajili sasa",
-                            "body": "Ili kuhakikisha utiifu wa kanuni za usalama, tunahitaji uthibitisho wako wazi kwa malipo yako ya mara kwa mara kwenye usajili wako wa Twibbonize."
-                        }
-                    }
-                },
-                "supporter": {
-                    "successful_payment": {
-                        "body": "Sasa, unaweza kupata Twibbon bila watermark na matumizi bila matangazo!",
-                        "header": "Hujambo {name} , malipo yako yamepokelewa"
-                    },
-                    "exp_day": {
-                        "body": "Sasisha au uboresha usajili wako kabla ya {date_plus_7} ili kuendelea kufurahia vipengele vya kipekee, kuvinjari bila matangazo na Twibbon isiyo na watermark.",
-                        "header": "Hujambo {name}, muda wa usajili wako wa {product} umeisha"
-                    },
-                    "plus_5": {
-                        "body": "Sasisha mpango wako ndani ya saa 48 ili uendelee kufurahia Twibbon bila watermark na matumizi bila matangazo.",
-                        "header": "Hujambo {name} , usajili wako utaisha baada ya saa 48"
-                    },
-                    "min_3": {
-                        "body": "Sasisha au upate toleo jipya la usajili wako sasa ili uendelee kufurahia kuvinjari bila matangazo na Twibbon bila watermark.",
-                        "header": "Hujambo {name}, muda wako wa {product} utaisha baada ya siku 3"
-                    },
-                    "plus_7": {
-                        "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya {product} ."
-                    }
-                }
-            },
-            "launch": {
-                "prem_sub": {
-                    "min_1": {
-                        "header": "Usajili Mpya wa Twibbonize Premium",
-                        "body": "Tunakuletea Usajili Mpya wa Kulipiwa wa Twibbonize - Itazinduliwa tarehe 8 Julai!"
-                    }
-                },
-                "short_link": {
-                    "min_1": {
-                        "header": "Kiungo Kifupi Kipya cha Twibbonize",
-                        "body": "Tunakuletea Kiungo Kifupi Kipya cha Twibbonize - Kinachobadilika tarehe 8 Julai!"
-                    }
-                }
-            },
-            "campaign_addon": {
-                "adfree_quota_remaining": {
-                    "header": "Kiasi cha mgao bila matangazo kimesalia",
-                    "body": "Una mgawo wa Bila Matangazo uliosalia kwa Wafuasi 50 kwenye {campaignlink}. Furahia matumizi Bila Matangazo inapodumu!"
-                },
-                "adfree_quota_runout": {
-                    "header": "Nafasi ya Bila Matangazo imekamilika",
-                    "body": "Wafuasi wako wa {campaignlink} wataanza kuona matangazo wakati wa kuvinjari kwenye mfumo wetu."
-                }
-            },
-            "new_post": {
-                "header": "Twibbon Mpya imechapishwa",
-                "body": "{participant} alichapisha Twibbon katika matunzio ya kampeni yako {title} !"
-            },
-            "new_comment": {
-                "header": "Maoni mapya!",
-                "body": "{participant} alitoa maoni kuhusu chapisho lako kwenye kampeni {title}!"
-            },
-            "new_reply": {
-                "header": "Jibu jipya!",
-                "body": "{participant} alitoa maoni kuhusu maoni yako kwenye kampeni {title}!"
-            }
-        }
-    },
     "page_analytics": {
         "time": {
             "today": "Leo",
@@ -1581,7 +1363,6 @@
         },
         "graph": {
             "page": "Ukurasa wa {currentPage} kati ya {totalPage}",
-            "data_displayed": "Data inayoonyeshwa katika saa za eneo la UTC (UTC+0)",
             "trend": "Mwenendo",
             "country": "Nchi",
             "city": "Jiji",
@@ -1594,7 +1375,8 @@
             "visit": "Tembelea",
             "visit_detail": "Idadi ya kipindi kimoja cha kuvinjari ambao wametembelea ukurasa wako wa kampeni",
             "unique_visit": "Ziara ya Kipekee",
-            "unique_visit_detail": "Idadi ya watu ambao wametembelea ukurasa wako wa kampeni"
+            "unique_visit_detail": "Idadi ya watu ambao wametembelea ukurasa wako wa kampeni",
+            "data_displayed": "Data inayoonyeshwa katika saa za eneo la UTC+0"
         }
     },
     "page_account": {
@@ -1602,8 +1384,6 @@
             "email": "Barua pepe",
             "password": "Nenosiri",
             "confirm_password": "Thibitisha Nenosiri",
-            "login_with_google": "Ingia kwa kutumia Google",
-            "login_with_facebook": "Ingia kwa kutumia Facebook",
             "login_with_email": "au ingia kwa barua pepe",
             "signup_with_google": "Jisajili na Google",
             "signup_with_facebook": "Jisajili na Facebook",
@@ -1616,7 +1396,9 @@
             "signup": "Jisajili",
             "terms": "Masharti",
             "privacy": "Sera ya Faragha",
-            "name": ""
+            "name": "Jina",
+            "login_with_facebook": "Ingia kwa kutumia Facebook",
+            "login_with_google": "Ingia kwa kutumia Google"
         }
     },
     "page_article": {
@@ -1625,98 +1407,95 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "Ingia kwenye Chapisha ili Twibbonize",
+        "sign_in_to_comment": "Ingia ili Kuacha Maoni",
+        "sign_in_to_like": "Ingia ili Kutoa Like",
+        "sign_up_to_post": "Jisajili ili Kuchapisha kwa Twibbonize",
+        "sign_up_to_comment": "Jisajili ili Kuacha Maoni",
+        "sign_up_to_like": "Jisajili ili kutoa Like",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "Ingia kwa mafanikio! Karibu tena.",
+                "error": "Imeshindikana kujiandikisha kuingia. Tafadhali angalia stakabadhi zako na ujaribu tena."
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "Umefanikiwa kujisajili! Karibu ndani.",
+                "error": "Kujiandikisha kumeshindwa. Tafadhali angalia maelezo yako na ujaribu tena."
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "Barua pepe Tayari Imesajiliwa",
+        "email_registered_lead": "Barua pepe hii tayari imesajiliwa. Je, ungependa kuingia badala yake?"
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "Thibitisha Futa",
+            "delete_lead": "Je, una uhakika unataka kufuta chapisho hili? Kitendo hiki hakiwezi kutenduliwa.",
+            "delete_yes": "Ndiyo, Futa",
+            "delete_no": "Ghairi"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "Shiriki ujumbe wako",
+            "logged_in_placeholder": "Toa maoni kama {name}",
+            "comment_posted": "Maoni yamechapishwa",
+            "comment_deleted": "Maoni yamefutwa",
+            "reply_deleted": "Jibu limefutwa"
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "Chapisho limepakiwa",
+            "hidden": "Imefichwa",
+            "unhidden": "Haijafichwa",
+            "reported": "Imeripotiwa",
+            "deleted": "Imefutwa",
+            "pinned": "Imebandikwa",
+            "unpinned": "Imebanduliwa"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "Ripoti Kampeni",
+        "report_profile": "Ripoti Wasifu",
+        "abusive_or_harmful": "Inatusi au inadhuru",
+        "pretending_to_be_someone_else": "Kujifanya mtu mwingine",
+        "sensitive_content": "Maudhui nyeti",
+        "plagiarism": "Wizi",
+        "impersonation": "Uigaji",
+        "piracy": "Uharamia",
+        "nudity_pornography": "Uchi na Ponografia",
+        "dangerous_or_harmful": "Hatari au madhara",
+        "harassment_cyberbullying": "Unyanyasaji na Unyanyasaji Mtandaoni",
+        "provocative_threatening_content": "Maudhui ya Kuchokoza na Kutishia",
+        "privacy_violations": "Ukiukaji wa Faragha",
+        "unauthorized_use_of_personal_information": "Matumizi Yasiyoidhinishwa ya Taarifa za Kibinafsi",
+        "child_exploitation": "Unyonyaji wa Mtoto",
+        "harassment": "Unyanyasaji",
+        "terrorism": "Ugaidi",
+        "violence": "Vurugu",
+        "false_information": "Taarifa za Uongo",
+        "health": "Afya",
+        "politics": "Siasa",
+        "social_issue": "Suala la Kijamii",
+        "hate_speech": "Hotuba ya Chuki",
+        "disability_or_disease": "Ulemavu au ugonjwa",
+        "race_or_ethnicity": "Rangi au kabila",
+        "religious_affiliation": "Ushirikiano wa kidini",
+        "sexual_orientation": "Mwelekeo wa kijinsia",
+        "nudity": "Uchi",
+        "suicide_or_self_harm": "Kujiua au Kujidhuru",
+        "vulgar_language": "Lugha chafu",
+        "dangerous_content": "Maudhui ya Hatari",
+        "why_report_campaign": "Kwa nini unaripoti kampeni hii?",
+        "why_report_profile": "Kwa nini unaripoti wasifu huu?",
+        "why_report_submission": "Kwa nini unaripoti uwasilishaji huu?",
+        "why_report_comment_reply": "Kwa nini unaripoti maoni haya?",
+        "why_report_collection": "Kwa nini unaripoti mkusanyiko huu?",
+        "select_one": "Tafadhali chagua moja",
+        "protect_privacy_reporter": "Miongozo ya Jumuiya ya Twibbonize hulinda ufaragha wa utambulisho wa ripota.",
+        "tell_us_more": "Tuambie zaidi",
+        "received_report": "Tumepokea ripoti yako!",
+        "thankyou": "Asante! Tafadhali turuhusu tuchunguze ripoti yako, na tutatuma maoni kwa barua pepe yako haraka iwezekanavyo.",
+        "learn_more_about": "Pata maelezo zaidi kuhusu {link} .",
+        "community_guideline": "Twibbonize Miongozo ya Jumuiya",
+        "placeholder_write_here": "Andika hapa",
+        "report_sent": "Ripoti Imetumwa"
     },
     "page_editor": {
         "general": {
@@ -1754,10 +1533,10 @@
         "upload": {
             "upload_image": "Pakia Picha",
             "upload": "Pakia",
-            "type": "",
-            "size": "",
-            "type_image": "",
-            "maximum_size": ""
+            "type": "Aina:",
+            "size": "Ukubwa:",
+            "type_image": "JPG, PNG au SVG",
+            "maximum_size": "Upeo wa 5 MB"
         },
         "toolbar": {
             "copy": "Nakili",
@@ -1781,8 +1560,7 @@
             "lock": "Funga",
             "letter_spacing": "Nafasi ya Barua",
             "line_spacing": "Nafasi ya Mistari",
-            "border_weight": "",
-            "corner_rounding": "",
+            "border_weight": "Uzito wa Mpaka",
             "align": "Pangilia",
             "effects": "Madhara"
         },
@@ -1822,15 +1600,203 @@
     },
     "page__campaign_creation": {
         "campaign_preview": {
-            "campaign_description": "",
+            "campaign_description": "Maelezo ya Kampeni",
             "campaign_title": "Kichwa cha Kampeni"
         }
     },
     "page_my_campaign": {
         "edit_campaign": {
             "campaigns": "Kampeni",
-            "frames": "",
-            "analytics": ""
+            "frames": "Fremu",
+            "analytics": "Uchanganuzi"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "Kwa nini unaripoti chapisho hili?",
+            "plagiarism ": "Wizi",
+            "impersonation ": "Uigaji ",
+            "piracy ": "Uharamia",
+            "vulgar_language": "Lugha chafu",
+            "nudity_pornography": "Uchi na Ponografia",
+            "suicidal_self_harm": "Maudhui ya Kujiua na Kujidhuru ",
+            "danger": "Hatari au Madhara ",
+            "violent_graphic_content": "Maudhui ya Picha ya Vurugu",
+            "harassment_cyberbullying": "Unyanyasaji na Unyanyasaji Mtandaoni ",
+            "provocative_threatening_content": "Maudhui ya Kuchokoza na Kutishia",
+            "spam": "Barua taka"
+        },
+        "report_comment": {
+            "title": "Kwa nini unaripoti maoni haya?",
+            "abusive_harmful": "Matusi au Madhara",
+            "harassment": "Unyanyasaji",
+            "terrorism": "Ugaidi",
+            "violence": "Vurugu",
+            "false_information": "",
+            "health": "Afya",
+            "politics": "Siasa",
+            "social_issue": "Suala la Kijamii",
+            "sensitive_content": "Maudhui Nyeti ",
+            "nudity": "Uchi",
+            "vulgar_language": "Lugha chafu",
+            "hate_speech": "Hotuba ya Chuki",
+            "disability_disease": "Ulemavu au Ugonjwa",
+            "race_or_ethnicity": "Rangi au kabila",
+            "religious_affiliation": "Uhusiano wa Kidini ",
+            "sexual_orientation": "Mwelekeo wa Kimapenzi",
+            "spam": "Barua taka"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "Url ni batili"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "Imeshindwa kutekeleza kuingia kwa Google",
+        "failed_apple_login": "Imeshindwa kutekeleza kuingia kwa Apple"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "Faili ya picha inazidi ukubwa wa juu zaidi wa 5MB",
+            "cannot_create_twibbon": "Haiwezi kuunda Twibbon. Jaribu tena"
+        },
+        "log_in": {
+            "complete_verification": "Kamilisha uthibitishaji ili kuendelea",
+            "email_no_password": "Barua pepe hii haina nenosiri. Ingia kupitia Google",
+            "social_media_already_registered": "Barua pepe ya akaunti yako ya mitandao ya kijamii tayari imesajiliwa na imeunganishwa na akaunti nyingine kutoka kwa huduma sawa ya mitandao ya kijamii. Tafadhali jaribu kuingia kwa kutumia barua pepe na fomu za nenosiri."
+        },
+        "sign_up": {
+            "email_already_registered": "Barua pepe hii tayari imesajiliwa. Tumia barua pepe tofauti au ujaribu kuingia",
+            "password_minimum_required": "Nenosiri lazima liwe na angalau vibambo 8.",
+            "password_character_exceeded": "Nenosiri lazima lisizidi herufi 128",
+            "password_must_be_standard": "Nenosiri lazima liwe alphanumeric ya kawaida",
+            "password_does_not_match": "Uthibitishaji wa nenosiri haulingani. Jaribu tena"
+        },
+        "verification": {
+            "code_incorrect": "Msimbo sio sahihi. Jaribu tena",
+            "code_expired": "Msimbo umekwisha muda. Omba mpya",
+            "maximum_attempt_reached": "Upeo wa majaribio umefikiwa. Jaribu tena baada ya saa 5",
+            "code_requested_exceeded": "Maombi ya msimbo yalizidi kiwango cha juu zaidi"
+        },
+        "forgot_password": {
+            "email_not_found": "Barua pepe haikupatikana. Jaribu tena au ujiandikishe",
+            "link_expired": "Muda wa kiungo cha kubadilisha nenosiri umekwisha. Omba mpya",
+            "link_used": "Kiungo cha kubadilisha nenosiri kimetumika. Omba mpya"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "Faili ya fremu inazidi ukubwa wa juu zaidi wa 5MB",
+            "background_file_exceed": "Faili ya usuli inazidi ukubwa wa juu zaidi wa 5MB",
+            "image_not_transparent": "Picha lazima iwe wazi. Jaribu tena",
+            "invalid_format": "Umbizo la faili si sahihi. Tumia umbizo linalotumika",
+            "allow_only_1_frame": "Akaunti zisizolipishwa huruhusu upakiaji wa fremu 1 pekee. Boresha ili kuendelea",
+            "allow_only_1_background": "Akaunti zisizolipishwa huruhusu upakiaji 1 pekee wa usuli. Boresha ili kuendelea",
+            "campaign_title_exceed_limit": "Kichwa cha kampeni kinazidi upeo wa juu wa herufi",
+            "description_exceed_limit": "Maelezo yanazidi upeo wa juu wa herufi",
+            "link_unavailable": "Kiungo cha kampeni tayari kinatumika. Chagua nyingine",
+            "link_criteria": "Kiungo cha kampeni lazima kiwe alphanumeric & dashi (-)",
+            "caption_exceed_limit": "Kiolezo cha manukuu kinazidi upeo wa juu wa herufi",
+            "background_exceed_limit": "Faili ya usuli inazidi ukubwa wa juu zaidi wa 5MB",
+            "photo_exceed_limit": "Faili ya picha ya kijipicha inazidi ukubwa wa juu zaidi wa 5MB",
+            "link_exceed_limit": "Kiungo cha kampeni kinazidi kikomo cha juu cha herufi"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "Faili ya fremu inazidi ukubwa wa juu zaidi wa 5MB",
+            "background_file_exceed": "Faili ya usuli inazidi ukubwa wa juu zaidi wa 5MB"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "Picha lazima iwe wazi. Jaribu tena",
+            "invalid_format": "Umbizo la faili si sahihi. Tumia umbizo linalotumika",
+            "allow_only_1_frame": "Akaunti zisizolipishwa huruhusu upakiaji wa fremu 1 pekee. Boresha ili kuendelea",
+            "allow_only_1_background": "Akaunti zisizolipishwa huruhusu upakiaji 1 pekee wa usuli. Boresha ili kuendelea",
+            "campaign_title_exceed_limit": "Kichwa cha kampeni kinazidi upeo wa juu wa herufi",
+            "description_exceed_limit": "Maelezo yanazidi upeo wa juu wa herufi",
+            "link_unavailable": "Kiungo cha kampeni tayari kinatumika. Chagua nyingine",
+            "link_criteria": "Kiungo cha kampeni lazima kiwe alphanumeric & dashi (-)",
+            "link_exceed_limit": "Kiungo cha kampeni kinazidi kikomo cha juu cha herufi",
+            "caption_exceed_limit": "Kiolezo cha manukuu kinazidi upeo wa juu wa herufi",
+            "background_exceed_limit": "Faili ya usuli inazidi ukubwa wa juu zaidi wa 5MB",
+            "thumbnail_exceeds": "Faili ya picha ya kijipicha inazidi ukubwa wa juu zaidi wa 5MB"
+        },
+        "settings": {
+            "profile_image_exceed": "Picha ya wasifu imezidi upeo wa juu wa 5MB",
+            "background_image_exceed": "Picha ya usuli inazidi ukubwa wa juu zaidi wa 5MB",
+            "username_unavailable": "Jina la mtumiaji tayari limechukuliwa. Jaribu nyingine",
+            "username_exceed_limit": "Jina la mtumiaji limezidi kikomo cha juu cha herufi",
+            "username_invalid": "Jina la mtumiaji ni batili. Jaribu tena ukitumia umbizo sahihi",
+            "display_exceed_limit": "Jina la onyesho linazidi kikomo cha juu cha herufi",
+            "bio_exceed_limit": "Wasifu umezidi kikomo cha juu cha herufi",
+            "email_already_registered": "Barua pepe tayari imesajiliwa. Jaribu nyingine",
+            "password_incorrect": "Nenosiri si sahihi. Jaribu tena",
+            "password_minimum_character": "Nenosiri lazima liwe na angalau vibambo 8",
+            "password_maximum_character": "Nenosiri lazima lisizidi herufi 128",
+            "password_standard_format": "Nenosiri lazima lifuate umbizo la kawaida la alphanumeric",
+            "account_deleted": "Akaunti imefutwa",
+            "account_integrated": "Akaunti imeunganishwa",
+            "account_revoked": "Akaunti imebatilishwa"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "Sehemu ya \"Tuambie Zaidi\" inazidi upeo wa juu wa herufi"
+        },
+        "general": {
+            "something_went_wrong": "Hitilafu fulani imetokea"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "Idadi ya kampeni zilizoongezwa inazidi kikomo cha juu zaidi",
+            "description_exceeds": "Maelezo yamezidi upeo wa juu wa herufi",
+            "title_exceeds": "Kichwa cha mkusanyo kinazidi upeo wa juu wa herufi"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "Kiungo kimenakiliwa",
+            "social_media_already_linked": "Akaunti ya mitandao ya kijamii tayari imeunganishwa na akaunti nyingine ya Twibbonize. Jaribu nyingine"
+        },
+        "campaign_creation": {
+            "link_available": "Kiungo kinapatikana"
+        },
+        "campaign_edit": {
+            "link_available": "Kiungo kinapatikana"
+        },
+        "settings": {
+            "photo_updated": "Picha Imesasishwa",
+            "banner_updated": "Bango Limesasishwa",
+            "banner_deleted": "Bango Limefutwa",
+            "photo_deleted": "Picha Imefutwa",
+            "password_updated": "Nenosiri limesasishwa",
+            "email_updated": "Barua pepe Imesasishwa"
+        },
+        "my_profile": {
+            "campaign_deleted": "Kampeni imefutwa"
+        },
+        "collection": {
+            "campaign_added": "Kampeni imeongezwa"
+        },
+        "campaign_page": {
+            "account_upgraded": "Akaunti imeboreshwa",
+            "link_copied": "Kiungo kimenakiliwa"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "Barua pepe haikupatikana. Jaribu tena au ujiandikishe"
+        },
+        "password": {
+            "password_incorrect": "Nenosiri si sahihi. Jaribu tena"
+        },
+        "maximum_attempt": "Upeo wa majaribio umefikiwa. Jaribu tena baada ya saa 1"
+    },
+    "page_notification": {
+        "no_notification_heading": "Bado hakuna arifa",
+        "no_notification_subheading": "Hakuna arifa kwa sasa"
+    },
+    "page_general": {
+        "no_internet_connection": "Hakuna muunganisho wa intaneti. Gusa ili kujaribu tena",
+        "could_not_connect_internet": "Haikuweza kuunganisha kwenye mtandao. Badili hadi mtandao mwingine na ujaribu tena."
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "Ondoka?"
         }
     }
 }
