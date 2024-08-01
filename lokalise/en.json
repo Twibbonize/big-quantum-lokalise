@@ -44,14 +44,9 @@
             "help_center": "Help Center",
             "about": "About",
             "start_campaign": "Start a Campaign",
-            "sign_in": "Sign In",
+            "sign_in": "Log In",
             "sign_up": "Sign Up",
             "sign_out": "Sign Out"
-        },
-        "campaign": {
-            "supporters": "supporter|supporter|supporters",
-            "campaigns": "Campaigns",
-            "created": "Created"
         },
         "button": {
             "view_all": "View All",
@@ -64,7 +59,7 @@
             "delete": "Delete",
             "save": "Save",
             "sign_up": "Sign Up",
-            "sign_in": "Sign In",
+            "sign_in": "Log In",
             "purchase_now": "Purchase Now",
             "apply": "Apply",
             "share": "Share",
@@ -75,7 +70,8 @@
             "view": "View",
             "send": "Send",
             "more": "More",
-            "less": "Less"
+            "less": "Less",
+            "submit": "Submit"
         },
         "time": {
             "week": "Week",
@@ -85,6 +81,11 @@
             "monthly": "Monthly",
             "annual": "Annual",
             "yearly": "Yearly"
+        },
+        "campaign": {
+            "campaigns": "Campaigns",
+            "created": "Created",
+            "supporters": "supporter|supporter|supporters"
         },
         "collection": {
             "collections": "Collections",
@@ -116,6 +117,13 @@
             "plan": "plan",
             "support_without_watermark": "They can support any campaign  without the watermark!",
             "all_supporters_without_watermark": "You can support all of this Creator’s campaign without the watermark!"
+        },
+        "campaign_card": {
+            "a_month_ago": " |A month ago",
+            "a_day_ago": " |A day ago"
+        },
+        "search": {
+            "searching": "Searching..."
         }
     },
     "page_home": {
@@ -351,7 +359,6 @@
             "report_profile": "Report Profile",
             "plagiarism": "Plagiarism",
             "sensitive": "Sensitive Content",
-            "danger": "Dangerous Content",
             "spam": "Spam",
             "why_report_campaign": "Why do you report this campaign?",
             "protect_reporter": "Twibbonize Community Guidelines protect the privacy of reporter's identity.",
@@ -360,7 +367,21 @@
             "received_report": "We've received your report!",
             "thankyou": "Thank you! Please allow us to investigate your report, and we will send the feedback to your email as soon as possible.",
             "learn_more_about": "Learn more about the {link}.",
-            "community_guideline": "Twibbonize Community Guidelines"
+            "community_guideline": "Twibbonize Community Guidelines",
+            "title": "Why are you reporting this campaign?",
+            "danger": "Dangerous or Harmful ",
+            "impersonation": "Impersonation ",
+            "piracy": "Piracy",
+            "vulgar_language": "Vulgar Language",
+            "nudity_pornography": "Nudity & Pornography",
+            "suicidal_self_harm": "Suicidal & Self-Harm Content ",
+            "violent_graphic_content": "Violent Graphic Content",
+            "harassment_cyberbullying": "Harassment & Cyberbullying",
+            "proactive_threatening_content": "Provocative & Threatening Content",
+            "statement": "Twibbonize Community Guidelines protect the privacy of reporter's identity.",
+            "read_more_copy": "Read More",
+            "please_select_one": "Please select one",
+            "write_a_message": "Write a message"
         },
         "discard": {
             "discard_edit": "Discard edits?",
@@ -378,9 +399,10 @@
             "supporters": "Supporters",
             "interactions": "Interactions",
             "visits": "Visits",
-            "realtime_estimates": "Real-time estimates",
             "last_month": "Last 30 days",
-            "see_more_analytics": "See More Analytics"
+            "see_more_analytics": "See More Analytics",
+            "realtime_estimates": "Real-time estimates from the last 30 days",
+            "view_analytics": "View Analytics"
         },
         "pricing": {
             "no_thankyou": "No, Thank you"
@@ -409,7 +431,29 @@
             "understand": "I Understand"
         },
         "post_to_twibbonize": {
-            "caption": "Write a message about this campaign..."
+            "caption": "Write a message about this campaign...",
+            "unpin_post": "Unpin Post"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "Adjust your photo"
+        },
+        "share_campaign": {
+            "or_share_to": "or share to",
+            "save_share": "Save & Share"
+        },
+        "post": {
+            "post_uploaded": "Post Uploaded",
+            "post_deleted": "Post Deleted",
+            "post_failed_deleted": "Post Failed, Deleted"
+        },
+        "create_campaign": {
+            "custom_field": "Add Custom Field"
+        },
+        "collection": {
+            "sign_up_add_collection": "Sign up to Add to Collection"
+        },
+        "posts": {
+            "has_no_posts": "This user hasn't posted anything on Twibbonize"
         }
     },
     "page_checkout": {
@@ -418,9 +462,8 @@
             "account_update": "Your account will be update, with all new features unlocked"
         },
         "checkout": {
-            "back_to_plans": "Back to Plans",
             "upgrade_to": "Upgrade to {plan}",
-            "gather_your_supports": "Gather your supporters and scale up your campaign with our exclusive features.",
+            "gather_your_supports": "Gather your supporters and scale up your campaign with our exclusive features",
             "billing_option": "Billing Option",
             "details": "Details",
             "user": "User",
@@ -430,18 +473,19 @@
             "save": "Save {percentage}%",
             "pay": "Pay {frequency}",
             "checkout_options": "Checkout Options",
-            "change_plan": "Change Plan",
+            "change_plan": "Adjust Plan",
             "current_plan": "Current Plan",
             "downgrade": "Downgrade",
             "current_plan_description": "You are subscribing this subscription now",
             "change_plan_description": "You are changing your plan to {plan}, which will be active after the current subscription ends.",
             "downgrade_description": "You are downgrade your plan to {plan}, which will be active after the current subscription ends.",
-            "change_plan_confirm": "Are you sure want to change plan?",
+            "change_plan_confirm": "Are you sure?",
             "upgrade_confirm": "Are you sure want to upgrade?",
             "downgrade_confirm": "Are you sure want to downgrade plan?",
             "change_plan_active": "It will be active once your current subscription is end",
             "upgrade_active": "It will be active once you complete the payment",
-            "downgrade_active": "It will be active once your current subscription is end"
+            "downgrade_active": "It will be active once your current subscription is end",
+            "back_to_plans": "Back"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -525,9 +569,9 @@
             "publish": "Publish",
             "campaign_details": "Campaign Details",
             "campaign_title": "Campaign Title",
-            "campaign_title_placeholder": "Can consist of numbers, alphabets, or special characters.",
+            "campaign_title_placeholder": "Can consist of numbers, alphabets, or special characters",
             "campaign_description": "Description",
-            "campaign_description_placeholder": "Share details about your campaign to grab attention and garner support.",
+            "campaign_description_placeholder": "Share details about your campaign to grab attention and garner support",
             "campaign_link": "Campaign Link",
             "campaign_link_placeholder": "campaign-link",
             "campaign_category": "Campaign Category",
@@ -586,8 +630,8 @@
             "purchase_now": "Purchase Now",
             "learn_more": "Learn More",
             "want_to_create": "Want to create your campaign for free?",
-            "try_now": "Try Now!",
-            "per": "per {time}"
+            "per": "per {time}",
+            "try_now": "Try Now!"
         },
         "features": {
             "remove_watermark": "Remove watermark for all of your campaign users",
@@ -641,7 +685,7 @@
             "heading": "Ideas to use Twibbonize for",
             "subheading": "Jumpstart your exploration with hand-picked examples from our 5,000,000+ Twibbonize campaigns",
             "corporate": "Corporate",
-            "corporate_title": "Utilize the power of the abundance of your personnels and customers",
+            "corporate_title": "Utilize the power of the abundance of your personnel and customers",
             "education": "Education",
             "education_title": "It's a fun way to add to the learning process",
             "event": "Events",
@@ -818,7 +862,7 @@
             "question_8": "Will I get an invoice?",
             "answer_8": "You can easily download the invoice directly from your Twibbonize account.",
             "question_9": "Where can I find help related to Twibbonize usage?",
-            "answer_9": "If you are looking for the “FAQ” page related to Twibbonize usage, click <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://help.twibbonize.com/hc/en-us\" class=\"font-bold text-main\">Help Center</a>"
+            "answer_9": "If you are looking for the “FAQ” page related to Twibbonize usage, click <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https:\/\/help.twibbonize.com\/hc\/en-us\" class=\"font-bold text-main\">Help Center<\/a>"
         },
         "hero": {
             "pricing": "PRICING",
@@ -829,6 +873,9 @@
         },
         "card_premium_creator": {
             "subheading": "For people who need the ultimate Twibbonize experience"
+        },
+        "same_plan": {
+            "adjust_plan": "Adjust Plan"
         }
     },
     "page_profile": {
@@ -842,11 +889,11 @@
         },
         "posts": {
             "no_posts": "No Posts Yet",
-            "no_post_details": "Find a campaign, and post your twibbon to Twibbonize."
+            "no_post_details": "Find a campaign, and post your twibbon to Twibbonize"
         },
         "collections": {
             "no_collections": "Organize your favorite campaigns",
-            "no_collections_details": "On the campaign page, just click the {icon} icon button to save campaigns you find interesting into your own collections."
+            "no_collections_details": "Click on the {icon} icon on any campaign to save the campaign into your collections"
         },
         "about": {
             "about": "About",
@@ -865,6 +912,25 @@
         },
         "campaign_deletion": {
             "are_you_sure": "Are you sure?"
+        },
+        "campaign": {
+            "delete_campaign": "Deleting \"{campaign_name}\" will be permanent and cannot be undone.",
+            "confirm_delete_campaign": "Delete Campaign"
+        },
+        "collection": {
+            "delete_collection": "The \"{collection_name}\" collection will be permanently deleted.",
+            "confirm_delete_collection": "Delete Collection",
+            "delete_campaign": "The \"{campaign_name}\" campaign will be permanently removed from the \"{collection_name}\" collection.",
+            "confirm_remove_campaign": "Remove Campaign"
+        },
+        "report": {
+            "title": "Why are you reporting this profile?",
+            "abusive_harmful": "Abusive or Harmful",
+            "pretending_someone": "Pretending to be someone else",
+            "sensitive_content": "Sensitive Content"
+        },
+        "account": {
+            "email_changed": "Your email has recently changed. You can update it again in 90 days."
         }
     },
     "page_preference": {
@@ -909,7 +975,7 @@
             "highquality": "High Quality",
             "nowatermark": "No Watermark",
             "paid": "Paid",
-            "are_you_sure_change": "Are you sure want to change plan?",
+            "are_you_sure_change": "Are you sure?",
             "active_after_subscription": "It will be active once your current subscription is end",
             "are_you_sure_upgrade": "Are you sure want to upgrade?",
             "plan_changing_info": "Switch to {package} received. New plan starts after current one ends",
@@ -995,7 +1061,7 @@
             "continue_to_revoke": "Continue to Revoke ",
             "revoke_success": "Success Revoke Account {provider}",
             "cannot_update_email": "Oops, we can't update your email",
-            "setup_password_to_update_email": "You have to password first to update your email.",
+            "setup_password_to_update_email": "You must set a password before updating your email.",
             "email_change_request": "Email Change Request Cancelled",
             "we_have_sent_password": "We have sent password reset instructions to your email. Please reset your password within 1 hour for security reasons.",
             "go_to_homepage": "Go to Homepage"
@@ -1582,7 +1648,6 @@
         },
         "graph": {
             "page": "Page {currentPage} of {totalPage}",
-            "data_displayed": "Data displayed in UTC time zone (UTC+0)",
             "trend": "Trend",
             "country": "Country",
             "city": "City",
@@ -1595,7 +1660,8 @@
             "visit": "Visit",
             "visit_detail": "The number of single browsing session who have visited your campaign page",
             "unique_visit": "Unique Visit",
-            "unique_visit_detail": "The number of people who have visited your campaign page"
+            "unique_visit_detail": "The number of people who have visited your campaign page",
+            "data_displayed": "Data displayed in UTC+0 time zone"
         }
     },
     "page_account": {
@@ -1603,8 +1669,6 @@
             "email": "Email",
             "password": "Password",
             "confirm_password": "Confirm Password",
-            "login_with_google": "Sign In with Google",
-            "login_with_facebook": "Sign In with Facebook",
             "login_with_email": "or login with email",
             "signup_with_google": "Sign Up with Google",
             "signup_with_facebook": "Sign Up with Facebook",
@@ -1617,7 +1681,9 @@
             "signup": "Sign up",
             "terms": "Terms",
             "privacy": "Privacy Policy",
-            "name": "Name"
+            "name": "Name",
+            "login_with_facebook": "Log In with Facebook",
+            "login_with_google": "Log In with Google"
         }
     },
     "page_article": {
@@ -1629,15 +1695,13 @@
         "sign_in_to_post": "Log in to Post to Twibbonize",
         "sign_in_to_comment": "Log in to Leave a Comment",
         "sign_in_to_like": "Log in to Give a Like",
-        "sign_in_to_create_campaign": "Log in to Publish your Campaign",
         "sign_up_to_post": "Sign up to Post to Twibbonize",
         "sign_up_to_comment": "Sign up to Leave a Comment",
         "sign_up_to_like": "Sign up to to Give a Like",
-        "sign_up_to_create_campaign": "Sign up to Publish your Campaign",
         "toast": {
             "sign_in": {
-                "success": "Sign in successful! Welcome back.",
-                "error": "Sign in failed. Please check your credentials and try again."
+                "success": "Log in successful! Welcome back.",
+                "error": "Log in failed. Please check your credentials and try again."
             },
             "sign_up": {
                 "success": "Sign up successful! Welcome aboard.",
@@ -1645,7 +1709,9 @@
             }
         },
         "email_registered": "Email Already Registered",
-        "email_registered_lead": "This email is already registered. Would you like to log in instead?"
+        "email_registered_lead": "This email is already registered. Would you like to log in instead?",
+        "sign_in_to_create_campaign": "Log in to Publish your Campaign",
+        "sign_up_to_create_campaign": "Sign up to Publish your Campaign"
     },
     "post": {
         "confirm": {
@@ -1681,12 +1747,9 @@
         "impersonation": "Impersonation",
         "piracy": "Piracy",
         "nudity_pornography": "Nudity & Pornography",
-        "suicidal_self_harm_content": "Suicidal & Self-Harm Content",
         "dangerous_or_harmful": "Dangerous or harmful",
-        "violent_graphic_content": "Violent Graphic Content",
         "harassment_cyberbullying": "Harassment & Cyberbullying",
         "provocative_threatening_content": "Provocative & Threatening Content",
-        "spam": "Spam",
         "privacy_violations": "Privacy Violations",
         "unauthorized_use_of_personal_information": "Unauthorized Use of Personal Information",
         "child_exploitation": "Child Exploitation",
@@ -1713,13 +1776,13 @@
         "why_report_collection": "Why are you reporting this collection?",
         "select_one": "Please select one",
         "protect_privacy_reporter": "Twibbonize Community Guidelines protect the privacy of reporter's identity.",
-        "read_more": "Read More",
         "tell_us_more": "Tell us more",
         "received_report": "We've received your report!",
         "thankyou": "Thank you! Please allow us to investigate your report, and we will send the feedback to your email as soon as possible.",
         "learn_more_about": "Learn more about the {link}.",
         "community_guideline": "Twibbonize Community Guidelines",
-        "placeholder_write_here": "Write here"
+        "placeholder_write_here": "Write here",
+        "report_sent": "Report Sent"
     },
     "page_editor": {
         "general": {
@@ -1785,7 +1848,6 @@
             "letter_spacing": "Letter Spacing",
             "line_spacing": "Line Spacing",
             "border_weight": "Border Weight",
-            "corner_rounding": "Corner Rounding",
             "align": "Align",
             "effects": "Effects"
         },
@@ -1834,6 +1896,194 @@
             "campaigns": "Campaigns",
             "frames": "Frames",
             "analytics": "Analytics"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "Why are you reporting this post?",
+            "plagiarism ": "Plagiarism",
+            "impersonation ": "Impersonation ",
+            "piracy ": "Piracy",
+            "vulgar_language": "Vulgar Language",
+            "nudity_pornography": "Nudity & Pornography",
+            "suicidal_self_harm": "Suicidal & Self-Harm Content ",
+            "danger": "Dangerous or Harmful ",
+            "violent_graphic_content": "Violent Graphic Content",
+            "harassment_cyberbullying": "Harassment & Cyberbullying ",
+            "provocative_threatening_content": "Provocative & Threatening Content",
+            "spam": "Spam"
+        },
+        "report_comment": {
+            "title": "Why are you reporting this comment?",
+            "abusive_harmful": "Abusive or Harmful",
+            "harassment": "Harassment",
+            "terrorism": "Terrorism",
+            "violence": "Violence",
+            "false_information": "",
+            "health": "Health",
+            "politics": "Politics",
+            "social_issue": "Social Issue",
+            "sensitive_content": "Sensitive Content ",
+            "nudity": "Nudity",
+            "vulgar_language": "Vulgar Language",
+            "hate_speech": "Hate Speech",
+            "disability_disease": "Disability or Disease",
+            "race_or_ethnicity": "Race or Ethnicity",
+            "religious_affiliation": "Religious Affiliation ",
+            "sexual_orientation": "Sexual Orientation",
+            "spam": "Spam"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "Url invalid"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "Failed to perform Google login",
+        "failed_apple_login": "Failed to perform Apple login"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "The photo file exceeds the maximum size of 5MB",
+            "cannot_create_twibbon": "Cannot create Twibbon. Try again"
+        },
+        "log_in": {
+            "complete_verification": "Complete verification to continue",
+            "email_no_password": "This email has no password. Log in through Google",
+            "social_media_already_registered": "The email of your social media account is already registered and connected with another account from a similar social media service. Please try logging in using the email and password forms."
+        },
+        "sign_up": {
+            "email_already_registered": "This email is already registered. Use a different email or try signing in",
+            "password_minimum_required": "Password must be at least 8 characters.",
+            "password_character_exceeded": "Password must not exceed 128 characters",
+            "password_must_be_standard": "Password must be standard alphanumeric",
+            "password_does_not_match": "Password confirmation does not match. Try again"
+        },
+        "verification": {
+            "code_incorrect": "Code incorrect. Try again",
+            "code_expired": "The code has expired. Request a new one",
+            "maximum_attempt_reached": "Maximum attempts reached. Try again in 5 hours",
+            "code_requested_exceeded": "Code requests exceeded the maximum limit"
+        },
+        "forgot_password": {
+            "email_not_found": "Email not found. Try again or sign up",
+            "link_expired": "The link to change the password has expired. Request a new one",
+            "link_used": "The link to change the password has been used. Request a new one"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "Frame file exceeds the maximum size of 5MB",
+            "background_file_exceed": "Background file exceeds the maximum size of 5MB",
+            "image_not_transparent": "The image must be transparent. Try again",
+            "invalid_format": "Invalid file format. Use a supported format",
+            "allow_only_1_frame": "Free accounts allow only 1 frame upload. Upgrade to continue",
+            "allow_only_1_background": "Free accounts allow only 1 background upload. Upgrade to continue",
+            "campaign_title_exceed_limit": "Campaign title exceeds the maximum character limit",
+            "description_exceed_limit": "Description exceeds the maximum character limit",
+            "link_unavailable": "Campaign link is already in use. Choose another one",
+            "link_criteria": "Campaign link must be alphanumeric & dash (-)",
+            "caption_exceed_limit": "Caption template exceeds the maximum character limit",
+            "background_exceed_limit": "Background file exceeds the maximum size of 5MB",
+            "photo_exceed_limit": "Thumbnail photo file exceeds the maximum size of 5MB",
+            "link_exceed_limit": "Campaign link exceeds the maximum character limit"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "Frame file exceeds the maximum size of 5MB",
+            "background_file_exceed": "Background file exceeds the maximum size of 5MB"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "The image must be transparent. Try again",
+            "invalid_format": "Invalid file format. Use a supported format",
+            "allow_only_1_frame": "Free accounts allow only 1 frame upload. Upgrade to continue",
+            "allow_only_1_background": "Free accounts allow only 1 background upload. Upgrade to continue",
+            "campaign_title_exceed_limit": "Campaign title exceeds the maximum character limit",
+            "description_exceed_limit": "Description exceeds the maximum character limit",
+            "link_unavailable": "Campaign link is already in use. Choose another one",
+            "link_criteria": "Campaign link must be alphanumeric & dash (-)",
+            "link_exceed_limit": "Campaign link exceeds the maximum character limit",
+            "caption_exceed_limit": "Caption template exceeds the maximum character limit",
+            "background_exceed_limit": "Background file exceeds the maximum size of 5MB",
+            "thumbnail_exceeds": "Thumbnail photo file exceeds the maximum size of 5MB"
+        },
+        "settings": {
+            "profile_image_exceed": "Profile image exceeds the maximum limit of 5MB",
+            "background_image_exceed": "Background image exceeds the maximum size of 5MB",
+            "username_unavailable": "Username is already taken. Try another one",
+            "username_exceed_limit": "Username exceeds the maximum character limit",
+            "username_invalid": "Username invalid. Try again with the correct format",
+            "display_exceed_limit": "Display name exceeds the maximum character limit",
+            "bio_exceed_limit": "Bio exceeds the maximum character limit",
+            "email_already_registered": "Email already registered. Try another one",
+            "password_incorrect": "Password incorrect. Try again",
+            "password_minimum_character": "Password must be at least 8 characters",
+            "password_maximum_character": "Password must not exceed 128 characters",
+            "password_standard_format": "Password must follow the alphanumeric standard format",
+            "account_deleted": "Account deleted",
+            "account_integrated": "Account integrated",
+            "account_revoked": "Account revoked"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "\"Tell Us More\" section exceeds the maximum character limit"
+        },
+        "general": {
+            "something_went_wrong": "Something went wrong"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "The number of campaigns added exceeds the maximum limit",
+            "description_exceeds": "Description exceeds the maximum character limit",
+            "title_exceeds": "Collection title exceeds the maximum character limit"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "Link copied",
+            "social_media_already_linked": "Social media account already linked with another Twibbonize account. Try another one"
+        },
+        "campaign_creation": {
+            "link_available": "Link is available"
+        },
+        "campaign_edit": {
+            "link_available": "Link is available"
+        },
+        "settings": {
+            "photo_updated": "Photo Updated",
+            "banner_updated": "Banner Updated",
+            "banner_deleted": "Banner Deleted",
+            "photo_deleted": "Photo Deleted",
+            "password_updated": "Password updated",
+            "email_updated": "Email Updated"
+        },
+        "my_profile": {
+            "campaign_deleted": "Campaign deleted"
+        },
+        "collection": {
+            "campaign_added": "Campaign added"
+        },
+        "campaign_page": {
+            "account_upgraded": "Account upgraded",
+            "link_copied": "Link copied"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "Email not found. Try again or sign up"
+        },
+        "password": {
+            "password_incorrect": "Password incorrect. Try again"
+        },
+        "maximum_attempt": "Maximum attempts reached. Try again in 1 hour"
+    },
+    "page_notification": {
+        "no_notification_heading": "No notifications yet",
+        "no_notification_subheading": "There are no notifications at the moment"
+    },
+    "page_general": {
+        "no_internet_connection": "No internet connection. Tap to retry",
+        "could_not_connect_internet": "Couldn’t connect to the internet. Switch to another network and try again."
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "Log Out?"
         }
     }
 }

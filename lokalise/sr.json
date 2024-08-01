@@ -35,7 +35,7 @@
             "terms": "Uslovi korišćenja",
             "privacy_policy": "Pravila o privatnosti",
             "cookie_policy": "Politika kolačića",
-            "sitemap": ""
+            "sitemap": "Мапа сајта"
         },
         "menu": {
             "explore": "Istražite",
@@ -47,11 +47,6 @@
             "sign_in": "Prijaviti se",
             "sign_up": "Registrovati se",
             "sign_out": "Izlogovati se"
-        },
-        "campaign": {
-            "supporters": "pristalica|pristalice",
-            "campaigns": "Kampanje",
-            "created": "Stvoreno"
         },
         "button": {
             "view_all": "Pogledati sve",
@@ -71,11 +66,12 @@
             "report": "Izvestiti",
             "edit": "Urediti",
             "confirm": "Potvrditi",
-            "okay": "",
-            "view": "",
-            "send": "",
-            "more": "",
-            "less": ""
+            "okay": "Добро",
+            "view": "Pogled",
+            "send": "Пошаљи",
+            "more": "Више",
+            "less": "Мање",
+            "submit": "прихвати"
         },
         "time": {
             "week": "Nedelja",
@@ -86,9 +82,14 @@
             "annual": "Godišnji",
             "yearly": "Godišnje"
         },
+        "campaign": {
+            "campaigns": "Kampanje",
+            "created": "Stvoreno",
+            "supporters": "присталице|присталице|присталице"
+        },
         "collection": {
             "collections": "Zbirke",
-            "campaigns": "{campaign} Kampanja"
+            "campaigns": "Kampanje {campaign}"
         },
         "creator": {
             "creators": "Kreatori"
@@ -108,8 +109,21 @@
             "hide_post": "Sakriti objavu",
             "post_shared": "Post deljen {date}",
             "share_message": "Podelite svoju poruku",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "Откачи пост",
+            "unhide_post": "Откриј објаву"
+        },
+        "pricing": {
+            "creator_subscribe_to": "Овај креатор је претплаћен на",
+            "plan": "план",
+            "support_without_watermark": "Они могу да подрже било коју кампању без воденог жига!",
+            "all_supporters_without_watermark": "Можете подржати све кампање овог Креатора без воденог жига!"
+        },
+        "campaign_card": {
+            "a_month_ago": " | |Пре месец дана",
+            "a_day_ago": " | |Јуче"
+        },
+        "search": {
+            "searching": "У потрази..."
         }
     },
     "page_home": {
@@ -218,9 +232,9 @@
         },
         "history": {
             "the_history": "Istorija Twibbona",
-            "in_this": "U ovoj digitalnoj eri, društveni mediji su postali platforma za izražavanje podrške, zabrinutosti i drugih osećanja.",
-            "however": "Međutim, ponekad se borimo sa pronalaženjem pravih reči i postupaka kako bismo efikasno preneli svoje misli.",
-            "visual_factor": "Vizuelni faktor ima veliku moć u ovom kontekstu. Twibbon je jednostavno rešenje da postane produžetak ideja koje želite da prenesete."
+            "in_this": "U ovoj digitalnoj eri, društveni mediji su postali platforma za izražavanje podrške, zabrinutosti i drugih osećanja",
+            "however": "Međutim, ponekad se borimo sa pronalaženjem pravih reči i postupaka kako bismo efikasno preneli svoje misli",
+            "visual_factor": "Vizuelni faktor ima veliku moć u ovom kontekstu. Twibbon je jednostavno rešenje da postane produžetak ideja koje želite da prenesete"
         }
     },
     "page_contact": {
@@ -246,7 +260,7 @@
     "page_twibbon": {
         "header": {
             "what_is": "Šta je Twibbon?",
-            "twibbon_result": "Twibbon je rezultat preklapanja šablona okvira u fotografiju, koji se obično koristi na slikama profila ili objavama na društvenim mrežama da bi se izrazila podrška cilju, kampanji ili događaju."
+            "twibbon_result": "Twibbon je rezultat preklapanja šablona okvira u fotografiju, koji se obično koristi na slikama profila ili objavama na društvenim mrežama da bi se izrazila podrška cilju, kampanji ili događaju"
         },
         "generate": {
             "your_photo": "Vaša fotografija",
@@ -256,12 +270,12 @@
         "process": {
             "how_twibbonize_1": "Kako Twibbonize revolucioniše",
             "how_twibbonize_2": "Kampanja Twibbon-a",
-            "sharing_twibbon_1": "Deljenje Tvibbona je nekada bio složen proces, čak smo i previše",
+            "sharing_twibbon_1": "Deljenje Twibbona je nekada bio složen proces, čak smo i previše",
             "sharing_twibbon_2": "umorni da bismo vam to objasnili."
         },
         "frame": {
             "twibbon_frame": "U Twibbonize-u, Twibbon je više od okvira",
-            "we_define": "Tvibbon definišemo kao moćan vizuelni šablon koji postaje produžetak vašeg cilja, bilo u obliku okvira ili pozadine."
+            "we_define": "Tvibbon definišemo kao moćan vizuelni šablon koji postaje produžetak vašeg cilja, bilo u obliku okvira ili pozadine"
         },
         "steps": {
             "starting_twibbon_1": "Započeti kampanju Twibbon-a",
@@ -276,7 +290,7 @@
         },
         "cta": {
             "make_it": "Napravite ga za sve",
-            "no_matter": "Bez obzira šta želite da radite, od pokreta koji se bave ogromnim, ozbiljnim ciljevima - do bilo čega samo iz zabave. Možemo vam pomoći da to pretvorite u nešto veliko.",
+            "no_matter": "Bez obzira šta želite da radite, od pokreta koji se bave ogromnim, ozbiljnim ciljevima - do bilo čega samo iz zabave. Možemo vam pomoći da to pretvorite u nešto veliko",
             "start_campaign": "Započeti kampanju"
         }
     },
@@ -302,17 +316,18 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "Još nema objave",
-            "be_the_first": "Budite prvi koji će objaviti svoju podršku ovde. Počnite sa otpremanjem svoje fotografije!"
+            "uploading_your_photo": "otpremanjem svoje fotografije!",
+            "start_with": "Počnite sa",
+            "be_the_first": "Budite prvi koji će objaviti svoju podršku ovde."
         },
         "twibbon": {
             "choose_your_photo": "Odaberite svoju fotografiju",
             "text": "Tekst",
-            "download_successful": "Preuzimanje uspešno",
+            "download_successful": "Preuzimanje uspešno!",
             "photo_not_download": "Fotografija se ne preuzima?",
             "re_download": "Ponovno preuzimati",
             "post_to_twibbonize": "Objaviti na Twibbonize",
             "post_photo_to_twibbonize": "Objaviti ovu fotografiju na Twibbonize",
-            "remove_watermark_for_you": "Uklonite vodeni žig za vas",
             "upgrade_to_premium": "Nadogradite na Premium. Počevši od {price}",
             "processing": "Obrada",
             "buy_premium": "Kupiti Premium",
@@ -327,17 +342,22 @@
             "download": "Preuzeti",
             "reset": "Resetovati",
             "add_text": "Dodati tekst",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": ""
+            "posting_as": "Објављивање као ",
+            "not_you": "Не ти? ",
+            "uploading_photo_to_remove": "Отпремање ваше фотографије и уклањање њене позадине.",
+            "wait_for_moment": "Сачекај мало...",
+            "remove_watermark_for_you_2": "и уживајте у својим сликама без воденог жига!",
+            "remove_watermark_for_you_1": "Истражите Твиббонизе без огласа,",
+            "remove_watermark_for_you": "Uklonite vodeni žig!",
+            "blur": "Zamućenje",
+            "shadow": "Senka",
+            "twibbon_success": "Preuzeto"
         },
         "report": {
             "report_campaign": "Prijaviti kampanju",
             "report_profile": "Prijaviti profil",
             "plagiarism": "Plagijat",
             "sensitive": "Osetljiv sadržaj",
-            "danger": "Opasan sadržaj",
             "spam": "Spam",
             "why_report_campaign": "Zašto prijavljujete ovu kampanju?",
             "protect_reporter": "Smernice zajednice Twibbonize-a štite privatnost identiteta reportera.",
@@ -346,7 +366,21 @@
             "received_report": "Primili smo vaš izveštaj!",
             "thankyou": "Hvala vam! Dozvolite nam da istražimo vašu prijavu i poslaćemo povratne informacije na vašu e-poštu što je pre moguće.",
             "learn_more_about": "Saznajte više o {link} .",
-            "community_guideline": "Smernice zajednice Twibbonize-a"
+            "community_guideline": "Smernice zajednice Twibbonize-a",
+            "title": "Зашто пријављујете ову кампању?",
+            "danger": "Опасно или штетно ",
+            "impersonation": "лажно представљање ",
+            "piracy": "Пиратерија",
+            "vulgar_language": "Вулгарни језик",
+            "nudity_pornography": "Голотиња и порнографија",
+            "suicidal_self_harm": "Садржај о самоубиству и самоповређивању ",
+            "violent_graphic_content": "Насилни графички садржај",
+            "harassment_cyberbullying": "Узнемиравање и сајбер малтретирање",
+            "proactive_threatening_content": "Провокативан и претећи садржај",
+            "statement": "Смернице заједнице Твиббонизе штите приватност идентитета репортера.",
+            "read_more_copy": "Pročitajte više",
+            "please_select_one": "Молимо изаберите једну",
+            "write_a_message": "Напиши поруку"
         },
         "discard": {
             "discard_edit": "Odbaciti izmene?",
@@ -364,9 +398,10 @@
             "supporters": "Pristalice",
             "interactions": "Interakcije",
             "visits": "Posete",
-            "realtime_estimates": "Procene u realnom vremenu",
             "last_month": "Poslednjih 30 dana",
-            "see_more_analytics": "Pogledajte više Analitike"
+            "see_more_analytics": "Pogledajte više Analitike",
+            "realtime_estimates": "Процене у реалном времену за последњих 30 дана",
+            "view_analytics": "Погледајте аналитику"
         },
         "pricing": {
             "no_thankyou": "Ne, hvala"
@@ -387,12 +422,37 @@
             "reply_as_user": "Odgovoriti kao {user}"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "Пратите упутства за најбоље резултате!",
+            "good_photo_examples": "Добри примери фотографија:",
+            "good_photo_caption": "Селфи из крупног плана, портретна фотографија, јасно лице",
+            "photos_avoid": "Фотографије које треба избегавати:",
+            "bad_photo_caption": "Фотографија целог тела, групна фотографија, фотографија са задње стране",
+            "understand": "Разумем"
+        },
+        "post_to_twibbonize": {
+            "caption": "Напишите поруку о овој кампањи...",
+            "unpin_post": "Откачи пост"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "Прилагодите своју фотографију"
+        },
+        "share_campaign": {
+            "or_share_to": "или поделите са",
+            "save_share": "Сачувај и дели"
+        },
+        "post": {
+            "post_uploaded": "Пост Уплоадед",
+            "post_deleted": "Објава је избрисана",
+            "post_failed_deleted": "Објава није успела, избрисана"
+        },
+        "create_campaign": {
+            "custom_field": "Додајте прилагођено поље"
+        },
+        "collection": {
+            "sign_up_add_collection": "Пријавите се за Додај у колекцију"
+        },
+        "posts": {
+            "has_no_posts": "Овај корисник није ништа објавио на Твиббонизе-у"
         }
     },
     "page_checkout": {
@@ -401,9 +461,8 @@
             "account_update": "Vaš nalog će biti ažuriran, sa otključanim svim novim funkcijama"
         },
         "checkout": {
-            "back_to_plans": "Nazad na planove",
             "upgrade_to": "Nadograditi na {plan}",
-            "gather_your_supports": "Okupite svoje pristalice i povećajte svoju kampanju pomoću naših ekskluzivnih funkcija.",
+            "gather_your_supports": "Okupite svoje pristalice i povećajte svoju kampanju pomoću naših ekskluzivnih funkcija",
             "billing_option": "Opcija naplate",
             "details": "Detalji",
             "user": "Korisnik",
@@ -413,18 +472,19 @@
             "save": "Uštedite {percentage} %",
             "pay": "Plati {frequency}",
             "checkout_options": "Opcije plaćanja",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "Прилагодите план",
+            "current_plan": "Тренутни план",
+            "downgrade": "Надоградња",
+            "current_plan_description": "Сада се претплатите на ову претплату",
+            "change_plan_description": "Мењате свој план у {plan} , који ће бити активан након што се тренутна претплата заврши.",
+            "downgrade_description": "Враћате на старију верзију свог плана на {plan} , који ће бити активан након што се тренутна претплата заврши.",
+            "change_plan_confirm": "Јеси ли сигуран?",
+            "upgrade_confirm": "Да ли стварно желите да надоградите?",
+            "downgrade_confirm": "Да ли стварно желите да вратите план на старију верзију?",
+            "change_plan_active": "Биће активан када се ваша тренутна претплата заврши",
+            "upgrade_active": "Биће активан када завршите уплату",
+            "downgrade_active": "Биће активан када се ваша тренутна претплата заврши",
+            "back_to_plans": "Назад"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -433,14 +493,14 @@
             "use_twibbonize_without_ads": "Koristite Twibbonize bez oglasa",
             "exclusive_features": "Ekskluzivne funkcije za vašu kampanju",
             "remove_own_account": "Uklonite vodeni žig za svoj nalog",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "Сребро",
+            "gold": "Злато",
+            "platinum": "Платинум",
+            "watermark_title": "Уклоните водени жиг",
+            "high_quality_image_title": "Слика високог квалитета",
+            "ad_free_title": "Без реклама",
+            "campaign_addon": "Цампаигн Аддон",
+            "on": "на"
         }
     },
     "page_collection": {
@@ -474,14 +534,15 @@
             "no_stay": "Ne, ostati na ovoj stranici"
         },
         "dropzone": {
-            "upload_design": "Otpremite svoj dizajn ovde",
             "type": "Tip:",
-            "imagetype": "Slika\/PNG",
             "size": "Veličina:",
-            "max_file": "Maks. 5MB",
             "recommendation": "Preporuka:",
             "image_dimension": "1080x1080pk",
-            "upload": "Otpremiti"
+            "upload": "Otpremiti",
+            "imagetype": "PNG",
+            "max_file": "Максимално 5 МБ",
+            "backgroundtype": "ЈПЕГ, ПНГ или ВЕБП",
+            "upload_design": "Отпремите свој дизајн овде"
         },
         "frame_editor": {
             "or_create": "ili kreirati svoj okvir sada",
@@ -498,7 +559,9 @@
             "no_transparent": "Na slici nije otkrivena prozirna oblast",
             "no_hole_frame": "To znači da na vašem okviru nema rupe. Da daju potrebnu rupu; možete pratiti ovo {link}",
             "help_center_article": "Članak centra za pomoć",
-            "understand": "Razumem"
+            "understand": "Razumem",
+            "width": "Širina",
+            "height": "Visina"
         },
         "form": {
             "please_fill_in": "molimo popunite sve potrebne podatke o kampanji ispod",
@@ -507,7 +570,7 @@
             "campaign_title": "Naslov kampanje",
             "campaign_title_placeholder": "Može se sastojati od brojeva, alfabeta ili specijalnih znakova.",
             "campaign_description": "Opis",
-            "campaign_description_placeholder": "Podelite detalje o svojoj kampanji da biste privukli pažnju i pridobili podršku.",
+            "campaign_description_placeholder": "Podelite detalje o svojoj kampanji da biste privukli pažnju i pridobili podršku",
             "campaign_link": "Link kampanje",
             "campaign_link_placeholder": "link-kampanje",
             "campaign_category": "Kategorija kampanje",
@@ -525,7 +588,8 @@
             "private_detail": "Vašoj kampanji mogu pristupiti samo ljudi koji imaju pristupni kod",
             "url_not_available": "URL nije dostupan",
             "caption_placeholder": "Zdravo, moje ime je [[Vaše ime]] , i ja sam za podršku ovoj kampanji. Hajde da se okupimo i napravimo pravi uticaj ovom kampanjom zajedno!",
-            "enter_description": "Unesiti opis"
+            "enter_description": "Unesiti opis",
+            "optional": "Опционо"
         },
         "customization": {
             "campaign_customization": "Prilagođavanje kampanje",
@@ -548,20 +612,25 @@
             "go_back": "Vratiti se"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "Оквири",
+            "campaigns": "Кампање",
+            "analytics": "Аналитика"
+        },
+        "blank_design": {
+            "suggested": "Предложено",
+            "instagram_story": "Инстаграм прича",
+            "instagram_post": "Инстаграм Пост"
         }
     },
     "page_for_creators": {
         "pricing": {
             "top_notch": "Nadogradite svoju kampanju",
-            "condidering_all": "Uzimajući u obzir sve pogodnosti, isplati se.",
+            "condidering_all": "Uzimajući u obzir sve pogodnosti, isplati se",
             "purchase_now": "Kupiti sada",
             "learn_more": "Saznajte više",
             "want_to_create": "Želite da kreirate svoju kampanju besplatno?",
-            "try_now": "Pokušajte sada!",
-            "per": "per {time}"
+            "per": "per {time}",
+            "try_now": "Покушај сада!"
         },
         "features": {
             "remove_watermark": "Uklonite vodeni žig za sve korisnike vaše kampanje",
@@ -570,7 +639,7 @@
             "no_ads": "Koristite Twibbonize bez oglasa"
         },
         "bento": {
-            "all_in_one": "Širite svoj pokret i postanite katalizator promena.",
+            "all_in_one": "Širite svoj pokret i postanite katalizator promena",
             "tools_to_tailor": "Alati za prilagođavanje i proširenje vaše kampanje kako vaša podrška raste.",
             "one_of_a_kind": "Jedinstveni Generator Twibbon-a",
             "bring_all_campaign": "Dovedite svu zajednicu pristalica vaše kampanje na svoju stranicu Twibbonize-a; gde se pristalice povezuju i vidite uticaj!",
@@ -591,10 +660,10 @@
         "frame": {
             "more_than_frames": "Više od okvira",
             "spice_up": "Začinite svoju kampanju na mreži, ne samo okvirom, već i kreativnom pozadinom",
-            "frame_twibbon": "Okvir Twibbon-a",
             "the_og_twibbon": "Originalni Twibbon; okvir koji je postavljen na vašu sliku",
-            "backround_twibbon": "Pozadina Twibbon-a",
-            "a_fresh_variation": "Nova varijacija Twibbon-a koja predstavlja pozadinu vaše slike"
+            "a_fresh_variation": "Nova varijacija Twibbon-a koja predstavlja pozadinu vaše slike",
+            "frame_twibbon": "Okvir Twibbona",
+            "backround_twibbon": "Pozadina Twibbona"
         },
         "tilt": {
             "get_it_ready": "Pripremite ga bilo kada pomoću našeg ugrađenog Twibbon Editor",
@@ -604,8 +673,26 @@
             "your_supporters": "vaše pristalice",
             "inspire_detail": "Twibbonize linkovi privlače radoznale, privlačeći ih ka vašem cilju i izazivajući interesovanje za vašu kampanju",
             "unite_detail": "Dovedite svu zajednicu pristalica vaše kampanje na svoju stranicu Twibbonize; gde se pristalice povezuju i vidite uticaj!",
-            "entertain_detail": "Twibbonize angažuje vaše pristalice pružanjem virtuelnog Twibbon-a koji se može deliti za društvene medije i razmenu poruka.",
-            "grow_detail": "Dobijte veću podršku uz kampanju Twibbonize-a: ona ne samo da privlači pažnju već i stvara efekat kola, privlačeći rastuću publiku koja ne želi da propusti vaš cilj."
+            "entertain_detail": "Twibbonize angažuje vaše pristalice pružanjem virtuelnog Twibbon-a koji se može deliti za društvene medije i razmenu poruka",
+            "grow_detail": "Dobijte veću podršku uz kampanju Twibbonize-a: ona ne samo da privlači pažnju već i stvara efekat kola, privlačeći rastuću publiku koja ne želi da propusti vaš cilj.",
+            "inspire": "Инспире ",
+            "unite": "Уједините се",
+            "entertain": "Забавити",
+            "grow": "Расте"
+        },
+        "use_cases": {
+            "heading": "Ideje za korišćenje Tvibbonize-a",
+            "subheading": "Започните своје истраживање ручно одабраним примерима из наших 5.000.000+ Твиббонизе кампања",
+            "corporate": "Цорпорате",
+            "corporate_title": "Искористите моћ изобиља вашег особља и купаца",
+            "education": "Obrazovanje",
+            "education_title": "То је забаван начин за додавање у процес учења",
+            "event": "Događaji",
+            "events_title": "Оплемените свој догађај снагом тренутне виралности"
+        },
+        "testimonials": {
+            "testimonials": "Svedočenja",
+            "heading": "Pouzdani imenima kojima ste verovali"
         }
     },
     "page_explore": {
@@ -624,7 +711,7 @@
     "page_leaderboard": {
         "general": {
             "top_creators": "Tabela najboljih kreatora",
-            "discover": "Saznajte ko vodi u podršci! Pogledajte najbolje kreatore nedelje, meseca i svih vremena."
+            "discover": "Saznajte ko vodi u podršci! Pogledajte najbolje kreatore nedelje, meseca i svih vremena"
         }
     },
     "page_personels": {
@@ -643,6 +730,10 @@
         "advisor": {
             "our_advisor": "Naš savetnik",
             "proud_partner": "Ponosni smo na partnerstvo sa ljudima koji su duboko usklađeni sa našom misijom"
+        },
+        "honorary": {
+            "honorary_mentions": "Хонорари Ментионс",
+            "significant_contributions": "Они који су дали значајан допринос нашем развоју"
         }
     },
     "page_pricing": {
@@ -659,16 +750,16 @@
             "private_campaign_1": "Privatni",
             "private_campaign_2": "Kampanja",
             "offer_exclusively": "Ponudite ekskluzivnost svojim pristalicama",
-            "campaign_customization_1": "Kampanja",
-            "campaign_customization_2": "Podešavanje",
+            "campaign_customization_1": "Prilagođavanje",
+            "campaign_customization_2": "kampanje",
             "personalize_campaign": "Personalizujte svoju stranicu kampanje",
             "multiple_frames_1": "Više Twibbon-a",
             "multiple_frames_2": "po kampanji",
             "unleash_creativity": "Oslobodite kreativnost u svestranosti",
             "top_notch": "Nadogradite svoju kampanju",
-            "considering_all": "Uzimajući u obzir sve pogodnosti, isplati se.",
-            "remove_watermark_1": "Ukloniti",
-            "remove_watermark_2": "Vodeni žig",
+            "considering_all": "Uzimajući u obzir sve pogodnosti, isplati se",
+            "remove_watermark_1": "Uklonite",
+            "remove_watermark_2": "vodeni žig",
             "for_audience_1": "za",
             "for_audience_2": "vas i vašu publiku",
             "as_a_free_user": "Kao besplatan korisnik, vaš Twibbon uvek ima <strong> vodeni žig.<\/strong>",
@@ -683,13 +774,13 @@
             "enjoy_uninterrupted": "Uživajte u neprekidnom iskustvu bez oglasa na Twibbonize-u. Spremite se da prihvatite čistiju verziju Twibbonize-a koja je jednostavnija za upotrebu.",
             "remove_watermark": "Uklonite vodeni žig za svoj nalog",
             "top_notch": "Nadogradite svoju kampanju",
-            "considering_all": "Uzimajući u obzir sve pogodnosti, isplati se.",
+            "considering_all": "Uzimajući u obzir sve pogodnosti, isplati se",
             "use_twibbonize_without_ads": "Koristite Twibbonize bez oglasa",
             "as_a_free_user": "Kao besplatan korisnik, vaš Twibbon uvek ima <strong> vodeni žig.<\/strong>",
             "premium_supporter": "<strong>Premium Supporter<\/strong> uklanja vodeni žig radi čistije slike.",
             "now_you_can": "Sada možete <strong>podržati bilo koju kampanju<\/strong> bez vodenog žiga.",
-            "remove_watermark_1": "Ukloniti",
-            "remove_watermark_2": "Vodeni žig",
+            "remove_watermark_1": "Uklonite",
+            "remove_watermark_2": "vodeni žig",
             "for_audience_1": "za",
             "for_audience_2": "svoj nalog",
             "looking_to_remove": "Želite da uklonite vodeni žig za sve korisnike vaše kampanje? Pokušajte"
@@ -698,7 +789,7 @@
             "upgrade": "Nadograditi",
             "purchase_now": "Kupiti sada",
             "learn_more": "Saznajte više",
-            "all_same_benefit": "Све исте користи од",
+            "all_same_benefit": "Sve iste koristi od",
             "free": "Besplatno",
             "plus": "plus:"
         },
@@ -725,15 +816,15 @@
             "notes": "Napomene",
             "print": "Preuzeti fakturu",
             "if_you_would_like_to_change": "Ako želite da promenite svoju pretplatu ili informacije o plaćanju, idite na podešavanja obračuna",
-            "ending_in": ""
+            "ending_in": "{card} која се завршава на {number}"
         },
         "bento": {
             "campaign_analytics_1": "Kampanja",
             "campaign_analytics_2": "Analitika",
             "private_campaign_1": "Privatni",
             "private_campaign_2": "Kampanja",
-            "campaign_customization_1": "Kampanja",
-            "campaign_customization_2": "Podešavanje",
+            "campaign_customization_1": "Prilagođavanje",
+            "campaign_customization_2": "kampanje",
             "multiple_frames_1": "Više okvira",
             "multiple_frames_2": "po kampanji",
             "use_twibbonize_without_ads_1": "Koristite Twibbonize",
@@ -743,8 +834,8 @@
             "remove_all_watermark_1": "Uklonite vodeni žig",
             "remove_all_watermark_2": "sa svih korisnika vaše kampanje",
             "remove_own_watermark_1": "Uklonite vodeni žig",
-            "on": "sa",
-            "remove_own_watermark_2": "svog naloga",
+            "on": "na",
+            "remove_own_watermark_2": "svom nalogu",
             "extra_features": "Dodatne funkcije"
         },
         "modal": {
@@ -771,6 +862,19 @@
             "answer_8": "Možete lako da preuzmete fakturu direktno sa svog naloga Twibbonize-a.",
             "question_9": "Gde mogu da nađem pomoć u vezi sa korišćenjem Twibbonize-a?",
             "answer_9": ""
+        },
+        "hero": {
+            "pricing": "CENE",
+            "find_the_right_premium_plan": "Pronađite pravi plan Premium za svoje potrebe"
+        },
+        "card_premium_supporter": {
+            "subheading": "Za ljude koji žele više od Twibbonize-a"
+        },
+        "card_premium_creator": {
+            "subheading": "Za ljude kojima je potrebno vrhunsko iskustvo Twibbonize-a"
+        },
+        "same_plan": {
+            "adjust_plan": "Прилагодите план"
         }
     },
     "page_profile": {
@@ -778,17 +882,17 @@
             "search_campaigns": "Pretražiti kampanje",
             "no_campaigns": "Još nema kampanja",
             "no_campaigns_details": "Kreirajte kampanje i delite na Twibbonize-u.",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "Да ли сте сигурни да ћете избрисати ову кампању?",
+            "delete_detail": "Брисање „ {title} “ ће бити трајно и не може се опозвати.",
+            "delete_campaign": "Избриши кампању"
         },
         "posts": {
             "no_posts": "Još nema postova",
-            "no_post_details": "Pronađite kampanju i postavite svoj twibbon na Twibbonize-u."
+            "no_post_details": "Pronađite kampanju i postavite svoj twibbon na Twibbonize-u"
         },
         "collections": {
             "no_collections": "Organizujte svoje omiljene kampanje",
-            "no_collections_details": "Na stranici kampanje samo kliknite na dugme sa ikonom {icon} da biste sačuvali kampanje koje su vam zanimljive u svojim kolekcijama."
+            "no_collections_details": "Кликните на икону {icon} на било којој кампањи да бисте сачували кампању у својим колекцијама"
         },
         "about": {
             "about": "O tome",
@@ -798,6 +902,34 @@
             "joined": "Pridružen od {created}",
             "supporters": "Pristalice",
             "campaigns": "Kampanje"
+        },
+        "my_profile": {
+            "edit_profile": "Уреди профил",
+            "campaigns": "Kampanje",
+            "collections": "Zbirke",
+            "posts": "Постови"
+        },
+        "campaign_deletion": {
+            "are_you_sure": "Jeste li sigurni?"
+        },
+        "campaign": {
+            "delete_campaign": "Брисање „ {campaign_name} “ ће бити трајно и не може се опозвати.",
+            "confirm_delete_campaign": "Избриши кампању"
+        },
+        "collection": {
+            "delete_collection": "Колекција „ {collection_name} “ ће бити трајно избрисана.",
+            "confirm_delete_collection": "Избриши колекцију",
+            "delete_campaign": "Кампања „ {campaign_name} “ ће бити трајно уклоњена из колекције „ {collection_name} “",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "Зашто пријављујете овај профил?",
+            "abusive_harmful": "Увредљиво или штетно",
+            "pretending_someone": "Претварајући се да сам неко други",
+            "sensitive_content": "Сенситиве Цонтент"
+        },
+        "account": {
+            "email_changed": "Ваша адреса е-поште је недавно промењена. Можете га поново ажурирати за 90 дана."
         }
     },
     "page_preference": {
@@ -841,55 +973,55 @@
             "adfree": "Bez reklama",
             "highquality": "Visok kvalitet",
             "nowatermark": "Bez vodenog žiga",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "Плаћено",
+            "are_you_sure_change": "Јеси ли сигуран?",
+            "active_after_subscription": "Биће активна када се ваша тренутна претплата заврши",
+            "are_you_sure_upgrade": "Да ли стварно желите да надоградите?",
+            "plan_changing_info": "Примљено је пребацивање на {package} . Нови план почиње након што се постојећи заврши",
+            "active_after_payment": "Биће активан када завршите уплату",
+            "are_you_sure_downgrade": "Да ли стварно желите да вратите план на старију верзију?",
+            "plan_downgrade_info": "Примљено је враћање на {package} . Нови план почиње након што се постојећи заврши",
+            "renew_plan": "Ренев План",
+            "renew_subscription": "Обнови претплату",
+            "upgrade_now": "Надоградите сада",
+            "warning": "Упозорење!",
+            "important": "Важно!",
+            "premium_expired": "Ваш Премиум Цреатор план је истекао. Молимо обновите до {date}",
+            "last_attempted": "Наши последњи покушаји оптужбе су били неуспешни. Ажурирајте начин плаћања.",
+            "renewal_date": "Датум обнове",
+            "payment_method": "Начин плаћања",
+            "update_now": "Ажурирање сада",
+            "cancel_subscription": "Отказати претплату",
+            "change_payment_method": "Промените начин плаћања",
+            "card_end_with": "{card} која се завршава на {number}",
+            "no_transactions": "Још нема историје трансакција",
+            "transactions_will_shown": "Ваша историја трансакција ће бити приказана овде када постане доступна",
+            "are_you_sure": "Јеси ли сигуран?",
+            "once_cancel_plan": "Када откажете план, изгубићете приступ свим надограђеним функцијама на крају обрачунског циклуса",
+            "yes_cancel_plan": "Да, откажи план",
+            "no_keep_plan": "Не, задржи план",
+            "once_renew_plan": "Када обновите план, ваш план ће поново бити активан",
+            "yes_renew_plan": "Да, обнови план",
+            "no_cancel": "Не, откажи",
+            "if_cancel_downgrade": "Ако откажете прелазак на старију верзију, ваш тренутни план ће поново бити активан",
+            "yes_downgrade": "Да, настави на старију верзију",
+            "if_cancel_change_billing": "Ако откажете промену обрачуна, ваш тренутни план ће поново бити активан",
+            "yes_continue": "Да, настави",
+            "info": "Инфо",
+            "your_request_cancel": "Ваш захтев за отказивање плана {plan} је примљен. Завршиће се у следећем обрачунском циклусу",
+            "your_request_downgrade": "Ваш захтев за враћање на {plan} је примљен. Ваш нови план ће бити активиран када се тренутни план заврши.",
+            "cancel_downgrade": "Откажите прелазак на старију верзију",
+            "cancel_change": "Откажи промену обрачуна",
+            "your_request_billing": "Ваш захтев за промену обрачуна у {plan} је примљен. Ваш нови план ће бити активиран када се тренутни план заврши.",
+            "manage_inapp": "Управљајте својом претплатом у апликацији Твиббонизе {appOs}",
+            "manage_inapp_subscription": "Да бисте управљали претплатом на Твиббонизе на {appOs} , отворите апликацију, идите на „Подешавања“ и изаберите „Обрачун“.",
+            "success_cancel_subscription": "Успешно Откажите претплату",
+            "success_renew_subscription": "Успешно обнављање претплате",
+            "success_change_subscription": "Успешна промена претплате",
+            "success_cancel_change_subscription": "Успешно Откажи промену претплате",
+            "last_attempted_authentication": "Наши последњи покушаји оптужбе су били неуспешни. Ваша уплата захтева потврду аутентичности.",
+            "authenticate_now": "Аутхентицате Нов",
+            "recurring_payment": "Захтевамо вашу изричиту потврду за ваше периодично плаћање. Молимо прегледајте Е-пошту"
         },
         "account": {
             "update_email": "Ažurirati e-poštu",
@@ -919,19 +1051,19 @@
             "confirm_password": "Potvrditi lozinku",
             "create_new_password": "Kreirajte novu lozinku",
             "make_it_easy": "Olakšajte pamćenje i sačuvajte tajnu od bilo koga!",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "Додајте е-пошту",
+            "add_password": "Додај лозинку",
+            "cant_remove_account": "Упс, не можемо да уклонимо ваш налог на друштвеним мрежама.",
+            "set_up_email": "Прво морате да подесите е-пошту или лозинку да бисте уклонили налог на друштвеним мрежама.",
+            "want_to_remove": "Желите да уклоните свој налог на друштвеним мрежама?",
+            "your_account_will_be_removed": "Ваш {provider} налог ће бити уклоњен. Кликните на Разуми да бисте уклонили своје налоге друштвених медија.",
+            "continue_to_revoke": "Наставите да опозовете ",
+            "revoke_success": "Успешно опозив налога {provider}",
+            "cannot_update_email": "Упс, не можемо да ажурирамо вашу е-пошту",
+            "setup_password_to_update_email": "Морате поставити лозинку пре ажурирања е-поште.",
+            "email_change_request": "Захтев за промену е-поште је отказан",
+            "we_have_sent_password": "Послали смо упутства за ресетовање лозинке на вашу е-пошту. Ресетујте лозинку у року од 1 сата из безбедносних разлога.",
+            "go_to_homepage": "Иди на почетну страницу"
         },
         "notifications": {
             "notifications_settings": "Podešavanja obaveštenja",
@@ -949,10 +1081,10 @@
             "article": "Članci",
             "article_details": "Dobićete naše preporučene članke.",
             "toggle_all": "Sve",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "Објавите на Твиббонизе",
+            "post_twibbonize_details": "Добијајте обавештења о посту подржаваоца на страници кампање.",
+            "account_recap": "Преглед налога",
+            "account_recap_details": "Недељни преглед присталица и посета за све ваше кампање"
         },
         "package": {
             "free": "Besplatno",
@@ -977,7 +1109,7 @@
         "header": {
             "testimonials": "Svedočenja",
             "trusted": "Pouzdani imenima kojima ste verovali",
-            "read_stories": "Pročitajte priče kompanija i organizacija koje su uspešno koristile našu platformu za svoje programe kampanje."
+            "read_stories": "Pročitajte priče kompanija i organizacija koje su uspešno koristile našu platformu za svoje programe kampanje"
         },
         "bento": {
             "read_success_story": "Pročitajte njihovu priču o uspehu"
@@ -1231,7 +1363,6 @@
         },
         "graph": {
             "page": "Stranica {currentPage} od {totalPage}",
-            "data_displayed": "Podaci prikazani u vremenskoj zoni UTC (UTC+0)",
             "trend": "Trend",
             "country": "Država",
             "city": "Grad",
@@ -1244,7 +1375,8 @@
             "visit": "Posetite",
             "visit_detail": "Broj pojedinačnih sesija pregledanja koji su posetili stranicu vaše kampanje",
             "unique_visit": "Jedinstvena poseta",
-            "unique_visit_detail": "Broj ljudi koji su posetili stranicu vaše kampanje"
+            "unique_visit_detail": "Broj ljudi koji su posetili stranicu vaše kampanje",
+            "data_displayed": "Подаци се приказују у временској зони УТЦ+0"
         }
     },
     "page_account": {
@@ -1252,8 +1384,6 @@
             "email": "E-pošta",
             "password": "Lozinka",
             "confirm_password": "Potvrditi lozinku",
-            "login_with_google": "Prijaviti se sa Google-om",
-            "login_with_facebook": "Prijaviti se sa Facebook-om",
             "login_with_email": "ili se prijaviti putem e-pošte",
             "signup_with_google": "Registrovati se sa Google-om",
             "signup_with_facebook": "Registrovati se sa Facebook-om",
@@ -1266,7 +1396,9 @@
             "signup": "Registrovati se",
             "terms": "Uslovi",
             "privacy": "Pravila o privatnosti",
-            "name": ""
+            "name": "Име",
+            "login_with_facebook": "Пријавите се са Фејсбуком",
+            "login_with_google": "Пријавите се помоћу Гоогле-а"
         }
     },
     "page_article": {
@@ -1275,97 +1407,398 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "Пријавите се на Пост то Твиббонизе",
+        "sign_in_to_comment": "Пријавите се да бисте оставили коментар",
+        "sign_in_to_like": "Пријавите се да бисте дали лајк",
+        "sign_up_to_post": "Пријавите се за Пост то Твиббонизе",
+        "sign_up_to_comment": "Пријавите се да бисте оставили коментар",
+        "sign_up_to_like": "Пријавите се да бисте дали лајк",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "Пријављивање успешно! Добродошли назад.",
+                "error": "Неуспела Пријава. Проверите своје акредитиве и покушајте поново."
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "Пријава је успела! Добро дошли.",
+                "error": "Регистрација није успела. Проверите своје податке и покушајте поново."
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "Е-пошта је већ регистрована",
+        "email_registered_lead": "Овај емаил је већ регистрован. Да ли желите да се пријавите уместо тога?",
+        "sign_in_to_create_campaign": "",
+        "sign_up_to_create_campaign": ""
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "Потврдити брисање",
+            "delete_lead": "Да ли сте сигурни да желите да избришете ову објаву? Ова радња се не може опозвати.",
+            "delete_yes": "Да, Избриши",
+            "delete_no": "Поништити, отказати"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "Поделите своју поруку",
+            "logged_in_placeholder": "Коментар као {name}",
+            "comment_posted": "Коментар је објављен",
+            "comment_deleted": "Коментар је обрисан",
+            "reply_deleted": "Одговор је избрисан"
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "Пост је отпремљен",
+            "hidden": "Сакривен",
+            "unhidden": "Нескривено",
+            "reported": "Пријављено",
+            "deleted": "Избрисан",
+            "pinned": "Закачен",
+            "unpinned": "Унпиннед"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "Пријавите кампању",
+        "report_profile": "Пријави профил",
+        "abusive_or_harmful": "Увредљиво или штетно",
+        "pretending_to_be_someone_else": "Претварајући се да сам неко други",
+        "sensitive_content": "Осетљив садржај",
+        "plagiarism": "Плагијат",
+        "impersonation": "лажно представљање",
+        "piracy": "Пиратерија",
+        "nudity_pornography": "Голотиња и порнографија",
+        "dangerous_or_harmful": "Опасно или штетно",
+        "harassment_cyberbullying": "Узнемиравање и сајбер малтретирање",
+        "provocative_threatening_content": "Провокативан и претећи садржај",
+        "privacy_violations": "Повреде приватности",
+        "unauthorized_use_of_personal_information": "Неовлашћено коришћење личних података",
+        "child_exploitation": "Експлоатација деце",
+        "harassment": "Узнемиравање",
+        "terrorism": "тероризам",
+        "violence": "Насиље",
+        "false_information": "Лажне информације",
+        "health": "Здравље",
+        "politics": "политика",
+        "social_issue": "Друштвени проблем",
+        "hate_speech": "Говор мржње",
+        "disability_or_disease": "Инвалидност или болест",
+        "race_or_ethnicity": "Раса или етничка припадност",
+        "religious_affiliation": "Верској припадности",
+        "sexual_orientation": "Сексуална оријентација",
+        "nudity": "Голотиња",
+        "suicide_or_self_harm": "Самоубиство или самоповређивање",
+        "vulgar_language": "Вулгарни језик",
+        "dangerous_content": "Дангероус Цонтент",
+        "why_report_campaign": "Зашто пријављујете ову кампању?",
+        "why_report_profile": "Зашто пријављујете овај профил?",
+        "why_report_submission": "Зашто пријављујете овај поднесак?",
+        "why_report_comment_reply": "Зашто пријављујете овај коментар?",
+        "why_report_collection": "Зашто пријављујете ову колекцију?",
+        "select_one": "Молимо изаберите једну",
+        "protect_privacy_reporter": "Смернице заједнице Твиббонизе штите приватност идентитета репортера.",
+        "tell_us_more": "реци нам више",
+        "received_report": "Примили смо ваш извештај!",
+        "thankyou": "Хвала вам! Дозволите нам да истражимо вашу пријаву и послаћемо повратне информације на вашу е-пошту што је пре могуће.",
+        "learn_more_about": "Сазнајте више о {link} .",
+        "community_guideline": "Твиббонизе Смернице заједнице",
+        "placeholder_write_here": "Врите хере",
+        "report_sent": "Извештај је послат"
+    },
+    "page_editor": {
+        "general": {
+            "template": "Šablon",
+            "text": "Tekst",
+            "shape": "Oblik",
+            "image": "Slika",
+            "graphic": "Grafika",
+            "upload": "Otpremiti",
+            "layer": "Sloj",
+            "resize": "Promeniti veličinu",
+            "save": "Sačuvati",
+            "width": "Širina",
+            "height": "Visina",
+            "transparency": "Transparentnost",
+            "line_weight": "Težina linije",
+            "align": "Poravnati",
+            "group": "Grupisati",
+            "ungroup": "Razgrupisati",
+            "unlock": "Otključati",
+            "loading": "Učitava se"
+        },
+        "text": {
+            "add_a_heading": "Dodati naslov",
+            "add_a_subheading": "Dodati podnaslov",
+            "document_fonts": "Fontovi dokumenata",
+            "text_effect": "Tekstualni efekti",
+            "effects": "Efekti",
+            "add_a_body_text": "Dodajte malo osnovnog teksta"
+        },
+        "shape": {
+            "arrow": "Strelac",
+            "shape": "Oblik"
+        },
+        "upload": {
+            "upload_image": "Otpremiti sliku",
+            "upload": "Otpremiti",
+            "type": "Тип:",
+            "size": "Величина:",
+            "type_image": "ЈПГ, ПНГ или СВГ",
+            "maximum_size": "Максимално 5 МБ"
+        },
+        "toolbar": {
+            "copy": "Kopirati",
+            "paste": "Zalepiti",
+            "duplicate": "Duplirati",
+            "delete": "Izbrisati",
+            "layer": "Sloj",
+            "bring_forward": "Izneti napred",
+            "bring_to_front": "Izneti na prednji deo",
+            "send_backward": "Poslati nazad",
+            "send_to_back": "Poslati u pozadinu",
+            "show_layers": "Prikazati slojeve",
+            "left": "Levo",
+            "center": "Centar",
+            "right": "Desno",
+            "top": "Vrh",
+            "middle": "Srednji",
+            "bottom": "Dno",
+            "set_as_text_template": "Postaviti kao tekstualni šablon",
+            "set_as_background_image": "Postaviti kao pozadinsku sliku",
+            "lock": "Zaključati",
+            "letter_spacing": "Razmak između slova",
+            "line_spacing": "Prored",
+            "border_weight": "Бордер Веигхт",
+            "align": "Poravnati",
+            "effects": "Efekti"
+        },
+        "confirmation": {
+            "cancel": "Otkazati",
+            "save": "Sačuvati",
+            "has_your_frame_been_completed": "Da li je vaš okvir završen?",
+            "once_it_save": "Kada se sačuva, uređivanje više nije dostupno"
+        },
+        "image": {
+            "image_template": "Autor fotografije: {name} ",
+            "image_template_1": "na",
+            "edit_image": "Urediti sliku",
+            "image_template_2": "Unsplash"
+        },
+        "error": {
+            "minimum_dimension": "Dimenzije moraju biti najmanje 100 piksela i ne veće od 8000 piksela."
+        },
+        "text_effect": {
+            "style": "Stil",
+            "none": "Nijedan",
+            "shadow": "Senka",
+            "text_effects": "Efekti",
+            "lift": "Lift",
+            "offset": "Ofset",
+            "direction": "Pravac",
+            "blur": "Zamućenje",
+            "transparency": "Transparentnost",
+            "color": "Boja",
+            "thickness": "Debljina"
+        },
+        "colors": {
+            "colors": "Boje",
+            "document_colors": "Boje dokumenta",
+            "default_colors": "Podrazumevane boje"
+        }
+    },
+    "page__campaign_creation": {
+        "campaign_preview": {
+            "campaign_description": "Опис кампање",
+            "campaign_title": "Naslov kampanje"
+        }
+    },
+    "page_my_campaign": {
+        "edit_campaign": {
+            "campaigns": "Kampanje",
+            "frames": "Оквири",
+            "analytics": "Аналитика"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "Зашто пријављујете овај пост?",
+            "plagiarism ": "Plagijat",
+            "impersonation ": "лажно представљање ",
+            "piracy ": "Пиратерија",
+            "vulgar_language": "Вулгарни језик",
+            "nudity_pornography": "Голотиња и порнографија",
+            "suicidal_self_harm": "Садржај о самоубиству и самоповређивању ",
+            "danger": "Опасно или штетно ",
+            "violent_graphic_content": "Насилни графички садржај",
+            "harassment_cyberbullying": "Узнемиравање и сајбер малтретирање ",
+            "provocative_threatening_content": "Провокативан и претећи садржај",
+            "spam": "Spam"
+        },
+        "report_comment": {
+            "title": "Зашто пријављујете овај коментар?",
+            "abusive_harmful": "Увредљиво или штетно",
+            "harassment": "Узнемиравање",
+            "terrorism": "тероризам",
+            "violence": "Насиље",
+            "false_information": "",
+            "health": "Здравље",
+            "politics": "политика",
+            "social_issue": "Друштвени проблем",
+            "sensitive_content": "Сенситиве Цонтент ",
+            "nudity": "Голотиња",
+            "vulgar_language": "Вулгарни језик",
+            "hate_speech": "Говор мржње",
+            "disability_disease": "Инвалидитет или болест",
+            "race_or_ethnicity": "Раса или етничка припадност",
+            "religious_affiliation": "Верској припадности ",
+            "sexual_orientation": "Сексуална оријентација",
+            "spam": "Spam"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "Урл неважећи"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "Пријављивање на Гоогле није успело",
+        "failed_apple_login": "Пријављивање на Аппле није успело"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "Датотека фотографије премашује максималну величину од 5 МБ",
+            "cannot_create_twibbon": "Није могуће креирати Твиббон. Покушајте поново"
+        },
+        "log_in": {
+            "complete_verification": "Завршите верификацију да бисте наставили",
+            "email_no_password": "Овај емаил нема лозинку. Пријавите се преко Гоогле-а",
+            "social_media_already_registered": "Е-пошта вашег налога на друштвеним медијима је већ регистрована и повезана са другим налогом из сличне услуге друштвених медија. Покушајте да се пријавите користећи формуларе за е-пошту и лозинку."
+        },
+        "sign_up": {
+            "email_already_registered": "Овај емаил је већ регистрован. Користите другу адресу е-поште или покушајте да се пријавите",
+            "password_minimum_required": "Лозинка мора имати најмање 8 знакова.",
+            "password_character_exceeded": "Лозинка не сме бити дужа од 128 знакова",
+            "password_must_be_standard": "Лозинка мора бити стандардна алфанумеричка",
+            "password_does_not_match": "Потврда лозинке се не поклапа. Покушајте поново"
+        },
+        "verification": {
+            "code_incorrect": "Код је нетачан. Покушајте поново",
+            "code_expired": "Код је истекао. Затражите нову",
+            "maximum_attempt_reached": "Достигнут је максимум покушаја. Покушајте поново за 5 сати",
+            "code_requested_exceeded": "Захтеви кодова су премашили максимално ограничење"
+        },
+        "forgot_password": {
+            "email_not_found": "Е-пошта није пронађена. Покушајте поново или се пријавите",
+            "link_expired": "Веза за промену лозинке је истекла. Затражите нову",
+            "link_used": "Коришћена је веза за промену лозинке. Затражите нову"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "Датотека оквира премашује максималну величину од 5 МБ",
+            "background_file_exceed": "Датотека у позадини премашује максималну величину од 5 МБ",
+            "image_not_transparent": "Слика мора бити транспарентна. Покушајте поново",
+            "invalid_format": "Неважећи формат датотеке. Користите подржани формат",
+            "allow_only_1_frame": "Бесплатни налози дозвољавају отпремање само 1 кадра. Надоградите да бисте наставили",
+            "allow_only_1_background": "Бесплатни налози дозвољавају само 1 отпремање у позадини. Надоградите да бисте наставили",
+            "campaign_title_exceed_limit": "Наслов кампање премашује максимално ограничење броја знакова",
+            "description_exceed_limit": "Опис премашује максимално ограничење броја знакова",
+            "link_unavailable": "Линк кампање је већ у употреби. Изаберите другу",
+            "link_criteria": "Линк кампање мора да буде алфанумерички и цртица (-)",
+            "caption_exceed_limit": "Шаблон натписа премашује максимално ограничење броја знакова",
+            "background_exceed_limit": "Датотека у позадини премашује максималну величину од 5 МБ",
+            "photo_exceed_limit": "Слика слике премашује максималну величину од 5 МБ",
+            "link_exceed_limit": "Линк кампање премашује максимално ограничење броја знакова"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "Датотека оквира премашује максималну величину од 5 МБ",
+            "background_file_exceed": "Датотека у позадини премашује максималну величину од 5 МБ"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "Слика мора бити транспарентна. Покушајте поново",
+            "invalid_format": "Неважећи формат датотеке. Користите подржани формат",
+            "allow_only_1_frame": "Бесплатни налози дозвољавају отпремање само 1 кадра. Надоградите да бисте наставили",
+            "allow_only_1_background": "Бесплатни налози дозвољавају само 1 отпремање у позадини. Надоградите да бисте наставили",
+            "campaign_title_exceed_limit": "Наслов кампање премашује максимално ограничење броја знакова",
+            "description_exceed_limit": "Опис премашује максимално ограничење броја знакова",
+            "link_unavailable": "Линк кампање је већ у употреби. Изаберите другу",
+            "link_criteria": "Линк кампање мора да буде алфанумерички и цртица (-)",
+            "link_exceed_limit": "Линк кампање премашује максимално ограничење броја знакова",
+            "caption_exceed_limit": "Шаблон натписа премашује максимално ограничење броја знакова",
+            "background_exceed_limit": "Датотека у позадини премашује максималну величину од 5 МБ",
+            "thumbnail_exceeds": "Слика слике премашује максималну величину од 5 МБ"
+        },
+        "settings": {
+            "profile_image_exceed": "Слика профила премашује максимално ограничење од 5МБ",
+            "background_image_exceed": "Позадинска слика премашује максималну величину од 5 МБ",
+            "username_unavailable": "Корисничко име је већ заузето. Пробај другу",
+            "username_exceed_limit": "Корисничко име премашује максимално ограничење броја знакова",
+            "username_invalid": "Корисничко име је неважеће. Покушајте поново са исправним форматом",
+            "display_exceed_limit": "Име за приказ премашује максимално ограничење броја знакова",
+            "bio_exceed_limit": "Биографија премашује максимално ограничење броја знакова",
+            "email_already_registered": "Е-пошта је већ регистрована. Пробај другу",
+            "password_incorrect": "Лозинка нетачна. Покушајте поново",
+            "password_minimum_character": "Лозинка мора имати најмање 8 знакова",
+            "password_maximum_character": "Лозинка не сме бити дужа од 128 знакова",
+            "password_standard_format": "Лозинка мора да прати алфанумерички стандардни формат",
+            "account_deleted": "Налог је избрисан",
+            "account_integrated": "Рачун интегрисан",
+            "account_revoked": "Рачун је опозван"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "Одељак „Реците нам више“ премашује максимално ограничење броја знакова"
+        },
+        "general": {
+            "something_went_wrong": "Нешто није у реду"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "Број додатих кампања премашује максимално ограничење",
+            "description_exceeds": "Опис премашује максимално ограничење броја знакова",
+            "title_exceeds": "Наслов колекције премашује максимално ограничење броја знакова"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "Линк је копиран",
+            "social_media_already_linked": "Налог друштвених медија је већ повезан са другим Твиббонизе налогом. Пробај другу"
+        },
+        "campaign_creation": {
+            "link_available": "Линк је доступан"
+        },
+        "campaign_edit": {
+            "link_available": "Линк је доступан"
+        },
+        "settings": {
+            "photo_updated": "Пхото Упдатед",
+            "banner_updated": "Банер је ажуриран",
+            "banner_deleted": "Банер је избрисан",
+            "photo_deleted": "Фотографија је избрисана",
+            "password_updated": "Лозинка је ажурирана",
+            "email_updated": "Е-пошта је ажурирана"
+        },
+        "my_profile": {
+            "campaign_deleted": "Кампања је избрисана"
+        },
+        "collection": {
+            "campaign_added": "Кампања је додата"
+        },
+        "campaign_page": {
+            "account_upgraded": "Рачун је надограђен",
+            "link_copied": "Линк је копиран"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "Е-пошта није пронађена. Покушајте поново или се пријавите"
+        },
+        "password": {
+            "password_incorrect": "Лозинка нетачна. Покушајте поново"
+        },
+        "maximum_attempt": "Достигнут је максимум покушаја. Покушајте поново за 1 сат"
+    },
+    "page_notification": {
+        "no_notification_heading": "Још нема обавештења",
+        "no_notification_subheading": "Тренутно нема обавештења"
+    },
+    "page_general": {
+        "no_internet_connection": "Нема интернет везе. Додирните да поновите",
+        "could_not_connect_internet": "Повезивање на интернет није успело. Пребаците се на другу мрежу и покушајте поново."
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "Одјавити се?"
+        }
     }
 }

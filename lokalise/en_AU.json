@@ -48,11 +48,6 @@
             "sign_up": "Sign Up",
             "sign_out": "Sign Out"
         },
-        "campaign": {
-            "supporters": "supporter|supporters",
-            "campaigns": "Campaigns",
-            "created": "Created"
-        },
         "button": {
             "view_all": "View All",
             "next": "Next",
@@ -72,10 +67,11 @@
             "edit": "Edit",
             "confirm": "Confirm",
             "okay": "",
-            "view": "",
+            "view": "View",
             "send": "",
             "more": "",
-            "less": ""
+            "less": "",
+            "submit": ""
         },
         "time": {
             "week": "Week",
@@ -85,6 +81,11 @@
             "monthly": "Monthly",
             "annual": "Annual",
             "yearly": "Yearly"
+        },
+        "campaign": {
+            "campaigns": "Campaigns",
+            "created": "Created",
+            "supporters": ""
         },
         "collection": {
             "collections": "Collections",
@@ -110,6 +111,19 @@
             "share_message": "Share your message",
             "unpin_post": "",
             "unhide_post": ""
+        },
+        "pricing": {
+            "creator_subscribe_to": "",
+            "plan": "",
+            "support_without_watermark": "",
+            "all_supporters_without_watermark": ""
+        },
+        "campaign_card": {
+            "a_month_ago": " | ",
+            "a_day_ago": " | "
+        },
+        "search": {
+            "searching": ""
         }
     },
     "page_home": {
@@ -218,9 +232,9 @@
         },
         "history": {
             "the_history": "The History of Twibbon",
-            "in_this": "In this digital era, social media has become the go-to platform for one to express support, concerns, and other sentiments.",
-            "however": "However, we sometimes struggle with finding the right words and actions to convey our thoughts effectively.",
-            "visual_factor": "Visual factor holds great power in this context. Twibbon is a simple solution to become the extension of the ideas you want to convey."
+            "in_this": "In this digital era, social media has become the go-to platform for one to express support, concerns, and other sentiments",
+            "however": "However, we sometimes struggle with finding the right words and actions to convey our thoughts effectively",
+            "visual_factor": "Visual factor holds great power in this context. Twibbon is a simple solution to become the extension of the ideas you want to convey"
         }
     },
     "page_contact": {
@@ -246,7 +260,7 @@
     "page_twibbon": {
         "header": {
             "what_is": "What is a Twibbon?",
-            "twibbon_result": "Twibbon is the result of overlaying a frame template into a photo, typically used in profile pictures or social media posts to express support for a cause, campaign, or event."
+            "twibbon_result": "Twibbon is the result of overlaying a frame template into a photo, typically used in profile pictures or social media posts to express support for a cause, campaign, or event"
         },
         "generate": {
             "your_photo": "Your Photo",
@@ -261,7 +275,7 @@
         },
         "frame": {
             "twibbon_frame": "In Twibbonize, Twibbon is more than frames",
-            "we_define": "We define Twibbon as a powerful visual template that becomes the extension of your cause, whether in the form of a frame or a background."
+            "we_define": "We define Twibbon as a powerful visual template that becomes the extension of your cause, whether in the form of a frame or a background"
         },
         "steps": {
             "starting_twibbon_1": "Starting a Twibbon campaign",
@@ -276,7 +290,7 @@
         },
         "cta": {
             "make_it": "Make It for Everything",
-            "no_matter": "No matter what you want to do, from movements tackling huge, serious causes—to anything just for fun. We can help you turn it into something big.",
+            "no_matter": "No matter what you want to do, from movements tackling huge, serious causes—to anything just for fun. We can help you turn it into something big",
             "start_campaign": "Start a Campaign"
         }
     },
@@ -302,17 +316,18 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "No Post Yet",
-            "be_the_first": "Be the first to post your support here. Start with uploading your photo!"
+            "uploading_your_photo": "uploading your photo!",
+            "start_with": "Start with",
+            "be_the_first": "Be the first to post your support here."
         },
         "twibbon": {
             "choose_your_photo": "Choose Your Photo",
             "text": "Text",
-            "download_successful": "Download Successful",
+            "download_successful": "Download Successful!",
             "photo_not_download": "Photo not downloading?",
             "re_download": "Re-Download",
             "post_to_twibbonize": "Post to Twibbonize",
             "post_photo_to_twibbonize": "Post this Photo to Twibbonize",
-            "remove_watermark_for_you": "Remove Watermark For You",
             "upgrade_to_premium": "Upgrade to Premium. Starting from {price}",
             "processing": "Processing",
             "buy_premium": "Buy Premium",
@@ -330,14 +345,19 @@
             "posting_as": "",
             "not_you": "",
             "uploading_photo_to_remove": "",
-            "wait_for_moment": ""
+            "wait_for_moment": "",
+            "remove_watermark_for_you_2": "and enjoy your images watermark-free!",
+            "remove_watermark_for_you_1": "Explore Twibbonize without ads,",
+            "remove_watermark_for_you": "Remove the watermark!",
+            "blur": "Blur",
+            "shadow": "Shadow",
+            "twibbon_success": "Downloaded"
         },
         "report": {
             "report_campaign": "Report Campaign",
             "report_profile": "Report Profile",
             "plagiarism": "Plagiarism",
             "sensitive": "Sensitive Content",
-            "danger": "Dangerous Content",
             "spam": "Spam",
             "why_report_campaign": "Why do you report this campaign?",
             "protect_reporter": "Twibbonize Community Guidelines protect the privacy of reporter's identity.",
@@ -346,7 +366,21 @@
             "received_report": "We've received your report!",
             "thankyou": "Thank you! Please allow us to investigate your report, and we will send the feedback to your email as soon as possible.",
             "learn_more_about": "Learn more about the {link}.",
-            "community_guideline": "Twibbonize Community Guidelines"
+            "community_guideline": "Twibbonize Community Guidelines",
+            "title": "Why are you reporting this campaign?",
+            "danger": "",
+            "impersonation": "",
+            "piracy": "",
+            "vulgar_language": "",
+            "nudity_pornography": "",
+            "suicidal_self_harm": "",
+            "violent_graphic_content": "",
+            "harassment_cyberbullying": "",
+            "proactive_threatening_content": "",
+            "statement": "Twibbonize Community Guidelines protect the privacy of reporter's identity.",
+            "read_more_copy": "Read More",
+            "please_select_one": "",
+            "write_a_message": "Write a message"
         },
         "discard": {
             "discard_edit": "Discard edits?",
@@ -364,9 +398,10 @@
             "supporters": "Supporters",
             "interactions": "Interactions",
             "visits": "Visits",
-            "realtime_estimates": "Real-time estimates",
             "last_month": "Last 30 days",
-            "see_more_analytics": "See More Analytics"
+            "see_more_analytics": "See More Analytics",
+            "realtime_estimates": "",
+            "view_analytics": ""
         },
         "pricing": {
             "no_thankyou": "No, Thank you"
@@ -393,6 +428,31 @@
             "photos_avoid": "",
             "bad_photo_caption": "",
             "understand": ""
+        },
+        "post_to_twibbonize": {
+            "caption": "Write a message about this campaign...",
+            "unpin_post": ""
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": ""
+        },
+        "share_campaign": {
+            "or_share_to": "",
+            "save_share": ""
+        },
+        "post": {
+            "post_uploaded": "",
+            "post_deleted": "",
+            "post_failed_deleted": ""
+        },
+        "create_campaign": {
+            "custom_field": ""
+        },
+        "collection": {
+            "sign_up_add_collection": ""
+        },
+        "posts": {
+            "has_no_posts": ""
         }
     },
     "page_checkout": {
@@ -401,9 +461,8 @@
             "account_update": "Your account will be update, with all new features unlocked"
         },
         "checkout": {
-            "back_to_plans": "Back to Plans",
             "upgrade_to": "Upgrade to {plan}",
-            "gather_your_supports": "Gather your supporters and scale up your campaign with our exclusive features.",
+            "gather_your_supports": "Gather your supporters and scale up your campaign with our exclusive features",
             "billing_option": "Billing Option",
             "details": "Details",
             "user": "User",
@@ -424,7 +483,8 @@
             "downgrade_confirm": "",
             "change_plan_active": "",
             "upgrade_active": "",
-            "downgrade_active": ""
+            "downgrade_active": "",
+            "back_to_plans": ""
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -474,14 +534,15 @@
             "no_stay": "No, Stay on this Page"
         },
         "dropzone": {
-            "upload_design": "Upload your own design here",
             "type": "Type:",
-            "imagetype": "Image\/PNG",
             "size": "Size:",
-            "max_file": "Max. 5MB",
             "recommendation": "Recommendation:",
             "image_dimension": "1080x1080px",
-            "upload": "Upload"
+            "upload": "Upload",
+            "imagetype": "PNG",
+            "max_file": "",
+            "backgroundtype": "",
+            "upload_design": ""
         },
         "frame_editor": {
             "or_create": "or create your frame now",
@@ -498,7 +559,9 @@
             "no_transparent": "No transparent area detected on your image",
             "no_hole_frame": "This means that there is no hole on your frame. To give the necessary hole; you can follow this {link}",
             "help_center_article": "Help Center Article",
-            "understand": "I Understand"
+            "understand": "I Understand",
+            "width": "Width",
+            "height": "Height"
         },
         "form": {
             "please_fill_in": "please fill in all the required campaign data below",
@@ -507,7 +570,7 @@
             "campaign_title": "Campaign Title",
             "campaign_title_placeholder": "Can consist of numbers, alphabets, or special characters.",
             "campaign_description": "Description",
-            "campaign_description_placeholder": "Share details about your campaign to grab attention and garner support.",
+            "campaign_description_placeholder": "Share details about your campaign to grab attention and garner support",
             "campaign_link": "Campaign Link",
             "campaign_link_placeholder": "campaign-link",
             "campaign_category": "Campaign Category",
@@ -525,7 +588,8 @@
             "private_detail": "Your campaign can only be accessed by people who have the access code",
             "url_not_available": "URL not available",
             "caption_placeholder": "Hi, my name is  [[Your Name]] , and I am all in to support this campaign. Let's gather and make a real impact with this campaign together!",
-            "enter_description": "Enter description"
+            "enter_description": "Enter description",
+            "optional": ""
         },
         "customization": {
             "campaign_customization": "Campaign Customisation",
@@ -551,17 +615,22 @@
             "frames": "",
             "campaigns": "",
             "analytics": ""
+        },
+        "blank_design": {
+            "suggested": "",
+            "instagram_story": "",
+            "instagram_post": ""
         }
     },
     "page_for_creators": {
         "pricing": {
             "top_notch": "Upgrade your campaign game",
-            "condidering_all": "Considering all the conveniences, it’s worth it.",
+            "condidering_all": "Considering all the conveniences, it’s worth it",
             "purchase_now": "Purchase Now",
             "learn_more": "Learn More",
             "want_to_create": "Want to create your campaign for free?",
-            "try_now": "Try Now!",
-            "per": "per {time}"
+            "per": "per {time}",
+            "try_now": "Try Now!"
         },
         "features": {
             "remove_watermark": "Remove watermark for all of your campaign users",
@@ -570,7 +639,7 @@
             "no_ads": "Use Twibbonize without Ads"
         },
         "bento": {
-            "all_in_one": "Spread your movement and become a catalyst for change.",
+            "all_in_one": "Spread your movement and become a catalyst for change",
             "tools_to_tailor": "Tools to tailor and expand your campaign as your support Grows.",
             "one_of_a_kind": "One of a kind Twibbon Generator",
             "bring_all_campaign": "Bring all your campaign’s supporters community on your Twibbonize page; where supporters connect and you see the impact!",
@@ -591,10 +660,10 @@
         "frame": {
             "more_than_frames": "More than just frames",
             "spice_up": "Spice up your online campaign game, not only with a frame, but also with creative backgrounds",
-            "frame_twibbon": "Twibbon Frame",
             "the_og_twibbon": "The OG Twibbon; a frame that's placed on your picture",
-            "backround_twibbon": "Twibbon Background",
-            "a_fresh_variation": "A fresh variation of Twibbon that poses as the background of your picture"
+            "a_fresh_variation": "A fresh variation of Twibbon that poses as the background of your picture",
+            "frame_twibbon": "Twibbon Frame",
+            "backround_twibbon": "Twibbon Background"
         },
         "tilt": {
             "get_it_ready": "Get it ready anytime with our built in Twibbon Editor",
@@ -604,8 +673,26 @@
             "your_supporters": "your supporters",
             "inspire_detail": "Twibbonize links attracts the curious, drawing them to your cause and sparking interest in your campaign",
             "unite_detail": "Bring all your campaign’s supporters community on your Twibbonize page; where supporters connect and you see the impact!",
-            "entertain_detail": "Twibbonize engages your supporters by providing a shareable virtual Twibbon for social media and messaging.",
-            "grow_detail": "Gain more support with a Twibbonize campaign: it not only garners attention but also creates a bandwagon effect, attracting a growing audience who don't want to miss out on your cause."
+            "entertain_detail": "Twibbonize engages your supporters by providing a shareable virtual Twibbon for social media and messaging",
+            "grow_detail": "Gain support with a Twibbonize campaign: it grabs attention and creates a bandwagon effect, attracting more people to your cause.",
+            "inspire": "Inspire",
+            "unite": "Unite",
+            "entertain": "Entertain",
+            "grow": "Grow"
+        },
+        "use_cases": {
+            "heading": "Ideas to use Twibbonize for",
+            "subheading": "",
+            "corporate": "",
+            "corporate_title": "Utilize the power of the abundance of your personnel and customers",
+            "education": "Education",
+            "education_title": "It's a fun way to add to the learning process",
+            "event": "Events",
+            "events_title": "Hype up your event with the power of instant virality"
+        },
+        "testimonials": {
+            "testimonials": "Testimonials",
+            "heading": "Trusted by names you trusted"
         }
     },
     "page_explore": {
@@ -624,7 +711,7 @@
     "page_leaderboard": {
         "general": {
             "top_creators": "Top Creators Leaderboard",
-            "discover": "Find out who's leading in support! See the top creators of the week, month, and all-time."
+            "discover": "Find out who's leading in support! See the top creators of the week, month, and all-time"
         }
     },
     "page_personels": {
@@ -643,6 +730,10 @@
         "advisor": {
             "our_advisor": "Our Advisor",
             "proud_partner": "We're proud to partner with people who are deeply aligned with our mission"
+        },
+        "honorary": {
+            "honorary_mentions": "",
+            "significant_contributions": ""
         }
     },
     "page_pricing": {
@@ -666,7 +757,7 @@
             "multiple_frames_2": "per campaign",
             "unleash_creativity": "Unleash creativity in versatility",
             "top_notch": "Upgrade your campaign game",
-            "considering_all": "Considering all the conveniences, it’s worth it.",
+            "considering_all": "Considering all the conveniences, it’s worth it",
             "remove_watermark_1": "Remove",
             "remove_watermark_2": "Watermark",
             "for_audience_1": "for",
@@ -683,7 +774,7 @@
             "enjoy_uninterrupted": "Enjoy uninterrupted experience with no ads on Twibbonize. Get ready to embrace a cleaner, more user-friendly version of Twibbonize.",
             "remove_watermark": "Remove watermark for your own account",
             "top_notch": "Upgrade your campaign game",
-            "considering_all": "Considering all the conveniences, it’s worth it.",
+            "considering_all": "Considering all the conveniences, it’s worth it",
             "use_twibbonize_without_ads": "Use Twibbonize without Ads",
             "as_a_free_user": "As a free user, your Twibbon always features <strong>a watermark.<\/strong>",
             "premium_supporter": "<strong>Premium Supporter<\/strong> removes the watermark for a cleaner image.",
@@ -771,6 +862,19 @@
             "answer_8": "You can easily download the invoice directly from your Twibbonize account.",
             "question_9": "Where can I find help related to Twibbonize usage?",
             "answer_9": ""
+        },
+        "hero": {
+            "pricing": "PRICING",
+            "find_the_right_premium_plan": "Find the right Premium plan for your need"
+        },
+        "card_premium_supporter": {
+            "subheading": "For people who want more out of Twibbonize"
+        },
+        "card_premium_creator": {
+            "subheading": "For people who need the ultimate Twibbonize experience"
+        },
+        "same_plan": {
+            "adjust_plan": ""
         }
     },
     "page_profile": {
@@ -784,11 +888,11 @@
         },
         "posts": {
             "no_posts": "No Posts Yet",
-            "no_post_details": "Find a campaign, and post your twibbon to Twibbonize."
+            "no_post_details": "Find a campaign, and post your twibbon to Twibbonize"
         },
         "collections": {
             "no_collections": "Organise your favourite campaigns",
-            "no_collections_details": "On the campaign page, just click the {icon} icon button to save campaigns you find interesting into your own collections."
+            "no_collections_details": ""
         },
         "about": {
             "about": "About",
@@ -798,6 +902,34 @@
             "joined": "Joined Since {created}",
             "supporters": "Supporters",
             "campaigns": "Campaigns"
+        },
+        "my_profile": {
+            "edit_profile": "",
+            "campaigns": "Campaigns",
+            "collections": "Collections",
+            "posts": ""
+        },
+        "campaign_deletion": {
+            "are_you_sure": "Are you sure?"
+        },
+        "campaign": {
+            "delete_campaign": "Deleting \"{campaign_name}\" will be permanent and cannot be undone.",
+            "confirm_delete_campaign": "Delete Campaign"
+        },
+        "collection": {
+            "delete_collection": "The \"{collection_name}\" collection will be permanently deleted.",
+            "confirm_delete_collection": "",
+            "delete_campaign": "",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "",
+            "abusive_harmful": "",
+            "pretending_someone": "",
+            "sensitive_content": ""
+        },
+        "account": {
+            "email_changed": ""
         }
     },
     "page_preference": {
@@ -977,7 +1109,7 @@
         "header": {
             "testimonials": "Testimonials",
             "trusted": "Trusted by names you trusted",
-            "read_stories": "Read stories from companies and organisations who successfully utilised our platform for their campaign programs."
+            "read_stories": "Read stories from companies and organisations who successfully utilised our platform for their campaign programs"
         },
         "bento": {
             "read_success_story": "Read Their Success Story"
@@ -1022,7 +1154,7 @@
             "paragraph_3": ""
         },
         "aiesec": {
-            "title": "",
+            "title": "Embracing The Convenience Of Twibbonize, Just Like AIESEC",
             "paragraph_1": "",
             "paragraph_2": "",
             "paragraph_3": ""
@@ -1231,7 +1363,6 @@
         },
         "graph": {
             "page": "Page {currentPage} of {totalPage}",
-            "data_displayed": "Data displayed in UTC time zone (UTC+0)",
             "trend": "Trend",
             "country": "Country",
             "city": "City",
@@ -1244,7 +1375,8 @@
             "visit": "Visit",
             "visit_detail": "The number of single browsing session who have visited your campaign page",
             "unique_visit": "Unique Visit",
-            "unique_visit_detail": "The number of people who have visited your campaign page"
+            "unique_visit_detail": "The number of people who have visited your campaign page",
+            "data_displayed": ""
         }
     },
     "page_account": {
@@ -1252,8 +1384,6 @@
             "email": "Email",
             "password": "Password",
             "confirm_password": "Confirm Password",
-            "login_with_google": "Sign In with Google",
-            "login_with_facebook": "Sign In with Facebook",
             "login_with_email": "or login with email",
             "signup_with_google": "Sign Up with Google",
             "signup_with_facebook": "Sign Up with Facebook",
@@ -1266,7 +1396,9 @@
             "signup": "Sign up",
             "terms": "Terms",
             "privacy": "Privacy Policy",
-            "name": ""
+            "name": "Name",
+            "login_with_facebook": "",
+            "login_with_google": ""
         }
     },
     "page_article": {
@@ -1292,7 +1424,9 @@
             }
         },
         "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered_lead": "",
+        "sign_in_to_create_campaign": "Log in to Publish your Campaign",
+        "sign_up_to_create_campaign": "Sign up to Publish your Campaign"
     },
     "post": {
         "confirm": {
@@ -1328,12 +1462,9 @@
         "impersonation": "",
         "piracy": "",
         "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
         "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
         "harassment_cyberbullying": "",
         "provocative_threatening_content": "",
-        "spam": "",
         "privacy_violations": "",
         "unauthorized_use_of_personal_information": "",
         "child_exploitation": "",
@@ -1360,12 +1491,314 @@
         "why_report_collection": "",
         "select_one": "",
         "protect_privacy_reporter": "",
-        "read_more": "",
         "tell_us_more": "",
         "received_report": "",
         "thankyou": "",
         "learn_more_about": "",
         "community_guideline": "",
-        "placeholder_write_here": ""
+        "placeholder_write_here": "",
+        "report_sent": ""
+    },
+    "page_editor": {
+        "general": {
+            "template": "Template",
+            "text": "Text",
+            "shape": "Shape",
+            "image": "Image",
+            "graphic": "Graphic",
+            "upload": "Upload",
+            "layer": "Layer",
+            "resize": "Resize",
+            "save": "Save",
+            "width": "Width",
+            "height": "Height",
+            "transparency": "Transparency",
+            "line_weight": "Line Weight",
+            "align": "Align",
+            "group": "Group",
+            "ungroup": "Ungroup",
+            "unlock": "Unlock",
+            "loading": "Loading"
+        },
+        "text": {
+            "add_a_heading": "Add a heading",
+            "add_a_subheading": "Add a subheading",
+            "document_fonts": "Document fonts",
+            "text_effect": "Text Effects",
+            "effects": "Effects",
+            "add_a_body_text": "Add a little bit body text"
+        },
+        "shape": {
+            "arrow": "Arrow",
+            "shape": "Shape"
+        },
+        "upload": {
+            "upload_image": "Upload Image",
+            "upload": "Upload",
+            "type": "",
+            "size": "",
+            "type_image": "",
+            "maximum_size": ""
+        },
+        "toolbar": {
+            "copy": "Copy",
+            "paste": "Paste",
+            "duplicate": "Duplicate",
+            "delete": "Delete",
+            "layer": "Layer",
+            "bring_forward": "Bring Forward",
+            "bring_to_front": "Bring to Front",
+            "send_backward": "Send Backward",
+            "send_to_back": "Send to Back",
+            "show_layers": "Show Layers",
+            "left": "Left",
+            "center": "Centre",
+            "right": "Right",
+            "top": "Top",
+            "middle": "Middle",
+            "bottom": "Bottom",
+            "set_as_text_template": "Set as Text Template",
+            "set_as_background_image": "Set as Background Image",
+            "lock": "Lock",
+            "letter_spacing": "Letter Spacing",
+            "line_spacing": "Line Spacing",
+            "border_weight": "",
+            "align": "Align",
+            "effects": "Effects"
+        },
+        "confirmation": {
+            "cancel": "Cancel",
+            "save": "Save",
+            "has_your_frame_been_completed": "Has your frame been completed?",
+            "once_it_save": "Once it is saved, editing is no longer available"
+        },
+        "image": {
+            "image_template": "Photo by {name} ",
+            "image_template_1": "on",
+            "edit_image": "Edit Image",
+            "image_template_2": "Unsplash"
+        },
+        "error": {
+            "minimum_dimension": "Dimensions must be at least 100px and no more than 8000px."
+        },
+        "text_effect": {
+            "style": "Style",
+            "none": "None",
+            "shadow": "Shadow",
+            "text_effects": "Effects",
+            "lift": "Lift",
+            "offset": "Offset",
+            "direction": "Direction",
+            "blur": "Blur",
+            "transparency": "Transparency",
+            "color": "Colour",
+            "thickness": "Thickness"
+        },
+        "colors": {
+            "colors": "Colours",
+            "document_colors": "Document Colours",
+            "default_colors": "Default Colours"
+        }
+    },
+    "page__campaign_creation": {
+        "campaign_preview": {
+            "campaign_description": "Campaign Description",
+            "campaign_title": "Campaign Title"
+        }
+    },
+    "page_my_campaign": {
+        "edit_campaign": {
+            "campaigns": "Campaigns",
+            "frames": "",
+            "analytics": ""
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "",
+            "plagiarism ": "Plagiarism",
+            "impersonation ": "",
+            "piracy ": "",
+            "vulgar_language": "",
+            "nudity_pornography": "",
+            "suicidal_self_harm": "",
+            "danger": "",
+            "violent_graphic_content": "",
+            "harassment_cyberbullying": "",
+            "provocative_threatening_content": "",
+            "spam": "Spam"
+        },
+        "report_comment": {
+            "title": "",
+            "abusive_harmful": "",
+            "harassment": "",
+            "terrorism": "",
+            "violence": "",
+            "false_information": "",
+            "health": "",
+            "politics": "",
+            "social_issue": "",
+            "sensitive_content": "",
+            "nudity": "",
+            "vulgar_language": "",
+            "hate_speech": "",
+            "disability_disease": "",
+            "race_or_ethnicity": "",
+            "religious_affiliation": "",
+            "sexual_orientation": "",
+            "spam": "Spam"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": ""
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "",
+        "failed_apple_login": ""
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "",
+            "cannot_create_twibbon": ""
+        },
+        "log_in": {
+            "complete_verification": "",
+            "email_no_password": "",
+            "social_media_already_registered": ""
+        },
+        "sign_up": {
+            "email_already_registered": "",
+            "password_minimum_required": "",
+            "password_character_exceeded": "",
+            "password_must_be_standard": "",
+            "password_does_not_match": ""
+        },
+        "verification": {
+            "code_incorrect": "",
+            "code_expired": "",
+            "maximum_attempt_reached": "",
+            "code_requested_exceeded": ""
+        },
+        "forgot_password": {
+            "email_not_found": "",
+            "link_expired": "",
+            "link_used": ""
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "",
+            "background_file_exceed": "",
+            "image_not_transparent": "",
+            "invalid_format": "",
+            "allow_only_1_frame": "",
+            "allow_only_1_background": "",
+            "campaign_title_exceed_limit": "",
+            "description_exceed_limit": "",
+            "link_unavailable": "",
+            "link_criteria": "",
+            "caption_exceed_limit": "",
+            "background_exceed_limit": "",
+            "photo_exceed_limit": "",
+            "link_exceed_limit": ""
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "",
+            "background_file_exceed": ""
+        },
+        "campaign_edit": {
+            "image_not_transparent": "",
+            "invalid_format": "",
+            "allow_only_1_frame": "",
+            "allow_only_1_background": "",
+            "campaign_title_exceed_limit": "",
+            "description_exceed_limit": "",
+            "link_unavailable": "",
+            "link_criteria": "",
+            "link_exceed_limit": "",
+            "caption_exceed_limit": "",
+            "background_exceed_limit": "",
+            "thumbnail_exceeds": ""
+        },
+        "settings": {
+            "profile_image_exceed": "",
+            "background_image_exceed": "",
+            "username_unavailable": "",
+            "username_exceed_limit": "",
+            "username_invalid": "",
+            "display_exceed_limit": "",
+            "bio_exceed_limit": "",
+            "email_already_registered": "",
+            "password_incorrect": "",
+            "password_minimum_character": "",
+            "password_maximum_character": "",
+            "password_standard_format": "",
+            "account_deleted": "",
+            "account_integrated": "",
+            "account_revoked": ""
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": ""
+        },
+        "general": {
+            "something_went_wrong": ""
+        },
+        "collection": {
+            "campaigns_added_exceeds": "",
+            "description_exceeds": "",
+            "title_exceeds": ""
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "",
+            "social_media_already_linked": ""
+        },
+        "campaign_creation": {
+            "link_available": ""
+        },
+        "campaign_edit": {
+            "link_available": ""
+        },
+        "settings": {
+            "photo_updated": "",
+            "banner_updated": "",
+            "banner_deleted": "",
+            "photo_deleted": "",
+            "password_updated": "",
+            "email_updated": ""
+        },
+        "my_profile": {
+            "campaign_deleted": ""
+        },
+        "collection": {
+            "campaign_added": ""
+        },
+        "campaign_page": {
+            "account_upgraded": "",
+            "link_copied": ""
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": ""
+        },
+        "password": {
+            "password_incorrect": ""
+        },
+        "maximum_attempt": ""
+    },
+    "page_notification": {
+        "no_notification_heading": "",
+        "no_notification_subheading": ""
+    },
+    "page_general": {
+        "no_internet_connection": "",
+        "could_not_connect_internet": ""
+    },
+    "page_settings": {
+        "account": {
+            "log_out": ""
+        }
     }
 }

@@ -35,7 +35,7 @@
             "terms": "Vilkår og betingelser",
             "privacy_policy": "Politik for beskyttelse af personlige oplysninger",
             "cookie_policy": "Cookie-politik",
-            "sitemap": ""
+            "sitemap": "Site Map"
         },
         "menu": {
             "explore": "Gå på opdagelse",
@@ -47,11 +47,6 @@
             "sign_in": "Log ind",
             "sign_up": "Tilmeld dig",
             "sign_out": "Meld dig ud"
-        },
-        "campaign": {
-            "supporters": "støtter|støtter",
-            "campaigns": "Kampagner",
-            "created": "Oprettet"
         },
         "button": {
             "view_all": "Se alle",
@@ -71,11 +66,12 @@
             "report": "Rapportere",
             "edit": "Rediger",
             "confirm": "Bekræft",
-            "okay": "",
-            "view": "",
-            "send": "",
-            "more": "",
-            "less": ""
+            "okay": "okay",
+            "view": "Udsigt",
+            "send": "Sende",
+            "more": "Mere",
+            "less": "Mindre",
+            "submit": "Indsend"
         },
         "time": {
             "week": "Uge",
@@ -86,9 +82,14 @@
             "annual": "Årligt",
             "yearly": "Årligt"
         },
+        "campaign": {
+            "campaigns": "Kampagner",
+            "created": "Oprettet",
+            "supporters": "tilhænger|tilhænger|tilhængere"
+        },
         "collection": {
             "collections": "Samlinger",
-            "campaigns": "{campaign} Kampagner"
+            "campaigns": "{campaign}-kampagner"
         },
         "creator": {
             "creators": "Skabere"
@@ -108,8 +109,21 @@
             "hide_post": "Skjul indlæg",
             "post_shared": "Indlæg delt på {date}",
             "share_message": "Del dit budskab",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "Frigør post",
+            "unhide_post": "Vis indlæg"
+        },
+        "pricing": {
+            "creator_subscribe_to": "Denne skaber abonnerer på",
+            "plan": "plan",
+            "support_without_watermark": "De kan støtte enhver kampagne uden vandmærket!",
+            "all_supporters_without_watermark": "Du kan støtte hele denne skabers kampagne uden vandmærket!"
+        },
+        "campaign_card": {
+            "a_month_ago": " |For en måned siden",
+            "a_day_ago": " |For en dag siden"
+        },
+        "search": {
+            "searching": "Søger..."
         }
     },
     "page_home": {
@@ -218,9 +232,9 @@
         },
         "history": {
             "the_history": "Historien om Twibbon",
-            "in_this": "I denne digitale æra er de sociale medier blevet en platform, hvor man kan udtrykke støtte, bekymringer og andre følelser.",
-            "however": "Men nogle gange kæmper vi med at finde de rigtige ord og handlinger til at formidle vores tanker effektivt.",
-            "visual_factor": "Den visuelle faktor har stor magt i denne sammenhæng. Twibbon er en enkel løsning til at blive en forlængelse af de ideer, du ønsker at formidle."
+            "in_this": "I denne digitale æra er de sociale medier blevet en platform, hvor man kan udtrykke støtte, bekymringer og andre følelser",
+            "however": "Men nogle gange kæmper vi med at finde de rigtige ord og handlinger til at formidle vores tanker effektivt",
+            "visual_factor": "Den visuelle faktor har stor magt i denne sammenhæng. Twibbon er en enkel løsning til at blive en forlængelse af de ideer, du ønsker at formidle"
         }
     },
     "page_contact": {
@@ -246,7 +260,7 @@
     "page_twibbon": {
         "header": {
             "what_is": "Hvad er et Twibbon?",
-            "twibbon_result": "Twibbon er resultatet af at lægge en rammeskabelon ind i et foto, som typisk bruges i profilbilleder eller opslag på sociale medier for at udtrykke støtte til en sag, kampagne eller begivenhed."
+            "twibbon_result": "Twibbon er resultatet af at lægge en rammeskabelon ind i et foto, som typisk bruges i profilbilleder eller opslag på sociale medier for at udtrykke støtte til en sag, kampagne eller begivenhed"
         },
         "generate": {
             "your_photo": "Dit billede",
@@ -256,12 +270,12 @@
         "process": {
             "how_twibbonize_1": "Hvordan Twibbonize revolutionerer",
             "how_twibbonize_2": "Twibbon-kampagne",
-            "sharing_twibbon_1": "At dele Twibbon plejede at være en kompleks proces, vi er endda for",
-            "sharing_twibbon_2": "træt af at forklare det for dig."
+            "sharing_twibbon_1": "At dele Twibbon plejede at være en kompleks proces, vi er endda",
+            "sharing_twibbon_2": "for trætte til at forklare det for dig."
         },
         "frame": {
             "twibbon_frame": "I Twibbonize er Twibbon mere end rammer",
-            "we_define": "Vi definerer Twibbon som en stærk visuel skabelon, der bliver en forlængelse af din sag, hvad enten det er i form af en ramme eller en baggrund."
+            "we_define": "Vi definerer Twibbon som en stærk visuel skabelon, der bliver en forlængelse af din sag, hvad enten det er i form af en ramme eller en baggrund"
         },
         "steps": {
             "starting_twibbon_1": "Start en Twibbon-kampagne",
@@ -276,7 +290,7 @@
         },
         "cta": {
             "make_it": "Gør det til alt",
-            "no_matter": "Uanset hvad du vil gøre, fra bevægelser, der tager fat på store, alvorlige sager - til noget, der bare er for sjov. Vi kan hjælpe dig med at gøre det til noget stort.",
+            "no_matter": "Uanset hvad du vil gøre, fra bevægelser, der tager fat på store, alvorlige sager - til noget, der bare er for sjov. Vi kan hjælpe dig med at gøre det til noget stort",
             "start_campaign": "Start en kampagne"
         }
     },
@@ -302,17 +316,18 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "Ingen indlæg endnu",
-            "be_the_first": "Vær den første til at poste din støtte her. Start med at uploade dit foto!"
+            "uploading_your_photo": "Upload af dit foto!",
+            "start_with": "Begynd med ",
+            "be_the_first": "Vær den første til at skrive din støtte her."
         },
         "twibbon": {
             "choose_your_photo": "Vælg dit foto",
             "text": "Tekst",
-            "download_successful": "Download succesfuld",
+            "download_successful": "Download succesfuld!",
             "photo_not_download": "Billedet bliver ikke downloadet?",
             "re_download": "Download igen",
             "post_to_twibbonize": "Skriv til Twibbonize",
             "post_photo_to_twibbonize": "Send dette foto til Twibbonize",
-            "remove_watermark_for_you": "Fjern vandmærke for dig",
             "upgrade_to_premium": "Opgrader til Premium. Fra og med {price}",
             "processing": "Forarbejdning",
             "buy_premium": "Køb Premium",
@@ -327,17 +342,22 @@
             "download": "Download",
             "reset": "Nulstil",
             "add_text": "Tilføj tekst",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": ""
+            "posting_as": "Sender som ",
+            "not_you": "Ikke dig? ",
+            "uploading_photo_to_remove": "Uploader dit billede og fjerner dets baggrund.",
+            "wait_for_moment": "Vent et øjeblik...",
+            "remove_watermark_for_you_2": "og nyd dine billeder uden vandmærke!",
+            "remove_watermark_for_you_1": "Udforsk Twibbonize uden annoncer,",
+            "remove_watermark_for_you": "Fjern vandmærket!",
+            "blur": "Sløring",
+            "shadow": "Skygge",
+            "twibbon_success": "Downloadet"
         },
         "report": {
             "report_campaign": "Rapport om kampagnen",
             "report_profile": "Rapporter profil",
             "plagiarism": "Plagiat",
             "sensitive": "Følsomt indhold",
-            "danger": "Farligt indhold",
             "spam": "Spam",
             "why_report_campaign": "Hvorfor rapporterer du om denne kampagne?",
             "protect_reporter": "Twibbonize Community Guidelines beskytter privatlivets fred for reporterens identitet.",
@@ -346,7 +366,21 @@
             "received_report": "Vi har modtaget din rapport!",
             "thankyou": "Tak skal du have! Giv os mulighed for at undersøge din rapport, og vi vil sende feedback til din e-mail så hurtigt som muligt.",
             "learn_more_about": "Få mere at vide om {link}.",
-            "community_guideline": "Retningslinjer for Twibbonize-fællesskabet"
+            "community_guideline": "Retningslinjer for Twibbonize-fællesskabet",
+            "title": "Hvorfor rapporterer du om denne kampagne?",
+            "danger": "Farlig eller skadelig ",
+            "impersonation": "Efterligning ",
+            "piracy": "Piratkopiering",
+            "vulgar_language": "Vulgært sprog",
+            "nudity_pornography": "Nøgenhed og pornografi",
+            "suicidal_self_harm": "Selvmordsrelateret og selvskadende indhold ",
+            "violent_graphic_content": "Voldeligt grafisk indhold",
+            "harassment_cyberbullying": "Chikane og cybermobning",
+            "proactive_threatening_content": "Provokerende og truende indhold",
+            "statement": "Twibbonize Community Guidelines beskytter privatlivets fred for reporterens identitet.",
+            "read_more_copy": "Læs mere",
+            "please_select_one": "Vælg venligst en",
+            "write_a_message": "Skriv en besked"
         },
         "discard": {
             "discard_edit": "Kassere redigeringer?",
@@ -364,9 +398,10 @@
             "supporters": "Tilhængere",
             "interactions": "Interaktioner",
             "visits": "Besøg",
-            "realtime_estimates": "Estimater i realtid",
             "last_month": "Sidste 30 dage",
-            "see_more_analytics": "Se flere Analyser"
+            "see_more_analytics": "Se flere Analyser",
+            "realtime_estimates": "Realtidsestimater fra de sidste 30 dage",
+            "view_analytics": "Se Analytics"
         },
         "pricing": {
             "no_thankyou": "Nej, tak"
@@ -387,12 +422,37 @@
             "reply_as_user": "Svar som {user}"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "Følg retningslinjerne for de bedste resultater!",
+            "good_photo_examples": "Gode fotoeksempler:",
+            "good_photo_caption": "Nærbillede selfie, portrætfoto, klart ansigt",
+            "photos_avoid": "Billeder, der skal undgås:",
+            "bad_photo_caption": "Helkropsfoto, gruppebillede, foto fra bagsiden",
+            "understand": "Jeg forstår"
+        },
+        "post_to_twibbonize": {
+            "caption": "Skriv en besked om denne kampagne...",
+            "unpin_post": "Fjern fastgørelse af indlæg"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "Juster dit foto"
+        },
+        "share_campaign": {
+            "or_share_to": "eller del til",
+            "save_share": "Gem og del"
+        },
+        "post": {
+            "post_uploaded": "Indlæg uploadet",
+            "post_deleted": "Indlæg slettet",
+            "post_failed_deleted": "Indlæg mislykkedes, slettet"
+        },
+        "create_campaign": {
+            "custom_field": "Tilføj brugerdefineret felt"
+        },
+        "collection": {
+            "sign_up_add_collection": "Tilmeld dig Føj til samling"
+        },
+        "posts": {
+            "has_no_posts": "Denne bruger har ikke postet noget på Twibbonize"
         }
     },
     "page_checkout": {
@@ -401,9 +461,8 @@
             "account_update": "Din konto vil blive opdateret med alle nye funktioner låst op"
         },
         "checkout": {
-            "back_to_plans": "Tilbage til planer",
             "upgrade_to": "Opgrader til {plan}",
-            "gather_your_supports": "Saml dine støtter, og udvid din kampagne med vores eksklusive funktioner.",
+            "gather_your_supports": "Saml dine støtter, og udvid din kampagne med vores eksklusive funktioner",
             "billing_option": "Mulighed for fakturering",
             "details": "Detaljer",
             "user": "Bruger",
@@ -413,18 +472,19 @@
             "save": "Gem {percentage}%.",
             "pay": "Betal {frequency}",
             "checkout_options": "Indstillinger for checkout",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "Juster planen",
+            "current_plan": "Nuværende plan",
+            "downgrade": "Nedgrader",
+            "current_plan_description": "Du abonnerer på dette abonnement nu",
+            "change_plan_description": "Du ændrer din plan til {plan} , som vil være aktiv, når det nuværende abonnement slutter.",
+            "downgrade_description": "Du nedgraderer din plan til {plan} , som vil være aktiv, når det nuværende abonnement slutter.",
+            "change_plan_confirm": "Er du sikker?",
+            "upgrade_confirm": "Er du sikker på, at du vil opgradere?",
+            "downgrade_confirm": "Er du sikker på, at du vil nedgradere planen?",
+            "change_plan_active": "Det vil være aktivt, når dit nuværende abonnement er slut",
+            "upgrade_active": "Den vil være aktiv, når du har gennemført betalingen",
+            "downgrade_active": "Det vil være aktivt, når dit nuværende abonnement er slut",
+            "back_to_plans": "Tilbage"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -433,14 +493,14 @@
             "use_twibbonize_without_ads": "Brug Twibbonize uden reklamer",
             "exclusive_features": "Eksklusive funktioner til din kampagne",
             "remove_own_account": "Fjern vandmærke for din egen konto",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "Sølv",
+            "gold": "Guld",
+            "platinum": "Platin",
+            "watermark_title": "Fjern vandmærke",
+            "high_quality_image_title": "Billede af høj kvalitet",
+            "ad_free_title": "Annoncefri",
+            "campaign_addon": "Kampagnetilføjelse",
+            "on": "på"
         }
     },
     "page_collection": {
@@ -474,14 +534,15 @@
             "no_stay": "Nej, bliv på denne side"
         },
         "dropzone": {
-            "upload_design": "Upload dit eget design her",
             "type": "Type:",
-            "imagetype": "Billede\/PNG",
             "size": "Størrelse:",
-            "max_file": "Maks. 5 MB",
             "recommendation": "Anbefaling:",
             "image_dimension": "1080x1080px",
-            "upload": "Upload"
+            "upload": "Upload",
+            "imagetype": "PNG",
+            "max_file": "Maksimalt 5 MB",
+            "backgroundtype": "JPEG, PNG eller WEBP",
+            "upload_design": "Upload dit design her"
         },
         "frame_editor": {
             "or_create": "eller opret din ramme nu",
@@ -498,7 +559,9 @@
             "no_transparent": "Der er ikke fundet noget gennemsigtigt område på dit billede",
             "no_hole_frame": "Det betyder, at der ikke er noget hul på din ramme. For at lave det nødvendige hul kan du følge denne fremgangsmåde {link}",
             "help_center_article": "Artikel i hjælpecenteret",
-            "understand": "Jeg forstår"
+            "understand": "Jeg forstår",
+            "width": "Bredde",
+            "height": "Højde"
         },
         "form": {
             "please_fill_in": "udfyld venligst alle de nødvendige kampagnedata nedenfor",
@@ -507,7 +570,7 @@
             "campaign_title": "Kampagnens titel",
             "campaign_title_placeholder": "Kan bestå af tal, alfabeter eller specialtegn.",
             "campaign_description": "Beskrivelse",
-            "campaign_description_placeholder": "Del detaljer om din kampagne for at få opmærksomhed og støtte.",
+            "campaign_description_placeholder": "Del detaljer om din kampagne for at få opmærksomhed og støtte",
             "campaign_link": "Link til kampagne",
             "campaign_link_placeholder": "Kampagne-link",
             "campaign_category": "Kampagne-kategori",
@@ -525,7 +588,8 @@
             "private_detail": "Din kampagne kan kun tilgås af folk, der har adgangskoden",
             "url_not_available": "URL ikke tilgængelig",
             "caption_placeholder": "Hej, mit navn er [[Dit navn]]. og jeg er helt med på at støtte denne kampagne. Lad os samles og gøre en reel forskel med denne kampagne sammen!",
-            "enter_description": "Indtast beskrivelse"
+            "enter_description": "Indtast beskrivelse",
+            "optional": "Valgfri"
         },
         "customization": {
             "campaign_customization": "Tilpasning af kampagner",
@@ -548,20 +612,25 @@
             "go_back": "Gå tilbage"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "Rammer",
+            "campaigns": "Kampagner",
+            "analytics": "Analytics"
+        },
+        "blank_design": {
+            "suggested": "Foreslået",
+            "instagram_story": "Instagram-historie",
+            "instagram_post": "Instagram-indlæg"
         }
     },
     "page_for_creators": {
         "pricing": {
             "top_notch": "Opgrader dit kampagnespil",
-            "condidering_all": "I betragtning af alle bekvemmelighederne er det det værd.",
+            "condidering_all": "I betragtning af alle bekvemmelighederne er det det værd",
             "purchase_now": "Køb nu",
             "learn_more": "Få mere at vide",
             "want_to_create": "Vil du oprette din kampagne gratis?",
-            "try_now": "Prøv nu!",
-            "per": "per {time}"
+            "per": "per {time}",
+            "try_now": "Prøv nu!"
         },
         "features": {
             "remove_watermark": "Fjern vandmærke for alle dine kampagnebrugere",
@@ -570,7 +639,7 @@
             "no_ads": "Brug Twibbonize uden reklamer"
         },
         "bento": {
-            "all_in_one": "Spred din bevægelse, og bliv en katalysator for forandring.",
+            "all_in_one": "Spred din bevægelse, og bliv en katalysator for forandring",
             "tools_to_tailor": "Værktøjer til at skræddersy og udvide din kampagne, efterhånden som din støtte vokser.",
             "one_of_a_kind": "En unik Twibbon-generator",
             "bring_all_campaign": "Saml alle dine kampagnestøtter på din Twibbonize-side, hvor støtterne kommer i kontakt med hinanden, og du kan se effekten!",
@@ -591,10 +660,10 @@
         "frame": {
             "more_than_frames": "Mere end bare rammer",
             "spice_up": "Pift din onlinekampagne op, ikke kun med en ramme, men også med kreative baggrunde",
-            "frame_twibbon": "Twibbon-ramme",
             "the_og_twibbon": "Original Twibbon; en ramme, der placeres på dit billede",
-            "backround_twibbon": "Twibbon-baggrund",
-            "a_fresh_variation": "En ny variant af Twibbon, der poserer som baggrund for dit billede"
+            "a_fresh_variation": "En ny variant af Twibbon, der poserer som baggrund for dit billede",
+            "frame_twibbon": "Ramme Twibbon",
+            "backround_twibbon": "Twibbon med baggrund "
         },
         "tilt": {
             "get_it_ready": "Gør det klar når som helst med vores indbyggede Twibbon Editor",
@@ -604,8 +673,26 @@
             "your_supporters": "dine støtter",
             "inspire_detail": "Twibbonize-links tiltrækker de nysgerrige, gør dem opmærksomme på din sag og vækker interesse for din kampagne",
             "unite_detail": "Saml alle dine kampagnestøtter på din Twibbonize-side, hvor støtterne kommer i kontakt med hinanden, og du kan se effekten!",
-            "entertain_detail": "Twibbonize engagerer dine støtter ved at levere en virtuel Twibbon, der kan deles, til sociale medier og beskeder.",
-            "grow_detail": "Få mere støtte med en Twibbonize-kampagne: Den skaber ikke kun opmærksomhed, men også en bandwagon-effekt, der tiltrækker et voksende publikum, som ikke vil gå glip af din sag."
+            "entertain_detail": "Twibbonize engagerer dine støtter ved at levere en virtuel Twibbon, der kan deles, til sociale medier og beskeder",
+            "grow_detail": "Få mere støtte med en Twibbonize-kampagne: Den skaber ikke kun opmærksomhed, men også en bandwagon-effekt, der tiltrækker et voksende publikum, som ikke vil gå glip af din sag.",
+            "inspire": "Inspirer ",
+            "unite": "Foren dig",
+            "entertain": "Underholde",
+            "grow": "Vækst"
+        },
+        "use_cases": {
+            "heading": "Ideer til at bruge Twibbonize til",
+            "subheading": "Start din udforskning med håndplukkede eksempler fra vores mere end 5.000.000 Twibbonize-kampagner",
+            "corporate": "Virksomhed",
+            "corporate_title": "Udnyt kraften i overfloden af dine medarbejdere og kunder",
+            "education": "Uddannelse",
+            "education_title": "Det er en sjov måde at bidrage til læringsprocessen på",
+            "event": "Begivenheder",
+            "events_title": "Hype din begivenhed med kraften fra øjeblikkelig viralitet"
+        },
+        "testimonials": {
+            "testimonials": "Udtalelser",
+            "heading": "Betroet af navne, du har tillid til"
         }
     },
     "page_explore": {
@@ -624,7 +711,7 @@
     "page_leaderboard": {
         "general": {
             "top_creators": "Rangliste over de bedste skabere",
-            "discover": "Find ud af, hvem der fører i support! Se ugens, månedens og alle tiders bedste skabere."
+            "discover": "Find ud af, hvem der fører i support! Se ugens, månedens og alle tiders bedste skabere"
         }
     },
     "page_personels": {
@@ -643,6 +730,10 @@
         "advisor": {
             "our_advisor": "Vores rådgiver",
             "proud_partner": "Vi er stolte af at samarbejde med mennesker, der er dybt engagerede i vores mission"
+        },
+        "honorary": {
+            "honorary_mentions": "Æresomtaler",
+            "significant_contributions": "Dem, der ydede væsentlige bidrag til vores udvikling"
         }
     },
     "page_pricing": {
@@ -659,18 +750,18 @@
             "private_campaign_1": "Privat",
             "private_campaign_2": "Kampagne",
             "offer_exclusively": "Tilbyd eksklusivitet til dine støtter",
-            "campaign_customization_1": "Kampagne",
-            "campaign_customization_2": "Tilpasning",
+            "campaign_customization_1": "",
+            "campaign_customization_2": "Kampagne-tilpasning",
             "personalize_campaign": "Gør din kampagneside personlig",
             "multiple_frames_1": "Flere Twibbon",
             "multiple_frames_2": "pr. kampagne",
             "unleash_creativity": "Slip kreativiteten løs i alsidighed",
             "top_notch": "Opgrader dit kampagnespil",
-            "considering_all": "I betragtning af alle bekvemmelighederne er det det værd.",
-            "remove_watermark_1": "Fjerne",
-            "remove_watermark_2": "Vandmærke",
+            "considering_all": "I betragtning af alle bekvemmelighederne er det det værd",
+            "remove_watermark_1": "Fjern",
+            "remove_watermark_2": "vandmærke",
             "for_audience_1": "for",
-            "for_audience_2": "dig & dit publikum",
+            "for_audience_2": "dig og dit publikum",
             "as_a_free_user": "Som gratis bruger har din Twibbon altid <strong>et vandmærke.<\/strong>",
             "premium_supporter": "<strong>Premium Creator<\/strong> fjerner vandmærket og giver et renere billede.",
             "now_you_can": "Nu kan du <strong>støtte enhver kampagne<\/strong> uden vandmærke."
@@ -683,13 +774,13 @@
             "enjoy_uninterrupted": "Nyd en uafbrudt oplevelse uden reklamer på Twibbonize. Gør dig klar til at omfavne en renere og mere brugervenlig version af Twibbonize.",
             "remove_watermark": "Fjern vandmærke for din egen konto",
             "top_notch": "Opgrader dit kampagnespil",
-            "considering_all": "I betragtning af alle bekvemmelighederne er det det værd.",
+            "considering_all": "I betragtning af alle bekvemmelighederne er det det værd",
             "use_twibbonize_without_ads": "Brug Twibbonize uden reklamer",
             "as_a_free_user": "Som gratis bruger har din Twibbon altid <strong>et vandmærke.<\/strong>",
             "premium_supporter": "<strong>Premium Supporter<\/strong> fjerner vandmærket og giver et renere billede.",
             "now_you_can": "Nu kan du <strong>støtte enhver kampagne<\/strong> uden vandmærke.",
             "remove_watermark_1": "Fjerne",
-            "remove_watermark_2": "Vandmærke",
+            "remove_watermark_2": "vandmærke",
             "for_audience_1": "for",
             "for_audience_2": "din egen konto",
             "looking_to_remove": "Ønsker du at fjerne vandmærke for alle dine kampagnebrugere? Så prøv"
@@ -725,23 +816,23 @@
             "notes": "Noter",
             "print": "Download faktura",
             "if_you_would_like_to_change": "Hvis du gerne vil ændre dit abonnement eller dine betalingsoplysninger, skal du gå til dine faktureringsindstillinger",
-            "ending_in": ""
+            "ending_in": "{card} der slutter på {number}"
         },
         "bento": {
             "campaign_analytics_1": "Kampagne",
             "campaign_analytics_2": "Analyse",
             "private_campaign_1": "Privat",
             "private_campaign_2": "Kampagne",
-            "campaign_customization_1": "Kampagne",
-            "campaign_customization_2": "Tilpasning",
+            "campaign_customization_1": "",
+            "campaign_customization_2": "Campagne-aanpassing",
             "multiple_frames_1": "Flere rammer",
             "multiple_frames_2": "pr. kampagne",
             "use_twibbonize_without_ads_1": "Brug Twibbonize",
-            "use_twibbonize_without_ads_2": "uden annoncer",
+            "use_twibbonize_without_ads_2": "uden reklamer",
             "no_extra_features_1": "Ingen ekstra funktioner",
             "no_extra_features_2": "Tilgængelig",
             "remove_all_watermark_1": "Fjern vandmærke",
-            "remove_all_watermark_2": "alle dine kampagnebrugere",
+            "remove_all_watermark_2": "fra alle dine kampagnebrugere",
             "remove_own_watermark_1": "Fjern vandmærke",
             "on": "på",
             "remove_own_watermark_2": "din egen konto",
@@ -771,6 +862,19 @@
             "answer_8": "Du kan nemt downloade fakturaen direkte fra din Twibbonize-konto.",
             "question_9": "Hvor kan jeg finde hjælp til brug af Twibbonize?",
             "answer_9": ""
+        },
+        "hero": {
+            "pricing": "PRISER",
+            "find_the_right_premium_plan": "Find den rigtige Premium-plan til dit behov"
+        },
+        "card_premium_supporter": {
+            "subheading": "Til folk, der vil have mere ud af Twibbonize"
+        },
+        "card_premium_creator": {
+            "subheading": "Til folk, der har brug for den ultimative Twibbonize-oplevelse"
+        },
+        "same_plan": {
+            "adjust_plan": "Juster planen"
         }
     },
     "page_profile": {
@@ -778,17 +882,17 @@
             "search_campaigns": "Søg efter kampagner",
             "no_campaigns": "Ingen kampagner endnu",
             "no_campaigns_details": "Opret en kampagne, og del den på twibbonize.",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "Er du sikker på at du vil slette denne kampagne?",
+            "delete_detail": "Sletning af \" {title} \" vil være permanent og kan ikke fortrydes.",
+            "delete_campaign": "Slet kampagne"
         },
         "posts": {
             "no_posts": "Ingen indlæg endnu",
-            "no_post_details": "Find en kampagne, og send din twibbon til Twibbonize."
+            "no_post_details": "Find en kampagne, og send din twibbon til Twibbonize"
         },
         "collections": {
             "no_collections": "Organiser dine yndlingskampagner",
-            "no_collections_details": "På kampagnesiden skal du blot klikke på {icon} for at gemme de kampagner, du finder interessante, i dine egne samlinger."
+            "no_collections_details": "Klik på ikonet {icon} på en kampagne for at gemme kampagnen i dine samlinger"
         },
         "about": {
             "about": "Omkring",
@@ -798,6 +902,34 @@
             "joined": "Tilmeldt siden {created}",
             "supporters": "Tilhængere",
             "campaigns": "Kampagner"
+        },
+        "my_profile": {
+            "edit_profile": "Rediger profil",
+            "campaigns": "Kampagner",
+            "collections": "Samlinger",
+            "posts": "Indlæg"
+        },
+        "campaign_deletion": {
+            "are_you_sure": "Er du sikker?"
+        },
+        "campaign": {
+            "delete_campaign": "Sletning af \"{campaign_name}\" vil være permanent og kan ikke fortrydes.",
+            "confirm_delete_campaign": "Slet kampagne"
+        },
+        "collection": {
+            "delete_collection": "Samlingen \"{collection_name}\" vil blive slettet permanent.",
+            "confirm_delete_collection": "Slet samling",
+            "delete_campaign": "Kampagnen \"{campaign_name}\" bliver permanent fjernet fra kollektionen \"{collection_name}\".",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "Hvorfor rapporterer du denne profil?",
+            "abusive_harmful": "Voldelig eller skadelig",
+            "pretending_someone": "At foregive at være en anden",
+            "sensitive_content": "Følsomt indhold"
+        },
+        "account": {
+            "email_changed": "Din e-mail er for nylig blevet ændret. Du kan opdatere den igen om 90 dage."
         }
     },
     "page_preference": {
@@ -841,55 +973,55 @@
             "adfree": "Reklamefri",
             "highquality": "Høj kvalitet",
             "nowatermark": "Intet vandmærke",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "Betalt",
+            "are_you_sure_change": "Er du sikker?",
+            "active_after_subscription": "Det vil være aktivt, når dit nuværende abonnement er slut",
+            "are_you_sure_upgrade": "Er du sikker på, at du vil opgradere?",
+            "plan_changing_info": "Skift til {package} modtaget. Ny plan starter efter den nuværende slutter",
+            "active_after_payment": "Det vil være aktivt, når du har gennemført betalingen",
+            "are_you_sure_downgrade": "Er du sikker på, at du vil nedgradere planen?",
+            "plan_downgrade_info": "Nedgradering til {package} modtaget. Ny plan starter efter den nuværende slutter",
+            "renew_plan": "Forny plan",
+            "renew_subscription": "Forny abonnement",
+            "upgrade_now": "Opgrader nu",
+            "warning": "Advarsel!",
+            "important": "Vigtig!",
+            "premium_expired": "Dit Premium Creator-abonnement er udløbet. Forny venligst senest {date}",
+            "last_attempted": "Vores sidste forsøg på anklager var mislykkede. Opdater venligst din betalingsmetode.",
+            "renewal_date": "Fornyelsesdato",
+            "payment_method": "Betalingsmetode",
+            "update_now": "Opdatere nu",
+            "cancel_subscription": "Annuller abonnement",
+            "change_payment_method": "Skift betalingsmetode",
+            "card_end_with": "{card} der slutter på {number}",
+            "no_transactions": "Ingen transaktionshistorik endnu",
+            "transactions_will_shown": "Din transaktionshistorik vil blive vist her, når den bliver tilgængelig",
+            "are_you_sure": "Er du sikker?",
+            "once_cancel_plan": "Når du annullerer abonnementet, mister du adgangen til alle dine opgraderede funktioner i slutningen af din faktureringsperiode",
+            "yes_cancel_plan": "Ja, annuller planen",
+            "no_keep_plan": "Nej, hold planen",
+            "once_renew_plan": "Når du fornyer planen, vil din plan være aktiv igen",
+            "yes_renew_plan": "Ja, forny plan",
+            "no_cancel": "Nej, annuller",
+            "if_cancel_downgrade": "Hvis du annullerer nedgraderingen, vil din nuværende plan være aktiv igen",
+            "yes_downgrade": "Ja, Fortsæt nedgradering",
+            "if_cancel_change_billing": "Hvis du annullerer ændringsfakturering, vil din nuværende plan være aktiv igen",
+            "yes_continue": "Ja, fortsæt",
+            "info": "Info",
+            "your_request_cancel": "Din anmodning om at annullere din {plan} -plan er blevet modtaget. Den slutter ved næste faktureringsperiode",
+            "your_request_downgrade": "Din anmodning om at nedgradere til {plan} er modtaget. Din nye plan vil blive aktiveret, når den nuværende plan slutter.",
+            "cancel_downgrade": "Annuller nedgradering",
+            "cancel_change": "Annuller Skift fakturering",
+            "your_request_billing": "Din anmodning om at ændre din fakturering til {plan} er modtaget. Din nye plan vil blive aktiveret, når den nuværende plan slutter.",
+            "manage_inapp": "Administrer dit abonnement på Twibbonize {appOs} -appen",
+            "manage_inapp_subscription": "For at administrere dit Twibbonize-abonnement på {appOs} skal du åbne appen, gå til 'Indstillinger' og vælge 'Fakturering'.",
+            "success_cancel_subscription": "Succes Annuller abonnement",
+            "success_renew_subscription": "Succes Forny abonnement",
+            "success_change_subscription": "Succes Skift abonnement",
+            "success_cancel_change_subscription": "Succes Annuller Skift abonnement",
+            "last_attempted_authentication": "Vores sidste forsøg på anklager var mislykkede. Din betaling skal godkendes.",
+            "authenticate_now": "Godkend nu",
+            "recurring_payment": "Vi kræver din udtrykkelige bekræftelse for din tilbagevendende betaling. Tjek venligst din email"
         },
         "account": {
             "update_email": "Opdatering af e-mail",
@@ -919,19 +1051,19 @@
             "confirm_password": "Bekræft adgangskode",
             "create_new_password": "Opret ny adgangskode",
             "make_it_easy": "Gør det nemt for dig at huske, og hold det hemmeligt for alle!",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "Tilføj e-mail",
+            "add_password": "Tilføj adgangskode",
+            "cant_remove_account": "Ups, vi kan ikke fjerne din konto på sociale medier.",
+            "set_up_email": "Du skal først konfigurere e-mail eller adgangskode for at fjerne din konto på sociale medier.",
+            "want_to_remove": "Vil du fjerne din konto på sociale medier?",
+            "your_account_will_be_removed": "Din {provider} -konto vil blive fjernet. Klik på forstå for at fjerne dine sociale mediekonti.",
+            "continue_to_revoke": "Fortsæt med at tilbagekalde ",
+            "revoke_success": "Tilbagekald konto {provider}",
+            "cannot_update_email": "Ups, vi kan ikke opdatere din e-mail",
+            "setup_password_to_update_email": "Du skal angive en adgangskode, før du opdaterer din e-mail.",
+            "email_change_request": "Anmodning om e-mailændring annulleret",
+            "we_have_sent_password": "Vi har sendt instruktioner til nulstilling af adgangskode til din e-mail. Nulstil venligst din adgangskode inden for 1 time af sikkerhedsmæssige årsager.",
+            "go_to_homepage": "Gå til Hjemmeside"
         },
         "notifications": {
             "notifications_settings": "Indstillinger for notifikationer",
@@ -949,10 +1081,10 @@
             "article": "Artikler",
             "article_details": "Du vil modtage vores anbefalede artikler.",
             "toggle_all": "Alle",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "Send til Twibbonize",
+            "post_twibbonize_details": "Få meddelelser fra supporterens indlæg på en kampagneside.",
+            "account_recap": "Kontooversigt",
+            "account_recap_details": "Ugentlig opsummering af supportere og besøg for alle dine kampagner"
         },
         "package": {
             "free": "Gratis",
@@ -977,7 +1109,7 @@
         "header": {
             "testimonials": "Udtalelser",
             "trusted": "Betroet af navne, du har tillid til",
-            "read_stories": "Læs historier fra virksomheder og organisationer, der med succes har brugt vores platform til deres kampagneprogrammer."
+            "read_stories": "Læs historier fra virksomheder og organisationer, der med succes har brugt vores platform til deres kampagneprogrammer"
         },
         "bento": {
             "read_success_story": "Læs deres succeshistorie"
@@ -1231,7 +1363,6 @@
         },
         "graph": {
             "page": "Side {currentPage} af {totalPage}",
-            "data_displayed": "Data vises i UTC-tidszone (UTC+0)",
             "trend": "Trend",
             "country": "Land",
             "city": "By",
@@ -1244,7 +1375,8 @@
             "visit": "Besøg",
             "visit_detail": "Antallet af enkelte browsing-sessioner, der har besøgt din kampagneside",
             "unique_visit": "Unikt besøg",
-            "unique_visit_detail": "Antallet af personer, der har besøgt din kampagneside"
+            "unique_visit_detail": "Antallet af personer, der har besøgt din kampagneside",
+            "data_displayed": "Data vist i UTC+0 tidszone"
         }
     },
     "page_account": {
@@ -1252,8 +1384,6 @@
             "email": "E-mail",
             "password": "Adgangskode",
             "confirm_password": "Bekræft adgangskode",
-            "login_with_google": "Log ind med Google",
-            "login_with_facebook": "Log ind med Facebook",
             "login_with_email": "eller log ind med e-mail",
             "signup_with_google": "Tilmeld dig med Google",
             "signup_with_facebook": "Tilmeld dig med Facebook",
@@ -1266,7 +1396,9 @@
             "signup": "Skriv dig op",
             "terms": "Vilkår",
             "privacy": "Politik for beskyttelse af personlige oplysninger",
-            "name": ""
+            "name": "Navn",
+            "login_with_facebook": "Login med Facebook",
+            "login_with_google": "Log ind med Google"
         }
     },
     "page_article": {
@@ -1275,97 +1407,398 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "Log ind på Send til Twibbonize",
+        "sign_in_to_comment": "Log ind for at skrive en kommentar",
+        "sign_in_to_like": "Log ind for at give et like",
+        "sign_up_to_post": "Tilmeld dig for at sende til Twibbonize",
+        "sign_up_to_comment": "Tilmeld dig for at efterlade en kommentar",
+        "sign_up_to_like": "Tilmeld dig for at give et like",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "Log ind lykkedes! Velkommen tilbage.",
+                "error": "Login mislykkedes. Tjek venligst dine legitimationsoplysninger, og prøv igen."
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "Tilmelding lykkedes! Velkommen ombord.",
+                "error": "Tilmelding mislykkedes. Tjek venligst dine oplysninger og prøv igen."
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "E-mail allerede registreret",
+        "email_registered_lead": "Denne email er allerede registreret. Vil du logge ind i stedet for?",
+        "sign_in_to_create_campaign": "",
+        "sign_up_to_create_campaign": ""
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "Bekræft sletning",
+            "delete_lead": "Er du sikker på, at du vil slette dette indlæg? Denne handling kan ikke fortrydes.",
+            "delete_yes": "Ja, Slet",
+            "delete_no": "Afbestille"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "Del din besked",
+            "logged_in_placeholder": "Kommentar som {name}",
+            "comment_posted": "Kommentar indsendt",
+            "comment_deleted": "Kommentar slettet",
+            "reply_deleted": "Svar slettet"
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "Indlæg uploadet",
+            "hidden": "Skjult",
+            "unhidden": "Uskjult",
+            "reported": "Rapporteret",
+            "deleted": "Slettet",
+            "pinned": "Fastgjort",
+            "unpinned": "Frigjort"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "Rapportér kampagne",
+        "report_profile": "Rapportér profil",
+        "abusive_or_harmful": "Misbrug eller skadeligt",
+        "pretending_to_be_someone_else": "Foregiver at være en anden",
+        "sensitive_content": "Følsomt indhold",
+        "plagiarism": "Plagiat",
+        "impersonation": "Efterligning",
+        "piracy": "Piratkopiering",
+        "nudity_pornography": "Nøgenhed og pornografi",
+        "dangerous_or_harmful": "Farlig eller skadelig",
+        "harassment_cyberbullying": "Chikane og cybermobning",
+        "provocative_threatening_content": "Provokerende og truende indhold",
+        "privacy_violations": "Krænkelser af privatlivets fred",
+        "unauthorized_use_of_personal_information": "Uautoriseret brug af personlige oplysninger",
+        "child_exploitation": "Udnyttelse af børn",
+        "harassment": "Chikane",
+        "terrorism": "Terrorisme",
+        "violence": "Vold",
+        "false_information": "Falsk information",
+        "health": "Sundhed",
+        "politics": "Politik",
+        "social_issue": "Socialt spørgsmål",
+        "hate_speech": "Hadefulde ytringer",
+        "disability_or_disease": "Handicap eller sygdom",
+        "race_or_ethnicity": "Race eller etnicitet",
+        "religious_affiliation": "Religiøst tilhørsforhold",
+        "sexual_orientation": "Seksuel orientering",
+        "nudity": "Nøgenhed",
+        "suicide_or_self_harm": "Selvmord eller selvskade",
+        "vulgar_language": "Vulgært sprog",
+        "dangerous_content": "Farligt indhold",
+        "why_report_campaign": "Hvorfor rapporterer du denne kampagne?",
+        "why_report_profile": "Hvorfor rapporterer du denne profil?",
+        "why_report_submission": "Hvorfor rapporterer du denne indsendelse?",
+        "why_report_comment_reply": "Hvorfor rapporterer du denne kommentar?",
+        "why_report_collection": "Hvorfor rapporterer du denne samling?",
+        "select_one": "Vælg venligst én",
+        "protect_privacy_reporter": "Twibbonize-fællesskabsretningslinjer beskytter privatlivets fred for journalistens identitet.",
+        "tell_us_more": "Fortæl os mere",
+        "received_report": "Vi har modtaget din rapport!",
+        "thankyou": "Tak skal du have! Tillad os at undersøge din rapport, så sender vi feedback til din e-mail så hurtigt som muligt.",
+        "learn_more_about": "Få flere oplysninger om {link} .",
+        "community_guideline": "Twibbonize-fællesskabets retningslinjer",
+        "placeholder_write_here": "Skriv her",
+        "report_sent": "Rapport sendt"
+    },
+    "page_editor": {
+        "general": {
+            "template": "Skabelon",
+            "text": "Tekst",
+            "shape": "Form",
+            "image": "Billede",
+            "graphic": "Grafisk",
+            "upload": "Upload",
+            "layer": "Lag",
+            "resize": "Ændre størrelse",
+            "save": "Gemme",
+            "width": "Bredde",
+            "height": "Højde",
+            "transparency": "Gennemsigtighed",
+            "line_weight": "Linjevægt",
+            "align": "Juster",
+            "group": "Gruppe",
+            "ungroup": "Ungroup",
+            "unlock": "Lås op",
+            "loading": "Indlæsning"
+        },
+        "text": {
+            "add_a_heading": "Tilføj en overskrift",
+            "add_a_subheading": "Tilføj en underoverskrift",
+            "document_fonts": "Skrifttyper til dokumenter",
+            "text_effect": "Teksteffekter",
+            "effects": "Effekter",
+            "add_a_body_text": "Tilføj en lille smule brødtekst"
+        },
+        "shape": {
+            "arrow": "Pil",
+            "shape": "Form"
+        },
+        "upload": {
+            "upload_image": "Upload billede",
+            "upload": "Upload",
+            "type": "Type:",
+            "size": "Størrelse:",
+            "type_image": "JPG, PNG eller SVG",
+            "maximum_size": "Maksimalt 5 MB"
+        },
+        "toolbar": {
+            "copy": "Kopi",
+            "paste": "Indsæt",
+            "duplicate": "Duplikat",
+            "delete": "Sletning",
+            "layer": "Lag",
+            "bring_forward": "Bring fremad",
+            "bring_to_front": "Bring til fronten",
+            "send_backward": "Send baglæns",
+            "send_to_back": "Send til tilbage",
+            "show_layers": "Vis lag",
+            "left": "Til venstre",
+            "center": "Center",
+            "right": "Til højre",
+            "top": "Til toppen",
+            "middle": "I midten",
+            "bottom": "I bunden",
+            "set_as_text_template": "Indstil som tekstskabelon",
+            "set_as_background_image": "Indstil som baggrundsbillede",
+            "lock": "Lås",
+            "letter_spacing": "Afstand mellem bogstaver",
+            "line_spacing": "Linjeafstand",
+            "border_weight": "Grænsevægt",
+            "align": "Juster",
+            "effects": "Effekter"
+        },
+        "confirmation": {
+            "cancel": "Annuller",
+            "save": "Gemme",
+            "has_your_frame_been_completed": "Er din ramme blevet færdig?",
+            "once_it_save": "Når det er gemt, er det ikke længere muligt at redigere det."
+        },
+        "image": {
+            "image_template": "Foto af {name} ",
+            "image_template_1": "på",
+            "edit_image": "Rediger billede",
+            "image_template_2": "Unsplash"
+        },
+        "error": {
+            "minimum_dimension": "Dimensionerne skal være mindst 100 px og ikke mere end 8000 px."
+        },
+        "text_effect": {
+            "style": "Stil",
+            "none": "Ingen",
+            "shadow": "Skygge",
+            "text_effects": "Effekter",
+            "lift": "Løft",
+            "offset": "Offset",
+            "direction": "Retning",
+            "blur": "Sløring",
+            "transparency": "Gennemsigtighed",
+            "color": "Farve",
+            "thickness": "Tykkelse"
+        },
+        "colors": {
+            "colors": "Farver",
+            "document_colors": "Dokumentfarver",
+            "default_colors": "Standardfarver"
+        }
+    },
+    "page__campaign_creation": {
+        "campaign_preview": {
+            "campaign_description": "Beskrivelse af kampagnen",
+            "campaign_title": "Kampagnens titel"
+        }
+    },
+    "page_my_campaign": {
+        "edit_campaign": {
+            "campaigns": "Kampagner",
+            "frames": "Rammer",
+            "analytics": "Analyse"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "Hvorfor rapporterer du dette indlæg?",
+            "plagiarism ": "Plagiat",
+            "impersonation ": "Efterligning ",
+            "piracy ": "Piratkopiering",
+            "vulgar_language": "Vulgært sprog",
+            "nudity_pornography": "Nøgenhed og pornografi",
+            "suicidal_self_harm": "Selvmordsrelateret og selvskadende indhold ",
+            "danger": "Farlig eller skadelig ",
+            "violent_graphic_content": "Voldeligt grafisk indhold",
+            "harassment_cyberbullying": "Chikane og cybermobning ",
+            "provocative_threatening_content": "Provokerende og truende indhold",
+            "spam": "Spam"
+        },
+        "report_comment": {
+            "title": "Hvorfor rapporterer du denne kommentar?",
+            "abusive_harmful": "Voldelig eller skadelig",
+            "harassment": "Chikane",
+            "terrorism": "Terrorisme",
+            "violence": "Vold",
+            "false_information": "",
+            "health": "Sundhed",
+            "politics": "Politik",
+            "social_issue": "Socialt problem",
+            "sensitive_content": "Følsomt indhold ",
+            "nudity": "Nøgenhed",
+            "vulgar_language": "Vulgært sprog",
+            "hate_speech": "Hadefuld tale",
+            "disability_disease": "Handicap eller sygdom",
+            "race_or_ethnicity": "Race eller etnicitet",
+            "religious_affiliation": "Religiøst tilhørsforhold ",
+            "sexual_orientation": "Seksuel orientering",
+            "spam": "Spam"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "Url ugyldig"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "Kunne ikke udføre Google-login",
+        "failed_apple_login": "Kunne ikke udføre Apple-login"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "Billedfilen overskrider den maksimale størrelse på 5 MB",
+            "cannot_create_twibbon": "Kan ikke oprette Twibbon. Prøv igen"
+        },
+        "log_in": {
+            "complete_verification": "Fuldfør bekræftelsen for at fortsætte",
+            "email_no_password": "Denne e-mail har ingen adgangskode. Log ind via Google",
+            "social_media_already_registered": "E-mailen til din sociale mediekonto er allerede registreret og forbundet med en anden konto fra en lignende social medietjeneste. Prøv venligst at logge ind med e-mail- og adgangskodeformularerne."
+        },
+        "sign_up": {
+            "email_already_registered": "Denne email er allerede registreret. Brug en anden e-mail, eller prøv at logge ind",
+            "password_minimum_required": "Adgangskoden skal være på mindst 8 tegn.",
+            "password_character_exceeded": "Adgangskoden må ikke overstige 128 tegn",
+            "password_must_be_standard": "Adgangskoden skal være alfanumerisk standard",
+            "password_does_not_match": "Adgangskodebekræftelse stemmer ikke overens. Prøv igen"
+        },
+        "verification": {
+            "code_incorrect": "Koden forkert. Prøv igen",
+            "code_expired": "Koden er udløbet. Anmod om en ny",
+            "maximum_attempt_reached": "Det maksimale antal forsøg er nået. Prøv igen om 5 timer",
+            "code_requested_exceeded": "Kodeanmodninger overskred den maksimale grænse"
+        },
+        "forgot_password": {
+            "email_not_found": "E-mail ikke fundet. Prøv igen eller tilmeld dig",
+            "link_expired": "Linket til at ændre adgangskoden er udløbet. Anmod om en ny",
+            "link_used": "Linket til at ændre adgangskoden er blevet brugt. Anmod om en ny"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "Rammefilen overstiger den maksimale størrelse på 5 MB",
+            "background_file_exceed": "Baggrundsfilen overstiger den maksimale størrelse på 5 MB",
+            "image_not_transparent": "Billedet skal være gennemsigtigt. Prøv igen",
+            "invalid_format": "Ugyldigt filformat. Brug et understøttet format",
+            "allow_only_1_frame": "Gratis konti tillader kun 1 frame upload. Opgrader for at fortsætte",
+            "allow_only_1_background": "Gratis konti tillader kun 1 baggrundsupload. Opgrader for at fortsætte",
+            "campaign_title_exceed_limit": "Kampagnetitlen overskrider den maksimale tegngrænse",
+            "description_exceed_limit": "Beskrivelsen overskrider den maksimale tegngrænse",
+            "link_unavailable": "Kampagnelinket er allerede i brug. Vælg en anden",
+            "link_criteria": "Kampagnelink skal være alfanumerisk og bindestreg (-)",
+            "caption_exceed_limit": "Billedskabelonen overskrider den maksimale tegngrænse",
+            "background_exceed_limit": "Baggrundsfilen overstiger den maksimale størrelse på 5 MB",
+            "photo_exceed_limit": "Miniaturebilledfilen overstiger den maksimale størrelse på 5 MB",
+            "link_exceed_limit": "Kampagnelink overskrider den maksimale tegngrænse"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "Rammefilen overstiger den maksimale størrelse på 5 MB",
+            "background_file_exceed": "Baggrundsfilen overstiger den maksimale størrelse på 5 MB"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "Billedet skal være gennemsigtigt. Prøv igen",
+            "invalid_format": "Ugyldigt filformat. Brug et understøttet format",
+            "allow_only_1_frame": "Gratis konti tillader kun 1 frame upload. Opgrader for at fortsætte",
+            "allow_only_1_background": "Gratis konti tillader kun 1 baggrundsupload. Opgrader for at fortsætte",
+            "campaign_title_exceed_limit": "Kampagnetitlen overskrider den maksimale tegngrænse",
+            "description_exceed_limit": "Beskrivelsen overskrider den maksimale tegngrænse",
+            "link_unavailable": "Kampagnelinket er allerede i brug. Vælg en anden",
+            "link_criteria": "Kampagnelink skal være alfanumerisk og bindestreg (-)",
+            "link_exceed_limit": "Kampagnelink overskrider den maksimale tegngrænse",
+            "caption_exceed_limit": "Billedskabelonen overskrider den maksimale tegngrænse",
+            "background_exceed_limit": "Baggrundsfilen overstiger den maksimale størrelse på 5 MB",
+            "thumbnail_exceeds": "Miniaturebilledfilen overstiger den maksimale størrelse på 5 MB"
+        },
+        "settings": {
+            "profile_image_exceed": "Profilbillede overskrider den maksimale grænse på 5 MB",
+            "background_image_exceed": "Baggrundsbilledet overstiger den maksimale størrelse på 5 MB",
+            "username_unavailable": "Brugernavnet er allerede taget. Prøv en anden",
+            "username_exceed_limit": "Brugernavnet overskrider den maksimale tegngrænse",
+            "username_invalid": "Brugernavnet er ugyldigt. Prøv igen med det korrekte format",
+            "display_exceed_limit": "Vist navn overskrider den maksimale tegngrænse",
+            "bio_exceed_limit": "Bio overskrider den maksimale tegngrænse",
+            "email_already_registered": "E-mail allerede registreret. Prøv en anden",
+            "password_incorrect": "Adgangskoden er forkert. Prøv igen",
+            "password_minimum_character": "Adgangskoden skal være på mindst 8 tegn",
+            "password_maximum_character": "Adgangskoden må ikke overstige 128 tegn",
+            "password_standard_format": "Adgangskoden skal følge det alfanumeriske standardformat",
+            "account_deleted": "Konto slettet",
+            "account_integrated": "Konto integreret",
+            "account_revoked": "Konto tilbagekaldt"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "Sektionen \"Fortæl os mere\" overskrider den maksimale tegngrænse"
+        },
+        "general": {
+            "something_went_wrong": "Noget gik galt"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "Antallet af tilføjede kampagner overstiger den maksimale grænse",
+            "description_exceeds": "Beskrivelsen overskrider den maksimale tegngrænse",
+            "title_exceeds": "Samlingens titel overskrider den maksimale tegngrænse"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "Linket er kopieret",
+            "social_media_already_linked": "Social mediekonto er allerede knyttet til en anden Twibbonize-konto. Prøv en anden"
+        },
+        "campaign_creation": {
+            "link_available": "Link er tilgængeligt"
+        },
+        "campaign_edit": {
+            "link_available": "Link er tilgængeligt"
+        },
+        "settings": {
+            "photo_updated": "Foto opdateret",
+            "banner_updated": "Banner opdateret",
+            "banner_deleted": "Banner slettet",
+            "photo_deleted": "Foto slettet",
+            "password_updated": "Adgangskode opdateret",
+            "email_updated": "E-mail opdateret"
+        },
+        "my_profile": {
+            "campaign_deleted": "Kampagne slettet"
+        },
+        "collection": {
+            "campaign_added": "Kampagne tilføjet"
+        },
+        "campaign_page": {
+            "account_upgraded": "Kontoen er opgraderet",
+            "link_copied": "Linket er kopieret"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "E-mail ikke fundet. Prøv igen eller tilmeld dig"
+        },
+        "password": {
+            "password_incorrect": "Adgangskoden er forkert. Prøv igen"
+        },
+        "maximum_attempt": "Det maksimale antal forsøg er nået. Prøv igen om 1 time"
+    },
+    "page_notification": {
+        "no_notification_heading": "Ingen meddelelser endnu",
+        "no_notification_subheading": "Der er ingen meddelelser i øjeblikket"
+    },
+    "page_general": {
+        "no_internet_connection": "Ingen internetforbindelse. Tryk for at prøve igen",
+        "could_not_connect_internet": "Kunne ikke oprette forbindelse til internettet. Skift til et andet netværk, og prøv igen."
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "Log ud?"
+        }
     }
 }

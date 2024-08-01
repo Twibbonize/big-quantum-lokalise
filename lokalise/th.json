@@ -35,7 +35,7 @@
             "terms": "ข้อตกลงและเงื่อนไข",
             "privacy_policy": "นโยบายความเป็นส่วนตัว",
             "cookie_policy": "นโยบายคุกกี้",
-            "sitemap": ""
+            "sitemap": "แผนผังเว็บไซต์"
         },
         "menu": {
             "explore": "สำรวจ",
@@ -47,11 +47,6 @@
             "sign_in": "เข้าสู่ระบบ",
             "sign_up": "ลงชื่อ",
             "sign_out": "ออกจากระบบ"
-        },
-        "campaign": {
-            "supporters": "ผู้สนับสนุน|ผู้สนับสนุน",
-            "campaigns": "แคมเปญ",
-            "created": "สร้าง"
         },
         "button": {
             "view_all": "ดูทั้งหมด",
@@ -71,11 +66,12 @@
             "report": "รายงาน",
             "edit": "แก้ไข",
             "confirm": "ยืนยัน",
-            "okay": "",
-            "view": "",
-            "send": "",
-            "more": "",
-            "less": ""
+            "okay": "ตกลง",
+            "view": "ดู",
+            "send": "ส่ง",
+            "more": "มากกว่า",
+            "less": "น้อย",
+            "submit": "ส่ง"
         },
         "time": {
             "week": "สัปดาห์",
@@ -86,9 +82,14 @@
             "annual": "ประจำปี",
             "yearly": "เป็นประจำทุกปี"
         },
+        "campaign": {
+            "campaigns": "แคมเปญ",
+            "created": "สร้าง",
+            "supporters": "ผู้สนับสนุน|ผู้สนับสนุน|ผู้สนับสนุน"
+        },
         "collection": {
             "collections": "คอลเลกชัน",
-            "campaigns": "{campaign} แคมเปญ"
+            "campaigns": "แคมเปญ {campaign}"
         },
         "creator": {
             "creators": "ผู้สร้าง"
@@ -108,8 +109,21 @@
             "hide_post": "ซ่อนโพสต์",
             "post_shared": "โพสต์ที่แชร์เมื่อ {date}",
             "share_message": "แบ่งปันข้อความของคุณ",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "เลิกปักหมุดโพสต์",
+            "unhide_post": "ยกเลิกการซ่อนโพสต์"
+        },
+        "pricing": {
+            "creator_subscribe_to": "ผู้สร้างรายนี้สมัครรับข้อมูลจาก",
+            "plan": "วางแผน",
+            "support_without_watermark": "พวกเขาสามารถสนับสนุนแคมเปญใด ๆ ที่ไม่มีลายน้ำได้!",
+            "all_supporters_without_watermark": "คุณสามารถสนับสนุนแคมเปญทั้งหมดของผู้สร้างนี้ได้โดยไม่ต้องใส่ลายน้ำ!"
+        },
+        "campaign_card": {
+            "a_month_ago": "หนึ่งเดือนที่ผ่านมา",
+            "a_day_ago": "วันก่อน"
+        },
+        "search": {
+            "searching": "กำลังค้นหา..."
         }
     },
     "page_home": {
@@ -218,7 +232,7 @@
         },
         "history": {
             "the_history": "ประวัติความเป็นมาของทวิบบอน",
-            "in_this": "ในยุคดิจิทัลนี้ โซเชียลมีเดียกลายเป็นแพลตฟอร์มที่ผู้คนใช้แสดงการสนับสนุน ข้อกังวล และความรู้สึกอื่นๆ",
+            "in_this": "ในยุคดิจิทัลนี้ โซเชียลมีเดียกลายเป็นแพลตฟอร์มที่ผู้คนใช้แสดงการสนับสนุน ข้อกังวล และความรู้สึกอื่น",
             "however": "อย่างไรก็ตาม บางครั้งเราประสบปัญหากับการค้นหาคำพูดและการกระทำที่เหมาะสมเพื่อถ่ายทอดความคิดของเราอย่างมีประสิทธิภาพ",
             "visual_factor": "ปัจจัยด้านภาพถือเป็นพลังที่ยิ่งใหญ่ในบริบทนี้ Twibbon เป็นวิธีง่ายๆ ที่จะกลายเป็นส่วนเสริมของแนวคิดที่คุณต้องการถ่ายทอด"
         }
@@ -256,8 +270,8 @@
         "process": {
             "how_twibbonize_1": "Twibbonize ปฏิวัติวงการอย่างไร",
             "how_twibbonize_2": "แคมเปญทวิบบอน",
-            "sharing_twibbon_1": "การแบ่งปัน Twibbon เคยเป็นกระบวนการที่ซับซ้อน เราก็เช่นกัน",
-            "sharing_twibbon_2": "เหนื่อยที่จะอธิบายให้คุณฟัง"
+            "sharing_twibbon_1": "การแบ่งปัน Twibbon เคยเป็นกระบวนการที่ซับซ้อน",
+            "sharing_twibbon_2": "เราเหนื่อยเกินกว่าจะอธิบายให้คุณฟังด้วยซ้ำ"
         },
         "frame": {
             "twibbon_frame": "ใน Twibbonize นั้น Twibbon เป็นมากกว่าเฟรม",
@@ -302,17 +316,18 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "ยังไม่มีการโพสต์",
-            "be_the_first": "เป็นคนแรกที่จะโพสต์การสนับสนุนของคุณที่นี่ เริ่มต้นด้วยการอัปโหลดรูปภาพของคุณ!"
+            "uploading_your_photo": "กำลังอัปโหลดรูปภาพของคุณ!",
+            "start_with": "เริ่มกับ ",
+            "be_the_first": "เป็นคนแรกที่จะโพสต์การสนับสนุนของคุณที่นี่"
         },
         "twibbon": {
             "choose_your_photo": "เลือกรูปภาพของคุณ",
             "text": "ข้อความ",
-            "download_successful": "ดาวน์โหลดสำเร็จ",
+            "download_successful": "ดาวน์โหลดสำเร็จ!",
             "photo_not_download": "รูปภาพไม่ดาวน์โหลด?",
             "re_download": "ดาวน์โหลดใหม่",
             "post_to_twibbonize": "โพสต์ไปที่ Twibbonize",
             "post_photo_to_twibbonize": "โพสต์ภาพนี้ไปที่ Twibbonize",
-            "remove_watermark_for_you": "ลบลายน้ำสำหรับคุณ",
             "upgrade_to_premium": "อัปเกรดเป็นพรีเมียม เริ่มต้นจาก {price}",
             "processing": "กำลังประมวลผล",
             "buy_premium": "ซื้อของ Premium",
@@ -327,17 +342,22 @@
             "download": "ดาวน์โหลด",
             "reset": "รีเซ็ต",
             "add_text": "เพิ่มข้อความ",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": ""
+            "posting_as": "โพสต์เป็น ",
+            "not_you": "ไม่ใช่คุณ? ",
+            "uploading_photo_to_remove": "กำลังอัปโหลดรูปภาพของคุณและลบพื้นหลัง",
+            "wait_for_moment": "รอสักครู่...",
+            "remove_watermark_for_you_2": "และเพลิดเพลินกับภาพของคุณแบบไม่มีลายน้ำ!",
+            "remove_watermark_for_you_1": "สำรวจ Twibbonize โดยไม่มีโฆษณา",
+            "remove_watermark_for_you": "ลบลายน้ำ!",
+            "blur": "เบลอ",
+            "shadow": "เงา",
+            "twibbon_success": "ดาวน์โหลดแล้ว"
         },
         "report": {
             "report_campaign": "รายงานแคมเปญ",
             "report_profile": "รายงานโปรไฟล์",
             "plagiarism": "การลอกเลียนแบบ",
             "sensitive": "เนื้อหาที่ละเอียดอ่อน",
-            "danger": "เนื้อหาที่เป็นอันตราย",
             "spam": "สแปม",
             "why_report_campaign": "เหตุใดคุณจึงรายงานแคมเปญนี้",
             "protect_reporter": "แนวทางปฏิบัติของชุมชน Twibbonize ปกป้องความเป็นส่วนตัวของตัวตนของผู้รายงาน",
@@ -346,7 +366,21 @@
             "received_report": "เราได้รับรายงานของคุณแล้ว!",
             "thankyou": "ขอบคุณ! โปรดอนุญาตให้เราตรวจสอบรายงานของคุณ และเราจะส่งข้อเสนอแนะไปยังอีเมลของคุณโดยเร็วที่สุด",
             "learn_more_about": "เรียนรู้เพิ่มเติมเกี่ยวกับ {link}",
-            "community_guideline": "แนวทางปฏิบัติของชุมชน Twibbonize"
+            "community_guideline": "แนวทางปฏิบัติของชุมชน Twibbonize",
+            "title": "เหตุใดคุณจึงรายงานแคมเปญนี้",
+            "danger": "เป็นอันตรายหรือเป็นอันตราย ",
+            "impersonation": "การแอบอ้างบุคคลอื่น ",
+            "piracy": "การละเมิดลิขสิทธิ์",
+            "vulgar_language": "ภาษาหยาบคาย",
+            "nudity_pornography": "ภาพเปลือยและภาพอนาจาร",
+            "suicidal_self_harm": "เนื้อหาเกี่ยวกับการฆ่าตัวตายและการทำร้ายตนเอง ",
+            "violent_graphic_content": "เนื้อหากราฟิกที่มีความรุนแรง",
+            "harassment_cyberbullying": "การล่วงละเมิดและการกลั่นแกล้งบนอินเทอร์เน็ต",
+            "proactive_threatening_content": "เนื้อหาที่ยั่วยุและคุกคาม",
+            "statement": "แนวทางปฏิบัติของชุมชน Twibbonize ปกป้องความเป็นส่วนตัวของตัวตนของผู้รายงาน.",
+            "read_more_copy": "อ่านเพิ่มเติม",
+            "please_select_one": "โปรดเลือกหนึ่งรายการ",
+            "write_a_message": "เขียนข้อความ"
         },
         "discard": {
             "discard_edit": "ยกเลิกการแก้ไขใช่ไหม",
@@ -364,9 +398,10 @@
             "supporters": "ผู้สนับสนุน",
             "interactions": "การโต้ตอบ",
             "visits": "การเข้าชม",
-            "realtime_estimates": "การประมาณการแบบเรียลไทม์",
             "last_month": "30 วันที่ผ่านมา",
-            "see_more_analytics": "ดูการวิเคราะห์เพิ่มเติม"
+            "see_more_analytics": "ดูการวิเคราะห์เพิ่มเติม",
+            "realtime_estimates": "การประมาณการตามเวลาจริงในช่วง 30 วันที่ผ่านมา",
+            "view_analytics": "ดูการวิเคราะห์"
         },
         "pricing": {
             "no_thankyou": "ไม่เป็นไรขอบคุณ"
@@ -387,12 +422,37 @@
             "reply_as_user": "ตอบกลับในฐานะ {user}"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "ปฏิบัติตามคำแนะนำเพื่อผลลัพธ์ที่ดีที่สุด!",
+            "good_photo_examples": "ตัวอย่างภาพถ่ายที่ดี:",
+            "good_photo_caption": "เซลฟี่ระยะใกล้ ภาพถ่ายบุคคล หน้าใส",
+            "photos_avoid": "ภาพถ่ายที่ควรหลีกเลี่ยง:",
+            "bad_photo_caption": "รูปเต็มตัว รูปหมู่ รูปจากด้านหลัง",
+            "understand": "ฉันเข้าใจ"
+        },
+        "post_to_twibbonize": {
+            "caption": "เขียนข้อความเกี่ยวกับแคมเปญนี้...",
+            "unpin_post": "เลิกปักหมุดโพสต์"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "ปรับรูปภาพของคุณ"
+        },
+        "share_campaign": {
+            "or_share_to": "หรือแบ่งปันไปที่",
+            "save_share": "บันทึกและแบ่งปัน"
+        },
+        "post": {
+            "post_uploaded": "อัพโหลดโพสต์แล้ว",
+            "post_deleted": "ลบโพสต์แล้ว",
+            "post_failed_deleted": "โพสไม่สำเร็จ ลบแล้ว"
+        },
+        "create_campaign": {
+            "custom_field": "เพิ่มฟิลด์ที่กำหนดเอง"
+        },
+        "collection": {
+            "sign_up_add_collection": "ลงทะเบียนเพื่อเพิ่มลงในคอลเลกชัน"
+        },
+        "posts": {
+            "has_no_posts": "ผู้ใช้รายนี้ไม่ได้โพสต์อะไรบน Twibbonize"
         }
     },
     "page_checkout": {
@@ -401,7 +461,6 @@
             "account_update": "บัญชีของคุณจะได้รับการอัปเดต พร้อมปลดล็อคฟีเจอร์ใหม่ทั้งหมด"
         },
         "checkout": {
-            "back_to_plans": "กลับไปที่แผน",
             "upgrade_to": "อัปเกรดเป็น {plan}",
             "gather_your_supports": "รวบรวมผู้สนับสนุนของคุณและขยายขนาดแคมเปญของคุณด้วยคุณสมบัติพิเศษของเรา",
             "billing_option": "ตัวเลือกการเรียกเก็บเงิน",
@@ -413,18 +472,19 @@
             "save": "ประหยัด {percentage} %",
             "pay": "จ่าย {frequency}",
             "checkout_options": "ตัวเลือกการชำระเงิน",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "ปรับแผน",
+            "current_plan": "แผนปัจจุบัน",
+            "downgrade": "ดาวน์เกรด",
+            "current_plan_description": "คุณกำลังสมัครสมาชิกนี้ตอนนี้",
+            "change_plan_description": "คุณกำลังเปลี่ยนแผนของคุณเป็น {plan} ซึ่งจะใช้งานได้หลังจากการสมัครสมาชิกปัจจุบันสิ้นสุดลง",
+            "downgrade_description": "คุณกำลังดาวน์เกรดแผนของคุณเป็น {plan} ซึ่งจะใช้งานได้หลังจากการสมัครสมาชิกปัจจุบันสิ้นสุดลง",
+            "change_plan_confirm": "คุณแน่ใจไหม?",
+            "upgrade_confirm": "คุณแน่ใจหรือไม่ว่าต้องการอัปเกรด",
+            "downgrade_confirm": "คุณแน่ใจหรือไม่ว่าต้องการดาวน์เกรดแผน",
+            "change_plan_active": "มันจะใช้งานได้เมื่อการสมัครสมาชิกปัจจุบันของคุณสิ้นสุดลง",
+            "upgrade_active": "มันจะใช้งานได้เมื่อคุณชำระเงินเสร็จแล้ว",
+            "downgrade_active": "มันจะใช้งานได้เมื่อการสมัครสมาชิกปัจจุบันของคุณสิ้นสุดลง",
+            "back_to_plans": "กลับ"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -433,14 +493,14 @@
             "use_twibbonize_without_ads": "ใช้ Twibbonize โดยไม่มีโฆษณา",
             "exclusive_features": "คุณสมบัติพิเศษสำหรับแคมเปญของคุณ",
             "remove_own_account": "ลบลายน้ำสำหรับบัญชีของคุณเอง",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "เงิน",
+            "gold": "ทอง",
+            "platinum": "แพลตตินัม",
+            "watermark_title": "ลบลายน้ำ",
+            "high_quality_image_title": "รูปภาพคุณภาพสูง",
+            "ad_free_title": "โฆษณาฟรี",
+            "campaign_addon": "ส่วนเสริมแคมเปญ",
+            "on": "บน"
         }
     },
     "page_collection": {
@@ -474,14 +534,15 @@
             "no_stay": "ไม่ อยู่ในหน้านี้ต่อไป"
         },
         "dropzone": {
-            "upload_design": "อัปโหลดการออกแบบของคุณเองที่นี่",
             "type": "พิมพ์:",
-            "imagetype": "รูปภาพ\/PNG",
             "size": "ขนาด:",
-            "max_file": "สูงสุด 5MB",
             "recommendation": "คำแนะนำ:",
             "image_dimension": "1080x1080px",
-            "upload": "ที่อัพโหลด"
+            "upload": "ที่อัพโหลด",
+            "imagetype": "PNG",
+            "max_file": "สูงสุด 5 เมกะไบต์",
+            "backgroundtype": "JPEG, PNG หรือเว็บพี",
+            "upload_design": "อัปโหลดการออกแบบของคุณที่นี่"
         },
         "frame_editor": {
             "or_create": "หรือสร้างเฟรมของคุณตอนนี้",
@@ -498,7 +559,9 @@
             "no_transparent": "ไม่พบพื้นที่โปร่งใสบนรูปภาพของคุณ",
             "no_hole_frame": "ซึ่งหมายความว่าไม่มีรูบนเฟรมของคุณ เพื่อให้รูที่จำเป็น คุณสามารถติดตาม {link} นี้",
             "help_center_article": "บทความในศูนย์ช่วยเหลือ",
-            "understand": "ฉันเข้าใจ"
+            "understand": "ฉันเข้าใจ",
+            "width": "ความกว้าง",
+            "height": "ความสูง"
         },
         "form": {
             "please_fill_in": "กรุณากรอกข้อมูลแคมเปญที่จำเป็นทั้งหมดด้านล่าง",
@@ -525,7 +588,8 @@
             "private_detail": "แคมเปญของคุณสามารถเข้าถึงได้โดยผู้ที่มีรหัสการเข้าถึงเท่านั้น",
             "url_not_available": "URL ไม่พร้อมใช้งาน",
             "caption_placeholder": "สวัสดี ฉันชื่อ [[ชื่อของคุณ]] และยินดีที่จะสนับสนุนแคมเปญนี้ มารวบรวมและสร้างผลกระทบอย่างแท้จริงกับแคมเปญนี้ด้วยกัน!",
-            "enter_description": "ป้อนคำอธิบาย"
+            "enter_description": "ป้อนคำอธิบาย",
+            "optional": "ไม่จำเป็น"
         },
         "customization": {
             "campaign_customization": "การปรับแต่งแคมเปญ",
@@ -548,9 +612,14 @@
             "go_back": "กลับไป"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "เฟรม",
+            "campaigns": "แคมเปญ",
+            "analytics": "การวิเคราะห์"
+        },
+        "blank_design": {
+            "suggested": "แนะนำ",
+            "instagram_story": "เรื่องราวของอินสตาแกรม",
+            "instagram_post": "โพสต์อินสตาแกรม"
         }
     },
     "page_for_creators": {
@@ -560,8 +629,8 @@
             "purchase_now": "สั่งซื้อตอนนี้",
             "learn_more": "เรียนรู้เพิ่มเติม",
             "want_to_create": "ต้องการสร้างแคมเปญของคุณฟรีหรือไม่?",
-            "try_now": "ลองตอนนี้!",
-            "per": "ต่อ {time}"
+            "per": "ต่อ {time}",
+            "try_now": "ลองตอนนี้!"
         },
         "features": {
             "remove_watermark": "ลบลายน้ำสำหรับผู้ใช้แคมเปญของคุณทั้งหมด",
@@ -591,10 +660,10 @@
         "frame": {
             "more_than_frames": "มากกว่าแค่เฟรม",
             "spice_up": "เติมสีสันให้กับเกมแคมเปญออนไลน์ของคุณ ไม่เพียงแต่มีกรอบเท่านั้น แต่ยังมีพื้นหลังที่สร้างสรรค์อีกด้วย",
-            "frame_twibbon": "เฟรมทวิบบอน",
             "the_og_twibbon": "Twibbon ออริจินัล; กรอบที่วางอยู่บนรูปภาพของคุณ",
-            "backround_twibbon": "พื้นหลังทวิบบอน",
-            "a_fresh_variation": "Twibbon รูปแบบใหม่ที่ใช้เป็นพื้นหลังของรูปภาพของคุณ"
+            "a_fresh_variation": "Twibbon รูปแบบใหม่ที่ใช้เป็นพื้นหลังของรูปภาพของคุณ",
+            "frame_twibbon": "เฟรมทวิบบอน",
+            "backround_twibbon": "ทวิบบอนพื้นหลัง "
         },
         "tilt": {
             "get_it_ready": "เตรียมพร้อมได้ทุกเมื่อด้วย Twibbon Editor ในตัวของเรา",
@@ -605,7 +674,25 @@
             "inspire_detail": "ลิงก์ Twibbonize ดึงดูดผู้อยากรู้อยากเห็น ดึงพวกเขามาสู่เป้าหมายของคุณและจุดประกายความสนใจในแคมเปญของคุณ",
             "unite_detail": "นำชุมชนผู้สนับสนุนแคมเปญของคุณทั้งหมดมาที่หน้า Twibbonize ของคุณ ที่ที่ผู้สนับสนุนเชื่อมต่อกันและคุณจะเห็นผลกระทบ!",
             "entertain_detail": "Twibbonize มีส่วนร่วมกับผู้สนับสนุนของคุณด้วยการนำเสนอ Twibbon เสมือนที่แชร์ได้สำหรับโซเชียลมีเดียและการส่งข้อความ",
-            "grow_detail": "รับการสนับสนุนมากขึ้นด้วยแคมเปญ Twibbonize: ไม่เพียงแต่ดึงดูดความสนใจ แต่ยังสร้างเอฟเฟกต์แบบ bandwagon ดึงดูดผู้ชมที่เพิ่มมากขึ้นซึ่งไม่อยากพลาดกิจกรรมของคุณ"
+            "grow_detail": "รับการสนับสนุนมากขึ้นด้วยแคมเปญ Twibbonize: ไม่เพียงแต่ดึงดูดความสนใจ แต่ยังสร้างเอฟเฟกต์แบบ bandwagon ดึงดูดผู้ชมที่เพิ่มมากขึ้นซึ่งไม่อยากพลาดกิจกรรมของคุณ",
+            "inspire": "สร้างแรงบันดาลใจ ",
+            "unite": "รวมกัน",
+            "entertain": "ความบันเทิง",
+            "grow": "เติบโต"
+        },
+        "use_cases": {
+            "heading": "ไอเดียการใช้ Twibbonize สำหรับ",
+            "subheading": "เริ่มต้นการสำรวจของคุณด้วยตัวอย่างที่คัดสรรมาจากแคมเปญ Twibbonize มากกว่า 5,000,000 แคมเปญของเรา",
+            "corporate": "ขององค์กร",
+            "corporate_title": "ใช้พลังที่มีอยู่มากมายของบุคลากรและลูกค้าของคุณ",
+            "education": "การศึกษา",
+            "education_title": "เป็นวิธีที่สนุกในการเพิ่มกระบวนการเรียนรู้",
+            "event": "กิจกรรม",
+            "events_title": "กระตุ้นกิจกรรมของคุณด้วยพลังของกระแสไวรัลทันที"
+        },
+        "testimonials": {
+            "testimonials": "ข้อความรับรอง",
+            "heading": "ได้รับความไว้วางใจจากชื่อที่คุณไว้วางใจ"
         }
     },
     "page_explore": {
@@ -643,6 +730,10 @@
         "advisor": {
             "our_advisor": "ที่ปรึกษาของเรา",
             "proud_partner": "เราภูมิใจที่ได้เป็นพันธมิตรกับผู้คนที่มีความสอดคล้องกับพันธกิจของเราอย่างลึกซึ้ง"
+        },
+        "honorary": {
+            "honorary_mentions": "กล่าวถึงกิตติมศักดิ์",
+            "significant_contributions": "ผู้ที่มีส่วนสำคัญในการพัฒนาของเรา"
         }
     },
     "page_pricing": {
@@ -659,18 +750,18 @@
             "private_campaign_1": "ส่วนตัว",
             "private_campaign_2": "แคมเปญ",
             "offer_exclusively": "เสนอสิทธิพิเศษให้กับผู้สนับสนุนของคุณ",
-            "campaign_customization_1": "แคมเปญ",
-            "campaign_customization_2": "การปรับแต่ง",
+            "campaign_customization_1": "",
+            "campaign_customization_2": "การปรับแต่งแคมเปญ",
             "personalize_campaign": "ปรับแต่งหน้าแคมเปญของคุณ",
             "multiple_frames_1": "Twibbon หลายรายการ",
             "multiple_frames_2": "ต่อแคมเปญ",
             "unleash_creativity": "ปลดปล่อยความคิดสร้างสรรค์ด้วยความคล่องตัว",
             "top_notch": "อัปเกรดเกมแคมเปญของคุณ",
             "considering_all": "เมื่อคำนึงถึงความสะดวกทั้งหมดแล้วถือว่าคุ้มค่า",
-            "remove_watermark_1": "ลบ",
-            "remove_watermark_2": "ลายน้ำ",
-            "for_audience_1": "สำหรับ",
-            "for_audience_2": "คุณและผู้ชมของคุณ",
+            "remove_watermark_1": "",
+            "remove_watermark_2": "",
+            "for_audience_1": "",
+            "for_audience_2": "ลบลายน้ำสำหรับคุณและผู้ชมของคุณ",
             "as_a_free_user": "ในฐานะผู้ใช้ฟรี Twibbon ของคุณจะมีลายน้ำ <strong> เสมอ <\/strong>",
             "premium_supporter": "<strong> Premium Creator <\/strong> ลบลายน้ำเพื่อให้ภาพที่สะอาดตา",
             "now_you_can": "ตอนนี้คุณสามารถ <strong> สนับสนุนแคมเปญใด ๆ <\/strong> โดยไม่ต้องใส่ลายน้ำ"
@@ -688,10 +779,10 @@
             "as_a_free_user": "ในฐานะผู้ใช้ฟรี Twibbon ของคุณจะมีลายน้ำ <strong> เสมอ <\/strong>",
             "premium_supporter": "<strong> Premium Supporter <\/strong> ลบลายน้ำเพื่อให้ภาพที่สะอาดยิ่งขึ้น",
             "now_you_can": "ตอนนี้คุณสามารถ <strong> สนับสนุนแคมเปญใด ๆ <\/strong> โดยไม่ต้องใส่ลายน้ำ",
-            "remove_watermark_1": "ลบ",
-            "remove_watermark_2": "ลายน้ำ",
-            "for_audience_1": "สำหรับ",
-            "for_audience_2": "บัญชีของคุณเอง",
+            "remove_watermark_1": "",
+            "remove_watermark_2": "",
+            "for_audience_1": "",
+            "for_audience_2": "ลบลายน้ำสำหรับบัญชีของคุณเอง",
             "looking_to_remove": "ต้องการลบลายน้ำสำหรับผู้ใช้แคมเปญทั้งหมดของคุณหรือไม่? พยายาม"
         },
         "upgrade": {
@@ -725,26 +816,26 @@
             "notes": "หมายเหตุ",
             "print": "ดาวน์โหลดใบแจ้งหนี้",
             "if_you_would_like_to_change": "หากคุณต้องการเปลี่ยนแปลงการสมัครหรือข้อมูลการชำระเงินของคุณ โปรดไปที่การตั้งค่าการเรียกเก็บเงินของคุณ",
-            "ending_in": ""
+            "ending_in": "{card} ที่ลงท้ายด้วย {number}"
         },
         "bento": {
             "campaign_analytics_1": "แคมเปญ",
             "campaign_analytics_2": "การวิเคราะห์",
             "private_campaign_1": "ส่วนตัว",
             "private_campaign_2": "แคมเปญ",
-            "campaign_customization_1": "แคมเปญ",
-            "campaign_customization_2": "การปรับแต่ง",
-            "multiple_frames_1": "หลายเฟรม",
-            "multiple_frames_2": "ต่อแคมเปญ",
-            "use_twibbonize_without_ads_1": "ใช้ทวิบโบไนซ์",
-            "use_twibbonize_without_ads_2": "ไม่มีโฆษณา",
+            "campaign_customization_1": "",
+            "campaign_customization_2": "การปรับแต่งแคมเปญ",
+            "multiple_frames_1": "หลายเฟรมต่อแคมเปญ",
+            "multiple_frames_2": "",
+            "use_twibbonize_without_ads_1": "",
+            "use_twibbonize_without_ads_2": "ใช้ Twibbonize โดยไม่ต้องมีโฆษณา",
             "no_extra_features_1": "ไม่มีคุณสมบัติพิเศษ",
             "no_extra_features_2": "มีอยู่",
-            "remove_all_watermark_1": "ลบลายน้ำ",
-            "remove_all_watermark_2": "ผู้ใช้แคมเปญของคุณทั้งหมด",
-            "remove_own_watermark_1": "ลบลายน้ำ",
-            "on": "บน",
-            "remove_own_watermark_2": "บัญชีของคุณเอง",
+            "remove_all_watermark_1": "",
+            "remove_all_watermark_2": "ลบลายน้ำจากผู้ใช้แคมเปญทั้งหมดของคุณ",
+            "remove_own_watermark_1": "",
+            "on": "",
+            "remove_own_watermark_2": "ลบลายน้ำในบัญชีของคุณเอง",
             "extra_features": "คุณสมบัติพิเศษ"
         },
         "modal": {
@@ -771,6 +862,19 @@
             "answer_8": "คุณสามารถดาวน์โหลดใบแจ้งหนี้ได้โดยตรงจากบัญชี Twibbonize ของคุณ",
             "question_9": "ฉันจะขอความช่วยเหลือเกี่ยวกับการใช้งาน Twibbonize ได้ที่ไหน?",
             "answer_9": ""
+        },
+        "hero": {
+            "pricing": "ราคา",
+            "find_the_right_premium_plan": "ค้นหาแผนพรีเมียมที่เหมาะกับความต้องการของคุณ"
+        },
+        "card_premium_supporter": {
+            "subheading": "สำหรับผู้ที่ต้องการใช้ประโยชน์จาก Twibbonize ให้มากขึ้น"
+        },
+        "card_premium_creator": {
+            "subheading": "สำหรับผู้ที่ต้องการประสบการณ์ Twibbonize ขั้นสุดยอด"
+        },
+        "same_plan": {
+            "adjust_plan": "ปรับแผน"
         }
     },
     "page_profile": {
@@ -778,9 +882,9 @@
             "search_campaigns": "ค้นหาแคมเปญ",
             "no_campaigns": "ยังไม่มีแคมเปญ",
             "no_campaigns_details": "สร้างแคมเปญและแชร์เพื่อ twibbonize",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "คุณแน่ใจหรือว่าจะลบแคมเปญนี้?",
+            "delete_detail": "การลบ \" {title} \" จะมีผลถาวรและไม่สามารถยกเลิกได้",
+            "delete_campaign": "ลบแคมเปญ"
         },
         "posts": {
             "no_posts": "ยังไม่มีการโพสต์",
@@ -788,7 +892,7 @@
         },
         "collections": {
             "no_collections": "จัดระเบียบแคมเปญที่คุณชื่นชอบ",
-            "no_collections_details": "ในหน้าแคมเปญ เพียงคลิกปุ่มไอคอน {icon} เพื่อบันทึกแคมเปญที่คุณสนใจลงในคอลเล็กชันของคุณเอง"
+            "no_collections_details": "คลิกที่ไอคอน {icon} บนแคมเปญใดก็ได้เพื่อบันทึกแคมเปญลงในคอลเลกชันของคุณ"
         },
         "about": {
             "about": "เกี่ยวกับ",
@@ -798,6 +902,34 @@
             "joined": "เข้าร่วมตั้งแต่ {created}",
             "supporters": "ผู้สนับสนุน",
             "campaigns": "แคมเปญ"
+        },
+        "my_profile": {
+            "edit_profile": "แก้ไขโปรไฟล์",
+            "campaigns": "แคมเปญ",
+            "collections": "คอลเลกชัน",
+            "posts": "กระทู้"
+        },
+        "campaign_deletion": {
+            "are_you_sure": "คุณแน่ใจไหม?"
+        },
+        "campaign": {
+            "delete_campaign": "การลบ \" {campaign_name} \" จะมีผลถาวรและไม่สามารถยกเลิกได้.",
+            "confirm_delete_campaign": "ลบแคมเปญ"
+        },
+        "collection": {
+            "delete_collection": "คอลเลกชัน \" {collection_name} \" จะถูกลบอย่างถาวร.",
+            "confirm_delete_collection": "ลบคอลเลกชัน",
+            "delete_campaign": "แคมเปญ \" {campaign_name} \" จะถูกนำออกจากคอลเล็กชัน \" {collection_name} \" อย่างถาวร",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "เหตุใดคุณจึงรายงานโปรไฟล์นี้",
+            "abusive_harmful": "ไม่เหมาะสมหรือเป็นอันตราย",
+            "pretending_someone": "แกล้งทำเป็นคนอื่น",
+            "sensitive_content": "เนื้อหาที่ละเอียดอ่อน"
+        },
+        "account": {
+            "email_changed": "อีเมลของคุณมีการเปลี่ยนแปลงเมื่อเร็วๆ นี้ คุณจะอัปเดตได้อีกครั้งใน 90 วัน"
         }
     },
     "page_preference": {
@@ -841,55 +973,55 @@
             "adfree": "ไม่มีโฆษณา",
             "highquality": "คุณภาพสูง",
             "nowatermark": "ไม่มีลายน้ำ",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "จ่าย",
+            "are_you_sure_change": "คุณแน่ใจไหม?",
+            "active_after_subscription": "มันจะใช้งานได้เมื่อการสมัครสมาชิกปัจจุบันของคุณสิ้นสุดลง",
+            "are_you_sure_upgrade": "คุณแน่ใจหรือไม่ว่าต้องการอัปเกรด",
+            "plan_changing_info": "เปลี่ยนเป็น {package} ที่ได้รับ แผนใหม่เริ่มต้นหลังจากแผนปัจจุบันสิ้นสุดลง",
+            "active_after_payment": "มันจะใช้งานได้เมื่อคุณชำระเงินเสร็จแล้ว",
+            "are_you_sure_downgrade": "คุณแน่ใจหรือไม่ว่าต้องการดาวน์เกรดแผน",
+            "plan_downgrade_info": "ได้รับดาวน์เกรดเป็น {package} แล้ว แผนใหม่เริ่มต้นหลังจากแผนปัจจุบันสิ้นสุดลง",
+            "renew_plan": "ต่ออายุแผน",
+            "renew_subscription": "ต่ออายุการสมัครสมาชิก",
+            "upgrade_now": "อัพเกรดเดี๋ยวนี้",
+            "warning": "คำเตือน!",
+            "important": "สำคัญ!",
+            "premium_expired": "แผน Premium Creator ของคุณหมดอายุแล้ว กรุณาต่ออายุภายใน {date}",
+            "last_attempted": "การเรียกเก็บเงินครั้งล่าสุดของเราไม่ประสบผลสำเร็จ โปรดอัปเดตวิธีการชำระเงินของคุณ",
+            "renewal_date": "วันที่ต่ออายุ",
+            "payment_method": "วิธีการชำระเงิน",
+            "update_now": "อัปเดตทันที",
+            "cancel_subscription": "ยกเลิกการสมัครสมาชิก",
+            "change_payment_method": "เปลี่ยนวิธีการชำระเงิน",
+            "card_end_with": "{card} ที่ลงท้ายด้วย {number}",
+            "no_transactions": "ยังไม่มีประวัติการทำธุรกรรม",
+            "transactions_will_shown": "ประวัติการทำธุรกรรมของคุณจะแสดงที่นี่เมื่อพร้อมใช้งาน",
+            "are_you_sure": "คุณแน่ใจไหม?",
+            "once_cancel_plan": "เมื่อคุณยกเลิกแผน คุณจะสูญเสียการเข้าถึงคุณลักษณะที่อัปเกรดทั้งหมดเมื่อสิ้นสุดรอบการเรียกเก็บเงิน",
+            "yes_cancel_plan": "ใช่ ยกเลิกแผน",
+            "no_keep_plan": "ไม่ เก็บแผนไว้",
+            "once_renew_plan": "เมื่อคุณต่ออายุแผน แผนของคุณจะกลับมาใช้งานได้อีกครั้ง",
+            "yes_renew_plan": "ใช่ ต่ออายุแผน",
+            "no_cancel": "ไม่ ยกเลิก",
+            "if_cancel_downgrade": "หากคุณยกเลิกการดาวน์เกรด แผนปัจจุบันของคุณจะกลับมาใช้งานได้อีกครั้ง",
+            "yes_downgrade": "ใช่ ดาวน์เกรดต่อไป",
+            "if_cancel_change_billing": "หากคุณยกเลิกการเปลี่ยนแปลงการเรียกเก็บเงิน แผนปัจจุบันของคุณจะใช้งานได้อีกครั้ง",
+            "yes_continue": "ใช่ ดำเนินการต่อ",
+            "info": "ข้อมูล",
+            "your_request_cancel": "ได้รับคำขอยกเลิกแผน {plan} ของคุณแล้ว จะสิ้นสุดในรอบบิลถัดไป",
+            "your_request_downgrade": "ได้รับคำขอของคุณที่จะดาวน์เกรดเป็น {plan} แล้ว แผนใหม่ของคุณจะเปิดใช้งานเมื่อแผนปัจจุบันสิ้นสุดลง",
+            "cancel_downgrade": "ยกเลิกการดาวน์เกรด",
+            "cancel_change": "ยกเลิก เปลี่ยนแปลงการเรียกเก็บเงิน",
+            "your_request_billing": "ได้รับคำขอของคุณเพื่อเปลี่ยนการเรียกเก็บเงินเป็น {plan} แล้ว แผนใหม่ของคุณจะเปิดใช้งานเมื่อแผนปัจจุบันสิ้นสุดลง",
+            "manage_inapp": "จัดการการสมัครสมาชิกของคุณบนแอป Twibbonize {appOs}",
+            "manage_inapp_subscription": "หากต้องการจัดการการสมัครสมาชิก Twibbonize บน {appOs} ให้เปิดแอป ไปที่ 'การตั้งค่า' และเลือก 'การเรียกเก็บเงิน'",
+            "success_cancel_subscription": "สำเร็จ ยกเลิกการสมัครสมาชิก",
+            "success_renew_subscription": "ต่ออายุการสมัครสมาชิกสำเร็จ",
+            "success_change_subscription": "ความสำเร็จในการเปลี่ยนแปลงการสมัครสมาชิก",
+            "success_cancel_change_subscription": "สำเร็จ ยกเลิก เปลี่ยนการสมัครสมาชิก",
+            "last_attempted_authentication": "การเรียกเก็บเงินครั้งล่าสุดของเราไม่ประสบผลสำเร็จ การชำระเงินของคุณต้องมีการตรวจสอบสิทธิ์",
+            "authenticate_now": "ตรวจสอบสิทธิ์ทันที",
+            "recurring_payment": "เราต้องการการยืนยันที่ชัดเจนสำหรับการชำระเงินที่เกิดขึ้นประจำของคุณ กรุณาตรวจสอบอีเมลของคุณ"
         },
         "account": {
             "update_email": "อัพเดทอีเมล์",
@@ -919,19 +1051,19 @@
             "confirm_password": "ยืนยันรหัสผ่าน",
             "create_new_password": "สร้างรหัสผ่านใหม่",
             "make_it_easy": "ทำให้ง่ายต่อการจดจำและเก็บเป็นความลับไม่ให้ใครเห็น!",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "เพิ่มอีเมล",
+            "add_password": "เพิ่มรหัสผ่าน",
+            "cant_remove_account": "อ๊ะ เราไม่สามารถลบบัญชีโซเชียลมีเดียของคุณได้",
+            "set_up_email": "คุณต้องตั้งค่าอีเมลหรือรหัสผ่านก่อนเพื่อลบบัญชีโซเชียลมีเดียของคุณ",
+            "want_to_remove": "ต้องการลบบัญชีโซเชียลมีเดียของคุณหรือไม่?",
+            "your_account_will_be_removed": "บัญชี {provider} ของคุณจะถูกลบออก คลิกเข้าใจเพื่อลบบัญชีโซเชียลมีเดียของคุณ",
+            "continue_to_revoke": "ดำเนินการเพิกถอนต่อไป ",
+            "revoke_success": "สำเร็จการเพิกถอนบัญชี {provider}",
+            "cannot_update_email": "อ๊ะ เราไม่สามารถอัปเดตอีเมลของคุณได้",
+            "setup_password_to_update_email": "คุณต้องตั้งรหัสผ่านก่อนที่จะอัพเดตอีเมลของคุณ",
+            "email_change_request": "คำขอเปลี่ยนอีเมลถูกยกเลิก",
+            "we_have_sent_password": "เราได้ส่งคำแนะนำในการรีเซ็ตรหัสผ่านไปยังอีเมลของคุณแล้ว โปรดรีเซ็ตรหัสผ่านของคุณภายใน 1 ชั่วโมงเพื่อความปลอดภัย",
+            "go_to_homepage": "ไปที่หน้าแรก"
         },
         "notifications": {
             "notifications_settings": "การตั้งค่าการแจ้งเตือน",
@@ -949,10 +1081,10 @@
             "article": "บทความ",
             "article_details": "คุณจะได้รับบทความแนะนำของเรา",
             "toggle_all": "ทั้งหมด",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "โพสต์ไปที่ Twibbonize",
+            "post_twibbonize_details": "รับการแจ้งเตือนโพสต์ของผู้สนับสนุนในหน้าแคมเปญ",
+            "account_recap": "สรุปบัญชี",
+            "account_recap_details": "สรุปผู้สนับสนุนและการเข้าชมรายสัปดาห์สำหรับแคมเปญทั้งหมดของคุณ"
         },
         "package": {
             "free": "ฟรี",
@@ -1231,7 +1363,6 @@
         },
         "graph": {
             "page": "หน้า {currentPage} จาก {totalPage}",
-            "data_displayed": "ข้อมูลที่แสดงในเขตเวลา UTC (UTC+0)",
             "trend": "แนวโน้ม",
             "country": "ประเทศ",
             "city": "เมือง",
@@ -1244,7 +1375,8 @@
             "visit": "เยี่ยม",
             "visit_detail": "จำนวนเซสชันการเรียกดูครั้งเดียวที่เข้าชมหน้าแคมเปญของคุณ",
             "unique_visit": "การเยี่ยมชมที่ไม่ซ้ำใคร",
-            "unique_visit_detail": "จำนวนผู้ที่เข้าชมหน้าแคมเปญของคุณ"
+            "unique_visit_detail": "จำนวนผู้ที่เข้าชมหน้าแคมเปญของคุณ",
+            "data_displayed": "ข้อมูลที่แสดงในเขตเวลา UTC+0"
         }
     },
     "page_account": {
@@ -1252,8 +1384,6 @@
             "email": "อีเมล",
             "password": "รหัสผ่าน",
             "confirm_password": "ยืนยันรหัสผ่าน",
-            "login_with_google": "เข้าสู่ระบบด้วย Google",
-            "login_with_facebook": "เข้าสู่ระบบด้วย Facebook",
             "login_with_email": "หรือเข้าสู่ระบบด้วยอีเมล์",
             "signup_with_google": "ลงทะเบียนกับ Google",
             "signup_with_facebook": "ลงทะเบียนด้วย Facebook",
@@ -1266,7 +1396,9 @@
             "signup": "ลงชื่อ",
             "terms": "เงื่อนไข",
             "privacy": "นโยบายความเป็นส่วนตัว",
-            "name": ""
+            "name": "ชื่อ",
+            "login_with_facebook": "เข้าสู่ระบบด้วย Facebook",
+            "login_with_google": "เข้าสู่ระบบด้วย Google"
         }
     },
     "page_article": {
@@ -1275,97 +1407,398 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "เข้าสู่ระบบเพื่อโพสต์ไปที่ Twibbonize",
+        "sign_in_to_comment": "เข้าสู่ระบบเพื่อแสดงความคิดเห็น",
+        "sign_in_to_like": "เข้าสู่ระบบเพื่อกดไลค์",
+        "sign_up_to_post": "ลงทะเบียนเพื่อโพสต์ไปที่ Twibbonize",
+        "sign_up_to_comment": "ลงทะเบียนเพื่อแสดงความคิดเห็น",
+        "sign_up_to_like": "ลงทะเบียนเพื่อกดไลค์",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "เข้าสู่ระบบสำเร็จ! ยินดีต้อนรับกลับ.",
+                "error": "เข้าสู่ระบบล้มเหลว โปรดตรวจสอบข้อมูลประจำตัวของคุณแล้วลองอีกครั้ง"
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "ลงทะเบียนสำเร็จ! ยินดีต้อนรับบนเรือ",
+                "error": "ลงทะเบียนล้มเหลว. โปรดตรวจสอบรายละเอียดของคุณแล้วลองอีกครั้ง"
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "อีเมล์ที่ลงทะเบียนแล้ว",
+        "email_registered_lead": "อีเมลนี้ลงทะเบียนแล้ว คุณต้องการเข้าสู่ระบบแทนหรือไม่?",
+        "sign_in_to_create_campaign": "",
+        "sign_up_to_create_campaign": ""
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "ยืนยันการลบ",
+            "delete_lead": "คุณแน่ใจหรือไม่ว่าต้องการลบโพสต์นี้? การดำเนินการนี้ไม่สามารถยกเลิกได้",
+            "delete_yes": "ใช่ ลบ",
+            "delete_no": "ยกเลิก"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "แบ่งปันข้อความของคุณ",
+            "logged_in_placeholder": "แสดงความคิดเห็นใน {name}",
+            "comment_posted": "โพสต์ความคิดเห็นแล้ว",
+            "comment_deleted": "ลบความคิดเห็นแล้ว",
+            "reply_deleted": "ลบคำตอบแล้ว"
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "อัพโหลดโพสต์แล้ว",
+            "hidden": "ที่ซ่อนอยู่",
+            "unhidden": "ไม่ได้ซ่อน",
+            "reported": "รายงานแล้ว",
+            "deleted": "ลบแล้ว",
+            "pinned": "ปักหมุดแล้ว",
+            "unpinned": "เลิกปักหมุดแล้ว"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "รายงานแคมเปญ",
+        "report_profile": "รายงานโปรไฟล์",
+        "abusive_or_harmful": "ไม่เหมาะสมหรือเป็นอันตราย",
+        "pretending_to_be_someone_else": "แกล้งทำเป็นคนอื่น",
+        "sensitive_content": "เนื้อหาที่ละเอียดอ่อน",
+        "plagiarism": "การลอกเลียนแบบ",
+        "impersonation": "การแอบอ้างบุคคลอื่น",
+        "piracy": "การละเมิดลิขสิทธิ์",
+        "nudity_pornography": "ภาพเปลือยและภาพอนาจาร",
+        "dangerous_or_harmful": "เป็นอันตรายหรือเป็นอันตราย",
+        "harassment_cyberbullying": "การล่วงละเมิดและการกลั่นแกล้งบนอินเทอร์เน็ต",
+        "provocative_threatening_content": "เนื้อหาที่ยั่วยุและคุกคาม",
+        "privacy_violations": "การละเมิดความเป็นส่วนตัว",
+        "unauthorized_use_of_personal_information": "การใช้ข้อมูลส่วนบุคคลโดยไม่ได้รับอนุญาต",
+        "child_exploitation": "การแสวงประโยชน์จากเด็ก",
+        "harassment": "การล่วงละเมิด",
+        "terrorism": "การก่อการร้าย",
+        "violence": "ความรุนแรง",
+        "false_information": "ข้อมูลเท็จ",
+        "health": "สุขภาพ",
+        "politics": "การเมือง",
+        "social_issue": "ปัญหาทางสังคม",
+        "hate_speech": "คำพูดแสดงความเกลียดชัง",
+        "disability_or_disease": "ความพิการหรือโรคภัยไข้เจ็บ",
+        "race_or_ethnicity": "เชื้อชาติหรือชาติพันธุ์",
+        "religious_affiliation": "สังกัดศาสนา",
+        "sexual_orientation": "รสนิยมทางเพศ",
+        "nudity": "ภาพเปลือย",
+        "suicide_or_self_harm": "การฆ่าตัวตายหรือการทำร้ายตนเอง",
+        "vulgar_language": "ภาษาหยาบคาย",
+        "dangerous_content": "เนื้อหาที่เป็นอันตราย",
+        "why_report_campaign": "เหตุใดคุณจึงรายงานแคมเปญนี้",
+        "why_report_profile": "เหตุใดคุณจึงรายงานโปรไฟล์นี้",
+        "why_report_submission": "เหตุใดคุณจึงรายงานการส่งนี้",
+        "why_report_comment_reply": "เหตุใดคุณจึงรายงานความคิดเห็นนี้",
+        "why_report_collection": "เหตุใดคุณจึงรายงานคอลเล็กชันนี้",
+        "select_one": "โปรดเลือกหนึ่งรายการ",
+        "protect_privacy_reporter": "แนวทางปฏิบัติของชุมชน Twibbonize ปกป้องความเป็นส่วนตัวของตัวตนของผู้รายงาน",
+        "tell_us_more": "บอกเราเพิ่มเติม",
+        "received_report": "เราได้รับรายงานของคุณแล้ว!",
+        "thankyou": "ขอบคุณ! โปรดอนุญาตให้เราตรวจสอบรายงานของคุณ และเราจะส่งข้อเสนอแนะไปยังอีเมลของคุณโดยเร็วที่สุด",
+        "learn_more_about": "เรียนรู้เพิ่มเติมเกี่ยวกับ {link}",
+        "community_guideline": "แนวทางปฏิบัติของชุมชน Twibbonize",
+        "placeholder_write_here": "เขียนที่นี่",
+        "report_sent": "ส่งรายงานแล้ว"
+    },
+    "page_editor": {
+        "general": {
+            "template": "แม่แบบ",
+            "text": "ข้อความ",
+            "shape": "รูปร่าง",
+            "image": "ภาพ",
+            "graphic": "กราฟิก",
+            "upload": "ที่อัพโหลด",
+            "layer": "ชั้น",
+            "resize": "ปรับขนาด",
+            "save": "บันทึก",
+            "width": "ความกว้าง",
+            "height": "ความสูง",
+            "transparency": "ความโปร่งใส",
+            "line_weight": "น้ำหนักเส้น",
+            "align": "จัดตำแหน่ง",
+            "group": "กลุ่ม",
+            "ungroup": "ยกเลิกการจัดกลุ่ม",
+            "unlock": "ปลดล็อค",
+            "loading": "กำลังโหลด"
+        },
+        "text": {
+            "add_a_heading": "เพิ่มหัวเรื่อง",
+            "add_a_subheading": "เพิ่มหัวเรื่องย่อย",
+            "document_fonts": "แบบอักษรของเอกสาร",
+            "text_effect": "เอฟเฟกต์ข้อความ",
+            "effects": "ผลกระทบ",
+            "add_a_body_text": "เพิ่มข้อความเนื้อหาเล็กน้อย"
+        },
+        "shape": {
+            "arrow": "ลูกศร",
+            "shape": "รูปร่าง"
+        },
+        "upload": {
+            "upload_image": "อัพโหลดรูปภาพ",
+            "upload": "ที่อัพโหลด",
+            "type": "พิมพ์:",
+            "size": "ขนาด:",
+            "type_image": "JPG, PNG หรือ SVG",
+            "maximum_size": "สูงสุด 5 เมกะไบต์"
+        },
+        "toolbar": {
+            "copy": "สำเนา",
+            "paste": "แปะ",
+            "duplicate": "ทำซ้ำ",
+            "delete": "ลบ",
+            "layer": "ชั้น",
+            "bring_forward": "นำไปสู่",
+            "bring_to_front": "นำมาไว้ข้างหน้า",
+            "send_backward": "ส่งกลับ",
+            "send_to_back": "ส่งกลับ",
+            "show_layers": "แสดงเลเยอร์",
+            "left": "ซ้าย",
+            "center": "ศูนย์",
+            "right": "ขวา",
+            "top": "สูงสุด",
+            "middle": "กลาง",
+            "bottom": "ด้านล่าง",
+            "set_as_text_template": "ตั้งเป็นเทมเพลตข้อความ",
+            "set_as_background_image": "ตั้งเป็นภาพพื้นหลัง",
+            "lock": "ล็อค",
+            "letter_spacing": "การเว้นวรรคจดหมาย",
+            "line_spacing": "ระยะห่างระหว่างบรรทัด",
+            "border_weight": "น้ำหนักเส้นขอบ",
+            "align": "จัดตำแหน่ง",
+            "effects": "ผลกระทบ"
+        },
+        "confirmation": {
+            "cancel": "ยกเลิก",
+            "save": "บันทึก",
+            "has_your_frame_been_completed": "เฟรมของคุณเสร็จสมบูรณ์แล้วหรือยัง?",
+            "once_it_save": "เมื่อบันทึกแล้ว การแก้ไขจะไม่สามารถใช้ได้อีกต่อไป"
+        },
+        "image": {
+            "image_template": "ภาพถ่ายโดย {name} ",
+            "image_template_1": "บน",
+            "edit_image": "แก้ไขรูปภาพ",
+            "image_template_2": "Unsplash"
+        },
+        "error": {
+            "minimum_dimension": "ขนาดต้องมีอย่างน้อย 100px และไม่เกิน 8000px"
+        },
+        "text_effect": {
+            "style": "สไตล์",
+            "none": "ไม่มี",
+            "shadow": "เงา",
+            "text_effects": "ผลกระทบ",
+            "lift": "ยก",
+            "offset": "ออฟเซ็ต",
+            "direction": "ทิศทาง",
+            "blur": "เบลอ",
+            "transparency": "ความโปร่งใส",
+            "color": "สี",
+            "thickness": "ความหนา"
+        },
+        "colors": {
+            "colors": "สี",
+            "document_colors": "สีของเอกสาร",
+            "default_colors": "สีเริ่มต้น"
+        }
+    },
+    "page__campaign_creation": {
+        "campaign_preview": {
+            "campaign_description": "คำอธิบายแคมเปญ",
+            "campaign_title": "ชื่อแคมเปญ"
+        }
+    },
+    "page_my_campaign": {
+        "edit_campaign": {
+            "campaigns": "แคมเปญ",
+            "frames": "เฟรม",
+            "analytics": "การวิเคราะห์"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "เหตุใดคุณจึงรายงานโพสต์นี้",
+            "plagiarism ": "การลอกเลียนแบบ",
+            "impersonation ": "การแอบอ้างบุคคลอื่น ",
+            "piracy ": "การละเมิดลิขสิทธิ์",
+            "vulgar_language": "ภาษาหยาบคาย",
+            "nudity_pornography": "ภาพเปลือยและภาพอนาจาร",
+            "suicidal_self_harm": "เนื้อหาเกี่ยวกับการฆ่าตัวตายและการทำร้ายตนเอง ",
+            "danger": "เป็นอันตรายหรือเป็นอันตราย ",
+            "violent_graphic_content": "เนื้อหากราฟิกที่มีความรุนแรง",
+            "harassment_cyberbullying": "การล่วงละเมิดและการกลั่นแกล้งบนอินเทอร์เน็ต ",
+            "provocative_threatening_content": "เนื้อหาที่ยั่วยุและคุกคาม",
+            "spam": "สแปม"
+        },
+        "report_comment": {
+            "title": "เหตุใดคุณจึงรายงานความคิดเห็นนี้",
+            "abusive_harmful": "ไม่เหมาะสมหรือเป็นอันตราย",
+            "harassment": "การล่วงละเมิด",
+            "terrorism": "การก่อการร้าย",
+            "violence": "ความรุนแรง",
+            "false_information": "",
+            "health": "สุขภาพ",
+            "politics": "การเมือง",
+            "social_issue": "ปัญหาทางสังคม",
+            "sensitive_content": "เนื้อหาที่ละเอียดอ่อน ",
+            "nudity": "ภาพเปลือย",
+            "vulgar_language": "ภาษาหยาบคาย",
+            "hate_speech": "คำพูดแสดงความเกลียดชัง",
+            "disability_disease": "ความพิการหรือโรค",
+            "race_or_ethnicity": "เชื้อชาติหรือชาติพันธุ์",
+            "religious_affiliation": "สังกัดศาสนา ",
+            "sexual_orientation": "รสนิยมทางเพศ",
+            "spam": "สแปม"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "URL ไม่ถูกต้อง"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "ไม่สามารถเข้าสู่ระบบ Google ได้",
+        "failed_apple_login": "ไม่สามารถเข้าสู่ระบบ Apple ได้"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "ไฟล์รูปภาพมีขนาดเกินขนาดสูงสุด 5MB",
+            "cannot_create_twibbon": "ไม่สามารถสร้างทวิบบอนได้ ลองอีกครั้ง"
+        },
+        "log_in": {
+            "complete_verification": "ดำเนินการยืนยันให้เสร็จสิ้นเพื่อดำเนินการต่อ",
+            "email_no_password": "อีเมลนี้ไม่มีรหัสผ่าน เข้าสู่ระบบผ่าน Google",
+            "social_media_already_registered": "อีเมลของบัญชีโซเชียลมีเดียของคุณลงทะเบียนแล้วและเชื่อมต่อกับบัญชีอื่นจากบริการโซเชียลมีเดียที่คล้ายกัน โปรดลองเข้าสู่ระบบโดยใช้แบบฟอร์มอีเมลและรหัสผ่าน"
+        },
+        "sign_up": {
+            "email_already_registered": "อีเมลนี้ลงทะเบียนแล้ว ใช้อีเมลอื่นหรือลองลงชื่อเข้าใช้",
+            "password_minimum_required": "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร",
+            "password_character_exceeded": "รหัสผ่านต้องไม่เกิน 128 ตัวอักษร",
+            "password_must_be_standard": "รหัสผ่านต้องเป็นตัวอักษรและตัวเลขมาตรฐาน",
+            "password_does_not_match": "การยืนยันรหัสผ่านไม่ตรงกัน ลองอีกครั้ง"
+        },
+        "verification": {
+            "code_incorrect": "รหัสไม่ถูกต้อง ลองอีกครั้ง",
+            "code_expired": "รหัสหมดอายุแล้ว ขออันใหม่ครับ",
+            "maximum_attempt_reached": "ถึงความพยายามสูงสุดแล้ว โปรดลองอีกครั้งใน 5 ชั่วโมง",
+            "code_requested_exceeded": "คำขอรหัสเกินขีดจำกัดสูงสุด"
+        },
+        "forgot_password": {
+            "email_not_found": "ไม่พบอีเมล ลองอีกครั้งหรือลงทะเบียน",
+            "link_expired": "ลิงค์เปลี่ยนรหัสผ่านหมดอายุแล้ว ขออันใหม่ครับ",
+            "link_used": "ลิงค์เปลี่ยนรหัสผ่านถูกใช้แล้ว ขออันใหม่ครับ"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "ไฟล์เฟรมมีขนาดเกินขนาดสูงสุด 5MB",
+            "background_file_exceed": "ไฟล์พื้นหลังมีขนาดเกินขนาดสูงสุด 5MB",
+            "image_not_transparent": "รูปภาพจะต้องโปร่งใส ลองอีกครั้ง",
+            "invalid_format": "รูปแบบไฟล์ไม่ถูกต้อง ใช้รูปแบบที่รองรับ",
+            "allow_only_1_frame": "บัญชีฟรีอนุญาตให้อัปโหลดได้เพียง 1 เฟรมเท่านั้น อัปเกรดเพื่อดำเนินการต่อ",
+            "allow_only_1_background": "บัญชีฟรีอนุญาตให้อัปโหลดพื้นหลังได้เพียง 1 ครั้งเท่านั้น อัปเกรดเพื่อดำเนินการต่อ",
+            "campaign_title_exceed_limit": "ชื่อแคมเปญเกินจำนวนอักขระสูงสุด",
+            "description_exceed_limit": "คำอธิบายมีอักขระเกินขีดจำกัดสูงสุด",
+            "link_unavailable": "ลิงก์แคมเปญมีการใช้งานแล้ว เลือกอันอื่น",
+            "link_criteria": "ลิงก์แคมเปญต้องเป็นตัวอักษรและตัวเลขและขีดกลาง (-)",
+            "caption_exceed_limit": "เทมเพลตคำบรรยายมีอักขระเกินจำนวนสูงสุด",
+            "background_exceed_limit": "ไฟล์พื้นหลังมีขนาดเกินขนาดสูงสุด 5MB",
+            "photo_exceed_limit": "ไฟล์ภาพขนาดย่อมีขนาดเกินขนาดสูงสุด 5MB",
+            "link_exceed_limit": "ลิงก์แคมเปญเกินจำนวนอักขระสูงสุด"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "ไฟล์เฟรมมีขนาดเกินขนาดสูงสุด 5MB",
+            "background_file_exceed": "ไฟล์พื้นหลังมีขนาดเกินขนาดสูงสุด 5MB"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "รูปภาพจะต้องโปร่งใส ลองอีกครั้ง",
+            "invalid_format": "รูปแบบไฟล์ไม่ถูกต้อง ใช้รูปแบบที่รองรับ",
+            "allow_only_1_frame": "บัญชีฟรีอนุญาตให้อัปโหลดได้เพียง 1 เฟรมเท่านั้น อัปเกรดเพื่อดำเนินการต่อ",
+            "allow_only_1_background": "บัญชีฟรีอนุญาตให้อัปโหลดพื้นหลังได้เพียง 1 ครั้งเท่านั้น อัปเกรดเพื่อดำเนินการต่อ",
+            "campaign_title_exceed_limit": "ชื่อแคมเปญเกินจำนวนอักขระสูงสุด",
+            "description_exceed_limit": "คำอธิบายมีอักขระเกินขีดจำกัดสูงสุด",
+            "link_unavailable": "ลิงก์แคมเปญมีการใช้งานแล้ว เลือกอันอื่น",
+            "link_criteria": "ลิงก์แคมเปญต้องเป็นตัวอักษรและตัวเลขและขีดกลาง (-)",
+            "link_exceed_limit": "ลิงก์แคมเปญเกินจำนวนอักขระสูงสุด",
+            "caption_exceed_limit": "เทมเพลตคำบรรยายมีอักขระเกินจำนวนสูงสุด",
+            "background_exceed_limit": "ไฟล์พื้นหลังมีขนาดเกินขนาดสูงสุด 5MB",
+            "thumbnail_exceeds": "ไฟล์ภาพขนาดย่อมีขนาดเกินขนาดสูงสุด 5MB"
+        },
+        "settings": {
+            "profile_image_exceed": "รูปโปรไฟล์มีขนาดเกินขีดจำกัดสูงสุด 5MB",
+            "background_image_exceed": "ภาพพื้นหลังเกินขนาดสูงสุด 5MB",
+            "username_unavailable": "ชื่อนี้มีผู้ใช้แล้ว. ลองอันอื่น",
+            "username_exceed_limit": "ชื่อผู้ใช้เกินจำนวนอักขระสูงสุด",
+            "username_invalid": "ชื่อผู้ใช้ไม่ถูกต้อง ลองอีกครั้งด้วยรูปแบบที่ถูกต้อง",
+            "display_exceed_limit": "ชื่อที่แสดงเกินขีดจำกัดอักขระสูงสุด",
+            "bio_exceed_limit": "Bio มีอักขระเกินจำนวนสูงสุดที่กำหนด",
+            "email_already_registered": "อีเมล์ที่ลงทะเบียนไว้แล้ว ลองอันอื่น",
+            "password_incorrect": "รหัสผ่านไม่ถูกต้อง. ลองอีกครั้ง",
+            "password_minimum_character": "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร",
+            "password_maximum_character": "รหัสผ่านต้องไม่เกิน 128 ตัวอักษร",
+            "password_standard_format": "รหัสผ่านจะต้องเป็นไปตามรูปแบบมาตรฐานตัวอักษรและตัวเลข",
+            "account_deleted": "ลบบัญชีแล้ว",
+            "account_integrated": "รวมบัญชีแล้ว",
+            "account_revoked": "บัญชีถูกเพิกถอน"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "ส่วน \"บอกเราเพิ่มเติม\" เกินจำนวนอักขระสูงสุดที่กำหนด"
+        },
+        "general": {
+            "something_went_wrong": "บางอย่างผิดพลาด"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "จำนวนแคมเปญที่เพิ่มเกินขีดจำกัดสูงสุด",
+            "description_exceeds": "คำอธิบายมีอักขระเกินขีดจำกัดสูงสุด",
+            "title_exceeds": "ชื่อคอลเลกชันเกินจำนวนอักขระสูงสุด"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "คัดลอกลิงก์แล้ว",
+            "social_media_already_linked": "บัญชีโซเชียลมีเดียเชื่อมโยงกับบัญชี Twibbonize อื่นแล้ว ลองอันอื่น"
+        },
+        "campaign_creation": {
+            "link_available": "ลิงค์สามารถใช้ได้"
+        },
+        "campaign_edit": {
+            "link_available": "ลิงค์สามารถใช้ได้"
+        },
+        "settings": {
+            "photo_updated": "อัปเดตรูปภาพแล้ว",
+            "banner_updated": "อัปเดตแบนเนอร์แล้ว",
+            "banner_deleted": "ลบแบนเนอร์แล้ว",
+            "photo_deleted": "ลบรูปภาพแล้ว",
+            "password_updated": "อัปเดตรหัสผ่านแล้ว",
+            "email_updated": "อัปเดตอีเมลแล้ว"
+        },
+        "my_profile": {
+            "campaign_deleted": "ลบแคมเปญแล้ว"
+        },
+        "collection": {
+            "campaign_added": "เพิ่มแคมเปญแล้ว"
+        },
+        "campaign_page": {
+            "account_upgraded": "อัปเกรดบัญชีแล้ว",
+            "link_copied": "คัดลอกลิงก์แล้ว"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "ไม่พบอีเมล ลองอีกครั้งหรือลงทะเบียน"
+        },
+        "password": {
+            "password_incorrect": "รหัสผ่านไม่ถูกต้อง. ลองอีกครั้ง"
+        },
+        "maximum_attempt": "ถึงความพยายามสูงสุดแล้ว โปรดลองอีกครั้งใน 1 ชั่วโมง"
+    },
+    "page_notification": {
+        "no_notification_heading": "ยังไม่มีการแจ้งเตือน",
+        "no_notification_subheading": "ไม่มีการแจ้งเตือนในขณะนี้"
+    },
+    "page_general": {
+        "no_internet_connection": "ไม่มีการเชื่อมต่ออินเทอร์เน็ต. แตะเพื่อลองใหม่",
+        "could_not_connect_internet": "ไม่สามารถเชื่อมต่ออินเทอร์เน็ตได้ เปลี่ยนไปใช้เครือข่ายอื่นแล้วลองอีกครั้ง"
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "ออกจากระบบ?"
+        }
     }
 }

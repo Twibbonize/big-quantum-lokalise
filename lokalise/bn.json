@@ -35,7 +35,7 @@
             "terms": "শর্তাবলী",
             "privacy_policy": "গোপনীয়তা নীতি",
             "cookie_policy": "কুকি নীতি",
-            "sitemap": ""
+            "sitemap": "সাইট ম্যাপ"
         },
         "menu": {
             "explore": "অন্বেষণ",
@@ -47,11 +47,6 @@
             "sign_in": "সাইন ইন করুন",
             "sign_up": "নিবন্ধন করুন",
             "sign_out": "সাইন আউট"
-        },
-        "campaign": {
-            "supporters": "সমর্থক|সমর্থক",
-            "campaigns": "প্রচারণা",
-            "created": "তৈরি হয়েছে"
         },
         "button": {
             "view_all": "সব দেখ",
@@ -71,11 +66,12 @@
             "report": "রিপোর্ট করা",
             "edit": "সম্পাদনা করুন",
             "confirm": "নিশ্চিত করুন",
-            "okay": "",
-            "view": "",
-            "send": "",
-            "more": "",
-            "less": ""
+            "okay": "ঠিক আছে",
+            "view": "দেখুন",
+            "send": "পাঠান",
+            "more": "আরও",
+            "less": "কম",
+            "submit": "জমা দিন"
         },
         "time": {
             "week": "সপ্তাহ",
@@ -85,6 +81,11 @@
             "monthly": "মাসিক",
             "annual": "বার্ষিক",
             "yearly": "বার্ষিক"
+        },
+        "campaign": {
+            "campaigns": "প্রচারণা",
+            "created": "তৈরি হয়েছে",
+            "supporters": "সমর্থক|সমর্থক|সমর্থক"
         },
         "collection": {
             "collections": "সংগ্রহ",
@@ -108,8 +109,21 @@
             "hide_post": "পোস্ট লুকান",
             "post_shared": "{date} এ পোস্ট শেয়ার করা হয়েছে",
             "share_message": "আপনার বার্তা শেয়ার করুন",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "পোস্ট আনপিন করুন",
+            "unhide_post": "পোস্ট দেখান"
+        },
+        "pricing": {
+            "creator_subscribe_to": "এই স্রষ্টার সদস্যতা আছে",
+            "plan": "পরিকল্পনা",
+            "support_without_watermark": "জলছাপ ছাড়া যেকোনো প্রচারণায় তারা সমর্থন দিতে পারে!",
+            "all_supporters_without_watermark": "আপনি জলছাপ ছাড়া এই সৃষ্টিকর্তার প্রচারাভিযান সব সমর্থন করতে পারেন!"
+        },
+        "campaign_card": {
+            "a_month_ago": " |এক মাস আগে",
+            "a_day_ago": " |একদিন আগে"
+        },
+        "search": {
+            "searching": "অনুসন্ধান করা হচ্ছে..."
         }
     },
     "page_home": {
@@ -256,8 +270,8 @@
         "process": {
             "how_twibbonize_1": "কিভাবে Twibbonize বিপ্লব",
             "how_twibbonize_2": "টুইবন ক্যাম্পেইন",
-            "sharing_twibbon_1": "Twibbon ভাগ করা একটি জটিল প্রক্রিয়া হতে ব্যবহৃত আমরা এমনকি করছি",
-            "sharing_twibbon_2": "আপনাকে ব্যাখ্যা করতে ক্লান্ত।"
+            "sharing_twibbon_1": "Twibbon ভাগ করা একটি জটিল প্রক্রিয়া ছিল যা আমরা",
+            "sharing_twibbon_2": "আপনাকে ব্যাখ্যা করতে এমনকি খুব ক্লান্ত।"
         },
         "frame": {
             "twibbon_frame": "Twibbonize এ, Twibbon ফ্রেমের চেয়ে বেশি",
@@ -302,17 +316,18 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "এখনও কোন পোস্ট",
-            "be_the_first": "এখানে আপনার সমর্থন পোস্ট করতে প্রথম হন. আপনার ছবি আপলোড দিয়ে শুরু করুন!"
+            "uploading_your_photo": "আপনার ছবি আপলোড করা হচ্ছে!",
+            "start_with": "শুরু করা ",
+            "be_the_first": "এখানে আপনার সমর্থন পোস্ট করতে প্রথম হন."
         },
         "twibbon": {
             "choose_your_photo": "আপনার ছবি নির্বাচন করুন",
             "text": "পাঠ্য",
-            "download_successful": "ডাউনলোড সফল",
+            "download_successful": "ডাউনলোড সফল!",
             "photo_not_download": "ছবি ডাউনলোড হচ্ছে না?",
             "re_download": "পুনরায় ডাউনলোড করুন",
             "post_to_twibbonize": "Twibbonize পোস্ট করুন",
             "post_photo_to_twibbonize": "Twibbonize এই ফটো পোস্ট করুন",
-            "remove_watermark_for_you": "আপনার জন্য ওয়াটারমার্ক সরান",
             "upgrade_to_premium": "প্রিমিয়ামে আপগ্রেড করুন। {price} থেকে শুরু",
             "processing": "প্রক্রিয়াকরণ",
             "buy_premium": "Premium কিনুন",
@@ -327,17 +342,22 @@
             "download": "ডাউনলোড করুন",
             "reset": "রিসেট",
             "add_text": "টেক্সট যোগ করুন",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": ""
+            "posting_as": "হিসাবে পোস্ট করা ",
+            "not_you": "তুমি না? ",
+            "uploading_photo_to_remove": "আপনার ফটো আপলোড করা হচ্ছে এবং এর ব্যাকগ্রাউন্ড মুছে ফেলা হচ্ছে।",
+            "wait_for_moment": "এক মুহূর্তের জন্য অপেক্ষা করো...",
+            "remove_watermark_for_you_2": "এবং আপনার ছবি ওয়াটারমার্ক-মুক্ত উপভোগ করুন!",
+            "remove_watermark_for_you_1": "বিজ্ঞাপন ছাড়া Twibbonize অন্বেষণ করুন,",
+            "remove_watermark_for_you": "জলছাপ সরান!",
+            "blur": "ঝাপসা",
+            "shadow": "ছায়া",
+            "twibbon_success": "ডাউনলোড করা হয়েছে"
         },
         "report": {
             "report_campaign": "প্রচার প্রচারণা",
             "report_profile": "রিপোর্ট প্রোফাইল",
             "plagiarism": "চুরি",
             "sensitive": "সংবেদনশীল বিষয়বস্তু",
-            "danger": "বিপজ্জনক বিষয়বস্তু",
             "spam": "স্প্যাম",
             "why_report_campaign": "কেন আপনি এই ক্যাম্পেইন রিপোর্ট?",
             "protect_reporter": "Twibbonize সম্প্রদায় নির্দেশিকা রিপোর্টারের পরিচয় গোপনীয়তা রক্ষা করে.",
@@ -346,7 +366,21 @@
             "received_report": "আমরা আপনার রিপোর্ট পেয়েছি!",
             "thankyou": "ধন্যবাদ! অনুগ্রহ করে আমাদের আপনার প্রতিবেদন তদন্ত করার অনুমতি দিন, এবং আমরা যত তাড়াতাড়ি সম্ভব আপনার ইমেলে প্রতিক্রিয়া পাঠাব।",
             "learn_more_about": "{link} সম্পর্কে আরও জানুন।",
-            "community_guideline": "Twibbonize সম্প্রদায় নির্দেশিকা"
+            "community_guideline": "Twibbonize সম্প্রদায় নির্দেশিকা",
+            "title": "কেন আপনি এই প্রচারাভিযান রিপোর্ট করছেন?",
+            "danger": "বিপজ্জনক বা ক্ষতিকারক ",
+            "impersonation": "ছদ্মবেশ ",
+            "piracy": "জলদস্যুতা",
+            "vulgar_language": "অশ্লীল ভাষা",
+            "nudity_pornography": "নগ্নতা এবং পর্নোগ্রাফি",
+            "suicidal_self_harm": "আত্মঘাতী এবং আত্ম-ক্ষতিমূলক সামগ্রী ",
+            "violent_graphic_content": "হিংসাত্মক গ্রাফিক সামগ্রী",
+            "harassment_cyberbullying": "হয়রানি এবং সাইবার বুলিং",
+            "proactive_threatening_content": "উস্কানিমূলক এবং হুমকিমূলক বিষয়বস্তু",
+            "statement": "Twibbonize সম্প্রদায় নির্দেশিকা রিপোর্টারের পরিচয় গোপনীয়তা রক্ষা করে.",
+            "read_more_copy": "আরও পড়ুন",
+            "please_select_one": "অনুগ্রহপূর্বক একটা নির্বাচন করুন",
+            "write_a_message": "একটা বার্তা লিখুন"
         },
         "discard": {
             "discard_edit": "সম্পাদনা বাতিল করবেন?",
@@ -364,9 +398,10 @@
             "supporters": "সমর্থকরা",
             "interactions": "মিথস্ক্রিয়া",
             "visits": "ভিজিট",
-            "realtime_estimates": "রিয়েল-টাইম অনুমান",
             "last_month": "শেষ 30 দিন",
-            "see_more_analytics": "আরও বিশ্লেষণ দেখুন"
+            "see_more_analytics": "আরও বিশ্লেষণ দেখুন",
+            "realtime_estimates": "গত 30 দিনের রিয়েল-টাইম অনুমান",
+            "view_analytics": "বিশ্লেষণ দেখুন"
         },
         "pricing": {
             "no_thankyou": "না, ধন্যবাদ"
@@ -387,12 +422,37 @@
             "reply_as_user": "{user} হিসেবে উত্তর দিন"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "সেরা ফলাফলের জন্য নির্দেশিকা অনুসরণ করুন!",
+            "good_photo_examples": "ভালো ছবির উদাহরণ:",
+            "good_photo_caption": "ক্লোজ-আপ সেলফি, পোর্ট্রেট ছবি, পরিষ্কার মুখ",
+            "photos_avoid": "এড়ানোর জন্য ফটো:",
+            "bad_photo_caption": "পুরো শরীরের ছবি, গ্রুপ ফটো, পিছন থেকে ছবি",
+            "understand": "আমি বুঝেছি"
+        },
+        "post_to_twibbonize": {
+            "caption": "এই প্রচারণা সম্পর্কে একটি বার্তা লিখুন...",
+            "unpin_post": "পোস্ট আনপিন করুন"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "আপনার ছবি সামঞ্জস্য করুন"
+        },
+        "share_campaign": {
+            "or_share_to": "অথবা শেয়ার করুন",
+            "save_share": "সংরক্ষণ করুন এবং ভাগ করুন"
+        },
+        "post": {
+            "post_uploaded": "পোস্ট আপলোড করা হয়েছে",
+            "post_deleted": "পোস্ট মুছে ফেলা হয়েছে",
+            "post_failed_deleted": "পোস্ট ব্যর্থ হয়েছে, মুছে ফেলা হয়েছে"
+        },
+        "create_campaign": {
+            "custom_field": "কাস্টম ক্ষেত্র যোগ করুন"
+        },
+        "collection": {
+            "sign_up_add_collection": "সংগ্রহে যোগ করতে সাইন আপ করুন"
+        },
+        "posts": {
+            "has_no_posts": "এই ব্যবহারকারী Twibbonize এ কিছু পোস্ট করেনি"
         }
     },
     "page_checkout": {
@@ -401,7 +461,6 @@
             "account_update": "আপনার অ্যাকাউন্ট আপডেট করা হবে, সমস্ত নতুন বৈশিষ্ট্য আনলক করা হবে"
         },
         "checkout": {
-            "back_to_plans": "পরিকল্পনায় ফিরে যান",
             "upgrade_to": "{plan} -এ আপগ্রেড করুন",
             "gather_your_supports": "আপনার সমর্থকদের জড়ো করুন এবং আমাদের একচেটিয়া বৈশিষ্ট্যের সাথে আপনার ক্যাম্পেইন বাড়ান।",
             "billing_option": "বিলিং বিকল্প",
@@ -413,18 +472,19 @@
             "save": "সংরক্ষণ করুন {percentage} %",
             "pay": "পে {frequency}",
             "checkout_options": "চেকআউট বিকল্প",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "পরিকল্পনা সামঞ্জস্য করুন",
+            "current_plan": "বর্তমান পরিকল্পনা",
+            "downgrade": "ডাউনগ্রেড",
+            "current_plan_description": "আপনি এখন এই সদস্যতা সাবস্ক্রাইব করছেন",
+            "change_plan_description": "আপনি আপনার পরিকল্পনাকে {plan} এ পরিবর্তন করছেন, যা বর্তমান সদস্যতা শেষ হওয়ার পরে সক্রিয় হবে৷",
+            "downgrade_description": "আপনি আপনার পরিকল্পনাকে {plan} এ ডাউনগ্রেড করছেন, যা বর্তমান সদস্যতা শেষ হওয়ার পরে সক্রিয় হবে৷",
+            "change_plan_confirm": "তুমি কি নিশ্চিত?",
+            "upgrade_confirm": "আপনি কি নিশ্চিত আপগ্রেড করতে চান?",
+            "downgrade_confirm": "আপনি কি নিশ্চিত পরিকল্পনা ডাউনগ্রেড করতে চান?",
+            "change_plan_active": "আপনার বর্তমান সদস্যতা শেষ হয়ে গেলে এটি সক্রিয় হবে",
+            "upgrade_active": "আপনি পেমেন্ট সম্পূর্ণ করার পরে এটি সক্রিয় হবে",
+            "downgrade_active": "আপনার বর্তমান সদস্যতা শেষ হয়ে গেলে এটি সক্রিয় হবে",
+            "back_to_plans": "পেছনে"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -433,14 +493,14 @@
             "use_twibbonize_without_ads": "বিজ্ঞাপন ছাড়া Twibbonize ব্যবহার করুন",
             "exclusive_features": "আপনার ক্যাম্পেইনের জন্য একচেটিয়া বৈশিষ্ট্য",
             "remove_own_account": "আপনার নিজের অ্যাকাউন্টের জন্য ওয়াটারমার্ক সরান",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "সিলভার",
+            "gold": "সোনা",
+            "platinum": "প্লাটিনাম",
+            "watermark_title": "ওয়াটারমার্ক সরান",
+            "high_quality_image_title": "উচ্চ মানের ছবি",
+            "ad_free_title": "বিজ্ঞাপন মুক্ত",
+            "campaign_addon": "ক্যাম্পেইন অ্যাডন",
+            "on": "চালু"
         }
     },
     "page_collection": {
@@ -474,14 +534,15 @@
             "no_stay": "না, এই পৃষ্ঠায় থাকুন"
         },
         "dropzone": {
-            "upload_design": "এখানে আপনার নিজস্ব ডিজাইন আপলোড করুন",
             "type": "প্রকার:",
-            "imagetype": "ছবি\/পিএনজি",
             "size": "আকার:",
-            "max_file": "সর্বোচ্চ 5MB",
             "recommendation": "সুপারিশ:",
             "image_dimension": "1080x1080px",
-            "upload": "আপলোড করুন"
+            "upload": "আপলোড করুন",
+            "imagetype": "পিএনজি",
+            "max_file": "সর্বোচ্চ 5 এমবি",
+            "backgroundtype": "JPEG, PNG বা WEBP",
+            "upload_design": "এখানে আপনার নকশা আপলোড করুন"
         },
         "frame_editor": {
             "or_create": "অথবা এখন আপনার ফ্রেম তৈরি করুন",
@@ -498,7 +559,9 @@
             "no_transparent": "আপনার ছবিতে কোন স্বচ্ছ এলাকা সনাক্ত করা হয়নি",
             "no_hole_frame": "এর মানে হল আপনার ফ্রেমে কোন ছিদ্র নেই। প্রয়োজনীয় গর্ত দিতে; আপনি এই {link} অনুসরণ করতে পারেন",
             "help_center_article": "সহায়তা কেন্দ্র নিবন্ধ",
-            "understand": "আমি বুঝেছি"
+            "understand": "আমি বুঝেছি",
+            "width": "প্রস্থ",
+            "height": "উচ্চতা"
         },
         "form": {
             "please_fill_in": "অনুগ্রহ করে নীচের সমস্ত প্রয়োজনীয় ক্যাম্পেইনের ডেটা পূরণ করুন৷",
@@ -525,7 +588,8 @@
             "private_detail": "আপনার ক্যাম্পেইন শুধুমাত্র সেই ব্যক্তিদের দ্বারা অ্যাক্সেস করা যেতে পারে যাদের অ্যাক্সেস কোড আছে৷",
             "url_not_available": "URL উপলব্ধ নয়",
             "caption_placeholder": "হাই, আমার নাম [[আপনার নাম]], এবং আমি এই ক্যাম্পেইনকে সমর্থন করতে প্রস্তুত। আসুন একত্রিত হই এবং একসাথে এই প্রচারণার সাথে একটি বাস্তব প্রভাব ফেলি!",
-            "enter_description": "বর্ণনা লিখুন"
+            "enter_description": "বর্ণনা লিখুন",
+            "optional": "ঐচ্ছিক"
         },
         "customization": {
             "campaign_customization": "ক্যাম্পেইন কাস্টমাইজেশন",
@@ -548,9 +612,14 @@
             "go_back": "ফিরে যাও"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "ফ্রেম",
+            "campaigns": "প্রচারণা",
+            "analytics": "বিশ্লেষণ"
+        },
+        "blank_design": {
+            "suggested": "প্রস্তাবিত",
+            "instagram_story": "ইনস্টাগ্রামের গল্প",
+            "instagram_post": "ইনস্টাগ্রাম পোস্ট"
         }
     },
     "page_for_creators": {
@@ -560,8 +629,8 @@
             "purchase_now": "এখনই কিনুন",
             "learn_more": "আরও জানুন",
             "want_to_create": "বিনামূল্যে আপনার ক্যাম্পেইন তৈরি করতে চান?",
-            "try_now": "এখন চেষ্টা কর!",
-            "per": "প্রতি {time}"
+            "per": "প্রতি {time}",
+            "try_now": "এখন চেষ্টা কর!"
         },
         "features": {
             "remove_watermark": "আপনার ক্যাম্পেইন ব্যবহারকারীদের জন্য জলছাপ সরান",
@@ -591,10 +660,10 @@
         "frame": {
             "more_than_frames": "শুধু ফ্রেমের চেয়ে বেশি",
             "spice_up": "শুধুমাত্র একটি ফ্রেম নয়, সৃজনশীল ব্যাকগ্রাউন্ডের মাধ্যমেও আপনার অনলাইন ক্যাম্পেইনের খেলাকে মশলাদার করুন৷",
-            "frame_twibbon": "Twibbon ဘောင်",
             "the_og_twibbon": "অরিজিনাল টুইবন; একটি ফ্রেম যা আপনার ছবির উপর স্থাপন করা হয়েছে",
-            "backround_twibbon": "টুইবন পটভূমি",
-            "a_fresh_variation": "Twibbon এর একটি তাজা বৈচিত্র যা আপনার ছবির পটভূমি হিসাবে জাহির করে"
+            "a_fresh_variation": "Twibbon এর একটি তাজা বৈচিত্র যা আপনার ছবির পটভূমি হিসাবে জাহির করে",
+            "frame_twibbon": "ফ্রেম Twibbon",
+            "backround_twibbon": "পটভূমি Twibbon "
         },
         "tilt": {
             "get_it_ready": "আমাদের অন্তর্নির্মিত Twibbon Editor-এর সাথে যে কোনো সময় এটি প্রস্তুত করুন",
@@ -605,7 +674,25 @@
             "inspire_detail": "Twibbonize লিঙ্কগুলি কৌতূহলীদের আকর্ষণ করে, তাদের আপনার উদ্দেশ্যের দিকে টেনে আনে এবং আপনার প্রচারে আগ্রহ জাগিয়ে তোলে",
             "unite_detail": "আপনার Twibbonize পৃষ্ঠায় আপনার ক্যাম্পেইনের সমর্থক সম্প্রদায়কে আনুন; যেখানে সমর্থকরা সংযুক্ত হন এবং আপনি প্রভাব দেখতে পান!",
             "entertain_detail": "Twibbonize সোশ্যাল মিডিয়া এবং মেসেজিং এর জন্য একটি শেয়ারযোগ্য ভার্চুয়াল Twibbon প্রদান করে আপনার সমর্থকদের জড়িত করে।",
-            "grow_detail": "একটি Twibbonize ক্যাম্পেইনের সাথে আরও সমর্থন অর্জন করুন: এটি শুধুমাত্র মনোযোগই অর্জন করে না বরং একটি ব্যান্ডওয়াগন প্রভাবও তৈরি করে, ক্রমবর্ধমান শ্রোতাদের আকর্ষণ করে যারা আপনার উদ্দেশ্য মিস করতে চায় না।"
+            "grow_detail": "একটি Twibbonize ক্যাম্পেইনের সাথে আরও সমর্থন অর্জন করুন: এটি শুধুমাত্র মনোযোগই অর্জন করে না বরং একটি ব্যান্ডওয়াগন প্রভাবও তৈরি করে, ক্রমবর্ধমান শ্রোতাদের আকর্ষণ করে যারা আপনার উদ্দেশ্য মিস করতে চায় না।",
+            "inspire": "অনুপ্রাণিত করুন ",
+            "unite": "ঐক্যবদ্ধ",
+            "entertain": "বিনোদন",
+            "grow": "বৃদ্ধি"
+        },
+        "use_cases": {
+            "heading": "Twibbonize ব্যবহার করার জন্য ধারণা",
+            "subheading": "আমাদের 5,000,000+ Twibbonize প্রচারাভিযান থেকে হাতে বাছাই করা উদাহরণ দিয়ে আপনার অন্বেষণ শুরু করুন",
+            "corporate": "কর্পোরেট",
+            "corporate_title": "আপনার কর্মীদের এবং গ্রাহকদের প্রাচুর্যের শক্তি ব্যবহার করুন",
+            "education": "শিক্ষা",
+            "education_title": "এটা শেখার প্রক্রিয়া যোগ করার একটি মজার উপায়",
+            "event": "ঘটনা",
+            "events_title": "তাত্ক্ষণিক ভাইরালিটির শক্তি দিয়ে আপনার ইভেন্টকে হাইপ করুন"
+        },
+        "testimonials": {
+            "testimonials": "প্রশংসাপত্র",
+            "heading": "আপনি বিশ্বস্ত নাম দ্বারা বিশ্বস্ত"
         }
     },
     "page_explore": {
@@ -643,6 +730,10 @@
         "advisor": {
             "our_advisor": "আমাদের উপদেষ্টা",
             "proud_partner": "যারা আমাদের মিশনের সাথে গভীরভাবে সংযুক্ত তাদের সাথে অংশীদার হতে পেরে আমরা গর্বিত"
+        },
+        "honorary": {
+            "honorary_mentions": "সম্মানসূচক উল্লেখ",
+            "significant_contributions": "যারা আমাদের উন্নয়নে গুরুত্বপূর্ণ অবদান রেখেছেন"
         }
     },
     "page_pricing": {
@@ -659,7 +750,7 @@
             "private_campaign_1": "ব্যক্তিগত",
             "private_campaign_2": "প্রচারণা",
             "offer_exclusively": "আপনার সমর্থকদের একচেটিয়া অফার",
-            "campaign_customization_1": "প্রচারণা",
+            "campaign_customization_1": "ক্যাম্পেইন",
             "campaign_customization_2": "কাস্টমাইজেশন",
             "personalize_campaign": "আপনার ক্যাম্পেইন পৃষ্ঠা ব্যক্তিগত করুন",
             "multiple_frames_1": "একাধিক Twibbon",
@@ -667,10 +758,10 @@
             "unleash_creativity": "বহুমুখীতায় সৃজনশীলতা প্রকাশ করুন",
             "top_notch": "আপনার ক্যাম্পেইন খেলা আপগ্রেড",
             "considering_all": "সমস্ত সুবিধা বিবেচনা করে, এটি মূল্যবান।",
-            "remove_watermark_1": "অপসারণ",
-            "remove_watermark_2": "জলছাপ",
-            "for_audience_1": "জন্য",
-            "for_audience_2": "আপনি এবং আপনার শ্রোতা",
+            "remove_watermark_1": "আপনার",
+            "remove_watermark_2": "এবং আপনার দর্শকদের জন্য",
+            "for_audience_1": "",
+            "for_audience_2": "জন্য ওয়াটারমার্ক সরান",
             "as_a_free_user": "একটি বিনামূল্যে ব্যবহারকারী হিসাবে, আপনার Twibbon সবসময় <strong> একটি জলছাপ বৈশিষ্ট্য. <\/strong>",
             "premium_supporter": "<strong> Premium Creator <\/strong> একটি পরিষ্কার চিত্রের জন্য ওয়াটারমার্ক সরিয়ে দেয়।",
             "now_you_can": "এখন আপনি ওয়াটারমার্ক ছাড়াই <strong> যে কোনো ক্যাম্পেইনে সমর্থন করতে পারেন <\/strong> strong>।"
@@ -688,10 +779,10 @@
             "as_a_free_user": "একটি বিনামূল্যে ব্যবহারকারী হিসাবে, আপনার Twibbon সবসময় <strong> একটি জলছাপ বৈশিষ্ট্য. <\/strong>",
             "premium_supporter": "<strong> Premium Supporter <\/strong> একটি পরিষ্কার চিত্রের জন্য ওয়াটারমার্ক সরিয়ে দেয়।",
             "now_you_can": "এখন আপনি ওয়াটারমার্ক ছাড়াই <strong> যে কোনো ক্যাম্পেইনে সমর্থন করতে পারেন <\/strong> strong>।",
-            "remove_watermark_1": "অপসারণ",
-            "remove_watermark_2": "জলছাপ",
-            "for_audience_1": "জন্য",
-            "for_audience_2": "আপনার নিজের অ্যাকাউন্ট",
+            "remove_watermark_1": "আপনার নিজের",
+            "remove_watermark_2": "অ্যাকাউন্টের",
+            "for_audience_1": "",
+            "for_audience_2": "জন্য ওয়াটারমার্ক সরান",
             "looking_to_remove": "আপনার ক্যাম্পেইন ব্যবহারকারীদের সকলের জন্য ওয়াটারমার্ক সরাতে খুঁজছেন? চেষ্টা করুন"
         },
         "upgrade": {
@@ -725,26 +816,26 @@
             "notes": "মন্তব্য",
             "print": "চালান ডাউনলোড করুন",
             "if_you_would_like_to_change": "আপনি যদি আপনার সদস্যতা বা আপনার অর্থপ্রদানের তথ্য পরিবর্তন করতে চান, তাহলে অনুগ্রহ করে আপনার বিলিং সেটিংসে যান",
-            "ending_in": ""
+            "ending_in": "{card} শেষ হচ্ছে {number} দিয়ে"
         },
         "bento": {
             "campaign_analytics_1": "প্রচারণা",
             "campaign_analytics_2": "বিশ্লেষণ",
             "private_campaign_1": "ব্যক্তিগত",
             "private_campaign_2": "প্রচারণা",
-            "campaign_customization_1": "প্রচারণা",
+            "campaign_customization_1": "ক্যাম্পেইন",
             "campaign_customization_2": "কাস্টমাইজেশন",
-            "multiple_frames_1": "একাধিক ফ্রেম",
-            "multiple_frames_2": "ক্যাম্পেইন প্রতি",
-            "use_twibbonize_without_ads_1": "Twibbonize ব্যবহার করুন",
-            "use_twibbonize_without_ads_2": "বিজ্ঞাপন ছাড়া",
+            "multiple_frames_1": "ক্যাম্পেইন প্রতি",
+            "multiple_frames_2": "একাধিক ফ্রেম",
+            "use_twibbonize_without_ads_1": "বিজ্ঞাপন ছাড়া",
+            "use_twibbonize_without_ads_2": "Twibbonize ব্যবহার করুন",
             "no_extra_features_1": "কোন অতিরিক্ত বৈশিষ্ট্য",
             "no_extra_features_2": "পাওয়া যায়",
-            "remove_all_watermark_1": "জলছাপ সরান",
-            "remove_all_watermark_2": "আপনার ক্যাম্পেইন ব্যবহারকারীদের সব",
-            "remove_own_watermark_1": "জলছাপ সরান",
-            "on": "চালু",
-            "remove_own_watermark_2": "আপনার নিজের অ্যাকাউন্ট",
+            "remove_all_watermark_1": "আপনার ক্যাম্পেইন ব্যবহারকারীদের থেকে",
+            "remove_all_watermark_2": "ওয়াটারমার্ক সরান",
+            "remove_own_watermark_1": "আপনার নিজের অ্যাকাউন্ট থেকে",
+            "on": "",
+            "remove_own_watermark_2": "ওয়াটারমার্ক সরান",
             "extra_features": "অতিরিক্ত সুবিধাগুলি"
         },
         "modal": {
@@ -771,6 +862,19 @@
             "answer_8": "আপনি সহজেই আপনার Twibbonize অ্যাকাউন্ট থেকে সরাসরি চালান ডাউনলোড করতে পারেন।",
             "question_9": "আমি কোথায় Twibbonize ব্যবহার সম্পর্কিত সাহায্য পেতে পারি?",
             "answer_9": ""
+        },
+        "hero": {
+            "pricing": "মূল্য নির্ধারণ",
+            "find_the_right_premium_plan": "আপনার প্রয়োজনের জন্য সঠিক প্রিমিয়াম প্ল্যান খুঁজুন"
+        },
+        "card_premium_supporter": {
+            "subheading": "যারা Twibbonize থেকে আরও বেশি কিছু চান তাদের জন্য"
+        },
+        "card_premium_creator": {
+            "subheading": "যারা চূড়ান্ত Twibbonize অভিজ্ঞতা প্রয়োজন তাদের জন্য"
+        },
+        "same_plan": {
+            "adjust_plan": "পরিকল্পনা সামঞ্জস্য করুন"
         }
     },
     "page_profile": {
@@ -778,9 +882,9 @@
             "search_campaigns": "ক্যাম্পেইন অনুসন্ধান করুন",
             "no_campaigns": "এখনো কোনো প্রচারণা নেই",
             "no_campaigns_details": "একটি ক্যাম্পেইন তৈরি করুন এবং Twibbonize করতে শেয়ার করুন।",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "আপনি এই প্রচারাভিযান মুছে ফেলার বিষয়ে নিশ্চিত?",
+            "delete_detail": "\" {title} \" মুছে ফেলা স্থায়ী হবে এবং পূর্বাবস্থায় ফেরানো যাবে না৷",
+            "delete_campaign": "ক্যাম্পেইন মুছুন"
         },
         "posts": {
             "no_posts": "এখনও পযন্ত কোন পোষ্ট নাই",
@@ -788,7 +892,7 @@
         },
         "collections": {
             "no_collections": "আপনার প্রিয় ক্যাম্পেইন সংগঠিত",
-            "no_collections_details": "ক্যাম্পেইন পৃষ্ঠায়, শুধুমাত্র {icon} আইকন বোতামে ক্লিক করে প্ক্যাম্পেইনগুলি সংরক্ষণ করতে আপনার নিজের সংগ্রহে আকর্ষণীয় মনে হয়৷"
+            "no_collections_details": "আপনার সংগ্রহে প্রচারাভিযান সংরক্ষণ করতে যেকোনো প্রচারাভিযানের {icon} আইকনে ক্লিক করুন৷"
         },
         "about": {
             "about": "সম্পর্কিত",
@@ -798,6 +902,34 @@
             "joined": "{created} থেকে যোগদান করেছেন",
             "supporters": "সমর্থকরা",
             "campaigns": "প্রচারণা"
+        },
+        "my_profile": {
+            "edit_profile": "জীবন বৃত্তান্ত সম্পাদনা",
+            "campaigns": "প্রচারণা",
+            "collections": "সংগ্রহ",
+            "posts": "পোস্ট"
+        },
+        "campaign_deletion": {
+            "are_you_sure": "তুমি কি নিশ্চিত?"
+        },
+        "campaign": {
+            "delete_campaign": "\" {campaign_name} \" মুছে ফেলা স্থায়ী হবে এবং পূর্বাবস্থায় ফেরানো যাবে না৷.",
+            "confirm_delete_campaign": "ক্যাম্পেইন মুছুন"
+        },
+        "collection": {
+            "delete_collection": "\" {collection_name} \" সংগ্রহটি স্থায়ীভাবে মুছে ফেলা হবে৷.",
+            "confirm_delete_collection": "সংগ্রহ মুছুন",
+            "delete_campaign": "\" {campaign_name} \" প্রচারাভিযানটি \" {collection_name} \" সংগ্রহ থেকে স্থায়ীভাবে মুছে ফেলা হবে",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "কেন আপনি এই প্রোফাইল রিপোর্ট করছেন?",
+            "abusive_harmful": "অপমানজনক বা ক্ষতিকারক",
+            "pretending_someone": "অন্য কেউ হওয়ার ভান করা",
+            "sensitive_content": "সংবেদনশীল বিষয়বস্তু"
+        },
+        "account": {
+            "email_changed": "আপনার ইমেল সম্প্রতি পরিবর্তিত হয়েছে. আপনি 90 দিনের মধ্যে এটি আবার আপডেট করতে পারেন।"
         }
     },
     "page_preference": {
@@ -841,55 +973,55 @@
             "adfree": "বিজ্ঞাপন-মুক্ত",
             "highquality": "উচ্চ গুনসম্পন্ন",
             "nowatermark": "জলছাপ নেই",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "পেড",
+            "are_you_sure_change": "তুমি কি নিশ্চিত?",
+            "active_after_subscription": "আপনার বর্তমান সদস্যতা শেষ হয়ে গেলে এটি সক্রিয় হবে",
+            "are_you_sure_upgrade": "আপনি কি নিশ্চিত আপগ্রেড করতে চান?",
+            "plan_changing_info": "প্রাপ্ত {package} -এ স্যুইচ করুন। বর্তমান একটি শেষ হওয়ার পরে নতুন পরিকল্পনা শুরু হয়",
+            "active_after_payment": "আপনি পেমেন্ট সম্পূর্ণ করার পরে এটি সক্রিয় হবে",
+            "are_you_sure_downgrade": "আপনি কি নিশ্চিত পরিকল্পনা ডাউনগ্রেড করতে চান?",
+            "plan_downgrade_info": "{package} -এ ডাউনগ্রেড করা হয়েছে। বর্তমান একটি শেষ হওয়ার পরে নতুন পরিকল্পনা শুরু হয়",
+            "renew_plan": "পরিকল্পনা পুনর্নবীকরণ",
+            "renew_subscription": "সদস্যতা পুনর্নবীকরণ",
+            "upgrade_now": "এখন উন্নতি কর",
+            "warning": "সতর্কতা !",
+            "important": "গুরুত্বপূর্ণ !",
+            "premium_expired": "আপনার প্রিমিয়াম ক্রিয়েটর প্ল্যানের মেয়াদ শেষ হয়ে গেছে। অনুগ্রহ করে {date} এর মধ্যে পুনর্নবীকরণ করুন",
+            "last_attempted": "আমাদের শেষ চেষ্টা করা অভিযোগ ব্যর্থ হয়েছে। আপনার পেমেন্ট পদ্ধতি আপডেট করুন.",
+            "renewal_date": "পুনর্নবীকরণ তারিখ",
+            "payment_method": "মূল্যপরিশোধ পদ্ধতি",
+            "update_now": "এখন হালনাগাদ করুন",
+            "cancel_subscription": "সদস্যতা বাতিল করুন",
+            "change_payment_method": "টাকা পরিশোধের পদ্ধতি পরিবর্তন করুন",
+            "card_end_with": "{card} শেষ হচ্ছে {number} দিয়ে",
+            "no_transactions": "এখনো কোনো লেনদেনের ইতিহাস নেই",
+            "transactions_will_shown": "আপনার লেনদেনের ইতিহাস উপলব্ধ হয়ে গেলে এখানে দেখানো হবে",
+            "are_you_sure": "তুমি কি নিশ্চিত?",
+            "once_cancel_plan": "একবার আপনি প্ল্যান বাতিল করলে, আপনি আপনার বিলিং চক্রের শেষে আপনার আপগ্রেড করা সমস্ত বৈশিষ্ট্যগুলিতে অ্যাক্সেস হারাবেন",
+            "yes_cancel_plan": "হ্যাঁ, পরিকল্পনা বাতিল করুন",
+            "no_keep_plan": "না, পরিকল্পনা রাখুন",
+            "once_renew_plan": "একবার আপনি প্ল্যান রিনিউ করলে, আপনার প্ল্যান আবার সক্রিয় হবে",
+            "yes_renew_plan": "হ্যাঁ, প্ল্যান রিনিউ করুন",
+            "no_cancel": "না, বাতিল করুন",
+            "if_cancel_downgrade": "আপনি ডাউনগ্রেড বাতিল করলে, আপনার বর্তমান পরিকল্পনা আবার সক্রিয় হবে",
+            "yes_downgrade": "হ্যাঁ, ডাউনগ্রেড চালিয়ে যান",
+            "if_cancel_change_billing": "আপনি বিলিং পরিবর্তন বাতিল করলে, আপনার বর্তমান পরিকল্পনা আবার সক্রিয় হবে",
+            "yes_continue": "হ্যাঁ, চালিয়ে যান",
+            "info": "তথ্য",
+            "your_request_cancel": "আপনার {plan} প্ল্যান বাতিল করার অনুরোধ গৃহীত হয়েছে। এটি পরবর্তী বিলিং চক্রে শেষ হবে৷",
+            "your_request_downgrade": "আপনার {plan} এ ডাউনগ্রেড করার অনুরোধ গৃহীত হয়েছে৷ বর্তমান প্ল্যান শেষ হয়ে গেলে আপনার নতুন প্ল্যান সক্রিয় করা হবে।",
+            "cancel_downgrade": "ডাউনগ্রেড বাতিল করুন",
+            "cancel_change": "বিলিং পরিবর্তন বাতিল করুন",
+            "your_request_billing": "আপনার বিলিংকে {plan} এ পরিবর্তন করার জন্য আপনার অনুরোধ গৃহীত হয়েছে। বর্তমান প্ল্যান শেষ হয়ে গেলে আপনার নতুন প্ল্যান সক্রিয় করা হবে।",
+            "manage_inapp": "Twibbonize {appOs} অ্যাপে আপনার সদস্যতা পরিচালনা করুন",
+            "manage_inapp_subscription": "{appOs} এ আপনার Twibbonize সদস্যতা পরিচালনা করতে, অ্যাপটি খুলুন, 'সেটিংস'-এ যান এবং 'বিলিং' নির্বাচন করুন৷",
+            "success_cancel_subscription": "সফল সদস্যতা বাতিল",
+            "success_renew_subscription": "সাফল্য পুনর্নবীকরণ সাবস্ক্রিপশন",
+            "success_change_subscription": "সাফল্য পরিবর্তন সাবস্ক্রিপশন",
+            "success_cancel_change_subscription": "সফলতা বাতিল সাবস্ক্রিপশন পরিবর্তন",
+            "last_attempted_authentication": "আমাদের শেষ চেষ্টা করা অভিযোগ ব্যর্থ হয়েছে। আপনার পেমেন্ট প্রমাণীকরণ প্রয়োজন.",
+            "authenticate_now": "এখনই প্রমাণীকরণ করুন",
+            "recurring_payment": "আপনার পুনরাবৃত্ত অর্থপ্রদানের জন্য আমাদের আপনার সুস্পষ্ট নিশ্চিতকরণের প্রয়োজন। অনুগ্রহপূর্বক আপনার ইমেইল চেক করুন"
         },
         "account": {
             "update_email": "আপডেট ইমেল",
@@ -919,19 +1051,19 @@
             "confirm_password": "পাসওয়ার্ড নিশ্চিত করুন",
             "create_new_password": "নতুন পাসওয়ার্ড তৈরি করুন",
             "make_it_easy": "এটি আপনার জন্য মনে রাখা সহজ করুন এবং এটি কারও কাছ থেকে গোপন রাখুন!",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "ইমেল যোগ করুন",
+            "add_password": "পাসওয়ার্ড যোগ করুন",
+            "cant_remove_account": "ওহো, আমরা আপনার সামাজিক মিডিয়া অ্যাকাউন্ট সরাতে পারছি না।",
+            "set_up_email": "আপনার সোশ্যাল মিডিয়া অ্যাকাউন্ট মুছে ফেলার জন্য আপনাকে প্রথমে ইমেল বা পাসওয়ার্ড সেট আপ করতে হবে।",
+            "want_to_remove": "আপনার সামাজিক মিডিয়া অ্যাকাউন্ট সরাতে চান?",
+            "your_account_will_be_removed": "আপনার {provider} অ্যাকাউন্ট সরিয়ে দেওয়া হবে। আপনার সোশ্যাল মিডিয়া অ্যাকাউন্টগুলি সরাতে বুঝতে ক্লিক করুন৷",
+            "continue_to_revoke": "প্রত্যাহার করা চালিয়ে যান ",
+            "revoke_success": "সফল অ্যাকাউন্ট প্রত্যাহার করুন {provider}",
+            "cannot_update_email": "ওহো, আমরা আপনার ইমেল আপডেট করতে পারছি না",
+            "setup_password_to_update_email": "আপনার ইমেল আপডেট করার আগে আপনাকে অবশ্যই একটি পাসওয়ার্ড সেট করতে হবে।",
+            "email_change_request": "ইমেল পরিবর্তনের অনুরোধ বাতিল করা হয়েছে৷",
+            "we_have_sent_password": "আমরা আপনার ইমেলে পাসওয়ার্ড রিসেট নির্দেশাবলী পাঠিয়েছি। নিরাপত্তার কারণে 1 ঘন্টার মধ্যে আপনার পাসওয়ার্ড রিসেট করুন।",
+            "go_to_homepage": "হোমপেজে যান"
         },
         "notifications": {
             "notifications_settings": "বিজ্ঞপ্তি সেটিংস",
@@ -949,10 +1081,10 @@
             "article": "প্রবন্ধ",
             "article_details": "আপনি আমাদের প্রস্তাবিত নিবন্ধ পাবেন.",
             "toggle_all": "সব",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "Twibbonize পোস্ট করুন",
+            "post_twibbonize_details": "প্রচারাভিযানের পৃষ্ঠায় সমর্থকের পোস্টের বিজ্ঞপ্তি পান।",
+            "account_recap": "অ্যাকাউন্ট রিক্যাপ",
+            "account_recap_details": "আপনার সমস্ত প্রচারাভিযানের জন্য সমর্থকদের সাপ্তাহিক রিক্যাপ এবং ভিজিট"
         },
         "package": {
             "free": "বিনামূল্যে",
@@ -1231,7 +1363,6 @@
         },
         "graph": {
             "page": "{totalPage} -এর মধ্যে {currentPage} পৃষ্ঠা",
-            "data_displayed": "UTC সময় অঞ্চলে (UTC+0) ডেটা প্রদর্শিত হয়",
             "trend": "প্রবণতা",
             "country": "দেশ",
             "city": "শহর",
@@ -1244,7 +1375,8 @@
             "visit": "ভিজিট করুন",
             "visit_detail": "আপনার ক্যাম্পেইনের পৃষ্ঠা পরিদর্শন করেছেন এমন একক ব্রাউজিং সেশনের সংখ্যা৷",
             "unique_visit": "অনন্য ভিজিট",
-            "unique_visit_detail": "আপনার ক্যাম্পেইনের পৃষ্ঠা পরিদর্শন করেছেন এমন লোকের সংখ্যা"
+            "unique_visit_detail": "আপনার ক্যাম্পেইনের পৃষ্ঠা পরিদর্শন করেছেন এমন লোকের সংখ্যা",
+            "data_displayed": "UTC+0 টাইম জোনে ডেটা প্রদর্শিত হয়"
         }
     },
     "page_account": {
@@ -1252,8 +1384,6 @@
             "email": "ইমেইল",
             "password": "পাসওয়ার্ড",
             "confirm_password": "পাসওয়ার্ড নিশ্চিত করুন",
-            "login_with_google": "গুগল দিয়ে সাইন ইন করুন",
-            "login_with_facebook": "ফেসবুকে সাইন - ইন করুন",
             "login_with_email": "অথবা ইমেইল দিয়ে লগইন করুন",
             "signup_with_google": "Google এর সাথে সাইন আপ করুন",
             "signup_with_facebook": "ফেসবুক দিয়ে সাইন আপ",
@@ -1266,7 +1396,9 @@
             "signup": "নিবন্ধন করুন",
             "terms": "শর্তাবলী",
             "privacy": "গোপনীয়তা নীতি",
-            "name": ""
+            "name": "নাম",
+            "login_with_facebook": "Facebook দিয়ে লগ ইন করুন",
+            "login_with_google": "গুগল দিয়ে লগ ইন করুন"
         }
     },
     "page_article": {
@@ -1275,97 +1407,398 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "Twibbonize পোস্টে লগ ইন করুন",
+        "sign_in_to_comment": "একটি মন্তব্য করার জন্য লগইন করুন",
+        "sign_in_to_like": "একটি লাইক দিতে লগ ইন করুন",
+        "sign_up_to_post": "Twibbonize পোস্টে সাইন আপ করুন",
+        "sign_up_to_comment": "একটি মন্তব্য করতে সাইন আপ করুন",
+        "sign_up_to_like": "একটি লাইক দিতে সাইন আপ করুন",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "সফল লগইন! ফিরে আসার জন্য স্বাগতম।",
+                "error": "লগইন ব্যর্থ। অনুগ্রহ করে আপনার শংসাপত্র পরীক্ষা করুন এবং আবার চেষ্টা করুন।"
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "সাইন আপ সফল! বিদেশে স্বাগতম।",
+                "error": "সাইন আপ ব্যর্থ হয়েছে। আপনার বিবরণ পরীক্ষা করে আবার চেষ্টা করুন।"
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "ইমেলটি ইতিমধ্যেই নিবন্ধন",
+        "email_registered_lead": "এই ই - মেলটি আগেই নতিভুক্ত করা আছে। আপনি পরিবর্তে লগ ইন করতে চান?",
+        "sign_in_to_create_campaign": "",
+        "sign_up_to_create_campaign": ""
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "নিশ্চিত বাতিল",
+            "delete_lead": "আপনি কি এই পোস্টটি মুছে ফেলতে চান আপনি কি নিশ্চিত? এই ক্রিয়াটি পূর্বাবস্থায় ফেরানো যাবে না।",
+            "delete_yes": "হ্যাঁ, মুছুন",
+            "delete_no": "বাতিল করুন"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "আপনার বার্তা শেয়ার করুন",
+            "logged_in_placeholder": "{name} হিসেবে মন্তব্য করুন",
+            "comment_posted": "মন্তব্য পোস্ট করা হয়েছে",
+            "comment_deleted": "মন্তব্য মুছে ফেলা হয়েছে",
+            "reply_deleted": "উত্তর মুছে ফেলা হয়েছে"
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "পোস্ট আপলোড করা হয়েছে",
+            "hidden": "গোপন",
+            "unhidden": "অপ্রকাশিত",
+            "reported": "রিপোর্ট করেছেন",
+            "deleted": "মুছে ফেলা হয়েছে",
+            "pinned": "পিন করা হয়েছে",
+            "unpinned": "আনপিন করা হয়েছে"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "প্রচার প্রচারণা",
+        "report_profile": "রিপোর্ট প্রোফাইল",
+        "abusive_or_harmful": "অপমানজনক বা ক্ষতিকারক",
+        "pretending_to_be_someone_else": "অন্য কেউ হওয়ার ভান করা",
+        "sensitive_content": "সংবেদনশীল বিষয়বস্তু",
+        "plagiarism": "চুরি",
+        "impersonation": "ছদ্মবেশ",
+        "piracy": "জলদস্যুতা",
+        "nudity_pornography": "নগ্নতা এবং পর্নোগ্রাফি",
+        "dangerous_or_harmful": "বিপজ্জনক বা ক্ষতিকারক",
+        "harassment_cyberbullying": "হয়রানি এবং সাইবার বুলিং",
+        "provocative_threatening_content": "উস্কানিমূলক এবং হুমকিমূলক বিষয়বস্তু",
+        "privacy_violations": "গোপনীয়তা লঙ্ঘন",
+        "unauthorized_use_of_personal_information": "ব্যক্তিগত তথ্য অননুমোদিত ব্যবহার",
+        "child_exploitation": "শিশু শোষণ",
+        "harassment": "হয়রানি",
+        "terrorism": "সন্ত্রাস",
+        "violence": "হিংসা",
+        "false_information": "ভুল তথ্য",
+        "health": "স্বাস্থ্য",
+        "politics": "রাজনীতি",
+        "social_issue": "সামাজিক সমস্যা",
+        "hate_speech": "ঘৃণাবাচক কথা",
+        "disability_or_disease": "অক্ষমতা বা রোগ",
+        "race_or_ethnicity": "জাতি বা জাতি",
+        "religious_affiliation": "ধর্মীয় অন্তর্ভুক্তি",
+        "sexual_orientation": "যৌন অভিযোজন",
+        "nudity": "নগ্নতা",
+        "suicide_or_self_harm": "আত্মহত্যা বা আত্ম-ক্ষতি",
+        "vulgar_language": "অশ্লীল ভাষা",
+        "dangerous_content": "বিপজ্জনক বিষয়বস্তু",
+        "why_report_campaign": "কেন আপনি এই প্রচারাভিযান রিপোর্ট করছেন?",
+        "why_report_profile": "কেন আপনি এই প্রোফাইল রিপোর্ট করছেন?",
+        "why_report_submission": "কেন আপনি এই জমা রিপোর্ট করছেন?",
+        "why_report_comment_reply": "কেন আপনি এই মন্তব্য রিপোর্ট করছেন?",
+        "why_report_collection": "কেন আপনি এই সংগ্রহ রিপোর্ট করছেন?",
+        "select_one": "অনুগ্রহপূর্বক একটা নির্বাচন করুন",
+        "protect_privacy_reporter": "Twibbonize সম্প্রদায় নির্দেশিকা রিপোর্টারের পরিচয় গোপনীয়তা রক্ষা করে.",
+        "tell_us_more": "আমাদের আরো বলুন",
+        "received_report": "আমরা আপনার রিপোর্ট পেয়েছি!",
+        "thankyou": "ধন্যবাদ! অনুগ্রহ করে আমাদের আপনার প্রতিবেদন তদন্ত করার অনুমতি দিন, এবং আমরা যত তাড়াতাড়ি সম্ভব আপনার ইমেলে প্রতিক্রিয়া পাঠাব।",
+        "learn_more_about": "{link} সম্পর্কে আরও জানুন।",
+        "community_guideline": "Twibbonize সম্প্রদায় নির্দেশিকা",
+        "placeholder_write_here": "এখানে লিখ",
+        "report_sent": "প্রতিবেদন পাঠানো"
+    },
+    "page_editor": {
+        "general": {
+            "template": "টেমপ্লেট",
+            "text": "পাঠ্য",
+            "shape": "আকৃতি",
+            "image": "ছবি",
+            "graphic": "গ্রাফিক",
+            "upload": "আপলোড করুন",
+            "layer": "স্তর",
+            "resize": "আকার পরিবর্তন করুন",
+            "save": "সংরক্ষণ",
+            "width": "প্রস্থ",
+            "height": "উচ্চতা",
+            "transparency": "স্বচ্ছতা",
+            "line_weight": "লাইন ওজন",
+            "align": "সারিবদ্ধ",
+            "group": "গ্রুপ",
+            "ungroup": "আনগ্রুপ করুন",
+            "unlock": "আনলক করুন",
+            "loading": "লোড হচ্ছে"
+        },
+        "text": {
+            "add_a_heading": "একটি শিরোনাম যোগ করুন",
+            "add_a_subheading": "একটি উপশিরোনাম যোগ করুন",
+            "document_fonts": "নথির ফন্ট",
+            "text_effect": "পাঠ্য প্রভাব",
+            "effects": "প্রভাব",
+            "add_a_body_text": "সামান্য বিট বডি টেক্সট যোগ করুন"
+        },
+        "shape": {
+            "arrow": "তীর",
+            "shape": "আকৃতি"
+        },
+        "upload": {
+            "upload_image": "চিত্র আপলোড",
+            "upload": "আপলোড করুন",
+            "type": "প্রকার:",
+            "size": "আকার:",
+            "type_image": "JPG, PNG বা SVG",
+            "maximum_size": "সর্বোচ্চ 5 এমবি"
+        },
+        "toolbar": {
+            "copy": "কপি",
+            "paste": "পেস্ট করুন",
+            "duplicate": "নকল",
+            "delete": "মুছে ফেলা",
+            "layer": "স্তর",
+            "bring_forward": "এগিয়ে আনা",
+            "bring_to_front": "সামনে আন",
+            "send_backward": "পিছনে পাঠান",
+            "send_to_back": "পশ্চাতে পাঠান",
+            "show_layers": "স্তরগুলি দেখান",
+            "left": "বাম",
+            "center": "কেন্দ্র",
+            "right": "ঠিক",
+            "top": "শীর্ষ",
+            "middle": "মধ্য",
+            "bottom": "নীচে",
+            "set_as_text_template": "টেক্সট টেমপ্লেট হিসাবে সেট করুন",
+            "set_as_background_image": "ব্যাকগ্রাউন্ড ইমেজ হিসেবে সেট করুন",
+            "lock": "তালা",
+            "letter_spacing": "অক্ষর ব্যবধান",
+            "line_spacing": "লাইন ব্যবধান",
+            "border_weight": "বর্ডার ওজন",
+            "align": "সারিবদ্ধ",
+            "effects": "প্রভাব"
+        },
+        "confirmation": {
+            "cancel": "বাতিল করুন",
+            "save": "সংরক্ষণ",
+            "has_your_frame_been_completed": "আপনার ফ্রেম সম্পন্ন হয়েছে?",
+            "once_it_save": "এটি সংরক্ষিত হয়ে গেলে, সম্পাদনা আর উপলব্ধ থাকে না"
+        },
+        "image": {
+            "image_template": "ছবি {name} ",
+            "image_template_1": "চালু",
+            "edit_image": "ছবি সম্পাদনা করুন",
+            "image_template_2": "আনস্প্ল্যাশ"
+        },
+        "error": {
+            "minimum_dimension": "মাত্রা অবশ্যই কমপক্ষে 100px এবং 8000px এর বেশি হবে না।"
+        },
+        "text_effect": {
+            "style": "শৈলী",
+            "none": "কোনোটিই নয়",
+            "shadow": "ছায়া",
+            "text_effects": "প্রভাব",
+            "lift": "উত্তোলন",
+            "offset": "অফসেট",
+            "direction": "অভিমুখ",
+            "blur": "ঝাপসা",
+            "transparency": "স্বচ্ছতা",
+            "color": "রঙ",
+            "thickness": "পুরুত্ব"
+        },
+        "colors": {
+            "colors": "রং",
+            "document_colors": "নথির রং",
+            "default_colors": "ডিফল্ট রং"
+        }
+    },
+    "page__campaign_creation": {
+        "campaign_preview": {
+            "campaign_description": "প্রচারাভিযানের বিবরণ",
+            "campaign_title": "প্রচারের শিরোনাম"
+        }
+    },
+    "page_my_campaign": {
+        "edit_campaign": {
+            "campaigns": "প্রচারণা",
+            "frames": "ফ্রেম",
+            "analytics": "বিশ্লেষণ"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "কেন আপনি এই পোস্টে রিপোর্ট করছেন?",
+            "plagiarism ": "চুরি",
+            "impersonation ": "ছদ্মবেশ ",
+            "piracy ": "জলদস্যুতা",
+            "vulgar_language": "অশ্লীল ভাষা",
+            "nudity_pornography": "নগ্নতা এবং পর্নোগ্রাফি",
+            "suicidal_self_harm": "আত্মঘাতী এবং আত্ম-ক্ষতিমূলক সামগ্রী ",
+            "danger": "বিপজ্জনক বা ক্ষতিকারক ",
+            "violent_graphic_content": "হিংসাত্মক গ্রাফিক সামগ্রী",
+            "harassment_cyberbullying": "হয়রানি এবং সাইবার বুলিং ",
+            "provocative_threatening_content": "উস্কানিমূলক এবং হুমকিমূলক বিষয়বস্তু",
+            "spam": "স্প্যাম"
+        },
+        "report_comment": {
+            "title": "কেন আপনি এই মন্তব্য রিপোর্ট করছেন?",
+            "abusive_harmful": "অপমানজনক বা ক্ষতিকারক",
+            "harassment": "হয়রানি",
+            "terrorism": "সন্ত্রাস",
+            "violence": "হিংসা",
+            "false_information": "",
+            "health": "স্বাস্থ্য",
+            "politics": "রাজনীতি",
+            "social_issue": "সামাজিক সমস্যা",
+            "sensitive_content": "সংবেদনশীল বিষয়বস্তু ",
+            "nudity": "নগ্নতা",
+            "vulgar_language": "অশ্লীল ভাষা",
+            "hate_speech": "ঘৃণাবাচক কথা",
+            "disability_disease": "অক্ষমতা বা রোগ",
+            "race_or_ethnicity": "জাতি বা জাতি",
+            "religious_affiliation": "ধর্মীয় অন্তর্ভুক্তি ",
+            "sexual_orientation": "যৌন অভিযোজন",
+            "spam": "স্প্যাম"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "ইউআরএল অবৈধ"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "Google লগইন করতে ব্যর্থ হয়েছে৷",
+        "failed_apple_login": "Apple লগইন করতে ব্যর্থ হয়েছে৷"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "ফটো ফাইলের সর্বোচ্চ আকার 5MB ছাড়িয়ে গেছে",
+            "cannot_create_twibbon": "Twibbon তৈরি করা যাবে না। আবার চেষ্টা কর"
+        },
+        "log_in": {
+            "complete_verification": "চালিয়ে যাওয়ার জন্য সম্পূর্ণ যাচাইকরণ",
+            "email_no_password": "এই ইমেল কোন পাসওয়ার্ড নেই. গুগলের মাধ্যমে লগ ইন করুন",
+            "social_media_already_registered": "আপনার সোশ্যাল মিডিয়া অ্যাকাউন্টের ইমেল ইতিমধ্যেই নিবন্ধিত এবং অনুরূপ সোশ্যাল মিডিয়া পরিষেবা থেকে অন্য অ্যাকাউন্টের সাথে সংযুক্ত৷ ইমেল এবং পাসওয়ার্ড ফর্ম ব্যবহার করে লগ ইন করার চেষ্টা করুন."
+        },
+        "sign_up": {
+            "email_already_registered": "এই ই - মেলটি আগেই নতিভুক্ত করা আছে। একটি ভিন্ন ইমেল ব্যবহার করুন বা সাইন ইন করার চেষ্টা করুন৷",
+            "password_minimum_required": "গোপন নাম্বার কমপক্ষে 8 অক্ষরের হতে হবে।",
+            "password_character_exceeded": "পাসওয়ার্ড 128 অক্ষরের বেশি হওয়া উচিত নয়",
+            "password_must_be_standard": "পাসওয়ার্ড অবশ্যই স্ট্যান্ডার্ড আলফানিউমেরিক হতে হবে",
+            "password_does_not_match": "পাসওয়ার্ড নিশ্চিতকরণ মেলে না. আবার চেষ্টা কর"
+        },
+        "verification": {
+            "code_incorrect": "কোড ভুল। আবার চেষ্টা কর",
+            "code_expired": "কোডের মেয়াদ শেষ হয়ে গেছে। একটি নতুনের জন্য আবেদন করুন",
+            "maximum_attempt_reached": "সর্বোচ্চ প্রচেষ্টা পৌঁছেছে. 5 ঘন্টা পরে আবার চেষ্টা করুন",
+            "code_requested_exceeded": "কোড অনুরোধ সর্বোচ্চ সীমা অতিক্রম করেছে"
+        },
+        "forgot_password": {
+            "email_not_found": "ইমেইল পাওয়া যায়নি. আবার চেষ্টা করুন বা সাইন আপ করুন",
+            "link_expired": "পাসওয়ার্ড পরিবর্তন করার লিঙ্কটির মেয়াদ শেষ হয়ে গেছে। একটি নতুনের জন্য আবেদন করুন",
+            "link_used": "পাসওয়ার্ড পরিবর্তনের লিঙ্কটি ব্যবহার করা হয়েছে। একটি নতুনের জন্য আবেদন করুন"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "ফ্রেম ফাইল 5MB এর সর্বোচ্চ আকার অতিক্রম করে",
+            "background_file_exceed": "ব্যাকগ্রাউন্ড ফাইল সর্বোচ্চ 5MB সাইজ ছাড়িয়ে গেছে",
+            "image_not_transparent": "ছবি স্বচ্ছ হতে হবে। আবার চেষ্টা কর",
+            "invalid_format": "অবৈধ ফাইল বিন্যাস। একটি সমর্থিত বিন্যাস ব্যবহার করুন",
+            "allow_only_1_frame": "বিনামূল্যে অ্যাকাউন্ট শুধুমাত্র 1 ফ্রেম আপলোড অনুমতি দেয়. চালিয়ে যেতে আপগ্রেড করুন",
+            "allow_only_1_background": "বিনামূল্যে অ্যাকাউন্ট শুধুমাত্র 1 ব্যাকগ্রাউন্ড আপলোড অনুমতি দেয়. চালিয়ে যেতে আপগ্রেড করুন",
+            "campaign_title_exceed_limit": "প্রচারাভিযানের শিরোনাম সর্বাধিক অক্ষর সীমা অতিক্রম করেছে৷",
+            "description_exceed_limit": "বর্ণনা সর্বাধিক অক্ষর সীমা অতিক্রম",
+            "link_unavailable": "প্রচারাভিযান লিঙ্ক ইতিমধ্যে ব্যবহার করা হয়. অন্য একটি চয়ন করুন",
+            "link_criteria": "প্রচারাভিযানের লিঙ্কটি অবশ্যই আলফানিউমেরিক এবং ড্যাশ হতে হবে (-)",
+            "caption_exceed_limit": "ক্যাপশন টেমপ্লেট সর্বাধিক অক্ষর সীমা অতিক্রম করেছে৷",
+            "background_exceed_limit": "ব্যাকগ্রাউন্ড ফাইল সর্বোচ্চ 5MB সাইজ ছাড়িয়ে গেছে",
+            "photo_exceed_limit": "থাম্বনেইল ছবির ফাইল সর্বোচ্চ 5MB মাপ ছাড়িয়ে গেছে",
+            "link_exceed_limit": "প্রচারের লিঙ্ক সর্বাধিক অক্ষর সীমা অতিক্রম করেছে৷"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "ফ্রেম ফাইল 5MB এর সর্বোচ্চ আকার অতিক্রম করে",
+            "background_file_exceed": "ব্যাকগ্রাউন্ড ফাইল সর্বোচ্চ 5MB সাইজ ছাড়িয়ে গেছে"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "ছবি স্বচ্ছ হতে হবে। আবার চেষ্টা কর",
+            "invalid_format": "অবৈধ ফাইল বিন্যাস। একটি সমর্থিত বিন্যাস ব্যবহার করুন",
+            "allow_only_1_frame": "বিনামূল্যে অ্যাকাউন্ট শুধুমাত্র 1 ফ্রেম আপলোড অনুমতি দেয়. চালিয়ে যেতে আপগ্রেড করুন",
+            "allow_only_1_background": "বিনামূল্যে অ্যাকাউন্ট শুধুমাত্র 1 ব্যাকগ্রাউন্ড আপলোড অনুমতি দেয়. চালিয়ে যেতে আপগ্রেড করুন",
+            "campaign_title_exceed_limit": "প্রচারাভিযানের শিরোনাম সর্বাধিক অক্ষর সীমা অতিক্রম করেছে৷",
+            "description_exceed_limit": "বর্ণনা সর্বাধিক অক্ষর সীমা অতিক্রম",
+            "link_unavailable": "প্রচারাভিযান লিঙ্ক ইতিমধ্যে ব্যবহার করা হয়. অন্য একটি চয়ন করুন",
+            "link_criteria": "প্রচারাভিযানের লিঙ্কটি অবশ্যই আলফানিউমেরিক এবং ড্যাশ হতে হবে (-)",
+            "link_exceed_limit": "প্রচারের লিঙ্ক সর্বাধিক অক্ষর সীমা অতিক্রম করেছে৷",
+            "caption_exceed_limit": "ক্যাপশন টেমপ্লেট সর্বাধিক অক্ষর সীমা অতিক্রম করেছে৷",
+            "background_exceed_limit": "ব্যাকগ্রাউন্ড ফাইল সর্বোচ্চ 5MB সাইজ ছাড়িয়ে গেছে",
+            "thumbnail_exceeds": "থাম্বনেইল ছবির ফাইল সর্বোচ্চ 5MB মাপ ছাড়িয়ে গেছে"
+        },
+        "settings": {
+            "profile_image_exceed": "প্রোফাইল ইমেজ সর্বোচ্চ 5MB সীমা ছাড়িয়ে গেছে",
+            "background_image_exceed": "ব্যাকগ্রাউন্ড ইমেজ সর্বোচ্চ 5MB মাপ ছাড়িয়ে গেছে",
+            "username_unavailable": "ব্যবহারকারী নাম ইতিমধ্যে গৃহীত। অন্য একটি চেষ্টা করুন",
+            "username_exceed_limit": "ব্যবহারকারীর নাম সর্বাধিক অক্ষর সীমা ছাড়িয়ে গেছে",
+            "username_invalid": "অবৈধ ব্যবহারকারীর নাম। সঠিক বিন্যাস দিয়ে আবার চেষ্টা করুন",
+            "display_exceed_limit": "প্রদর্শনের নাম সর্বাধিক অক্ষর সীমা অতিক্রম করেছে৷",
+            "bio_exceed_limit": "বায়ো সর্বোচ্চ অক্ষর সীমা অতিক্রম করেছে৷",
+            "email_already_registered": "ইমেলটি ইতিমধ্যেই নিবন্ধন। অন্য একটি চেষ্টা করুন",
+            "password_incorrect": "গোপন নাম্বার ভুল। আবার চেষ্টা কর",
+            "password_minimum_character": "গোপন নাম্বার কমপক্ষে 8 অক্ষরের হতে হবে",
+            "password_maximum_character": "পাসওয়ার্ড 128 অক্ষরের বেশি হওয়া উচিত নয়",
+            "password_standard_format": "পাসওয়ার্ড অবশ্যই বর্ণসংখ্যার মান বিন্যাস অনুসরণ করবে",
+            "account_deleted": "অ্যাকাউন্ট মুছে ফেলা হয়েছে",
+            "account_integrated": "অ্যাকাউন্ট ইন্টিগ্রেটেড",
+            "account_revoked": "অ্যাকাউন্ট প্রত্যাহার করা হয়েছে"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "\"আমাদের আরও বলুন\" বিভাগটি সর্বাধিক অক্ষর সীমা অতিক্রম করেছে৷"
+        },
+        "general": {
+            "something_went_wrong": "কিছু ভুল হয়েছে"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "যোগ করা প্রচারাভিযানের সংখ্যা সর্বোচ্চ সীমা ছাড়িয়ে গেছে",
+            "description_exceeds": "বর্ণনা সর্বাধিক অক্ষর সীমা অতিক্রম",
+            "title_exceeds": "সংগ্রহের শিরোনাম সর্বাধিক অক্ষর সীমা অতিক্রম করেছে৷"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "লিঙ্ক কপি করা হয়েছে",
+            "social_media_already_linked": "সোশ্যাল মিডিয়া অ্যাকাউন্ট ইতিমধ্যেই অন্য Twibbonize অ্যাকাউন্টের সাথে লিঙ্ক করা হয়েছে। অন্য একটি চেষ্টা করুন"
+        },
+        "campaign_creation": {
+            "link_available": "লিঙ্ক পাওয়া যায়"
+        },
+        "campaign_edit": {
+            "link_available": "লিঙ্ক পাওয়া যায়"
+        },
+        "settings": {
+            "photo_updated": "ফটো আপডেট করা হয়েছে",
+            "banner_updated": "ব্যানার আপডেট করা হয়েছে",
+            "banner_deleted": "ব্যানার মুছে ফেলা হয়েছে",
+            "photo_deleted": "ছবি মুছে ফেলা হয়েছে",
+            "password_updated": "পাসওয়ার্ড আপডেট করা",
+            "email_updated": "ইমেল আপডেট করা হয়েছে"
+        },
+        "my_profile": {
+            "campaign_deleted": "প্রচারণা মুছে ফেলা হয়েছে"
+        },
+        "collection": {
+            "campaign_added": "প্রচারণা যোগ করা হয়েছে"
+        },
+        "campaign_page": {
+            "account_upgraded": "অ্যাকাউন্ট আপগ্রেড করা হয়েছে",
+            "link_copied": "লিঙ্ক কপি করা হয়েছে"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "ইমেইল পাওয়া যায়নি. আবার চেষ্টা করুন বা সাইন আপ করুন"
+        },
+        "password": {
+            "password_incorrect": "গোপন নাম্বার ভুল। আবার চেষ্টা কর"
+        },
+        "maximum_attempt": "সর্বোচ্চ প্রচেষ্টা পৌঁছেছে. ১ ঘণ্টা পরে আবার চেষ্টা করুন"
+    },
+    "page_notification": {
+        "no_notification_heading": "এখনও কোন বিজ্ঞপ্তি নেই",
+        "no_notification_subheading": "এই মুহূর্তে কোন বিজ্ঞপ্তি নেই"
+    },
+    "page_general": {
+        "no_internet_connection": "ইন্টারনেট সংযোগ নেই। আবার চেষ্টা করতে আলতো চাপুন",
+        "could_not_connect_internet": "ইন্টারনেটে সংযোগ করা যায়নি। অন্য নেটওয়ার্কে স্যুইচ করুন এবং আবার চেষ্টা করুন।"
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "প্রস্থান?"
+        }
     }
 }

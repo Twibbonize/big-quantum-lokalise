@@ -35,7 +35,7 @@
             "terms": "Termos e condições",
             "privacy_policy": "Política de privacidade",
             "cookie_policy": "Política de cookies",
-            "sitemap": ""
+            "sitemap": "Mapa do site"
         },
         "menu": {
             "explore": "Explorar",
@@ -47,11 +47,6 @@
             "sign_in": "Entrar",
             "sign_up": "Registrar-se",
             "sign_out": "Sair"
-        },
-        "campaign": {
-            "supporters": "apoiador|apoiadores",
-            "campaigns": "Campanhas",
-            "created": "Criado"
         },
         "button": {
             "view_all": "Ver tudo",
@@ -71,11 +66,12 @@
             "report": "Reportar",
             "edit": "Editar",
             "confirm": "Confirmar",
-            "okay": "",
-            "view": "",
-            "send": "",
-            "more": "",
-            "less": ""
+            "okay": "OK",
+            "view": "Ver",
+            "send": "Enviar",
+            "more": "Mais",
+            "less": "Menos",
+            "submit": "Enviar"
         },
         "time": {
             "week": "Semana",
@@ -86,9 +82,14 @@
             "annual": "Anual",
             "yearly": "Anual"
         },
+        "campaign": {
+            "campaigns": "Campanhas",
+            "created": "Criado",
+            "supporters": "apoiador|apoiador|apoiadores"
+        },
         "collection": {
             "collections": "Coleções",
-            "campaigns": "{campaign} Campanhas"
+            "campaigns": "Campanhas {campaign}"
         },
         "creator": {
             "creators": "Criadores"
@@ -108,8 +109,21 @@
             "hide_post": "Ocultar publicação",
             "post_shared": "Postagem compartilhada em {date}",
             "share_message": "Compartilhe sua mensagem",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "Liberar postagem",
+            "unhide_post": "Mostrar postagem"
+        },
+        "pricing": {
+            "creator_subscribe_to": "Este Criador está inscrito no",
+            "plan": "plano",
+            "support_without_watermark": "Eles podem apoiar qualquer campanha sem marca d'água!",
+            "all_supporters_without_watermark": "Você pode apoiar toda essa campanha do Criador sem marca d'água!"
+        },
+        "campaign_card": {
+            "a_month_ago": " |Um mês atrás",
+            "a_day_ago": " |Um dia atrás"
+        },
+        "search": {
+            "searching": "Procurando..."
         }
     },
     "page_home": {
@@ -218,9 +232,9 @@
         },
         "history": {
             "the_history": "A história do Twibbon",
-            "in_this": "Nesta era digital, as mídias sociais se tornaram a plataforma de referência para expressar apoio, preocupações e outros sentimentos.",
-            "however": "No entanto, às vezes temos dificuldade em encontrar as palavras e ações certas para transmitir nossos pensamentos de forma eficaz.",
-            "visual_factor": "O fator visual tem grande poder nesse contexto. O Twibbon é uma solução simples para se tornar a extensão das ideias que você deseja transmitir."
+            "in_this": "Nesta era digital, as mídias sociais se tornaram a plataforma de referência para expressar apoio, preocupações e outros sentimentos",
+            "however": "No entanto, às vezes temos dificuldade em encontrar as palavras e ações certas para transmitir nossos pensamentos de forma eficaz",
+            "visual_factor": "O fator visual tem grande poder nesse contexto. O Twibbon é uma solução simples para se tornar a extensão das ideias que você deseja transmitir"
         }
     },
     "page_contact": {
@@ -246,7 +260,7 @@
     "page_twibbon": {
         "header": {
             "what_is": "O que é um Twibbon?",
-            "twibbon_result": "O Twibbon é o resultado da sobreposição de um modelo de moldura em uma foto, normalmente usado em fotos de perfil ou publicações de mídia social para expressar apoio a uma causa, campanha ou evento."
+            "twibbon_result": "O Twibbon é o resultado da sobreposição de um modelo de moldura em uma foto, normalmente usado em fotos de perfil ou publicações de mídia social para expressar apoio a uma causa, campanha ou evento"
         },
         "generate": {
             "your_photo": "Sua foto",
@@ -256,12 +270,12 @@
         "process": {
             "how_twibbonize_1": "Como o Twibbonize revolucionou",
             "how_twibbonize_2": "Campanha Twibbon",
-            "sharing_twibbon_1": "Compartilhar o Twibbon costumava ser um processo complexo.",
-            "sharing_twibbon_2": "cansado de explicar isso a você."
+            "sharing_twibbon_1": "Partilhar Twibbon costumava ser um processo complexo que até estamos demasiado",
+            "sharing_twibbon_2": "cansados para te explicar."
         },
         "frame": {
             "twibbon_frame": "No Twibbonize, o Twibbon é mais do que quadros",
-            "we_define": "Definimos o Twibbon como um modelo visual poderoso que se torna a extensão de sua causa, seja na forma de um quadro ou de um plano de fundo."
+            "we_define": "Definimos o Twibbon como um modelo visual poderoso que se torna a extensão de sua causa, seja na forma de um quadro ou de um plano de fundo"
         },
         "steps": {
             "starting_twibbon_1": "Iniciar uma campanha do Twibbon",
@@ -276,7 +290,7 @@
         },
         "cta": {
             "make_it": "Faça isso para tudo",
-            "no_matter": "Não importa o que você queira fazer, desde movimentos que abordam causas grandes e sérias até qualquer coisa apenas por diversão. Nós podemos ajudá-lo a transformá-lo em algo grande.",
+            "no_matter": "Não importa o que você queira fazer, desde movimentos que abordam causas grandes e sérias até qualquer coisa apenas por diversão. Nós podemos ajudá-lo a transformá-lo em algo grande",
             "start_campaign": "Iniciar uma campanha"
         }
     },
@@ -302,17 +316,18 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "Nenhuma postagem ainda",
-            "be_the_first": "Seja o primeiro a publicar seu suporte aqui. Comece fazendo o upload de sua foto!"
+            "uploading_your_photo": "Carregando sua foto!",
+            "start_with": "Comece com ",
+            "be_the_first": "Seja o primeiro a publicar seu suporte aqui."
         },
         "twibbon": {
             "choose_your_photo": "Escolha sua foto",
             "text": "Texto",
-            "download_successful": "Download bem-sucedido",
+            "download_successful": "Download bem-sucedido!",
             "photo_not_download": "A foto não está sendo baixada?",
             "re_download": "Baixar novamente",
             "post_to_twibbonize": "Postar no Twibbonize",
             "post_photo_to_twibbonize": "Publique esta foto no Twibbonize",
-            "remove_watermark_for_you": "Remover marca d'água para você",
             "upgrade_to_premium": "Faça upgrade para Premium. A partir de {price}",
             "processing": "Processamento",
             "buy_premium": "Comprar Premium",
@@ -327,17 +342,22 @@
             "download": "Baixar",
             "reset": "Redefinir",
             "add_text": "Adicionar texto",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": ""
+            "posting_as": "Postando como ",
+            "not_you": "Você não? ",
+            "uploading_photo_to_remove": "Carregando sua foto e removendo seu fundo.",
+            "wait_for_moment": "Espere um momento...",
+            "remove_watermark_for_you_2": "e aproveite suas imagens sem marcas d'água!",
+            "remove_watermark_for_you_1": "Explore o Twibbonize sem anúncios,",
+            "remove_watermark_for_you": "Remova a marca d'água!",
+            "blur": "Desfoque",
+            "shadow": "Sombra",
+            "twibbon_success": "Baixado"
         },
         "report": {
             "report_campaign": "Relatório de campanha",
             "report_profile": "Perfil do relatório",
             "plagiarism": "Plágio",
             "sensitive": "Conteúdo sensível",
-            "danger": "Conteúdo de perigo",
             "spam": "Spam",
             "why_report_campaign": "Por que você denuncia essa campanha?",
             "protect_reporter": "As Diretrizes da Comunidade Twibbonize protegem a privacidade da identidade do repórter.",
@@ -346,7 +366,21 @@
             "received_report": "Recebemos seu relatório!",
             "thankyou": "Obrigado! Permita-nos investigar sua denúncia e enviaremos o feedback para seu e-mail assim que possível.",
             "learn_more_about": "Saiba mais sobre o {link}.",
-            "community_guideline": "Diretrizes da comunidade do Twibbonize"
+            "community_guideline": "Diretrizes da comunidade do Twibbonize",
+            "title": "Por que está denunciando essa campanha?",
+            "danger": "Perigosos ou prejudiciais ",
+            "impersonation": "Falsificação de identidade ",
+            "piracy": "Pirataria",
+            "vulgar_language": "Linguagem vulgar",
+            "nudity_pornography": "Nudez e pornografia",
+            "suicidal_self_harm": "Conteúdo sobre suicídio e automutilação ",
+            "violent_graphic_content": "Conteúdo gráfico violento",
+            "harassment_cyberbullying": "Assédio e cyberbullying",
+            "proactive_threatening_content": "Conteúdo provocativo e ameaçador",
+            "statement": "As Diretrizes da Comunidade Twibbonize protegem a privacidade da identidade do repórter.",
+            "read_more_copy": "Leia mais",
+            "please_select_one": "Selecione um",
+            "write_a_message": "Escreva uma mensagem"
         },
         "discard": {
             "discard_edit": "Descartar edições?",
@@ -364,9 +398,10 @@
             "supporters": "Apoiadores",
             "interactions": "Interações",
             "visits": "Visitas",
-            "realtime_estimates": "Estimativas em tempo real",
             "last_month": "Últimos 30 dias",
-            "see_more_analytics": "Ver mais Analíticas"
+            "see_more_analytics": "Ver mais Analíticas",
+            "realtime_estimates": "Estimativas em tempo real dos últimos 30 dias",
+            "view_analytics": "Ver análises"
         },
         "pricing": {
             "no_thankyou": "Não, obrigado"
@@ -387,12 +422,37 @@
             "reply_as_user": "Responder como {user}"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "Siga as orientações para obter os melhores resultados!",
+            "good_photo_examples": "Bons exemplos de fotos:",
+            "good_photo_caption": "Selfie de close-up, foto de retrato, rosto claro",
+            "photos_avoid": "Fotos a evitar:",
+            "bad_photo_caption": "Foto de corpo inteiro, foto de grupo, foto de costas",
+            "understand": "Eu entendo"
+        },
+        "post_to_twibbonize": {
+            "caption": "Escreva uma mensagem sobre esta campanha...",
+            "unpin_post": "Desafixar postagem"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "Ajuste sua foto"
+        },
+        "share_campaign": {
+            "or_share_to": "ou compartilhe para",
+            "save_share": "Salvar e compartilhar"
+        },
+        "post": {
+            "post_uploaded": "Postagem carregada",
+            "post_deleted": "Postar excluído",
+            "post_failed_deleted": "Falha na postagem, excluída"
+        },
+        "create_campaign": {
+            "custom_field": "Adicionar campo personalizado"
+        },
+        "collection": {
+            "sign_up_add_collection": "Inscreva-se para adicionar à coleção"
+        },
+        "posts": {
+            "has_no_posts": "Este usuário não postou nada no Twibbonize"
         }
     },
     "page_checkout": {
@@ -401,9 +461,8 @@
             "account_update": "Sua conta será atualizada, com todos os novos recursos desbloqueados"
         },
         "checkout": {
-            "back_to_plans": "Voltar para Planos",
             "upgrade_to": "Atualize para {plan}",
-            "gather_your_supports": "Reúna seus apoiadores e amplie sua campanha com nossos recursos exclusivos.",
+            "gather_your_supports": "Reúna seus apoiadores e amplie sua campanha com nossos recursos exclusivos",
             "billing_option": "Opção de faturamento",
             "details": "Detalhes",
             "user": "Usuário",
@@ -413,18 +472,19 @@
             "save": "Economize {percentage}%",
             "pay": "Pagamento {frequency}",
             "checkout_options": "Opções de checkout",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "Ajustar plano",
+            "current_plan": "Plano atual",
+            "downgrade": "Downgrade",
+            "current_plan_description": "Você está assinando esta assinatura agora",
+            "change_plan_description": "Você está alterando seu plano para {plan} , que estará ativo após o término da assinatura atual.",
+            "downgrade_description": "Você está fazendo downgrade do seu plano para {plan} , que estará ativo após o término da assinatura atual.",
+            "change_plan_confirm": "Tem certeza?",
+            "upgrade_confirm": "Tem certeza de que deseja atualizar?",
+            "downgrade_confirm": "Tem certeza de que deseja fazer downgrade do plano?",
+            "change_plan_active": "Ele estará ativo quando sua assinatura atual terminar",
+            "upgrade_active": "Ele estará ativo assim que você concluir o pagamento",
+            "downgrade_active": "Ele estará ativo quando sua assinatura atual terminar",
+            "back_to_plans": "Voltar"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -433,14 +493,14 @@
             "use_twibbonize_without_ads": "Use o Twibbonize sem anúncios",
             "exclusive_features": "Recursos exclusivos para sua campanha",
             "remove_own_account": "Remova a marca d'água de sua própria conta",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "Prata",
+            "gold": "Ouro",
+            "platinum": "Platina",
+            "watermark_title": "Remover marca d'água",
+            "high_quality_image_title": "Imagem de alta qualidade",
+            "ad_free_title": "Anúncio grátis",
+            "campaign_addon": "Complemento de campanha",
+            "on": "sobre"
         }
     },
     "page_collection": {
@@ -474,14 +534,15 @@
             "no_stay": "Não, permaneça nesta página"
         },
         "dropzone": {
-            "upload_design": "Faça upload de seu próprio design aqui",
             "type": "Tipo:",
-            "imagetype": "Imagem\/PNG",
             "size": "Tamanho:",
-            "max_file": "Máx. 5 MB",
             "recommendation": "Recomendação:",
             "image_dimension": "1080x1080px",
-            "upload": "Carregar"
+            "upload": "Carregar",
+            "imagetype": "PNG",
+            "max_file": "Máximo de 5 MB",
+            "backgroundtype": "JPEG, PNG ou WEBP",
+            "upload_design": "Faça upload de seu design aqui"
         },
         "frame_editor": {
             "or_create": "ou crie sua moldura agora",
@@ -498,7 +559,9 @@
             "no_transparent": "Nenhuma área transparente foi detectada em sua imagem",
             "no_hole_frame": "Isso significa que não há furo em sua estrutura. Para fazer o furo necessário, você pode seguir este procedimento {link}",
             "help_center_article": "Artigo da Central de Ajuda",
-            "understand": "Eu entendo"
+            "understand": "Eu entendo",
+            "width": "Largura",
+            "height": "Altura"
         },
         "form": {
             "please_fill_in": "Preencha todos os dados necessários da campanha abaixo",
@@ -507,7 +570,7 @@
             "campaign_title": "Título da campanha",
             "campaign_title_placeholder": "Pode consistir em números, alfabetos ou caracteres especiais.",
             "campaign_description": "Descrição",
-            "campaign_description_placeholder": "Compartilhe detalhes sobre sua campanha para chamar a atenção e obter apoio.",
+            "campaign_description_placeholder": "Compartilhe detalhes sobre sua campanha para chamar a atenção e obter apoio",
             "campaign_link": "Link da campanha",
             "campaign_link_placeholder": "link da campanha",
             "campaign_category": "Categoria da campanha",
@@ -525,7 +588,8 @@
             "private_detail": "Sua campanha só pode ser acessada por pessoas que tenham o código de acesso",
             "url_not_available": "URL não disponível",
             "caption_placeholder": "Olá, meu nome é [[Your Name]] e estou pronto para apoiar esta campanha. Vamos nos reunir e causar um impacto real com esta campanha juntos!",
-            "enter_description": "Inserir descrição"
+            "enter_description": "Inserir descrição",
+            "optional": "Opcional"
         },
         "customization": {
             "campaign_customization": "Personalização de campanhas",
@@ -548,20 +612,25 @@
             "go_back": "Voltar"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "Molduras",
+            "campaigns": "Campanhas",
+            "analytics": "Análise"
+        },
+        "blank_design": {
+            "suggested": "Sugerido",
+            "instagram_story": "História do Instagram",
+            "instagram_post": "Publicação no Instagram"
         }
     },
     "page_for_creators": {
         "pricing": {
             "top_notch": "Aprimore seu jogo de campanha",
-            "condidering_all": "Considerando todas as conveniências, vale a pena.",
+            "condidering_all": "Considerando todas as conveniências, vale a pena",
             "purchase_now": "Compre agora",
             "learn_more": "Saiba mais",
             "want_to_create": "Deseja criar sua campanha gratuitamente?",
-            "try_now": "Experimente agora!",
-            "per": "por {time}"
+            "per": "por {time}",
+            "try_now": "Tente agora!"
         },
         "features": {
             "remove_watermark": "Remova a marca d'água para todos os usuários da sua campanha",
@@ -570,7 +639,7 @@
             "no_ads": "Use o Twibbonize sem anúncios"
         },
         "bento": {
-            "all_in_one": "Divulgue seu movimento e torne-se um catalisador de mudanças.",
+            "all_in_one": "Divulgue seu movimento e torne-se um catalisador de mudanças",
             "tools_to_tailor": "Ferramentas para adaptar e expandir sua campanha à medida que seu apoio aumenta.",
             "one_of_a_kind": "Gerador de Twibbon único",
             "bring_all_campaign": "Reúna toda a comunidade de apoiadores de sua campanha em sua página do Twibbonize, onde os apoiadores se conectam e você vê o impacto!",
@@ -591,10 +660,10 @@
         "frame": {
             "more_than_frames": "Mais do que apenas molduras",
             "spice_up": "Apimente seu jogo de campanha on-line, não apenas com uma moldura, mas também com planos de fundo criativos",
-            "frame_twibbon": "Moldura de Twibbon",
             "the_og_twibbon": "O Twibbon original; uma moldura que é colocada em sua foto",
-            "backround_twibbon": "Fundo de fita dupla face",
-            "a_fresh_variation": "Uma nova variação do Twibbon que se apresenta como o plano de fundo de sua foto"
+            "a_fresh_variation": "Uma nova variação do Twibbon que se apresenta como o plano de fundo de sua foto",
+            "frame_twibbon": "Fita de armação",
+            "backround_twibbon": "Fita de fundo "
         },
         "tilt": {
             "get_it_ready": "Prepare-o a qualquer momento com nosso Twibbon Editor integrado",
@@ -604,8 +673,26 @@
             "your_supporters": "seus apoiadores",
             "inspire_detail": "Os links do Twibbonize atraem os curiosos, atraindo-os para sua causa e despertando o interesse em sua campanha",
             "unite_detail": "Reúna toda a comunidade de apoiadores de sua campanha em sua página do Twibbonize, onde os apoiadores se conectam e você vê o impacto!",
-            "entertain_detail": "O Twibbonize envolve seus apoiadores fornecendo um Twibbon virtual compartilhável para mídias sociais e mensagens.",
-            "grow_detail": "Obtenha mais apoio com uma campanha do Twibbonize: ela não só chama a atenção, mas também cria um efeito de onda, atraindo um público crescente que não quer perder sua causa."
+            "entertain_detail": "O Twibbonize envolve seus apoiadores fornecendo um Twibbon virtual compartilhável para mídias sociais e mensagens",
+            "grow_detail": "Obtenha mais apoio com uma campanha do Twibbonize: ela não só chama a atenção, mas também cria um efeito de onda, atraindo um público crescente que não quer perder sua causa.",
+            "inspire": "Inspirar ",
+            "unite": "Unir-se",
+            "entertain": "Entretenimento",
+            "grow": "Crescer"
+        },
+        "use_cases": {
+            "heading": "Ideias para usar o Twibbonize",
+            "subheading": "Inicie sua exploração com exemplos escolhidos a dedo de nossas mais de 5.000.000 campanhas do Twibbonize",
+            "corporate": "Corporativo",
+            "corporate_title": "Utilize o poder da abundância de seus funcionários e clientes",
+            "education": "Educação",
+            "education_title": "É uma maneira divertida de aumentar o processo de aprendizado",
+            "event": "Eventos",
+            "events_title": "Divulgue seu evento com o poder da viralidade instantânea"
+        },
+        "testimonials": {
+            "testimonials": "Depoimentos",
+            "heading": "Confiado por nomes em que você confiava"
         }
     },
     "page_explore": {
@@ -624,7 +711,7 @@
     "page_leaderboard": {
         "general": {
             "top_creators": "Tabela de classificação dos principais criadores",
-            "discover": "Descubra quem está liderando o suporte! Veja os principais criadores da semana, do mês e de todos os tempos."
+            "discover": "Descubra quem está liderando o suporte! Veja os principais criadores da semana, do mês e de todos os tempos"
         }
     },
     "page_personels": {
@@ -643,6 +730,10 @@
         "advisor": {
             "our_advisor": "Nosso consultor",
             "proud_partner": "Temos orgulho de fazer parcerias com pessoas que estão profundamente alinhadas com nossa missão"
+        },
+        "honorary": {
+            "honorary_mentions": "Menções Honorárias",
+            "significant_contributions": "Aqueles que fizeram contribuições significativas para o nosso desenvolvimento"
         }
     },
     "page_pricing": {
@@ -659,16 +750,16 @@
             "private_campaign_1": "Privado",
             "private_campaign_2": "Campanha",
             "offer_exclusively": "Ofereça exclusividade aos seus apoiadores",
-            "campaign_customization_1": "Campanha",
-            "campaign_customization_2": "Personalização",
+            "campaign_customization_1": "Personalização",
+            "campaign_customization_2": "da campanha",
             "personalize_campaign": "Personalize sua página de campanha",
             "multiple_frames_1": "Twibbon múltiplo",
             "multiple_frames_2": "por campanha",
             "unleash_creativity": "Liberar a criatividade com versatilidade",
             "top_notch": "Aprimore seu jogo de campanha",
-            "considering_all": "Considerando todas as conveniências, vale a pena.",
-            "remove_watermark_1": "Remover",
-            "remove_watermark_2": "Marca d'água",
+            "considering_all": "Considerando todas as conveniências, vale a pena",
+            "remove_watermark_1": "Remova",
+            "remove_watermark_2": "a marca d'água",
             "for_audience_1": "para",
             "for_audience_2": "você e seu público",
             "as_a_free_user": "Como usuário gratuito, seu Twibbon sempre apresenta <strong>uma marca d'água.<\/strong>",
@@ -683,14 +774,14 @@
             "enjoy_uninterrupted": "Aproveite a experiência ininterrupta e sem anúncios no Twibbonize. Prepare-se para adotar uma versão mais limpa e fácil de usar do Twibbonize.",
             "remove_watermark": "Remova a marca d'água de sua própria conta",
             "top_notch": "Aprimore seu jogo de campanha",
-            "considering_all": "Considerando todas as conveniências, vale a pena.",
+            "considering_all": "Considerando todas as conveniências, vale a pena",
             "use_twibbonize_without_ads": "Use o Twibbonize sem anúncios",
             "as_a_free_user": "Como usuário gratuito, seu Twibbon sempre apresenta <strong>uma marca d'água.<\/strong>",
             "premium_supporter": "<strong>Premium Supporter<\/strong> remove a marca d'água para obter uma imagem mais limpa.",
             "now_you_can": "Agora você pode <strong>apoiar qualquer campanha<\/strong> sem marca d'água.",
-            "remove_watermark_1": "Remover",
-            "remove_watermark_2": "Marca d'água",
-            "for_audience_1": "para",
+            "remove_watermark_1": "Remova",
+            "remove_watermark_2": "a marca d'água",
+            "for_audience_1": "de",
             "for_audience_2": "sua própria conta",
             "looking_to_remove": "Deseja remover a marca d'água de todos os usuários da sua campanha? Experimente"
         },
@@ -725,24 +816,24 @@
             "notes": "Notas",
             "print": "Download da fatura",
             "if_you_would_like_to_change": "Se quiser alterar sua assinatura ou suas informações de pagamento, acesse suas configurações de cobrança",
-            "ending_in": ""
+            "ending_in": "{card} terminando em {number}"
         },
         "bento": {
             "campaign_analytics_1": "Campanha",
             "campaign_analytics_2": "Analíticas",
             "private_campaign_1": "Privado",
             "private_campaign_2": "Campanha",
-            "campaign_customization_1": "Campanha",
-            "campaign_customization_2": "Personalização",
-            "multiple_frames_1": "Vários quadros",
+            "campaign_customization_1": "Personalização",
+            "campaign_customization_2": "da campanha",
+            "multiple_frames_1": "Muitos quadros",
             "multiple_frames_2": "por campanha",
-            "use_twibbonize_without_ads_1": "Use o Twibbonize",
+            "use_twibbonize_without_ads_1": "Usar o Twibbonize",
             "use_twibbonize_without_ads_2": "sem anúncios",
             "no_extra_features_1": "Sem recursos adicionais",
             "no_extra_features_2": "Disponível",
-            "remove_all_watermark_1": "Remover marca d'água",
-            "remove_all_watermark_2": "todos os usuários da sua campanha",
-            "remove_own_watermark_1": "Remover marca d'água",
+            "remove_all_watermark_1": "Remova a marca d'água",
+            "remove_all_watermark_2": "de todos os usuários da sua campanha",
+            "remove_own_watermark_1": "Remova a marca d'água",
             "on": "em",
             "remove_own_watermark_2": "sua própria conta",
             "extra_features": "Recursos adicionais"
@@ -771,6 +862,19 @@
             "answer_8": "Você pode baixar facilmente a fatura diretamente de sua conta Twibbonize.",
             "question_9": "Onde posso encontrar ajuda relacionada ao uso do Twibbonize?",
             "answer_9": ""
+        },
+        "hero": {
+            "pricing": "PREÇOS",
+            "find_the_right_premium_plan": "Encontre o plano Premium certo para sua necessidade"
+        },
+        "card_premium_supporter": {
+            "subheading": "Para pessoas que querem mais do Twibbonize"
+        },
+        "card_premium_creator": {
+            "subheading": "Para pessoas que precisam da melhor experiência com o Twibbonize"
+        },
+        "same_plan": {
+            "adjust_plan": "Ajustar plano"
         }
     },
     "page_profile": {
@@ -778,17 +882,17 @@
             "search_campaigns": "Pesquisar campanhas",
             "no_campaigns": "Nenhuma campanha ainda",
             "no_campaigns_details": "Crie uma campanha e compartilhe-a no twibbonize.",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "Tem certeza de que deseja excluir esta campanha?",
+            "delete_detail": "A exclusão de \" {title} \" será permanente e não poderá ser desfeita.",
+            "delete_campaign": "Excluir campanha"
         },
         "posts": {
             "no_posts": "Nenhuma postagem ainda",
-            "no_post_details": "Encontre uma campanha e publique seu twibbon no Twibbonize."
+            "no_post_details": "Encontre uma campanha e publique seu twibbon no Twibbonize"
         },
         "collections": {
             "no_collections": "Organize suas campanhas favoritas",
-            "no_collections_details": "Na página da campanha, basta clicar no botão do ícone {icon} para salvar as campanhas que achar interessantes em suas próprias coleções."
+            "no_collections_details": "Clique no ícone {icon} em qualquer campanha para salvá-la em suas coleções"
         },
         "about": {
             "about": "Sobre",
@@ -798,6 +902,34 @@
             "joined": "Associado desde {created}",
             "supporters": "Apoiadores",
             "campaigns": "Campanhas"
+        },
+        "my_profile": {
+            "edit_profile": "Editar perfil",
+            "campaigns": "Campanhas",
+            "collections": "Coleções",
+            "posts": "Publicações"
+        },
+        "campaign_deletion": {
+            "are_you_sure": "Tem certeza?"
+        },
+        "campaign": {
+            "delete_campaign": "A exclusão de \"{campaign_name}\" será permanente e não poderá ser desfeita.",
+            "confirm_delete_campaign": "Excluir campanha"
+        },
+        "collection": {
+            "delete_collection": "A coleção \"{collection_name}\" será excluída permanentemente.",
+            "confirm_delete_collection": "Excluir coleção",
+            "delete_campaign": "A campanha \"{campaign_name}\" será removida permanentemente da coleção \"{collection_name}\".",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "Por que você está denunciando esse perfil?",
+            "abusive_harmful": "Abusivo ou prejudicial",
+            "pretending_someone": "Fingir ser outra pessoa",
+            "sensitive_content": "Conteúdo sensível"
+        },
+        "account": {
+            "email_changed": "Seu e-mail foi alterado recentemente. Você pode atualizá-lo novamente em 90 dias."
         }
     },
     "page_preference": {
@@ -841,55 +973,55 @@
             "adfree": "Sem anúncios",
             "highquality": "Alta qualidade",
             "nowatermark": "Sem marca d'água",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "Pago",
+            "are_you_sure_change": "Tem certeza?",
+            "active_after_subscription": "Ele estará ativo quando sua assinatura atual terminar",
+            "are_you_sure_upgrade": "Tem certeza de que deseja atualizar?",
+            "plan_changing_info": "Mude para {package} recebido. O novo plano começa após o término do atual",
+            "active_after_payment": "Ele estará ativo assim que você concluir o pagamento",
+            "are_you_sure_downgrade": "Tem certeza de que deseja fazer downgrade do plano?",
+            "plan_downgrade_info": "Downgrade para {package} recebido. O novo plano começa após o término do atual",
+            "renew_plan": "Renovar Plano",
+            "renew_subscription": "Renovar inscrição",
+            "upgrade_now": "Atualize agora",
+            "warning": "Aviso!",
+            "important": "Importante!",
+            "premium_expired": "Seu plano Premium Creator expirou. Renove até {date}",
+            "last_attempted": "Nossas últimas tentativas de cobrança não tiveram sucesso. Atualize sua forma de pagamento.",
+            "renewal_date": "Data de renovação",
+            "payment_method": "Forma de pagamento",
+            "update_now": "Atualizar agora",
+            "cancel_subscription": "Cancelar assinatura",
+            "change_payment_method": "Mudar o metodo de pagamento",
+            "card_end_with": "{card} terminando em {number}",
+            "no_transactions": "Ainda não há histórico de transações",
+            "transactions_will_shown": "Seu histórico de transações será mostrado aqui assim que estiver disponível",
+            "are_you_sure": "Tem certeza?",
+            "once_cancel_plan": "Depois de cancelar o plano, você perderá o acesso a todos os recursos atualizados no final do ciclo de faturamento",
+            "yes_cancel_plan": "Sim, cancelar plano",
+            "no_keep_plan": "Não, mantenha o plano",
+            "once_renew_plan": "Depois de renovar o plano, seu plano estará ativo novamente",
+            "yes_renew_plan": "Sim, renovar plano",
+            "no_cancel": "Não, cancelar",
+            "if_cancel_downgrade": "Se você cancelar o downgrade, seu plano atual estará ativo novamente",
+            "yes_downgrade": "Sim, continuar o downgrade",
+            "if_cancel_change_billing": "Se você cancelar a alteração do faturamento, seu plano atual estará ativo novamente",
+            "yes_continue": "Sim, continuar",
+            "info": "Informações",
+            "your_request_cancel": "Sua solicitação para cancelar seu plano {plan} foi recebida. Terminará no próximo ciclo de faturamento",
+            "your_request_downgrade": "Sua solicitação de downgrade para {plan} foi recebida. Seu novo plano será ativado assim que o plano atual terminar.",
+            "cancel_downgrade": "Cancelar downgrade",
+            "cancel_change": "Cancelar alteração de cobrança",
+            "your_request_billing": "Sua solicitação para alterar seu faturamento para {plan} foi recebida. Seu novo plano será ativado assim que o plano atual terminar.",
+            "manage_inapp": "Gerencie sua assinatura no aplicativo Twibbonize {appOs}",
+            "manage_inapp_subscription": "Para gerenciar sua assinatura do Twibbonize em {appOs} , abra o aplicativo, vá em ‘Configurações’ e selecione ‘Faturamento’.",
+            "success_cancel_subscription": "Sucesso no cancelamento da assinatura",
+            "success_renew_subscription": "Sucesso na renovação da assinatura",
+            "success_change_subscription": "Assinatura de mudança de sucesso",
+            "success_cancel_change_subscription": "Sucesso no cancelamento da alteração da assinatura",
+            "last_attempted_authentication": "Nossas últimas tentativas de cobrança não tiveram sucesso. Seu pagamento precisa de autenticação.",
+            "authenticate_now": "Autenticar agora",
+            "recurring_payment": "Exigimos sua confirmação explícita para seu pagamento recorrente. Por favor verifique seu email"
         },
         "account": {
             "update_email": "Atualizar e-mail",
@@ -919,19 +1051,19 @@
             "confirm_password": "Confirmar senha",
             "create_new_password": "Criar nova senha",
             "make_it_easy": "Faça com que seja fácil para você se lembrar e mantenha isso em segredo de todos!",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "Adicionar e-mail",
+            "add_password": "Adicionar senha",
+            "cant_remove_account": "Ops, não podemos remover sua conta de mídia social.",
+            "set_up_email": "Você deve primeiro configurar o e-mail ou a senha para remover sua conta de mídia social.",
+            "want_to_remove": "Quer remover sua conta de mídia social?",
+            "your_account_will_be_removed": "Sua conta {provider} será removida. Clique em entender para remover suas contas de mídia social.",
+            "continue_to_revoke": "Continuar a revogar ",
+            "revoke_success": "Sucesso na revogação da conta {provider}",
+            "cannot_update_email": "Ops, não foi possível atualizar seu e-mail",
+            "setup_password_to_update_email": "Você deve definir uma senha antes de atualizar seu e-mail.",
+            "email_change_request": "Solicitação de alteração de e-mail cancelada",
+            "we_have_sent_password": "Enviamos instruções de redefinição de senha para seu e-mail. Por favor, redefina sua senha dentro de 1 hora por motivos de segurança.",
+            "go_to_homepage": "Vá para a página inicial"
         },
         "notifications": {
             "notifications_settings": "Configurações de notificações",
@@ -949,10 +1081,10 @@
             "article": "Artigos",
             "article_details": "Você receberá nossos artigos recomendados.",
             "toggle_all": "Todos",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "Postar no Twibbonize",
+            "post_twibbonize_details": "Receba notificações de postagens de apoiadores na página da campanha.",
+            "account_recap": "Recapitulação da conta",
+            "account_recap_details": "Recapitulação semanal de apoiadores e visitas para todas as suas campanhas"
         },
         "package": {
             "free": "Grátis",
@@ -977,7 +1109,7 @@
         "header": {
             "testimonials": "Depoimentos",
             "trusted": "Confiado por nomes em que você confiava",
-            "read_stories": "Leia histórias de empresas e organizações que utilizaram com sucesso nossa plataforma em seus programas de campanha."
+            "read_stories": "Leia histórias de empresas e organizações que utilizaram com sucesso nossa plataforma em seus programas de campanha"
         },
         "bento": {
             "read_success_story": "Leia a história de sucesso deles"
@@ -1231,7 +1363,6 @@
         },
         "graph": {
             "page": "Página {currentPage} de {totalPage}",
-            "data_displayed": "Dados exibidos no fuso horário UTC (UTC+0)",
             "trend": "Tendência",
             "country": "País",
             "city": "Cidade",
@@ -1244,7 +1375,8 @@
             "visit": "Visitar",
             "visit_detail": "O número de sessões de navegação únicas que visitaram a página de sua campanha",
             "unique_visit": "Visita única",
-            "unique_visit_detail": "O número de pessoas que visitaram sua página de campanha"
+            "unique_visit_detail": "O número de pessoas que visitaram sua página de campanha",
+            "data_displayed": "Dados exibidos no fuso horário UTC+0"
         }
     },
     "page_account": {
@@ -1252,8 +1384,6 @@
             "email": "E-mail",
             "password": "Senha",
             "confirm_password": "Confirmar senha",
-            "login_with_google": "Fazer login com o Google",
-            "login_with_facebook": "Fazer login com o Facebook",
             "login_with_email": "ou faça login com seu e-mail",
             "signup_with_google": "Registre-se no Google",
             "signup_with_facebook": "Registre-se com o Facebook",
@@ -1266,7 +1396,9 @@
             "signup": "Registrar-se",
             "terms": "Termos",
             "privacy": "Política de privacidade",
-            "name": ""
+            "name": "Nome",
+            "login_with_facebook": "Entrar com o Facebook",
+            "login_with_google": "Faça login com o Google"
         }
     },
     "page_article": {
@@ -1275,97 +1407,398 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "Faça login para postar no Twibbonize",
+        "sign_in_to_comment": "Entre para deixar um comentário",
+        "sign_in_to_like": "Faça login para dar um like",
+        "sign_up_to_post": "Inscreva-se para postar no Twibbonize",
+        "sign_up_to_comment": "Inscreva-se para deixar um comentário",
+        "sign_up_to_like": "Inscreva-se para dar um like",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "Login com sucesso! Bem vindo de volta.",
+                "error": "Falha no login. Verifique suas credenciais e tente novamente."
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "Cadastro bem sucedido! Bem vindo a bordo.",
+                "error": "Falha na inscrição. Por favor, verifique seus dados e tente novamente."
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "E-mail já registrado",
+        "email_registered_lead": "Este e-mail já está registado. Você gostaria de fazer login?",
+        "sign_in_to_create_campaign": "",
+        "sign_up_to_create_campaign": ""
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "Confirmar exclusão",
+            "delete_lead": "Tem certeza de que deseja excluir esta postagem? Essa ação não pode ser desfeita.",
+            "delete_yes": "Sim, excluir",
+            "delete_no": "Cancelar"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "Compartilhe sua mensagem",
+            "logged_in_placeholder": "Comentar como {name}",
+            "comment_posted": "Comentário postado",
+            "comment_deleted": "Comentário deletado",
+            "reply_deleted": "Resposta excluída"
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "Postagem enviada",
+            "hidden": "Escondido",
+            "unhidden": "Reexibido",
+            "reported": "Relatado",
+            "deleted": "Excluído",
+            "pinned": "Fixado",
+            "unpinned": "Desafixado"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "Denunciar campanha",
+        "report_profile": "Reportar o perfil",
+        "abusive_or_harmful": "Abusivo ou prejudicial",
+        "pretending_to_be_someone_else": "Fingindo ser outra pessoa",
+        "sensitive_content": "Conteúdo sensível",
+        "plagiarism": "Plágio",
+        "impersonation": "Representação",
+        "piracy": "Pirataria",
+        "nudity_pornography": "Nudez e pornografia",
+        "dangerous_or_harmful": "Perigoso ou prejudicial",
+        "harassment_cyberbullying": "Assédio e cyberbullying",
+        "provocative_threatening_content": "Conteúdo provocativo e ameaçador",
+        "privacy_violations": "Violações de privacidade",
+        "unauthorized_use_of_personal_information": "Uso não autorizado de informações pessoais",
+        "child_exploitation": "Exploração Infantil",
+        "harassment": "Assédio",
+        "terrorism": "Terrorismo",
+        "violence": "Violência",
+        "false_information": "Informação falsa",
+        "health": "Saúde",
+        "politics": "Política",
+        "social_issue": "Problema social",
+        "hate_speech": "Discurso de ódio",
+        "disability_or_disease": "Deficiência ou doença",
+        "race_or_ethnicity": "Raça ou etnia",
+        "religious_affiliation": "Filiação Religiosa",
+        "sexual_orientation": "Orientação sexual",
+        "nudity": "Nudez",
+        "suicide_or_self_harm": "Suicídio ou automutilação",
+        "vulgar_language": "Linguagem vulgar",
+        "dangerous_content": "Conteúdo Perigoso",
+        "why_report_campaign": "Por que você está denunciando esta campanha?",
+        "why_report_profile": "Por que você está denunciando este perfil?",
+        "why_report_submission": "Por que você está denunciando este envio?",
+        "why_report_comment_reply": "Por que você está denunciando este comentário?",
+        "why_report_collection": "Por que você está denunciando esta coleção?",
+        "select_one": "Por favor escolha um",
+        "protect_privacy_reporter": "As Diretrizes da Comunidade Twibbonize protegem a privacidade da identidade do repórter.",
+        "tell_us_more": "conte-nos mais",
+        "received_report": "Recebemos seu relatório!",
+        "thankyou": "Obrigado! Permita-nos investigar seu relatório e enviaremos o feedback para seu e-mail o mais rápido possível.",
+        "learn_more_about": "Saiba mais sobre o {link} .",
+        "community_guideline": "Diretrizes da comunidade Twibbonize",
+        "placeholder_write_here": "Escreva aqui",
+        "report_sent": "Relatório enviado"
+    },
+    "page_editor": {
+        "general": {
+            "template": "Modelo",
+            "text": "Texto",
+            "shape": "Forma",
+            "image": "Imagem",
+            "graphic": "Gráfico",
+            "upload": "Carregar",
+            "layer": "Camada",
+            "resize": "Redimensionar",
+            "save": "Salvar",
+            "width": "Largura",
+            "height": "Altura",
+            "transparency": "Transparência",
+            "line_weight": "Peso da linha",
+            "align": "Alinhar",
+            "group": "Grupo",
+            "ungroup": "Desagrupamento",
+            "unlock": "Desbloqueio",
+            "loading": "Carregamento"
+        },
+        "text": {
+            "add_a_heading": "Adicionar um título",
+            "add_a_subheading": "Adicionar um subtítulo",
+            "document_fonts": "Fontes de documentos",
+            "text_effect": "Efeitos de texto",
+            "effects": "Efeitos",
+            "add_a_body_text": "Adicionar um pouco de texto do corpo"
+        },
+        "shape": {
+            "arrow": "Seta",
+            "shape": "Forma"
+        },
+        "upload": {
+            "upload_image": "Carregar imagem",
+            "upload": "Carregar",
+            "type": "Tipo:",
+            "size": "Tamanho:",
+            "type_image": "JPG, PNG ou SVG",
+            "maximum_size": "Máximo de 5 MB"
+        },
+        "toolbar": {
+            "copy": "Cópia",
+            "paste": "Colar",
+            "duplicate": "Duplicado",
+            "delete": "Excluir",
+            "layer": "Camada",
+            "bring_forward": "Trazer para frente",
+            "bring_to_front": "Trazer para a frente",
+            "send_backward": "Enviar para trás",
+            "send_to_back": "Enviar para trás",
+            "show_layers": "Mostrar camadas",
+            "left": "Esquerda",
+            "center": "Centro",
+            "right": "Certo",
+            "top": "Topo",
+            "middle": "Médio",
+            "bottom": "Parte inferior",
+            "set_as_text_template": "Definir como modelo de texto",
+            "set_as_background_image": "Definir como imagem de fundo",
+            "lock": "Trava",
+            "letter_spacing": "Espaçamento entre letras",
+            "line_spacing": "Espaçamento entre linhas",
+            "border_weight": "Peso da borda",
+            "align": "Alinhar",
+            "effects": "Efeitos"
+        },
+        "confirmation": {
+            "cancel": "Cancelar",
+            "save": "Salvar",
+            "has_your_frame_been_completed": "Sua estrutura foi concluída?",
+            "once_it_save": "Depois de salva, a edição não estará mais disponível"
+        },
+        "image": {
+            "image_template": "Foto de {name} ",
+            "image_template_1": "em",
+            "edit_image": "Editar imagem",
+            "image_template_2": "Unsplash"
+        },
+        "error": {
+            "minimum_dimension": "As dimensões devem ser de pelo menos 100px e não mais de 8000px."
+        },
+        "text_effect": {
+            "style": "Estilo",
+            "none": "Nenhum",
+            "shadow": "Sombra",
+            "text_effects": "Efeitos",
+            "lift": "Elevador",
+            "offset": "Deslocamento",
+            "direction": "Direção",
+            "blur": "Desfoque",
+            "transparency": "Transparência",
+            "color": "Cor",
+            "thickness": "Espessura"
+        },
+        "colors": {
+            "colors": "Cores",
+            "document_colors": "Cores do documento",
+            "default_colors": "Cores padrão"
+        }
+    },
+    "page__campaign_creation": {
+        "campaign_preview": {
+            "campaign_description": "Descrição da campanha",
+            "campaign_title": "Título da campanha"
+        }
+    },
+    "page_my_campaign": {
+        "edit_campaign": {
+            "campaigns": "Campanhas",
+            "frames": "Molduras",
+            "analytics": "Análises"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "Por que você está denunciando esta postagem?",
+            "plagiarism ": "Plágio",
+            "impersonation ": "Falsificação de identidade ",
+            "piracy ": "Pirataria",
+            "vulgar_language": "Linguagem vulgar",
+            "nudity_pornography": "Nudez e pornografia",
+            "suicidal_self_harm": "Conteúdo sobre suicídio e automutilação ",
+            "danger": "Perigosos ou prejudiciais ",
+            "violent_graphic_content": "Conteúdo gráfico violento",
+            "harassment_cyberbullying": "Assédio e cyberbullying ",
+            "provocative_threatening_content": "Conteúdo provocativo e ameaçador",
+            "spam": "Spam"
+        },
+        "report_comment": {
+            "title": "Por que você está denunciando esse comentário?",
+            "abusive_harmful": "Abusivo ou prejudicial",
+            "harassment": "Assédio",
+            "terrorism": "Terrorismo",
+            "violence": "Violência",
+            "false_information": "",
+            "health": "Saúde",
+            "politics": "Política",
+            "social_issue": "Questão social",
+            "sensitive_content": "Conteúdo sensível ",
+            "nudity": "Nudez",
+            "vulgar_language": "Linguagem vulgar",
+            "hate_speech": "Discurso de ódio",
+            "disability_disease": "Deficiência ou doença",
+            "race_or_ethnicity": "Raça ou etnia",
+            "religious_affiliation": "Afiliação religiosa ",
+            "sexual_orientation": "Orientação sexual",
+            "spam": "Spam"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "Url inválido"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "Falha ao realizar o login do Google",
+        "failed_apple_login": "Falha ao realizar o login da Apple"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "O arquivo da foto excede o tamanho máximo de 5 MB",
+            "cannot_create_twibbon": "Não é possível criar o Twibbon. Tente novamente"
+        },
+        "log_in": {
+            "complete_verification": "Conclua a verificação para continuar",
+            "email_no_password": "Este e-mail não possui senha. Faça login pelo Google",
+            "social_media_already_registered": "O e-mail da sua conta de mídia social já está registrado e conectado a outra conta de um serviço de mídia social semelhante. Por favor, tente fazer login usando os formulários de e-mail e senha."
+        },
+        "sign_up": {
+            "email_already_registered": "Este e-mail já está registado. Use um e-mail diferente ou tente fazer login",
+            "password_minimum_required": "A senha deve conter pelo menos 8 caracteres.",
+            "password_character_exceeded": "A senha não deve exceder 128 caracteres",
+            "password_must_be_standard": "A senha deve ser alfanumérica padrão",
+            "password_does_not_match": "A confirmação da senha não corresponde. Tente novamente"
+        },
+        "verification": {
+            "code_incorrect": "Código incorreto. Tente novamente",
+            "code_expired": "O código expirou. peça um novo",
+            "maximum_attempt_reached": "Máximo de tentativas alcançado. Tente novamente em 5 horas",
+            "code_requested_exceeded": "As solicitações de código excederam o limite máximo"
+        },
+        "forgot_password": {
+            "email_not_found": "Email não encontrado. Tente novamente ou inscreva-se",
+            "link_expired": "O link para alterar a senha expirou. peça um novo",
+            "link_used": "O link para alterar a senha foi usado. peça um novo"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "O arquivo do quadro excede o tamanho máximo de 5 MB",
+            "background_file_exceed": "O arquivo de segundo plano excede o tamanho máximo de 5 MB",
+            "image_not_transparent": "A imagem deve ser transparente. Tente novamente",
+            "invalid_format": "Formato de arquivo inválido. Use um formato compatível",
+            "allow_only_1_frame": "Contas gratuitas permitem apenas o upload de 1 quadro. Atualize para continuar",
+            "allow_only_1_background": "Contas gratuitas permitem apenas 1 upload em segundo plano. Atualize para continuar",
+            "campaign_title_exceed_limit": "O título da campanha excede o limite máximo de caracteres",
+            "description_exceed_limit": "A descrição excede o limite máximo de caracteres",
+            "link_unavailable": "O link da campanha já está em uso. Escolha outro",
+            "link_criteria": "O link da campanha deve ser alfanumérico e hífen (-)",
+            "caption_exceed_limit": "O modelo de legenda excede o limite máximo de caracteres",
+            "background_exceed_limit": "O arquivo de segundo plano excede o tamanho máximo de 5 MB",
+            "photo_exceed_limit": "O arquivo de foto em miniatura excede o tamanho máximo de 5 MB",
+            "link_exceed_limit": "O link da campanha excede o limite máximo de caracteres"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "O arquivo do quadro excede o tamanho máximo de 5 MB",
+            "background_file_exceed": "O arquivo de segundo plano excede o tamanho máximo de 5 MB"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "A imagem deve ser transparente. Tente novamente",
+            "invalid_format": "Formato de arquivo inválido. Use um formato compatível",
+            "allow_only_1_frame": "Contas gratuitas permitem apenas o upload de 1 quadro. Atualize para continuar",
+            "allow_only_1_background": "Contas gratuitas permitem apenas 1 upload em segundo plano. Atualize para continuar",
+            "campaign_title_exceed_limit": "O título da campanha excede o limite máximo de caracteres",
+            "description_exceed_limit": "A descrição excede o limite máximo de caracteres",
+            "link_unavailable": "O link da campanha já está em uso. Escolha outro",
+            "link_criteria": "O link da campanha deve ser alfanumérico e hífen (-)",
+            "link_exceed_limit": "O link da campanha excede o limite máximo de caracteres",
+            "caption_exceed_limit": "O modelo de legenda excede o limite máximo de caracteres",
+            "background_exceed_limit": "O arquivo de segundo plano excede o tamanho máximo de 5 MB",
+            "thumbnail_exceeds": "O arquivo de foto em miniatura excede o tamanho máximo de 5 MB"
+        },
+        "settings": {
+            "profile_image_exceed": "A imagem do perfil excede o limite máximo de 5 MB",
+            "background_image_exceed": "A imagem de fundo excede o tamanho máximo de 5 MB",
+            "username_unavailable": "O nome de usuário já está em uso. Tente outro",
+            "username_exceed_limit": "O nome de usuário excede o limite máximo de caracteres",
+            "username_invalid": "Nome de usuário inválido. Tente novamente com o formato correto",
+            "display_exceed_limit": "O nome de exibição excede o limite máximo de caracteres",
+            "bio_exceed_limit": "Bio excede o limite máximo de caracteres",
+            "email_already_registered": "E-mail já registrado. Tente outro",
+            "password_incorrect": "Senha incorreta. Tente novamente",
+            "password_minimum_character": "A senha deve conter pelo menos 8 caracteres",
+            "password_maximum_character": "A senha não deve exceder 128 caracteres",
+            "password_standard_format": "A senha deve seguir o formato padrão alfanumérico",
+            "account_deleted": "Conta excluída",
+            "account_integrated": "Conta integrada",
+            "account_revoked": "Conta revogada"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "A seção \"Conte-nos mais\" excede o limite máximo de caracteres"
+        },
+        "general": {
+            "something_went_wrong": "Algo deu errado"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "O número de campanhas adicionadas excede o limite máximo",
+            "description_exceeds": "A descrição excede o limite máximo de caracteres",
+            "title_exceeds": "O título da coleção excede o limite máximo de caracteres"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "Link copiado",
+            "social_media_already_linked": "Conta de mídia social já vinculada a outra conta Twibbonize. Tente outro"
+        },
+        "campaign_creation": {
+            "link_available": "O link está disponível"
+        },
+        "campaign_edit": {
+            "link_available": "O link está disponível"
+        },
+        "settings": {
+            "photo_updated": "Foto atualizada",
+            "banner_updated": "Banner atualizado",
+            "banner_deleted": "Banner excluído",
+            "photo_deleted": "Foto excluída",
+            "password_updated": "senha atualizada",
+            "email_updated": "E-mail atualizado"
+        },
+        "my_profile": {
+            "campaign_deleted": "Campanha excluída"
+        },
+        "collection": {
+            "campaign_added": "Campanha adicionada"
+        },
+        "campaign_page": {
+            "account_upgraded": "Conta atualizada",
+            "link_copied": "Link copiado"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "Email não encontrado. Tente novamente ou inscreva-se"
+        },
+        "password": {
+            "password_incorrect": "Senha incorreta. Tente novamente"
+        },
+        "maximum_attempt": "Máximo de tentativas alcançado. Tente novamente em 1 hora"
+    },
+    "page_notification": {
+        "no_notification_heading": "Nenhuma notificação ainda",
+        "no_notification_subheading": "Não há notificações no momento"
+    },
+    "page_general": {
+        "no_internet_connection": "Sem conexão com a internet. Toque para tentar novamente",
+        "could_not_connect_internet": "Não foi possível conectar-se à Internet. Mude para outra rede e tente novamente."
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "Sair?"
+        }
     }
 }

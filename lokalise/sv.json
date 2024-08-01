@@ -35,7 +35,7 @@
             "terms": "Villkor och anvisningar",
             "privacy_policy": "Integritetspolicy",
             "cookie_policy": "Policy för cookies",
-            "sitemap": ""
+            "sitemap": "Webbplatskarta"
         },
         "menu": {
             "explore": "Utforska",
@@ -47,11 +47,6 @@
             "sign_in": "Logga in",
             "sign_up": "Registrera dig",
             "sign_out": "Logga ut"
-        },
-        "campaign": {
-            "supporters": "supporter|supporters",
-            "campaigns": "Kampanjer",
-            "created": "Skapad"
         },
         "button": {
             "view_all": "Visa alla",
@@ -71,11 +66,12 @@
             "report": "Rapportera",
             "edit": "Redigera",
             "confirm": "Bekräfta",
-            "okay": "",
-            "view": "",
-            "send": "",
-            "more": "",
-            "less": ""
+            "okay": "Okej",
+            "view": "Utsikt",
+            "send": "Skicka",
+            "more": "Mer",
+            "less": "Mindre",
+            "submit": "Skicka in"
         },
         "time": {
             "week": "Veckan",
@@ -86,9 +82,14 @@
             "annual": "Årligen",
             "yearly": "Årligen"
         },
+        "campaign": {
+            "campaigns": "Kampanjer",
+            "created": "Skapad",
+            "supporters": "supporter|supporter|supportrar"
+        },
         "collection": {
             "collections": "Samlingar",
-            "campaigns": "{campaign} Kampanjer"
+            "campaigns": "{campaign}-kampanjer"
         },
         "creator": {
             "creators": "Skapare"
@@ -108,8 +109,21 @@
             "hide_post": "Dölj inlägg",
             "post_shared": "Inlägget delades på {date}",
             "share_message": "Dela med dig av ditt budskap",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "Lossa inlägg",
+            "unhide_post": "Visa inlägg"
+        },
+        "pricing": {
+            "creator_subscribe_to": "Denna skapare prenumererar på",
+            "plan": "planen",
+            "support_without_watermark": "De kan stödja vilken kampanj som helst utan vattenstämpeln!",
+            "all_supporters_without_watermark": "Du kan stödja hela den här skaparens kampanj utan vattenstämpeln!"
+        },
+        "campaign_card": {
+            "a_month_ago": " |En månad sedan",
+            "a_day_ago": " |En dag sen"
+        },
+        "search": {
+            "searching": "Sökande..."
         }
     },
     "page_home": {
@@ -218,9 +232,9 @@
         },
         "history": {
             "the_history": "Twibbons historia",
-            "in_this": "I den digitala eran har sociala medier blivit den självklara plattformen för att uttrycka stöd, oro och andra känslor.",
-            "however": "Men ibland kämpar vi med att hitta rätt ord och handlingar för att förmedla våra tankar på ett effektivt sätt.",
-            "visual_factor": "Den visuella faktorn har stor makt i detta sammanhang. Twibbon är en enkel lösning för att bli en förlängning av de idéer du vill förmedla."
+            "in_this": "I den digitala eran har sociala medier blivit den självklara plattformen för att uttrycka stöd, oro och andra känslor",
+            "however": "Men ibland kämpar vi med att hitta rätt ord och handlingar för att förmedla våra tankar på ett effektivt sätt",
+            "visual_factor": "Den visuella faktorn har stor makt i detta sammanhang. Twibbon är en enkel lösning för att bli en förlängning av de idéer du vill förmedla"
         }
     },
     "page_contact": {
@@ -246,7 +260,7 @@
     "page_twibbon": {
         "header": {
             "what_is": "Vad är en Twibbon?",
-            "twibbon_result": "Twibbon är resultatet av att lägga en rammall över ett foto, som vanligtvis används i profilbilder eller inlägg i sociala medier för att uttrycka stöd för en sak, kampanj eller händelse."
+            "twibbon_result": "Twibbon är resultatet av att lägga en rammall över ett foto, som vanligtvis används i profilbilder eller inlägg i sociala medier för att uttrycka stöd för en sak, kampanj eller händelse"
         },
         "generate": {
             "your_photo": "Ditt foto",
@@ -256,12 +270,12 @@
         "process": {
             "how_twibbonize_1": "Hur Twibbonize revolutionerar",
             "how_twibbonize_2": "Twibbon-kampanj",
-            "sharing_twibbon_1": "Att dela Twibbon brukade vara en komplex process vi är till och med för",
-            "sharing_twibbon_2": "trött på att förklara det för dig."
+            "sharing_twibbon_1": "Att dela Twibbon brukade vara en komplex process, vi är till och med för",
+            "sharing_twibbon_2": "trötta för att förklara det för dig."
         },
         "frame": {
             "twibbon_frame": "I Twibbonize är Twibbon mer än ramar",
-            "we_define": "Vi definierar Twibbon som en kraftfull visuell mall som blir en förlängning av ditt ärende, oavsett om det är i form av en ram eller en bakgrund."
+            "we_define": "Vi definierar Twibbon som en kraftfull visuell mall som blir en förlängning av ditt ärende, oavsett om det är i form av en ram eller en bakgrund"
         },
         "steps": {
             "starting_twibbon_1": "Starta en Twibbon-kampanj",
@@ -276,7 +290,7 @@
         },
         "cta": {
             "make_it": "Gör plats för allt",
-            "no_matter": "Oavsett vad du vill göra, från rörelser som tar itu med stora, allvarliga frågor till något bara för skojs skull. Vi kan hjälpa dig att göra det till något stort.",
+            "no_matter": "Oavsett vad du vill göra, från rörelser som tar itu med stora, allvarliga frågor till något bara för skojs skull. Vi kan hjälpa dig att göra det till något stort",
             "start_campaign": "Starta en kampanj"
         }
     },
@@ -302,17 +316,18 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "Inget inlägg ännu",
-            "be_the_first": "Bli först med att lägga upp din support här. Börja med att ladda upp ditt foto!"
+            "uploading_your_photo": "ladda upp ditt foto!",
+            "start_with": "Börja med ",
+            "be_the_first": "Bli först med att lägga upp ditt stöd här."
         },
         "twibbon": {
             "choose_your_photo": "Välj ditt foto",
             "text": "Text",
-            "download_successful": "Ladda ner Framgångsrik",
+            "download_successful": "Ladda ner Framgångsrik!",
             "photo_not_download": "Bild laddas inte ner?",
             "re_download": "Ladda ner på nytt",
             "post_to_twibbonize": "Posta till Twibbonize",
             "post_photo_to_twibbonize": "Skicka detta foto till Twibbonize",
-            "remove_watermark_for_you": "Ta bort vattenstämpel för dig",
             "upgrade_to_premium": "Uppgradera till Premium. Från och med {price}",
             "processing": "Bearbetning",
             "buy_premium": "Köp Premium",
@@ -327,17 +342,22 @@
             "download": "Nedladdningar",
             "reset": "Återställning",
             "add_text": "Lägg till text",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": ""
+            "posting_as": "Postar som ",
+            "not_you": "Inte du? ",
+            "uploading_photo_to_remove": "Laddar upp ditt foto och tar bort dess bakgrund.",
+            "wait_for_moment": "Vänta ett ögonblick...",
+            "remove_watermark_for_you_2": "och njut av dina bilder utan vattenstämpel!",
+            "remove_watermark_for_you_1": "Utforska Twibbonize utan annonser,",
+            "remove_watermark_for_you": "Ta bort vattenstämpeln!",
+            "blur": "Blur",
+            "shadow": "Skugga",
+            "twibbon_success": "Nedladdad"
         },
         "report": {
             "report_campaign": "Rapportera kampanj",
             "report_profile": "Rapport Profil",
             "plagiarism": "Plagiat",
             "sensitive": "Känsligt innehåll",
-            "danger": "Farligt innehåll",
             "spam": "Skräppost",
             "why_report_campaign": "Varför rapporterar ni om den här kampanjen?",
             "protect_reporter": "Twibbonize Community Guidelines skyddar integriteten för reporterns identitet.",
@@ -346,7 +366,21 @@
             "received_report": "Vi har tagit emot din rapport!",
             "thankyou": "Tack så mycket för din feedback! Låt oss undersöka din rapport, så skickar vi återkopplingen till din e-post så snart som möjligt.",
             "learn_more_about": "Läs mer om {link}.",
-            "community_guideline": "Twibbonize riktlinjer för gemenskapen"
+            "community_guideline": "Twibbonize riktlinjer för gemenskapen",
+            "title": "Varför rapporterar ni om den här kampanjen?",
+            "danger": "Farligt eller skadligt ",
+            "impersonation": "Imitation ",
+            "piracy": "Piratkopiering",
+            "vulgar_language": "Vulgärt språk",
+            "nudity_pornography": "Nakenhet & pornografi",
+            "suicidal_self_harm": "Självmordsbenäget och självskadande innehåll ",
+            "violent_graphic_content": "Våldsamt grafiskt innehåll",
+            "harassment_cyberbullying": "Trakasserier och cybermobbning",
+            "proactive_threatening_content": "Provocerande och hotfullt innehåll",
+            "statement": "Twibbonize Community Guidelines skyddar integriteten för reporterns identitet.",
+            "read_more_copy": "Läs mer om",
+            "please_select_one": "Vänligen välj en",
+            "write_a_message": "Skriv ett meddelande"
         },
         "discard": {
             "discard_edit": "Kassera redigeringar?",
@@ -364,9 +398,10 @@
             "supporters": "Supportrar",
             "interactions": "Interaktioner",
             "visits": "Besök",
-            "realtime_estimates": "Uppskattningar i realtid",
             "last_month": "Senaste 30 dagarna",
-            "see_more_analytics": "Se fler analyser"
+            "see_more_analytics": "Se fler analyser",
+            "realtime_estimates": "Realtidsuppskattningar från de senaste 30 dagarna",
+            "view_analytics": "Visa Analytics"
         },
         "pricing": {
             "no_thankyou": "Nej, tack så mycket"
@@ -387,12 +422,37 @@
             "reply_as_user": "Svara som {user}"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "Följ riktlinjerna för bästa resultat!",
+            "good_photo_examples": "Bra fotoexempel:",
+            "good_photo_caption": "Närbild selfie, porträttfoto, tydligt ansikte",
+            "photos_avoid": "Bilder att undvika:",
+            "bad_photo_caption": "Helkroppsfoto, gruppfoto, foto från baksidan",
+            "understand": "Jag förstår"
+        },
+        "post_to_twibbonize": {
+            "caption": "Skriv ett meddelande om den här kampanjen...",
+            "unpin_post": "Avmarkera inlägg"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "Justera ditt foto"
+        },
+        "share_campaign": {
+            "or_share_to": "eller dela till",
+            "save_share": "Spara och dela"
+        },
+        "post": {
+            "post_uploaded": "Inlägg uppladdat",
+            "post_deleted": "Post raderad",
+            "post_failed_deleted": "Posten misslyckades, raderad"
+        },
+        "create_campaign": {
+            "custom_field": "Lägg till anpassat fält"
+        },
+        "collection": {
+            "sign_up_add_collection": "Registrera dig för att lägga till i samlingen"
+        },
+        "posts": {
+            "has_no_posts": "Den här användaren har inte skrivit något på Twibbonize"
         }
     },
     "page_checkout": {
@@ -401,9 +461,8 @@
             "account_update": "Ditt konto kommer att uppdateras, med alla nya funktioner upplåsta"
         },
         "checkout": {
-            "back_to_plans": "Tillbaka till Planer",
             "upgrade_to": "Uppgradera till {plan}",
-            "gather_your_supports": "Samla dina supportrar och skala upp din kampanj med våra exklusiva funktioner.",
+            "gather_your_supports": "Samla dina supportrar och skala upp din kampanj med våra exklusiva funktioner",
             "billing_option": "Faktureringsalternativ",
             "details": "Detaljer",
             "user": "Användare",
@@ -413,18 +472,19 @@
             "save": "Spara {percentage}%.",
             "pay": "Betala {frequency}",
             "checkout_options": "Alternativ för kassan",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "Justera plan",
+            "current_plan": "Nuvarande plan",
+            "downgrade": "Nedvärdera",
+            "current_plan_description": "Du prenumererar på denna prenumeration nu",
+            "change_plan_description": "Du ändrar din plan till {plan} , som kommer att vara aktiv efter att den aktuella prenumerationen upphör.",
+            "downgrade_description": "Du nedgraderar din plan till {plan} , som kommer att vara aktiv efter att den nuvarande prenumerationen upphör.",
+            "change_plan_confirm": "Är du säker?",
+            "upgrade_confirm": "Är du säker på att du vill uppgradera?",
+            "downgrade_confirm": "Är du säker på att du vill nedgradera planen?",
+            "change_plan_active": "Den kommer att vara aktiv när din nuvarande prenumeration är slut",
+            "upgrade_active": "Den kommer att vara aktiv när du har slutfört betalningen",
+            "downgrade_active": "Den kommer att vara aktiv när din nuvarande prenumeration är slut",
+            "back_to_plans": "Tillbaka"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -433,14 +493,14 @@
             "use_twibbonize_without_ads": "Använd Twibbonize utan annonser",
             "exclusive_features": "Exklusiva funktioner för din kampanj",
             "remove_own_account": "Ta bort vattenstämpel för ditt eget konto",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "Silver",
+            "gold": "Guld",
+            "platinum": "Platina",
+            "watermark_title": "Ta bort vattenstämpel",
+            "high_quality_image_title": "Bild av hög kvalitet",
+            "ad_free_title": "Annonsfri",
+            "campaign_addon": "Kampanjtillägg",
+            "on": "på"
         }
     },
     "page_collection": {
@@ -474,14 +534,15 @@
             "no_stay": "Nej, stanna på den här sidan"
         },
         "dropzone": {
-            "upload_design": "Ladda upp din egen design här",
             "type": "Typ:",
-            "imagetype": "Bild\/PNG",
             "size": "Storlek:",
-            "max_file": "Max. 5MB",
             "recommendation": "Rekommendation:",
             "image_dimension": "1080x1080px",
-            "upload": "Ladda upp"
+            "upload": "Ladda upp",
+            "imagetype": "PNG",
+            "max_file": "Högst 5 MB",
+            "backgroundtype": "JPEG, PNG eller WEBP",
+            "upload_design": "Ladda upp din design här"
         },
         "frame_editor": {
             "or_create": "eller skapa din ram nu",
@@ -498,7 +559,9 @@
             "no_transparent": "Inget transparent område har upptäckts på din bild",
             "no_hole_frame": "Detta innebär att det inte finns något hål på din karm. För att skapa det nödvändiga hålet kan du göra så här {link}",
             "help_center_article": "Artikel i hjälpcentret",
-            "understand": "Jag förstår"
+            "understand": "Jag förstår",
+            "width": "Bredd",
+            "height": "Höjd"
         },
         "form": {
             "please_fill_in": "vänligen fyll i alla obligatoriska kampanjuppgifter nedan",
@@ -507,7 +570,7 @@
             "campaign_title": "Kampanjens titel",
             "campaign_title_placeholder": "Kan bestå av siffror, alfabet eller specialtecken.",
             "campaign_description": "Beskrivning",
-            "campaign_description_placeholder": "Dela med dig av detaljer om din kampanj för att fånga uppmärksamhet och få stöd.",
+            "campaign_description_placeholder": "Dela med dig av detaljer om din kampanj för att fånga uppmärksamhet och få stöd",
             "campaign_link": "Länk till kampanjen",
             "campaign_link_placeholder": "kampanj-länk",
             "campaign_category": "Kampanj Kategori",
@@ -525,7 +588,8 @@
             "private_detail": "Din kampanj kan endast nås av personer som har åtkomstkoden",
             "url_not_available": "URL inte tillgänglig",
             "caption_placeholder": "Hej, mitt namn är [[Ditt namn]] och jag är all in för att stödja den här kampanjen. Låt oss samlas och göra ett verkligt avtryck med den här kampanjen tillsammans!",
-            "enter_description": "Ange beskrivning"
+            "enter_description": "Ange beskrivning",
+            "optional": "Frivillig"
         },
         "customization": {
             "campaign_customization": "Anpassning av kampanjer",
@@ -548,20 +612,25 @@
             "go_back": "Gå tillbaka"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "Ramar",
+            "campaigns": "Kampanjer",
+            "analytics": "Analytics"
+        },
+        "blank_design": {
+            "suggested": "Föreslagen",
+            "instagram_story": "Instagram berättelse",
+            "instagram_post": "Instagram-inlägg"
         }
     },
     "page_for_creators": {
         "pricing": {
             "top_notch": "Uppgradera ditt kampanjspel",
-            "condidering_all": "Med tanke på alla bekvämligheter är det värt det.",
+            "condidering_all": "Med tanke på alla bekvämligheter är det värt det",
             "purchase_now": "Köp nu",
             "learn_more": "Lär dig mer",
             "want_to_create": "Vill du skapa din kampanj gratis?",
-            "try_now": "Prova nu!",
-            "per": "per {time}"
+            "per": "per {time}",
+            "try_now": "Försök nu!"
         },
         "features": {
             "remove_watermark": "Ta bort vattenstämpel för alla användare av din kampanj",
@@ -570,7 +639,7 @@
             "no_ads": "Använd Twibbonize utan annonser"
         },
         "bento": {
-            "all_in_one": "Sprid din rörelse och bli en katalysator för förändring.",
+            "all_in_one": "Sprid din rörelse och bli en katalysator för förändring",
             "tools_to_tailor": "Verktyg för att skräddarsy och utöka din kampanj i takt med att ditt stöd växer.",
             "one_of_a_kind": "En unik Twibbon Generator",
             "bring_all_campaign": "Samla alla dina kampanjstödjare på din Twibbonize-sida; där supportrar ansluter sig och du ser effekten!",
@@ -591,10 +660,10 @@
         "frame": {
             "more_than_frames": "Mer än bara ramar",
             "spice_up": "Piffa upp din onlinekampanj, inte bara med en ram, utan också med kreativa bakgrunder",
-            "frame_twibbon": "Twibbon-ram",
             "the_og_twibbon": "Den ursprungliga Twibbon; en ram som placeras på din bild",
-            "backround_twibbon": "Twibbon Bakgrund",
-            "a_fresh_variation": "En ny variant av Twibbon som poserar som bakgrund på din bild"
+            "a_fresh_variation": "En ny variant av Twibbon som poserar som bakgrund på din bild",
+            "frame_twibbon": "Ram Twibbon",
+            "backround_twibbon": "Bakgrund Twibbon "
         },
         "tilt": {
             "get_it_ready": "Gör det klart när som helst med vår inbyggda Twibbon Editor",
@@ -604,8 +673,26 @@
             "your_supporters": "dina supportrar",
             "inspire_detail": "Twibbonize-länkar lockar de nyfikna, drar dem till din sak och väcker intresse för din kampanj",
             "unite_detail": "Samla alla dina kampanjstödjare på din Twibbonize-sida; där supportrar ansluter sig och du ser effekten!",
-            "entertain_detail": "Twibbonize engagerar dina supportrar genom att tillhandahålla en delbar virtuell Twibbon för sociala medier och meddelanden.",
-            "grow_detail": "Få mer stöd med en Twibbonize-kampanj: den väcker inte bara uppmärksamhet utan skapar också en bandwagon-effekt som lockar en växande publik som inte vill missa din sak."
+            "entertain_detail": "Twibbonize engagerar dina supportrar genom att tillhandahålla en delbar virtuell Twibbon för sociala medier och meddelanden",
+            "grow_detail": "Få mer stöd med en Twibbonize-kampanj: den väcker inte bara uppmärksamhet utan skapar också en bandwagon-effekt som lockar en växande publik som inte vill missa din sak.",
+            "inspire": "Inspirera ",
+            "unite": "Förena er",
+            "entertain": "Underhålla",
+            "grow": "Växa"
+        },
+        "use_cases": {
+            "heading": "Idéer att använda Twibbonize för",
+            "subheading": "Börja din utforskning med handplockade exempel från våra 5 000 000+ Twibbonize-kampanjer",
+            "corporate": "Företag",
+            "corporate_title": "Utnyttja kraften i överflödet av dina personal och kunder",
+            "education": "Utbildning",
+            "education_title": "Det är ett roligt sätt att lägga till inlärningsprocessen",
+            "event": "Händelser",
+            "events_title": "Hypea upp ditt evenemang med kraften i omedelbar viralitet"
+        },
+        "testimonials": {
+            "testimonials": "Vittnesmål",
+            "heading": "Betrodda av namn som du litar på"
         }
     },
     "page_explore": {
@@ -624,7 +711,7 @@
     "page_leaderboard": {
         "general": {
             "top_creators": "Ledartavla för de bästa skaparna",
-            "discover": "Ta reda på vem som är ledande inom support! Se de bästa kreatörerna för veckan, månaden och hela tiden."
+            "discover": "Ta reda på vem som är ledande inom support! Se de bästa kreatörerna för veckan, månaden och hela tiden"
         }
     },
     "page_personels": {
@@ -643,6 +730,10 @@
         "advisor": {
             "our_advisor": "Vår rådgivare",
             "proud_partner": "Vi är stolta över att samarbeta med människor som är helt i linje med vår mission"
+        },
+        "honorary": {
+            "honorary_mentions": "Hedersomnämnanden",
+            "significant_contributions": "De som gjort betydande bidrag till vår utveckling"
         }
     },
     "page_pricing": {
@@ -659,18 +750,18 @@
             "private_campaign_1": "Privat",
             "private_campaign_2": "Kampanj",
             "offer_exclusively": "Erbjud exklusivitet till dina supportrar",
-            "campaign_customization_1": "Kampanj",
-            "campaign_customization_2": "Anpassning",
+            "campaign_customization_1": "",
+            "campaign_customization_2": "Kampanjanpassning",
             "personalize_campaign": "Anpassa din kampanjsida",
             "multiple_frames_1": "Flera Twibbon",
             "multiple_frames_2": "per kampanj",
             "unleash_creativity": "Släpp loss kreativiteten i mångsidigheten",
             "top_notch": "Uppgradera ditt kampanjspel",
-            "considering_all": "Med tanke på alla bekvämligheter är det värt det.",
+            "considering_all": "Med tanke på alla bekvämligheter är det värt det",
             "remove_watermark_1": "Ta bort",
-            "remove_watermark_2": "Vattenstämpel",
+            "remove_watermark_2": "vattenstämpel",
             "for_audience_1": "för",
-            "for_audience_2": "du & din publik",
+            "for_audience_2": "dig och din publik",
             "as_a_free_user": "Som gratisanvändare har din Twibbon alltid <strong>en vattenstämpel.<\/strong>",
             "premium_supporter": "<strong>Premium Creator<\/strong> tar bort vattenstämpeln för en renare bild.",
             "now_you_can": "Nu kan du <strong>stödja alla kampanjer<\/strong> utan vattenstämpel."
@@ -683,13 +774,13 @@
             "enjoy_uninterrupted": "Njut av oavbruten upplevelse utan annonser på Twibbonize. Gör dig redo att omfamna en renare, mer användarvänlig version av Twibbonize.",
             "remove_watermark": "Ta bort vattenstämpel för ditt eget konto",
             "top_notch": "Uppgradera ditt kampanjspel",
-            "considering_all": "Med tanke på alla bekvämligheter är det värt det.",
+            "considering_all": "Med tanke på alla bekvämligheter är det värt det",
             "use_twibbonize_without_ads": "Använd Twibbonize utan annonser",
             "as_a_free_user": "Som gratisanvändare har din Twibbon alltid <strong>en vattenstämpel.<\/strong>",
             "premium_supporter": "<strong>Premium Supporter<\/strong> tar bort vattenstämpeln för en renare bild.",
             "now_you_can": "Nu kan du <strong>stödja alla kampanjer<\/strong> utan vattenstämpel.",
             "remove_watermark_1": "Ta bort",
-            "remove_watermark_2": "Vattenstämpel",
+            "remove_watermark_2": "vattenstämpel",
             "for_audience_1": "för",
             "for_audience_2": "ditt eget konto",
             "looking_to_remove": "Vill du ta bort vattenstämpel för alla dina kampanjanvändare? Försök"
@@ -725,15 +816,15 @@
             "notes": "Anteckningar",
             "print": "Ladda ner faktura",
             "if_you_would_like_to_change": "Om du vill ändra din prenumeration eller din betalningsinformation, vänligen gå till dina faktureringsinställningar",
-            "ending_in": ""
+            "ending_in": "{card} som slutar på {number}"
         },
         "bento": {
             "campaign_analytics_1": "Kampanj",
             "campaign_analytics_2": "Analytics",
             "private_campaign_1": "Privat",
             "private_campaign_2": "Kampanj",
-            "campaign_customization_1": "Kampanj",
-            "campaign_customization_2": "Anpassning",
+            "campaign_customization_1": "",
+            "campaign_customization_2": "Kampanjanpassning",
             "multiple_frames_1": "Flera ramar",
             "multiple_frames_2": "per kampanj",
             "use_twibbonize_without_ads_1": "Använd Twibbonize",
@@ -741,7 +832,7 @@
             "no_extra_features_1": "Inga extra funktioner",
             "no_extra_features_2": "Tillgänglig",
             "remove_all_watermark_1": "Ta bort vattenstämpel",
-            "remove_all_watermark_2": "alla dina kampanjanvändare",
+            "remove_all_watermark_2": "från alla dina kampanjanvändare",
             "remove_own_watermark_1": "Ta bort vattenstämpel",
             "on": "på",
             "remove_own_watermark_2": "ditt eget konto",
@@ -771,6 +862,19 @@
             "answer_8": "Du kan enkelt ladda ner fakturan direkt från ditt Twibbonize-konto.",
             "question_9": "Var kan jag hitta hjälp relaterad till Twibbonize-användning?",
             "answer_9": ""
+        },
+        "hero": {
+            "pricing": "PRISSÄTTNING",
+            "find_the_right_premium_plan": "Hitta rätt Premium-plan för dina behov"
+        },
+        "card_premium_supporter": {
+            "subheading": "För personer som vill ha ut mer av Twibbonize"
+        },
+        "card_premium_creator": {
+            "subheading": "För personer som behöver den ultimata Twibbonize-upplevelsen"
+        },
+        "same_plan": {
+            "adjust_plan": "Justera plan"
         }
     },
     "page_profile": {
@@ -778,17 +882,17 @@
             "search_campaigns": "Sök i kampanjer",
             "no_campaigns": "Inga kampanjer ännu",
             "no_campaigns_details": "Skapa en kampanj och dela med dig till twibbonize.",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "Är du säker på att ta bort den här kampanjen?",
+            "delete_detail": "Att ta bort \" {title} \" blir permanent och kan inte ångras.",
+            "delete_campaign": "Ta bort kampanj"
         },
         "posts": {
             "no_posts": "Inga inlägg ännu",
-            "no_post_details": "Hitta en kampanj och lägg upp din twibbon på Twibbonize."
+            "no_post_details": "Hitta en kampanj och lägg upp din twibbon på Twibbonize"
         },
         "collections": {
             "no_collections": "Organisera dina favoritkampanjer",
-            "no_collections_details": "På kampanjsidan klickar du bara på {icon} för att spara kampanjer som du tycker är intressanta i dina egna samlingar."
+            "no_collections_details": "Klicka på ikonen {icon} på valfri kampanj för att spara kampanjen i dina samlingar"
         },
         "about": {
             "about": "Om",
@@ -798,6 +902,34 @@
             "joined": "Ansluten sedan {created}",
             "supporters": "Supportrar",
             "campaigns": "Kampanjer"
+        },
+        "my_profile": {
+            "edit_profile": "Redigera profil",
+            "campaigns": "Kampanjer",
+            "collections": "Samlingar",
+            "posts": "Inlägg"
+        },
+        "campaign_deletion": {
+            "are_you_sure": "Är du säker?"
+        },
+        "campaign": {
+            "delete_campaign": "Radering av \"{campaign_name}\" kommer att vara permanent och kan inte ångras.",
+            "confirm_delete_campaign": "Ta bort kampanj"
+        },
+        "collection": {
+            "delete_collection": "Samlingen \"{collection_name}\" kommer att raderas permanent.",
+            "confirm_delete_collection": "Radera samling",
+            "delete_campaign": "Kampanjen \"{campaign_name}\" kommer att permanent tas bort från samlingen \"{collection_name}\".",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "Varför rapporterar du den här profilen?",
+            "abusive_harmful": "Kränkande eller skadlig",
+            "pretending_someone": "Låtsas vara någon annan",
+            "sensitive_content": "Känsligt innehåll"
+        },
+        "account": {
+            "email_changed": "Din e-postadress har nyligen ändrats. Du kan uppdatera den igen om 90 dagar."
         }
     },
     "page_preference": {
@@ -841,55 +973,55 @@
             "adfree": "Annonsfri",
             "highquality": "Hög kvalitet",
             "nowatermark": "Ingen vattenstämpel",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "Betalt",
+            "are_you_sure_change": "Är du säker?",
+            "active_after_subscription": "Den kommer att vara aktiv när din nuvarande prenumeration är slut",
+            "are_you_sure_upgrade": "Är du säker på att du vill uppgradera?",
+            "plan_changing_info": "Byt till {package} mottogs. Ny plan börjar efter att den nuvarande slutar",
+            "active_after_payment": "Den kommer att vara aktiv när du har slutfört betalningen",
+            "are_you_sure_downgrade": "Är du säker på att du vill nedgradera planen?",
+            "plan_downgrade_info": "Nedgradering till {package} mottogs. Ny plan börjar efter att den nuvarande slutar",
+            "renew_plan": "Förnya planen",
+            "renew_subscription": "Förnya prenumeration",
+            "upgrade_now": "Uppgradera nu",
+            "warning": "Varning!",
+            "important": "Viktig!",
+            "premium_expired": "Din Premium Creator-plan har löpt ut. Vänligen förnya senast {date}",
+            "last_attempted": "Våra senaste försök till åtal misslyckades. Vänligen uppdatera din betalningsmetod.",
+            "renewal_date": "Förnyelsedatum",
+            "payment_method": "Betalningsmetod",
+            "update_now": "Uppdatera nu",
+            "cancel_subscription": "Avbryt prenumeration",
+            "change_payment_method": "Ändra betalningsmetod",
+            "card_end_with": "{card} som slutar på {number}",
+            "no_transactions": "Ingen transaktionshistorik ännu",
+            "transactions_will_shown": "Din transaktionshistorik kommer att visas här när den blir tillgänglig",
+            "are_you_sure": "Är du säker?",
+            "once_cancel_plan": "När du avbryter prenumerationen förlorar du åtkomst till alla dina uppgraderade funktioner i slutet av din faktureringsperiod",
+            "yes_cancel_plan": "Ja, avbryt planen",
+            "no_keep_plan": "Nej, håll planen",
+            "once_renew_plan": "När du förnyar planen kommer din plan att vara aktiv igen",
+            "yes_renew_plan": "Ja, förnya planen",
+            "no_cancel": "Nej, avbryt",
+            "if_cancel_downgrade": "Om du avbryter nedgraderingen kommer din nuvarande plan att vara aktiv igen",
+            "yes_downgrade": "Ja, fortsätt nedgradera",
+            "if_cancel_change_billing": "Om du avbryter ändringsfakturering kommer din nuvarande plan att vara aktiv igen",
+            "yes_continue": "Ja, fortsätt",
+            "info": "Info",
+            "your_request_cancel": "Din begäran om att avbryta din {plan} -plan har mottagits. Det kommer att sluta vid nästa faktureringsperiod",
+            "your_request_downgrade": "Din begäran om att nedgradera till {plan} har mottagits. Din nya plan kommer att aktiveras när den nuvarande planen upphör.",
+            "cancel_downgrade": "Avbryt nedgradering",
+            "cancel_change": "Avbryt Ändra fakturering",
+            "your_request_billing": "Din begäran om att ändra din fakturering till {plan} har mottagits. Din nya plan kommer att aktiveras när den nuvarande planen upphör.",
+            "manage_inapp": "Hantera din prenumeration på Twibbonize {appOs} -appen",
+            "manage_inapp_subscription": "För att hantera din Twibbonize-prenumeration på {appOs} öppnar du appen, går till \"Inställningar\" och väljer \"Fakturering\".",
+            "success_cancel_subscription": "Framgång Avbryt prenumeration",
+            "success_renew_subscription": "Framgång Förnya prenumeration",
+            "success_change_subscription": "Framgång Ändra prenumeration",
+            "success_cancel_change_subscription": "Framgång Avbryt Ändra prenumeration",
+            "last_attempted_authentication": "Våra senaste försök till åtal misslyckades. Din betalning behöver autentisering.",
+            "authenticate_now": "Autentisera nu",
+            "recurring_payment": "Vi kräver din uttryckliga bekräftelse för din återkommande betalning. Kontrollera din e-post"
         },
         "account": {
             "update_email": "Uppdatera e-post",
@@ -919,19 +1051,19 @@
             "confirm_password": "Bekräfta lösenord",
             "create_new_password": "Skapa nytt lösenord",
             "make_it_easy": "Gör det lätt för dig att komma ihåg och håll det hemligt för alla!",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "Lägg till e-post",
+            "add_password": "Lägg till lösenord",
+            "cant_remove_account": "Hoppsan, vi kan inte ta bort ditt sociala mediekonto.",
+            "set_up_email": "Du måste först ställa in e-post eller lösenord för att ta bort ditt sociala mediekonto.",
+            "want_to_remove": "Vill du ta bort ditt sociala mediekonto?",
+            "your_account_will_be_removed": "Ditt {provider} -konto kommer att tas bort. Klicka på förstå för att ta bort dina sociala mediekonton.",
+            "continue_to_revoke": "Fortsätt att återkalla ",
+            "revoke_success": "Framgång Återkalla konto {provider}",
+            "cannot_update_email": "Hoppsan, vi kan inte uppdatera din e-post",
+            "setup_password_to_update_email": "Du måste ange ett lösenord innan du uppdaterar din e-post.",
+            "email_change_request": "E-poständringsbegäran avbröts",
+            "we_have_sent_password": "Vi har skickat instruktioner för återställning av lösenord till din e-post. Vänligen återställ ditt lösenord inom 1 timme av säkerhetsskäl.",
+            "go_to_homepage": "Gå till hemsidan"
         },
         "notifications": {
             "notifications_settings": "Inställningar för aviseringar",
@@ -949,10 +1081,10 @@
             "article": "Artiklar",
             "article_details": "Du kommer att få våra rekommenderade artiklar.",
             "toggle_all": "Alla",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "Lägg upp på Twibbonize",
+            "post_twibbonize_details": "Få meddelanden från supporterns inlägg på en kampanjsida.",
+            "account_recap": "Kontosammanfattning",
+            "account_recap_details": "Veckosammanfattning av supportrar och besök för alla dina kampanjer"
         },
         "package": {
             "free": "Gratis",
@@ -977,7 +1109,7 @@
         "header": {
             "testimonials": "Vittnesmål",
             "trusted": "Betrodda av namn som du litar på",
-            "read_stories": "Läs berättelser från företag och organisationer som framgångsrikt har använt vår plattform för sina kampanjprogram."
+            "read_stories": "Läs berättelser från företag och organisationer som framgångsrikt har använt vår plattform för sina kampanjprogram"
         },
         "bento": {
             "read_success_story": "Läs deras framgångshistoria"
@@ -1231,7 +1363,6 @@
         },
         "graph": {
             "page": "Sida {currentPage} av {totalPage}",
-            "data_displayed": "Data visas i UTC-tidszon (UTC+0)",
             "trend": "Trend",
             "country": "Land",
             "city": "Stad",
@@ -1244,7 +1375,8 @@
             "visit": "Besök",
             "visit_detail": "Antalet enskilda webbläsarsessioner som har besökt din kampanjsida",
             "unique_visit": "Unikt besök",
-            "unique_visit_detail": "Antalet personer som har besökt din kampanjsida"
+            "unique_visit_detail": "Antalet personer som har besökt din kampanjsida",
+            "data_displayed": "Data visas i tidszon UTC+0"
         }
     },
     "page_account": {
@@ -1252,8 +1384,6 @@
             "email": "E-post",
             "password": "Lösenord",
             "confirm_password": "Bekräfta lösenord",
-            "login_with_google": "Logga in med Google",
-            "login_with_facebook": "Logga in med Facebook",
             "login_with_email": "eller logga in med e-post",
             "signup_with_google": "Registrera dig med Google",
             "signup_with_facebook": "Registrera dig med Facebook",
@@ -1266,7 +1396,9 @@
             "signup": "Registrera dig",
             "terms": "Villkor",
             "privacy": "Integritetspolicy",
-            "name": ""
+            "name": "Namn",
+            "login_with_facebook": "Logga in med Facebook",
+            "login_with_google": "Logga in med Google"
         }
     },
     "page_article": {
@@ -1275,97 +1407,398 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "Logga in på Post to Twibbonize",
+        "sign_in_to_comment": "Logga in för att lämna en kommentar",
+        "sign_in_to_like": "Logga in för att ge ett gilla",
+        "sign_up_to_post": "Registrera dig för att posta på Twibbonize",
+        "sign_up_to_comment": "Registrera dig för att lämna en kommentar",
+        "sign_up_to_like": "Registrera dig för att ge ett gilla",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "Inloggningen lyckades! Välkommen tillbaka.",
+                "error": "Inloggningen misslyckades. Kontrollera dina uppgifter och försök igen."
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "Registreringen lyckades! Välkommen ombord.",
+                "error": "Registrering misslyckades. Kontrollera dina uppgifter och försök igen."
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "Email redan registrerad",
+        "email_registered_lead": "Denna e-postadress är redan registrerad. Vill du logga in istället?",
+        "sign_in_to_create_campaign": "",
+        "sign_up_to_create_campaign": ""
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "Bekräfta radering",
+            "delete_lead": "Är du säker på att du vill ta bort det här inlägget? Denna åtgärd kan inte ångras.",
+            "delete_yes": "Ja, ta bort",
+            "delete_no": "Annullera"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "Dela ditt meddelande",
+            "logged_in_placeholder": "Kommentera som {name}",
+            "comment_posted": "Kommentar postad",
+            "comment_deleted": "Kommentar raderad",
+            "reply_deleted": "Svar raderade"
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "Inlägget laddat upp",
+            "hidden": "Dold",
+            "unhidden": "Odold",
+            "reported": "Rapporterad",
+            "deleted": "raderade",
+            "pinned": "Fäst",
+            "unpinned": "Lossade"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "Rapportera kampanj",
+        "report_profile": "Rapportera profil",
+        "abusive_or_harmful": "Missbruk eller skadligt",
+        "pretending_to_be_someone_else": "Att låtsas vara någon annan",
+        "sensitive_content": "Känsligt innehåll",
+        "plagiarism": "Plagiat",
+        "impersonation": "Imitation",
+        "piracy": "Piratkopiering",
+        "nudity_pornography": "Nakenhet och pornografi",
+        "dangerous_or_harmful": "Farligt eller skadligt",
+        "harassment_cyberbullying": "Trakasserier & Cybermobbning",
+        "provocative_threatening_content": "Provocerande och hotfullt innehåll",
+        "privacy_violations": "Integritetsintrång",
+        "unauthorized_use_of_personal_information": "Otillåten användning av personlig information",
+        "child_exploitation": "Utnyttjande av barn",
+        "harassment": "Trakasserier",
+        "terrorism": "Terrorism",
+        "violence": "Våld",
+        "false_information": "Falsk information",
+        "health": "Hälsa",
+        "politics": "Politik",
+        "social_issue": "Socialt problem",
+        "hate_speech": "Hattal",
+        "disability_or_disease": "Funktionshinder eller sjukdom",
+        "race_or_ethnicity": "Ras eller etnicitet",
+        "religious_affiliation": "Religiös tillhörighet",
+        "sexual_orientation": "Sexuell läggning",
+        "nudity": "Nakenhet",
+        "suicide_or_self_harm": "Självmord eller självskada",
+        "vulgar_language": "Vulgärt språk",
+        "dangerous_content": "Farligt innehåll",
+        "why_report_campaign": "Varför rapporterar du den här kampanjen?",
+        "why_report_profile": "Varför rapporterar du den här profilen?",
+        "why_report_submission": "Varför rapporterar du denna inlämning?",
+        "why_report_comment_reply": "Varför rapporterar du den här kommentaren?",
+        "why_report_collection": "Varför rapporterar du den här insamlingen?",
+        "select_one": "Välj en",
+        "protect_privacy_reporter": "Twibbonizes riktlinjer för communityn skyddar integriteten för reporterns identitet.",
+        "tell_us_more": "Berätta mer",
+        "received_report": "Vi har tagit emot din rapport!",
+        "thankyou": "Tack! Låt oss undersöka din rapport, så skickar vi feedbacken till din e-post så snart som möjligt.",
+        "learn_more_about": "Läs mer om {link} .",
+        "community_guideline": "Twibbonize Community Riktlinjer",
+        "placeholder_write_here": "Skriv här",
+        "report_sent": "Rapport skickad"
+    },
+    "page_editor": {
+        "general": {
+            "template": "Mall",
+            "text": "Text",
+            "shape": "Form",
+            "image": "Bild",
+            "graphic": "Grafisk",
+            "upload": "Ladda upp",
+            "layer": "Lager",
+            "resize": "Ändra storlek",
+            "save": "Spara",
+            "width": "Bredd",
+            "height": "Höjd",
+            "transparency": "Öppenhet",
+            "line_weight": "Linje Vikt",
+            "align": "Rikta in",
+            "group": "Grupp",
+            "ungroup": "Ogrupperad",
+            "unlock": "Lås upp",
+            "loading": "Lastning"
+        },
+        "text": {
+            "add_a_heading": "Lägg till en rubrik",
+            "add_a_subheading": "Lägg till en underrubrik",
+            "document_fonts": "Teckensnitt för dokument",
+            "text_effect": "Texteffekter",
+            "effects": "Effekter",
+            "add_a_body_text": "Lägg till lite brödtext"
+        },
+        "shape": {
+            "arrow": "Pil",
+            "shape": "Form"
+        },
+        "upload": {
+            "upload_image": "Ladda upp bild",
+            "upload": "Ladda upp",
+            "type": "Typ:",
+            "size": "Storlek:",
+            "type_image": "JPG, PNG eller SVG",
+            "maximum_size": "Högst 5 MB"
+        },
+        "toolbar": {
+            "copy": "Kopia",
+            "paste": "Klistra in",
+            "duplicate": "Duplicera",
+            "delete": "Radera",
+            "layer": "Lager",
+            "bring_forward": "Ta med framåt",
+            "bring_to_front": "Ta fram till fronten",
+            "send_backward": "Skicka bakåt",
+            "send_to_back": "Skicka till baksidan",
+            "show_layers": "Visa lager",
+            "left": "Vänster",
+            "center": "Centrum",
+            "right": "Rätt",
+            "top": "Topp",
+            "middle": "Mellan",
+            "bottom": "Botten",
+            "set_as_text_template": "Ställ in som textmall",
+            "set_as_background_image": "Ställ in som bakgrundsbild",
+            "lock": "Lås",
+            "letter_spacing": "Avstånd mellan bokstäver",
+            "line_spacing": "Radavstånd",
+            "border_weight": "Gränsvikt",
+            "align": "Rikta in",
+            "effects": "Effekter"
+        },
+        "confirmation": {
+            "cancel": "Avbryt",
+            "save": "Spara",
+            "has_your_frame_been_completed": "Har din ram blivit färdigställd?",
+            "once_it_save": "När det har sparats är det inte längre möjligt att redigera det"
+        },
+        "image": {
+            "image_template": "Foto: {name} ",
+            "image_template_1": "på",
+            "edit_image": "Redigera bild",
+            "image_template_2": "Unsplash"
+        },
+        "error": {
+            "minimum_dimension": "Dimensionerna måste vara minst 100px och högst 8000px."
+        },
+        "text_effect": {
+            "style": "Stil",
+            "none": "Ingen",
+            "shadow": "Skugga",
+            "text_effects": "Effekter",
+            "lift": "Lyft",
+            "offset": "Offset",
+            "direction": "Riktning",
+            "blur": "Blur",
+            "transparency": "Öppenhet",
+            "color": "Färg",
+            "thickness": "Tjocklek"
+        },
+        "colors": {
+            "colors": "Färger",
+            "document_colors": "Dokumentfärger",
+            "default_colors": "Standardfärger"
+        }
+    },
+    "page__campaign_creation": {
+        "campaign_preview": {
+            "campaign_description": "Beskrivning av kampanjen",
+            "campaign_title": "Kampanjens titel"
+        }
+    },
+    "page_my_campaign": {
+        "edit_campaign": {
+            "campaigns": "Kampanjer",
+            "frames": "Ramar",
+            "analytics": "Analys"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "Varför rapporterar du detta inlägg?",
+            "plagiarism ": "Plagiat",
+            "impersonation ": "Imitation ",
+            "piracy ": "Piratkopiering",
+            "vulgar_language": "Vulgärt språk",
+            "nudity_pornography": "Nakenhet & pornografi",
+            "suicidal_self_harm": "Självmordsbenäget och självskadande innehåll ",
+            "danger": "Farligt eller skadligt ",
+            "violent_graphic_content": "Våldsamt grafiskt innehåll",
+            "harassment_cyberbullying": "Trakasserier och cybermobbning ",
+            "provocative_threatening_content": "Provocerande och hotfullt innehåll",
+            "spam": "Skräppost"
+        },
+        "report_comment": {
+            "title": "Varför rapporterar du den här kommentaren?",
+            "abusive_harmful": "Kränkande eller skadlig",
+            "harassment": "Trakasserier",
+            "terrorism": "Terrorism",
+            "violence": "Våld",
+            "false_information": "",
+            "health": "Hälsa",
+            "politics": "Politik",
+            "social_issue": "Social fråga",
+            "sensitive_content": "Känsligt innehåll ",
+            "nudity": "Nakenhet",
+            "vulgar_language": "Vulgärt språk",
+            "hate_speech": "Hets mot folkgrupp",
+            "disability_disease": "Funktionsnedsättning eller sjukdom",
+            "race_or_ethnicity": "Ras eller etnicitet",
+            "religious_affiliation": "Religiös tillhörighet ",
+            "sexual_orientation": "Sexuell läggning",
+            "spam": "Skräppost"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "Url ogiltig"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "Google-inloggning kunde inte utföras",
+        "failed_apple_login": "Misslyckades med att utföra Apple-inloggning"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "Fotofilen överskrider den maximala storleken på 5 MB",
+            "cannot_create_twibbon": "Kan inte skapa Twibbon. Försök igen"
+        },
+        "log_in": {
+            "complete_verification": "Slutför verifieringen för att fortsätta",
+            "email_no_password": "Detta e-postmeddelande har inget lösenord. Logga in via Google",
+            "social_media_already_registered": "E-postadressen för ditt sociala mediekonto är redan registrerat och kopplat till ett annat konto från en liknande social medietjänst. Försök att logga in med e-post- och lösenordsformulären."
+        },
+        "sign_up": {
+            "email_already_registered": "Denna e-postadress är redan registrerad. Använd en annan e-postadress eller försök logga in",
+            "password_minimum_required": "Lösenordet måste bestå av minst 8 tecken.",
+            "password_character_exceeded": "Lösenordet får inte överstiga 128 tecken",
+            "password_must_be_standard": "Lösenordet måste vara standard alfanumeriskt",
+            "password_does_not_match": "Lösenordsbekräftelsen matchar inte. Försök igen"
+        },
+        "verification": {
+            "code_incorrect": "Koden är felaktig. Försök igen",
+            "code_expired": "Koden har gått ut. Be om en ny",
+            "maximum_attempt_reached": "Maximalt antal försök har uppnåtts. Försök igen om 5 timmar",
+            "code_requested_exceeded": "Kodbegäranden överskred maxgränsen"
+        },
+        "forgot_password": {
+            "email_not_found": "E-post hittades inte. Försök igen eller registrera dig",
+            "link_expired": "Länken för att ändra lösenordet har gått ut. Be om en ny",
+            "link_used": "Länken för att ändra lösenordet har använts. Be om en ny"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "Ramfilen överskrider den maximala storleken på 5 MB",
+            "background_file_exceed": "Bakgrundsfilen överskrider den maximala storleken på 5 MB",
+            "image_not_transparent": "Bilden måste vara genomskinlig. Försök igen",
+            "invalid_format": "Ogiltigt filformat. Använd ett format som stöds",
+            "allow_only_1_frame": "Gratis konton tillåter endast uppladdning av en ram. Uppgradera för att fortsätta",
+            "allow_only_1_background": "Gratis konton tillåter endast 1 bakgrundsuppladdning. Uppgradera för att fortsätta",
+            "campaign_title_exceed_limit": "Kampanjens titel överskrider den maximala teckengränsen",
+            "description_exceed_limit": "Beskrivningen överskrider maxgränsen för tecken",
+            "link_unavailable": "Kampanjlänken används redan. Välj en annan",
+            "link_criteria": "Kampanjlänken måste vara alfanumerisk och bindestreck (-)",
+            "caption_exceed_limit": "Bildtextmallen överskrider maxgränsen för tecken",
+            "background_exceed_limit": "Bakgrundsfilen överskrider den maximala storleken på 5 MB",
+            "photo_exceed_limit": "Miniatyrbildsfilen överskrider den maximala storleken på 5 MB",
+            "link_exceed_limit": "Kampanjlänken överskrider den maximala teckengränsen"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "Ramfilen överskrider den maximala storleken på 5 MB",
+            "background_file_exceed": "Bakgrundsfilen överskrider den maximala storleken på 5 MB"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "Bilden måste vara genomskinlig. Försök igen",
+            "invalid_format": "Ogiltigt filformat. Använd ett format som stöds",
+            "allow_only_1_frame": "Gratis konton tillåter endast uppladdning av en ram. Uppgradera för att fortsätta",
+            "allow_only_1_background": "Gratis konton tillåter endast 1 bakgrundsuppladdning. Uppgradera för att fortsätta",
+            "campaign_title_exceed_limit": "Kampanjens titel överskrider den maximala teckengränsen",
+            "description_exceed_limit": "Beskrivningen överskrider maxgränsen för tecken",
+            "link_unavailable": "Kampanjlänken används redan. Välj en annan",
+            "link_criteria": "Kampanjlänken måste vara alfanumerisk och bindestreck (-)",
+            "link_exceed_limit": "Kampanjlänken överskrider den maximala teckengränsen",
+            "caption_exceed_limit": "Bildtextmallen överskrider maxgränsen för tecken",
+            "background_exceed_limit": "Bakgrundsfilen överskrider den maximala storleken på 5 MB",
+            "thumbnail_exceeds": "Miniatyrbildsfilen överskrider den maximala storleken på 5 MB"
+        },
+        "settings": {
+            "profile_image_exceed": "Profilbilden överskrider maxgränsen på 5 MB",
+            "background_image_exceed": "Bakgrundsbilden överskrider den maximala storleken på 5 MB",
+            "username_unavailable": "Användarnamnet är redan upptaget. Prova en annan",
+            "username_exceed_limit": "Användarnamnet överskrider maxgränsen för tecken",
+            "username_invalid": "Användarnamnet är ogiltigt. Försök igen med rätt format",
+            "display_exceed_limit": "Visningsnamnet överskrider maxgränsen för tecken",
+            "bio_exceed_limit": "Bio överskrider den maximala teckengränsen",
+            "email_already_registered": "Email redan registrerad. Prova en annan",
+            "password_incorrect": "Fel lösenord. Försök igen",
+            "password_minimum_character": "Lösenordet måste bestå av minst 8 tecken",
+            "password_maximum_character": "Lösenordet får inte överstiga 128 tecken",
+            "password_standard_format": "Lösenordet måste följa det alfanumeriska standardformatet",
+            "account_deleted": "Kontot raderat",
+            "account_integrated": "Konto integrerat",
+            "account_revoked": "Kontot återkallat"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "Avsnittet \"Berätta mer\" överskrider maxgränsen för tecken"
+        },
+        "general": {
+            "something_went_wrong": "Något gick fel"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "Antalet tillagda kampanjer överskrider maxgränsen",
+            "description_exceeds": "Beskrivningen överskrider maxgränsen för tecken",
+            "title_exceeds": "Samlingens titel överskrider den maximala teckengränsen"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "Länken har kopierats",
+            "social_media_already_linked": "Kontot för sociala medier är redan länkat till ett annat Twibbonize-konto. Prova en annan"
+        },
+        "campaign_creation": {
+            "link_available": "Länk finns tillgänglig"
+        },
+        "campaign_edit": {
+            "link_available": "Länk finns tillgänglig"
+        },
+        "settings": {
+            "photo_updated": "Bilden uppdaterad",
+            "banner_updated": "Banner uppdaterad",
+            "banner_deleted": "Banner raderade",
+            "photo_deleted": "Fotot raderat",
+            "password_updated": "lösenord uppdaterat",
+            "email_updated": "E-post uppdaterad"
+        },
+        "my_profile": {
+            "campaign_deleted": "Kampanjen raderad"
+        },
+        "collection": {
+            "campaign_added": "Kampanj tillagd"
+        },
+        "campaign_page": {
+            "account_upgraded": "Kontot har uppgraderats",
+            "link_copied": "Länken har kopierats"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "E-post hittades inte. Försök igen eller registrera dig"
+        },
+        "password": {
+            "password_incorrect": "Fel lösenord. Försök igen"
+        },
+        "maximum_attempt": "Maximalt antal försök har uppnåtts. Försök igen om 1 timme"
+    },
+    "page_notification": {
+        "no_notification_heading": "Inga aviseringar än",
+        "no_notification_subheading": "Det finns inga aviseringar för tillfället"
+    },
+    "page_general": {
+        "no_internet_connection": "Ingen internetanslutning. Klicka för att försöka igen",
+        "could_not_connect_internet": "Det gick inte att ansluta till internet. Byt till ett annat nätverk och försök igen."
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "Logga ut?"
+        }
     }
 }

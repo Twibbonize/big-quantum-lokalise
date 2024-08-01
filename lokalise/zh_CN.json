@@ -35,7 +35,7 @@
             "terms": "条款和条件",
             "privacy_policy": "隐私政策",
             "cookie_policy": "Cookie 政策",
-            "sitemap": ""
+            "sitemap": "网站地图"
         },
         "menu": {
             "explore": "探索",
@@ -47,11 +47,6 @@
             "sign_in": "登入",
             "sign_up": "报名",
             "sign_out": "登出"
-        },
-        "campaign": {
-            "supporters": "支持者|支持者",
-            "campaigns": "活动",
-            "created": "创建"
         },
         "button": {
             "view_all": "查看全部",
@@ -71,11 +66,12 @@
             "report": "报告",
             "edit": "编辑",
             "confirm": "确认",
-            "okay": "",
-            "view": "",
-            "send": "",
-            "more": "",
-            "less": ""
+            "okay": "好的",
+            "view": "看法",
+            "send": "发送",
+            "more": "更多的",
+            "less": "较少的",
+            "submit": "提交"
         },
         "time": {
             "week": "星期",
@@ -86,9 +82,14 @@
             "annual": "年度的",
             "yearly": "每年"
         },
+        "campaign": {
+            "campaigns": "活动",
+            "created": "创建",
+            "supporters": "支持者|支持者|支持者"
+        },
         "collection": {
             "collections": "收藏",
-            "campaigns": "{campaign}活动"
+            "campaigns": "{campaign} 活动"
         },
         "creator": {
             "creators": "創作者"
@@ -108,8 +109,21 @@
             "hide_post": "隐藏帖子",
             "post_shared": "帖子分享于{date}",
             "share_message": "分享您的信息",
-            "unpin_post": "",
-            "unhide_post": ""
+            "unpin_post": "取消置顶帖子",
+            "unhide_post": "取消隐藏帖子"
+        },
+        "pricing": {
+            "creator_subscribe_to": "此创作者已订阅",
+            "plan": "计划",
+            "support_without_watermark": "他们可以支持任何没有水印的活动！",
+            "all_supporters_without_watermark": "您可以支持这位创作者的所有活动，无需水印！"
+        },
+        "campaign_card": {
+            "a_month_ago": "一个月前",
+            "a_day_ago": "一天前"
+        },
+        "search": {
+            "searching": "正在搜索…"
         }
     },
     "page_home": {
@@ -218,9 +232,9 @@
         },
         "history": {
             "the_history": "Twibbon 的历史",
-            "in_this": "在这个数字时代，社交媒体已经成为人们表达支持、关心和其他情感的首选平台。",
-            "however": "然而，有时我们很难找到正确的言语和行动来有效地表达我们的想法。",
-            "visual_factor": "视觉因素在这种背景下具有巨大的力量。Twibbon 是一种简单的解决方案，可以成为您想要传达的想法的延伸。"
+            "in_this": "在这个数字时代，社交媒体已经成为人们表达支持、关心和其他情感的首选平台",
+            "however": "然而，有时我们很难找到正确的言语和行动来有效地表达我们的想法",
+            "visual_factor": "视觉因素在这种背景下具有巨大的力量。Twibbon 是一种简单的解决方案，可以成为您想要传达的想法的延伸"
         }
     },
     "page_contact": {
@@ -246,7 +260,7 @@
     "page_twibbon": {
         "header": {
             "what_is": "Twibbon 是什么？",
-            "twibbon_result": "Twibbon 是将框架模板叠加到照片中的结果，通常用于个人资料图片或社交媒体帖子中，以表达对某项事业、活动或事件的支持。"
+            "twibbon_result": "Twibbon 是将框架模板叠加到照片中的结果，通常用于个人资料图片或社交媒体帖子中，以表达对某项事业、活动或事件的支持"
         },
         "generate": {
             "your_photo": "你的照片",
@@ -256,12 +270,12 @@
         "process": {
             "how_twibbonize_1": "Twibbonize 如何实现革命性",
             "how_twibbonize_2": "Twibbon 活动",
-            "sharing_twibbon_1": "分享 Twibbon 曾经是一个复杂的过程，我们甚至",
-            "sharing_twibbon_2": "我很累向你解释。"
+            "sharing_twibbon_1": "分享 Twibbon 曾经是一个复杂的过程，",
+            "sharing_twibbon_2": "我们甚至累得无法向你解释。"
         },
         "frame": {
             "twibbon_frame": "在 Twibbonize 中，Twibbon 不仅仅是框架",
-            "we_define": "我们将 Twibbon 定义为一个强大的视觉模板，它可以成为您事业的延伸，无论是框架还是背景的形式。"
+            "we_define": "我们将 Twibbon 定义为一个强大的视觉模板，它可以成为您事业的延伸，无论是框架还是背景的形式"
         },
         "steps": {
             "starting_twibbon_1": "发起 Twibbon 活动",
@@ -276,7 +290,7 @@
         },
         "cta": {
             "make_it": "为一切而生",
-            "no_matter": "无论您想做什么，从解决重大、严肃问题的运动，到任何只是为了好玩的事情。我们都能帮助您将其变成大事。",
+            "no_matter": "无论您想做什么，从解决重大、严肃问题的运动，到任何只是为了好玩的事情。我们都能帮助您将其变成大事",
             "start_campaign": "发起活动"
         }
     },
@@ -302,17 +316,18 @@
     "page_campaign": {
         "empty_state": {
             "no_post_yet": "还没有帖子",
-            "be_the_first": "率先在此发表您的支持。从上传您的照片开始！"
+            "uploading_your_photo": "上传你的照片！",
+            "start_with": "从...开始 ",
+            "be_the_first": "请第一个在这里发表您的支持。"
         },
         "twibbon": {
             "choose_your_photo": "选择您的照片",
             "text": "文本",
-            "download_successful": "下载成功",
+            "download_successful": "下载成功！",
             "photo_not_download": "照片没有下载？",
             "re_download": "重新下载",
             "post_to_twibbonize": "发布到 Twibbonize",
             "post_photo_to_twibbonize": "将这张照片发布到 Twibbonize",
-            "remove_watermark_for_you": "为您去除水印",
             "upgrade_to_premium": "升级至高级版。起价为{price}",
             "processing": "加工",
             "buy_premium": "购买 Premium",
@@ -327,17 +342,22 @@
             "download": "下载",
             "reset": "重置",
             "add_text": "添加文字",
-            "posting_as": "",
-            "not_you": "",
-            "uploading_photo_to_remove": "",
-            "wait_for_moment": ""
+            "posting_as": "发帖为 ",
+            "not_you": "不是你？ ",
+            "uploading_photo_to_remove": "上传您的照片并删除其背景。",
+            "wait_for_moment": "请稍等一下...",
+            "remove_watermark_for_you_2": "并享受无水印的图像！",
+            "remove_watermark_for_you_1": "探索没有广告的 Twibbonize，",
+            "remove_watermark_for_you": "去掉水印！",
+            "blur": "模糊",
+            "shadow": "阴影",
+            "twibbon_success": "已下载"
         },
         "report": {
             "report_campaign": "举报活动",
             "report_profile": "報告簡介",
             "plagiarism": "剽窃",
             "sensitive": "敏感内容",
-            "danger": "危险内容",
             "spam": "垃圾邮件",
             "why_report_campaign": "你为什么要举报此活动？",
             "protect_reporter": "Twibbonize 社区准则保护记者身份的隐私。",
@@ -346,7 +366,21 @@
             "received_report": "我们已收到您的报告！",
             "thankyou": "谢谢！请允许我们调查您的报告，我们会尽快将反馈发送到您的电子邮箱。",
             "learn_more_about": "了解有关{link}的更多信息。",
-            "community_guideline": "Twibbonize 社区准则"
+            "community_guideline": "Twibbonize 社区准则",
+            "title": "你为什么要举报这次活动？",
+            "danger": "危险或有害 ",
+            "impersonation": "冒充 ",
+            "piracy": "海盗行为",
+            "vulgar_language": "粗俗语言",
+            "nudity_pornography": "裸体和色情",
+            "suicidal_self_harm": "自杀和自残内容 ",
+            "violent_graphic_content": "暴力画面内容",
+            "harassment_cyberbullying": "骚扰和网络欺凌",
+            "proactive_threatening_content": "挑衅和威胁内容",
+            "statement": "Twibbonize 社区准则保护举报人身份的隐私.",
+            "read_more_copy": "阅读更多",
+            "please_select_one": "请选择一个",
+            "write_a_message": "写一个信息"
         },
         "discard": {
             "discard_edit": "放弃编辑？",
@@ -364,9 +398,10 @@
             "supporters": "支持者",
             "interactions": "互动",
             "visits": "访问次数",
-            "realtime_estimates": "实时估算",
             "last_month": "过去 30 天",
-            "see_more_analytics": "查看更多分析"
+            "see_more_analytics": "查看更多分析",
+            "realtime_estimates": "过去 30 天的实时估算",
+            "view_analytics": "查看分析"
         },
         "pricing": {
             "no_thankyou": "不，谢谢"
@@ -387,12 +422,37 @@
             "reply_as_user": "以{user}身份回复"
         },
         "guidance": {
-            "heading_title": "",
-            "good_photo_examples": "",
-            "good_photo_caption": "",
-            "photos_avoid": "",
-            "bad_photo_caption": "",
-            "understand": ""
+            "heading_title": "遵循指南以获得最佳结果！",
+            "good_photo_examples": "优秀照片示例：",
+            "good_photo_caption": "特写自拍，肖像照，脸部清晰",
+            "photos_avoid": "应避免的照片：",
+            "bad_photo_caption": "全身照、集体照、背面照",
+            "understand": "我明白"
+        },
+        "post_to_twibbonize": {
+            "caption": "写一条关于此活动的消息...",
+            "unpin_post": "取消置顶帖子"
+        },
+        "twibbon_creation": {
+            "adjust_your_photo": "调整照片"
+        },
+        "share_campaign": {
+            "or_share_to": "或分享到",
+            "save_share": "保存并分享"
+        },
+        "post": {
+            "post_uploaded": "帖子已上传",
+            "post_deleted": "帖子已删除",
+            "post_failed_deleted": "发帖失败，已删除"
+        },
+        "create_campaign": {
+            "custom_field": "添加自定义字段"
+        },
+        "collection": {
+            "sign_up_add_collection": "注册以添加到收藏夹"
+        },
+        "posts": {
+            "has_no_posts": "该用户尚未在 Twibbonize 上发布任何内容"
         }
     },
     "page_checkout": {
@@ -401,9 +461,8 @@
             "account_update": "您的帐户将更新，所有新功能均已解锁"
         },
         "checkout": {
-            "back_to_plans": "返回计划",
             "upgrade_to": "升级至{plan}",
-            "gather_your_supports": "利用我们的独有功能聚集您的支持者并扩大您的活动。",
+            "gather_your_supports": "利用我们的独有功能聚集您的支持者并扩大您的活动",
             "billing_option": "计费选项",
             "details": "细节",
             "user": "用户",
@@ -413,18 +472,19 @@
             "save": "节省{percentage} %",
             "pay": "支付{frequency}",
             "checkout_options": "结帐选项",
-            "change_plan": "",
-            "current_plan": "",
-            "downgrade": "",
-            "current_plan_description": "",
-            "change_plan_description": "",
-            "downgrade_description": "",
-            "change_plan_confirm": "",
-            "upgrade_confirm": "",
-            "downgrade_confirm": "",
-            "change_plan_active": "",
-            "upgrade_active": "",
-            "downgrade_active": ""
+            "change_plan": "调整计划",
+            "current_plan": "当前计划",
+            "downgrade": "降级",
+            "current_plan_description": "您现在正在订阅此订阅",
+            "change_plan_description": "您正在将您的计划更改为{plan} ，该计划将在当前订阅结束后生效。",
+            "downgrade_description": "您已将计划降级为{plan} ，该计划将在当前订阅结束后生效。",
+            "change_plan_confirm": "你确定吗？",
+            "upgrade_confirm": "您确定要升级吗？",
+            "downgrade_confirm": "您确定要降级计划吗？",
+            "change_plan_active": "当前订阅结束后它将生效",
+            "upgrade_active": "完成付款后即可生效",
+            "downgrade_active": "当前订阅结束后它将生效",
+            "back_to_plans": "后退"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -433,14 +493,14 @@
             "use_twibbonize_without_ads": "使用 Twibbonize 时无需广告",
             "exclusive_features": "为您的广告活动提供专属功能",
             "remove_own_account": "删除您自己账户的水印",
-            "silver": "",
-            "gold": "",
-            "platinum": "",
-            "watermark_title": "",
-            "high_quality_image_title": "",
-            "ad_free_title": "",
-            "campaign_addon": "",
-            "on": ""
+            "silver": "银",
+            "gold": "金子",
+            "platinum": "铂",
+            "watermark_title": "移除水印",
+            "high_quality_image_title": "高品质图像",
+            "ad_free_title": "无广告",
+            "campaign_addon": "战役插件",
+            "on": "在"
         }
     },
     "page_collection": {
@@ -474,14 +534,15 @@
             "no_stay": "否，留在此页面"
         },
         "dropzone": {
-            "upload_design": "在此上传您自己的设计",
             "type": "类型：",
-            "imagetype": "图片\/PNG",
             "size": "尺寸：",
-            "max_file": "最大5MB",
             "recommendation": "推荐：",
             "image_dimension": "1080x1080像素",
-            "upload": "上传"
+            "upload": "上传",
+            "imagetype": "巴布亚新几内亚",
+            "max_file": "最大 5 MB",
+            "backgroundtype": "JPEG、PNG 或 WEBP",
+            "upload_design": "在此上传您的设计"
         },
         "frame_editor": {
             "or_create": "或立即创建框架",
@@ -498,7 +559,9 @@
             "no_transparent": "图像上未检测到透明区域",
             "no_hole_frame": "这意味着您的框架上没有孔。要提供必要的孔；您可以按照此{link}",
             "help_center_article": "帮助中心文章",
-            "understand": "我明白"
+            "understand": "我明白",
+            "width": "宽度",
+            "height": "高度"
         },
         "form": {
             "please_fill_in": "请填写以下所有必填的活动数据",
@@ -507,7 +570,7 @@
             "campaign_title": "活动标题",
             "campaign_title_placeholder": "可以由数字、字母或特殊字符组成。",
             "campaign_description": "描述",
-            "campaign_description_placeholder": "分享有关您的活动的详细信息以吸引注意力并获得支持。",
+            "campaign_description_placeholder": "分享有关您的活动的详细信息以吸引注意力并获得支持",
             "campaign_link": "活动链接",
             "campaign_link_placeholder": "活动链接",
             "campaign_category": "活动类别",
@@ -525,7 +588,8 @@
             "private_detail": "只有拥有访问代码的人才能访问您的活动",
             "url_not_available": "网址不可用",
             "caption_placeholder": "大家好，我叫 [[你的名字]] ，我全力支持这次活动。让我们一起团结起来，通过这次活动产生真正的影响吧！",
-            "enter_description": "输入描述"
+            "enter_description": "输入描述",
+            "optional": "选修的"
         },
         "customization": {
             "campaign_customization": "活动定制",
@@ -548,20 +612,25 @@
             "go_back": "回去"
         },
         "tab": {
-            "frames": "",
-            "campaigns": "",
-            "analytics": ""
+            "frames": "框架",
+            "campaigns": "活动",
+            "analytics": "分析"
+        },
+        "blank_design": {
+            "suggested": "建议",
+            "instagram_story": "Instagram 故事",
+            "instagram_post": "Instagram 帖子"
         }
     },
     "page_for_creators": {
         "pricing": {
             "top_notch": "升级你的战役游戏",
-            "condidering_all": "考虑到所有的便利，这是值得的。",
+            "condidering_all": "考虑到所有的便利，这是值得的",
             "purchase_now": "现在买",
             "learn_more": "了解更多",
             "want_to_create": "想要免费创建您的活动吗？",
-            "try_now": "现在试试！",
-            "per": "每{time}"
+            "per": "每{time}",
+            "try_now": "现在试试！"
         },
         "features": {
             "remove_watermark": "删除所有广告系列用户的水印",
@@ -570,7 +639,7 @@
             "no_ads": "使用 Twibbonize 时无需广告"
         },
         "bento": {
-            "all_in_one": "传播你的运动并成为变革的催化剂。",
+            "all_in_one": "传播你的运动并成为变革的催化剂",
             "tools_to_tailor": "随着您的支持不断增长，您可以定制并扩展您的活动的工具。",
             "one_of_a_kind": "独一无二的 Twibbon 发电机",
             "bring_all_campaign": "将您活动的所有支持者社区带到您的 Twibbonize 页面上；支持者在此进行联系，您可以看到影响！",
@@ -591,10 +660,10 @@
         "frame": {
             "more_than_frames": "不仅仅是框架",
             "spice_up": "不仅使用框架，还可以使用创意背景为您的在线战役游戏增添趣味",
-            "frame_twibbon": "Twibbon框架",
             "the_og_twibbon": "原创 Twibbon；放置在照片上的框架",
-            "backround_twibbon": "Twibbon 背景",
-            "a_fresh_variation": "Twibbon 的全新版本，可作为照片背景"
+            "a_fresh_variation": "Twibbon 的全新版本，可作为照片背景",
+            "frame_twibbon": "框架卷带",
+            "backround_twibbon": "背景 Twibbon "
         },
         "tilt": {
             "get_it_ready": "使用我们的内置 Twibbon Editor，随时准备就绪",
@@ -604,8 +673,26 @@
             "your_supporters": "你的支持者",
             "inspire_detail": "Twibbonize 链接吸引了好奇的人，吸引他们关注您的事业并激发他们对您的活动的兴趣",
             "unite_detail": "将您活动的所有支持者社区带到您的 Twibbonize 页面上；支持者在此进行联系，您可以看到影响！",
-            "entertain_detail": "Twibbonize 通过为社交媒体和消息传递提供可共享的虚拟 Twibbon 来吸引您的支持者。",
-            "grow_detail": "通过 Twibbonize 活动获得更多支持：它不仅能吸引注意力，还能产生从众效应，吸引越来越多不想错过您的事业的受众。"
+            "entertain_detail": "Twibbonize 通过为社交媒体和消息传递提供可共享的虚拟 Twibbon 来吸引您的支持者",
+            "grow_detail": "通过 Twibbonize 活动获得更多支持：它不仅能吸引注意力，还能产生从众效应，吸引越来越多不想错过您的事业的受众。",
+            "inspire": "启发 ",
+            "unite": "团结",
+            "entertain": "招待",
+            "grow": "生长"
+        },
+        "use_cases": {
+            "heading": "使用 Twibbonize 的想法",
+            "subheading": "通过从我们的 5,000,000+ Twibbonize 活动中精心挑选的示例快速开始您的探索",
+            "corporate": "公司的",
+            "corporate_title": "充分利用员工和客户资源",
+            "education": "教育",
+            "education_title": "这是增加学习过程的有趣方式",
+            "event": "活动",
+            "events_title": "利用即时病毒式传播的力量宣传你的活动"
+        },
+        "testimonials": {
+            "testimonials": "评价",
+            "heading": "受到您信任的名字的信任"
         }
     },
     "page_explore": {
@@ -624,7 +711,7 @@
     "page_leaderboard": {
         "general": {
             "top_creators": "顶级创作者排行榜",
-            "discover": "看看谁的支持率最高！查看本周、本月和有史以来的顶级创作者。"
+            "discover": "看看谁的支持率最高！查看本周、本月和有史以来的顶级创作者"
         }
     },
     "page_personels": {
@@ -643,6 +730,10 @@
         "advisor": {
             "our_advisor": "我们的顾问",
             "proud_partner": "我们很荣幸能与那些与我们使命高度一致的人合作"
+        },
+        "honorary": {
+            "honorary_mentions": "荣誉提名",
+            "significant_contributions": "为我们的发展做出重大贡献的人"
         }
     },
     "page_pricing": {
@@ -659,18 +750,18 @@
             "private_campaign_1": "私人的",
             "private_campaign_2": "活动",
             "offer_exclusively": "为你的支持者提供独家优惠",
-            "campaign_customization_1": "活动",
-            "campaign_customization_2": "定制",
+            "campaign_customization_1": "",
+            "campaign_customization_2": "活动定制",
             "personalize_campaign": "个性化您的活动页面",
             "multiple_frames_1": "多个Twibbon",
             "multiple_frames_2": "每个广告系列",
             "unleash_creativity": "发挥多功能性的创造力",
             "top_notch": "升级你的战役游戏",
-            "considering_all": "考虑到所有的便利，这是值得的。",
-            "remove_watermark_1": "消除",
-            "remove_watermark_2": "水印",
-            "for_audience_1": "为了",
-            "for_audience_2": "你和你的观众",
+            "considering_all": "考虑到所有的便利，这是值得的",
+            "remove_watermark_1": "",
+            "remove_watermark_2": "",
+            "for_audience_1": "",
+            "for_audience_2": "为您和您的观众移除水印",
             "as_a_free_user": "作为免费用户，您的 Twibbon 始终带有<strong>水印。 <\/strong>",
             "premium_supporter": "<strong>Premium Creator<\/strong> 可去除水印，使图像更干净。",
             "now_you_can": "现在您可以<strong>支持任何活动<\/strong>而无需水印。"
@@ -683,15 +774,15 @@
             "enjoy_uninterrupted": "在 Twibbonize 上享受无广告、不间断的体验。准备好迎接更简洁、更人性化的 Twibbonize 版本吧。",
             "remove_watermark": "删除您自己账户的水印",
             "top_notch": "升级你的战役游戏",
-            "considering_all": "考虑到所有的便利，这是值得的。",
+            "considering_all": "考虑到所有的便利，这是值得的",
             "use_twibbonize_without_ads": "使用 Twibbonize 时无需广告",
             "as_a_free_user": "作为免费用户，您的 Twibbon 始终带有<strong>水印。 <\/strong>",
             "premium_supporter": "<strong> Premium Supporter <\/strong>删除水印以获得更清晰的图像。",
             "now_you_can": "现在您可以<strong>支持任何活动<\/strong>而无需水印。",
-            "remove_watermark_1": "消除",
-            "remove_watermark_2": "水印",
-            "for_audience_1": "为了",
-            "for_audience_2": "您自己的帐户",
+            "remove_watermark_1": "",
+            "remove_watermark_2": "",
+            "for_audience_1": "",
+            "for_audience_2": "为您自己的帐户移除水印",
             "looking_to_remove": "想要为所有广告活动用户移除水印？请尝试"
         },
         "upgrade": {
@@ -725,26 +816,26 @@
             "notes": "笔记",
             "print": "下载发票",
             "if_you_would_like_to_change": "如果您想更改订阅或付款信息，请前往您的账单设置",
-            "ending_in": ""
+            "ending_in": "{card}以{number}结尾"
         },
         "bento": {
             "campaign_analytics_1": "活动",
             "campaign_analytics_2": "分析",
             "private_campaign_1": "私人的",
             "private_campaign_2": "活动",
-            "campaign_customization_1": "活动",
-            "campaign_customization_2": "定制",
-            "multiple_frames_1": "多帧",
-            "multiple_frames_2": "每个广告系列",
-            "use_twibbonize_without_ads_1": "使用 Twibbonize",
-            "use_twibbonize_without_ads_2": "无广告",
+            "campaign_customization_1": "",
+            "campaign_customization_2": "活动定制",
+            "multiple_frames_1": "每个活动多个框架",
+            "multiple_frames_2": "",
+            "use_twibbonize_without_ads_1": "",
+            "use_twibbonize_without_ads_2": "使用无广告的Twibbonize",
             "no_extra_features_1": "没有额外功能",
             "no_extra_features_2": "可用的",
-            "remove_all_watermark_1": "删除水印",
-            "remove_all_watermark_2": "所有广告活动用户",
-            "remove_own_watermark_1": "删除水印",
-            "on": "在",
-            "remove_own_watermark_2": "您自己的帐户",
+            "remove_all_watermark_1": "",
+            "remove_all_watermark_2": "为您的所有活动用户移除水印",
+            "remove_own_watermark_1": "",
+            "on": "",
+            "remove_own_watermark_2": "为您自己的帐户移除水印",
             "extra_features": "额外功能"
         },
         "modal": {
@@ -771,6 +862,19 @@
             "answer_8": "您可以轻松从 Twibbonize 帐户直接下载发票。",
             "question_9": "在哪里可以找到与 Twibbonize 使用相关的帮助？",
             "answer_9": ""
+        },
+        "hero": {
+            "pricing": "价钱",
+            "find_the_right_premium_plan": "找到适合您需求的 Premium 计划"
+        },
+        "card_premium_supporter": {
+            "subheading": "对于想要从 Twibbonize 获得更多功能的人"
+        },
+        "card_premium_creator": {
+            "subheading": "对于需要终极 Twibbonize 体验的人"
+        },
+        "same_plan": {
+            "adjust_plan": "调整计划"
         }
     },
     "page_profile": {
@@ -778,17 +882,17 @@
             "search_campaigns": "搜索活动",
             "no_campaigns": "尚无任何活动",
             "no_campaigns_details": "创建活动，并分享到 twibbonize。",
-            "delete_confirmation": "",
-            "delete_detail": "",
-            "delete_campaign": ""
+            "delete_confirmation": "您确定要删除此活动吗？",
+            "delete_detail": "删除“ {title} ”将是永久性的，并且无法撤消。",
+            "delete_campaign": "删除活动"
         },
         "posts": {
             "no_posts": "还没有帖子",
-            "no_post_details": "找到一个活动，并将您的 twibbon 发布到 Twibbonize。"
+            "no_post_details": "找到一个活动，并将您的 twibbon 发布到 Twibbonize"
         },
         "collections": {
             "no_collections": "整理您最喜欢的活动",
-            "no_collections_details": "在活动页面上，只需单击{icon}图标按钮即可将您感兴趣的活动保存到您自己的收藏中。"
+            "no_collections_details": "点击任意活动的{icon}图标，即可将该活动保存到您的收藏夹中"
         },
         "about": {
             "about": "关于",
@@ -798,6 +902,34 @@
             "joined": "加入时间： {created}",
             "supporters": "支持者",
             "campaigns": "活动"
+        },
+        "my_profile": {
+            "edit_profile": "编辑个人资料",
+            "campaigns": "活动",
+            "collections": "收藏",
+            "posts": "帖子"
+        },
+        "campaign_deletion": {
+            "are_you_sure": "你确定吗？"
+        },
+        "campaign": {
+            "delete_campaign": "删除“ {campaign_name} ”是永久性的，并且无法撤消.",
+            "confirm_delete_campaign": "删除活动"
+        },
+        "collection": {
+            "delete_collection": "“ {collection_name} ”集合将被永久删除.",
+            "confirm_delete_collection": "删除收藏夹",
+            "delete_campaign": "“ {campaign_name} ”广告系列将从“ {collection_name} ”集合中永久移除",
+            "confirm_remove_campaign": ""
+        },
+        "report": {
+            "title": "您为什么要举报此个人资料？",
+            "abusive_harmful": "辱骂或有害",
+            "pretending_someone": "假装成别人",
+            "sensitive_content": "敏感内容"
+        },
+        "account": {
+            "email_changed": "您的电子邮件地址最近已更改。您可以在 90 天后再次更新。"
         }
     },
     "page_preference": {
@@ -841,55 +973,55 @@
             "adfree": "无广告",
             "highquality": "高质量",
             "nowatermark": "无水印",
-            "paid": "",
-            "are_you_sure_change": "",
-            "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
-            "plan_changing_info": "",
-            "active_after_payment": "",
-            "are_you_sure_downgrade": "",
-            "plan_downgrade_info": "",
-            "renew_plan": "",
-            "renew_subscription": "",
-            "upgrade_now": "",
-            "warning": "",
-            "important": "",
-            "premium_expired": "",
-            "last_attempted": "",
-            "renewal_date": "",
-            "payment_method": "",
-            "update_now": "",
-            "cancel_subscription": "",
-            "change_payment_method": "",
-            "card_end_with": "",
-            "no_transactions": "",
-            "transactions_will_shown": "",
-            "are_you_sure": "",
-            "once_cancel_plan": "",
-            "yes_cancel_plan": "",
-            "no_keep_plan": "",
-            "once_renew_plan": "",
-            "yes_renew_plan": "",
-            "no_cancel": "",
-            "if_cancel_downgrade": "",
-            "yes_downgrade": "",
-            "if_cancel_change_billing": "",
-            "yes_continue": "",
-            "info": "",
-            "your_request_cancel": "",
-            "your_request_downgrade": "",
-            "cancel_downgrade": "",
-            "cancel_change": "",
-            "your_request_billing": "",
-            "manage_inapp": "",
-            "manage_inapp_subscription": "",
-            "success_cancel_subscription": "",
-            "success_renew_subscription": "",
-            "success_change_subscription": "",
-            "success_cancel_change_subscription": "",
-            "last_attempted_authentication": "",
-            "authenticate_now": "",
-            "recurring_payment": ""
+            "paid": "有薪酬的",
+            "are_you_sure_change": "你确定吗？",
+            "active_after_subscription": "当前订阅结束后它将生效",
+            "are_you_sure_upgrade": "您确定要升级吗？",
+            "plan_changing_info": "已收到切换到{package} 。当前计划结束后将开始新计划",
+            "active_after_payment": "完成付款后即可生效",
+            "are_you_sure_downgrade": "您确定要降级计划吗？",
+            "plan_downgrade_info": "已收到降级至{package}通知。当前计划结束后将开始新计划",
+            "renew_plan": "更新计划",
+            "renew_subscription": "续订",
+            "upgrade_now": "现在升级",
+            "warning": "警告！",
+            "important": "重要的！",
+            "premium_expired": "您的 Premium Creator 计划已过期。请在{date}前续订",
+            "last_attempted": "我们上次尝试的扣款未成功。请更新您的付款方式。",
+            "renewal_date": "更新日期",
+            "payment_method": "付款方式",
+            "update_now": "现在更新",
+            "cancel_subscription": "取消订阅",
+            "change_payment_method": "更改付款方式",
+            "card_end_with": "{card}以{number}结尾",
+            "no_transactions": "暂无交易记录",
+            "transactions_will_shown": "您的交易历史记录一旦可用，将显示在此处",
+            "are_you_sure": "你确定吗？",
+            "once_cancel_plan": "一旦取消计划，您将在结算周期结束时无法使用所有升级功能",
+            "yes_cancel_plan": "是的，取消计划",
+            "no_keep_plan": "不，保留计划",
+            "once_renew_plan": "续订计划后，您的计划将再次生效",
+            "yes_renew_plan": "是的，续订计划",
+            "no_cancel": "否，取消",
+            "if_cancel_downgrade": "如果您取消降级，您当前的计划将再次生效",
+            "yes_downgrade": "是，继续降级",
+            "if_cancel_change_billing": "如果你取消更改账单，你当前的套餐将再次生效",
+            "yes_continue": "是，继续",
+            "info": "信息",
+            "your_request_cancel": "已收到您取消{plan}计划的请求。该计划将在下一个计费周期结束",
+            "your_request_downgrade": "已收到您降级至{plan}的请求。当前计划结束后，您的新计划将生效。",
+            "cancel_downgrade": "取消降级",
+            "cancel_change": "取消 更改 帐单",
+            "your_request_billing": "您将账单变更为{plan}的请求已收到。当前计划结束后，您的新计划将生效。",
+            "manage_inapp": "在 Twibbonize {appOs}应用上管理您的订阅",
+            "manage_inapp_subscription": "要管理{appOs}上的 Twibbonize 订阅，请打开应用程序，转到“设置”，然后选择“计费”。",
+            "success_cancel_subscription": "成功取消订阅",
+            "success_renew_subscription": "成功续订",
+            "success_change_subscription": "成功更改订阅",
+            "success_cancel_change_subscription": "成功取消更改订阅",
+            "last_attempted_authentication": "我们上次尝试的扣款未成功。您的付款需要验证。",
+            "authenticate_now": "立即验证",
+            "recurring_payment": "我们需要您明确确认您的定期付款。请查看您的电子邮件"
         },
         "account": {
             "update_email": "更新电子邮件",
@@ -919,19 +1051,19 @@
             "confirm_password": "确认密码",
             "create_new_password": "创建新密码",
             "make_it_easy": "让您轻松记住并对任何人保密！",
-            "add_email_button": "",
-            "add_password": "",
-            "cant_remove_account": "",
-            "set_up_email": "",
-            "want_to_remove": "",
-            "your_account_will_be_removed": "",
-            "continue_to_revoke": "",
-            "revoke_success": "",
-            "cannot_update_email": "",
-            "setup_password_to_update_email": "",
-            "email_change_request": "",
-            "we_have_sent_password": "",
-            "go_to_homepage": ""
+            "add_email_button": "添加电子邮件",
+            "add_password": "添加密码",
+            "cant_remove_account": "哎呀，我们无法删除您的社交媒体帐户。",
+            "set_up_email": "您必须先设置电子邮件或密码才能删除您的社交媒体帐户。",
+            "want_to_remove": "想要删除您的社交媒体帐户吗？",
+            "your_account_will_be_removed": "您的{provider}帐户将被删除。点击了解以删除您的社交媒体帐户。",
+            "continue_to_revoke": "继续撤销 ",
+            "revoke_success": "成功撤销帐户{provider}",
+            "cannot_update_email": "哎呀，我们无法更新你的电子邮件",
+            "setup_password_to_update_email": "您必须在更新电子邮件之前设置密码。",
+            "email_change_request": "电子邮件变更请求已取消",
+            "we_have_sent_password": "我们已将密码重置说明发送至您的电子邮箱。出于安全原因，请在 1 小时内重置密码。",
+            "go_to_homepage": "去首页"
         },
         "notifications": {
             "notifications_settings": "通知设置",
@@ -949,10 +1081,10 @@
             "article": "文章",
             "article_details": "您将收到我们推荐的文章。",
             "toggle_all": "全部",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "发布到 Twibbonize",
+            "post_twibbonize_details": "获取支持者在活动页面上发布的帖子的通知。",
+            "account_recap": "账户回顾",
+            "account_recap_details": "每周回顾您所有活动的支持者和访问量"
         },
         "package": {
             "free": "自由的",
@@ -977,7 +1109,7 @@
         "header": {
             "testimonials": "评价",
             "trusted": "受到您信任的名字的信任",
-            "read_stories": "阅读成功利用我们的平台开展其竞选活动的公司和组织的故事。"
+            "read_stories": "阅读成功利用我们的平台开展其竞选活动的公司和组织的故事"
         },
         "bento": {
             "read_success_story": "阅读他们的成功故事"
@@ -1231,7 +1363,6 @@
         },
         "graph": {
             "page": "第{currentPage}页，共{totalPage}页",
-            "data_displayed": "数据显示在 UTC 时区 (UTC+0)",
             "trend": "趋势",
             "country": "国家",
             "city": "城市",
@@ -1244,7 +1375,8 @@
             "visit": "访问",
             "visit_detail": "访问过你的活动页面的单次浏览会话的数量",
             "unique_visit": "独特访问",
-            "unique_visit_detail": "访问过你的活动页面的人数"
+            "unique_visit_detail": "访问过你的活动页面的人数",
+            "data_displayed": "数据显示在 UTC+0 时区"
         }
     },
     "page_account": {
@@ -1252,8 +1384,6 @@
             "email": "电子邮件",
             "password": "密码",
             "confirm_password": "确认密码",
-            "login_with_google": "使用 Google 登录",
-            "login_with_facebook": "使用 Facebook 登录",
             "login_with_email": "或使用电子邮件登录",
             "signup_with_google": "使用 Google 注册",
             "signup_with_facebook": "使用 Facebook 注册",
@@ -1266,7 +1396,9 @@
             "signup": "报名",
             "terms": "条款",
             "privacy": "隐私政策",
-            "name": ""
+            "name": "姓名",
+            "login_with_facebook": "使用 Facebook 登录",
+            "login_with_google": "使用 Google 登录"
         }
     },
     "page_article": {
@@ -1275,97 +1407,398 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "",
-        "sign_in_to_comment": "",
-        "sign_in_to_like": "",
-        "sign_up_to_post": "",
-        "sign_up_to_comment": "",
-        "sign_up_to_like": "",
+        "sign_in_to_post": "登录以发布到 Twibbonize",
+        "sign_in_to_comment": "登录后发表评论",
+        "sign_in_to_like": "登录即可点赞",
+        "sign_up_to_post": "注册以发布到 Twibbonize",
+        "sign_up_to_comment": "注册以发表评论",
+        "sign_up_to_like": "注册以点赞",
         "toast": {
             "sign_in": {
-                "success": "",
-                "error": ""
+                "success": "登录成功！欢迎回来。",
+                "error": "登录失败。请检查您的凭据并重试。"
             },
             "sign_up": {
-                "success": "",
-                "error": ""
+                "success": "注册成功！欢迎加入。",
+                "error": "注册失败。请检查您的详细信息并重试。"
             }
         },
-        "email_registered": "",
-        "email_registered_lead": ""
+        "email_registered": "邮箱已经注册",
+        "email_registered_lead": "此电子邮件已被注册。您想登录吗？",
+        "sign_in_to_create_campaign": "",
+        "sign_up_to_create_campaign": ""
     },
     "post": {
         "confirm": {
-            "delete_title": "",
-            "delete_lead": "",
-            "delete_yes": "",
-            "delete_no": ""
+            "delete_title": "确认删除",
+            "delete_lead": "您确定要删除此帖子吗？此操作无法撤消。",
+            "delete_yes": "是的，删除",
+            "delete_no": "取消"
         },
         "comment": {
-            "guest_placeholder": "",
-            "logged_in_placeholder": "",
-            "comment_posted": "",
-            "comment_deleted": "",
-            "reply_deleted": ""
+            "guest_placeholder": "分享您的信息",
+            "logged_in_placeholder": "以{name}发表评论",
+            "comment_posted": "评论已发布",
+            "comment_deleted": "评论已删除",
+            "reply_deleted": "回复已删除"
         },
         "toast": {
-            "uploaded": "",
-            "hidden": "",
-            "unhidden": "",
-            "reported": "",
-            "deleted": "",
-            "pinned": "",
-            "unpinned": ""
+            "uploaded": "帖子已上传",
+            "hidden": "隐",
+            "unhidden": "取消隐藏",
+            "reported": "已举报",
+            "deleted": "已删除",
+            "pinned": "已固定",
+            "unpinned": "取消固定"
         }
     },
     "report": {
-        "report_campaign": "",
-        "report_profile": "",
-        "abusive_or_harmful": "",
-        "pretending_to_be_someone_else": "",
-        "sensitive_content": "",
-        "plagiarism": "",
-        "impersonation": "",
-        "piracy": "",
-        "nudity_pornography": "",
-        "suicidal_self_harm_content": "",
-        "dangerous_or_harmful": "",
-        "violent_graphic_content": "",
-        "harassment_cyberbullying": "",
-        "provocative_threatening_content": "",
-        "spam": "",
-        "privacy_violations": "",
-        "unauthorized_use_of_personal_information": "",
-        "child_exploitation": "",
-        "harassment": "",
-        "terrorism": "",
-        "violence": "",
-        "false_information": "",
-        "health": "",
-        "politics": "",
-        "social_issue": "",
-        "hate_speech": "",
-        "disability_or_disease": "",
-        "race_or_ethnicity": "",
-        "religious_affiliation": "",
-        "sexual_orientation": "",
-        "nudity": "",
-        "suicide_or_self_harm": "",
-        "vulgar_language": "",
-        "dangerous_content": "",
-        "why_report_campaign": "",
-        "why_report_profile": "",
-        "why_report_submission": "",
-        "why_report_comment_reply": "",
-        "why_report_collection": "",
-        "select_one": "",
-        "protect_privacy_reporter": "",
-        "read_more": "",
-        "tell_us_more": "",
-        "received_report": "",
-        "thankyou": "",
-        "learn_more_about": "",
-        "community_guideline": "",
-        "placeholder_write_here": ""
+        "report_campaign": "举报活动",
+        "report_profile": "報告簡介",
+        "abusive_or_harmful": "辱骂或伤害",
+        "pretending_to_be_someone_else": "假装成别人",
+        "sensitive_content": "敏感内容",
+        "plagiarism": "剽窃",
+        "impersonation": "冒充",
+        "piracy": "海盗行为",
+        "nudity_pornography": "裸体和色情",
+        "dangerous_or_harmful": "危险或有害",
+        "harassment_cyberbullying": "骚扰和网络欺凌",
+        "provocative_threatening_content": "挑衅和威胁内容",
+        "privacy_violations": "侵犯隐私",
+        "unauthorized_use_of_personal_information": "未经授权使用个人信息",
+        "child_exploitation": "儿童剥削",
+        "harassment": "骚扰",
+        "terrorism": "恐怖主义",
+        "violence": "暴力",
+        "false_information": "虚假信息",
+        "health": "健康",
+        "politics": "政治",
+        "social_issue": "社会问题",
+        "hate_speech": "仇恨言论",
+        "disability_or_disease": "残疾或疾病",
+        "race_or_ethnicity": "种族或民族",
+        "religious_affiliation": "宗教信仰",
+        "sexual_orientation": "性取向",
+        "nudity": "裸露",
+        "suicide_or_self_harm": "自杀或自残",
+        "vulgar_language": "粗俗语言",
+        "dangerous_content": "危险内容",
+        "why_report_campaign": "你为什么要举报这次活动？",
+        "why_report_profile": "您为什么要举报此个人资料？",
+        "why_report_submission": "你为什么要举报此投稿？",
+        "why_report_comment_reply": "你为什么要举报此评论？",
+        "why_report_collection": "您为什么要举报此收藏？",
+        "select_one": "请选择一个",
+        "protect_privacy_reporter": "Twibbonize 社区准则保护记者身份的隐私。",
+        "tell_us_more": "请告诉我们更多",
+        "received_report": "我们已收到您的报告！",
+        "thankyou": "谢谢！请允许我们调查您的报告，我们会尽快将反馈发送至您的电子邮箱。",
+        "learn_more_about": "了解有关{link}的更多信息。",
+        "community_guideline": "Twibbonize 社区准则",
+        "placeholder_write_here": "写在这里",
+        "report_sent": "已发送報告"
+    },
+    "page_editor": {
+        "general": {
+            "template": "模板",
+            "text": "文本",
+            "shape": "形状",
+            "image": "图像",
+            "graphic": "形象的",
+            "upload": "上传",
+            "layer": "层",
+            "resize": "调整大小",
+            "save": "节省",
+            "width": "宽度",
+            "height": "高度",
+            "transparency": "透明度",
+            "line_weight": "线宽",
+            "align": "对齐",
+            "group": "团体",
+            "ungroup": "取消群组",
+            "unlock": "开锁",
+            "loading": "加载中"
+        },
+        "text": {
+            "add_a_heading": "添加标题",
+            "add_a_subheading": "添加副标题",
+            "document_fonts": "文档字体",
+            "text_effect": "文字效果",
+            "effects": "效果",
+            "add_a_body_text": "添加一点正文"
+        },
+        "shape": {
+            "arrow": "箭",
+            "shape": "形状"
+        },
+        "upload": {
+            "upload_image": "上传图片",
+            "upload": "上传",
+            "type": "类型：",
+            "size": "尺寸：",
+            "type_image": "JPG、PNG 或 SVG",
+            "maximum_size": "最大 5 MB"
+        },
+        "toolbar": {
+            "copy": "复制",
+            "paste": "粘贴",
+            "duplicate": "复制",
+            "delete": "删除",
+            "layer": "层",
+            "bring_forward": "向前进",
+            "bring_to_front": "置于顶层",
+            "send_backward": "后移一层",
+            "send_to_back": "置于后面",
+            "show_layers": "显示图层",
+            "left": "左边",
+            "center": "中心",
+            "right": "正确的",
+            "top": "顶部",
+            "middle": "中间",
+            "bottom": "底部",
+            "set_as_text_template": "设置为文本模板",
+            "set_as_background_image": "设置为背景图像",
+            "lock": "锁",
+            "letter_spacing": "字母间距",
+            "line_spacing": "行间距",
+            "border_weight": "边框粗细",
+            "align": "对齐",
+            "effects": "效果"
+        },
+        "confirmation": {
+            "cancel": "取消",
+            "save": "节省",
+            "has_your_frame_been_completed": "你的框架完成了嗎？",
+            "once_it_save": "一旦保存，就无法再进行编辑"
+        },
+        "image": {
+            "image_template": "照片由{name}拍摄 ",
+            "image_template_1": "在",
+            "edit_image": "編輯圖片",
+            "image_template_2": "Unsplash"
+        },
+        "error": {
+            "minimum_dimension": "尺寸必须至少为 100px 且不超过 8000px。"
+        },
+        "text_effect": {
+            "style": "风格",
+            "none": "没有任何",
+            "shadow": "阴影",
+            "text_effects": "效果",
+            "lift": "举起",
+            "offset": "抵消",
+            "direction": "方向",
+            "blur": "模糊",
+            "transparency": "透明度",
+            "color": "颜色",
+            "thickness": "厚度"
+        },
+        "colors": {
+            "colors": "颜色",
+            "document_colors": "文档颜色",
+            "default_colors": "默认颜色"
+        }
+    },
+    "page__campaign_creation": {
+        "campaign_preview": {
+            "campaign_description": "活动描述",
+            "campaign_title": "活动标题"
+        }
+    },
+    "page_my_campaign": {
+        "edit_campaign": {
+            "campaigns": "活动",
+            "frames": "框架",
+            "analytics": "分析"
+        }
+    },
+    "page_post": {
+        "report": {
+            "title": "你为什么要举报该帖子？",
+            "plagiarism ": "剽窃",
+            "impersonation ": "冒充 ",
+            "piracy ": "海盗行为",
+            "vulgar_language": "粗俗语言",
+            "nudity_pornography": "裸体和色情",
+            "suicidal_self_harm": "自杀和自残内容 ",
+            "danger": "危险或有害 ",
+            "violent_graphic_content": "暴力画面内容",
+            "harassment_cyberbullying": "骚扰和网络欺凌 ",
+            "provocative_threatening_content": "挑衅和威胁内容",
+            "spam": "垃圾邮件"
+        },
+        "report_comment": {
+            "title": "你为什么要举报此评论？",
+            "abusive_harmful": "辱骂或伤害",
+            "harassment": "骚扰",
+            "terrorism": "恐怖主义",
+            "violence": "暴力",
+            "false_information": "",
+            "health": "健康",
+            "politics": "政治",
+            "social_issue": "社会问题",
+            "sensitive_content": "敏感内容 ",
+            "nudity": "裸露",
+            "vulgar_language": "粗俗语言",
+            "hate_speech": "仇恨言论",
+            "disability_disease": "残疾或疾病",
+            "race_or_ethnicity": "种族或民族",
+            "religious_affiliation": "宗教信仰 ",
+            "sexual_orientation": "性取向",
+            "spam": "垃圾邮件"
+        }
+    },
+    "page_campaign_creation": {
+        "campaign_detail": {
+            "url_invalid": "网址无效"
+        }
+    },
+    "page_login_app": {
+        "failed_google_login": "无法执行 Google 登录",
+        "failed_apple_login": "无法执行 Apple 登录"
+    },
+    "error_messages": {
+        "campaign_page": {
+            "file_exceeds": "照片文件超出最大 5MB",
+            "cannot_create_twibbon": "无法创建 Twibbon。请重试"
+        },
+        "log_in": {
+            "complete_verification": "完成验证即可继续",
+            "email_no_password": "此邮箱没有密码。通过 Google 登录",
+            "social_media_already_registered": "您的社交媒体帐户的电子邮件已注册并已与类似社交媒体服务的另一个帐户关联。请尝试使用电子邮件和密码表单登录。"
+        },
+        "sign_up": {
+            "email_already_registered": "此电子邮件已注册。请使用其他电子邮件或尝试登录",
+            "password_minimum_required": "密码必须至少8个字符。",
+            "password_character_exceeded": "密码不得超过 128 个字符",
+            "password_must_be_standard": "密码必须是标准字母数字",
+            "password_does_not_match": "密码确认不匹配。请重试"
+        },
+        "verification": {
+            "code_incorrect": "代码不正确。请重试",
+            "code_expired": "代码已过期。申请新代码",
+            "maximum_attempt_reached": "已达到最大尝试次数。5 小时后重试",
+            "code_requested_exceeded": "代码请求超出最大限制"
+        },
+        "forgot_password": {
+            "email_not_found": "未找到电子邮件。重试或注册",
+            "link_expired": "更改密码的链接已过期。申请新密码",
+            "link_used": "更改密码的链接已被使用。申请一个新密码"
+        },
+        "campaign_creation": {
+            "frame_file_exceed": "帧文件超出最大大小 5MB",
+            "background_file_exceed": "背景文件超出最大 5MB",
+            "image_not_transparent": "图片必须透明。请重试",
+            "invalid_format": "文件格式无效。请使用支持的格式",
+            "allow_only_1_frame": "免费帐户仅允许上传 1 帧。升级后即可继续",
+            "allow_only_1_background": "免费帐户仅允许 1 次后台上传。升级后即可继续",
+            "campaign_title_exceed_limit": "活动标题超出最大字符数限制",
+            "description_exceed_limit": "描述超出最大字符数限制",
+            "link_unavailable": "活动链接已在使用中。请选择其他链接",
+            "link_criteria": "活动链接必须由字母数字和破折号 (-) 组成",
+            "caption_exceed_limit": "字幕模板超出最大字符数限制",
+            "background_exceed_limit": "背景文件超出最大 5MB",
+            "photo_exceed_limit": "缩略图文件大小超出 5MB 的最大限制",
+            "link_exceed_limit": "活动链接超出最大字符数限制"
+        },
+        "campaign_ edit": {
+            "frame_file_exceed": "帧文件超出最大大小 5MB",
+            "background_file_exceed": "背景文件超出最大 5MB"
+        },
+        "campaign_edit": {
+            "image_not_transparent": "图片必须透明。请重试",
+            "invalid_format": "文件格式无效。请使用支持的格式",
+            "allow_only_1_frame": "免费帐户仅允许上传 1 帧。升级后即可继续",
+            "allow_only_1_background": "免费帐户仅允许 1 次后台上传。升级后即可继续",
+            "campaign_title_exceed_limit": "活动标题超出最大字符数限制",
+            "description_exceed_limit": "描述超出最大字符数限制",
+            "link_unavailable": "活动链接已被使用。请选择其他链接",
+            "link_criteria": "活动链接必须由字母数字和破折号 (-) 组成",
+            "link_exceed_limit": "活动链接超出最大字符数限制",
+            "caption_exceed_limit": "字幕模板超出最大字符数限制",
+            "background_exceed_limit": "背景文件超出最大 5MB",
+            "thumbnail_exceeds": "缩略图文件大小超出 5MB 的最大限制"
+        },
+        "settings": {
+            "profile_image_exceed": "个人资料图片超出 5MB 的最大限制",
+            "background_image_exceed": "背景图片超出最大尺寸 5MB",
+            "username_unavailable": "用户名已被使用。请尝试其他用户名",
+            "username_exceed_limit": "用户名超出最大字符数限制",
+            "username_invalid": "用户名无效。请使用正确的格式重试",
+            "display_exceed_limit": "显示名称超出最大字符数限制",
+            "bio_exceed_limit": "个人简介超出最大字符数限制",
+            "email_already_registered": "电子邮件已注册。请尝试其他电子邮件",
+            "password_incorrect": "密码不正确。请重试",
+            "password_minimum_character": "密码必须至少8个字符",
+            "password_maximum_character": "密码不得超过 128 个字符",
+            "password_standard_format": "密码必须符合字母数字标准格式",
+            "account_deleted": "帐户已删除",
+            "account_integrated": "账户集成",
+            "account_revoked": "帐户已撤销"
+        },
+        "contact_us": {
+            "tell_us_more_exceeds": "“告诉我们更多”部分超出最大字符数限制"
+        },
+        "general": {
+            "something_went_wrong": "出了些问题"
+        },
+        "collection": {
+            "campaigns_added_exceeds": "添加的广告活动数量超出最大限制",
+            "description_exceeds": "描述超出最大字符数限制",
+            "title_exceeds": "集合标题超出最大字符数限制"
+        }
+    },
+    "success_messages": {
+        "general": {
+            "link_copied": "链接已复制",
+            "social_media_already_linked": "社交媒体帐户已与另一个 Twibbonize 帐户关联。请尝试其他帐户"
+        },
+        "campaign_creation": {
+            "link_available": "链接可用"
+        },
+        "campaign_edit": {
+            "link_available": "链接可用"
+        },
+        "settings": {
+            "photo_updated": "照片已更新",
+            "banner_updated": "横幅已更新",
+            "banner_deleted": "横幅已删除",
+            "photo_deleted": "照片已删除",
+            "password_updated": "密码已更新",
+            "email_updated": "电子邮件已更新"
+        },
+        "my_profile": {
+            "campaign_deleted": "广告活动已删除"
+        },
+        "collection": {
+            "campaign_added": "活动已添加"
+        },
+        "campaign_page": {
+            "account_upgraded": "帐户已升级",
+            "link_copied": "链接已复制"
+        }
+    },
+    "page_log_in": {
+        "email": {
+            "email_not_found": "未找到电子邮件。重试或注册"
+        },
+        "password": {
+            "password_incorrect": "密码不正确。请重试"
+        },
+        "maximum_attempt": "已达到最大尝试次数。1 小时后重试"
+    },
+    "page_notification": {
+        "no_notification_heading": "尚未有任何通知",
+        "no_notification_subheading": "目前没有通知"
+    },
+    "page_general": {
+        "no_internet_connection": "没有网络连接。点击即可重试",
+        "could_not_connect_internet": "无法连接到互联网。请切换到其他网络并重试。"
+    },
+    "page_settings": {
+        "account": {
+            "log_out": "登出？"
+        }
     }
 }
