@@ -20,7 +20,7 @@
             "join_community": "Sumali sa komunidad",
             "discover": "Matuklasan",
             "resources": "Mga mapagkukunan",
-            "company": "kumpanya",
+            "company": "Kumpanya",
             "explore": "Galugarin",
             "leaderboard": "Leaderboard",
             "pricing": "Pagpepresyo",
@@ -124,6 +124,14 @@
         },
         "search": {
             "searching": "Naghahanap..."
+        },
+        "privacy_policy": {
+            "title": "",
+            "last_updated_on": ""
+        },
+        "terms_of_service": {
+            "title": "",
+            "last_updated_on": ""
         }
     },
     "page_home": {
@@ -351,7 +359,8 @@
             "remove_watermark_for_you": "Alisin ang watermark!",
             "blur": "Malabo",
             "shadow": "anino",
-            "twibbon_success": "Na-download"
+            "twibbon_success": "Na-download",
+            "write_your_caption": ""
         },
         "report": {
             "report_campaign": "Mag-ulat ng Kampanya",
@@ -1241,7 +1250,8 @@
             "subtitle_6": "",
             "paragraph_6": "",
             "caption_6": "",
-            "paragraph_7": ""
+            "paragraph_7": "",
+            "paragraph_1": ""
         },
         "entertainment": {
             "title": "",
@@ -1350,6 +1360,290 @@
             "caption_9": "Ang Twibbonize ay nagbibigay ng isang plataporma para sa mga organisasyon at kanilang mga miyembro upang ipahayag ang kanilang sariling katangian at gunitain ang mga makabuluhang milestone.",
             "paragraph_10": "Kapag nagdiriwang o ginugunita ang mahahalagang kaganapan, tulad ng Pride Month, nagiging digital canvas ang Twibbonize para sa pagpapahayag ng pagkakaisa at pagpapahalaga. Tingnan ang Pride Month campaign na ito mula sa TaskUs. Sa pamamagitan ng paggamit ng isang may temang Twibbon, makikita ng mga indibidwal, at organisasyon ang okasyon, na nag-aambag sa isang sama-samang pagdiriwang online. Nagiging simbolo ng pagkakaisa ang shared Twibbon, na nagbibigay-daan sa mga kalahok na ipakita ang kanilang natatanging mga sarili at ang kanilang pangako sa paggalang sa kanilang kasaysayan sa pakikipaglaban para sa pagkakapantay-pantay, pati na rin ang pagpapabuti ng pakiramdam ng pagiging kabilang sa loob ng komunidad. Binabago ng Twibbonize ang mga digital na espasyo sa mga makulay na sentro ng pagdiriwang at pag-alaala.",
             "paragraph_11": "Habang tinatanggap natin ang kapasidad ng digital era para sa pagkakakonekta, hayaan ang Twibbonize na patuloy na ipinta ang ating mga screen ng mga simbolo ng pagkakaisa, na lumilikha ng pangmatagalang epekto sa larangan ng social advocacy. Sama-sama, hinabi namin ang isang biswal na salaysay na lumalampas sa mga hangganan, na umaalingawngaw sa aming ibinahaging pangako sa isang mas mahabagin at nagkakaisang mundo."
+        }
+    },
+    "notification": {
+        "push": {
+            "campaign_milestone": {
+                "header": "🏆 {name}, bagong milestone ang naabot!",
+                "body": "Binabati kita! Ang iyong kampanya {title} ay mayroon nang {amount} na mga tagasuporta!"
+            },
+            "new_post": {
+                "header": "Bagong Twibbon ang nai-post",
+                "body": "Nag-post {participant} ng Twibbon sa gallery ng iyong kampanya {title}!"
+            },
+            "new_comment": {
+                "header": "Bagong komento!",
+                "body": "Nagkomento {participant} sa iyong post sa kampanya {title}!"
+            },
+            "account_recap": {
+                "header": "🍺 {name}, narito ang iyong lingguhang recap!",
+                "body": "Nakakuha ka ng {amount} bagong mga tagasuporta ngayong linggo. Ipagpatuloy mo yan!"
+            },
+            "billing": {
+                "creator": {
+                    "successful_payment": {
+                        "header": "Ang iyong pagbabayad ay matagumpay",
+                        "body": "Samantalahin ang mga eksklusibong tampok nito! Simulan ang iyong kampanya ngayon"
+                    },
+                    "plus_5": {
+                        "header": "Kumusta {name} , i-renew ang iyong subscription ngayon",
+                        "body": "I-renew o i-upgrade ang iyong plano ngayon upang patuloy na ma-access ang analytics ng iyong kampanya."
+                    }
+                },
+                "international": {
+                    "renewed_plan": {
+                        "header": "Kamusta {name}, nakumpirma na ang iyong renewal payment",
+                        "body": "Ngayon ay maaari mo nang ipagpatuloy ang paggamit ng aming mga eksklusibong feature!"
+                    },
+                    "creator": {
+                        "successful_payment": {
+                            "header": "Ang iyong pagbabayad ay matagumpay",
+                            "body": "Samantalahin ang mga eksklusibong tampok nito! Simulan ang iyong kampanya ngayon."
+                        },
+                        "plus_2": {
+                            "header": "Kumusta {name} , i-renew ang iyong subscription ngayon",
+                            "body": "I-renew o i-upgrade ang iyong plano ngayon upang patuloy na ma-access ang analytics ng iyong kampanya."
+                        }
+                    },
+                    "supporter": {
+                        "successful_payment": {
+                            "header": "Ang iyong pagbabayad ay matagumpay",
+                            "body": "Masiyahan sa iyong karanasan na walang ad at makakuha ng Twibbons nang walang mga watermark!"
+                        },
+                        "plus_2": {
+                            "header": "Kumusta {name} , i-renew ang iyong subscription ngayon",
+                            "body": "I-renew ang iyong plano ngayon para ma-enjoy ang Twibbons na walang watermark at isang karanasang walang ad."
+                        }
+                    }
+                },
+                "supporter": {
+                    "successful_payment": {
+                        "body": "Masiyahan sa iyong karanasan na walang ad at makakuha ng Twibbons nang walang mga watermark!",
+                        "header": "Ang iyong pagbabayad ay matagumpay"
+                    },
+                    "plus_5": {
+                        "body": "I-renew ang iyong plano ngayon para ma-enjoy ang Twibbons na walang watermark at isang karanasang walang ad.",
+                        "header": "Kumusta {name}, i-renew ang iyong subscription ngayon"
+                    }
+                }
+            },
+            "new_reply": {
+                "header": "Bagong sagot!",
+                "body": "Nagkomento {participant} sa iyong komento sa kampanya {title}!"
+            }
+        },
+        "panel": {
+            "campaign_milestone": {
+                "body": "Binabati kita! Ang kampanyang {title} ay mayroon na ngayong {amount} tagasuporta!",
+                "header": "🏆 {name}, bagong milestone ang naabot!"
+            },
+            "account_recap": {
+                "body": "Nakakuha ka ng {amount} na mga bagong tagasuporta sa nakalipas na linggo sa lahat ng iyong kampanya. Ipagpatuloy ang mahusay na gawain!",
+                "header": "🍺 {name} , Narito ang iyong lingguhang recap!"
+            },
+            "billing": {
+                "order_received": {
+                    "header": "Kamusta {name}, mangyaring kumpletuhin ang iyong pagbabayad",
+                    "body": "Salamat sa pag-order ng {product}. Mangyaring magpatuloy sa pagbabayad upang makumpleto ang iyong transaksyon."
+                },
+                "order_canceled": {
+                    "header": "Paumanhin {name}, ang iyong {product} order ay nakansela",
+                    "body": "Mangyaring huwag magpatuloy sa pagbabayad."
+                },
+                "creator": {
+                    "successful_payment": {
+                        "header": "Kamusta {name}, natanggap na ang iyong bayad",
+                        "body": "Salamat sa pag-subscribe sa {product}. Gawin ang iyong kampanya ngayon at gamitin ang mga espesyal na tampok nito!"
+                    },
+                    "min_3": {
+                        "header": "Kumusta {name}, ang iyong {product} ay mag-e-expire sa loob ng 3 araw",
+                        "body": "I-renew o i-upgrade ang iyong subscription para patuloy na ma-enjoy ang mga eksklusibong feature ng Twibbonize."
+                    },
+                    "exp_day": {
+                        "header": "Kamusta {name}, ang iyong subscription sa {product} ay nag-expire na",
+                        "body": "I-renew o i-upgrade ang iyong subscription bago {date_plus_7} upang mapanatili ang access sa analytics ng kampanya at lahat ng eksklusibong feature."
+                    },
+                    "plus_5": {
+                        "header": "Kumusta {name}, matatapos ang iyong subscription sa loob ng 48 oras",
+                        "body": "I-renew o i-upgrade ang iyong plano sa loob ng 48 oras upang mapanatili ang access sa analytics ng iyong kampanya."
+                    },
+                    "plus_7": {
+                        "header": "Kumusta {name}, ang iyong account ay nag-downgrade sa Twibbonize Free",
+                        "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng {product} ."
+                    }
+                },
+                "international": {
+                    "creator": {
+                        "canceled_plan": {
+                            "header": "Kumusta {name}, matagumpay na nakansela ang iyong subscription sa {product}.",
+                            "body": "Mawawalan ka ng access sa lahat ng feature ng {product} sa pagtatapos ng iyong yugto ng pagsingil."
+                        },
+                        "renewed_plan": {
+                            "header": "Kumusta {name}, matagumpay na na-renew ang iyong {product} subscription",
+                            "body": "Sisingilin ang iyong {product} subscription sa pagtatapos ng iyong yugto ng pagsingil."
+                        },
+                        "canceled": {
+                            "exp_day": {
+                                "header": "Kumusta {name}, ang iyong account ay nag-downgrade sa Twibbonize Free",
+                                "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng {product} ."
+                            }
+                        },
+                        "cancel_downgrade": {
+                            "header": "Kamusta {name}, natanggap na ang iyong kahilingang kanselahin ang pag-downgrade",
+                            "body": "Magpapatuloy ang iyong subscription bilang Premium Creator."
+                        },
+                        "convert": {
+                            "header": "Kamusta {name}, ang iyong account ay na-upgrade sa Premium Creator",
+                            "body": "Binabati kita! Isa ka na ngayong Premium Creator. Tangkilikin ang lahat ng mga tampok ngayon!"
+                        },
+                        "successful_payment": {
+                            "header": "Kamusta {name}, natanggap na ang iyong bayad",
+                            "body": "Salamat sa pag-subscribe sa {product}. Gawin ang iyong kampanya ngayon at gamitin ang mga espesyal na tampok nito!"
+                        },
+                        "exp_day": {
+                            "header": "Kamusta {name}, ang iyong subscription sa {product} ay nag-expire na",
+                            "body": "Paki-update ang iyong impormasyon sa pagsingil bago ang {date_plus_7} upang patuloy na ma-access ang analytics ng iyong kampanya."
+                        },
+                        "plus_2": {
+                            "header": "Kumusta {name}, matatapos ang iyong subscription sa loob ng 48 oras",
+                            "body": "Paki-update ang iyong card sa pagbabayad upang mapanatili ang access sa analytics ng iyong kampanya."
+                        },
+                        "plus_5": {
+                            "header": "Kumusta {name}, ang iyong account ay nag-downgrade sa Twibbonize Free",
+                            "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng {product} ."
+                        },
+                        "convert_addon": {
+                            "body": "Binabati kita! Isa ka na ngayong Premium Creator. Tangkilikin ang lahat ng mga tampok ngayon!",
+                            "header": "Kamusta {name}, ang iyong account ay na-upgrade sa Premium Creator"
+                        }
+                    },
+                    "auth": {
+                        "exp_day": {
+                            "header": "Kumusta {name}, ang iyong paraan ng pagbabayad ay nangangailangan ng pagpapatunay",
+                            "body": "Pakikumpirma ang iyong pagpapatotoo sa pagbabayad upang makumpleto ang iyong subscription ngayon."
+                        }
+                    },
+                    "renewed_plan": {
+                        "header": "Kamusta {name}, nakumpirma na ang iyong renewal payment",
+                        "body": "Ngayon, maaari mong patuloy na tangkilikin ang mga eksklusibong feature!"
+                    },
+                    "downgrade_received": {
+                        "header": "Kamusta {name}, natanggap na ang iyong kahilingan sa pag-downgrade",
+                        "body": "Ida-downgrade ang iyong account sa {product} sa pagtatapos ng iyong yugto ng pagsingil."
+                    },
+                    "supporter": {
+                        "convert": {
+                            "header": "Kamusta {name} , Ang iyong account ay na-upgrade sa Premium Supporter",
+                            "body": "Binabati kita! Isa ka na ngayong Premium Supporter. Tangkilikin ang lahat ng mga tampok ngayon!"
+                        },
+                        "successful_payment": {
+                            "body": "",
+                            "header": "Kumusta {name}, matagumpay naming natanggap ang iyong bayad"
+                        },
+                        "min_3": {
+                            "body": ""
+                        },
+                        "successful": {
+                            "body": "Salamat sa pag-subscribe sa {product}. Ngayon, maaari kang makakuha ng Twibbon nang walang mga watermark at isang walang ad na karanasan!"
+                        },
+                        "exp_day": {
+                            "header": "Kamusta {name}, hindi natuloy ang iyong pagbabayad",
+                            "body": "Paki-update ang iyong impormasyon sa pagsingil bago ang {date_plus_7} para ma-enjoy ang mga eksklusibong feature, pag-browse na walang ad at Twibbon na walang watermark."
+                        },
+                        "plus_2": {
+                            "header": "Kumusta {name}, matatapos ang iyong subscription sa loob ng 48 oras",
+                            "body": "I-renew ang iyong plano ngayon para ma-enjoy ang Twibbons na walang watermark at isang karanasang walang ad."
+                        },
+                        "plus_7": {
+                            "header": "Kumusta {name}, ang iyong account ay nag-downgrade sa Twibbonize Free"
+                        },
+                        "canceled": {
+                            "exp_day": {
+                                "header": "Kumusta {name}, ang iyong account ay nag-downgrade sa Twibbonize Free",
+                                "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng {product} ."
+                            }
+                        },
+                        "plus_5": {
+                            "header": "Kumusta {name}, ang iyong account ay nag-downgrade sa Twibbonize Free",
+                            "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng {product} ."
+                        }
+                    },
+                    "period_changed": {
+                        "header": "Kamusta {name}, natanggap namin ang iyong kahilingan na baguhin ang iyong plano",
+                        "body": "Ang iyong account ay gagawing {product} sa pagtatapos ng iyong yugto ng pagsingil."
+                    },
+                    "cancel_change_period": {
+                        "header": "Kamusta {name}, natanggap namin ang iyong kahilingan na kanselahin ang pagbabago ng plano",
+                        "body": "Magpapatuloy ang iyong subscription bilang Premium Creator."
+                    }
+                },
+                "india": {
+                    "auth": {
+                        "exp_day": {
+                            "header": "Kumusta {name}, mangyaring kumpirmahin ang iyong pagbabayad para sa subscription ngayon",
+                            "body": "Upang matiyak ang pagsunod sa mga regulasyon sa seguridad, kailangan namin ang iyong tahasang kumpirmasyon para sa iyong umuulit na pagbabayad sa iyong subscription sa Twibbonize."
+                        }
+                    }
+                },
+                "supporter": {
+                    "successful_payment": {
+                        "body": "Ngayon, maaari kang makakuha ng Twibbon nang walang mga watermark at isang walang ad na karanasan!",
+                        "header": "Kamusta {name}, natanggap na ang iyong bayad"
+                    },
+                    "exp_day": {
+                        "body": "I-renew o i-upgrade ang iyong subscription bago {date_plus_7} upang patuloy na ma-enjoy ang mga eksklusibong feature, pag-browse na walang ad at Twibbon na walang watermark.",
+                        "header": "Kamusta {name}, ang iyong subscription sa {product} ay nag-expire na"
+                    },
+                    "plus_5": {
+                        "body": "I-renew ang iyong plano sa loob ng 48 oras para patuloy na ma-enjoy ang Twibbon na walang watermark at isang karanasang walang ad.",
+                        "header": "Kumusta {name}, matatapos ang iyong subscription sa loob ng 48 oras"
+                    },
+                    "min_3": {
+                        "body": "I-renew o i-upgrade ang iyong subscription ngayon para patuloy na ma-enjoy ang pag-browse na walang ad at Twibbons na walang watermark.",
+                        "header": "Kumusta {name}, ang iyong {product} ay mag-e-expire sa loob ng 3 araw"
+                    },
+                    "plus_7": {
+                        "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng {product} ."
+                    }
+                }
+            },
+            "launch": {
+                "prem_sub": {
+                    "min_1": {
+                        "header": "Bagong Twibbonize Premium Subscription",
+                        "body": "Ipinapakilala ang Mga Bagong Premium na Subscription ng Twibbonize - Ilulunsad sa Hulyo 8!"
+                    }
+                },
+                "short_link": {
+                    "min_1": {
+                        "header": "Bagong Twibbonize Maikling Link",
+                        "body": "Ipinapakilala ang Bagong Maikling Link ng Twibbonize - Pagbabago sa Hulyo 8!"
+                    }
+                }
+            },
+            "campaign_addon": {
+                "adfree_quota_remaining": {
+                    "header": "Ang natitirang quota na walang ad",
+                    "body": "Mayroon kang natitirang quota na walang ad para sa 50 tagasuporta sa {campaignlink}. Mag-enjoy ng karanasang walang ad habang tumatagal!"
+                },
+                "adfree_quota_runout": {
+                    "header": "Naubos na ang quota na walang ad",
+                    "body": "Magsisimulang makakita ng mga ad ang iyong {campaignlink} na mga tagasuporta habang nagba-browse sa aming platform."
+                }
+            },
+            "new_post": {
+                "header": "Bagong Twibbon ang nai-post",
+                "body": "Nag-post {participant} ng Twibbon sa gallery ng iyong kampanya {title}!"
+            },
+            "new_comment": {
+                "header": "Bagong komento!",
+                "body": "Nagkomento si {participant} sa iyong post sa kampanya {title}!"
+            },
+            "new_reply": {
+                "header": "Bagong sagot!",
+                "body": "Nagkomento {participant} sa iyong komento sa kampanya {title}!"
+            }
         }
     },
     "page_analytics": {
@@ -1566,6 +1860,7 @@
             "letter_spacing": "Espasyo ng titik",
             "line_spacing": "Line Spacing",
             "border_weight": "Timbang ng Border",
+            "corner_rounding": "Corner Rounding",
             "align": "I-align",
             "effects": "Epekto"
         },
@@ -1664,6 +1959,7 @@
     },
     "page_login_app": {
         "failed_google_login": "Nabigong magsagawa ng pag-log in sa Google",
+        "failed_facebook_login": "Nabigong magsagawa ng pag-login sa Facebook",
         "failed_apple_login": "Nabigong magsagawa ng pag-log in sa Apple"
     },
     "error_messages": {
@@ -1705,10 +2001,10 @@
             "description_exceed_limit": "Lampas ang paglalarawan sa maximum na limitasyon ng character",
             "link_unavailable": "Ginagamit na ang link ng kampanya. Pumili ng isa pa",
             "link_criteria": "Ang link ng kampanya ay dapat alphanumeric at dash (-)",
+            "link_exceed_limit": "Lumampas ang link ng kampanya sa maximum na limitasyon ng character",
             "caption_exceed_limit": "Lampas sa maximum na limitasyon ng character ang template ng caption",
             "background_exceed_limit": "Lumampas ang background file sa maximum na laki na 5MB",
-            "photo_exceed_limit": "Ang file ng larawan ng thumbnail ay lumampas sa maximum na laki na 5MB",
-            "link_exceed_limit": "Lumampas ang link ng kampanya sa maximum na limitasyon ng character"
+            "photo_exceed_limit": "Ang file ng larawan ng thumbnail ay lumampas sa maximum na laki na 5MB"
         },
         "campaign_ edit": {
             "frame_file_exceed": "Lumampas ang frame file sa maximum na laki na 5MB",
