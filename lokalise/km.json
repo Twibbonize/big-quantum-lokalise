@@ -71,7 +71,8 @@
             "send": "ផ្ញើ",
             "more": "ច្រើនទៀត",
             "less": "តិច",
-            "submit": "ដាក់ស្នើ"
+            "submit": "ដាក់ស្នើ",
+            "get_started": "ចាប់ផ្តើម"
         },
         "time": {
             "week": "សប្តាហ៍",
@@ -85,7 +86,9 @@
         "campaign": {
             "campaigns": "យុទ្ធនាការ",
             "created": "បានបង្កើត",
-            "supporters": "អ្នកគាំទ្រ | អ្នកគាំទ្រ | អ្នកគាំទ្រ"
+            "supporters": {
+                "other": " អ្នកគាំទ្រ"
+            }
         },
         "collection": {
             "collections": "បណ្តុំ",
@@ -113,14 +116,18 @@
             "unhide_post": "ឈប់លាក់ប្រកាស"
         },
         "pricing": {
-            "creator_subscribe_to": "អ្នកបង្កើតនេះត្រូវបានជាវ",
+            "creator_subscribe_to": "អ្នកបង្កើតនេះជាវ ",
             "plan": "ផែនការ",
             "support_without_watermark": "ពួកគេអាចគាំទ្រយុទ្ធនាការណាមួយដោយគ្មាន watermark!",
             "all_supporters_without_watermark": "អ្នកអាចគាំទ្ររាល់យុទ្ធនាការរបស់អ្នកបង្កើតនេះដោយមិនចាំបាច់មាន watermark!"
         },
         "campaign_card": {
-            "a_month_ago": "មួយ​ខែមុន",
-            "a_day_ago": "មួយថ្ងៃមុន។"
+            "a_month_ago": {
+                "other": "មួយ​ខែមុន"
+            },
+            "a_day_ago": {
+                "other": "មួយថ្ងៃមុន។"
+            }
         },
         "search": {
             "searching": "កំពុងស្វែងរក..."
@@ -140,6 +147,9 @@
         "campaign_supporters": {
             "k": "ពាន់",
             "m": "លាន"
+        },
+        "about": {
+            "our_numbers_mn": ""
         }
     },
     "page_home": {
@@ -369,7 +379,7 @@
             "blur": "ព្រិលៗ",
             "shadow": "ស្រមោល",
             "twibbon_success": "បានទាញយក",
-            "write_your_caption": ""
+            "write_your_caption": "សរសេរ caption របស់អ្នក..."
         },
         "report": {
             "report_campaign": "រាយការណ៍យុទ្ធនាការ",
@@ -425,7 +435,7 @@
             "violent_graphic_content": "មាតិកាក្រាហ្វិកហឹង្សា",
             "harassment_cyberbullying": "ការបៀតបៀន និងការគំរាមកំហែងតាមអ៊ីនធឺណិត",
             "proactive_threatening_content": "ខ្លឹមសារបង្កហេតុ និងគំរាមកំហែង",
-            "statement": "គោលការណ៍ណែនាំសហគមន៍ Twibbonize ការពារភាពឯកជននៃអត្តសញ្ញាណរបស់អ្នករាយការណ៍.",
+            "statement": "គោលការណ៍សហគមន៍ Twibbonize ការពារសម្ងាត់អត្តសញ្ញាណរបស់អ្នករាយការណ៍។",
             "read_more_copy": "អាន​បន្ថែម",
             "please_select_one": "សូមជ្រើសរើសមួយ។",
             "write_a_message": "សរសេរសារ",
@@ -511,7 +521,6 @@
         },
         "checkout": {
             "upgrade_to": "ដំឡើង​កំណែ​ទៅ {plan}",
-            "gather_your_supports": "ប្រមូលផ្តុំអ្នកគាំទ្ររបស់អ្នក និងពង្រីកយុទ្ធនាការរបស់អ្នកជាមួយនឹងលក្ខណៈពិសេសផ្តាច់មុខរបស់យើង។",
             "billing_option": "ជម្រើសវិក្កយបត្រ",
             "details": "ព័ត៌មានលម្អិត",
             "user": "អ្នក​ប្រើ",
@@ -535,6 +544,9 @@
             "downgrade_active": "វានឹងសកម្មនៅពេលដែលការជាវបច្ចុប្បន្នរបស់អ្នកត្រូវបានបញ្ចប់",
             "back_to_plans": "ត្រឡប់មកវិញ"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "ប្រមូលផ្តុំអ្នកគាំទ្ររបស់អ្នក និងពង្រីកយុទ្ធនាការរបស់អ្នកជាមួយនឹងលក្ខណៈពិសេសផ្តាច់មុខរបស់យើង។"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +562,9 @@
             "ad_free_title": "ការផ្សាយពាណិជ្ជកម្មឥតគិតថ្លៃ",
             "campaign_addon": "យុទ្ធនាការ Addon",
             "on": "នៅលើ"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": "គាំទ្រយុទ្ធនាការយ៉ាងងាយស្រួលជាមួយនឹងអត្ថប្រយោជន៍ពិសេសរបស់យើង។"
         }
     },
     "page_collection": {
@@ -670,10 +685,15 @@
         "blank_design": {
             "suggested": "បានណែនាំ",
             "instagram_story": "រឿង Instagram",
-            "instagram_post": "ប្រកាស Instagram"
+            "instagram_post": "ប្រកាស Instagram",
+            "create_design_button": "បង្កើតការរចនា"
         },
         "frame_Editor": {
             "or_create_background": "ឬបង្កើតផ្ទៃខាងក្រោយរបស់អ្នកឥឡូវនេះ"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "តើអ្នកចង់បង្កើតអ្វី?",
+            "what_do_you_want_to_create_desc": "បន្ថែមភាពទាក់ទាញដល់ហ្គេមយុទ្ធនាការអនឡាញរបស់អ្នក មិនត្រឹមតែជាមួយនឹងស៊ុមប៉ុណ្ណោះទេ ប៉ុន្តែថែមទាំងមានប្រវត្តិច្នៃប្រឌិតផងដែរ។"
         }
     },
     "page_for_creators": {
@@ -716,8 +736,8 @@
             "spice_up": "បន្ថែមភាពទាក់ទាញដល់ហ្គេមយុទ្ធនាការអនឡាញរបស់អ្នក មិនត្រឹមតែជាមួយនឹងស៊ុមប៉ុណ្ណោះទេ ប៉ុន្តែថែមទាំងមានប្រវត្តិច្នៃប្រឌិតផងដែរ។",
             "the_og_twibbon": "Twibbon ដើម; ស៊ុមដែលដាក់នៅលើរូបភាពរបស់អ្នក។",
             "a_fresh_variation": "បំរែបំរួលថ្មីនៃ Twibbon ដែលដើរតួជាផ្ទៃខាងក្រោយនៃរូបភាពរបស់អ្នក។",
-            "frame_twibbon": "ស៊ុម Twibbon",
-            "backround_twibbon": "ផ្ទៃខាងក្រោយ Twibbon "
+            "frame_twibbon": "Twibbon ជាមួយស៊ុម",
+            "backround_twibbon": "Twibbon ជាមួយផ្ទៃខាងក្រោយ"
         },
         "tilt": {
             "get_it_ready": "រៀបចំវាគ្រប់ពេលជាមួយការស្ថាបនារបស់យើងនៅក្នុង Twibbon Editor",
@@ -788,6 +808,19 @@
         "honorary": {
             "honorary_mentions": "ការលើកសរសើរ",
             "significant_contributions": "អ្នកដែលបានចូលរួមចំណែកយ៉ាងសំខាន់ក្នុងការអភិវឌ្ឍន៍របស់យើង។"
+        },
+        "about": {
+            "fokker_bio_1": "",
+            "fokker_bio_2": "",
+            "bernino_bio_1": "",
+            "bernino_bio_2": "",
+            "mulqan_bio_1": "",
+            "mulqan_bio_2": "",
+            "aditya_bio_1": "",
+            "aditya_bio_2": "",
+            "farhan_bio_1": "",
+            "farhan_bio_2": "",
+            "dominick_bio_1": ""
         }
     },
     "page_pricing": {
@@ -873,10 +906,8 @@
             "ending_in": "{card} បញ្ចប់ដោយ {number}"
         },
         "bento": {
-            "campaign_analytics_1": "យុទ្ធនាការ",
-            "campaign_analytics_2": "វិភាគ",
-            "private_campaign_1": "ឯកជន",
-            "private_campaign_2": "យុទ្ធនាការ",
+            "campaign_analytics": "ការវិភាគយុទ្ធនាការ",
+            "private_campaign": "យុទ្ធនាការឯកជន",
             "campaign_customization_1": "យុទ្ធនាការ",
             "campaign_customization_2": "ការប្ដូរតាមបំណងនៃយុទ្ធនាការ",
             "multiple_frames_1": "ស៊ុមជាច្រើនក្នុងមួយយុទ្ធនាការ",
@@ -890,7 +921,8 @@
             "remove_own_watermark_1": "ដក​សញ្ញា​ទឹក​ចេញ",
             "on": "នៅលើ",
             "remove_own_watermark_2": "លុបរូបទឹកនៅលើគណនីផ្ទាល់ខ្លួនរបស់អ្នក។",
-            "extra_features": "លក្ខណៈពិសេសបន្ថែម"
+            "extra_features": "លក្ខណៈពិសេសបន្ថែម",
+            "campaign_customization": "ការប្ដូរតាមបំណងនៃយុទ្ធនាការ"
         },
         "modal": {
             "congratulation": "អបអរសាទរ!",
@@ -959,7 +991,9 @@
         },
         "my_profile": {
             "edit_profile": "កែសម្រួលប្រវត្តិរូប",
-            "campaigns": "យុទ្ធនាការ",
+            "campaigns": {
+                "other": "យុទ្ធនាការ"
+            },
             "collections": "បណ្តុំ",
             "posts": "ប្រកាស"
         },
@@ -1087,7 +1121,7 @@
             "old_password": "លេខសំងាត់​ចាស់",
             "new_password": "ពាក្យសម្ងាត់​ថ្មី",
             "update_password": "ធ្វើបច្ចុប្បន្នភាពពាក្យសម្ងាត់",
-            "social_media_connects": "ប្រព័ន្ធផ្សព្វផ្សាយសង្គមភ្ជាប់",
+            "social_media_connects": "ភ្ជាប់ជាមួយប្រព័ន្ធផ្សព្វផ្សាយសង្គម",
             "facebook": "Facebook",
             "google": "Google",
             "apple": "Apple",
@@ -1168,7 +1202,8 @@
             "read_stories": "អានរឿងពីក្រុមហ៊ុន និងអង្គការនានាដែលបានប្រើប្រាស់វេទិការបស់យើងដោយជោគជ័យសម្រាប់កម្មវិធីយុទ្ធនាការរបស់ពួកគេ។"
         },
         "bento": {
-            "read_success_story": "អានរឿងជោគជ័យរបស់ពួកគេ។"
+            "read_success_story": "អានរឿងជោគជ័យរបស់ពួកគេ។",
+            "more_success_stories": ""
         }
     },
     "page_use_cases": {
@@ -1456,7 +1491,9 @@
             "name": "ឈ្មោះ",
             "login_with_facebook": "ចូល​ជា​មួយ​ហ្វេ​ស​ប៊ុ​ក",
             "login_with_google": "ចូលជាមួយ Google",
-            "signin_with_email": "ឬចូលដោយប្រើអ៊ីមែល"
+            "signin_with_email": "ឬចូលដោយប្រើអ៊ីមែល",
+            "login_with_apple": "ចូលជាមួយ Apple",
+            "signup_with_apple": "ចុះឈ្មោះជាមួយ Apple"
         }
     },
     "page_article": {
@@ -1590,6 +1627,7 @@
             "letter_spacing": "គម្លាតអក្សរ",
             "line_spacing": "គម្លាតបន្ទាត់",
             "border_weight": "ទម្ងន់ព្រំដែន",
+            "corner_rounding": "ជ្រុងមូល",
             "align": "តម្រឹម",
             "effects": "ផលប៉ះពាល់"
         },
@@ -1669,7 +1707,7 @@
             "harassment": "ការយាយី",
             "terrorism": "ភេរវកម្ម",
             "violence": "អំពើហឹង្សា",
-            "false_information": "",
+            "false_information": "ព័ត៌មានមិនពិត",
             "health": "សុខភាព",
             "politics": "នយោបាយ",
             "social_issue": "បញ្ហាសង្គម",
@@ -1682,6 +1720,9 @@
             "religious_affiliation": "សម្ព័ន្ធភាពសាសនា ",
             "sexual_orientation": "ការតំរង់ទិសផ្លូវភេទ",
             "spam": "សារ​ឥត​បាន​ការ"
+        },
+        "general": {
+            "by_account_name": "ដោយ"
         }
     },
     "page_campaign_creation": {
@@ -1691,6 +1732,7 @@
     },
     "page_login_app": {
         "failed_google_login": "បរាជ័យក្នុងការអនុវត្តការចូល Google",
+        "failed_facebook_login": "បរាជ័យ​ក្នុង​ការ​ចូល​ Facebook",
         "failed_apple_login": "បរាជ័យក្នុងការអនុវត្តការចូល Apple"
     },
     "error_messages": {

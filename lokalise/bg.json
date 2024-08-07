@@ -71,7 +71,8 @@
             "send": "Изпратете",
             "more": "| Повече ▼",
             "less": "По-малко",
-            "submit": "Изпращане"
+            "submit": "Изпращане",
+            "get_started": "Започнете"
         },
         "time": {
             "week": "Седмица",
@@ -85,7 +86,10 @@
         "campaign": {
             "campaigns": "Кампании",
             "created": "Създаден",
-            "supporters": "поддръжник|поддръжник|привърженици"
+            "supporters": {
+                "one": "поддръжник",
+                "other": "привърженици"
+            }
         },
         "collection": {
             "collections": "Колекции",
@@ -113,14 +117,20 @@
             "unhide_post": "Показване на публикацията"
         },
         "pricing": {
-            "creator_subscribe_to": "Този създател е абониран за",
+            "creator_subscribe_to": "Този създател се абонира за ",
             "plan": "план",
             "support_without_watermark": "Те могат да поддържат всяка кампания без воден знак!",
             "all_supporters_without_watermark": "Можете да подкрепите цялата кампания на този Създател без водния знак!"
         },
         "campaign_card": {
-            "a_month_ago": " |Преди месец",
-            "a_day_ago": " |Преди ден"
+            "a_month_ago": {
+                "one": "",
+                "other": "Преди месец"
+            },
+            "a_day_ago": {
+                "one": "",
+                "other": "Преди ден"
+            }
         },
         "search": {
             "searching": "Търсене..."
@@ -140,6 +150,9 @@
         "campaign_supporters": {
             "k": "хил.",
             "m": "мил."
+        },
+        "about": {
+            "our_numbers_mn": ""
         }
     },
     "page_home": {
@@ -369,7 +382,7 @@
             "blur": "Размазване",
             "shadow": "Сянка",
             "twibbon_success": "Изтеглени",
-            "write_your_caption": ""
+            "write_your_caption": "Напишете своя надпис..."
         },
         "report": {
             "report_campaign": "Отчет за кампанията",
@@ -425,7 +438,7 @@
             "violent_graphic_content": "Насилствено графично съдържание",
             "harassment_cyberbullying": "Тормоз и кибертормоз",
             "proactive_threatening_content": "Провокативно и заплашително съдържание",
-            "statement": "Насоките на общността на Twibbonize защитават неприкосновеността на личността на репортера.",
+            "statement": "Насоките на общността на Twibbonize защитават поверителността на самоличността на докладващия.",
             "read_more_copy": "Прочетете повече",
             "please_select_one": "Моля, изберете един",
             "write_a_message": "Напишете съобщение",
@@ -511,7 +524,6 @@
         },
         "checkout": {
             "upgrade_to": "Надграждане до {plan}",
-            "gather_your_supports": "Съберете поддръжници и увеличете мащаба на кампанията си с нашите ексклузивни функции",
             "billing_option": "Опция за фактуриране",
             "details": "Подробности",
             "user": "Потребител",
@@ -535,6 +547,9 @@
             "downgrade_active": "Той ще бъде активен, след като текущият ви абонамент приключи",
             "back_to_plans": "обратно"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "Съберете поддръжници и увеличете мащаба на кампанията си с нашите ексклузивни функции"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +565,9 @@
             "ad_free_title": "Без реклами",
             "campaign_addon": "Добавка на кампанията",
             "on": "На"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": "Подкрепете удобно кампаниите с нашите специални предимства"
         }
     },
     "page_collection": {
@@ -670,10 +688,15 @@
         "blank_design": {
             "suggested": "Предложен",
             "instagram_story": "История на Instagram",
-            "instagram_post": "Публикация в Instagram"
+            "instagram_post": "Публикация в Instagram",
+            "create_design_button": "Създаване на дизайн"
         },
         "frame_Editor": {
             "or_create_background": "или създайте своя фон сега"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "Какво искате да създадете?",
+            "what_do_you_want_to_create_desc": "Разнообразете играта на онлайн кампанията си не само с рамка, но и с творчески фонове"
         }
     },
     "page_for_creators": {
@@ -716,8 +739,8 @@
             "spice_up": "Разнообразете играта на онлайн кампанията си не само с рамка, но и с творчески фонове",
             "the_og_twibbon": "Оригиналният Twibbon - рамка, която се поставя върху снимката ви",
             "a_fresh_variation": "Свежа разновидност на Twibbon, която представлява фон на вашата снимка",
-            "frame_twibbon": "Рамка Twibbon",
-            "backround_twibbon": "Фонова лента Twibbon "
+            "frame_twibbon": "Twibbon с рамка",
+            "backround_twibbon": "Twibbon с фон"
         },
         "tilt": {
             "get_it_ready": "Подгответе я по всяко време с вградения Twibbon Editor",
@@ -788,6 +811,19 @@
         "honorary": {
             "honorary_mentions": "Почетни отличия",
             "significant_contributions": "Тези, които имат значителен принос за нашето развитие"
+        },
+        "about": {
+            "fokker_bio_1": "",
+            "fokker_bio_2": "",
+            "bernino_bio_1": "",
+            "bernino_bio_2": "",
+            "mulqan_bio_1": "",
+            "mulqan_bio_2": "",
+            "aditya_bio_1": "",
+            "aditya_bio_2": "",
+            "farhan_bio_1": "",
+            "farhan_bio_2": "",
+            "dominick_bio_1": ""
         }
     },
     "page_pricing": {
@@ -873,10 +909,8 @@
             "ending_in": "{card} завършваща на {number}"
         },
         "bento": {
-            "campaign_analytics_1": "Кампания",
-            "campaign_analytics_2": "Анализ",
-            "private_campaign_1": "Частна",
-            "private_campaign_2": "Кампания",
+            "campaign_analytics": "Анализ на кампанията",
+            "private_campaign": "Частна кампания",
             "campaign_customization_1": "Персонализиране на",
             "campaign_customization_2": "кампанията",
             "multiple_frames_1": "Няколко рамки",
@@ -890,7 +924,8 @@
             "remove_own_watermark_1": "Премахване на водния знак",
             "on": "от",
             "remove_own_watermark_2": "собствения ви акаунт",
-            "extra_features": "Допълнителни функции"
+            "extra_features": "Допълнителни функции",
+            "campaign_customization": "Персонализиране на кампанията"
         },
         "modal": {
             "congratulation": "Поздравления!",
@@ -959,7 +994,10 @@
         },
         "my_profile": {
             "edit_profile": "Редактиране на профила",
-            "campaigns": "Кампании",
+            "campaigns": {
+                "one": "Кампании",
+                "other": "Кампании"
+            },
             "collections": "Колекции",
             "posts": "Публикации"
         },
@@ -1087,7 +1125,7 @@
             "old_password": "Стара парола",
             "new_password": "Нова парола",
             "update_password": "Актуализиране на паролата",
-            "social_media_connects": "Социалните медии свързват",
+            "social_media_connects": "Свържете се със социални медии",
             "facebook": "Facebook",
             "google": "Google",
             "apple": "Apple",
@@ -1097,7 +1135,7 @@
             "update_email_button": "Актуализиране на имейл",
             "not_connected": "Не е свързан",
             "deleting_account": "Изтриване на акаунт",
-            "permanent_delete": "Вашият акаунт, кампании и дейности в Twibbonize ще бъдат изтрити окончателно.",
+            "permanent_delete": "Вашият акаунт, кампании, и дейности в Twibbonize ще бъдат изтрити окончателно.",
             "type_to_confirm": "Въведете {username}, за да потвърдите",
             "input_password": "Въведете паролата тук",
             "for_security_input_password": "От съображения за сигурност, моля, въведете парола",
@@ -1127,18 +1165,18 @@
             "email": "Имейл",
             "push": "Push",
             "campaign_milestone": "Крайъгълен камък на кампанията",
-            "milestone_details": "Ще бъдете уведомявани за всеки напредък в постигането на целите на кампанията.",
+            "milestone_details": "Ще бъдете уведомявани за всеки напредък в постигането на целите на кампанията",
             "comment": "Коментар:",
-            "comment_details": "Получаване на известия за коментар на поддръжник на страницата на кампанията.",
+            "comment_details": "Получаване на известия за коментар на поддръжник на страницата на кампанията",
             "trending_campaign": "Тенденции в кампанията",
-            "trending_details": "Получавайте известия за най-актуалните кампании във вашия регион.",
+            "trending_details": "Получавайте известия за най-актуалните кампании във вашия регион",
             "whats_new": "Какво е новото",
-            "whats_new_details": "Получете най-новата актуализация на нашия продукт във версията за уеб и приложението.",
+            "whats_new_details": "Получете най-новата актуализация на нашия продукт във версията за уеб и приложението",
             "article": "Статии",
-            "article_details": "Ще получите нашите препоръчани статии.",
+            "article_details": "Ще получите нашите препоръчани статии",
             "toggle_all": "Всички",
             "post_twibbonize": "Публикувайте в Twibbonize",
-            "post_twibbonize_details": "Получавайте известия за публикация на поддръжник на страница на кампания.",
+            "post_twibbonize_details": "Получавайте известия за публикация на поддръжник на страница на кампания",
             "account_recap": "Резюме на акаунта",
             "account_recap_details": "Седмичен преглед на поддръжниците и посещенията за всички ваши кампании"
         },
@@ -1168,7 +1206,8 @@
             "read_stories": "Прочетете историите на компании и организации, които успешно са използвали нашата платформа за своите програми за кампании"
         },
         "bento": {
-            "read_success_story": "Прочетете историята на техния успех"
+            "read_success_story": "Прочетете историята на техния успех",
+            "more_success_stories": ""
         }
     },
     "page_use_cases": {
@@ -1456,7 +1495,9 @@
             "name": "Име",
             "login_with_facebook": "Влезте с Facebook",
             "login_with_google": "Влезте с Google",
-            "signin_with_email": "или влезте с имейл"
+            "signin_with_email": "или влезте с имейл",
+            "login_with_apple": "Влезте в профила си с Apple",
+            "signup_with_apple": "Регистрирайте се в Apple"
         }
     },
     "page_article": {
@@ -1590,6 +1631,7 @@
             "letter_spacing": "Разстояние между буквите",
             "line_spacing": "Разстояние между редовете",
             "border_weight": "Тегло на границата",
+            "corner_rounding": "Заобляне на ъгли",
             "align": "Подравняване",
             "effects": "Ефекти"
         },
@@ -1669,7 +1711,7 @@
             "harassment": "Тормоз",
             "terrorism": "Тероризъм",
             "violence": "Насилие",
-            "false_information": "",
+            "false_information": "Невярна информация",
             "health": "Здраве",
             "politics": "Политика",
             "social_issue": "Социален проблем",
@@ -1682,6 +1724,9 @@
             "religious_affiliation": "Религиозна принадлежност ",
             "sexual_orientation": "Сексуална ориентация",
             "spam": "Спам"
+        },
+        "general": {
+            "by_account_name": "от"
         }
     },
     "page_campaign_creation": {
@@ -1691,6 +1736,7 @@
     },
     "page_login_app": {
         "failed_google_login": "Не успя да извърши влизане в Google",
+        "failed_facebook_login": "Не успя да извърши влизане във Facebook",
         "failed_apple_login": "Не успя да извърши влизане в Apple"
     },
     "error_messages": {

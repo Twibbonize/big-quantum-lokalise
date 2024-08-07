@@ -71,7 +71,8 @@
             "send": "يرسل",
             "more": "أكثر",
             "less": "أقل",
-            "submit": "يُقدِّم"
+            "submit": "يُقدِّم",
+            "get_started": "ابدأ الآن"
         },
         "time": {
             "week": "الأسبوع",
@@ -85,7 +86,14 @@
         "campaign": {
             "campaigns": "الحملات",
             "created": "تم إنشاؤها",
-            "supporters": "مؤيد|مؤيد|مؤيدون"
+            "supporters": {
+                "zero": "مؤيد",
+                "one": "مؤيد",
+                "two": "مؤيد",
+                "few": "مؤيدون",
+                "many": "مؤيدون",
+                "other": "مؤيدون"
+            }
         },
         "collection": {
             "collections": "المجموعات",
@@ -113,14 +121,28 @@
             "unhide_post": "إظهار المشاركة"
         },
         "pricing": {
-            "creator_subscribe_to": "هذا الخالق مشترك في",
+            "creator_subscribe_to": "هذا الخالق يشترك في ",
             "plan": "يخطط",
             "support_without_watermark": "يمكنهم دعم أي حملة بدون العلامة المائية!",
             "all_supporters_without_watermark": "يمكنك دعم جميع حملات منشئ المحتوى هذه بدون العلامة المائية!"
         },
         "campaign_card": {
-            "a_month_ago": " | | | | |قبل شهر",
-            "a_day_ago": " | | | | |منذ يوم واحد"
+            "a_month_ago": {
+                "zero": "",
+                "one": "",
+                "two": "",
+                "few": "",
+                "many": "",
+                "other": "قبل شهر"
+            },
+            "a_day_ago": {
+                "zero": "",
+                "one": "",
+                "two": "",
+                "few": "",
+                "many": "",
+                "other": "منذ يوم واحد"
+            }
         },
         "search": {
             "searching": "يبحث..."
@@ -140,6 +162,9 @@
         "campaign_supporters": {
             "k": "الف",
             "m": "مليون"
+        },
+        "about": {
+            "our_numbers_mn": ""
         }
     },
     "page_home": {
@@ -369,7 +394,7 @@
             "blur": "الضبابية",
             "shadow": "الظل",
             "twibbon_success": "تم التحميل",
-            "write_your_caption": ""
+            "write_your_caption": "اكتب عنوانك..."
         },
         "report": {
             "report_campaign": "تقرير الحملة",
@@ -425,7 +450,7 @@
             "violent_graphic_content": "محتوى رسومي عنيف",
             "harassment_cyberbullying": "التحرش والتسلط عبر الإنترنت",
             "proactive_threatening_content": "محتوى استفزازي وتهديدي",
-            "statement": "إرشادات مجتمع تويبونايز تحمي خصوصية هوية المراسلين..",
+            "statement": "تحمي إرشادات مجتمع Twibbonize خصوصية هوية المراسل.",
             "read_more_copy": "قراءة المزيد",
             "please_select_one": "يرجى اختيار واحد",
             "write_a_message": "اكتب رسالة",
@@ -511,7 +536,6 @@
         },
         "checkout": {
             "upgrade_to": "الترقية إلى {plan}",
-            "gather_your_supports": "اجمع داعميك ووسِّع نطاق حملتك من خلال ميزاتنا الحصرية",
             "billing_option": "خيار الفوترة",
             "details": "التفاصيل",
             "user": "المستخدم",
@@ -535,6 +559,9 @@
             "downgrade_active": "سيكون نشطًا بمجرد انتهاء اشتراكك الحالي",
             "back_to_plans": "خلف"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "اجمع داعميك ووسِّع نطاق حملتك من خلال ميزاتنا الحصرية"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +577,9 @@
             "ad_free_title": "إعلان مجاني",
             "campaign_addon": "ملحق الحملة",
             "on": "على"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": "دعم الحملات بشكل ملائم من خلال مزايانا الخاصة"
         }
     },
     "page_collection": {
@@ -670,10 +700,15 @@
         "blank_design": {
             "suggested": "مقترح",
             "instagram_story": "قصة انستقرام",
-            "instagram_post": "منشور على إنستجرام"
+            "instagram_post": "منشور على إنستجرام",
+            "create_design_button": "إنشاء التصميم"
         },
         "frame_Editor": {
             "or_create_background": "أو أنشئ خلفيتك الآن"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "ماذا تريد أن تصنع؟",
+            "what_do_you_want_to_create_desc": "قم بإضفاء الإثارة على حملتك على الإنترنت، ليس فقط بإطار، ولكن أيضًا بخلفيات إبداعية"
         }
     },
     "page_for_creators": {
@@ -716,8 +751,8 @@
             "spice_up": "قم بإضفاء الإثارة على حملتك على الإنترنت، ليس فقط بإطار، ولكن أيضًا بخلفيات إبداعية",
             "the_og_twibbon": "التويببون الأصلي؛ إطار يوضع على صورتك",
             "a_fresh_variation": "شكل جديد من تويبون يشكل خلفية لصورتك",
-            "frame_twibbon": "إطار تويبون",
-            "backround_twibbon": "تويبون الخلفية "
+            "frame_twibbon": "Twibbon إطار",
+            "backround_twibbon": "Twibbon خلفية"
         },
         "tilt": {
             "get_it_ready": "جهزها في أي وقت مع Twibbon Editor المدمج لدينا",
@@ -788,6 +823,19 @@
         "honorary": {
             "honorary_mentions": "التكريمات الفخرية",
             "significant_contributions": "أولئك الذين قدموا مساهمات كبيرة في تطورنا"
+        },
+        "about": {
+            "fokker_bio_1": "",
+            "fokker_bio_2": "",
+            "bernino_bio_1": "",
+            "bernino_bio_2": "",
+            "mulqan_bio_1": "",
+            "mulqan_bio_2": "",
+            "aditya_bio_1": "",
+            "aditya_bio_2": "",
+            "farhan_bio_1": "",
+            "farhan_bio_2": "",
+            "dominick_bio_1": ""
         }
     },
     "page_pricing": {
@@ -873,10 +921,8 @@
             "ending_in": "{card} تنتهي بـ {number}"
         },
         "bento": {
-            "campaign_analytics_1": "الحملة",
-            "campaign_analytics_2": "التحليلات",
-            "private_campaign_1": "خاص",
-            "private_campaign_2": "الحملة",
+            "campaign_analytics": "تحليلات الحملات",
+            "private_campaign": "حملة خاصة",
             "campaign_customization_1": "حملة",
             "campaign_customization_2": "تخصيص الحملة",
             "multiple_frames_1": "إطارات متعددة",
@@ -890,7 +936,8 @@
             "remove_own_watermark_1": "إزالة العلامة المائية",
             "on": "على",
             "remove_own_watermark_2": "حسابك",
-            "extra_features": "ميزات إضافية"
+            "extra_features": "ميزات إضافية",
+            "campaign_customization": "تخصيص الحملة"
         },
         "modal": {
             "congratulation": "تهانينا!",
@@ -959,7 +1006,14 @@
         },
         "my_profile": {
             "edit_profile": "تعديل الملف الشخصي",
-            "campaigns": "الحملات",
+            "campaigns": {
+                "zero": "الحملات",
+                "one": "الحملات",
+                "two": "الحملات",
+                "few": "الحملات",
+                "many": "الحملات",
+                "other": "الحملات"
+            },
             "collections": "المجموعات",
             "posts": "المنشورات"
         },
@@ -1087,7 +1141,7 @@
             "old_password": "كلمة المرور القديمة",
             "new_password": "كلمة مرور جديدة",
             "update_password": "تحديث كلمة المرور",
-            "social_media_connects": "روابط وسائل التواصل الاجتماعي",
+            "social_media_connects": "تواصل مع وسائل التواصل الاجتماعي",
             "facebook": "Facebook",
             "google": "Google",
             "apple": "Apple",
@@ -1127,18 +1181,18 @@
             "email": "البريد الإلكتروني",
             "push": "Push",
             "campaign_milestone": "معالم الحملة",
-            "milestone_details": "سيتم إعلامك بكل تقدم تحرزه في إنجاز الحملة.",
+            "milestone_details": "سيتم إعلامك بكل تقدم تحرزه في إنجاز الحملة",
             "comment": "تعليق",
-            "comment_details": "احصل على إشعارات بتعليقات الداعمين على صفحة الحملة.",
+            "comment_details": "احصل على إشعارات بتعليقات الداعمين على صفحة الحملة",
             "trending_campaign": "الحملة الرائجة",
-            "trending_details": "احصل على إشعارات حول الحملات الرائجة في منطقتك.",
+            "trending_details": "احصل على إشعارات حول الحملات الرائجة في منطقتك",
             "whats_new": "ما الجديد",
-            "whats_new_details": "احصل على آخر تحديث لمنتجنا على الويب وإصدار التطبيق.",
+            "whats_new_details": "احصل على آخر تحديث لمنتجنا على الويب وإصدار التطبيق",
             "article": "المقالات",
-            "article_details": "ستتلقى مقالاتنا الموصى بها.",
+            "article_details": "ستتلقى مقالاتنا الموصى بها",
             "toggle_all": "الكل",
             "post_twibbonize": "انشر على Twibbonize",
-            "post_twibbonize_details": "احصل على إشعارات حول مشاركة الداعم على صفحة الحملة.",
+            "post_twibbonize_details": "احصل على إشعارات حول مشاركة الداعم على صفحة الحملة",
             "account_recap": "خلاصة الحساب",
             "account_recap_details": "ملخص أسبوعي للداعمين والزيارات لجميع حملاتك"
         },
@@ -1168,7 +1222,8 @@
             "read_stories": "اقرأ قصصاً من الشركات والمؤسسات التي استخدمت منصتنا بنجاح في برامج حملاتها"
         },
         "bento": {
-            "read_success_story": "اقرأ قصة نجاحهم"
+            "read_success_story": "اقرأ قصة نجاحهم",
+            "more_success_stories": ""
         }
     },
     "page_use_cases": {
@@ -1456,7 +1511,9 @@
             "name": "الاسم",
             "login_with_facebook": "تسجيل الدخول باستخدام الفيسبوك",
             "login_with_google": "تسجيل الدخول عبر جوجل",
-            "signin_with_email": "أو تسجيل الدخول بالبريد الإلكتروني"
+            "signin_with_email": "أو تسجيل الدخول بالبريد الإلكتروني",
+            "login_with_apple": "تسجيل الدخول باستخدام Apple",
+            "signup_with_apple": "اشترك مع Apple"
         }
     },
     "page_article": {
@@ -1590,6 +1647,7 @@
             "letter_spacing": "تباعد الحروف",
             "line_spacing": "تباعد الأسطر",
             "border_weight": "وزن الحدود",
+            "corner_rounding": "تقريب الزاوية",
             "align": "محاذاة",
             "effects": "المؤثرات"
         },
@@ -1669,7 +1727,7 @@
             "harassment": "التحرش",
             "terrorism": "الإرهاب",
             "violence": "العنف",
-            "false_information": "",
+            "false_information": "معلومات خاطئة",
             "health": "الصحة",
             "politics": "السياسة",
             "social_issue": "القضية الاجتماعية",
@@ -1682,6 +1740,9 @@
             "religious_affiliation": "الانتماء الديني ",
             "sexual_orientation": "التوجه الجنسي",
             "spam": "الرسائل غير المرغوب فيها"
+        },
+        "general": {
+            "by_account_name": "بواسطة"
         }
     },
     "page_campaign_creation": {
@@ -1691,6 +1752,7 @@
     },
     "page_login_app": {
         "failed_google_login": "فشل في إجراء تسجيل الدخول إلى Google",
+        "failed_facebook_login": "فشل في إجراء تسجيل الدخول إلى فيسبوك",
         "failed_apple_login": "فشل في إجراء تسجيل الدخول إلى Apple"
     },
     "error_messages": {

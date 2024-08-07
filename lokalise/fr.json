@@ -71,7 +71,8 @@
             "send": "Envoyer",
             "more": "Plus",
             "less": "Moins",
-            "submit": "Soumettre"
+            "submit": "Soumettre",
+            "get_started": "Commencer"
         },
         "time": {
             "week": "Semaine",
@@ -85,7 +86,10 @@
         "campaign": {
             "campaigns": "Campagnes",
             "created": "Créée",
-            "supporters": "partisan|partisan|partisans"
+            "supporters": {
+                "one": "partisan",
+                "other": "partisans"
+            }
         },
         "collection": {
             "collections": "Collections",
@@ -113,14 +117,20 @@
             "unhide_post": "Afficher la publication"
         },
         "pricing": {
-            "creator_subscribe_to": "Ce créateur est abonné au",
+            "creator_subscribe_to": "Ce créateur est abonné à ",
             "plan": "plan",
             "support_without_watermark": "Ils peuvent soutenir n’importe quelle campagne sans filigrane !",
             "all_supporters_without_watermark": "Vous pouvez soutenir toute la campagne de ce créateur sans filigrane !"
         },
         "campaign_card": {
-            "a_month_ago": " |Il y a un mois",
-            "a_day_ago": " |Il y a un jour"
+            "a_month_ago": {
+                "one": "",
+                "other": "Il y a un mois"
+            },
+            "a_day_ago": {
+                "one": "",
+                "other": "Il y a un jour"
+            }
         },
         "search": {
             "searching": "Recherche..."
@@ -140,6 +150,9 @@
         "campaign_supporters": {
             "k": "mil.",
             "m": "M"
+        },
+        "about": {
+            "our_numbers_mn": ""
         }
     },
     "page_home": {
@@ -349,7 +362,7 @@
             "processing": "Traitement",
             "buy_premium": "Acheter Premium",
             "skip_the_ads": "Sauter les publicités et télécharger instantanément",
-            "upgrade_to_premium_from": "Passez à la version premium à partir de {price} par semaine !",
+            "upgrade_to_premium_from": "Passez à la version Premium à partir de {price} par semaine !",
             "filter": "Filtre",
             "more_like_this": "Plus comme ça",
             "enter_your_text": "Saisissez votre texte",
@@ -369,7 +382,7 @@
             "blur": "Flou",
             "shadow": "Ombre",
             "twibbon_success": "Téléchargé",
-            "write_your_caption": ""
+            "write_your_caption": "Écrivez votre légende..."
         },
         "report": {
             "report_campaign": "Campagne de rapport",
@@ -425,7 +438,7 @@
             "violent_graphic_content": "Contenu graphique violent",
             "harassment_cyberbullying": "Harcèlement et cyberintimidation",
             "proactive_threatening_content": "Contenu provocateur et menaçant",
-            "statement": "Les directives communautaires de Twibbonize protègent la confidentialité de l'identité des journalistes.",
+            "statement": "Les lignes directrices de la communauté Twibbonize protègent la confidentialité de l'identité du rapporteur.",
             "read_more_copy": "Lire la suite",
             "please_select_one": "Veuillez sélectionner une option",
             "write_a_message": "Rédiger un message",
@@ -511,7 +524,6 @@
         },
         "checkout": {
             "upgrade_to": "Passer à {plan}",
-            "gather_your_supports": "Rassemblez vos sympathisants et développez votre campagne grâce à nos fonctionnalités exclusives",
             "billing_option": "Option de facturation",
             "details": "Détails",
             "user": "Utilisateur",
@@ -535,6 +547,9 @@
             "downgrade_active": "Il sera actif une fois votre abonnement actuel terminé",
             "back_to_plans": "Dos"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "Rassemblez vos sympathisants et développez votre campagne grâce à nos fonctionnalités exclusives"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +565,9 @@
             "ad_free_title": "Sans publicité",
             "campaign_addon": "Module complémentaire de campagne",
             "on": "sur"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": "Soutenez vos campagnes en toute simplicité grâce à nos avantages spéciaux"
         }
     },
     "page_collection": {
@@ -670,10 +688,15 @@
         "blank_design": {
             "suggested": "Suggéré",
             "instagram_story": "Histoire d'Instagram",
-            "instagram_post": "Poste Instagram"
+            "instagram_post": "Poste Instagram",
+            "create_design_button": "Créer un design"
         },
         "frame_Editor": {
             "or_create_background": "ou créez votre arrière-plan maintenant"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "Que voulez-vous créer ?",
+            "what_do_you_want_to_create_desc": "Ajoutez du piquant à votre campagne en ligne, non seulement avec un cadre, mais aussi avec des arrière-plans créatifs."
         }
     },
     "page_for_creators": {
@@ -716,8 +739,8 @@
             "spice_up": "Ajoutez du piquant à votre campagne en ligne, non seulement avec un cadre, mais aussi avec des arrière-plans créatifs.",
             "the_og_twibbon": "Le Twibbon original ; un cadre qui se place sur votre photo",
             "a_fresh_variation": "Une nouvelle variante de Twibbon qui se présente comme l'arrière-plan de votre photo",
-            "frame_twibbon": "Cadre Twibbon",
-            "backround_twibbon": "Ruban de fond "
+            "frame_twibbon": "Twibbon avec cadre",
+            "backround_twibbon": "Twibbon avec fond"
         },
         "tilt": {
             "get_it_ready": "Préparez-le à tout moment avec notre Twibbon Editor intégré.",
@@ -788,6 +811,19 @@
         "honorary": {
             "honorary_mentions": "Mentions honorifiques",
             "significant_contributions": "Ceux qui ont apporté une contribution significative à notre développement"
+        },
+        "about": {
+            "fokker_bio_1": "",
+            "fokker_bio_2": "",
+            "bernino_bio_1": "",
+            "bernino_bio_2": "",
+            "mulqan_bio_1": "",
+            "mulqan_bio_2": "",
+            "aditya_bio_1": "",
+            "aditya_bio_2": "",
+            "farhan_bio_1": "",
+            "farhan_bio_2": "",
+            "dominick_bio_1": ""
         }
     },
     "page_pricing": {
@@ -873,10 +909,8 @@
             "ending_in": "{card} se terminant par {number}"
         },
         "bento": {
-            "campaign_analytics_1": "Campagne",
-            "campaign_analytics_2": "Analytiques",
-            "private_campaign_1": "Privé",
-            "private_campaign_2": "Campagne",
+            "campaign_analytics": "Analyse des campagnes",
+            "private_campaign": "Campagne privée",
             "campaign_customization_1": "Personnalisation",
             "campaign_customization_2": "de la campagne",
             "multiple_frames_1": "Plusieurs cadres",
@@ -890,7 +924,8 @@
             "remove_own_watermark_1": "Supprimer le filigrane",
             "on": "sur",
             "remove_own_watermark_2": "votre propre compte",
-            "extra_features": "Caractéristiques supplémentaires"
+            "extra_features": "Caractéristiques supplémentaires",
+            "campaign_customization": "Personnalisation de la campagne"
         },
         "modal": {
             "congratulation": "Félicitations !",
@@ -959,7 +994,10 @@
         },
         "my_profile": {
             "edit_profile": "Modifier le profil",
-            "campaigns": "Campagnes",
+            "campaigns": {
+                "one": "Campagne",
+                "other": "Campagnes"
+            },
             "collections": "Collections",
             "posts": "Postes"
         },
@@ -1087,7 +1125,7 @@
             "old_password": "Ancien mot de passe",
             "new_password": "Nouveau mot de passe",
             "update_password": "Mise à jour du mot de passe",
-            "social_media_connects": "Les médias sociaux connectent",
+            "social_media_connects": "Connectez-vous avec les médias sociaux",
             "facebook": "Facebook",
             "google": "Google",
             "apple": "Apple",
@@ -1097,7 +1135,7 @@
             "update_email_button": "Mise à jour de l'adresse électronique",
             "not_connected": "Non connecté",
             "deleting_account": "Suppression d'un compte",
-            "permanent_delete": "Votre compte, vos campagnes et vos activités dans Twibbonize seront définitivement supprimés.",
+            "permanent_delete": "Votre compte, vos campagnes, et vos activités dans Twibbonize seront définitivement supprimés.",
             "type_to_confirm": "Tapez {username} pour confirmer",
             "input_password": "Saisir le mot de passe ici",
             "for_security_input_password": "Pour des raisons de sécurité, veuillez saisir le mot de passe",
@@ -1127,18 +1165,18 @@
             "email": "Courriel",
             "push": "Push",
             "campaign_milestone": "Étape de la campagne",
-            "milestone_details": "Vous serez informé de tous les progrès réalisés dans le cadre de la campagne.",
+            "milestone_details": "Vous serez informé de tous les progrès réalisés dans le cadre de la campagne",
             "comment": "Commentaire",
-            "comment_details": "Recevoir des notifications sur les commentaires des supporters sur la page d'une campagne.",
+            "comment_details": "Recevoir des notifications sur les commentaires des supporters sur la page d'une campagne",
             "trending_campaign": "Campagne en cours",
-            "trending_details": "Recevez des notifications sur les campagnes en vogue dans votre région.",
+            "trending_details": "Recevez des notifications sur les campagnes en vogue dans votre région",
             "whats_new": "Nouveautés",
-            "whats_new_details": "Obtenez la dernière mise à jour de notre produit sur la version web et l'application.",
+            "whats_new_details": "Obtenez la dernière mise à jour de notre produit sur la version web et l'application",
             "article": "Articles",
-            "article_details": "Vous recevrez nos articles recommandés.",
+            "article_details": "Vous recevrez nos articles recommandés",
             "toggle_all": "Tous",
             "post_twibbonize": "Publier sur Twibbonize",
-            "post_twibbonize_details": "Recevez des notifications sur la publication d'un partisan sur une page de campagne.",
+            "post_twibbonize_details": "Recevez des notifications sur la publication d'un partisan sur une page de campagne",
             "account_recap": "Récapitulatif du compte",
             "account_recap_details": "Récapitulatif hebdomadaire des supporters et des visites pour toutes vos campagnes"
         },
@@ -1168,7 +1206,8 @@
             "read_stories": "Lisez les témoignages d'entreprises et d'organisations qui ont utilisé avec succès notre plateforme pour leurs programmes de campagne"
         },
         "bento": {
-            "read_success_story": "Lire leur histoire de réussite"
+            "read_success_story": "Lire leur histoire de réussite",
+            "more_success_stories": ""
         }
     },
     "page_use_cases": {
@@ -1456,7 +1495,9 @@
             "name": "Nom",
             "login_with_facebook": "Se connecter avec Facebook",
             "login_with_google": "Connectez-vous avec Google",
-            "signin_with_email": "ou se connecter avec l'email"
+            "signin_with_email": "ou se connecter avec l'email",
+            "login_with_apple": "Se connecter avec Apple",
+            "signup_with_apple": "S'inscrire auprès d'Apple"
         }
     },
     "page_article": {
@@ -1590,6 +1631,7 @@
             "letter_spacing": "Espacement des lettres",
             "line_spacing": "Espacement des lignes",
             "border_weight": "Poids à la frontière",
+            "corner_rounding": "Arrondi des coins",
             "align": "Aligner",
             "effects": "Effets"
         },
@@ -1669,7 +1711,7 @@
             "harassment": "Harcèlement",
             "terrorism": "Le terrorisme",
             "violence": "La violence",
-            "false_information": "",
+            "false_information": "Fausse information",
             "health": "Santé",
             "politics": "Politique",
             "social_issue": "Question sociale",
@@ -1682,6 +1724,9 @@
             "religious_affiliation": "Affiliation religieuse ",
             "sexual_orientation": "Orientation sexuelle",
             "spam": "Spam"
+        },
+        "general": {
+            "by_account_name": "par"
         }
     },
     "page_campaign_creation": {
@@ -1691,6 +1736,7 @@
     },
     "page_login_app": {
         "failed_google_login": "Échec de la connexion à Google",
+        "failed_facebook_login": "Échec de la connexion à Facebook",
         "failed_apple_login": "Échec de la connexion Apple"
     },
     "error_messages": {

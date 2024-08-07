@@ -71,7 +71,8 @@
             "send": "Hantar",
             "more": "Lagi",
             "less": "Kurang",
-            "submit": "Hantar"
+            "submit": "Hantar",
+            "get_started": "Mulakan"
         },
         "time": {
             "week": "Minggu",
@@ -85,7 +86,9 @@
         "campaign": {
             "campaigns": "Kempen",
             "created": "Dicipta",
-            "supporters": "penyokong|penyokong|penyokong"
+            "supporters": {
+                "other": "penyokong"
+            }
         },
         "collection": {
             "collections": "Koleksi",
@@ -113,14 +116,18 @@
             "unhide_post": "Nyahsembunyikan Siaran"
         },
         "pricing": {
-            "creator_subscribe_to": "Pencipta ini melanggan",
+            "creator_subscribe_to": "Pencipta ini melanggan ",
             "plan": "rancangan",
             "support_without_watermark": "Mereka boleh menyokong sebarang kempen tanpa tera air!",
             "all_supporters_without_watermark": "Anda boleh menyokong semua kempen Pencipta ini tanpa tera air!"
         },
         "campaign_card": {
-            "a_month_ago": "Sebulan yang lalu",
-            "a_day_ago": "Sehari yang lalu"
+            "a_month_ago": {
+                "other": "Sebulan yang lalu"
+            },
+            "a_day_ago": {
+                "other": "Sehari yang lalu"
+            }
         },
         "search": {
             "searching": "Mencari..."
@@ -140,6 +147,9 @@
         "campaign_supporters": {
             "k": "rb",
             "m": "jt"
+        },
+        "about": {
+            "our_numbers_mn": ""
         }
     },
     "page_home": {
@@ -349,7 +359,7 @@
             "processing": "Memproses",
             "buy_premium": "Beli Premium",
             "skip_the_ads": "Langkau iklan & muat turun serta-merta",
-            "upgrade_to_premium_from": "Naik taraf kepada premium daripada {price} setiap minggu!",
+            "upgrade_to_premium_from": "Naik taraf kepada Premium daripada {price} setiap minggu!",
             "filter": "Penapis",
             "more_like_this": "Lagi Macam Ini",
             "enter_your_text": "Masukkan teks anda",
@@ -369,7 +379,7 @@
             "blur": "Kabur",
             "shadow": "Bayang-bayang",
             "twibbon_success": "Dimuat turun",
-            "write_your_caption": ""
+            "write_your_caption": "Tulis kapsyen anda..."
         },
         "report": {
             "report_campaign": "Laporan Kempen",
@@ -453,7 +463,7 @@
             "view_analytics": "Lihat Analitik"
         },
         "pricing": {
-            "no_thankyou": "Tidak, Terima kasih"
+            "no_thankyou": "Tidak, terima kasih"
         },
         "support": {
             "for_people_1": "Untuk orang yang ingin lebih",
@@ -511,7 +521,6 @@
         },
         "checkout": {
             "upgrade_to": "Tingkatkan kepada {plan}",
-            "gather_your_supports": "Kumpulkan penyokong anda dan tingkatkan kempen anda dengan ciri eksklusif kami",
             "billing_option": "Pilihan Pengebilan",
             "details": "Butiran",
             "user": "pengguna",
@@ -535,6 +544,9 @@
             "downgrade_active": "Ia akan aktif setelah langganan semasa anda tamat",
             "back_to_plans": "belakang"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "Kumpulkan penyokong anda dan tingkatkan kempen anda dengan ciri eksklusif kami"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +562,9 @@
             "ad_free_title": "Iklan Percuma",
             "campaign_addon": "Addon Kempen",
             "on": "pada"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": "Sokongan kempen dengan mudah dengan faedah istimewa kami"
         }
     },
     "page_collection": {
@@ -670,10 +685,15 @@
         "blank_design": {
             "suggested": "Dicadangkan",
             "instagram_story": "Cerita Instagram",
-            "instagram_post": "Siaran Instagram"
+            "instagram_post": "Siaran Instagram",
+            "create_design_button": "Buat Desain"
         },
         "frame_Editor": {
-            "or_create_background": "atau buat latar belakang anda sekarang"
+            "or_create_background": "atau buat latar anda sekarang"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "Apa yang anda ingin cipta?",
+            "what_do_you_want_to_create_desc": "Serlahkan permainan kempen dalam talian anda, bukan sahaja dengan bingkai, tetapi juga dengan latar belakang kreatif"
         }
     },
     "page_for_creators": {
@@ -716,8 +736,8 @@
             "spice_up": "Ceriakan permainan kempen dalam talian anda, bukan sahaja dengan bingkai, tetapi juga dengan latar belakang kreatif",
             "the_og_twibbon": "Twibbon Asli; bingkai yang diletakkan pada gambar anda",
             "a_fresh_variation": "Variasi baharu Twibbon yang menyamar sebagai latar belakang gambar anda",
-            "frame_twibbon": "Bingkai Twibbon",
-            "backround_twibbon": "Twibbon Latar Belakang "
+            "frame_twibbon": "Twibbon Bingkai",
+            "backround_twibbon": "Twibbon Latar Belakang"
         },
         "tilt": {
             "get_it_ready": "Sediakannya pada bila-bila masa dengan Editor Twibbon terbina dalam kami",
@@ -788,6 +808,19 @@
         "honorary": {
             "honorary_mentions": "Sebutan Kehormat",
             "significant_contributions": "Mereka yang memberi sumbangan besar kepada pembangunan kami"
+        },
+        "about": {
+            "fokker_bio_1": "",
+            "fokker_bio_2": "",
+            "bernino_bio_1": "",
+            "bernino_bio_2": "",
+            "mulqan_bio_1": "",
+            "mulqan_bio_2": "",
+            "aditya_bio_1": "",
+            "aditya_bio_2": "",
+            "farhan_bio_1": "",
+            "farhan_bio_2": "",
+            "dominick_bio_1": ""
         }
     },
     "page_pricing": {
@@ -873,10 +906,8 @@
             "ending_in": "{card} berakhir dengan {number}"
         },
         "bento": {
-            "campaign_analytics_1": "Kempen",
-            "campaign_analytics_2": "Analytics",
-            "private_campaign_1": "Persendirian",
-            "private_campaign_2": "Kempen",
+            "campaign_analytics": "Analitis Kempen",
+            "private_campaign": "Kempen Persendirian",
             "campaign_customization_1": "Penyesuaian",
             "campaign_customization_2": "Kempen",
             "multiple_frames_1": "Banyak bingkai",
@@ -890,7 +921,8 @@
             "remove_own_watermark_1": "Alih keluar tera air",
             "on": "pada",
             "remove_own_watermark_2": "akaun anda sendiri",
-            "extra_features": "Ciri Tambahan"
+            "extra_features": "Ciri Tambahan",
+            "campaign_customization": "Penyesuaian Kempen"
         },
         "modal": {
             "congratulation": "tahniah!",
@@ -959,7 +991,9 @@
         },
         "my_profile": {
             "edit_profile": "Sunting profil",
-            "campaigns": "Kempen",
+            "campaigns": {
+                "other": "Kempen"
+            },
             "collections": "Koleksi",
             "posts": "Catatan"
         },
@@ -972,7 +1006,7 @@
         },
         "collection": {
             "delete_collection": "Koleksi \" {collection_name} \" akan dipadamkan secara kekal.",
-            "confirm_delete_collection": "Padamkan Koleksi",
+            "confirm_delete_collection": "Hapus Koleksi",
             "delete_campaign": "Kempen \"{campaign_name}\" akan dialih keluar secara kekal daripada koleksi \"{collection_name}\"",
             "confirm_remove_campaign": "Alih Keluar Kempen",
             "delete_comment": "Padam Komen",
@@ -1097,7 +1131,7 @@
             "update_email_button": "Kemas kini E-mel",
             "not_connected": "Tidak bersambung",
             "deleting_account": "Memadam Akaun",
-            "permanent_delete": "Akaun, kempen dan aktiviti anda dalam Twibbonize akan dipadamkan secara kekal.",
+            "permanent_delete": "Akaun, kempen, dan aktiviti anda dalam Twibbonize akan dipadamkan secara kekal.",
             "type_to_confirm": "Taip {username} untuk mengesahkan",
             "input_password": "Masukkan kata laluan di sini",
             "for_security_input_password": "Atas sebab keselamatan, sila masukkan kata laluan",
@@ -1127,20 +1161,20 @@
             "email": "E-mel",
             "push": "Push",
             "campaign_milestone": "Pencapaian Kempen",
-            "milestone_details": "Anda akan dimaklumkan tentang setiap kemajuan pada pencapaian kempen.",
+            "milestone_details": "Anda akan dimaklumkan tentang setiap kemajuan pada pencapaian kempen",
             "comment": "Komen",
-            "comment_details": "Dapatkan pemberitahuan ulasan penyokong pada halaman kempen.",
+            "comment_details": "Dapatkan pemberitahuan ulasan penyokong pada halaman kempen",
             "trending_campaign": "Kempen Trend",
-            "trending_details": "Dapatkan pemberitahuan tentang kempen sohor kini di rantau anda.",
+            "trending_details": "Dapatkan pemberitahuan tentang kempen sohor kini di rantau anda",
             "whats_new": "Apa yang Baru",
-            "whats_new_details": "Dapatkan kemas kini terkini produk kami di web dan versi apl.",
+            "whats_new_details": "Dapatkan kemas kini terkini produk kami di web dan versi apl",
             "article": "Artikel",
-            "article_details": "Anda akan menerima artikel yang disyorkan kami.",
+            "article_details": "Anda akan menerima artikel yang disyorkan kami",
             "toggle_all": "Semua",
             "post_twibbonize": "Siarkan ke Twibbonize",
-            "post_twibbonize_details": "Dapatkan pemberitahuan os siaran penyokong pada halaman kempen.",
+            "post_twibbonize_details": "Dapatkan pemberitahuan os siaran penyokong pada halaman kempen",
             "account_recap": "Rekap Akaun",
-            "account_recap_details": "Rekap Mingguan Penyokong dan Lawatan untuk Semua Kempen Anda"
+            "account_recap_details": "Rekap mingguan Penyokong dan Lawatan untuk semua kempen anda."
         },
         "package": {
             "free": "Percuma",
@@ -1168,7 +1202,8 @@
             "read_stories": "Baca cerita daripada syarikat dan organisasi yang berjaya menggunakan platform kami untuk program kempen mereka"
         },
         "bento": {
-            "read_success_story": "Baca Kisah Kejayaan Mereka"
+            "read_success_story": "Baca Kisah Kejayaan Mereka",
+            "more_success_stories": ""
         }
     },
     "page_use_cases": {
@@ -1456,7 +1491,9 @@
             "name": "Nama",
             "login_with_facebook": "Log masuk melalui Facebook",
             "login_with_google": "Log Masuk dengan Google",
-            "signin_with_email": "atau log masuk dengan e-mel"
+            "signin_with_email": "atau log masuk dengan e-mel",
+            "login_with_apple": "Log Masuk dengan Apple",
+            "signup_with_apple": "Daftar dengan Apple"
         }
     },
     "page_article": {
@@ -1590,6 +1627,7 @@
             "letter_spacing": "Jarak Huruf",
             "line_spacing": "Jarak baris",
             "border_weight": "Berat Sempadan",
+            "corner_rounding": "Pembundaran Sudut",
             "align": "Selaraskan",
             "effects": "Kesan"
         },
@@ -1669,7 +1707,7 @@
             "harassment": "Gangguan",
             "terrorism": "Keganasan",
             "violence": "Keganasan",
-            "false_information": "",
+            "false_information": "Maklumat Palsu",
             "health": "Kesihatan",
             "politics": "Politik",
             "social_issue": "Masalah sosial",
@@ -1682,6 +1720,9 @@
             "religious_affiliation": "Gabungan Agama ",
             "sexual_orientation": "Orientasi Seksual",
             "spam": "Spam"
+        },
+        "general": {
+            "by_account_name": "oleh"
         }
     },
     "page_campaign_creation": {
@@ -1691,6 +1732,7 @@
     },
     "page_login_app": {
         "failed_google_login": "Gagal melakukan log masuk Google",
+        "failed_facebook_login": "Gagal melakukan log masuk Facebook",
         "failed_apple_login": "Gagal melakukan log masuk Apple"
     },
     "error_messages": {

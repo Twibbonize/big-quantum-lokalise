@@ -71,7 +71,8 @@
             "send": "Poslati",
             "more": "Više",
             "less": "Manje",
-            "submit": "podnijeti"
+            "submit": "podnijeti",
+            "get_started": "Započnite"
         },
         "time": {
             "week": "Tjedan",
@@ -85,7 +86,11 @@
         "campaign": {
             "campaigns": "Kampanje",
             "created": "Stvoreno",
-            "supporters": "pristaša|pristaša|pristaša"
+            "supporters": {
+                "one": "pristaša",
+                "few": "pristaša",
+                "other": "pristaša"
+            }
         },
         "collection": {
             "collections": "Zbirke",
@@ -113,14 +118,22 @@
             "unhide_post": "Otkrij objavu"
         },
         "pricing": {
-            "creator_subscribe_to": "Ovaj kreator je pretplaćen na",
+            "creator_subscribe_to": "Ovaj se kreator pretplatio na ",
             "plan": "plan",
             "support_without_watermark": "Mogu podržati bilo koju kampanju bez vodenog žiga!",
             "all_supporters_without_watermark": "Možete podržati cijelu ovu Kreatorovu kampanju bez vodenog žiga!"
         },
         "campaign_card": {
-            "a_month_ago": " | |Prije mjesec dana",
-            "a_day_ago": " | |Jučer"
+            "a_month_ago": {
+                "one": "",
+                "few": "",
+                "other": "Prije mjesec dana"
+            },
+            "a_day_ago": {
+                "one": "",
+                "few": "",
+                "other": "Jučer"
+            }
         },
         "search": {
             "searching": "Pretraživanje..."
@@ -140,6 +153,9 @@
         "campaign_supporters": {
             "k": "tis.",
             "m": "mil."
+        },
+        "about": {
+            "our_numbers_mn": ""
         }
     },
     "page_home": {
@@ -349,7 +365,7 @@
             "processing": "Obrada",
             "buy_premium": "Kupite Premium",
             "skip_the_ads": "Preskočite oglase i preuzmite odmah",
-            "upgrade_to_premium_from": "Nadogradite na premium od {price} tjedno!",
+            "upgrade_to_premium_from": "Nadogradite na Premium od {price} tjedno!",
             "filter": "filtar",
             "more_like_this": "Više poput ovoga",
             "enter_your_text": "Unesite svoj tekst",
@@ -369,7 +385,7 @@
             "blur": "Zamutiti",
             "shadow": "Sjena",
             "twibbon_success": "Preuzeto",
-            "write_your_caption": ""
+            "write_your_caption": "Napišite svoj naslov..."
         },
         "report": {
             "report_campaign": "Prijavi kampanju",
@@ -425,7 +441,7 @@
             "violent_graphic_content": "Nasilan grafički sadržaj",
             "harassment_cyberbullying": "Uznemiravanje i internetsko zlostavljanje",
             "proactive_threatening_content": "Provokativan i prijeteći sadržaj",
-            "statement": "Twibbonize Smjernice zajednice štite privatnost identiteta izvjestitelja.",
+            "statement": "Smjernice zajednice Twibbonize štite privatnost identiteta prijavitelja.",
             "read_more_copy": "Čitaj više",
             "please_select_one": "Odaberite jedan",
             "write_a_message": "Napiši poruku",
@@ -511,7 +527,6 @@
         },
         "checkout": {
             "upgrade_to": "Nadogradite na {plan}",
-            "gather_your_supports": "Okupite svoje pristaše i povećajte svoju kampanju s našim ekskluzivnim značajkama",
             "billing_option": "Opcija naplate",
             "details": "pojedinosti",
             "user": "Korisnik",
@@ -535,6 +550,9 @@
             "downgrade_active": "Bit će aktivan kada istekne vaša trenutna pretplata",
             "back_to_plans": "leđa"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "Okupite svoje pristaše i povećajte svoju kampanju s našim ekskluzivnim značajkama"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +568,9 @@
             "ad_free_title": "Bez oglasa",
             "campaign_addon": "Dodatak kampanje",
             "on": "na"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": "Pogodno podržite kampanje s našim posebnim pogodnostima"
         }
     },
     "page_collection": {
@@ -670,10 +691,15 @@
         "blank_design": {
             "suggested": "Predloženo",
             "instagram_story": "Instagram priča",
-            "instagram_post": "Objava na Instagramu"
+            "instagram_post": "Objava na Instagramu",
+            "create_design_button": "Stvorite dizajn"
         },
         "frame_Editor": {
             "or_create_background": "ili stvorite svoju pozadinu sada"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "Što želite stvoriti?",
+            "what_do_you_want_to_create_desc": "Začinite svoju online kampanju, ne samo okvirom, već i kreativnom pozadinom"
         }
     },
     "page_for_creators": {
@@ -716,8 +742,8 @@
             "spice_up": "Začinite svoju online kampanju, ne samo okvirom, već i kreativnom pozadinom",
             "the_og_twibbon": "Originalni Twibbon; okvir koji se nalazi na vašoj slici",
             "a_fresh_variation": "Svježa varijacija Twibbona koja predstavlja pozadinu vaše slike",
-            "frame_twibbon": "Okvir Twibbon",
-            "backround_twibbon": "Pozadina Twibbon "
+            "frame_twibbon": "Twibbon s okvirom",
+            "backround_twibbon": "Twibbon s pozadinom"
         },
         "tilt": {
             "get_it_ready": "Pripremite ga bilo kada uz naš ugrađeni Twibbon Editor",
@@ -788,6 +814,19 @@
         "honorary": {
             "honorary_mentions": "Počasna priznanja",
             "significant_contributions": "Oni koji su dali značajan doprinos našem razvoju"
+        },
+        "about": {
+            "fokker_bio_1": "",
+            "fokker_bio_2": "",
+            "bernino_bio_1": "",
+            "bernino_bio_2": "",
+            "mulqan_bio_1": "",
+            "mulqan_bio_2": "",
+            "aditya_bio_1": "",
+            "aditya_bio_2": "",
+            "farhan_bio_1": "",
+            "farhan_bio_2": "",
+            "dominick_bio_1": ""
         }
     },
     "page_pricing": {
@@ -873,10 +912,8 @@
             "ending_in": "{card} završava s {number}"
         },
         "bento": {
-            "campaign_analytics_1": "Kampanja",
-            "campaign_analytics_2": "Analitika",
-            "private_campaign_1": "Privatna",
-            "private_campaign_2": "Kampanja",
+            "campaign_analytics": "Analitika kampanje",
+            "private_campaign": "Privatna kampanja",
             "campaign_customization_1": "Prilagodba",
             "campaign_customization_2": "kampanje",
             "multiple_frames_1": "Više okvira",
@@ -890,7 +927,8 @@
             "remove_own_watermark_1": "Uklonite vodeni žig",
             "on": "na",
             "remove_own_watermark_2": "svom računu",
-            "extra_features": "Dodatne značajke"
+            "extra_features": "Dodatne značajke",
+            "campaign_customization": "Prilagodba kampanje"
         },
         "modal": {
             "congratulation": "Svaka čast!",
@@ -959,7 +997,11 @@
         },
         "my_profile": {
             "edit_profile": "Uredi profil",
-            "campaigns": "Kampanje",
+            "campaigns": {
+                "one": "Kampanja",
+                "few": "Kampanje",
+                "other": "Kampanje"
+            },
             "collections": "Zbirke",
             "posts": "Postovi"
         },
@@ -972,7 +1014,7 @@
         },
         "collection": {
             "delete_collection": "Zbirka \" {collection_name} \" bit će trajno izbrisana.",
-            "confirm_delete_collection": "Izbriši zbirku",
+            "confirm_delete_collection": "Izbrisati zbirku",
             "delete_campaign": "Kampanja \"{campaign_name}\" bit će trajno uklonjena iz zbirke \"{collection_name}\"",
             "confirm_remove_campaign": "Ukloni kampanju",
             "delete_comment": "Izbriši komentar",
@@ -1087,7 +1129,7 @@
             "old_password": "stara lozinka",
             "new_password": "Nova lozinka",
             "update_password": "Ažurirajte lozinku",
-            "social_media_connects": "Društveni mediji povezuju",
+            "social_media_connects": "Povežite se s društvenim medijima",
             "facebook": "Facebook",
             "google": "Google",
             "apple": "Apple",
@@ -1097,7 +1139,7 @@
             "update_email_button": "Ažurirajte e-poštu",
             "not_connected": "Nije povezano",
             "deleting_account": "Brisanje računa",
-            "permanent_delete": "Vaš račun, kampanje i aktivnosti u Twibbonizeu bit će trajno izbrisani.",
+            "permanent_delete": "Vaš račun, kampanje, i aktivnosti u Twibbonizeu bit će trajno izbrisani.",
             "type_to_confirm": "Upišite {username} za potvrdu",
             "input_password": "Unesite lozinku ovdje",
             "for_security_input_password": "Iz sigurnosnih razloga, molimo unesite lozinku",
@@ -1127,18 +1169,18 @@
             "email": "E-mail",
             "push": "Push",
             "campaign_milestone": "Prekretnica kampanje",
-            "milestone_details": "Bit ćete obaviješteni o svakom napretku u postignuću kampanje.",
+            "milestone_details": "Bit ćete obaviješteni o svakom napretku u postignuću kampanje",
             "comment": "Komentar",
-            "comment_details": "Primajte obavijesti o komentarima podržavatelja na stranici kampanje.",
+            "comment_details": "Primajte obavijesti o komentarima podržavatelja na stranici kampanje",
             "trending_campaign": "Kampanja u trendu",
-            "trending_details": "Primajte obavijesti o popularnim kampanjama u vašoj regiji.",
+            "trending_details": "Primajte obavijesti o popularnim kampanjama u vašoj regiji",
             "whats_new": "Što ima novog",
-            "whats_new_details": "Preuzmite najnovije ažuriranje našeg proizvoda na webu i verziji aplikacije.",
+            "whats_new_details": "Preuzmite najnovije ažuriranje našeg proizvoda na webu i verziji aplikacije",
             "article": "Članci",
-            "article_details": "Primit ćete naše preporučene članke.",
+            "article_details": "Primit ćete naše preporučene članke",
             "toggle_all": "svi",
             "post_twibbonize": "Objavite na Twibbonizeu",
-            "post_twibbonize_details": "Primajte obavijesti o objavi podržavatelja na stranici kampanje.",
+            "post_twibbonize_details": "Primajte obavijesti o objavi podržavatelja na stranici kampanje",
             "account_recap": "Rekapitulacija računa",
             "account_recap_details": "Tjedni pregled pristalica i posjeta za sve vaše kampanje"
         },
@@ -1168,7 +1210,8 @@
             "read_stories": "Pročitajte priče tvrtki i organizacija koje su uspješno iskoristile našu platformu za svoje programe kampanje"
         },
         "bento": {
-            "read_success_story": "Pročitajte njihovu priču o uspjehu"
+            "read_success_story": "Pročitajte njihovu priču o uspjehu",
+            "more_success_stories": ""
         }
     },
     "page_use_cases": {
@@ -1456,7 +1499,9 @@
             "name": "Ime",
             "login_with_facebook": "Prijavite se putem Facebooka",
             "login_with_google": "Prijavite se s Googleom",
-            "signin_with_email": "ili se prijavite putem e-pošte"
+            "signin_with_email": "ili se prijavite putem e-pošte",
+            "login_with_apple": "Prijavite se s Appleom",
+            "signup_with_apple": "Prijavite se s Appleom"
         }
     },
     "page_article": {
@@ -1590,6 +1635,7 @@
             "letter_spacing": "Razmak između slova",
             "line_spacing": "Razmak između redova",
             "border_weight": "Težina granice",
+            "corner_rounding": "Zaokruživanje kutova",
             "align": "Poravnati",
             "effects": "Efekti"
         },
@@ -1669,7 +1715,7 @@
             "harassment": "Uznemiravanje",
             "terrorism": "Terorizam",
             "violence": "Nasilje",
-            "false_information": "",
+            "false_information": "Lažne Informacije",
             "health": "Zdravlje",
             "politics": "Politika",
             "social_issue": "Socijalni problem",
@@ -1682,6 +1728,9 @@
             "religious_affiliation": "Vjerska pripadnost ",
             "sexual_orientation": "Seksualna orijentacija",
             "spam": "Spam"
+        },
+        "general": {
+            "by_account_name": "po"
         }
     },
     "page_campaign_creation": {
@@ -1691,6 +1740,7 @@
     },
     "page_login_app": {
         "failed_google_login": "Prijava na Google nije uspjela",
+        "failed_facebook_login": "Prijava na Facebook nije uspjela",
         "failed_apple_login": "Prijava u Apple nije uspjela"
     },
     "error_messages": {

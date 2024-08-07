@@ -71,7 +71,8 @@
             "send": "Надіслати",
             "more": "більше",
             "less": "менше",
-            "submit": "Надіслати"
+            "submit": "Надіслати",
+            "get_started": "Початок роботи"
         },
         "time": {
             "week": "Тиждень",
@@ -85,7 +86,12 @@
         "campaign": {
             "campaigns": "Кампанії",
             "created": "Створено",
-            "supporters": "прихильник|прихильник|прихильники"
+            "supporters": {
+                "one": "прихильник",
+                "few": "прихильники",
+                "many": "прихильники",
+                "other": "прихильники"
+            }
         },
         "collection": {
             "collections": "Колекції",
@@ -113,14 +119,24 @@
             "unhide_post": "Показати публікацію"
         },
         "pricing": {
-            "creator_subscribe_to": "Цей Творець підписаний на",
+            "creator_subscribe_to": "Цей автор підписався на ",
             "plan": "планувати",
             "support_without_watermark": "Вони можуть підтримати будь-яку кампанію без водяного знака!",
             "all_supporters_without_watermark": "Ви можете підтримати всю цю кампанію Творця без водяного знака!"
         },
         "campaign_card": {
-            "a_month_ago": " | | |Місяць тому",
-            "a_day_ago": " | | |День тому"
+            "a_month_ago": {
+                "one": "",
+                "few": "",
+                "many": "",
+                "other": "Місяць тому"
+            },
+            "a_day_ago": {
+                "one": "",
+                "few": "",
+                "many": "",
+                "other": "День тому"
+            }
         },
         "search": {
             "searching": "Пошук..."
@@ -140,6 +156,9 @@
         "campaign_supporters": {
             "k": "тис.",
             "m": "млн"
+        },
+        "about": {
+            "our_numbers_mn": ""
         }
     },
     "page_home": {
@@ -369,7 +388,7 @@
             "blur": "Плямистість.",
             "shadow": "Тінь",
             "twibbon_success": "Завантажено",
-            "write_your_caption": ""
+            "write_your_caption": "Напишіть свій підпис..."
         },
         "report": {
             "report_campaign": "Звітна кампанія",
@@ -425,7 +444,7 @@
             "violent_graphic_content": "Графічний контент із зображенням насильства",
             "harassment_cyberbullying": "Переслідування та кібербулінг",
             "proactive_threatening_content": "Провокаційний та загрозливий контент",
-            "statement": "Правила спільноти Twibbonize захищають конфіденційність особи репортера.",
+            "statement": "Керівні принципи спільноти Twibbonize захищають конфіденційність особи повідомляча.",
             "read_more_copy": "Читати далі",
             "please_select_one": "Будь ласка, виберіть один",
             "write_a_message": "Написати повідомлення",
@@ -511,7 +530,6 @@
         },
         "checkout": {
             "upgrade_to": "Оновлення до {plan}",
-            "gather_your_supports": "Збирайте своїх підтримуючих та масштабуйте кампанію за допомогою наших ексклюзивних функцій",
             "billing_option": "Варіант виставлення рахунку",
             "details": "Деталі",
             "user": "Користувач",
@@ -535,6 +553,9 @@
             "downgrade_active": "Він стане активним після завершення поточної підписки",
             "back_to_plans": "Назад"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "Збирайте своїх підтримуючих та масштабуйте кампанію за допомогою наших ексклюзивних функцій"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +571,9 @@
             "ad_free_title": "Без реклами",
             "campaign_addon": "Аддон кампанії",
             "on": "на"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": "Зручно підтримуйте кампанії з нашими спеціальними перевагами"
         }
     },
     "page_collection": {
@@ -670,10 +694,15 @@
         "blank_design": {
             "suggested": "Запропоновано",
             "instagram_story": "Instagram Story",
-            "instagram_post": "Пост в Instagram"
+            "instagram_post": "Пост в Instagram",
+            "create_design_button": "Створення дизайну"
         },
         "frame_Editor": {
             "or_create_background": "або створіть свій фон зараз"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "Що ви хочете створити?",
+            "what_do_you_want_to_create_desc": "Приправте свою онлайн-гру-кампанію не лише рамкою, а й креативним фоном"
         }
     },
     "page_for_creators": {
@@ -716,8 +745,8 @@
             "spice_up": "Приправте свою онлайн-гру-кампанію не лише рамкою, а й креативним фоном",
             "the_og_twibbon": "Оригінальний твіббон; рамка, яка розміщується на вашій фотографії",
             "a_fresh_variation": "Свіжа варіація твіббону, який виступає фоном вашої фотографії",
-            "frame_twibbon": "Рамка Твіббон",
-            "backround_twibbon": "Фоновий твіббон "
+            "frame_twibbon": "Twibbon з рамкою",
+            "backround_twibbon": "Twibbon з фоном"
         },
         "tilt": {
             "get_it_ready": "Готуйте їх будь-коли за допомогою вбудованого Twibbon Editor",
@@ -788,6 +817,19 @@
         "honorary": {
             "honorary_mentions": "Почесні відзнаки",
             "significant_contributions": "Тих, хто зробив вагомий внесок у наш розвиток"
+        },
+        "about": {
+            "fokker_bio_1": "",
+            "fokker_bio_2": "",
+            "bernino_bio_1": "",
+            "bernino_bio_2": "",
+            "mulqan_bio_1": "",
+            "mulqan_bio_2": "",
+            "aditya_bio_1": "",
+            "aditya_bio_2": "",
+            "farhan_bio_1": "",
+            "farhan_bio_2": "",
+            "dominick_bio_1": ""
         }
     },
     "page_pricing": {
@@ -873,10 +915,8 @@
             "ending_in": "{card} закінчується на {number}"
         },
         "bento": {
-            "campaign_analytics_1": "Кампанія",
-            "campaign_analytics_2": "Аналітика",
-            "private_campaign_1": "Рядовий",
-            "private_campaign_2": "Кампанія",
+            "campaign_analytics": "Аналітика кампанії",
+            "private_campaign": "Приватна кампанія",
             "campaign_customization_1": "Персоналізація",
             "campaign_customization_2": "кампанії",
             "multiple_frames_1": "Кілька рамок",
@@ -890,7 +930,8 @@
             "remove_own_watermark_1": "Видалити водяний знак",
             "on": "у",
             "remove_own_watermark_2": "власному акаунті",
-            "extra_features": "Додаткові функції"
+            "extra_features": "Додаткові функції",
+            "campaign_customization": "Налаштування кампанії"
         },
         "modal": {
             "congratulation": "Вітаю!",
@@ -959,7 +1000,12 @@
         },
         "my_profile": {
             "edit_profile": "Редагувати профіль",
-            "campaigns": "Кампанії",
+            "campaigns": {
+                "one": "Kампанія",
+                "few": "Кампанії",
+                "many": "Кампанії",
+                "other": "Кампанії"
+            },
             "collections": "Колекції",
             "posts": "Пости"
         },
@@ -1097,7 +1143,7 @@
             "update_email_button": "Оновити електронну пошту",
             "not_connected": "Не підключено",
             "deleting_account": "Видалення облікового запису",
-            "permanent_delete": "Ваш акаунт, кампанії та активності в Twibbonize будуть видалені назавжди.",
+            "permanent_delete": "Ваш акаунт, кампанії, та активності в Twibbonize будуть видалені назавжди.",
             "type_to_confirm": "Введіть {username} для підтвердження",
             "input_password": "Введіть пароль тут",
             "for_security_input_password": "З міркувань безпеки, будь ласка, введіть пароль",
@@ -1127,18 +1173,18 @@
             "email": "Електронна пошта",
             "push": "Push",
             "campaign_milestone": "Етапи кампанії",
-            "milestone_details": "Ви будете повідомлені про кожен прогрес у досягненні цілей кампанії.",
+            "milestone_details": "Ви будете повідомлені про кожен прогрес у досягненні цілей кампанії",
             "comment": "Коментар",
-            "comment_details": "Отримуйте сповіщення про коментарі підтримуючих на сторінці кампанії.",
+            "comment_details": "Отримуйте сповіщення про коментарі підтримуючих на сторінці кампанії",
             "trending_campaign": "Трендова кампанія",
-            "trending_details": "Отримуйте сповіщення про трендові кампанії у вашому регіоні.",
+            "trending_details": "Отримуйте сповіщення про трендові кампанії у вашому регіоні",
             "whats_new": "Що нового",
-            "whats_new_details": "Отримайте останнє оновлення нашого продукту на веб-сторінці та в додатку.",
+            "whats_new_details": "Отримайте останнє оновлення нашого продукту на веб-сторінці та в додатку",
             "article": "Статті",
-            "article_details": "Ви отримаєте наші рекомендовані статті.",
+            "article_details": "Ви отримаєте наші рекомендовані статті",
             "toggle_all": "Усе.",
             "post_twibbonize": "Опублікувати на Twibbonize",
-            "post_twibbonize_details": "Отримуйте сповіщення про публікацію прихильника на сторінці кампанії.",
+            "post_twibbonize_details": "Отримуйте сповіщення про публікацію прихильника на сторінці кампанії",
             "account_recap": "Резюме облікового запису",
             "account_recap_details": "Щотижневий підсумок прихильників і відвідувань для всіх ваших кампаній"
         },
@@ -1168,7 +1214,8 @@
             "read_stories": "Читайте історії компаній та організацій, які успішно використовували нашу платформу для своїх кампаній"
         },
         "bento": {
-            "read_success_story": "Прочитайте їхню історію успіху"
+            "read_success_story": "Прочитайте їхню історію успіху",
+            "more_success_stories": ""
         }
     },
     "page_use_cases": {
@@ -1456,7 +1503,9 @@
             "name": "Ім'я",
             "login_with_facebook": "Увійдіть за допомогою Facebook",
             "login_with_google": "Увійдіть за допомогою Google",
-            "signin_with_email": "або увійдіть за допомогою електронної пошти"
+            "signin_with_email": "або увійдіть за допомогою електронної пошти",
+            "login_with_apple": "Увійдіть за допомогою Apple",
+            "signup_with_apple": "Зареєструйтеся в Apple"
         }
     },
     "page_article": {
@@ -1590,6 +1639,7 @@
             "letter_spacing": "Інтервал між літерами",
             "line_spacing": "Міжрядковий інтервал",
             "border_weight": "Вага кордону",
+            "corner_rounding": "Заокруглення кутів",
             "align": "Вирівняти",
             "effects": "Ефекти"
         },
@@ -1669,7 +1719,7 @@
             "harassment": "Переслідування",
             "terrorism": "Тероризм",
             "violence": "Насильство",
-            "false_information": "",
+            "false_information": "Неправдива інформація",
             "health": "Здоров'я",
             "politics": "Політика",
             "social_issue": "Соціальне питання",
@@ -1682,6 +1732,9 @@
             "religious_affiliation": "Релігійна приналежність ",
             "sexual_orientation": "Сексуальна орієнтація",
             "spam": "Спам"
+        },
+        "general": {
+            "by_account_name": "до"
         }
     },
     "page_campaign_creation": {
@@ -1691,6 +1744,7 @@
     },
     "page_login_app": {
         "failed_google_login": "Не вдалося виконати вхід в Google",
+        "failed_facebook_login": "Не вдалося виконати вхід у Facebook",
         "failed_apple_login": "Не вдалося виконати вхід в Apple"
     },
     "error_messages": {
