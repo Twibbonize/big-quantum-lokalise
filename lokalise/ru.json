@@ -71,7 +71,8 @@
             "send": "Отправлять",
             "more": "Более",
             "less": "Меньше",
-            "submit": "Представлять на рассмотрение"
+            "submit": "Представлять на рассмотрение",
+            "get_started": "Начать"
         },
         "time": {
             "week": "Неделя",
@@ -85,7 +86,7 @@
         "campaign": {
             "campaigns": "Кампании",
             "created": "Создано",
-            "supporters": "сторонник | сторонник | сторонники"
+            "supporters": " | | |сторонник | сторонник | сторонники"
         },
         "collection": {
             "collections": "Коллекции",
@@ -113,7 +114,7 @@
             "unhide_post": "Показать сообщение"
         },
         "pricing": {
-            "creator_subscribe_to": "Этот Создатель подписан на",
+            "creator_subscribe_to": "Этот Создатель подписывается на ",
             "plan": "план",
             "support_without_watermark": "Они могут поддержать любую кампанию без водяного знака!",
             "all_supporters_without_watermark": "Вы можете поддержать всю кампанию этого Создателя без водяного знака!"
@@ -140,6 +141,21 @@
         "campaign_supporters": {
             "k": "тыс.",
             "m": "млн"
+        },
+        "relative_time": {
+            "seconds": "",
+            "future": "",
+            "past": "",
+            "minute": "",
+            "minutes": "",
+            "hour": "",
+            "hours": "",
+            "day": "",
+            "days": "",
+            "month": "",
+            "months": "",
+            "year": "",
+            "years": ""
         }
     },
     "page_home": {
@@ -369,7 +385,7 @@
             "blur": "Пятно",
             "shadow": "Тень",
             "twibbon_success": "Загружено",
-            "write_your_caption": ""
+            "write_your_caption": "Напишите подпись..."
         },
         "report": {
             "report_campaign": "Отчетная кампания",
@@ -425,7 +441,7 @@
             "violent_graphic_content": "Насильственное графическое содержание",
             "harassment_cyberbullying": "Домогательства и кибербуллинг",
             "proactive_threatening_content": "Провокационный и угрожающий контент",
-            "statement": "Правила сообщества Twibbonize защищают конфиденциальность личности репортера.",
+            "statement": "Руководящие принципы сообщества Twibbonize защищают конфиденциальность личности сообщающего.",
             "read_more_copy": "Читать далее",
             "please_select_one": "Пожалуйста, выберите один",
             "write_a_message": "Написать сообщение",
@@ -511,7 +527,6 @@
         },
         "checkout": {
             "upgrade_to": "Обновить до {plan}",
-            "gather_your_supports": "Собирайте поддерживающих и расширяйте масштабы своей кампании с помощью наших эксклюзивных функций",
             "billing_option": "Вариант выставления счета",
             "details": "Подробности",
             "user": "Пользователь",
@@ -535,6 +550,9 @@
             "downgrade_active": "Он станет активным, как только закончится ваша текущая подписка.",
             "back_to_plans": "Назад"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "Собирайте поддерживающих и расширяйте масштабы своей кампании с помощью наших эксклюзивных функций"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +568,9 @@
             "ad_free_title": "Свободный от рекламы",
             "campaign_addon": "Аддон кампании",
             "on": "на"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": ""
         }
     },
     "page_collection": {
@@ -670,10 +691,15 @@
         "blank_design": {
             "suggested": "Предлагаемые",
             "instagram_story": "История Instagram",
-            "instagram_post": "Пост в Instagram"
+            "instagram_post": "Пост в Instagram",
+            "create_design_button": "Создать дизайн"
         },
         "frame_Editor": {
             "or_create_background": "или создайте свой фон прямо сейчас"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "Что вы хотите создать?",
+            "what_do_you_want_to_create_desc": "Украсьте свою онлайн кампанию не только рамкой, но и креативными фонами."
         }
     },
     "page_for_creators": {
@@ -716,8 +742,8 @@
             "spice_up": "Украсьте свою онлайн кампанию не только рамкой, но и креативными фонами.",
             "the_og_twibbon": "Оригинальный твиббон; рамка, которая помещается на вашу фотографию",
             "a_fresh_variation": "Свежая вариация Twibbon, которая позирует в качестве фона вашей фотографии",
-            "frame_twibbon": "Рамка Twibbon",
-            "backround_twibbon": "Фоновая лента "
+            "frame_twibbon": "Twibbon с рамкой",
+            "backround_twibbon": "Twibbon с фоном"
         },
         "tilt": {
             "get_it_ready": "Подготовьте его в любое время с помощью встроенного Twibbon Editor.",
@@ -1097,7 +1123,7 @@
             "update_email_button": "Обновить электронную почту",
             "not_connected": "Не подключено",
             "deleting_account": "Удаление учетной записи",
-            "permanent_delete": "Ваш аккаунт, кампании и действия в Twibbonize будут удалены навсегда.",
+            "permanent_delete": "Ваш аккаунт, кампании, и действия в Twibbonize будут удалены навсегда.",
             "type_to_confirm": "Введите {username} для подтверждения.",
             "input_password": "Введите пароль здесь",
             "for_security_input_password": "В целях безопасности, пожалуйста, введите пароль",
@@ -1127,18 +1153,18 @@
             "email": "Электронная почта",
             "push": "Push",
             "campaign_milestone": "Веха кампании",
-            "milestone_details": "Вы будете получать уведомления о каждом прогрессе в достижении кампании.",
+            "milestone_details": "Вы будете получать уведомления о каждом прогрессе в достижении кампании",
             "comment": "Комментарий",
-            "comment_details": "Получайте уведомления о комментариях поддерживающих на странице кампании.",
+            "comment_details": "Получайте уведомления о комментариях поддерживающих на странице кампании",
             "trending_campaign": "Модная кампания",
-            "trending_details": "Получайте уведомления об актуальных кампаниях в вашем регионе.",
+            "trending_details": "Получайте уведомления об актуальных кампаниях в вашем регионе",
             "whats_new": "Что нового",
-            "whats_new_details": "Получайте последние обновления нашего продукта в веб-версии и версии для приложений.",
+            "whats_new_details": "Получайте последние обновления нашего продукта в веб-версии и версии для приложений",
             "article": "Статьи",
-            "article_details": "Вы будете получать наши рекомендованные статьи.",
+            "article_details": "Вы будете получать наши рекомендованные статьи",
             "toggle_all": "Все",
             "post_twibbonize": "Опубликовать в Twibbonize",
-            "post_twibbonize_details": "Получайте уведомления о публикациях сторонников на странице кампании.",
+            "post_twibbonize_details": "Получайте уведомления о публикациях сторонников на странице кампании",
             "account_recap": "Резюме аккаунта",
             "account_recap_details": "Еженедельный отчет о сторонниках и посещениях всех ваших кампаний"
         },
@@ -1456,7 +1482,9 @@
             "name": "Имя",
             "login_with_facebook": "Войти с Facebook",
             "login_with_google": "Войти через Google",
-            "signin_with_email": "или войдите в систему с помощью электронной почты"
+            "signin_with_email": "или войдите в систему с помощью электронной почты",
+            "login_with_apple": "",
+            "signup_with_apple": ""
         }
     },
     "page_article": {
@@ -1669,7 +1697,7 @@
             "harassment": "Домогательства",
             "terrorism": "Терроризм",
             "violence": "Насилие",
-            "false_information": "",
+            "false_information": "Ложная информация",
             "health": "Здоровье",
             "politics": "Политика",
             "social_issue": "Социальная проблема",
@@ -1682,6 +1710,9 @@
             "religious_affiliation": "Религиозная принадлежность ",
             "sexual_orientation": "Сексуальная ориентация",
             "spam": "Спам"
+        },
+        "general": {
+            "by_account_name": ""
         }
     },
     "page_campaign_creation": {

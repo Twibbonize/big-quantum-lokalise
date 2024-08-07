@@ -71,7 +71,8 @@
             "send": "Lähettää",
             "more": "Lisää",
             "less": "Vähemmän",
-            "submit": "Lähetä"
+            "submit": "Lähetä",
+            "get_started": "Aloita"
         },
         "time": {
             "week": "Viikko",
@@ -85,7 +86,7 @@
         "campaign": {
             "campaigns": "Kampanjat",
             "created": "Luotu",
-            "supporters": "kannattaja|kannattaja|kannattajat"
+            "supporters": " |kannattaja|kannattaja|kannattajat"
         },
         "collection": {
             "collections": "Kokoelmat",
@@ -113,7 +114,7 @@
             "unhide_post": "Näytä viesti"
         },
         "pricing": {
-            "creator_subscribe_to": "Tämä Creator on tilannut",
+            "creator_subscribe_to": "Tämä Creator tilaa ",
             "plan": "suunnitelma",
             "support_without_watermark": "He voivat tukea mitä tahansa kampanjaa ilman vesileimaa!",
             "all_supporters_without_watermark": "Voit tukea kaikkea tätä Creatorin kampanjaa ilman vesileimaa!"
@@ -140,6 +141,21 @@
         "campaign_supporters": {
             "k": "t.",
             "m": "milj."
+        },
+        "relative_time": {
+            "seconds": "",
+            "future": "",
+            "past": "",
+            "minute": "",
+            "minutes": "",
+            "hour": "",
+            "hours": "",
+            "day": "",
+            "days": "",
+            "month": "",
+            "months": "",
+            "year": "",
+            "years": ""
         }
     },
     "page_home": {
@@ -349,7 +365,7 @@
             "processing": "Käsittely",
             "buy_premium": "Osta Premium",
             "skip_the_ads": "Ohita mainokset & lataa heti",
-            "upgrade_to_premium_from": "Päivitä premium-tasolle alkaen {price} viikossa!",
+            "upgrade_to_premium_from": "Päivitä Premium-tasolle alkaen {price} viikossa!",
             "filter": "Suodatin",
             "more_like_this": "Enemmän tällaista",
             "enter_your_text": "Kirjoita tekstisi",
@@ -369,7 +385,7 @@
             "blur": "Sumeus",
             "shadow": "Varjo",
             "twibbon_success": "Ladattu",
-            "write_your_caption": ""
+            "write_your_caption": "Kirjoita kuvatekstisi..."
         },
         "report": {
             "report_campaign": "Raportti kampanja",
@@ -425,7 +441,7 @@
             "violent_graphic_content": "Väkivaltainen graafinen sisältö",
             "harassment_cyberbullying": "Häirintä ja verkkokiusaaminen",
             "proactive_threatening_content": "Provosoiva ja uhkaava sisältö",
-            "statement": "Twibbonize-yhteisön ohjeet suojaavat toimittajan henkilöllisyyden yksityisyyttä.",
+            "statement": "Twibbonize-yhteisön ohjeet suojaavat ilmoittajan henkilöllisyyden yksityisyyttä.",
             "read_more_copy": "Lue lisää",
             "please_select_one": "Valitse yksi",
             "write_a_message": "Kirjoita viesti",
@@ -511,7 +527,6 @@
         },
         "checkout": {
             "upgrade_to": "Päivitä {plan}",
-            "gather_your_supports": "Kerää tukijoitasi ja kasvata kampanjaasi yksinoikeudella tarjoamiemme ominaisuuksien avulla",
             "billing_option": "Laskutusvaihtoehto",
             "details": "Yksityiskohdat",
             "user": "Käyttäjä",
@@ -535,6 +550,9 @@
             "downgrade_active": "Se on aktiivinen, kun nykyinen tilauksesi on päättynyt",
             "back_to_plans": "Takaisin"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "Kerää tukijoitasi ja kasvata kampanjaasi yksinoikeudella tarjoamiemme ominaisuuksien avulla"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +568,9 @@
             "ad_free_title": "Mainosvapaa",
             "campaign_addon": "Kampanjan lisäys",
             "on": "päällä"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": ""
         }
     },
     "page_collection": {
@@ -670,10 +691,15 @@
         "blank_design": {
             "suggested": "Ehdotettu",
             "instagram_story": "Instagram-tarina",
-            "instagram_post": "Instagram-postaus"
+            "instagram_post": "Instagram-postaus",
+            "create_design_button": "Luo suunnittelu"
         },
         "frame_Editor": {
             "or_create_background": "tai luo oma taustasi nyt"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "Mitä haluat luoda?",
+            "what_do_you_want_to_create_desc": "Piristä verkkokampanjapeliäsi paitsi kehyksellä myös luovilla taustoilla."
         }
     },
     "page_for_creators": {
@@ -717,7 +743,7 @@
             "the_og_twibbon": "Alkuperäinen Twibbon; kehys, joka asetetaan kuvaan.",
             "a_fresh_variation": "Twibbonin tuore muunnelma, joka toimii kuvasi taustana.",
             "frame_twibbon": "Kehys Twibbon",
-            "backround_twibbon": "Tausta Twibbon "
+            "backround_twibbon": "Tausta Twibbon"
         },
         "tilt": {
             "get_it_ready": "Saat sen valmiiksi milloin tahansa sisäänrakennetulla Twibbon Editorilla.",
@@ -1087,7 +1113,7 @@
             "old_password": "Vanha salasana",
             "new_password": "Uusi salasana",
             "update_password": "Päivitä salasana",
-            "social_media_connects": "Sosiaalinen media yhdistää",
+            "social_media_connects": "Ota yhteyttä sosiaaliseen mediaan",
             "facebook": "Facebook",
             "google": "Google",
             "apple": "Apple",
@@ -1097,7 +1123,7 @@
             "update_email_button": "Päivitä sähköposti",
             "not_connected": "Ei kytketty",
             "deleting_account": "Tilin poistaminen",
-            "permanent_delete": "Tilisi, kampanjasi ja toimintasi Twibbonizessa poistetaan pysyvästi.",
+            "permanent_delete": "Tilisi, kampanjasi, ja toimintasi Twibbonizessa poistetaan pysyvästi.",
             "type_to_confirm": "Kirjoita {username} vahvistaaksesi",
             "input_password": "Kirjoita salasana tähän",
             "for_security_input_password": "Syötä salasana turvallisuussyistä",
@@ -1127,18 +1153,18 @@
             "email": "Sähköposti",
             "push": "Push",
             "campaign_milestone": "Kampanjan virstanpylväs",
-            "milestone_details": "Saat ilmoituksen jokaisesta kampanjan saavutuksen edistymisestä.",
+            "milestone_details": "Saat ilmoituksen jokaisesta kampanjan saavutuksen edistymisestä",
             "comment": "Kommentti",
-            "comment_details": "Saat ilmoituksia tukijan kommentista kampanjasivulla.",
+            "comment_details": "Saat ilmoituksia tukijan kommentista kampanjasivulla",
             "trending_campaign": "Trendikäs kampanja",
-            "trending_details": "Saat ilmoituksia alueesi ajankohtaisista kampanjoista.",
+            "trending_details": "Saat ilmoituksia alueesi ajankohtaisista kampanjoista",
             "whats_new": "Mitä uutta",
-            "whats_new_details": "Hanki tuotteemme uusin päivitys verkko- ja sovellusversiosta.",
+            "whats_new_details": "Hanki tuotteemme uusin päivitys verkko- ja sovellusversiosta",
             "article": "Artikkelit",
-            "article_details": "Saat suositellut artikkelimme.",
+            "article_details": "Saat suositellut artikkelimme",
             "toggle_all": "Kaikki",
             "post_twibbonize": "Lähetä Twibbonizeen",
-            "post_twibbonize_details": "Saat ilmoituksia os-tukijoiden julkaisusta kampanjasivulla.",
+            "post_twibbonize_details": "Saat ilmoituksia os-tukijoiden julkaisusta kampanjasivulla",
             "account_recap": "Tilin yhteenveto",
             "account_recap_details": "Viikoittainen yhteenveto kaikkien kampanjoidesi kannattajista ja vierailuista"
         },
@@ -1456,7 +1482,9 @@
             "name": "Nimi",
             "login_with_facebook": "Kirjaudu sisään Facebookilla",
             "login_with_google": "Kirjaudu sisään Googlella",
-            "signin_with_email": "tai kirjaudu sisään sähköpostilla"
+            "signin_with_email": "tai kirjaudu sisään sähköpostilla",
+            "login_with_apple": "",
+            "signup_with_apple": ""
         }
     },
     "page_article": {
@@ -1669,7 +1697,7 @@
             "harassment": "Häirintä",
             "terrorism": "Terrorismi",
             "violence": "Väkivalta",
-            "false_information": "",
+            "false_information": "Väärää tietoa",
             "health": "Terveys",
             "politics": "Politiikka",
             "social_issue": "Sosiaalinen ongelma",
@@ -1682,6 +1710,9 @@
             "religious_affiliation": "Uskontokunta ",
             "sexual_orientation": "Seksuaalinen suuntautuminen",
             "spam": "Roskaposti"
+        },
+        "general": {
+            "by_account_name": ""
         }
     },
     "page_campaign_creation": {

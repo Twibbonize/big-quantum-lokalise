@@ -71,7 +71,8 @@
             "send": "Send",
             "more": "More",
             "less": "Less",
-            "submit": "Submit"
+            "submit": "Submit",
+            "get_started": "Get Started"
         },
         "time": {
             "week": "Week",
@@ -85,7 +86,7 @@
         "campaign": {
             "campaigns": "Campaigns",
             "created": "Created",
-            "supporters": "supporter|supporter|supporters"
+            "supporters": " |supporter|supporter|supporters"
         },
         "collection": {
             "collections": "Collections",
@@ -113,7 +114,7 @@
             "unhide_post": "Unhide Post"
         },
         "pricing": {
-            "creator_subscribe_to": "This Creator is subscribed to the",
+            "creator_subscribe_to": "This Creator subscribes to ",
             "plan": "plan",
             "support_without_watermark": "They can support any campaign  without the watermark!",
             "all_supporters_without_watermark": "You can support all of this Creator’s campaign without the watermark!"
@@ -140,6 +141,21 @@
         "campaign_supporters": {
             "k": "k",
             "m": "m"
+        },
+        "relative_time": {
+            "seconds": "a few seconds",
+            "future": "in %s",
+            "past": "%s ago",
+            "minute": "a minute",
+            "minutes": "%d minutes",
+            "hour": "an hour",
+            "hours": "%d hours",
+            "day": "a day",
+            "days": "%d days",
+            "month": "a month",
+            "months": "%d months",
+            "year": "a year",
+            "years": "%d years"
         }
     },
     "page_home": {
@@ -349,7 +365,7 @@
             "processing": "Processing",
             "buy_premium": "Buy Premium",
             "skip_the_ads": "Skip the ads & download instantly",
-            "upgrade_to_premium_from": "Upgrade to premium from {price} per week!",
+            "upgrade_to_premium_from": "Upgrade to Premium from {price} per week!",
             "filter": "Filter",
             "more_like_this": "More Like This",
             "enter_your_text": "Enter your text",
@@ -453,7 +469,7 @@
             "view_analytics": "View Analytics"
         },
         "pricing": {
-            "no_thankyou": "No, Thank you"
+            "no_thankyou": "No, thank you"
         },
         "support": {
             "for_people_1": "For people who want more",
@@ -511,7 +527,6 @@
         },
         "checkout": {
             "upgrade_to": "Upgrade to {plan}",
-            "gather_your_supports": "Gather your supporters and scale up your campaign with our exclusive features",
             "billing_option": "Billing Option",
             "details": "Details",
             "user": "User",
@@ -535,6 +550,9 @@
             "downgrade_active": "It will be active once your current subscription is end",
             "back_to_plans": "Back"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "Gather your supporters and scale up your campaign with our exclusive features"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +568,9 @@
             "ad_free_title": "Ad Free",
             "campaign_addon": "Campaign Addon",
             "on": "on"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": "Conveniently support campaigns with our special benefits"
         }
     },
     "page_collection": {
@@ -611,8 +632,8 @@
             "understand": "I Understand",
             "width": "Width",
             "height": "Height",
-            "or_create_background": "or create your background now",
-            "or_create_frame": "or create your frame now"
+            "or_create_background": "or create background now",
+            "or_create_frame": "or create frame now"
         },
         "form": {
             "please_fill_in": "please fill in all the required campaign data below",
@@ -670,10 +691,15 @@
         "blank_design": {
             "suggested": "Suggested",
             "instagram_story": "Instagram Story",
-            "instagram_post": "Instagram Post"
+            "instagram_post": "Instagram Post",
+            "create_design_button": "Create Design"
         },
         "frame_Editor": {
-            "or_create_background": "or create your background now"
+            "or_create_background": "or create background now"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "What do you want to create?",
+            "what_do_you_want_to_create_desc": "Spice up your online campaign game, not only with a frame, but also with creative backgrounds"
         }
     },
     "page_for_creators": {
@@ -1032,10 +1058,10 @@
             "paid": "Paid",
             "are_you_sure_change": "Are you sure?",
             "active_after_subscription": "It will be active once your current subscription is end",
-            "are_you_sure_upgrade": "Are you sure want to upgrade?",
+            "are_you_sure_upgrade": "Are you sure you want to upgrade?",
             "plan_changing_info": "Switch to {package} received. New plan starts after current one ends",
             "active_after_payment": "It will be active once you complete the payment",
-            "are_you_sure_downgrade": "Are you sure want to downgrade plan?",
+            "are_you_sure_downgrade": "Are you sure you want to downgrade plan?",
             "plan_downgrade_info": "Downgrade to {package} received. New plan starts after current one ends",
             "renew_plan": "Renew Plan",
             "renew_subscription": "Renew Subscription",
@@ -1087,7 +1113,7 @@
             "old_password": "Old Password",
             "new_password": "New Password",
             "update_password": "Update Password",
-            "social_media_connects": "Social Media Connects",
+            "social_media_connects": "Connect to Social Media",
             "facebook": "Facebook",
             "google": "Google",
             "apple": "Apple",
@@ -1097,7 +1123,7 @@
             "update_email_button": "Update Email",
             "not_connected": "Not connected",
             "deleting_account": "Deleting Account",
-            "permanent_delete": "Your account, campaigns and activities in Twibbonize will be deleted permanently.",
+            "permanent_delete": "Your account, campaigns, and activities in Twibbonize will be deleted permanently.",
             "type_to_confirm": "Type {username} to confirm",
             "input_password": "Enter password here",
             "for_security_input_password": "For security reason, please input password",
@@ -1127,20 +1153,20 @@
             "email": "Email",
             "push": "Push",
             "campaign_milestone": "Campaign Milestone",
-            "milestone_details": "You'll be notified of every progress on the campaign achievement.",
+            "milestone_details": "You'll be notified of every progress on the campaign achievement",
             "comment": "Comment",
-            "comment_details": "Get notifications of supporter's comment on a campaign page.",
+            "comment_details": "Get notifications of supporter's comment on a campaign page",
             "trending_campaign": "Trending Campaign",
-            "trending_details": "Get notifications about trending campaigns in your region.",
+            "trending_details": "Get notifications about trending campaigns in your region",
             "whats_new": "What's New",
-            "whats_new_details": "Get the latest update of our product on the web and app version.",
+            "whats_new_details": "Get the latest update of our product on the web and app version",
             "article": "Articles",
-            "article_details": "You'll receive our recommended articles.",
+            "article_details": "You'll receive our recommended articles",
             "toggle_all": "All",
             "post_twibbonize": "Post to Twibbonize",
-            "post_twibbonize_details": "Get notifications os supporter's post on a campaign page.",
+            "post_twibbonize_details": "Get notifications on supporter's post on your campaign page",
             "account_recap": "Account Recap",
-            "account_recap_details": "Weekly Recap of Supporters and Visits for All Your Campaigns"
+            "account_recap_details": "Weekly recap of Supporters and Visits for all your campaigns"
         },
         "package": {
             "free": "Free",
@@ -1456,7 +1482,9 @@
             "name": "Name",
             "login_with_facebook": "Log In with Facebook",
             "login_with_google": "Log In with Google",
-            "signin_with_email": "or sign in with email"
+            "signin_with_email": "or sign in with email",
+            "login_with_apple": "Log In with Apple",
+            "signup_with_apple": "Sign Up with Apple"
         }
     },
     "page_article": {
@@ -1522,7 +1550,7 @@
         "why_report_campaign": "Why are you reporting this campaign?",
         "tell_us_more": "Tell us more",
         "received_report": "We've received your report!",
-        "thankyou": "Thank you! Please allow us to investigate your report, and we will send the feedback to your email as soon as possible.",
+        "thankyou": "Thank you! Please allow us to investigate your report. We will send the feedback to your email as soon as possible.",
         "learn_more_about": "Learn more about the {link}.",
         "community_guideline": "Twibbonize Community Guidelines"
     },
@@ -1596,7 +1624,7 @@
         "confirmation": {
             "cancel": "Cancel",
             "save": "Save",
-            "has_your_frame_been_completed": "Has your frame been completed?",
+            "has_your_frame_been_completed": "Have you completed your design?",
             "once_it_save": "Once it is saved, editing is no longer available",
             "unsaved_changes": "Unsaved Changes",
             "you_have_unsaved_changes": "You have unsaved changes on your design. If you leave now, all unsaved progress will be lost. Are you sure you want to leave?",
@@ -1682,6 +1710,9 @@
             "religious_affiliation": "Religious Affiliation ",
             "sexual_orientation": "Sexual Orientation",
             "spam": "Spam"
+        },
+        "general": {
+            "by_account_name": "by"
         }
     },
     "page_campaign_creation": {
