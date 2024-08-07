@@ -86,7 +86,12 @@
         "campaign": {
             "campaigns": "Kampanie",
             "created": "Utworzony",
-            "supporters": "zwolennik|zwolennicy|zwolennicy|zwolennicy"
+            "supporters": {
+                "one": "zwolennik",
+                "few": "zwolennicy",
+                "many": "zwolennicy",
+                "other": "zwolennicy"
+            }
         },
         "collection": {
             "collections": "Kolekcje",
@@ -120,8 +125,18 @@
             "all_supporters_without_watermark": "Możesz wesprzeć całą kampanię tego Twórcy bez znaku wodnego!"
         },
         "campaign_card": {
-            "a_month_ago": " | | |Miesiąc temu",
-            "a_day_ago": " | | |Dzień temu"
+            "a_month_ago": {
+                "one": "",
+                "few": "",
+                "many": "",
+                "other": "Miesiąc temu"
+            },
+            "a_day_ago": {
+                "one": "",
+                "few": "",
+                "many": "",
+                "other": "Dzień temu"
+            }
         },
         "search": {
             "searching": "Badawczy..."
@@ -141,6 +156,9 @@
         "campaign_supporters": {
             "k": "tys.",
             "m": "mil."
+        },
+        "about": {
+            "our_numbers_mn": ""
         }
     },
     "page_home": {
@@ -969,7 +987,12 @@
         },
         "my_profile": {
             "edit_profile": "Edytuj profil",
-            "campaigns": "Kampania|Kampanie|Kampanie|Kampanie",
+            "campaigns": {
+                "one": "Kampania",
+                "few": "Kampanie",
+                "many": "Kampanie",
+                "other": "Kampanie"
+            },
             "collections": "Kolekcje",
             "posts": "Posty"
         },
@@ -1178,7 +1201,8 @@
             "read_stories": "Przeczytaj historie firm i organizacji, które z powodzeniem wykorzystały naszą platformę do swoich programów kampanii"
         },
         "bento": {
-            "read_success_story": "Przeczytaj historię ich sukcesu"
+            "read_success_story": "Przeczytaj historię ich sukcesu",
+            "more_success_stories": ""
         }
     },
     "page_use_cases": {
