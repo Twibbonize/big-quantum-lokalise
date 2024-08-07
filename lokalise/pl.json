@@ -143,7 +143,7 @@
             "m": "mil."
         },
         "about": {
-            "our_numbers_mn": ""
+            "our_numbers_mn": "mn"
         }
     },
     "page_home": {
@@ -680,7 +680,8 @@
             "suggested": "Sugerowane",
             "instagram_story": "Instagram Story",
             "instagram_post": "Post na Instagramie",
-            "create_design_button": "Utwórz projekt"
+            "create_design_button": "Utwórz projekt",
+            "create_blank_design": "Utwórz pusty projekt"
         },
         "frame_Editor": {
             "or_create_background": "lub stwórz swoje tło teraz"
@@ -804,28 +805,44 @@
             "significant_contributions": "Ci, którzy wnieśli znaczący wkład w nasz rozwój"
         },
         "about": {
-            "fokker_bio_1": "",
-            "fokker_bio_2": "",
-            "bernino_bio_1": "",
-            "bernino_bio_2": "",
-            "mulqan_bio_1": "",
-            "mulqan_bio_2": "",
-            "aditya_bio_1": "",
-            "aditya_bio_2": "",
-            "farhan_bio_1": "",
-            "farhan_bio_2": "",
-            "dominick_bio_1": "",
-            "dominick_bio_2": "",
-            "mahardika_bio_1": "",
-            "mahardika_bio_2": "",
-            "sebastian_bio_1": "",
-            "sebastian_bio_2": "",
-            "helena_bio_1": "",
-            "helena_bio_2": "",
-            "zikri_bio_1": "",
-            "zikri_bio_2": "",
-            "farizky_bio_1": "",
-            "farizky_bio_2": ""
+            "fokker_bio_1": "Fokkerizky ukończył Universitas Indonesia z tytułem magistra ekonomii, ale jego prawdziwą pasją jest inżynieria oprogramowania, projektowanie graficzne i branża startupów. Był zaangażowany w startupy od czasów studiów, ostatecznie współpracując z Mulqanem, założycielem Twibbonize i swoim przyjacielem z dzieciństwa, Bernino.",
+            "fokker_bio_2": "Początkowo pełniąc funkcję dyrektora operacyjnego Twibbonize, Fokkerizky odegrał kluczową rolę w rozwoju produktu, zdobywając zaufanie Mulqana do kierowania zespołem. Po roku udowadniania swoich umiejętności, Fokkerizky objął rolę CEO, gotowy pokierować Twibbonize w stronę sukcesu.",
+            "bernino_bio_1": "Bernino Falya zawsze był osobą ceniącą naukę i technologię. Jako absolwent informatyki, jego pasją są badania i zastosowanie technologii. To doświadczenie przełożyło się na jego styl przywództwa, dzięki czemu Fokkerizky zaufał mu, że stanie się właściwą osobą do rozwijania Twibbonize wraz z nim i Mulqanem.",
+            "bernino_bio_2": "Od samego początku Bernino konsekwentnie przewodzi zespołowi programistów Twibbonize we wdrażaniu innowacji i zapewnianiu naszym użytkownikom płynnej platformy dokładnie odpowiadającej ich potrzebom. Jego poświęcenie i pasja są czymś, co stało się jego urokiem, nie tylko jako jednego z liderów Twibbonize, ale także jako osoby.",
+            "mulqan_bio_1": "Posiadanie wykształcenia informatycznego nie przeszkadza Mulqanowi w byciu pasjonatem biznesu dla większego dobra wszystkich. Jego silna wola i umiejętność rozwiązywania problemów sprawiają, że zawsze jest znany jako osoba z wielką wizją, co zawsze znajduje odzwierciedlenie w jego pracy. ",
+            "mulqan_bio_2": "Mulqan założył Twibbonize, aby pomóc swoim przyjaciołom w masowym generowaniu Twibbonów na wydarzenie w ich kampusie. Po zdobyciu uznania, Mulqan kontynuował rozwój Twibbonize, zanim Fokkerizky w końcu skontaktował się z nim i sprowadził Bernino. Zaczynając jako dyrektor generalny Twibbonize, Mulqan koncentruje się teraz na marketingu Twibbonize dzięki swoim świeżym i kreatywnym pomysłom.",
+            "aditya_bio_1": "Aditya Pradana był pierwszym członkiem zespołu, który dołączył do Twibbonize po Radzie Dyrektorów i odegrał kluczową rolę w rozwoju front-endu firmy. Jego wysoki poziom umiejętności i skrupulatna dbałość o szczegóły sprawiły, że stał się starszym ekspertem w tej dziedzinie, zdobywając głębokie uznanie Twibbonize.",
+            "aditya_bio_2": "Wyluzowana i pełna humoru osobowość Adityi sprawia, że przyjemnie się z nim pracuje, a jednocześnie zachowuje on wysoki poziom profesjonalizmu. Pomimo tego, że jest jedynym programistą frontendowym w Twibbonize, konsekwentnie realizuje projekty szybko i skutecznie, demonstrując poziom zaangażowania, który go wyróżnia.",
+            "farhan_bio_1": "Farhan był jednym z pierwszych członków zespołu, który dołączył do Twibbonize, obok Adityi, po Radzie Dyrektorów. Pomimo tego, że zawsze pracował zdalnie, utrzymywał imponujący poziom wydajności. Jego umiejętności analityczne sprawiają, że jest kluczowym specjalistą w rozwiązywaniu problemów, którą to rolę dzieli z Bernino.",
+            "farhan_bio_2": "Spryt i niezawodność Farhana są niezbędne dla zespołu, dzięki czemu zyskał on reputację osoby, do której należy rozwiązywanie sporów technicznych. Jego konsekwentny wkład i doświadczenie w rozwiązywaniu problemów są bardzo cenione w Twibbonize, co pokazuje, że praca zdalna nie ogranicza jego zdolności do osiągania wyników.",
+            "dominick_bio_1": "Dominick jest jednym z najbardziej wszechstronnych członków zespołu Twibbonize. Zaczynała jako Customer Excellence Officer, a po zaledwie sześciu miesiącach przeniosła się do działu kadr. Po roku pracy w dziale HR kierowała zespołem content marketingu. Ostatnio pomaga zarządowi w sprawach ogólnych i pracach związanych z rozwojem biznesu.",
+            "dominick_bio_2": "Dominick ukończyła studia na Universitas Indonesia na kierunku anglistyka. Pomimo swojego wykształcenia pisarskiego, doskonale radzi sobie w każdej powierzonej jej roli. Jej wszechstronność i pasja do pracy sprawiają, że jest kluczowym atutem zespołu.",
+            "mahardika_bio_1": "Siła Mahardika leży w jego kreatywności i wyjątkowym wyczuciu stylu. Konsekwentnie wprowadza innowacyjne pomysły, które wykraczają poza konwencję. Jego pasja do technologii i sztuki sprawia, że jest wyróżniającym się projektantem. Mahardika ukończył studia z zakresu sztuk pięknych na prywatnym uniwersytecie w Bandung w Indonezji i od tego czasu jest głęboko zaangażowany w świat sztuki.",
+            "mahardika_bio_2": "Obecnie Mahardika jest odpowiedzialny za branding wizualny w Twibbonize. Jego wyrazista osobowość i podejście do projektowania dodają żywego charakteru tożsamości Twibbonize jako firmy i marki.",
+            "sebastian_bio_1": "Sebastian jest jednym z najbardziej zaangażowanych członków zespołu Twibbonize, wyróżniającym się niezwykłą etyką pracy. Od momentu dołączenia do firmy pracuje zdalnie z Rosji, ponieważ jest również w trakcie studiów magisterskich.",
+            "sebastian_bio_2": "Pomimo odległości, Sebastian odgrywa integralną rolę we wspieraniu zapytań użytkowników, rozwiązywaniu problemów we współpracy z zespołem programistów i oferowaniu cennych spostrzeżeń, które poprawiają ogólne wrażenia użytkowników na platformie. Jego szybkie myślenie i umiejętność rozwiązywania problemów sprawiają, że jest nieocenionym atutem Twibbonize.",
+            "helena_bio_1": "Helena jest odpowiedzialna za zapewnienie jakości w Twibbonize od momentu dołączenia do firmy. Jej skrupulatna dbałość o szczegóły, praktyczne podejście i umiejętności organizacyjne pozwoliły jej od samego początku wyróżniać się na tym stanowisku.",
+            "helena_bio_2": "Pomimo pracy zdalnej, Helena szybko identyfikuje i rozwiązuje problemy, które mają wpływ na doświadczenia użytkowników, często zajmując się nimi zanim inni są w ogóle świadomi problemu. Jej profesjonalizm i wysoce analityczny sposób myślenia umożliwiają jej precyzyjną pracę. Proaktywne i niezawodne podejście Heleny sprawia, że jest ona nieocenionym atutem zespołu.",
+            "zikri_bio_1": "Zikri zawsze pasjonował się branżą technologiczną. Podczas studiów aktywnie pełnił rolę asystenta w laboratorium, zdobywając cenne spostrzeżenia i wiedzę od swoich mentorów. Zikri jest bliskim przyjacielem Mulqana i był zaangażowany w Twibbonize od samego początku, jeszcze zanim stała się ona firmą o ugruntowanej pozycji.",
+            "zikri_bio_2": "Po ukończeniu studiów Zikri dołączył do Twibbonize na polecenie Mulqana, początkowo pełniąc funkcję inżyniera backendu. Obecnie ściśle współpracuje z Bernino i pomaga mu w pracach związanych z analizą i prognozowaniem wyników projektów zespołu programistów.",
+            "farizky_bio_1": "Farizky jest odpowiedzialny za cały proces projektowania UX w Twibbonize. Jego pasja do projektowania UX sięga głęboko - jeszcze przed dołączeniem do firmy. W Twibbonize jest zaangażowany w każdy etap rozwoju produktu, od koncepcji po ostateczne wdrożenie.",
+            "farizky_bio_2": "Pochodzący z Yogyakarty w Indonezji, miasta słynącego z dziedzictwa artystycznego, Farizky zawsze był oddany swojej miłości do projektowania i mentoringu. Poza pracą często uczestniczy w społecznościach projektantów UX, gdzie jest mentorem dla młodszych projektantów. Jego zainteresowania obejmują zarówno tworzenie interaktywnych projektów, jak i audyt systemów poprzez kodowanie, co odzwierciedla jego szeroką wiedzę w tej dziedzinie.",
+            "yoga_bio_1": "Yoga jest wyjątkowym programistą fullstack - czarodziejem kodowania. Jest bliskim przyjacielem Mulqana z czasów ich studiów, razem z Zikri, co dało mu wczesny wgląd w Twibbonize, jeszcze zanim stała się firmą.",
+            "yoga_bio_2": "Podobnie jak Zikri, Yoga dołączył do Twibbonize z polecenia Mulqana. Początkowo był młodszym programistą produktu, ale szybko wyróżnił się umiejętnością kodowania i dogłębnym zrozumieniem rozwoju produktu. Zdyscyplinowana etyka pracy Yogi przejawia się w bezbłędnych wynikach, które konsekwentnie osiąga. Jego dążenie do doskonałości sprawiło, że stał się kluczowym czynnikiem przyczyniającym się do sukcesu Twibbonize.",
+            "safira_bio_1": "Safira dołączyła do Twibbonize zaraz po ukończeniu studiów z zakresu księgowości, zdobywając stanowisko w zespole finansowym. Pomimo ograniczonego doświadczenia, szybko wykazała się dużym zrozumieniem ogólnych operacji biurowych, co doprowadziło do jej awansu do nadzorowania HR i spraw ogólnych, oprócz jej roli finansowej.",
+            "safira_bio_2": "Wszechstronność Safiry i dbałość o szczegóły sprawiają, że jest ona kluczowym atutem zespołu. Jej zorganizowane podejście i profesjonalizm zapewniają, że codzienne operacje Twibbonize przebiegają sprawnie. Dzięki umiejętności efektywnego zarządzania wieloma zadaniami, Safira znacząco przyczynia się do sukcesu firmy.",
+            "yoko_bio_1": "Podobnie jak Andar, Yoko nie rozpoczął swojej kariery w branży technologicznej. Ukończył studia z zakresu hotelarstwa na prywatnym uniwersytecie w Dżakarcie w Indonezji i początkowo budował swoją karierę w sektorze hotelarskim, pracując w pięciogwiazdkowych hotelach w Dżakarcie. Jednak po kilku latach postanowił podążać za swoją pasją i przeniósł się do branży technologicznej.",
+            "yoko_bio_2": "Yoko wziął udział w formalnych kursach kodowania, aby przejść do technologii, a następnie zdobył doświadczenie w kilku firmach technologicznych, zanim dołączył do Twibbonize. Jego szybki dowcip i bystry intelekt sprawiają, że przyjemnie się z nim pracuje, dodając zespołowi wspaniałej radości.",
+            "fahmi_bio_1": "Fahmi jest bliskim przyjacielem Bernino; obaj uczęszczali na ten sam uniwersytet i byli aktywnymi członkami tego samego klubu technologicznego. Gdy Twibbonize potrzebowało programisty mobilnego, Bernino bez wahania polecił Fahmiego, wiedząc, jak bardzo jest on wykwalifikowany w tej dziedzinie.",
+            "fahmi_bio_2": "Radosne usposobienie Fahmiego jest tak samo godne uwagi, jak jego wiedza techniczna - jego śmiech jest tak częsty, jak jego wybitna praca. Jednak to jego profesjonalizm i zaangażowanie w jakość naprawdę się wyróżniają. Nawet będąc przez pewien czas jedynym programistą mobilnym, Fahmi konsekwentnie przekraczał oczekiwania, zapewniając doskonałe wyniki.",
+            "chandra_bio_1": "Chandra niedawno dołączył do Twibbonize, podążając śladami Fahmiego, który jest również znajomym Bernino z uniwersytetu. Chandra został zatrudniony, aby pomóc Fahmi w zarządzaniu zwiększonym obciążeniem pracą.",
+            "chandra_bio_2": "Chociaż Chandra jest w zespole dopiero od niedawna, już wykazał się niezwykłą doskonałością. Jest bardzo skoncentrowany na pracy i aktywnie uczestniczy w dyskusjach zespołu, wnosząc cenne spostrzeżenia. Wcześniejsze doświadczenie Chandry w podobnej roli jako programisty mobilnego dało mu solidne podstawy, czyniąc go cennym dodatkiem do zespołu pomimo jego stosunkowo młodego wieku.",
+            "harry_bio_1": "Harry Sugama jest współzałożycielem i doradcą w Twibbonize, gdzie zapewnia strategiczne wskazówki. Doradza również The Asia Group w zakresie rozwoju biznesu i partnerstw międzynarodowych. Wcześniej zarządzał operacjami finansowymi i planowaniem strategicznym jako kierownik ds. finansów i księgowości w Blue Waves Group Ventures.",
+            "harry_bio_2": "Harry ukończył księgowość na Uniwersytecie Padjadjaran i kontynuował studia na Uniwersytecie Ludwig-Maximilians w Monachium. Dzięki doświadczeniu w finansach, strategii biznesowej i komunikacji międzykulturowej jest znany ze swoich umiejętności analitycznych i był kluczem do rozwoju firm, którym doradza, zwłaszcza Twibbonize.",
+            "andar_bio_1": "Andar odgrywa kluczową rolę w zespole Twibbonize. Chociaż rozpoczął pracę w firmie jako Product Manager bez wcześniejszego doświadczenia w tej dziedzinie, jego doświadczenie w marketingu i sprzedaży zapewniło mu cenny wgląd w potrzeby klientów i trendy rynkowe.",
+            "andar_bio_2": "Pomimo ograniczonego doświadczenia w zarządzaniu produktami, zaangażowanie Andara w naukę i rozwój osobisty jest niezwykłe. Aktywnie poszukuje dodatkowych kursów i szkoleń, aby poszerzyć swój zestaw umiejętności, wykazując silne dążenie do poprawy. To proaktywne podejście pozwoliło mu szybko osiągnąć sukces jako menedżer produktu.",
+            "angel_bio_1": "Angel jest niezależnym UX Writerem, który pomagał nam w rozwoju naszej strony internetowej od wersji 2.0 Twibbonize. Dzięki solidnemu doświadczeniu zawodowemu w pisaniu tekstów UX, Angel płynnie łączy sztukę opowiadania historii ze spostrzeżeniami opartymi na danych, aby tworzyć intuicyjne i angażujące doświadczenia użytkowników.",
+            "angel_bio_2": "Jej doświadczenie w tworzeniu jasnych i zwięzłych treści zapewnia, że każda interakcja jest znacząca i dostępna, poprawiając ogólną podróż użytkownika na naszej platformie."
         }
     },
     "page_pricing": {
@@ -1206,7 +1223,7 @@
         },
         "bento": {
             "read_success_story": "Przeczytaj historię ich sukcesu",
-            "more_success_stories": ""
+            "more_success_stories": "Więcej historii sukcesu"
         }
     },
     "page_use_cases": {
@@ -1647,7 +1664,8 @@
             "image_template": "Zdjęcie: {name} ",
             "image_template_1": "na",
             "edit_image": "Edytuj obraz",
-            "image_template_2": "Unsplash"
+            "image_template_2": "Unsplash",
+            "image": "Obraz"
         },
         "error": {
             "minimum_dimension": "Wymiary muszą wynosić co najmniej 100 pikseli i nie więcej niż 8000 pikseli."
@@ -1669,7 +1687,8 @@
             "colors": "Kolory",
             "document_colors": "Kolory dokumentów",
             "default_colors": "Kolory domyślne"
-        }
+        },
+        "graphic:graphic": "Grafika"
     },
     "page__campaign_creation": {
         "campaign_preview": {
