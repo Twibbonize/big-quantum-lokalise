@@ -71,7 +71,8 @@
             "send": "Gửi",
             "more": "Hơn",
             "less": "Ít hơn",
-            "submit": "Nộp"
+            "submit": "Nộp",
+            "get_started": "Bắt đầu"
         },
         "time": {
             "week": "Tuần",
@@ -85,7 +86,9 @@
         "campaign": {
             "campaigns": "Chiến dịch",
             "created": "Tạo",
-            "supporters": "người ủng hộ|người ủng hộ|người ủng hộ"
+            "supporters": {
+                "other": "người ủng hộ"
+            }
         },
         "collection": {
             "collections": "Bộ sưu tập",
@@ -113,14 +116,18 @@
             "unhide_post": "Bỏ ẩn bài đăng"
         },
         "pricing": {
-            "creator_subscribe_to": "Người sáng tạo này đã đăng ký",
+            "creator_subscribe_to": "Người sáng tạo này đăng ký ",
             "plan": "kế hoạch",
             "support_without_watermark": "Họ có thể hỗ trợ bất kỳ chiến dịch nào mà không có hình mờ!",
             "all_supporters_without_watermark": "Bạn có thể ủng hộ tất cả chiến dịch này của Người sáng tạo mà không cần có hình mờ!"
         },
         "campaign_card": {
-            "a_month_ago": "Một tháng trước",
-            "a_day_ago": "Một ngày trước"
+            "a_month_ago": {
+                "other": "Một tháng trước"
+            },
+            "a_day_ago": {
+                "other": "Một ngày trước"
+            }
         },
         "search": {
             "searching": "Đang tìm kiếm..."
@@ -140,6 +147,9 @@
         "campaign_supporters": {
             "k": "ngàn",
             "m": "triệu"
+        },
+        "about": {
+            "our_numbers_mn": ""
         }
     },
     "page_home": {
@@ -369,7 +379,7 @@
             "blur": "Mơ hồ",
             "shadow": "Bóng tối",
             "twibbon_success": "Đã tải xuống",
-            "write_your_caption": ""
+            "write_your_caption": "Viết chú thích của bạn..."
         },
         "report": {
             "report_campaign": "Báo cáo chiến dịch",
@@ -425,7 +435,7 @@
             "violent_graphic_content": "Nội dung đồ họa bạo lực",
             "harassment_cyberbullying": "Quấy rối & Bắt nạt trên mạng",
             "proactive_threatening_content": "Nội dung khiêu khích và đe dọa",
-            "statement": "Nguyên tắc cộng đồng của Twibbonize bảo vệ quyền riêng tư về danh tính của người báo cáo.",
+            "statement": "Hướng dẫn Cộng đồng Twibbonize bảo vệ quyền riêng tư của danh tính người báo cáo.",
             "read_more_copy": "Đọc thêm",
             "please_select_one": "Vui lòng chọn một",
             "write_a_message": "Viết tin nhắn",
@@ -511,7 +521,6 @@
         },
         "checkout": {
             "upgrade_to": "Nâng cấp lên {plan}",
-            "gather_your_supports": "Tập hợp những người ủng hộ bạn và mở rộng quy mô chiến dịch của bạn bằng các tính năng độc quyền của chúng tôi",
             "billing_option": "Tùy chọn thanh toán",
             "details": "Chi tiết",
             "user": "Người dùng",
@@ -535,6 +544,9 @@
             "downgrade_active": "Nó sẽ hoạt động sau khi đăng ký hiện tại của bạn kết thúc",
             "back_to_plans": "Mặt sau"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "Tập hợp những người ủng hộ bạn và mở rộng quy mô chiến dịch của bạn bằng các tính năng độc quyền của chúng tôi"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +562,9 @@
             "ad_free_title": "Quảng cáo miễn phí",
             "campaign_addon": "Tiện ích chiến dịch",
             "on": "TRÊN"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": "Hỗ trợ thuận tiện cho các chiến dịch với những lợi ích đặc biệt của chúng tôi"
         }
     },
     "page_collection": {
@@ -670,10 +685,15 @@
         "blank_design": {
             "suggested": "được đề xuất",
             "instagram_story": "Câu chuyện trên Instagram",
-            "instagram_post": "Bài Đăng Instagram"
+            "instagram_post": "Bài Đăng Instagram",
+            "create_design_button": "Tạo thiết kế"
         },
         "frame_Editor": {
             "or_create_background": "hoặc tạo nền của bạn ngay bây giờ"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "Bạn muốn tạo ra cái gì?",
+            "what_do_you_want_to_create_desc": "Thêm gia vị cho trò chơi chiến dịch trực tuyến của bạn, không chỉ bằng khung hình mà còn bằng hình nền sáng tạo"
         }
     },
     "page_for_creators": {
@@ -716,8 +736,8 @@
             "spice_up": "Hãy tô điểm thêm cho trò chơi chiến dịch trực tuyến của bạn, không chỉ bằng khung hình mà còn bằng hình nền sáng tạo",
             "the_og_twibbon": "Twibbon nguyên bản; một khung được đặt trên bức ảnh của bạn",
             "a_fresh_variation": "Một biến thể mới của Twibbon dùng làm nền cho bức ảnh của bạn",
-            "frame_twibbon": "Khung Twibbon",
-            "backround_twibbon": "Twibbon nền "
+            "frame_twibbon": "Twibbon có khung",
+            "backround_twibbon": "Twibbon có nền"
         },
         "tilt": {
             "get_it_ready": "Chuẩn bị sẵn sàng bất cứ lúc nào với Twibbon Editor tích hợp của chúng tôi",
@@ -788,6 +808,19 @@
         "honorary": {
             "honorary_mentions": "Đề cập danh dự",
             "significant_contributions": "Những người có đóng góp đáng kể cho sự phát triển của chúng tôi"
+        },
+        "about": {
+            "fokker_bio_1": "",
+            "fokker_bio_2": "",
+            "bernino_bio_1": "",
+            "bernino_bio_2": "",
+            "mulqan_bio_1": "",
+            "mulqan_bio_2": "",
+            "aditya_bio_1": "",
+            "aditya_bio_2": "",
+            "farhan_bio_1": "",
+            "farhan_bio_2": "",
+            "dominick_bio_1": ""
         }
     },
     "page_pricing": {
@@ -873,10 +906,8 @@
             "ending_in": "{card} kết thúc bằng {number}"
         },
         "bento": {
-            "campaign_analytics_1": "Chiến dịch",
-            "campaign_analytics_2": "Phân tích",
-            "private_campaign_1": "Riêng tư",
-            "private_campaign_2": "Chiến dịch",
+            "campaign_analytics": "Phân tích chiến dịch",
+            "private_campaign": "Chiến dịch riêng tư",
             "campaign_customization_1": "Tùy chỉnh",
             "campaign_customization_2": "chiến dịch",
             "multiple_frames_1": "Nhiều khung hình",
@@ -890,7 +921,8 @@
             "remove_own_watermark_1": "Xóa hình mờ",
             "on": "trên",
             "remove_own_watermark_2": "tài khoản của riêng bạn",
-            "extra_features": "Tính năng bổ sung"
+            "extra_features": "Tính năng bổ sung",
+            "campaign_customization": "Tùy chỉnh chiến dịch"
         },
         "modal": {
             "congratulation": "Xin chúc mừng!",
@@ -959,7 +991,9 @@
         },
         "my_profile": {
             "edit_profile": "Chỉnh sửa hồ sơ",
-            "campaigns": "Chiến dịch",
+            "campaigns": {
+                "other": "Chiến dịch"
+            },
             "collections": "Bộ sưu tập",
             "posts": "bài viết"
         },
@@ -1129,16 +1163,16 @@
             "campaign_milestone": "Cột mốc chiến dịch",
             "milestone_details": "Bạn sẽ được thông báo về mọi tiến triển trong thành tích chiến dịch.",
             "comment": "Bình luận",
-            "comment_details": "Nhận thông báo về nhận xét của người ủng hộ trên trang chiến dịch.",
+            "comment_details": "Nhận thông báo về nhận xét của người ủng hộ trên trang chiến dịch",
             "trending_campaign": "Chiến dịch thịnh hành",
-            "trending_details": "Nhận thông báo về các chiến dịch thịnh hành trong khu vực của bạn.",
+            "trending_details": "Nhận thông báo về các chiến dịch thịnh hành trong khu vực của bạn",
             "whats_new": "Có gì mới",
-            "whats_new_details": "Nhận bản cập nhật mới nhất của sản phẩm của chúng tôi trên phiên bản web và ứng dụng.",
+            "whats_new_details": "Nhận bản cập nhật mới nhất của sản phẩm của chúng tôi trên phiên bản web và ứng dụng",
             "article": "Bài viết",
-            "article_details": "Bạn sẽ nhận được các bài viết được đề xuất của chúng tôi.",
+            "article_details": "Bạn sẽ nhận được các bài viết được đề xuất của chúng tôi",
             "toggle_all": "Tất cả",
             "post_twibbonize": "Đăng lên Twibbonize",
-            "post_twibbonize_details": "Nhận thông báo bài đăng của người ủng hộ hệ điều hành trên trang chiến dịch.",
+            "post_twibbonize_details": "Nhận thông báo bài đăng của người ủng hộ hệ điều hành trên trang chiến dịch",
             "account_recap": "Tóm tắt tài khoản",
             "account_recap_details": "Bản tóm tắt hàng tuần về số người ủng hộ và lượt truy cập cho tất cả các chiến dịch của bạn"
         },
@@ -1168,7 +1202,8 @@
             "read_stories": "Đọc câu chuyện từ các công ty và tổ chức đã sử dụng thành công nền tảng của chúng tôi cho các chương trình chiến dịch của họ"
         },
         "bento": {
-            "read_success_story": "Đọc câu chuyện thành công của họ"
+            "read_success_story": "Đọc câu chuyện thành công của họ",
+            "more_success_stories": ""
         }
     },
     "page_use_cases": {
@@ -1456,7 +1491,9 @@
             "name": "Tên",
             "login_with_facebook": "Đăng nhập Facebook",
             "login_with_google": "Đăng nhập bằng Google",
-            "signin_with_email": "hoặc đăng nhập bằng email"
+            "signin_with_email": "hoặc đăng nhập bằng email",
+            "login_with_apple": "Đăng nhập bằng Apple",
+            "signup_with_apple": "Đăng ký với Apple"
         }
     },
     "page_article": {
@@ -1590,6 +1627,7 @@
             "letter_spacing": "Khoảng cách chữ",
             "line_spacing": "Khoảng cách dòng",
             "border_weight": "Độ dày đường viền",
+            "corner_rounding": "Làm tròn góc",
             "align": "Căn chỉnh",
             "effects": "Hiệu ứng"
         },
@@ -1669,7 +1707,7 @@
             "harassment": "Quấy rối",
             "terrorism": "chủ nghĩa khủng bố",
             "violence": "Bạo lực",
-            "false_information": "",
+            "false_information": "Thông tin sai",
             "health": "Sức khỏe",
             "politics": "Chính trị",
             "social_issue": "Vấn đề xã hội",
@@ -1682,6 +1720,9 @@
             "religious_affiliation": "Tôn giáo ",
             "sexual_orientation": "Xu hướng tình dục",
             "spam": "Thư rác"
+        },
+        "general": {
+            "by_account_name": "qua"
         }
     },
     "page_campaign_creation": {
@@ -1691,6 +1732,7 @@
     },
     "page_login_app": {
         "failed_google_login": "Không thể thực hiện đăng nhập Google",
+        "failed_facebook_login": "Không thực hiện được việc đăng nhập Facebook",
         "failed_apple_login": "Không thể thực hiện đăng nhập Apple"
     },
     "error_messages": {

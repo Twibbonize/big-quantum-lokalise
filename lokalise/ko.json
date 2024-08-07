@@ -71,7 +71,8 @@
             "send": "보내다",
             "more": "더",
             "less": "더 적은",
-            "submit": "제출하다"
+            "submit": "제출하다",
+            "get_started": "시작하기"
         },
         "time": {
             "week": "주",
@@ -85,7 +86,9 @@
         "campaign": {
             "campaigns": "캠페인",
             "created": "생성됨",
-            "supporters": "지지자|후원자|후원자"
+            "supporters": {
+                "other": "후원자"
+            }
         },
         "collection": {
             "collections": "컬렉션",
@@ -113,14 +116,18 @@
             "unhide_post": "게시물 숨기기 해제"
         },
         "pricing": {
-            "creator_subscribe_to": "이 크리에이터는 다음을 구독하고 있습니다.",
+            "creator_subscribe_to": "이 크리에이터는 다음을 구독합니다. ",
             "plan": "계획",
             "support_without_watermark": "워터마크 없이 어떤 캠페인도 지원할 수 있습니다!",
             "all_supporters_without_watermark": "워터마크 없이도 이 크리에이터의 모든 캠페인을 후원하실 수 있습니다!"
         },
         "campaign_card": {
-            "a_month_ago": "한 달 전",
-            "a_day_ago": "하루 전"
+            "a_month_ago": {
+                "other": "한 달 전"
+            },
+            "a_day_ago": {
+                "other": "하루 전"
+            }
         },
         "search": {
             "searching": "수색..."
@@ -140,6 +147,9 @@
         "campaign_supporters": {
             "k": "천",
             "m": "백만"
+        },
+        "about": {
+            "our_numbers_mn": ""
         }
     },
     "page_home": {
@@ -369,7 +379,7 @@
             "blur": "블러",
             "shadow": "그림자",
             "twibbon_success": "다운로드",
-            "write_your_caption": "툴리스칸 페산에 대한 자세한 내용은..."
+            "write_your_caption": "캡션을 작성하세요..."
         },
         "report": {
             "report_campaign": "신고 캠페인",
@@ -425,7 +435,7 @@
             "violent_graphic_content": "폭력적인 그래픽 콘텐츠",
             "harassment_cyberbullying": "괴롭힘 및 사이버 괴롭힘",
             "proactive_threatening_content": "도발적이고 위협적인 콘텐츠",
-            "statement": "트위본라이즈 커뮤니티 가이드라인은 리포터의 신원을 보호합니다.",
+            "statement": "Twibbonize 커뮤니티 가이드라인은 신고자의 신원 보호를 위해 마련되었습니다.",
             "read_more_copy": "자세히 보기",
             "please_select_one": "하나를 선택해 주세요.",
             "write_a_message": "메시지 작성",
@@ -511,7 +521,6 @@
         },
         "checkout": {
             "upgrade_to": "다음으로 업그레이드 {plan}",
-            "gather_your_supports": "독점 기능으로 지지자를 모으고 캠페인을 확장하세요",
             "billing_option": "청구 옵션",
             "details": "세부 정보",
             "user": "사용자",
@@ -535,6 +544,9 @@
             "downgrade_active": "현재 구독이 종료되면 활성화됩니다.",
             "back_to_plans": "뒤쪽에"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "독점 기능으로 지지자를 모으고 캠페인을 확장하세요"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +562,9 @@
             "ad_free_title": "광고 없음",
             "campaign_addon": "캠페인 애드온",
             "on": "~에"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": "특별 혜택으로 캠페인을 편리하게 지원하세요."
         }
     },
     "page_collection": {
@@ -670,10 +685,15 @@
         "blank_design": {
             "suggested": "추천",
             "instagram_story": "인스타그램 스토리",
-            "instagram_post": "인스타그램 게시물"
+            "instagram_post": "인스타그램 게시물",
+            "create_design_button": "디자인 만들기"
         },
         "frame_Editor": {
             "or_create_background": "또는 지금 배경 만들기"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "무엇을 만들고 싶으신가요?",
+            "what_do_you_want_to_create_desc": "프레임뿐만 아니라 창의적인 배경으로 온라인 캠페인 게임에 활기를 불어넣으세요."
         }
     },
     "page_for_creators": {
@@ -716,8 +736,8 @@
             "spice_up": "프레임뿐만 아니라 창의적인 배경으로 온라인 캠페인 게임에 활기를 불어넣으세요.",
             "the_og_twibbon": "오리지널 트위본; 사진 위에 놓는 액자",
             "a_fresh_variation": "사진의 배경이 되는 트위본의 새로운 변형 기능",
-            "frame_twibbon": "프레임 트위본",
-            "backround_twibbon": "배경 트위본 "
+            "frame_twibbon": "프레임 Twibbon",
+            "backround_twibbon": "배경 Twibbon"
         },
         "tilt": {
             "get_it_ready": "내장된 Twibbon Editor로 언제든 준비하세요.",
@@ -788,6 +808,19 @@
         "honorary": {
             "honorary_mentions": "명예 언급",
             "significant_contributions": "당사 발전에 크게 기여한 분들"
+        },
+        "about": {
+            "fokker_bio_1": "",
+            "fokker_bio_2": "",
+            "bernino_bio_1": "",
+            "bernino_bio_2": "",
+            "mulqan_bio_1": "",
+            "mulqan_bio_2": "",
+            "aditya_bio_1": "",
+            "aditya_bio_2": "",
+            "farhan_bio_1": "",
+            "farhan_bio_2": "",
+            "dominick_bio_1": ""
         }
     },
     "page_pricing": {
@@ -873,10 +906,8 @@
             "ending_in": "{number} )로 끝나는 {card}"
         },
         "bento": {
-            "campaign_analytics_1": "캠페인",
-            "campaign_analytics_2": "분석",
-            "private_campaign_1": "비공개",
-            "private_campaign_2": "캠페인",
+            "campaign_analytics": "캠페인 분석",
+            "private_campaign": "비공개 캠페인",
             "campaign_customization_1": "캠페인",
             "campaign_customization_2": "사용자 지정",
             "multiple_frames_1": "캠페인당",
@@ -890,7 +921,8 @@
             "remove_own_watermark_1": "워터마크 제거",
             "on": "on",
             "remove_own_watermark_2": "자신의 계정",
-            "extra_features": "추가 기능"
+            "extra_features": "추가 기능",
+            "campaign_customization": "캠페인 사용자 지정"
         },
         "modal": {
             "congratulation": "축하합니다!",
@@ -959,7 +991,9 @@
         },
         "my_profile": {
             "edit_profile": "프로필 수정",
-            "campaigns": "캠페인",
+            "campaigns": {
+                "other": "캠페인"
+            },
             "collections": "컬렉션",
             "posts": "게시물"
         },
@@ -1087,7 +1121,7 @@
             "old_password": "이전 비밀번호",
             "new_password": "새 비밀번호",
             "update_password": "비밀번호 업데이트",
-            "social_media_connects": "소셜 미디어 연결",
+            "social_media_connects": "소셜 미디어와 연결",
             "facebook": "Facebook",
             "google": "Google",
             "apple": "Apple",
@@ -1097,7 +1131,7 @@
             "update_email_button": "이메일 업데이트",
             "not_connected": "연결되지 않음",
             "deleting_account": "계정 삭제하기",
-            "permanent_delete": "Twibbonize의 계정, 캠페인 및 활동은 영구적으로 삭제됩니다.",
+            "permanent_delete": "Twibbonize의 계정, 캠페인, 및 활동은 영구적으로 삭제됩니다.",
             "type_to_confirm": "{username} 입력하여 확인",
             "input_password": "여기에 비밀번호 입력",
             "for_security_input_password": "보안상의 이유로 비밀번호를 입력하세요.",
@@ -1127,18 +1161,18 @@
             "email": "이메일",
             "push": "Push",
             "campaign_milestone": "캠페인 마일스톤",
-            "milestone_details": "캠페인 업적의 모든 진행 상황에 대한 알림을 받게 됩니다.",
+            "milestone_details": "캠페인 업적의 모든 진행 상황에 대한 알림을 받게 됩니다",
             "comment": "댓글",
-            "comment_details": "캠페인 페이지에서 서포터가 댓글을 달면 알림을 받습니다.",
+            "comment_details": "캠페인 페이지에서 서포터가 댓글을 달면 알림을 받습니다",
             "trending_campaign": "트렌드 캠페인",
-            "trending_details": "해당 지역의 인기 캠페인에 대한 알림을 받아보세요.",
+            "trending_details": "해당 지역의 인기 캠페인에 대한 알림을 받아보세요",
             "whats_new": "새로운 기능",
-            "whats_new_details": "웹 및 앱 버전에서 최신 제품 업데이트를 받아보세요.",
+            "whats_new_details": "웹 및 앱 버전에서 최신 제품 업데이트를 받아보세요",
             "article": "기사",
-            "article_details": "추천 기사를 받아보실 수 있습니다.",
+            "article_details": "추천 기사를 받아보실 수 있습니다",
             "toggle_all": "모두",
             "post_twibbonize": "Twibbonize에 게시",
-            "post_twibbonize_details": "캠페인 페이지에서 지지자의 게시물에 대한 알림을 받으세요.",
+            "post_twibbonize_details": "캠페인 페이지에서 지지자의 게시물에 대한 알림을 받으세요",
             "account_recap": "계정 요약",
             "account_recap_details": "모든 캠페인에 대한 지지자 및 방문에 대한 주간 요약"
         },
@@ -1168,7 +1202,8 @@
             "read_stories": "캠페인 프로그램에 Facebook 플랫폼을 성공적으로 활용한 기업 및 단체의 사례를 읽어보세요"
         },
         "bento": {
-            "read_success_story": "성공 사례 읽기"
+            "read_success_story": "성공 사례 읽기",
+            "more_success_stories": ""
         }
     },
     "page_use_cases": {
@@ -1456,7 +1491,9 @@
             "name": "이름",
             "login_with_facebook": "페이스북으로 로그인",
             "login_with_google": "구글로 로그인",
-            "signin_with_email": "또는 이메일로 로그인"
+            "signin_with_email": "또는 이메일로 로그인",
+            "login_with_apple": "Apple로 로그인",
+            "signup_with_apple": "Apple로 가입하기"
         }
     },
     "page_article": {
@@ -1590,6 +1627,7 @@
             "letter_spacing": "문자 간격",
             "line_spacing": "줄 간격",
             "border_weight": "테두리 가중치",
+            "corner_rounding": "코너 라운딩",
             "align": "정렬",
             "effects": "효과"
         },
@@ -1669,7 +1707,7 @@
             "harassment": "괴롭힘",
             "terrorism": "테러리즘",
             "violence": "폭력",
-            "false_information": "",
+            "false_information": "허위정보",
             "health": "건강",
             "politics": "정치",
             "social_issue": "사회적 이슈",
@@ -1682,6 +1720,9 @@
             "religious_affiliation": "종교적 소속 ",
             "sexual_orientation": "성적 취향",
             "spam": "스팸"
+        },
+        "general": {
+            "by_account_name": "by"
         }
     },
     "page_campaign_creation": {
@@ -1691,6 +1732,7 @@
     },
     "page_login_app": {
         "failed_google_login": "Google 로그인을 수행하지 못했습니다.",
+        "failed_facebook_login": "Facebook 로그인에 실패했습니다.",
         "failed_apple_login": "Apple 로그인에 실패했습니다."
     },
     "error_messages": {

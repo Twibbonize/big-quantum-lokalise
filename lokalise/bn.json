@@ -71,7 +71,8 @@
             "send": "পাঠান",
             "more": "আরও",
             "less": "কম",
-            "submit": "জমা দিন"
+            "submit": "জমা দিন",
+            "get_started": "এবার শুরু করা যাক"
         },
         "time": {
             "week": "সপ্তাহ",
@@ -85,7 +86,10 @@
         "campaign": {
             "campaigns": "প্রচারণা",
             "created": "তৈরি হয়েছে",
-            "supporters": "সমর্থক|সমর্থক|সমর্থক"
+            "supporters": {
+                "one": "সমর্থক",
+                "other": "সমর্থক"
+            }
         },
         "collection": {
             "collections": "সংগ্রহ",
@@ -113,14 +117,20 @@
             "unhide_post": "পোস্ট দেখান"
         },
         "pricing": {
-            "creator_subscribe_to": "এই স্রষ্টার সদস্যতা আছে",
+            "creator_subscribe_to": "এই সৃষ্টিকর্তা সদস্যতা ",
             "plan": "পরিকল্পনা",
             "support_without_watermark": "জলছাপ ছাড়া যেকোনো প্রচারণায় তারা সমর্থন দিতে পারে!",
             "all_supporters_without_watermark": "আপনি জলছাপ ছাড়া এই সৃষ্টিকর্তার প্রচারাভিযান সব সমর্থন করতে পারেন!"
         },
         "campaign_card": {
-            "a_month_ago": " |এক মাস আগে",
-            "a_day_ago": " |একদিন আগে"
+            "a_month_ago": {
+                "one": "",
+                "other": "এক মাস আগে"
+            },
+            "a_day_ago": {
+                "one": "",
+                "other": "একদিন আগে"
+            }
         },
         "search": {
             "searching": "অনুসন্ধান করা হচ্ছে..."
@@ -140,6 +150,9 @@
         "campaign_supporters": {
             "k": "হা.",
             "m": "মি."
+        },
+        "about": {
+            "our_numbers_mn": ""
         }
     },
     "page_home": {
@@ -369,7 +382,7 @@
             "blur": "ঝাপসা",
             "shadow": "ছায়া",
             "twibbon_success": "ডাউনলোড করা হয়েছে",
-            "write_your_caption": ""
+            "write_your_caption": "আপনার ক্যাপশন লিখুন..."
         },
         "report": {
             "report_campaign": "প্রচার প্রচারণা",
@@ -425,7 +438,7 @@
             "violent_graphic_content": "হিংসাত্মক গ্রাফিক সামগ্রী",
             "harassment_cyberbullying": "হয়রানি এবং সাইবার বুলিং",
             "proactive_threatening_content": "উস্কানিমূলক এবং হুমকিমূলক বিষয়বস্তু",
-            "statement": "Twibbonize সম্প্রদায় নির্দেশিকা রিপোর্টারের পরিচয় গোপনীয়তা রক্ষা করে.",
+            "statement": "Twibbonize কমিউনিটি নির্দেশিকা রিপোর্টারের পরিচয়ের গোপনীয়তা রক্ষা করে।",
             "read_more_copy": "আরও পড়ুন",
             "please_select_one": "অনুগ্রহপূর্বক একটা নির্বাচন করুন",
             "write_a_message": "একটা বার্তা লিখুন",
@@ -511,7 +524,6 @@
         },
         "checkout": {
             "upgrade_to": "{plan} -এ আপগ্রেড করুন",
-            "gather_your_supports": "আপনার সমর্থকদের জড়ো করুন এবং আমাদের একচেটিয়া বৈশিষ্ট্যের সাথে আপনার ক্যাম্পেইন বাড়ান।",
             "billing_option": "বিলিং বিকল্প",
             "details": "বিস্তারিত",
             "user": "ব্যবহারকারী",
@@ -535,6 +547,9 @@
             "downgrade_active": "আপনার বর্তমান সদস্যতা শেষ হয়ে গেলে এটি সক্রিয় হবে",
             "back_to_plans": "পেছনে"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "আপনার সমর্থকদের জড়ো করুন এবং আমাদের একচেটিয়া বৈশিষ্ট্যের সাথে আপনার ক্যাম্পেইন বাড়ান।"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +565,9 @@
             "ad_free_title": "বিজ্ঞাপন মুক্ত",
             "campaign_addon": "ক্যাম্পেইন অ্যাডন",
             "on": "চালু"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": "আমাদের বিশেষ সুবিধা সহ প্রচারাভিযানকে সুবিধামত সমর্থন করুন"
         }
     },
     "page_collection": {
@@ -670,10 +688,15 @@
         "blank_design": {
             "suggested": "প্রস্তাবিত",
             "instagram_story": "ইনস্টাগ্রামের গল্প",
-            "instagram_post": "ইনস্টাগ্রাম পোস্ট"
+            "instagram_post": "ইনস্টাগ্রাম পোস্ট",
+            "create_design_button": "ডিজাইন তৈরি করুন"
         },
         "frame_Editor": {
             "or_create_background": "অথবা এখন আপনার ব্যাকগ্রাউন্ড তৈরি করুন"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "আপনি কি তৈরি করতে চান?",
+            "what_do_you_want_to_create_desc": "শুধুমাত্র একটি ফ্রেম নয়, সৃজনশীল ব্যাকগ্রাউন্ডের মাধ্যমেও আপনার অনলাইন প্রচারাভিযানের খেলাকে মশলাদার করুন৷"
         }
     },
     "page_for_creators": {
@@ -717,7 +740,7 @@
             "the_og_twibbon": "অরিজিনাল টুইবন; একটি ফ্রেম যা আপনার ছবির উপর স্থাপন করা হয়েছে",
             "a_fresh_variation": "Twibbon এর একটি তাজা বৈচিত্র যা আপনার ছবির পটভূমি হিসাবে জাহির করে",
             "frame_twibbon": "ফ্রেম Twibbon",
-            "backround_twibbon": "পটভূমি Twibbon "
+            "backround_twibbon": "পটভূমি Twibbon"
         },
         "tilt": {
             "get_it_ready": "আমাদের অন্তর্নির্মিত Twibbon Editor-এর সাথে যে কোনো সময় এটি প্রস্তুত করুন",
@@ -788,6 +811,19 @@
         "honorary": {
             "honorary_mentions": "সম্মানসূচক উল্লেখ",
             "significant_contributions": "যারা আমাদের উন্নয়নে গুরুত্বপূর্ণ অবদান রেখেছেন"
+        },
+        "about": {
+            "fokker_bio_1": "",
+            "fokker_bio_2": "",
+            "bernino_bio_1": "",
+            "bernino_bio_2": "",
+            "mulqan_bio_1": "",
+            "mulqan_bio_2": "",
+            "aditya_bio_1": "",
+            "aditya_bio_2": "",
+            "farhan_bio_1": "",
+            "farhan_bio_2": "",
+            "dominick_bio_1": ""
         }
     },
     "page_pricing": {
@@ -873,10 +909,8 @@
             "ending_in": "{card} শেষ হচ্ছে {number} দিয়ে"
         },
         "bento": {
-            "campaign_analytics_1": "প্রচারণা",
-            "campaign_analytics_2": "বিশ্লেষণ",
-            "private_campaign_1": "ব্যক্তিগত",
-            "private_campaign_2": "প্রচারণা",
+            "campaign_analytics": "প্রচারাভিযান বিশ্লেষণ",
+            "private_campaign": "ব্যক্তিগত প্রচারণা",
             "campaign_customization_1": "ক্যাম্পেইন",
             "campaign_customization_2": "কাস্টমাইজেশন",
             "multiple_frames_1": "ক্যাম্পেইন প্রতি",
@@ -890,7 +924,8 @@
             "remove_own_watermark_1": "আপনার নিজের অ্যাকাউন্ট থেকে",
             "on": "চালু",
             "remove_own_watermark_2": "ওয়াটারমার্ক সরান",
-            "extra_features": "অতিরিক্ত সুবিধাগুলি"
+            "extra_features": "অতিরিক্ত সুবিধাগুলি",
+            "campaign_customization": "ক্যাম্পেইন কাস্টমাইজেশন"
         },
         "modal": {
             "congratulation": "অভিনন্দন!",
@@ -959,7 +994,10 @@
         },
         "my_profile": {
             "edit_profile": "জীবন বৃত্তান্ত সম্পাদনা",
-            "campaigns": "প্রচারণা",
+            "campaigns": {
+                "one": "প্রচারণা",
+                "other": "প্রচারণা"
+            },
             "collections": "সংগ্রহ",
             "posts": "পোস্ট"
         },
@@ -1123,7 +1161,7 @@
         },
         "notifications": {
             "notifications_settings": "বিজ্ঞপ্তি সেটিংস",
-            "pick_notifications": "আপনি Push বা ইমেলের মাধ্যমে যে বিজ্ঞপ্তিগুলি পেতে চান তা চয়ন করুন৷ এই পছন্দগুলি শুধুমাত্র পুশ এবং ইমেলের ক্ষেত্রে প্রযোজ্য।",
+            "pick_notifications": "আপনি Push বা ইমেলের মাধ্যমে যে বিজ্ঞপ্তিগুলি পেতে চান তা চয়ন করুন৷ এই পছন্দগুলি শুধুমাত্র পুশ এবং ইমেলের ক্ষেত্রে প্রযোজ্য।.",
             "email": "ইমেইল",
             "push": "Push",
             "campaign_milestone": "প্রচারের মাইলফলক",
@@ -1135,7 +1173,7 @@
             "whats_new": "নতুন কি",
             "whats_new_details": "ওয়েব এবং অ্যাপ সংস্করণে আমাদের পণ্যের সর্বশেষ আপডেট পান।",
             "article": "প্রবন্ধ",
-            "article_details": "আপনি আমাদের প্রস্তাবিত নিবন্ধ পাবেন.",
+            "article_details": "আপনি আমাদের প্রস্তাবিত নিবন্ধ পাবেন",
             "toggle_all": "সব",
             "post_twibbonize": "Twibbonize পোস্ট করুন",
             "post_twibbonize_details": "প্রচারাভিযানের পৃষ্ঠায় সমর্থকের পোস্টের বিজ্ঞপ্তি পান।",
@@ -1168,7 +1206,8 @@
             "read_stories": "কোম্পানি এবং সংস্থার গল্প পড়ুন যারা সফলভাবে তাদের ক্যাম্পেইন প্রোগ্রামের জন্য আমাদের প্ল্যাটফর্ম ব্যবহার করেছে।"
         },
         "bento": {
-            "read_success_story": "তাদের সাফল্যের গল্প পড়ুন"
+            "read_success_story": "তাদের সাফল্যের গল্প পড়ুন",
+            "more_success_stories": ""
         }
     },
     "page_use_cases": {
@@ -1456,7 +1495,9 @@
             "name": "নাম",
             "login_with_facebook": "Facebook দিয়ে লগ ইন করুন",
             "login_with_google": "গুগল দিয়ে লগ ইন করুন",
-            "signin_with_email": "অথবা ইমেইল দিয়ে সাইন ইন করুন"
+            "signin_with_email": "অথবা ইমেইল দিয়ে সাইন ইন করুন",
+            "login_with_apple": "অ্যাপল দিয়ে লগ ইন করুন",
+            "signup_with_apple": "অ্যাপলের সাথে সাইন আপ করুন"
         }
     },
     "page_article": {
@@ -1590,6 +1631,7 @@
             "letter_spacing": "অক্ষর ব্যবধান",
             "line_spacing": "লাইন ব্যবধান",
             "border_weight": "বর্ডার ওজন",
+            "corner_rounding": "কর্নার রাউন্ডিং",
             "align": "সরান",
             "effects": "প্রভাব"
         },
@@ -1669,7 +1711,7 @@
             "harassment": "হয়রানি",
             "terrorism": "সন্ত্রাস",
             "violence": "হিংসা",
-            "false_information": "",
+            "false_information": "ভুল তথ্য",
             "health": "স্বাস্থ্য",
             "politics": "রাজনীতি",
             "social_issue": "সামাজিক সমস্যা",
@@ -1682,6 +1724,9 @@
             "religious_affiliation": "ধর্মীয় অন্তর্ভুক্তি ",
             "sexual_orientation": "যৌন অভিযোজন",
             "spam": "স্প্যাম"
+        },
+        "general": {
+            "by_account_name": "দ্বারা"
         }
     },
     "page_campaign_creation": {
@@ -1691,6 +1736,7 @@
     },
     "page_login_app": {
         "failed_google_login": "Google লগইন করতে ব্যর্থ হয়েছে৷",
+        "failed_facebook_login": "Facebook লগইন করতে ব্যর্থ হয়েছে",
         "failed_apple_login": "Apple লগইন করতে ব্যর্থ হয়েছে৷"
     },
     "error_messages": {

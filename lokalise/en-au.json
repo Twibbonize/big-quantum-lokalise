@@ -71,7 +71,8 @@
             "send": "",
             "more": "",
             "less": "",
-            "submit": "Submit"
+            "submit": "Submit",
+            "get_started": ""
         },
         "time": {
             "week": "Week",
@@ -85,7 +86,10 @@
         "campaign": {
             "campaigns": "Campaigns",
             "created": "Created",
-            "supporters": "supporter|supporter|supporters"
+            "supporters": {
+                "one": "supporter",
+                "other": "supporters"
+            }
         },
         "collection": {
             "collections": "Collections",
@@ -114,13 +118,19 @@
         },
         "pricing": {
             "creator_subscribe_to": "",
-            "plan": "",
-            "support_without_watermark": "",
-            "all_supporters_without_watermark": ""
+            "plan": "plan",
+            "support_without_watermark": "They can support any campaign  without the watermark!",
+            "all_supporters_without_watermark": "You can support all of this Creator’s campaign without the watermark!"
         },
         "campaign_card": {
-            "a_month_ago": "A day ago|A month ago",
-            "a_day_ago": " | "
+            "a_month_ago": {
+                "one": "A day ago",
+                "other": "A month ago"
+            },
+            "a_day_ago": {
+                "one": "",
+                "other": ""
+            }
         },
         "search": {
             "searching": "Searching..."
@@ -140,6 +150,9 @@
         "campaign_supporters": {
             "k": "k",
             "m": "m"
+        },
+        "about": {
+            "our_numbers_mn": ""
         }
     },
     "page_home": {
@@ -306,7 +319,7 @@
             "share_twibbon": "Share the Twibbon to social media"
         },
         "cta": {
-            "make_it": "Make It for Everything",
+            "make_it": "Create for Everything",
             "no_matter": "No matter what you want to do, from movements tackling huge, serious causes—to anything just for fun. We can help you turn it into something big",
             "start_campaign": "Start a Campaign"
         }
@@ -349,7 +362,7 @@
             "processing": "Processing",
             "buy_premium": "Buy Premium",
             "skip_the_ads": "Skip the ads & download instantly",
-            "upgrade_to_premium_from": "Upgrade to premium from {price} per week!",
+            "upgrade_to_premium_from": "Upgrade to Premium from {price} per week!",
             "filter": "Filter",
             "more_like_this": "More Like This",
             "enter_your_text": "Enter your text",
@@ -453,7 +466,7 @@
             "view_analytics": "View Analytics"
         },
         "pricing": {
-            "no_thankyou": "No, Thank you"
+            "no_thankyou": "No, thank you"
         },
         "support": {
             "for_people_1": "For people who want more",
@@ -511,7 +524,6 @@
         },
         "checkout": {
             "upgrade_to": "Upgrade to {plan}",
-            "gather_your_supports": "Gather your supporters and scale up your campaign with our exclusive features",
             "billing_option": "Billing Option",
             "details": "Details",
             "user": "User",
@@ -535,6 +547,9 @@
             "downgrade_active": "",
             "back_to_plans": "Back"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "Gather your supporters and scale up your campaign with our exclusive features"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +565,9 @@
             "ad_free_title": "",
             "campaign_addon": "",
             "on": ""
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": "Conveniently support campaigns with our special benefits"
         }
     },
     "page_collection": {
@@ -612,7 +630,7 @@
             "width": "Width",
             "height": "Height",
             "or_create_background": "or create your background now",
-            "or_create_frame": "or create your frame now"
+            "or_create_frame": "or create frame now"
         },
         "form": {
             "please_fill_in": "please fill in all the required campaign data below",
@@ -640,7 +658,7 @@
             "url_not_available": "URL not available",
             "caption_placeholder": "Hi, my name is  [[Your Name]] , and I am all in to support this campaign. Let's gather and make a real impact with this campaign together!",
             "enter_description": "Enter description",
-            "optional": ""
+            "optional": "Optional"
         },
         "customization": {
             "campaign_customization": "Campaign Customisation",
@@ -665,15 +683,20 @@
         "tab": {
             "frames": "",
             "campaigns": "",
-            "analytics": ""
+            "analytics": "Analytics"
         },
         "blank_design": {
             "suggested": "Suggested",
             "instagram_story": "Instagram Story",
-            "instagram_post": "Instagram Post"
+            "instagram_post": "Instagram Post",
+            "create_design_button": "Create Design"
         },
         "frame_Editor": {
-            "or_create_background": "or create your background now"
+            "or_create_background": "or create background now"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "",
+            "what_do_you_want_to_create_desc": ""
         }
     },
     "page_for_creators": {
@@ -786,8 +809,21 @@
             "proud_partner": "We're proud to partner with people who are deeply aligned with our mission"
         },
         "honorary": {
-            "honorary_mentions": "",
-            "significant_contributions": ""
+            "honorary_mentions": "Honorary Mentions",
+            "significant_contributions": "Those who made significant contributions to our development"
+        },
+        "about": {
+            "fokker_bio_1": "",
+            "fokker_bio_2": "",
+            "bernino_bio_1": "",
+            "bernino_bio_2": "",
+            "mulqan_bio_1": "",
+            "mulqan_bio_2": "",
+            "aditya_bio_1": "",
+            "aditya_bio_2": "",
+            "farhan_bio_1": "",
+            "farhan_bio_2": "",
+            "dominick_bio_1": ""
         }
     },
     "page_pricing": {
@@ -873,10 +909,8 @@
             "ending_in": ""
         },
         "bento": {
-            "campaign_analytics_1": "Campaign",
-            "campaign_analytics_2": "Analytics",
-            "private_campaign_1": "Private",
-            "private_campaign_2": "Campaign",
+            "campaign_analytics": "Campaign Analytics",
+            "private_campaign": "Private Campaigns",
             "campaign_customization_1": "Campaign",
             "campaign_customization_2": "Customisation",
             "multiple_frames_1": "Multiple Frames",
@@ -890,7 +924,8 @@
             "remove_own_watermark_1": "Remove watermark",
             "on": "on",
             "remove_own_watermark_2": "your own account",
-            "extra_features": "Extra Features"
+            "extra_features": "Extra Features",
+            "campaign_customization": ""
         },
         "modal": {
             "congratulation": "Congratulation!",
@@ -915,7 +950,7 @@
             "question_8": "Will I get an invoice?",
             "answer_8": "You can easily download the invoice directly from your Twibbonize account.",
             "question_9": "Where can I find help related to Twibbonize usage?",
-            "answer_9": ""
+            "answer_9": "If you are looking for the “FAQ” page related to Twibbonize usage, click <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https:\/\/help.twibbonize.com\/hc\/en-us\" class=\"font-bold text-main\">Help Center<\/a>"
         },
         "hero": {
             "pricing": "PRICING",
@@ -938,7 +973,7 @@
             "no_campaigns_details": "Create a campaigns, and share to twibbonize.",
             "delete_confirmation": "",
             "delete_detail": "",
-            "delete_campaign": ""
+            "delete_campaign": "Delete Campaign"
         },
         "posts": {
             "no_posts": "No Posts Yet",
@@ -959,7 +994,10 @@
         },
         "my_profile": {
             "edit_profile": "Edit Profile",
-            "campaigns": "Campaigns",
+            "campaigns": {
+                "one": "Campaign",
+                "other": "Campaigns"
+            },
             "collections": "Collections",
             "posts": "Posts"
         },
@@ -1030,12 +1068,12 @@
             "highquality": "High Quality",
             "nowatermark": "No Watermark",
             "paid": "",
-            "are_you_sure_change": "",
+            "are_you_sure_change": "Are you sure?",
             "active_after_subscription": "",
-            "are_you_sure_upgrade": "",
+            "are_you_sure_upgrade": "Are you sure you want to upgrade?",
             "plan_changing_info": "",
             "active_after_payment": "",
-            "are_you_sure_downgrade": "",
+            "are_you_sure_downgrade": "Are you sure you want to downgrade plan?",
             "plan_downgrade_info": "",
             "renew_plan": "",
             "renew_subscription": "",
@@ -1052,7 +1090,7 @@
             "card_end_with": "",
             "no_transactions": "",
             "transactions_will_shown": "",
-            "are_you_sure": "",
+            "are_you_sure": "Are you sure?",
             "once_cancel_plan": "",
             "yes_cancel_plan": "",
             "no_keep_plan": "",
@@ -1087,7 +1125,7 @@
             "old_password": "Old Password",
             "new_password": "New Password",
             "update_password": "Update Password",
-            "social_media_connects": "Social Media Connects",
+            "social_media_connects": "Connect to Social Media",
             "facebook": "Facebook",
             "google": "Google",
             "apple": "Apple",
@@ -1127,20 +1165,20 @@
             "email": "Email",
             "push": "Push",
             "campaign_milestone": "Campaign Milestone",
-            "milestone_details": "You'll be notified of every progress on the campaign achievement.",
+            "milestone_details": "You'll be notified of every progress on the campaign achievement",
             "comment": "Comment",
-            "comment_details": "Get notifications of supporter's comment on a campaign page.",
+            "comment_details": "Get notifications of supporter's comment on a campaign page",
             "trending_campaign": "Trending Campaign",
-            "trending_details": "Get notifications about trending campaigns in your region.",
+            "trending_details": "Get notifications about trending campaigns in your region",
             "whats_new": "What's New",
-            "whats_new_details": "Get the latest update of our product on the web and app version.",
+            "whats_new_details": "Get the latest update of our product on the web and app version",
             "article": "Articles",
-            "article_details": "You'll receive our recommended articles.",
+            "article_details": "You'll receive our recommended articles",
             "toggle_all": "All",
-            "post_twibbonize": "",
-            "post_twibbonize_details": "",
-            "account_recap": "",
-            "account_recap_details": ""
+            "post_twibbonize": "Post to Twibbonize",
+            "post_twibbonize_details": "Get notifications on supporter's post on your campaign page",
+            "account_recap": "Account Recap",
+            "account_recap_details": "Weekly recap of Supporters and Visits for all your campaigns"
         },
         "package": {
             "free": "Free",
@@ -1168,7 +1206,8 @@
             "read_stories": "Read stories from companies and organisations who successfully utilised our platform for their campaign programs"
         },
         "bento": {
-            "read_success_story": "Read Their Success Story"
+            "read_success_story": "Read Their Success Story",
+            "more_success_stories": "More Success Stories"
         }
     },
     "page_use_cases": {
@@ -1212,7 +1251,7 @@
         "aiesec": {
             "title": "Embracing The Convenience Of Twibbonize, Just Like AIESEC",
             "paragraph_1": "",
-            "paragraph_2": "",
+            "paragraph_2": "Millania then explained how she and her team are used to making a frame picture manually, where everybody has to input and adjust their pictures in the frame manually. With Twibbonize, she is then able to make a digital campaign in a very convenient way, so it’s very practical. Not to mention that the campaign distribution is also perceived to be relatively easy, leaving their only task is to choose the picture, and you’ll have your Twibbon set up in no time.",
             "paragraph_3": ""
         },
         "danone": {
@@ -1274,7 +1313,7 @@
             "subtitle_8": "",
             "paragraph_8": "",
             "caption_8": "",
-            "tip_8": "",
+            "tip_8": "When creating Twibbon campaign for company programs or events, make sure the leaders take the first proactive movement. Make sure to also do a comprehensive distribution of information regarding the campaign internally. These hopefully can give employees more motivation to join the campaign.",
             "paragraph_9": ""
         },
         "education": {
@@ -1283,7 +1322,7 @@
             "subtitle_2": "",
             "paragraph_2": "",
             "caption_2": "",
-            "subtitle_3": "",
+            "subtitle_3": "2. Anniversary Celebrations",
             "paragraph_3": "",
             "caption_3": "",
             "subtitle_4": "",
@@ -1308,7 +1347,7 @@
             "caption_4": "",
             "paragraph_5": "",
             "subtitle_6": "",
-            "caption_6": "",
+            "caption_6": "During FIFA World Cup 2022, one of our creators created an Argentina twibbon frame for Facebook profile picture to show their support for the club.",
             "paragraph_7": "",
             "subtitle_8": "",
             "caption_8": "",
@@ -1364,7 +1403,7 @@
             "paragraph_1": "",
             "subtitle_2": "",
             "paragraph_2": "",
-            "caption_2": "",
+            "caption_2": "Tailored for the general public, Frizz Digital created a Birthday Twibbon that serves as a delightful digital accessory to elevate the celebratory spirit of birthdays.",
             "subtitle_3": "",
             "paragraph_3": "",
             "caption_3": "",
@@ -1456,7 +1495,9 @@
             "name": "Name",
             "login_with_facebook": "Log In with Facebook",
             "login_with_google": "Log In with Google",
-            "signin_with_email": "or sign in with email"
+            "signin_with_email": "or sign in with email",
+            "login_with_apple": "",
+            "signup_with_apple": ""
         }
     },
     "page_article": {
@@ -1590,6 +1631,7 @@
             "letter_spacing": "Letter Spacing",
             "line_spacing": "Line Spacing",
             "border_weight": "Border Weight",
+            "corner_rounding": "Corner Rounding",
             "align": "Align",
             "effects": "Effects"
         },
@@ -1682,6 +1724,9 @@
             "religious_affiliation": "Religious Affiliation ",
             "sexual_orientation": "Sexual Orientation",
             "spam": "Spam"
+        },
+        "general": {
+            "by_account_name": ""
         }
     },
     "page_campaign_creation": {
@@ -1691,6 +1736,7 @@
     },
     "page_login_app": {
         "failed_google_login": "Failed to perform Google login",
+        "failed_facebook_login": "Failed to perform Facebook login",
         "failed_apple_login": "Failed to perform Apple login"
     },
     "error_messages": {

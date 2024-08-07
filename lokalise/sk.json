@@ -71,7 +71,8 @@
             "send": "Odoslať",
             "more": "Viac",
             "less": "Menej",
-            "submit": "Predložiť"
+            "submit": "Predložiť",
+            "get_started": "Začnite"
         },
         "time": {
             "week": "Týždeň",
@@ -85,7 +86,12 @@
         "campaign": {
             "campaigns": "Kampane",
             "created": "Vytvorené",
-            "supporters": "podporovateľ|podporovateľ|podporovatelia"
+            "supporters": {
+                "one": "podporovateľ",
+                "few": "podporovatelia",
+                "many": "podporovatelia",
+                "other": "podporovatelia"
+            }
         },
         "collection": {
             "collections": "Zbierky",
@@ -113,14 +119,24 @@
             "unhide_post": "Odkryť príspevok"
         },
         "pricing": {
-            "creator_subscribe_to": "Tento Stvoriteľ je prihlásený na odber",
+            "creator_subscribe_to": "Tento tvorca sa prihlásil na odber ",
             "plan": "plánovať",
             "support_without_watermark": "Môžu podporiť akúkoľvek kampaň bez vodoznaku!",
             "all_supporters_without_watermark": "Môžete podporiť celú kampaň tohto autora bez vodoznaku!"
         },
         "campaign_card": {
-            "a_month_ago": " | | |Pred mesiacom",
-            "a_day_ago": " | | |Pred dňom"
+            "a_month_ago": {
+                "one": "",
+                "few": "",
+                "many": "",
+                "other": "Pred mesiacom"
+            },
+            "a_day_ago": {
+                "one": "",
+                "few": "",
+                "many": "",
+                "other": "Pred dňom"
+            }
         },
         "search": {
             "searching": "Hľadá sa..."
@@ -140,6 +156,9 @@
         "campaign_supporters": {
             "k": "tis.",
             "m": "mil."
+        },
+        "about": {
+            "our_numbers_mn": ""
         }
     },
     "page_home": {
@@ -349,7 +368,7 @@
             "processing": "Spracovanie",
             "buy_premium": "Kúpiť Premium",
             "skip_the_ads": "Preskočte reklamy a sťahujte okamžite",
-            "upgrade_to_premium_from": "Upgrade na prémiu z {price} za týždeň!",
+            "upgrade_to_premium_from": "Upgrade na Prémiu z {price} za týždeň!",
             "filter": "Filter",
             "more_like_this": "Viac podobných",
             "enter_your_text": "Zadajte svoj text",
@@ -369,7 +388,7 @@
             "blur": "Rozmazanie",
             "shadow": "Stín",
             "twibbon_success": "Stiahnuté",
-            "write_your_caption": ""
+            "write_your_caption": "Napíšte svoj nadpis..."
         },
         "report": {
             "report_campaign": "Správa o kampani",
@@ -425,7 +444,7 @@
             "violent_graphic_content": "Násilný grafický obsah",
             "harassment_cyberbullying": "Obťažovanie a kyberšikanovanie",
             "proactive_threatening_content": "Provokatívny a výhražný obsah",
-            "statement": "Usmernenia komunity Twibbonize chránia súkromie identity reportéra.",
+            "statement": "Smernice komunity Twibbonize chránia súkromie identity oznamovateľa.",
             "read_more_copy": "Čítajte viac",
             "please_select_one": "Vyberte jednu z nich",
             "write_a_message": "Napíšte správu",
@@ -511,7 +530,6 @@
         },
         "checkout": {
             "upgrade_to": "Upgrade na {plan}",
-            "gather_your_supports": "Zhromaždite svojich podporovateľov a rozšírte svoju kampaň pomocou našich exkluzívnych funkcií",
             "billing_option": "Možnosť fakturácie",
             "details": "Podrobnosti na",
             "user": "Používateľ",
@@ -535,6 +553,9 @@
             "downgrade_active": "Bude aktívna po skončení vášho aktuálneho predplatného",
             "back_to_plans": "späť"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "Zhromaždite svojich podporovateľov a rozšírte svoju kampaň pomocou našich exkluzívnych funkcií"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +571,9 @@
             "ad_free_title": "Bez reklamy",
             "campaign_addon": "Doplnok kampane",
             "on": "na"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": "Pohodlná podpora kampaní s našimi špeciálnymi výhodami"
         }
     },
     "page_collection": {
@@ -670,10 +694,15 @@
         "blank_design": {
             "suggested": "Navrhované",
             "instagram_story": "Príbeh na Instagrame",
-            "instagram_post": "Príspevok na Instagrame"
+            "instagram_post": "Príspevok na Instagrame",
+            "create_design_button": "Vytvoriť dizajn"
         },
         "frame_Editor": {
             "or_create_background": "alebo si teraz vytvorte pozadie"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "Čo chcete vytvoriť?",
+            "what_do_you_want_to_create_desc": "Spestrite svoju online kampaň nielen rámom, ale aj kreatívnym pozadím"
         }
     },
     "page_for_creators": {
@@ -716,8 +745,8 @@
             "spice_up": "Spestrite svoju online kampaň nielen rámom, ale aj kreatívnym pozadím",
             "the_og_twibbon": "Originálna Twibbon; rámček, ktorý sa umiestni na obrázok",
             "a_fresh_variation": "Svieža variácia pásky Twibbon, ktorá sa zobrazí ako pozadie vášho obrázka",
-            "frame_twibbon": "Rám Twibbon",
-            "backround_twibbon": "Pozadie Twibbon "
+            "frame_twibbon": "Twibbon s rámom",
+            "backround_twibbon": "Twibbon s pozadím"
         },
         "tilt": {
             "get_it_ready": "Pripravte si ho kedykoľvek pomocou nášho integrovaného Twibbon Editor",
@@ -788,6 +817,19 @@
         "honorary": {
             "honorary_mentions": "Čestné uznania",
             "significant_contributions": "Tí, ktorí významne prispeli k nášmu rozvoju"
+        },
+        "about": {
+            "fokker_bio_1": "",
+            "fokker_bio_2": "",
+            "bernino_bio_1": "",
+            "bernino_bio_2": "",
+            "mulqan_bio_1": "",
+            "mulqan_bio_2": "",
+            "aditya_bio_1": "",
+            "aditya_bio_2": "",
+            "farhan_bio_1": "",
+            "farhan_bio_2": "",
+            "dominick_bio_1": ""
         }
     },
     "page_pricing": {
@@ -873,10 +915,8 @@
             "ending_in": "{card} končiace {number}"
         },
         "bento": {
-            "campaign_analytics_1": "Kampaň",
-            "campaign_analytics_2": "Analytika",
-            "private_campaign_1": "Súkromná stránka",
-            "private_campaign_2": "Kampaň",
+            "campaign_analytics": "Analýza kampaní",
+            "private_campaign": "Súkromná kampaň",
             "campaign_customization_1": "Prispôsobenie",
             "campaign_customization_2": "kampane",
             "multiple_frames_1": "Viacero rámčekov",
@@ -890,7 +930,8 @@
             "remove_own_watermark_1": "Odstránenie vodoznaku",
             "on": "na",
             "remove_own_watermark_2": "vašom vlastnom účte",
-            "extra_features": "Ďalšie funkcie"
+            "extra_features": "Ďalšie funkcie",
+            "campaign_customization": "Prispôsobenie kampane"
         },
         "modal": {
             "congratulation": "Gratulujeme!",
@@ -959,7 +1000,12 @@
         },
         "my_profile": {
             "edit_profile": "Upraviť profil",
-            "campaigns": "Kampane",
+            "campaigns": {
+                "one": "Kampaň",
+                "few": "Kampane",
+                "many": "Kampane",
+                "other": "Kampane"
+            },
             "collections": "Zbierky",
             "posts": "Príspevky"
         },
@@ -1097,7 +1143,7 @@
             "update_email_button": "Aktualizácia e-mailu",
             "not_connected": "Nie je pripojený",
             "deleting_account": "Odstránenie účtu",
-            "permanent_delete": "Vaše konto, kampane a aktivity v Twibbonize budú natrvalo vymazané.",
+            "permanent_delete": "Vaše konto, kampane, a aktivity v Twibbonize budú natrvalo vymazané.",
             "type_to_confirm": "Zadajte {username} a potvrďte",
             "input_password": "Zadajte heslo tu",
             "for_security_input_password": "Z bezpečnostných dôvodov zadajte heslo",
@@ -1127,18 +1173,18 @@
             "email": "E-mail",
             "push": "Push",
             "campaign_milestone": "Míľnik kampane",
-            "milestone_details": "Budete informovaní o každom pokroku pri dosahovaní cieľov kampane.",
+            "milestone_details": "Budete informovaní o každom pokroku pri dosahovaní cieľov kampane",
             "comment": "Komentár",
-            "comment_details": "Získavanie oznámení o komentároch podporovateľov na stránke kampane.",
+            "comment_details": "Získavanie oznámení o komentároch podporovateľov na stránke kampane",
             "trending_campaign": "Trendy kampaň",
-            "trending_details": "Dostávajte upozornenia o trendových kampaniach vo vašom regióne.",
+            "trending_details": "Dostávajte upozornenia o trendových kampaniach vo vašom regióne",
             "whats_new": "Čo je nové",
-            "whats_new_details": "Získajte najnovšiu aktualizáciu nášho produktu vo webovej verzii a vo verzii aplikácie.",
+            "whats_new_details": "Získajte najnovšiu aktualizáciu nášho produktu vo webovej verzii a vo verzii aplikácie",
             "article": "Články",
-            "article_details": "Dostanete naše odporúčané články.",
+            "article_details": "Dostanete naše odporúčané články",
             "toggle_all": "Všetky",
             "post_twibbonize": "Uverejniť na Twibbonize",
-            "post_twibbonize_details": "Získajte upozornenia na príspevok podporovateľa os na stránke kampane.",
+            "post_twibbonize_details": "Získajte upozornenia na príspevok podporovateľa os na stránke kampane",
             "account_recap": "Rekapitulácia účtu",
             "account_recap_details": "Týždenná rekapitulácia podporovateľov a návštev všetkých vašich kampaní"
         },
@@ -1168,7 +1214,8 @@
             "read_stories": "Prečítajte si príbehy spoločností a organizácií, ktoré úspešne využili našu platformu pre svoje programy kampaní"
         },
         "bento": {
-            "read_success_story": "Prečítajte si ich úspešný príbeh"
+            "read_success_story": "Prečítajte si ich úspešný príbeh",
+            "more_success_stories": ""
         }
     },
     "page_use_cases": {
@@ -1456,7 +1503,9 @@
             "name": "Názov",
             "login_with_facebook": "Prihlásiť sa cez Facebook",
             "login_with_google": "Prihláste sa pomocou Google",
-            "signin_with_email": "alebo sa prihláste pomocou e-mailu"
+            "signin_with_email": "alebo sa prihláste pomocou e-mailu",
+            "login_with_apple": "Prihlásenie pomocou Apple",
+            "signup_with_apple": "Zaregistrujte sa v službe Apple"
         }
     },
     "page_article": {
@@ -1590,6 +1639,7 @@
             "letter_spacing": "Medzery medzi písmenami",
             "line_spacing": "Medzery medzi riadkami",
             "border_weight": "Hmotnosť hranice",
+            "corner_rounding": "Zaoblenie rohov",
             "align": "Zarovnať",
             "effects": "Účinky"
         },
@@ -1669,7 +1719,7 @@
             "harassment": "Obťažovanie",
             "terrorism": "Terorizmus",
             "violence": "Násilie",
-            "false_information": "",
+            "false_information": "Nepravdivé informácie",
             "health": "Zdravie",
             "politics": "Politika",
             "social_issue": "Sociálna problematika",
@@ -1682,6 +1732,9 @@
             "religious_affiliation": "Náboženská príslušnosť ",
             "sexual_orientation": "Sexuálna orientácia",
             "spam": "Spam"
+        },
+        "general": {
+            "by_account_name": "podľa"
         }
     },
     "page_campaign_creation": {
@@ -1691,6 +1744,7 @@
     },
     "page_login_app": {
         "failed_google_login": "Nepodarilo sa vykonať prihlásenie do služby Google",
+        "failed_facebook_login": "Nepodarilo sa vykonať prihlásenie do služby Facebook",
         "failed_apple_login": "Nepodarilo sa vykonať prihlásenie Apple"
     },
     "error_messages": {
