@@ -71,7 +71,8 @@
             "send": "Schicken",
             "more": "Mehr",
             "less": "Weniger",
-            "submit": "Einreichen"
+            "submit": "Einreichen",
+            "get_started": "Los geht's"
         },
         "time": {
             "week": "Woche",
@@ -85,7 +86,7 @@
         "campaign": {
             "campaigns": "Kampagnen",
             "created": "Erstellt",
-            "supporters": "Unterstützer|Unterstützer|Unterstützer"
+            "supporters": " |Unterstützer|Unterstützer|Unterstützer"
         },
         "collection": {
             "collections": "Sammlungen",
@@ -113,7 +114,7 @@
             "unhide_post": "Beitrag einblenden"
         },
         "pricing": {
-            "creator_subscribe_to": "Dieser Autor ist abonniert bei",
+            "creator_subscribe_to": "Dieser Ersteller abonniert ",
             "plan": "planen",
             "support_without_watermark": "Sie können jede Kampagne ohne Wasserzeichen unterstützen!",
             "all_supporters_without_watermark": "Sie können die gesamte Kampagne dieses Erstellers ohne Wasserzeichen unterstützen!"
@@ -140,6 +141,21 @@
         "campaign_supporters": {
             "k": "Tsd.",
             "m": "Mio."
+        },
+        "relative_time": {
+            "seconds": "",
+            "future": "",
+            "past": "",
+            "minute": "",
+            "minutes": "",
+            "hour": "",
+            "hours": "",
+            "day": "",
+            "days": "",
+            "month": "",
+            "months": "",
+            "year": "",
+            "years": ""
         }
     },
     "page_home": {
@@ -369,7 +385,7 @@
             "blur": "Unschärfe",
             "shadow": "Schatten",
             "twibbon_success": "Heruntergeladen",
-            "write_your_caption": ""
+            "write_your_caption": "Schreiben Sie Ihre Bildunterschrift..."
         },
         "report": {
             "report_campaign": "Bericht Kampagne",
@@ -425,7 +441,7 @@
             "violent_graphic_content": "Gewalttätiger grafischer Inhalt",
             "harassment_cyberbullying": "Belästigung und Cybermobbing",
             "proactive_threatening_content": "Provokativer und bedrohlicher Inhalt",
-            "statement": "Die Twibbonize-Community-Leitlinien schützen die Privatsphäre der Identität des Reporters.",
+            "statement": "Die Richtlinien der Twibbonize-Community schützen die Privatsphäre der Identität des Melders.",
             "read_more_copy": "Mehr lesen",
             "please_select_one": "Bitte wählen Sie eine",
             "write_a_message": "Schreiben Sie eine Nachricht",
@@ -511,7 +527,6 @@
         },
         "checkout": {
             "upgrade_to": "Upgrade auf {plan}",
-            "gather_your_supports": "Sammeln Sie Ihre Unterstützer und erweitern Sie Ihre Kampagne mit unseren exklusiven Funktionen",
             "billing_option": "Option Rechnungsstellung",
             "details": "Einzelheiten",
             "user": "Benutzer",
@@ -535,6 +550,9 @@
             "downgrade_active": "Es wird aktiv, sobald Ihr aktuelles Abonnement endet",
             "back_to_plans": "Zurück"
         },
+        "premium_creator_checkout": {
+            "gather_your_supports": "Sammeln Sie Ihre Unterstützer und erweitern Sie Ihre Kampagne mit unseren exklusiven Funktionen"
+        },
         "plan": {
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
@@ -550,6 +568,9 @@
             "ad_free_title": "Werbefrei",
             "campaign_addon": "Kampagnen-Addon",
             "on": "An"
+        },
+        "premium_supporter_checkout": {
+            "conveniently_support": ""
         }
     },
     "page_collection": {
@@ -670,10 +691,15 @@
         "blank_design": {
             "suggested": "Vorgeschlagene",
             "instagram_story": "Instagram-Story",
-            "instagram_post": "Instagram-Post"
+            "instagram_post": "Instagram-Post",
+            "create_design_button": "Design erstellen"
         },
         "frame_Editor": {
             "or_create_background": "oder erstellen Sie jetzt Ihren Hintergrund"
+        },
+        "modal": {
+            "what_do_you_want_to_create": "Was wollen Sie schaffen?",
+            "what_do_you_want_to_create_desc": "Peppen Sie Ihr Online-Kampagnenspiel nicht nur mit einem Rahmen, sondern auch mit kreativen Hintergründen auf"
         }
     },
     "page_for_creators": {
@@ -959,7 +985,7 @@
         },
         "my_profile": {
             "edit_profile": "Profil bearbeiten",
-            "campaigns": "Kampagnen",
+            "campaigns": " |Kampagnen",
             "collections": "Sammlungen",
             "posts": "Beiträge"
         },
@@ -1087,7 +1113,7 @@
             "old_password": "Altes Passwort",
             "new_password": "Neues Passwort",
             "update_password": "Passwort aktualisieren",
-            "social_media_connects": "Soziale Medien verbinden",
+            "social_media_connects": "Verbinden Sie sich mit sozialen Medien",
             "facebook": "Facebook",
             "google": "Google",
             "apple": "Apple",
@@ -1097,7 +1123,7 @@
             "update_email_button": "E-Mail aktualisieren",
             "not_connected": "Nicht verbunden",
             "deleting_account": "Löschung des Kontos",
-            "permanent_delete": "Ihr Konto, Ihre Kampagnen und Aktivitäten in Twibbonize werden dauerhaft gelöscht.",
+            "permanent_delete": "Ihr Konto, Ihre Kampagnen, und Aktivitäten in Twibbonize werden dauerhaft gelöscht.",
             "type_to_confirm": "Geben Sie zur Bestätigung {username} ein.",
             "input_password": "Passwort hier eingeben",
             "for_security_input_password": "Aus Sicherheitsgründen geben Sie bitte ein Passwort ein",
@@ -1127,18 +1153,18 @@
             "email": "E-Mail",
             "push": "Push",
             "campaign_milestone": "Meilenstein der Kampagne",
-            "milestone_details": "Sie werden über jeden Fortschritt bei der Erreichung der Kampagnenziele informiert.",
+            "milestone_details": "Sie werden über jeden Fortschritt bei der Erreichung der Kampagnenziele informiert",
             "comment": "Kommentar",
-            "comment_details": "Erhalten Sie Benachrichtigungen über Kommentare von Unterstützern auf einer Kampagnenseite.",
+            "comment_details": "Erhalten Sie Benachrichtigungen über Kommentare von Unterstützern auf einer Kampagnenseite",
             "trending_campaign": "Trending-Kampagne",
-            "trending_details": "Erhalten Sie Benachrichtigungen über aktuelle Kampagnen in Ihrer Region.",
+            "trending_details": "Erhalten Sie Benachrichtigungen über aktuelle Kampagnen in Ihrer Region",
             "whats_new": "Was gibt's Neues?",
-            "whats_new_details": "Holen Sie sich das neueste Update unseres Produkts in der Web- und App-Version.",
+            "whats_new_details": "Holen Sie sich das neueste Update unseres Produkts in der Web- und App-Version",
             "article": "Artikel",
-            "article_details": "Sie erhalten dann unsere empfohlenen Artikel.",
+            "article_details": "Sie erhalten dann unsere empfohlenen Artikel",
             "toggle_all": "Alle",
             "post_twibbonize": "Auf Twibbonize posten",
-            "post_twibbonize_details": "Erhalten Sie Benachrichtigungen über die Posts von Unterstützern auf einer Kampagnenseite.",
+            "post_twibbonize_details": "Erhalten Sie Benachrichtigungen über die Posts von Unterstützern auf einer Kampagnenseite",
             "account_recap": "Kontozusammenfassung",
             "account_recap_details": "Wöchentlicher Rückblick auf Unterstützer und Besuche für alle Ihre Kampagnen"
         },
@@ -1456,7 +1482,9 @@
             "name": "Name",
             "login_with_facebook": "Mit Facebook einloggen",
             "login_with_google": "Mit Google anmelden",
-            "signin_with_email": "oder melden Sie sich mit E-Mail an"
+            "signin_with_email": "oder melden Sie sich mit E-Mail an",
+            "login_with_apple": "",
+            "signup_with_apple": ""
         }
     },
     "page_article": {
@@ -1669,7 +1697,7 @@
             "harassment": "Belästigung",
             "terrorism": "Terrorismus",
             "violence": "Gewalt",
-            "false_information": "",
+            "false_information": "Falsche Information",
             "health": "Gesundheit",
             "politics": "Politik",
             "social_issue": "Soziale Frage",
@@ -1682,6 +1710,9 @@
             "religious_affiliation": "Religiöse Zugehörigkeit ",
             "sexual_orientation": "Sexuelle Orientierung",
             "spam": "Spam"
+        },
+        "general": {
+            "by_account_name": ""
         }
     },
     "page_campaign_creation": {
