@@ -83,7 +83,7 @@
             "monthly": "ماہانہ",
             "annual": "سالانہ",
             "yearly": "سالانہ",
-            "present": ""
+            "present": "حاضر"
         },
         "campaign": {
             "campaigns": "مہمات",
@@ -721,7 +721,7 @@
             "suggested": "تجویز کردہ",
             "instagram_story": "انسٹاگرام کی کہانی",
             "instagram_post": "انسٹاگرام پوسٹ",
-            "create_design_button": "ڈیزائن بنائیں",
+            "start_design": "ڈیزائن شروع کریں۔",
             "create_blank_design": "خالی ڈیزائن بنائیں"
         },
         "frame_Editor": {
@@ -1648,12 +1648,12 @@
             "loading": "لوڈ ہو رہا ہے۔"
         },
         "text": {
-            "add_a_heading": "ایک بڑا متن شامل کریں۔",
-            "add_a_subheading": "درمیانی متن شامل کریں۔",
+            "add_a_heading": "بڑا متن",
+            "add_a_subheading": "درمیانہ متن",
             "document_fonts": "دستاویزی فونٹس",
             "text_effect": "ٹیکسٹ ایفیکٹس",
             "effects": "اثرات",
-            "add_a_body_text": "ایک چھوٹا سا متن شامل کریں۔"
+            "add_a_body_text": "چھوٹا متن"
         },
         "shape": {
             "arrow": "تیر",
@@ -1707,8 +1707,10 @@
             "image_template": "تصویر بذریعہ {name} ",
             "image_template_1": "پر",
             "edit_image": "تصویر میں ترمیم کریں۔",
-            "image_template_2": "کھولنا",
-            "image": "تصویر"
+            "image_template_2": "Unsplash",
+            "image": "تصویر",
+            "images_by_unsplash": "Unsplash کی طرف سے تصاویر",
+            "on_unsplash": "Unsplash پر"
         },
         "error": {
             "minimum_dimension": "طول و عرض کم از کم 100px اور 8000px سے زیادہ نہیں ہونا چاہیے۔"
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "انداز",
             "none": "کوئی نہیں۔",
-            "shadow": "سایہ",
+            "shadow": "Shadow",
             "text_effects": "اثرات",
-            "lift": "لفٹ",
+            "lift": "Lift",
             "offset": "آفسیٹ",
             "direction": "سمت",
             "blur": "دھندلا",
@@ -1731,7 +1733,7 @@
             "document_colors": "دستاویز کے رنگ",
             "default_colors": "پہلے سے طے شدہ رنگ"
         },
-        "graphic:graphic": "گرافک"
+        "graphic": "گرافک"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "مہمات",
             "frames": "فریم",
-            "analytics": "تجزیات"
+            "analytics": "تجزیات",
+            "campaign_edited": "مہم میں ترمیم کی گئی۔",
+            "delete_campaign": "مہم کو حذف کریں۔"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "مہم شامل کی گئی۔",
             "account_upgraded": "اکاؤنٹ اپ گریڈ ہو گیا۔",
             "link_copied": "لنک کاپی ہو گیا۔",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "کاپی",
+            "updated": "تازہ کاری",
+            "deleted": "حذف کر دیا گیا۔",
+            "campaign_updated": "مہم کی تازہ کاری",
+            "campaign_created": "مہم بنائی گئی۔",
+            "collection_created": "مجموعہ تخلیق کیا گیا۔",
+            "collection_updated": "مجموعہ اپ ڈیٹ ہو گیا۔",
+            "collection_deleted": "مجموعہ حذف کر دیا گیا۔"
         },
         "error": {
             "something_went_wrong": "کچھ غلط ہو گیا"
@@ -2209,17 +2213,17 @@
             "11013": "JSON مارشل کی غلطی!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} $ {reference} جیسا ہونا چاہیے",
+            "not_equal_to": "$ {path} $ {reference} کے طور پر مختلف ہونا چاہیے",
+            "required": "یہ فیلڈ درکار ہے اور اسے خالی نہیں چھوڑا جا سکتا",
+            "valid_password": "پاس ورڈ میں کم از کم ایک حرف اور ایک نمبر ہونا چاہیے۔",
+            "confirm_password": "پاس ورڈ مماثل ہونا چاہیے۔",
+            "valid_email": "براہ کرم ایک درست ای میل ایڈریس درج کریں۔",
+            "valid_url": "براہ کرم ایک درست URL درج کریں۔",
+            "min_width": "چوڑائی کم از کم {min} پکسلز ہونی چاہیے۔",
+            "max_width": "چوڑائی کم از کم {max} پکسلز ہونی چاہیے۔",
+            "min_length": "لمبائی کم از کم {min} حروف ہونی چاہیے۔",
+            "max_length": "لمبائی {max} حروف سے زیادہ نہیں ہو سکتی"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "فراہم کردہ ان پٹ غلط ہے۔"
         }
     }
 }

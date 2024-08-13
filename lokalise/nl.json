@@ -83,7 +83,7 @@
             "monthly": "Maandelijks",
             "annual": "Jaarlijks",
             "yearly": "Jaarlijks",
-            "present": ""
+            "present": "Cadeau"
         },
         "campaign": {
             "campaigns": "Campagnes",
@@ -573,7 +573,7 @@
             "downgrade_description": "U downgradet uw abonnement naar {plan} , dat actief zal zijn nadat het huidige abonnement afloopt.",
             "change_plan_confirm": "Weet je het zeker?",
             "upgrade_confirm": "Weet je zeker dat je wilt upgraden?",
-            "downgrade_confirm": "Weet u zeker dat u het abonnement wilt downgraden?",
+            "downgrade_confirm": "Weet je zeker dat je het abonnement wilt downgraden?",
             "change_plan_active": "Het wordt actief zodra uw huidige abonnement afloopt",
             "upgrade_active": "Het wordt actief zodra u de betaling voltooit",
             "downgrade_active": "Het wordt actief zodra uw huidige abonnement afloopt",
@@ -721,7 +721,7 @@
             "suggested": "Aanbevolen",
             "instagram_story": "Instagram Verhaal",
             "instagram_post": "Instagram bericht",
-            "create_design_button": "Ontwerp maken",
+            "start_design": "Start Ontwerp",
             "create_blank_design": "Maak een leeg ontwerp"
         },
         "frame_Editor": {
@@ -1131,7 +1131,7 @@
             "are_you_sure_upgrade": "Weet je zeker dat je wilt upgraden?",
             "plan_changing_info": "Schakel over naar {package} ontvangen. Een nieuw abonnement begint nadat het huidige eindigt",
             "active_after_payment": "Het wordt actief zodra u de betaling voltooit",
-            "are_you_sure_downgrade": "Weet u zeker dat u het abonnement wilt downgraden?",
+            "are_you_sure_downgrade": "Weet je zeker dat je het abonnement wilt downgraden?",
             "plan_downgrade_info": "Downgrade naar {package} ontvangen. Een nieuw abonnement begint nadat het huidige eindigt",
             "renew_plan": "Plan verlengen",
             "renew_subscription": "Abonnement vernieuwen",
@@ -1155,7 +1155,7 @@
             "once_renew_plan": "Zodra u het abonnement verlengt, is uw abonnement weer actief",
             "yes_renew_plan": "Ja, plan verlengen",
             "no_cancel": "Nee, annuleren",
-            "if_cancel_downgrade": "Als u de downgrade annuleert, is uw huidige abonnement weer actief",
+            "if_cancel_downgrade": "Als je de downgrade annuleert, is je huidige abonnement weer actief",
             "yes_downgrade": "Ja, ga door met downgraden",
             "if_cancel_change_billing": "Als u de wijzigingsfacturering annuleert, is uw huidige abonnement weer actief",
             "yes_continue": "Ja, ga door",
@@ -1648,12 +1648,12 @@
             "loading": "Laden"
         },
         "text": {
-            "add_a_heading": "Voeg een grote tekst toe",
-            "add_a_subheading": "Voeg een mediumtekst toe",
+            "add_a_heading": "Grote tekst",
+            "add_a_subheading": "Middelgrote tekst",
             "document_fonts": "Lettertypen voor documenten",
             "text_effect": "Teksteffecten",
             "effects": "Effecten",
-            "add_a_body_text": "Voeg een kleine tekst toe"
+            "add_a_body_text": "Kleine tekst"
         },
         "shape": {
             "arrow": "Pijl",
@@ -1708,7 +1708,9 @@
             "image_template_1": "op",
             "edit_image": "Afbeelding bewerken",
             "image_template_2": "Unsplash",
-            "image": "Afbeelding"
+            "image": "Afbeelding",
+            "images_by_unsplash": "Afbeeldingen van Unsplash",
+            "on_unsplash": "op Unsplash"
         },
         "error": {
             "minimum_dimension": "De afmetingen moeten minimaal 100px en maximaal 8000px zijn."
@@ -1716,7 +1718,7 @@
         "text_effect": {
             "style": "Stijl",
             "none": "Geen",
-            "shadow": "Schaduw",
+            "shadow": "Shadow",
             "text_effects": "Effecten",
             "lift": "Lift",
             "offset": "Offset",
@@ -1731,7 +1733,7 @@
             "document_colors": "Document kleuren",
             "default_colors": "Standaard kleuren"
         },
-        "graphic:graphic": "Grafisch"
+        "graphic": "Grafisch"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "Campagnes",
             "frames": "Frames",
-            "analytics": "Analytics"
+            "analytics": "Analytics",
+            "campaign_edited": "Campagne Bewerkt",
+            "delete_campaign": "Campagne verwijderen"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "Campagne toegevoegd",
             "account_upgraded": "Account geüpgraded",
             "link_copied": "Link gekopieerd",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "Gekopieerd",
+            "updated": "Bijgewerkt",
+            "deleted": "Verwijderd",
+            "campaign_updated": "Campagne bijgewerkt",
+            "campaign_created": "Campagne gemaakt",
+            "collection_created": "Collectie gemaakt",
+            "collection_updated": "Collectie bijgewerkt",
+            "collection_deleted": "Collectie verwijderd"
         },
         "error": {
             "something_went_wrong": "Er is iets fout gegaan"
@@ -2209,17 +2213,17 @@
             "11013": "JSON-marshalfout!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} moet hetzelfde zijn als $ {reference}",
+            "not_equal_to": "$ {path} moet anders zijn dan $ {reference}",
+            "required": "Dit veld is verplicht en mag niet leeg blijven",
+            "valid_password": "Het wachtwoord moet minimaal één letter en één cijfer bevatten",
+            "confirm_password": "Wachtwoord moet overeenkomen",
+            "valid_email": "Voer een geldig e-mailadres in",
+            "valid_url": "Voer een geldige URL in",
+            "min_width": "De breedte moet minimaal {min} pixels zijn",
+            "max_width": "De breedte moet minimaal {max} pixels zijn",
+            "min_length": "De lengte moet minimaal {min} tekens zijn",
+            "max_length": "De lengte mag niet langer zijn dan {max} tekens"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "De opgegeven invoer is ongeldig"
         }
     }
 }

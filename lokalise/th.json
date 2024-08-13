@@ -83,7 +83,7 @@
             "monthly": "รายเดือน",
             "annual": "ประจำปี",
             "yearly": "เป็นประจำทุกปี",
-            "present": ""
+            "present": "ปัจจุบัน"
         },
         "campaign": {
             "campaigns": "แคมเปญ",
@@ -721,7 +721,7 @@
             "suggested": "แนะนำ",
             "instagram_story": "เรื่องราวของอินสตาแกรม",
             "instagram_post": "โพสต์อินสตาแกรม",
-            "create_design_button": "สร้างการออกแบบ",
+            "start_design": "เริ่มออกแบบ",
             "create_blank_design": "สร้างการออกแบบที่ว่างเปล่า"
         },
         "frame_Editor": {
@@ -1648,12 +1648,12 @@
             "loading": "กำลังโหลด"
         },
         "text": {
-            "add_a_heading": "เพิ่มข้อความขนาดใหญ่",
-            "add_a_subheading": "เพิ่มข้อความขนาดกลาง",
+            "add_a_heading": "ข้อความขนาดใหญ่",
+            "add_a_subheading": "ข้อความขนาดกลาง",
             "document_fonts": "แบบอักษรของเอกสาร",
             "text_effect": "เอฟเฟกต์ข้อความ",
             "effects": "ผลกระทบ",
-            "add_a_body_text": "เพิ่มข้อความขนาดเล็ก"
+            "add_a_body_text": "ข้อความขนาดเล็ก"
         },
         "shape": {
             "arrow": "ลูกศร",
@@ -1708,7 +1708,9 @@
             "image_template_1": "บน",
             "edit_image": "แก้ไขรูปภาพ",
             "image_template_2": "Unsplash",
-            "image": "ภาพ"
+            "image": "ภาพ",
+            "images_by_unsplash": "รูปภาพโดย Unsplash",
+            "on_unsplash": "บน Unsplash"
         },
         "error": {
             "minimum_dimension": "ขนาดต้องมีอย่างน้อย 100px และไม่เกิน 8000px"
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "สไตล์",
             "none": "ไม่มี",
-            "shadow": "เงา",
+            "shadow": "Shadow",
             "text_effects": "ผลกระทบ",
-            "lift": "ยก",
+            "lift": "Lift",
             "offset": "ออฟเซ็ต",
             "direction": "ทิศทาง",
             "blur": "เบลอ",
@@ -1731,7 +1733,7 @@
             "document_colors": "สีของเอกสาร",
             "default_colors": "สีเริ่มต้น"
         },
-        "graphic:graphic": "กราฟิก"
+        "graphic": "กราฟิก"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "แคมเปญ",
             "frames": "เฟรม",
-            "analytics": "การวิเคราะห์"
+            "analytics": "การวิเคราะห์",
+            "campaign_edited": "แก้ไขแคมเปญแล้ว",
+            "delete_campaign": "ลบแคมเปญ"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "เพิ่มแคมเปญแล้ว",
             "account_upgraded": "อัปเกรดบัญชีแล้ว",
             "link_copied": "คัดลอกลิงก์แล้ว",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "คัดลอกแล้ว",
+            "updated": "อัปเดต",
+            "deleted": "ลบแล้ว",
+            "campaign_updated": "อัปเดตแคมเปญแล้ว",
+            "campaign_created": "สร้างแคมเปญแล้ว",
+            "collection_created": "สร้างคอลเลคชั่นแล้ว",
+            "collection_updated": "อัพเดตคอลเลคชั่นแล้ว",
+            "collection_deleted": "คอลเลกชันที่ถูกลบ"
         },
         "error": {
             "something_went_wrong": "บางอย่างผิดพลาด"
@@ -2209,17 +2213,17 @@
             "11013": "ข้อผิดพลาดการจัดการ JSON!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} จะต้องเหมือนกับ $ {reference}",
+            "not_equal_to": "$ {path} จะต้องแตกต่างจาก $ {reference}",
+            "required": "ช่องนี้จำเป็นต้องกรอกและไม่สามารถเว้นว่างได้",
+            "valid_password": "รหัสผ่านต้องประกอบด้วยตัวอักษรอย่างน้อย 1 ตัวและตัวเลขอย่างน้อย 1 ตัว",
+            "confirm_password": "รหัสผ่านจะต้องตรงกัน",
+            "valid_email": "กรุณากรอกอีเมลที่ถูกต้อง",
+            "valid_url": "กรุณากรอก URL ที่ถูกต้อง",
+            "min_width": "ความกว้างต้องมีอย่างน้อย {min} พิกเซล",
+            "max_width": "ความกว้างต้องมีอย่างน้อย {max} พิกเซล",
+            "min_length": "ความยาวต้องไม่ต่ำกว่า {min} อักขระ",
+            "max_length": "ความยาวไม่สามารถเกิน {max} อักขระ"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "ข้อมูลที่ป้อนไม่ถูกต้อง"
         }
     }
 }

@@ -83,7 +83,7 @@
             "monthly": "Μηνιαία",
             "annual": "Ετήσια",
             "yearly": "Ετήσια",
-            "present": ""
+            "present": "Παρόν"
         },
         "campaign": {
             "campaigns": "Καμπάνιες",
@@ -721,7 +721,7 @@
             "suggested": "Προτεινόμενο",
             "instagram_story": "Instagram Story",
             "instagram_post": "Δημοσίευση στο Instagram",
-            "create_design_button": "Δημιουργία σχεδίου",
+            "start_design": "Έναρξη σχεδίασης",
             "create_blank_design": "Δημιουργήστε κενό σχέδιο"
         },
         "frame_Editor": {
@@ -1648,12 +1648,12 @@
             "loading": "Φόρτωση"
         },
         "text": {
-            "add_a_heading": "Προσθέστε ένα μεγάλο κείμενο",
-            "add_a_subheading": "Προσθέστε ένα μεσαίο κείμενο",
+            "add_a_heading": "Μεγάλο Κείμενο",
+            "add_a_subheading": "Μεσαίο κείμενο",
             "document_fonts": "Γραμματοσειρές εγγράφων",
             "text_effect": "Εφέ κειμένου",
             "effects": "Εφέ",
-            "add_a_body_text": "Προσθέστε ένα μικρό κείμενο"
+            "add_a_body_text": "Μικρό κείμενο"
         },
         "shape": {
             "arrow": "Βέλος",
@@ -1708,7 +1708,9 @@
             "image_template_1": "στο",
             "edit_image": "Επεξεργασία εικόνας",
             "image_template_2": "Unsplash",
-            "image": "Εικόνα"
+            "image": "Εικόνα",
+            "images_by_unsplash": "Εικόνες από Unsplash",
+            "on_unsplash": "στο Unsplash"
         },
         "error": {
             "minimum_dimension": "Οι διαστάσεις πρέπει να είναι τουλάχιστον 100px και όχι περισσότερες από 8000px."
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "Στυλ",
             "none": "Κανένα",
-            "shadow": "Σκιά",
+            "shadow": "Shadow",
             "text_effects": "Εφέ",
-            "lift": "Ανελκυστήρας",
+            "lift": "Lift",
             "offset": "Offset",
             "direction": "Κατεύθυνση",
             "blur": "Θολούρα",
@@ -1731,7 +1733,7 @@
             "document_colors": "Χρώματα εγγράφων",
             "default_colors": "Προεπιλεγμένα χρώματα"
         },
-        "graphic:graphic": "Γραφικά"
+        "graphic": "Γραφικά"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "Καμπάνιες",
             "frames": "Πλαίσια",
-            "analytics": "Analytics"
+            "analytics": "Analytics",
+            "campaign_edited": "Επεξεργασία καμπάνιας",
+            "delete_campaign": "Διαγραφή καμπάνιας"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "Η καμπάνια προστέθηκε",
             "account_upgraded": "Ο λογαριασμός αναβαθμίστηκε",
             "link_copied": "Ο σύνδεσμος αντιγράφηκε",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "Αντιγράφηκε",
+            "updated": "Ενημερώθηκε",
+            "deleted": "Διαγράφηκε",
+            "campaign_updated": "Η καμπάνια ενημερώθηκε",
+            "campaign_created": "Δημιουργήθηκε καμπάνια",
+            "collection_created": "Δημιουργήθηκε Συλλογή",
+            "collection_updated": "Η συλλογή ενημερώθηκε",
+            "collection_deleted": "Η συλλογή διαγράφηκε"
         },
         "error": {
             "something_went_wrong": "Κάτι πήγε στραβά"
@@ -2209,17 +2213,17 @@
             "11013": "Σφάλμα στρατάρχη JSON!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "Το $ {path} πρέπει να είναι το ίδιο με το $ {reference}",
+            "not_equal_to": "Το $ {path} πρέπει να είναι διαφορετικό από το $ {reference}",
+            "required": "Αυτό το πεδίο είναι υποχρεωτικό και δεν μπορεί να μείνει κενό",
+            "valid_password": "Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον ένα γράμμα και έναν αριθμό",
+            "confirm_password": "Ο κωδικός πρόσβασης πρέπει να ταιριάζει",
+            "valid_email": "Εισαγάγετε μια έγκυρη διεύθυνση email",
+            "valid_url": "Εισαγάγετε μια έγκυρη διεύθυνση URL",
+            "min_width": "Το πλάτος πρέπει να είναι τουλάχιστον {min} pixel",
+            "max_width": "Το πλάτος πρέπει να είναι τουλάχιστον {max} pixel",
+            "min_length": "Το μήκος πρέπει να είναι τουλάχιστον {min} χαρακτήρες",
+            "max_length": "Το μήκος δεν μπορεί να υπερβαίνει τους {max} χαρακτήρες"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "Η εισαγωγή που παρέχεται δεν είναι έγκυρη"
         }
     }
 }

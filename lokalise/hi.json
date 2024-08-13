@@ -83,7 +83,7 @@
             "monthly": "महीने के",
             "annual": "वार्षिक",
             "yearly": "सालाना",
-            "present": ""
+            "present": "उपस्थित"
         },
         "campaign": {
             "campaigns": "कैंपेन",
@@ -721,7 +721,7 @@
             "suggested": "सुझाव दिया",
             "instagram_story": "इंस्टाग्राम स्टोरी",
             "instagram_post": "इंस्टाग्राम पोस्ट",
-            "create_design_button": "डिज़ाइन बनाएं",
+            "start_design": "डिज़ाइन शुरू करें",
             "create_blank_design": "खाली डिज़ाइन बनाएं"
         },
         "frame_Editor": {
@@ -1648,12 +1648,12 @@
             "loading": "लोड हो रहा है"
         },
         "text": {
-            "add_a_heading": "बड़ा टेक्स्ट जोड़ें",
-            "add_a_subheading": "एक माध्यम पाठ जोड़ें",
+            "add_a_heading": "बड़ा पाठ",
+            "add_a_subheading": "मध्यम पाठ",
             "document_fonts": "दस्तावेज़ फ़ॉन्ट",
             "text_effect": "पाठ प्रभाव",
             "effects": "प्रभाव",
-            "add_a_body_text": "एक छोटा पाठ जोड़ें"
+            "add_a_body_text": "छोटा पाठ"
         },
         "shape": {
             "arrow": "तीर",
@@ -1707,8 +1707,10 @@
             "image_template": "फोटो {name} द्वारा ",
             "image_template_1": "पर",
             "edit_image": "संपादित छवि",
-            "image_template_2": "unsplash",
-            "image": "छवि"
+            "image_template_2": "Unsplash",
+            "image": "छवि",
+            "images_by_unsplash": "अनस्प्लैश द्वारा छवियाँ",
+            "on_unsplash": "अनस्प्लैश पर"
         },
         "error": {
             "minimum_dimension": "आयाम कम से कम 100px और अधिकतम 8000px होना चाहिए।"
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "शैली",
             "none": "कोई नहीं",
-            "shadow": "छाया",
+            "shadow": "Shadow",
             "text_effects": "प्रभाव",
-            "lift": "उठाना",
+            "lift": "Lift",
             "offset": "ओफ़्सेट",
             "direction": "दिशा",
             "blur": "कलंक",
@@ -1731,7 +1733,7 @@
             "document_colors": "दस्तावेज़ रंग",
             "default_colors": "डिफ़ॉल्ट रंग"
         },
-        "graphic:graphic": "ग्राफ़िक"
+        "graphic": "ग्राफ़िक"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "कैंपेन",
             "frames": "फ्रेम्स",
-            "analytics": "एनालिटिक्स"
+            "analytics": "एनालिटिक्स",
+            "campaign_edited": "अभियान संपादित",
+            "delete_campaign": "अभियान हटाएं"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "अभियान जोड़ा गया",
             "account_upgraded": "खाता अपग्रेड किया गया",
             "link_copied": "लिंक कॉपी किया गया",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "कॉपी किया गया",
+            "updated": "अद्यतन",
+            "deleted": "हटाए गए",
+            "campaign_updated": "अभियान अपडेट किया गया",
+            "campaign_created": "अभियान बनाया गया",
+            "collection_created": "संग्रह बनाया गया",
+            "collection_updated": "संग्रह अद्यतन",
+            "collection_deleted": "संग्रह हटाया गया"
         },
         "error": {
             "something_went_wrong": "कुछ गलत हो गया"
@@ -2209,17 +2213,17 @@
             "11013": "JSON मार्शल त्रुटि!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} और $ {reference} समान होना चाहिए",
+            "not_equal_to": "$ {path} $ {reference} से भिन्न होना चाहिए",
+            "required": "यह फ़ील्ड आवश्यक है और इसे खाली नहीं छोड़ा जा सकता",
+            "valid_password": "पासवर्ड में कम से कम एक अक्षर और एक अंक होना चाहिए",
+            "confirm_password": "पासवर्ड अवश्य मेल खाना चाहिए",
+            "valid_email": "कृपया एक मान्य ईमेल पता प्रविष्ट करें",
+            "valid_url": "क्रुपया मान्य यूआरएल दर्ज करें",
+            "min_width": "चौड़ाई कम से कम {min} पिक्सेल होनी चाहिए",
+            "max_width": "चौड़ाई कम से कम {max} पिक्सेल होनी चाहिए",
+            "min_length": "लंबाई कम से कम {min} वर्ण होनी चाहिए",
+            "max_length": "लंबाई {max} वर्णों से अधिक नहीं हो सकती"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "प्रदान किया गया इनपुट अमान्य है"
         }
     }
 }

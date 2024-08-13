@@ -83,7 +83,7 @@
             "monthly": "Mensuel",
             "annual": "Annuel",
             "yearly": "Annuel",
-            "present": ""
+            "present": "Présent"
         },
         "campaign": {
             "campaigns": "Campagnes",
@@ -721,7 +721,7 @@
             "suggested": "Suggéré",
             "instagram_story": "Histoire d'Instagram",
             "instagram_post": "Poste Instagram",
-            "create_design_button": "Créer un design",
+            "start_design": "Commencer la conception",
             "create_blank_design": "Créer un dessin vierge"
         },
         "frame_Editor": {
@@ -1155,7 +1155,7 @@
             "once_renew_plan": "Une fois votre forfait renouvelé, votre forfait sera à nouveau actif",
             "yes_renew_plan": "Oui, renouveler le plan",
             "no_cancel": "Non, annuler",
-            "if_cancel_downgrade": "Si vous annulez le déclassement, votre forfait actuel sera à nouveau actif",
+            "if_cancel_downgrade": "Si vous annulez le rétrogradage, votre plan actuel sera à nouveau actif.",
             "yes_downgrade": "Oui, continuer la rétrogradation",
             "if_cancel_change_billing": "Si vous annulez le changement de facturation, votre forfait actuel sera à nouveau actif",
             "yes_continue": "Oui, continuer",
@@ -1648,12 +1648,12 @@
             "loading": "Chargement"
         },
         "text": {
-            "add_a_heading": "Ajouter un gros texte",
-            "add_a_subheading": "Ajouter un texte moyen",
+            "add_a_heading": "Gros texte",
+            "add_a_subheading": "Texte moyen",
             "document_fonts": "Polices de caractères du document",
             "text_effect": "Effets de texte",
             "effects": "Effets",
-            "add_a_body_text": "Ajouter un petit texte"
+            "add_a_body_text": "Petit texte"
         },
         "shape": {
             "arrow": "Flèche",
@@ -1708,7 +1708,9 @@
             "image_template_1": "sur",
             "edit_image": "Modifier l'image",
             "image_template_2": "Unsplash",
-            "image": "Image"
+            "image": "Image",
+            "images_by_unsplash": "Images par Unsplash",
+            "on_unsplash": "sur Unsplash"
         },
         "error": {
             "minimum_dimension": "Les dimensions doivent être au minimum de 100px et au maximum de 8000px."
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "Style",
             "none": "Aucun",
-            "shadow": "Ombre",
+            "shadow": "Shadow",
             "text_effects": "Effets",
-            "lift": "Ascenseur",
+            "lift": "Lift",
             "offset": "Décalage",
             "direction": "Direction",
             "blur": "Flou",
@@ -1731,7 +1733,7 @@
             "document_colors": "Couleurs des documents",
             "default_colors": "Couleurs par défaut"
         },
-        "graphic:graphic": "Graphique"
+        "graphic": "Graphique"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "Campagnes",
             "frames": "Cadres",
-            "analytics": "Analyse"
+            "analytics": "Analyse",
+            "campaign_edited": "Campagne éditée",
+            "delete_campaign": "Supprimer la campagne"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "Campagne ajoutée",
             "account_upgraded": "Compte mis à niveau",
             "link_copied": "Lien copié",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "Copié",
+            "updated": "Mis à jour",
+            "deleted": "Supprimé",
+            "campaign_updated": "Campagne mise à jour",
+            "campaign_created": "Campagne créée",
+            "collection_created": "Collection créée",
+            "collection_updated": "Collection mise à jour",
+            "collection_deleted": "Collection supprimée"
         },
         "error": {
             "something_went_wrong": "Quelque chose s'est mal passé"
@@ -2209,17 +2213,17 @@
             "11013": "Erreur de marshal JSON !"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} doit être identique à $ {reference}",
+            "not_equal_to": "$ {path} doit être différent de $ {reference}",
+            "required": "Ce champ est obligatoire et ne peut pas être laissé vide",
+            "valid_password": "Le mot de passe doit contenir au moins une lettre et un chiffre",
+            "confirm_password": "Le mot de passe doit correspondre",
+            "valid_email": "S'il vous plaît, mettez une adresse email valide",
+            "valid_url": "Veuillez saisir une URL valide",
+            "min_width": "La largeur doit être d'au moins {min} pixels",
+            "max_width": "La largeur doit être d'au moins {max} pixels",
+            "min_length": "La longueur doit être d'au moins {min} caractères",
+            "max_length": "La longueur ne peut pas dépasser {max} caractères"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "L'entrée fournie n'est pas valide"
         }
     }
 }

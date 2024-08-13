@@ -83,7 +83,7 @@
             "monthly": "Щомісяця",
             "annual": "Щорічний",
             "yearly": "Щорічно",
-            "present": ""
+            "present": "присутній"
         },
         "campaign": {
             "campaigns": "Кампанії",
@@ -573,7 +573,7 @@
             "downgrade_description": "Ви повертаєтеся до {plan} , який буде активним після завершення поточної підписки.",
             "change_plan_confirm": "Ти впевнений?",
             "upgrade_confirm": "Ви дійсно бажаєте оновити?",
-            "downgrade_confirm": "Ви впевнені, що бажаєте знизити тарифний план?",
+            "downgrade_confirm": "Ви впевнені, що бажаєте знизити план?",
             "change_plan_active": "Він стане активним після закінчення поточної підписки",
             "upgrade_active": "Він стане активним, коли ви завершите платіж",
             "downgrade_active": "Він стане активним після завершення поточної підписки",
@@ -721,7 +721,7 @@
             "suggested": "Запропоновано",
             "instagram_story": "Instagram Story",
             "instagram_post": "Пост в Instagram",
-            "create_design_button": "Створення дизайну",
+            "start_design": "Розпочати дизайн",
             "create_blank_design": "Створіть порожній дизайн"
         },
         "frame_Editor": {
@@ -1131,7 +1131,7 @@
             "are_you_sure_upgrade": "Ви дійсно бажаєте оновити?",
             "plan_changing_info": "Перейти на {package} отримано. Новий план починається після закінчення поточного",
             "active_after_payment": "Він стане активним, коли ви завершите платіж",
-            "are_you_sure_downgrade": "Ви впевнені, що бажаєте знизити тарифний план?",
+            "are_you_sure_downgrade": "Ви впевнені, що бажаєте знизити план?",
             "plan_downgrade_info": "Повернення до {package} отримано. Новий план починається після закінчення поточного",
             "renew_plan": "Оновити план",
             "renew_subscription": "Поновити підписку",
@@ -1648,12 +1648,12 @@
             "loading": "Завантаження"
         },
         "text": {
-            "add_a_heading": "Додайте великий текст",
-            "add_a_subheading": "Додайте середній текст",
+            "add_a_heading": "Великий текст",
+            "add_a_subheading": "Середній текст",
             "document_fonts": "Шрифти документів",
             "text_effect": "Текстові ефекти",
             "effects": "Ефекти",
-            "add_a_body_text": "Додайте маленький текст"
+            "add_a_body_text": "Дрібний текст"
         },
         "shape": {
             "arrow": "Стріла.",
@@ -1707,8 +1707,10 @@
             "image_template": "Фото: {name} ",
             "image_template_1": "на",
             "edit_image": "Редагувати зображення",
-            "image_template_2": "Вимкнути сплеск",
-            "image": "Зображення"
+            "image_template_2": "Unsplash",
+            "image": "Зображення",
+            "images_by_unsplash": "Зображення від Unsplash",
+            "on_unsplash": "на Unsplash"
         },
         "error": {
             "minimum_dimension": "Розміри повинні бути не менше 100px і не більше 8000px."
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "Стиль",
             "none": "Ні.",
-            "shadow": "Тінь",
+            "shadow": "Shadow",
             "text_effects": "Ефекти",
-            "lift": "Підйом!",
+            "lift": "Lift",
             "offset": "Зміщення",
             "direction": "Напрямок",
             "blur": "Плямистість.",
@@ -1731,7 +1733,7 @@
             "document_colors": "Кольори документів",
             "default_colors": "Кольори за замовчуванням"
         },
-        "graphic:graphic": "Графіка"
+        "graphic": "Графіка"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "Кампанії",
             "frames": "Рамки",
-            "analytics": "Аналітика"
+            "analytics": "Аналітика",
+            "campaign_edited": "Кампанію відредаговано",
+            "delete_campaign": "Видалити кампанію"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "Кампанію додано",
             "account_upgraded": "Обліковий запис оновлено",
             "link_copied": "Посилання скопійовано",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "Скопійовано",
+            "updated": "Оновлено",
+            "deleted": "Видалено",
+            "campaign_updated": "Кампанію оновлено",
+            "campaign_created": "Кампанію створено",
+            "collection_created": "Колекція створена",
+            "collection_updated": "Колекція оновлена",
+            "collection_deleted": "Колекція видалена"
         },
         "error": {
             "something_went_wrong": "Щось пішло не так"
@@ -2209,17 +2213,17 @@
             "11013": "Помилка маршалу JSON!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} має збігатися з $ {reference}",
+            "not_equal_to": "$ {path} має відрізнятися від $ {reference}",
+            "required": "Це поле є обов’язковим і не може бути заповненим",
+            "valid_password": "Пароль повинен містити принаймні одну літеру та одну цифру",
+            "confirm_password": "Пароль має збігатися",
+            "valid_email": "Введіть дійсну адресу електронної пошти",
+            "valid_url": "Введіть дійсну URL-адресу",
+            "min_width": "Ширина має бути принаймні {min} пікселів",
+            "max_width": "Ширина має бути не менше {max} пікселів",
+            "min_length": "Довжина має бути принаймні {min} символів",
+            "max_length": "Довжина не може перевищувати {max} символів"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "Введені дані недійсні"
         }
     }
 }

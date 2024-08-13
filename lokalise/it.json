@@ -83,7 +83,7 @@
             "monthly": "Mensile",
             "annual": "Annuale",
             "yearly": "Annuale",
-            "present": ""
+            "present": "Presente"
         },
         "campaign": {
             "campaigns": "Campagne",
@@ -721,7 +721,7 @@
             "suggested": "Suggerito",
             "instagram_story": "Storia di Instagram",
             "instagram_post": "Post su Instagram",
-            "create_design_button": "Crea progettazione",
+            "start_design": "Inizia la progettazione",
             "create_blank_design": "Creare un design vuoto"
         },
         "frame_Editor": {
@@ -1648,12 +1648,12 @@
             "loading": "Caricamento"
         },
         "text": {
-            "add_a_heading": "Aggiungi un testo grande",
-            "add_a_subheading": "Aggiungi un testo medio",
+            "add_a_heading": "Testo grande",
+            "add_a_subheading": "Testo medio",
             "document_fonts": "Font del documento",
             "text_effect": "Effetti del testo",
             "effects": "Effetti",
-            "add_a_body_text": "Aggiungi un piccolo testo"
+            "add_a_body_text": "Testo piccolo"
         },
         "shape": {
             "arrow": "Freccia",
@@ -1708,7 +1708,9 @@
             "image_template_1": "su",
             "edit_image": "Modifica immagine",
             "image_template_2": "Unsplash",
-            "image": "Immagine"
+            "image": "Immagine",
+            "images_by_unsplash": "Immagini di Unsplash",
+            "on_unsplash": "su Unsplash"
         },
         "error": {
             "minimum_dimension": "Le dimensioni devono essere di almeno 100px e non più di 8000px."
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "Stile",
             "none": "Nessuno",
-            "shadow": "Ombra",
+            "shadow": "Shadow",
             "text_effects": "Effetti",
-            "lift": "Sollevamento",
+            "lift": "Lift",
             "offset": "Offset",
             "direction": "Direzione",
             "blur": "Sfocatura",
@@ -1731,7 +1733,7 @@
             "document_colors": "Colori del documento",
             "default_colors": "Colori predefiniti"
         },
-        "graphic:graphic": "Grafica"
+        "graphic": "Grafica"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "Campagne",
             "frames": "Cornici",
-            "analytics": "Analisi"
+            "analytics": "Analisi",
+            "campaign_edited": "Campagna modificata",
+            "delete_campaign": "Elimina campagna"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "Aggiunta campagna",
             "account_upgraded": "Account aggiornato",
             "link_copied": "Collegamento copiato",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "Copiato",
+            "updated": "Aggiornato",
+            "deleted": "Eliminato",
+            "campaign_updated": "Campagna aggiornata",
+            "campaign_created": "Campagna creata",
+            "collection_created": "Raccolta creata",
+            "collection_updated": "Collezione aggiornata",
+            "collection_deleted": "Raccolta eliminata"
         },
         "error": {
             "something_went_wrong": "Qualcosa è andato storto"
@@ -2209,17 +2213,17 @@
             "11013": "Errore di marshalling JSON!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} deve essere uguale a $ {reference}",
+            "not_equal_to": "$ {path} deve essere diverso da $ {reference}",
+            "required": "Questo campo è obbligatorio e non può essere lasciato vuoto",
+            "valid_password": "La password deve contenere almeno una lettera e un numero",
+            "confirm_password": "La password deve corrispondere",
+            "valid_email": "Si prega di inserire un indirizzo email valido",
+            "valid_url": "Inserisci un URL valido",
+            "min_width": "La larghezza deve essere di almeno {min} pixel",
+            "max_width": "La larghezza deve essere di almeno {max} pixel",
+            "min_length": "La lunghezza deve essere di almeno {min} caratteri",
+            "max_length": "La lunghezza non può superare {max} caratteri"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "L'input fornito non è valido"
         }
     }
 }
