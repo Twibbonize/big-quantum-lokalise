@@ -83,7 +83,7 @@
             "monthly": "每月",
             "annual": "年度的",
             "yearly": "每年",
-            "present": ""
+            "present": "展示"
         },
         "campaign": {
             "campaigns": "活動",
@@ -721,7 +721,7 @@
             "suggested": "建議",
             "instagram_story": "Instagram 故事",
             "instagram_post": "Instagram 貼文",
-            "create_design_button": "創造設計",
+            "start_design": "開始設計",
             "create_blank_design": "建立空白設計"
         },
         "frame_Editor": {
@@ -1648,12 +1648,12 @@
             "loading": "載入中"
         },
         "text": {
-            "add_a_heading": "新增大文字",
-            "add_a_subheading": "新增中等文字",
+            "add_a_heading": "大文字",
+            "add_a_subheading": "中文字",
             "document_fonts": "文件字體",
             "text_effect": "文字效果",
             "effects": "效果",
-            "add_a_body_text": "新增小文字"
+            "add_a_body_text": "小文字"
         },
         "shape": {
             "arrow": "箭",
@@ -1707,8 +1707,10 @@
             "image_template": "照片由{name}拍攝 ",
             "image_template_1": "在",
             "edit_image": "編輯影像",
-            "image_template_2": "未飛濺",
-            "image": "影像"
+            "image_template_2": "Unsplash",
+            "image": "影像",
+            "images_by_unsplash": "圖片由 Unsplash 提供",
+            "on_unsplash": "在 Unsplash 上"
         },
         "error": {
             "minimum_dimension": "尺寸必須至少為 100 像素且不超過 8000 像素。"
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "風格",
             "none": "沒有任何",
-            "shadow": "陰影",
+            "shadow": "Shadow",
             "text_effects": "效果",
-            "lift": "舉起",
+            "lift": "Lift",
             "offset": "抵銷",
             "direction": "方向",
             "blur": "模糊",
@@ -1731,7 +1733,7 @@
             "document_colors": "文檔顏色",
             "default_colors": "預設顏色"
         },
-        "graphic:graphic": "形象的"
+        "graphic": "形象的"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "活動",
             "frames": "鏡框",
-            "analytics": "分析"
+            "analytics": "分析",
+            "campaign_edited": "活動已編輯",
+            "delete_campaign": "刪除行銷活動"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "已新增廣告活動",
             "account_upgraded": "帳號升級",
             "link_copied": "連結已複製",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "已複製",
+            "updated": "已更新",
+            "deleted": "已刪除",
+            "campaign_updated": "活動已更新",
+            "campaign_created": "活動已建立",
+            "collection_created": "收藏已創建",
+            "collection_updated": "收藏已更新",
+            "collection_deleted": "收藏已刪除"
         },
         "error": {
             "something_went_wrong": "出了點問題"
@@ -2209,17 +2213,17 @@
             "11013": "JSON 編組錯誤！"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path}必須與 $ {reference}相同",
+            "not_equal_to": "$ {path}必須與 $ {reference}不同",
+            "required": "此字段為必填字段，不能留空",
+            "valid_password": "密碼必須至少包含一個字母和一個數字",
+            "confirm_password": "密碼必須匹配",
+            "valid_email": "請輸入有效的電子郵件地址",
+            "valid_url": "請輸入有效的網址",
+            "min_width": "寬度必須至少為{min}像素",
+            "max_width": "寬度必須至少為{max}像素",
+            "min_length": "長度必須至少為{min}個字符",
+            "max_length": "長度不能超過{max}個字符"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "提供的輸入無效"
         }
     }
 }

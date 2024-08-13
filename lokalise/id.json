@@ -104,7 +104,7 @@
             "replies": "{replies} Balasan",
             "comments": "{comments} Komentar",
             "no_comment_yet": "Belum ada komentar",
-            "start_conversation": "Mulai Percakapan"
+            "start_conversation": "Mulai percakapan"
         },
         "post": {
             "post": "Postingan",
@@ -326,7 +326,7 @@
         "generate": {
             "your_photo": "Foto kamu",
             "a_frame": "Bingkai yang dibuat oleh seseorang",
-            "og_twibbon": "Twibbon \"Asli\""
+            "og_twibbon": "Twibbon"
         },
         "process": {
             "how_twibbonize_1": "Bagaimana Twibbonize merevolusi",
@@ -417,7 +417,7 @@
             "remove_watermark_for_all": "Hapus Watermark untuk Semua"
         },
         "report": {
-            "report_campaign": "Laporkan Kampanye",
+            "report_campaign": "Laporkan",
             "report_profile": "Laporkan Profil",
             "plagiarism": "Plagiarisme",
             "sensitive": "Konten Sensitif",
@@ -721,7 +721,7 @@
             "suggested": "Disarankan",
             "instagram_story": "Cerita Instagram",
             "instagram_post": "Postingan Instagram",
-            "create_design_button": "Buat Desain",
+            "start_design": "Mulai Desain",
             "create_blank_design": "Buat Desain Kosong"
         },
         "frame_Editor": {
@@ -1611,7 +1611,7 @@
         }
     },
     "report": {
-        "report_campaign": "Laporkan Kampanye",
+        "report_campaign": "Laporkan",
         "report_profile": "Profil Laporan",
         "plagiarism": "Plagiat",
         "impersonation": "Peniruan",
@@ -1648,12 +1648,12 @@
             "loading": "Memuat"
         },
         "text": {
-            "add_a_heading": "Tambah Teks Besar",
-            "add_a_subheading": "Tamba Teks Sedang",
+            "add_a_heading": "Teks Besar",
+            "add_a_subheading": "Teks Sedang",
             "document_fonts": "Font dokumen",
             "text_effect": "Efek Teks",
             "effects": "Efek",
-            "add_a_body_text": "Tambah Teks Kecil"
+            "add_a_body_text": "Teks Kecil"
         },
         "shape": {
             "arrow": "Panah",
@@ -1708,7 +1708,9 @@
             "image_template_1": "pada",
             "edit_image": "Edit Gambar",
             "image_template_2": "Unsplash",
-            "image": "Gambar"
+            "image": "Gambar",
+            "images_by_unsplash": "Gambar oleh Unsplash",
+            "on_unsplash": "di Unsplash"
         },
         "error": {
             "minimum_dimension": "Dimensi minimal 100 piksel dan tidak lebih dari 8000 piksel."
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "Gaya",
             "none": "Tidak ada",
-            "shadow": "Bayangan",
+            "shadow": "Shadow",
             "text_effects": "Efek",
-            "lift": "Angkat",
+            "lift": "Lift",
             "offset": "Offset",
             "direction": "Arah",
             "blur": "Blur",
@@ -1731,7 +1733,7 @@
             "document_colors": "Warna Dokumen",
             "default_colors": "Warna Default"
         },
-        "graphic:graphic": "Grafis"
+        "graphic": "Grafis"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "Kampanye",
             "frames": "Bingkai",
-            "analytics": "Analitik"
+            "analytics": "Analitik",
+            "campaign_edited": "Kampanye Diedit",
+            "delete_campaign": "Hapus Kampanye"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "Kampanye ditambahkan",
             "account_upgraded": "Akun ditingkatkan",
             "link_copied": "Tautan disalin",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "Disalin",
+            "updated": "Diperbarui",
+            "deleted": "Dihapus",
+            "campaign_updated": "Kampanye Diperbarui",
+            "campaign_created": "Kampanye Dibuat",
+            "collection_created": "Koleksi Dibuat",
+            "collection_updated": "Koleksi Diperbarui",
+            "collection_deleted": "Koleksi Dihapus"
         },
         "error": {
             "something_went_wrong": "Ada yang salah"
@@ -2209,17 +2213,17 @@
             "11013": "Kesalahan marshal JSON!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} harus sama dengan $ {reference}",
+            "not_equal_to": "$ {path} harus berbeda dengan $ {reference}",
+            "required": "Kolom ini wajib diisi dan tidak boleh dikosongkan",
+            "valid_password": "Kata sandi harus mengandung setidaknya satu huruf dan satu angka",
+            "confirm_password": "Kata sandi harus cocok",
+            "valid_email": "Harap masukkan alamat email yang valid",
+            "valid_url": "Harap masukkan URL yang valid",
+            "min_width": "Lebarnya harus minimal {min} piksel",
+            "max_width": "Lebarnya harus minimal {max} piksel",
+            "min_length": "Panjangnya harus minimal {min} karakter",
+            "max_length": "Panjangnya tidak dapat melebihi {max} karakter"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "Masukan yang diberikan tidak valid"
         }
     }
 }

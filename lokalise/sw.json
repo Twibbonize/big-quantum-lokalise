@@ -83,7 +83,7 @@
             "monthly": "Kila mwezi",
             "annual": "Mwaka",
             "yearly": "Kila mwaka",
-            "present": ""
+            "present": "Wasilisha"
         },
         "campaign": {
             "campaigns": "Kampeni",
@@ -721,7 +721,7 @@
             "suggested": "Imependekezwa",
             "instagram_story": "Hadithi ya Instagram",
             "instagram_post": "Chapisho la Instagram",
-            "create_design_button": "Tengeneza Usanifu",
+            "start_design": "Anza Kubuni",
             "create_blank_design": "Tengeneza Ubunifu Tupu"
         },
         "frame_Editor": {
@@ -1648,12 +1648,12 @@
             "loading": "Inapakia"
         },
         "text": {
-            "add_a_heading": "Ongeza Nakala Kubwa",
-            "add_a_subheading": "Ongeza Maandishi ya Wastani",
+            "add_a_heading": "Maandishi Kubwa",
+            "add_a_subheading": "Maandishi ya Kati",
             "document_fonts": "Fonti za hati",
             "text_effect": "Athari za Maandishi",
             "effects": "Madhara",
-            "add_a_body_text": "Ongeza Nakala Ndogo"
+            "add_a_body_text": "Maandishi Madogo"
         },
         "shape": {
             "arrow": "Mshale",
@@ -1708,7 +1708,9 @@
             "image_template_1": "juu",
             "edit_image": "Hariri Picha",
             "image_template_2": "Unsplash",
-            "image": "Picha"
+            "image": "Picha",
+            "images_by_unsplash": "Picha na Unsplash",
+            "on_unsplash": "kwenye Unsplash"
         },
         "error": {
             "minimum_dimension": "Vipimo lazima viwe angalau 100px na si zaidi ya 8000px."
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "Mtindo",
             "none": "Hakuna",
-            "shadow": "Kivuli",
+            "shadow": "Shadow",
             "text_effects": "Madhara",
-            "lift": "Inua",
+            "lift": "Lift",
             "offset": "Kukabiliana",
             "direction": "Mwelekeo",
             "blur": "Ukungu",
@@ -1731,7 +1733,7 @@
             "document_colors": "Rangi za Nyaraka",
             "default_colors": "Rangi Chaguomsingi"
         },
-        "graphic:graphic": "Mchoro"
+        "graphic": "Mchoro"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "Kampeni",
             "frames": "Fremu",
-            "analytics": "Uchanganuzi"
+            "analytics": "Uchanganuzi",
+            "campaign_edited": "Kampeni Imehaririwa",
+            "delete_campaign": "Futa Kampeni"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "Kampeni imeongezwa",
             "account_upgraded": "Akaunti imeboreshwa",
             "link_copied": "Kiungo kimenakiliwa",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "Imenakiliwa",
+            "updated": "Imesasishwa",
+            "deleted": "Imefutwa",
+            "campaign_updated": "Kampeni Imesasishwa",
+            "campaign_created": "Kampeni Imeundwa",
+            "collection_created": "Mkusanyiko Umeundwa",
+            "collection_updated": "Mkusanyiko Umesasishwa",
+            "collection_deleted": "Mkusanyiko Umefutwa"
         },
         "error": {
             "something_went_wrong": "Hitilafu fulani imetokea"
@@ -2209,17 +2213,17 @@
             "11013": "Hitilafu ya JSON marshal!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} lazima iwe sawa na $ {reference}",
+            "not_equal_to": "$ {path} lazima iwe tofauti kama $ {reference}",
+            "required": "Sehemu hii inahitajika na haiwezi kuachwa wazi",
+            "valid_password": "Nenosiri lazima liwe na angalau herufi moja na nambari moja",
+            "confirm_password": "Nenosiri lazima lilingane",
+            "valid_email": "Tafadhali weka barua pepe halali",
+            "valid_url": "Tafadhali weka URL halali",
+            "min_width": "Upana lazima uwe angalau pikseli {min}",
+            "max_width": "Upana lazima uwe angalau pikseli {max}",
+            "min_length": "Urefu lazima uwe angalau vibambo {min}",
+            "max_length": "Urefu hauwezi kuzidi herufi {max}"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "Ingizo lililotolewa ni batili"
         }
     }
 }

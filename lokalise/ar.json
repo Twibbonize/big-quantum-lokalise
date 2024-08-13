@@ -83,7 +83,7 @@
             "monthly": "شهرياً",
             "annual": "سنوي",
             "yearly": "سنويًا",
-            "present": ""
+            "present": "حاضر"
         },
         "campaign": {
             "campaigns": "الحملات",
@@ -721,7 +721,7 @@
             "suggested": "مقترح",
             "instagram_story": "قصة انستقرام",
             "instagram_post": "منشور على إنستجرام",
-            "create_design_button": "إنشاء التصميم",
+            "start_design": "ابدأ التصميم",
             "create_blank_design": "إنشاء تصميم فارغ"
         },
         "frame_Editor": {
@@ -1648,12 +1648,12 @@
             "loading": "التحميل"
         },
         "text": {
-            "add_a_heading": "أضف نصًا كبيرًا",
-            "add_a_subheading": "إضافة نص متوسط",
+            "add_a_heading": "نص كبير",
+            "add_a_subheading": "نص متوسط",
             "document_fonts": "خطوط المستندات",
             "text_effect": "المؤثرات النصية",
             "effects": "المؤثرات",
-            "add_a_body_text": "أضف نصًا صغيرًا"
+            "add_a_body_text": "نص صغير"
         },
         "shape": {
             "arrow": "السهم",
@@ -1707,8 +1707,10 @@
             "image_template": "الصورة من {name} ",
             "image_template_1": "على",
             "edit_image": "تحرير الصورة",
-            "image_template_2": "أنسبلاش",
-            "image": "الصورة"
+            "image_template_2": "Unsplash",
+            "image": "الصورة",
+            "images_by_unsplash": "الصور عن طريق Unsplash",
+            "on_unsplash": "على أونسبلاش"
         },
         "error": {
             "minimum_dimension": "يجب ألا تقل الأبعاد عن 100 بكسل ولا تزيد عن 8000 بكسل."
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "الطراز",
             "none": "لا يوجد",
-            "shadow": "الظل",
+            "shadow": "Shadow",
             "text_effects": "المؤثرات",
-            "lift": "الرفع",
+            "lift": "Lift",
             "offset": "الأوفست",
             "direction": "الاتجاه",
             "blur": "الضبابية",
@@ -1731,7 +1733,7 @@
             "document_colors": "ألوان المستندات",
             "default_colors": "الألوان الافتراضية"
         },
-        "graphic:graphic": "الرسم البياني"
+        "graphic": "الرسم البياني"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "الحملات",
             "frames": "الإطارات",
-            "analytics": "التحليلات"
+            "analytics": "التحليلات",
+            "campaign_edited": "تم تحرير الحملة",
+            "delete_campaign": "حذف الحملة"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "تمت إضافة الحملة",
             "account_upgraded": "تمت ترقية الحساب",
             "link_copied": "تم نسخ الرابط",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "تم نسخها",
+            "updated": "تم التحديث",
+            "deleted": "تم الحذف",
+            "campaign_updated": "تم تحديث الحملة",
+            "campaign_created": "تم إنشاء الحملة",
+            "collection_created": "تم إنشاء المجموعة",
+            "collection_updated": "تم تحديث المجموعة",
+            "collection_deleted": "تم حذف المجموعة"
         },
         "error": {
             "something_went_wrong": "هناك خطأ ما"
@@ -2209,17 +2213,17 @@
             "11013": "خطأ في تنسيق JSON!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "يجب أن يكون $ {path} هو نفسه $ {reference}",
+            "not_equal_to": "يجب أن يكون $ {path} مختلفًا عن $ {reference}",
+            "required": "هذا الحقل مطلوب ولا يمكن تركه فارغا",
+            "valid_password": "يجب أن تحتوي كلمة المرور على حرف واحد على الأقل ورقم واحد",
+            "confirm_password": "يجب أن تتطابق كلمة المرور",
+            "valid_email": "يرجى إدخال عنوان بريد إلكتروني صالح",
+            "valid_url": "الرجاء إدخال عنوان URL صالح",
+            "min_width": "يجب أن يكون العرض {min} بكسل على الأقل",
+            "max_width": "يجب أن يكون العرض على الأقل {max} بكسل",
+            "min_length": "يجب أن يكون الطول {min} حرفًا على الأقل",
+            "max_length": "لا يمكن أن يتجاوز الطول {max} حرفًا"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "المدخلات المقدمة غير صالحة"
         }
     }
 }

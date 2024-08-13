@@ -83,7 +83,7 @@
             "monthly": "Mujore",
             "annual": "vjetore",
             "yearly": "vjetore",
-            "present": ""
+            "present": "i pranishëm"
         },
         "campaign": {
             "campaigns": "Fushatat",
@@ -573,7 +573,7 @@
             "downgrade_description": "Ju po ulni planin tuaj në {plan} , i cili do të jetë aktiv pasi të përfundojë abonimi aktual.",
             "change_plan_confirm": "A je i sigurt?",
             "upgrade_confirm": "Je i sigurt që dëshiron të përmirësosh?",
-            "downgrade_confirm": "Jeni i sigurt që dëshironi ta ulni planin?",
+            "downgrade_confirm": "Je i sigurt që dëshiron ta ulësh planin?",
             "change_plan_active": "Ai do të jetë aktiv pasi të përfundojë abonimi juaj aktual",
             "upgrade_active": "Do të jetë aktive sapo të përfundoni pagesën",
             "downgrade_active": "Ai do të jetë aktiv pasi të përfundojë abonimi juaj aktual",
@@ -721,7 +721,7 @@
             "suggested": "Sugjeruar",
             "instagram_story": "Historia në Instagram",
             "instagram_post": "Postimi në Instagram",
-            "create_design_button": "Krijo dizajn",
+            "start_design": "Filloni Dizajn",
             "create_blank_design": "Krijo dizajn bosh"
         },
         "frame_Editor": {
@@ -1648,12 +1648,12 @@
             "loading": "Po ngarkohet"
         },
         "text": {
-            "add_a_heading": "Shtoni një tekst të madh",
-            "add_a_subheading": "Shtoni një tekst të mesëm",
+            "add_a_heading": "Tekst i madh",
+            "add_a_subheading": "Tekst i mesëm",
             "document_fonts": "Fontet e dokumenteve",
             "text_effect": "Efektet e tekstit",
             "effects": "Efektet",
-            "add_a_body_text": "Shtoni një tekst të vogël"
+            "add_a_body_text": "Tekst i vogël"
         },
         "shape": {
             "arrow": "Shigjeta",
@@ -1707,8 +1707,10 @@
             "image_template": "Foto nga {name} ",
             "image_template_1": "në",
             "edit_image": "Redakto imazhin",
-            "image_template_2": "Hiq spërkatjen",
-            "image": "Imazhi"
+            "image_template_2": "Unsplash",
+            "image": "Imazhi",
+            "images_by_unsplash": "Imazhet nga Unsplash",
+            "on_unsplash": "në Unsplash"
         },
         "error": {
             "minimum_dimension": "Dimensionet duhet të jenë të paktën 100px dhe jo më shumë se 8000px."
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "Stili",
             "none": "Asnje",
-            "shadow": "Hije",
+            "shadow": "Shadow",
             "text_effects": "Efektet",
-            "lift": "Ngritja",
+            "lift": "Lift",
             "offset": "Kompensimi",
             "direction": "Drejtimi",
             "blur": "E turbullt",
@@ -1731,7 +1733,7 @@
             "document_colors": "Ngjyrat e dokumentit",
             "default_colors": "Ngjyrat e parazgjedhura"
         },
-        "graphic:graphic": "Grafike"
+        "graphic": "Grafike"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "Fushatat",
             "frames": "Korniza",
-            "analytics": "Analiza"
+            "analytics": "Analiza",
+            "campaign_edited": "Fushata e redaktuar",
+            "delete_campaign": "Fshi fushatën"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "Fushata u shtua",
             "account_upgraded": "Llogaria u përditësua",
             "link_copied": "Lidhja u kopjua",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "E kopjuar",
+            "updated": "Përditësuar",
+            "deleted": "U fshi",
+            "campaign_updated": "Fushata u përditësua",
+            "campaign_created": "Fushata e krijuar",
+            "collection_created": "Koleksioni u krijua",
+            "collection_updated": "Koleksioni u përditësua",
+            "collection_deleted": "Koleksioni u fshi"
         },
         "error": {
             "something_went_wrong": "Dicka shkoi keq"
@@ -2209,17 +2213,17 @@
             "11013": "Gabim marshal JSON!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} duhet të jetë e njëjtë me $ {reference}",
+            "not_equal_to": "$ {path} duhet të jetë i ndryshëm nga $ {reference}",
+            "required": "Kjo fushë kërkohet dhe nuk mund të lihet bosh",
+            "valid_password": "Fjalëkalimi duhet të përmbajë të paktën një shkronjë dhe një numër",
+            "confirm_password": "Fjalëkalimi duhet të përputhet",
+            "valid_email": "Ju lutemi shkruani një adresë të vlefshme emaili",
+            "valid_url": "Ju lutemi shkruani një URL të vlefshme",
+            "min_width": "Gjerësia duhet të jetë së paku {min} piksel",
+            "max_width": "Gjerësia duhet të jetë së paku {max} piksel",
+            "min_length": "Gjatësia duhet të jetë së paku {min} karaktere",
+            "max_length": "Gjatësia nuk mund të kalojë {max} karaktere"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "Hyrja e dhënë është e pavlefshme"
         }
     }
 }

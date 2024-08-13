@@ -83,7 +83,7 @@
             "monthly": "Ежемесячно",
             "annual": "Ежегодно",
             "yearly": "Ежегодно",
-            "present": ""
+            "present": "Подарок"
         },
         "campaign": {
             "campaigns": "Кампании",
@@ -721,7 +721,7 @@
             "suggested": "Предлагаемые",
             "instagram_story": "История Instagram",
             "instagram_post": "Пост в Instagram",
-            "create_design_button": "Создать дизайн",
+            "start_design": "Начать дизайн",
             "create_blank_design": "Создать пустой дизайн"
         },
         "frame_Editor": {
@@ -1155,7 +1155,7 @@
             "once_renew_plan": "Как только вы продлите план, ваш план снова станет активным.",
             "yes_renew_plan": "Да, продлить план",
             "no_cancel": "Нет, отменить",
-            "if_cancel_downgrade": "Если вы отмените переход на более раннюю версию, ваш текущий план снова станет активным.",
+            "if_cancel_downgrade": "Если вы отмените понижение, ваш текущий план снова станет активным.",
             "yes_downgrade": "Да, продолжить понижение версии",
             "if_cancel_change_billing": "Если вы отмените изменение счета, ваш текущий план снова станет активным.",
             "yes_continue": "Да, продолжить",
@@ -1648,12 +1648,12 @@
             "loading": "Загрузка"
         },
         "text": {
-            "add_a_heading": "Добавить большой текст",
-            "add_a_subheading": "Добавить средний текст",
+            "add_a_heading": "Большой текст",
+            "add_a_subheading": "Средний текст",
             "document_fonts": "Шрифты для документов",
             "text_effect": "Текстовые эффекты",
             "effects": "Эффекты",
-            "add_a_body_text": "Добавить небольшой текст"
+            "add_a_body_text": "Мелкий текст"
         },
         "shape": {
             "arrow": "Стрела",
@@ -1708,7 +1708,9 @@
             "image_template_1": "на",
             "edit_image": "Редактировать изображение",
             "image_template_2": "Unsplash",
-            "image": "Изображение"
+            "image": "Изображение",
+            "images_by_unsplash": "Изображения Unsplash",
+            "on_unsplash": "на Unsplash"
         },
         "error": {
             "minimum_dimension": "Размеры должны быть не менее 100px и не более 8000px."
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "Стиль",
             "none": "Нет",
-            "shadow": "Тень",
+            "shadow": "Shadow",
             "text_effects": "Эффекты",
-            "lift": "Подъемник",
+            "lift": "Lift",
             "offset": "Смещение",
             "direction": "Направление",
             "blur": "Пятно",
@@ -1731,7 +1733,7 @@
             "document_colors": "Цвета документов",
             "default_colors": "Цвета по умолчанию"
         },
-        "graphic:graphic": "Графика"
+        "graphic": "Графика"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "Кампании",
             "frames": "Рамки",
-            "analytics": "Аналитика"
+            "analytics": "Аналитика",
+            "campaign_edited": "Кампания отредактирована",
+            "delete_campaign": "Удалить кампанию"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "Кампания добавлена",
             "account_upgraded": "Аккаунт обновлен",
             "link_copied": "Ссылка скопирована",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "Скопировано",
+            "updated": "Обновлено",
+            "deleted": "Удалено",
+            "campaign_updated": "Кампания обновлена",
+            "campaign_created": "Кампания создана",
+            "collection_created": "Коллекция создана",
+            "collection_updated": "Коллекция обновлена",
+            "collection_deleted": "Коллекция удалена"
         },
         "error": {
             "something_went_wrong": "Что-то пошло не так"
@@ -2209,17 +2213,17 @@
             "11013": "Ошибка маршала JSON!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} должен быть таким же, как $ {reference}",
+            "not_equal_to": "$ {path} должен отличаться от $ {reference}",
+            "required": "Это поле обязательно и не может быть оставлено пустым",
+            "valid_password": "Пароль должен содержать как минимум одну букву и одну цифру.",
+            "confirm_password": "Пароль должен совпадать",
+            "valid_email": "Пожалуйста, введите действительный адрес электронной почты",
+            "valid_url": "Введите действительный URL-адрес.",
+            "min_width": "Ширина должна быть не менее {min} пикселей.",
+            "max_width": "Ширина должна быть не менее {max} пикселей.",
+            "min_length": "Длина должна быть не менее {min} символов.",
+            "max_length": "Длина не может превышать {max} символов."
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "Предоставленный ввод недействителен"
         }
     }
 }

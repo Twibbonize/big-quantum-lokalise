@@ -83,7 +83,7 @@
             "monthly": "মাসিক",
             "annual": "বার্ষিক",
             "yearly": "বার্ষিক",
-            "present": ""
+            "present": "বর্তমান"
         },
         "campaign": {
             "campaigns": "প্রচারণা",
@@ -721,7 +721,7 @@
             "suggested": "প্রস্তাবিত",
             "instagram_story": "ইনস্টাগ্রামের গল্প",
             "instagram_post": "ইনস্টাগ্রাম পোস্ট",
-            "create_design_button": "ডিজাইন তৈরি করুন",
+            "start_design": "ডিজাইন শুরু করুন",
             "create_blank_design": "খালি ডিজাইন তৈরি করুন"
         },
         "frame_Editor": {
@@ -1648,12 +1648,12 @@
             "loading": "লোড হচ্ছে"
         },
         "text": {
-            "add_a_heading": "একটি বড় টেক্সট যোগ করুন",
-            "add_a_subheading": "একটি মাঝারি টেক্সট যোগ করুন",
+            "add_a_heading": "বড় টেক্সট",
+            "add_a_subheading": "মাঝারি পাঠ্য",
             "document_fonts": "নথির ফন্ট",
             "text_effect": "পাঠ্য প্রভাব",
             "effects": "প্রভাব",
-            "add_a_body_text": "একটি ছোট টেক্সট যোগ করুন"
+            "add_a_body_text": "ছোট টেক্সট"
         },
         "shape": {
             "arrow": "তীর",
@@ -1707,8 +1707,10 @@
             "image_template": "ছবি {name} ",
             "image_template_1": "চালু",
             "edit_image": "ছবি সম্পাদনা করুন",
-            "image_template_2": "আনস্প্ল্যাশ",
-            "image": "ছবি"
+            "image_template_2": "Unsplash",
+            "image": "ছবি",
+            "images_by_unsplash": "Unsplash দ্বারা ছবি",
+            "on_unsplash": "আনস্প্ল্যাশে"
         },
         "error": {
             "minimum_dimension": "মাত্রা অবশ্যই কমপক্ষে 100px এবং 8000px এর বেশি হবে না।"
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "শৈলী",
             "none": "কোনোটিই নয়",
-            "shadow": "ছায়া",
+            "shadow": "Shadow",
             "text_effects": "প্রভাব",
-            "lift": "উত্তোলন",
+            "lift": "Lift",
             "offset": "অফসেট",
             "direction": "অভিমুখ",
             "blur": "ঝাপসা",
@@ -1731,7 +1733,7 @@
             "document_colors": "নথির রং",
             "default_colors": "ডিফল্ট রং"
         },
-        "graphic:graphic": "গ্রাফিক"
+        "graphic": "গ্রাফিক"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "প্রচারণা",
             "frames": "ফ্রেম",
-            "analytics": "বিশ্লেষণ"
+            "analytics": "বিশ্লেষণ",
+            "campaign_edited": "প্রচারাভিযান সম্পাদিত",
+            "delete_campaign": "ক্যাম্পেইন মুছুন"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "প্রচারণা যোগ করা হয়েছে",
             "account_upgraded": "অ্যাকাউন্ট আপগ্রেড করা হয়েছে",
             "link_copied": "লিঙ্ক কপি করা হয়েছে",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "কপি করা হয়েছে",
+            "updated": "আপডেট করা হয়েছে",
+            "deleted": "মুছে ফেলা হয়েছে",
+            "campaign_updated": "প্রচারাভিযান আপডেট করা হয়েছে",
+            "campaign_created": "প্রচারাভিযান তৈরি",
+            "collection_created": "সংগ্রহ তৈরি করা হয়েছে",
+            "collection_updated": "সংগ্রহ আপডেট করা হয়েছে",
+            "collection_deleted": "সংগ্রহ মুছে ফেলা হয়েছে"
         },
         "error": {
             "something_went_wrong": "কিছু ভুল হয়েছে"
@@ -2209,17 +2213,17 @@
             "11013": "JSON মার্শাল ত্রুটি!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} অবশ্যই $ {reference} এর মতোই হতে হবে",
+            "not_equal_to": "$ {path} অবশ্যই $ {reference} হিসাবে আলাদা হতে হবে",
+            "required": "এই ক্ষেত্রটি প্রয়োজন এবং খালি রাখা যাবে না",
+            "valid_password": "পাসওয়ার্ডে কমপক্ষে একটি অক্ষর এবং একটি সংখ্যা থাকতে হবে",
+            "confirm_password": "পাসওয়ার্ড অবশ্যই মিলবে",
+            "valid_email": "একটি বৈধ ইমেল ঠিকানা লিখুন",
+            "valid_url": "একটি বৈধ URL লিখুন",
+            "min_width": "প্রস্থ কমপক্ষে {min} পিক্সেল হতে হবে",
+            "max_width": "প্রস্থ কমপক্ষে {max} পিক্সেল হতে হবে৷",
+            "min_length": "দৈর্ঘ্য কমপক্ষে {min} অক্ষর হতে হবে",
+            "max_length": "দৈর্ঘ্য {max} অক্ষরের বেশি হতে পারে না৷"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "প্রদত্ত ইনপুটটি অবৈধ৷"
         }
     }
 }

@@ -83,7 +83,7 @@
             "monthly": "ប្រចាំខែ",
             "annual": "ប្រចាំឆ្នាំ",
             "yearly": "ប្រចាំឆ្នាំ",
-            "present": ""
+            "present": "បច្ចុប្បន្ន"
         },
         "campaign": {
             "campaigns": "យុទ្ធនាការ",
@@ -721,7 +721,7 @@
             "suggested": "បានណែនាំ",
             "instagram_story": "រឿង Instagram",
             "instagram_post": "ប្រកាស Instagram",
-            "create_design_button": "បង្កើតការរចនា",
+            "start_design": "ចាប់ផ្តើមការរចនា",
             "create_blank_design": "បង្កើតការរចនាទទេ"
         },
         "frame_Editor": {
@@ -1648,12 +1648,12 @@
             "loading": "កំពុងផ្ទុក"
         },
         "text": {
-            "add_a_heading": "បន្ថែមអត្ថបទធំ",
-            "add_a_subheading": "បន្ថែមអត្ថបទមធ្យម",
+            "add_a_heading": "អត្ថបទធំ",
+            "add_a_subheading": "អត្ថបទមធ្យម",
             "document_fonts": "ពុម្ពអក្សរឯកសារ",
             "text_effect": "បែបផែនអត្ថបទ",
             "effects": "ផលប៉ះពាល់",
-            "add_a_body_text": "បន្ថែមអត្ថបទតូចមួយ"
+            "add_a_body_text": "អត្ថបទតូច"
         },
         "shape": {
             "arrow": "ព្រួញ",
@@ -1707,8 +1707,10 @@
             "image_template": "រូបថតដោយ {name} ",
             "image_template_1": "នៅលើ",
             "edit_image": "កែសម្រួលរូបភាព",
-            "image_template_2": "ដោះសោ",
-            "image": "រូបភាព"
+            "image_template_2": "Unsplash",
+            "image": "រូបភាព",
+            "images_by_unsplash": "រូបថតរបស់ Unsplash",
+            "on_unsplash": "នៅលើ Unsplash"
         },
         "error": {
             "minimum_dimension": "វិមាត្រត្រូវតែមានយ៉ាងហោចណាស់ 100px និងមិនលើសពី 8000px។"
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "រចនាប័ទ្ម",
             "none": "គ្មាន",
-            "shadow": "ស្រមោល",
+            "shadow": "Shadow",
             "text_effects": "ផលប៉ះពាល់",
-            "lift": "លើក",
+            "lift": "Lift",
             "offset": "អុហ្វសិត",
             "direction": "ទិសដៅ",
             "blur": "ព្រិលៗ",
@@ -1731,7 +1733,7 @@
             "document_colors": "ពណ៌ឯកសារ",
             "default_colors": "ពណ៌លំនាំដើម"
         },
-        "graphic:graphic": "ក្រាហ្វិក"
+        "graphic": "ក្រាហ្វិក"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "យុទ្ធនាការ",
             "frames": "ស៊ុម",
-            "analytics": "វិភាគ"
+            "analytics": "វិភាគ",
+            "campaign_edited": "យុទ្ធនាការត្រូវបានកែសម្រួល",
+            "delete_campaign": "លុបយុទ្ធនាការ"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "យុទ្ធនាការបានបន្ថែម",
             "account_upgraded": "បានដំឡើងកំណែគណនី",
             "link_copied": "បានចម្លងតំណ",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "ចម្លង",
+            "updated": "បានធ្វើបច្ចុប្បន្នភាព",
+            "deleted": "បានលុប",
+            "campaign_updated": "បានធ្វើបច្ចុប្បន្នភាពយុទ្ធនាការ",
+            "campaign_created": "យុទ្ធនាការត្រូវបានបង្កើតឡើង",
+            "collection_created": "បាន​បង្កើត​បណ្តុំ",
+            "collection_updated": "បានធ្វើបច្ចុប្បន្នភាពបណ្តុំ",
+            "collection_deleted": "បាន​លុប​បណ្ដុំ"
         },
         "error": {
             "something_went_wrong": "មាន​អ្វីមួយ​មិន​ប្រក្រតី"
@@ -2209,17 +2213,17 @@
             "11013": "កំហុសសេនាប្រមុខ JSON!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} ត្រូវតែដូចគ្នានឹង $ {reference}",
+            "not_equal_to": "$ {path} ត្រូវតែខុសគ្នាដូច $ {reference}",
+            "required": "វាលនេះត្រូវបានទាមទារ ហើយមិនអាចទុកឲ្យទទេបានទេ។",
+            "valid_password": "ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់អក្សរមួយ និងលេខមួយ។",
+            "confirm_password": "ពាក្យសម្ងាត់ត្រូវតែផ្គូផ្គង",
+            "valid_email": "សូមបញ្ចូលអាសយដ្ឋានអ៊ីមែលត្រឹមត្រូវ។",
+            "valid_url": "សូមបញ្ចូល URL ត្រឹមត្រូវ។",
+            "min_width": "ទទឹងត្រូវតែមានយ៉ាងហោចណាស់ {min} ភីកសែល",
+            "max_width": "ទទឹងត្រូវតែមានយ៉ាងហោចណាស់ {max} ភីកសែល",
+            "min_length": "ប្រវែងត្រូវតែមានយ៉ាងហោចណាស់ {min} តួអក្សរ",
+            "max_length": "ប្រវែងមិនអាចលើសពី {max} តួអក្សរទេ។"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "ការបញ្ចូលដែលបានផ្តល់គឺមិនត្រឹមត្រូវទេ។"
         }
     }
 }

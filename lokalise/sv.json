@@ -83,7 +83,7 @@
             "monthly": "Månadsvis",
             "annual": "Årligen",
             "yearly": "Årligen",
-            "present": ""
+            "present": "Presentera"
         },
         "campaign": {
             "campaigns": "Kampanjer",
@@ -721,7 +721,7 @@
             "suggested": "Föreslagen",
             "instagram_story": "Instagram berättelse",
             "instagram_post": "Instagram-inlägg",
-            "create_design_button": "Skapa design",
+            "start_design": "Starta design",
             "create_blank_design": "Skapa en blank design"
         },
         "frame_Editor": {
@@ -1648,12 +1648,12 @@
             "loading": "Lastning"
         },
         "text": {
-            "add_a_heading": "Lägg till en stor text",
-            "add_a_subheading": "Lägg till en medelstor text",
+            "add_a_heading": "Stor text",
+            "add_a_subheading": "Medium text",
             "document_fonts": "Teckensnitt för dokument",
             "text_effect": "Texteffekter",
             "effects": "Effekter",
-            "add_a_body_text": "Lägg till en liten text"
+            "add_a_body_text": "Liten text"
         },
         "shape": {
             "arrow": "Pil",
@@ -1708,7 +1708,9 @@
             "image_template_1": "på",
             "edit_image": "Redigera bild",
             "image_template_2": "Unsplash",
-            "image": "Bild"
+            "image": "Bild",
+            "images_by_unsplash": "Bilder av Unsplash",
+            "on_unsplash": "på Unsplash"
         },
         "error": {
             "minimum_dimension": "Dimensionerna måste vara minst 100px och högst 8000px."
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "Stil",
             "none": "Ingen",
-            "shadow": "Skugga",
+            "shadow": "Shadow",
             "text_effects": "Effekter",
-            "lift": "Lyft",
+            "lift": "Lift",
             "offset": "Offset",
             "direction": "Riktning",
             "blur": "Blur",
@@ -1731,7 +1733,7 @@
             "document_colors": "Dokumentfärger",
             "default_colors": "Standardfärger"
         },
-        "graphic:graphic": "Grafisk"
+        "graphic": "Grafisk"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "Kampanjer",
             "frames": "Ramar",
-            "analytics": "Analys"
+            "analytics": "Analys",
+            "campaign_edited": "Kampanj redigerad",
+            "delete_campaign": "Ta bort kampanj"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "Kampanj tillagd",
             "account_upgraded": "Kontot har uppgraderats",
             "link_copied": "Länken har kopierats",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "Kopierade",
+            "updated": "Uppdaterad",
+            "deleted": "Raderad",
+            "campaign_updated": "Kampanjen uppdaterad",
+            "campaign_created": "Kampanj skapad",
+            "collection_created": "Samling skapad",
+            "collection_updated": "Samlingen uppdaterad",
+            "collection_deleted": "Samling raderad"
         },
         "error": {
             "something_went_wrong": "Något gick fel"
@@ -2209,17 +2213,17 @@
             "11013": "JSON-marskalkfel!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} måste vara samma som $ {reference}",
+            "not_equal_to": "$ {path} måste vara olika som $ {reference}",
+            "required": "Detta fält är obligatoriskt och kan inte lämnas tomt",
+            "valid_password": "Lösenordet måste innehålla minst en bokstav och en siffra",
+            "confirm_password": "Lösenordet måste matcha",
+            "valid_email": "Vänligen ange en giltig e-postadress",
+            "valid_url": "Ange en giltig URL",
+            "min_width": "Bredden måste vara minst {min} pixlar",
+            "max_width": "Bredden måste vara minst {max} pixlar",
+            "min_length": "Längden måste vara minst {min} tecken",
+            "max_length": "Längden får inte överstiga {max} tecken"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "Inmatningen är ogiltig"
         }
     }
 }

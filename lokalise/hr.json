@@ -83,7 +83,7 @@
             "monthly": "Mjesečno",
             "annual": "Godišnji",
             "yearly": "Godišnje",
-            "present": ""
+            "present": "Predstaviti"
         },
         "campaign": {
             "campaigns": "Kampanje",
@@ -573,7 +573,7 @@
             "downgrade_description": "Svoj plan vraćate na {plan} , koji će biti aktivan nakon završetka trenutne pretplate.",
             "change_plan_confirm": "Jesi li siguran?",
             "upgrade_confirm": "Jeste li sigurni da želite nadogradnju?",
-            "downgrade_confirm": "Jeste li sigurni da želite vratiti plan na stariju verziju?",
+            "downgrade_confirm": "Jeste li sigurni da želite vratiti plan na nižu verziju?",
             "change_plan_active": "Bit će aktivan kada istekne vaša trenutna pretplata",
             "upgrade_active": "Bit će aktivan nakon što izvršite plaćanje",
             "downgrade_active": "Bit će aktivan kada istekne vaša trenutna pretplata",
@@ -721,7 +721,7 @@
             "suggested": "Predloženo",
             "instagram_story": "Instagram priča",
             "instagram_post": "Objava na Instagramu",
-            "create_design_button": "Stvorite dizajn",
+            "start_design": "Pokreni dizajn",
             "create_blank_design": "Napravite prazan dizajn"
         },
         "frame_Editor": {
@@ -1131,7 +1131,7 @@
             "are_you_sure_upgrade": "Jeste li sigurni da želite nadogradnju?",
             "plan_changing_info": "Prijeđi na {package} primljeno. Novi plan počinje nakon završetka trenutnog",
             "active_after_payment": "Bit će aktivan nakon što izvršite plaćanje",
-            "are_you_sure_downgrade": "Jeste li sigurni da želite vratiti plan na stariju verziju?",
+            "are_you_sure_downgrade": "Jeste li sigurni da želite vratiti plan na nižu verziju?",
             "plan_downgrade_info": "Primljeno vraćanje na {package} . Novi plan počinje nakon završetka trenutnog",
             "renew_plan": "Obnovi plan",
             "renew_subscription": "Obnovite pretplatu",
@@ -1648,12 +1648,12 @@
             "loading": "Učitavam"
         },
         "text": {
-            "add_a_heading": "Dodajte veliki tekst",
-            "add_a_subheading": "Dodajte srednji tekst",
+            "add_a_heading": "Veliki tekst",
+            "add_a_subheading": "Srednji tekst",
             "document_fonts": "Fontovi dokumenata",
             "text_effect": "Tekstualni efekti",
             "effects": "Efekti",
-            "add_a_body_text": "Dodajte mali tekst"
+            "add_a_body_text": "Mali tekst"
         },
         "shape": {
             "arrow": "Strijela",
@@ -1708,7 +1708,9 @@
             "image_template_1": "na",
             "edit_image": "Uredi sliku",
             "image_template_2": "Unsplash",
-            "image": "Slika"
+            "image": "Slika",
+            "images_by_unsplash": "Slike Unsplasha",
+            "on_unsplash": "na Unsplash"
         },
         "error": {
             "minimum_dimension": "Dimenzije moraju biti najmanje 100px i ne više od 8000px."
@@ -1716,7 +1718,7 @@
         "text_effect": {
             "style": "Stil",
             "none": "Nijedan",
-            "shadow": "Sjena",
+            "shadow": "Shadow",
             "text_effects": "Efekti",
             "lift": "Lift",
             "offset": "Pomak",
@@ -1731,7 +1733,7 @@
             "document_colors": "Boje dokumenata",
             "default_colors": "Zadane boje"
         },
-        "graphic:graphic": "Grafički"
+        "graphic": "Grafički"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "Kampanje",
             "frames": "Okviri",
-            "analytics": "Analitika"
+            "analytics": "Analitika",
+            "campaign_edited": "Kampanja uređena",
+            "delete_campaign": "Izbriši kampanju"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "Dodana kampanja",
             "account_upgraded": "Račun je nadograđen",
             "link_copied": "Veza je kopirana",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "Kopirano",
+            "updated": "Ažurirano",
+            "deleted": "Izbrisano",
+            "campaign_updated": "Kampanja ažurirana",
+            "campaign_created": "Kampanja stvorena",
+            "collection_created": "Zbirka stvorena",
+            "collection_updated": "Zbirka ažurirana",
+            "collection_deleted": "Zbirka izbrisana"
         },
         "error": {
             "something_went_wrong": "Nešto je pošlo po zlu"
@@ -2209,17 +2213,17 @@
             "11013": "Pogreška JSON marshala!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} mora biti isti kao $ {reference}",
+            "not_equal_to": "$ {path} mora biti različit od $ {reference}",
+            "required": "Ovo polje je obavezno i ne može ostati prazno",
+            "valid_password": "Lozinka mora sadržavati najmanje jedno slovo i jedan broj",
+            "confirm_password": "Lozinka se mora podudarati",
+            "valid_email": "Unesite važeću adresu e-pošte",
+            "valid_url": "Unesite važeći URL",
+            "min_width": "Širina mora biti najmanje {min} piksela",
+            "max_width": "Širina mora biti najmanje {max} piksela",
+            "min_length": "Duljina mora biti najmanje {min} znakova",
+            "max_length": "Duljina ne smije premašiti {max} znakova"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "Navedeni unos je nevažeći"
         }
     }
 }

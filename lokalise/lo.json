@@ -83,7 +83,7 @@
             "monthly": "ປະຈໍາເດືອນ",
             "annual": "ປະຈໍາປີ",
             "yearly": "ປະຈຳປີ",
-            "present": ""
+            "present": "ປະຈຸບັນ"
         },
         "campaign": {
             "campaigns": "ແຄມເປນ",
@@ -721,7 +721,7 @@
             "suggested": "ແນະນຳ",
             "instagram_story": "Instagram Story",
             "instagram_post": "ໂພສ Instagram",
-            "create_design_button": "ສ້າງການອອກແບບ",
+            "start_design": "ເລີ່ມການອອກແບບ",
             "create_blank_design": "ສ້າງການອອກແບບເປົ່າ"
         },
         "frame_Editor": {
@@ -1648,12 +1648,12 @@
             "loading": "ກຳລັງໂຫຼດ"
         },
         "text": {
-            "add_a_heading": "ເພີ່ມຂໍ້ຄວາມໃຫຍ່",
-            "add_a_subheading": "ເພີ່ມຂໍ້ຄວາມປານກາງ",
+            "add_a_heading": "ຂໍ້ຄວາມໃຫຍ່",
+            "add_a_subheading": "ຂໍ້ຄວາມປານກາງ",
             "document_fonts": "ຟອນເອກະສານ",
             "text_effect": "ຜົນກະທົບຂໍ້ຄວາມ",
             "effects": "ຜົນກະທົບ",
-            "add_a_body_text": "ເພີ່ມຂໍ້ຄວາມນ້ອຍໆ"
+            "add_a_body_text": "ຂໍ້​ຄວາມ​ຂະ​ຫນາດ​ນ້ອຍ​"
         },
         "shape": {
             "arrow": "ລູກສອນ",
@@ -1707,8 +1707,10 @@
             "image_template": "ຮູບພາບໂດຍ {name} ",
             "image_template_1": "ສຸດ",
             "edit_image": "ແກ້ໄຂຮູບພາບ",
-            "image_template_2": "ຖອດອອກ",
-            "image": "ຮູບພາບ"
+            "image_template_2": "Unsplash",
+            "image": "ຮູບພາບ",
+            "images_by_unsplash": "ຮູບພາບໂດຍ Unsplash",
+            "on_unsplash": "ໃນ Unsplash"
         },
         "error": {
             "minimum_dimension": "ຂະໜາດຕ້ອງມີຢ່າງໜ້ອຍ 100px ແລະບໍ່ເກີນ 8000px."
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "ແບບ",
             "none": "ບໍ່ມີ",
-            "shadow": "ເງົາ",
+            "shadow": "Shadow",
             "text_effects": "ຜົນກະທົບ",
-            "lift": "ຍົກ",
+            "lift": "Lift",
             "offset": "ຊົດເຊີຍ",
             "direction": "ທິດທາງ",
             "blur": "ມົວ",
@@ -1731,7 +1733,7 @@
             "document_colors": "ສີເອກະສານ",
             "default_colors": "ສີເລີ່ມຕົ້ນ"
         },
-        "graphic:graphic": "ຮູບພາບ"
+        "graphic": "ຮູບພາບ"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "ແຄມເປນ",
             "frames": "ກອບ",
-            "analytics": "ການວິເຄາະ"
+            "analytics": "ການວິເຄາະ",
+            "campaign_edited": "ແຄມເປນແກ້ໄຂ",
+            "delete_campaign": "ລຶບແຄມເປນ"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "ເພີ່ມແຄມເປນແລ້ວ",
             "account_upgraded": "ອັບເກຣດບັນຊີແລ້ວ",
             "link_copied": "ສຳເນົາລິ້ງແລ້ວ",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "ສຳເນົາແລ້ວ",
+            "updated": "ອັບເດດ",
+            "deleted": "ລຶບແລ້ວ",
+            "campaign_updated": "ອັບເດດແຄມເປນແລ້ວ",
+            "campaign_created": "ສ້າງແຄມເປນ",
+            "collection_created": "ສ້າງຄໍເລັກຊັນ",
+            "collection_updated": "ອັບເດດຄໍເລັກຊັນ",
+            "collection_deleted": "ລຶບຄໍເລັກຊັນແລ້ວ"
         },
         "error": {
             "something_went_wrong": "ມີບາງຢ່າງຜິດພາດ"
@@ -2209,17 +2213,17 @@
             "11013": "JSON marshal ຜິດພາດ!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} ຕ້ອງຄືກັນກັບ $ {reference}",
+            "not_equal_to": "$ {path} ຈະຕ້ອງແຕກຕ່າງກັນເປັນ $ {reference}",
+            "required": "ຊ່ອງຂໍ້ມູນນີ້ແມ່ນຕ້ອງການ ແລະບໍ່ສາມາດປ່ອຍຫວ່າງໄດ້",
+            "valid_password": "ລະຫັດຜ່ານຕ້ອງມີຢ່າງໜ້ອຍໜຶ່ງຕົວໜັງສື ແລະໜຶ່ງຕົວເລກ",
+            "confirm_password": "ລະຫັດຜ່ານຕ້ອງກົງກັນ",
+            "valid_email": "ກະລຸນາໃສ່ທີ່ຢູ່ອີເມວທີ່ຖືກຕ້ອງ",
+            "valid_url": "ກະລຸນາໃສ່ URL ທີ່ຖືກຕ້ອງ",
+            "min_width": "ຄວາມກວ້າງຕ້ອງມີຢ່າງໜ້ອຍ {min} pixels",
+            "max_width": "ຄວາມກວ້າງຕ້ອງມີຢ່າງໜ້ອຍ {max} pixels",
+            "min_length": "ຄວາມຍາວຕ້ອງມີຢ່າງໜ້ອຍ {min} ຕົວອັກສອນ",
+            "max_length": "ຄວາມຍາວບໍ່ສາມາດເກີນ {max} ຕົວອັກສອນ"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "ການປ້ອນຂໍ້ມູນໃຫ້ບໍ່ຖືກຕ້ອງ"
         }
     }
 }

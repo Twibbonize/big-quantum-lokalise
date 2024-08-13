@@ -83,7 +83,7 @@
             "monthly": "Mensualmente",
             "annual": "Anual",
             "yearly": "Anualmente",
-            "present": ""
+            "present": "Presente"
         },
         "campaign": {
             "campaigns": "Campañas",
@@ -573,7 +573,7 @@
             "downgrade_description": "Ha rebajado su plan a {plan} , que estará activo después de que finalice la suscripción actual.",
             "change_plan_confirm": "¿Está seguro?",
             "upgrade_confirm": "¿Estás seguro de que quieres actualizar?",
-            "downgrade_confirm": "¿Estás seguro de que quieres bajar de categoría el plan?",
+            "downgrade_confirm": "¿Estás seguro de que quieres degradar de plan?",
             "change_plan_active": "Estará activo una vez que finalice su suscripción actual.",
             "upgrade_active": "Estará activo una vez que completes el pago.",
             "downgrade_active": "Estará activo una vez que finalice su suscripción actual.",
@@ -721,7 +721,7 @@
             "suggested": "Sugerencia",
             "instagram_story": "Historias de Instagram",
             "instagram_post": "Instagram Post",
-            "create_design_button": "Crear diseño",
+            "start_design": "Iniciar diseño",
             "create_blank_design": "Crear diseño en blanco"
         },
         "frame_Editor": {
@@ -1131,7 +1131,7 @@
             "are_you_sure_upgrade": "¿Estás seguro de que quieres actualizar?",
             "plan_changing_info": "Cambiar a {package} recibido. El nuevo plan comienza después de que finaliza el actual",
             "active_after_payment": "Estará activo una vez que completes el pago.",
-            "are_you_sure_downgrade": "¿Estás seguro de que quieres bajar de categoría el plan?",
+            "are_you_sure_downgrade": "¿Estás seguro de que quieres degradar de plan?",
             "plan_downgrade_info": "Bajar de categoría a {package} recibido. El nuevo plan comienza después de que finaliza el actual",
             "renew_plan": "Renovar plan",
             "renew_subscription": "Renovar la suscripción",
@@ -1648,12 +1648,12 @@
             "loading": "Cargando"
         },
         "text": {
-            "add_a_heading": "Agregar un texto grande",
-            "add_a_subheading": "Agregar un texto mediano",
+            "add_a_heading": "Texto grande",
+            "add_a_subheading": "Texto mediano",
             "document_fonts": "Fuentes documentales",
             "text_effect": "Efectos de texto",
             "effects": "Efectos",
-            "add_a_body_text": "Agregar un texto pequeño"
+            "add_a_body_text": "Texto pequeño"
         },
         "shape": {
             "arrow": "Flecha",
@@ -1708,7 +1708,9 @@
             "image_template_1": "en",
             "edit_image": "Editar imagen",
             "image_template_2": "Unsplash",
-            "image": "Imagen"
+            "image": "Imagen",
+            "images_by_unsplash": "Imágenes por Unsplash",
+            "on_unsplash": "en Unsplash"
         },
         "error": {
             "minimum_dimension": "Las dimensiones deben ser de al menos 100px y no más de 8000px."
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "Estilo",
             "none": "Ninguno",
-            "shadow": "Sombra",
+            "shadow": "Shadow",
             "text_effects": "Efectos",
-            "lift": "Ascensor",
+            "lift": "Lift",
             "offset": "Desplazamiento",
             "direction": "Dirección",
             "blur": "Desenfoque",
@@ -1731,7 +1733,7 @@
             "document_colors": "Colores de los documentos",
             "default_colors": "Colores por defecto"
         },
-        "graphic:graphic": "Gráfico"
+        "graphic": "Gráfico"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "Campañas",
             "frames": "Marcos",
-            "analytics": "Analítica"
+            "analytics": "Analítica",
+            "campaign_edited": "Campaña editada",
+            "delete_campaign": "Eliminar campaña"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "Campaña agregada",
             "account_upgraded": "Cuenta actualizada",
             "link_copied": "Enlace copiado",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "Copiado",
+            "updated": "Actualizado",
+            "deleted": "Eliminado",
+            "campaign_updated": "Campaña actualizada",
+            "campaign_created": "Campaña creada",
+            "collection_created": "Colección creada",
+            "collection_updated": "Colección actualizada",
+            "collection_deleted": "Colección eliminada"
         },
         "error": {
             "something_went_wrong": "Algo salió mal"
@@ -2209,17 +2213,17 @@
             "11013": "¡Error de mariscal JSON!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} debe ser el mismo que $ {reference}",
+            "not_equal_to": "$ {path} debe ser diferente a $ {reference}",
+            "required": "Este campo es obligatorio y no puede dejarse en blanco.",
+            "valid_password": "La contraseña debe contener al menos una letra y un número.",
+            "confirm_password": "La contraseña debe coincidir",
+            "valid_email": "Por favor, introduce una dirección de correo electrónico válida",
+            "valid_url": "Por favor, introduzca una URL válida",
+            "min_width": "El ancho debe ser de al menos {min} píxeles",
+            "max_width": "El ancho debe ser de al menos {max} píxeles",
+            "min_length": "La longitud debe ser de al menos {min} caracteres",
+            "max_length": "La longitud no puede exceder {max} caracteres"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "La entrada proporcionada no es válida"
         }
     }
 }

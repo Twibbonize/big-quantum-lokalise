@@ -83,7 +83,7 @@
             "monthly": "Månedligt",
             "annual": "Årligt",
             "yearly": "Årligt",
-            "present": ""
+            "present": "Nuværende"
         },
         "campaign": {
             "campaigns": "Kampagner",
@@ -721,7 +721,7 @@
             "suggested": "Foreslået",
             "instagram_story": "Instagram-historie",
             "instagram_post": "Instagram-indlæg",
-            "create_design_button": "Skab design",
+            "start_design": "Start design",
             "create_blank_design": "Opret tomt design"
         },
         "frame_Editor": {
@@ -1648,12 +1648,12 @@
             "loading": "Indlæsning"
         },
         "text": {
-            "add_a_heading": "Tilføj en stor tekst",
-            "add_a_subheading": "Tilføj en medium tekst",
+            "add_a_heading": "Stor tekst",
+            "add_a_subheading": "Mellem tekst",
             "document_fonts": "Skrifttyper til dokumenter",
             "text_effect": "Teksteffekter",
             "effects": "Effekter",
-            "add_a_body_text": "Tilføj en lille tekst"
+            "add_a_body_text": "Lille tekst"
         },
         "shape": {
             "arrow": "Pil",
@@ -1708,7 +1708,9 @@
             "image_template_1": "på",
             "edit_image": "Rediger billede",
             "image_template_2": "Unsplash",
-            "image": "Billede"
+            "image": "Billede",
+            "images_by_unsplash": "Billeder fra Unsplash",
+            "on_unsplash": "på Unsplash"
         },
         "error": {
             "minimum_dimension": "Dimensionerne skal være mindst 100 px og ikke mere end 8000 px."
@@ -1716,9 +1718,9 @@
         "text_effect": {
             "style": "Stil",
             "none": "Ingen",
-            "shadow": "Skygge",
+            "shadow": "Shadow",
             "text_effects": "Effekter",
-            "lift": "Løft",
+            "lift": "Lift",
             "offset": "Offset",
             "direction": "Retning",
             "blur": "Sløring",
@@ -1731,7 +1733,7 @@
             "document_colors": "Dokumentfarver",
             "default_colors": "Standardfarver"
         },
-        "graphic:graphic": "Grafisk"
+        "graphic": "Grafisk"
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -1744,7 +1746,9 @@
         "edit_campaign": {
             "campaigns": "Kampagner",
             "frames": "Rammer",
-            "analytics": "Analyse"
+            "analytics": "Analyse",
+            "campaign_edited": "Kampagne redigeret",
+            "delete_campaign": "Slet kampagne"
         }
     },
     "page_post": {
@@ -1826,14 +1830,14 @@
             "campaign_added": "Kampagne tilføjet",
             "account_upgraded": "Kontoen er opgraderet",
             "link_copied": "Linket er kopieret",
-            "copied": "",
-            "updated": "",
-            "deleted": "",
-            "campaign_updated": "",
-            "campaign_created": "",
-            "collection_created": "",
-            "collection_updated": "",
-            "collection_deleted": ""
+            "copied": "Kopieret",
+            "updated": "Opdateret",
+            "deleted": "Slettet",
+            "campaign_updated": "Kampagne opdateret",
+            "campaign_created": "Kampagne oprettet",
+            "collection_created": "Samling oprettet",
+            "collection_updated": "Samling opdateret",
+            "collection_deleted": "Samling slettet"
         },
         "error": {
             "something_went_wrong": "Noget gik galt"
@@ -2209,17 +2213,17 @@
             "11013": "JSON-marskalfejl!"
         },
         "form": {
-            "equal_to": "",
-            "not_equal_to": "",
-            "required": "",
-            "valid_password": "",
-            "confirm_password": "",
-            "valid_email": "",
-            "valid_url": "",
-            "min_width": "",
-            "max_width": "",
-            "min_length": "",
-            "max_length": ""
+            "equal_to": "$ {path} skal være det samme som $ {reference}",
+            "not_equal_to": "$ {path} skal være forskellig som $ {reference}",
+            "required": "Dette felt er obligatorisk og må ikke stå tomt",
+            "valid_password": "Adgangskoden skal indeholde mindst et bogstav og et tal",
+            "confirm_password": "Adgangskoden skal matche",
+            "valid_email": "Indtast venligst en gyldig e-mailadresse",
+            "valid_url": "Indtast venligst en gyldig URL",
+            "min_width": "Bredden skal være mindst {min} pixels",
+            "max_width": "Bredden skal være mindst {max} pixels",
+            "min_length": "Længden skal være mindst {min} tegn",
+            "max_length": "Længden må ikke overstige {max} tegn"
         }
     },
     "page_notification": {
@@ -2237,7 +2241,7 @@
     },
     " messages": {
         "form": {
-            "field_invalid": ""
+            "field_invalid": "Det angivne input er ugyldigt"
         }
     }
 }
