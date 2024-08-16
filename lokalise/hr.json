@@ -71,9 +71,10 @@
             "send": "Poslati",
             "more": "Više",
             "less": "Manje",
-            "submit": "Podnijeti",
+            "submit": "Poslati",
             "get_started": "Započnite",
-            "read_more": "Čitaj više"
+            "read_more": "Čitaj više",
+            "understand": "razumjeti"
         },
         "time": {
             "week": "Tjedan",
@@ -416,16 +417,17 @@
             "shadow": "Sjena",
             "twibbon_success": "Preuzeto",
             "write_your_caption": "Napišite svoj naslov...",
-            "remove_watermark_for_all": "Uklonite vodeni žig za sve"
+            "remove_watermark_for_all": "Uklonite vodeni žig za sve",
+            "crop": ""
         },
         "report": {
-            "report_campaign": "Prijavi kampanju",
-            "report_profile": "Prijavi profil",
+            "report_campaign": "Izvješće",
+            "report_profile": "Izvješće",
             "plagiarism": "Plagijat",
             "sensitive": "Osjetljivi sadržaj",
             "spam": "Spam",
             "why_report_campaign": "Zašto prijavljujete ovu kampanju?",
-            "protect_reporter": "Smjernice zajednice Twibbonize štite privatnost identiteta izvjestitelja.",
+            "protect_reporter": "Smjernice zajednice Twibbonize štite privatnost identiteta prijavitelja.",
             "read_more": "Čitaj više",
             "tell_us_more": "Reci nam više",
             "received_report": "Primili smo vašu prijavu!",
@@ -460,7 +462,7 @@
             "why_report_comment_reply": "Zašto prijavljujete ovaj komentar?",
             "why_report_collection": "Zašto prijavljujete ovu kolekciju?",
             "select_one": "Odaberite jedan",
-            "protect_privacy_reporter": "Twibbonize Smjernice zajednice štite privatnost identiteta izvjestitelja.",
+            "protect_privacy_reporter": "Smjernice zajednice Twibbonize štite privatnost identiteta prijavitelja.",
             "placeholder_write_here": "Pišite ovdje",
             "title": "Zašto prijavljujete ovu kampanju?",
             "danger": "Opasno ili Štetno ",
@@ -545,10 +547,12 @@
             "custom_field": "Dodaj prilagođeno polje"
         },
         "collection": {
-            "sign_up_add_collection": "Prijavite se za dodavanje u kolekciju"
+            "sign_up_add_collection": "Registrirajte se za dodavanje u kolekciju"
         },
         "posts": {
-            "has_no_posts": "Ovaj korisnik nije ništa objavio na Twibbonizeu"
+            "has_no_posts": "Ovaj korisnik nije ništa objavio na Twibbonizeu",
+            "pin_limit_reached": "Dosegnuto je ograničenje PIN-a",
+            "pint_limit_reached_desc": "Dosegli ste najveći broj prikvačenih postova za ovu kampanju. Na svoju stranicu kampanje možete prikvačiti najviše tri objave."
         }
     },
     "page_checkout": {
@@ -784,15 +788,15 @@
             "unite_detail": "Dovedite svu zajednicu podržavatelja svoje kampanje na svoju Twibbonize stranicu; gdje se navijači povezuju i vidite učinak!",
             "entertain_detail": "Twibbonize angažira vaše pristaše pružajući virtualni Twibbon koji se može dijeliti za društvene medije i razmjenu poruka",
             "grow_detail": "Ostvarite veću podršku s Twibbonize kampanjom: ona ne samo da privlači pažnju, već stvara i efekt zamaha, privlačeći sve veću publiku koja ne želi propustiti vašu svrhu.",
-            "inspire": "Nadahnuti ",
+            "inspire": "Inspirirati",
             "unite": "Ujediniti",
-            "entertain": "Zabavljati",
+            "entertain": "Zabaviti",
             "grow": "Rasti"
         },
         "use_cases": {
             "heading": "Ideje za korištenje Twibbonizea",
             "subheading": "Započnite svoje istraživanje s ručno odabranim primjerima iz naših 5.000.000+ Twibbonize kampanja",
-            "corporate": "Korporativno",
+            "corporate": "Korporacija",
             "corporate_title": "Iskoristite snagu obilja vašeg osoblja i kupaca",
             "education": "Obrazovanje",
             "education_title": "To je zabavan način dodavanja procesu učenja",
@@ -991,7 +995,7 @@
         },
         "modal": {
             "congratulation": "Svaka čast!",
-            "account_upgraded": "Vaš račun je nadograđen na"
+            "account_upgraded": ""
         },
         "faq": {
             "faq": "Često postavljana pitanja",
@@ -1168,10 +1172,10 @@
             "your_request_billing": "Vaš zahtjev za promjenu naplate na {plan} je primljen. Vaš novi plan će se aktivirati kada trenutni plan istekne.",
             "manage_inapp": "Upravljajte svojom pretplatom na aplikaciji Twibbonize {appOs}",
             "manage_inapp_subscription": "Za upravljanje pretplatom na Twibbonize na {appOs} otvorite aplikaciju, idite na 'Postavke' i odaberite 'Naplata'.",
-            "success_cancel_subscription": "Uspješno otkazivanje pretplate",
-            "success_renew_subscription": "Uspješno obnovite pretplatu",
-            "success_change_subscription": "Uspješno promijenite pretplatu",
-            "success_cancel_change_subscription": "Uspjeh Otkaži Promjena pretplate",
+            "success_cancel_subscription": "Pretplata je uspješno otkazana",
+            "success_renew_subscription": "Pretplata je uspješno obnovljena",
+            "success_change_subscription": "Pretplata uspješno promijenjena",
+            "success_cancel_change_subscription": "Promjena pretplate uspješno otkazana",
             "last_attempted_authentication": "Naši posljednji pokušaji terećenja bili su neuspješni. Vaša uplata zahtijeva autentifikaciju.",
             "authenticate_now": "Autentificirajte sada",
             "recurring_payment": "Zahtijevamo vašu izričitu potvrdu za vaše ponavljajuće plaćanje. Provjerite svoju e-poštu"
@@ -1209,9 +1213,9 @@
             "cant_remove_account": "Ups, ne možemo ukloniti vaš račun na društvenim mrežama.",
             "set_up_email": "Prvo morate postaviti e-poštu ili lozinku da biste uklonili svoj račun na društvenim mrežama.",
             "want_to_remove": "Želite li ukloniti svoj račun na društvenim mrežama?",
-            "your_account_will_be_removed": "Vaš {provider} račun bit će uklonjen. Kliknite razumjeti kako biste uklonili svoje račune društvenih medija.",
+            "your_account_will_be_removed": "Vaš {provider} račun će biti uklonjen. Kliknite na 'Razumijem' za uklanjanje vaših računa na društvenim mrežama.",
             "continue_to_revoke": "Nastavite s opozivom ",
-            "revoke_success": "Uspješno opoziv računa {provider}",
+            "revoke_success": "Račun na {provider} uspješno je opozvan",
             "cannot_update_email": "Ups, ne možemo ažurirati vašu e-poštu",
             "setup_password_to_update_email": "Prije ažuriranja e-pošte morate postaviti lozinku.",
             "email_change_request": "Zahtjev za promjenu e-pošte otkazan",
@@ -1553,11 +1557,11 @@
             "terms": "Pojmovi",
             "privacy": "Politika privatnosti",
             "name": "Ime",
-            "login_with_facebook": "Prijavite se putem Facebooka",
-            "login_with_google": "Prijavite se s Googleom",
+            "login_with_facebook": "Prijaviti se pomoću Facebook-a",
+            "login_with_google": "Prijaviti se pomoću Google-a",
             "signin_with_email": "ili se prijavite putem e-pošte",
-            "login_with_apple": "Prijavite se s Appleom",
-            "signup_with_apple": "Prijavite se s Appleom"
+            "login_with_apple": "Prijaviti se pomoću Apple-a",
+            "signup_with_apple": "Registrirajte se pomoću Apple-a"
         }
     },
     "page_article": {
@@ -1566,7 +1570,7 @@
         }
     },
     "auth": {
-        "sign_in_to_post": "Prijavite se za objavljivanje na Twibbonizeu",
+        "sign_in_to_post": "Prijavite se za objavu na Twibbonize",
         "sign_in_to_comment": "Prijavite se da biste ostavili komentar",
         "sign_in_to_like": "Prijavite se za lajkovanje",
         "sign_up_to_post": "Prijavite se za objavljivanje na Twibbonizeu",
@@ -1585,7 +1589,7 @@
         "email_registered": "Email je već registriran",
         "email_registered_lead": "Ovaj email je već registriran. Želite li se umjesto toga prijaviti?",
         "sign_in_to_create_campaign": "Prijavite se kako biste objavili svoju kampanju",
-        "sign_up_to_create_campaign": "Prijavite se za objavu svoje kampanje"
+        "sign_up_to_create_campaign": "Registrirajte se za objavu svoje kampanje"
     },
     "post": {
         "confirm": {
@@ -1612,8 +1616,8 @@
         }
     },
     "report": {
-        "report_campaign": "Prijavi kampanju",
-        "report_profile": "Prijavi profil",
+        "report_campaign": "Izvješće",
+        "report_profile": "Izvješće",
         "plagiarism": "Plagijat",
         "impersonation": "Lažno predstavljanje",
         "piracy": "Piratstvo",
@@ -1625,7 +1629,7 @@
         "received_report": "Primili smo vašu prijavu!",
         "thankyou": "Hvala vam! Dopustite nam da istražimo vašu prijavu, a mi ćemo poslati povratne informacije na vašu e-poštu što je prije moguće.",
         "learn_more_about": "Saznajte više o {link} .",
-        "community_guideline": "Twibbonize Smjernice zajednice"
+        "community_guideline": "Smjernice zajednice Twibbonize"
     },
     "page_editor": {
         "general": {
