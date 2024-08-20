@@ -14,7 +14,8 @@
     },
     "general": {
         "navbar": {
-            "start_campaign": "Aloita kampanja"
+            "start_campaign": "Aloita kampanja",
+            "search": "Haku"
         },
         "footer": {
             "join_community": "Liity yhteisöön",
@@ -75,7 +76,7 @@
             "get_started": "Aloita",
             "read_more": "Lue lisää",
             "understand": "Ymmärtää",
-            "remove_ads": ""
+            "remove_ads": "Poista mainokset"
         },
         "time": {
             "week": "Viikko",
@@ -234,7 +235,7 @@
             "millions_supporters": "(ja satoja miljoonia heidän kannattajiaan)."
         },
         "our_numbers": {
-            "our_numbers": "Meidän numeromme",
+            "our_numbers": "Tilastomme",
             "as_of_date": "Heinäkuusta 2024 alkaen",
             "visitors": "Vierailijat",
             "twibbons_generated": "Twibbons Generated",
@@ -330,7 +331,7 @@
         "generate": {
             "your_photo": "Sinun kuvasi",
             "a_frame": "Jonkun luoma kehys",
-            "og_twibbon": "\"Alkuperäinen\" Twibbon"
+            "og_twibbon": "Twibbon"
         },
         "process": {
             "how_twibbonize_1": "Miten Twibbonize mullistaa",
@@ -417,9 +418,21 @@
             "blur": "Sumeus",
             "shadow": "Varjo",
             "twibbon_success": "Ladattu",
+            "save_share": "Tallenna & Jaa",
             "write_your_caption": "Kirjoita kuvatekstisi...",
             "remove_watermark_for_all": "Poista kaikkien vesileima",
-            "crop": "Rajaa"
+            "crop": "Rajaa",
+            "color": "Väri",
+            "font": "Fontti",
+            "size": "Koko",
+            "style": "Tyyli",
+            "style_bold": "Rohkea",
+            "style_underline": "Alleviivaa",
+            "style_italic": "Kursivoitu",
+            "align": "Kohdista",
+            "align_left": "Vasen",
+            "align_center": "Keskusta",
+            "align_right": "Oikea"
         },
         "report": {
             "report_campaign": "Raportoi",
@@ -459,10 +472,10 @@
             "suicide_or_self_harm": "Itsemurha tai itsensä vahingoittaminen",
             "dangerous_content": "Vaarallinen sisältö",
             "why_report_profile": "Miksi ilmoitat tästä profiilista?",
-            "why_report_submission": "Miksi ilmoitat tästä lähetyksestä?",
+            "why_report_submission": "Miksi ilmoitat tästä viestistä?",
             "why_report_comment_reply": "Miksi ilmoitat tästä kommentista?",
             "why_report_collection": "Miksi ilmoitat tästä kokoelmasta?",
-            "select_one": "Valitse yksi, kiitos",
+            "select_one": "Valitse yksi",
             "protect_privacy_reporter": "Twibbonize-yhteisön ohjeet suojaavat ilmoittajan henkilöllisyyden yksityisyyttä.",
             "placeholder_write_here": "Kirjoita tähän",
             "title": "Miksi raportoitte tästä kampanjasta?",
@@ -536,8 +549,7 @@
             "adjust_your_photo": "Säädä valokuvaa"
         },
         "share_campaign": {
-            "or_share_to": "tai jaa osoitteeseen",
-            "save_share": "Tallenna & Jaa"
+            "or_share_to": "tai jaa osoitteeseen"
         },
         "post": {
             "post_uploaded": "Posti ladattu",
@@ -548,12 +560,19 @@
             "custom_field": "Lisää mukautettu kenttä"
         },
         "collection": {
-            "sign_up_add_collection": "Rekisteröidy lisätäksesi kokoelmaan"
+            "sign_up_add_collection": "Rekisteröidy lisätäksesi kokoelmaan",
+            "add_to_collection": "Lisää kokoelmaan"
         },
         "posts": {
             "has_no_posts": "Tämä käyttäjä ei ole lähettänyt mitään Twibbonizeen",
             "pin_limit_reached": "Pin Limit saavutettu",
             "pint_limit_reached_desc": "Olet saavuttanut tämän kampanjan kiinnitettyjen viestien enimmäismäärän. Voit kiinnittää enintään kolme viestiä kampanjasivullesi."
+        },
+        "collections": {
+            "does_not_have_collection": "Tällä käyttäjällä ei ole vielä yhtään keräystä"
+        },
+        "ads": {
+            "title": ""
         }
     },
     "page_checkout": {
@@ -735,6 +754,13 @@
             "what_do_you_want_to_create_desc": "Piristä verkkokampanjapeliäsi paitsi kehyksellä myös luovilla taustoilla.",
             "new": "Uusi!",
             "frame_twibbon": "Runko Twibbon"
+        },
+        "confirm_reorder": {
+            "title": "Vahvista nauhan uudelleen tilaaminen",
+            "desc": "Twibbonin uudelleenjärjestäminen muuttaa automaattisesti kampanjan pikkukuvaa. Voit säätää pikkukuvaa myöhemmin Muokkaa kampanjaa -kohdassa. {link}. ",
+            "learn_more": "Lisätietoja pikkukuvan uudelleensäätämisestä",
+            "cancel": "Peruuta",
+            "confirm": "Jatka"
         }
     },
     "page_for_creators": {
@@ -840,7 +866,7 @@
         },
         "team": {
             "our_team": "Tiimimme",
-            "our_philosophy": "Filosofiamme on yksinkertainen - palkkaamme tiimin, joka koostuu erilaisista, intohimoisista ihmisistä, ja edistämme kulttuuria, joka antaa sinulle mahdollisuuden tehdä parasta työtäsi."
+            "our_philosophy": "Olemme vain joukko satunnaisia ihmisiä, jotka nauttivat hyvien ohjelmistojen tekemisestä."
         },
         "advisor": {
             "our_advisor": "Meidän neuvonantajamme",
@@ -848,13 +874,13 @@
         },
         "honorary": {
             "honorary_mentions": "Kunniamaininnat",
-            "significant_contributions": "He, jotka ovat vaikuttaneet merkittävästi kehitykseemme"
+            "significant_contributions": "Ne, jotka osallistuivat merkittävästi Twibbonizen kehitykseen"
         },
         "about": {
             "fokker_bio_1": "Fokkerizky on valmistunut Universitas Indonesiasta taloustieteen tutkinnosta, mutta hänen todellinen intohimonsa on ohjelmistotekniikassa, graafisessa suunnittelussa ja startup-alalla. Hän on ollut mukana startup-yrityksissä jo opiskeluajoistaan lähtien, ja lopulta hän liittyi yhteen Twibbonizen perustajan Mulqanin ja lapsuudenystävänsä Berninon kanssa.",
             "fokker_bio_2": "Aluksi Twibbonizen COO:na toiminut Fokkerizky oli ratkaisevassa asemassa tuotekehityksessä, ja hän sai Mulqanin luottamuksen tiimin johtamiseen. Kun Fokkerizky oli vuoden ajan osoittanut kykynsä, hän siirtyi toimitusjohtajaksi ja oli valmis ohjaamaan Twibbonizea kohti menestystä.",
-            "bernino_bio_1": "Bernino Falya on aina arvostanut tiedettä ja teknologiaa. Tietotekniikasta valmistuneena hänen intohimonsa on tutkimuksessa ja sovellettavassa teknologiassa. Tämä tausta ulottui myös hänen johtamistyyliinsä, minkä vuoksi Fokkerizky luotti siihen, että hänestä tulisi oikea henkilö kehittämään Twibbonizea yhdessä hänen ja Mulqanin kanssa.",
-            "bernino_bio_2": "Alusta lähtien Bernino on johdonmukaisesti johtanut Twibbonizen kehitysryhmää innovaatioiden toteuttamisessa ja saumattoman alustan tarjoamisessa käyttäjillemme juuri heidän tarpeisiinsa. Hänen omistautumisestaan ja intohimostaan on tullut hänen viehätyksensä, ei vain yhtenä Twibbonizen johtajista, vaan myös ihmisenä.",
+            "bernino_bio_1": "Bernino teki opiskellessaan lähettimen ja antennin, jotka pystyivät lähettämään viestejä LAPAN A-2 -satelliitin kautta. Ehkä tämä on yksi niistä monista asioista ja absurdeista projekteista, joiden parissa Bernino on työskennellyt ennen Twibbonizeen osallistumista (lukuun ottamatta tiettyä elektronista musiikkia vuonna 2013, jonka hän valitettavasti on piilottanut Soundcloud-tililtään).",
+            "bernino_bio_2": "Bernino on siisti kaveri, ehkä hän on syy Twibbonizen olemassaoloon ja voit käyttää sitä juuri nyt. Muista, että Twibbonize alkoi hauskana projektina, jossa oli vähän pääomaa, jonka ovat luoneet juuri korkeakoulusta valmistuneet lapset; joten se tosiasia, että miljoonat ihmiset ympäri maailmaa voivat käyttää Twibbonizea joka päivä sujuvasti, on todiste siitä, että Bernino voi aina hallita mitä haluaa oppia. \n\n - Suosikkikappale: The Midnight - Gloria\n - Kunnianhimo: DJ ja menestyvä yrittäjä",
             "mulqan_bio_1": "Tietotekniikan tausta ei estä Mulqania olemasta henkilö, joka on myös intohimoinen liikemies, joka toimii kaikkien parhaaksi. Hänen vahvan tahtonsa ja ongelmanratkaisuluonteensa ansiosta hänet tunnetaan aina henkilönä, jolla on suuri visio, mikä näkyy aina hänen työssään. ",
             "mulqan_bio_2": "Mulqan perusti Twibbonizen auttaakseen ystäviään luomaan massiivisesti Twibbonia kampuksella järjestettävää tapahtumaa varten. Saatuaan tunnustusta Mulqan jatkoi Twibbonizen kehittämistä itse, ennen kuin Fokkerizky lopulta otti häneen yhteyttä ja toi Berninon mukaan. Twibbonizen toimitusjohtajana aloittanut Mulqan keskittyy nyt Twibbonizen markkinointiin tuoreilla ja luovilla ideoillaan.",
             "aditya_bio_1": "Aditya Pradana oli ensimmäinen tiimin jäsen, joka liittyi Twibbonizeen hallituksen jälkeen, ja hän on ollut mukana kehittämässä yrityksen etupäätä. Hänen korkeatasoinen ammattitaitonsa ja huolellinen paneutuminen yksityiskohtiin ovat tehneet hänestä alan johtavan asiantuntijan, mikä on ansainnut hänelle Twibbonizen syvän arvostuksen.",
@@ -1049,7 +1075,8 @@
         },
         "collections": {
             "no_collections": "Järjestä suosikkikampanjasi",
-            "no_collections_details": "Napsauta minkä tahansa kampanjan kuvaketta {icon} tallentaaksesi kampanjan kokoelmiisi"
+            "no_collections_details": "Napsauta minkä tahansa kampanjan kuvaketta {icon} tallentaaksesi kampanjan kokoelmiisi",
+            "no_collections_yet": "Ei kokoelmia vielä"
         },
         "about": {
             "about": "Tietoja",
@@ -1312,19 +1339,22 @@
             "title": "Acerin käytännöllinen tapa hyödyntää Twibbonizea",
             "paragraph_1": "Acerin markkinointiviestinnän henkilöstö Amor Widjojo piti Twibbonizea käyttäjäystävällisenä alustana, koska toimistoyhtiö oli neuvonut häntä käyttämään Twibbonizea. Eri ominaisuuksiemme ansiosta he voivat olla joustavia kampanjaa tehdessään. \"Tärkeintä on, että yleisömme voi tuntea, kuinka helppoa Twibbonizen käyttö on\", hän totesi.",
             "paragraph_2": "Kampanja-alustana haluamme tietenkin, että yleisömme voi jakaa kampanjansa tehokkaasti sosiaalisen median alustoilla. Herra Amorin mielestä tämä tekijä tarjoaa Acerille tuotemerkkinä tällaisia etuja. \"Koska nykyaikana jokaisella on todennäköisesti oma sosiaalinen media. Näin kampanjamme tukijoiden on helppo ladata ja jakaa kampanja jokaisella tilillään, jolloin kampanjamme leviää helposti\", hän lisäsi.",
-            "paragraph_3": "Tähän mennessä Acer on käyttänyt Twibbonizea sekä ulkoisiin että sisäisiin tilaisuuksiin. Ulkoisissa tilaisuuksissa Acer tekee yleensä kampanjoita, jotka liittyvät koulutukseen ja jotka on suunnattu laajalle yleisölle. Näin ollen Acerille on tärkeää, että kampanjaa tehdessään se pystyy tavoittamaan mahdollisimman monta ihmistä. Twibbonize on iloinen voidessaan auttaa Aceria tällaisten myönteisten kampanjoiden toteuttamisessa."
+            "paragraph_3": "Tähän mennessä Acer on käyttänyt Twibbonizea sekä ulkoisiin että sisäisiin tilaisuuksiin. Ulkoisissa tilaisuuksissa Acer tekee yleensä kampanjoita, jotka liittyvät koulutukseen ja jotka on suunnattu laajalle yleisölle. Näin ollen Acerille on tärkeää, että kampanjaa tehdessään se pystyy tavoittamaan mahdollisimman monta ihmistä. Twibbonize on iloinen voidessaan auttaa Aceria tällaisten myönteisten kampanjoiden toteuttamisessa.",
+            "top": "Acer"
         },
         "aiesec": {
             "title": "Twibbonizen mukavuuden hyödyntäminen, aivan kuten AIESECin tapauksessa",
             "paragraph_1": "AIESECin kansallisen brändi- ja markkinointipäällikön Millania Salizan mielestä Twibbonize on hyvin yksinkertainen ja helppokäyttöinen. Koska AIESEC koostuu 26 paikallisyhteisöstä, hän selitti, miten jokainen paikallisyhteisö saa valita oman kampanjatapansa ja -menetelmänsä, ja kansallinen tiimi päättää vain kampanjaideasta ja brändiohjeista. Ilmeisesti monet AIESECin paikallisyhteisöistä käyttävät Twibbonizea digitaalisena kampanja-alustana.",
             "paragraph_2": "Millania kertoi sitten, kuinka hän ja hänen tiiminsä ovat tottuneet tekemään kehyskuvan manuaalisesti, jolloin jokaisen on syötettävä ja säädettävä kuvansa kehykseen manuaalisesti. Twibbonizen avulla hän voi sitten tehdä digitaalisen kampanjan erittäin kätevästi, joten se on erittäin käytännöllinen. Puhumattakaan siitä, että kampanjan jakaminen koetaan myös suhteellisen helpoksi, jolloin heidän ainoa tehtävänsä on valita kuva, ja saat Twibbonin käyttöön hetkessä.",
-            "paragraph_3": "AIESECin viimeisimmässä kampanjassa he latasivat Twibboninsa Instagram-tarinan suhteella, jotta jäsenet voivat ladata sen Instagram-tarinaansa. Millanian kannalta on hyvä asia, että Twibbonize voi mukautua käyttäjiensä erilaisiin mieltymyksiin, sillä se antaa käyttäjillemme mahdollisuuden olla joustavia kampanjansa toteuttamisessa Twibbonizessa."
+            "paragraph_3": "AIESECin viimeisimmässä kampanjassa he latasivat Twibboninsa Instagram-tarinan suhteella, jotta jäsenet voivat ladata sen Instagram-tarinaansa. Millanian kannalta on hyvä asia, että Twibbonize voi mukautua käyttäjiensä erilaisiin mieltymyksiin, sillä se antaa käyttäjillemme mahdollisuuden olla joustavia kampanjansa toteuttamisessa Twibbonizessa.",
+            "top": "AIESEC"
         },
         "danone": {
             "title": "Miten Danone tekee sisäiset lahjatarjoukset Kilpailu Twibbonizea käyttäen",
             "paragraph_1": "Danone Indonesian sisäisen viestinnän johtajana Rinda Lestari on yksi niistä ihmisistä, jotka ovat Danone Indonesian monien Twibbonize-kampanjoiden takana. Alustamme on ollut hänen valintansa, kun on kyse yrityksen sisäisten tapahtumien optimoinnista, joita järjestetään melko usein. Kaikki alkoi, kun yksi hänen kollegoistaan suositteli Twibbonize by 2021:n käyttöä Danonen vuotuisen aloituskokouksen tapahtuman mainostamiseen, ja hän kokeili sitä.",
             "paragraph_2": "Ensimmäisestä Twibbonize-käyttökokeilustaan lähtien hän piti alustaa uskomattoman helppona ja yksinkertaisena käyttää. Kun hän sai tietää, miten kaikki muutkin käyttävät Twibbonia todella mielellään tapana osoittaa osallistumisensa sisäiseen tapahtumaansa, hänellä ei todellakaan ole enää syytä olla käyttämättä Twibbonizea. Rinda Lestarin mielestä Twibbonize on sellainen alusta, jota ihmiset voivat käyttää lisätäkseen tietoisuutta mistä tahansa liikkeestä tai kampanjasta, jota he tekevät, jotta yhä useammat ihmiset voivat olla tietoisia siitä ja liittyä siihen. Ja koska useimmat ihmiset rakastavat ottaa itsestään kuvan, Twibbonize on heille täydellinen väline mainostarkoituksiin, sillä sen avulla ihmiset voivat tehdä sitä, mistä he pitävät (ottaa itsestään kuvan), ja samalla tehdä sen hyvän asian hyväksi.",
-            "paragraph_3": "Rinda mainitsi, että Danone Indonesian kampanjan tukijoiden suuri määrä on jatkuvasti suuri, ja että kaikki työntekijät ovat vapaaehtoisesti innostuneita käyttämään Twibbonizea sisäiseen tapahtumaansa osallistumisena, eikä siihen tarvita voimakeinoja. Jopa silloin, kun yrityksen toinen osasto teki oman kampanjansa, jonka aihe liittyy vain tiettyyn osastoon, muut työntekijät osoittivat mielellään tukensa osallistumalla myös kampanjaan. Jotta työntekijöiden kiinnostus osallistumiseen kuitenkin heräisi, Rinda loi aika ajoin sisäisen kilpailun, jossa luovimman tai kiinnostavimman Twibbonize-kuvan voittaja saisi palkinnon. Arvelemme, että lahjakilpailujen järjestäminen Twibbonizen avulla on sitten todellinen juttu!"
+            "paragraph_3": "Rinda mainitsi, että Danone Indonesian kampanjan tukijoiden suuri määrä on jatkuvasti suuri, ja että kaikki työntekijät ovat vapaaehtoisesti innostuneita käyttämään Twibbonizea sisäiseen tapahtumaansa osallistumisena, eikä siihen tarvita voimakeinoja. Jopa silloin, kun yrityksen toinen osasto teki oman kampanjansa, jonka aihe liittyy vain tiettyyn osastoon, muut työntekijät osoittivat mielellään tukensa osallistumalla myös kampanjaan. Jotta työntekijöiden kiinnostus osallistumiseen kuitenkin heräisi, Rinda loi aika ajoin sisäisen kilpailun, jossa luovimman tai kiinnostavimman Twibbonize-kuvan voittaja saisi palkinnon. Arvelemme, että lahjakilpailujen järjestäminen Twibbonizen avulla on sitten todellinen juttu!",
+            "top": "Danone"
         }
     },
     "use_cases": {
@@ -1563,7 +1593,9 @@
             "login_with_google": "Kirjaudu sisään Googlella",
             "signin_with_email": "tai kirjaudu sisään sähköpostilla",
             "login_with_apple": "Kirjaudu sisään käyttämällä Applea",
-            "signup_with_apple": "Rekisteröidy käyttämällä Applea"
+            "signup_with_apple": "Rekisteröidy käyttämällä Applea",
+            "or": "tai",
+            "sign_in_with_email": "Kirjaudu sisään emaiilin avulla"
         }
     },
     "page_article": {
@@ -1631,7 +1663,8 @@
         "received_report": "Olemme vastaanottaneet raporttisi!",
         "thankyou": "Kiitos! Anna meidän tutkia ilmoituksesi, niin lähetämme palautteen sähköpostiisi mahdollisimman pian.",
         "learn_more_about": "Lisätietoja {link} .",
-        "community_guideline": "Twibbonize-yhteisön ohjeet"
+        "community_guideline": "Twibbonize-yhteisön ohjeet",
+        "email": "Sähköposti"
     },
     "page_editor": {
         "general": {
@@ -1663,7 +1696,7 @@
             "add_a_body_text": "Pieni teksti"
         },
         "shape": {
-            "arrow": "Nuoli",
+            "arrow": "Rivit",
             "shape": "Muoto"
         },
         "upload": {
@@ -1716,7 +1749,7 @@
             "edit_image": "Muokkaa kuvaa",
             "image_template_2": "Unsplash",
             "image": "Kuva",
-            "images_by_unsplash": "Kuvat Unsplash",
+            "images_by_unsplash": "Kuvat {unsplash}",
             "on_unsplash": "Unsplashissa"
         },
         "error": {
@@ -2249,6 +2282,14 @@
     " messages": {
         "form": {
             "field_invalid": "Annettu syöttö on virheellinen"
+        }
+    },
+    "page_create_collection": {
+        "enter_description_for_collection": "Kirjoita kokoelman kuvaus"
+    },
+    "page_create": {
+        "twibbon": {
+            "placeholder_ post_to_twibbonize": "Hei, olen mukana tukemassa tätä kampanjaa. Kokoonnutaan ja tehdään yhdessä todellista vaikutusta tällä kampanjalla!"
         }
     }
 }

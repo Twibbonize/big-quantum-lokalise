@@ -14,7 +14,8 @@
     },
     "general": {
         "navbar": {
-            "start_campaign": "Filloni një fushatë"
+            "start_campaign": "Filloni një fushatë",
+            "search": "Kërko"
         },
         "footer": {
             "join_community": "Bashkohuni me komunitetin",
@@ -75,7 +76,7 @@
             "get_started": "Filloni",
             "read_more": "Lexo më shumë",
             "understand": "Kuptoni",
-            "remove_ads": ""
+            "remove_ads": "Hiq reklamat"
         },
         "time": {
             "week": "javë",
@@ -234,7 +235,7 @@
             "millions_supporters": "(dhe qindra miliona mbështetës të tyre)"
         },
         "our_numbers": {
-            "our_numbers": "Numrat tanë",
+            "our_numbers": "Statistikat tona",
             "as_of_date": "Që nga korriku 2024",
             "visitors": "Vizitorët",
             "twibbons_generated": "Twibbons të gjeneruara",
@@ -330,7 +331,7 @@
         "generate": {
             "your_photo": "Foto juaj",
             "a_frame": "Një kornizë e krijuar nga dikush",
-            "og_twibbon": "Twibbon \"Origjinal\""
+            "og_twibbon": "Twibbon"
         },
         "process": {
             "how_twibbonize_1": "Si revolucionarizojnë Twibbonize",
@@ -417,9 +418,21 @@
             "blur": "E turbullt",
             "shadow": "Hije",
             "twibbon_success": "U shkarkua",
+            "save_share": "Ruaj & Ndani",
             "write_your_caption": "Shkruani titullin tuaj...",
             "remove_watermark_for_all": "Hiq filigranin për të gjithë",
-            "crop": "Pritini"
+            "crop": "Prerje",
+            "color": "Ngjyra",
+            "font": "Fonti",
+            "size": "Madhësia",
+            "style": "Stili",
+            "style_bold": "E guximshme",
+            "style_underline": "Nënvizoni",
+            "style_italic": "Kursi",
+            "align": "Rreshtoni",
+            "align_left": "Majtas",
+            "align_center": "Qendra",
+            "align_right": "E drejta"
         },
         "report": {
             "report_campaign": "Raportoni",
@@ -459,10 +472,10 @@
             "suicide_or_self_harm": "Vetëvrasje ose vetëdëmtim",
             "dangerous_content": "Përmbajtje e rrezikshme",
             "why_report_profile": "Pse po e raportoni këtë profil?",
-            "why_report_submission": "Pse po e raportoni këtë paraqitje?",
+            "why_report_submission": "Pse e raportoni këtë postim?",
             "why_report_comment_reply": "Pse po e raportoni këtë koment?",
             "why_report_collection": "Pse po e raportoni këtë koleksion?",
-            "select_one": "Ju lutemi zgjidhni një",
+            "select_one": "Zgjidhni një",
             "protect_privacy_reporter": "Udhëzimet e Komunitetit të Twibbonize mbrojnë privatësinë e identitetit të raportuesit.",
             "placeholder_write_here": "Shkruaj këtu",
             "title": "Pse po e raportoni këtë fushatë?",
@@ -536,8 +549,7 @@
             "adjust_your_photo": "Rregulloni foton tuaj"
         },
         "share_campaign": {
-            "or_share_to": "ose ndaje tek",
-            "save_share": "Ruaj & Ndani"
+            "or_share_to": "ose ndaje tek"
         },
         "post": {
             "post_uploaded": "Postimi u ngarkua",
@@ -548,12 +560,19 @@
             "custom_field": "Shto një fushë të personalizuar"
         },
         "collection": {
-            "sign_up_add_collection": "Regjistrohuni në Shto në Koleksion"
+            "sign_up_add_collection": "Regjistrohuni në Shto në Koleksion",
+            "add_to_collection": "Shto në Koleksion"
         },
         "posts": {
             "has_no_posts": "Ky përdorues nuk ka postuar asgjë në Twibbonize",
             "pin_limit_reached": "Kufiri i pinit u arrit",
             "pint_limit_reached_desc": "Ke arritur numrin maksimal të postimeve të gozhduara për këtë fushatë. Mund të lidhni vetëm deri në tre postime në faqen tuaj të fushatës."
+        },
+        "collections": {
+            "does_not_have_collection": "Ky përdorues nuk ka ende asnjë koleksion"
+        },
+        "ads": {
+            "title": ""
         }
     },
     "page_checkout": {
@@ -735,6 +754,13 @@
             "what_do_you_want_to_create_desc": "Erëzoni lojën tuaj të fushatës në internet, jo vetëm me një kornizë, por edhe me prejardhje krijuese",
             "new": "I ri!",
             "frame_twibbon": "Korniza Twibbon"
+        },
+        "confirm_reorder": {
+            "title": "Konfirmo Reorder Twibbon",
+            "desc": "Rirenditja e Twibbon do të ndryshojë automatikisht miniaturën e fushatës. Ju mund ta rregulloni miniaturën më vonë në Edit Campaign. {link} . ",
+            "learn_more": "Mësoni më shumë rreth Rregullimit të Miniaturës",
+            "cancel": "Anulo",
+            "confirm": "Vazhdoni"
         }
     },
     "page_for_creators": {
@@ -840,7 +866,7 @@
         },
         "team": {
             "our_team": "Ekipi ynë",
-            "our_philosophy": "Filozofia jonë është e thjeshtë - punësoni një ekip njerëzish të ndryshëm, të pasionuar dhe nxitni një kulturë që ju fuqizon të bëni punën më të mirë."
+            "our_philosophy": "Ne jemi thjesht një grup njerëzish të rastësishëm që u pëlqen të bëjnë softuer të mirë."
         },
         "advisor": {
             "our_advisor": "Këshilltari ynë",
@@ -848,13 +874,13 @@
         },
         "honorary": {
             "honorary_mentions": "Përmendje Nderi",
-            "significant_contributions": "Ata që dhanë kontribut të rëndësishëm në zhvillimin tonë"
+            "significant_contributions": "Ata që dhanë kontribut të rëndësishëm në zhvillimin e Twibbonize"
         },
         "about": {
             "fokker_bio_1": "Fokkerizky u diplomua në Universitas Indonezia me një diplomë në Shkenca Ekonomike, por pasioni i tij i vërtetë qëndron në inxhinierinë e softuerit, dizajnin grafik dhe industrinë fillestare. Ai është përfshirë në startup që nga ditët e tij të universitetit, duke u bashkuar përfundimisht me Mulqan, themeluesin e Twibbonize dhe mikun e tij të fëmijërisë, Bernino.",
             "fokker_bio_2": "Fillimisht duke shërbyer si COO i Twibbonize, Fokkerizky luajti një rol vendimtar në zhvillimin e produktit, duke fituar besimin e Mulqan për të udhëhequr ekipin. Pas një viti provimi të aftësive të tij, Fokkerizky mori rolin e CEO, i gatshëm për të drejtuar Twibbonize drejt suksesit.",
-            "bernino_bio_1": "Bernino Falya ka qenë gjithmonë një person që vlerëson shkencën dhe teknologjinë. Si i diplomuar për Teknologji Informacioni, pasioni i tij qëndron në kërkimin shkencor dhe teknologjinë e aplikueshme. Ky sfond shtrihej në stilin e tij të udhëheqjes, duke e bërë Fokkerizky t'i besonte atij që të bëhej personi i duhur për të zhvilluar Twibbonize së bashku me të dhe Mulqan.",
-            "bernino_bio_2": "Që nga fillimi, Bernino ka udhëhequr vazhdimisht Ekipin Dev të Twibbonize në ekzekutimin e inovacioneve dhe ofrimin e një platforme të qetë për përdoruesit tanë pikërisht për nevojat e tyre. Përkushtimi dhe pasioni i tij janë diçka që është bërë sharmi i tij, jo vetëm si një nga drejtuesit e Twibbonize, por edhe si person.",
+            "bernino_bio_1": "Ndërsa studionte, Bernino bëri një transmetues dhe antenë që mund të dërgonte mesazhe përmes satelitit LAPAN A-2. Ndoshta kjo është një nga shumë gjërat dhe projektet absurde që Bernino ka punuar përpara se të përfshihej në Twibbonize (sigurisht, përveç disa muzikës elektronike në 2013, të cilën fatkeqësisht e ka fshehur nga llogaria e tij Soundcloud).",
+            "bernino_bio_2": "Bernino është një djalë i lezetshëm, ndoshta ai është arsyeja pse Twibbonize ekziston në të vërtetë dhe ju mund ta përdorni atë tani. Mos harroni se Twibbonize filloi si një projekt argëtues me kapital minimal i krijuar nga fëmijë që sapo kishin mbaruar kolegjin; kështu që fakti që Twibbonize mund të përdoret nga miliona njerëz në botë çdo ditë pa probleme, është dëshmi se Bernino mund të zotërojë gjithmonë gjithçka që dëshiron të mësojë. \n\n - Kënga e preferuar: The Midnight - Gloria\n - Ambicie: DJ & sipërmarrës i suksesshëm",
             "mulqan_bio_1": "Të kesh një përvojë në Teknologjinë e Informacionit nuk e ndalon Mulqan-in të jetë dikush që është gjithashtu i pasionuar pas biznesit për të mirën më të madhe të të gjithëve. Vullneti i tij i fortë dhe natyra zgjidhëse e problemeve e bëjnë atë gjithmonë të njihet si dikush me vizion të madh, gjë që reflektohet gjithmonë në punën e tij. ",
             "mulqan_bio_2": "Mulqan filloi Twibbonize për të ndihmuar miqtë e tij të gjenerojnë masivisht Twibbon për një ngjarje në kampusin e tyre. Pasi mori njohjen, Mulqan vazhdoi të zhvillonte vetë Twibbonize, përpara se Fokkerizky më në fund t'i afrohej atij dhe të sillte Bernino gjatë gjithë kohës. Duke filluar si CEO i Twibbonize, Mulqan tani fokusohet në marketingun e Twibbonize me idetë e tij të freskëta dhe kreative.",
             "aditya_bio_1": "Aditya Pradana ishte anëtari i parë i ekipit që iu bashkua Twibbonize pas Bordit të Drejtorëve dhe ai ka qenë i rëndësishëm në zhvillimin e frontit të kompanisë. Niveli i tij i lartë i aftësive dhe vëmendja e përpiktë ndaj detajeve e kanë bërë atë një ekspert të lartë në këtë fushë, duke i dhënë atij vlerësimin e thellë të Twibbonize.",
@@ -1049,7 +1075,8 @@
         },
         "collections": {
             "no_collections": "Organizoni fushatat tuaja të preferuara",
-            "no_collections_details": "Klikoni në ikonën {icon} në çdo fushatë për të ruajtur fushatën në koleksionet tuaja"
+            "no_collections_details": "Klikoni në ikonën {icon} në çdo fushatë për të ruajtur fushatën në koleksionet tuaja",
+            "no_collections_yet": "Nuk ka ende koleksione"
         },
         "about": {
             "about": "Rreth",
@@ -1312,19 +1339,22 @@
             "title": "Mënyra praktike e Acer në përdorimin e Twibbonize",
             "paragraph_1": "Duke u këshilluar nga firma e tyre e agjencisë që të përdorë Twibbonize, personelin e Acer Marketing Communication, Z. Amor Widjojo e gjen Twibbonize si një platformë miqësore për përdoruesit. Karakteristikat tona të ndryshme u mundësojnë atyre të qëndrojnë fleksibël në kryerjen e një fushate. “Gjëja më e rëndësishme është se audienca jonë mund të ndjejë se sa e lehtë është të përdoret Twibbonize”, tha ai.",
             "paragraph_2": "Si një platformë fushate, sigurisht që ne do të dëshironim që audienca jonë të kishte komoditetin për të ndarë fushatën e tyre në mënyrë efektive përmes platformave të mediave sociale. Për zotin Amor, ky faktor ofron përfitime të tilla për Acer si markë. “Sepse në epokën e sotme, të gjithë kanë shumë gjasa të kenë mediat e tyre sociale. Kjo e bën të lehtë për mbështetësit tanë të fushatës që të ngarkojnë dhe ndajnë fushatën e tyre në secilën prej llogarive të tyre, atëherë fushata jonë do të bëhej lehtësisht virale”, shtoi ai.",
-            "paragraph_3": "Deri më tani, Acer ka përdorur Twibbonize për raste të jashtme dhe të brendshme. Kur bëhet fjalë për rastin e tyre të jashtëm, Acer zakonisht bën fushata që kanë të bëjnë me Arsimin dhe do të synonin një gamë të gjerë të audiencës. Me këtë u tha, është e rëndësishme që Acer të jetë në gjendje të arrijë sa më shumë njerëz të jetë e mundur kur ata bëjnë një fushatë. Twibbonize është i kënaqur që është në gjendje të lehtësojë Acer në kryerjen e fushatave të tilla pozitive."
+            "paragraph_3": "Deri më tani, Acer ka përdorur Twibbonize për raste të jashtme dhe të brendshme. Kur bëhet fjalë për rastin e tyre të jashtëm, Acer zakonisht bën fushata që kanë të bëjnë me Arsimin dhe do të synonin një gamë të gjerë të audiencës. Me këtë u tha, është e rëndësishme që Acer të jetë në gjendje të arrijë sa më shumë njerëz të jetë e mundur kur ata bëjnë një fushatë. Twibbonize është i kënaqur që është në gjendje të lehtësojë Acer në kryerjen e fushatave të tilla pozitive.",
+            "top": "Acer"
         },
         "aiesec": {
             "title": "Duke përqafuar komoditetin e Twibbonize, Ashtu si AIESEC",
             "paragraph_1": "Duke qenë Shefja Kombëtare e Brandingut dhe Marketingut të AIESEC, Millania Saliza e sheh Twibbonize shumë të thjeshtë dhe të lehtë për t'u përdorur. Duke qenë se AIESEC përbëhet nga 26 komunitete lokale, ajo shpjegoi se si çdo komuniteti lokal do t'i jepej liria të zgjedhë mënyrën dhe metodën e tij të fushatës dhe ekipi kombëtar do të vendoste vetëm për idenë e fushatës, së bashku me udhëzuesin e markës. Me sa duket, shumë nga komunitetet lokale të AIESEC përdorin Twibbonize si platformën e tyre të fushatës dixhitale.",
             "paragraph_2": "Millania më pas shpjegoi se si ajo dhe ekipi i saj janë mësuar të bëjnë një fotografi me kornizë me dorë, ku të gjithë duhet të futin dhe rregullojnë fotografitë e tyre në kornizë me dorë. Me Twibbonize, ajo më pas është në gjendje të bëjë një fushatë dixhitale në një mënyrë shumë të përshtatshme, kështu që është shumë praktike. Për të mos përmendur që shpërndarja e fushatës perceptohet gjithashtu si relativisht e lehtë, duke lënë detyrën e tyre të vetme që të zgjedhin foton dhe ju do ta konfiguroni Twibbon-in tuaj brenda një kohe të shkurtër.",
-            "paragraph_3": "Në fushatën më të fundit të AIESEC, ata ngarkuan raportin e tyre Twibbon me histori në Instagram, për t'u përdorur që anëtarët e tyre ta ngarkojnë atë në historinë e tyre në Instagram. Për Millania, është një gjë e mirë që Twibbonize mund të akomodojë preferenca të ndryshme të përdoruesve të tyre, pasi u lejon përdoruesve tanë të jenë fleksibël në kryerjen e fushatës së tyre në Twibbonize."
+            "paragraph_3": "Në fushatën më të fundit të AIESEC, ata ngarkuan raportin e tyre Twibbon me histori në Instagram, për t'u përdorur që anëtarët e tyre ta ngarkojnë atë në historinë e tyre në Instagram. Për Millania, është një gjë e mirë që Twibbonize mund të akomodojë preferenca të ndryshme të përdoruesve të tyre, pasi u lejon përdoruesve tanë të jenë fleksibël në kryerjen e fushatës së tyre në Twibbonize.",
+            "top": "AIESEC"
         },
         "danone": {
             "title": "Si e bën Danone konkurrencën e tyre të brendshme të dhuratave duke përdorur Twibbonize",
             "paragraph_1": "Si Menaxhere e Komunikimit të Brendshëm të Danone Indonesia, Rinda Lestari është një nga njerëzit që qëndron pas shumë fushatave të Danone Indonesia në Twibbonize. Platforma jonë ka qenë opsioni i saj i preferuar kur bëhet fjalë për optimizimin e ndonjë prej ngjarjeve të brendshme të kompanisë së tyre, gjë që ndodh mjaft shpesh. Gjithçka filloi kur një nga kolegët e saj rekomandoi idenë e përdorimit të Twibbonize deri në vitin 2021 për të promovuar ngjarjen e Danone në takimin e tyre vjetor fillestar, të cilin ajo më pas e provoi.",
             "paragraph_2": "Që në provën e saj të parë të përvojës në përdorimin e Twibbonize, ajo e gjeti platformën tonë tepër të lehtë dhe të thjeshtë për t'u përdorur. Kur ajo mësoi se si të gjithë të tjerët janë vërtet të lumtur të përdorin Twibbon, si një mënyrë për të treguar pjesëmarrjen e tyre në ngjarjen e tyre të brendshme, ajo me të vërtetë nuk ka asnjë arsye tjetër për të mos përdorur Twibbonize. Sipas mendimit të Rinda Lestarit, Twibbonize është lloji i platformës që njerëzit mund të përdorin për të rritur ndërgjegjësimin për çdo lloj lëvizjeje apo fushate që po bëjnë, kështu që më shumë njerëz mund të jenë të vetëdijshëm për të dhe të bashkohen së bashku. Dhe fakti që shumica e njerëzve pëlqejnë të bëjnë një foto të vetes, e bën Twibbonize të jetë mjeti i përsosur për ta përdorur për qëllime promovuese, pasi i lejon njerëzit të bëjnë atë që duan (të bëjnë një foto të vetes), ndërkohë që e bëjnë atë për diçka. mirë.",
-            "paragraph_3": "Pas numrit të lartë të vazhdueshëm të mbështetësve të fushatës në Danone Indonezia, Rinda përmendi se të gjithë punonjësit do të ishin vullnetarë entuziastë në përdorimin e Twibbonize si një mënyrë për të marrë pjesë në ngjarjen e tyre të brendshme, pa nevojën e një force të tillë. Edhe kur një divizion tjetër në kompani të bënte fushatën e vet, me një temë që lidhet vetëm me një divizion të caktuar, pjesa tjetër e punëtorëve atje do të ishin të lumtur të tregonin mbështetjen e tyre duke marrë pjesë në fushatë gjithashtu. Megjithatë, për të ndezur interesin e punonjësit për të marrë pjesë, herë pas here Rinda krijonte një konkurs të thjeshtë që do të zhvillohej brenda vendit, ku fituesi me foton më kreative apo interesante të Twibbonize merrte një çmim. Supozojmë se bërja e dhuratave me Twibbonize është një gjë e vërtetë atje!"
+            "paragraph_3": "Pas numrit të lartë të vazhdueshëm të mbështetësve të fushatës në Danone Indonezia, Rinda përmendi se të gjithë punonjësit do të ishin vullnetarë entuziastë në përdorimin e Twibbonize si një mënyrë për të marrë pjesë në ngjarjen e tyre të brendshme, pa nevojën e një force të tillë. Edhe kur një divizion tjetër në kompani të bënte fushatën e vet, me një temë që lidhet vetëm me një divizion të caktuar, pjesa tjetër e punëtorëve atje do të ishin të lumtur të tregonin mbështetjen e tyre duke marrë pjesë në fushatë gjithashtu. Megjithatë, për të ndezur interesin e punonjësit për të marrë pjesë, herë pas here Rinda krijonte një konkurs të thjeshtë që do të zhvillohej brenda vendit, ku fituesi me foton më kreative apo interesante të Twibbonize merrte një çmim. Supozojmë se bërja e dhuratave me Twibbonize është një gjë e vërtetë atje!",
+            "top": "Danone"
         }
     },
     "use_cases": {
@@ -1563,7 +1593,9 @@
             "login_with_google": "Hyni me Google",
             "signin_with_email": "ose regjistrohu me email",
             "login_with_apple": "Hyni me Apple",
-            "signup_with_apple": "Regjistrohuni me Apple"
+            "signup_with_apple": "Regjistrohuni me Apple",
+            "or": "ose",
+            "sign_in_with_email": "Hyni me email"
         }
     },
     "page_article": {
@@ -1631,7 +1663,8 @@
         "received_report": "Ne kemi marrë raportin tuaj!",
         "thankyou": "Faleminderit! Ju lutemi na lejoni të hetojmë raportin tuaj dhe ne do t'i dërgojmë komentet në emailin tuaj sa më shpejt të jetë e mundur.",
         "learn_more_about": "Mësoni më shumë rreth {link} .",
-        "community_guideline": "Udhëzimet e Komunitetit të Twibbonize"
+        "community_guideline": "Udhëzimet e Komunitetit të Twibbonize",
+        "email": "Email"
     },
     "page_editor": {
         "general": {
@@ -1663,7 +1696,7 @@
             "add_a_body_text": "Tekst i vogël"
         },
         "shape": {
-            "arrow": "Shigjeta",
+            "arrow": "Linjat",
             "shape": "Forma"
         },
         "upload": {
@@ -1716,7 +1749,7 @@
             "edit_image": "Redakto imazhin",
             "image_template_2": "Unsplash",
             "image": "Imazhi",
-            "images_by_unsplash": "Imazhet nga Unsplash",
+            "images_by_unsplash": "Imazhet nga {unsplash}",
             "on_unsplash": "në Unsplash"
         },
         "error": {
@@ -2249,6 +2282,14 @@
     " messages": {
         "form": {
             "field_invalid": "Hyrja e dhënë është e pavlefshme"
+        }
+    },
+    "page_create_collection": {
+        "enter_description_for_collection": "Futni një përshkrim për Koleksionin"
+    },
+    "page_create": {
+        "twibbon": {
+            "placeholder_ post_to_twibbonize": "Përshëndetje, unë jam gati për të mbështetur këtë fushatë. Le të mblidhemi dhe të bëjmë një ndikim të vërtetë me këtë fushatë së bashku!"
         }
     }
 }
