@@ -14,7 +14,8 @@
     },
     "general": {
         "navbar": {
-            "start_campaign": "Zahájení kampaně"
+            "start_campaign": "Zahájení kampaně",
+            "search": "Vyhledávání"
         },
         "footer": {
             "join_community": "Připojte se ke komunitě",
@@ -75,7 +76,7 @@
             "get_started": "Začít",
             "read_more": "Přečtěte si více",
             "understand": "Pochopit",
-            "remove_ads": ""
+            "remove_ads": "Odebrat reklamy"
         },
         "time": {
             "week": "Týden",
@@ -234,7 +235,7 @@
             "millions_supporters": "(a stovky milionů jejich příznivců)."
         },
         "our_numbers": {
-            "our_numbers": "Naše čísla",
+            "our_numbers": "Naše statistiky",
             "as_of_date": "Od července 2024",
             "visitors": "Návštěvníci",
             "twibbons_generated": "Generované Twibbony",
@@ -330,7 +331,7 @@
         "generate": {
             "your_photo": "Vaše fotografie",
             "a_frame": "Rám vytvořený někým",
-            "og_twibbon": "\"Originální\" Twibbon"
+            "og_twibbon": "Twibbon"
         },
         "process": {
             "how_twibbonize_1": "Jak Twibbonize přináší revoluci",
@@ -417,9 +418,21 @@
             "blur": "Rozmazání",
             "shadow": "Stín",
             "twibbon_success": "Staženo",
+            "save_share": "Uložit a sdílet",
             "write_your_caption": "Napište svůj popisek...",
             "remove_watermark_for_all": "Odstraňte vodoznak pro všechny",
-            "crop": "Plodina"
+            "crop": "Oříznout",
+            "color": "Barva",
+            "font": "Písmo",
+            "size": "Velikost",
+            "style": "Styl",
+            "style_bold": "Odvážný",
+            "style_underline": "Podtrhněte",
+            "style_italic": "Kurzíva",
+            "align": "Zarovnat",
+            "align_left": "Vlevo",
+            "align_center": "Středisko",
+            "align_right": "Právo"
         },
         "report": {
             "report_campaign": "Zpráva",
@@ -462,7 +475,7 @@
             "why_report_submission": "Proč nahlašujete tento příspěvek?",
             "why_report_comment_reply": "Proč nahlašujete tento komentář?",
             "why_report_collection": "Proč nahlašujete tuto sbírku?",
-            "select_one": "Prosím vyberte jednu",
+            "select_one": "Vyberte jednu",
             "protect_privacy_reporter": "Pokyny komunity Twibbonize chrání soukromí identity oznamovatele.",
             "placeholder_write_here": "Pište zde",
             "title": "Proč o této kampani informujete?",
@@ -536,8 +549,7 @@
             "adjust_your_photo": "Úprava fotografie"
         },
         "share_campaign": {
-            "or_share_to": "nebo sdílet na",
-            "save_share": "Uložit a sdílet"
+            "or_share_to": "nebo sdílet na"
         },
         "post": {
             "post_uploaded": "Nahraný příspěvek",
@@ -548,12 +560,19 @@
             "custom_field": "Přidat vlastní pole"
         },
         "collection": {
-            "sign_up_add_collection": "Zaregistrujte se pro přidání do sbírky"
+            "sign_up_add_collection": "Zaregistrujte se pro přidání do sbírky",
+            "add_to_collection": "Přidat do sbírky"
         },
         "posts": {
             "has_no_posts": "Tento uživatel na Twibbonize nic nenapsal",
             "pin_limit_reached": "Bylo dosaženo limitu pinů",
             "pint_limit_reached_desc": "Dosáhli jste maximálního počtu připnutých příspěvků pro tuto kampaň. Na stránku kampaně můžete připnout maximálně tři příspěvky."
+        },
+        "collections": {
+            "does_not_have_collection": "Tento uživatel zatím nemá žádné sbírky"
+        },
+        "ads": {
+            "title": ""
         }
     },
     "page_checkout": {
@@ -735,6 +754,13 @@
             "what_do_you_want_to_create_desc": "Okořeňte svou online kampaň nejen rámem, ale také kreativním pozadím.",
             "new": "Nový!",
             "frame_twibbon": "Rám Twibbon"
+        },
+        "confirm_reorder": {
+            "title": "Potvrzení objednávky Twibbon",
+            "desc": "Změna pořadí Twibbon automaticky změní miniaturu kampaně. Miniaturu můžete upravit později v nabídce Upravit kampaň. {link}. ",
+            "learn_more": "Další informace o úpravě miniatury",
+            "cancel": "Zrušit",
+            "confirm": "Pokračovat"
         }
     },
     "page_for_creators": {
@@ -840,7 +866,7 @@
         },
         "team": {
             "our_team": "Náš tým",
-            "our_philosophy": "Naše filozofie je jednoduchá - najímáme tým různorodých, nadšených lidí a podporujeme kulturu, která vám umožní odvádět tu nejlepší práci."
+            "our_philosophy": "Jsme jen parta náhodných lidí, které baví dělat dobrý software."
         },
         "advisor": {
             "our_advisor": "Náš poradce",
@@ -848,13 +874,13 @@
         },
         "honorary": {
             "honorary_mentions": "Čestná uznání",
-            "significant_contributions": "Ti, kteří významně přispěli k našemu rozvoji"
+            "significant_contributions": "Ti, kteří významně přispěli k rozvoji Twibbonize"
         },
         "about": {
             "fokker_bio_1": "Fokkerizky vystudoval ekonomické vědy na Universitas Indonesia, ale jeho skutečnou vášní je softwarové inženýrství, grafický design a startupové odvětví. Do startupů se zapojuje už od dob studií a nakonec se spojil s Mulqanem, zakladatelem Twibbonize, a svým kamarádem z dětství Berninem.",
             "fokker_bio_2": "Zpočátku působil jako provozní ředitel společnosti Twibbonize, hrál klíčovou roli při vývoji produktů a získal Mulqanovu důvěru vést tým. Po roce, kdy prokázal své schopnosti, převzal Fokkerizky roli generálního ředitele a byl připraven řídit společnost Twibbonize směrem k úspěchu.",
-            "bernino_bio_1": "Bernino Falya byl vždy člověkem, který si váží vědy a techniky. Jako absolvent oboru informační technologie se věnuje výzkumu a použitelným technologiím. Tato zkušenost se promítla i do jeho stylu vedení, díky čemuž mu Fokkerizky věřil, že se stane tou správnou osobou, která bude společně s ním a Mulqanem rozvíjet společnost Twibbonize.",
-            "bernino_bio_2": "Bernino od začátku důsledně vede vývojový tým Twibbonize při zavádění inovací a poskytování bezproblémové platformy pro naše uživatele přesně podle jejich potřeb. Jeho odhodlání a vášeň jsou něčím, co se stalo jeho kouzlem, a to nejen jako jednoho z vedoucích pracovníků společnosti Twibbonize, ale také jako člověka.",
+            "bernino_bio_1": "Během studia Bernino vyrobil vysílač a anténu, které mohly posílat zprávy přes satelit LAPAN A-2. Možná je to jedna z mnoha věcí a absurdních projektů, na kterých Bernino pracoval, než se zapojil do Twibbonize (samozřejmě kromě nějaké elektronické hudby v roce 2013, kterou bohužel skryl ze svého účtu na Soundcloudu).",
+            "bernino_bio_2": "Bernino je skvělý chlapík, možná je důvodem, proč Twibbonize skutečně existuje a můžete jej použít právě teď. Pamatujte, že Twibbonize začal jako zábavný projekt s minimálním kapitálem vytvořený dětmi, které právě dokončily vysokou školu; takže skutečnost, že Twibbonize mohou každý den bez problémů používat miliony lidí na světě, je důkazem toho, že Bernino vždy zvládne vše, co se chce naučit. \n\n - Oblíbená píseň: The Midnight - Gloria\n - Ambice: DJ a úspěšný podnikatel",
             "mulqan_bio_1": "To, že má Mulqan vzdělání v oblasti informačních technologií, mu nebrání v tom, aby se věnoval také podnikání pro dobro všech. Díky své silné vůli a schopnosti řešit problémy je vždy znám jako člověk s velkou vizí, což se vždy odráží v jeho práci. ",
             "mulqan_bio_2": "Mulqan založil Twibbonize, aby pomohl svým přátelům masivně generovat Twibbon pro událost v jejich kampusu. Poté, co se mu dostalo uznání, pokračoval Mulqan ve vývoji Twibbonize sám, než ho nakonec oslovil Fokkerizky a přivedl k tomu Bernina. Mulqan začínal jako generální ředitel Twibbonize a nyní se zaměřuje na marketing Twibbonize se svými svěžími a kreativními nápady.",
             "aditya_bio_1": "Aditya Pradana byl prvním členem týmu, který se připojil k Twibbonize po představenstvu, a zásadně se podílel na vývoji front-endu společnosti. Jeho vysoká úroveň dovedností a pečlivý smysl pro detail z něj udělaly vedoucího odborníka v oboru, čímž si vysloužil hluboké uznání společnosti Twibbonize.",
@@ -1049,7 +1075,8 @@
         },
         "collections": {
             "no_collections": "Uspořádejte své oblíbené kampaně",
-            "no_collections_details": "Kliknutím na ikonu {icon} u libovolné kampaně kampaň uložíte do svých sbírek"
+            "no_collections_details": "Kliknutím na ikonu {icon} u libovolné kampaně kampaň uložíte do svých sbírek",
+            "no_collections_yet": "Zatím žádné sbírky"
         },
         "about": {
             "about": "O stránkách",
@@ -1312,19 +1339,22 @@
             "title": "Praktický způsob využití technologie Twibbonize společností Acer",
             "paragraph_1": "Pracovník marketingové komunikace společnosti Acer, pan Amor Widjojo, považuje Twibbonize za uživatelsky přívětivou platformu, protože mu ji doporučila jeho agenturní firma. Naše různé funkce jim umožňují zůstat flexibilní při realizaci kampaně. \"Nejdůležitější je, že naše publikum mohlo pocítit, jak snadné je Twibbonize používat,\" uvedl.",
             "paragraph_2": "Jako platforma pro kampaně bychom samozřejmě chtěli, aby naše publikum mělo možnost efektivně sdílet svou kampaň prostřednictvím platforem sociálních médií. Podle pana Amora tento faktor nabízí společnosti Acer jako značce takové výhody. \"Protože v dnešní době má s největší pravděpodobností každý svá vlastní sociální média. Díky tomu mohou příznivci naší kampaně snadno nahrát a sdílet kampaň na každém ze svých účtů, pak by se naše kampaň snadno stala virální,\" dodal.",
-            "paragraph_3": "K dnešnímu dni společnost Acer používá Twibbonize pro externí i interní příležitosti. Pokud jde o externí příležitosti, společnost Acer obvykle provádí kampaně, které se týkají vzdělávání, a zaměřuje se na širokou škálu publika. Vzhledem k tomu je pro společnost Acer důležité, aby při kampani dokázala oslovit co nejvíce lidí. Společnost Twibbonize je potěšena, že může společnosti Acer usnadnit provádění takovýchto pozitivních kampaní."
+            "paragraph_3": "K dnešnímu dni společnost Acer používá Twibbonize pro externí i interní příležitosti. Pokud jde o externí příležitosti, společnost Acer obvykle provádí kampaně, které se týkají vzdělávání, a zaměřuje se na širokou škálu publika. Vzhledem k tomu je pro společnost Acer důležité, aby při kampani dokázala oslovit co nejvíce lidí. Společnost Twibbonize je potěšena, že může společnosti Acer usnadnit provádění takovýchto pozitivních kampaní.",
+            "top": "Acer"
         },
         "aiesec": {
             "title": "Přijímáme pohodlí Twibbonize, stejně jako AIESEC",
             "paragraph_1": "Millania Saliza, vedoucí národního oddělení brandingu a marketingu AIESEC, považuje Twibbonize za velmi jednoduchý a snadno použitelný. Vzhledem k tomu, že AIESEC se skládá z 26 místních komunit, vysvětlila, že každá místní komunita bude mít možnost zvolit si vlastní způsob a metodu kampaně a národní tým bude pouze rozhodovat o nápadu kampaně spolu s pokyny pro značku. Mnoho místních komunit AIESEC prý používá Twibbonize jako platformu pro digitální kampaně.",
             "paragraph_2": "Millania pak vysvětlila, jak je se svým týmem zvyklá vytvářet snímek v rámečku ručně, přičemž každý musí své obrázky do rámečku vložit a upravit ručně. S Twibbonize je pak schopna vytvořit digitální kampaň velmi pohodlným způsobem, takže je to velmi praktické. Nemluvě o tom, že distribuce kampaně je také vnímána jako poměrně snadná, takže jejich jediným úkolem je vybrat obrázek a během chvíle máte svůj Twibbon nastavený.",
-            "paragraph_3": "V nejnovější kampani AIESEC nahráli svůj Twibbon s poměrem Instagram story, který mohou jejich členové využít k nahrání na svůj Instagram story. Pro Millanii je dobré, že Twibbonize dokáže vyhovět různým preferencím svých uživatelů, protože to našim uživatelům umožňuje flexibilitu při realizaci jejich kampaně na Twibbonize."
+            "paragraph_3": "V nejnovější kampani AIESEC nahráli svůj Twibbon s poměrem Instagram story, který mohou jejich členové využít k nahrání na svůj Instagram story. Pro Millanii je dobré, že Twibbonize dokáže vyhovět různým preferencím svých uživatelů, protože to našim uživatelům umožňuje flexibilitu při realizaci jejich kampaně na Twibbonize.",
+            "top": "AIESEC"
         },
         "danone": {
             "title": "Jak společnost Danone pořádá interní soutěž o dárky pomocí Twibbonize",
             "paragraph_1": "Rinda Lestari, manažerka interní komunikace společnosti Danone Indonesia, je jednou z osob, které stojí za mnoha kampaněmi společnosti Danone Indonesia na Twibbonize. Naše platforma je její volbou, pokud jde o optimalizaci jakýchkoli interních akcí společnosti, které se konají poměrně často. Vše začalo, když jí jeden z kolegů doporučil nápad využít Twibbonize do roku 2021 k propagaci akce Danone jejich výroční zahajovací schůze, kterou pak vyzkoušela.",
             "paragraph_2": "Od první zkušenosti s používáním Twibbonize zjistila, že naše platforma je neuvěřitelně snadná a jednoduchá na používání. Když se dozvěděla, jak všichni ostatní opravdu rádi používají Twibbon jako způsob, jak dát najevo svou účast na interní akci, opravdu nemá jiný důvod, proč Twibbonize nepoužívat. Podle názoru Rindy Lestari je Twibbonize takovou platformou, kterou mohou lidé využít ke zvýšení povědomí o jakémkoli typu hnutí nebo kampaně, kterou dělají, aby se o ní dozvědělo více lidí a mohli se k ní připojit. A díky tomu, že se většina lidí ráda fotí, je pro ně Twibbonize ideálním nástrojem pro propagační účely, protože umožňuje lidem dělat to, co mají rádi (fotit se), a zároveň to dělat pro něco dobrého.",
-            "paragraph_3": "Za stálým vysokým počtem příznivců kampaně Danone Indonesia stojí Rinda, který zmínil, že všichni zaměstnanci se dobrovolně a s nadšením zapojí do interní akce Twibbonize, aniž by k tomu bylo zapotřebí nějakého násilí. Dokonce i když jiná divize ve společnosti udělala vlastní kampaň s tématem, které se týká pouze určité divize, zbytek tamních pracovníků by rád vyjádřil svou podporu tím, že by se kampaně také zúčastnil. Aby však Rinda podnítila zájem zaměstnanců o účast, čas od času by vytvořila jednoduchou soutěž, která by se konala interně a jejíž vítěz s nejkreativnější nebo nejzajímavější fotografií z Twibbonize by získal cenu. Předpokládáme, že dělat dárky s Twibbonize je tedy skutečná věc!"
+            "paragraph_3": "Za stálým vysokým počtem příznivců kampaně Danone Indonesia stojí Rinda, který zmínil, že všichni zaměstnanci se dobrovolně a s nadšením zapojí do interní akce Twibbonize, aniž by k tomu bylo zapotřebí nějakého násilí. Dokonce i když jiná divize ve společnosti udělala vlastní kampaň s tématem, které se týká pouze určité divize, zbytek tamních pracovníků by rád vyjádřil svou podporu tím, že by se kampaně také zúčastnil. Aby však Rinda podnítila zájem zaměstnanců o účast, čas od času by vytvořila jednoduchou soutěž, která by se konala interně a jejíž vítěz s nejkreativnější nebo nejzajímavější fotografií z Twibbonize by získal cenu. Předpokládáme, že dělat dárky s Twibbonize je tedy skutečná věc!",
+            "top": "Danone"
         }
     },
     "use_cases": {
@@ -1563,7 +1593,9 @@
             "login_with_google": "Přihlaste se pomocí Google",
             "signin_with_email": "nebo se přihlaste pomocí e-mailu",
             "login_with_apple": "Přihlaste se pomocí Apple",
-            "signup_with_apple": "Zaregistrujte se pomocí Apple"
+            "signup_with_apple": "Zaregistrujte se pomocí Apple",
+            "or": "nebo",
+            "sign_in_with_email": "Přihlaste se pomocí emaiil"
         }
     },
     "page_article": {
@@ -1631,7 +1663,8 @@
         "received_report": "Obdrželi jsme vaši zprávu!",
         "thankyou": "Děkuji! Dovolte nám prosím prošetřit vaše hlášení a my vám co nejdříve zašleme zpětnou vazbu na váš e-mail.",
         "learn_more_about": "Další informace o {link} .",
-        "community_guideline": "Pokyny komunity Twibbonize"
+        "community_guideline": "Pokyny komunity Twibbonize",
+        "email": "E-mail"
     },
     "page_editor": {
         "general": {
@@ -1663,7 +1696,7 @@
             "add_a_body_text": "Malý text"
         },
         "shape": {
-            "arrow": "Šipka",
+            "arrow": "Řádky",
             "shape": "Tvar"
         },
         "upload": {
@@ -1716,7 +1749,7 @@
             "edit_image": "Upravit obrázek",
             "image_template_2": "Unsplash",
             "image": "Obrázek",
-            "images_by_unsplash": "Obrázky od Unsplash",
+            "images_by_unsplash": "Obrázky od {unsplash}",
             "on_unsplash": "na Unsplash"
         },
         "error": {
@@ -2249,6 +2282,14 @@
     " messages": {
         "form": {
             "field_invalid": "Zadaný vstup je neplatný"
+        }
+    },
+    "page_create_collection": {
+        "enter_description_for_collection": "Zadejte popis sbírky"
+    },
+    "page_create": {
+        "twibbon": {
+            "placeholder_ post_to_twibbonize": "Dobrý den, jsem pro podporu této kampaně. Pojďme se sejít a společně tuto kampaň skutečně ovlivnit!"
         }
     }
 }
