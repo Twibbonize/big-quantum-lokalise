@@ -77,7 +77,7 @@
             "read_more": "और पढ़ें",
             "understand": "समझना",
             "remove_ads": "विज्ञापन हटाएँ",
-            "create": ""
+            "create": "बनाएं"
         },
         "time": {
             "week": "सप्ताह",
@@ -449,9 +449,10 @@
             "align_left": "बाएं",
             "align_center": "केंद्र",
             "align_right": "सही",
-            "get_premium_from": "",
-            "enjoy_premium": "",
-            "no_watermark_for_all": ""
+            "get_premium_from": "{price} से {plan} प्राप्त करें",
+            "enjoy_premium": "अपनी {plan} का आनंद लें!",
+            "no_watermark_for_all": "सभी के लिए कोई वॉटरमार्क नहीं",
+            "crop_photo": ""
         },
         "report": {
             "report_campaign": "प्रतिवेदन",
@@ -591,7 +592,7 @@
             "does_not_have_collection": "इस उपयोगकर्ता के पास अभी तक कोई संग्रह नहीं है"
         },
         "ads": {
-            "title": ""
+            "title": "विज्ञापन"
         }
     },
     "page_checkout": {
@@ -625,8 +626,8 @@
             "downgrade_active": "आपकी वर्तमान सदस्यता समाप्त होने पर यह सक्रिय हो जाएगा",
             "back_to_plans": "पीछे",
             "conveniently_support": "हमारे विशेष लाभों के साथ अभियानों का सुविधाजनक ढंग से समर्थन करें",
-            "by_subscribing": "",
-            "terms_and_conditions": ""
+            "by_subscribing": "प्रीमियम की सदस्यता लेकर, आप हमारी {link} से सहमत होते हैं। सदस्यता रद्द होने तक स्वतः नवीनीकृत होती है। अतिरिक्त शुल्क से बचने के लिए नवीनीकरण से कम से कम 24 घंटे पहले रद्द करें। ",
+            "terms_and_conditions": "नियम और शर्तें"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -643,9 +644,9 @@
             "ad_free_title": "विज्ञापन मुक्त",
             "campaign_addon": "कैंपेन ऐड-ऑन",
             "on": "पर",
-            "price_per_week": "",
-            "price_per_month": "",
-            "price_per_year": ""
+            "price_per_week": "{price} \/ सप्ताह",
+            "price_per_month": "{price} \/ महीना",
+            "price_per_year": "{price} \/ वर्ष"
         }
     },
     "page_collection": {
@@ -687,7 +688,8 @@
             "imagetype": "पीएनजी",
             "max_file": "अधिकतम 5 एमबी",
             "backgroundtype": "JPEG, PNG या WEBP",
-            "upload_design": "अपना डिज़ाइन यहाँ अपलोड करें"
+            "upload_design": "अपना डिज़ाइन यहाँ अपलोड करें",
+            "total_max_files_exceeded": ""
         },
         "frame_editor": {
             "or_create": "या अब अपना फ्रेम बनाएं",
@@ -875,7 +877,7 @@
     },
     "page_leaderboard": {
         "general": {
-            "top_creators": "शीर्ष रचनाकार लीडरबोर्ड",
+            "top_creators": "लीडरबोर्ड",
             "discover": "पता लगाएँ कि समर्थन में कौन सबसे आगे है! सप्ताह, महीने और सभी समय के शीर्ष रचनाकारों को देखें।"
         }
     },
@@ -1084,14 +1086,14 @@
             "adjust_plan": "योजना समायोजित करें"
         },
         "header": {
-            "upgrade_your_plan": ""
+            "upgrade_your_plan": "अपनी योजना को अपग्रेड करें"
         },
         "plan": {
-            "premium_creator": "",
-            "premium_supporter": ""
+            "premium_creator": "प्रीमियम क्रिएटर",
+            "premium_supporter": "प्रीमियम समर्थक"
         },
         "general": {
-            "per_month": ""
+            "per_month": "प्रति महीने"
         }
     },
     "page_profile": {
@@ -1603,9 +1605,9 @@
             "unique_visit": "अनोखी यात्रा",
             "unique_visit_detail": "आपके कैंपेन पृष्ठ पर आने वाले लोगों की संख्या",
             "data_displayed": "डेटा UTC+0 समय क्षेत्र में प्रदर्शित किया गया",
-            "upgrade_to_get_data": "",
-            "upgrade_to_get_data_desc": "",
-            "upgrade_now_button": ""
+            "upgrade_to_get_data": "अपना अभियान डेटा प्राप्त करने के लिए अपग्रेड करें",
+            "upgrade_to_get_data_desc": "अभियान डेटा केवल तभी रिकॉर्ड किया जाएगा जब आप प्रीमियम क्रिएटर में अपग्रेड कर लेंगे। {price} से शुरू।",
+            "upgrade_now_button": "अभी अपग्रेड करें"
         }
     },
     "page_account": {
@@ -1701,7 +1703,11 @@
         "thankyou": "धन्यवाद! कृपया हमें आपकी रिपोर्ट की जांच करने की अनुमति दें, और हम जल्द से जल्द आपके ईमेल पर फीडबैक भेज देंगे।",
         "learn_more_about": "{link} के बारे में अधिक जानें.",
         "community_guideline": "Twibbonize सामुदायिक दिशानिर्देश",
-        "email": "ईमेल"
+        "email": "ईमेल",
+        "placeholder": {
+            "enter_your_email": "अपना ईमेल पता दर्ज करें",
+            "write_here": "यहाँ लिखें"
+        }
     },
     "page_editor": {
         "general": {
@@ -1781,7 +1787,7 @@
             "discard_changes": "परिवर्तनों को निरस्त करें"
         },
         "image": {
-            "image_template": "फोटो {name} द्वारा ",
+            "image_template": "{unsplash} पर {name} द्वारा ली गई छवि",
             "image_template_1": "पर",
             "edit_image": "संपादित छवि",
             "image_template_2": "Unsplash",
@@ -1846,7 +1852,7 @@
             "unauthorized_use_of_personal_info": "व्यक्तिगत जानकारी का अनधिकृत उपयोग",
             "child_exploitation": "बाल शोषण",
             "sensitive_content": "संवेदनशील सामग्री",
-            "privacy_violations": ""
+            "privacy_violations": "गोपनीयता उल्लंघन"
         },
         "report_comment": {
             "title": "आप यह टिप्पणी क्यों दे रहे हैं?",
@@ -2310,7 +2316,7 @@
             "no_notification_desc": "फिलहाल कोई सूचना नहीं है"
         },
         "heading": {
-            "notifications": ""
+            "notifications": "सूचनाएं"
         }
     },
     "page_general": {
@@ -2319,7 +2325,7 @@
     },
     "page_settings": {
         "account": {
-            "log_out": "लॉग आउट?"
+            "log_out": "क्या आप वाकई लॉग आउट करना चाहते हैं?"
         }
     },
     " messages": {

@@ -77,7 +77,7 @@
             "read_more": "อ่านเพิ่มเติม",
             "understand": "เข้าใจ",
             "remove_ads": "ลบโฆษณา",
-            "create": ""
+            "create": "สร้าง"
         },
         "time": {
             "week": "สัปดาห์",
@@ -449,9 +449,10 @@
             "align_left": "ซ้าย",
             "align_center": "ศูนย์",
             "align_right": "ขวา",
-            "get_premium_from": "",
-            "enjoy_premium": "",
-            "no_watermark_for_all": ""
+            "get_premium_from": "รับ {plan} จาก {price}",
+            "enjoy_premium": "เพลิดเพลินไปกับแผน {plan} ของคุณ!",
+            "no_watermark_for_all": "ไม่มีลายน้ำสำหรับทุกคน",
+            "crop_photo": ""
         },
         "report": {
             "report_campaign": "รายงาน",
@@ -591,7 +592,7 @@
             "does_not_have_collection": "ผู้ใช้รายนี้ยังไม่มีคอลเลกชั่นใดๆ"
         },
         "ads": {
-            "title": ""
+            "title": "โฆษณา"
         }
     },
     "page_checkout": {
@@ -625,8 +626,8 @@
             "downgrade_active": "มันจะใช้งานได้เมื่อการสมัครสมาชิกปัจจุบันของคุณสิ้นสุดลง",
             "back_to_plans": "กลับ",
             "conveniently_support": "สนับสนุนแคมเปญได้อย่างสะดวกสบายด้วยสิทธิประโยชน์พิเศษของเรา",
-            "by_subscribing": "",
-            "terms_and_conditions": ""
+            "by_subscribing": "การสมัครเป็นสมาชิกแบบพรีเมียมถือว่าคุณยอมรับ {link} ของเรา การสมัครจะต่ออายุอัตโนมัติจนกว่าจะยกเลิก ยกเลิกอย่างน้อย 24 ชั่วโมงก่อนต่ออายุเพื่อหลีกเลี่ยงค่าธรรมเนียมเพิ่มเติม ",
+            "terms_and_conditions": "ข้อกำหนดและเงื่อนไข"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -643,9 +644,9 @@
             "ad_free_title": "โฆษณาฟรี",
             "campaign_addon": "แคมเปญเสริม",
             "on": "บน",
-            "price_per_week": "",
-            "price_per_month": "",
-            "price_per_year": ""
+            "price_per_week": "{price} \/ สัปดาห์",
+            "price_per_month": "{price} \/ เดือน",
+            "price_per_year": "{price} \/ ปี"
         }
     },
     "page_collection": {
@@ -687,7 +688,8 @@
             "imagetype": "PNG",
             "max_file": "สูงสุด 5 เมกะไบต์",
             "backgroundtype": "JPEG, PNG หรือเว็บพี",
-            "upload_design": "อัปโหลดการออกแบบของคุณที่นี่"
+            "upload_design": "อัปโหลดการออกแบบของคุณที่นี่",
+            "total_max_files_exceeded": ""
         },
         "frame_editor": {
             "or_create": "หรือสร้างเฟรมของคุณตอนนี้",
@@ -875,7 +877,7 @@
     },
     "page_leaderboard": {
         "general": {
-            "top_creators": "ลีดเดอร์บอร์ดผู้สร้างยอดนิยม",
+            "top_creators": "กระดานผู้นำ",
             "discover": "ค้นหาว่าใครเป็นผู้นำในการสนับสนุน! ดูผู้สร้างอันดับต้นๆ ประจำสัปดาห์ เดือน และตลอดกาล"
         }
     },
@@ -1084,14 +1086,14 @@
             "adjust_plan": "ปรับแผน"
         },
         "header": {
-            "upgrade_your_plan": ""
+            "upgrade_your_plan": "อัพเกรดแผนของคุณ"
         },
         "plan": {
-            "premium_creator": "",
-            "premium_supporter": ""
+            "premium_creator": "ผู้สร้างพรีเมี่ยม",
+            "premium_supporter": "ผู้สนับสนุนระดับพรีเมี่ยม"
         },
         "general": {
-            "per_month": ""
+            "per_month": "ต่อเดือน"
         }
     },
     "page_profile": {
@@ -1603,9 +1605,9 @@
             "unique_visit": "การเยี่ยมชมที่ไม่ซ้ำใคร",
             "unique_visit_detail": "จำนวนผู้ที่เข้าชมหน้าแคมเปญของคุณ",
             "data_displayed": "ข้อมูลที่แสดงในเขตเวลา UTC+0",
-            "upgrade_to_get_data": "",
-            "upgrade_to_get_data_desc": "",
-            "upgrade_now_button": ""
+            "upgrade_to_get_data": "อัปเกรดเพื่อรับข้อมูลแคมเปญของคุณ",
+            "upgrade_to_get_data_desc": "ข้อมูลแคมเปญจะถูกบันทึกเมื่อคุณอัปเกรดเป็น Premium Creator แล้วเท่านั้น เริ่มต้นที่ {price}",
+            "upgrade_now_button": "อัพเกรดตอนนี้"
         }
     },
     "page_account": {
@@ -1701,7 +1703,11 @@
         "thankyou": "ขอบคุณ! โปรดอนุญาตให้เราตรวจสอบรายงานของคุณ และเราจะส่งข้อเสนอแนะไปยังอีเมลของคุณโดยเร็วที่สุด",
         "learn_more_about": "เรียนรู้เพิ่มเติมเกี่ยวกับ {link}",
         "community_guideline": "แนวทางของชุมชน Twibbonize",
-        "email": "อีเมล"
+        "email": "อีเมล",
+        "placeholder": {
+            "enter_your_email": "กรอกที่อยู่อีเมลของคุณ",
+            "write_here": "เขียนที่นี่"
+        }
     },
     "page_editor": {
         "general": {
@@ -1781,7 +1787,7 @@
             "discard_changes": "ยกเลิกการเปลี่ยนแปลง"
         },
         "image": {
-            "image_template": "ภาพถ่ายโดย {name} ",
+            "image_template": "รูปภาพโดย {name} บน {unsplash}",
             "image_template_1": "บน",
             "edit_image": "แก้ไขรูปภาพ",
             "image_template_2": "Unsplash",
@@ -1846,7 +1852,7 @@
             "unauthorized_use_of_personal_info": "การใช้ข้อมูลส่วนบุคคลโดยไม่ได้รับอนุญาต",
             "child_exploitation": "การแสวงประโยชน์จากเด็ก",
             "sensitive_content": "เนื้อหาที่ละเอียดอ่อน",
-            "privacy_violations": ""
+            "privacy_violations": "การละเมิดความเป็นส่วนตัว"
         },
         "report_comment": {
             "title": "เหตุใดคุณจึงรายงานความคิดเห็นนี้",
@@ -2310,7 +2316,7 @@
             "no_notification_desc": "ไม่มีการแจ้งเตือนในขณะนี้"
         },
         "heading": {
-            "notifications": ""
+            "notifications": "การแจ้งเตือน"
         }
     },
     "page_general": {
@@ -2319,7 +2325,7 @@
     },
     "page_settings": {
         "account": {
-            "log_out": "ออกจากระบบ?"
+            "log_out": "คุณแน่ใจว่าต้องการออกจากระบบใช่ไหม?"
         }
     },
     " messages": {
