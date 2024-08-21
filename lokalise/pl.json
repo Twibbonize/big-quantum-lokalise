@@ -77,7 +77,7 @@
             "read_more": "Czytaj więcej",
             "understand": "Zrozumieć",
             "remove_ads": "Usuń reklamy",
-            "create": ""
+            "create": "Utwórz"
         },
         "time": {
             "week": "Tydzień",
@@ -449,9 +449,10 @@
             "align_left": "Lewa",
             "align_center": "Centrum",
             "align_right": "Prawo",
-            "get_premium_from": "",
-            "enjoy_premium": "",
-            "no_watermark_for_all": ""
+            "get_premium_from": "Pobierz {plan} z {price}",
+            "enjoy_premium": "Korzystaj z planu {plan}!",
+            "no_watermark_for_all": "Brak znaku wodnego dla wszystkich",
+            "crop_photo": ""
         },
         "report": {
             "report_campaign": "Raport",
@@ -591,7 +592,7 @@
             "does_not_have_collection": "Ten użytkownik nie ma jeszcze żadnych Kolekcji"
         },
         "ads": {
-            "title": ""
+            "title": "Reklama"
         }
     },
     "page_checkout": {
@@ -625,8 +626,8 @@
             "downgrade_active": "Będzie ona aktywna po zakończeniu bieżącej subskrypcji",
             "back_to_plans": "Z powrotem",
             "conveniently_support": "Wygodne wsparcie kampanii dzięki naszym specjalnym korzyściom",
-            "by_subscribing": "",
-            "terms_and_conditions": ""
+            "by_subscribing": "Subskrybując Premium, zgadzasz się na nasze {link}. Subskrypcja odnawia się automatycznie do momentu jej anulowania. Aby uniknąć dodatkowych opłat, należy anulować subskrypcję co najmniej 24 godziny przed jej odnowieniem. ",
+            "terms_and_conditions": "Zasady i warunki"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -643,9 +644,9 @@
             "ad_free_title": "Bez reklam",
             "campaign_addon": "Dodatek do kampanii",
             "on": "NA",
-            "price_per_week": "",
-            "price_per_month": "",
-            "price_per_year": ""
+            "price_per_week": "{price} \/ Tydzień",
+            "price_per_month": "{price} \/ miesiąc",
+            "price_per_year": "{price} \/ Rok"
         }
     },
     "page_collection": {
@@ -687,7 +688,8 @@
             "imagetype": "PNG",
             "max_file": "Maksymalnie 5 MB",
             "backgroundtype": "JPEG, PNG lub WEBP",
-            "upload_design": "Prześlij swój projekt tutaj"
+            "upload_design": "Prześlij swój projekt tutaj",
+            "total_max_files_exceeded": ""
         },
         "frame_editor": {
             "or_create": "lub stwórz ramkę już teraz",
@@ -875,7 +877,7 @@
     },
     "page_leaderboard": {
         "general": {
-            "top_creators": "Ranking najlepszych twórców",
+            "top_creators": "Tabela liderów",
             "discover": "Dowiedz się, kto jest liderem wsparcia! Zobacz najlepszych twórców tygodnia, miesiąca i wszech czasów"
         }
     },
@@ -1084,14 +1086,14 @@
             "adjust_plan": "Dostosuj plan"
         },
         "header": {
-            "upgrade_your_plan": ""
+            "upgrade_your_plan": "Aktualizacja planu"
         },
         "plan": {
-            "premium_creator": "",
-            "premium_supporter": ""
+            "premium_creator": "Premium Creator",
+            "premium_supporter": "Wspierający Premium"
         },
         "general": {
-            "per_month": ""
+            "per_month": "miesięcznie"
         }
     },
     "page_profile": {
@@ -1603,9 +1605,9 @@
             "unique_visit": "Wyjątkowa wizyta",
             "unique_visit_detail": "Liczba osób, które odwiedziły stronę kampanii",
             "data_displayed": "Dane wyświetlane w strefie czasowej UTC+0",
-            "upgrade_to_get_data": "",
-            "upgrade_to_get_data_desc": "",
-            "upgrade_now_button": ""
+            "upgrade_to_get_data": "Uaktualnij, aby uzyskać dane kampanii",
+            "upgrade_to_get_data_desc": "Dane kampanii będą rejestrowane dopiero po uaktualnieniu do wersji Premium Creator. Począwszy od {price}.",
+            "upgrade_now_button": "Uaktualnij teraz"
         }
     },
     "page_account": {
@@ -1701,7 +1703,11 @@
         "thankyou": "Dziękuję! Pozwól nam sprawdzić Twoje zgłoszenie, a my prześlemy Twoją opinię na Twój adres e-mail tak szybko, jak to możliwe.",
         "learn_more_about": "Dowiedz się więcej o {link} .",
         "community_guideline": "Wytyczne społeczności Twibbonize",
-        "email": "E-mail"
+        "email": "E-mail",
+        "placeholder": {
+            "enter_your_email": "Wprowadź swój adres e-mail",
+            "write_here": "Napisz tutaj"
+        }
     },
     "page_editor": {
         "general": {
@@ -1781,7 +1787,7 @@
             "discard_changes": "Odrzuć Zmiany"
         },
         "image": {
-            "image_template": "Zdjęcie: {name} ",
+            "image_template": "Obraz autorstwa {name} na {unsplash}",
             "image_template_1": "na",
             "edit_image": "Edytuj obraz",
             "image_template_2": "Unsplash",
@@ -1846,7 +1852,7 @@
             "unauthorized_use_of_personal_info": "Nieautoryzowane wykorzystanie danych osobowych",
             "child_exploitation": "Wykorzystywanie dzieci",
             "sensitive_content": "Wrażliwa zawartość",
-            "privacy_violations": ""
+            "privacy_violations": "Naruszenia prywatności"
         },
         "report_comment": {
             "title": "Dlaczego zgłaszasz ten komentarz?",
@@ -2310,7 +2316,7 @@
             "no_notification_desc": "W tej chwili nie ma żadnych powiadomień"
         },
         "heading": {
-            "notifications": ""
+            "notifications": "Powiadomienia"
         }
     },
     "page_general": {
@@ -2319,7 +2325,7 @@
     },
     "page_settings": {
         "account": {
-            "log_out": "Wyloguj?"
+            "log_out": "Na pewno chcesz się wylogować?"
         }
     },
     " messages": {
