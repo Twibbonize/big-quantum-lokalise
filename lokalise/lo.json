@@ -76,7 +76,8 @@
             "get_started": "ເລີ່ມຕົ້ນ",
             "read_more": "ອ່ານ​ຕື່ມ",
             "understand": "ເຂົ້າໃຈ",
-            "remove_ads": "ເອົາໂຄສະນາອອກ"
+            "remove_ads": "ເອົາໂຄສະນາອອກ",
+            "create": ""
         },
         "time": {
             "week": "ອາທິດ",
@@ -189,6 +190,21 @@
             "safety": "ຄວາມປອດໄພ",
             "generate_twibbon": "ສ້າງ ແລະແບ່ງປັນ Twibbon",
             "create_campaign": "ສ້າງ, ແບ່ງປັນ, ແລະແກ້ໄຂແຄມເປນ"
+        },
+        "relative_time": {
+            "seconds": "ສອງສາມວິນາທີ",
+            "future": "ໃນ %s",
+            "past": "%s ກ່ອນໜ້ານີ້",
+            "minute": "ນາທີ",
+            "minutes": "%d ນາທີ",
+            "hour": "ຫນຶ່ງ​ຊົ່ວ​ໂມງ",
+            "hours": "%d ຊົ່ວໂມງ",
+            "day": "ມື້​ຫນຶ່ງ",
+            "days": "%d ມື້",
+            "month": "ເດືອນ",
+            "months_copy": "%d ເດືອນ",
+            "year": "ປີ",
+            "years": "%d ປີ"
         }
     },
     "page_home": {
@@ -605,7 +621,9 @@
             "upgrade_active": "ມັນຈະມີການເຄື່ອນໄຫວເມື່ອທ່ານເຮັດສຳເລັດການຈ່າຍເງິນ",
             "downgrade_active": "ມັນຈະມີການເຄື່ອນໄຫວເມື່ອການສະໝັກໃຊ້ປັດຈຸບັນຂອງທ່ານສິ້ນສຸດລົງ",
             "back_to_plans": "ກັບຄືນໄປບ່ອນ",
-            "conveniently_support": "ສະຫນັບສະຫນູນແຄມເປນສະດວກສະບາຍດ້ວຍຜົນປະໂຫຍດພິເສດຂອງພວກເຮົາ"
+            "conveniently_support": "ສະຫນັບສະຫນູນແຄມເປນສະດວກສະບາຍດ້ວຍຜົນປະໂຫຍດພິເສດຂອງພວກເຮົາ",
+            "by_subscribing": "",
+            "terms_and_conditions": ""
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -621,7 +639,10 @@
             "high_quality_image_title": "ຮູບພາບຄຸນນະພາບສູງ",
             "ad_free_title": "ໂຄສະນາຟຣີ",
             "campaign_addon": "Add-On ແຄມເປນ",
-            "on": "ສຸດ"
+            "on": "ສຸດ",
+            "price_per_week": "",
+            "price_per_month": "",
+            "price_per_year": ""
         }
     },
     "page_collection": {
@@ -1058,6 +1079,16 @@
         },
         "same_plan": {
             "adjust_plan": "ປັບແຜນການ"
+        },
+        "header": {
+            "upgrade_your_plan": ""
+        },
+        "plan": {
+            "premium_creator": "",
+            "premium_supporter": ""
+        },
+        "general": {
+            "per_month": ""
         }
     },
     "page_profile": {
@@ -1568,7 +1599,10 @@
             "visit_detail": "ຈໍານວນກອງປະຊຸມຄົ້ນຫາດຽວທີ່ໄດ້ໄປຢ້ຽມຢາມຫນ້າແຄມເປນຂອງທ່ານ",
             "unique_visit": "ການຢ້ຽມຢາມເປັນເອກະລັກ",
             "unique_visit_detail": "ຈໍານວນຄົນທີ່ໄດ້ໄປຢ້ຽມຢາມຫນ້າແຄມເປນຂອງທ່ານ",
-            "data_displayed": "ຂໍ້ມູນສະແດງຢູ່ໃນເຂດເວລາ UTC+0"
+            "data_displayed": "ຂໍ້ມູນສະແດງຢູ່ໃນເຂດເວລາ UTC+0",
+            "upgrade_to_get_data": "",
+            "upgrade_to_get_data_desc": "",
+            "upgrade_now_button": ""
         }
     },
     "page_account": {
@@ -2267,8 +2301,13 @@
         }
     },
     "page_notification": {
-        "no_notification_heading": "ບໍ່ມີການແຈ້ງເຕືອນເທື່ອ",
-        "no_notification_subheading": "ບໍ່ມີການແຈ້ງເຕືອນໃນຂະນະນີ້"
+        "empty_state": {
+            "no_notifications_yet": "ບໍ່ມີການແຈ້ງເຕືອນເທື່ອ",
+            "no_notification_desc": "ບໍ່ມີການແຈ້ງເຕືອນໃນຂະນະນີ້"
+        },
+        "heading": {
+            "notifications": ""
+        }
     },
     "page_general": {
         "no_internet_connection": "ບໍ່ມີການເຊື່ອມຕໍ່ອິນເຕີເນັດ. ແຕະເພື່ອລອງໃໝ່",
@@ -2285,7 +2324,7 @@
         }
     },
     "page_create_collection": {
-        "enter_description_for_collection": "ໃສ່ຄຳອະທິບາຍສຳລັບຄໍເລັກຊັນ"
+        "description_collection": "ໃສ່ຄຳອະທິບາຍສຳລັບຄໍເລັກຊັນ"
     },
     "page_create": {
         "twibbon": {
