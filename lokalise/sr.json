@@ -77,7 +77,7 @@
             "read_more": "Опширније",
             "understand": "Разумети",
             "remove_ads": "Уклони огласе",
-            "create": ""
+            "create": "Креирај"
         },
         "time": {
             "week": "Nedelja",
@@ -449,9 +449,10 @@
             "align_left": "Лево",
             "align_center": "Центар",
             "align_right": "Тачно",
-            "get_premium_from": "",
-            "enjoy_premium": "",
-            "no_watermark_for_all": ""
+            "get_premium_from": "Набавите {plan} од {price}",
+            "enjoy_premium": "Уживајте у свом {plan} плану!",
+            "no_watermark_for_all": "Без воденог жига за све",
+            "crop_photo": ""
         },
         "report": {
             "report_campaign": "Извештај",
@@ -591,7 +592,7 @@
             "does_not_have_collection": "Овај корисник још увек нема ниједну колекцију"
         },
         "ads": {
-            "title": ""
+            "title": "Оглас"
         }
     },
     "page_checkout": {
@@ -625,8 +626,8 @@
             "downgrade_active": "Biće aktivan kada se vaša trenutna pretplata završi",
             "back_to_plans": "Nazad",
             "conveniently_support": "Подржите кампање уз наше посебне погодности",
-            "by_subscribing": "",
-            "terms_and_conditions": ""
+            "by_subscribing": "Ако се претплатите на Премиум, прихватате нашу {link} . Претплата се аутоматски обнавља док се не откаже. Откажите најмање 24 сата пре обнове да бисте избегли додатне трошкове. ",
+            "terms_and_conditions": "Услови и одредбе"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -643,9 +644,9 @@
             "ad_free_title": "Bez reklama",
             "campaign_addon": "Dodatak za kampanju",
             "on": "na",
-            "price_per_week": "",
-            "price_per_month": "",
-            "price_per_year": ""
+            "price_per_week": "{price} \/седмично",
+            "price_per_month": "{price} \/месец",
+            "price_per_year": "{price} \/год"
         }
     },
     "page_collection": {
@@ -687,7 +688,8 @@
             "imagetype": "PNG",
             "max_file": "Maksimalno 5 MB",
             "backgroundtype": "JPEG, PNG ili WEBP",
-            "upload_design": "Otpremite svoj dizajn ovde"
+            "upload_design": "Otpremite svoj dizajn ovde",
+            "total_max_files_exceeded": ""
         },
         "frame_editor": {
             "or_create": "ili kreirati svoj okvir sada",
@@ -875,7 +877,7 @@
     },
     "page_leaderboard": {
         "general": {
-            "top_creators": "Tabela najboljih kreatora",
+            "top_creators": "Леадербоард",
             "discover": "Saznajte ko vodi u podršci! Pogledajte najbolje kreatore nedelje, meseca i svih vremena"
         }
     },
@@ -1084,14 +1086,14 @@
             "adjust_plan": "Prilagodite plan"
         },
         "header": {
-            "upgrade_your_plan": ""
+            "upgrade_your_plan": "Надоградите свој план"
         },
         "plan": {
-            "premium_creator": "",
-            "premium_supporter": ""
+            "premium_creator": "Премиум Цреатор",
+            "premium_supporter": "Премиум Суппортер"
         },
         "general": {
-            "per_month": ""
+            "per_month": "месечно"
         }
     },
     "page_profile": {
@@ -1603,9 +1605,9 @@
             "unique_visit": "Jedinstvena poseta",
             "unique_visit_detail": "Broj ljudi koji su posetili stranicu vaše kampanje",
             "data_displayed": "Podaci se prikazuju u vremenskoj zoni UTC+0",
-            "upgrade_to_get_data": "",
-            "upgrade_to_get_data_desc": "",
-            "upgrade_now_button": ""
+            "upgrade_to_get_data": "Надоградите да бисте добили податке о кампањи",
+            "upgrade_to_get_data_desc": "Подаци о кампањи ће бити забележени тек када извршите надоградњу на Премиум Цреатор. Почевши од {price} .",
+            "upgrade_now_button": "Надоградите одмах"
         }
     },
     "page_account": {
@@ -1701,7 +1703,11 @@
         "thankyou": "Hvala vam! Dozvolite nam da istražimo vašu prijavu i poslaćemo povratne informacije na vašu e-poštu što je pre moguće.",
         "learn_more_about": "Saznajte više o {link}.",
         "community_guideline": "Smernice zajednice Twibbonize",
-        "email": "Емаил"
+        "email": "Емаил",
+        "placeholder": {
+            "enter_your_email": "Унесите своју адресу е-поште",
+            "write_here": "Пишите овде"
+        }
     },
     "page_editor": {
         "general": {
@@ -1781,7 +1787,7 @@
             "discard_changes": "Odbaciti promene"
         },
         "image": {
-            "image_template": "Autor fotografije: {name} ",
+            "image_template": "Слика аутора {name} на {unsplash}",
             "image_template_1": "na",
             "edit_image": "Urediti sliku",
             "image_template_2": "Unsplash",
@@ -1846,7 +1852,7 @@
             "unauthorized_use_of_personal_info": "Neovlašćeno korišćenje ličnih podataka",
             "child_exploitation": "Eksploatacija dece",
             "sensitive_content": "Osetljivi sadržaj",
-            "privacy_violations": ""
+            "privacy_violations": "Повреде приватности"
         },
         "report_comment": {
             "title": "Zašto prijavljujete ovaj komentar?",
@@ -2310,7 +2316,7 @@
             "no_notification_desc": "Trenutno nema obaveštenja"
         },
         "heading": {
-            "notifications": ""
+            "notifications": "Обавештења"
         }
     },
     "page_general": {
@@ -2319,7 +2325,7 @@
     },
     "page_settings": {
         "account": {
-            "log_out": "Odjaviti se?"
+            "log_out": "Сигурно желите да се одјавите?"
         }
     },
     " messages": {

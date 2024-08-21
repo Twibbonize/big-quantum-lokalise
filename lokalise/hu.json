@@ -77,7 +77,7 @@
             "read_more": "Olvass tovább",
             "understand": "Értsd",
             "remove_ads": "Távolítsa el a hirdetéseket",
-            "create": ""
+            "create": "Hozzon létre"
         },
         "time": {
             "week": "Hét",
@@ -449,9 +449,10 @@
             "align_left": "Balra",
             "align_center": "Központ",
             "align_right": "Jobbra",
-            "get_premium_from": "",
-            "enjoy_premium": "",
-            "no_watermark_for_all": ""
+            "get_premium_from": "Get {plan} from {price}",
+            "enjoy_premium": "Élvezze a {plan} tervet!",
+            "no_watermark_for_all": "Nincs vízjel mindenkinek",
+            "crop_photo": ""
         },
         "report": {
             "report_campaign": "Jelentés",
@@ -591,7 +592,7 @@
             "does_not_have_collection": "Ennek a felhasználónak még nincsenek gyűjtései"
         },
         "ads": {
-            "title": ""
+            "title": "Hirdetés"
         }
     },
     "page_checkout": {
@@ -625,8 +626,8 @@
             "downgrade_active": "Aktív lesz, ha lejár az aktuális előfizetésed",
             "back_to_plans": "Vissza",
             "conveniently_support": "Kényelmesen támogassa a kampányokat különleges előnyeinkkel",
-            "by_subscribing": "",
-            "terms_and_conditions": ""
+            "by_subscribing": "A Premium előfizetéssel Ön elfogadja a {link} weboldalunkat. Az előfizetés automatikusan megújul, amíg le nem mondjuk. A további költségek elkerülése érdekében a megújítás előtt legalább 24 órával mondja le az előfizetést. ",
+            "terms_and_conditions": "Feltételek és feltételek"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -643,9 +644,9 @@
             "ad_free_title": "Reklámmentes",
             "campaign_addon": "Kampány-kiegészítő",
             "on": "tovább",
-            "price_per_week": "",
-            "price_per_month": "",
-            "price_per_year": ""
+            "price_per_week": "{price} \/ Hét",
+            "price_per_month": "{price} \/ Hónap",
+            "price_per_year": "{price} \/ év"
         }
     },
     "page_collection": {
@@ -687,7 +688,8 @@
             "imagetype": "PNG",
             "max_file": "Maximum 5 MB",
             "backgroundtype": "JPEG, PNG vagy WEBP",
-            "upload_design": "Töltse fel a tervét itt"
+            "upload_design": "Töltse fel a tervét itt",
+            "total_max_files_exceeded": ""
         },
         "frame_editor": {
             "or_create": "vagy hozza létre keretét most",
@@ -875,7 +877,7 @@
     },
     "page_leaderboard": {
         "general": {
-            "top_creators": "Top Creators ranglista",
+            "top_creators": "Ranglista",
             "discover": "Tudja meg, ki vezet a támogatásban! Nézd meg a hét, a hónap és az összes eddigi legjobb alkotóját."
         }
     },
@@ -1084,14 +1086,14 @@
             "adjust_plan": "Terv módosítása"
         },
         "header": {
-            "upgrade_your_plan": ""
+            "upgrade_your_plan": "Frissítse a tervét"
         },
         "plan": {
-            "premium_creator": "",
-            "premium_supporter": ""
+            "premium_creator": "Prémium Creator",
+            "premium_supporter": "Prémium támogató"
         },
         "general": {
-            "per_month": ""
+            "per_month": "havonta"
         }
     },
     "page_profile": {
@@ -1603,9 +1605,9 @@
             "unique_visit": "Egyedülálló látogatás",
             "unique_visit_detail": "A kampányoldaladat meglátogatók száma",
             "data_displayed": "Az adatok UTC+0 időzónában jelennek meg",
-            "upgrade_to_get_data": "",
-            "upgrade_to_get_data_desc": "",
-            "upgrade_now_button": ""
+            "upgrade_to_get_data": "Frissítés a kampányadatokhoz",
+            "upgrade_to_get_data_desc": "A kampányadatok csak akkor kerülnek rögzítésre, ha Prémium Creatorra frissítesz. A {price} címen kezdődően.",
+            "upgrade_now_button": "Frissítés most"
         }
     },
     "page_account": {
@@ -1701,7 +1703,11 @@
         "thankyou": "Köszönöm! Kérjük, engedje meg, hogy kivizsgálhassuk bejelentését, és a visszajelzést a lehető leghamarabb elküldjük e-mail-címére.",
         "learn_more_about": "További információ a {link} webhelyről.",
         "community_guideline": "A Twibbonize közösségi irányelvek",
-        "email": "E-mail"
+        "email": "E-mail",
+        "placeholder": {
+            "enter_your_email": "Adja meg az e-mail címét",
+            "write_here": "Írja ide"
+        }
     },
     "page_editor": {
         "general": {
@@ -1781,7 +1787,7 @@
             "discard_changes": "Változások eldobása"
         },
         "image": {
-            "image_template": "Fotó: {name} ",
+            "image_template": "Kép: {name} {unsplash}",
             "image_template_1": "a  oldalon",
             "edit_image": "Kép szerkesztése",
             "image_template_2": "Unsplash",
@@ -1846,7 +1852,7 @@
             "unauthorized_use_of_personal_info": "Személyes adatok jogosulatlan felhasználása",
             "child_exploitation": "Gyermekek kizsákmányolása",
             "sensitive_content": "Érzékeny tartalom",
-            "privacy_violations": ""
+            "privacy_violations": "Adatvédelmi jogsértések"
         },
         "report_comment": {
             "title": "Miért jelented ezt a hozzászólást?",
@@ -2310,7 +2316,7 @@
             "no_notification_desc": "Jelenleg nincsenek értesítések"
         },
         "heading": {
-            "notifications": ""
+            "notifications": "Értesítések"
         }
     },
     "page_general": {
@@ -2319,7 +2325,7 @@
     },
     "page_settings": {
         "account": {
-            "log_out": "Kijelentkezés?"
+            "log_out": "Biztos, hogy ki akarsz jelentkezni?"
         }
     },
     " messages": {

@@ -77,7 +77,7 @@
             "read_more": "Διαβάστε περισσότερα",
             "understand": "Καταλαβαίνω",
             "remove_ads": "Κατάργηση διαφημίσεων",
-            "create": ""
+            "create": "Δημιουργία"
         },
         "time": {
             "week": "Εβδομάδα",
@@ -449,9 +449,10 @@
             "align_left": "Αριστερά",
             "align_center": "Κέντρο",
             "align_right": "Δεξιά",
-            "get_premium_from": "",
-            "enjoy_premium": "",
-            "no_watermark_for_all": ""
+            "get_premium_from": "Πάρτε το {plan} από {price}",
+            "enjoy_premium": "Απολαύστε το σχέδιό σας {plan}!",
+            "no_watermark_for_all": "Χωρίς υδατογράφημα για όλους",
+            "crop_photo": ""
         },
         "report": {
             "report_campaign": "Εκθεση",
@@ -591,7 +592,7 @@
             "does_not_have_collection": "Αυτός ο χρήστης δεν έχει ακόμα συλλογές"
         },
         "ads": {
-            "title": ""
+            "title": "Διαφήμιση"
         }
     },
     "page_checkout": {
@@ -625,8 +626,8 @@
             "downgrade_active": "Θα είναι ενεργό μόλις τελειώσει η τρέχουσα συνδρομή σας",
             "back_to_plans": "Πίσω",
             "conveniently_support": "Υποστηρίξτε βολικά τις εκστρατείες με τα ειδικά μας προνόμια",
-            "by_subscribing": "",
-            "terms_and_conditions": ""
+            "by_subscribing": "Με την εγγραφή σας στο Premium, συμφωνείτε με το {link}. Η συνδρομή ανανεώνεται αυτόματα μέχρι την ακύρωσή της. Ακυρώστε τουλάχιστον 24 ώρες πριν από την ανανέωση για να αποφύγετε πρόσθετες χρεώσεις. ",
+            "terms_and_conditions": "Όροι και Προϋποθέσεις"
         },
         "plan": {
             "premium_creator": "Premium Creator",
@@ -643,9 +644,9 @@
             "ad_free_title": "Χωρίς διαφημίσεις",
             "campaign_addon": "Πρόσθετο καμπάνιας",
             "on": "επί",
-            "price_per_week": "",
-            "price_per_month": "",
-            "price_per_year": ""
+            "price_per_week": "{price} \/ Εβδομάδα",
+            "price_per_month": "{price} \/ Μήνας",
+            "price_per_year": "{price} \/ Έτος"
         }
     },
     "page_collection": {
@@ -687,7 +688,8 @@
             "imagetype": "PNG",
             "max_file": "Μέγιστο 5 MB",
             "backgroundtype": "JPEG, PNG ή WEBP",
-            "upload_design": "Ανεβάστε το σχέδιό σας εδώ"
+            "upload_design": "Ανεβάστε το σχέδιό σας εδώ",
+            "total_max_files_exceeded": ""
         },
         "frame_editor": {
             "or_create": "ή δημιουργήστε το πλαίσιο σας τώρα",
@@ -875,7 +877,7 @@
     },
     "page_leaderboard": {
         "general": {
-            "top_creators": "Κορυφαίος πίνακας δημιουργών",
+            "top_creators": "Πίνακας κατάταξης",
             "discover": "Μάθετε ποιος ηγείται στην υποστήριξη! Δείτε τους κορυφαίους δημιουργούς της εβδομάδας, του μήνα και όλων των εποχών"
         }
     },
@@ -1084,14 +1086,14 @@
             "adjust_plan": "Προσαρμογή σχεδίου"
         },
         "header": {
-            "upgrade_your_plan": ""
+            "upgrade_your_plan": "Αναβαθμίστε το πρόγραμμά σας"
         },
         "plan": {
-            "premium_creator": "",
-            "premium_supporter": ""
+            "premium_creator": "Premium Creator",
+            "premium_supporter": "Υποστηρικτής Premium"
         },
         "general": {
-            "per_month": ""
+            "per_month": "ανά μήνα"
         }
     },
     "page_profile": {
@@ -1603,9 +1605,9 @@
             "unique_visit": "Μοναδική επίσκεψη",
             "unique_visit_detail": "Ο αριθμός των ατόμων που επισκέφθηκαν τη σελίδα της καμπάνιας σας",
             "data_displayed": "Δεδομένα που εμφανίζονται στη ζώνη ώρας UTC+0",
-            "upgrade_to_get_data": "",
-            "upgrade_to_get_data_desc": "",
-            "upgrade_now_button": ""
+            "upgrade_to_get_data": "Αναβάθμιση για να λάβετε τα δεδομένα της καμπάνιας σας",
+            "upgrade_to_get_data_desc": "Τα δεδομένα της καμπάνιας θα καταγραφούν μόνο όταν αναβαθμίσετε σε Premium Creator. Ξεκινώντας από το {price}.",
+            "upgrade_now_button": "Αναβάθμιση τώρα"
         }
     },
     "page_account": {
@@ -1701,7 +1703,11 @@
         "thankyou": "Ευχαριστώ! Επιτρέψτε μας να διερευνήσουμε την αναφορά σας και θα στείλουμε τα σχόλιά σας στο email σας το συντομότερο δυνατό.",
         "learn_more_about": "Μάθετε περισσότερα για το {link} .",
         "community_guideline": "Οι κατευθυντήριες γραμμές της κοινότητας Twibbonize",
-        "email": "Ηλεκτρονικό ταχυδρομείο"
+        "email": "Ηλεκτρονικό ταχυδρομείο",
+        "placeholder": {
+            "enter_your_email": "Εισάγετε τη διεύθυνση email σας",
+            "write_here": "Γράψτε εδώ"
+        }
     },
     "page_editor": {
         "general": {
@@ -1781,7 +1787,7 @@
             "discard_changes": "Αλλαγές απόρριψης"
         },
         "image": {
-            "image_template": "Φωτογραφία από {name} ",
+            "image_template": "Εικόνα από {name} στο {unsplash}",
             "image_template_1": "στο",
             "edit_image": "Επεξεργασία εικόνας",
             "image_template_2": "Unsplash",
@@ -1846,7 +1852,7 @@
             "unauthorized_use_of_personal_info": "Μη εξουσιοδοτημένη χρήση προσωπικών πληροφοριών",
             "child_exploitation": "Εκμετάλλευση παιδιών",
             "sensitive_content": "Ευαίσθητο περιεχόμενο",
-            "privacy_violations": ""
+            "privacy_violations": "Παραβιάσεις του απορρήτου"
         },
         "report_comment": {
             "title": "Γιατί αναφέρετε αυτό το σχόλιο;",
@@ -2310,7 +2316,7 @@
             "no_notification_desc": "Δεν υπάρχουν ειδοποιήσεις αυτή τη στιγμή"
         },
         "heading": {
-            "notifications": ""
+            "notifications": "Ειδοποιήσεις"
         }
     },
     "page_general": {
@@ -2319,7 +2325,7 @@
     },
     "page_settings": {
         "account": {
-            "log_out": "Αποσύνδεση;"
+            "log_out": "Σίγουρα θέλετε να αποσυνδεθείτε;"
         }
     },
     " messages": {
