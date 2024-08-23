@@ -219,7 +219,7 @@
             "7_days": "7 วัน",
             "30_days": "30 วัน",
             "all": "ทั้งหมด",
-            "all_time": "",
+            "all_time": "ทั้งหมด",
             "view_all": "ดูทั้งหมด"
         },
         "for_creators": {
@@ -321,7 +321,7 @@
     },
     "page_contact": {
         "header": {
-            "lets_talk": "มาคุยกันเถอะ",
+            "lets_talk": "ติดต่อเรา",
             "we_love": "เราชอบที่จะได้ยินจากคุณ! คำถาม ข้อเสนอแนะ หรือเพียงแค่ทักทาย โปรดส่งข้อความถึงเราด้านล่าง เราจะติดต่อกลับโดยเร็วที่สุด!"
         },
         "contact": {
@@ -689,7 +689,8 @@
             "max_file": "สูงสุด 5 เมกะไบต์",
             "backgroundtype": "JPEG, PNG หรือเว็บพี",
             "upload_design": "อัปโหลดการออกแบบของคุณที่นี่",
-            "total_max_files_exceeded": "ไฟล์ที่อัพโหลดรวมเกินจำนวนสูงสุด {n} ไฟล์"
+            "total_max_files_exceeded": "ไฟล์ที่อัพโหลดรวมเกินจำนวนสูงสุด {n} ไฟล์",
+            "replace_image": "เปลี่ยนรูปภาพ"
         },
         "frame_editor": {
             "or_create": "หรือสร้างเฟรมของคุณตอนนี้",
@@ -709,7 +710,7 @@
             "understand": "ฉันเข้าใจ",
             "width": "ความกว้าง",
             "height": "ความสูง",
-            "or_create_background": "",
+            "or_create_background": "หรือสร้างพื้นหลังของคุณตอนนี้",
             "or_create_frame": "หรือสร้างเฟรมของคุณตอนนี้"
         },
         "form": {
@@ -764,7 +765,7 @@
             "frames": "เฟรม",
             "campaigns": "แคมเปญ",
             "analytics": "การวิเคราะห์",
-            "backgrounds": ""
+            "backgrounds": "พื้นหลัง"
         },
         "blank_design": {
             "suggested": "แนะนำ",
@@ -774,7 +775,7 @@
             "create_blank_design": "สร้างการออกแบบที่ว่างเปล่า"
         },
         "frame_Editor": {
-            "or_create_background": ""
+            "or_create_background": "หรือสร้างพื้นหลังของคุณตอนนี้"
         },
         "modal": {
             "what_do_you_want_to_create": "คุณต้องการสร้างอะไร?",
@@ -874,12 +875,19 @@
             "see_all": "ดูทั้งหมด {type}",
             "not_found": "อ๊ะ ไม่พบ {type} :(",
             "check_spelling": "โปรดตรวจสอบการสะกดของคุณหรือลองใช้คำหลักอื่น!"
+        },
+        "error": {
+            "failed_to_fetch_trending_campaigns": "ไม่สามารถดึงข้อมูลแคมเปญที่กำลังได้รับความนิยมได้",
+            "something_went_wrong": "มีบางอย่างผิดพลาดเกิดขึ้น"
         }
     },
     "page_leaderboard": {
         "general": {
             "top_creators": "กระดานผู้นำ",
             "discover": "ค้นหาว่าใครเป็นผู้นำในการสนับสนุน! ดูผู้สร้างอันดับต้นๆ ประจำสัปดาห์ เดือน และตลอดกาล"
+        },
+        "error": {
+            "failed_to_fetch_the_leaderboard": "ไม่สามารถดึงข้อมูลกระดานผู้นำได้"
         }
     },
     "page_personels": {
@@ -1245,7 +1253,7 @@
             "last_attempted_authentication": "การเรียกเก็บเงินครั้งล่าสุดของเราไม่ประสบผลสำเร็จ การชำระเงินของคุณต้องมีการตรวจสอบสิทธิ์",
             "authenticate_now": "ตรวจสอบสิทธิ์ทันที",
             "recurring_payment": "เราต้องการการยืนยันที่ชัดเจนสำหรับการชำระเงินที่เกิดขึ้นประจำของคุณ กรุณาตรวจสอบอีเมลของคุณ",
-            "has_expired": ""
+            "has_expired": "แผน {plan} ของคุณหมดอายุแล้ว กรุณาต่ออายุภายใน {date}"
         },
         "account": {
             "update_email": "อัพเดทอีเมล์",
@@ -1288,8 +1296,8 @@
             "email_change_request": "คำขอเปลี่ยนอีเมลถูกยกเลิก",
             "we_have_sent_password": "เราได้ส่งคำแนะนำในการรีเซ็ตรหัสผ่านไปยังอีเมลของคุณแล้ว โปรดรีเซ็ตรหัสผ่านของคุณภายใน 1 ชั่วโมงเพื่อความปลอดภัย",
             "go_to_homepage": "ไปที่หน้าแรก",
-            "set_password": "",
-            "for_security_create_password": ""
+            "set_password": "ตั้งรหัสผ่าน",
+            "for_security_create_password": "เพื่อเหตุผลด้านความปลอดภัย โปรดสร้างรหัสผ่าน"
         },
         "notifications": {
             "notifications_settings": "การตั้งค่าการแจ้งเตือน",
@@ -1638,7 +1646,8 @@
             "login_with_apple": "เข้าสู่ระบบโดยใช้ Apple",
             "signup_with_apple": "ลงชื่อสมัครใช้โดยใช้ Apple",
             "or": "หรือ",
-            "sign_in_with_email": "ลงชื่อเข้าใช้ด้วยอีเมล"
+            "sign_in_with_email": "ลงชื่อเข้าใช้ด้วยอีเมล",
+            "continue_with_email": "ดำเนินการต่อด้วยอีเมล"
         }
     },
     "page_article": {

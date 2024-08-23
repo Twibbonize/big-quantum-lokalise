@@ -321,7 +321,7 @@
     },
     "page_contact": {
         "header": {
-            "lets_talk": "Mari Berbicara",
+            "lets_talk": "Hubungi Kami",
             "we_love": "Kami akan dengan senang hati menjawab pertanyaan kalian dan menerima saran. Sekadar bersapa juga boleh. Kami akan segera menjawabnya!"
         },
         "contact": {
@@ -689,7 +689,8 @@
             "max_file": "Maksimum 5 MB",
             "backgroundtype": "JPEG, PNG atau WEBP",
             "upload_design": "Unggah desainmu di sini",
-            "total_max_files_exceeded": "Total file yang diunggah melebihi jumlah maksimum {n} file"
+            "total_max_files_exceeded": "Total file yang diunggah melebihi jumlah maksimum {n} file",
+            "replace_image": "Ganti Gambar"
         },
         "frame_editor": {
             "or_create": "atau buat bingkai sekarang",
@@ -874,12 +875,19 @@
             "see_all": "Lihat semua {type}",
             "not_found": "Yah, {type} tidak dapat ditemukan :(",
             "check_spelling": "Mohon periksa ejaanmu atau pakai kata kunci lain!"
+        },
+        "error": {
+            "failed_to_fetch_trending_campaigns": "Gagal mengambil Kampanye Trending",
+            "something_went_wrong": "Ada yang tidak beres"
         }
     },
     "page_leaderboard": {
         "general": {
             "top_creators": "Papan Peringkat",
             "discover": "Temukan siapa yang memimpin dalam dukungan! Lihat Kreator teratas setiap minggu, bulan atau sepanjang masa"
+        },
+        "error": {
+            "failed_to_fetch_the_leaderboard": "Gagal mengambil Papan Peringkat"
         }
     },
     "page_personels": {
@@ -1268,28 +1276,28 @@
             "permanent_delete": "Akun, kampanye, dan aktivitas di akun Twibbonizemu akan dihapus permanen.",
             "type_to_confirm": "Ketik {username} untuk konfirmasi",
             "input_password": "Masukkan kata sandi",
-            "for_security_input_password": "Untuk alasan keamanan, mohon masukkan kata sandi",
+            "for_security_input_password": "Untuk alasan keamanan, mohon masukkan Kata Sandi",
             "confirm": "Konfirmasi",
             "forgot_password": "Lupa Kata Sandi?",
-            "password": "Kata sandi",
+            "password": "Kata Sandi",
             "confirm_password": "Konfirmasi Kata Sandi",
             "create_new_password": "Buat Kata Sandi Baru",
             "make_it_easy": "Buat yang mudah diingat dan rahasiakan ini dari orang lain!",
             "add_email_button": "Tambah Email",
             "add_password": "Tambahkan Kata Sandi",
             "cant_remove_account": "Ups, kami tidak dapat menghapus akun media sosial kamu.",
-            "set_up_email": "Kamu harus mengatur email atau kata sandi terlebih dahulu untuk menghapus akun media sosialmu.",
+            "set_up_email": "Kamu harus mengatur Email atau Kata Sandi terlebih dahulu untuk menghapus akun media sosialmu.",
             "want_to_remove": "Ingin menghapus akun media sosialmu?",
             "your_account_will_be_removed": "Akun {provider} kamu akan dihapus. Klik \"Mengerti\" untuk menghapus akun media sosial kamu.",
             "continue_to_revoke": "Lanjutkan untuk Mencabut ",
             "revoke_success": "Berhasil Mencabut Akun {provider}",
             "cannot_update_email": "Ups, kami tidak dapat memperbarui email kamu",
-            "setup_password_to_update_email": "Kamu harus menetapkan kata sandi sebelum memperbarui emailmu.",
+            "setup_password_to_update_email": "Kamu harus menetapkan Kata Sandi sebelum memperbarui emailmu.",
             "email_change_request": "Permintaan Perubahan Email Dibatalkan",
-            "we_have_sent_password": "Kami telah mengirimkan instruksi pengaturan ulang kata sandi ke email kamu. Silakan atur ulang kata sandimu dalam waktu 1 jam untuk alasan keamanan.",
+            "we_have_sent_password": "Kami telah mengirimkan instruksi pengaturan ulang Kata Sandi ke email kamu. Silakan atur ulang Kata Sandimu dalam waktu 1 jam untuk alasan keamanan.",
             "go_to_homepage": "Buka Beranda",
-            "set_password": "",
-            "for_security_create_password": ""
+            "set_password": "Mengatur Kata Sandi",
+            "for_security_create_password": "Untuk alasan keamanan, silakan buat kata sandi"
         },
         "notifications": {
             "notifications_settings": "Pengaturan Notifikasi",
@@ -1617,14 +1625,14 @@
     "page_account": {
         "modal": {
             "email": "Email",
-            "password": "Kata sandi",
-            "confirm_password": "Konfirmasi Kata sandi",
+            "password": "Kata Sandi",
+            "confirm_password": "Konfirmasi Kata Sandi",
             "login_with_email": "atau masuk dengan email",
             "signup_with_google": "Daftar menggunakan Google",
             "signup_with_facebook": "Daftar menggunakan Facebook",
             "signup_with_email": "atau daftar menggunakan email",
-            "signup_aggrement": "Dengan \"Mendaftar\", kamu telah membaca dan menyetujui {terms} & {privacy} kami.",
-            "forgot_your_password": "Lupa kata sandi?",
+            "signup_aggrement": "Dengan Mendaftar, kamu telah membaca dan menyetujui {terms} & {privacy} kami.",
+            "forgot_your_password": "Lupa Kata Sandi?",
             "dont_have_account": "Belum memiliki akun?",
             "have_account": "Sudah memiliki akun?",
             "login": "Masuk",
@@ -1638,7 +1646,8 @@
             "login_with_apple": "Masuk dengan Apple",
             "signup_with_apple": "Daftar dengan Apple",
             "or": "atau",
-            "sign_in_with_email": "Masuk dengan email"
+            "sign_in_with_email": "Masuk dengan email",
+            "continue_with_email": "Lanjutkan dengan email"
         }
     },
     "page_article": {
@@ -1898,7 +1907,7 @@
             "email_not_found": "Email tidak ditemukan. Coba lagi atau daftar"
         },
         "password": {
-            "password_incorrect": "Kata sandi salah. Coba lagi"
+            "password_incorrect": "Kata Sandi salah. Coba lagi"
         },
         "maximum_attempt": "Upaya maksimal tercapai. Coba lagi dalam 1 jam"
     },
@@ -1909,7 +1918,7 @@
             "banner_updated": "Banner Diperbarui",
             "banner_deleted": "Banner Dihapus",
             "photo_deleted": "Foto Dihapus",
-            "password_updated": "Kata sandi diperbarui",
+            "password_updated": "Kata Sandi diperbarui",
             "email_updated": "Email Diperbarui",
             "account_deleted": "Akun dihapus",
             "campaign_deleted": "Kampanye dihapus",
@@ -1936,20 +1945,20 @@
             "404": "404 Halaman tidak ditemukan",
             "A-4010": "Kredensial tidak valid",
             "A-4011": "Token tidak valid",
-            "A-4012": "Tiket pengaturan ulang kata sandi tidak valid",
+            "A-4012": "Tiket pengaturan ulang Kata Sandi tidak valid",
             "A-4013": "Harap selesaikan proses registrasi Anda terlebih dahulu",
             "A-4014": "Kode verifikasi tidak valid",
             "A-4015": "Tiket email reset tidak valid",
             "A-4090": "Email duplikat",
             "A-4091": "Nomor telepon duplikat",
-            "A-4030": "Kata sandi belum ditetapkan",
+            "A-4030": "Kata Sandi belum ditetapkan",
             "A-4031": "Pembaruan email tidak diizinkan",
             "A-4032": "Token penyegaran tidak diizinkan",
-            "A-4034": "Penghapusan kata sandi tidak diizinkan ",
-            "A-4035": "Permintaan lupa kata sandi telah mencapai batas",
+            "A-4034": "Penghapusan Kata Sandi tidak diizinkan ",
+            "A-4035": "Permintaan lupa Kata Sandi telah mencapai batas",
             "A-4036": "Permintaan login tidak sah telah mencapai batas",
             "A-4037": "Permintaan verifikasi yang tidak sah telah mencapai batas",
-            "A-4038": "Email dan kata sandi belum ditetapkan",
+            "A-4038": "Email dan Kata Sandi belum ditetapkan",
             "A-4039": "Permintaan pembaruan nomor telepon telah mencapai batas",
             "A-40310": "Permintaan OTP telah mencapai batas",
             "A-40311": "Pembaruan nomor telepon tidak diizinkan",
@@ -1969,15 +1978,15 @@
             "A-4048": "Sesi pendaftaran telah berakhir",
             "A-4049": "Sesi pembaruan nomor telepon telah kedaluwarsa",
             "A-4000": "Nama diperlukan",
-            "A-4001": "Kata sandi harus minimal 8 karakter yang mengandung alfanumerik dan simbol",
-            "A-4004": "Kata sandi diperlukan",
+            "A-4001": "Kata Sandi harus minimal 8 karakter yang mengandung alfanumerik dan simbol",
+            "A-4004": "Kata Sandi diperlukan",
             "A-4002": "Email tidak terbentuk dengan baik",
             "A-4005": "Email diperlukan",
             "A-4006": "File gambar diperlukan",
             "A-4009": "Integritas modul tidak valid",
             "A-40010": "Kirim ulang ditolak",
             "A-40011": "isMobile diperlukan",
-            "A-40012": "Harap berikan kata sandi ke akun Anda",
+            "A-40012": "Harap berikan Kata Sandi ke akun Anda",
             "A-40013 ": "Harap berikan email ke akun Anda",
             "A-40014": "Akun Terkait tidak dapat memiliki lebih dari 1 akun terkait untuk jenis yang sama",
             "A-40015": "Sub ID Sudah terdaftar di akun lain",
@@ -1986,7 +1995,7 @@
             "A-40018": "Nama Tidak Valid",
             "A-40019": "Nama terlalu besar",
             "A-40020": "Kode verifikasi tidak valid",
-            "A-40021": "Tiket pengaturan ulang kata sandi tidak valid",
+            "A-40021": "Tiket pengaturan ulang Kata Sandi tidak valid",
             "A-40022": "Email akun media sosial Anda sudah terdaftar dan terhubung dengan akun lain dari layanan media sosial yang serupa. Silakan coba masuk melalui formulir asli.",
             "A-40023": "Jenis permintaan wajib diisi",
             "A-40024": "Jenis permintaan tidak valid",
@@ -2024,7 +2033,7 @@
             "A-40056": "Nama File Tidak Boleh Kosong",
             "A-40057": "File Tidak Ada",
             "A-40058": "Situs Web Tidak Boleh Kosong",
-            "A-40059": "Panjang kata sandi maksimum terlampaui",
+            "A-40059": "Panjang Kata Sandi maksimum terlampaui",
             "A-40060": "Nama pengguna profil diperlukan",
             "A-40061": "Subkategori wajib diisi",
             "A-40062": "Subkategori Tidak Valid",
@@ -2305,8 +2314,8 @@
             "equal_to": "$ {path} harus sama dengan $ {reference}",
             "not_equal_to": "$ {path} harus berbeda dengan $ {reference}",
             "required": "Kolom ini wajib diisi dan tidak boleh dikosongkan",
-            "valid_password": "Kata sandi harus mengandung setidaknya satu huruf dan satu angka",
-            "confirm_password": "Kata sandi harus cocok",
+            "valid_password": "Kata Sandi harus mengandung setidaknya satu huruf dan satu angka",
+            "confirm_password": "Kata Sandi harus cocok",
             "valid_email": "Harap masukkan alamat email yang valid",
             "valid_url": "Harap masukkan URL yang valid",
             "min_width": "Lebarnya harus minimal {min} piksel",

@@ -219,7 +219,7 @@
             "7_days": "7 ថ្ងៃ",
             "30_days": "30 ថ្ងៃ។",
             "all": "ទាំងអស់។",
-            "all_time": "",
+            "all_time": "ទាំងអស់។",
             "view_all": "មើលទាំងអស់។"
         },
         "for_creators": {
@@ -321,7 +321,7 @@
     },
     "page_contact": {
         "header": {
-            "lets_talk": "តោះ​និយាយ​គ្នា",
+            "lets_talk": "ទាក់ទងមកយើងខ្ញុំ",
             "we_love": "យើងចង់ឮពីអ្នក! សំណួរ មតិកែលម្អ ឬគ្រាន់តែដើម្បីនិយាយជំរាបសួរ សូមផ្ញើសារមកយើងខាងក្រោម។ យើង​នឹង​ត្រឡប់​ទៅ​អ្នក​វិញ​យ៉ាង​ឆាប់​រហ័ស!"
         },
         "contact": {
@@ -689,7 +689,8 @@
             "max_file": "អតិបរមា 5 មេកាបៃ",
             "backgroundtype": "JPEG, PNG ឬ WEBP",
             "upload_design": "បង្ហោះការរចនារបស់អ្នកនៅទីនេះ",
-            "total_max_files_exceeded": "ឯកសារដែលបានផ្ទុកឡើងសរុបលើសពីឯកសារ {n} អតិបរមា"
+            "total_max_files_exceeded": "ឯកសារដែលបានផ្ទុកឡើងសរុបលើសពីឯកសារ {n} អតិបរមា",
+            "replace_image": "ជំនួសរូបភាព"
         },
         "frame_editor": {
             "or_create": "ឬបង្កើតស៊ុមរបស់អ្នកឥឡូវនេះ",
@@ -709,7 +710,7 @@
             "understand": "ខ្ញុំ​យល់",
             "width": "ទទឹង",
             "height": "កម្ពស់",
-            "or_create_background": "",
+            "or_create_background": "ឬបង្កើតផ្ទៃខាងក្រោយរបស់អ្នកឥឡូវនេះ",
             "or_create_frame": "ឬបង្កើតស៊ុមរបស់អ្នកឥឡូវនេះ"
         },
         "form": {
@@ -764,7 +765,7 @@
             "frames": "ស៊ុម",
             "campaigns": "យុទ្ធនាការ",
             "analytics": "វិភាគ",
-            "backgrounds": ""
+            "backgrounds": "ផ្ទៃខាងក្រោយ"
         },
         "blank_design": {
             "suggested": "បានណែនាំ",
@@ -774,7 +775,7 @@
             "create_blank_design": "បង្កើតការរចនាទទេ"
         },
         "frame_Editor": {
-            "or_create_background": ""
+            "or_create_background": "ឬបង្កើតផ្ទៃខាងក្រោយរបស់អ្នកឥឡូវនេះ"
         },
         "modal": {
             "what_do_you_want_to_create": "តើអ្នកចង់បង្កើតអ្វី?",
@@ -874,12 +875,19 @@
             "see_all": "មើលទាំងអស់ {type}",
             "not_found": "អូ៎ រកមិនឃើញ {type} ទេ :(",
             "check_spelling": "សូមពិនិត្យអក្ខរាវិរុទ្ធរបស់អ្នក ឬសាកល្បងពាក្យគន្លឹះផ្សេងទៀត!"
+        },
+        "error": {
+            "failed_to_fetch_trending_campaigns": "បរាជ័យក្នុងការទាញយកយុទ្ធនាការពេញនិយម",
+            "something_went_wrong": "មានអ្វីមួយខុសប្រក្រតី"
         }
     },
     "page_leaderboard": {
         "general": {
             "top_creators": "តារាងពិន្ទុ",
             "discover": "ស្វែងយល់ថាអ្នកណានាំមុខគេ! មើលអ្នកបង្កើតកំពូលប្រចាំសប្តាហ៍ ខែ និងគ្រប់ពេលវេលា។"
+        },
+        "error": {
+            "failed_to_fetch_the_leaderboard": "បានបរាជ័យក្នុងការទាញយកតារាងពិន្ទុ"
         }
     },
     "page_personels": {
@@ -1245,7 +1253,7 @@
             "last_attempted_authentication": "ការចោទប្រកាន់ចុងក្រោយរបស់យើងមិនបានជោគជ័យទេ។ ការទូទាត់របស់អ្នកត្រូវការការផ្ទៀងផ្ទាត់។",
             "authenticate_now": "ផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវឥឡូវនេះ",
             "recurring_payment": "យើងទាមទារការបញ្ជាក់ច្បាស់លាស់របស់អ្នកសម្រាប់ការទូទាត់ដែលកើតឡើងដដែលៗរបស់អ្នក។ សូម​ពិនិត្យមើល​អ៊ី​ម៉ែ​ល​របស់​អ្នក",
-            "has_expired": ""
+            "has_expired": "គម្រោង {plan} របស់អ្នកបានផុតកំណត់ហើយ។ សូមបន្តនៅ {date}"
         },
         "account": {
             "update_email": "ធ្វើបច្ចុប្បន្នភាពអ៊ីមែល",
@@ -1288,8 +1296,8 @@
             "email_change_request": "សំណើផ្លាស់ប្តូរអ៊ីមែលត្រូវបានលុបចោល",
             "we_have_sent_password": "យើងបានផ្ញើការណែនាំកំណត់ពាក្យសម្ងាត់ឡើងវិញទៅកាន់អ៊ីមែលរបស់អ្នក។ សូមកំណត់ពាក្យសម្ងាត់របស់អ្នកឡើងវិញក្នុងរយៈពេល 1 ម៉ោងសម្រាប់ហេតុផលសុវត្ថិភាព។",
             "go_to_homepage": "ចូលទៅកាន់ទំព័រដើម",
-            "set_password": "",
-            "for_security_create_password": ""
+            "set_password": "កំណត់ពាក្យសម្ងាត់",
+            "for_security_create_password": "សម្រាប់ហេតុផលសុវត្ថិភាព សូមបង្កើតពាក្យសម្ងាត់"
         },
         "notifications": {
             "notifications_settings": "ការកំណត់ការជូនដំណឹង",
@@ -1638,7 +1646,8 @@
             "login_with_apple": "ចូលគណនីដោយប្រើ Apple",
             "signup_with_apple": "ចុះឈ្មោះជាមួយ Apple",
             "or": "ឬ",
-            "sign_in_with_email": "ចូលដោយប្រើអ៊ីមែល"
+            "sign_in_with_email": "ចូលដោយប្រើអ៊ីមែល",
+            "continue_with_email": "បន្តជាមួយអ៊ីមែល"
         }
     },
     "page_article": {
