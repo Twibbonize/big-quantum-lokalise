@@ -219,7 +219,7 @@
             "7_days": "7 দিন",
             "30_days": "30 দিন",
             "all": "সব",
-            "all_time": "",
+            "all_time": "সব",
             "view_all": "সব দেখ"
         },
         "for_creators": {
@@ -321,7 +321,7 @@
     },
     "page_contact": {
         "header": {
-            "lets_talk": "চল কথা বলি",
+            "lets_talk": "আমাদের সাথে যোগাযোগ করুন",
             "we_love": "আমরা আপনার কাছ থেকে শুনতে ভালোবাসতাম! প্রশ্ন, প্রতিক্রিয়া, বা শুধু হ্যালো বলতে, আমাদের নীচে একটি বার্তা ড্রপ করুন. আমরা শীঘ্রই আপনার কাছে ফিরে আসব!"
         },
         "contact": {
@@ -689,7 +689,8 @@
             "max_file": "সর্বোচ্চ 5 এমবি",
             "backgroundtype": "JPEG, PNG বা WEBP",
             "upload_design": "এখানে আপনার নকশা আপলোড করুন",
-            "total_max_files_exceeded": "আপলোড করা মোট ফাইল সর্বাধিক {n} টি ফাইল অতিক্রম করেছে৷"
+            "total_max_files_exceeded": "আপলোড করা মোট ফাইল সর্বাধিক {n} টি ফাইল অতিক্রম করেছে৷",
+            "replace_image": "ছবি প্রতিস্থাপন করুন"
         },
         "frame_editor": {
             "or_create": "অথবা এখন আপনার ফ্রেম তৈরি করুন",
@@ -709,7 +710,7 @@
             "understand": "আমি বুঝেছি",
             "width": "প্রস্থ",
             "height": "উচ্চতা",
-            "or_create_background": "",
+            "or_create_background": "অথবা এখন আপনার ব্যাকগ্রাউন্ড তৈরি করুন",
             "or_create_frame": "অথবা এখন আপনার ফ্রেম তৈরি করুন"
         },
         "form": {
@@ -764,7 +765,7 @@
             "frames": "ফ্রেম",
             "campaigns": "ক্যাম্পেইন",
             "analytics": "বিশ্লেষণ",
-            "backgrounds": ""
+            "backgrounds": "পটভূমি"
         },
         "blank_design": {
             "suggested": "প্রস্তাবিত",
@@ -774,7 +775,7 @@
             "create_blank_design": "খালি ডিজাইন তৈরি করুন"
         },
         "frame_Editor": {
-            "or_create_background": ""
+            "or_create_background": "অথবা এখন আপনার ব্যাকগ্রাউন্ড তৈরি করুন"
         },
         "modal": {
             "what_do_you_want_to_create": "আপনি কি তৈরি করতে চান?",
@@ -874,12 +875,19 @@
             "see_all": "সমস্ত {type} দেখুন",
             "not_found": "ওহো, কোনো {type} পাওয়া যায়নি :(",
             "check_spelling": "অনুগ্রহ করে আপনার বানান পরীক্ষা করুন বা অন্য কীওয়ার্ড চেষ্টা করুন!"
+        },
+        "error": {
+            "failed_to_fetch_trending_campaigns": "প্রবণতামূলক প্রচারাভিযানগুলি আনতে ব্যর্থ হয়েছে৷",
+            "something_went_wrong": "কিছু ভুল হয়েছে"
         }
     },
     "page_leaderboard": {
         "general": {
             "top_creators": "লিডারবোর্ড",
             "discover": "কে সমর্থন নেতৃস্থানীয় খুঁজে বের করুন! সপ্তাহ, মাস এবং সর্বকালের সেরা নির্মাতাদের দেখুন।"
+        },
+        "error": {
+            "failed_to_fetch_the_leaderboard": "লিডারবোর্ড আনতে ব্যর্থ হয়েছে৷"
         }
     },
     "page_personels": {
@@ -1245,7 +1253,7 @@
             "last_attempted_authentication": "আমাদের শেষ চেষ্টা করা অভিযোগ ব্যর্থ হয়েছে। আপনার পেমেন্ট প্রমাণীকরণ প্রয়োজন.",
             "authenticate_now": "এখনই প্রমাণীকরণ করুন",
             "recurring_payment": "আপনার পুনরাবৃত্ত অর্থপ্রদানের জন্য আমাদের আপনার সুস্পষ্ট নিশ্চিতকরণের প্রয়োজন। অনুগ্রহপূর্বক আপনার ইমেইল চেক করুন",
-            "has_expired": ""
+            "has_expired": "আপনার {plan} পরিকল্পনার মেয়াদ শেষ হয়ে গেছে। অনুগ্রহ করে {date} এর মধ্যে পুনর্নবীকরণ করুন"
         },
         "account": {
             "update_email": "আপডেট ইমেল",
@@ -1288,8 +1296,8 @@
             "email_change_request": "ইমেল পরিবর্তনের অনুরোধ বাতিল করা হয়েছে৷",
             "we_have_sent_password": "আমরা আপনার ইমেলে পাসওয়ার্ড রিসেট নির্দেশাবলী পাঠিয়েছি। নিরাপত্তার কারণে 1 ঘন্টার মধ্যে আপনার পাসওয়ার্ড রিসেট করুন।",
             "go_to_homepage": "হোমপেজে যান",
-            "set_password": "",
-            "for_security_create_password": ""
+            "set_password": "পাসওয়ার্ড সেট করুন",
+            "for_security_create_password": "নিরাপত্তা কারণে, একটি পাসওয়ার্ড তৈরি করুন"
         },
         "notifications": {
             "notifications_settings": "বিজ্ঞপ্তি সেটিংস",
@@ -1638,7 +1646,8 @@
             "login_with_apple": "Apple ব্যবহার করে লগ ইন করুন",
             "signup_with_apple": "Apple ব্যবহার করে নিবন্ধন করুন",
             "or": "বা",
-            "sign_in_with_email": "ইমেইল দিয়ে সাইন ইন করুন"
+            "sign_in_with_email": "ইমেইল দিয়ে সাইন ইন করুন",
+            "continue_with_email": "ইমেল দিয়ে চালিয়ে যান"
         }
     },
     "page_article": {
