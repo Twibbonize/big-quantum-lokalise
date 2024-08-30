@@ -191,7 +191,7 @@
             "safety": "សុវត្ថិភាព",
             "generate_twibbon": "បង្កើត និងចែករំលែក Twibbon",
             "create_campaign": "បង្កើត ចែករំលែក និងកែសម្រួលយុទ្ធនាការ",
-            "header": ""
+            "header": "ផែនទីគេហទំព័រ"
         },
         "relative_time": {
             "seconds": "ពីរបីវិនាទី",
@@ -378,8 +378,8 @@
             "start_campaign": "ចាប់ផ្តើមយុទ្ធនាការ"
         },
         "permission": {
-            "header": "",
-            "subheading": ""
+            "header": "សូមអនុញ្ញាតឱ្យចូលប្រើរូបថតរបស់អ្នក។",
+            "subheading": "ដើម្បីជ្រើសរើសរូបថត សូមផ្តល់ឱ្យ Twibbonize នូវការចូលប្រើបណ្ណាល័យរបស់អ្នកនៅក្នុងការកំណត់ឯកជនភាពនៃទូរស័ព្ទរបស់អ្នក។"
         }
     },
     "page_verification": {
@@ -459,11 +459,11 @@
             "enjoy_premium": "សូមរីករាយជាមួយគម្រោង {plan} របស់អ្នក!",
             "no_watermark_for_all": "គ្មាន Watermark សម្រាប់ទាំងអស់គ្នា",
             "crop_photo": "ច្រឹបរូបថត",
-            "save": "",
-            "get_plan": "",
-            "watermark_removed": "",
-            "thank_you_premium": "",
-            "no_watermark_on": ""
+            "save": "រក្សាទុក",
+            "get_plan": "ទទួលបាន {plan} សម្រាប់ {price} ក្នុងមួយ {time} !",
+            "watermark_removed": "បាន​លុប​ស្នាម​ទឹក​ចេញ",
+            "thank_you_premium": "សូមអរគុណសម្រាប់ការក្លាយជា {plan} !",
+            "no_watermark_on": "មិនមាន Watermark នៅលើយុទ្ធនាការរបស់អ្នកបង្កើតពិសេសណាមួយទេ។"
         },
         "report": {
             "report_campaign": "រាយការណ៍",
@@ -1332,7 +1332,7 @@
             "account_recap_details": "សង្ខេបប្រចាំសប្តាហ៍នៃអ្នកគាំទ្រ និងការទស្សនាសម្រាប់យុទ្ធនាការរបស់អ្នកទាំងអស់។"
         },
         "package": {
-            "free": "",
+            "free": "ផែនការឥតគិតថ្លៃ",
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
             "upgrade": "ធ្វើឱ្យប្រសើរឡើង"
@@ -1811,8 +1811,8 @@
             "discard_changes": "បោះបង់ការផ្លាស់ប្តូរ",
             "leave_page": "ចាកចេញពីទំព័រ",
             "not_yet": "មិនទាន់",
-            "replace_design": "",
-            "replace_design_desc": ""
+            "replace_design": "ជំនួសការរចនាដោយប្រើគំរូ?",
+            "replace_design_desc": "ការរចនារបស់អ្នកមានការផ្លាស់ប្តូរ។ ជំនួសដោយគំរូដែលបានជ្រើសរើស? អ្នកអាចមិនធ្វើវិញប្រសិនបើចាំបាច់។"
         },
         "image": {
             "image_template": "រូបភាពតាម {name} នៅលើ {unsplash}",
@@ -1867,7 +1867,7 @@
             "title": "ហេតុអ្វីបានជាអ្នករាយការណ៍ការបង្ហោះនេះ?",
             "plagiarism": "ការលួចចម្លង",
             "impersonation ": "ការក្លែងបន្លំ ",
-            "piracy ": "ការលួចចម្លង",
+            "piracy": "ការលួចចម្លង",
             "vulgar_language": "ភាសាអសុរោះ",
             "nudity_pornography": "អាក្រាតកាយ & អាសអាភាស",
             "suicidal_self_harm": "ខ្លឹមសារនៃការធ្វើអត្តឃាត និងគ្រោះថ្នាក់ដល់ខ្លួនឯង ",
@@ -2363,11 +2363,19 @@
         }
     },
     "page_create_collection": {
-        "description_collection": "បញ្ចូលការពិពណ៌នាសម្រាប់ការប្រមូល"
+        "description_collection": "បញ្ចូលការពិពណ៌នាសម្រាប់ការប្រមូល",
+        "empty_state": {
+            "no_collections_yet": ""
+        }
     },
     "page_create": {
         "twibbon": {
             "placeholder_ post_to_twibbonize": "សួស្តី ខ្ញុំទាំងអស់គ្នាគាំទ្រយុទ្ធនាការនេះ។ ចូរប្រមូលផ្តុំ និងបង្កើតផលជាក់ស្តែងជាមួយយុទ្ធនាការនេះទាំងអស់គ្នា!"
+        }
+    },
+    "page_create_collections": {
+        "empty_state": {
+            "no_collections_desc": ""
         }
     }
 }

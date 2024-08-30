@@ -191,7 +191,7 @@
             "safety": "Siguria",
             "generate_twibbon": "Gjeneroni dhe ndani Twibbon",
             "create_campaign": "Krijoni, ndani dhe modifikoni fushatën",
-            "header": ""
+            "header": "Harta e faqes"
         },
         "relative_time": {
             "seconds": "disa sekonda",
@@ -378,8 +378,8 @@
             "start_campaign": "Filloni një fushatë"
         },
         "permission": {
-            "header": "",
-            "subheading": ""
+            "header": "Ju lutemi lejoni qasjen në fotot tuaja",
+            "subheading": "Për të zgjedhur një foto, ju lutemi jepni Twibbonize një akses në bibliotekën tuaj në cilësimet e privatësisë së telefonit tuaj"
         }
     },
     "page_verification": {
@@ -459,11 +459,11 @@
             "enjoy_premium": "Shijo planin tënd të {plan} !",
             "no_watermark_for_all": "Nuk ka ujëra për të gjithë",
             "crop_photo": "Pritini foton",
-            "save": "",
-            "get_plan": "",
-            "watermark_removed": "",
-            "thank_you_premium": "",
-            "no_watermark_on": ""
+            "save": "Ruaj",
+            "get_plan": "Merr {plan} për {price} për {time} !",
+            "watermark_removed": "Filigrami u hoq",
+            "thank_you_premium": "Faleminderit që u bëtë një {plan} !",
+            "no_watermark_on": "Asnjë filigran në asnjë fushatë të Krijuesit Premium"
         },
         "report": {
             "report_campaign": "Raportoni",
@@ -1332,7 +1332,7 @@
             "account_recap_details": "Përmbledhje javore e mbështetësve dhe vizitave për të gjitha fushatat tuaja"
         },
         "package": {
-            "free": "",
+            "free": "Plani Falas",
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
             "upgrade": "Përmirëso"
@@ -1811,8 +1811,8 @@
             "discard_changes": "Hidhni Ndryshimet",
             "leave_page": "Largohu nga faqja",
             "not_yet": "Ende jo",
-            "replace_design": "",
-            "replace_design_desc": ""
+            "replace_design": "Të zëvendësohet dizajni me shabllon?",
+            "replace_design_desc": "Dizajni juaj ka ndryshime. Të zëvendësohet me shabllonin e zgjedhur? Ju mund ta zhbëni këtë nëse është e nevojshme."
         },
         "image": {
             "image_template": "Imazhi nga {name} në {unsplash}",
@@ -1867,7 +1867,7 @@
             "title": "Pse po e raportoni këtë postim?",
             "plagiarism": "Plagjiaturë",
             "impersonation ": "Imitimi ",
-            "piracy ": "Pirateria",
+            "piracy": "Pirateria",
             "vulgar_language": "Gjuhë vulgare",
             "nudity_pornography": "Lakuriqësi & Pornografi",
             "suicidal_self_harm": "Përmbajtja vetëvrasëse dhe vetëdëmtimi ",
@@ -2363,11 +2363,19 @@
         }
     },
     "page_create_collection": {
-        "description_collection": "Futni një përshkrim për Koleksionin"
+        "description_collection": "Futni një përshkrim për Koleksionin",
+        "empty_state": {
+            "no_collections_yet": ""
+        }
     },
     "page_create": {
         "twibbon": {
             "placeholder_ post_to_twibbonize": "Përshëndetje, unë jam gati për të mbështetur këtë fushatë. Le të mblidhemi dhe të bëjmë një ndikim të vërtetë me këtë fushatë së bashku!"
+        }
+    },
+    "page_create_collections": {
+        "empty_state": {
+            "no_collections_desc": ""
         }
     }
 }
