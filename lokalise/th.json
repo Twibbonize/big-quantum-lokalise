@@ -191,7 +191,7 @@
             "safety": "ความปลอดภัย",
             "generate_twibbon": "สร้างและแบ่งปัน Twibbon",
             "create_campaign": "สร้าง แบ่งปัน และแก้ไขแคมเปญ",
-            "header": ""
+            "header": "แผนผังเว็บไซต์"
         },
         "relative_time": {
             "seconds": "ไม่กี่วินาที",
@@ -378,8 +378,8 @@
             "start_campaign": "เริ่มแคมเปญ"
         },
         "permission": {
-            "header": "",
-            "subheading": ""
+            "header": "กรุณาอนุญาตให้เข้าถึงรูปภาพของคุณ",
+            "subheading": "หากต้องการเลือกภาพถ่าย โปรดให้ Twibbonize เข้าถึงไลบรารีของคุณในการตั้งค่าความเป็นส่วนตัวของโทรศัพท์ของคุณ"
         }
     },
     "page_verification": {
@@ -459,11 +459,11 @@
             "enjoy_premium": "เพลิดเพลินไปกับแผน {plan} ของคุณ!",
             "no_watermark_for_all": "ไม่มีลายน้ำสำหรับทุกคน",
             "crop_photo": "ครอบตัดภาพ",
-            "save": "",
-            "get_plan": "",
-            "watermark_removed": "",
-            "thank_you_premium": "",
-            "no_watermark_on": ""
+            "save": "บันทึก",
+            "get_plan": "รับ {plan} ในราคา {price} ต่อ {time} !",
+            "watermark_removed": "ลบลายน้ำออกแล้ว",
+            "thank_you_premium": "ขอบคุณที่กลายเป็น {plan} !",
+            "no_watermark_on": "ไม่มีลายน้ำบนแคมเปญของผู้สร้างระดับพรีเมียมใด ๆ"
         },
         "report": {
             "report_campaign": "รายงาน",
@@ -1332,7 +1332,7 @@
             "account_recap_details": "สรุปผู้สนับสนุนและการเข้าชมรายสัปดาห์สำหรับแคมเปญทั้งหมดของคุณ"
         },
         "package": {
-            "free": "",
+            "free": "แผนฟรี",
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
             "upgrade": "อัพเกรด"
@@ -1811,8 +1811,8 @@
             "discard_changes": "ยกเลิกการเปลี่ยนแปลง",
             "leave_page": "ออกจากหน้า",
             "not_yet": "ยัง",
-            "replace_design": "",
-            "replace_design_desc": ""
+            "replace_design": "เปลี่ยนการออกแบบด้วยเทมเพลตหรือไม่?",
+            "replace_design_desc": "การออกแบบของคุณมีการเปลี่ยนแปลง แทนที่ด้วยเทมเพลตที่เลือกหรือไม่ คุณสามารถเลิกทำได้หากจำเป็น"
         },
         "image": {
             "image_template": "รูปภาพโดย {name} บน {unsplash}",
@@ -1867,7 +1867,7 @@
             "title": "เหตุใดคุณจึงรายงานโพสต์นี้",
             "plagiarism": "การลอกเลียนแบบ",
             "impersonation ": "การแอบอ้างบุคคลอื่น ",
-            "piracy ": "การละเมิดลิขสิทธิ์",
+            "piracy": "การละเมิดลิขสิทธิ์",
             "vulgar_language": "ภาษาหยาบคาย",
             "nudity_pornography": "ภาพเปลือยและภาพอนาจาร",
             "suicidal_self_harm": "เนื้อหาเกี่ยวกับการฆ่าตัวตายและการทำร้ายตนเอง ",
@@ -2363,11 +2363,19 @@
         }
     },
     "page_create_collection": {
-        "description_collection": "ระบุคำอธิบายสำหรับคอลเลกชั่น"
+        "description_collection": "ระบุคำอธิบายสำหรับคอลเลกชั่น",
+        "empty_state": {
+            "no_collections_yet": ""
+        }
     },
     "page_create": {
         "twibbon": {
             "placeholder_ post_to_twibbonize": "สวัสดี ฉันพร้อมสนับสนุนแคมเปญนี้ เรามารวมตัวและสร้างผลกระทบที่แท้จริงด้วยแคมเปญนี้กันเถอะ!"
+        }
+    },
+    "page_create_collections": {
+        "empty_state": {
+            "no_collections_desc": ""
         }
     }
 }

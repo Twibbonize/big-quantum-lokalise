@@ -191,7 +191,7 @@
             "safety": "सुरक्षा",
             "generate_twibbon": "ट्विब्बन बनाएं और साझा करें",
             "create_campaign": "अभियान बनाएं, साझा करें और संपादित करें",
-            "header": ""
+            "header": "साइट मानचित्र"
         },
         "relative_time": {
             "seconds": "कुछ ही सेकंड",
@@ -378,8 +378,8 @@
             "start_campaign": "कैंपेन शुरू करें"
         },
         "permission": {
-            "header": "",
-            "subheading": ""
+            "header": "कृपया अपनी तस्वीरों तक पहुंच की अनुमति दें",
+            "subheading": "कोई फ़ोटो चुनने के लिए, कृपया अपने फ़ोन की गोपनीयता सेटिंग में Twibbonize को अपनी लाइब्रेरी तक पहुँच प्रदान करें"
         }
     },
     "page_verification": {
@@ -459,11 +459,11 @@
             "enjoy_premium": "अपनी {plan} का आनंद लें!",
             "no_watermark_for_all": "सभी के लिए कोई वॉटरमार्क नहीं",
             "crop_photo": "फसल तस्वीर",
-            "save": "",
-            "get_plan": "",
-            "watermark_removed": "",
-            "thank_you_premium": "",
-            "no_watermark_on": ""
+            "save": "बचाना",
+            "get_plan": "{plan} {price} प्रति {time} पर प्राप्त करें!",
+            "watermark_removed": "वॉटरमार्क हटाया गया",
+            "thank_you_premium": "{plan} बनने के लिए धन्यवाद!",
+            "no_watermark_on": "किसी भी प्रीमियम क्रिएटर के अभियान पर कोई वॉटरमार्क नहीं"
         },
         "report": {
             "report_campaign": "प्रतिवेदन",
@@ -1332,7 +1332,7 @@
             "account_recap_details": "आपके सभी कैंपेनों के लिए समर्थकों और यात्राओं का साप्ताहिक सारांश"
         },
         "package": {
-            "free": "",
+            "free": "निःशुल्क योजना",
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
             "upgrade": "उन्नत करना"
@@ -1811,8 +1811,8 @@
             "discard_changes": "परिवर्तनों को निरस्त करें",
             "leave_page": "पेज छोड़ें",
             "not_yet": "अभी तक नहीं",
-            "replace_design": "",
-            "replace_design_desc": ""
+            "replace_design": "डिज़ाइन को टेम्पलेट से बदलें?",
+            "replace_design_desc": "आपके डिज़ाइन में बदलाव हुए हैं। क्या आप इसे चुने गए टेम्पलेट से बदलना चाहते हैं? ज़रूरत पड़ने पर आप इसे पूर्ववत कर सकते हैं।"
         },
         "image": {
             "image_template": "{unsplash} पर {name} द्वारा ली गई छवि",
@@ -1867,7 +1867,7 @@
             "title": "आप इस पोस्ट के बारे में क्यों बता रहे हैं?",
             "plagiarism": "साहित्यिक चोरी",
             "impersonation ": "वेष बदलने का कार्य ",
-            "piracy ": "समुद्री डकैती",
+            "piracy": "समुद्री डकैती",
             "vulgar_language": "अभद्र भाषा",
             "nudity_pornography": "नग्नता और अश्लीलता",
             "suicidal_self_harm": "आत्महत्या और खुद को नुकसान पहुंचाने वाली सामग्री ",
@@ -2363,11 +2363,19 @@
         }
     },
     "page_create_collection": {
-        "description_collection": "संग्रह के लिए विवरण दर्ज करें"
+        "description_collection": "संग्रह के लिए विवरण दर्ज करें",
+        "empty_state": {
+            "no_collections_yet": ""
+        }
     },
     "page_create": {
         "twibbon": {
             "placeholder_ post_to_twibbonize": "नमस्ते, मैं इस अभियान का समर्थन करने के लिए पूरी तरह से तैयार हूँ। आइए हम सब मिलकर इस अभियान के ज़रिए वास्तविक प्रभाव डालें!"
+        }
+    },
+    "page_create_collections": {
+        "empty_state": {
+            "no_collections_desc": ""
         }
     }
 }

@@ -191,7 +191,7 @@
             "safety": "ဘေးကင်းရေး",
             "generate_twibbon": "Twibbon ကို ဖန်တီးပြီး မျှဝေပါ။",
             "create_campaign": "ကမ်ပိန်းကို ဖန်တီး၊ မျှဝေပြီး တည်းဖြတ်ပါ။",
-            "header": ""
+            "header": "ဆိုက်မြေပုံ"
         },
         "relative_time": {
             "seconds": "စက္ကန့်အနည်းငယ်",
@@ -378,8 +378,8 @@
             "start_campaign": "ကမ်ပိန်းတစ်ခုစတင်ပါ။"
         },
         "permission": {
-            "header": "",
-            "subheading": ""
+            "header": "သင့်ဓာတ်ပုံများကို ဝင်ရောက်ကြည့်ရှုခွင့်ပေးပါ။",
+            "subheading": "ဓာတ်ပုံတစ်ပုံကို ရွေးချယ်ရန်၊ သင့်ဖုန်း၏ ကိုယ်ရေးကိုယ်တာဆက်တင်များတွင် Twibbonize ကို သင့်စာကြည့်တိုက်သို့ ဝင်ရောက်ခွင့်ပေးပါ။"
         }
     },
     "page_verification": {
@@ -459,11 +459,11 @@
             "enjoy_premium": "သင်၏ {plan} အစီအစဉ်ကို ခံစားလိုက်ပါ။",
             "no_watermark_for_all": "အားလုံးအတွက် Watermark မရှိပါ။",
             "crop_photo": "ဓာတ်ပုံဖြတ်ပါ။",
-            "save": "",
-            "get_plan": "",
-            "watermark_removed": "",
-            "thank_you_premium": "",
-            "no_watermark_on": ""
+            "save": "သိမ်းဆည်းပါ။",
+            "get_plan": "{time} တစ်ခုလျှင် {price} အတွက် {plan} ရယူပါ။",
+            "watermark_removed": "ရေစာအမှတ်အသားကို ဖယ်ရှားခဲ့သည်။",
+            "thank_you_premium": "{plan} ဖြစ်လာသည့်အတွက် ကျေးဇူးတင်ပါသည်။",
+            "no_watermark_on": "Premium Creator ၏ လှုံ့ဆော်မှုတွင် Watermark မရှိပါ။"
         },
         "report": {
             "report_campaign": "သတင်းပို့တယ်။",
@@ -1332,7 +1332,7 @@
             "account_recap_details": "သင်၏ ကမ်ပိန်းများအားလုံးအတွက် အပတ်စဉ် ထောက်ခံသူများနှင့် လည်ပတ်မှုများ"
         },
         "package": {
-            "free": "",
+            "free": "အခမဲ့အစီအစဉ်",
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
             "upgrade": "အဆင့်မြှင့်ပါ။"
@@ -1811,8 +1811,8 @@
             "discard_changes": "အပြောင်းအလဲများကို ဖယ်ပစ်ပါ။",
             "leave_page": "Page မှ ထွက်ခွာပါ။",
             "not_yet": "မရသေး",
-            "replace_design": "",
-            "replace_design_desc": ""
+            "replace_design": "ဒီဇိုင်းကို Template ဖြင့် အစားထိုးမလား။",
+            "replace_design_desc": "မင်းရဲ့ ဒီဇိုင်းက အပြောင်းအလဲရှိတယ်။ ရွေးချယ်ထားသော နမူနာပုံစံဖြင့် အစားထိုးမလား။ လိုအပ်ပါက ၎င်းကို ပြန်ဖျက်နိုင်ပါသည်။"
         },
         "image": {
             "image_template": "{unsplash} တွင် {name} ဖြင့် ပုံ",
@@ -1867,7 +1867,7 @@
             "title": "ဒီပို့စ်ကို ဘာကြောင့် သတင်းပို့တာလဲ။",
             "plagiarism": "ခိုးယူမှု",
             "impersonation ": "အယောင်ဆောင် ",
-            "piracy ": "ခိုးကူး",
+            "piracy": "ခိုးကူး",
             "vulgar_language": "အောက်တန်းကျသော ဘာသာစကား",
             "nudity_pornography": "အဖော်အချွတ်နှင့် ညစ်ညမ်းပုံ",
             "suicidal_self_harm": "သတ်သေမှုနှင့် မိမိကိုယ်ကို ထိခိုက်မှုဆိုင်ရာ အကြောင်းအရာ ",
@@ -2363,11 +2363,19 @@
         }
     },
     "page_create_collection": {
-        "description_collection": "စုစည်းမှုအတွက် ဖော်ပြချက်တစ်ခု ထည့်ပါ။"
+        "description_collection": "စုစည်းမှုအတွက် ဖော်ပြချက်တစ်ခု ထည့်ပါ။",
+        "empty_state": {
+            "no_collections_yet": ""
+        }
     },
     "page_create": {
         "twibbon": {
             "placeholder_ post_to_twibbonize": "မင်္ဂလာပါ၊ ဒီကမ်ပိန်းကို ထောက်ခံဖို့ အားလုံးပါဝင်ပါတယ်။ စုစည်းပြီး ဒီကမ်ပိန်းကို အတူတူ တွဲလုပ်လိုက်ကြရအောင်။"
+        }
+    },
+    "page_create_collections": {
+        "empty_state": {
+            "no_collections_desc": ""
         }
     }
 }
