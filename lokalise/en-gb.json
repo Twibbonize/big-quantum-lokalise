@@ -110,7 +110,7 @@
             "post": "Post",
             "replies": "{replies} Replies",
             "comments": "{comments} Comments",
-            "no_comment_yet": "No comments yet",
+            "no_comment_yet": "No Comments Yet",
             "start_conversation": "Start a conversation"
         },
         "post": {
@@ -191,7 +191,7 @@
             "safety": "Safety",
             "generate_twibbon": "Generate & Share Twibbon",
             "create_campaign": "Create, Share, and Edit Campaign",
-            "header": ""
+            "header": "Site Map"
         },
         "relative_time": {
             "seconds": "a few seconds",
@@ -378,8 +378,8 @@
             "start_campaign": "Start a Campaign"
         },
         "permission": {
-            "header": "",
-            "subheading": ""
+            "header": "Please allow access to your photos",
+            "subheading": "To choose a photo, please give Twibbonize an access to your library in your phone’s privacy settings"
         }
     },
     "page_verification": {
@@ -460,10 +460,10 @@
             "no_watermark_for_all": "No Watermark for All",
             "crop_photo": "Crop Photo",
             "save": "Save",
-            "get_plan": "",
-            "watermark_removed": "",
-            "thank_you_premium": "",
-            "no_watermark_on": ""
+            "get_plan": "Get {plan} for {price} per {time}!",
+            "watermark_removed": "Watermark Removed",
+            "thank_you_premium": "Thank you for becoming a {plan}!",
+            "no_watermark_on": "No Watermark on any Premium Creator’s campaign"
         },
         "report": {
             "report_campaign": "Report",
@@ -701,7 +701,7 @@
             "backgroundtype": "JPEG, PNG or WEBP",
             "upload_design": "Upload your design here",
             "total_max_files_exceeded": "Total uploaded files exceeded the maximum {n} files",
-            "replace_image": ""
+            "replace_image": "Replace Image"
         },
         "frame_editor": {
             "or_create": "or create your frame now",
@@ -776,7 +776,7 @@
             "frames": "Frames",
             "campaigns": "Campaigns",
             "analytics": "Analytics",
-            "backgrounds": ""
+            "backgrounds": "Backgrounds"
         },
         "blank_design": {
             "suggested": "Suggested",
@@ -888,8 +888,8 @@
             "check_spelling": "Please check your spelling or try other keywords!"
         },
         "error": {
-            "failed_to_fetch_trending_campaigns": "",
-            "something_went_wrong": ""
+            "failed_to_fetch_trending_campaigns": "Failed to fetch Trending Campaigns",
+            "something_went_wrong": "Something went wrong"
         }
     },
     "page_leaderboard": {
@@ -898,7 +898,7 @@
             "discover": "Find out who's leading in support! See the top creators of the week, month, and all-time"
         },
         "error": {
-            "failed_to_fetch_the_leaderboard": ""
+            "failed_to_fetch_the_leaderboard": "Failed to fetch the Leaderboard"
         }
     },
     "page_personels": {
@@ -1307,8 +1307,8 @@
             "email_change_request": "Email Change Request Cancelled",
             "we_have_sent_password": "We have sent password reset instructions to your email. Please reset your password within 1 hour for security reasons.",
             "go_to_homepage": "Go to Homepage",
-            "set_password": "",
-            "for_security_create_password": ""
+            "set_password": "Set Password",
+            "for_security_create_password": "For security reason, please create a password"
         },
         "notifications": {
             "notifications_settings": "Notifications Settings",
@@ -1658,7 +1658,7 @@
             "signup_with_apple": "Sign Up with Apple",
             "or": "or",
             "sign_in_with_email": "Sign in with email",
-            "continue_with_email": ""
+            "continue_with_email": "Continue with email"
         }
     },
     "page_article": {
@@ -1811,8 +1811,8 @@
             "discard_changes": "Discard Changes",
             "leave_page": "Leave Page",
             "not_yet": "Not Yet",
-            "replace_design": "",
-            "replace_design_desc": ""
+            "replace_design": "Replace Design with Template?",
+            "replace_design_desc": "Your design has changes. Replace with the selected template? You can undo this if needed."
         },
         "image": {
             "image_template": "Image by {name} on {unsplash}",
@@ -1867,7 +1867,7 @@
             "title": "Why are you reporting this post?",
             "plagiarism": "Plagiarism",
             "impersonation ": "Impersonation ",
-            "piracy ": "Piracy",
+            "piracy": "Piracy",
             "vulgar_language": "Vulgar Language",
             "nudity_pornography": "Nudity & Pornography",
             "suicidal_self_harm": "Suicidal & Self-Harm Content ",
@@ -2363,11 +2363,19 @@
         }
     },
     "page_create_collection": {
-        "description_collection": "Enter a description for the Collection"
+        "description_collection": "Enter a description for the Collection",
+        "empty_state": {
+            "no_collections_yet": ""
+        }
     },
     "page_create": {
         "twibbon": {
             "placeholder_ post_to_twibbonize": "Hi, I am all in to support this campaign. Let's gather and make a real impact with this campaign together!"
+        }
+    },
+    "page_create_collections": {
+        "empty_state": {
+            "no_collections_desc": ""
         }
     }
 }

@@ -191,7 +191,7 @@
             "safety": "ຄວາມປອດໄພ",
             "generate_twibbon": "ສ້າງ ແລະແບ່ງປັນ Twibbon",
             "create_campaign": "ສ້າງ, ແບ່ງປັນ, ແລະແກ້ໄຂແຄມເປນ",
-            "header": ""
+            "header": "ແຜນຜັງເວັບໄຊທ໌"
         },
         "relative_time": {
             "seconds": "ສອງສາມວິນາທີ",
@@ -378,8 +378,8 @@
             "start_campaign": "ເລີ່ມແຄມເປນ"
         },
         "permission": {
-            "header": "",
-            "subheading": ""
+            "header": "ກະລຸນາອະນຸຍາດໃຫ້ເຂົ້າເຖິງຮູບພາບຂອງທ່ານ",
+            "subheading": "ເພື່ອເລືອກຮູບ, ກະລຸນາໃຫ້ Twibbonize ເຂົ້າເຖິງຫ້ອງສະໝຸດຂອງທ່ານໃນການຕັ້ງຄ່າຄວາມເປັນສ່ວນຕົວຂອງໂທລະສັບຂອງທ່ານ"
         }
     },
     "page_verification": {
@@ -459,11 +459,11 @@
             "enjoy_premium": "ເພີດເພີນໄປກັບແຜນ {plan} ຂອງທ່ານ!",
             "no_watermark_for_all": "ບໍ່ມີ Watermark ສໍາລັບທຸກຄົນ",
             "crop_photo": "ຕັດຮູບ",
-            "save": "",
-            "get_plan": "",
-            "watermark_removed": "",
-            "thank_you_premium": "",
-            "no_watermark_on": ""
+            "save": "ບັນທຶກ",
+            "get_plan": "ຮັບ {plan} ສໍາລັບ {price} ຕໍ່ {time} !",
+            "watermark_removed": "ລຶບລາຍນ້ຳອອກແລ້ວ",
+            "thank_you_premium": "ຂໍ​ຂອບ​ໃຈ​ທ່ານ​ສໍາ​ລັບ​ການ​ເປັນ {plan} !",
+            "no_watermark_on": "ບໍ່ມີ Watermark ໃນແຄມເປນຂອງຜູ້ສ້າງ Premium ໃດ"
         },
         "report": {
             "report_campaign": "ລາຍງານ",
@@ -1332,7 +1332,7 @@
             "account_recap_details": "ສະຫຼຸບປະຈໍາອາທິດຂອງຜູ້ສະຫນັບສະຫນູນແລະການຢ້ຽມຢາມສໍາລັບທຸກໆແຄມເປນຂອງທ່ານ"
         },
         "package": {
-            "free": "",
+            "free": "ແຜນການຟຣີ",
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
             "upgrade": "ຍົກລະດັບ"
@@ -1811,8 +1811,8 @@
             "discard_changes": "ຍົກເລີກການປ່ຽນແປງ",
             "leave_page": "ອອກຈາກໜ້າ",
             "not_yet": "ຍັງບໍ່ທັນ",
-            "replace_design": "",
-            "replace_design_desc": ""
+            "replace_design": "ແທນທີ່ການອອກແບບດ້ວຍແມ່ແບບບໍ?",
+            "replace_design_desc": "ການອອກແບບຂອງທ່ານມີການປ່ຽນແປງ. ແທນທີ່ດ້ວຍແມ່ແບບທີ່ເລືອກບໍ? ທ່ານສາມາດຍົກເລີກສິ່ງນີ້ໄດ້ຖ້າຈໍາເປັນ."
         },
         "image": {
             "image_template": "ຮູບພາບໂດຍ {name} ໃນ {unsplash}",
@@ -1867,7 +1867,7 @@
             "title": "ເປັນຫຍັງເຈົ້າຈຶ່ງລາຍງານໂພສນີ້?",
             "plagiarism": "ການຫຼອກລວງ",
             "impersonation ": "ການປອມຕົວ ",
-            "piracy ": "ການລະເມີດລິຂະສິດ",
+            "piracy": "ການລະເມີດລິຂະສິດ",
             "vulgar_language": "ພາສາຫຍາບຄາຍ",
             "nudity_pornography": "ການໂປ້ເປືອຍ & ຮູບລາມົກ",
             "suicidal_self_harm": "ເນື້ອຫາຂ້າຕົວຕາຍ ແລະທຳຮ້າຍຕົນເອງ ",
@@ -2363,11 +2363,19 @@
         }
     },
     "page_create_collection": {
-        "description_collection": "ໃສ່ຄຳອະທິບາຍສຳລັບຄໍເລັກຊັນ"
+        "description_collection": "ໃສ່ຄຳອະທິບາຍສຳລັບຄໍເລັກຊັນ",
+        "empty_state": {
+            "no_collections_yet": ""
+        }
     },
     "page_create": {
         "twibbon": {
             "placeholder_ post_to_twibbonize": "ສະບາຍດີ, ຂ້າພະເຈົ້າທັງໝົດເພື່ອສະໜັບສະໜູນແຄມເປນນີ້. ມາຮວບຮວມແລະສ້າງຜົນກະທົບທີ່ແທ້ຈິງກັບແຄມເປນນີ້ຮ່ວມກັນ!"
+        }
+    },
+    "page_create_collections": {
+        "empty_state": {
+            "no_collections_desc": ""
         }
     }
 }

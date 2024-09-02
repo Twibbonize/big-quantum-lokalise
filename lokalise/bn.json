@@ -191,7 +191,7 @@
             "safety": "নিরাপত্তা",
             "generate_twibbon": "Twibbon জেনারেট করুন এবং শেয়ার করুন",
             "create_campaign": "প্রচারাভিযান তৈরি করুন, ভাগ করুন এবং সম্পাদনা করুন৷",
-            "header": ""
+            "header": "সাইট ম্যাপ"
         },
         "relative_time": {
             "seconds": "কয়েক সেকেন্ড",
@@ -378,8 +378,8 @@
             "start_campaign": "একটি ক্যাম্পেইন শুরু করুন"
         },
         "permission": {
-            "header": "",
-            "subheading": ""
+            "header": "আপনার ফটো অ্যাক্সেস করার অনুমতি দিন",
+            "subheading": "একটি ফটো চয়ন করতে, অনুগ্রহ করে আপনার ফোনের গোপনীয়তা সেটিংসে আপনার লাইব্রেরিতে Twibbonize-কে একটি অ্যাক্সেস দিন"
         }
     },
     "page_verification": {
@@ -459,11 +459,11 @@
             "enjoy_premium": "আপনার {plan} পরিকল্পনা উপভোগ করুন!",
             "no_watermark_for_all": "সকলের জন্য জলছাপ নেই",
             "crop_photo": "ছবি ক্রপ করুন",
-            "save": "",
-            "get_plan": "",
-            "watermark_removed": "",
-            "thank_you_premium": "",
-            "no_watermark_on": ""
+            "save": "সংরক্ষণ করুন",
+            "get_plan": "প্রতি {time} {price} দিয়ে {plan} পান!",
+            "watermark_removed": "ওয়াটারমার্ক সরানো হয়েছে",
+            "thank_you_premium": "একটি {plan} হওয়ার জন্য আপনাকে ধন্যবাদ!",
+            "no_watermark_on": "কোনো প্রিমিয়াম ক্রিয়েটরের ক্যাম্পেইনে কোনো ওয়াটারমার্ক নেই"
         },
         "report": {
             "report_campaign": "রিপোর্ট",
@@ -1332,7 +1332,7 @@
             "account_recap_details": "আপনার সমস্ত ক্যাম্পেইনের জন্য সমর্থকদের সাপ্তাহিক রিক্যাপ এবং ভিজিট"
         },
         "package": {
-            "free": "",
+            "free": "বিনামূল্যে পরিকল্পনা",
             "premium_creator": "Premium Creator",
             "premium_supporter": "Premium Supporter",
             "upgrade": "আপগ্রেড করুন"
@@ -1811,8 +1811,8 @@
             "discard_changes": "পরিবর্তন বাতিল",
             "leave_page": "পাতা ছেড়ে দিন",
             "not_yet": "এখনো না",
-            "replace_design": "",
-            "replace_design_desc": ""
+            "replace_design": "টেমপ্লেট দিয়ে ডিজাইন প্রতিস্থাপন করবেন?",
+            "replace_design_desc": "আপনার নকশা পরিবর্তন আছে. নির্বাচিত টেমপ্লেট দিয়ে প্রতিস্থাপন করবেন? প্রয়োজনে আপনি এটি পূর্বাবস্থায় ফেরাতে পারেন।"
         },
         "image": {
             "image_template": "{unsplash} -এ {name} এর ছবি",
@@ -1867,7 +1867,7 @@
             "title": "কেন আপনি এই পোস্টে রিপোর্ট করছেন?",
             "plagiarism": "চুরি",
             "impersonation ": "ছদ্মবেশ ",
-            "piracy ": "জলদস্যুতা",
+            "piracy": "জলদস্যুতা",
             "vulgar_language": "অশ্লীল ভাষা",
             "nudity_pornography": "নগ্নতা এবং পর্নোগ্রাফি",
             "suicidal_self_harm": "আত্মঘাতী এবং আত্ম-ক্ষতিমূলক সামগ্রী ",
@@ -2363,11 +2363,19 @@
         }
     },
     "page_create_collection": {
-        "description_collection": "সংগ্রহের জন্য একটি বিবরণ লিখুন"
+        "description_collection": "সংগ্রহের জন্য একটি বিবরণ লিখুন",
+        "empty_state": {
+            "no_collections_yet": ""
+        }
     },
     "page_create": {
         "twibbon": {
             "placeholder_ post_to_twibbonize": "হাই, আমি এই প্রচারাভিযান সমর্থন করতে সব আছে. আসুন একত্রিত হই এবং একসাথে এই প্রচারণার সাথে একটি বাস্তব প্রভাব ফেলি!"
+        }
+    },
+    "page_create_collections": {
+        "empty_state": {
+            "no_collections_desc": ""
         }
     }
 }
