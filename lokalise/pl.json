@@ -549,7 +549,7 @@
             "see_more_analytics": "Zobacz więcej Analityki",
             "realtime_estimates": "Szacunki w czasie rzeczywistym z ostatnich 30 dni",
             "view_analytics": "Zobacz Analitykę",
-            "created_on": ""
+            "created_on": "utworzono {date}"
         },
         "pricing": {
             "no_thankyou": "Nie, dziękuję"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Nie znaleziono kolekcji",
-            "try_another": "Spróbuj filtrować z innym słowem kluczowym"
+            "try_another": "Spróbuj filtrować z innym słowem kluczowym",
+            "no_campaigns_own_desc": "Zacznij dodawać kampanie do swoich kolekcji",
+            "no_campaigns_other_desc": "Ten użytkownik nie dodał żadnych kampanii do kolekcji"
         },
         "placeholder": {
             "search_collections": "Przeszukiwanie kolekcji"
@@ -890,7 +892,9 @@
             "sort_by": "Sortuj według:",
             "see_all": "Zobacz wszystkie {type}",
             "not_found": "Ups, nie znaleziono {type}:(",
-            "check_spelling": "Sprawdź pisownię lub wypróbuj inne słowa kluczowe!"
+            "check_spelling": "Sprawdź pisownię lub wypróbuj inne słowa kluczowe!",
+            "most_suitable": "Najbardziej odpowiedni",
+            "latest": "Najnowszy"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Nie udało się pobrać kampanii trendów",
@@ -2338,7 +2342,8 @@
             "11010": "Nie udało się przeanalizować daty i godziny",
             "11011": "Redis - błąd krytyczny!",
             "11012": "Podczas analizy JSON wystąpił błąd krytyczny!",
-            "11013": "Błąd marszałkowania JSON!"
+            "11013": "Błąd marszałkowania JSON!",
+            "visibility_public": "Widoczność kampanii musi być publiczna"
         },
         "form": {
             "equal_to": "$ {path} musi być takie samo jak $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Zrezygnuj z subskrypcji",
             "unsubscribe_success": "Wypisanie się powiodło się",
             "global": "Światowy"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Cześć {name} , Twoje konto zostało zdegradowane do wersji Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

@@ -549,7 +549,7 @@
             "see_more_analytics": "Ver mais Analíticas",
             "realtime_estimates": "Estimativas em tempo real dos últimos 30 dias",
             "view_analytics": "Ver las Analíticas",
-            "created_on": ""
+            "created_on": "criado em {date}"
         },
         "pricing": {
             "no_thankyou": "Não, obrigado"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Coleção não encontrada",
-            "try_another": "Tente filtrar com outra palavra-chave"
+            "try_another": "Tente filtrar com outra palavra-chave",
+            "no_campaigns_own_desc": "Comece a adicionar campanhas às suas coleções",
+            "no_campaigns_other_desc": "Este usuário não adicionou nenhuma campanha à coleção"
         },
         "placeholder": {
             "search_collections": "Pesquise suas coleções"
@@ -890,7 +892,9 @@
             "sort_by": "Ordenar por:",
             "see_all": "Ver tudo {type}",
             "not_found": "Oops, não foi encontrado nenhum {type}:(",
-            "check_spelling": "Verifique sua ortografia ou tente outras palavras-chave!"
+            "check_spelling": "Verifique sua ortografia ou tente outras palavras-chave!",
+            "most_suitable": "Mais adequado",
+            "latest": "Mais recente"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Falha ao buscar campanhas de tendências",
@@ -2338,7 +2342,8 @@
             "11010": "Falha na análise de data e hora",
             "11011": "Erro fatal do Redis!",
             "11012": "Erro fatal ao analisar JSON!",
-            "11013": "Erro de marshal JSON!"
+            "11013": "Erro de marshal JSON!",
+            "visibility_public": "A visibilidade da campanha deve ser pública"
         },
         "form": {
             "equal_to": "$ {path} deve ser o mesmo que $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Cancelar inscrição",
             "unsubscribe_success": "Cancelamento de inscrição bem-sucedido",
             "global": "Global"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Olá {name} , sua conta foi rebaixada para Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

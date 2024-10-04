@@ -549,7 +549,7 @@
             "see_more_analytics": "查看更多分析",
             "realtime_estimates": "过去 30 天的实时估算",
             "view_analytics": "查看分析",
-            "created_on": ""
+            "created_on": "创建于{date}"
         },
         "pricing": {
             "no_thankyou": "不，谢谢"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "未找到收藏集",
-            "try_another": "尝试用其他关键字过滤"
+            "try_another": "尝试用其他关键字过滤",
+            "no_campaigns_own_desc": "开始将活动添加到您的收藏夹",
+            "no_campaigns_other_desc": "该用户尚未添加任何活动到收藏夹"
         },
         "placeholder": {
             "search_collections": "搜索您的收藏"
@@ -890,7 +892,9 @@
             "sort_by": "排序方式：",
             "see_all": "查看所有{type}",
             "not_found": "哎呀，未找到{type} :(",
-            "check_spelling": "请检查您的拼写或尝试其他关键字！"
+            "check_spelling": "请检查您的拼写或尝试其他关键字！",
+            "most_suitable": "最适合",
+            "latest": "最新的"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "无法获取热门广告系列",
@@ -2338,7 +2342,8 @@
             "11010": "解析日期时间失败",
             "11011": "Redis 致命错误！",
             "11012": "解析 JSON 致命错误！",
-            "11013": "JSON 编组错误！"
+            "11013": "JSON 编组错误！",
+            "visibility_public": "活动可见性必须公开"
         },
         "form": {
             "equal_to": "$ {path}必须与 $ {reference}相同",
@@ -2407,6 +2412,17 @@
             "title": "取消订阅",
             "unsubscribe_success": "取消订阅成功",
             "global": "全球的"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "你好{name} ，你的帐户已降级为 Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

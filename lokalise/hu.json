@@ -549,7 +549,7 @@
             "see_more_analytics": "További elemzések megtekintése",
             "realtime_estimates": "Valós idejű becslések az elmúlt 30 napból",
             "view_analytics": "Lásd az Analitikát",
-            "created_on": ""
+            "created_on": "létrehozva: {date}"
         },
         "pricing": {
             "no_thankyou": "Nem, köszönöm"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Gyűjtemény nem található",
-            "try_another": "Próbálja meg a szűrőt más kulcsszóval"
+            "try_another": "Próbálja meg a szűrőt más kulcsszóval",
+            "no_campaigns_own_desc": "Kezdjen el kampányokat hozzáadni gyűjteményeihez",
+            "no_campaigns_other_desc": "Ez a felhasználó egyetlen kampányt sem adott hozzá a gyűjteményhez"
         },
         "placeholder": {
             "search_collections": "Keresés a gyűjteményekben"
@@ -890,7 +892,9 @@
             "sort_by": "Rendezés:",
             "see_all": "Mindent látni {type}",
             "not_found": "Hoppá, nem találtunk {type}:(",
-            "check_spelling": "Kérjük, ellenőrizze a helyesírást, vagy próbálkozzon más kulcsszavakkal!"
+            "check_spelling": "Kérjük, ellenőrizze a helyesírást, vagy próbálkozzon más kulcsszavakkal!",
+            "most_suitable": "Legalkalmasabb",
+            "latest": "Legújabb"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Nem sikerült lekérni a Trending kampányokat",
@@ -2338,7 +2342,8 @@
             "11010": "A dátum és idő elemzése sikertelen",
             "11011": "Redis végzetes hiba!",
             "11012": "Végzetes JSON elemzési hiba!",
-            "11013": "JSON marshal hiba!"
+            "11013": "JSON marshal hiba!",
+            "visibility_public": "A kampány láthatóságának nyilvánosnak kell lennie"
         },
         "form": {
             "equal_to": "$ {path} meg kell egyeznie a $ {reference} értékkel",
@@ -2407,6 +2412,17 @@
             "title": "Leiratkozás",
             "unsubscribe_success": "Sikeres leiratkozás",
             "global": "Globális"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Szia {name} ! Fiókja visszaminősült Twibbonize Free-re"
+                    }
+                }
+            }
         }
     }
 }

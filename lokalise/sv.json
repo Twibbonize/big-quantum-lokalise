@@ -549,7 +549,7 @@
             "see_more_analytics": "Se fler analyser",
             "realtime_estimates": "Realtidsuppskattningar från de senaste 30 dagarna",
             "view_analytics": "Visa Analyser",
-            "created_on": ""
+            "created_on": "skapad den {date}"
         },
         "pricing": {
             "no_thankyou": "Nej, tack så mycket"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Kollektionen hittades inte",
-            "try_another": "Försök filtrera med andra sökord"
+            "try_another": "Försök filtrera med andra sökord",
+            "no_campaigns_own_desc": "Börja lägga till kampanjer i dina samlingar",
+            "no_campaigns_other_desc": "Den här användaren har inte lagt till några kampanjer i samlingen"
         },
         "placeholder": {
             "search_collections": "Sök i dina samlingar"
@@ -890,7 +892,9 @@
             "sort_by": "Sortera efter:",
             "see_all": "Se alla {type}",
             "not_found": "Oops, ingen {type} hittades :(",
-            "check_spelling": "Kontrollera din stavning eller prova andra sökord!"
+            "check_spelling": "Kontrollera din stavning eller prova andra sökord!",
+            "most_suitable": "Mest lämplig",
+            "latest": "Senast"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Misslyckades med att hämta Trending Campaigns",
@@ -2338,7 +2342,8 @@
             "11010": "Det gick inte att analysera datum och tid",
             "11011": "Redis fatalt fel!",
             "11012": "Analysera JSON allvarligt fel!",
-            "11013": "JSON-marskalkfel!"
+            "11013": "JSON-marskalkfel!",
+            "visibility_public": "Kampanjens synlighet måste vara offentlig"
         },
         "form": {
             "equal_to": "$ {path} måste vara samma som $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Avsluta prenumeration",
             "unsubscribe_success": "Avsluta prenumerationen",
             "global": "Global"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Hej {name} , ditt konto har nedgraderats till Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

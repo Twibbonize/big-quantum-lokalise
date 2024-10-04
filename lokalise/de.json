@@ -549,7 +549,7 @@
             "see_more_analytics": "Siehe mehr Analytics",
             "realtime_estimates": "Echtzeitschätzungen der letzten 30 Tage",
             "view_analytics": "Analytik sehen",
-            "created_on": ""
+            "created_on": "erstellt am {date}"
         },
         "pricing": {
             "no_thankyou": "Nein, danke"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Sammlung nicht gefunden",
-            "try_another": "Versuchen Sie, mit einem anderen Schlüsselwort zu filtern"
+            "try_another": "Versuchen Sie, mit einem anderen Schlüsselwort zu filtern",
+            "no_campaigns_own_desc": "Fügen Sie Kampagnen zu Ihren Sammlungen hinzu",
+            "no_campaigns_other_desc": "Dieser Benutzer hat keine Kampagnen zur Sammlung hinzugefügt"
         },
         "placeholder": {
             "search_collections": "Suche in Ihren Sammlungen"
@@ -890,7 +892,9 @@
             "sort_by": "Sortieren nach:",
             "see_all": "Alle sehen {type}",
             "not_found": "Ups, es wurde kein {type} gefunden :(",
-            "check_spelling": "Bitte überprüfen Sie Ihre Rechtschreibung oder versuchen Sie es mit anderen Stichworten!"
+            "check_spelling": "Bitte überprüfen Sie Ihre Rechtschreibung oder versuchen Sie es mit anderen Stichworten!",
+            "most_suitable": "Am besten geeignet",
+            "latest": "Letzte"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Trending Campaigns konnten nicht abgerufen werden",
@@ -2338,7 +2342,8 @@
             "11010": "Datum\/Uhrzeit-Analyse fehlgeschlagen",
             "11011": "Schwerwiegender Redis-Fehler!",
             "11012": "Schwerwiegender JSON-Parsing-Fehler!",
-            "11013": "JSON-Marshal-Fehler!"
+            "11013": "JSON-Marshal-Fehler!",
+            "visibility_public": "Die Kampagnensichtbarkeit muss öffentlich sein"
         },
         "form": {
             "equal_to": "$ {path} muss mit $ {reference} identisch sein.",
@@ -2407,6 +2412,17 @@
             "title": "Abbestellen",
             "unsubscribe_success": "Abmeldung erfolgreich",
             "global": "Allgemein"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Hallo {name} , Ihr Konto wurde auf Twibbonize Free herabgestuft."
+                    }
+                }
+            }
         }
     }
 }

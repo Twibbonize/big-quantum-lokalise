@@ -549,7 +549,7 @@
             "see_more_analytics": "Se flere analyser",
             "realtime_estimates": "Sanntidsanslag fra de siste 30 dagene",
             "view_analytics": "Vis Analyser",
-            "created_on": ""
+            "created_on": "opprettet {date}"
         },
         "pricing": {
             "no_thankyou": "Nei, takk."
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Samling ikke funnet",
-            "try_another": "Prøv å filtrere med andre søkeord"
+            "try_another": "Prøv å filtrere med andre søkeord",
+            "no_campaigns_own_desc": "Begynn å legge til kampanjer i samlingene dine",
+            "no_campaigns_other_desc": "Denne brukeren har ikke lagt til noen kampanjer i samlingen"
         },
         "placeholder": {
             "search_collections": "Søk i samlingene dine"
@@ -890,7 +892,9 @@
             "sort_by": "Sorter etter:",
             "see_all": "Se alle {type}",
             "not_found": "Oops, ingen {type} ble funnet :(",
-            "check_spelling": "Vennligst sjekk stavemåten din eller prøv andre søkeord!"
+            "check_spelling": "Vennligst sjekk stavemåten din eller prøv andre søkeord!",
+            "most_suitable": "Mest egnet",
+            "latest": "Siste"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Kunne ikke hente Trending-kampanjer",
@@ -2338,7 +2342,8 @@
             "11010": "Kunne ikke analysere dato og klokkeslett",
             "11011": "Redis fatal feil!",
             "11012": "Parse JSON fatal feil!",
-            "11013": "JSON marshal feil!"
+            "11013": "JSON marshal feil!",
+            "visibility_public": "Kampanjesynlighet må være offentlig"
         },
         "form": {
             "equal_to": "$ {path} må være den samme som $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Avslutt abonnementet",
             "unsubscribe_success": "Avslutt abonnement Vellykket",
             "global": "Global"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Hei {name} , kontoen din er nedgradert til Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

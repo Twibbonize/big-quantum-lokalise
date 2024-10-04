@@ -549,7 +549,7 @@
             "see_more_analytics": "Zobraziť viac Analytika",
             "realtime_estimates": "Odhady v reálnom čase za posledných 30 dní",
             "view_analytics": "Zobraziť Analytiku",
-            "created_on": ""
+            "created_on": "vytvorené dňa {date}"
         },
         "pricing": {
             "no_thankyou": "Nie, ďakujem."
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Zbierka nebola nájdená",
-            "try_another": "Skúste filter s iným kľúčovým slovom"
+            "try_another": "Skúste filter s iným kľúčovým slovom",
+            "no_campaigns_own_desc": "Začnite pridávať kampane do svojich zbierok",
+            "no_campaigns_other_desc": "Tento používateľ nepridal do zbierky žiadne kampane"
         },
         "placeholder": {
             "search_collections": "Vyhľadávanie v zbierkach"
@@ -890,7 +892,9 @@
             "sort_by": "Zoradiť podľa:",
             "see_all": "Pozri všetko {type}",
             "not_found": "Ups, žiadne {type} neboli nájdené :(",
-            "check_spelling": "Skontrolujte si prosím pravopis alebo skúste iné kľúčové slová!"
+            "check_spelling": "Skontrolujte si prosím pravopis alebo skúste iné kľúčové slová!",
+            "most_suitable": "Najvhodnejšie",
+            "latest": "Najnovšie"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Nepodarilo sa načítať trendové kampane",
@@ -2338,7 +2342,8 @@
             "11010": "Analýza dátumu a času zlyhala",
             "11011": "Redis fatálna chyba!",
             "11012": "Závažná chyba pri analýze JSON!",
-            "11013": "Chyba maršala JSON!"
+            "11013": "Chyba maršala JSON!",
+            "visibility_public": "Viditeľnosť kampane musí byť verejná"
         },
         "form": {
             "equal_to": "$ {path} musí byť rovnaké ako $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Odhlásiť sa z odberu",
             "unsubscribe_success": "Zrušenie odberu bolo úspešné",
             "global": "globálne"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Dobrý deň {name} , váš účet je znížený na Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

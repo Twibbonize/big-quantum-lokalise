@@ -549,7 +549,7 @@
             "see_more_analytics": "詳細な分析を見る",
             "realtime_estimates": "過去30日間のリアルタイム推定値",
             "view_analytics": "分析を表示",
-            "created_on": ""
+            "created_on": "{date}に作成"
         },
         "pricing": {
             "no_thankyou": "いいえ、ありがとうございます"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "コレクションが見つかりません",
-            "try_another": "他のキーワードでフィルタリングしてみる"
+            "try_another": "他のキーワードでフィルタリングしてみる",
+            "no_campaigns_own_desc": "コレクションにキャンペーンを追加しましょう",
+            "no_campaigns_other_desc": "このユーザーはコレクションにキャンペーンを追加していません"
         },
         "placeholder": {
             "search_collections": "コレクション検索"
@@ -890,7 +892,9 @@
             "sort_by": "並べ替え",
             "see_all": "すべて見る{type}",
             "not_found": "おっと、{type} は見つからなかった :(",
-            "check_spelling": "スペルを確認するか、他のキーワードを試してください！"
+            "check_spelling": "スペルを確認するか、他のキーワードを試してください！",
+            "most_suitable": "最も適した",
+            "latest": "最新"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "トレンドキャンペーンの取得に失敗しました。",
@@ -2338,7 +2342,8 @@
             "11010": "日時解析に失敗しました",
             "11011": "Redis 致命的なエラー!",
             "11012": "JSON 解析で致命的なエラーが発生しました。",
-            "11013": "JSON マーシャリング エラー!"
+            "11013": "JSON マーシャリング エラー!",
+            "visibility_public": "キャンペーンの公開設定は公開にする必要があります"
         },
         "form": {
             "equal_to": "$ {path} $ {reference}と同じである必要があります",
@@ -2407,6 +2412,17 @@
             "title": "登録解除",
             "unsubscribe_success": "登録解除に成功しました",
             "global": "グローバル"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "こんにちは{name}さん、あなたのアカウントは Twibbonize Free にダウングレードされました"
+                    }
+                }
+            }
         }
     }
 }

@@ -549,7 +549,7 @@
             "see_more_analytics": "Vezi mai multe analize",
             "realtime_estimates": "Estimări în timp real din ultimele 30 de zile",
             "view_analytics": "Vezi Analize",
-            "created_on": ""
+            "created_on": "creat pe {date}"
         },
         "pricing": {
             "no_thankyou": "Nu, vă mulțumesc."
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Colecția nu a fost găsită",
-            "try_another": "Încercați să filtrați cu alt cuvânt cheie"
+            "try_another": "Încercați să filtrați cu alt cuvânt cheie",
+            "no_campaigns_own_desc": "Începeți să adăugați campanii în colecțiile dvs",
+            "no_campaigns_other_desc": "Acest utilizator nu a adăugat nicio campanie la colecție"
         },
         "placeholder": {
             "search_collections": "Căutați în colecțiile dvs."
@@ -890,7 +892,9 @@
             "sort_by": "Sortează după:",
             "see_all": "Vezi toate {type}",
             "not_found": "Oops, nu a fost găsit niciun {type}:(",
-            "check_spelling": "Vă rugăm să vă verificați ortografia sau să încercați alte cuvinte cheie!"
+            "check_spelling": "Vă rugăm să vă verificați ortografia sau să încercați alte cuvinte cheie!",
+            "most_suitable": "Cel mai potrivit",
+            "latest": "Mai recent"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "A eșuat preluarea campaniilor de trending",
@@ -2338,7 +2342,8 @@
             "11010": "Analiza dată și oră nu a reușit",
             "11011": "Redis eroare fatală!",
             "11012": "Eroare fatală de analiză JSON!",
-            "11013": "Eroare de marshal JSON!"
+            "11013": "Eroare de marshal JSON!",
+            "visibility_public": "Vizibilitatea campaniei trebuie să fie publică"
         },
         "form": {
             "equal_to": "$ {path} trebuie să fie același cu $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Dezabonare",
             "unsubscribe_success": "Dezabonare reușită",
             "global": "Global"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Bună, {name} , contul dvs. a fost retrogradat la Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

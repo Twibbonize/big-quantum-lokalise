@@ -549,7 +549,7 @@
             "see_more_analytics": "Pogledajte više Analitike",
             "realtime_estimates": "Procjene u stvarnom vremenu iz zadnjih 30 dana",
             "view_analytics": "Pogledajte Analitiku",
-            "created_on": ""
+            "created_on": "stvoreno {date}"
         },
         "pricing": {
             "no_thankyou": "Ne hvala"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Zbirka nije pronađena",
-            "try_another": "Pokušajte filtar s drugom ključnom riječi"
+            "try_another": "Pokušajte filtar s drugom ključnom riječi",
+            "no_campaigns_own_desc": "Počnite dodavati kampanje svojim zbirkama",
+            "no_campaigns_other_desc": "Ovaj korisnik nije dodao nijednu kampanju u zbirku"
         },
         "placeholder": {
             "search_collections": "Pretražite svoje zbirke"
@@ -890,7 +892,9 @@
             "sort_by": "Poredaj po:",
             "see_all": "Vidi sve {type}",
             "not_found": "Ups, {type} nije pronađen :(",
-            "check_spelling": "Provjerite pravopis ili pokušajte s drugim ključnim riječima!"
+            "check_spelling": "Provjerite pravopis ili pokušajte s drugim ključnim riječima!",
+            "most_suitable": "Najprikladnije",
+            "latest": "Najnoviji"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Dohvaćanje kampanja u trendu nije uspjelo",
@@ -2338,7 +2342,8 @@
             "11010": "Neuspješno analiziranje datuma i vremena",
             "11011": "Ponovi kobnu pogrešku!",
             "11012": "Analizirajte JSON kobnu pogrešku!",
-            "11013": "Pogreška JSON marshala!"
+            "11013": "Pogreška JSON marshala!",
+            "visibility_public": "Vidljivost kampanje mora biti javna"
         },
         "form": {
             "equal_to": "$ {path} mora biti isti kao $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Odjavi pretplatu",
             "unsubscribe_success": "Otkaži pretplatu uspješno",
             "global": "Globalno"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Bok {name} , tvoj račun je vraćen na Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

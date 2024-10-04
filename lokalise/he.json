@@ -549,7 +549,7 @@
             "see_more_analytics": "ראה עוד אנליטיקה",
             "realtime_estimates": "הערכות בזמן אמת מ-30 הימים האחרונים",
             "view_analytics": "הצג את הניתוח",
-            "created_on": ""
+            "created_on": "נוצר בתאריך {date}"
         },
         "pricing": {
             "no_thankyou": "לא תודה"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "האוסף לא נמצא",
-            "try_another": "נסה לסנן עם מילת מפתח אחרת"
+            "try_another": "נסה לסנן עם מילת מפתח אחרת",
+            "no_campaigns_own_desc": "התחל להוסיף מסעות פרסום לאוספים שלך",
+            "no_campaigns_other_desc": "משתמש זה לא הוסיף אף קמפיינים לאוסף"
         },
         "placeholder": {
             "search_collections": "חפש באוספים שלך"
@@ -890,7 +892,9 @@
             "sort_by": "מיין לפי:",
             "see_all": "ראה הכל {type}",
             "not_found": "אופס, לא נמצאו {type} :(",
-            "check_spelling": "אנא בדוק את האיות שלך או נסה מילות מפתח אחרות!"
+            "check_spelling": "אנא בדוק את האיות שלך או נסה מילות מפתח אחרות!",
+            "most_suitable": "הכי מתאים",
+            "latest": "אחרון"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "אחזור הקמפיינים הפופולריים נכשל",
@@ -2338,7 +2342,8 @@
             "11010": "ניתוח תאריך ושעה נכשל",
             "11011": "שגיאה קטלנית מחדש!",
             "11012": "נתח שגיאה קטלנית של JSON!",
-            "11013": "שגיאת JSON מרשל!"
+            "11013": "שגיאת JSON מרשל!",
+            "visibility_public": "החשיפה של הקמפיין חייבת להיות ציבורית"
         },
         "form": {
             "equal_to": "$ {path} חייב להיות זהה ל-$ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "בטל את המנוי",
             "unsubscribe_success": "ביטול הרישום הצליח",
             "global": "גלוֹבָּלִי"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "היי {name} , החשבון שלך שודרג לאחור ל-Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

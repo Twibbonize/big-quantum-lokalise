@@ -549,7 +549,7 @@
             "see_more_analytics": "Xem thêm phân tích",
             "realtime_estimates": "Ước tính thời gian thực từ 30 ngày qua",
             "view_analytics": "Xem Phân tích",
-            "created_on": ""
+            "created_on": "được tạo vào {date}"
         },
         "pricing": {
             "no_thankyou": "Không cám ơn"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Không tìm thấy bộ sưu tập",
-            "try_another": "Hãy thử lọc với từ khóa khác"
+            "try_another": "Hãy thử lọc với từ khóa khác",
+            "no_campaigns_own_desc": "Bắt đầu thêm Chiến dịch vào Bộ sưu tập của bạn",
+            "no_campaigns_other_desc": "Người dùng này chưa thêm bất kỳ Chiến dịch nào vào Bộ sưu tập"
         },
         "placeholder": {
             "search_collections": "Tìm kiếm Bộ sưu tập của bạn"
@@ -890,7 +892,9 @@
             "sort_by": "Sắp xếp theo:",
             "see_all": "Xem Tất Cả {type}",
             "not_found": "Rất tiếc, không tìm thấy {type} nào :(",
-            "check_spelling": "Vui lòng kiểm tra chính tả của bạn hoặc thử các từ khóa khác!"
+            "check_spelling": "Vui lòng kiểm tra chính tả của bạn hoặc thử các từ khóa khác!",
+            "most_suitable": "Phù hợp nhất",
+            "latest": "Mới nhất"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Không thể tải Chiến dịch thịnh hành",
@@ -2338,7 +2342,8 @@
             "11010": "Phân tích cú pháp datetime không thành công",
             "11011": "Lỗi nghiêm trọng của Redis!",
             "11012": "Lỗi nghiêm trọng khi phân tích cú pháp JSON!",
-            "11013": "Lỗi marshal JSON!"
+            "11013": "Lỗi marshal JSON!",
+            "visibility_public": "Khả năng hiển thị chiến dịch phải công khai"
         },
         "form": {
             "equal_to": "$ {path} phải giống với $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Hủy đăng ký",
             "unsubscribe_success": "Hủy đăng ký thành công",
             "global": "Toàn cầu"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Xin chào {name} , tài khoản của bạn đã được hạ cấp xuống Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }
