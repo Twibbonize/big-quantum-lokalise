@@ -549,7 +549,7 @@
             "see_more_analytics": "Voir plus d'Analytiques",
             "realtime_estimates": "Estimations en temps réel des 30 derniers jours",
             "view_analytics": "Voir les Analytiques",
-            "created_on": ""
+            "created_on": "créé le {date}"
         },
         "pricing": {
             "no_thankyou": "Non, merci"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Collection non trouvée",
-            "try_another": "Essayez de filtrer avec d'autres mots-clés"
+            "try_another": "Essayez de filtrer avec d'autres mots-clés",
+            "no_campaigns_own_desc": "Commencez à ajouter des campagnes à vos collections",
+            "no_campaigns_other_desc": "Cet utilisateur n'a ajouté aucune campagne à la collection"
         },
         "placeholder": {
             "search_collections": "Recherchez vos collections"
@@ -890,7 +892,9 @@
             "sort_by": "Trier par :",
             "see_all": "Tout voir {type}",
             "not_found": "Oops, aucun {type} n'a été trouvé :(",
-            "check_spelling": "Vérifiez votre orthographe ou essayez d'autres mots-clés !"
+            "check_spelling": "Vérifiez votre orthographe ou essayez d'autres mots-clés !",
+            "most_suitable": "Le plus approprié",
+            "latest": "Dernier"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Échec de la récupération des campagnes tendancielles",
@@ -2338,7 +2342,8 @@
             "11010": "Échec de l'analyse de la date et de l'heure",
             "11011": "Erreur fatale de Redis !",
             "11012": "Erreur fatale lors de l'analyse JSON !",
-            "11013": "Erreur de marshal JSON !"
+            "11013": "Erreur de marshal JSON !",
+            "visibility_public": "La visibilité de la campagne doit être publique"
         },
         "form": {
             "equal_to": "$ {path} doit être identique à $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Se désinscrire",
             "unsubscribe_success": "Désabonnement réussi",
             "global": "Mondial"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Bonjour {name} , votre compte est rétrogradé vers Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

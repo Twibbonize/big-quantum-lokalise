@@ -549,7 +549,7 @@
             "see_more_analytics": "See More Analytics",
             "realtime_estimates": "Real-time estimates from the last 30 days",
             "view_analytics": "View Analytics",
-            "created_on": ""
+            "created_on": "created on {date}"
         },
         "pricing": {
             "no_thankyou": "No, thank you"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Collection not found",
-            "try_another": "Try filter with other keyword"
+            "try_another": "Try filter with other keyword",
+            "no_campaigns_own_desc": "Start adding Campaigns to your Collections",
+            "no_campaigns_other_desc": "This user hasn't added any Campaigns to the Collection"
         },
         "placeholder": {
             "search_collections": "Search your Collections"
@@ -890,7 +892,9 @@
             "sort_by": "Sort by:",
             "see_all": "See All {type}",
             "not_found": "Oops, no {type} were found :(",
-            "check_spelling": "Please check your spelling or try other keywords!"
+            "check_spelling": "Please check your spelling or try other keywords!",
+            "most_suitable": "Most Suitable",
+            "latest": "Latest"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Failed to fetch Trending Campaigns",
@@ -2338,7 +2342,8 @@
             "11010": "Failed parse date time",
             "11011": "Redis fatal error!",
             "11012": "Parse JSON fatal error!",
-            "11013": "JSON marshal error!"
+            "11013": "JSON marshal error!",
+            "visibility_public": "Campaign visibility must be public"
         },
         "form": {
             "equal_to": "${path} must be the same as ${reference}",
@@ -2407,6 +2412,17 @@
             "title": "Unsubscribe",
             "unsubscribe_success": "Unsubscribe Successful",
             "global": "Global"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": ""
+                    }
+                }
+            }
         }
     }
 }

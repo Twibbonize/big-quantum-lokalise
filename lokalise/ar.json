@@ -549,7 +549,7 @@
             "see_more_analytics": "الاطلاع على المزيد من التحليلات",
             "realtime_estimates": "تقديرات في الوقت الحقيقي من آخر 30 يومًا",
             "view_analytics": "عرض التحليلات",
-            "created_on": ""
+            "created_on": "تم إنشاؤه في {date}"
         },
         "pricing": {
             "no_thankyou": "لا، شكراً لك"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "لم يتم العثور على المجموعة",
-            "try_another": "جرّب التصفية باستخدام كلمة رئيسية أخرى"
+            "try_another": "جرّب التصفية باستخدام كلمة رئيسية أخرى",
+            "no_campaigns_own_desc": "ابدأ بإضافة الحملات إلى مجموعاتك",
+            "no_campaigns_other_desc": "لم يقم هذا المستخدم بإضافة أي حملات إلى المجموعة"
         },
         "placeholder": {
             "search_collections": "ابحث في مجموعاتك"
@@ -890,7 +892,9 @@
             "sort_by": "فرز حسب:",
             "see_all": "مشاهدة الكل {type}",
             "not_found": "عفوًا، لم يتم العثور على {type}:((",
-            "check_spelling": "يرجى التدقيق الإملائي أو تجربة كلمات رئيسية أخرى!"
+            "check_spelling": "يرجى التدقيق الإملائي أو تجربة كلمات رئيسية أخرى!",
+            "most_suitable": "الأكثر ملاءمة",
+            "latest": "أحدث"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "فشل في جلب الحملات الرائجة",
@@ -2338,7 +2342,8 @@
             "11010": "فشل تحليل التاريخ والوقت",
             "11011": "خطأ فادح في Redis!",
             "11012": "خطأ فادح في تحليل JSON!",
-            "11013": "خطأ في تنسيق JSON!"
+            "11013": "خطأ في تنسيق JSON!",
+            "visibility_public": "يجب أن تكون رؤية الحملة عامة"
         },
         "form": {
             "equal_to": "يجب أن يكون $ {path} هو نفسه $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "إلغاء الاشتراك",
             "unsubscribe_success": "تم إلغاء الاشتراك بنجاح",
             "global": "عالمي"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "مرحبًا {name} ، تم تخفيض مستوى حسابك إلى Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

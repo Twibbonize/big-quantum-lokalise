@@ -549,7 +549,7 @@
             "see_more_analytics": "Lihat Semua Data Analitik",
             "realtime_estimates": "Perkiraan waktu nyata dari 30 hari terakhir",
             "view_analytics": "Lihat Analitik",
-            "created_on": ""
+            "created_on": "dibuat pada {date}"
         },
         "pricing": {
             "no_thankyou": "Tidak, terima kasih"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Koleksi tidak ditemukan",
-            "try_another": "Coba filter dengan kata kunci lain"
+            "try_another": "Coba filter dengan kata kunci lain",
+            "no_campaigns_own_desc": "Mulai menambahkan Kampanye ke Koleksi Anda",
+            "no_campaigns_other_desc": "Pengguna ini belum menambahkan Kampanye apa pun ke Koleksi"
         },
         "placeholder": {
             "search_collections": "Cari Koleksimu"
@@ -890,7 +892,9 @@
             "sort_by": "Urutkan berdasarkan:",
             "see_all": "Lihat semua {type}",
             "not_found": "Yah, {type} tidak dapat ditemukan :(",
-            "check_spelling": "Mohon periksa ejaanmu atau pakai kata kunci lain!"
+            "check_spelling": "Mohon periksa ejaanmu atau pakai kata kunci lain!",
+            "most_suitable": "Paling Sesuai",
+            "latest": "Terbaru"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Gagal mengambil Kampanye Trending",
@@ -2338,7 +2342,8 @@
             "11010": "Gagal mengurai tanggal dan waktu",
             "11011": "Kesalahan fatal Redis!",
             "11012": "Kesalahan fatal pada parsing JSON!",
-            "11013": "Kesalahan marshal JSON!"
+            "11013": "Kesalahan marshal JSON!",
+            "visibility_public": "Visibilitas kampanye harus Publik"
         },
         "form": {
             "equal_to": "$ {path} harus sama dengan $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Berhenti Berlangganan",
             "unsubscribe_success": "Berhasil Berhenti Langganan",
             "global": "Global"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Hai {name} , akun Anda diturunkan ke Twibbonize Gratis"
+                    }
+                }
+            }
         }
     }
 }

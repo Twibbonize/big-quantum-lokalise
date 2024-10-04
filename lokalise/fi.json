@@ -549,7 +549,7 @@
             "see_more_analytics": "Katso lisää analytiikkaa",
             "realtime_estimates": "Reaaliaikaiset arviot viimeisten 30 päivän ajalta",
             "view_analytics": "Katso Analytiikka",
-            "created_on": ""
+            "created_on": "luotu {date}"
         },
         "pricing": {
             "no_thankyou": "Ei, kiitos"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Kokoelmaa ei löydy",
-            "try_another": "Kokeile suodattaa muulla avainsanalla"
+            "try_another": "Kokeile suodattaa muulla avainsanalla",
+            "no_campaigns_own_desc": "Aloita kampanjoiden lisääminen kokoelmiisi",
+            "no_campaigns_other_desc": "Tämä käyttäjä ei ole lisännyt yhtään kampanjoita kokoelmaan"
         },
         "placeholder": {
             "search_collections": "Etsi kokoelmistasi"
@@ -890,7 +892,9 @@
             "sort_by": "Lajittelu:",
             "see_all": "Katso kaikki {type}",
             "not_found": "Hups, {type} ei löytynyt :(",
-            "check_spelling": "Tarkista oikeinkirjoitus tai kokeile muita avainsanoja!"
+            "check_spelling": "Tarkista oikeinkirjoitus tai kokeile muita avainsanoja!",
+            "most_suitable": "Sopivin",
+            "latest": "Viimeisin"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Trending-kampanjoita ei onnistuttu noutamaan",
@@ -2338,7 +2342,8 @@
             "11010": "Päiväyksen ja ajan jäsentäminen epäonnistui",
             "11011": "Redis kohtalokas virhe!",
             "11012": "JSON-jäsennys vakava virhe!",
-            "11013": "JSON marsalkkavirhe!"
+            "11013": "JSON marsalkkavirhe!",
+            "visibility_public": "Kampanjan näkyvyyden tulee olla julkinen"
         },
         "form": {
             "equal_to": "$ {path} on sama kuin $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Poistu tilauksesta",
             "unsubscribe_success": "Tilauksen peruutus onnistui",
             "global": "Maailmanlaajuinen"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Hei {name} , tilisi on alennettu Twibbonize Free -versioon"
+                    }
+                }
+            }
         }
     }
 }

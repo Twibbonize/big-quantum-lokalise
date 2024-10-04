@@ -549,7 +549,7 @@
             "see_more_analytics": "看更多分析",
             "realtime_estimates": "過去 30 天的即時估計",
             "view_analytics": "查看分析",
-            "created_on": ""
+            "created_on": "創建於{date}"
         },
         "pricing": {
             "no_thankyou": "不，謝謝"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "未找到集合",
-            "try_another": "嘗試使用其他關鍵字進行過濾"
+            "try_another": "嘗試使用其他關鍵字進行過濾",
+            "no_campaigns_own_desc": "開始將行銷活動加入您的收藏中",
+            "no_campaigns_other_desc": "該用戶尚未將任何廣告活動添加到集合中"
         },
         "placeholder": {
             "search_collections": "搜尋您的收藏"
@@ -890,7 +892,9 @@
             "sort_by": "排序方式：",
             "see_all": "看全部{type}",
             "not_found": "哎呀，沒有找到{type} :(",
-            "check_spelling": "請檢查您的拼字或嘗試其他關鍵字！"
+            "check_spelling": "請檢查您的拼字或嘗試其他關鍵字！",
+            "most_suitable": "最適合",
+            "latest": "最新的"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "無法取得熱門廣告活動",
@@ -2338,7 +2342,8 @@
             "11010": "解析日期時間失敗",
             "11011": "Redis致命錯誤！",
             "11012": "解析JSON致命錯誤！",
-            "11013": "JSON 編組錯誤！"
+            "11013": "JSON 編組錯誤！",
+            "visibility_public": "活動可見性必須是公開的"
         },
         "form": {
             "equal_to": "$ {path}必須與 $ {reference}相同",
@@ -2407,6 +2412,17 @@
             "title": "退訂",
             "unsubscribe_success": "退訂成功",
             "global": "全球的"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "{name}您好，您的帳號已降級為 Twibbonize 免費版"
+                    }
+                }
+            }
         }
     }
 }

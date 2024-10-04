@@ -549,7 +549,7 @@
             "see_more_analytics": "Daha Fazla Analitik Gör",
             "realtime_estimates": "Son 30 güne ait gerçek zamanlı tahminler",
             "view_analytics": "Analitikleri Görüntüle",
-            "created_on": ""
+            "created_on": "{date} tarihinde oluşturuldu"
         },
         "pricing": {
             "no_thankyou": "Hayır, teşekkür ederim."
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Koleksiyon bulunamadı",
-            "try_another": "Başka bir anahtar kelime ile filtrelemeyi deneyin"
+            "try_another": "Başka bir anahtar kelime ile filtrelemeyi deneyin",
+            "no_campaigns_own_desc": "Koleksiyonlarınıza Kampanyalar eklemeye başlayın",
+            "no_campaigns_other_desc": "Bu kullanıcı Koleksiyona herhangi bir Kampanya eklemedi"
         },
         "placeholder": {
             "search_collections": "Koleksiyonlarınızda Arama Yapın"
@@ -890,7 +892,9 @@
             "sort_by": "Sırala:",
             "see_all": "Tümünü Gör {type}",
             "not_found": "Oops, {type} bulunamadı :(",
-            "check_spelling": "Lütfen yazımınızı kontrol edin veya başka anahtar kelimeler deneyin!"
+            "check_spelling": "Lütfen yazımınızı kontrol edin veya başka anahtar kelimeler deneyin!",
+            "most_suitable": "En Uygun",
+            "latest": "En sonuncu"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Trend Kampanyaları getirilemedi",
@@ -2338,7 +2342,8 @@
             "11010": "Başarısız ayrıştırma tarihi ve saati",
             "11011": "Redis'te ölümcül hata!",
             "11012": "JSON ayrıştırmada ölümcül hata!",
-            "11013": "JSON düzenleme hatası!"
+            "11013": "JSON düzenleme hatası!",
+            "visibility_public": "Kampanya görünürlüğü herkese açık olmalıdır"
         },
         "form": {
             "equal_to": "$ {path} $ {reference} ile aynı olmalıdır",
@@ -2407,6 +2412,17 @@
             "title": "Abonelikten çık",
             "unsubscribe_success": "Abonelikten çıkma başarılı",
             "global": "Küresel"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Merhaba {name} , hesabınız Twibbonize Free'ye düşürüldü"
+                    }
+                }
+            }
         }
     }
 }

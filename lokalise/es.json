@@ -549,7 +549,7 @@
             "see_more_analytics": "Ver más ",
             "realtime_estimates": "Estimaciones en tiempo real de los últimos 30 días.",
             "view_analytics": "Ver las Analíticas",
-            "created_on": ""
+            "created_on": "Creado el {date}"
         },
         "pricing": {
             "no_thankyou": "No, gracias."
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Colección no encontrada",
-            "try_another": "Prueba a filtrar con otra palabra clave"
+            "try_another": "Prueba a filtrar con otra palabra clave",
+            "no_campaigns_own_desc": "Comience a agregar campañas a sus colecciones",
+            "no_campaigns_other_desc": "Este usuario no ha añadido ninguna Campaña a la Colección"
         },
         "placeholder": {
             "search_collections": "Buscar en las colecciones"
@@ -890,7 +892,9 @@
             "sort_by": "Ordenar por:",
             "see_all": "Ver todos {type}",
             "not_found": "Oops, no se ha encontrado {type}:(",
-            "check_spelling": "Por favor, revise su ortografía o pruebe con otras palabras clave."
+            "check_spelling": "Por favor, revise su ortografía o pruebe con otras palabras clave.",
+            "most_suitable": "Más adecuado",
+            "latest": "El último"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Fallo al buscar campañas de tendencias",
@@ -2338,7 +2342,8 @@
             "11010": "Error al analizar la fecha y hora",
             "11011": "¡Error fatal de Redis!",
             "11012": "¡Error fatal al analizar JSON!",
-            "11013": "¡Error de mariscal JSON!"
+            "11013": "¡Error de mariscal JSON!",
+            "visibility_public": "La visibilidad de la campaña debe ser pública."
         },
         "form": {
             "equal_to": "$ {path} debe ser el mismo que $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Cancelar suscripción",
             "unsubscribe_success": "Cancelación de suscripción exitosa",
             "global": "Global"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Hola {name} , tu cuenta ha sido degradada a Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

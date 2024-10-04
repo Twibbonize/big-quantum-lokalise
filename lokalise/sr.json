@@ -549,7 +549,7 @@
             "see_more_analytics": "Pogledajte više Analitike",
             "realtime_estimates": "Procene u realnom vremenu za poslednjih 30 dana",
             "view_analytics": "Pogledajte Analitiku",
-            "created_on": ""
+            "created_on": "направљен {date}"
         },
         "pricing": {
             "no_thankyou": "Ne, hvala"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Kolekcija nije pronađena",
-            "try_another": "Pokušajte da filtrirate sa drugom ključnom reči"
+            "try_another": "Pokušajte da filtrirate sa drugom ključnom reči",
+            "no_campaigns_own_desc": "Почните да додајете кампање у своје колекције",
+            "no_campaigns_other_desc": "Овај корисник није додао ниједну кампању у колекцију"
         },
         "placeholder": {
             "search_collections": "Pretražiti svoje kolekcije"
@@ -890,7 +892,9 @@
             "sort_by": "Sortirati po:",
             "see_all": "Videti sve {type}",
             "not_found": "Ups, nije pronađen nijedan {type} :(",
-            "check_spelling": "Molimo proverite pravopis ili pokušajte sa drugim ključnim rečima!"
+            "check_spelling": "Molimo proverite pravopis ili pokušajte sa drugim ključnim rečima!",
+            "most_suitable": "Најприкладнији",
+            "latest": "Најновије"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Преузимање кампања у тренду није успело",
@@ -2338,7 +2342,8 @@
             "11010": "Неуспешно рашчлањивање датума и времена",
             "11011": "Редис фатална грешка!",
             "11012": "Парсе ЈСОН фатална грешка!",
-            "11013": "Грешка маршала ЈСОН-а!"
+            "11013": "Грешка маршала ЈСОН-а!",
+            "visibility_public": "Видљивост кампање мора бити јавна"
         },
         "form": {
             "equal_to": "$ {path} мора бити исто што и $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Откажи претплату",
             "unsubscribe_success": "Претплата је успела",
             "global": "Глобал"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Здраво {name} , ваш налог је враћен на Твиббонизе Фрее"
+                    }
+                }
+            }
         }
     }
 }

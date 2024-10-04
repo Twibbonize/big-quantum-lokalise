@@ -549,7 +549,7 @@
             "see_more_analytics": "Shikoni më shumë Analitikë",
             "realtime_estimates": "Vlerësime në kohë reale nga 30 ditët e fundit",
             "view_analytics": "Shiko Analitikën",
-            "created_on": ""
+            "created_on": "krijuar më {date}"
         },
         "pricing": {
             "no_thankyou": "Jo faleminderit"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Koleksioni nuk u gjet",
-            "try_another": "Provoni filtrimin me fjalë kyçe të tjera"
+            "try_another": "Provoni filtrimin me fjalë kyçe të tjera",
+            "no_campaigns_own_desc": "Filloni të shtoni fushata në koleksionet tuaja",
+            "no_campaigns_other_desc": "Ky përdorues nuk ka shtuar asnjë fushatë në koleksion"
         },
         "placeholder": {
             "search_collections": "Kërkoni koleksionet tuaja"
@@ -890,7 +892,9 @@
             "sort_by": "Ndaj sipas:",
             "see_all": "Shiko të gjitha {type}",
             "not_found": "Mos, asnjë {type} nuk u gjet :(",
-            "check_spelling": "Ju lutemi kontrolloni drejtshkrimin tuaj ose provoni fjalë kyçe të tjera!"
+            "check_spelling": "Ju lutemi kontrolloni drejtshkrimin tuaj ose provoni fjalë kyçe të tjera!",
+            "most_suitable": "Më e përshtatshme",
+            "latest": "E fundit"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Marrja e \"Fushatave në tendencë\" dështoi",
@@ -2338,7 +2342,8 @@
             "11010": "Analizimi i orarit të datës dështoi",
             "11011": "Redis gabim fatal!",
             "11012": "Analizoni gabimin fatal JSON!",
-            "11013": "Gabim marshal JSON!"
+            "11013": "Gabim marshal JSON!",
+            "visibility_public": "Dukshmëria e fushatës duhet të jetë publike"
         },
         "form": {
             "equal_to": "$ {path} duhet të jetë e njëjtë me $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Çregjistrohu",
             "unsubscribe_success": "Çregjistrimi ishte i suksesshëm",
             "global": "globale"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Përshëndetje {name} , llogaria juaj është ulur në Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

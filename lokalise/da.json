@@ -549,7 +549,7 @@
             "see_more_analytics": "Se flere Analyser",
             "realtime_estimates": "Realtidsestimater fra de sidste 30 dage",
             "view_analytics": "Vis Analyser",
-            "created_on": ""
+            "created_on": "oprettet den {date}"
         },
         "pricing": {
             "no_thankyou": "Nej, tak"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Samling ikke fundet",
-            "try_another": "Prøv at filtrere med et andet søgeord"
+            "try_another": "Prøv at filtrere med et andet søgeord",
+            "no_campaigns_own_desc": "Begynd at tilføje kampagner til dine samlinger",
+            "no_campaigns_other_desc": "Denne bruger har ikke tilføjet nogen kampagner til samlingen"
         },
         "placeholder": {
             "search_collections": "Søg i dine samlinger"
@@ -890,7 +892,9 @@
             "sort_by": "Sorter efter:",
             "see_all": "Se alle {type}",
             "not_found": "Ups, der blev ikke fundet nogen {type}:(",
-            "check_spelling": "Tjek venligst din stavning eller prøv andre søgeord!"
+            "check_spelling": "Tjek venligst din stavning eller prøv andre søgeord!",
+            "most_suitable": "Mest egnet",
+            "latest": "Seneste"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Kunne ikke hente Trending Campaigns",
@@ -2338,7 +2342,8 @@
             "11010": "Mislykket parse datetime",
             "11011": "Redis fatal fejl!",
             "11012": "Parse JSON fatal fejl!",
-            "11013": "JSON-marskalfejl!"
+            "11013": "JSON-marskalfejl!",
+            "visibility_public": "Kampagnens synlighed skal være offentlig"
         },
         "form": {
             "equal_to": "$ {path} skal være det samme som $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Afmeld dit abonnement",
             "unsubscribe_success": "Afmeldelse lykkedes",
             "global": "Global"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Hej {name} , din konto er nedgraderet til Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

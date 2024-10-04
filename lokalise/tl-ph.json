@@ -549,7 +549,7 @@
             "see_more_analytics": "Tingnan ang Higit pang Analytics",
             "realtime_estimates": "Mga real-time na pagtatantya mula sa nakalipas na 30 araw",
             "view_analytics": "Tingnan ang Analytics",
-            "created_on": ""
+            "created_on": "ginawa noong {date}"
         },
         "pricing": {
             "no_thankyou": "Hindi, salamat"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Hindi nakita ang koleksyon",
-            "try_another": "Subukang mag-filter gamit ang ibang keyword"
+            "try_another": "Subukang mag-filter gamit ang ibang keyword",
+            "no_campaigns_own_desc": "Simulan ang pagdaragdag ng Mga Kampanya sa iyong Mga Koleksyon",
+            "no_campaigns_other_desc": "Ang user na ito ay hindi nagdagdag ng anumang Mga Kampanya sa Koleksyon"
         },
         "placeholder": {
             "search_collections": "Hanapin ang iyong Mga Koleksyon"
@@ -890,7 +892,9 @@
             "sort_by": "Pagbukud-bukurin ayon sa:",
             "see_all": "Tingnan Lahat {type}",
             "not_found": "Oops, walang nakitang {type} :(",
-            "check_spelling": "Pakisuri ang iyong spelling o subukan ang iba pang mga keyword!"
+            "check_spelling": "Pakisuri ang iyong spelling o subukan ang iba pang mga keyword!",
+            "most_suitable": "Pinaka Angkop",
+            "latest": "Pinakabago"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Nabigong kunin ang Mga Trending Campaign",
@@ -2338,7 +2342,8 @@
             "11010": "Hindi na-parse ang datetime",
             "11011": "Redis fatal error!",
             "11012": "I-parse ang JSON fatal error!",
-            "11013": "JSON marshal error!"
+            "11013": "JSON marshal error!",
+            "visibility_public": "Dapat ay pampubliko ang visibility ng campaign"
         },
         "form": {
             "equal_to": "Ang $ {path} ay dapat na kapareho ng $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Mag-unsubscribe",
             "unsubscribe_success": "Matagumpay na Mag-unsubscribe",
             "global": "Global"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Kumusta {name} , ang iyong account ay na-downgrade sa Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

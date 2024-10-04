@@ -549,7 +549,7 @@
             "see_more_analytics": "Lihat Lagi Analytics",
             "realtime_estimates": "Anggaran masa nyata dari 30 hari yang lalu",
             "view_analytics": "Lihat Analytics",
-            "created_on": ""
+            "created_on": "dibuat pada {date}"
         },
         "pricing": {
             "no_thankyou": "Tidak, terima kasih"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Koleksi tidak ditemui",
-            "try_another": "Cuba tapis dengan kata kunci lain"
+            "try_another": "Cuba tapis dengan kata kunci lain",
+            "no_campaigns_own_desc": "Mula menambah Kempen pada Koleksi anda",
+            "no_campaigns_other_desc": "Pengguna ini belum menambahkan sebarang Kempen pada Koleksi"
         },
         "placeholder": {
             "search_collections": "Cari Koleksi anda"
@@ -890,7 +892,9 @@
             "sort_by": "Disusun mengikut:",
             "see_all": "Lihat Semua {type}",
             "not_found": "Op, tiada {type} ditemui :(",
-            "check_spelling": "Sila semak ejaan anda atau cuba kata kunci lain!"
+            "check_spelling": "Sila semak ejaan anda atau cuba kata kunci lain!",
+            "most_suitable": "Paling Sesuai",
+            "latest": "Terkini"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Gagal mengambil Kempen Sohor Kini",
@@ -2338,7 +2342,8 @@
             "11010": "Gagal menghuraikan tarikh masa",
             "11011": "Redis kesilapan maut!",
             "11012": "Menghuraikan ralat maut JSON!",
-            "11013": "Ralat marshal JSON!"
+            "11013": "Ralat marshal JSON!",
+            "visibility_public": "Keterlihatan kempen mestilah terbuka"
         },
         "form": {
             "equal_to": "$ {path} mestilah sama dengan $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Nyahlanggan",
             "unsubscribe_success": "Berjaya berhenti melanggan",
             "global": "Global"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Hai {name} , akaun anda diturunkan taraf kepada Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

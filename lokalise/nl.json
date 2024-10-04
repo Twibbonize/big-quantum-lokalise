@@ -549,7 +549,7 @@
             "see_more_analytics": "Meer analyses bekijken",
             "realtime_estimates": "Realtime schattingen van de afgelopen 30 dagen",
             "view_analytics": "Bekijk Analytics",
-            "created_on": ""
+            "created_on": "gemaakt op {date}"
         },
         "pricing": {
             "no_thankyou": "Nee, dank u"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Collectie niet gevonden",
-            "try_another": "Probeer te filteren met een ander trefwoord"
+            "try_another": "Probeer te filteren met een ander trefwoord",
+            "no_campaigns_own_desc": "Begin met het toevoegen van campagnes aan uw collecties",
+            "no_campaigns_other_desc": "Deze gebruiker heeft geen campagnes aan de collectie toegevoegd"
         },
         "placeholder": {
             "search_collections": "Doorzoek je collecties"
@@ -890,7 +892,9 @@
             "sort_by": "Sorteren op:",
             "see_all": "Alles zien {type}",
             "not_found": "Oeps, geen {type} gevonden :(",
-            "check_spelling": "Controleer je spelling of probeer andere trefwoorden!"
+            "check_spelling": "Controleer je spelling of probeer andere trefwoorden!",
+            "most_suitable": "Meest geschikt",
+            "latest": "Laatste"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Fout bij het ophalen van trending campagnes",
@@ -2338,7 +2342,8 @@
             "11010": "Het parseren van datetime is mislukt",
             "11011": "Redis fatale fout!",
             "11012": "Parse JSON fatale fout!",
-            "11013": "JSON-marshalfout!"
+            "11013": "JSON-marshalfout!",
+            "visibility_public": "Campagnezichtbaarheid moet openbaar zijn"
         },
         "form": {
             "equal_to": "$ {path} moet hetzelfde zijn als $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Afmelden",
             "unsubscribe_success": "Uitschrijven succesvol",
             "global": "Wereldwijd"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Hallo {name} , uw account is gedegradeerd naar Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }

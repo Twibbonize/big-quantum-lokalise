@@ -549,7 +549,7 @@
             "see_more_analytics": "Vedi altri dati di Analitica",
             "realtime_estimates": "Stime in tempo reale degli ultimi 30 giorni",
             "view_analytics": "Vedere l'Analitica",
-            "created_on": ""
+            "created_on": "creato il {date}"
         },
         "pricing": {
             "no_thankyou": "No, grazie"
@@ -682,7 +682,9 @@
         },
         "empty_state": {
             "not_found": "Collezione non trovata",
-            "try_another": "Provare a filtrare con un'altra parola chiave"
+            "try_another": "Provare a filtrare con un'altra parola chiave",
+            "no_campaigns_own_desc": "Inizia ad aggiungere campagne alle tue raccolte",
+            "no_campaigns_other_desc": "Questo utente non ha aggiunto alcuna campagna alla raccolta"
         },
         "placeholder": {
             "search_collections": "Ricerca nelle collezioni"
@@ -890,7 +892,9 @@
             "sort_by": "Ordina per:",
             "see_all": "Vedi tutti {type}",
             "not_found": "Oops, non è stato trovato nessun {type}:(",
-            "check_spelling": "Controlla l'ortografia o prova altre parole chiave!"
+            "check_spelling": "Controlla l'ortografia o prova altre parole chiave!",
+            "most_suitable": "Più adatto",
+            "latest": "Ultimo"
         },
         "error": {
             "failed_to_fetch_trending_campaigns": "Non è stato possibile recuperare le campagne di tendenza.",
@@ -2338,7 +2342,8 @@
             "11010": "Analisi data\/ora non riuscita",
             "11011": "Errore fatale di Redis!",
             "11012": "Errore fatale nell'analisi JSON!",
-            "11013": "Errore di marshalling JSON!"
+            "11013": "Errore di marshalling JSON!",
+            "visibility_public": "La visibilità della campagna deve essere pubblica"
         },
         "form": {
             "equal_to": "$ {path} deve essere uguale a $ {reference}",
@@ -2407,6 +2412,17 @@
             "title": "Annullamento dell'iscrizione",
             "unsubscribe_success": "Annullamento dell'iscrizione riuscito",
             "global": "Globale"
+        }
+    },
+    "notification": {
+        "panel": {
+            "billing": {
+                "supporter": {
+                    "plus_7": {
+                        "header": "Ciao {name} , il tuo account è stato declassato a Twibbonize Free"
+                    }
+                }
+            }
         }
     }
 }
