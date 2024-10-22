@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "Zapomněli jste heslo?",
-            "enter_email": "Zadejte e-mailovou adresu, kterou jste použili při registraci, a my vám do e-mailové schránky zašleme odkaz pro obnovení hesla!",
+            "enter_email": "Zadejte svou registrovanou e-mailovou adresu a my vám do e-mailové schránky zašleme odkaz pro obnovení hesla!",
             "email": "E-mail",
             "enter_your_email": "Zadejte svou e-mailovou adresu"
         },
@@ -549,7 +549,7 @@
             "see_more_analytics": "Zobrazit více Analytika",
             "realtime_estimates": "Odhady v reálném čase za posledních 30 dní",
             "view_analytics": "Zobrazit Analytiku",
-            "created_on": "vytvořeno dne {date}"
+            "created_on": "Vytvořeno dne {date}"
         },
         "pricing": {
             "no_thankyou": "Ne, děkuji"
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "Tento uživatel do sbírky nepřidal žádné kampaně"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "Vyhledávání ve sbírkách"
         },
         "delete": {
             "are_you_sure_delete": "Opravdu chcete tuto sbírku odstranit?"
         },
         "update": {
-            "update_collection": "Aktualizace sbírky"
+            "update_collection": "Aktualizace sbírky",
+            "save": "Uložit"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "Platnost vašeho plánu {plan} vypršela. Obnovte jej prosím do {date}",
             "manage_inapp_desc": "V současné době nemůžete upgradovat na {plan} protože náš systém zatím nepodporuje dva prémiové plány současně. Chcete-li spravovat své předplatné Twibbonize na iOS, otevřete aplikaci, přejděte do Nastavení a vyberte Fakturace.",
             "detailed_info_app": "Zobrazte si všechny údaje o předplatném. Faktury lze stáhnout pouze z webových stránek.",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "Prémiový tvůrce Ročně",
+            "premium_creator_monthly": "Premium Creator měsíčně"
         },
         "account": {
             "update_email": "Aktualizace e-mailu",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "Získejte upozornění na příspěvek příznivce os na stránce kampaně",
             "account_recap": "Rekapitulace účtu",
             "account_recap_details": "Týdenní rekapitulace podporovatelů a návštěv pro všechny vaše kampaně",
-            "new_post": ""
+            "new_post": "Nový příspěvek"
         },
         "package": {
             "free": "Bezplatný plán",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "Přihlaste se k publikování kampaně",
         "sign_up_to_create_campaign": "Zaregistrujte se a zveřejněte svou kampaň",
         "sign_in_to_like_desc": "Přihlaste se, aby se vám tento komentář líbil",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "Přihlaste se a přidejte do sbírky",
+        "sign_in_to_collection_desc": "Přihlaste se a přidejte tuto kampaň do svých sbírek",
+        "sign_up_to_collection": "Zaregistrujte se pro přidání do sbírky"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "Kampaň vytvořena",
             "collection_created": "Kolekce vytvořena",
             "collection_updated": "Kolekce aktualizována",
-            "collection_deleted": "Sbírka smazána"
+            "collection_deleted": "Sbírka smazána",
+            "redirect_to_verification": "Ověřovací kód byl odeslán na adresu {email}"
         },
         "error": {
             "something_went_wrong": "Něco se pokazilo"
@@ -2416,6 +2418,13 @@
             "max_width": "Šířka musí být alespoň {max} pixelů",
             "min_length": "Délka musí být alespoň {min} znaků",
             "max_length": "Délka nesmí přesáhnout {max} znaků"
+        },
+        "failed_order": {
+            "header": "Máme problém s platebním systémem",
+            "description": "Ve vašem požadavku se něco pokazilo. Zkuste to prosím později. V případě dotazů nás kontaktujte na adrese {email}."
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

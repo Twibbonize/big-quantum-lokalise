@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "Zaboravili ste zaporku?",
-            "enter_email": "Unesite adresu e-pošte koju ste koristili kada ste se pridružili i poslat ćemo vam poveznicu za poništavanje lozinke u vaš pretinac e-pošte!",
+            "enter_email": "Unesite svoju registriranu e-mail adresu i poslat ćemo vam poveznicu za resetiranje lozinke u vaš e-mail sandučić!",
             "email": "E-mail",
             "enter_your_email": "Upisite svoju email adresu"
         },
@@ -549,7 +549,7 @@
             "see_more_analytics": "Pogledajte više Analitike",
             "realtime_estimates": "Procjene u stvarnom vremenu iz zadnjih 30 dana",
             "view_analytics": "Pogledajte Analitiku",
-            "created_on": "stvoreno {date}"
+            "created_on": "Stvoreno {date}"
         },
         "pricing": {
             "no_thankyou": "Ne hvala"
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "Ovaj korisnik nije dodao nijednu kampanju u zbirku"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "Pretraži zbirke"
         },
         "delete": {
             "are_you_sure_delete": "Jeste li sigurni da želite izbrisati ovu zbirku?"
         },
         "update": {
-            "update_collection": "Ažuriraj zbirku"
+            "update_collection": "Ažuriraj zbirku",
+            "save": "Uštedjeti"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "Vaš {plan} je istekao. Obnovite do {date}",
             "manage_inapp_desc": "Trenutačno ne možete nadograditi na {plan} jer naš sustav još ne podržava dva premium plana istovremeno. Za upravljanje pretplatom na Twibbonize na iOS-u otvorite aplikaciju, idite na Postavke i odaberite Naplata.",
             "detailed_info_app": "Pregledajte sve svoje pojedinosti o pretplati. Fakture je moguće preuzeti samo s web stranice.",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "Premium kreator godišnje",
+            "premium_creator_monthly": "Premium kreator mjesečnik"
         },
         "account": {
             "update_email": "Ažurirajte e-poštu",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "Primajte obavijesti o objavi podržavatelja na stranici kampanje",
             "account_recap": "Rekapitulacija računa",
             "account_recap_details": "Tjedni pregled pristalica i posjeta za sve vaše kampanje",
-            "new_post": ""
+            "new_post": "Novi post"
         },
         "package": {
             "free": "Besplatni plan",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "Prijavite se kako biste objavili svoju kampanju",
         "sign_up_to_create_campaign": "Registrirajte se za objavu svoje kampanje",
         "sign_in_to_like_desc": "Prijavite se da biste lajkali ovaj komentar",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "Prijavite se za dodavanje u kolekciju",
+        "sign_in_to_collection_desc": "Prijavite se kako biste ovu kampanju dodali svojim zbirkama",
+        "sign_up_to_collection": "Prijavite se za dodavanje u kolekciju"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "Kampanja stvorena",
             "collection_created": "Zbirka stvorena",
             "collection_updated": "Zbirka ažurirana",
-            "collection_deleted": "Zbirka izbrisana"
+            "collection_deleted": "Zbirka izbrisana",
+            "redirect_to_verification": "Kontrolni kod je poslan na {email}"
         },
         "error": {
             "something_went_wrong": "Nešto je pošlo po zlu"
@@ -2416,6 +2418,13 @@
             "max_width": "Širina mora biti najmanje {max} piksela",
             "min_length": "Duljina mora biti najmanje {min} znakova",
             "max_length": "Duljina ne smije premašiti {max} znakova"
+        },
+        "failed_order": {
+            "header": "Imamo problem sa sustavom plaćanja",
+            "description": "Nešto nije u redu s vašim zahtjevom. Pokušajte ponovno kasnije. Za upite, kontaktirajte nas na {email}"
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

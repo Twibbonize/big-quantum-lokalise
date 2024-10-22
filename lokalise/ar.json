@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "هل نسيت كلمة المرور الخاصة بك؟",
-            "enter_email": "أدخل عنوان البريد الإلكتروني الذي استخدمته عند انضمامك وسنرسل لك رابطًا لإعادة تعيين كلمة المرور إلى صندوق بريدك الإلكتروني!",
+            "enter_email": "أدخل عنوان بريدك الإلكتروني المسجل وسنرسل لك رابطًا لإعادة تعيين كلمة المرور إلى صندوق بريدك الإلكتروني!",
             "email": "البريد الإلكتروني",
             "enter_your_email": "أدخل عنوان بريدك الإلكتروني"
         },
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "لم يقم هذا المستخدم بإضافة أي حملات إلى المجموعة"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "البحث في المجموعات"
         },
         "delete": {
             "are_you_sure_delete": "هل أنت متأكد من رغبتك في حذف هذه المجموعة؟"
         },
         "update": {
-            "update_collection": "مجموعة التحديثات"
+            "update_collection": "مجموعة التحديثات",
+            "save": "الحفظ"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "انتهت صلاحية خطتك {plan}. يرجى التجديد بحلول {date}",
             "manage_inapp_desc": "حاليًا، لا يمكنك الترقية إلى {plan} لأن نظامنا لا يدعم حتى الآن الحصول على خطتين مميزتين في نفس الوقت. لإدارة اشتراكك في Twibbonize على نظام التشغيل iOS، افتح التطبيق وانتقل إلى \"الإعدادات\" وحدد \"الفوترة\".",
             "detailed_info_app": "عرض جميع تفاصيل اشتراكك. يمكن تنزيل الفواتير من الموقع الإلكتروني فقط.",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "المبدع المتميز سنوياً",
+            "premium_creator_monthly": "المبدع المتميز شهرياً"
         },
         "account": {
             "update_email": "تحديث البريد الإلكتروني",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "احصل على إشعارات حول مشاركة الداعم على صفحة الحملة",
             "account_recap": "خلاصة الحساب",
             "account_recap_details": "ملخص أسبوعي للداعمين والزيارات لجميع حملاتك",
-            "new_post": ""
+            "new_post": "منشور جديد"
         },
         "package": {
             "free": "خطة مجانية",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "تسجيل الدخول لنشر حملتك",
         "sign_up_to_create_campaign": "قم بالتسجيل لنشر حملتك",
         "sign_in_to_like_desc": "قم بتسجيل الدخول للإعجاب بهذا التعليق",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "تسجيل الدخول للإضافة إلى المجموعة",
+        "sign_in_to_collection_desc": "سجّل الدخول لإضافة هذه الحملة إلى مجموعاتك",
+        "sign_up_to_collection": "اشترك للإضافة إلى المجموعة"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "تم إنشاء الحملة",
             "collection_created": "تم إنشاء المجموعة",
             "collection_updated": "تم تحديث المجموعة",
-            "collection_deleted": "تم حذف المجموعة"
+            "collection_deleted": "تم حذف المجموعة",
+            "redirect_to_verification": "تم إرسال رمز التحقق إلى {email}"
         },
         "error": {
             "something_went_wrong": "هناك خطأ ما"
@@ -2416,6 +2418,13 @@
             "max_width": "يجب أن يكون العرض على الأقل {max} بكسل",
             "min_length": "يجب أن يكون الطول {min} حرفًا على الأقل",
             "max_length": "لا يمكن أن يتجاوز الطول {max} حرفًا"
+        },
+        "failed_order": {
+            "header": "نحن نواجه مشكلة في نظام الدفع",
+            "description": "حدث خطأ ما في طلبك. يرجى المحاولة مرة أخرى في وقت لاحق. للاستفسارات، اتصل بنا على {email}"
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

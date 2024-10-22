@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "Haben Sie Ihr Passwort vergessen?",
-            "enter_email": "Geben Sie die E-Mail-Adresse ein, die Sie bei Ihrer Anmeldung verwendet haben, und wir senden Ihnen einen Link zum Zurücksetzen Ihres Passworts in Ihr E-Mail-Postfach!",
+            "enter_email": "Geben Sie Ihre registrierte E-Mail-Adresse ein, und wir senden Ihnen einen Link zum Zurücksetzen Ihres Passworts in Ihr E-Mail-Postfach!",
             "email": "E-Mail",
             "enter_your_email": "Geben Sie Ihre E-Mail Adresse ein"
         },
@@ -549,7 +549,7 @@
             "see_more_analytics": "Siehe mehr Analytics",
             "realtime_estimates": "Echtzeitschätzungen der letzten 30 Tage",
             "view_analytics": "Analytik sehen",
-            "created_on": "erstellt am {date}"
+            "created_on": "Erstellt am {date}"
         },
         "pricing": {
             "no_thankyou": "Nein, danke"
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "Dieser Benutzer hat keine Kampagnen zur Sammlung hinzugefügt"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "Sammlungen durchsuchen"
         },
         "delete": {
             "are_you_sure_delete": "Sind Sie sicher, dass Sie diese Sammlung löschen wollen?"
         },
         "update": {
-            "update_collection": "Sammlung aktualisieren"
+            "update_collection": "Sammlung aktualisieren",
+            "save": "Speichern Sie"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "Ihr {plan} Plan ist abgelaufen. Bitte verlängern Sie bis {date}",
             "manage_inapp_desc": "Derzeit können Sie nicht auf {plan} upgraden, da unser System noch nicht die gleichzeitige Nutzung von zwei Premium-Plänen unterstützt. Um Ihr Twibbonize-Abonnement unter iOS zu verwalten, öffnen Sie die App, gehen Sie zu „Einstellungen“ und wählen Sie „Abrechnung“.",
             "detailed_info_app": "Alle Details zu Ihrem Abonnement anzeigen. Rechnungen können nur von der Website heruntergeladen werden.",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "Premium Creator Jährlich",
+            "premium_creator_monthly": "Premium Creator Monatlich"
         },
         "account": {
             "update_email": "E-Mail aktualisieren",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "Erhalten Sie Benachrichtigungen über die Posts von Unterstützern auf einer Kampagnenseite",
             "account_recap": "Kontozusammenfassung",
             "account_recap_details": "Wöchentlicher Rückblick auf Unterstützer und Besuche für alle Ihre Kampagnen",
-            "new_post": ""
+            "new_post": "Neuer Beitrag"
         },
         "package": {
             "free": "Freier Plan",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "Melden Sie sich an, um Ihre Kampagne zu veröffentlichen",
         "sign_up_to_create_campaign": "Registrieren Sie sich, um Ihre Kampagne zu veröffentlichen",
         "sign_in_to_like_desc": "Melde dich an, um diesen Kommentar mit „Gefällt mir“ zu markieren",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "Anmelden, um zur Sammlung hinzuzufügen",
+        "sign_in_to_collection_desc": "Anmelden, um diese Kampagne zu Ihren Sammlungen hinzuzufügen",
+        "sign_up_to_collection": "Anmelden, um zur Sammlung hinzuzufügen"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "Kampagne erstellt",
             "collection_created": "Sammlung erstellt",
             "collection_updated": "Sammlung aktualisiert",
-            "collection_deleted": "Sammlung gelöscht"
+            "collection_deleted": "Sammlung gelöscht",
+            "redirect_to_verification": "Der Verifizierungscode wurde gesendet an {email}"
         },
         "error": {
             "something_went_wrong": "Etwas ist schief gelaufen"
@@ -2416,6 +2418,13 @@
             "max_width": "Die Breite muss mindestens {max} Pixel betragen",
             "min_length": "Die Länge muss mindestens {min} Zeichen betragen",
             "max_length": "Die Länge darf {max} Zeichen nicht überschreiten."
+        },
+        "failed_order": {
+            "header": "Wir haben ein Problem mit dem Zahlungssystem",
+            "description": "Bei Ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal. Für Anfragen, kontaktieren Sie uns unter {email}"
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "忘記密碼了嗎？",
-            "enter_email": "輸入您加入時使用的電子郵件地址，我們將向您的電子郵件收件匣發送一個用於重設密碼的連結！",
+            "enter_email": "輸入您註冊的電子郵件地址，我們將向您的電子郵件收件匣發送一個用於重設密碼的連結！",
             "email": "電子郵件",
             "enter_your_email": "輸入你的電子郵件地址"
         },
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "該用戶尚未將任何廣告活動添加到集合中"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "搜尋收藏"
         },
         "delete": {
             "are_you_sure_delete": "您確定要刪除該收藏嗎？"
         },
         "update": {
-            "update_collection": "更新集合"
+            "update_collection": "更新集合",
+            "save": "節省"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "您的{plan}計劃已過期。請在{date}之前續訂",
             "manage_inapp_desc": "目前，您無法升級到{plan}因為我們的系統尚不支援同時擁有兩個高級計劃。要在 iOS 上管理您的 Twibbonize 訂閱，請打開應用程序，轉到“設定”，然後選擇“計費”。",
             "detailed_info_app": "查看您的所有訂閱詳細資訊。發票只能從網站下載。",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "每年優質創作者",
+            "premium_creator_monthly": "資深創作者月刊"
         },
         "account": {
             "update_email": "更新電子郵件",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "取得支持者在活動頁面上發佈的通知",
             "account_recap": "帳戶回顧",
             "account_recap_details": "每週回顧所有活動的支持者和訪問情況",
-            "new_post": ""
+            "new_post": "新貼文"
         },
         "package": {
             "free": "免費規劃",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "登入以發布您的活動",
         "sign_up_to_create_campaign": "註冊以發布您的活動",
         "sign_in_to_like_desc": "登入才能喜歡此評論",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "登入以新增至收藏",
+        "sign_in_to_collection_desc": "登入以將此活動新增至您的收藏中",
+        "sign_up_to_collection": "註冊以新增至收藏"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "活動已建立",
             "collection_created": "收藏已創建",
             "collection_updated": "收藏已更新",
-            "collection_deleted": "收藏已刪除"
+            "collection_deleted": "收藏已刪除",
+            "redirect_to_verification": "驗證碼已發送至{email}"
         },
         "error": {
             "something_went_wrong": "出了點問題"
@@ -2416,6 +2418,13 @@
             "max_width": "寬度必須至少為{max}像素",
             "min_length": "長度必須至少為{min}個字符",
             "max_length": "長度不能超過{max}個字符"
+        },
+        "failed_order": {
+            "header": "我們的支付系統出現問題",
+            "description": "您的請求出了點問題。請稍後重試。如有疑問，請透過 {email} 與我們聯繫"
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

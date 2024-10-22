@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "আপনি কি পাসওয়ার্ড ভুলে গেছেন?",
-            "enter_email": "আপনি যোগদানের সময় যে ইমেল ঠিকানাটি ব্যবহার করেছিলেন তা লিখুন এবং আমরা আপনার ইমেল ইনবক্সে আপনার পাসওয়ার্ড পুনরায় সেট করার জন্য আপনাকে একটি লিঙ্ক পাঠাব!",
+            "enter_email": "আপনার নিবন্ধিত ইমেল ঠিকানা লিখুন এবং আমরা আপনার ইমেল ইনবক্সে আপনার পাসওয়ার্ড পুনরায় সেট করার জন্য আপনাকে একটি লিঙ্ক পাঠাব!",
             "email": "ইমেইল",
             "enter_your_email": "তোমার ই - মেইল ঠিকানা লেখো"
         },
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "এই ব্যবহারকারী সংগ্রহে কোনো প্রচারণা যোগ করেননি"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "সংগ্রহ অনুসন্ধান করুন"
         },
         "delete": {
             "are_you_sure_delete": "আপনি কি এই সংগ্রহটি মুছতে চান?"
         },
         "update": {
-            "update_collection": "সংগ্রহ আপডেট করুন"
+            "update_collection": "সংগ্রহ আপডেট করুন",
+            "save": "সংরক্ষণ করুন"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "আপনার {plan} পরিকল্পনার মেয়াদ শেষ হয়ে গেছে। অনুগ্রহ করে {date} এর মধ্যে পুনর্নবীকরণ করুন",
             "manage_inapp_desc": "বর্তমানে, আপনি {plan} এ আপগ্রেড করতে পারবেন না কারণ আমাদের সিস্টেম এখনও একই সাথে দুটি প্রিমিয়াম প্ল্যান সমর্থন করে না৷ iOS-এ আপনার Twibbonize সাবস্ক্রিপশন পরিচালনা করতে, অ্যাপটি খুলুন, সেটিংসে যান এবং বিলিং নির্বাচন করুন।",
             "detailed_info_app": "আপনার সমস্ত সদস্যতা বিবরণ দেখুন. চালান শুধুমাত্র ওয়েবসাইট থেকে ডাউনলোড করা যাবে.",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "প্রিমিয়াম ক্রিয়েটর বার্ষিক",
+            "premium_creator_monthly": "প্রিমিয়াম ক্রিয়েটর মাসিক"
         },
         "account": {
             "update_email": "আপডেট ইমেল",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "ক্যাম্পেইনের পৃষ্ঠায় সমর্থকের পোস্টের বিজ্ঞপ্তি পান।",
             "account_recap": "অ্যাকাউন্ট রিক্যাপ",
             "account_recap_details": "আপনার সমস্ত ক্যাম্পেইনের জন্য সমর্থকদের সাপ্তাহিক রিক্যাপ এবং ভিজিট",
-            "new_post": ""
+            "new_post": "নতুন পোস্ট"
         },
         "package": {
             "free": "বিনামূল্যে পরিকল্পনা",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "আপনার ক্যাম্পেইন প্রকাশ করতে লগ ইন করুন",
         "sign_up_to_create_campaign": "আপনার ক্যাম্পেইন প্রকাশ করতে সাইন আপ করুন",
         "sign_in_to_like_desc": "এই মন্তব্য লাইক লগইন করুন",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "সংগ্রহে যোগ করতে লগ ইন করুন",
+        "sign_in_to_collection_desc": "আপনার সংগ্রহে এই প্রচারাভিযান যোগ করতে লগইন করুন",
+        "sign_up_to_collection": "সংগ্রহে যোগ করতে সাইন আপ করুন"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "প্রচারাভিযান তৈরি",
             "collection_created": "সংগ্রহ তৈরি করা হয়েছে",
             "collection_updated": "সংগ্রহ আপডেট করা হয়েছে",
-            "collection_deleted": "সংগ্রহ মুছে ফেলা হয়েছে"
+            "collection_deleted": "সংগ্রহ মুছে ফেলা হয়েছে",
+            "redirect_to_verification": "যাচাইকরণ কোড {email} এ পাঠানো হয়েছে"
         },
         "error": {
             "something_went_wrong": "কিছু ভুল হয়েছে"
@@ -2416,6 +2418,13 @@
             "max_width": "প্রস্থ কমপক্ষে {max} পিক্সেল হতে হবে৷",
             "min_length": "দৈর্ঘ্য কমপক্ষে {min} অক্ষর হতে হবে",
             "max_length": "দৈর্ঘ্য {max} অক্ষরের বেশি হতে পারে না৷"
+        },
+        "failed_order": {
+            "header": "পেমেন্ট সিস্টেমে আমাদের সমস্যা হচ্ছে",
+            "description": "আপনার অনুরোধে কিছু ভুল হয়েছে। পরে আবার চেষ্টা করুন. অনুসন্ধানের জন্য, {email} এ আমাদের সাথে যোগাযোগ করুন"
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

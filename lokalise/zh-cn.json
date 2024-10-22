@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "忘记密码了吗？",
-            "enter_email": "输入您加入时使用的电子邮件地址，我们将向您的电子邮件收件箱发送一个链接，以便您重置密码！",
+            "enter_email": "输入您的注册电子邮件地址，我们将向您的邮箱发送重置密码的链接！",
             "email": "电子邮件",
             "enter_your_email": "输入你的电子邮箱地址"
         },
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "该用户尚未添加任何活动到收藏夹"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "搜索收藏"
         },
         "delete": {
             "are_you_sure_delete": "您确实要删除该收藏集吗？"
         },
         "update": {
-            "update_collection": "更新集合"
+            "update_collection": "更新集合",
+            "save": "节省"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "您的{plan}计划已过期。请在{date}前续订",
             "manage_inapp_desc": "目前，您无法升级到{plan} ，因为我们的系统尚不支持同时拥有两个高级计划。要在 iOS 上管理您的 Twibbonize 订阅，请打开应用，转到“设置”，然后选择“计费”。",
             "detailed_info_app": "查看所有订阅详情。发票只能从网站下载。",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "年度优质创作者",
+            "premium_creator_monthly": "优质创作者月刊"
         },
         "account": {
             "update_email": "更新电子邮件",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "获取支持者在活动页面上发布的帖子的通知",
             "account_recap": "账户回顾",
             "account_recap_details": "每周回顾所有活动的支持者和访问情况",
-            "new_post": ""
+            "new_post": "新帖子"
         },
         "package": {
             "free": "免费计划",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "登录以发布您的活动",
         "sign_up_to_create_campaign": "注册以发布您的活动",
         "sign_in_to_like_desc": "登录即可赞此评论",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "登录以添加到收藏夹",
+        "sign_in_to_collection_desc": "登录以将此活动添加到您的收藏夹",
+        "sign_up_to_collection": "注册以添加到收藏夹"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "活动已创建",
             "collection_created": "已创建收藏集",
             "collection_updated": "收藏已更新",
-            "collection_deleted": "收藏集已删除"
+            "collection_deleted": "收藏集已删除",
+            "redirect_to_verification": "验证码已发送至{email}"
         },
         "error": {
             "something_went_wrong": "出了些问题"
@@ -2416,6 +2418,13 @@
             "max_width": "宽度必须至少为{max}像素",
             "min_length": "长度必须至少为{min}个字符",
             "max_length": "长度不能超过{max}个字符"
+        },
+        "failed_order": {
+            "header": "我们的支付系统出了问题",
+            "description": "您的请求出现错误。请稍后重试。如有疑问，请联系我们：{email}"
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

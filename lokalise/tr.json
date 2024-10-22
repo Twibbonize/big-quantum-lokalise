@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "Şifrenizi mi unuttunuz?",
-            "enter_email": "Üye olurken kullandığınız e-posta adresinizi girin, size şifrenizi sıfırlamanız için e-posta gelen kutunuza bir bağlantı gönderelim!",
+            "enter_email": "Kayıtlı e-posta adresinizi girin ve size şifrenizi sıfırlamanız için e-posta gelen kutunuza bir bağlantı gönderelim!",
             "email": "E-posta",
             "enter_your_email": "E-posta adresinizi girin"
         },
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "Bu kullanıcı Koleksiyona herhangi bir Kampanya eklemedi"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "Koleksiyonlarda Ara"
         },
         "delete": {
             "are_you_sure_delete": "Bu koleksiyonu silmek istediğinizden emin misiniz?"
         },
         "update": {
-            "update_collection": "Koleksiyon Güncelleme"
+            "update_collection": "Koleksiyon Güncelleme",
+            "save": "Kaydet"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "{plan} planınızın süresi doldu. Lütfen şu tarihe kadar yenileyin {date}",
             "manage_inapp_desc": "Şu anda, sistemimiz henüz aynı anda iki premium plana sahip olmayı desteklemediğinden {plan} sürümüne yükseltemezsiniz. Twibbonize aboneliğinizi iOS'ta yönetmek için uygulamayı açın, Ayarlar'a gidin ve Faturalandırma'yı seçin.",
             "detailed_info_app": "Tüm abonelik detaylarınızı görüntüleyin. Faturalar sadece web sitesinden indirilebilir.",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "Yıllık Prim Yaratıcısı",
+            "premium_creator_monthly": "Aylık Premium İçerik Oluşturucu"
         },
         "account": {
             "update_email": "E-posta Güncelleme",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "Bir kampanya sayfasında destekçinin gönderileriyle ilgili bildirimler alın",
             "account_recap": "Hesap Özeti",
             "account_recap_details": "Tüm Kampanyalarınız için destekçilerin ve Ziyaretlerin Haftalık Özeti",
-            "new_post": ""
+            "new_post": "Yeni Gönderi"
         },
         "package": {
             "free": "Ücretsiz Plan",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "Kampanyanızı yayınlamak için giriş yapın",
         "sign_up_to_create_campaign": "Kampanyanızı Yayınlamak için Kaydolun",
         "sign_in_to_like_desc": "Bu yorumu beğenmek için giriş yapın",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "Koleksiyona Eklemek için Giriş Yapın",
+        "sign_in_to_collection_desc": "Bu kampanyayı koleksiyonlarınıza eklemek için giriş yapın",
+        "sign_up_to_collection": "Koleksiyona Eklemek için Kaydolun"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "Kampanya Oluşturuldu",
             "collection_created": "Koleksiyon Oluşturuldu",
             "collection_updated": "Koleksiyon Güncellendi",
-            "collection_deleted": "Koleksiyon Silindi"
+            "collection_deleted": "Koleksiyon Silindi",
+            "redirect_to_verification": "Doğrulama kodu şu adrese gönderildi {email}"
         },
         "error": {
             "something_went_wrong": "Bir şeyler yanlış gitti"
@@ -2416,6 +2418,13 @@
             "max_width": "Genişlik en az {max} piksel olmalıdır",
             "min_length": "Uzunluk en az {min} karakter olmalıdır",
             "max_length": "Uzunluk {max} karakteri aşamaz"
+        },
+        "failed_order": {
+            "header": "Ödeme sistemiyle ilgili bir sorun yaşıyoruz",
+            "description": "İsteğinizle ilgili bir sorun oluştu. Lütfen daha sonra tekrar deneyin. Sorularınız için {email} adresinden bize ulaşın."
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {
