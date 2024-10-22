@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "パスワードをお忘れですか？",
-            "enter_email": "入会時に使用したEメールアドレスを入力してください。パスワードをリセットするためのリンクをEメールの受信トレイにお送りします！",
+            "enter_email": "ご登録のEメールアドレスを入力すると、パスワードをリセットするためのリンクをEメールボックスにお送りします！",
             "email": "電子メール",
             "enter_your_email": "Eメールアドレスを入力してください。"
         },
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "このユーザーはコレクションにキャンペーンを追加していません"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "コレクション検索"
         },
         "delete": {
             "are_you_sure_delete": "本当にこのコレクションを削除しますか？"
         },
         "update": {
-            "update_collection": "更新コレクション"
+            "update_collection": "更新コレクション",
+            "save": "セーブ"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "{plan} プランの有効期限が切れました。以下の方法で更新してください。{date}",
             "manage_inapp_desc": "現在、当社のシステムでは 2 つのプレミアム プランを同時にサポートしていないため、 {plan}にアップグレードすることはできません。iOS で Twibbonize サブスクリプションを管理するには、アプリを開いて [設定] に移動し、[請求] を選択します。",
             "detailed_info_app": "購読の詳細をすべて表示します。請求書はウェブサイトからのみダウンロードできます。",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "プレミアムクリエーター",
+            "premium_creator_monthly": "月刊プレミアムクリエイター"
         },
         "account": {
             "update_email": "電子メールの更新",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "キャンペーンページでサポーターの投稿の通知を受け取ります",
             "account_recap": "アカウントの概要",
             "account_recap_details": "すべてのキャンペーンの支持者と訪問数の週次要約",
-            "new_post": ""
+            "new_post": "新しい投稿"
         },
         "package": {
             "free": "フリープラン",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "ログインしてキャンペーンを公開する",
         "sign_up_to_create_campaign": "キャンペーン掲載のお申し込み",
         "sign_in_to_like_desc": "このコメントをいいねするにはログインしてください",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "ログイン コレクションに追加",
+        "sign_in_to_collection_desc": "ログインしてこのキャンペーンをコレクションに追加する",
+        "sign_up_to_collection": "コレクションに追加する"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "キャンペーンが作成されました",
             "collection_created": "コレクションが作成されました",
             "collection_updated": "コレクションが更新されました",
-            "collection_deleted": "コレクションが削除されました"
+            "collection_deleted": "コレクションが削除されました",
+            "redirect_to_verification": "検証コードが送信されました{email}"
         },
         "error": {
             "something_went_wrong": "問題が発生しました"
@@ -2416,6 +2418,13 @@
             "max_width": "幅は少なくとも{max}ピクセルである必要があります",
             "min_length": "長さは少なくとも{min}文字である必要があります",
             "max_length": "長さは{max}文字を超えることはできません"
+        },
+        "failed_order": {
+            "header": "決済システムで問題が発生しています",
+            "description": "リクエストに何か問題が発生しました。後でもう一度お試しください。お問い合わせは {email} までご連絡ください。"
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

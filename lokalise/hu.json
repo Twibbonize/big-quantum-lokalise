@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "Elfelejtette jelszavát?",
-            "enter_email": "Add meg a csatlakozáskor használt e-mail címedet, és mi elküldünk egy linket a jelszavad visszaállításához a postaládádba!",
+            "enter_email": "Adja meg regisztrált e-mail címét, és mi elküldünk egy linket a jelszó visszaállításához az e-mail postaládájába!",
             "email": "E-mail",
             "enter_your_email": "Adja meg az e-mail címét"
         },
@@ -549,7 +549,7 @@
             "see_more_analytics": "További elemzések megtekintése",
             "realtime_estimates": "Valós idejű becslések az elmúlt 30 napból",
             "view_analytics": "Lásd az Analitikát",
-            "created_on": "létrehozva: {date}"
+            "created_on": "Létrehozva: {date}"
         },
         "pricing": {
             "no_thankyou": "Nem, köszönöm"
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "Ez a felhasználó egyetlen kampányt sem adott hozzá a gyűjteményhez"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "Keresés a gyűjteményekben"
         },
         "delete": {
             "are_you_sure_delete": "Biztos, hogy törölni szeretné ezt a gyűjteményt?"
         },
         "update": {
-            "update_collection": "Update Collection"
+            "update_collection": "Update Collection",
+            "save": "Mentés"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "A {plan} terved lejárt. Kérjük, újítsa meg {date}",
             "manage_inapp_desc": "Jelenleg nem frissíthet a {plan} csomagra, mivel rendszerünk még nem támogatja a két prémium csomag egyidejű használatát. A Twibbonize-előfizetés iOS rendszeren történő kezeléséhez nyissa meg az alkalmazást, lépjen a Beállításokba, és válassza a Számlázás lehetőséget.",
             "detailed_info_app": "Az összes előfizetési adat megtekintése. A számlák csak a weboldalról tölthetők le.",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "Premium Creator Évente",
+            "premium_creator_monthly": "Prémium Creator havonta"
         },
         "account": {
             "update_email": "E-mail frissítése",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "Értesítéseket kaphat a támogatói bejegyzésekről egy kampányoldalon",
             "account_recap": "Fiók összefoglaló",
             "account_recap_details": "Heti összefoglaló a támogatókról és az összes kampány látogatásáról",
-            "new_post": ""
+            "new_post": "Új bejegyzés"
         },
         "package": {
             "free": "Ingyenes terv",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "Jelentkezzen be a kampány közzétételéhez",
         "sign_up_to_create_campaign": "Regisztráljon a kampánya közzétételére",
         "sign_in_to_like_desc": "Jelentkezzen be, hogy kedvelje ezt a megjegyzést",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "Bejelentkezés a gyűjteményhez való hozzáadáshoz",
+        "sign_in_to_collection_desc": "Jelentkezzen be, hogy hozzáadja ezt a kampányt a gyűjteményéhez",
+        "sign_up_to_collection": "Regisztráljon a gyűjteményhez való hozzáadáshoz"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "Kampány létrehozva",
             "collection_created": "Gyűjtemény létrehozva",
             "collection_updated": "Gyűjtemény frissítve",
-            "collection_deleted": "Gyűjtemény törölve"
+            "collection_deleted": "Gyűjtemény törölve",
+            "redirect_to_verification": "Az ellenőrző kódot elküldték a következő címre {email}"
         },
         "error": {
             "something_went_wrong": "Valami elromlott"
@@ -2416,6 +2418,13 @@
             "max_width": "A szélességnek legalább {max} képpontnak kell lennie",
             "min_length": "A hossznak legalább {min} karakternek kell lennie",
             "max_length": "A hossza nem haladhatja meg {max} karaktert"
+        },
+        "failed_order": {
+            "header": "Problémánk van a fizetési rendszerrel.",
+            "description": "Valami rosszul sült el a kéréseddel kapcsolatban. Kérjük, próbálja meg később újra. Érdeklődni a {email} címen lehet."
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

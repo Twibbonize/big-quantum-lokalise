@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "ลืมรหัสผ่านหรือไม่?",
-            "enter_email": "ป้อนที่อยู่อีเมลที่คุณใช้เมื่อเข้าร่วม แล้วเราจะส่งลิงก์เพื่อรีเซ็ตรหัสผ่านไปยังกล่องจดหมายอีเมลของคุณ!",
+            "enter_email": "ป้อนที่อยู่อีเมลที่ลงทะเบียนของคุณ และเราจะส่งลิงก์สำหรับรีเซ็ตรหัสผ่านไปที่กล่องจดหมายอีเมลของคุณ!",
             "email": "อีเมล",
             "enter_your_email": "กรอกที่อยู่อีเมล์ของคุณ"
         },
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "ผู้ใช้รายนี้ไม่ได้เพิ่มแคมเปญใดๆ ลงในคอลเลกชั่น"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "ค้นหาคอลเลกชั่น"
         },
         "delete": {
             "are_you_sure_delete": "คุณแน่ใจว่าต้องการลบคอลเลกชันนี้หรือไม่?"
         },
         "update": {
-            "update_collection": "อัพเดทคอลเลคชั่น"
+            "update_collection": "อัพเดทคอลเลคชั่น",
+            "save": "บันทึก"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "แผน {plan} ของคุณหมดอายุแล้ว กรุณาต่ออายุภายใน {date}",
             "manage_inapp_desc": "ขณะนี้ คุณไม่สามารถอัปเกรดเป็น {plan} เนื่องจากระบบของเรายังไม่รองรับการมีแผนพรีเมียมสองแผนพร้อมกัน หากต้องการจัดการการสมัครใช้งาน Twibbonize บน iOS ให้เปิดแอป ไปที่การตั้งค่า และเลือกการเรียกเก็บเงิน",
             "detailed_info_app": "ดูรายละเอียดการสมัครของคุณทั้งหมด สามารถดาวน์โหลดใบแจ้งหนี้ได้จากเว็บไซต์เท่านั้น",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "ผู้สร้างพรีเมี่ยมรายปี",
+            "premium_creator_monthly": "ผู้สร้างพรีเมียมรายเดือน"
         },
         "account": {
             "update_email": "อัพเดทอีเมล์",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "รับการแจ้งเตือนโพสต์ของผู้สนับสนุนในหน้าแคมเปญ",
             "account_recap": "สรุปบัญชี",
             "account_recap_details": "สรุปผู้สนับสนุนและการเข้าชมรายสัปดาห์สำหรับแคมเปญทั้งหมดของคุณ",
-            "new_post": ""
+            "new_post": "โพสใหม่"
         },
         "package": {
             "free": "แผนฟรี",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "เข้าสู่ระบบเพื่อเผยแพร่แคมเปญของคุณ",
         "sign_up_to_create_campaign": "ลงทะเบียนเพื่อเผยแพร่แคมเปญของคุณ",
         "sign_in_to_like_desc": "เข้าสู่ระบบเพื่อชอบความคิดเห็นนี้",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "เข้าสู่ระบบเพื่อเพิ่มในคอลเลกชัน",
+        "sign_in_to_collection_desc": "เข้าสู่ระบบเพื่อเพิ่มแคมเปญนี้ลงในคอลเลกชั่นของคุณ",
+        "sign_up_to_collection": "ลงทะเบียนเพื่อเพิ่มเข้าในคอลเลคชัน"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "สร้างแคมเปญแล้ว",
             "collection_created": "สร้างคอลเลคชั่นแล้ว",
             "collection_updated": "อัพเดตคอลเลคชั่นแล้ว",
-            "collection_deleted": "คอลเลกชันที่ถูกลบ"
+            "collection_deleted": "คอลเลกชันที่ถูกลบ",
+            "redirect_to_verification": "รหัสยืนยันได้ถูกส่งไปยัง {email} แล้ว"
         },
         "error": {
             "something_went_wrong": "บางอย่างผิดพลาด"
@@ -2416,6 +2418,13 @@
             "max_width": "ความกว้างต้องมีอย่างน้อย {max} พิกเซล",
             "min_length": "ความยาวต้องไม่ต่ำกว่า {min} อักขระ",
             "max_length": "ความยาวไม่สามารถเกิน {max} อักขระ"
+        },
+        "failed_order": {
+            "header": "เรากำลังประสบปัญหาเกี่ยวกับระบบการชำระเงิน",
+            "description": "มีบางอย่างผิดพลาดกับคำขอของคุณ โปรดลองอีกครั้งในภายหลัง หากต้องการสอบถาม โปรดติดต่อเราที่ {email}"
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "Har du glemt din adgangskode?",
-            "enter_email": "Indtast den e-mailadresse, du brugte, da du tilmeldte dig, så sender vi dig et link til at nulstille din adgangskode til din e-mailindbakke!",
+            "enter_email": "Indtast din registrerede e-mailadresse, så sender vi dig et link til at nulstille din adgangskode til din e-mailindbakke!",
             "email": "E-mail",
             "enter_your_email": "Indtast din e-mailadresse"
         },
@@ -549,7 +549,7 @@
             "see_more_analytics": "Se flere Analyser",
             "realtime_estimates": "Realtidsestimater fra de sidste 30 dage",
             "view_analytics": "Vis Analyser",
-            "created_on": "oprettet den {date}"
+            "created_on": "Oprettet den {date}"
         },
         "pricing": {
             "no_thankyou": "Nej, tak"
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "Denne bruger har ikke tilføjet nogen kampagner til samlingen"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "Søg i samlinger"
         },
         "delete": {
             "are_you_sure_delete": "Er du sikker på, at du vil slette denne samling?"
         },
         "update": {
-            "update_collection": "Opdatering af samling"
+            "update_collection": "Opdatering af samling",
+            "save": "Gemme"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "Din {plan} plan er udløbet. Forny venligst inden {date}",
             "manage_inapp_desc": "I øjeblikket kan du ikke opgradere til {plan} da vores system endnu ikke understøtter at have to premium-abonnementer samtidigt. For at administrere dit Twibbonize-abonnement på iOS skal du åbne appen, gå til Indstillinger og vælge Fakturering.",
             "detailed_info_app": "Se alle dine abonnementsoplysninger. Fakturaer kan kun downloades fra hjemmesiden.",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "Præmieskaber årligt",
+            "premium_creator_monthly": "Premium Creator månedligt"
         },
         "account": {
             "update_email": "Opdatering af e-mail",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "Få meddelelser fra supporterens indlæg på en kampagneside",
             "account_recap": "Kontooversigt",
             "account_recap_details": "Ugentlig oversigt over tilhængere og besøg for alle dine kampagner",
-            "new_post": ""
+            "new_post": "Nyt indlæg"
         },
         "package": {
             "free": "Gratis plan",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "Log ind for at udgive din kampagne",
         "sign_up_to_create_campaign": "Registrer dig for at offentliggøre din kampagne",
         "sign_in_to_like_desc": "Log ind for at synes godt om denne kommentar",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "Log ind for at tilføje til samlingen",
+        "sign_in_to_collection_desc": "Log ind for at tilføje denne kampagne til dine samlinger",
+        "sign_up_to_collection": "Skriv dig op til Tilføj til samling"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "Kampagne oprettet",
             "collection_created": "Samling oprettet",
             "collection_updated": "Samling opdateret",
-            "collection_deleted": "Samling slettet"
+            "collection_deleted": "Samling slettet",
+            "redirect_to_verification": "Bekræftelseskode er sendt til {email}"
         },
         "error": {
             "something_went_wrong": "Noget gik galt"
@@ -2416,6 +2418,13 @@
             "max_width": "Bredden skal være mindst {max} pixels",
             "min_length": "Længden skal være mindst {min} tegn",
             "max_length": "Længden må ikke overstige {max} tegn"
+        },
+        "failed_order": {
+            "header": "Vi har et problem med betalingssystemet",
+            "description": "Noget gik galt med din anmodning. Prøv venligst igen senere. For forespørgsler, kontakt os på {email}"
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

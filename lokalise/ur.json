@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "اپنا پاس ورڈ بھول گئے؟",
-            "enter_email": "وہ ای میل ایڈریس درج کریں جو آپ نے شمولیت کے وقت استعمال کیا تھا اور ہم آپ کو آپ کے ای میل ان باکس میں اپنا پاس ورڈ دوبارہ ترتیب دینے کے لیے ایک لنک بھیجیں گے!",
+            "enter_email": "اپنا رجسٹرڈ ای میل ایڈریس درج کریں اور ہم آپ کو آپ کے ای میل ان باکس میں اپنا پاس ورڈ ری سیٹ کرنے کے لیے ایک لنک بھیجیں گے!",
             "email": "ای میل",
             "enter_your_email": "اپنا ای میل کا پتا لکھو"
         },
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "اس صارف نے مجموعہ میں کوئی مہم شامل نہیں کی ہے۔"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "مجموعے تلاش کریں۔"
         },
         "delete": {
             "are_you_sure_delete": "کیا آپ واقعی اس مجموعہ کو حذف کرنا چاہتے ہیں؟"
         },
         "update": {
-            "update_collection": "اپ ڈیٹ کلیکشن"
+            "update_collection": "اپ ڈیٹ کلیکشن",
+            "save": "محفوظ کریں۔"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "آپ کا {plan} پلان ختم ہو گیا ہے۔ براہ کرم {date} تک تجدید کریں",
             "manage_inapp_desc": "فی الحال، آپ {plan} میں اپ گریڈ نہیں کر سکتے کیونکہ ہمارا سسٹم ابھی تک ایک ساتھ دو پریمیم پلانز رکھنے کی حمایت نہیں کرتا ہے۔ iOS پر اپنے Twibbonize سبسکرپشن کا نظم کرنے کے لیے، ایپ کھولیں، سیٹنگز پر جائیں، اور بلنگ کو منتخب کریں۔",
             "detailed_info_app": "اپنی سبسکرپشن کی تمام تفصیلات دیکھیں۔ رسیدیں صرف ویب سائٹ سے ڈاؤن لوڈ کی جا سکتی ہیں۔",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "پریمیم تخلیق کار سالانہ",
+            "premium_creator_monthly": "پریمیم تخلیق کار ماہانہ"
         },
         "account": {
             "update_email": "ای میل کو اپ ڈیٹ کریں۔",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "مہم کے صفحے پر حمایتی کی پوسٹ کی اطلاعات حاصل کریں",
             "account_recap": "اکاؤنٹ ریکیپ",
             "account_recap_details": "آپ کی تمام مہمات کے لیے حامیوں اور وزٹس کا ہفتہ وار جائزہ",
-            "new_post": ""
+            "new_post": "نئی پوسٹ"
         },
         "package": {
             "free": "مفت منصوبہ",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "اپنی مہم کو شائع کرنے کے لیے لاگ ان کریں۔",
         "sign_up_to_create_campaign": "اپنی مہم کو شائع کرنے کے لیے سائن اپ کریں۔",
         "sign_in_to_like_desc": "اس تبصرہ کو پسند کرنے کے لیے لاگ ان کریں۔",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "کلیکشن میں شامل کرنے کے لیے لاگ ان کریں۔",
+        "sign_in_to_collection_desc": "اس مہم کو اپنے مجموعوں میں شامل کرنے کے لیے لاگ ان کریں۔",
+        "sign_up_to_collection": "مجموعہ میں شامل کرنے کے لیے سائن اپ کریں۔"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "مہم بنائی گئی۔",
             "collection_created": "مجموعہ تخلیق کیا گیا۔",
             "collection_updated": "مجموعہ اپ ڈیٹ ہو گیا۔",
-            "collection_deleted": "مجموعہ حذف کر دیا گیا۔"
+            "collection_deleted": "مجموعہ حذف کر دیا گیا۔",
+            "redirect_to_verification": "توثیقی کوڈ {email} پر بھیج دیا گیا ہے"
         },
         "error": {
             "something_went_wrong": "کچھ غلط ہو گیا"
@@ -2416,6 +2418,13 @@
             "max_width": "چوڑائی کم از کم {max} پکسلز ہونی چاہیے۔",
             "min_length": "لمبائی کم از کم {min} حروف ہونی چاہیے۔",
             "max_length": "لمبائی {max} حروف سے زیادہ نہیں ہو سکتی"
+        },
+        "failed_order": {
+            "header": "ہمیں ادائیگی کے نظام میں مسئلہ درپیش ہے۔",
+            "description": "آپ کی درخواست میں کچھ غلط ہو گیا۔ براہ کرم بعد میں دوبارہ کوشش کریں۔ پوچھ گچھ کے لیے، ہم سے {email} پر رابطہ کریں۔"
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "Unohditko salasanasi?",
-            "enter_email": "Kirjoita sähköpostiosoite, jota käytit liittyessäsi, ja lähetämme sinulle linkin salasanasi palauttamiseksi sähköpostiisi!",
+            "enter_email": "Kirjoita rekisteröitynyt sähköpostiosoitteesi, niin lähetämme sinulle linkin salasanasi palauttamiseksi sähköpostiisi!",
             "email": "Sähköposti",
             "enter_your_email": "Kirjoita sähköpostiosoitteesi"
         },
@@ -549,7 +549,7 @@
             "see_more_analytics": "Katso lisää analytiikkaa",
             "realtime_estimates": "Reaaliaikaiset arviot viimeisten 30 päivän ajalta",
             "view_analytics": "Katso Analytiikka",
-            "created_on": "luotu {date}"
+            "created_on": "Luotu {date}"
         },
         "pricing": {
             "no_thankyou": "Ei, kiitos"
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "Tämä käyttäjä ei ole lisännyt yhtään kampanjoita kokoelmaan"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "Haku kokoelmista"
         },
         "delete": {
             "are_you_sure_delete": "Haluatko varmasti poistaa tämän kokoelman?"
         },
         "update": {
-            "update_collection": "Update Collection"
+            "update_collection": "Update Collection",
+            "save": "Tallenna"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "{plan} -suunnitelmasi on päättynyt. Ole hyvä ja uudista viimeistään {date}",
             "manage_inapp_desc": "Tällä hetkellä et voi päivittää palveluun {plan} , koska järjestelmämme ei vielä tue kahden premium-paketin käyttöä samanaikaisesti. Voit hallita Twibbonize-tilaustasi iOS:ssä avaamalla sovelluksen, siirtymällä kohtaan Asetukset ja valitsemalla Laskutus.",
             "detailed_info_app": "Näytä kaikki tilauksesi tiedot. Laskut voi ladata vain verkkosivustolta.",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "Premium Creator Vuosittain",
+            "premium_creator_monthly": "Premium Creator Kuukausittainen"
         },
         "account": {
             "update_email": "Päivitä sähköposti",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "Saat ilmoituksia os-tukijoiden julkaisusta kampanjasivulla",
             "account_recap": "Tilin yhteenveto",
             "account_recap_details": "Viikoittainen yhteenveto kaikkien kampanjoidesi kannattajista ja vierailuista",
-            "new_post": ""
+            "new_post": "Uusi viesti"
         },
         "package": {
             "free": "Ilmainen suunnitelma",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "Kirjaudu sisään kampanjan julkaisemiseksi",
         "sign_up_to_create_campaign": "Rekisteröidy kampanjan julkaisemiseen",
         "sign_in_to_like_desc": "Kirjaudu sisään tykätäksesi tästä kommentista",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "Kirjaudu sisään lisätäksesi kokoelmaan",
+        "sign_in_to_collection_desc": "Kirjaudu sisään lisätäksesi tämän kampanjan kokoelmiin",
+        "sign_up_to_collection": "Rekisteröidy lisätäksesi kokoelmaan"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "Kampanja luotu",
             "collection_created": "Kokoelma luotu",
             "collection_updated": "Kokoelma päivitetty",
-            "collection_deleted": "Kokoelma poistettu"
+            "collection_deleted": "Kokoelma poistettu",
+            "redirect_to_verification": "Vahvistuskoodi on lähetetty osoitteeseen {email}"
         },
         "error": {
             "something_went_wrong": "Jotain meni pieleen"
@@ -2416,6 +2418,13 @@
             "max_width": "Leveyden on oltava vähintään {max} pikseliä",
             "min_length": "Pituuden on oltava vähintään {min} merkkiä",
             "max_length": "Pituus ei saa ylittää {max} merkkiä"
+        },
+        "failed_order": {
+            "header": "Meillä on ongelma maksujärjestelmän kanssa.",
+            "description": "Jokin meni pieleen pyyntösi kanssa. Yritä myöhemmin uudelleen. Ota yhteyttä osoitteeseen {email}."
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

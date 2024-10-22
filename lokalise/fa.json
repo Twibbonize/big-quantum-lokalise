@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "رمز عبور خود را فراموش کرده اید؟",
-            "enter_email": "آدرس ایمیلی را که هنگام عضویت استفاده کردید وارد کنید و ما پیوندی برای بازنشانی رمز عبور به صندوق ورودی ایمیل برای شما ارسال می کنیم!",
+            "enter_email": "آدرس ایمیل ثبت شده خود را وارد کنید و ما پیوندی برای بازنشانی رمز عبور به صندوق ورودی ایمیل برای شما ارسال می کنیم!",
             "email": "پست الکترونیک",
             "enter_your_email": "آدرس ایمیل خود را وارد کنید"
         },
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "این کاربر هیچ کمپینی به مجموعه اضافه نکرده است"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "جستجوی مجموعه ها"
         },
         "delete": {
             "are_you_sure_delete": "آیا مطمئن هستید که می خواهید این مجموعه را حذف کنید؟"
         },
         "update": {
-            "update_collection": "به روز رسانی مجموعه"
+            "update_collection": "به روز رسانی مجموعه",
+            "save": "ذخیره کنید"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "طرح {plan} شما منقضی شده است. لطفا تا {date} تمدید کنید",
             "manage_inapp_desc": "در حال حاضر، نمی‌توانید به {plan} ارتقا دهید زیرا سیستم ما هنوز از داشتن دو طرح ممتاز به طور همزمان پشتیبانی نمی‌کند. برای مدیریت اشتراک Twibbonize خود در iOS، برنامه را باز کنید، به تنظیمات بروید و صورتحساب را انتخاب کنید.",
             "detailed_info_app": "تمام جزئیات اشتراک خود را مشاهده کنید. فاکتورها فقط از وب سایت قابل دانلود هستند.",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "ایجاد کننده حق بیمه سالانه",
+            "premium_creator_monthly": "ماهنامه سازنده حق بیمه"
         },
         "account": {
             "update_email": "ایمیل را به روز کنید",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "دریافت اعلان‌ها برای پست حامی در یک صفحه کمپین",
             "account_recap": "خلاصه حساب",
             "account_recap_details": "خلاصه هفتگی حامیان و بازدیدها برای همه کمپین های شما",
-            "new_post": ""
+            "new_post": "پست جدید"
         },
         "package": {
             "free": "طرح رایگان",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "برای انتشار کمپین خود وارد شوید",
         "sign_up_to_create_campaign": "برای انتشار کمپین خود ثبت نام کنید",
         "sign_in_to_like_desc": "برای لایک کردن این نظر وارد شوید",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "برای افزودن به مجموعه وارد شوید",
+        "sign_in_to_collection_desc": "برای افزودن این کمپین به مجموعه های خود وارد شوید",
+        "sign_up_to_collection": "برای افزودن به مجموعه ثبت نام کنید"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "کمپین ایجاد شد",
             "collection_created": "مجموعه ایجاد شد",
             "collection_updated": "مجموعه به روز شد",
-            "collection_deleted": "مجموعه حذف شد"
+            "collection_deleted": "مجموعه حذف شد",
+            "redirect_to_verification": "کد تأیید به {email} ارسال شد"
         },
         "error": {
             "something_went_wrong": "مشکلی پیش آمد"
@@ -2416,6 +2418,13 @@
             "max_width": "عرض باید حداقل {max} پیکسل باشد",
             "min_length": "طول باید حداقل {min} کاراکتر باشد",
             "max_length": "طول نمی تواند از {max} نویسه بیشتر شود"
+        },
+        "failed_order": {
+            "header": "ما با سیستم پرداخت مشکل داریم",
+            "description": "مشکلی در درخواست شما پیش آمد. لطفاً بعداً دوباره امتحان کنید. برای سوالات، با ما در {email} تماس بگیرید"
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

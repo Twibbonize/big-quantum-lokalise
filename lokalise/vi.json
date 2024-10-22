@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "Quên mật khẩu?",
-            "enter_email": "Nhập địa chỉ email bạn đã sử dụng khi tham gia và chúng tôi sẽ gửi cho bạn liên kết để đặt lại mật khẩu vào hộp thư email của bạn!",
+            "enter_email": "Nhập địa chỉ email đã đăng ký của bạn và chúng tôi sẽ gửi cho bạn liên kết đặt lại mật khẩu vào hộp thư đến email của bạn!",
             "email": "E-mail",
             "enter_your_email": "nhập địa chỉ email của bạn"
         },
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "Người dùng này chưa thêm bất kỳ Chiến dịch nào vào Bộ sưu tập"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "Tìm kiếm Bộ sưu tập"
         },
         "delete": {
             "are_you_sure_delete": "Bạn có chắc chắn muốn xóa bộ sưu tập này không?"
         },
         "update": {
-            "update_collection": "Cập nhật Bộ sưu tập"
+            "update_collection": "Cập nhật Bộ sưu tập",
+            "save": "Cứu"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "Gói {plan} của bạn đã hết hạn. Vui lòng gia hạn trước {date}",
             "manage_inapp_desc": "Hiện tại, bạn không thể nâng cấp lên {plan} vì hệ thống của chúng tôi chưa hỗ trợ việc có hai gói cao cấp cùng lúc. Để quản lý đăng ký Twibbonize của bạn trên iOS, hãy mở ứng dụng, đi tới Cài đặt và chọn Thanh toán.",
             "detailed_info_app": "Xem tất cả thông tin chi tiết về đăng ký của bạn. Hóa đơn chỉ có thể được tải xuống từ trang web.",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "Người sáng tạo cao cấp hàng năm",
+            "premium_creator_monthly": "Người sáng tạo cao cấp hàng tháng"
         },
         "account": {
             "update_email": "Cập nhật email",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "Nhận thông báo bài đăng của người ủng hộ hệ điều hành trên trang chiến dịch",
             "account_recap": "Tóm tắt tài khoản",
             "account_recap_details": "Bản tóm tắt hàng tuần về số người ủng hộ và lượt truy cập cho tất cả các chiến dịch của bạn",
-            "new_post": ""
+            "new_post": "Bài viết mới"
         },
         "package": {
             "free": "Gói miễn phí",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "Đăng nhập để xuất bản chiến dịch của bạn",
         "sign_up_to_create_campaign": "Đăng ký để xuất bản chiến dịch của bạn",
         "sign_in_to_like_desc": "Đăng nhập để thích bình luận này",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "Đăng nhập để Thêm vào Bộ sưu tập",
+        "sign_in_to_collection_desc": "Đăng nhập để thêm chiến dịch này vào bộ sưu tập của bạn",
+        "sign_up_to_collection": "Đăng ký để thêm vào bộ sưu tập"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "Chiến dịch đã được tạo",
             "collection_created": "Bộ sưu tập đã tạo",
             "collection_updated": "Bộ sưu tập đã cập nhật",
-            "collection_deleted": "Bộ sưu tập đã xóa"
+            "collection_deleted": "Bộ sưu tập đã xóa",
+            "redirect_to_verification": "Mã xác minh đã được gửi đến {email}"
         },
         "error": {
             "something_went_wrong": "Đã xảy ra lỗi"
@@ -2416,6 +2418,13 @@
             "max_width": "Chiều rộng phải ít nhất là {max} pixel",
             "min_length": "Độ dài phải ít nhất là {min} ký tự",
             "max_length": "Chiều dài không được vượt quá {max} ký tự"
+        },
+        "failed_order": {
+            "header": "Chúng tôi đang gặp sự cố với hệ thống thanh toán",
+            "description": "Có lỗi xảy ra với yêu cầu của bạn. Vui lòng thử lại sau. Để biết thêm thông tin, hãy liên hệ với chúng tôi theo địa chỉ {email}"
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {

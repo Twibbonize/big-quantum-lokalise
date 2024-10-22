@@ -396,7 +396,7 @@
     "page_forgot_password": {
         "general": {
             "forgot_password": "अपना कूट शब्द भूल गए?",
-            "enter_email": "वह ईमेल पता दर्ज करें जिसका उपयोग आपने सदस्यता ग्रहण करते समय किया था और हम आपके ईमेल इनबॉक्स में पासवर्ड रीसेट करने के लिए एक लिंक भेज देंगे!",
+            "enter_email": "अपना पंजीकृत ईमेल पता दर्ज करें और हम आपके ईमेल इनबॉक्स में अपना पासवर्ड रीसेट करने के लिए एक लिंक भेजेंगे!",
             "email": "ईमेल",
             "enter_your_email": "अपना ईमेल पता दर्ज करें"
         },
@@ -711,13 +711,14 @@
             "no_campaigns_other_desc": "इस उपयोगकर्ता ने संग्रह में कोई अभियान नहीं जोड़ा है"
         },
         "placeholder": {
-            "search_collections": ""
+            "search_collections": "संग्रह खोजें"
         },
         "delete": {
             "are_you_sure_delete": "क्या आप इस संग्रह को मिटाना चाहते हैं?"
         },
         "update": {
-            "update_collection": "संग्रह अद्यतन करें"
+            "update_collection": "संग्रह अद्यतन करें",
+            "save": "बचाना"
         }
     },
     "page_create_campaign": {
@@ -1313,8 +1314,8 @@
             "has_expired": "आपकी {plan} योजना समाप्त हो गई है। कृपया {date} तक नवीनीकरण करें",
             "manage_inapp_desc": "वर्तमान में, आप {plan} में अपग्रेड नहीं कर सकते क्योंकि हमारा सिस्टम अभी तक एक साथ दो प्रीमियम प्लान रखने का समर्थन नहीं करता है। iOS पर अपनी Twibbonize सदस्यता प्रबंधित करने के लिए, ऐप खोलें, सेटिंग्स पर जाएँ और बिलिंग चुनें।",
             "detailed_info_app": "अपनी सभी सदस्यता विवरण देखें। चालान केवल वेबसाइट से ही डाउनलोड किए जा सकते हैं।",
-            "premium_creator_annually": "",
-            "premium_creator_monthly": ""
+            "premium_creator_annually": "प्रीमियम क्रिएटर सालाना",
+            "premium_creator_monthly": "प्रीमियम क्रिएटर मासिक"
         },
         "account": {
             "update_email": "ईमेल अपडेट करें",
@@ -1380,7 +1381,7 @@
             "post_twibbonize_details": "कैंपेन पृष्ठ पर समर्थक की पोस्ट की सूचना प्राप्त करें।",
             "account_recap": "खाता पुनर्कथन",
             "account_recap_details": "आपके सभी कैंपेनों के लिए समर्थकों और यात्राओं का साप्ताहिक सारांश",
-            "new_post": ""
+            "new_post": "नई पोस्ट"
         },
         "package": {
             "free": "निःशुल्क योजना",
@@ -1743,9 +1744,9 @@
         "sign_in_to_create_campaign": "अपना कैंपेन प्रकाशित करने के लिए लॉग इन करें",
         "sign_up_to_create_campaign": "अपना कैंपेन प्रकाशित करने के लिए साइन अप करें",
         "sign_in_to_like_desc": "इस टिप्पणी को पसंद करने के लिए लॉगिन करें",
-        "sign_in_to_collection": "",
-        "sign_in_to_collection_desc": "",
-        "sign_up_to_collection": ""
+        "sign_in_to_collection": "संग्रह में जोड़ने के लिए लॉग इन करें",
+        "sign_in_to_collection_desc": "इस अभियान को अपने संग्रह में जोड़ने के लिए लॉगिन करें",
+        "sign_up_to_collection": "संग्रह में जोड़ने के लिए साइन अप करें"
     },
     "post": {
         "confirm": {
@@ -2028,7 +2029,8 @@
             "campaign_created": "अभियान बनाया गया",
             "collection_created": "संग्रह बनाया गया",
             "collection_updated": "संग्रह अद्यतन",
-            "collection_deleted": "संग्रह हटाया गया"
+            "collection_deleted": "संग्रह हटाया गया",
+            "redirect_to_verification": "सत्यापन कोड {email} पर भेज दिया गया है"
         },
         "error": {
             "something_went_wrong": "कुछ गलत हो गया"
@@ -2416,6 +2418,13 @@
             "max_width": "चौड़ाई कम से कम {max} पिक्सेल होनी चाहिए",
             "min_length": "लंबाई कम से कम {min} वर्ण होनी चाहिए",
             "max_length": "लंबाई {max} वर्णों से अधिक नहीं हो सकती"
+        },
+        "failed_order": {
+            "header": "हमें भुगतान प्रणाली में समस्या आ रही है",
+            "description": "आपके अनुरोध में कुछ गड़बड़ी हुई है। कृपया बाद में पुनः प्रयास करें। पूछताछ के लिए, हमसे {email} पर संपर्क करें"
+        },
+        "invalid_login": {
+            "wrong_email_password": ""
         }
     },
     "page_notification": {
