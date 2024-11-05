@@ -334,7 +334,8 @@
             "create": "Krijo",
             "log_out": "Dilni",
             "previous": "E mëparshme",
-            "finish": "Përfundo"
+            "finish": "Përfundo",
+            "from": "nga"
         },
         "time": {
             "week": "javë",
@@ -476,13 +477,16 @@
             "blog_share_2": "Më mirë kontrollojeni! 😉",
             "usecase_share_1": "Shikoni këtë rast përdorimi frymëzues të Twibbonize! 🌟",
             "usecase_share_2": "Shihni se si të tjerët po ndikojnë me fushatat e tyre dhe merrni ide për tuajat!",
-            "testimonial_share_1": "Lexoni këtë artikull dhe shikoni se si ky krijues po përdor Twibbonize! 👀"
+            "testimonial_share_1": "Lexoni këtë artikull dhe shikoni se si ky krijues po përdor Twibbonize! 👀",
+            "collection_share_1": "",
+            "collection_share_2": ""
         },
         "twibbonize": "Twibbonize",
         "supports": "mbështetjet",
         "whats_new": {
             "header_1": "Publikimi ynë i Nëntorit 2024 🎉",
             "desc_1": "Zbuloni versionin e rinovuar të Twibbonize. Eksploroni pamjet dhe veçoritë tona të reja!",
+            "see_whats_new_button": "Shikoni Çfarë ka të re",
             "header_2": "Një ndërfaqe e re e përdoruesit",
             "desc_2": "Provoni ndërfaqen tonë të re të krijimit të fushatës! Krijimi dhe menaxhimi i fushatave tani është më i lehtë se kurrë.",
             "header_3": "Çmimi më i thjeshtë",
@@ -495,10 +499,13 @@
             "desc_6": "Takoni krijuesit kryesorë në Twibbonize! Shikoni tabelën tonë të drejtuesve për renditjen javore, mujore dhe të të gjitha kohërave.",
             "header_7": "Koleksioni i fushatës",
             "desc_7": "Ruani dhe organizoni fushatat tuaja të preferuara në një vend, duke e bërë të lehtë rishikimin dhe ndarjen e tyre në çdo kohë. Filloni koleksionin tuaj sot!",
-            "header_8": "",
-            "desc_8": "",
-            "action_8": "",
-            "see_whats_new": ""
+            "header_8": "Një aplikacion krejtësisht i ri",
+            "desc_8": "Eksploroni aplikacionin e ri Twibbonize! Zbuloni fushatat në tendencë dhe krijuesit kryesorë në lëvizje.",
+            "action_8": "Shkarkojeni sot!",
+            "see_whats_new": "Shikoni Çfarë ka të re"
+        },
+        "header": {
+            "media_assets": "Asetet e medias"
         }
     },
     "page_home": {
@@ -684,6 +691,12 @@
         },
         "share": {
             "more": "Më shumë"
+        },
+        "empty": {
+            "gallery": "Galeria juaj është bosh"
+        },
+        "login": {
+            "premium_login": "Keni tashmë një llogari Premium? Identifikohu"
         }
     },
     "page_verification": {
@@ -855,7 +868,7 @@
         },
         "pricing": {
             "no_thankyou": "Jo faleminderit",
-            "have_account": ""
+            "have_account": "Keni tashmë një llogari? Identifikohu"
         },
         "support": {
             "for_people_1": "Për njerëzit që duan më shumë",
@@ -1458,7 +1471,8 @@
             "pricing_question_11": "Cilat janë opsionet e mia të pagesës?",
             "pricing_answer_11": "<p>Mund të zgjidhni midis kartave të kreditit ose debitit, të përpunuara përmes Stripe si porta jonë e pagesës.<\/p>",
             "pricing_question_12": "Ku mund të gjej ndihmë në lidhje me përdorimin e përgjithshëm të Twibbonize?",
-            "pricing_answer_12": "<p>Mund të vizitoni <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https:\/\/intercom.help\/twibbonizehelp\/en\">Qendrën tonë të ndihmës<\/a> për të gjetur artikuj të dobishëm për udhëzime ose arritje na kontaktoni përmes faqes <a rel=\"noopener noreferrer\" href=\"\/blog\/contact-us\">Na kontaktoni<\/a>.<\/p>"
+            "pricing_answer_12": "<p>Mund të vizitoni <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https:\/\/intercom.help\/twibbonizehelp\/en\">Qendrën tonë të ndihmës<\/a> për të gjetur artikuj të dobishëm për udhëzime ose arritje na kontaktoni përmes faqes <a rel=\"noopener noreferrer\" href=\"\/blog\/contact-us\">Na kontaktoni<\/a>.<\/p>",
+            "pricing_answer_11_id": "<p> Mund të zgjidhni midis transfertës bankare, QRIS, kartës së kreditit ose portofolit elektronik. < \\\/p >"
         },
         "hero": {
             "pricing": "ÇMIMI",
@@ -2190,7 +2204,7 @@
             "effects": "Efektet"
         },
         "confirmation": {
-            "cancel": "Anulo",
+            "cancel": "Hidhni",
             "save": "Ruaj",
             "has_your_frame_been_completed": "E keni përfunduar dizajnin tuaj?",
             "once_it_save": "Pasi të ruhet, redaktimi nuk është më i disponueshëm",
@@ -2607,7 +2621,7 @@
             "F-4040": "Kredencialet e pavlefshme",
             "F-5003": "Gabim fatal. Lidhja DB dështoi",
             "CO-4001": "Nuk mund të krijohet më shumë se 1 modul komenti",
-            "CO-4002": "Kufiri maksimal i komenteve është 10000",
+            "CO-4002": "Komenti maksimal u arrit",
             "CO-4003": "Moduli i komenteve është fshirë",
             "CO-4004": "Përgjigja maksimale është 100",
             "CO-4005": "Lloj i pavlefshëm",
@@ -2821,6 +2835,11 @@
                     }
                 }
             }
+        }
+    },
+    "page_media_assets": {
+        "paragraph": {
+            "description": "Duke përdorur këtë faqe, ju pranoni Kushtet tona të Përdorimit. E gjithë përmbajtja e shkarkuar nga kjo faqe (përfshirë fotografinë, audion, videon, etj.) është menduar vetëm për qëllime editoriale. Çdo përdorim tjetër i përmbajtjes së faqes, duke përfshirë përdorimin personal ose komercial, është rreptësisht i ndaluar."
         }
     }
 }
