@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "Medieaktiver"
+        },
+        "theme": {
+            "theme ": "Tema",
+            "description_of_theme": "Vælg, hvordan du vil have Twibbonize til at se ud. Vælg et tema, eller synkroniser temaer med dine systempræferencer.\n",
+            "choose_theme": "Vælg tema",
+            "auto": "Auto",
+            "light": "Lys",
+            "dark": "Mørk"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "Ups, vi kan ikke fjerne din konto på sociale medier.",
             "set_up_email": "Du skal først konfigurere e-mail eller adgangskode for at fjerne din konto på sociale medier.",
             "want_to_remove": "Vil du fjerne din konto på sociale medier?",
-            "your_account_will_be_removed": "Din {provider}-konto vil blive fjernet. Klik på 'forstået' for at fjerne dine sociale mediekonti.",
-            "continue_to_revoke": "Fortsæt med at tilbagekalde ",
+            "your_account_will_be_removed": "Din {udbyder}-konto vil blive fjernet. Bekræft nedenfor for at fjerne dine konti på sociale medier.",
+            "continue_to_revoke": "Ja, Fjern",
             "revoke_success": "{provider} konto blev succesfuldt tilbagekaldt",
             "cannot_update_email": "Ups, vi kan ikke opdatere din e-mail",
             "setup_password_to_update_email": "Du skal angive en adgangskode, før du opdaterer din e-mail.",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "Du vil ikke længere modtage {type} e-mails fra Twibbonize",
+            "description": "[%key_id:212561082%]",
             "title": "Afmeld dit abonnement",
             "unsubscribe_success": "Afmeldelse lykkedes",
             "global": "Global"
@@ -2860,6 +2868,72 @@
             "description": "Beklager, men den side, du ledte efter, kunne ikke findes.",
             "visit": "Besøg vores {link} for mere information.",
             "go_to_homepage": "Gå til hjemmesiden"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "Advarsel!",
+            "contain_prohibited_word": "Dit {felt} indeholder et forbudt ord.",
+            "learn_more": "Få mere at vide"
+        },
+        "campaign": {
+            "contain_prohibited_words": "Din kampagne indeholder forbudte ord",
+            "recent_activity": "Din seneste aktivitet på Twibbonize involverede brug af ord, der overtræder vores brugsbetingelser. Undgå venligst {ord} for at forhindre, at din konto suspenderes.",
+            "got_it": "Har det",
+            "prohibited_words": "Forbudte ord"
+        },
+        "profile": {
+            "account_suspended": "Konto suspenderet",
+            "violate_terms": "Twibbonize suspenderer konti, der overtræder vores {vilkår}",
+            "terms_of_use": "Vilkår for brug"
+        },
+        "appeal": {
+            "we_have_suspended": "Vi har suspenderet din konto, {brugernavn}",
+            "days_left": "{dage} dage tilbage til at appellere, ellers deaktiverer vi din konto permanent.",
+            "suspended_on": "Suspenderet den {dato}",
+            "what_this_means": "Hvad det betyder",
+            "what_this_means_detail": "Din konto er i øjeblikket suspenderet og ikke synlig for andre på Twibbonize. Du kan ikke bruge platformen på nuværende tidspunkt.",
+            "what_you_can_do": "Hvad du kan gøre",
+            "what_you_can_do_details": "Du har {dage} dage til at appellere denne beslutning. Vi kan få brug for at indsamle yderligere oplysninger fra dig for at hjælpe med at gennemgå din konto.",
+            "why_this_happened": "Hvorfor dette skete",
+            "why_this_happened_details": "Vi har bemærket aktivitet på {brugernavn}, som ikke er i overensstemmelse med vores {vilkår}.",
+            "appeal": "Appel",
+            "submitted": "Indsendt",
+            "provide_information": "Sørg for at give de ønskede oplysninger nedenfor",
+            "regulatory_compilance": "På grund af overholdelse af lovgivningen har vi brug for lidt flere oplysninger om dit gyldige udstedte ID. Hvis du ikke giver os disse oplysninger, kan det forsinke behandlingen af din klage.",
+            "full_name": "Fuldt navn",
+            "email": "E-mail-adresse",
+            "write_down": "Skriv din appel ned",
+            "explain_why": "Forklar venligst, hvorfor du mener, at indholdet ikke burde have været fjernet.",
+            "attachment": "Vedhæftet fil",
+            "optional": "Valgfrit",
+            "select_file": "Vælg en fil, eller træk og slip her",
+            "format_file": "JPG, PNG eller PDF, filstørrelse højst 10 MB",
+            "submit": "Indsend",
+            "have_submitted": "Du har indsendt en appel",
+            "takes_a_day_review": "Det tager os typisk lidt over en dag at gennemgå dine oplysninger. Kom tilbage her for opdateringer.",
+            "not_visible": "Din konto er i øjeblikket ikke synlig for andre på Twibbonize, og du kan ikke bruge den.",
+            "what_happens_next": "Hvad sker der nu?",
+            "reevaluate": "Vi vil revurdere din konto.",
+            "complies_terms": "Hvis vi finder ud af, at din konto overholder vores {vilkår}, får du adgang til Twibbonize igen.",
+            "not_comply": "Hvis vi vurderer, at din konto stadig ikke overholder vores {vilkår}, vil din konto blive permanent deaktiveret, og du vil ikke kunne appellere igen.",
+            "ok_got": "Okay, jeg har det",
+            "back_on_twibbonize": "Du er tilbage på Twibbonize",
+            "no_longed_suspended": "Hej {brugernavn}, din konto er ikke længere suspenderet.",
+            "thankyou_requesting_review": "Tak for din anmodning om en anmeldelse. Vi har gennemgået din konto og bekræftet, at dens aktivitet er i overensstemmelse med vores {vilkår}, så du kan nu bruge Twibbonize igen.",
+            "sorry_couldnt_access": "Vi er kede af, at du ikke kunne få adgang til Twibbonize, mens din konto var suspenderet. For at sikre et sikkert miljø for alle er vi af og til nødt til at tage forholdsregler.",
+            "logged_in": "Log ind som {brugernavn}",
+            "not_you": "Er det ikke dig? {logout}",
+            "rejected_and_closed": "Appel afvist, og vi har lukket din konto",
+            "through_review": "Efter en grundig gennemgang af din sag har vi besluttet at opretholde lukningen af din konto.",
+            "log_out": "Log ud",
+            "does_not_comply": "Din konto eller dens aktivitet er ikke i overensstemmelse med vores {vilkår}.",
+            "review_non_compliance": "Appelgennemgangen bekræftede denne manglende overholdelse af vores platformstandarder.",
+            "no_one_can_see": "Ingen kan se eller finde din konto, og du kan ikke bruge den. ",
+            "all_information_deleted": "Alle dine oplysninger vil blive slettet permanent. ",
+            "cannot_request": "Du kan ikke anmode om en ny gennemgang af denne beslutning.",
+            "closed_account": "Vi har lukket din konto",
+            "permanently_suspend": "Vi har besluttet at suspendere din konto permanent, da der ikke blev indsendt en klage inden for 180 dage."
         }
     }
 }

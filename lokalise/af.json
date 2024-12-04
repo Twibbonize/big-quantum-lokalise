@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "Mediabates"
+        },
+        "theme": {
+            "theme ": "Tema",
+            "description_of_theme": "Kies hoe jy wil hê Twibbonize moet verskyn. Kies 'n tema, of sinkroniseer temas met jou stelselvoorkeure. \n",
+            "choose_theme": "Kies Tema",
+            "auto": "Outo",
+            "light": "Lig",
+            "dark": "Donker"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "Oeps, ons kan nie jou sosiale media-rekening verwyder nie.",
             "set_up_email": "Jy moet eers e-pos of wagwoord opstel om jou sosiale media-rekening te verwyder.",
             "want_to_remove": "Wil jy jou sosiale media-rekening verwyder?",
-            "your_account_will_be_removed": "Jou {provider}-rekening sal verwyder word. Klik op \"Begryp\" om jou sosiale media-rekeninge te verwyder.",
-            "continue_to_revoke": "Gaan voort om te herroep ",
+            "your_account_will_be_removed": "Jou {provider}-rekening sal verwyder word. Bevestig hieronder om jou sosiale media-rekeninge te verwyder.",
+            "continue_to_revoke": "Ja, Verwyder",
             "revoke_success": "{provider} rekening suksesvol herroep",
             "cannot_update_email": "Oeps, ons kan nie jou e-pos opdateer nie",
             "setup_password_to_update_email": "Jy moet 'n wagwoord stel voordat jy jou e-pos opdateer.",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "Jy sal nie meer {type} e-posse van Twibbonize ontvang nie",
+            "description": "[%key_id:212561082%]",
             "title": "Teken uit",
             "unsubscribe_success": "Teken uit Suksesvol",
             "global": "Wêreldwyd"
@@ -2860,6 +2868,72 @@
             "description": "Jammer, maar die bladsy waarna jy gesoek het, kon nie gevind word nie.",
             "visit": "Besoek asseblief ons {link} vir meer inligting.",
             "go_to_homepage": "Gaan na Tuisblad"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "Waarskuwing!",
+            "contain_prohibited_word": "Jou {veld} bevat 'n verbode woord.",
+            "learn_more": "Kom meer te wete"
+        },
+        "campaign": {
+            "contain_prohibited_words": "Jou veldtog bevat verbode woorde",
+            "recent_activity": "Jou onlangse aktiwiteit op Twibbonize het behels die gebruik van woorde wat ons Gebruiksvoorwaardes oortree. Vermy asseblief {words} om rekeningopskorting te voorkom.",
+            "got_it": "Het dit",
+            "prohibited_words": "Verbode Woorde"
+        },
+        "profile": {
+            "account_suspended": "Rekening opgeskort",
+            "violate_terms": "Twibbonize skort rekeninge op wat ons {bepalings} oortree",
+            "terms_of_use": "Gebruiksvoorwaardes"
+        },
+        "appeal": {
+            "we_have_suspended": "Ons het jou rekening, {gebruikersnaam}, opgeskort",
+            "days_left": "{days} dae oor om te appelleer, of ons sal jou rekening permanent deaktiveer.",
+            "suspended_on": "Opgeskort op {date}",
+            "what_this_means": "Wat dit beteken",
+            "what_this_means_detail": "Jou rekening is tans opgeskort en nie sigbaar vir ander op Twibbonize nie. Jy kan nie die platform op hierdie stadium gebruik nie.",
+            "what_you_can_do": "Wat jy kan doen",
+            "what_you_can_do_details": "Jy het {days} dae om teen hierdie besluit te appelleer. Ons sal dalk bykomende inligting van jou moet insamel om te help met die hersiening van jou rekening.",
+            "why_this_happened": "Hoekom dit gebeur het",
+            "why_this_happened_details": "Ons het aktiwiteit op {username} opgemerk wat nie aan ons {bepalings} voldoen nie.",
+            "appeal": "Appèl",
+            "submitted": "Ingedien",
+            "provide_information": "Maak asseblief seker dat u die gevraagde inligting hieronder verskaf",
+            "regulatory_compilance": "Weens regulatoriese voldoening benodig ons 'n bietjie meer inligting oor jou geldige ID wat uitgereik is. Versuim om hierdie inligting te verskaf, kan die verwerking van jou appèl vertraag.",
+            "full_name": "Volle Naam",
+            "email": "E-posadres",
+            "write_down": "Skryf jou appèl neer",
+            "explain_why": "Verduidelik asseblief hoekom jy meen die inhoud moes nie verwyder gewees het nie.",
+            "attachment": "Aanhegsel",
+            "optional": "Opsioneel",
+            "select_file": "Kies 'n lêer of sleep en los hier",
+            "format_file": "JPG, PNG of PDF, lêergrootte nie meer as 10MB nie",
+            "submit": "Dien in",
+            "have_submitted": "Jy het 'n appèl ingedien",
+            "takes_a_day_review": "Dit neem ons gewoonlik net meer as 'n dag om jou inligting na te gaan. Kyk weer hier vir opdaterings.",
+            "not_visible": "Jou rekening is tans nie sigbaar vir ander op Twibbonize nie, en jy kan dit nie gebruik nie.",
+            "what_happens_next": "Wat gebeur volgende?",
+            "reevaluate": "Ons sal jou rekening herevalueer.",
+            "complies_terms": "As ons vind dat jou rekening aan ons {bepalings} voldoen, sal jy weer toegang tot Twibbonize kry.",
+            "not_comply": "As ons vasstel dat jou rekening steeds nie aan ons {bepalings} voldoen nie, sal jou rekening permanent gedeaktiveer word en jy sal nie weer kan appelleer nie.",
+            "ok_got": "Ok, het dit",
+            "back_on_twibbonize": "Jy is terug op Twibbonize",
+            "no_longed_suspended": "Hallo {username}, jou rekening is nie meer opgeskort nie.",
+            "thankyou_requesting_review": "Dankie dat jy 'n resensie versoek het. Ons het jou rekening nagegaan en bevestig dat sy aktiwiteit aan ons {bepalings} voldoen, so jy kan nou weer Twibbonize gebruik.",
+            "sorry_couldnt_access": "Ons is jammer dat jy nie toegang tot Twibbonize kon kry terwyl jou rekening opgeskort is nie. Om 'n veilige omgewing vir almal te verseker, moet ons soms voorsorgmaatreëls tref.",
+            "logged_in": "Meld aan as {gebruikersnaam}",
+            "not_you": "Nie jy nie? {logout}",
+            "rejected_and_closed": "Appèl is afgekeur en ons het jou rekening gesluit",
+            "through_review": "Na 'n deeglike hersiening van jou saak, het ons besluit om die sluiting van jou rekening te handhaaf.",
+            "log_out": "Teken uit",
+            "does_not_comply": "Jou rekening, of sy aktiwiteit, voldoen nie aan ons {bepalings} nie.",
+            "review_non_compliance": "Die appèlhersiening het hierdie nie-nakoming van ons platformstandaarde bevestig.",
+            "no_one_can_see": "Niemand kan jou rekening sien of vind nie en jy kan dit nie gebruik nie. ",
+            "all_information_deleted": "Al jou inligting sal permanent uitgevee word. ",
+            "cannot_request": "Jy kan nie nog 'n hersiening van hierdie besluit versoek nie.",
+            "closed_account": "Ons het jou rekening gesluit",
+            "permanently_suspend": "Ons het besluit om jou rekening permanent op te skort aangesien geen appèl binne 180 dae ingedien is nie."
         }
     }
 }

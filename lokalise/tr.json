@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "Medya Varlıkları"
+        },
+        "theme": {
+            "theme ": "Tema",
+            "description_of_theme": "Twibbonize'ın nasıl görünmesini istediğinizi seçin. Bir tema seçin veya temaları sistem tercihlerinizle senkronize edin.\n",
+            "choose_theme": "Tema Seçin",
+            "auto": "Otomatik",
+            "light": "Işık",
+            "dark": "Karanlık"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "Hata! Sosyal medya hesabınızı kaldıramıyoruz.",
             "set_up_email": "Sosyal medya hesabınızı kaldırmak için öncelikle e-posta veya şifre ayarlamanız gerekir.",
             "want_to_remove": "Sosyal medya hesabınızı kaldırmak mı istiyorsunuz?",
-            "your_account_will_be_removed": "{provider} hesabınız kaldırılacak. Sosyal medya hesaplarınızı kaldırmak için \"Anladım\" butonuna tıklayın.",
-            "continue_to_revoke": "İptal Etmeye Devam Et ",
+            "your_account_will_be_removed": "Sağlayıcı} hesabınız kaldırılacaktır. Sosyal medya hesaplarınızı kaldırmak için aşağıdan onaylayın.",
+            "continue_to_revoke": "Evet, Kaldır",
             "revoke_success": "{provider} hesabı başarıyla geri çekildi",
             "cannot_update_email": "Hata, e-postanızı güncelleyemiyoruz",
             "setup_password_to_update_email": "E-postanızı güncellemeden önce bir şifre belirlemelisiniz.",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "Twibbonize'dan artık {type} e-posta almayacaksınız",
+            "description": "[%key_id:212561082%]",
             "title": "Abonelikten çık",
             "unsubscribe_success": "Abonelikten çıkma başarılı",
             "global": "Küresel"
@@ -2860,6 +2868,72 @@
             "description": "Üzgünüz, ancak aradığınız sayfa bulunamadı.",
             "visit": "Daha fazla bilgi için lütfen {link} adresimizi ziyaret edin.",
             "go_to_homepage": "Ana Sayfaya Git"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "Uyarı!",
+            "contain_prohibited_word": "Alanınız} yasaklı bir sözcük içeriyor.",
+            "learn_more": "Daha Fazla Bilgi"
+        },
+        "campaign": {
+            "contain_prohibited_words": "Kampanyanız Yasaklı Kelimeler İçeriyor",
+            "recent_activity": "Twibbonize'daki son etkinliğinizde Kullanım Koşullarımızı ihlal eden kelimeler kullandınız. Hesabınızın askıya alınmasını önlemek için lütfen {words} kullanmaktan kaçının.",
+            "got_it": "Anladım",
+            "prohibited_words": "Yasaklı Kelimeler"
+        },
+        "profile": {
+            "account_suspended": "Hesap Askıya Alındı",
+            "violate_terms": "Twibbonize {şartlarımızı} ihlal eden hesapları askıya alır",
+            "terms_of_use": "Kullanım Koşulları"
+        },
+        "appeal": {
+            "we_have_suspended": "Hesabınızı askıya aldık, {kullanıcı adı}",
+            "days_left": "i̇tiraz için {gün} gününüz kaldı, aksi takdirde hesabınızı kalıcı olarak devre dışı bırakacağız.",
+            "suspended_on": "Tarih} tarihinde askıya alındı",
+            "what_this_means": "Bu ne anlama geliyor",
+            "what_this_means_detail": "Hesabınız şu anda askıya alınmış durumda ve Twibbonize'da başkaları tarafından görülemiyor. Şu anda platformu kullanamazsınız.",
+            "what_you_can_do": "Yapabilecekleriniz",
+            "what_you_can_do_details": "Bu karara itiraz etmek için {gün} gününüz var. Hesabınızın incelenmesine yardımcı olmak için sizden ek bilgi toplamamız gerekebilir.",
+            "why_this_happened": "Bu neden oldu",
+            "why_this_happened_details": "Kullanıcı adı} üzerinde {şartlarımıza} uymayan bir etkinlik fark ettik.",
+            "appeal": "İtiraz",
+            "submitted": "Teslim edildi",
+            "provide_information": "Lütfen aşağıda istenen bilgileri sağladığınızdan emin olun",
+            "regulatory_compilance": "Mevzuata uygunluk nedeniyle geçerli kimliğinizle ilgili biraz daha fazla bilgiye ihtiyacımız var. Bu bilgilerin sağlanmaması itirazınızın işleme alınmasını geciktirebilir.",
+            "full_name": "Ad Soyad",
+            "email": "E-posta Adresi",
+            "write_down": "İtirazınızı yazın",
+            "explain_why": "Lütfen içeriğin neden kaldırılmaması gerektiğine inandığınızı açıklayın.",
+            "attachment": "Eklenti",
+            "optional": "Opsiyonel",
+            "select_file": "Bir dosya seçin veya buraya sürükleyip bırakın",
+            "format_file": "JPG, PNG veya PDF, dosya boyutu en fazla 10MB",
+            "submit": "Gönder",
+            "have_submitted": "Bir temyiz başvurusunda bulundunuz",
+            "takes_a_day_review": "Bilgilerinizi incelememiz genellikle bir günden biraz fazla sürer. Güncellemeler için buradan tekrar kontrol edin.",
+            "not_visible": "Hesabınız şu anda Twibbonize'da başkaları tarafından görülemiyor ve kullanamıyorsunuz.",
+            "what_happens_next": "Sonra ne olacak?",
+            "reevaluate": "Hesabınızı yeniden değerlendireceğiz.",
+            "complies_terms": "Hesabınızın {şartlarımıza} uygun olduğunu tespit edersek, Twibbonize'a erişiminizi yeniden kazanırsınız.",
+            "not_comply": "Hesabınızın hala {şartlarımıza} uymadığını tespit edersek, hesabınız kalıcı olarak devre dışı bırakılacak ve bir daha itiraz edemeyeceksiniz.",
+            "ok_got": "Tamam, anladım",
+            "back_on_twibbonize": "Twibbonize'a geri döndün",
+            "no_longed_suspended": "Merhaba {kullanıcı adı}, hesabınız artık askıya alınmadı.",
+            "thankyou_requesting_review": "İnceleme talebiniz için teşekkür ederiz. Hesabınızı inceledik ve etkinliğinin {şartlarımıza} uygun olduğunu onayladık, bu nedenle artık Twibbonize'ı tekrar kullanabilirsiniz.",
+            "sorry_couldnt_access": "Hesabınız askıya alınmışken Twibbonize'a erişemediğiniz için üzgünüz. Herkes için güvenli bir ortam sağlamak için zaman zaman önlemler almamız gerekiyor.",
+            "logged_in": "Kullanıcı adı} olarak oturum açın",
+            "not_you": "Sen değil misin? {logout}",
+            "rejected_and_closed": "İtiraz reddedildi ve hesabınızı kapattık",
+            "through_review": "Durumunuzu kapsamlı bir şekilde inceledikten sonra, hesabınızın kapatılmasını sürdürmeye karar verdik.",
+            "log_out": "Oturumu kapat",
+            "does_not_comply": "Hesabınız veya faaliyeti {şartlarımıza} uygun değildir.",
+            "review_non_compliance": "Temyiz incelemesi, platform standartlarımızla bu uyumsuzluğu teyit etmiştir.",
+            "no_one_can_see": "Kimse hesabınızı göremez veya bulamaz ve siz de kullanamazsınız. ",
+            "all_information_deleted": "Tüm bilgileriniz kalıcı olarak silinecektir. ",
+            "cannot_request": "Bu kararın tekrar gözden geçirilmesini talep edemezsiniz.",
+            "closed_account": "Hesabınızı kapattık",
+            "permanently_suspend": "Hesabınızı, 180 gün içinde herhangi bir itirazda bulunulmadığı için kalıcı olarak askıya almaya karar verdik."
         }
     }
 }

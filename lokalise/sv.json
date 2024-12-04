@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "Medietillgångar"
+        },
+        "theme": {
+            "theme ": "Tema",
+            "description_of_theme": "Välj hur du vill att Twibbonize ska visas. Välj ett tema eller synkronisera teman med dina systeminställningar.\n",
+            "choose_theme": "Välj tema",
+            "auto": "Auto",
+            "light": "Ljus",
+            "dark": "Mörk"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "Hoppsan, vi kan inte ta bort ditt sociala mediekonto.",
             "set_up_email": "Du måste först ställa in e-post eller lösenord för att ta bort ditt sociala mediekonto.",
             "want_to_remove": "Vill du ta bort ditt sociala mediekonto?",
-            "your_account_will_be_removed": "Ditt {provider}-konto kommer att tas bort. Klicka på \"Förstått\" för att ta bort dina konton på sociala medier.",
-            "continue_to_revoke": "Fortsätt att återkalla ",
+            "your_account_will_be_removed": "Ditt {provider}-konto kommer att tas bort. Bekräfta nedan för att ta bort dina konton på sociala medier.",
+            "continue_to_revoke": "Ja, Ta bort",
             "revoke_success": "{provider} konto framgångsrikt återkallat",
             "cannot_update_email": "Hoppsan, vi kan inte uppdatera din e-post",
             "setup_password_to_update_email": "Du måste ange ett lösenord innan du uppdaterar din e-post.",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "Du kommer inte längre att få {type} e-postmeddelanden från Twibbonize",
+            "description": "[%key_id:212561082%]",
             "title": "Avsluta prenumeration",
             "unsubscribe_success": "Avsluta prenumerationen",
             "global": "Global"
@@ -2860,6 +2868,72 @@
             "description": "Tyvärr kunde den sida du letade efter inte hittas.",
             "visit": "Besök gärna vår {länk} för mer information.",
             "go_to_homepage": "Gå till hemsidan"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "Varning!",
+            "contain_prohibited_word": "Ditt {fält} innehåller ett förbjudet ord.",
+            "learn_more": "Lär dig mer"
+        },
+        "campaign": {
+            "contain_prohibited_words": "Din kampanj innehåller förbjudna ord",
+            "recent_activity": "Din senaste aktivitet på Twibbonize involverade användning av ord som bryter mot våra användarvillkor. Vänligen undvik {ord} för att förhindra avstängning av kontot.",
+            "got_it": "Har det",
+            "prohibited_words": "Förbjudna ord"
+        },
+        "profile": {
+            "account_suspended": "Konto avstängt",
+            "violate_terms": "Twibbonize stänger av konton som bryter mot våra {villkor}",
+            "terms_of_use": "Villkor för användning"
+        },
+        "appeal": {
+            "we_have_suspended": "Vi har stängt av ditt konto, {användarnamn}",
+            "days_left": "{dagar} dagar kvar att överklaga, annars inaktiverar vi ditt konto permanent.",
+            "suspended_on": "Upphävd på {datum}",
+            "what_this_means": "Vad detta innebär",
+            "what_this_means_detail": "Ditt konto är för närvarande avstängt och inte synligt för andra på Twibbonize. Du kan inte använda plattformen just nu.",
+            "what_you_can_do": "Vad du kan göra",
+            "what_you_can_do_details": "Du har {dagar} dagar på dig att överklaga detta beslut. Vi kan behöva samla in ytterligare information från dig för att hjälpa till att granska ditt konto.",
+            "why_this_happened": "Varför detta hände",
+            "why_this_happened_details": "Vi har noterat aktivitet på {användarnamn} som inte överensstämmer med våra {villkor}.",
+            "appeal": "Överklagande",
+            "submitted": "Inlämnad",
+            "provide_information": "Var noga med att lämna den begärda informationen nedan",
+            "regulatory_compilance": "På grund av regelefterlevnad behöver vi lite mer information om ditt giltiga utfärdade ID. Om du inte lämnar denna information kan det försena behandlingen av din överklagan.",
+            "full_name": "Fullständigt namn",
+            "email": "E-postadress",
+            "write_down": "Skriv ner din överklagan",
+            "explain_why": "Vänligen förklara varför du anser att innehållet inte borde ha tagits bort.",
+            "attachment": "Bilaga",
+            "optional": "Valfritt",
+            "select_file": "Välj en fil eller dra och släpp den här",
+            "format_file": "JPG, PNG eller PDF, filstorlek högst 10 MB",
+            "submit": "Skicka in",
+            "have_submitted": "Du har lämnat in en överklagan",
+            "takes_a_day_review": "Det tar oss vanligtvis drygt en dag att granska din information. Kom tillbaka hit för uppdateringar.",
+            "not_visible": "Ditt konto är för närvarande inte synligt för andra på Twibbonize, och du kan inte använda det.",
+            "what_happens_next": "Vad händer härnäst?",
+            "reevaluate": "Vi kommer att omvärdera ditt konto.",
+            "complies_terms": "Om vi upptäcker att ditt konto överensstämmer med våra {villkor} får du tillbaka åtkomsten till Twibbonize.",
+            "not_comply": "Om vi fastställer att ditt konto fortfarande inte uppfyller våra {villkor} kommer ditt konto att inaktiveras permanent och du kommer inte att kunna överklaga igen.",
+            "ok_got": "Okej, jag fattar",
+            "back_on_twibbonize": "Du är tillbaka på Twibbonize",
+            "no_longed_suspended": "Hej {användarnamn}, ditt konto är inte längre avstängt.",
+            "thankyou_requesting_review": "Tack för att du begärde en granskning. Vi har granskat ditt konto och bekräftat att dess aktivitet överensstämmer med våra {villkor}, så du kan nu använda Twibbonize igen.",
+            "sorry_couldnt_access": "Vi beklagar att du inte kunde komma åt Twibbonize medan ditt konto var avstängt. För att säkerställa en säker miljö för alla behöver vi ibland vidta försiktighetsåtgärder.",
+            "logged_in": "Logga in som {användarnamn}",
+            "not_you": "Inte du? {Logga ut}",
+            "rejected_and_closed": "Överklagan avslås och vi har avslutat ditt konto",
+            "through_review": "Efter en grundlig genomgång av ditt ärende har vi beslutat att behålla stängningen av ditt konto.",
+            "log_out": "Logga ut",
+            "does_not_comply": "Ditt konto, eller dess aktivitet, överensstämmer inte med våra {villkor}.",
+            "review_non_compliance": "Granskningen av överklagandet bekräftade denna bristande efterlevnad av våra plattformsstandarder.",
+            "no_one_can_see": "Ingen kan se eller hitta ditt konto och du kan inte använda det. ",
+            "all_information_deleted": "All din information kommer att raderas permanent. ",
+            "cannot_request": "Du kan inte begära en ny prövning av detta beslut.",
+            "closed_account": "Vi har avslutat ditt konto",
+            "permanently_suspend": "Vi har beslutat att permanent stänga av ditt konto eftersom ingen överklagan lämnades in inom 180 dagar."
         }
     }
 }

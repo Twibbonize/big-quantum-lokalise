@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "媒體資產"
+        },
+        "theme": {
+            "theme ": "主題",
+            "description_of_theme": "選擇您希望 Twibbonize 的顯示方式。選擇主題，或將主題與您的系統首選項同步。 \n",
+            "choose_theme": "選擇主題",
+            "auto": "汽車",
+            "light": "光",
+            "dark": "黑暗的"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "糟糕，我們無法刪除您的社群媒體帳號。",
             "set_up_email": "您必須先設定電子郵件或密碼才能刪除您的社群媒體帳號。",
             "want_to_remove": "想要刪除您的社群媒體帳號嗎？",
-            "your_account_will_be_removed": "您的 {provider} 帳戶將被刪除。點擊「明白」以刪除您的社交媒體帳戶。",
-            "continue_to_revoke": "繼續撤銷 ",
+            "your_account_will_be_removed": "您的 {provider} 帳戶將會被刪除。請確認以下內容以刪除您的社群媒體帳號。",
+            "continue_to_revoke": "是的，刪除",
             "revoke_success": "{provider} 帳戶已成功撤銷",
             "cannot_update_email": "糟糕，我們無法更新您的電子郵件",
             "setup_password_to_update_email": "您必須在更新電子郵件之前設定密碼。",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "您將不再收到來自 Twibbonize {type}電子郵件",
+            "description": "[%key_id:212561082%]",
             "title": "退訂",
             "unsubscribe_success": "退訂成功",
             "global": "全球的"
@@ -2860,6 +2868,72 @@
             "description": "抱歉，找不到您要找的頁面。",
             "visit": "請造訪我們的{link}以了解更多資訊。",
             "go_to_homepage": "前往首頁"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "警告！",
+            "contain_prohibited_word": "您的{field}包含禁用字。",
+            "learn_more": "了解更多"
+        },
+        "campaign": {
+            "contain_prohibited_words": "您的廣告活動包含禁用字詞",
+            "recent_activity": "您最近在 Twibbonize 上的活動涉及使用違反我們的使用條款的詞語。請避免使用 {words}，以防止帳戶被暫停。",
+            "got_it": "知道了",
+            "prohibited_words": "禁止詞語"
+        },
+        "profile": {
+            "account_suspended": "帳戶被暫停",
+            "violate_terms": "Twibbonize 暫停違反我們的{條款}的帳戶",
+            "terms_of_use": "使用條款"
+        },
+        "appeal": {
+            "we_have_suspended": "我們已暫停您的帳戶，{username}",
+            "days_left": "距離申訴還有 {days} 天，否則我們將永久停用您的帳戶。",
+            "suspended_on": "於 {日期} 暫停",
+            "what_this_means": "這意味著什麼",
+            "what_this_means_detail": "您的帳戶目前已被暫停，Twibbonize 上的其他人無法看到。您目前無法使用該平台。",
+            "what_you_can_do": "你能做什麼",
+            "what_you_can_do_details": "您有 {days} 天的時間對此決定提出上訴。我們可能需要向您收集其他資訊以協助審核您的帳戶。",
+            "why_this_happened": "為什麼會發生這種情況",
+            "why_this_happened_details": "我們注意到 {username} 上的活動不符合我們的{terms}。",
+            "appeal": "上訴",
+            "submitted": "已提交",
+            "provide_information": "請務必提供以下所要求的信息",
+            "regulatory_compilance": "出於監管合規性的考慮，我們需要更多有關您簽發的有效身份證件的資訊。未能提供此資訊可能會延遲您上訴的處理。",
+            "full_name": "姓名",
+            "email": "電子郵件",
+            "write_down": "寫下您的上訴",
+            "explain_why": "請解釋為什麼您認為不應刪除該內容。",
+            "attachment": "依戀",
+            "optional": "選修的",
+            "select_file": "選擇一個檔案或拖放到此處",
+            "format_file": "JPG、PNG 或 PDF，檔案大小不超過 10MB",
+            "submit": "提交",
+            "have_submitted": "您已提交上訴",
+            "takes_a_day_review": "我們通常需要一天以上的時間來審核您的資訊。請回來查看更新。",
+            "not_visible": "Twibbonize 上的其他人目前看不到您的帳戶，並且您無法使用它。",
+            "what_happens_next": "接下來會發生什麼事？",
+            "reevaluate": "我們將重新評估您的帳戶。",
+            "complies_terms": "如果我們發現您的帳戶符合我們的{條款}，您將重新獲得對 Twibbonize 的存取權。",
+            "not_comply": "如果我們確定您的帳戶仍然不符合我們的{條款}，您的帳戶將永久停用，並且您將無法再次提出申訴。",
+            "ok_got": "好的，明白了",
+            "back_on_twibbonize": "您已返回 Twibbonize",
+            "no_longed_suspended": "{username}，您好，您的帳號不再被暫停。",
+            "thankyou_requesting_review": "感謝您請求審核。我們已審核您的帳戶並確認其活動符合我們的{條款}，因此您現在可以再次使用 Twibbonize。",
+            "sorry_couldnt_access": "很抱歉，您的帳戶被暫停期間無法存取 Twibbonize。為了確保每個人都有安全的環境，我們有時需要採取預防措施。",
+            "logged_in": "以 {用戶名} 登入",
+            "not_you": "不是你嗎？ {註銷}",
+            "rejected_and_closed": "申訴被拒絕，我們已關閉您的帳戶",
+            "through_review": "在徹底審查您的案件後，我們決定繼續關閉您的帳戶。",
+            "log_out": "退出",
+            "does_not_comply": "您的帳戶或其活動不符合我們的{條款}。",
+            "review_non_compliance": "上訴審查證實這不符合我們的平台標準。",
+            "no_one_can_see": "沒有人可以看到或找到您的帳戶，您也無法使用它。 ",
+            "all_information_deleted": "您的所有資訊將永久刪除。 ",
+            "cannot_request": "您不能要求再次審查該決定。",
+            "closed_account": "我們已關閉您的帳戶",
+            "permanently_suspend": "由於 180 天內未提交申訴，我們決定永久暫停您的帳戶。"
         }
     }
 }

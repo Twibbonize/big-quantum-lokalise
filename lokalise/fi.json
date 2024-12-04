@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "Media-varat"
+        },
+        "theme": {
+            "theme ": "Teema",
+            "description_of_theme": "Valitse, miten haluat Twibbonizen näkyvän. Valitse teema tai synkronoi teemat järjestelmäasetusten kanssa.\n",
+            "choose_theme": "Valitse teema",
+            "auto": "Auto",
+            "light": "Valo",
+            "dark": "Tumma"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "Hups, emme voi poistaa sosiaalisen median tiliäsi.",
             "set_up_email": "Sinun on ensin määritettävä sähköpostiosoite tai salasana, jotta voit poistaa sosiaalisen median tilisi.",
             "want_to_remove": "Haluatko poistaa sosiaalisen median tilisi?",
-            "your_account_will_be_removed": "Sinun {provider}-tilisi poistetaan. Napsauta \"Ymmärrän\" poistaaksesi sosiaalisen median tilisi.",
-            "continue_to_revoke": "Jatka kohtaan Peruuta ",
+            "your_account_will_be_removed": "{provider}-tilisi poistetaan. Vahvista alla, jos haluat poistaa sosiaalisen median tilisi.",
+            "continue_to_revoke": "Kyllä, Poista",
             "revoke_success": "{provider} tili peruutettiin onnistuneesti",
             "cannot_update_email": "Hups, emme voi päivittää sähköpostiasi",
             "setup_password_to_update_email": "Sinun on asetettava salasana ennen sähköpostisi päivittämistä.",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "Et enää saa {type} sähköpostiviestejä Twibbonizelta",
+            "description": "[%key_id:212561082%]",
             "title": "Poistu tilauksesta",
             "unsubscribe_success": "Tilauksen peruutus onnistui",
             "global": "Maailmanlaajuinen"
@@ -2860,6 +2868,72 @@
             "description": "Valitettavasti etsimääsi sivua ei löytynyt.",
             "visit": "Katso lisätietoja {linkki}.",
             "go_to_homepage": "Siirry kotisivulle"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "Varoitus!",
+            "contain_prohibited_word": "Sinun {kenttäsi} sisältää kielletyn sanan.",
+            "learn_more": "Lue lisää"
+        },
+        "campaign": {
+            "contain_prohibited_words": "Kampanjasi sisältää kiellettyjä sanoja",
+            "recent_activity": "Viimeaikainen toimintasi Twibbonizessa sisälsi käyttöehtojemme vastaisten sanojen käyttöä. Vältä {sanoja} tilin sulkemisen estämiseksi.",
+            "got_it": "Sain sen",
+            "prohibited_words": "Kielletyt sanat"
+        },
+        "profile": {
+            "account_suspended": "Tili keskeytetty",
+            "violate_terms": "Twibbonize keskeyttää tilit, jotka rikkovat {ehtojamme}",
+            "terms_of_use": "Käyttöehdot"
+        },
+        "appeal": {
+            "we_have_suspended": "Olemme keskeyttäneet tilisi, {käyttäjänimi}",
+            "days_left": "{päivää} päivää aikaa valittaa, tai poistamme tilisi pysyvästi käytöstä.",
+            "suspended_on": "Keskeytetty {päivämäärä}",
+            "what_this_means": "Mitä tämä tarkoittaa",
+            "what_this_means_detail": "Tilisi on tällä hetkellä keskeytetty eikä se näy muille Twibbonizessa. Et voi käyttää alustaa tällä hetkellä.",
+            "what_you_can_do": "Mitä voit tehdä",
+            "what_you_can_do_details": "Sinulla on {päivää} päivää aikaa valittaa tästä päätöksestä. Saatamme joutua keräämään sinulta lisätietoja tilisi tarkistamista varten.",
+            "why_this_happened": "Miksi tämä tapahtui",
+            "why_this_happened_details": "Olemme huomanneet {käyttäjätunnus}:n toimintaa, joka ei ole {ehtojemme} mukaista.",
+            "appeal": "Valitus",
+            "submitted": "Lähetetty",
+            "provide_information": "Muistathan antaa alla olevat pyydetyt tiedot",
+            "regulatory_compilance": "Lainsäädännön noudattamisen vuoksi tarvitsemme hieman lisätietoja voimassa olevasta henkilöllisyystodistuksestasi. Näiden tietojen toimittamatta jättäminen voi viivästyttää valituksesi käsittelyä.",
+            "full_name": "Koko nimi",
+            "email": "Sähköpostiosoite",
+            "write_down": "Kirjoita vetoomuksesi",
+            "explain_why": "Selitä, miksi mielestäsi sisältöä ei olisi pitänyt poistaa.",
+            "attachment": "Liite",
+            "optional": "Valinnainen",
+            "select_file": "Valitse tiedosto tai vedä ja pudota tästä",
+            "format_file": "JPG, PNG tai PDF, tiedostokoko enintään 10 Mt",
+            "submit": "Lähetä",
+            "have_submitted": "Olet tehnyt valituksen",
+            "takes_a_day_review": "Tietojesi tarkistaminen kestää yleensä hieman yli vuorokauden. Tarkista päivitykset täältä.",
+            "not_visible": "Tilisi ei tällä hetkellä näy muille Twibbonizessa, etkä voi käyttää sitä.",
+            "what_happens_next": "Mitä tapahtuu seuraavaksi?",
+            "reevaluate": "Arvioimme tilisi uudelleen.",
+            "complies_terms": "Jos huomaamme, että tilisi on {ehtojemme} mukainen, saat jälleen pääsyn Twibbonizeen.",
+            "not_comply": "Jos päätämme, että tilisi ei edelleenkään ole {ehtojemme} mukainen, tilisi poistetaan pysyvästi käytöstä, etkä voi enää hakea muutosta.",
+            "ok_got": "Selvä, tajusin sen",
+            "back_on_twibbonize": "Olet takaisin Twibbonizessa",
+            "no_longed_suspended": "Hei {käyttäjätunnus}, tilisi ei ole enää keskeytetty.",
+            "thankyou_requesting_review": "Kiitos arvostelupyynnöstä. Olemme tarkistaneet tilisi ja vahvistaneet, että sen toiminta on {ehtojemme} mukaista, joten voit nyt käyttää Twibbonizea uudelleen.",
+            "sorry_couldnt_access": "Olemme pahoillamme, ettet päässyt Twibbonizeen, kun tilisi oli keskeytetty. Varmistaaksemme turvallisen ympäristön kaikille, meidän on toisinaan ryhdyttävä varotoimenpiteisiin.",
+            "logged_in": "Kirjaudu sisään nimellä {käyttäjätunnus}",
+            "not_you": "Etkö sinä? {logout}",
+            "rejected_and_closed": "Valitus hylätty, ja olemme sulkeneet tilisi",
+            "through_review": "Tapauksesi perusteellisen tarkastelun jälkeen olemme päättäneet jatkaa tilisi sulkemista.",
+            "log_out": "Kirjaudu ulos",
+            "does_not_comply": "Tilisi tai sen toiminta ei ole {ehtojemme} mukaista.",
+            "review_non_compliance": "Muutoksenhakua koskeva tarkastelu vahvisti, että tämä ei ole foorumin standardien mukaista.",
+            "no_one_can_see": "Kukaan ei näe tai löydä tiliäsi, etkä voi käyttää sitä. ",
+            "all_information_deleted": "Kaikki tietosi poistetaan pysyvästi. ",
+            "cannot_request": "Et voi pyytää tämän päätöksen uutta tarkastelua.",
+            "closed_account": "Olemme sulkeneet tilisi",
+            "permanently_suspend": "Olemme päättäneet jäädyttää tilisi pysyvästi, koska valitusta ei ole jätetty 180 päivän kuluessa."
         }
     }
 }

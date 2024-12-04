@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "Atouts médias"
+        },
+        "theme": {
+            "theme ": "Thème",
+            "description_of_theme": "Choisissez comment vous souhaitez que Twibbonize apparaisse. Sélectionnez un thème ou synchronisez les thèmes avec les préférences de votre système.\n",
+            "choose_theme": "Choisir un thème",
+            "auto": "Auto",
+            "light": "Lumière",
+            "dark": "Sombre"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "Oups, nous ne pouvons pas supprimer votre compte de réseau social.",
             "set_up_email": "Vous devez d'abord configurer une adresse e-mail ou un mot de passe pour supprimer votre compte de réseau social.",
             "want_to_remove": "Vous souhaitez supprimer votre compte de réseau social ?",
-            "your_account_will_be_removed": "Votre compte {provider} sera supprimé. Cliquez sur \"Compris\" pour supprimer vos comptes de réseaux sociaux.",
-            "continue_to_revoke": "Continuer à révoquer ",
+            "your_account_will_be_removed": "Votre compte {fournisseur} sera supprimé. Confirmez ci-dessous la suppression de vos comptes de médias sociaux.",
+            "continue_to_revoke": "Oui, Supprimer",
             "revoke_success": "Compte {provider} révoqué avec succès",
             "cannot_update_email": "Oups, nous ne pouvons pas mettre à jour votre email",
             "setup_password_to_update_email": "Vous devez définir un mot de passe avant de mettre à jour votre email.",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "Vous ne recevrez plus d'e-mails {type} de Twibbonize",
+            "description": "[%key_id:212561082%]",
             "title": "Se désinscrire",
             "unsubscribe_success": "Désabonnement réussi",
             "global": "Mondial"
@@ -2860,6 +2868,72 @@
             "description": "Désolé, mais la page que vous recherchez n'a pas pu être trouvée.",
             "visit": "Visitez notre {link} pour plus d'informations.",
             "go_to_homepage": "Aller à la page d'accueil"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "Attention !",
+            "contain_prohibited_word": "Votre {champ} contient un mot interdit.",
+            "learn_more": "En savoir plus"
+        },
+        "campaign": {
+            "contain_prohibited_words": "Votre campagne contient des mots interdits",
+            "recent_activity": "Votre activité récente sur Twibbonize a impliqué l'utilisation de mots qui violent nos conditions d'utilisation. Veuillez éviter les {mots} pour éviter la suspension de votre compte.",
+            "got_it": "Je l'ai",
+            "prohibited_words": "Mots interdits"
+        },
+        "profile": {
+            "account_suspended": "Compte suspendu",
+            "violate_terms": "Twibbonize suspend les comptes qui violent nos {termes}",
+            "terms_of_use": "Conditions d'utilisation"
+        },
+        "appeal": {
+            "we_have_suspended": "Nous avons suspendu votre compte, {nom d'utilisateur}",
+            "days_left": "il vous reste {jours} jours pour faire appel, ou nous désactiverons définitivement votre compte.",
+            "suspended_on": "Suspendu le {date}",
+            "what_this_means": "Ce que cela signifie",
+            "what_this_means_detail": "Votre compte est actuellement suspendu et n'est pas visible par les autres utilisateurs de Twibbonize. Vous ne pouvez pas utiliser la plateforme pour le moment.",
+            "what_you_can_do": "Ce que vous pouvez faire",
+            "what_you_can_do_details": "Vous disposez de {jours} jours pour faire appel de cette décision. Il se peut que nous devions recueillir des informations supplémentaires auprès de vous pour nous aider à réexaminer votre compte.",
+            "why_this_happened": "Pourquoi cela s'est produit",
+            "why_this_happened_details": "Nous avons remarqué une activité sur {nom d'utilisateur} qui n'est pas conforme à nos {termes}.",
+            "appeal": "Appel",
+            "submitted": "Soumis",
+            "provide_information": "Veillez à fournir les informations demandées ci-dessous",
+            "regulatory_compilance": "Pour des raisons de conformité réglementaire, nous avons besoin d'un peu plus d'informations concernant votre pièce d'identité valide. Si vous ne fournissez pas ces informations, le traitement de votre recours pourrait être retardé.",
+            "full_name": "Nom complet",
+            "email": "Adresse électronique",
+            "write_down": "Rédigez votre appel",
+            "explain_why": "Veuillez expliquer pourquoi vous pensez que le contenu n'aurait pas dû être supprimé.",
+            "attachment": "Pièce jointe",
+            "optional": "En option",
+            "select_file": "Sélectionnez un fichier ou faites un glisser-déposer ici",
+            "format_file": "JPG, PNG ou PDF, taille du fichier ne dépassant pas 10MB",
+            "submit": "Soumettre",
+            "have_submitted": "Vous avez introduit un recours",
+            "takes_a_day_review": "Il nous faut généralement un peu plus d'une journée pour examiner vos informations. Revenez ici pour les mises à jour.",
+            "not_visible": "Votre compte n'est actuellement pas visible par les autres sur Twibbonize, et vous ne pouvez pas l'utiliser.",
+            "what_happens_next": "Que se passe-t-il ensuite ?",
+            "reevaluate": "Nous réévaluerons votre compte.",
+            "complies_terms": "Si nous constatons que votre compte est conforme à nos {termes}, vous retrouverez l'accès à Twibbonize.",
+            "not_comply": "Si nous estimons que votre compte n'est toujours pas conforme à nos {termes}, votre compte sera définitivement désactivé et vous ne pourrez plus faire appel.",
+            "ok_got": "Ok, j'ai compris",
+            "back_on_twibbonize": "Vous êtes de retour sur Twibbonize",
+            "no_longed_suspended": "Bonjour {nom_d'utilisateur}, votre compte n'est plus suspendu.",
+            "thankyou_requesting_review": "Merci d'avoir demandé une révision. Nous avons examiné votre compte et confirmé que son activité est conforme à nos {termes}, vous pouvez donc à nouveau utiliser Twibbonize.",
+            "sorry_couldnt_access": "Nous sommes désolés que vous n'ayez pas pu accéder à Twibbonize pendant la suspension de votre compte. Afin de garantir un environnement sûr pour tous, nous devons parfois prendre des mesures de précaution.",
+            "logged_in": "Se connecter en tant que {nom d'utilisateur}",
+            "not_you": "Pas vous ? {logout}",
+            "rejected_and_closed": "Recours rejeté, et nous avons fermé votre compte",
+            "through_review": "Après un examen approfondi de votre dossier, nous avons décidé de maintenir la fermeture de votre compte.",
+            "log_out": "Déconnexion",
+            "does_not_comply": "Votre compte, ou son activité, n'est pas conforme à nos {termes}.",
+            "review_non_compliance": "L'examen de l'appel a confirmé cette non-conformité avec les normes de notre plate-forme.",
+            "no_one_can_see": "Personne ne peut voir ou trouver votre compte et vous ne pouvez pas l'utiliser. ",
+            "all_information_deleted": "Toutes vos informations seront définitivement supprimées. ",
+            "cannot_request": "Vous ne pouvez pas demander un autre réexamen de cette décision.",
+            "closed_account": "Nous avons clôturé votre compte",
+            "permanently_suspend": "Nous avons décidé de suspendre définitivement votre compte car aucun recours n'a été introduit dans les 180 jours."
         }
     }
 }

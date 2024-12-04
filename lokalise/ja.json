@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "メディア資産"
+        },
+        "theme": {
+            "theme ": "テーマ",
+            "description_of_theme": "Twibbonizeの表示方法を選択します。テーマを選択するか、システム環境設定とテーマを同期させます。\n",
+            "choose_theme": "テーマを選ぶ",
+            "auto": "オート",
+            "light": "ライト",
+            "dark": "暗い"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "申し訳ありません。ソーシャル メディア アカウントを削除できません。",
             "set_up_email": "ソーシャル メディア アカウントを削除するには、まずメール アドレスまたはパスワードを設定する必要があります。",
             "want_to_remove": "ソーシャル メディア アカウントを削除しますか?",
-            "your_account_will_be_removed": "あなたの {provider} アカウントは削除されます。ソーシャルメディアアカウントを削除するには、「理解しました」をクリックしてください。",
-            "continue_to_revoke": "取り消しを続ける ",
+            "your_account_will_be_removed": "あなたの{プロバイダー}アカウントは削除されます。ソーシャルメディアアカウントを削除するには、以下を確認してください。",
+            "continue_to_revoke": "はい、削除",
             "revoke_success": "{provider} アカウントが正常に取り消されました",
             "cannot_update_email": "申し訳ありません。メールを更新できません",
             "setup_password_to_update_email": "メールを更新する前にパスワードを設定する必要があります。",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "Twibbonize から{type}メールを受信しなくなります",
+            "description": "[%key_id:212561082%]",
             "title": "登録解除",
             "unsubscribe_success": "登録解除に成功しました",
             "global": "グローバル"
@@ -2860,6 +2868,72 @@
             "description": "申し訳ありませんが、お探しのページは見つかりませんでした。",
             "visit": "詳しくは{リンク}をご覧ください。",
             "go_to_homepage": "ホームページへ"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "警告だ！",
+            "contain_prohibited_word": "あなたの {field} には禁止されている単語が含まれています。",
+            "learn_more": "さらに詳しく"
+        },
+        "campaign": {
+            "contain_prohibited_words": "あなたのキャンペーンには禁止用語が含まれています",
+            "recent_activity": "Twibbonizeでの最近のアクティビティに、利用規約に違反する単語が使用されています。アカウント停止を防ぐため、{単語}は避けてください。",
+            "got_it": "了解",
+            "prohibited_words": "禁止ワード"
+        },
+        "profile": {
+            "account_suspended": "アカウント停止",
+            "violate_terms": "Twibbonizeは{規約}に違反したアカウントを停止します。",
+            "terms_of_use": "利用規約"
+        },
+        "appeal": {
+            "we_have_suspended": "あなたのアカウントを停止しました。",
+            "days_left": "{日数}が残っている場合、あなたのアカウントを永久に無効化します。",
+            "suspended_on": "日付}で一時停止",
+            "what_this_means": "これは何を意味するのか",
+            "what_this_means_detail": "あなたのアカウントは現在停止中で、Twibbonizeの他のユーザーからは見ることができません。現在、このプラットフォームを使用することはできません。",
+            "what_you_can_do": "あなたにできること",
+            "what_you_can_do_details": "この決定に対して、{日}以内に異議を申し立てることができます。当社は、お客様のアカウントの見直しを支援するために、お客様から追加情報を収集する必要がある場合があります。",
+            "why_this_happened": "なぜこうなったのか",
+            "why_this_happened_details": "ユーザー名}が当社の{利用規約}に準拠していないことに気づきました。",
+            "appeal": "アピール",
+            "submitted": "提出済み",
+            "provide_information": "下記の必要事項を必ずご記入ください。",
+            "regulatory_compilance": "規制遵守のため、発行された有効な身分証明書についてもう少し詳しい情報が必要です。この情報が提供されない場合、アピールの処理が遅れる可能性があります。",
+            "full_name": "氏名",
+            "email": "メールアドレス",
+            "write_down": "アピールを書く",
+            "explain_why": "そのコンテンツが削除されるべきではなかったと考える理由を説明してください。",
+            "attachment": "アタッチメント",
+            "optional": "オプション",
+            "select_file": "ファイルを選択するか、ここにドラッグ＆ドロップしてください。",
+            "format_file": "JPG、PNGまたはPDF、ファイルサイズ10MB以内",
+            "submit": "投稿する",
+            "have_submitted": "アピールを提出した",
+            "takes_a_day_review": "お客様の情報の確認には通常1日強かかります。最新情報はこちらでご確認ください。",
+            "not_visible": "あなたのアカウントは現在Twibbonize上で他のユーザーから見ることができません。",
+            "what_happens_next": "次に何が起こるのか？",
+            "reevaluate": "お客様のアカウントを再評価いたします。",
+            "complies_terms": "お客様のアカウントが当社の{規約}に準拠していると当社が判断した場合、お客様はTwibbonizeへのアクセスを回復します。",
+            "not_comply": "それでもあなたのアカウントが当社の{条件}を遵守していないと当社が判断した場合、あなたのアカウントは永久に無効となり、再び訴えることはできなくなります。",
+            "ok_got": "分かった",
+            "back_on_twibbonize": "Twibbonizeに戻る",
+            "no_longed_suspended": "こんにちは{ユーザー名}、あなたのアカウントはもう停止されていません。",
+            "thankyou_requesting_review": "レビューのリクエストありがとうございます。お客様のアカウントを確認し、アクティビティが当社の{規約}に準拠していることを確認しました。",
+            "sorry_couldnt_access": "アカウントが停止している間、Twibbonizeにアクセスできず、申し訳ございませんでした。皆様の安全な環境を確保するため、時として予防措置を講じる必要があります。",
+            "logged_in": "ユーザー名}でログイン",
+            "not_you": "あなたは違うの？{ログアウト｝",
+            "rejected_and_closed": "不服申し立てが却下され、口座を閉鎖しました。",
+            "through_review": "あなたのケースを徹底的に検討した結果、私たちはあなたの口座の閉鎖を維持することを決定しました。",
+            "log_out": "ログアウト",
+            "does_not_comply": "お客様のアカウントまたはその活動は、当社の{規約}に準拠していません。",
+            "review_non_compliance": "不服審査では、このプラットフォーム基準への不適合が確認された。",
+            "no_one_can_see": "誰もあなたのアカウントを見ることも見つけることもできないし、使うこともできない。 ",
+            "all_information_deleted": "あなたの情報はすべて永久に削除されます。 ",
+            "cannot_request": "この決定について再度審査を求めることはできない。",
+            "closed_account": "アカウントを閉鎖しました",
+            "permanently_suspend": "180日以内に異議申し立てが提出されなかったため、アカウントを永久に停止することを決定しました。"
         }
     }
 }

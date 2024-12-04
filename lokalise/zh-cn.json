@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "媒体资产"
+        },
+        "theme": {
+            "theme ": "主题",
+            "description_of_theme": "选择您希望 Twibbonize 呈现的方式。选择一个主题，或将主题与您的系统偏好设置同步。__ \n",
+            "choose_theme": "选择主题",
+            "auto": "汽车",
+            "light": "光",
+            "dark": "黑暗的"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "哎呀，我们无法删除您的社交媒体帐户。",
             "set_up_email": "您必须先设置电子邮件或密码才能删除您的社交媒体帐户。",
             "want_to_remove": "想要删除您的社交媒体帐户吗？",
-            "your_account_will_be_removed": "您的 {provider} 账户将被删除。点击“明白”以删除您的社交媒体账户。",
-            "continue_to_revoke": "继续撤销 ",
+            "your_account_will_be_removed": "您的 {provider} 帐户将被删除。确认以下操作以删除您的社交媒体帐户。",
+            "continue_to_revoke": "是的，删除",
             "revoke_success": "{provider} 账户已成功撤销",
             "cannot_update_email": "哎呀，我们无法更新你的电子邮件",
             "setup_password_to_update_email": "您必须在更新电子邮件之前设置密码。",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "您将不再收到来自 Twibbonize {type}电子邮件",
+            "description": "[%key_id:212561082%]",
             "title": "取消订阅",
             "unsubscribe_success": "取消订阅成功",
             "global": "全球的"
@@ -2860,6 +2868,72 @@
             "description": "抱歉，找不到您要查找的页面。",
             "visit": "请访问我们的{link}以获取更多信息。",
             "go_to_homepage": "转至主页"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "警告！",
+            "contain_prohibited_word": "您的{field}包含禁用词。",
+            "learn_more": "了解更多"
+        },
+        "campaign": {
+            "contain_prohibited_words": "您的广告系列包含禁用词语",
+            "recent_activity": "您最近在 Twibbonize 上的活动涉及使用违反我们使用条款的词语。请避免使用 {words} 以防止帐户被暂停。",
+            "got_it": "知道了",
+            "prohibited_words": "禁止用语"
+        },
+        "profile": {
+            "account_suspended": "帐户已暂停",
+            "violate_terms": "Twibbonize 暂停违反我们{terms}的帐户",
+            "terms_of_use": "使用条款"
+        },
+        "appeal": {
+            "we_have_suspended": "我们已暂停您的帐户，{username}",
+            "days_left": "还剩 {days} 天时间可以申诉，否则我们将永久禁用您的帐户。",
+            "suspended_on": "已于 {date} 暂停",
+            "what_this_means": "这意味着什么",
+            "what_this_means_detail": "您的帐户目前已被暂停，Twibbonize 上的其他人无法看到您的帐户。您目前无法使用该平台。",
+            "what_you_can_do": "您可以做什么",
+            "what_you_can_do_details": "您有 {days} 天的时间对此决定提出申诉。我们可能需要收集您的更多信息以协助审核您的帐户。",
+            "why_this_happened": "为什么会发生这种情况",
+            "why_this_happened_details": "我们注意到 {username} 上的活动不符合我们的 {terms}。",
+            "appeal": "上诉",
+            "submitted": "已提交",
+            "provide_information": "请务必提供以下所需信息",
+            "regulatory_compilance": "出于监管合规考虑，我们需要您提供更多有关您有效身份证件的信息。不提供这些信息可能会延迟处理您的申诉。",
+            "full_name": "姓名",
+            "email": "电子邮件",
+            "write_down": "写下你的诉求",
+            "explain_why": "请解释为什么您认为不应该删除该内容。",
+            "attachment": "依恋",
+            "optional": "选修的",
+            "select_file": "选择文件或拖放至此处",
+            "format_file": "JPG、PNG 或 PDF，文件大小不超过 10MB",
+            "submit": "提交",
+            "have_submitted": "您已提交申诉",
+            "takes_a_day_review": "我们通常需要一天多的时间来审核您的信息。请在此处查看更新。",
+            "not_visible": "您的帐户目前在 Twibbonize 上对其他人不可见，并且您无法使用它。",
+            "what_happens_next": "接下来会发生什么？",
+            "reevaluate": "我们将重新评估您的帐户。",
+            "complies_terms": "如果我们发现您的帐户符合我们的{terms}，您将重新获得 Twibbonize 的访问权限。",
+            "not_comply": "如果我们确定您的帐户仍然不符合我们的{terms}，您的帐户将被永久禁用，并且您将无法再次提出申诉。",
+            "ok_got": "好的，明白了",
+            "back_on_twibbonize": "您已返回 Twibbonize",
+            "no_longed_suspended": "您好，{username}，您的帐户不再被暂停。",
+            "thankyou_requesting_review": "感谢您请求审核。我们已审核您的帐户并确认其活动符合我们的{terms}，因此您现在可以再次使用 Twibbonize。",
+            "sorry_couldnt_access": "很抱歉，您的帐户暂停期间您无法访问 Twibbonize。为了确保每个人都能拥有一个安全的环境，我们偶尔需要采取预防措施。",
+            "logged_in": "以 {用户名} 登录",
+            "not_you": "不是你？{注销}",
+            "rejected_and_closed": "申诉被驳回，我们已关闭您的帐户",
+            "through_review": "在对您的案例进行全面审查后，我们决定维持关闭您帐户的政策。",
+            "log_out": "登出",
+            "does_not_comply": "您的帐户或其活动不符合我们的{terms}。",
+            "review_non_compliance": "申诉审查证实了这不符合我们平台的标准。",
+            "no_one_can_see": "没有人可以看到或找到您的帐户，因此您也无法使用它。 ",
+            "all_information_deleted": "您的所有信息将被永久删除。 ",
+            "cannot_request": "您不能请求再次审核此决定。",
+            "closed_account": "我们已关闭你的帐户",
+            "permanently_suspend": "由于您在 180 天内没有提交申诉，我们决定永久暂停您的帐户。"
         }
     }
 }

@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "Asetet e medias"
+        },
+        "theme": {
+            "theme ": "Tema",
+            "description_of_theme": "Zgjidhni se si dëshironi të shfaqet Twibbonize. Zgjidhni një temë ose sinkronizoni temat me preferencat e sistemit tuaj. \n",
+            "choose_theme": "Zgjidhni Temë",
+            "auto": "Auto",
+            "light": "Drita",
+            "dark": "E errët"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "Mos, nuk mund ta heqim llogarinë tënde në rrjetet sociale.",
             "set_up_email": "Së pari duhet të vendosni emailin ose fjalëkalimin për të hequr llogarinë tuaj të mediave sociale.",
             "want_to_remove": "Dëshironi të hiqni llogarinë tuaj në rrjetet sociale?",
-            "your_account_will_be_removed": "Llogaria juaj në {provider} do të hiqet. Klikoni \"Kuptoj\" për të hequr llogaritë tuaja të mediave sociale.\"",
-            "continue_to_revoke": "Vazhdoni të revokoni ",
+            "your_account_will_be_removed": "Llogaria juaj e {provider} do të hiqet. Konfirmoni më poshtë për të hequr llogaritë tuaja të mediave sociale.",
+            "continue_to_revoke": "Po, Hiq",
             "revoke_success": "Llogaria {provider} u revokua me sukses",
             "cannot_update_email": "Mos, nuk mund ta përditësojmë email-in tuaj",
             "setup_password_to_update_email": "Duhet të vendosni një fjalëkalim përpara se të përditësoni emailin tuaj.",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "Nuk do të merrni më emaile {type} nga Twibbonize",
+            "description": "[%key_id:212561082%]",
             "title": "Çregjistrohu",
             "unsubscribe_success": "Çregjistrimi ishte i suksesshëm",
             "global": "globale"
@@ -2860,6 +2868,72 @@
             "description": "Na vjen keq, por faqja që po kërkoni nuk u gjet.",
             "visit": "Ju lutemi vizitoni {link} tonë për më shumë informacion.",
             "go_to_homepage": "Shkoni te Faqja kryesore"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "Paralajmërim!",
+            "contain_prohibited_word": "{fusha} juaj përmban një fjalë të ndaluar.",
+            "learn_more": "Mësoni më shumë"
+        },
+        "campaign": {
+            "contain_prohibited_words": "Fushata juaj përmban fjalë të ndaluara",
+            "recent_activity": "Aktiviteti juaj i fundit në Twibbonize përfshin përdorimin e fjalëve që shkelin kushtet tona të përdorimit. Ju lutemi shmangni {words} për të parandaluar pezullimin e llogarisë.",
+            "got_it": "E kuptova",
+            "prohibited_words": "Fjalë të ndaluara"
+        },
+        "profile": {
+            "account_suspended": "Llogaria e pezulluar",
+            "violate_terms": "Twibbonize pezullon llogaritë që shkelin {kushtet} tona",
+            "terms_of_use": "Kushtet e Përdorimit"
+        },
+        "appeal": {
+            "we_have_suspended": "Ne kemi pezulluar llogarinë tuaj, {username}",
+            "days_left": "Kanë mbetur edhe {days} ditë për të apeluar, ose do ta çaktivizojmë përgjithmonë llogarinë tuaj.",
+            "suspended_on": "Pezulluar më {date}",
+            "what_this_means": "Çfarë do të thotë kjo",
+            "what_this_means_detail": "Llogaria juaj është aktualisht e pezulluar dhe nuk është e dukshme për të tjerët në Twibbonize. Nuk jeni në gjendje të përdorni platformën në këtë moment.",
+            "what_you_can_do": "Çfarë mund të bëni",
+            "what_you_can_do_details": "Keni {ditë} ditë për të apeluar këtë vendim. Mund të na duhet të mbledhim informacion shtesë nga ju për të ndihmuar në rishikimin e llogarisë tuaj.",
+            "why_this_happened": "Pse ndodhi kjo",
+            "why_this_happened_details": "Ne kemi vërejtur aktivitet në {username} që nuk përputhet me {kushtet} tona.",
+            "appeal": "Apelim",
+            "submitted": "dorëzuar",
+            "provide_information": "Ju lutemi sigurohuni që të jepni informacionin e kërkuar më poshtë",
+            "regulatory_compilance": "Për shkak të pajtueshmërisë me rregullat, ne kemi nevojë për pak më shumë informacion në lidhje me ID-në tuaj të vlefshme të lëshuar. Dështimi për të dhënë këtë informacion mund të vonojë përpunimin e apelimit tuaj.",
+            "full_name": "Emri i plotë",
+            "email": "Adresa e emailit",
+            "write_down": "Shkruani ankesën tuaj",
+            "explain_why": "Ju lutemi shpjegoni pse besoni se përmbajtja nuk duhej hequr.",
+            "attachment": "Bashkëngjitje",
+            "optional": "Fakultative",
+            "select_file": "Zgjidhni një skedar ose tërhiqni dhe lëshoni këtu",
+            "format_file": "JPG, PNG ose PDF, madhësia e skedarit jo më shumë se 10 MB",
+            "submit": "Paraqisni",
+            "have_submitted": "Ju keni paraqitur një ankesë",
+            "takes_a_day_review": "Zakonisht na duhet pak më shumë se një ditë për të shqyrtuar informacionin tuaj. Kontrolloni përsëri këtu për përditësime.",
+            "not_visible": "Llogaria juaj aktualisht nuk është e dukshme për të tjerët në Twibbonize dhe ju nuk jeni në gjendje ta përdorni atë.",
+            "what_happens_next": "Çfarë ndodh më pas?",
+            "reevaluate": "Ne do të rivlerësojmë llogarinë tuaj.",
+            "complies_terms": "Nëse konstatojmë se llogaria juaj përputhet me {kushtet} tona, ju do të rifitoni qasjen në Twibbonize.",
+            "not_comply": "Nëse përcaktojmë se llogaria juaj ende nuk përputhet me {kushtet} tona, llogaria juaj do të çaktivizohet përgjithmonë dhe nuk do të mund të apeloni përsëri.",
+            "ok_got": "Ok, e kuptova",
+            "back_on_twibbonize": "Jeni kthyer në Twibbonize",
+            "no_longed_suspended": "Përshëndetje {username}, llogaria juaj nuk është më e pezulluar.",
+            "thankyou_requesting_review": "Faleminderit që kërkuat një rishikim. Ne e kemi shqyrtuar llogarinë tuaj dhe kemi konfirmuar se aktiviteti i saj përputhet me {kushtet} tona, kështu që tani mund të përdorni përsëri Twibbonize.",
+            "sorry_couldnt_access": "Na vjen keq që nuk mund të hyni në Twibbonize ndërsa llogaria juaj ishte e pezulluar. Për të siguruar një mjedis të sigurt për të gjithë, herë pas here duhet të marrim masa paraprake.",
+            "logged_in": "Identifikohu si {username}",
+            "not_you": "Jo ju? {dalje}",
+            "rejected_and_closed": "Apelimi u refuzua dhe ne e kemi mbyllur llogarinë tuaj",
+            "through_review": "Pas një shqyrtimi të plotë të çështjes suaj, ne kemi vendosur të ruajmë mbylljen e llogarisë tuaj.",
+            "log_out": "Dilni",
+            "does_not_comply": "Llogaria juaj ose aktiviteti i saj nuk përputhet me {kushtet} tona.",
+            "review_non_compliance": "Shqyrtimi i apelit konfirmoi këtë mospërputhje me standardet e platformës sonë.",
+            "no_one_can_see": "Askush nuk mund ta shohë ose gjejë llogarinë tuaj dhe ju nuk mund ta përdorni atë. ",
+            "all_information_deleted": "Të gjitha informacionet tuaja do të fshihen përgjithmonë. ",
+            "cannot_request": "Ju nuk mund të kërkoni një rishikim tjetër të këtij vendimi.",
+            "closed_account": "Ne kemi mbyllur llogarinë tuaj",
+            "permanently_suspend": "Ne kemi vendosur të pezullojmë përgjithmonë llogarinë tuaj pasi nuk është dorëzuar asnjë apel brenda 180 ditëve."
         }
     }
 }

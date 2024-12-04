@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "נכסי מדיה"
+        },
+        "theme": {
+            "theme ": "נוֹשֵׂא",
+            "description_of_theme": "בחר כיצד תרצה ש-Twibbonize יופיע. בחר ערכת נושא, או סנכרן ערכות נושא עם העדפות המערכת שלך. \n",
+            "choose_theme": "בחר ערכת נושא",
+            "auto": "אוטומטי",
+            "light": "אוֹר",
+            "dark": "כֵּהֶה"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "אופס, אנחנו לא יכולים להסיר את חשבון המדיה החברתית שלך.",
             "set_up_email": "תחילה עליך להגדיר דוא\"ל או סיסמה כדי להסיר את חשבון המדיה החברתית שלך.",
             "want_to_remove": "רוצה להסיר את חשבון המדיה החברתית שלך?",
-            "your_account_will_be_removed": "החשבון שלך ב-{provider} יוסר. לחץ על \"הבנתי\" כדי להסיר את חשבונות המדיה החברתית שלך.",
-            "continue_to_revoke": "המשך לבטל ",
+            "your_account_will_be_removed": "חשבון {provider} שלך יוסר. אשר למטה כדי להסיר את חשבונות המדיה החברתית שלך.",
+            "continue_to_revoke": "כן, הסר",
             "revoke_success": "החשבון של {provider} בוטל בהצלחה",
             "cannot_update_email": "אופס, אנחנו לא יכולים לעדכן את האימייל שלך",
             "setup_password_to_update_email": "עליך להגדיר סיסמה לפני עדכון האימייל שלך.",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "לא תקבל יותר דוא\"ל {type} מ-Twibbonize",
+            "description": "[%key_id:212561082%]",
             "title": "בטל את המנוי",
             "unsubscribe_success": "ביטול הרישום הצליח",
             "global": "גלוֹבָּלִי"
@@ -2860,6 +2868,72 @@
             "description": "מצטערים, אבל הדף שחיפשת לא נמצא.",
             "visit": "אנא בקר ב-{link} שלנו למידע נוסף.",
             "go_to_homepage": "עבור לדף הבית"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "אַזהָרָה!",
+            "contain_prohibited_word": "ה-{field} שלך מכיל מילה אסורה.",
+            "learn_more": "למידע נוסף"
+        },
+        "campaign": {
+            "contain_prohibited_words": "הקמפיין שלך מכיל מילים אסורות",
+            "recent_activity": "הפעילות האחרונה שלך ב-Twibbonize כללה שימוש במילים שמפרות את תנאי השימוש שלנו. נא להימנע מ-{words} כדי למנוע השעיית חשבון.",
+            "got_it": "הבנתי",
+            "prohibited_words": "מילים אסורות"
+        },
+        "profile": {
+            "account_suspended": "חשבון מושעה",
+            "violate_terms": "Twibbonize משעה חשבונות שמפרים את ה{תנאים} שלנו",
+            "terms_of_use": "תנאי שימוש"
+        },
+        "appeal": {
+            "we_have_suspended": "השעינו את חשבונך, {username}",
+            "days_left": "נותרו {days} ימים לערעור, או שנשבית לצמיתות את חשבונך.",
+            "suspended_on": "הושעה בתאריך {date}",
+            "what_this_means": "מה זה אומר",
+            "what_this_means_detail": "חשבונך מושעה כעת ואינו גלוי לאחרים ב-Twibbonize. אינך יכול להשתמש בפלטפורמה בשלב זה.",
+            "what_you_can_do": "מה אתה יכול לעשות",
+            "what_you_can_do_details": "יש לך {days} ימים לערער על החלטה זו. ייתכן שנצטרך לאסוף ממך מידע נוסף כדי לסייע בבדיקת חשבונך.",
+            "why_this_happened": "למה זה קרה",
+            "why_this_happened_details": "שמנו לב לפעילות ב-{username} שאינה עומדת ב{תנאים} שלנו.",
+            "appeal": "עִרעוּר",
+            "submitted": "הוגש",
+            "provide_information": "אנא הקפד לספק את המידע המבוקש להלן",
+            "regulatory_compilance": "עקב ציות לתקנות, אנו זקוקים לקצת יותר מידע בנוגע לתעודה מזהה חוקית שהונפקה. אי מסירת מידע זה עלול לעכב את הטיפול בערעור שלך.",
+            "full_name": "שם מלא",
+            "email": "כתובת אימייל",
+            "write_down": "רשום את הערעור שלך",
+            "explain_why": "אנא הסבר מדוע לדעתך לא היה צריך להסיר את התוכן.",
+            "attachment": "הִתקַשְׁרוּת",
+            "optional": "אופציונלי",
+            "select_file": "בחר קובץ או גרור ושחרר כאן",
+            "format_file": "JPG, PNG או PDF, גודל הקובץ אינו עולה על 10MB",
+            "submit": "לְהַגִישׁ",
+            "have_submitted": "הגשת ערעור",
+            "takes_a_day_review": "בדרך כלל לוקח לנו קצת יותר מיום לבדוק את המידע שלך. חזור לכאן לקבלת עדכונים.",
+            "not_visible": "החשבון שלך אינו גלוי כעת לאחרים ב-Twibbonize, ואתה לא יכול להשתמש בו.",
+            "what_happens_next": "מה קורה אחר כך?",
+            "reevaluate": "אנו נבצע הערכה מחדש של חשבונך.",
+            "complies_terms": "אם נגלה שחשבונך תואם ל{תנאים} שלנו, תקבל שוב גישה ל-Twibbonize.",
+            "not_comply": "אם נחליט שחשבונך עדיין אינו תואם ל{תנאים} שלנו, חשבונך יושבת לצמיתות, ולא תוכל לערער שוב.",
+            "ok_got": "אוקי, הבנתי",
+            "back_on_twibbonize": "חזרת ל-Twibbonize",
+            "no_longed_suspended": "היי {username}, חשבונך אינו מושעה עוד.",
+            "thankyou_requesting_review": "תודה שביקשת סקירה. בדקנו את חשבונך ואישרנו שהפעילות שלו תואמת ל{תנאים} שלנו, כך שתוכל להשתמש שוב ב-Twibbonize.",
+            "sorry_couldnt_access": "אנו מצטערים שלא הצלחת לגשת ל-Twibbonize בזמן שהחשבון שלך הושעה. כדי להבטיח סביבה בטוחה לכולם, אנו צריכים מדי פעם לנקוט באמצעי זהירות.",
+            "logged_in": "היכנס בתור {username}",
+            "not_you": "לא אתה? {logout}",
+            "rejected_and_closed": "הערעור נדחה וסגרנו את חשבונך",
+            "through_review": "לאחר בדיקה מעמיקה של המקרה שלך, החלטנו לשמור על סגירת חשבונך.",
+            "log_out": "התנתק",
+            "does_not_comply": "החשבון שלך, או הפעילות שלו, אינם עומדים ב{תנאים} שלנו.",
+            "review_non_compliance": "בדיקת הערעור אישרה אי עמידה זו בתקני הפלטפורמה שלנו.",
+            "no_one_can_see": "אף אחד לא יכול לראות או למצוא את החשבון שלך ואתה לא יכול להשתמש בו. ",
+            "all_information_deleted": "כל המידע שלך יימחק לצמיתות. ",
+            "cannot_request": "אינך יכול לבקש בדיקה נוספת של החלטה זו.",
+            "closed_account": "סגרנו את חשבונך",
+            "permanently_suspend": "החלטנו להשעות את חשבונך לצמיתות מכיוון שלא הוגש ערעור בתוך 180 יום."
         }
     }
 }

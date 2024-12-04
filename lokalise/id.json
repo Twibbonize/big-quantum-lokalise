@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "Aset Media"
+        },
+        "theme": {
+            "theme ": "Tema",
+            "description_of_theme": "Pilih tampilan Twibbonize yang Anda inginkan. Pilih tema, atau sinkronkan tema dengan preferensi sistem Anda.\n",
+            "choose_theme": "Pilih Tema",
+            "auto": "Otomatis",
+            "light": "Cahaya",
+            "dark": "Gelap"
         }
     },
     "page_home": {
@@ -1703,9 +1711,9 @@
             "cant_remove_account": "Ups, kami tidak dapat menghapus akun media sosial kamu.",
             "set_up_email": "Kamu harus mengatur Email atau Kata Sandi terlebih dahulu untuk menghapus akun media sosialmu.",
             "want_to_remove": "Ingin menghapus akun media sosialmu?",
-            "your_account_will_be_removed": "Akun {provider} kamu akan dihapus. Klik \"Mengerti\" untuk menghapus akun media sosial kamu.",
-            "continue_to_revoke": "Lanjutkan untuk Mencabut ",
-            "revoke_success": "Berhasil Mencabut Akun {provider}",
+            "your_account_will_be_removed": "Akun {provider} kamu akan dihapus. Klik tombol di bawah untuk konfirmasi pencabutan akun media sosialmu.",
+            "continue_to_revoke": "Ya, Hapus",
+            "revoke_success": "Berhasil Menghapus Akun {provider}",
             "cannot_update_email": "Ups, kami tidak dapat memperbarui email kamu",
             "setup_password_to_update_email": "Kamu harus menetapkan Kata Sandi sebelum memperbarui emailmu.",
             "email_change_request": "Permintaan Perubahan Email Dibatalkan",
@@ -2371,7 +2379,7 @@
             "account_deleted": "Akun dihapus",
             "campaign_deleted": "Kampanye dihapus",
             "account_integrated": "Akun terintegrasi",
-            "account_revoked": "Akun dicabut",
+            "account_revoked": "Akun dihapus",
             "social_media_already_linked": "Akun media sosial sudah terhubung dengan akun Twibbonize lain. Coba yang lain",
             "campaign_added": "Kampanye ditambahkan",
             "account_upgraded": "Akun ditingkatkan",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "Kamu tidak akan lagi mendapatkan email {type} dari Twibbonize",
+            "description": "[%key_id:212561082%]",
             "title": "Berhenti Berlangganan",
             "unsubscribe_success": "Berhasil Berhenti Langganan",
             "global": "Global"
@@ -2860,6 +2868,72 @@
             "description": "Maaf, halaman yang Anda cari tidak dapat ditemukan.",
             "visit": "Silakan kunjungi {link} kami untuk informasi lebih lanjut.",
             "go_to_homepage": "Pergi ke Beranda"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "Peringatan!",
+            "contain_prohibited_word": "{field} Anda mengandung kata yang dilarang.",
+            "learn_more": "Pelajari Lebih Lanjut"
+        },
+        "campaign": {
+            "contain_prohibited_words": "Kampanye Anda mengandung Kata-kata yang Dilarang",
+            "recent_activity": "Aktivitas Anda baru-baru ini di Twibbonize melibatkan penggunaan kata-kata yang melanggar Ketentuan Penggunaan kami. Mohon hindari {kata-kata} untuk mencegah penangguhan akun.",
+            "got_it": "Mengerti",
+            "prohibited_words": "Kata-kata yang Dilarang"
+        },
+        "profile": {
+            "account_suspended": "Akun Ditangguhkan",
+            "violate_terms": "Twibbonize menangguhkan akun yang melanggar {ketentuan} kami",
+            "terms_of_use": "Ketentuan Penggunaan"
+        },
+        "appeal": {
+            "we_have_suspended": "Kami telah menangguhkan akun Anda, {nama pengguna}",
+            "days_left": "{hari} hari tersisa untuk mengajukan banding, atau kami akan menonaktifkan akun Anda secara permanen.",
+            "suspended_on": "Ditangguhkan pada {tanggal}",
+            "what_this_means": "Apa artinya ini",
+            "what_this_means_detail": "Akun Anda saat ini ditangguhkan dan tidak dapat dilihat oleh orang lain di Twibbonize. Anda tidak dapat menggunakan platform saat ini.",
+            "what_you_can_do": "Apa yang dapat Anda lakukan",
+            "what_you_can_do_details": "Anda memiliki waktu {hari} hari untuk mengajukan banding atas keputusan ini. Kami mungkin perlu mengumpulkan informasi tambahan dari Anda untuk membantu meninjau akun Anda.",
+            "why_this_happened": "Mengapa ini terjadi",
+            "why_this_happened_details": "Kami melihat aktivitas pada {nama pengguna} yang tidak sesuai dengan {ketentuan} kami.",
+            "appeal": "Banding",
+            "submitted": "Dikirimkan",
+            "provide_information": "Pastikan untuk memberikan informasi yang diminta di bawah ini",
+            "regulatory_compilance": "Karena kepatuhan terhadap peraturan, kami memerlukan sedikit informasi lebih lanjut mengenai kartu identitas Anda yang masih berlaku. Kegagalan untuk memberikan informasi ini dapat menunda pemrosesan banding Anda.",
+            "full_name": "Nama Lengkap",
+            "email": "Alamat email",
+            "write_down": "Tuliskan permohonan Anda",
+            "explain_why": "Mohon jelaskan mengapa Anda yakin bahwa konten tersebut seharusnya tidak dihapus.",
+            "attachment": "Lampiran",
+            "optional": "Opsional",
+            "select_file": "Pilih file atau seret dan lepas di sini",
+            "format_file": "JPG, PNG atau PDF, ukuran file tidak lebih dari 10MB",
+            "submit": "Kirim",
+            "have_submitted": "Anda telah mengajukan banding",
+            "takes_a_day_review": "Biasanya kami membutuhkan waktu lebih dari satu hari untuk meninjau informasi Anda. Periksa kembali di sini untuk pembaruan.",
+            "not_visible": "Akun Anda saat ini tidak dapat dilihat oleh orang lain di Twibbonize, dan Anda tidak dapat menggunakannya.",
+            "what_happens_next": "Apa yang terjadi selanjutnya?",
+            "reevaluate": "Kami akan mengevaluasi kembali akun Anda.",
+            "complies_terms": "Jika kami menemukan bahwa akun Anda sesuai dengan {ketentuan} kami, Anda akan mendapatkan kembali akses ke Twibbonize.",
+            "not_comply": "Jika kami memutuskan bahwa akun Anda masih tidak mematuhi {ketentuan} kami, akun Anda akan dinonaktifkan secara permanen, dan Anda tidak dapat mengajukan banding lagi.",
+            "ok_got": "Ok, Mengerti",
+            "back_on_twibbonize": "Anda kembali ke Twibbonize",
+            "no_longed_suspended": "Hai {nama pengguna}, akun Anda tidak lagi ditangguhkan.",
+            "thankyou_requesting_review": "Terima kasih telah meminta ulasan. Kami telah meninjau akun Anda dan mengonfirmasi bahwa aktivitasnya sesuai dengan {ketentuan} kami, sehingga Anda dapat menggunakan Twibbonize lagi.",
+            "sorry_couldnt_access": "Kami mohon maaf Anda tidak dapat mengakses Twibbonize saat akun Anda ditangguhkan. Untuk memastikan lingkungan yang aman bagi semua orang, terkadang kami perlu melakukan tindakan pencegahan.",
+            "logged_in": "Masuk sebagai {nama pengguna}",
+            "not_you": "Bukan kau? [logout]",
+            "rejected_and_closed": "Banding ditolak, dan kami telah menutup akun Anda",
+            "through_review": "Setelah meninjau kasus Anda secara menyeluruh, kami memutuskan untuk mempertahankan penutupan akun Anda.",
+            "log_out": "Keluar",
+            "does_not_comply": "Akun Anda, atau aktivitasnya, tidak sesuai dengan {ketentuan} kami.",
+            "review_non_compliance": "Tinjauan banding mengkonfirmasi ketidakpatuhan terhadap standar platform kami.",
+            "no_one_can_see": "Tidak ada yang bisa melihat atau menemukan akun Anda dan Anda tidak bisa menggunakannya. ",
+            "all_information_deleted": "Semua informasi Anda akan dihapus secara permanen. ",
+            "cannot_request": "Anda tidak dapat meminta peninjauan kembali atas keputusan ini.",
+            "closed_account": "Kami telah menutup akun Anda",
+            "permanently_suspend": "Kami memutuskan untuk menangguhkan akun Anda secara permanen karena tidak ada banding yang diajukan dalam waktu 180 hari."
         }
     }
 }

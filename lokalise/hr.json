@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "Medijska sredstva"
+        },
+        "theme": {
+            "theme ": "Tema",
+            "description_of_theme": "Odaberite kako želite da se Twibbonize prikazuje. Odaberite temu ili sinkronizirajte teme s postavkama vašeg sustava. \n",
+            "choose_theme": "Odaberite temu",
+            "auto": "Auto",
+            "light": "Svjetlo",
+            "dark": "tamno"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "Ups, ne možemo ukloniti vaš račun na društvenim mrežama.",
             "set_up_email": "Prvo morate postaviti e-poštu ili lozinku da biste uklonili svoj račun na društvenim mrežama.",
             "want_to_remove": "Želite li ukloniti svoj račun na društvenim mrežama?",
-            "your_account_will_be_removed": "Vaš {provider} račun će biti uklonjen. Kliknite na 'Razumijem' za uklanjanje vaših računa na društvenim mrežama.",
-            "continue_to_revoke": "Nastavite s opozivom ",
+            "your_account_will_be_removed": "Vaš {provider} račun bit će uklonjen. U nastavku potvrdite uklanjanje svojih računa na društvenim mrežama.",
+            "continue_to_revoke": "Da, Ukloni",
             "revoke_success": "Račun na {provider} uspješno je opozvan",
             "cannot_update_email": "Ups, ne možemo ažurirati vašu e-poštu",
             "setup_password_to_update_email": "Prije ažuriranja e-pošte morate postaviti lozinku.",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "Više nećete primati {type} e-poruke od Twibbonizea",
+            "description": "[%key_id:212561082%]",
             "title": "Odjavi pretplatu",
             "unsubscribe_success": "Otkaži pretplatu uspješno",
             "global": "Globalno"
@@ -2860,6 +2868,72 @@
             "description": "Žao nam je, ali stranica koju ste tražili nije mogla biti pronađena.",
             "visit": "Posjetite našu {link} za više informacija.",
             "go_to_homepage": "Idite na početnu stranicu"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "Upozorenje!",
+            "contain_prohibited_word": "Vaše {field} sadrži zabranjenu riječ.",
+            "learn_more": "Saznajte više"
+        },
+        "campaign": {
+            "contain_prohibited_words": "Vaša kampanja sadrži zabranjene riječi",
+            "recent_activity": "Vaša nedavna aktivnost na Twibbonizeu uključivala je korištenje riječi koje krše naše Uvjete korištenja. Izbjegavajte {words} kako biste spriječili obustavu računa.",
+            "got_it": "Shvaćam",
+            "prohibited_words": "Zabranjene riječi"
+        },
+        "profile": {
+            "account_suspended": "Račun obustavljen",
+            "violate_terms": "Twibbonize obustavlja račune koji krše naše {terms}",
+            "terms_of_use": "Uvjeti korištenja"
+        },
+        "appeal": {
+            "we_have_suspended": "Obustavili smo vaš račun, {username}",
+            "days_left": "Još {days} dana za žalbu ili ćemo trajno onemogućiti vaš račun.",
+            "suspended_on": "Obustavljeno {date}",
+            "what_this_means": "Što ovo znači",
+            "what_this_means_detail": "Vaš račun trenutno je obustavljen i nije vidljiv drugima na Twibbonizeu. Trenutno ne možete koristiti platformu.",
+            "what_you_can_do": "Što možete učiniti",
+            "what_you_can_do_details": "Imate {days} dana za žalbu na ovu odluku. Možda ćemo morati prikupiti dodatne podatke od vas kako bismo vam pomogli u pregledu vašeg računa.",
+            "why_this_happened": "Zašto se to dogodilo",
+            "why_this_happened_details": "Primijetili smo aktivnost na {username} koja nije u skladu s našim {terms}.",
+            "appeal": "Apel",
+            "submitted": "Poslano",
+            "provide_information": "Obavezno navedite tražene podatke u nastavku",
+            "regulatory_compilance": "Zbog usklađenosti s propisima trebamo malo više informacija o izdanoj važećoj osobnoj iskaznici. Nenavođenje ovih informacija može odgoditi obradu vaše žalbe.",
+            "full_name": "Puno ime",
+            "email": "E-mail adresa",
+            "write_down": "Zapišite svoju žalbu",
+            "explain_why": "Objasnite zašto smatrate da sadržaj nije trebao biti uklonjen.",
+            "attachment": "Prilog",
+            "optional": "Neobavezno",
+            "select_file": "Odaberite datoteku ili povucite i ispustite ovdje",
+            "format_file": "JPG, PNG ili PDF, veličina datoteke ne veća od 10 MB",
+            "submit": "Pošalji",
+            "have_submitted": "Podnijeli ste žalbu",
+            "takes_a_day_review": "Obično nam treba nešto više od jednog dana da pregledamo vaše podatke. Provjerite ovdje za ažuriranja.",
+            "not_visible": "Vaš račun trenutno nije vidljiv drugima na Twibbonizeu i ne možete ga koristiti.",
+            "what_happens_next": "Što se dalje događa?",
+            "reevaluate": "Ponovno ćemo procijeniti vaš račun.",
+            "complies_terms": "Ako ustanovimo da je vaš račun u skladu s našim {terms}, ponovno ćete dobiti pristup Twibbonizeu.",
+            "not_comply": "Ako utvrdimo da vaš račun i dalje nije u skladu s našim {terms}, vaš će račun biti trajno onemogućen i više se nećete moći žaliti.",
+            "ok_got": "U redu, shvaćam",
+            "back_on_twibbonize": "Vratili ste se na Twibbonize",
+            "no_longed_suspended": "Bok {username}, tvoj račun više nije obustavljen.",
+            "thankyou_requesting_review": "Hvala što ste zatražili pregled. Pregledali smo vaš račun i potvrdili da je njegova aktivnost u skladu s našim {terms}, tako da sada možete ponovno koristiti Twibbonize.",
+            "sorry_couldnt_access": "Žao nam je što niste mogli pristupiti Twibbonizeu dok je vaš račun bio obustavljen. Kako bismo osigurali sigurno okruženje za sve, povremeno moramo poduzeti mjere predostrožnosti.",
+            "logged_in": "Prijavite se kao {username}",
+            "not_you": "nisi ti? {odjava}",
+            "rejected_and_closed": "Žalba je odbijena i zatvorili smo vaš račun",
+            "through_review": "Nakon temeljitog pregleda vašeg slučaja, odlučili smo zadržati zatvaranje vašeg računa.",
+            "log_out": "Odjavi se",
+            "does_not_comply": "Vaš račun ili njegova aktivnost nisu u skladu s našim {terms}.",
+            "review_non_compliance": "Žalbeni pregled potvrdio je ovu nepoštivanje standarda naše platforme.",
+            "no_one_can_see": "Nitko ne može vidjeti ili pronaći vaš račun i ne možete ga koristiti. ",
+            "all_information_deleted": "Svi vaši podaci bit će trajno izbrisani. ",
+            "cannot_request": "Ne možete zatražiti ponovno preispitivanje ove odluke.",
+            "closed_account": "Zatvorili smo vaš račun",
+            "permanently_suspend": "Odlučili smo trajno suspendirati vaš račun jer nijedna žalba nije poslana u roku od 180 dana."
         }
     }
 }

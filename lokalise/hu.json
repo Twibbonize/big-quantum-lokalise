@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "Médiaeszközök"
+        },
+        "theme": {
+            "theme ": "Téma",
+            "description_of_theme": "Válassza ki, hogyan szeretné, hogy a Twibbonize megjelenjen. Válasszon ki egy témát, vagy szinkronizálja a témákat a rendszerbeállításokkal.\n",
+            "choose_theme": "Téma kiválasztása",
+            "auto": "Auto",
+            "light": "Fény",
+            "dark": "Sötét"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "Hoppá, nem tudjuk eltávolítani közösségimédia-fiókját.",
             "set_up_email": "Először be kell állítania az e-mail-címet vagy a jelszót a közösségi médiafiók eltávolításához.",
             "want_to_remove": "El szeretné távolítani közösségimédia-fiókját?",
-            "your_account_will_be_removed": "Il tuo account {provider} verrà rimosso. Fai clic su 'capisco' per rimuovere i tuoi account sui social media.",
-            "continue_to_revoke": "Folytassa a Visszavonás lehetőséggel ",
+            "your_account_will_be_removed": "A {szolgáltató} fiókját eltávolítjuk. A közösségi média fiókok eltávolításához erősítse meg az alábbiakat.",
+            "continue_to_revoke": "Igen, Eltávolítás",
             "revoke_success": "{provider} fiók sikeresen visszavonva",
             "cannot_update_email": "Hoppá, nem tudjuk frissíteni az e-mail-címét",
             "setup_password_to_update_email": "Az e-mail-cím frissítése előtt be kell állítania egy jelszót.",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "A továbbiakban nem fog kapni {type} e-maileket a Twibbonize-tól",
+            "description": "[%key_id:212561082%]",
             "title": "Leiratkozás",
             "unsubscribe_success": "Sikeres leiratkozás",
             "global": "Globális"
@@ -2860,6 +2868,72 @@
             "description": "Sajnáljuk, de a keresett oldal nem található.",
             "visit": "További információkért látogasson el a {link} oldalunkra.",
             "go_to_homepage": "Menj a honlapra"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "Figyelem!",
+            "contain_prohibited_word": "A {meződ} tiltott szót tartalmaz.",
+            "learn_more": "Tudjon meg többet"
+        },
+        "campaign": {
+            "contain_prohibited_words": "Kampánya tiltott szavakat tartalmaz",
+            "recent_activity": "A Twibbonize-on nemrégiben végzett tevékenysége során olyan szavakat használt, amelyek sértik a Felhasználási feltételeinket. Kérjük, kerüld a {szavak} használatát, hogy elkerüld a fiók felfüggesztését.",
+            "got_it": "Megvan",
+            "prohibited_words": "Tiltott szavak"
+        },
+        "profile": {
+            "account_suspended": "Felfüggesztett számla",
+            "violate_terms": "A Twibbonize felfüggeszti azokat a fiókokat, amelyek megsértik a {feltételeinket}",
+            "terms_of_use": "Felhasználási feltételek"
+        },
+        "appeal": {
+            "we_have_suspended": "Felfüggesztettük a fiókját, {felhasználónév}",
+            "days_left": "{nap} napod maradt a fellebbezésre, különben véglegesen letiltjuk a fiókodat.",
+            "suspended_on": "Felfüggesztve {dátum}",
+            "what_this_means": "Mit jelent ez",
+            "what_this_means_detail": "A fiókod jelenleg fel van függesztve, és mások számára nem látható a Twibbonize-on. Jelenleg nem tudod használni a platformot.",
+            "what_you_can_do": "Mit tehetsz",
+            "what_you_can_do_details": "Önnek {nap} napja van arra, hogy fellebbezzen a határozat ellen. Előfordulhat, hogy további információkat kell gyűjtenünk Öntől, hogy segítsük a számla felülvizsgálatát.",
+            "why_this_happened": "Miért történt ez",
+            "why_this_happened_details": "Olyan tevékenységet észleltünk a {felhasználónév} oldalon, amely nem felel meg a {feltételeinknek}.",
+            "appeal": "Fellebbezés",
+            "submitted": "Beküldve",
+            "provide_information": "Kérjük, feltétlenül adja meg az alábbiakban kért információkat",
+            "regulatory_compilance": "A jogszabályi megfelelés miatt szükségünk van egy kicsit több információra a kiállított érvényes személyi igazolványról. Ezen információk megadásának elmulasztása késleltetheti a fellebbezésének feldolgozását.",
+            "full_name": "Teljes név",
+            "email": "E-mail cím",
+            "write_down": "Írja le a fellebbezését",
+            "explain_why": "Kérjük, magyarázza meg, hogy Ön szerint miért nem kellett volna eltávolítani a tartalmat.",
+            "attachment": "Csatolás",
+            "optional": "Opcionális",
+            "select_file": "Válasszon ki egy fájlt vagy húzza ide",
+            "format_file": "JPG, PNG vagy PDF, a fájl mérete legfeljebb 10 MB",
+            "submit": "Küldje be a",
+            "have_submitted": "Ön fellebbezést nyújtott be",
+            "takes_a_day_review": "Általában alig több mint egy napot vesz igénybe az Ön adatainak áttekintése. Nézzen vissza ide a frissítésekért.",
+            "not_visible": "A fiókod jelenleg nem látható mások számára a Twibbonize-on, és nem tudod használni.",
+            "what_happens_next": "Mi történik ezután?",
+            "reevaluate": "Újra fogjuk értékelni a számláját.",
+            "complies_terms": "Ha úgy találjuk, hogy a fiókod megfelel a {feltételeinknek}, újra hozzáférhetsz a Twibbonize-hoz.",
+            "not_comply": "Ha megállapítjuk, hogy a fiókod továbbra sem felel meg a {feltételeinknek}, a fiókodat véglegesen letiltjuk, és nem tudsz újra fellebbezni.",
+            "ok_got": "Oké, értem",
+            "back_on_twibbonize": "Visszatértél a Twibbonize-ra",
+            "no_longed_suspended": "Szia {felhasználónév}, a fiókodat már nem függesztettük fel.",
+            "thankyou_requesting_review": "Köszönjük, hogy felülvizsgálatot kért. Átnéztük a fiókját, és megerősítettük, hogy a tevékenysége megfelel a {feltételeinknek}, így mostantól újra használhatja a Twibbonize-t.",
+            "sorry_couldnt_access": "Sajnáljuk, hogy nem tudtál hozzáférni a Twibbonize-hoz, amíg a fiókod fel volt függesztve. Annak érdekében, hogy mindenki számára biztonságos környezetet biztosítsunk, időnként óvintézkedéseket kell tennünk.",
+            "logged_in": "Jelentkezzen be {felhasználónév}",
+            "not_you": "Te nem? {logout}",
+            "rejected_and_closed": "Fellebbezés elutasítva, és bezártuk a fiókját",
+            "through_review": "Ügyének alapos átvizsgálása után úgy döntöttünk, hogy fenntartjuk a számla lezárását.",
+            "log_out": "Kijelentkezés",
+            "does_not_comply": "Az Ön fiókja vagy annak tevékenysége nem felel meg a {feltételeinknek}.",
+            "review_non_compliance": "A fellebbezés felülvizsgálata megerősítette, hogy ez nem felel meg a platformra vonatkozó szabványainknak.",
+            "no_one_can_see": "Senki sem láthatja vagy találhatja meg a fiókodat, és nem tudod használni. ",
+            "all_information_deleted": "Minden adatod véglegesen törlésre kerül. ",
+            "cannot_request": "Ön nem kérheti e határozat újabb felülvizsgálatát.",
+            "closed_account": "Lezártuk a számláját",
+            "permanently_suspend": "Úgy döntöttünk, hogy véglegesen felfüggesztjük a fiókját, mivel 180 napon belül nem nyújtott be fellebbezést."
         }
     }
 }

@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "미디어 자산"
+        },
+        "theme": {
+            "theme ": "테마",
+            "description_of_theme": "Twibbonize를 표시할 방법을 선택합니다. 테마를 선택하거나 시스템 환경설정에 따라 테마를 동기화합니다.\n",
+            "choose_theme": "테마 선택",
+            "auto": "자동",
+            "light": "빛",
+            "dark": "Dark"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "죄송합니다. 귀하의 소셜 미디어 계정을 삭제할 수 없습니다.",
             "set_up_email": "소셜 미디어 계정을 제거하려면 먼저 이메일이나 비밀번호를 설정해야 합니다.",
             "want_to_remove": "소셜 미디어 계정을 삭제하고 싶으신가요?",
-            "your_account_will_be_removed": "귀하의 {provider} 계정이 삭제됩니다. 소셜 미디어 계정을 삭제하려면 '이해합니다'를 클릭하세요.",
-            "continue_to_revoke": "계속해서 취소하세요 ",
+            "your_account_will_be_removed": "귀하의 {제공자} 계정이 삭제됩니다. 소셜 미디어 계정을 삭제하려면 아래에서 확인하세요.",
+            "continue_to_revoke": "예, 제거",
             "revoke_success": "{provider} 계정이 성공적으로 해지되었습니다",
             "cannot_update_email": "죄송합니다. 이메일을 업데이트할 수 없습니다.",
             "setup_password_to_update_email": "이메일을 업데이트하기 전에 비밀번호를 설정해야 합니다.",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "더 이상 Twibbonize에서 {type} 이메일을 받지 않습니다.",
+            "description": "[%key_id:212561082%]",
             "title": "구독 취소",
             "unsubscribe_success": "구독 취소 성공",
             "global": "글로벌"
@@ -2860,6 +2868,72 @@
             "description": "죄송하지만 찾으시던 페이지를 찾을 수 없습니다.",
             "visit": "자세한 내용은 {링크}를 참조하세요.",
             "go_to_homepage": "홈페이지로 이동"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "경고!",
+            "contain_prohibited_word": "필드}에 금지된 단어가 포함되어 있습니다.",
+            "learn_more": "자세히 알아보기"
+        },
+        "campaign": {
+            "contain_prohibited_words": "캠페인에 금지 단어가 포함되어 있습니다",
+            "recent_activity": "최근 트윕본아이즈에서의 활동에 트위터 이용약관을 위반하는 단어가 포함되어 있습니다. 계정 정지를 방지하려면 {단어}를 사용하지 마세요.",
+            "got_it": "Got It",
+            "prohibited_words": "금지 단어"
+        },
+        "profile": {
+            "account_suspended": "계정 일시 정지",
+            "violate_terms": "약관을 위반하는 계정을 일시 정지합니다",
+            "terms_of_use": "이용 약관"
+        },
+        "appeal": {
+            "we_have_suspended": "사용자 아이디 {사용자 이름} 계정이 일시 정지되었습니다",
+            "days_left": "{일}일까지 이의제기 기간이 남지 않으면 계정을 영구적으로 비활성화합니다.",
+            "suspended_on": "날짜}에 일시 중단됨",
+            "what_this_means": "이것이 의미하는 것",
+            "what_this_means_detail": "귀하의 계정은 현재 일시 정지되어 Twibbonize의 다른 사용자에게 표시되지 않습니다. 현재 플랫폼을 사용할 수 없습니다.",
+            "what_you_can_do": "할 수 있는 일",
+            "what_you_can_do_details": "이 결정에 대해 {일}일 이내에 이의를 제기할 수 있습니다. 계정 검토를 지원하기 위해 회원님으로부터 추가 정보를 수집해야 할 수도 있습니다.",
+            "why_this_happened": "이런 일이 발생한 이유",
+            "why_this_happened_details": "사용자 아이디}에서 {약관}을 준수하지 않는 활동이 발견되었습니다.",
+            "appeal": "호소",
+            "submitted": "제출됨",
+            "provide_information": "아래 요청된 정보를 반드시 입력해 주세요",
+            "regulatory_compilance": "규정 준수에 따라 발급받은 유효한 신분증에 대한 정보가 더 필요합니다. 이 정보를 제공하지 않으면 이의 제기 처리가 지연될 수 있습니다.",
+            "full_name": "전체 이름",
+            "email": "이메일 주소",
+            "write_down": "호소문 작성하기",
+            "explain_why": "콘텐츠가 삭제되어서는 안 된다고 생각하는 이유를 설명해 주세요.",
+            "attachment": "첨부 파일",
+            "optional": "선택 사항",
+            "select_file": "파일을 선택하거나 여기로 끌어다 놓기",
+            "format_file": "JPG, PNG 또는 PDF, 파일 크기 10MB 이하",
+            "submit": "제출하기",
+            "have_submitted": "이의 제기를 제출했습니다",
+            "takes_a_day_review": "일반적으로 회원님의 정보를 검토하는 데 하루가 조금 넘게 걸립니다. 여기에서 업데이트를 다시 확인하세요.",
+            "not_visible": "현재 귀하의 계정은 Twibbonize에서 다른 사용자에게 표시되지 않으며 사용할 수 없습니다.",
+            "what_happens_next": "다음 단계는 어떻게 되나요?",
+            "reevaluate": "계정을 재평가하겠습니다.",
+            "complies_terms": "귀하의 계정이 당사의 {약관}을 준수하는 것으로 확인되면 Twibbonize에 다시 액세스할 수 있게 됩니다.",
+            "not_comply": "회원님의 계정이 여전히 {약관}을 준수하지 않는 것으로 판단되면 계정은 영구적으로 사용 중지되며 다시 이의를 제기할 수 없습니다.",
+            "ok_got": "알았어요",
+            "back_on_twibbonize": "트위본라이즈로 돌아왔습니다",
+            "no_longed_suspended": "안녕하세요 {사용자 이름} 님, 계정이 더 이상 일시 정지되지 않았습니다.",
+            "thankyou_requesting_review": "검토를 요청해 주셔서 감사합니다. 귀하의 계정을 검토한 결과 해당 활동이 {약관}을 준수하는 것으로 확인되었으므로 이제 Twibbonize를 다시 사용하실 수 있습니다.",
+            "sorry_couldnt_access": "계정이 일시 정지된 동안 Twibbonize에 접속할 수 없어 죄송합니다. 모두에게 안전한 환경을 제공하기 위해 때때로 예방 조치를 취해야 하는 경우가 있습니다.",
+            "logged_in": "사용자 이름}으로 로그인",
+            "not_you": "당신은 아니나요? {로그아웃}",
+            "rejected_and_closed": "이의 제기가 거부되어 계정이 폐쇄되었습니다",
+            "through_review": "회원님의 사례를 면밀히 검토한 결과, 계정 폐쇄를 유지하기로 결정했습니다.",
+            "log_out": "로그아웃",
+            "does_not_comply": "귀하의 계정 또는 그 활동이 당사의 {약관}을 준수하지 않습니다.",
+            "review_non_compliance": "이의 제기 검토를 통해 플랫폼 표준을 준수하지 않는 것으로 확인되었습니다.",
+            "no_one_can_see": "아무도 내 계정을 보거나 찾을 수 없으며 계정을 사용할 수도 없습니다. ",
+            "all_information_deleted": "모든 회원님의 정보는 영구적으로 삭제됩니다. ",
+            "cannot_request": "이 결정에 대한 재검토를 요청할 수 없습니다.",
+            "closed_account": "계정을 폐쇄했습니다",
+            "permanently_suspend": "180일 이내에 이의 제기가 제출되지 않아 계정을 영구 정지하기로 결정했습니다."
         }
     }
 }

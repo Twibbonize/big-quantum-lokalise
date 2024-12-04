@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "Mga Asset ng Media"
+        },
+        "theme": {
+            "theme ": "Tema",
+            "description_of_theme": "Piliin kung paano mo gustong lumabas ang Twibbonize. Pumili ng tema, o i-sync ang mga tema sa iyong mga kagustuhan sa system. \n",
+            "choose_theme": "Pumili ng Tema",
+            "auto": "Auto",
+            "light": "Liwanag",
+            "dark": "Madilim"
         }
     },
     "page_home": {
@@ -1703,8 +1711,8 @@
             "cant_remove_account": "Oops, hindi namin maalis ang iyong social media account.",
             "set_up_email": "Kailangan mo munang mag-set up ng email o password para maalis ang iyong social media account.",
             "want_to_remove": "Gusto mo bang tanggalin ang iyong social media account?",
-            "your_account_will_be_removed": "Ang iyong {provider} account ay tatanggalin. I-click ang \"Naiintindihan\" upang alisin ang iyong mga social media account.",
-            "continue_to_revoke": "Magpatuloy sa Pagbawi ",
+            "your_account_will_be_removed": "Aalisin ang iyong {provider} account. Kumpirmahin sa ibaba upang alisin ang iyong mga social media account.",
+            "continue_to_revoke": "Oo, Alisin",
             "revoke_success": "Matagumpay na na-revoke ang {provider} account",
             "cannot_update_email": "Oops, hindi namin ma-update ang iyong email",
             "setup_password_to_update_email": "Dapat kang magtakda ng password bago i-update ang iyong email.",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "Hindi ka na makakatanggap ng {type} na mga email mula sa Twibbonize",
+            "description": "[%key_id:212561082%]",
             "title": "Mag-unsubscribe",
             "unsubscribe_success": "Matagumpay na Mag-unsubscribe",
             "global": "Global"
@@ -2860,6 +2868,72 @@
             "description": "Paumanhin, ngunit ang pahina na iyong hinahanap ay hindi matagpuan.",
             "visit": "Mangyaring bisitahin ang aming {link} para sa higit pang impormasyon.",
             "go_to_homepage": "Pumunta sa Homepage"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "Babala!",
+            "contain_prohibited_word": "Ang iyong {field} ay naglalaman ng ipinagbabawal na salita.",
+            "learn_more": "Matuto pa"
+        },
+        "campaign": {
+            "contain_prohibited_words": "Ang iyong Kampanya ay naglalaman ng mga Ipinagbabawal na Salita",
+            "recent_activity": "Ang iyong kamakailang aktibidad sa Twibbonize ay kasangkot sa paggamit ng mga salita na lumalabag sa aming Mga Tuntunin ng Paggamit. Mangyaring iwasan ang {words} upang maiwasan ang pagsususpinde ng account.",
+            "got_it": "Nakuha ko",
+            "prohibited_words": "Mga Bawal na Salita"
+        },
+        "profile": {
+            "account_suspended": "Nasuspinde ang Account",
+            "violate_terms": "Sinususpinde ng Twibbonize ang mga account na lumalabag sa aming {terms}",
+            "terms_of_use": "Mga Tuntunin sa Paggamit"
+        },
+        "appeal": {
+            "we_have_suspended": "Sinuspinde namin ang iyong account, {username}",
+            "days_left": "{days} (na) araw ang natitira upang mag-apela, o permanente naming idi-disable ang iyong account.",
+            "suspended_on": "Nasuspinde noong {date}",
+            "what_this_means": "Ano ang ibig sabihin nito",
+            "what_this_means_detail": "Ang iyong account ay kasalukuyang nasuspinde at hindi nakikita ng iba sa Twibbonize. Hindi mo magagamit ang platform sa ngayon.",
+            "what_you_can_do": "Kung ano ang magagawa mo",
+            "what_you_can_do_details": "Mayroon kang {day} na araw para iapela ang desisyong ito. Maaaring kailanganin naming mangolekta ng karagdagang impormasyon mula sa iyo upang tumulong sa pagsusuri sa iyong account.",
+            "why_this_happened": "Bakit nangyari ito",
+            "why_this_happened_details": "Napansin namin ang aktibidad sa {username} na hindi sumusunod sa aming {terms}.",
+            "appeal": "apela",
+            "submitted": "Naisumite",
+            "provide_information": "Pakitiyak na ibigay ang hinihiling na impormasyon sa ibaba",
+            "regulatory_compilance": "Dahil sa pagsunod sa regulasyon, kailangan namin ng kaunti pang impormasyon tungkol sa iyong valid ID na ibinigay. Ang pagkabigong ibigay ang impormasyong ito ay maaaring maantala ang pagproseso ng iyong apela.",
+            "full_name": "Buong Pangalan",
+            "email": "Email Address",
+            "write_down": "Isulat ang iyong apela",
+            "explain_why": "Pakipaliwanag kung bakit naniniwala kang hindi dapat inalis ang nilalaman.",
+            "attachment": "Kalakip",
+            "optional": "Opsyonal",
+            "select_file": "Pumili ng file o i-drag at i-drop dito",
+            "format_file": "JPG, PNG o PDF, laki ng file na hindi hihigit sa 10MB",
+            "submit": "Isumite",
+            "have_submitted": "Nagsumite ka ng apela",
+            "takes_a_day_review": "Karaniwang inaabot kami ng mahigit isang araw para suriin ang iyong impormasyon. Bumalik dito para sa mga update.",
+            "not_visible": "Ang iyong account ay kasalukuyang hindi nakikita ng iba sa Twibbonize, at hindi mo ito magagamit.",
+            "what_happens_next": "Ano ang susunod na mangyayari?",
+            "reevaluate": "Muli naming susuriin ang iyong account.",
+            "complies_terms": "Kung nakita namin na ang iyong account ay sumusunod sa aming {terms}, makakakuha ka muli ng access sa Twibbonize.",
+            "not_comply": "Kung matukoy namin na hindi pa rin sumusunod ang iyong account sa aming {terms}, permanenteng idi-disable ang iyong account, at hindi ka na makakapag-apela muli.",
+            "ok_got": "Ok, Nakuha ko",
+            "back_on_twibbonize": "Bumalik ka na sa Twibbonize",
+            "no_longed_suspended": "Kumusta {username}, hindi na nasuspinde ang iyong account.",
+            "thankyou_requesting_review": "Salamat sa paghiling ng pagsusuri. Sinuri namin ang iyong account at nakumpirma na ang aktibidad nito ay sumusunod sa aming {terms}, kaya maaari mo na ngayong gamitin muli ang Twibbonize.",
+            "sorry_couldnt_access": "Ikinalulungkot namin na hindi mo ma-access ang Twibbonize habang nasuspinde ang iyong account. Upang matiyak ang isang ligtas na kapaligiran para sa lahat, paminsan-minsan ay kailangan nating gumawa ng mga hakbang sa pag-iingat.",
+            "logged_in": "Mag-log in bilang {username}",
+            "not_you": "hindi ikaw? {logout}",
+            "rejected_and_closed": "Tinanggihan ang apela, at isinara na namin ang iyong account",
+            "through_review": "Pagkatapos ng masusing pagsusuri ng iyong kaso, nagpasya kaming panatilihin ang pagsasara ng iyong account.",
+            "log_out": "Log out",
+            "does_not_comply": "Ang iyong account, o ang aktibidad nito, ay hindi sumusunod sa aming {terms}.",
+            "review_non_compliance": "Kinumpirma ng pagsusuri sa apela ang hindi pagsunod na ito sa aming mga pamantayan sa platform.",
+            "no_one_can_see": "Walang makakakita o makakahanap ng iyong account at hindi mo ito magagamit. ",
+            "all_information_deleted": "Ang lahat ng iyong impormasyon ay permanenteng tatanggalin. ",
+            "cannot_request": "Hindi ka maaaring humiling ng isa pang pagsusuri sa desisyong ito.",
+            "closed_account": "Isinara na namin ang iyong account",
+            "permanently_suspend": "Napagpasyahan naming permanenteng suspindihin ang iyong account dahil walang isinumite na apela sa loob ng 180 araw."
         }
     }
 }

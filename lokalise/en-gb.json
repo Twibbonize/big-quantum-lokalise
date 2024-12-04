@@ -507,6 +507,14 @@
         },
         "header": {
             "media_assets": "Media Assets"
+        },
+        "theme": {
+            "theme ": "Theme",
+            "description_of_theme": "Choose how you’d like Twibbonize to appear. Select a theme, or sync themes with your system preferences.\n",
+            "choose_theme": "Choose Theme",
+            "auto": "Auto",
+            "light": "Light",
+            "dark": "Dark"
         }
     },
     "page_home": {
@@ -1702,10 +1710,10 @@
             "add_password": "Add Password",
             "cant_remove_account": "Oops, we can't remove your social media account.",
             "set_up_email": "You have to set up email or password first to remove your social media account.",
-            "want_to_remove": "Want to remove you social media account?",
-            "your_account_will_be_removed": "Your {provider} account will be removed. Click \"Understand\" to remove your social media accounts.",
-            "continue_to_revoke": "Continue to Revoke ",
-            "revoke_success": "{provider} Account Successfully Revoked",
+            "want_to_remove": "Remove you social media account?",
+            "your_account_will_be_removed": "Your {provider} account will be removed. Confirm below to remove your social media accounts.",
+            "continue_to_revoke": "Yes, Remove",
+            "revoke_success": "{provider} Account Successfully Removed",
             "cannot_update_email": "Oops, we can't update your email",
             "setup_password_to_update_email": "You must set a password before updating your email.",
             "email_change_request": "Email Change Request Cancelled",
@@ -2371,7 +2379,7 @@
             "account_deleted": "Account deleted",
             "campaign_deleted": "Campaign deleted",
             "account_integrated": "Account integrated",
-            "account_revoked": "Account revoked",
+            "account_revoked": "Account removed",
             "social_media_already_linked": "Social media account already linked with another Twibbonize account. Try another one",
             "campaign_added": "Campaign added",
             "account_upgraded": "Account upgraded",
@@ -2832,7 +2840,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "You will no longer receive {type} emails from Twibbonize",
+            "description": "[%key_id:212561082%]",
             "title": "Unsubscribe",
             "unsubscribe_success": "Unsubscribe Successful",
             "global": "Global"
@@ -2860,6 +2868,72 @@
             "description": "Sorry, but the page you were looking for could not be found.",
             "visit": "Please visit our {link} for more information.",
             "go_to_homepage": "Go to Homepage"
+        }
+    },
+    "appeal_system": {
+        "form": {
+            "warning": "Warning!",
+            "contain_prohibited_word": "Your {field} contains a prohibited word.",
+            "learn_more": "Learn More"
+        },
+        "campaign": {
+            "contain_prohibited_words": "Your Campaign contains Prohibited Words",
+            "recent_activity": "Your recent activity on Twibbonize involved using words that violate our Terms of Use. Please avoid {words} to prevent account suspension.",
+            "got_it": "Got It",
+            "prohibited_words": "Prohibited Words"
+        },
+        "profile": {
+            "account_suspended": "Account Suspended",
+            "violate_terms": "Twibbonize suspends accounts that violate our {terms}",
+            "terms_of_use": "Terms of Use"
+        },
+        "appeal": {
+            "we_have_suspended": "We have suspended your account, {username}",
+            "days_left": "{days} days left to appeal, or we’ll permanently disable your account.",
+            "suspended_on": "Suspended on {date}",
+            "what_this_means": "What this means",
+            "what_this_means_detail": "Your account is currently suspended and not visible to others on Twibbonize. You are unable to use the platform at this time.",
+            "what_you_can_do": "What you can do",
+            "what_you_can_do_details": "You have {days} days to appeal this decision. We may need to collect additional information from you to assist in reviewing your account.",
+            "why_this_happened": "Why this happened",
+            "why_this_happened_details": "We’ve noticed activity on {username} that doesn’t comply with our {terms}.",
+            "appeal": "Appeal",
+            "submitted": "Submitted",
+            "provide_information": "Please be sure to provide the requested information below",
+            "regulatory_compilance": "Due to regulatory compliance we need a bit more information regarding your valid ID issued. Failure to provide this information may delay the processing of your appeal.",
+            "full_name": "Full Name",
+            "email": "Email Address",
+            "write_down": "Write down your appeal",
+            "explain_why": "Please explain why you believe the content should not have been removed.",
+            "attachment": "Attachment",
+            "optional": "Optional",
+            "select_file": "Select a file or drag and drop here",
+            "format_file": "JPG, PNG or PDF, file size no more than 10MB",
+            "submit": "Submit",
+            "have_submitted": "You have submitted an appeal",
+            "takes_a_day_review": "It typically takes us just over a day to review your information. Check back here for updates.",
+            "not_visible": "Your account is currently not visible to others on Twibbonize, and you are unable to use it.",
+            "what_happens_next": "What happens next?",
+            "reevaluate": "We will re-evaluate your account.",
+            "complies_terms": "If we find that your account complies with our {terms}, you'll regain access to Twibbonize.",
+            "not_comply": "If we determine that your account still does not comply with our {terms}, your account will be permanently disabled, and you won’t be able to appeal again.",
+            "ok_got": "Ok, Got It",
+            "back_on_twibbonize": "You’re back on Twibbonize",
+            "no_longed_suspended": "Hi {username}, your account is no longer suspended.",
+            "thankyou_requesting_review": "Thank you for requesting a review. We’ve reviewed your account and confirmed that its activity complies with our {terms}, so you may now use Twibbonize again.",
+            "sorry_couldnt_access": "We're sorry you couldn't access Twibbonize while your account was suspended. To ensure a safe environment for everyone, we occasionally need to take precautionary measures.",
+            "logged_in": "Log in as {username}",
+            "not_you": "Not you? {logout}",
+            "rejected_and_closed": "Appeal rejected, and we’ve closed your account",
+            "through_review": "After a thorough review of your case, we've decided to maintain the closure of your account.",
+            "log_out": "Log out",
+            "does_not_comply": "Your account, or its activity, does not comply with our {terms}.",
+            "review_non_compliance": "The appeal review confirmed this non-compliance with our platform standards.",
+            "no_one_can_see": "No one can see or find your account and you can't use it. ",
+            "all_information_deleted": "All your information will be permanently deleted. ",
+            "cannot_request": "You cannot  request another review of this decision.",
+            "closed_account": "We've closed your account",
+            "permanently_suspend": "We've decided to permanently suspend your account as no appeal was submitted within 180 days."
         }
     }
 }
