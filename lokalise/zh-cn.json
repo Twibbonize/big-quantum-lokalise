@@ -2773,7 +2773,8 @@
             "11012": "解析 JSON 致命错误！",
             "11013": "JSON 编组错误！",
             "visibility_public": "活动可见性必须公开",
-            "F-40018": "您的文件似乎未完全上传。请重试。"
+            "F-40018": "您的文件似乎未完全上传。请重试。",
+            "SU-4032": "帐户已暂停"
         },
         "form": {
             "equal_to": "$ {path}必须与 $ {reference}相同",
@@ -2928,7 +2929,7 @@
             "thankyou_requesting_review": "感谢您请求审核。我们已审核您的帐户并确认其活动符合我们的{terms}，因此您现在可以再次使用 Twibbonize。",
             "sorry_couldnt_access": "很抱歉，您的帐户暂停期间您无法访问 Twibbonize。为了确保每个人都能拥有一个安全的环境，我们偶尔需要采取预防措施。",
             "logged_in": "以 {用户名} 登录",
-            "not_you": "不是你？{注销}",
+            "not_you": "不是你？{logout}",
             "rejected_and_closed": "申诉被驳回，我们已关闭您的帐户",
             "through_review": "在对您的案例进行全面审查后，我们决定维持关闭您帐户的政策。",
             "log_out": "登出",
@@ -2960,21 +2961,36 @@
             "android_device": "Android 设备",
             "download_for_ios": "下载 iOS 版本",
             "download_for_android": "下载 Android 版本",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "在桌面上执行操作的{fast}方法",
+            "fast": "快速地",
             "x64": "x64",
-            "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
+            "universal": "普遍的",
+            "apple_silicon": "苹果硅",
             "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "get_twibbon_mac": "获取适用于 Mac 的 Twibbon",
+            "get_twibbon_windows": "获取适用于 Windows 的 Twibbon",
+            "download_mac": "下载 Mac 版本",
+            "download_pc": "下载电脑版"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "是的，取消降级"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

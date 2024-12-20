@@ -2773,7 +2773,8 @@
             "11012": "JSON पार्स करने में घातक त्रुटि!",
             "11013": "JSON मार्शल त्रुटि!",
             "visibility_public": "अभियान दृश्यता सार्वजनिक होनी चाहिए",
-            "F-40018": "ऐसा लगता है कि आपकी फ़ाइलें पूरी तरह अपलोड नहीं हुईं। कृपया पुनः प्रयास करें।"
+            "F-40018": "ऐसा लगता है कि आपकी फ़ाइलें पूरी तरह अपलोड नहीं हुईं। कृपया पुनः प्रयास करें।",
+            "SU-4032": "खाता निलंबित कर दिया गया है"
         },
         "form": {
             "equal_to": "$ {path} और $ {reference} समान होना चाहिए",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "समीक्षा का अनुरोध करने के लिए धन्यवाद। हमने आपके खाते की समीक्षा की है और पुष्टि की है कि इसकी गतिविधि हमारी {शर्तों} का अनुपालन करती है, इसलिए अब आप फिर से ट्विबोनाइज़ का उपयोग कर सकते हैं।",
             "sorry_couldnt_access": "हमें खेद है कि आपका खाता निलंबित होने के दौरान आप ट्विबोनाइज़ तक नहीं पहुँच पाए। सभी के लिए सुरक्षित वातावरण सुनिश्चित करने के लिए, हमें कभी-कभी एहतियाती उपाय करने की आवश्यकता होती है।",
             "logged_in": "{उपयोगकर्ता नाम} के रूप में लॉग इन करें",
-            "not_you": "आप नहीं? {लॉगआउट}",
+            "not_you": "आप नहीं? {logout}",
             "rejected_and_closed": "अपील अस्वीकृत कर दी गई है, और हमने आपका खाता बंद कर दिया है",
             "through_review": "आपके मामले की गहन समीक्षा के बाद, हमने आपके खाते को बंद रखने का निर्णय लिया है।",
             "log_out": "लॉग आउट",
-            "does_not_comply": "आपका खाता या उसकी गतिविधि हमारी {शर्तों} का अनुपालन नहीं करती है।",
+            "does_not_comply": "आपका खाता या उसकी गतिविधि हमारी {terms} का अनुपालन नहीं करती है।",
             "review_non_compliance": "अपील समीक्षा ने हमारे प्लेटफ़ॉर्म मानकों के साथ इस गैर-अनुपालन की पुष्टि की।",
             "no_one_can_see": "कोई भी आपका खाता नहीं देख सकता या ढूंढ नहीं सकता और आप उसका उपयोग नहीं कर सकते। ",
             "all_information_deleted": "आपकी सारी जानकारी स्थायी रूप से हटा दी जाएगी. ",
@@ -2960,21 +2961,36 @@
             "android_device": "एंड्रॉयड डिवाइस",
             "download_for_ios": "iOS के लिए डाउनलोड करें",
             "download_for_android": "एंड्रॉयड के लिए डाउनलोड करें",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
-            "x64": "x64",
-            "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "the_way_to_do": "अपने डेस्कटॉप पर ऐसा करने का {fast} तरीका",
+            "fast": "तेज़",
+            "x64": "64",
+            "universal": "सार्वभौमिक",
+            "apple_silicon": "एप्पल सिलिकॉन",
+            "arm": "आर्म\/आर्म64",
+            "get_twibbon_mac": "मैक के लिए ट्विब्बन प्राप्त करें",
+            "get_twibbon_windows": "विंडोज के लिए ट्विब्बन प्राप्त करें",
+            "download_mac": "मैक के लिए डाउनलोड करें",
+            "download_pc": "पीसी के लिए डाउनलोड करें"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "हां, डाउनग्रेड रद्द करें"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

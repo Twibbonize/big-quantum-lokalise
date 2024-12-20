@@ -2773,7 +2773,8 @@
             "11012": "Ανάλυση μοιραίου σφάλματος JSON!",
             "11013": "Σφάλμα στρατάρχη JSON!",
             "visibility_public": "Η προβολή της καμπάνιας πρέπει να είναι δημόσια",
-            "F-40018": "Φαίνεται ότι τα αρχεία σας δεν μεταφορτώθηκαν πλήρως. Παρακαλώ δοκιμάστε ξανά."
+            "F-40018": "Φαίνεται ότι τα αρχεία σας δεν μεταφορτώθηκαν πλήρως. Παρακαλώ δοκιμάστε ξανά.",
+            "SU-4032": "Ο λογαριασμός έχει ανασταλεί"
         },
         "form": {
             "equal_to": "Το $ {path} πρέπει να είναι το ίδιο με το $ {reference}",
@@ -2932,7 +2933,7 @@
             "rejected_and_closed": "Η έφεση απορρίφθηκε και κλείσαμε το λογαριασμό σας",
             "through_review": "Μετά από ενδελεχή εξέταση της υπόθεσής σας, αποφασίσαμε να διατηρήσουμε το κλείσιμο του λογαριασμού σας.",
             "log_out": "Αποσύνδεση",
-            "does_not_comply": "Ο λογαριασμός σας ή η δραστηριότητά του δεν συμμορφώνεται με τους {όρους} μας.",
+            "does_not_comply": "Ο λογαριασμός σας ή η δραστηριότητά του δεν συμμορφώνεται με τους {terms} μας.",
             "review_non_compliance": "Η επανεξέταση της προσφυγής επιβεβαίωσε αυτή τη μη συμμόρφωση με τα πρότυπα της πλατφόρμας μας.",
             "no_one_can_see": "Κανείς δεν μπορεί να δει ή να βρει το λογαριασμό σας και δεν μπορείτε να τον χρησιμοποιήσετε. ",
             "all_information_deleted": "Όλες οι πληροφορίες σας θα διαγραφούν οριστικά. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "Ο {fast} τρόπος για να το κάνετε στην επιφάνεια εργασίας σας",
+            "fast": "Γρήγορη",
             "x64": "x64",
-            "universal": "Universal",
+            "universal": "Καθολική",
             "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "arm": "Βραχίονας\/βραχίονας64",
+            "get_twibbon_mac": "Αποκτήστε το Twibbon για Mac",
+            "get_twibbon_windows": "Αποκτήστε το Twibbon για Windows",
+            "download_mac": "Λήψη για Mac",
+            "download_pc": "Λήψη για PC"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

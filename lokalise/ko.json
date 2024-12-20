@@ -2773,7 +2773,8 @@
             "11012": "JSON 구문 분석 중 치명적인 오류가 발생했습니다!",
             "11013": "JSON 마샬 오류!",
             "visibility_public": "캠페인 가시성은 공개되어야 합니다.",
-            "F-40018": "파일이 완전히 업로드되지 않은 것 같습니다. 다시 시도해 보세요."
+            "F-40018": "파일이 완전히 업로드되지 않은 것 같습니다. 다시 시도해 보세요.",
+            "SU-4032": "계정이 일시 정지되었습니다"
         },
         "form": {
             "equal_to": "$ {path} $ {reference} 와 동일해야 합니다.",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "검토를 요청해 주셔서 감사합니다. 귀하의 계정을 검토한 결과 해당 활동이 {약관}을 준수하는 것으로 확인되었으므로 이제 Twibbonize를 다시 사용하실 수 있습니다.",
             "sorry_couldnt_access": "계정이 일시 정지된 동안 Twibbonize에 접속할 수 없어 죄송합니다. 모두에게 안전한 환경을 제공하기 위해 때때로 예방 조치를 취해야 하는 경우가 있습니다.",
             "logged_in": "사용자 이름}으로 로그인",
-            "not_you": "당신은 아니나요? {로그아웃}",
+            "not_you": "당신은 아니나요? {logout}",
             "rejected_and_closed": "이의 제기가 거부되어 계정이 폐쇄되었습니다",
             "through_review": "회원님의 사례를 면밀히 검토한 결과, 계정 폐쇄를 유지하기로 결정했습니다.",
             "log_out": "로그아웃",
-            "does_not_comply": "귀하의 계정 또는 그 활동이 당사의 {약관}을 준수하지 않습니다.",
+            "does_not_comply": "귀하의 계정 또는 그 활동이 당사의 {terms}을 준수하지 않습니다.",
             "review_non_compliance": "이의 제기 검토를 통해 플랫폼 표준을 준수하지 않는 것으로 확인되었습니다.",
             "no_one_can_see": "아무도 내 계정을 보거나 찾을 수 없으며 계정을 사용할 수도 없습니다. ",
             "all_information_deleted": "모든 회원님의 정보는 영구적으로 삭제됩니다. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "데스크톱에서 {fast} 작업하는 방법",
+            "fast": "빠른",
             "x64": "x64",
-            "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
+            "universal": "유니버설",
+            "apple_silicon": "Apple 실리콘",
             "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "get_twibbon_mac": "Mac용 Twibbon 다운로드",
+            "get_twibbon_windows": "Windows용 Twibbon 다운로드",
+            "download_mac": "Mac용 다운로드",
+            "download_pc": "PC용 다운로드"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

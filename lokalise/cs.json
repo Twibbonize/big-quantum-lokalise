@@ -2773,7 +2773,8 @@
             "11012": "Závažná chyba analýzy JSON!",
             "11013": "Chyba maršála JSON!",
             "visibility_public": "Viditelnost kampaně musí být veřejná",
-            "F-40018": "Vypadá to, že se vaše soubory nenahrály úplně. Zkuste to prosím znovu."
+            "F-40018": "Vypadá to, že se vaše soubory nenahrály úplně. Zkuste to prosím znovu.",
+            "SU-4032": "Účet je pozastaven"
         },
         "form": {
             "equal_to": "$ {path} musí být stejné jako $ {reference}",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "Děkujeme za žádost o recenzi. Zkontrolovali jsme váš účet a potvrdili, že jeho aktivita je v souladu s našimi {podmínkami}, takže nyní můžete Twibbonize opět používat.",
             "sorry_couldnt_access": "Je nám líto, že jste nemohli přistupovat ke službě Twibbonize, když byl váš účet pozastaven. Abychom zajistili bezpečné prostředí pro všechny, musíme občas přijmout preventivní opatření.",
             "logged_in": "Přihlaste se jako {uživatelské jméno}",
-            "not_you": "Vy ne? {odhlásit}",
+            "not_you": "Vy ne? {logout}",
             "rejected_and_closed": "Odvolání bylo zamítnuto a váš účet byl uzavřen",
             "through_review": "Po důkladném přezkoumání vašeho případu jsme se rozhodli, že váš účet bude nadále uzavřen.",
             "log_out": "Odhlášení",
-            "does_not_comply": "Váš účet nebo jeho činnost není v souladu s našimi podmínkami.",
+            "does_not_comply": "Váš účet nebo jeho činnost není v souladu s našimi {terms}.",
             "review_non_compliance": "Přezkum odvolání potvrdil tento nesoulad se standardy naší platformy.",
             "no_one_can_see": "Váš účet nikdo neuvidí ani nenajde a vy ho nemůžete používat. ",
             "all_information_deleted": "Všechny vaše údaje budou trvale smazány. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "{fast} způsob práce na ploše",
+            "fast": "Rychle",
             "x64": "x64",
-            "universal": "Universal",
+            "universal": "Univerzální",
             "apple_silicon": "Apple Silicon",
             "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "get_twibbon_mac": "Získat Twibbon pro Mac",
+            "get_twibbon_windows": "Získat Twibbon pro Windows",
+            "download_mac": "Stáhnout pro Mac",
+            "download_pc": "Stáhnout pro PC"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

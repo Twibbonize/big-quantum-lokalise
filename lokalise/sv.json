@@ -2773,7 +2773,8 @@
             "11012": "Analysera JSON allvarligt fel!",
             "11013": "JSON-marskalkfel!",
             "visibility_public": "Kampanjens synlighet måste vara offentlig",
-            "F-40018": "Det ser ut som om dina filer inte laddades upp helt och hållet. Vänligen försök igen."
+            "F-40018": "Det ser ut som om dina filer inte laddades upp helt och hållet. Vänligen försök igen.",
+            "SU-4032": "Kontot är avstängt"
         },
         "form": {
             "equal_to": "$ {path} måste vara samma som $ {reference}",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "Tack för att du begärde en granskning. Vi har granskat ditt konto och bekräftat att dess aktivitet överensstämmer med våra {villkor}, så du kan nu använda Twibbonize igen.",
             "sorry_couldnt_access": "Vi beklagar att du inte kunde komma åt Twibbonize medan ditt konto var avstängt. För att säkerställa en säker miljö för alla behöver vi ibland vidta försiktighetsåtgärder.",
             "logged_in": "Logga in som {användarnamn}",
-            "not_you": "Inte du? {Logga ut}",
+            "not_you": "Inte du? {logout}",
             "rejected_and_closed": "Överklagan avslås och vi har avslutat ditt konto",
             "through_review": "Efter en grundlig genomgång av ditt ärende har vi beslutat att behålla stängningen av ditt konto.",
             "log_out": "Logga ut",
-            "does_not_comply": "Ditt konto, eller dess aktivitet, överensstämmer inte med våra {villkor}.",
+            "does_not_comply": "Ditt konto, eller dess aktivitet, överensstämmer inte med våra {terms}.",
             "review_non_compliance": "Granskningen av överklagandet bekräftade denna bristande efterlevnad av våra plattformsstandarder.",
             "no_one_can_see": "Ingen kan se eller hitta ditt konto och du kan inte använda det. ",
             "all_information_deleted": "All din information kommer att raderas permanent. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "Det {fast} sättet att göra på ditt skrivbord",
+            "fast": "Snabb",
             "x64": "x64",
             "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
+            "apple_silicon": "Apple Kisel",
             "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "get_twibbon_mac": "Skaffa Twibbon för Mac",
+            "get_twibbon_windows": "Skaffa Twibbon för Windows",
+            "download_mac": "Ladda ner för Mac",
+            "download_pc": "Ladda ner för PC"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

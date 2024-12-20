@@ -2773,7 +2773,8 @@
             "11012": "Erreur fatale lors de l'analyse JSON !",
             "11013": "Erreur de marshal JSON !",
             "visibility_public": "La visibilité de la campagne doit être publique",
-            "F-40018": "Il semble que vos fichiers n'aient pas été entièrement téléchargés. Veuillez réessayer."
+            "F-40018": "Il semble que vos fichiers n'aient pas été entièrement téléchargés. Veuillez réessayer.",
+            "SU-4032": "Le compte est suspendu"
         },
         "form": {
             "equal_to": "$ {path} doit être identique à $ {reference}",
@@ -2932,7 +2933,7 @@
             "rejected_and_closed": "Recours rejeté, et nous avons fermé votre compte",
             "through_review": "Après un examen approfondi de votre dossier, nous avons décidé de maintenir la fermeture de votre compte.",
             "log_out": "Déconnexion",
-            "does_not_comply": "Votre compte, ou son activité, n'est pas conforme à nos {termes}.",
+            "does_not_comply": "Votre compte, ou son activité, n'est pas conforme à nos {terms}.",
             "review_non_compliance": "L'examen de l'appel a confirmé cette non-conformité avec les normes de notre plate-forme.",
             "no_one_can_see": "Personne ne peut voir ou trouver votre compte et vous ne pouvez pas l'utiliser. ",
             "all_information_deleted": "Toutes vos informations seront définitivement supprimées. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "La façon {fast} de faire sur votre bureau",
+            "fast": "Rapide",
             "x64": "x64",
-            "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
+            "universal": "Universel",
+            "apple_silicon": "Silicium Apple",
             "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "get_twibbon_mac": "Obtenir Twibbon pour Mac",
+            "get_twibbon_windows": "Obtenir Twibbon pour Windows",
+            "download_mac": "Télécharger pour Mac",
+            "download_pc": "Télécharger pour PC"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

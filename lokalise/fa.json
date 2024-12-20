@@ -2773,7 +2773,8 @@
             "11012": "خطای مهلک JSON را تجزیه کنید!",
             "11013": "خطای مارشال JSON!",
             "visibility_public": "قابلیت مشاهده کمپین باید عمومی باشد",
-            "F-40018": "به نظر می رسد فایل های شما به طور کامل آپلود نشده اند. لطفا دوباره امتحان کنید."
+            "F-40018": "به نظر می رسد فایل های شما به طور کامل آپلود نشده اند. لطفا دوباره امتحان کنید.",
+            "SU-4032": "حساب به حالت تعلیق درآمده است"
         },
         "form": {
             "equal_to": "$ {path} باید با $ {reference} یکسان باشد",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "با تشکر از شما برای درخواست بررسی. ما حساب شما را بررسی کردیم و تأیید کردیم که فعالیت آن با {شرایط} ما مطابقت دارد، بنابراین اکنون می‌توانید دوباره از Twibbonize استفاده کنید.",
             "sorry_couldnt_access": "متأسفیم که نتوانستید به Twibbonize دسترسی داشته باشید در حالی که حساب شما به حالت تعلیق درآمده بود. برای اطمینان از یک محیط امن برای همه، ما گاهی اوقات نیاز به اقدامات پیشگیرانه داریم.",
             "logged_in": "به عنوان {username} وارد شوید",
-            "not_you": "نه شما؟ {خروج}",
+            "not_you": "نه شما؟ {logout}",
             "rejected_and_closed": "درخواست تجدیدنظر رد شد و ما حساب شما را بسته ایم",
             "through_review": "پس از بررسی کامل پرونده شما، تصمیم گرفتیم بسته شدن حساب شما را حفظ کنیم.",
             "log_out": "از سیستم خارج شوید",
-            "does_not_comply": "حساب شما یا فعالیت آن با {شرایط} ما مطابقت ندارد.",
+            "does_not_comply": "حساب شما یا فعالیت آن با {terms} ما مطابقت ندارد.",
             "review_non_compliance": "بررسی تجدیدنظر این عدم انطباق با استانداردهای پلتفرم ما را تأیید کرد.",
             "no_one_can_see": "هیچ کس نمی تواند حساب شما را ببیند یا پیدا کند و شما نمی توانید از آن استفاده کنید. ",
             "all_information_deleted": "تمام اطلاعات شما برای همیشه حذف خواهد شد. ",
@@ -2960,21 +2961,36 @@
             "android_device": "دستگاه اندروید",
             "download_for_ios": "دانلود برای iOS",
             "download_for_android": "دانلود برای اندروید",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "راه {fast} برای انجام روی دسکتاپ شما",
+            "fast": "سریع",
             "x64": "x64",
-            "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "universal": "جهانی",
+            "apple_silicon": "سیلیکون سیب",
+            "arm": "بازو\/بازو64",
+            "get_twibbon_mac": "Twibbon را برای مک دریافت کنید",
+            "get_twibbon_windows": "Twibbon را برای ویندوز دریافت کنید",
+            "download_mac": "دانلود برای مک",
+            "download_pc": "دانلود برای کامپیوتر"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "بله، لغو تنزل"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

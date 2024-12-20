@@ -2773,7 +2773,8 @@
             "11012": "ញែក JSON កំហុសធ្ងន់ធ្ងរ!",
             "11013": "កំហុសសេនាប្រមុខ JSON!",
             "visibility_public": "ភាពមើលឃើញនៃយុទ្ធនាការត្រូវតែជាសាធារណៈ",
-            "F-40018": "វាហាក់ដូចជាឯកសាររបស់អ្នកមិនបានផ្ទុកឡើងពេញលេញទេ។ សូមព្យាយាមម្តងទៀត។"
+            "F-40018": "វាហាក់ដូចជាឯកសាររបស់អ្នកមិនបានផ្ទុកឡើងពេញលេញទេ។ សូមព្យាយាមម្តងទៀត។",
+            "SU-4032": "គណនីត្រូវបានផ្អាក"
         },
         "form": {
             "equal_to": "$ {path} ត្រូវតែដូចគ្នានឹង $ {reference}",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "សូមអរគុណចំពោះការស្នើសុំការពិនិត្យឡើងវិញ។ យើង​បាន​ពិនិត្យ​មើល​គណនី​របស់​អ្នក​ហើយ​បាន​បញ្ជាក់​ថា​សកម្មភាព​របស់​វា​អនុលោម​តាម {terms} របស់​យើង ដូច្នេះ​ឥឡូវ​នេះ​អ្នក​អាច​ប្រើ Twibbonize ម្ដង​ទៀត។",
             "sorry_couldnt_access": "យើងសុំទោសដែលអ្នកមិនអាចចូលប្រើ Twibbonize ខណៈពេលដែលគណនីរបស់អ្នកត្រូវបានផ្អាក។ ដើម្បីធានាបាននូវបរិយាកាសសុវត្ថិភាពសម្រាប់មនុស្សគ្រប់គ្នា ម្តងម្កាល យើងត្រូវចាត់វិធានការប្រុងប្រយ័ត្ន។",
             "logged_in": "ចូលជា {username}",
-            "not_you": "មិនមែនទេ? {ចេញ}",
+            "not_you": "មិនមែនទេ? {logout}",
             "rejected_and_closed": "បណ្ដឹងតវ៉ាត្រូវបានច្រានចោល ហើយយើងបានបិទគណនីរបស់អ្នក។",
             "through_review": "បន្ទាប់ពីការត្រួតពិនិត្យយ៉ាងម៉ត់ចត់លើករណីរបស់អ្នក យើងបានសម្រេចចិត្តរក្សាការបិទគណនីរបស់អ្នក។",
             "log_out": "ចេញ",
-            "does_not_comply": "គណនីរបស់អ្នក ឬសកម្មភាពរបស់វាមិនគោរពតាម {លក្ខខណ្ឌ} របស់យើងទេ។",
+            "does_not_comply": "គណនីរបស់អ្នក ឬសកម្មភាពរបស់វាមិនគោរពតាម {terms} របស់យើងទេ។",
             "review_non_compliance": "ការពិនិត្យឡើងវិញនៃបណ្តឹងឧទ្ធរណ៍បានបញ្ជាក់ពីការមិនអនុលោមតាមស្តង់ដារវេទិការបស់យើង។",
             "no_one_can_see": "គ្មាននរណាម្នាក់អាចមើលឃើញ ឬស្វែងរកគណនីរបស់អ្នក ហើយអ្នកមិនអាចប្រើវាបានទេ។ ",
             "all_information_deleted": "ព័ត៌មានទាំងអស់របស់អ្នកនឹងត្រូវបានលុបជាអចិន្ត្រៃយ៍។ ",
@@ -2960,21 +2961,36 @@
             "android_device": "ឧបករណ៍ Android",
             "download_for_ios": "ទាញយកសម្រាប់ iOS",
             "download_for_android": "ទាញយកសម្រាប់ Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "វិធី {fast} ដើម្បីធ្វើនៅលើ Desktop របស់អ្នក។",
+            "fast": "លឿន",
             "x64": "x64",
-            "universal": "Universal",
+            "universal": "សកល",
             "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "arm": "ដៃ\/ដៃ ៦៤",
+            "get_twibbon_mac": "ទាញយក Twibbon សម្រាប់ Mac",
+            "get_twibbon_windows": "ទទួលបាន Twibbon សម្រាប់ Windows",
+            "download_mac": "ទាញយកសម្រាប់ Mac",
+            "download_pc": "ទាញយកសម្រាប់កុំព្យូទ័រ"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "បាទ\/ចាស បោះបង់ការទម្លាក់ចំណាត់ថ្នាក់"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }
