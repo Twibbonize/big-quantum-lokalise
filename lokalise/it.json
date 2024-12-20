@@ -2773,7 +2773,8 @@
             "11012": "Errore fatale nell'analisi JSON!",
             "11013": "Errore di marshalling JSON!",
             "visibility_public": "La visibilità della campagna deve essere pubblica",
-            "F-40018": "Sembra che i file non siano stati caricati completamente. Riprovare."
+            "F-40018": "Sembra che i file non siano stati caricati completamente. Riprovare.",
+            "SU-4032": "Il conto è sospeso"
         },
         "form": {
             "equal_to": "$ {path} deve essere uguale a $ {reference}",
@@ -2932,7 +2933,7 @@
             "rejected_and_closed": "L'appello è stato respinto e il suo conto è stato chiuso",
             "through_review": "Dopo un'attenta analisi del suo caso, abbiamo deciso di mantenere la chiusura del suo conto.",
             "log_out": "Disconnettersi",
-            "does_not_comply": "Il vostro account, o la sua attività, non è conforme ai nostri {termini}.",
+            "does_not_comply": "Il vostro account, o la sua attività, non è conforme ai nostri {terms}.",
             "review_non_compliance": "L'esame del ricorso ha confermato la non conformità agli standard della piattaforma.",
             "no_one_can_see": "Nessuno può vedere o trovare il vostro account e voi non potete usarlo. ",
             "all_information_deleted": "Tutte le informazioni saranno cancellate in modo permanente. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "Il modo {fast} di fare sul desktop",
+            "fast": "Veloce",
             "x64": "x64",
-            "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "universal": "Universale",
+            "apple_silicon": "Silicio Apple",
+            "arm": "Braccio\/Arm64",
+            "get_twibbon_mac": "Ottenere Twibbon per Mac",
+            "get_twibbon_windows": "Ottenere Twibbon per Windows",
+            "download_mac": "Scarica per Mac",
+            "download_pc": "Scarica per PC"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

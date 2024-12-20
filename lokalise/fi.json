@@ -2773,7 +2773,8 @@
             "11012": "JSON-jäsennys vakava virhe!",
             "11013": "JSON marsalkkavirhe!",
             "visibility_public": "Kampanjan näkyvyyden tulee olla julkinen",
-            "F-40018": "Näyttää siltä, että tiedostojasi ei ladattu kokonaan. Yritä uudelleen."
+            "F-40018": "Näyttää siltä, että tiedostojasi ei ladattu kokonaan. Yritä uudelleen.",
+            "SU-4032": "Tili on keskeytetty"
         },
         "form": {
             "equal_to": "$ {path} on sama kuin $ {reference}",
@@ -2932,7 +2933,7 @@
             "rejected_and_closed": "Valitus hylätty, ja olemme sulkeneet tilisi",
             "through_review": "Tapauksesi perusteellisen tarkastelun jälkeen olemme päättäneet jatkaa tilisi sulkemista.",
             "log_out": "Kirjaudu ulos",
-            "does_not_comply": "Tilisi tai sen toiminta ei ole {ehtojemme} mukaista.",
+            "does_not_comply": "Tilisi tai sen toiminta ei ole {terms} mukaista.",
             "review_non_compliance": "Muutoksenhakua koskeva tarkastelu vahvisti, että tämä ei ole foorumin standardien mukaista.",
             "no_one_can_see": "Kukaan ei näe tai löydä tiliäsi, etkä voi käyttää sitä. ",
             "all_information_deleted": "Kaikki tietosi poistetaan pysyvästi. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "{fast} tapa tehdä työpöydälläsi",
+            "fast": "Nopea",
             "x64": "x64",
             "universal": "Universal",
             "apple_silicon": "Apple Silicon",
             "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "get_twibbon_mac": "Hanki Twibbon Macille",
+            "get_twibbon_windows": "Hanki Twibbon Windowsille",
+            "download_mac": "Lataa Macille",
+            "download_pc": "Lataa PC:lle"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

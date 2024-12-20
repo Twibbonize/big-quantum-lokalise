@@ -2773,7 +2773,8 @@
             "11012": "ວິເຄາະ JSON ຜິດພາດຮ້າຍແຮງ!",
             "11013": "JSON marshal ຜິດພາດ!",
             "visibility_public": "ການເບິ່ງເຫັນແຄມເປນຕ້ອງເປັນສາທາລະນະ",
-            "F-40018": "ເບິ່ງຄືວ່າໄຟລ໌ຂອງທ່ານບໍ່ໄດ້ອັບໂຫລດເຕັມທີ່. ກະລຸນາລອງອີກຄັ້ງ."
+            "F-40018": "ເບິ່ງຄືວ່າໄຟລ໌ຂອງທ່ານບໍ່ໄດ້ອັບໂຫລດເຕັມທີ່. ກະລຸນາລອງອີກຄັ້ງ.",
+            "SU-4032": "ບັນຊີຖືກລະງັບ"
         },
         "form": {
             "equal_to": "$ {path} ຕ້ອງຄືກັນກັບ $ {reference}",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "ຂອບໃຈສໍາລັບການຮ້ອງຂໍການທົບທວນຄືນ. ພວກເຮົາໄດ້ກວດເບິ່ງບັນຊີຂອງທ່ານ ແລະຢືນຢັນວ່າການເຄື່ອນໄຫວຂອງມັນປະຕິບັດຕາມ {terms} ຂອງພວກເຮົາ, ດັ່ງນັ້ນຕອນນີ້ເຈົ້າອາດຈະໃຊ້ Twibbonize ອີກຄັ້ງ.",
             "sorry_couldnt_access": "ພວກເຮົາຂໍອະໄພທີ່ທ່ານບໍ່ສາມາດເຂົ້າເຖິງ Twibbonize ໃນຂະນະທີ່ບັນຊີຂອງທ່ານຖືກລະງັບໄວ້. ເພື່ອຮັບປະກັນສະພາບແວດລ້ອມທີ່ປອດໄພສໍາລັບທຸກຄົນ, ພວກເຮົາຈໍາເປັນຕ້ອງໃຊ້ມາດຕະການປ້ອງກັນເປັນບາງໂອກາດ.",
             "logged_in": "ເຂົ້າສູ່ລະບົບເປັນ {username}",
-            "not_you": "ບໍ່ແມ່ນເຈົ້າບໍ? {ອອກຈາກລະບົບ}",
+            "not_you": "ບໍ່ແມ່ນເຈົ້າບໍ? {logout}",
             "rejected_and_closed": "ການອຸທອນຖືກປະຕິເສດ, ແລະພວກເຮົາໄດ້ປິດບັນຊີຂອງທ່ານແລ້ວ",
             "through_review": "ຫຼັງຈາກການກວດສອບຢ່າງລະອຽດກ່ຽວກັບກໍລະນີຂອງທ່ານ, ພວກເຮົາໄດ້ຕັດສິນໃຈທີ່ຈະຮັກສາການປິດບັນຊີຂອງທ່ານ.",
             "log_out": "ອອກຈາກລະບົບ",
-            "does_not_comply": "ບັນຊີຂອງທ່ານ, ຫຼືການເຄື່ອນໄຫວຂອງມັນ, ບໍ່ປະຕິບັດຕາມ {ຂໍ້ກໍານົດ} ຂອງພວກເຮົາ.",
+            "does_not_comply": "ບັນຊີຂອງທ່ານ, ຫຼືການເຄື່ອນໄຫວຂອງມັນ, ບໍ່ປະຕິບັດຕາມ {terms} ຂອງພວກເຮົາ.",
             "review_non_compliance": "ການທົບທວນຄືນການອຸທອນໄດ້ຢືນຢັນການບໍ່ປະຕິບັດຕາມມາດຕະຖານເວທີຂອງພວກເຮົາ.",
             "no_one_can_see": "ບໍ່ມີໃຜສາມາດເຫັນ ຫຼືຊອກຫາບັນຊີຂອງທ່ານ ແລະທ່ານບໍ່ສາມາດໃຊ້ມັນໄດ້. ",
             "all_information_deleted": "ຂໍ້ມູນທັງໝົດຂອງເຈົ້າຈະຖືກລຶບຢ່າງຖາວອນ. ",
@@ -2960,21 +2961,36 @@
             "android_device": "ອຸປະກອນ Android",
             "download_for_ios": "ດາວໂຫລດສໍາລັບ iOS",
             "download_for_android": "ດາວໂຫລດສໍາລັບ Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "ວິທີ {fast} ທີ່ຈະເຮັດໃນ Desktop ຂອງທ່ານ",
+            "fast": "ໄວ",
             "x64": "x64",
-            "universal": "Universal",
+            "universal": "ສາກົນ",
             "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "arm": "ແຂນ\/ແຂນ64",
+            "get_twibbon_mac": "ເອົາ Twibbon ສໍາລັບ Mac",
+            "get_twibbon_windows": "ເອົາ Twibbon ສໍາລັບ Windows",
+            "download_mac": "ດາວ​ໂຫຼດ​ສໍາ​ລັບ Mac​",
+            "download_pc": "ດາວໂຫລດສໍາລັບ PC"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "ແມ່ນແລ້ວ, ຍົກເລີກການດາວເກຣດ"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

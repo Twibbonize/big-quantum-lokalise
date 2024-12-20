@@ -2773,7 +2773,8 @@
             "11012": "Schwerwiegender JSON-Parsing-Fehler!",
             "11013": "JSON-Marshal-Fehler!",
             "visibility_public": "Die Kampagnensichtbarkeit muss öffentlich sein",
-            "F-40018": "Es sieht so aus, als ob Ihre Dateien nicht vollständig hochgeladen werden konnten. Bitte versuchen Sie es erneut."
+            "F-40018": "Es sieht so aus, als ob Ihre Dateien nicht vollständig hochgeladen werden konnten. Bitte versuchen Sie es erneut.",
+            "SU-4032": "Konto ist gesperrt"
         },
         "form": {
             "equal_to": "$ {path} muss mit $ {reference} identisch sein.",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "Vielen Dank, dass Sie eine Überprüfung beantragt haben. Wir haben Ihr Konto überprüft und bestätigt, dass seine Aktivität mit unseren {Bedingungen} übereinstimmt. Sie können Twibbonize jetzt wieder nutzen.",
             "sorry_couldnt_access": "Es tut uns leid, dass Sie nicht auf Twibbonize zugreifen konnten, während Ihr Konto gesperrt war. Um eine sichere Umgebung für alle zu gewährleisten, müssen wir gelegentlich Vorsichtsmaßnahmen ergreifen.",
             "logged_in": "Anmelden als {Benutzername}",
-            "not_you": "Sie nicht? {Abmelden}",
+            "not_you": "Sie nicht? {logout}",
             "rejected_and_closed": "Einspruch abgelehnt, und wir haben Ihr Konto geschlossen",
             "through_review": "Nach einer gründlichen Prüfung Ihres Falles haben wir beschlossen, die Schließung Ihres Kontos aufrechtzuerhalten.",
             "log_out": "Abmelden",
-            "does_not_comply": "Ihr Konto oder seine Aktivität entspricht nicht unseren {Nutzungsbedingungen}.",
+            "does_not_comply": "Ihr Konto oder seine Aktivität entspricht nicht unseren {terms}.",
             "review_non_compliance": "Die Berufungsprüfung bestätigte diese Nichteinhaltung unserer Plattformstandards.",
             "no_one_can_see": "Niemand kann Ihr Konto sehen oder finden und Sie können es nicht benutzen. ",
             "all_information_deleted": "Alle Ihre Informationen werden dauerhaft gelöscht. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "Die {fast} Art, auf dem Desktop zu arbeiten",
+            "fast": "Schnell",
             "x64": "x64",
             "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
+            "apple_silicon": "Apfel-Silizium",
             "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "get_twibbon_mac": "Twibbon für Mac kaufen",
+            "get_twibbon_windows": "Twibbon für Windows kaufen",
+            "download_mac": "Herunterladen für Mac",
+            "download_pc": "Herunterladen für PC"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

@@ -2773,7 +2773,8 @@
             "11012": "خطأ فادح في تحليل JSON!",
             "11013": "خطأ في تنسيق JSON!",
             "visibility_public": "يجب أن تكون رؤية الحملة عامة",
-            "F-40018": "يبدو أن ملفاتك لم يتم تحميلها بالكامل. يرجى المحاولة مرة أخرى."
+            "F-40018": "يبدو أن ملفاتك لم يتم تحميلها بالكامل. يرجى المحاولة مرة أخرى.",
+            "SU-4032": "تم إيقاف الحساب"
         },
         "form": {
             "equal_to": "يجب أن يكون $ {path} هو نفسه $ {reference}",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "شكرًا لك على طلب المراجعة. لقد قمنا بمراجعة حسابك وتأكدنا من أن نشاطه يتوافق مع {الشروط} الخاصة بنا، لذا يمكنك الآن استخدام Twibbonize مرة أخرى.",
             "sorry_couldnt_access": "نأسف لعدم تمكنك من الوصول إلى Twibbonize أثناء تعليق حسابك. لضمان بيئة آمنة للجميع، نحتاج أحيانًا إلى اتخاذ تدابير احترازية لضمان بيئة آمنة للجميع.",
             "logged_in": "تسجيل الدخول باسم {اسم المستخدم}",
-            "not_you": "ليس أنت؟ {الخروج}",
+            "not_you": "ليس أنت؟ {logout}",
             "rejected_and_closed": "تم رفض الاستئناف، وقمنا بإغلاق حسابك",
             "through_review": "بعد مراجعة شاملة لحالتك، قررنا الإبقاء على إغلاق حسابك.",
             "log_out": "تسجيل الخروج",
-            "does_not_comply": "حسابك أو نشاطه لا يتوافق مع {شروطنا}.",
+            "does_not_comply": "حسابك أو نشاطه لا يتوافق مع {terms}.",
             "review_non_compliance": "أكدت مراجعة الاستئناف عدم الامتثال لمعايير منصتنا.",
             "no_one_can_see": "لا يمكن لأحد رؤية حسابك أو العثور عليه ولا يمكنك استخدامه. ",
             "all_information_deleted": "سيتم حذف جميع معلوماتك بشكل نهائي. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "الطريقة {fast} للقيام بذلك على سطح المكتب الخاص بك",
+            "fast": "سريع",
             "x64": "x64",
-            "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "universal": "يونيفيرسال",
+            "apple_silicon": "أبل سيليكون",
+            "arm": "ذراع\/ذراع64",
+            "get_twibbon_mac": "احصل على Twibbon لنظام التشغيل Mac",
+            "get_twibbon_windows": "احصل على Twibbon لنظام ويندوز",
+            "download_mac": "تنزيل لنظام التشغيل Mac",
+            "download_pc": "تنزيل للكمبيوتر الشخصي"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

@@ -2773,7 +2773,8 @@
             "11012": "Парсе ЈСОН фатална грешка!",
             "11013": "Грешка маршала ЈСОН-а!",
             "visibility_public": "Видљивост кампање мора бити јавна",
-            "F-40018": "Изгледа да ваше датотеке нису у потпуности отпремљене. Покушајте поново."
+            "F-40018": "Изгледа да ваше датотеке нису у потпуности отпремљене. Покушајте поново.",
+            "SU-4032": "Налог је суспендован"
         },
         "form": {
             "equal_to": "$ {path} мора бити исто што и $ {reference}",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "Хвала вам што сте затражили преглед. Прегледали смо ваш налог и потврдили да је његова активност у складу са нашим {термс}, тако да сада можете поново да користите Твиббонизе.",
             "sorry_couldnt_access": "Жао нам је што нисте могли да приступите Твиббонизе-у док је ваш налог био суспендован. Да бисмо обезбедили безбедно окружење за све, повремено морамо да предузмемо мере предострожности.",
             "logged_in": "Пријавите се као {корисничко име}",
-            "not_you": "Не ти? {одјава}",
+            "not_you": "Не ти? {logout}",
             "rejected_and_closed": "Жалба је одбијена и затворили смо ваш налог",
             "through_review": "Након детаљног прегледа вашег случаја, одлучили смо да задржимо затварање вашег налога.",
             "log_out": "Одјавите се",
-            "does_not_comply": "Ваш налог или његове активности нису у складу са нашим {терминима}.",
+            "does_not_comply": "Ваш налог или његове активности нису у складу са нашим {terms}.",
             "review_non_compliance": "Преглед жалбе је потврдио ово неусаглашеност са стандардима наше платформе.",
             "no_one_can_see": "Нико не може да види или пронађе ваш налог и не можете да га користите. ",
             "all_information_deleted": "Све ваше информације ће бити трајно избрисане. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Андроид уређај",
             "download_for_ios": "Преузмите за иОС",
             "download_for_android": "Преузмите за Андроид",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
-            "x64": "x64",
-            "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "the_way_to_do": "{fast} начин за рад на радној површини",
+            "fast": "Фаст",
+            "x64": "к64",
+            "universal": "Универсал",
+            "apple_silicon": "Аппле Силицон",
+            "arm": "Рука\/Рука64",
+            "get_twibbon_mac": "Набавите Твиббон ​​за Мац",
+            "get_twibbon_windows": "Набавите Твиббон ​​за Виндовс",
+            "download_mac": "Преузмите за Мац",
+            "download_pc": "Преузмите за ПЦ"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Да, откажи прелазак на старију верзију"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

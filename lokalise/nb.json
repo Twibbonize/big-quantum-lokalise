@@ -2773,7 +2773,8 @@
             "11012": "Parse JSON fatal feil!",
             "11013": "JSON marshal feil!",
             "visibility_public": "Kampanjesynlighet må være offentlig",
-            "F-40018": "Det ser ut til at filene dine ikke ble lastet opp fullstendig. Vennligst prøv igjen."
+            "F-40018": "Det ser ut til at filene dine ikke ble lastet opp fullstendig. Vennligst prøv igjen.",
+            "SU-4032": "Kontoen er suspendert"
         },
         "form": {
             "equal_to": "$ {path} må være den samme som $ {reference}",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "Takk for at du ber om en anmeldelse. Vi har gjennomgått kontoen din og bekreftet at aktiviteten er i samsvar med våre {vilkår}, så du kan nå bruke Twibbonize igjen.",
             "sorry_couldnt_access": "Vi beklager at du ikke fikk tilgang til Twibbonize mens kontoen din var suspendert. For å sikre et trygt miljø for alle, må vi av og til ta forholdsregler.",
             "logged_in": "Logg inn som {brukernavn}",
-            "not_you": "Ikke du? {Logg ut}",
+            "not_you": "Ikke du? {logout}",
             "rejected_and_closed": "Anken er avvist, og vi har stengt kontoen din",
             "through_review": "Etter en grundig gjennomgang av saken din har vi besluttet å opprettholde stengingen av kontoen din.",
             "log_out": "Logg ut",
-            "does_not_comply": "Kontoen din, eller aktiviteten på den, er ikke i samsvar med våre {vilkår}.",
+            "does_not_comply": "Kontoen din, eller aktiviteten på den, er ikke i samsvar med våre {terms}.",
             "review_non_compliance": "Gjennomgangen av klagen bekreftet at dette ikke var i samsvar med plattformstandardene våre.",
             "no_one_can_see": "Ingen kan se eller finne kontoen din, og du kan ikke bruke den. ",
             "all_information_deleted": "Alle opplysningene dine vil bli slettet permanent. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "Den {fast} måten å gjøre det på skrivebordet ditt",
+            "fast": "Rask",
             "x64": "x64",
-            "universal": "Universal",
+            "universal": "Universell",
             "apple_silicon": "Apple Silicon",
             "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "get_twibbon_mac": "Få Twibbon for Mac",
+            "get_twibbon_windows": "Få Twibbon for Windows",
+            "download_mac": "Last ned for Mac",
+            "download_pc": "Last ned til PC"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

@@ -2773,7 +2773,8 @@
             "11012": "JSON ကို ခွဲခြမ်းစိတ်ဖြာခြင်း ဆိုးရွားသော အမှား။",
             "11013": "JSON ဗိုလ်ချုပ် အမှား။",
             "visibility_public": "ကမ်ပိန်းမြင်နိုင်စွမ်းသည် အများသူငှာဖြစ်ရမည်။",
-            "F-40018": "သင့်ဖိုင်များကို အပြည့်အ၀ အပ်လုဒ်လုပ်ထားပုံရသည်။ ထပ်စမ်းကြည့်ပါ။"
+            "F-40018": "သင့်ဖိုင်များကို အပြည့်အ၀ အပ်လုဒ်လုပ်ထားပုံရသည်။ ထပ်စမ်းကြည့်ပါ။",
+            "SU-4032": "အကောင့်ကို ဆိုင်းငံ့ထားသည်။"
         },
         "form": {
             "equal_to": "$ {path} $ {reference} နှင့် တူညီရမည်",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "သုံးသပ်ချက်တောင်းသည့်အတွက် ကျေးဇူးတင်ပါသည်။ ကျွန်ုပ်တို့သည် သင့်အကောင့်ကို စစ်ဆေးပြီး ၎င်း၏လုပ်ဆောင်ချက်သည် ကျွန်ုပ်တို့၏ {စည်းမျဥ်းများ} နှင့် ကိုက်ညီကြောင်း အတည်ပြုထားသောကြောင့် ယခု Twibbonize ကို ထပ်မံအသုံးပြုနိုင်ပါပြီ။",
             "sorry_couldnt_access": "သင့်အကောင့်ကို ဆိုင်းငံ့ထားစဉ် Twibbonize ကို သင်ဝင်ရောက်၍မရသည့်အတွက် ဝမ်းနည်းပါသည်။ လူတိုင်းအတွက် ဘေးကင်းသောပတ်ဝန်းကျင်တစ်ခုသေချာစေရန်၊ ကျွန်ုပ်တို့သည် အခါအားလျော်စွာ ကြိုတင်ကာကွယ်မှုပြုလုပ်ရန် လိုအပ်ပါသည်။",
             "logged_in": "{username} အဖြစ် အကောင့်ဝင်ပါ",
-            "not_you": "မင်းမဟုတ်ဘူးလား။ {ထွက်ရန်}",
+            "not_you": "မင်းမဟုတ်ဘူးလား။ {logout}",
             "rejected_and_closed": "အယူခံဝင်မှုကို ပယ်ချလိုက်ပြီး သင့်အကောင့်ကို ကျွန်ုပ်တို့ ပိတ်လိုက်ပါပြီ။",
             "through_review": "သင့်ကိစ္စနှင့်ပတ်သက်၍ စေ့စေ့စပ်စပ်သုံးသပ်ပြီးနောက်၊ သင့်အကောင့်ကို ပိတ်သိမ်းရန် ကျွန်ုပ်တို့ ဆုံးဖြတ်လိုက်ပါသည်။",
             "log_out": "ထွက်လိုက်ပါ။",
-            "does_not_comply": "သင့်အကောင့် သို့မဟုတ် ၎င်း၏လုပ်ဆောင်ချက်သည် ကျွန်ုပ်တို့၏ {စည်းမျဥ်းများ} ကို မလိုက်နာပါ။",
+            "does_not_comply": "သင့်အကောင့် သို့မဟုတ် ၎င်း၏လုပ်ဆောင်ချက်သည် ကျွန်ုပ်တို့၏ {terms}ကို မလိုက်နာပါ။",
             "review_non_compliance": "အယူခံပြန်လည်သုံးသပ်မှုသည် ကျွန်ုပ်တို့၏ ပလက်ဖောင်းစံနှုန်းများနှင့် မကိုက်ညီကြောင်း အတည်ပြုခဲ့သည်။",
             "no_one_can_see": "သင့်အကောင့်ကို မည်သူမျှ မြင်နိုင် သို့မဟုတ် ရှာမတွေ့နိုင်သလို သင် ၎င်းကို အသုံးမပြုနိုင်ပါ။ ",
             "all_information_deleted": "သင့်အချက်အလက်အားလုံးကို အပြီးအပိုင် ဖျက်လိုက်ပါမည်။ ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android စက်",
             "download_for_ios": "iOS အတွက် ဒေါင်းလုဒ်လုပ်ပါ။",
             "download_for_android": "Android အတွက် ဒေါင်းလုဒ်လုပ်ပါ။",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
-            "x64": "x64",
-            "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "the_way_to_do": "သင့် Desktop ပေါ်တွင် ပြုလုပ်ရန် {fast} နည်းလမ်း",
+            "fast": "မြန်သည်။",
+            "x64": "x၆၄",
+            "universal": "တစ်လောကလုံး",
+            "apple_silicon": "Apple ဆီလီကွန်",
+            "arm": "လက်မောင်း\/လက်မောင်း ၆၄",
+            "get_twibbon_mac": "Mac အတွက် Twibbon ကို ရယူပါ။",
+            "get_twibbon_windows": "Windows အတွက် Twibbon ကို ရယူပါ။",
+            "download_mac": "Mac အတွက်ဒေါင်းလုဒ်လုပ်ပါ။",
+            "download_pc": "PC အတွက်ဒေါင်းလုဒ်လုပ်ပါ။"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "ဟုတ်ကဲ့၊ အဆင့်နှိမ့်မှုကို ပယ်ဖျက်ပါ။"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }
