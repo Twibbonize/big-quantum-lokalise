@@ -2773,7 +2773,8 @@
             "11012": "JSON 解析で致命的なエラーが発生しました。",
             "11013": "JSON マーシャリング エラー!",
             "visibility_public": "キャンペーンの公開設定は公開にする必要があります",
-            "F-40018": "ファイルが完全にアップロードされなかったようです。もう一度お試しください。"
+            "F-40018": "ファイルが完全にアップロードされなかったようです。もう一度お試しください。",
+            "SU-4032": "アカウント停止"
         },
         "form": {
             "equal_to": "$ {path} $ {reference}と同じである必要があります",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "レビューのリクエストありがとうございます。お客様のアカウントを確認し、アクティビティが当社の{規約}に準拠していることを確認しました。",
             "sorry_couldnt_access": "アカウントが停止している間、Twibbonizeにアクセスできず、申し訳ございませんでした。皆様の安全な環境を確保するため、時として予防措置を講じる必要があります。",
             "logged_in": "ユーザー名}でログイン",
-            "not_you": "あなたは違うの？{ログアウト｝",
+            "not_you": "あなたは違うの？{logout}",
             "rejected_and_closed": "不服申し立てが却下され、口座を閉鎖しました。",
             "through_review": "あなたのケースを徹底的に検討した結果、私たちはあなたの口座の閉鎖を維持することを決定しました。",
             "log_out": "ログアウト",
-            "does_not_comply": "お客様のアカウントまたはその活動は、当社の{規約}に準拠していません。",
+            "does_not_comply": "お客様のアカウントまたはその活動は、当社の{terms}に準拠していません。",
             "review_non_compliance": "不服審査では、このプラットフォーム基準への不適合が確認された。",
             "no_one_can_see": "誰もあなたのアカウントを見ることも見つけることもできないし、使うこともできない。 ",
             "all_information_deleted": "あなたの情報はすべて永久に削除されます。 ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "デスクトップでできる{fast}方法",
+            "fast": "速い",
             "x64": "x64",
-            "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "universal": "ユニバーサル",
+            "apple_silicon": "アップル・シリコン",
+            "arm": "アーム\/アーム64",
+            "get_twibbon_mac": "Mac版Twibbonを入手する",
+            "get_twibbon_windows": "Windows版Twibbonを入手する",
+            "download_mac": "Mac用ダウンロード",
+            "download_pc": "PC用ダウンロード"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

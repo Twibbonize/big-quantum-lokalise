@@ -2773,7 +2773,8 @@
             "11012": "Eroare fatală de analiză JSON!",
             "11013": "Eroare de marshal JSON!",
             "visibility_public": "Vizibilitatea campaniei trebuie să fie publică",
-            "F-40018": "Se pare că fișierele dvs. nu au fost încărcate complet. Vă rugăm să încercați din nou."
+            "F-40018": "Se pare că fișierele dvs. nu au fost încărcate complet. Vă rugăm să încercați din nou.",
+            "SU-4032": "Contul este suspendat"
         },
         "form": {
             "equal_to": "$ {path} trebuie să fie același cu $ {reference}",
@@ -2932,7 +2933,7 @@
             "rejected_and_closed": "Apel respins și v-am închis contul",
             "through_review": "După o analiză aprofundată a cazului dumneavoastră, am decis să menținem închiderea contului dumneavoastră.",
             "log_out": "Deconectați-vă",
-            "does_not_comply": "Contul dvs. sau activitatea acestuia nu este conformă cu {termenii} noștri.",
+            "does_not_comply": "Contul dvs. sau activitatea acestuia nu este conformă cu {terms} noștri.",
             "review_non_compliance": "Revizuirea apelului a confirmat această neconformitate cu standardele platformei noastre.",
             "no_one_can_see": "Nimeni nu vă poate vedea sau găsi contul și nu îl puteți utiliza. ",
             "all_information_deleted": "Toate informațiile dvs. vor fi șterse definitiv. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "Modul {fast} de a face pe desktop",
+            "fast": "Rapid",
             "x64": "x64",
             "universal": "Universal",
             "apple_silicon": "Apple Silicon",
             "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "get_twibbon_mac": "Obțineți Twibbon pentru Mac",
+            "get_twibbon_windows": "Obțineți Twibbon pentru Windows",
+            "download_mac": "Descarcă pentru Mac",
+            "download_pc": "Descarcă pentru PC"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

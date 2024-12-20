@@ -2773,7 +2773,8 @@
             "11012": "Lỗi nghiêm trọng khi phân tích cú pháp JSON!",
             "11013": "Lỗi marshal JSON!",
             "visibility_public": "Khả năng hiển thị chiến dịch phải công khai",
-            "F-40018": "Có vẻ như tệp của bạn chưa được tải lên đầy đủ. Vui lòng thử lại."
+            "F-40018": "Có vẻ như tệp của bạn chưa được tải lên đầy đủ. Vui lòng thử lại.",
+            "SU-4032": "Tài khoản bị đình chỉ"
         },
         "form": {
             "equal_to": "$ {path} phải giống với $ {reference}",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "Cảm ơn bạn đã yêu cầu đánh giá. Chúng tôi đã xem xét tài khoản của bạn và xác nhận rằng hoạt động của tài khoản tuân thủ {điều khoản} của chúng tôi, vì vậy bây giờ bạn có thể sử dụng Twibbonize một lần nữa.",
             "sorry_couldnt_access": "Chúng tôi rất tiếc vì bạn không thể truy cập Twibbonize trong khi tài khoản của bạn bị đình chỉ. Để đảm bảo môi trường an toàn cho mọi người, đôi khi chúng tôi cần thực hiện các biện pháp phòng ngừa.",
             "logged_in": "Đăng nhập bằng {username}",
-            "not_you": "Không phải bạn sao? {đăng xuất}",
+            "not_you": "Không phải bạn sao? {logout}",
             "rejected_and_closed": "Khiếu nại bị từ chối và chúng tôi đã đóng tài khoản của bạn",
             "through_review": "Sau khi xem xét kỹ lưỡng trường hợp của bạn, chúng tôi quyết định giữ nguyên việc đóng tài khoản của bạn.",
             "log_out": "Đăng xuất",
-            "does_not_comply": "Tài khoản của bạn hoặc hoạt động của tài khoản không tuân thủ {điều khoản} của chúng tôi.",
+            "does_not_comply": "Tài khoản của bạn hoặc hoạt động của tài khoản không tuân thủ {terms} của chúng tôi.",
             "review_non_compliance": "Việc xem xét kháng cáo đã xác nhận việc không tuân thủ các tiêu chuẩn nền tảng của chúng tôi.",
             "no_one_can_see": "Không ai có thể nhìn thấy hoặc tìm thấy tài khoản của bạn và bạn không thể sử dụng nó. ",
             "all_information_deleted": "Mọi thông tin của bạn sẽ bị xóa vĩnh viễn. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Thiết bị Android",
             "download_for_ios": "Tải xuống cho iOS",
             "download_for_android": "Tải xuống cho Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "Cách {fast} để thực hiện trên Desktop của bạn",
+            "fast": "Nhanh",
             "x64": "x64",
-            "universal": "Universal",
+            "universal": "Phổ quát",
             "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "arm": "Cánh tay\/Cánh tay64",
+            "get_twibbon_mac": "Nhận Twibbon cho Mac",
+            "get_twibbon_windows": "Nhận Twibbon cho Windows",
+            "download_mac": "Tải xuống cho Mac",
+            "download_pc": "Tải xuống cho PC"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Có, Hủy Hạ cấp"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

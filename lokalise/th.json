@@ -2773,7 +2773,8 @@
             "11012": "การแยกวิเคราะห์ JSON ข้อผิดพลาดร้ายแรง!",
             "11013": "ข้อผิดพลาดการจัดการ JSON!",
             "visibility_public": "การมองเห็นแคมเปญจะต้องเป็นสาธารณะ",
-            "F-40018": "ดูเหมือนว่าไฟล์ของคุณจะอัปโหลดไม่ครบ โปรดลองอีกครั้ง"
+            "F-40018": "ดูเหมือนว่าไฟล์ของคุณจะอัปโหลดไม่ครบ โปรดลองอีกครั้ง",
+            "SU-4032": "บัญชีถูกระงับ"
         },
         "form": {
             "equal_to": "$ {path} จะต้องเหมือนกับ $ {reference}",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "ขอขอบคุณที่ร้องขอการตรวจสอบ เราได้ตรวจสอบบัญชีของคุณแล้วและยืนยันว่ากิจกรรมในบัญชีของคุณเป็นไปตาม {เงื่อนไข} ของเรา ดังนั้นคุณจึงสามารถใช้ Twibbonize ได้อีกครั้ง",
             "sorry_couldnt_access": "เราเสียใจที่คุณไม่สามารถเข้าถึง Twibbonize ได้ในขณะที่บัญชีของคุณถูกระงับ เพื่อให้แน่ใจว่าทุกคนจะได้รับความปลอดภัย เราจำเป็นต้องใช้มาตรการป้องกันเป็นครั้งคราว",
             "logged_in": "เข้าสู่ระบบเป็น {ชื่อผู้ใช้}",
-            "not_you": "ไม่ใช่คุณเหรอ? {ออกจากระบบ}",
+            "not_you": "ไม่ใช่คุณเหรอ? {logout}",
             "rejected_and_closed": "การอุทธรณ์ถูกปฏิเสธและเราได้ปิดบัญชีของคุณแล้ว",
             "through_review": "หลังจากตรวจสอบกรณีของคุณอย่างละเอียดแล้ว เราได้ตัดสินใจที่จะปิดบัญชีของคุณ",
             "log_out": "ออกจากระบบ",
-            "does_not_comply": "บัญชีของคุณหรือกิจกรรมของคุณไม่เป็นไปตาม {ข้อกำหนด} ของเรา",
+            "does_not_comply": "บัญชีของคุณหรือกิจกรรมของคุณไม่เป็นไปตาม {terms} ของเรา",
             "review_non_compliance": "การพิจารณาอุทธรณ์ได้ยืนยันการไม่ปฏิบัติตามมาตรฐานแพลตฟอร์มของเรา",
             "no_one_can_see": "ไม่มีใครสามารถเห็นหรือค้นหาบัญชีของคุณ และคุณก็ไม่สามารถใช้มันได้ ",
             "all_information_deleted": "ข้อมูลของคุณทั้งหมดจะถูกลบออกอย่างถาวร ",
@@ -2960,21 +2961,36 @@
             "android_device": "อุปกรณ์แอนดรอยด์",
             "download_for_ios": "ดาวน์โหลดสำหรับ iOS",
             "download_for_android": "ดาวน์โหลดสำหรับ Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "{fast} ในการทำบนเดสก์ท็อปของคุณ",
+            "fast": "เร็ว",
             "x64": "x64",
-            "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "universal": "สากล",
+            "apple_silicon": "แอปเปิลซิลิคอน",
+            "arm": "อาร์ม\/อาร์ม64",
+            "get_twibbon_mac": "รับ Twibbon สำหรับ Mac",
+            "get_twibbon_windows": "รับ Twibbon สำหรับ Windows",
+            "download_mac": "ดาวน์โหลดสำหรับ Mac",
+            "download_pc": "ดาวน์โหลดสำหรับพีซี"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "ใช่ ยกเลิกการลดระดับ"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

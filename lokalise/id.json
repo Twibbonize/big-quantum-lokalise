@@ -2773,7 +2773,8 @@
             "11012": "Kesalahan fatal pada parsing JSON!",
             "11013": "Kesalahan marshal JSON!",
             "visibility_public": "Visibilitas kampanye harus Publik",
-            "F-40018": "Sepertinya file Anda tidak terunggah sepenuhnya. Silakan coba lagi."
+            "F-40018": "Sepertinya file Anda tidak terunggah sepenuhnya. Silakan coba lagi.",
+            "SU-4032": "Akun ditangguhkan"
         },
         "form": {
             "equal_to": "$ {path} harus sama dengan $ {reference}",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "Terima kasih telah meminta ulasan. Kami telah meninjau akun Anda dan mengonfirmasi bahwa aktivitasnya sesuai dengan {ketentuan} kami, sehingga Anda dapat menggunakan Twibbonize lagi.",
             "sorry_couldnt_access": "Kami mohon maaf Anda tidak dapat mengakses Twibbonize saat akun Anda ditangguhkan. Untuk memastikan lingkungan yang aman bagi semua orang, terkadang kami perlu melakukan tindakan pencegahan.",
             "logged_in": "Masuk sebagai {nama pengguna}",
-            "not_you": "Bukan kau? [logout]",
+            "not_you": "Bukan kau? {logout}",
             "rejected_and_closed": "Banding ditolak, dan kami telah menutup akun Anda",
             "through_review": "Setelah meninjau kasus Anda secara menyeluruh, kami memutuskan untuk mempertahankan penutupan akun Anda.",
             "log_out": "Keluar",
-            "does_not_comply": "Akun Anda, atau aktivitasnya, tidak sesuai dengan {ketentuan} kami.",
+            "does_not_comply": "Akun Anda, atau aktivitasnya, tidak sesuai dengan {terms} kami.",
             "review_non_compliance": "Tinjauan banding mengkonfirmasi ketidakpatuhan terhadap standar platform kami.",
             "no_one_can_see": "Tidak ada yang bisa melihat atau menemukan akun Anda dan Anda tidak bisa menggunakannya. ",
             "all_information_deleted": "Semua informasi Anda akan dihapus secara permanen. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "Cara {fast} yang dapat dilakukan di Desktop Anda",
+            "fast": "Cepat",
             "x64": "x64",
             "universal": "Universal",
             "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "arm": "Lengan \/ Lengan64",
+            "get_twibbon_mac": "Dapatkan Twibbon untuk Mac",
+            "get_twibbon_windows": "Dapatkan Twibbon untuk Windows",
+            "download_mac": "Unduh untuk Mac",
+            "download_pc": "Unduh untuk PC"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

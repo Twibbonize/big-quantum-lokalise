@@ -2773,7 +2773,8 @@
             "11012": "Analizirajte JSON kobnu pogrešku!",
             "11013": "Pogreška JSON marshala!",
             "visibility_public": "Vidljivost kampanje mora biti javna",
-            "F-40018": "Čini se da se vaše datoteke nisu u potpunosti učitale. Molimo pokušajte ponovo."
+            "F-40018": "Čini se da se vaše datoteke nisu u potpunosti učitale. Molimo pokušajte ponovo.",
+            "SU-4032": "Račun je suspendiran"
         },
         "form": {
             "equal_to": "$ {path} mora biti isti kao $ {reference}",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "Hvala što ste zatražili pregled. Pregledali smo vaš račun i potvrdili da je njegova aktivnost u skladu s našim {terms}, tako da sada možete ponovno koristiti Twibbonize.",
             "sorry_couldnt_access": "Žao nam je što niste mogli pristupiti Twibbonizeu dok je vaš račun bio obustavljen. Kako bismo osigurali sigurno okruženje za sve, povremeno moramo poduzeti mjere predostrožnosti.",
             "logged_in": "Prijavite se kao {username}",
-            "not_you": "nisi ti? {odjava}",
+            "not_you": "nisi ti? {logout}",
             "rejected_and_closed": "Žalba je odbijena i zatvorili smo vaš račun",
             "through_review": "Nakon temeljitog pregleda vašeg slučaja, odlučili smo zadržati zatvaranje vašeg računa.",
             "log_out": "Odjavi se",
-            "does_not_comply": "Vaš račun ili njegova aktivnost nisu u skladu s našim {terms}.",
+            "does_not_comply": "Vaš račun ili njegova aktivnost nije u skladu s našim {terms}.",
             "review_non_compliance": "Žalbeni pregled potvrdio je ovu nepoštivanje standarda naše platforme.",
             "no_one_can_see": "Nitko ne može vidjeti ili pronaći vaš račun i ne možete ga koristiti. ",
             "all_information_deleted": "Svi vaši podaci bit će trajno izbrisani. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android uređaj",
             "download_for_ios": "Preuzmite za iOS",
             "download_for_android": "Preuzmite za Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "{fast} način za rad na vašem stolnom računalu",
+            "fast": "Brzo",
             "x64": "x64",
-            "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "universal": "Univerzalni",
+            "apple_silicon": "Jabučni silicij",
+            "arm": "Ruka\/Ruka64",
+            "get_twibbon_mac": "Nabavite Twibbon za Mac",
+            "get_twibbon_windows": "Nabavite Twibbon za Windows",
+            "download_mac": "Preuzmite za Mac",
+            "download_pc": "Preuzmite za PC"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Da, odustani od vraćanja na staru verziju"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

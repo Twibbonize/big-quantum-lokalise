@@ -2773,7 +2773,8 @@
             "11012": "Фатальна помилка аналізу JSON!",
             "11013": "Помилка маршалу JSON!",
             "visibility_public": "Видимість кампанії має бути публічною",
-            "F-40018": "Схоже, що ваші файли не були повністю завантажені. Спробуйте ще раз."
+            "F-40018": "Схоже, що ваші файли не були повністю завантажені. Спробуйте ще раз.",
+            "SU-4032": "Обліковий запис призупинено"
         },
         "form": {
             "equal_to": "$ {path} має збігатися з $ {reference}",
@@ -2928,11 +2929,11 @@
             "thankyou_requesting_review": "Дякуємо за запит на перевірку. Ми перевірили ваш акаунт і підтвердили, що його діяльність відповідає нашим {умовам}, тому ви можете знову використовувати Twibbonize.",
             "sorry_couldnt_access": "Нам шкода, що ви не могли отримати доступ до Twibbonize, поки ваш обліковий запис було призупинено. Щоб забезпечити безпечне середовище для всіх, нам час від часу доводиться вживати запобіжних заходів.",
             "logged_in": "Увійдіть як {ім'я користувача}",
-            "not_you": "Не ти? {Вийдіть з системи.}",
+            "not_you": "Не ти? {logout}",
             "rejected_and_closed": "Апеляцію відхилено, і ми закрили ваш рахунок",
             "through_review": "Після ретельного розгляду вашої справи ми вирішили закрити ваш рахунок.",
             "log_out": "Вийдіть з системи",
-            "does_not_comply": "Ваш акаунт або його діяльність не відповідає нашим {умовам}.",
+            "does_not_comply": "Ваш акаунт або його діяльність не відповідає нашим {terms}.",
             "review_non_compliance": "Розгляд апеляції підтвердив цю невідповідність стандартам нашої платформи.",
             "no_one_can_see": "Ніхто не може побачити або знайти ваш акаунт, і ви не можете ним користуватися. ",
             "all_information_deleted": "Вся ваша інформація буде безповоротно видалена. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "{fast} спосіб роботи на робочому столі",
+            "fast": "Швидко",
             "x64": "x64",
-            "universal": "Universal",
-            "apple_silicon": "Apple Silicon",
+            "universal": "Універсальний",
+            "apple_silicon": "Кремній Apple",
             "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "get_twibbon_mac": "Придбати Twibbon для Mac",
+            "get_twibbon_windows": "Отримати Twibbon для Windows",
+            "download_mac": "Завантажити для Mac",
+            "download_pc": "Завантажити для ПК"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }

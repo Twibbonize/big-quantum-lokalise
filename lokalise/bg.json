@@ -2773,7 +2773,8 @@
             "11012": "Фатална грешка при анализа на JSON!",
             "11013": "Грешка при маршала на JSON!",
             "visibility_public": "Видимостта на кампанията трябва да е публична",
-            "F-40018": "Изглежда, че файловете ви не са били качени напълно. Моля, опитайте отново."
+            "F-40018": "Изглежда, че файловете ви не са били качени напълно. Моля, опитайте отново.",
+            "SU-4032": "Сметката е спряна"
         },
         "form": {
             "equal_to": "$ {path} трябва да е същото като $ {reference}",
@@ -2932,7 +2933,7 @@
             "rejected_and_closed": "Жалбата е отхвърлена и ние закрихме профила ви",
             "through_review": "След обстоен преглед на вашия случай решихме да запазим закриването на сметката ви.",
             "log_out": "Излизане от системата",
-            "does_not_comply": "Вашият акаунт или дейността му не отговаря на нашите {условия}.",
+            "does_not_comply": "Вашият акаунт или неговата дейност не отговаря на нашите {terms}.",
             "review_non_compliance": "Прегледът на обжалването потвърди това несъответствие със стандартите на нашата платформа.",
             "no_one_can_see": "Никой не може да види или намери профила ви и не можете да го използвате. ",
             "all_information_deleted": "Цялата ви информация ще бъде изтрита завинаги. ",
@@ -2960,21 +2961,36 @@
             "android_device": "Android Device",
             "download_for_ios": "Download for iOS",
             "download_for_android": "Download for Android",
-            "the_way_to_do": "The {fast} way to do on your Desktop",
-            "fast": "Fast",
+            "the_way_to_do": "{fast} начин за работа с вашия работен плот",
+            "fast": "Бърз",
             "x64": "x64",
-            "universal": "Universal",
+            "universal": "Универсален",
             "apple_silicon": "Apple Silicon",
-            "arm": "Arm\/Arm64",
-            "get_twibbon_mac": "Get Twibbon for Mac",
-            "get_twibbon_windows": "Get Twibbon for Windows",
-            "download_mac": "Download for Mac",
-            "download_pc": "Download for PC"
+            "arm": "Арм\/Арм64",
+            "get_twibbon_mac": "Вземете Twibbon за Mac",
+            "get_twibbon_windows": "Вземете Twibbon за Windows",
+            "download_mac": "Изтегляне за Mac",
+            "download_pc": "Изтегляне за PC"
         }
     },
     "page_preferences": {
         "billing": {
             "yes_cancel_downgrade": "Yes, Cancel Downgrade"
+        }
+    },
+    "campaign_suspend": {
+        "campaign": {
+            "campaign_unavailable": "Campaign Unavailable",
+            "campaign_unavailable_desc": "This campaign is currently unavailable because its activity does not comply with our Terms of Use. Please check back later or explore other active campaigns."
+        }
+    },
+    "app_update": {
+        "pop_up": {
+            "new_version_available": "New version available \n",
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+        },
+        "button": {
+            "update": "Update"
         }
     }
 }
