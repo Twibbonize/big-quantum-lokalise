@@ -1072,7 +1072,9 @@
             "backgroundtype": "JPEG, PNG 또는 WEBP",
             "upload_design": "여기에서 디자인 업로드",
             "total_max_files_exceeded": "업로드된 총 파일이 최대 {n} 파일을 초과했습니다.",
-            "replace_image": "이미지 바꾸기"
+            "replace_image": "이미지 바꾸기",
+            "replace_frame": "Replace Frame",
+            "replace_background": "Replace Background"
         },
         "frame_editor": {
             "or_create": "또는 지금 프레임을 만드세요",
@@ -1169,7 +1171,7 @@
         },
         "confirm_reorder": {
             "title": "트위본을 재주문하시겠습니까?",
-            "desc": "트위본을 재정렬하면 캠페인 미리보기 이미지가 자동으로 변경됩니다. 나중에 캠페인 수정에서 조정할 수 있습니다. {링크}",
+            "desc": "트위본을 재정렬하면 캠페인 미리보기 이미지가 자동으로 변경됩니다. 나중에 캠페인 수정에서 조정할 수 있습니다. {link}",
             "learn_more": "썸네일 조정에 대해 알아보기",
             "cancel": "취소",
             "confirm": "계속하기"
@@ -1718,7 +1720,7 @@
             "cant_remove_account": "죄송합니다. 귀하의 소셜 미디어 계정을 삭제할 수 없습니다.",
             "set_up_email": "소셜 미디어 계정을 제거하려면 먼저 이메일이나 비밀번호를 설정해야 합니다.",
             "want_to_remove": "소셜 미디어 계정을 삭제하고 싶으신가요?",
-            "your_account_will_be_removed": "귀하의 {제공자} 계정이 삭제됩니다. 소셜 미디어 계정을 삭제하려면 아래에서 확인하세요.",
+            "your_account_will_be_removed": "귀하의 {provider} 계정이 삭제됩니다. 소셜 미디어 계정을 삭제하려면 아래에서 확인하세요.",
             "continue_to_revoke": "예, 제거",
             "revoke_success": "{provider} 계정이 성공적으로 해지되었습니다",
             "cannot_update_email": "죄송합니다. 이메일을 업데이트할 수 없습니다.",
@@ -2354,7 +2356,7 @@
             "already_subscribed": "이미 구독 중이신가요?"
         },
         "error": {
-            "try_again_after": "시간} 후에 다시 시도하세요"
+            "try_again_after": "{time} 후에 다시 시도하세요"
         }
     },
     "page_campaign_creation": {
@@ -2800,6 +2802,10 @@
         },
         "invalid_login": {
             "wrong_email_password": "입력한 이메일 또는 비밀번호가 올바르지 않습니다."
+        },
+        "toast": {
+            "description_contains_url": "경고! 귀하의 {field}에 URL이 포함되어 있으며 허용되지 않습니다",
+            "description_contains_url_prohibited_words": "경고! 귀하의 {field}에 URL 및 금지 단어가 포함되어 있습니다"
         }
     },
     "page_notification": {
@@ -2851,7 +2857,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "You will no longer receive {type} email from Twibbonize",
+            "description": "더 이상 Twibbonize에서 {type} 이메일을 받지 않게 됩니다.",
             "title": "구독 취소",
             "unsubscribe_success": "구독 취소 성공",
             "global": "글로벌"
@@ -2877,7 +2883,7 @@
         "general": {
             "title": "페이지를 찾을 수 없음",
             "description": "죄송하지만 찾으시던 페이지를 찾을 수 없습니다.",
-            "visit": "자세한 내용은 {링크}를 참조하세요.",
+            "visit": "자세한 내용은 {link}를 참조하세요.",
             "go_to_homepage": "홈페이지로 이동"
         }
     },
@@ -2986,7 +2992,7 @@
     "campaign_suspend": {
         "campaign": {
             "campaign_unavailable": "캠페인 사용 불가",
-            "campaign_unavailable_desc": "이 캠페인은 현재 {약관}을 준수하지 않아서 사용할 수 없습니다. 나중에 다시 확인하거나 현재 진행 중인 다른 캠페인을 살펴보세요."
+            "campaign_unavailable_desc": "이 캠페인은 현재 {terms}을 준수하지 않아서 사용할 수 없습니다. 나중에 다시 확인하거나 현재 진행 중인 다른 캠페인을 살펴보세요."
         }
     },
     "app_update": {
@@ -3004,7 +3010,7 @@
         },
         "bottom_sheet": {
             "manage_subscription_header": "이미 Twibbonize 프리미엄 플랜에 가입하셨습니다 ",
-            "manage_subscription_body": "이미 Twibbonize 웹 버전 또는 모바일 앱을 통해 프리미엄 요금제를 구독하신 것 같습니다. 현재 저희 시스템은 두 버전 모두에서 여러 개의 활성 프리미엄 요금제를 지원하지 않습니다. 프리미엄 구독을 이용하려면 구매하신 플랫폼에서 Twibbonize를 사용하거나 {자세히 알아보기}를 참조하세요."
+            "manage_subscription_body": "이미 Twibbonize 웹 버전 또는 모바일 앱을 통해 프리미엄 요금제를 구독하신 것 같습니다. 현재 저희 시스템은 두 버전 모두에서 여러 개의 활성 프리미엄 요금제를 지원하지 않습니다. 프리미엄 구독을 이용하려면 구매하신 플랫폼에서 Twibbonize를 사용하거나 {learn_more}를 참조하세요."
         }
     },
     "donation": {

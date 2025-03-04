@@ -1072,7 +1072,9 @@
             "backgroundtype": "JPEG أو PNG أو WEBP",
             "upload_design": "ارفع تصميمك هنا",
             "total_max_files_exceeded": "تجاوز إجمالي الملفات التي تم تحميلها الحد الأقصى {n} ملف",
-            "replace_image": "استبدال الصورة"
+            "replace_image": "استبدال الصورة",
+            "replace_frame": "Replace Frame",
+            "replace_background": "Replace Background"
         },
         "frame_editor": {
             "or_create": "أو أنشئ إطارك الآن",
@@ -1169,7 +1171,7 @@
         },
         "confirm_reorder": {
             "title": "إعادة طلب تويبون؟",
-            "desc": "ستؤدي إعادة ترتيب Twibbon إلى تغيير الصورة المصغرة للحملة تلقائيًا. يمكنك تعديلها لاحقًا في تحرير الحملة. {الرابط}",
+            "desc": "ستؤدي إعادة ترتيب Twibbon إلى تغيير الصورة المصغرة للحملة تلقائيًا. يمكنك تعديلها لاحقًا في تحرير الحملة. {link}",
             "learn_more": "تعرف على ضبط الصورة المصغرة",
             "cancel": "إلغاء",
             "confirm": "تابع"
@@ -1718,7 +1720,7 @@
             "cant_remove_account": "عفوًا، لا يمكننا إزالة حساب الوسائط الاجتماعية الخاص بك.",
             "set_up_email": "يجب عليك إعداد البريد الإلكتروني أو كلمة المرور أولاً لإزالة حساب الوسائط الاجتماعية الخاص بك.",
             "want_to_remove": "هل تريد إزالة حسابك على وسائل التواصل الاجتماعي؟",
-            "your_account_will_be_removed": "ستتم إزالة حساب {الموفر} الخاص بك. قم بالتأكيد أدناه لإزالة حساباتك على وسائل التواصل الاجتماعي.",
+            "your_account_will_be_removed": "ستتم إزالة حساب {provider} الخاص بك. قم بالتأكيد أدناه لإزالة حساباتك على وسائل التواصل الاجتماعي.",
             "continue_to_revoke": "نعم، إزالة",
             "revoke_success": "تم إلغاء حساب {provider} بنجاح",
             "cannot_update_email": "عفوًا، لا يمكننا تحديث بريدك الإلكتروني",
@@ -2243,7 +2245,7 @@
             "replace_design_desc": "تم إجراء تغييرات على تصميمك. هل تريد استبداله بالقالب المحدد؟ يمكنك التراجع عن هذا إذا لزم الأمر."
         },
         "image": {
-            "image_template": "name} ",
+            "image_template": "الصورة بواسطة {name} على {unsplash}",
             "image_template_1": "على",
             "edit_image": "تحرير الصورة",
             "image_template_2": "Unsplash",
@@ -2354,7 +2356,7 @@
             "already_subscribed": "هل اشتركت بالفعل؟"
         },
         "error": {
-            "try_again_after": "حاول مرة أخرى بعد {الوقت}"
+            "try_again_after": "حاول مرة أخرى بعد {time}"
         }
     },
     "page_campaign_creation": {
@@ -2800,6 +2802,10 @@
         },
         "invalid_login": {
             "wrong_email_password": "البريد الإلكتروني أو كلمة المرور التي أدخلتها غير صحيحة"
+        },
+        "toast": {
+            "description_contains_url": "تحذير! يحتوي {field} الخاص بك على عنوان URL، وهو غير مسموح به",
+            "description_contains_url_prohibited_words": "تحذير! يحتوي {field} الخاص بك على عنوان URL وكلمات محظورة"
         }
     },
     "page_notification": {
@@ -2851,7 +2857,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "You will no longer receive {type} email from Twibbonize",
+            "description": "لن تتلقى بعد الآن {type} بريدًا إلكترونيًا من Twibbonize",
             "title": "إلغاء الاشتراك",
             "unsubscribe_success": "تم إلغاء الاشتراك بنجاح",
             "global": "عالمي"
@@ -2877,7 +2883,7 @@
         "general": {
             "title": "الصفحة غير موجودة",
             "description": "عذراً، ولكن تعذر العثور على الصفحة التي تبحث عنها.",
-            "visit": "يُرجى زيارة {الرابط} لمزيد من المعلومات.",
+            "visit": "يُرجى زيارة {link} لمزيد من المعلومات.",
             "go_to_homepage": "الانتقال إلى الصفحة الرئيسية"
         }
     },
@@ -2986,7 +2992,7 @@
     "campaign_suspend": {
         "campaign": {
             "campaign_unavailable": "الحملة غير متاحة",
-            "campaign_unavailable_desc": "هذه الحملة غير متوفرة حاليًا لأن نشاطها لا يتوافق مع {شروطنا}. يرجى التحقق مرة أخرى في وقت لاحق أو استكشاف الحملات النشطة الأخرى."
+            "campaign_unavailable_desc": "هذه الحملة غير متوفرة حاليًا لأن نشاطها لا يتوافق مع {terms}. يرجى التحقق مرة أخرى في وقت لاحق أو استكشاف الحملات النشطة الأخرى."
         }
     },
     "app_update": {
@@ -3004,7 +3010,7 @@
         },
         "bottom_sheet": {
             "manage_subscription_header": "لقد اشتركت بالفعل في باقة Twibbonize المميزة ",
-            "manage_subscription_body": "يبدو أنك قد اشتركت بالفعل في خطتنا المميزة من خلال إصدار الويب Twibbonize أو تطبيق الهاتف المحمول. لا يدعم نظامنا حاليًا خطط Premium النشطة المتعددة عبر كلا الإصدارين. للاستمتاع باشتراكك المميز، يُرجى استخدام Twibbonize على المنصة التي قمت بالشراء منها أو {تعرف على المزيد}."
+            "manage_subscription_body": "يبدو أنك قد اشتركت بالفعل في خطتنا المميزة من خلال إصدار الويب Twibbonize أو تطبيق الهاتف المحمول. لا يدعم نظامنا حاليًا خطط Premium النشطة المتعددة عبر كلا الإصدارين. للاستمتاع باشتراكك المميز، يُرجى استخدام Twibbonize على المنصة التي قمت بالشراء منها أو {learn_more}."
         }
     },
     "donation": {

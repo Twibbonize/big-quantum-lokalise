@@ -727,7 +727,7 @@
             "enter_your_email": "Unesite svoju adresu e-pošte"
         },
         "toast": {
-            "success": "Линк за ресетовање лозинке послат на {емаил}"
+            "success": "Линк за ресетовање лозинке послат на {email}"
         }
     },
     "page_campaign": {
@@ -1072,7 +1072,9 @@
             "backgroundtype": "JPEG, PNG ili WEBP",
             "upload_design": "Otpremite svoj dizajn ovde",
             "total_max_files_exceeded": "Укупан број отпремљених датотека премашио је максималан број датотека {n}",
-            "replace_image": "Замените слику"
+            "replace_image": "Замените слику",
+            "replace_frame": "Replace Frame",
+            "replace_background": "Replace Background"
         },
         "frame_editor": {
             "or_create": "ili kreirati svoj okvir sada",
@@ -1169,7 +1171,7 @@
         },
         "confirm_reorder": {
             "title": "Реордер Твиббон?",
-            "desc": "Промена редоследа Твиббона ће аутоматски променити сличицу кампање. Можете га касније прилагодити у Уреди кампању. {линк}",
+            "desc": "Промена редоследа Твиббона ће аутоматски променити сличицу кампање. Можете га касније прилагодити у Уреди кампању. {link}",
             "learn_more": "Сазнајте више о подешавању сличице",
             "cancel": "Откажи",
             "confirm": "Настави"
@@ -1718,7 +1720,7 @@
             "cant_remove_account": "Ups, ne možemo da uklonimo vaš nalog na društvenim mrežama.",
             "set_up_email": "Prvo morate da podesite e-poštu ili lozinku da biste uklonili nalog na društvenim mrežama.",
             "want_to_remove": "Želite da uklonite svoj nalog na društvenim mrežama?",
-            "your_account_will_be_removed": "Ваш {провидер} налог ће бити уклоњен. Потврдите испод да бисте уклонили своје налоге друштвених медија.",
+            "your_account_will_be_removed": "Ваш {provider} налог ће бити уклоњен. Потврдите испод да бисте уклонили своје налоге друштвених медија.",
             "continue_to_revoke": "Да, Уклони",
             "revoke_success": "Nalog {provider} uspešno opozvan",
             "cannot_update_email": "Ups, ne možemo da ažuriramo vašu e-poštu",
@@ -2354,7 +2356,7 @@
             "already_subscribed": "Већ сте претплаћени?"
         },
         "error": {
-            "try_again_after": "Пробајте поново после {тиме}"
+            "try_again_after": "Пробајте поново после {time}"
         }
     },
     "page_campaign_creation": {
@@ -2800,6 +2802,10 @@
         },
         "invalid_login": {
             "wrong_email_password": "Имејл или лозинка коју сте унели су нетачни"
+        },
+        "toast": {
+            "description_contains_url": "Упозорење! Ваше {field} садржи УРЛ и није дозвољено",
+            "description_contains_url_prohibited_words": "Упозорење! Ваше {field} садржи УРЛ и забрањене речи"
         }
     },
     "page_notification": {
@@ -2851,7 +2857,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "You will no longer receive {type} email from Twibbonize",
+            "description": "Више нећете примати е-пошту {type} од Твиббонизе-а",
             "title": "Откажи претплату",
             "unsubscribe_success": "Претплата је успела",
             "global": "Глобал"
@@ -2877,7 +2883,7 @@
         "general": {
             "title": "Страница није пронађена",
             "description": "Жао нам је, али страница коју сте тражили није пронађена.",
-            "visit": "Посетите нашу {линк} за више информација.",
+            "visit": "Посетите нашу {link} за више информација.",
             "go_to_homepage": "Идите на почетну страницу"
         }
     },
@@ -2986,7 +2992,7 @@
     "campaign_suspend": {
         "campaign": {
             "campaign_unavailable": "Кампања није доступна",
-            "campaign_unavailable_desc": "Ова кампања тренутно није доступна јер њена активност није у складу са нашим {термс}. Проверите поново касније или истражите друге активне кампање."
+            "campaign_unavailable_desc": "Ова кампања тренутно није доступна јер њена активност није у складу са нашим {terms}. Проверите поново касније или истражите друге активне кампање."
         }
     },
     "app_update": {
@@ -3004,7 +3010,7 @@
         },
         "bottom_sheet": {
             "manage_subscription_header": "Већ сте се претплатили на Твиббонизе Премиум план ",
-            "manage_subscription_body": "Изгледа да сте се већ претплатили на наш Премиум план преко Твиббонизе веб верзије или мобилне апликације. Наш систем тренутно не подржава више активних Премиум планова у обе верзије. Да бисте уживали у својој Премиум претплати, користите Твиббонизе на платформи на којој сте купили или {Сазнајте више}."
+            "manage_subscription_body": "Изгледа да сте се већ претплатили на наш Премиум план преко Твиббонизе веб верзије или мобилне апликације. Наш систем тренутно не подржава више активних Премиум планова у обе верзије. Да бисте уживали у својој Премиум претплати, користите Твиббонизе на платформи на којој сте купили или {learn_more}."
         }
     },
     "donation": {

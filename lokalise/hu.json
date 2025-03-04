@@ -1072,7 +1072,9 @@
             "backgroundtype": "JPEG, PNG vagy WEBP",
             "upload_design": "Töltse fel a tervét itt",
             "total_max_files_exceeded": "Az összes feltöltött fájl meghaladja a maximális {n} fájlt",
-            "replace_image": "Kép cseréje"
+            "replace_image": "Kép cseréje",
+            "replace_frame": "Replace Frame",
+            "replace_background": "Replace Background"
         },
         "frame_editor": {
             "or_create": "vagy hozza létre keretét most",
@@ -1424,7 +1426,7 @@
             "notes": "Megjegyzések",
             "print": "Számla letöltése",
             "if_you_would_like_to_change": "Ha módosítani szeretné előfizetését vagy fizetési adatait, kérjük, lépjen be a számlázási beállításokba.",
-            "ending_in": "{ {number} végződő {card}"
+            "ending_in": "{number} végződő {card}"
         },
         "bento": {
             "campaign_analytics": "Kampány analitika",
@@ -1718,7 +1720,7 @@
             "cant_remove_account": "Hoppá, nem tudjuk eltávolítani közösségimédia-fiókját.",
             "set_up_email": "Először be kell állítania az e-mail-címet vagy a jelszót a közösségi médiafiók eltávolításához.",
             "want_to_remove": "El szeretné távolítani közösségimédia-fiókját?",
-            "your_account_will_be_removed": "A {szolgáltató} fiókját eltávolítjuk. A közösségi média fiókok eltávolításához erősítse meg az alábbiakat.",
+            "your_account_will_be_removed": "A {provider} fiókját eltávolítjuk. A közösségi média fiókok eltávolításához erősítse meg az alábbiakat.",
             "continue_to_revoke": "Igen, Eltávolítás",
             "revoke_success": "{provider} fiók sikeresen visszavonva",
             "cannot_update_email": "Hoppá, nem tudjuk frissíteni az e-mail-címét",
@@ -2354,7 +2356,7 @@
             "already_subscribed": "Már feliratkozott?"
         },
         "error": {
-            "try_again_after": "Próbálja újra {idő} után"
+            "try_again_after": "Próbálja újra {time} után"
         }
     },
     "page_campaign_creation": {
@@ -2800,6 +2802,10 @@
         },
         "invalid_login": {
             "wrong_email_password": "A megadott e-mail cím vagy jelszó helytelen"
+        },
+        "toast": {
+            "description_contains_url": "Figyelem! Az Ön {field} URL-t tartalmaz, és ez nem engedélyezett",
+            "description_contains_url_prohibited_words": "Figyelem! Az Ön {field} URL-t és tiltott szavakat tartalmaz"
         }
     },
     "page_notification": {
@@ -2851,7 +2857,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "You will no longer receive {type} email from Twibbonize",
+            "description": "A továbbiakban nem fog {type} e-mailt kapni a Twibbonize-tól",
             "title": "Leiratkozás",
             "unsubscribe_success": "Sikeres leiratkozás",
             "global": "Globális"
@@ -2986,7 +2992,7 @@
     "campaign_suspend": {
         "campaign": {
             "campaign_unavailable": "Kampány nem elérhető",
-            "campaign_unavailable_desc": "Ez a kampány jelenleg nem érhető el, mivel tevékenysége nem felel meg a {feltételeinknek}. Kérjük, nézzen vissza később, vagy fedezze fel más aktív kampányokat."
+            "campaign_unavailable_desc": "Ez a kampány jelenleg nem érhető el, mivel tevékenysége nem felel meg a {terms}. Kérjük, nézzen vissza később, vagy fedezze fel más aktív kampányokat."
         }
     },
     "app_update": {
@@ -3004,7 +3010,7 @@
         },
         "bottom_sheet": {
             "manage_subscription_header": "Ön már feliratkozott a Twibbonize Premium Plan szolgáltatásra ",
-            "manage_subscription_body": "Úgy tűnik, hogy Ön már előfizetett a Prémium csomagunkra a Twibbonize webes verzióján vagy a mobilalkalmazáson keresztül. Rendszerünk jelenleg nem támogatja a több aktív Prémium csomagot mindkét verzióban. Ha élvezni szeretné a Prémium előfizetését, kérjük, használja a Twibbonize-t azon a platformon, ahol a vásárlást végezte, vagy {Tudjon meg többet}."
+            "manage_subscription_body": "Úgy tűnik, hogy Ön már előfizetett a Prémium csomagunkra a Twibbonize webes verzióján vagy a mobilalkalmazáson keresztül. Rendszerünk jelenleg nem támogatja a több aktív Prémium csomagot mindkét verzióban. Ha élvezni szeretné a Prémium előfizetését, kérjük, használja a Twibbonize-t azon a platformon, ahol a vásárlást végezte, vagy {learn_more}."
         }
     },
     "donation": {
