@@ -1072,7 +1072,9 @@
             "backgroundtype": "JPEG, PNG eller WEBP",
             "upload_design": "Upload dit design her",
             "total_max_files_exceeded": "Det samlede antal uploadede filer overskred det maksimale antal {n} filer",
-            "replace_image": "Udskift billede"
+            "replace_image": "Udskift billede",
+            "replace_frame": "Replace Frame",
+            "replace_background": "Replace Background"
         },
         "frame_editor": {
             "or_create": "eller opret din ramme nu",
@@ -1718,7 +1720,7 @@
             "cant_remove_account": "Ups, vi kan ikke fjerne din konto på sociale medier.",
             "set_up_email": "Du skal først konfigurere e-mail eller adgangskode for at fjerne din konto på sociale medier.",
             "want_to_remove": "Vil du fjerne din konto på sociale medier?",
-            "your_account_will_be_removed": "Din {udbyder}-konto vil blive fjernet. Bekræft nedenfor for at fjerne dine konti på sociale medier.",
+            "your_account_will_be_removed": "Din {provider}-konto vil blive fjernet. Bekræft nedenfor for at fjerne dine konti på sociale medier.",
             "continue_to_revoke": "Ja, Fjern",
             "revoke_success": "{provider} konto blev succesfuldt tilbagekaldt",
             "cannot_update_email": "Ups, vi kan ikke opdatere din e-mail",
@@ -2354,7 +2356,7 @@
             "already_subscribed": "Er du allerede tilmeldt?"
         },
         "error": {
-            "try_again_after": "Prøv igen efter {tidspunkt}"
+            "try_again_after": "Prøv igen efter {time}"
         }
     },
     "page_campaign_creation": {
@@ -2800,6 +2802,10 @@
         },
         "invalid_login": {
             "wrong_email_password": "Den e-mail eller adgangskode, du har indtastet, er forkert"
+        },
+        "toast": {
+            "description_contains_url": "Dit {field} indeholder en URL, og det er ikke tilladt",
+            "description_contains_url_prohibited_words": "Dit {field} indeholder en URL og forbudte ord"
         }
     },
     "page_notification": {
@@ -2851,7 +2857,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "[%key_id:212561082%]",
+            "description": "Du vil ikke længere modtage {type} e-mail fra Twibbonize",
             "title": "Afmeld dit abonnement",
             "unsubscribe_success": "Afmeldelse lykkedes",
             "global": "Global"
@@ -2986,7 +2992,7 @@
     "campaign_suspend": {
         "campaign": {
             "campaign_unavailable": "Kampagnen er ikke tilgængelig",
-            "campaign_unavailable_desc": "Denne kampagne er i øjeblikket ikke tilgængelig, fordi dens aktivitet ikke er i overensstemmelse med vores {vilkår}. Kom tilbage senere, eller udforsk andre aktive kampagner."
+            "campaign_unavailable_desc": "Denne kampagne er i øjeblikket ikke tilgængelig, fordi dens aktivitet ikke er i overensstemmelse med vores {terms}. Kom tilbage senere, eller udforsk andre aktive kampagner."
         }
     },
     "app_update": {
@@ -3004,7 +3010,7 @@
         },
         "bottom_sheet": {
             "manage_subscription_header": "Du har allerede abonneret på Twibbonize Premium Plan ",
-            "manage_subscription_body": "Det ser ud til, at du allerede har abonneret på vores Premium-plan via enten Twibbonize-webversionen eller mobilappen. Vores system understøtter i øjeblikket ikke flere aktive Premium-planer på tværs af begge versioner. For at få glæde af dit Premium-abonnement skal du bruge Twibbonize på den platform, hvor du foretog købet eller {Learn More}."
+            "manage_subscription_body": "Det ser ud til, at du allerede har abonneret på vores Premium-plan via enten Twibbonize-webversionen eller mobilappen. Vores system understøtter i øjeblikket ikke flere aktive Premium-planer på tværs af begge versioner. For at få glæde af dit Premium-abonnement skal du bruge Twibbonize på den platform, hvor du foretog købet eller {learn_more}."
         }
     },
     "donation": {

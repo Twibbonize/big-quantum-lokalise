@@ -1072,7 +1072,9 @@
             "backgroundtype": "JPEG、PNGまたはWEBP",
             "upload_design": "デザインのアップロードはこちら",
             "total_max_files_exceeded": "アップロードされたファイルの合計が最大数{n}を超えました",
-            "replace_image": "画像の置き換え"
+            "replace_image": "画像の置き換え",
+            "replace_frame": "Replace Frame",
+            "replace_background": "Replace Background"
         },
         "frame_editor": {
             "or_create": "または今すぐフレームを作成する",
@@ -1169,7 +1171,7 @@
         },
         "confirm_reorder": {
             "title": "ツイボンの再注文は？",
-            "desc": "Twibbonを並び替えると、キャンペーンのサムネイルが自動的に変更されます。後でキャンペーンの編集で調整できます。{リンク｝",
+            "desc": "Twibbonを並び替えると、キャンペーンのサムネイルが自動的に変更されます。後でキャンペーンの編集で調整できます。{link}",
             "learn_more": "サムネイルの調整について",
             "cancel": "キャンセル",
             "confirm": "続ける"
@@ -1718,7 +1720,7 @@
             "cant_remove_account": "申し訳ありません。ソーシャル メディア アカウントを削除できません。",
             "set_up_email": "ソーシャル メディア アカウントを削除するには、まずメール アドレスまたはパスワードを設定する必要があります。",
             "want_to_remove": "ソーシャル メディア アカウントを削除しますか?",
-            "your_account_will_be_removed": "あなたの{プロバイダー}アカウントは削除されます。ソーシャルメディアアカウントを削除するには、以下を確認してください。",
+            "your_account_will_be_removed": "あなたの{provider}アカウントは削除されます。ソーシャルメディアアカウントを削除するには、以下を確認してください。",
             "continue_to_revoke": "はい、削除",
             "revoke_success": "{provider} アカウントが正常に取り消されました",
             "cannot_update_email": "申し訳ありません。メールを更新できません",
@@ -2354,7 +2356,7 @@
             "already_subscribed": "すでに購読済みですか？"
         },
         "error": {
-            "try_again_after": "時間}後に再試行する"
+            "try_again_after": "{time}後に再試行する"
         }
     },
     "page_campaign_creation": {
@@ -2800,6 +2802,10 @@
         },
         "invalid_login": {
             "wrong_email_password": "入力されたメールアドレスまたはパスワードが間違っています。"
+        },
+        "toast": {
+            "description_contains_url": "警告あなたの {field} には URL が含まれています。",
+            "description_contains_url_prohibited_words": "警告あなたの {field} には URL と禁止ワードが含まれています。"
         }
     },
     "page_notification": {
@@ -2851,7 +2857,7 @@
     },
     "notification_page": {
         "unsubscribe": {
-            "description": "[%key_id:212561082%]",
+            "description": "Twibbonize からの {type} メールは受信されなくなります",
             "title": "登録解除",
             "unsubscribe_success": "登録解除に成功しました",
             "global": "グローバル"
@@ -2877,7 +2883,7 @@
         "general": {
             "title": "ページが見つかりません",
             "description": "申し訳ありませんが、お探しのページは見つかりませんでした。",
-            "visit": "詳しくは{リンク}をご覧ください。",
+            "visit": "詳しくは{link}をご覧ください。",
             "go_to_homepage": "ホームページへ"
         }
     },
@@ -2986,7 +2992,7 @@
     "campaign_suspend": {
         "campaign": {
             "campaign_unavailable": "キャンペーン利用不可",
-            "campaign_unavailable_desc": "このキャンペーンは{条件}に合わないため、現在ご利用いただけません。後ほどご確認いただくか、他のキャンペーンをご覧ください。"
+            "campaign_unavailable_desc": "このキャンペーンは{terms}に合わないため、現在ご利用いただけません。後ほどご確認いただくか、他のキャンペーンをご覧ください。"
         }
     },
     "app_update": {
@@ -3004,7 +3010,7 @@
         },
         "bottom_sheet": {
             "manage_subscription_header": "すでにTwibbonizeプレミアムプランにご登録いただいています。 ",
-            "manage_subscription_body": "Twibbonizeのウェブ版またはモバイルアプリで、すでにプレミアムプランにご加入いただいているようです。現在、Twibbonizeのシステムでは、両方のバージョンで複数のプレミアムプランをご利用いただくことはできません。プレミアムプランをご利用になるには、購入したプラットフォームでTwibbonizeをご利用いただくか、{詳しくはこちら}をご覧ください。"
+            "manage_subscription_body": "Twibbonizeのウェブ版またはモバイルアプリで、すでにプレミアムプランにご加入いただいているようです。現在、Twibbonizeのシステムでは、両方のバージョンで複数のプレミアムプランをご利用いただくことはできません。プレミアムプランをご利用になるには、購入したプラットフォームでTwibbonizeをご利用いただくか、{learn_more}をご覧ください。"
         }
     },
     "donation": {
