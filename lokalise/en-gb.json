@@ -2583,7 +2583,7 @@
             "AN-4090": "Missing zHash header",
             "AN-5000": "Fatal Error. Cannot perform hit analytics",
             "AN-5001": "Fatal Error. Cannot serve analytics visit",
-            "C-4090": "Duplicate campaign",
+            "C-4090-old": "Duplicate campaign",
             "C-4040": "Campaign not found",
             "C-4041": "Campaign Creator not found",
             "C-4042": "Campaign Module not found",
@@ -2813,7 +2813,9 @@
             "visibility_public": "Campaign visibility must be public",
             "F-40018": "It looks like your files didn't fully upload. Please try again.",
             "SU-4032": "Account is suspended",
-            "A-4290": "Too many requests"
+            "A-4290": "Too many requests",
+            "CN-4003": "Invalid URL",
+            "C-4090": "Your campaign link is already in use. Try a different one."
         },
         "form": {
             "equal_to": "${path} must be the same as ${reference}",
@@ -3094,7 +3096,7 @@
     },
     "private_campaign": {
         "message": {
-            "access_code": "Access code can only contain letters and numbers"
+            "access_code": "Access code must be 4–8 letters or numbers only"
         }
     },
     "message": {
