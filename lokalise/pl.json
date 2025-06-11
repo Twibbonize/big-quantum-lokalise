@@ -2583,7 +2583,7 @@
             "AN-4090": "Brak nagłówka zhash",
             "AN-5000": "Błąd krytyczny. Nie można wykonać analizy trafień",
             "AN-5001": "Błąd krytyczny. Nie można obsłużyć wizyty analitycznej",
-            "C-4090": "Duplikacja kampanii",
+            "C-4090-old": "Duplikacja kampanii",
             "C-4040": "Kampania nie została znaleziona ",
             "C-4041": "Nie znaleziono twórcy kampanii",
             "C-4042": "Nie znaleziono modułu kampanii",
@@ -2813,7 +2813,9 @@
             "visibility_public": "Widoczność kampanii musi być publiczna",
             "F-40018": "Wygląda na to, że pliki nie zostały w pełni przesłane. Spróbuj ponownie.",
             "SU-4032": "Konto jest zawieszone",
-            "A-4290": "Zbyt wiele próśb"
+            "A-4290": "Zbyt wiele próśb",
+            "CN-4003": "Nieprawidłowy adres URL",
+            "C-4090": "Your campaign link is already in use. Try a different one."
         },
         "form": {
             "equal_to": "$ {path} musi być takie samo jak $ {reference}",
@@ -3090,6 +3092,16 @@
         },
         "premium_creator": {
             "multiple_frame_background": "Przejdź do Premium, aby uzyskać więcej ramek i teł"
+        }
+    },
+    "private_campaign": {
+        "message": {
+            "access_code": "Access code must be 4–8 letters or numbers only"
+        }
+    },
+    "message": {
+        "error_codes": {
+            "campaign_duplicate": "Your campaign link is already in use. Try a different one."
         }
     }
 }

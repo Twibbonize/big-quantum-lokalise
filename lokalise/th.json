@@ -2583,7 +2583,7 @@
             "AN-4090": "ขาดส่วนหัว zhash",
             "AN-5000": "ข้อผิดพลาดร้ายแรง ไม่สามารถทำการวิเคราะห์ข้อมูลได้",
             "AN-5001": "ข้อผิดพลาดร้ายแรง ไม่สามารถให้บริการการวิเคราะห์ได้",
-            "C-4090": "แคมเปญซ้ำ",
+            "C-4090-old": "แคมเปญซ้ำ",
             "C-4040": "ไม่พบแคมเปญ ",
             "C-4041": "ไม่พบผู้สร้างแคมเปญ",
             "C-4042": "ไม่พบโมดูลแคมเปญ",
@@ -2813,7 +2813,9 @@
             "visibility_public": "การมองเห็นแคมเปญจะต้องเป็นสาธารณะ",
             "F-40018": "ดูเหมือนว่าไฟล์ของคุณจะอัปโหลดไม่ครบ โปรดลองอีกครั้ง",
             "SU-4032": "บัญชีถูกระงับ",
-            "A-4290": "มีการร้องขอมากเกินไป"
+            "A-4290": "มีการร้องขอมากเกินไป",
+            "CN-4003": "URL ไม่ถูกต้อง",
+            "C-4090": "Your campaign link is already in use. Try a different one."
         },
         "form": {
             "equal_to": "$ {path} จะต้องเหมือนกับ $ {reference}",
@@ -3090,6 +3092,16 @@
         },
         "premium_creator": {
             "multiple_frame_background": "Go Premium for more frames and backgrounds"
+        }
+    },
+    "private_campaign": {
+        "message": {
+            "access_code": "Access code must be 4–8 letters or numbers only"
+        }
+    },
+    "message": {
+        "error_codes": {
+            "campaign_duplicate": "Your campaign link is already in use. Try a different one."
         }
     }
 }

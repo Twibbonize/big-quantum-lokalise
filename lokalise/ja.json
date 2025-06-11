@@ -2583,7 +2583,7 @@
             "AN-4090": "zhash ヘッダーがありません",
             "AN-5000": "致命的なエラー。ヒット分析を実行できません",
             "AN-5001": "致命的なエラー。分析訪問を提供できません",
-            "C-4090": "重複キャンペーン",
+            "C-4090-old": "重複キャンペーン",
             "C-4040": "キャンペーンが見つかりません ",
             "C-4041": "キャンペーン作成者が見つかりません",
             "C-4042": "キャンペーンモジュールが見つかりません",
@@ -2813,7 +2813,9 @@
             "visibility_public": "キャンペーンの公開設定は公開にする必要があります",
             "F-40018": "ファイルが完全にアップロードされなかったようです。もう一度お試しください。",
             "SU-4032": "アカウント停止",
-            "A-4290": "リクエストが多すぎます"
+            "A-4290": "リクエストが多すぎます",
+            "CN-4003": "無効な URL",
+            "C-4090": "Your campaign link is already in use. Try a different one."
         },
         "form": {
             "equal_to": "$ {path} $ {reference}と同じである必要があります",
@@ -3090,6 +3092,16 @@
         },
         "premium_creator": {
             "multiple_frame_background": "より多くのフレームや背景のためにプレミアムに行く"
+        }
+    },
+    "private_campaign": {
+        "message": {
+            "access_code": "Access code must be 4–8 letters or numbers only"
+        }
+    },
+    "message": {
+        "error_codes": {
+            "campaign_duplicate": "Your campaign link is already in use. Try a different one."
         }
     }
 }

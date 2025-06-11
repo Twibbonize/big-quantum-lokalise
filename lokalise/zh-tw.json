@@ -2583,7 +2583,7 @@
             "AN-4090": "缺少 zash 標頭",
             "AN-5000": "致命錯誤。無法執行命中分析",
             "AN-5001": "致命錯誤。無法提供分析訪問",
-            "C-4090": "重複的營銷活動",
+            "C-4090-old": "重複的營銷活動",
             "C-4040": "找不到活動 ",
             "C-4041": "找不到活動創建者",
             "C-4042": "未找到活動模組",
@@ -2813,7 +2813,9 @@
             "visibility_public": "活動可見性必須是公開的",
             "F-40018": "您的文件似乎未完全上傳。請再試一次。",
             "SU-4032": "帳戶已被暫停",
-            "A-4290": "請求太多"
+            "A-4290": "請求太多",
+            "CN-4003": "無效網址",
+            "C-4090": "Your campaign link is already in use. Try a different one."
         },
         "form": {
             "equal_to": "$ {path}必須與 $ {reference}相同",
@@ -3090,6 +3092,16 @@
         },
         "premium_creator": {
             "multiple_frame_background": "Go Premium for more frames and backgrounds"
+        }
+    },
+    "private_campaign": {
+        "message": {
+            "access_code": "Access code must be 4–8 letters or numbers only"
+        }
+    },
+    "message": {
+        "error_codes": {
+            "campaign_duplicate": "Your campaign link is already in use. Try a different one."
         }
     }
 }

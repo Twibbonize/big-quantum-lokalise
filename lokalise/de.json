@@ -2583,7 +2583,7 @@
             "AN-4090": "Fehlender Zhash-Header",
             "AN-5000": "Schwerwiegender Fehler. Trefferanalyse kann nicht durchgeführt werden.",
             "AN-5001": "Schwerwiegender Fehler. Analytics-Besuch kann nicht ausgeführt werden.",
-            "C-4090": "Kampagne duplizieren",
+            "C-4090-old": "Kampagne duplizieren",
             "C-4040": "Kampagne nicht gefunden ",
             "C-4041": "Kampagnen-Ersteller nicht gefunden",
             "C-4042": "Kampagnenmodul nicht gefunden",
@@ -2813,7 +2813,9 @@
             "visibility_public": "Die Kampagnensichtbarkeit muss öffentlich sein",
             "F-40018": "Es sieht so aus, als ob Ihre Dateien nicht vollständig hochgeladen werden konnten. Bitte versuchen Sie es erneut.",
             "SU-4032": "Konto ist gesperrt",
-            "A-4290": "Zu viele Anfragen"
+            "A-4290": "Zu viele Anfragen",
+            "CN-4003": "Ungültige URL",
+            "C-4090": "Your campaign link is already in use. Try a different one."
         },
         "form": {
             "equal_to": "$ {path} muss mit $ {reference} identisch sein.",
@@ -3090,6 +3092,16 @@
         },
         "premium_creator": {
             "multiple_frame_background": "Premium für mehr Rahmen und Hintergründe"
+        }
+    },
+    "private_campaign": {
+        "message": {
+            "access_code": "Access code must be 4–8 letters or numbers only"
+        }
+    },
+    "message": {
+        "error_codes": {
+            "campaign_duplicate": "Your campaign link is already in use. Try a different one."
         }
     }
 }
