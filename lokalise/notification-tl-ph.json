@@ -2,20 +2,20 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {name}, bagong milestone ang naabot!",
-                "body": "Binabati kita! Ang iyong kampanya {title} ay mayroon nang {amount} na mga tagasuporta!"
+                "header": "🏆 [%c], bagong milestone ang naabot!",
+                "body": "Binabati kita! Ang iyong kampanya [%s] ay mayroon nang [%n] na mga tagasuporta!"
             },
             "new_post": {
                 "header": "Bagong Twibbon ang nai-post",
-                "body": "Nag-post {participant} ng Twibbon sa gallery ng iyong kampanya {title}!"
+                "body": "Nag-post [%c] ng Twibbon sa gallery ng iyong kampanya [%s]!"
             },
             "new_comment": {
                 "header": "Bagong komento!",
-                "body": "Nagkomento {participant} sa iyong post sa kampanya {title}!"
+                "body": "Nagkomento [%c] sa iyong post sa kampanya [%s]!"
             },
             "account_recap": {
-                "header": "🍺 {name} , Narito ang iyong buwanang recap!",
-                "body": "Nakakuha ka ng {amount} bagong mga tagasuporta ngayong buwan. Ipagpatuloy mo yan!"
+                "header": "🍺 [%c] , Narito ang iyong buwanang recap!",
+                "body": "Nakakuha ka ng [%n] bagong mga tagasuporta ngayong buwan. Ipagpatuloy mo yan!"
             },
             "billing": {
                 "creator": {
@@ -24,13 +24,13 @@
                         "body": "Samantalahin ang mga eksklusibong tampok nito! Simulan ang iyong kampanya ngayon"
                     },
                     "plus_5": {
-                        "header": "Kumusta {name} , i-renew ang iyong subscription ngayon",
+                        "header": "Kumusta [%c] , i-renew ang iyong subscription ngayon",
                         "body": "I-renew o i-upgrade ang iyong plano ngayon upang patuloy na ma-access ang analytics ng iyong kampanya."
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "Kamusta {name}, nakumpirma na ang iyong renewal payment",
+                        "header": "Kamusta [%c], nakumpirma na ang iyong renewal payment",
                         "body": "Ngayon ay maaari mo nang ipagpatuloy ang paggamit ng aming mga eksklusibong feature!"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "Samantalahin ang mga eksklusibong tampok nito! Simulan ang iyong kampanya ngayon."
                         },
                         "plus_2": {
-                            "header": "Kumusta {name} , i-renew ang iyong subscription ngayon",
+                            "header": "Kumusta [%c] , i-renew ang iyong subscription ngayon",
                             "body": "I-renew o i-upgrade ang iyong plano ngayon upang patuloy na ma-access ang analytics ng iyong kampanya."
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "Masiyahan sa iyong karanasan na walang ad at makakuha ng Twibbons nang walang mga watermark!"
                         },
                         "plus_2": {
-                            "header": "Kumusta {name} , i-renew ang iyong subscription ngayon",
+                            "header": "Kumusta [%c] , i-renew ang iyong subscription ngayon",
                             "body": "I-renew ang iyong plano ngayon para ma-enjoy ang Twibbons na walang watermark at isang karanasang walang ad."
                         }
                     }
@@ -61,164 +61,164 @@
                     },
                     "plus_5": {
                         "body": "I-renew ang iyong plano ngayon para ma-enjoy ang Twibbons na walang watermark at isang karanasang walang ad.",
-                        "header": "Kumusta {name}, i-renew ang iyong subscription ngayon"
+                        "header": "Kumusta [%c], i-renew ang iyong subscription ngayon"
                     }
                 }
             },
             "new_reply": {
                 "header": "Bagong sagot!",
-                "body": "Nagkomento {participant} sa iyong komento sa kampanya {title}!"
+                "body": "Nagkomento [%c] sa iyong komento sa kampanya [%s]!"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "Binabati kita! Ang kampanyang {title} ay mayroon na ngayong {amount} tagasuporta!",
-                "header": "🏆 {name}, bagong milestone ang naabot!"
+                "body": "Binabati kita! Ang kampanyang [%s] ay mayroon na ngayong [%n] tagasuporta!",
+                "header": "🏆 [%c], bagong milestone ang naabot!"
             },
             "account_recap": {
-                "body": "Nakakuha ka ng {amount} na mga bagong tagasuporta sa nakalipas na buwan sa lahat ng iyong campaign. Ipagpatuloy ang mahusay na gawain!",
-                "header": "🍺 {name} , Narito ang iyong buwanang recap!"
+                "body": "Nakakuha ka ng [%n] na mga bagong tagasuporta sa nakalipas na buwan sa lahat ng iyong campaign. Ipagpatuloy ang mahusay na gawain!",
+                "header": "🍺 [%c] , Narito ang iyong buwanang recap!"
             },
             "billing": {
                 "order_received": {
-                    "header": "Kamusta {name}, mangyaring kumpletuhin ang iyong pagbabayad",
-                    "body": "Salamat sa pag-order ng {product}. Mangyaring magpatuloy sa pagbabayad upang makumpleto ang iyong transaksyon."
+                    "header": "Kamusta [%c], mangyaring kumpletuhin ang iyong pagbabayad",
+                    "body": "Salamat sa pag-order ng [%p]. Mangyaring magpatuloy sa pagbabayad upang makumpleto ang iyong transaksyon."
                 },
                 "order_canceled": {
-                    "header": "Paumanhin {name}, ang iyong {product} order ay nakansela",
+                    "header": "Paumanhin [%c], ang iyong [%p] order ay nakansela",
                     "body": "Mangyaring huwag magpatuloy sa pagbabayad."
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "Kamusta {name}, natanggap na ang iyong bayad",
-                        "body": "Salamat sa pag-subscribe sa {product}. Gawin ang iyong kampanya ngayon at gamitin ang mga espesyal na tampok nito!"
+                        "header": "Kamusta [%c], natanggap na ang iyong bayad",
+                        "body": "Salamat sa pag-subscribe sa [%p]. Gawin ang iyong kampanya ngayon at gamitin ang mga espesyal na tampok nito!"
                     },
                     "min_3": {
-                        "header": "Kumusta {name}, ang iyong {product} ay mag-e-expire sa loob ng 3 araw",
+                        "header": "Kumusta [%c], ang iyong [%p] ay mag-e-expire sa loob ng 3 araw",
                         "body": "I-renew o i-upgrade ang iyong subscription para patuloy na ma-enjoy ang mga eksklusibong feature ng Twibbonize."
                     },
                     "exp_day": {
-                        "header": "Kamusta {name}, ang iyong subscription sa {product} ay nag-expire na",
-                        "body": "I-renew o i-upgrade ang iyong subscription bago {date_plus_7} upang mapanatili ang access sa analytics ng kampanya at lahat ng eksklusibong feature."
+                        "header": "Kamusta [%c], ang iyong subscription sa [%p] ay nag-expire na",
+                        "body": "I-renew o i-upgrade ang iyong subscription bago [%g] upang mapanatili ang access sa analytics ng kampanya at lahat ng eksklusibong feature."
                     },
                     "plus_5": {
-                        "header": "Kumusta {name}, matatapos ang iyong subscription sa loob ng 48 oras",
+                        "header": "Kumusta [%c], matatapos ang iyong subscription sa loob ng 48 oras",
                         "body": "I-renew o i-upgrade ang iyong plano sa loob ng 48 oras upang mapanatili ang access sa analytics ng iyong kampanya."
                     },
                     "plus_7": {
-                        "header": "Kumusta {name}, ang iyong account ay nag-downgrade sa Twibbonize Free",
-                        "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng {product} ."
+                        "header": "Kumusta [%c], ang iyong account ay nag-downgrade sa Twibbonize Free",
+                        "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng [%p] ."
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "Kumusta {name}, matagumpay na nakansela ang iyong subscription sa {product}.",
-                            "body": "Mawawalan ka ng access sa lahat ng feature ng {product} sa pagtatapos ng iyong yugto ng pagsingil."
+                            "header": "Kumusta [%c], matagumpay na nakansela ang iyong subscription sa [%p].",
+                            "body": "Mawawalan ka ng access sa lahat ng feature ng [%p] sa pagtatapos ng iyong yugto ng pagsingil."
                         },
                         "renewed_plan": {
-                            "header": "Kumusta {name}, matagumpay na na-renew ang iyong {product} subscription",
-                            "body": "Sisingilin ang iyong {product} subscription sa pagtatapos ng iyong yugto ng pagsingil."
+                            "header": "Kumusta [%c], matagumpay na na-renew ang iyong [%p] subscription",
+                            "body": "Sisingilin ang iyong [%p] subscription sa pagtatapos ng iyong yugto ng pagsingil."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Kumusta {name}, ang iyong account ay nag-downgrade sa Twibbonize Free",
-                                "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng {product} ."
+                                "header": "Kumusta [%c], ang iyong account ay nag-downgrade sa Twibbonize Free",
+                                "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng [%p] ."
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "Kamusta {name}, natanggap na ang iyong kahilingang kanselahin ang pag-downgrade",
+                            "header": "Kamusta [%c], natanggap na ang iyong kahilingang kanselahin ang pag-downgrade",
                             "body": "Magpapatuloy ang iyong subscription bilang Premium Creator."
                         },
                         "convert": {
-                            "header": "Kamusta {name}, ang iyong account ay na-upgrade sa Premium Creator",
+                            "header": "Kamusta [%c], ang iyong account ay na-upgrade sa Premium Creator",
                             "body": "Binabati kita! Isa ka na ngayong Premium Creator. Tangkilikin ang lahat ng mga tampok ngayon!"
                         },
                         "successful_payment": {
-                            "header": "Kamusta {name}, natanggap na ang iyong bayad",
-                            "body": "Salamat sa pag-subscribe sa {product}. Gawin ang iyong kampanya ngayon at gamitin ang mga espesyal na tampok nito!"
+                            "header": "Kamusta [%c], natanggap na ang iyong bayad",
+                            "body": "Salamat sa pag-subscribe sa [%p]. Gawin ang iyong kampanya ngayon at gamitin ang mga espesyal na tampok nito!"
                         },
                         "exp_day": {
-                            "header": "Kamusta {name}, ang iyong subscription sa {product} ay nag-expire na",
-                            "body": "Paki-update ang iyong impormasyon sa pagsingil bago ang {date_plus_7} upang patuloy na ma-access ang analytics ng iyong kampanya."
+                            "header": "Kamusta [%c], ang iyong subscription sa [%p] ay nag-expire na",
+                            "body": "Paki-update ang iyong impormasyon sa pagsingil bago ang [%g] upang patuloy na ma-access ang analytics ng iyong kampanya."
                         },
                         "plus_2": {
-                            "header": "Kumusta {name}, matatapos ang iyong subscription sa loob ng 48 oras",
+                            "header": "Kumusta [%c], matatapos ang iyong subscription sa loob ng 48 oras",
                             "body": "Paki-update ang iyong card sa pagbabayad upang mapanatili ang access sa analytics ng iyong kampanya."
                         },
                         "plus_5": {
-                            "header": "Kumusta {name}, ang iyong account ay nag-downgrade sa Twibbonize Free",
-                            "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng {product} ."
+                            "header": "Kumusta [%c], ang iyong account ay nag-downgrade sa Twibbonize Free",
+                            "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng [%p] ."
                         },
                         "convert_addon": {
                             "body": "Binabati kita! Isa ka na ngayong Premium Creator. Tangkilikin ang lahat ng mga tampok ngayon!",
-                            "header": "Kamusta {name}, ang iyong account ay na-upgrade sa Premium Creator"
+                            "header": "Kamusta [%c], ang iyong account ay na-upgrade sa Premium Creator"
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "Kumusta {name}, ang iyong paraan ng pagbabayad ay nangangailangan ng pagpapatunay",
+                            "header": "Kumusta [%c], ang iyong paraan ng pagbabayad ay nangangailangan ng pagpapatunay",
                             "body": "Pakikumpirma ang iyong pagpapatotoo sa pagbabayad upang makumpleto ang iyong subscription ngayon."
                         }
                     },
                     "renewed_plan": {
-                        "header": "Kamusta {name}, nakumpirma na ang iyong renewal payment",
+                        "header": "Kamusta [%c], nakumpirma na ang iyong renewal payment",
                         "body": "Ngayon, maaari mong patuloy na tangkilikin ang mga eksklusibong feature!"
                     },
                     "downgrade_received": {
-                        "header": "Kamusta {name}, natanggap na ang iyong kahilingan sa pag-downgrade",
-                        "body": "Ida-downgrade ang iyong account sa {product} sa pagtatapos ng iyong yugto ng pagsingil."
+                        "header": "Kamusta [%c], natanggap na ang iyong kahilingan sa pag-downgrade",
+                        "body": "Ida-downgrade ang iyong account sa [%p] sa pagtatapos ng iyong yugto ng pagsingil."
                     },
                     "supporter": {
                         "convert": {
-                            "header": "Kamusta {name} , Ang iyong account ay na-upgrade sa Premium Supporter",
+                            "header": "Kamusta [%c] , Ang iyong account ay na-upgrade sa Premium Supporter",
                             "body": "Binabati kita! Isa ka na ngayong Premium Supporter. Tangkilikin ang lahat ng mga tampok ngayon!"
                         },
                         "successful_payment": {
                             "body": "Ngayon, maaari kang makakuha ng Twibbon nang walang mga watermark at walang ad na karanasan!",
-                            "header": "Kumusta {name}, matagumpay naming natanggap ang iyong bayad"
+                            "header": "Kumusta [%c], matagumpay naming natanggap ang iyong bayad"
                         },
                         "min_3": {
                             "body": "I-renew o i-upgrade ang iyong subscription ngayon para patuloy na ma-enjoy ang pag-browse na walang ad at Twibbons na walang watermark."
                         },
                         "successful": {
-                            "body": "Salamat sa pag-subscribe sa {product}. Ngayon, maaari kang makakuha ng Twibbon nang walang mga watermark at isang walang ad na karanasan!"
+                            "body": "Salamat sa pag-subscribe sa [%p]. Ngayon, maaari kang makakuha ng Twibbon nang walang mga watermark at isang walang ad na karanasan!"
                         },
                         "exp_day": {
-                            "header": "Kamusta {name}, hindi natuloy ang iyong pagbabayad",
-                            "body": "Paki-update ang iyong impormasyon sa pagsingil bago ang {date_plus_7} para ma-enjoy ang mga eksklusibong feature, pag-browse na walang ad at Twibbon na walang watermark."
+                            "header": "Kamusta [%c], hindi natuloy ang iyong pagbabayad",
+                            "body": "Paki-update ang iyong impormasyon sa pagsingil bago ang [%g] para ma-enjoy ang mga eksklusibong feature, pag-browse na walang ad at Twibbon na walang watermark."
                         },
                         "plus_2": {
-                            "header": "Kumusta {name}, matatapos ang iyong subscription sa loob ng 48 oras",
+                            "header": "Kumusta [%c], matatapos ang iyong subscription sa loob ng 48 oras",
                             "body": "I-renew ang iyong plano ngayon para ma-enjoy ang Twibbons na walang watermark at isang karanasang walang ad."
                         },
                         "plus_7": {
-                            "header": "Kumusta {name}, ang iyong account ay nag-downgrade sa Twibbonize Free"
+                            "header": "Kumusta [%c], ang iyong account ay nag-downgrade sa Twibbonize Free"
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Kumusta {name}, ang iyong account ay nag-downgrade sa Twibbonize Free",
-                                "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng {product} ."
+                                "header": "Kumusta [%c], ang iyong account ay nag-downgrade sa Twibbonize Free",
+                                "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng [%p] ."
                             }
                         },
                         "plus_5": {
-                            "header": "Kumusta {name}, ang iyong account ay nag-downgrade sa Twibbonize Free",
-                            "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng {product} ."
+                            "header": "Kumusta [%c], ang iyong account ay nag-downgrade sa Twibbonize Free",
+                            "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng [%p] ."
                         }
                     },
                     "period_changed": {
-                        "header": "Kamusta {name}, natanggap namin ang iyong kahilingan na baguhin ang iyong plano",
-                        "body": "Ang iyong account ay gagawing {product} sa pagtatapos ng iyong yugto ng pagsingil."
+                        "header": "Kamusta [%c], natanggap namin ang iyong kahilingan na baguhin ang iyong plano",
+                        "body": "Ang iyong account ay gagawing [%p] sa pagtatapos ng iyong yugto ng pagsingil."
                     },
                     "cancel_change_period": {
-                        "header": "Kamusta {name}, natanggap namin ang iyong kahilingan na kanselahin ang pagbabago ng plano",
+                        "header": "Kamusta [%c], natanggap namin ang iyong kahilingan na kanselahin ang pagbabago ng plano",
                         "body": "Magpapatuloy ang iyong subscription bilang Premium Creator."
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "Kumusta {name}, mangyaring kumpirmahin ang iyong pagbabayad para sa subscription ngayon",
+                            "header": "Kumusta [%c], mangyaring kumpirmahin ang iyong pagbabayad para sa subscription ngayon",
                             "body": "Upang matiyak ang pagsunod sa mga regulasyon sa seguridad, kailangan namin ang iyong tahasang kumpirmasyon para sa iyong umuulit na pagbabayad sa iyong subscription sa Twibbonize."
                         }
                     }
@@ -226,22 +226,22 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "Ngayon, maaari kang makakuha ng Twibbon nang walang mga watermark at isang walang ad na karanasan!",
-                        "header": "Kamusta {name}, natanggap na ang iyong bayad"
+                        "header": "Kamusta [%c], natanggap na ang iyong bayad"
                     },
                     "exp_day": {
-                        "body": "I-renew o i-upgrade ang iyong subscription bago {date_plus_7} upang patuloy na ma-enjoy ang mga eksklusibong feature, pag-browse na walang ad at Twibbon na walang watermark.",
-                        "header": "Kamusta {name}, ang iyong subscription sa {product} ay nag-expire na"
+                        "body": "I-renew o i-upgrade ang iyong subscription bago [%g] upang patuloy na ma-enjoy ang mga eksklusibong feature, pag-browse na walang ad at Twibbon na walang watermark.",
+                        "header": "Kamusta [%c], ang iyong subscription sa [%p] ay nag-expire na"
                     },
                     "plus_5": {
                         "body": "I-renew ang iyong plano sa loob ng 48 oras para patuloy na ma-enjoy ang Twibbon na walang watermark at isang karanasang walang ad.",
-                        "header": "Kumusta {name}, matatapos ang iyong subscription sa loob ng 48 oras"
+                        "header": "Kumusta [%c], matatapos ang iyong subscription sa loob ng 48 oras"
                     },
                     "min_3": {
                         "body": "I-renew o i-upgrade ang iyong subscription ngayon para patuloy na ma-enjoy ang pag-browse na walang ad at Twibbons na walang watermark.",
-                        "header": "Kumusta {name}, ang iyong {product} ay mag-e-expire sa loob ng 3 araw"
+                        "header": "Kumusta [%c], ang iyong [%p] ay mag-e-expire sa loob ng 3 araw"
                     },
                     "plus_7": {
-                        "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng {product} ."
+                        "body": "Paki-renew ang iyong subscription upang magpatuloy sa paggamit ng mga feature ng [%p] ."
                     }
                 }
             },
@@ -262,25 +262,31 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "Ang natitirang quota na walang ad",
-                    "body": "Mayroon kang natitirang quota na walang ad para sa 50 tagasuporta sa {campaignlink}. Mag-enjoy ng karanasang walang ad habang tumatagal!"
+                    "body": "Mayroon kang natitirang quota na walang ad para sa 50 tagasuporta sa [%c]. Mag-enjoy ng karanasang walang ad habang tumatagal!"
                 },
                 "adfree_quota_runout": {
                     "header": "Naubos na ang quota na walang ad",
-                    "body": "Magsisimulang makakita ng mga ad ang iyong {campaignlink} na mga tagasuporta habang nagba-browse sa aming platform."
+                    "body": "Magsisimulang makakita ng mga ad ang iyong [%c] na mga tagasuporta habang nagba-browse sa aming platform."
                 }
             },
             "new_post": {
                 "header": "Bagong Twibbon ang nai-post",
-                "body": "Nag-post {participant} ng Twibbon sa gallery ng iyong kampanya {title}!"
+                "body": "Nag-post [%c] ng Twibbon sa gallery ng iyong kampanya [%s]!"
             },
             "new_comment": {
                 "header": "Bagong komento!",
-                "body": "Nagkomento si {participant} sa iyong post sa kampanya {title}!"
+                "body": "Nagkomento si [%c] sa iyong post sa kampanya [%s]!"
             },
             "new_reply": {
                 "header": "Bagong sagot!",
-                "body": "Nagkomento {participant} sa iyong komento sa kampanya {title}!"
+                "body": "Nagkomento [%c] sa iyong komento sa kampanya [%s]!"
             }
+        }
+    },
+    "page_post": {
+        "approval": {
+            "header": "Nangangailangan ng Pag-apruba ang Post",
+            "description": "[%c] humiling ng pag-apruba upang magdagdag ng post sa iyong campaign [%s]"
         }
     }
 }
