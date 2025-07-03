@@ -2,20 +2,20 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {name}, pencapaian baharu dicapai!",
-                "body": "Tahniah! Kempen anda {title} kini mempunyai {amount} penyokong!"
+                "header": "🏆 [%c], pencapaian baharu dicapai!",
+                "body": "Tahniah! Kempen anda [%s] kini mempunyai [%n] penyokong!"
             },
             "new_post": {
                 "header": "Twibbon baharu disiarkan",
-                "body": "{participant} menyiarkan Twibbon dalam galeri {title} kempen anda!"
+                "body": "[%c] menyiarkan Twibbon dalam galeri [%s] kempen anda!"
             },
             "new_comment": {
                 "header": "Komen baru!",
-                "body": "{participant} mengulas pada siaran anda dalam kempen {title}!"
+                "body": "[%c] mengulas pada siaran anda dalam kempen [%s]!"
             },
             "account_recap": {
-                "header": "🍺 {name}, inilah ikhtisar bulanan anda!",
-                "body": "Anda memperoleh {amount} penyokong baharu bulan ini. Teruskan!"
+                "header": "🍺 [%c], inilah ikhtisar bulanan anda!",
+                "body": "Anda memperoleh [%n] penyokong baharu bulan ini. Teruskan!"
             },
             "billing": {
                 "creator": {
@@ -24,13 +24,13 @@
                         "body": "Manfaatkan ciri eksklusifnya! Mulakan kempen anda sekarang"
                     },
                     "plus_5": {
-                        "header": "Hai {name} , perbaharui langganan anda sekarang",
+                        "header": "Hai [%c] , perbaharui langganan anda sekarang",
                         "body": "Perbaharui atau tingkatkan pelan anda sekarang untuk terus mengakses analytics kempen anda."
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "Helo {name}, pembayaran pembaharuan anda telah disahkan",
+                        "header": "Helo [%c], pembayaran pembaharuan anda telah disahkan",
                         "body": "Kini anda boleh terus menggunakan ciri eksklusif kami!"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "Manfaatkan ciri eksklusifnya! Mulakan kempen anda sekarang."
                         },
                         "plus_2": {
-                            "header": "Hai {name} , perbaharui langganan anda sekarang",
+                            "header": "Hai [%c] , perbaharui langganan anda sekarang",
                             "body": "Perbaharui atau tingkatkan pelan anda sekarang untuk terus mengakses analitis kempen anda."
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "Nikmati pengalaman tanpa iklan anda dan dapatkan Twibbons tanpa tera air!"
                         },
                         "plus_2": {
-                            "header": "Hai {name} , perbaharui langganan anda sekarang",
+                            "header": "Hai [%c] , perbaharui langganan anda sekarang",
                             "body": "Perbaharui pelan anda sekarang untuk menikmati Twibbon tanpa tera air dan pengalaman tanpa iklan."
                         }
                     }
@@ -61,164 +61,164 @@
                     },
                     "plus_5": {
                         "body": "Perbaharui pelan anda sekarang untuk menikmati Twibbon tanpa tera air dan pengalaman tanpa iklan.",
-                        "header": "Hai {name}, perbaharui langganan anda sekarang"
+                        "header": "Hai [%c], perbaharui langganan anda sekarang"
                     }
                 }
             },
             "new_reply": {
                 "header": "Balasan baharu!",
-                "body": "{participant} mengulas pada ulasan anda dalam kempen {title}!"
+                "body": "[%c] mengulas pada ulasan anda dalam kempen [%s]!"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "Tahniah! Kempen {title} kini mempunyai {amount} penyokong!",
-                "header": "🏆 {name}, pencapaian baharu dicapai!"
+                "body": "Tahniah! Kempen [%s] kini mempunyai [%n] penyokong!",
+                "header": "🏆 [%c], pencapaian baharu dicapai!"
             },
             "account_recap": {
-                "body": "Anda telah memperoleh {amount} penyokong baharu pada bulan lalu merentas semua kempen anda. Teruskan kerja hebat!",
-                "header": "🍺 {name} , Inilah imbasan bulanan anda!"
+                "body": "Anda telah memperoleh [%n] penyokong baharu pada bulan lalu merentas semua kempen anda. Teruskan kerja hebat!",
+                "header": "🍺 [%c] , Inilah imbasan bulanan anda!"
             },
             "billing": {
                 "order_received": {
-                    "header": "Helo {name}, sila selesaikan pembayaran anda",
-                    "body": "Terima kasih kerana memesan {product}. Sila teruskan ke pembayaran untuk menyelesaikan transaksi anda."
+                    "header": "Helo [%c], sila selesaikan pembayaran anda",
+                    "body": "Terima kasih kerana memesan [%p]. Sila teruskan ke pembayaran untuk menyelesaikan transaksi anda."
                 },
                 "order_canceled": {
-                    "header": "Maaf {name}, pesanan {product} anda telah dibatalkan",
+                    "header": "Maaf [%c], pesanan [%p] anda telah dibatalkan",
                     "body": "Tolong jangan teruskan pembayaran."
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "Helo {name}, bayaran anda telah diterima",
-                        "body": "Terima kasih kerana melanggan {product}. Buat kempen anda sekarang dan gunakan ciri khasnya!"
+                        "header": "Helo [%c], bayaran anda telah diterima",
+                        "body": "Terima kasih kerana melanggan [%p]. Buat kempen anda sekarang dan gunakan ciri khasnya!"
                     },
                     "min_3": {
-                        "header": "Hai {name}, {product} anda akan tamat tempoh dalam masa 3 hari",
+                        "header": "Hai [%c], [%p] anda akan tamat tempoh dalam masa 3 hari",
                         "body": "Perbaharui atau tingkatkan langganan anda untuk terus menikmati ciri eksklusif Twibbonize."
                     },
                     "exp_day": {
-                        "header": "Helo {name}, langganan {product} anda telah tamat tempoh",
-                        "body": "Baharui atau tingkatkan langganan anda sebelum {date_plus_7} untuk mengekalkan akses kepada analitis kempen dan semua ciri eksklusif."
+                        "header": "Helo [%c], langganan [%p] anda telah tamat tempoh",
+                        "body": "Baharui atau tingkatkan langganan anda sebelum [%g] untuk mengekalkan akses kepada analitis kempen dan semua ciri eksklusif."
                     },
                     "plus_5": {
-                        "header": "Hai {name}, langganan anda akan ditamatkan dalam masa 48 jam",
+                        "header": "Hai [%c], langganan anda akan ditamatkan dalam masa 48 jam",
                         "body": "Perbaharui atau tingkatkan pelan anda dalam masa 48 jam untuk mengekalkan akses kepada analitis kempen anda."
                     },
                     "plus_7": {
-                        "header": "Hai {name}, akaun anda telah diturunkan taraf kepada Twibbonize Free",
-                        "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri {product}."
+                        "header": "Hai [%c], akaun anda telah diturunkan taraf kepada Twibbonize Free",
+                        "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri [%p]."
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "Hai {name}, langganan {product} anda telah berjaya dibatalkan",
-                            "body": "Anda akan kehilangan akses kepada semua ciri {product} pada penghujung kitaran pengebilan anda."
+                            "header": "Hai [%c], langganan [%p] anda telah berjaya dibatalkan",
+                            "body": "Anda akan kehilangan akses kepada semua ciri [%p] pada penghujung kitaran pengebilan anda."
                         },
                         "renewed_plan": {
-                            "header": "Hai {name}, langganan {product} anda telah berjaya diperbaharui",
-                            "body": "Langganan {product} anda akan dicaj pada penghujung kitaran pengebilan anda."
+                            "header": "Hai [%c], langganan [%p] anda telah berjaya diperbaharui",
+                            "body": "Langganan [%p] anda akan dicaj pada penghujung kitaran pengebilan anda."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Hai {name}, akaun anda telah diturunkan taraf kepada Twibbonize Free",
-                                "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri {product} ."
+                                "header": "Hai [%c], akaun anda telah diturunkan taraf kepada Twibbonize Free",
+                                "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri [%p] ."
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "Helo {name}, permintaan anda untuk membatalkan penurunan taraf telah diterima",
+                            "header": "Helo [%c], permintaan anda untuk membatalkan penurunan taraf telah diterima",
                             "body": "Langganan anda akan diteruskan sebagai Premium Creator."
                         },
                         "convert": {
-                            "header": "Helo {name}, akaun anda telah dinaik taraf kepada Premium Creator",
+                            "header": "Helo [%c], akaun anda telah dinaik taraf kepada Premium Creator",
                             "body": "tahniah! Anda kini seorang Premium Creator. Nikmati semua ciri sekarang!"
                         },
                         "successful_payment": {
-                            "header": "Helo {name}, bayaran anda telah diterima",
-                            "body": "Terima kasih kerana melanggan {product}. Buat kempen anda sekarang dan gunakan ciri khasnya!"
+                            "header": "Helo [%c], bayaran anda telah diterima",
+                            "body": "Terima kasih kerana melanggan [%p]. Buat kempen anda sekarang dan gunakan ciri khasnya!"
                         },
                         "exp_day": {
-                            "header": "Helo {name}, langganan {product} anda telah tamat tempoh",
-                            "body": "Sila kemas kini maklumat pengebilan anda sebelum {date_plus_7} untuk terus mengakses analitis kempen anda."
+                            "header": "Helo [%c], langganan [%p] anda telah tamat tempoh",
+                            "body": "Sila kemas kini maklumat pengebilan anda sebelum [%g] untuk terus mengakses analitis kempen anda."
                         },
                         "plus_2": {
-                            "header": "Hai {name}, langganan anda akan ditamatkan dalam masa 48 jam",
+                            "header": "Hai [%c], langganan anda akan ditamatkan dalam masa 48 jam",
                             "body": "Sila kemas kini kad pembayaran anda untuk mengekalkan akses kepada analitis kempen anda."
                         },
                         "plus_5": {
-                            "header": "Hai {name}, akaun anda telah diturunkan taraf kepada Twibbonize Free",
-                            "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri {product} ."
+                            "header": "Hai [%c], akaun anda telah diturunkan taraf kepada Twibbonize Free",
+                            "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri [%p] ."
                         },
                         "convert_addon": {
                             "body": "Tahniah! Anda kini seorang Premium Creator. Nikmati semua ciri sekarang!",
-                            "header": "Helo {name}, akaun anda telah dinaik taraf kepada Premium Creator"
+                            "header": "Helo [%c], akaun anda telah dinaik taraf kepada Premium Creator"
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "Hai {name}, kaedah pembayaran anda memerlukan pengesahan",
+                            "header": "Hai [%c], kaedah pembayaran anda memerlukan pengesahan",
                             "body": "Sila sahkan pengesahan pembayaran anda untuk melengkapkan langganan anda sekarang."
                         }
                     },
                     "renewed_plan": {
-                        "header": "Helo {name}, pembayaran pembaharuan anda telah disahkan",
+                        "header": "Helo [%c], pembayaran pembaharuan anda telah disahkan",
                         "body": "Kini, anda boleh terus menikmati ciri eksklusif!"
                     },
                     "downgrade_received": {
-                        "header": "Helo {name}, permintaan turun taraf anda telah diterima",
-                        "body": "Akaun anda akan diturunkan taraf kepada {product} pada penghujung kitaran pengebilan anda."
+                        "header": "Helo [%c], permintaan turun taraf anda telah diterima",
+                        "body": "Akaun anda akan diturunkan taraf kepada [%p] pada penghujung kitaran pengebilan anda."
                     },
                     "supporter": {
                         "convert": {
-                            "header": "Helo {name} , Akaun anda telah dinaik taraf kepada Penyokong Premium",
+                            "header": "Helo [%c] , Akaun anda telah dinaik taraf kepada Penyokong Premium",
                             "body": "Tahniah! Anda kini seorang Premium Supporter. Nikmati semua ciri sekarang!"
                         },
                         "successful_payment": {
                             "body": "Kini, anda boleh mendapatkan Twibbon tanpa tera air dan pengalaman tanpa iklan!",
-                            "header": "Hai {name}, kami telah berjaya menerima bayaran anda"
+                            "header": "Hai [%c], kami telah berjaya menerima bayaran anda"
                         },
                         "min_3": {
                             "body": "Perbaharui atau tingkatkan langganan anda sekarang untuk terus menikmati penyemakan imbas tanpa iklan dan Twibbons tanpa tera air."
                         },
                         "successful": {
-                            "body": "Terima kasih kerana melanggan {product}. Kini, anda boleh mendapatkan Twibbon tanpa tera air dan pengalaman tanpa iklan!"
+                            "body": "Terima kasih kerana melanggan [%p]. Kini, anda boleh mendapatkan Twibbon tanpa tera air dan pengalaman tanpa iklan!"
                         },
                         "exp_day": {
-                            "header": "Helo {name}, bayaran anda tidak berjaya",
-                            "body": "Sila kemas kini maklumat pengebilan anda sebelum {date_plus_7} untuk menikmati ciri eksklusif, penyemakan imbas tanpa iklan dan Twibbon tanpa tera air."
+                            "header": "Helo [%c], bayaran anda tidak berjaya",
+                            "body": "Sila kemas kini maklumat pengebilan anda sebelum [%g] untuk menikmati ciri eksklusif, penyemakan imbas tanpa iklan dan Twibbon tanpa tera air."
                         },
                         "plus_2": {
-                            "header": "Hai {name}, langganan anda akan ditamatkan dalam masa 48 jam",
+                            "header": "Hai [%c], langganan anda akan ditamatkan dalam masa 48 jam",
                             "body": "Perbaharui pelan anda sekarang untuk menikmati Twibbon tanpa tera air dan pengalaman tanpa iklan."
                         },
                         "plus_7": {
-                            "header": "Hai {name}, akaun anda telah diturunkan taraf kepada Twibbonize Free"
+                            "header": "Hai [%c], akaun anda telah diturunkan taraf kepada Twibbonize Free"
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Hai {name}, akaun anda telah diturunkan taraf kepada Twibbonize Free",
-                                "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri {product} ."
+                                "header": "Hai [%c], akaun anda telah diturunkan taraf kepada Twibbonize Free",
+                                "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri [%p] ."
                             }
                         },
                         "plus_5": {
-                            "header": "Hai {name}, akaun anda telah diturunkan taraf kepada Twibbonize Free",
-                            "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri {product} ."
+                            "header": "Hai [%c], akaun anda telah diturunkan taraf kepada Twibbonize Free",
+                            "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri [%p] ."
                         }
                     },
                     "period_changed": {
-                        "header": "Helo {name}, kami telah menerima permintaan anda untuk menukar pelan anda",
-                        "body": "Akaun anda akan ditukar kepada {product} pada penghujung kitaran pengebilan anda."
+                        "header": "Helo [%c], kami telah menerima permintaan anda untuk menukar pelan anda",
+                        "body": "Akaun anda akan ditukar kepada [%p] pada penghujung kitaran pengebilan anda."
                     },
                     "cancel_change_period": {
-                        "header": "Helo {name}, kami telah menerima permintaan anda untuk membatalkan perubahan pelan",
+                        "header": "Helo [%c], kami telah menerima permintaan anda untuk membatalkan perubahan pelan",
                         "body": "Langganan anda akan diteruskan sebagai Premium Creator."
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "Hai {name}, sila sahkan pembayaran anda untuk langganan sekarang",
+                            "header": "Hai [%c], sila sahkan pembayaran anda untuk langganan sekarang",
                             "body": "Untuk memastikan pematuhan dengan peraturan keselamatan, kami memerlukan pengesahan eksplisit anda untuk pembayaran berulang anda pada langganan Twibbonize anda."
                         }
                     }
@@ -226,22 +226,22 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "Kini, anda boleh mendapatkan Twibbon tanpa tera air dan pengalaman tanpa iklan!",
-                        "header": "Helo {name}, bayaran anda telah diterima"
+                        "header": "Helo [%c], bayaran anda telah diterima"
                     },
                     "exp_day": {
-                        "body": "Perbaharui atau tingkatkan langganan anda sebelum {date_plus_7} untuk terus menikmati ciri eksklusif, penyemakan imbas tanpa iklan dan Twibbon tanpa tera air.",
-                        "header": "Helo {name}, langganan {product} anda telah tamat tempoh"
+                        "body": "Perbaharui atau tingkatkan langganan anda sebelum [%g] untuk terus menikmati ciri eksklusif, penyemakan imbas tanpa iklan dan Twibbon tanpa tera air.",
+                        "header": "Helo [%c], langganan [%p] anda telah tamat tempoh"
                     },
                     "plus_5": {
                         "body": "Perbaharui pelan anda dalam masa 48 jam untuk terus menikmati Twibbon tanpa tera air dan pengalaman tanpa iklan.",
-                        "header": "Hai {name}, langganan anda akan ditamatkan dalam masa 48 jam"
+                        "header": "Hai [%c], langganan anda akan ditamatkan dalam masa 48 jam"
                     },
                     "min_3": {
                         "body": "Perbaharui atau tingkatkan langganan anda sekarang untuk terus menikmati penyemakan imbas tanpa iklan dan Twibbon tanpa tera air.",
-                        "header": "Hai {name}, {product} anda akan tamat tempoh dalam masa 3 hari"
+                        "header": "Hai [%c], [%p] anda akan tamat tempoh dalam masa 3 hari"
                     },
                     "plus_7": {
-                        "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri {product} ."
+                        "body": "Sila perbaharui langganan anda untuk terus menggunakan ciri [%p] ."
                     }
                 }
             },
@@ -262,25 +262,31 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "Sisa kuota Tanpa Iklan",
-                    "body": "Anda mempunyai baki kuota Tanpa Iklan untuk 50 Penyokong pada {campaignlink}. Nikmati pengalaman Tanpa Iklan selagi ia berlangsung!"
+                    "body": "Anda mempunyai baki kuota Tanpa Iklan untuk 50 Penyokong pada [%c]. Nikmati pengalaman Tanpa Iklan selagi ia berlangsung!"
                 },
                 "adfree_quota_runout": {
                     "header": "Kuota Tanpa Iklan telah habis",
-                    "body": "Penyokong {campaignlink} anda akan mula melihat iklan semasa menyemak imbas di platform kami."
+                    "body": "Penyokong [%c] anda akan mula melihat iklan semasa menyemak imbas di platform kami."
                 }
             },
             "new_post": {
                 "header": "Twibbon baharu disiarkan",
-                "body": "{participant} menyiarkan Twibbon dalam galeri {title} kempen anda!"
+                "body": "[%c] menyiarkan Twibbon dalam galeri [%s] kempen anda!"
             },
             "new_comment": {
                 "header": "Komen baru!",
-                "body": "{participant} mengulas pada siaran anda dalam kempen {title}!"
+                "body": "[%c] mengulas pada siaran anda dalam kempen [%s]!"
             },
             "new_reply": {
                 "header": "Balasan baharu!",
-                "body": "{participant} mengulas pada ulasan anda dalam kempen {title} !"
+                "body": "[%c] mengulas pada ulasan anda dalam kempen [%s] !"
             }
+        }
+    },
+    "page_post": {
+        "approval": {
+            "header": "Jawatan Perlu Kelulusan",
+            "description": "[%c] minta kelulusan untuk menambahkan siaran pada kempen anda [%s]"
         }
     }
 }
