@@ -2,20 +2,20 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {name}, đã đạt được cột mốc mới!",
-                "body": "Chúc mừng! Chiến dịch {title} của bạn hiện có {amount} người ủng hộ!"
+                "header": "🏆 [%s:name], đã đạt được cột mốc mới!",
+                "body": "Chúc mừng! Chiến dịch [%s:title] của bạn hiện có [%s:amount] người ủng hộ!"
             },
             "new_post": {
                 "header": "Twibbon mới được đăng",
-                "body": "{participant} đã đăng Twibbon trong thư viện chiến dịch của bạn {title}!"
+                "body": "[%s:participant] đã đăng Twibbon trong thư viện chiến dịch của bạn [%s:title]!"
             },
             "new_comment": {
                 "header": "Bình luận mới!",
-                "body": "{participant} đã nhận xét về bài đăng của bạn trong chiến dịch {title}!"
+                "body": "[%s:participant] đã nhận xét về bài đăng của bạn trong chiến dịch [%s:title]!"
             },
             "account_recap": {
-                "header": "🍺 {name} , Đây là bản tóm tắt hàng tháng của bạn!",
-                "body": "Bạn đã có thêm {amount} người ủng hộ mới trong tháng này. Hãy tiếp tục cố gắng nhé!"
+                "header": "🍺 [%s:name] , Đây là bản tóm tắt hàng tháng của bạn!",
+                "body": "Bạn đã có thêm [%s:amount] người ủng hộ mới trong tháng này. Hãy tiếp tục cố gắng nhé!"
             },
             "billing": {
                 "creator": {
@@ -24,13 +24,13 @@
                         "body": "Tận dụng các tính năng độc quyền của nó! Bắt đầu chiến dịch của bạn bây giờ"
                     },
                     "plus_5": {
-                        "header": "Xin chào {name} , hãy gia hạn đăng ký của bạn ngay bây giờ",
+                        "header": "Xin chào [%s:name] , hãy gia hạn đăng ký của bạn ngay bây giờ",
                         "body": "Hãy gia hạn hoặc nâng cấp gói của bạn ngay bây giờ để tiếp tục truy cập vào số liệu phân tích chiến dịch của bạn."
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "Xin chào {name}, khoản thanh toán gia hạn của bạn đã được xác nhận",
+                        "header": "Xin chào [%s:name], khoản thanh toán gia hạn của bạn đã được xác nhận",
                         "body": "Bây giờ bạn có thể tiếp tục sử dụng các tính năng độc quyền của chúng tôi!"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "Tận dụng các tính năng độc quyền của nó! Bắt đầu chiến dịch của bạn bây giờ."
                         },
                         "plus_2": {
-                            "header": "Xin chào {name} , hãy gia hạn đăng ký của bạn ngay bây giờ",
+                            "header": "Xin chào [%s:name] , hãy gia hạn đăng ký của bạn ngay bây giờ",
                             "body": "Hãy gia hạn hoặc nâng cấp gói của bạn ngay bây giờ để tiếp tục truy cập vào số liệu phân tích chiến dịch của bạn."
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "Tận hưởng trải nghiệm không có quảng cáo và nhận Twibbon không có hình mờ!"
                         },
                         "plus_2": {
-                            "header": "Xin chào {name} , hãy gia hạn đăng ký của bạn ngay bây giờ",
+                            "header": "Xin chào [%s:name] , hãy gia hạn đăng ký của bạn ngay bây giờ",
                             "body": "Hãy gia hạn gói của bạn ngay bây giờ để tận hưởng Twibbon không có hình mờ và trải nghiệm không có quảng cáo."
                         }
                     }
@@ -61,164 +61,164 @@
                     },
                     "plus_5": {
                         "body": "Hãy gia hạn gói của bạn ngay bây giờ để tận hưởng Twibbon không có hình mờ và trải nghiệm không có quảng cáo.",
-                        "header": "Xin chào {name}, hãy gia hạn đăng ký của bạn ngay bây giờ"
+                        "header": "Xin chào [%s:name], hãy gia hạn đăng ký của bạn ngay bây giờ"
                     }
                 }
             },
             "new_reply": {
                 "header": "Trả lời mới!",
-                "body": "{participant} đã nhận xét về nhận xét của bạn trong chiến dịch {title}!"
+                "body": "[%s:participant] đã nhận xét về nhận xét của bạn trong chiến dịch [%s:title]!"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "Chúc mừng! Chiến dịch {title} hiện có {amount} người ủng hộ!",
-                "header": "🏆 {name}, đã đạt được cột mốc mới!"
+                "body": "Chúc mừng! Chiến dịch [%s:title] hiện có [%s:amount] người ủng hộ!",
+                "header": "🏆 [%s:name], đã đạt được cột mốc mới!"
             },
             "account_recap": {
-                "body": "Bạn đã có thêm {amount} người ủng hộ mới trong tháng qua trên tất cả các chiến dịch của mình. Hãy tiếp tục làm việc tuyệt vời nhé!",
-                "header": "🍺 {name} , Đây là bản tóm tắt hàng tháng của bạn!"
+                "body": "Bạn đã có thêm [%s:amount] người ủng hộ mới trong tháng qua trên tất cả các chiến dịch của mình. Hãy tiếp tục làm việc tuyệt vời nhé!",
+                "header": "🍺 [%s:name] , Đây là bản tóm tắt hàng tháng của bạn!"
             },
             "billing": {
                 "order_received": {
-                    "header": "Xin chào {name}, vui lòng hoàn tất thanh toán của bạn",
-                    "body": "Cảm ơn bạn đã đặt mua {product} . Vui lòng tiến hành thanh toán để hoàn tất giao dịch của bạn."
+                    "header": "Xin chào [%s:name], vui lòng hoàn tất thanh toán của bạn",
+                    "body": "Cảm ơn bạn đã đặt mua [%s:product] . Vui lòng tiến hành thanh toán để hoàn tất giao dịch của bạn."
                 },
                 "order_canceled": {
-                    "header": "Xin lỗi {name}, {product} đơn hàng của bạn đã bị hủy",
+                    "header": "Xin lỗi [%s:name], [%s:product] đơn hàng của bạn đã bị hủy",
                     "body": "Vui lòng không tiếp tục thanh toán."
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "Xin chào {name}, khoản thanh toán của bạn đã được nhận",
-                        "body": "Cảm ơn bạn đã đăng ký {product}. Tạo chiến dịch của bạn ngay bây giờ và sử dụng các tính năng đặc biệt của nó!"
+                        "header": "Xin chào [%s:name], khoản thanh toán của bạn đã được nhận",
+                        "body": "Cảm ơn bạn đã đăng ký [%s:product]. Tạo chiến dịch của bạn ngay bây giờ và sử dụng các tính năng đặc biệt của nó!"
                     },
                     "min_3": {
-                        "header": "Xin chào {name} , {product} của bạn sẽ hết hạn sau 3 ngày",
+                        "header": "Xin chào [%s:name] , [%s:product] của bạn sẽ hết hạn sau 3 ngày",
                         "body": "Gia hạn hoặc nâng cấp đăng ký của bạn để tiếp tục tận hưởng các tính năng độc quyền của Twibbonize."
                     },
                     "exp_day": {
-                        "header": "Xin chào {name}  đăng ký {product} của bạn đã hết hạn",
-                        "body": "Gia hạn hoặc nâng cấp đăng ký của bạn trước {date_plus_7} để duy trì quyền truy cập vào phân tích chiến dịch và tất cả các tính năng độc quyền."
+                        "header": "Xin chào [%s:name]  đăng ký [%s:product] của bạn đã hết hạn",
+                        "body": "Gia hạn hoặc nâng cấp đăng ký của bạn trước [%s:date_plus_7] để duy trì quyền truy cập vào phân tích chiến dịch và tất cả các tính năng độc quyền."
                     },
                     "plus_5": {
-                        "header": "Xin chào {name}, đăng ký của bạn sẽ kết thúc sau 48 giờ",
+                        "header": "Xin chào [%s:name], đăng ký của bạn sẽ kết thúc sau 48 giờ",
                         "body": "Gia hạn hoặc nâng cấp gói của bạn trong vòng 48 giờ để duy trì quyền truy cập vào phân tích chiến dịch của bạn."
                     },
                     "plus_7": {
-                        "header": "Xin chào {name}, tài khoản của bạn đã bị hạ cấp xuống Twibbonize Free",
-                        "body": "Vui lòng gia hạn đăng ký của bạn để tiếp tục sử dụng các tính năng của {product}."
+                        "header": "Xin chào [%s:name], tài khoản của bạn đã bị hạ cấp xuống Twibbonize Free",
+                        "body": "Vui lòng gia hạn đăng ký của bạn để tiếp tục sử dụng các tính năng của [%s:product]."
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "Xin chào {name}, đăng ký {product} của bạn đã được hủy thành công",
-                            "body": "Bạn sẽ mất quyền truy cập vào tất cả các tính năng {product} vào cuối chu kỳ thanh toán của mình."
+                            "header": "Xin chào [%s:name], đăng ký [%s:product] của bạn đã được hủy thành công",
+                            "body": "Bạn sẽ mất quyền truy cập vào tất cả các tính năng [%s:product] vào cuối chu kỳ thanh toán của mình."
                         },
                         "renewed_plan": {
-                            "header": "Xin chào {name}, đăng ký {product} của bạn đã được gia hạn thành công",
-                            "body": "Đăng ký {product} của bạn sẽ bị tính phí vào cuối chu kỳ thanh toán."
+                            "header": "Xin chào [%s:name], đăng ký [%s:product] của bạn đã được gia hạn thành công",
+                            "body": "Đăng ký [%s:product] của bạn sẽ bị tính phí vào cuối chu kỳ thanh toán."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Xin chào {name}, tài khoản của bạn đã bị hạ cấp xuống Twibbonize Free",
-                                "body": "Vui lòng gia hạn đăng ký của bạn để tiếp tục sử dụng các tính năng của {product} ."
+                                "header": "Xin chào [%s:name], tài khoản của bạn đã bị hạ cấp xuống Twibbonize Free",
+                                "body": "Vui lòng gia hạn đăng ký của bạn để tiếp tục sử dụng các tính năng của [%s:product] ."
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "Xin chào {name} , yêu cầu hủy hạ cấp của bạn đã được nhận",
+                            "header": "Xin chào [%s:name] , yêu cầu hủy hạ cấp của bạn đã được nhận",
                             "body": "Đăng ký của bạn sẽ tiếp tục là Premium Creator."
                         },
                         "convert": {
-                            "header": "Xin chào {name}, tài khoản của bạn đã được nâng cấp lên Premium Creator",
+                            "header": "Xin chào [%s:name], tài khoản của bạn đã được nâng cấp lên Premium Creator",
                             "body": "Chúc mừng! Bây giờ bạn là Premium Creator. Tận hưởng tất cả các tính năng ngay bây giờ!"
                         },
                         "successful_payment": {
-                            "header": "Xin chào {name}, khoản thanh toán của bạn đã được nhận",
-                            "body": "Cảm ơn bạn đã đăng ký {product}. Tạo chiến dịch của bạn ngay bây giờ và sử dụng các tính năng đặc biệt của nó!"
+                            "header": "Xin chào [%s:name], khoản thanh toán của bạn đã được nhận",
+                            "body": "Cảm ơn bạn đã đăng ký [%s:product]. Tạo chiến dịch của bạn ngay bây giờ và sử dụng các tính năng đặc biệt của nó!"
                         },
                         "exp_day": {
-                            "header": "Xin chào {name}  đăng ký {product} của bạn đã hết hạn",
-                            "body": "Vui lòng cập nhật thông tin thanh toán của bạn trước {date_plus_7} để tiếp tục truy cập vào phân tích chiến dịch của bạn."
+                            "header": "Xin chào [%s:name]  đăng ký [%s:product] của bạn đã hết hạn",
+                            "body": "Vui lòng cập nhật thông tin thanh toán của bạn trước [%s:date_plus_7] để tiếp tục truy cập vào phân tích chiến dịch của bạn."
                         },
                         "plus_2": {
-                            "header": "Xin chào {name}, đăng ký của bạn sẽ kết thúc sau 48 giờ",
+                            "header": "Xin chào [%s:name], đăng ký của bạn sẽ kết thúc sau 48 giờ",
                             "body": "Vui lòng cập nhật thẻ thanh toán của bạn để duy trì quyền truy cập vào phân tích chiến dịch của bạn."
                         },
                         "plus_5": {
-                            "header": "Xin chào {name}, tài khoản của bạn đã bị hạ cấp xuống Twibbonize Free",
-                            "body": "Vui lòng gia hạn đăng ký của bạn để tiếp tục sử dụng các tính năng của {product} ."
+                            "header": "Xin chào [%s:name], tài khoản của bạn đã bị hạ cấp xuống Twibbonize Free",
+                            "body": "Vui lòng gia hạn đăng ký của bạn để tiếp tục sử dụng các tính năng của [%s:product] ."
                         },
                         "convert_addon": {
                             "body": "Chúc mừng! Bây giờ bạn là Premium Creator. Tận hưởng tất cả các tính năng ngay bây giờ!",
-                            "header": "Xin chào {name}, tài khoản của bạn đã được nâng cấp lên Premium Creator"
+                            "header": "Xin chào [%s:name], tài khoản của bạn đã được nâng cấp lên Premium Creator"
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "Xin chào {name}, phương thức thanh toán của bạn cần xác thực",
+                            "header": "Xin chào [%s:name], phương thức thanh toán của bạn cần xác thực",
                             "body": "Vui lòng xác nhận xác thực thanh toán của bạn để hoàn tất đăng ký ngay bây giờ."
                         }
                     },
                     "renewed_plan": {
-                        "header": "Xin chào {name} , khoản thanh toán gia hạn của bạn đã được xác nhận",
+                        "header": "Xin chào [%s:name] , khoản thanh toán gia hạn của bạn đã được xác nhận",
                         "body": "Bây giờ, bạn có thể tiếp tục tận hưởng các tính năng độc quyền!"
                     },
                     "downgrade_received": {
-                        "header": "Xin chào {name}, yêu cầu hạ cấp của bạn đã được nhận",
-                        "body": "Tài khoản của bạn sẽ bị hạ cấp xuống {product} vào cuối chu kỳ thanh toán."
+                        "header": "Xin chào [%s:name], yêu cầu hạ cấp của bạn đã được nhận",
+                        "body": "Tài khoản của bạn sẽ bị hạ cấp xuống [%s:product] vào cuối chu kỳ thanh toán."
                     },
                     "supporter": {
                         "convert": {
-                            "header": "Xin chào {name} , Tài khoản của bạn đã được nâng cấp lên Premium Supporter",
+                            "header": "Xin chào [%s:name] , Tài khoản của bạn đã được nâng cấp lên Premium Supporter",
                             "body": "Chúc mừng! Bạn hiện là Premium Supporter. Tận hưởng tất cả các tính năng ngay bây giờ!"
                         },
                         "successful_payment": {
                             "body": "Giờ đây, bạn có thể tải Twibbon không có hình mờ và trải nghiệm không có quảng cáo!",
-                            "header": "Xin chào {name}, chúng tôi đã nhận được khoản thanh toán của bạn thành công"
+                            "header": "Xin chào [%s:name], chúng tôi đã nhận được khoản thanh toán của bạn thành công"
                         },
                         "min_3": {
                             "body": "Gia hạn hoặc nâng cấp đăng ký của bạn ngay bây giờ để tiếp tục tận hưởng trải nghiệm duyệt web không có quảng cáo và Twibbons không có hình mờ."
                         },
                         "successful": {
-                            "body": "Cảm ơn bạn đã đăng ký {product}. Giờ đây, bạn có thể tải Twibbon không có hình mờ và trải nghiệm không có quảng cáo!"
+                            "body": "Cảm ơn bạn đã đăng ký [%s:product]. Giờ đây, bạn có thể tải Twibbon không có hình mờ và trải nghiệm không có quảng cáo!"
                         },
                         "exp_day": {
-                            "header": "Xin chào {name}, khoản thanh toán của bạn không thành công",
-                            "body": "Vui lòng cập nhật thông tin thanh toán của bạn trước {date_plus_7} để tận hưởng các tính năng độc quyền, duyệt web không có quảng cáo và Twibbon không có hình mờ."
+                            "header": "Xin chào [%s:name], khoản thanh toán của bạn không thành công",
+                            "body": "Vui lòng cập nhật thông tin thanh toán của bạn trước [%s:date_plus_7] để tận hưởng các tính năng độc quyền, duyệt web không có quảng cáo và Twibbon không có hình mờ."
                         },
                         "plus_2": {
-                            "header": "Xin chào {name}, đăng ký của bạn sẽ kết thúc sau 48 giờ",
+                            "header": "Xin chào [%s:name], đăng ký của bạn sẽ kết thúc sau 48 giờ",
                             "body": "Hãy gia hạn gói của bạn ngay bây giờ để tận hưởng Twibbon không có hình mờ và trải nghiệm không có quảng cáo."
                         },
                         "plus_7": {
-                            "header": "Xin chào {name}, tài khoản của bạn đã bị hạ cấp xuống Twibbonize Free"
+                            "header": "Xin chào [%s:name], tài khoản của bạn đã bị hạ cấp xuống Twibbonize Free"
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Xin chào {name}, tài khoản của bạn đã bị hạ cấp xuống Twibbonize Free",
-                                "body": "Vui lòng gia hạn đăng ký của bạn để tiếp tục sử dụng các tính năng của {product} ."
+                                "header": "Xin chào [%s:name], tài khoản của bạn đã bị hạ cấp xuống Twibbonize Free",
+                                "body": "Vui lòng gia hạn đăng ký của bạn để tiếp tục sử dụng các tính năng của [%s:product] ."
                             }
                         },
                         "plus_5": {
-                            "header": "Xin chào {name}, tài khoản của bạn đã bị hạ cấp xuống Twibbonize Free",
-                            "body": "Vui lòng gia hạn đăng ký của bạn để tiếp tục sử dụng các tính năng của {product} ."
+                            "header": "Xin chào [%s:name], tài khoản của bạn đã bị hạ cấp xuống Twibbonize Free",
+                            "body": "Vui lòng gia hạn đăng ký của bạn để tiếp tục sử dụng các tính năng của [%s:product] ."
                         }
                     },
                     "period_changed": {
-                        "header": "Xin chào {name}, chúng tôi đã nhận được yêu cầu thay đổi gói của bạn",
-                        "body": "Tài khoản của bạn sẽ được thay đổi thành {product} vào cuối chu kỳ thanh toán."
+                        "header": "Xin chào [%s:name], chúng tôi đã nhận được yêu cầu thay đổi gói của bạn",
+                        "body": "Tài khoản của bạn sẽ được thay đổi thành [%s:product] vào cuối chu kỳ thanh toán."
                     },
                     "cancel_change_period": {
-                        "header": "Xin chào {name}, chúng tôi đã nhận được yêu cầu hủy thay đổi gói của bạn",
+                        "header": "Xin chào [%s:name], chúng tôi đã nhận được yêu cầu hủy thay đổi gói của bạn",
                         "body": "Đăng ký của bạn sẽ tiếp tục là Người tạo cao cấp."
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "Xin chào {name}, vui lòng xác nhận thanh toán đăng ký của bạn ngay bây giờ",
+                            "header": "Xin chào [%s:name], vui lòng xác nhận thanh toán đăng ký của bạn ngay bây giờ",
                             "body": "Để đảm bảo tuân thủ các quy định bảo mật, chúng tôi yêu cầu bạn xác nhận rõ ràng về khoản thanh toán định kỳ cho đăng ký Twibbonize của bạn."
                         }
                     }
@@ -226,22 +226,22 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "Giờ đây, bạn có thể tải Twibbon không có hình mờ và trải nghiệm không có quảng cáo!",
-                        "header": "Xin chào {name}, khoản thanh toán của bạn đã được nhận"
+                        "header": "Xin chào [%s:name], khoản thanh toán của bạn đã được nhận"
                     },
                     "exp_day": {
-                        "body": "Gia hạn hoặc nâng cấp đăng ký của bạn trước {date_plus_7} để tiếp tục tận hưởng các tính năng độc quyền, duyệt web không có quảng cáo và Twibbon không có hình mờ.",
-                        "header": "Xin chào {name}  đăng ký {product} của bạn đã hết hạn"
+                        "body": "Gia hạn hoặc nâng cấp đăng ký của bạn trước [%s:date_plus_7] để tiếp tục tận hưởng các tính năng độc quyền, duyệt web không có quảng cáo và Twibbon không có hình mờ.",
+                        "header": "Xin chào [%s:name]  đăng ký [%s:product] của bạn đã hết hạn"
                     },
                     "plus_5": {
                         "body": "Gia hạn gói của bạn trong vòng 48 giờ để tiếp tục tận hưởng Twibbon không có hình mờ và trải nghiệm không có quảng cáo.",
-                        "header": "Xin chào {name}, đăng ký của bạn sẽ kết thúc sau 48 giờ"
+                        "header": "Xin chào [%s:name], đăng ký của bạn sẽ kết thúc sau 48 giờ"
                     },
                     "min_3": {
                         "body": "Gia hạn hoặc nâng cấp đăng ký của bạn ngay bây giờ để tiếp tục tận hưởng trải nghiệm duyệt web không có quảng cáo và Twibbon không có hình mờ.",
-                        "header": "Xin chào {name}, {product} của bạn sẽ hết hạn sau 3 ngày"
+                        "header": "Xin chào [%s:name], [%s:product] của bạn sẽ hết hạn sau 3 ngày"
                     },
                     "plus_7": {
-                        "body": "Vui lòng gia hạn đăng ký của bạn để tiếp tục sử dụng các tính năng của {product} ."
+                        "body": "Vui lòng gia hạn đăng ký của bạn để tiếp tục sử dụng các tính năng của [%s:product] ."
                     }
                 }
             },
@@ -262,25 +262,31 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "Hạn ngạch không có quảng cáo còn lại",
-                    "body": "Bạn còn hạn ngạch Không có quảng cáo cho 50 Người ủng hộ trên {campaignlink}. Tận hưởng trải nghiệm Không có quảng cáo trong khi nó kéo dài!"
+                    "body": "Bạn còn hạn ngạch Không có quảng cáo cho 50 Người ủng hộ trên [%s:campaignlink]. Tận hưởng trải nghiệm Không có quảng cáo trong khi nó kéo dài!"
                 },
                 "adfree_quota_runout": {
                     "header": "Hạn ngạch không có quảng cáo đã hết",
-                    "body": "Những người ủng hộ {campaignlink} của bạn sẽ bắt đầu thấy quảng cáo khi duyệt trên nền tảng của chúng tôi."
+                    "body": "Những người ủng hộ [%s:campaignlink] của bạn sẽ bắt đầu thấy quảng cáo khi duyệt trên nền tảng của chúng tôi."
                 }
             },
             "new_post": {
                 "header": "Twibbon mới được đăng",
-                "body": "{participant} đã đăng Twibbon trong thư viện chiến dịch của bạn {title} !"
+                "body": "[%s:participant] đã đăng Twibbon trong thư viện chiến dịch của bạn [%s:title] !"
             },
             "new_comment": {
                 "header": "Bình luận mới!",
-                "body": "{participant} đã nhận xét về bài đăng của bạn trong chiến dịch {title}!"
+                "body": "[%s:participant] đã nhận xét về bài đăng của bạn trong chiến dịch [%s:title]!"
             },
             "new_reply": {
                 "header": "Trả lời mới!",
-                "body": "{participant} đã nhận xét về nhận xét của bạn trong chiến dịch {title} !"
+                "body": "[%s:participant] đã nhận xét về nhận xét của bạn trong chiến dịch [%s:title] !"
             }
+        }
+    },
+    "page_post": {
+        "approval": {
+            "header": "Bài viết cần được phê duyệt",
+            "description": "[%c] yêu cầu phê duyệt để thêm bài đăng vào chiến dịch của bạn [%s]"
         }
     }
 }

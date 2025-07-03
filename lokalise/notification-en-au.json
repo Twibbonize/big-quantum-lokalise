@@ -2,20 +2,20 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {name}, new milestone reached!",
-                "body": "Congrats! Your campaign {title} now has {amount} supporters!"
+                "header": "🏆 [%s:name], new milestone reached!",
+                "body": "Congrats! Your campaign [%s:title] now has [%s:amount] supporters!"
             },
             "new_post": {
                 "header": "New Twibbon posted",
-                "body": "{participant} posted a Twibbon in your campaign {title}'s gallery!"
+                "body": "[%s:participant] posted a Twibbon in your campaign [%s:title]'s gallery!"
             },
             "new_comment": {
                 "header": "New comment!",
-                "body": "{participant} commented on your post in the campaign {title}!"
+                "body": "[%s:participant] commented on your post in the campaign [%s:title]!"
             },
             "account_recap": {
-                "header": "🍺 {name}, Here’s your monthly recap!",
-                "body": "You gained {amount} new supporters this month. Keep it up!"
+                "header": "🍺 [%s:name], Here’s your monthly recap!",
+                "body": "You gained [%s:amount] new supporters this month. Keep it up!"
             },
             "billing": {
                 "creator": {
@@ -24,13 +24,13 @@
                         "body": "Take advantage of its exclusive features! Start your campaign now"
                     },
                     "plus_5": {
-                        "header": "Hi {name}, renew your subscription now",
+                        "header": "Hi [%s:name], renew your subscription now",
                         "body": "Renew or upgrade your plan now to continue accessing your campaign analytics."
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "Hello {name}, your renewal payment has been confirmed",
+                        "header": "Hello [%s:name], your renewal payment has been confirmed",
                         "body": "Now you can continue use our exclusive features!"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "Take advantage of its exclusive features! Start your campaign now."
                         },
                         "plus_2": {
-                            "header": "Hi {name}, renew your subscription now",
+                            "header": "Hi [%s:name], renew your subscription now",
                             "body": "Renew or upgrade your plan now to continue accessing your campaign analytics."
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "Enjoy your ad-free experience and get Twibbons without watermarks!"
                         },
                         "plus_2": {
-                            "header": "Hi {name}, renew your subscription now",
+                            "header": "Hi [%s:name], renew your subscription now",
                             "body": "Renew your plan now to enjoy watermark-free Twibbons and an ad-free experience."
                         }
                     }
@@ -61,164 +61,164 @@
                     },
                     "plus_5": {
                         "body": "Renew your plan now to enjoy watermark-free Twibbons and an ad-free experience.",
-                        "header": "Hi {name}, renew your subscription now"
+                        "header": "Hi [%s:name], renew your subscription now"
                     }
                 }
             },
             "new_reply": {
                 "header": "New reply!",
-                "body": "{participant} commented on your comment in the campaign {title}!"
+                "body": "[%s:participant] commented on your comment in the campaign [%s:title]!"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "Congratulations! The campaign {title} now has {amount} supporters!",
-                "header": "🏆 {name}, new milestone reached!"
+                "body": "Congratulations! The campaign [%s:title] now has [%s:amount] supporters!",
+                "header": "🏆 [%s:name], new milestone reached!"
             },
             "account_recap": {
-                "body": "You’ve gained {amount} new supporters in the past month across all your campaigns. Keep up the great work!",
-                "header": "🍺 {name}, Here’s your monthly recap!"
+                "body": "You’ve gained [%s:amount] new supporters in the past month across all your campaigns. Keep up the great work!",
+                "header": "🍺 [%s:name], Here’s your monthly recap!"
             },
             "billing": {
                 "order_received": {
-                    "header": "Hello {name}, please complete your payment",
-                    "body": "Thank you for ordering the {product}. Please proceed to payment to complete your transaction."
+                    "header": "Hello [%s:name], please complete your payment",
+                    "body": "Thank you for ordering the [%s:product]. Please proceed to payment to complete your transaction."
                 },
                 "order_canceled": {
-                    "header": "Sorry {name}, your {product} order has been cancelled",
+                    "header": "Sorry [%s:name], your [%s:product] order has been cancelled",
                     "body": "Please do not continue to payment."
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "Hello {name}, your payment has been received",
-                        "body": "Thank you for subscribing to the {product}. Create your campaign now and use its special features!"
+                        "header": "Hello [%s:name], your payment has been received",
+                        "body": "Thank you for subscribing to the [%s:product]. Create your campaign now and use its special features!"
                     },
                     "min_3": {
-                        "header": "Hi {name}, your {product} will expire in 3 days",
+                        "header": "Hi [%s:name], your [%s:product] will expire in 3 days",
                         "body": "Renew or upgrade your subscription to continue enjoying Twibbonize's exclusive features."
                     },
                     "exp_day": {
-                        "header": "Hello {name}, your {product} subscription has expired",
-                        "body": "Renew or upgrade your subscription before {date_plus_7} to maintain access to campaign analytics and all exclusive features."
+                        "header": "Hello [%s:name], your [%s:product] subscription has expired",
+                        "body": "Renew or upgrade your subscription before [%s:date_plus_7] to maintain access to campaign analytics and all exclusive features."
                     },
                     "plus_5": {
-                        "header": "Hi {name}, your subscription will be ended in 48 hours",
+                        "header": "Hi [%s:name], your subscription will be ended in 48 hours",
                         "body": "Renew or upgrade your plan within 48 hours to maintain access to your campaign analytics."
                     },
                     "plus_7": {
-                        "header": "Hi {name}, your account has downgraded to Twibbonize Free",
-                        "body": "Please renew your subscription to continue using {product} features."
+                        "header": "Hi [%s:name], your account has downgraded to Twibbonize Free",
+                        "body": "Please renew your subscription to continue using [%s:product] features."
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "Hi {name}, your {product} subscription was successfully cancelled",
-                            "body": "You'll lose access to all {product} features at the end of your billing cycle."
+                            "header": "Hi [%s:name], your [%s:product] subscription was successfully cancelled",
+                            "body": "You'll lose access to all [%s:product] features at the end of your billing cycle."
                         },
                         "renewed_plan": {
-                            "header": "Hi {name}, your {product} subscription was successfully renewed",
-                            "body": "Your {product} subscription will be charged at end of your billing cycle."
+                            "header": "Hi [%s:name], your [%s:product] subscription was successfully renewed",
+                            "body": "Your [%s:product] subscription will be charged at end of your billing cycle."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Hi {name}, your account has downgraded to Twibbonize Free",
-                                "body": "Please renew your subscription to continue using {product} features."
+                                "header": "Hi [%s:name], your account has downgraded to Twibbonize Free",
+                                "body": "Please renew your subscription to continue using [%s:product] features."
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "Hello {name}, your request to cancel the downgrade has been received",
+                            "header": "Hello [%s:name], your request to cancel the downgrade has been received",
                             "body": "Your subscription will continue as Premium Creator."
                         },
                         "convert": {
-                            "header": "Hello {name}, Your account has been upgraded to Premium Creator",
+                            "header": "Hello [%s:name], Your account has been upgraded to Premium Creator",
                             "body": "Congratulations! You are now a Premium Creator. Enjoy all of the features now!"
                         },
                         "successful_payment": {
-                            "header": "Hello {name}, your payment has been received",
-                            "body": "Thank you for subscribing to the {product}. Create your campaign now and use its special features!"
+                            "header": "Hello [%s:name], your payment has been received",
+                            "body": "Thank you for subscribing to the [%s:product]. Create your campaign now and use its special features!"
                         },
                         "exp_day": {
-                            "header": "Hello {name}, your {product} subscription has expired",
-                            "body": "Please update your billing information before {date_plus_7} to continue accessing your campaign analytics."
+                            "header": "Hello [%s:name], your [%s:product] subscription has expired",
+                            "body": "Please update your billing information before [%s:date_plus_7] to continue accessing your campaign analytics."
                         },
                         "plus_2": {
-                            "header": "Hi {name}, your subscription will be ended in 48 hours",
+                            "header": "Hi [%s:name], your subscription will be ended in 48 hours",
                             "body": "Please update your payment card to maintain access to your campaign analytics"
                         },
                         "plus_5": {
-                            "header": "Hi {name}, your account has downgraded to Twibbonize Free",
-                            "body": "Please renew your subscription to continue using {product} features."
+                            "header": "Hi [%s:name], your account has downgraded to Twibbonize Free",
+                            "body": "Please renew your subscription to continue using [%s:product] features."
                         },
                         "convert_addon": {
                             "body": "Congratulations! You are now a Premium Creator. Enjoy all of the features now!",
-                            "header": "Hello {name}, Your account has been upgraded to Premium Creator"
+                            "header": "Hello [%s:name], Your account has been upgraded to Premium Creator"
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "Hi {name}, your payment method needs authentication",
+                            "header": "Hi [%s:name], your payment method needs authentication",
                             "body": "Please confirm your payment authentication to complete your subscription now."
                         }
                     },
                     "renewed_plan": {
-                        "header": "Hello {name}, your renewal payment has been confirmed",
+                        "header": "Hello [%s:name], your renewal payment has been confirmed",
                         "body": "Now, you can continue enjoying exclusive features!"
                     },
                     "downgrade_received": {
-                        "header": "Hello {name}, your downgrade request has been received",
-                        "body": "Your account will be downgraded to {product} at the end of your billing cycle."
+                        "header": "Hello [%s:name], your downgrade request has been received",
+                        "body": "Your account will be downgraded to [%s:product] at the end of your billing cycle."
                     },
                     "supporter": {
                         "convert": {
-                            "header": "Hello {name}, Your account has been upgraded to Premium Supporter",
+                            "header": "Hello [%s:name], Your account has been upgraded to Premium Supporter",
                             "body": "Congratulations! You are now a Premium Supporter. Enjoy all of the features now!"
                         },
                         "successful_payment": {
                             "body": "Now, you can get Twibbon without watermarks and an ad-free experience!",
-                            "header": "Hi {name}, we have successfully received your payment"
+                            "header": "Hi [%s:name], we have successfully received your payment"
                         },
                         "min_3": {
                             "body": "Renew or upgrade your subscription now to continue enjoying ad-free browsing and watermark-free Twibbons."
                         },
                         "successful": {
-                            "body": "Thank you for subscribing to the {product}. Now, you can get Twibbon without watermarks and an ad-free experience!"
+                            "body": "Thank you for subscribing to the [%s:product]. Now, you can get Twibbon without watermarks and an ad-free experience!"
                         },
                         "exp_day": {
-                            "header": "Hello {name}, your payment didn't go through",
-                            "body": "Please update your billing information before {date_plus_7} to enjoy exclusive features, ad-free browsing and watermark-free Twibbon."
+                            "header": "Hello [%s:name], your payment didn't go through",
+                            "body": "Please update your billing information before [%s:date_plus_7] to enjoy exclusive features, ad-free browsing and watermark-free Twibbon."
                         },
                         "plus_2": {
-                            "header": "Hi {name}, your subscription will be ended in 48 hours",
+                            "header": "Hi [%s:name], your subscription will be ended in 48 hours",
                             "body": "Renew your plan now to enjoy watermark-free Twibbons and an ad-free experience."
                         },
                         "plus_7": {
-                            "header": "Hi {name}, your account has downgraded to Twibbonize Free"
+                            "header": "Hi [%s:name], your account has downgraded to Twibbonize Free"
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Hi {name}, your account has downgraded to Twibbonize Free",
-                                "body": "Please renew your subscription to continue using {product} features."
+                                "header": "Hi [%s:name], your account has downgraded to Twibbonize Free",
+                                "body": "Please renew your subscription to continue using [%s:product] features."
                             }
                         },
                         "plus_5": {
-                            "header": "Hi {name}, your account has downgraded to Twibbonize Free",
-                            "body": "Please renew your subscription to continue using {product} features."
+                            "header": "Hi [%s:name], your account has downgraded to Twibbonize Free",
+                            "body": "Please renew your subscription to continue using [%s:product] features."
                         }
                     },
                     "period_changed": {
-                        "header": "Hello {name}, we have received your request to change your plan",
-                        "body": "Your account will be changed to {product} at the end of your billing cycle."
+                        "header": "Hello [%s:name], we have received your request to change your plan",
+                        "body": "Your account will be changed to [%s:product] at the end of your billing cycle."
                     },
                     "cancel_change_period": {
-                        "header": "Hello {name}, we have received your request to cancel the plan change",
+                        "header": "Hello [%s:name], we have received your request to cancel the plan change",
                         "body": "Your subscription will continue as Premium Creator."
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "Hi {name}, please confirm your payment for subscription now",
+                            "header": "Hi [%s:name], please confirm your payment for subscription now",
                             "body": "To ensure compliance with security regulations, we require your explicit confirmation for your recurring payment on your Twibbonize subscription."
                         }
                     }
@@ -226,22 +226,22 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "Now, you can get Twibbon without watermarks and an ad-free experience!",
-                        "header": "Hello {name}, your payment has been received"
+                        "header": "Hello [%s:name], your payment has been received"
                     },
                     "exp_day": {
-                        "body": "Renew or upgrade your subscription before {date_plus_7} to continue enjoying exclusive features, ad-free browsing and watermark-free Twibbon.",
-                        "header": "Hello {name}, your {product} subscription has expired"
+                        "body": "Renew or upgrade your subscription before [%s:date_plus_7] to continue enjoying exclusive features, ad-free browsing and watermark-free Twibbon.",
+                        "header": "Hello [%s:name], your [%s:product] subscription has expired"
                     },
                     "plus_5": {
                         "body": "Renew your plan within 48 hours to keep enjoying watermark-free Twibbon and an ad-free experience.",
-                        "header": "Hi {name}, your subscription will be ended in 48 hours"
+                        "header": "Hi [%s:name], your subscription will be ended in 48 hours"
                     },
                     "min_3": {
                         "body": "Renew or upgrade your subscription now to continue enjoying ad-free browsing and watermark-free Twibbons.",
-                        "header": "Hi {name}, your {product} will expire in 3 days"
+                        "header": "Hi [%s:name], your [%s:product] will expire in 3 days"
                     },
                     "plus_7": {
-                        "body": "Please renew your subscription to continue using {product} features."
+                        "body": "Please renew your subscription to continue using [%s:product] features."
                     }
                 }
             },
@@ -262,25 +262,31 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "Ad-Free quota remaining",
-                    "body": "You have Ad-Free quota remaining for 50 Supporters on {campaignlink}. Enjoy an Ad-Free experience while it lasts!"
+                    "body": "You have Ad-Free quota remaining for 50 Supporters on [%s:campaignlink]. Enjoy an Ad-Free experience while it lasts!"
                 },
                 "adfree_quota_runout": {
                     "header": "Ad-Free quota has run out",
-                    "body": "Your {campaignlink} supporters will start seeing ads whilst browsing on our platform."
+                    "body": "Your [%s:campaignlink] supporters will start seeing ads whilst browsing on our platform."
                 }
             },
             "new_post": {
                 "header": "New Twibbon posted",
-                "body": "{participant} posted a Twibbon in your campaign {title}'s gallery!"
+                "body": "[%s:participant] posted a Twibbon in your campaign [%s:title]'s gallery!"
             },
             "new_comment": {
                 "header": "New comment!",
-                "body": "{participant} commented on your post in the campaign {title}!"
+                "body": "[%s:participant] commented on your post in the campaign [%s:title]!"
             },
             "new_reply": {
                 "header": "New reply!",
-                "body": "{participant} commented on your comment in the campaign {title}!"
+                "body": "[%s:participant] commented on your comment in the campaign [%s:title]!"
             }
+        }
+    },
+    "page_post": {
+        "approval": {
+            "header": "Post Needs Approval",
+            "description": "[%c] request approval to add a post on your campaign [%s]"
         }
     }
 }

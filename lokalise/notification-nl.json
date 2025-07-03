@@ -2,20 +2,20 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {name}, nieuwe mijlpaal bereikt!",
-                "body": "Gefeliciteerd! Je campagne {title} heeft nu {amount} supporters!"
+                "header": "🏆 [%s:name], nieuwe mijlpaal bereikt!",
+                "body": "Gefeliciteerd! Je campagne [%s:title] heeft nu [%s:amount] supporters!"
             },
             "new_post": {
                 "header": "Nieuwe Twibbon geplaatst",
-                "body": "{participant} heeft een Twibbon geplaatst in de galerij van je campagne {title}!"
+                "body": "[%s:participant] heeft een Twibbon geplaatst in de galerij van je campagne [%s:title]!"
             },
             "new_comment": {
                 "header": "Nieuw commentaar!",
-                "body": "{participant} gereageerd op je bericht in de campagne {title}!"
+                "body": "[%s:participant] gereageerd op je bericht in de campagne [%s:title]!"
             },
             "account_recap": {
-                "header": "{name}, Hier is jullie maandoverzicht!",
-                "body": "Je hebt deze maand {amount} nieuwe supporters gekregen. Ga zo door!"
+                "header": "[%s:name], Hier is jullie maandoverzicht!",
+                "body": "Je hebt deze maand [%s:amount] nieuwe supporters gekregen. Ga zo door!"
             },
             "billing": {
                 "creator": {
@@ -24,13 +24,13 @@
                         "body": "Profiteer van de exclusieve functies! Start nu je campagne"
                     },
                     "plus_5": {
-                        "header": "Hoi {name}, verleng je abonnement nu",
+                        "header": "Hoi [%s:name], verleng je abonnement nu",
                         "body": "Verleng of upgrade je plan nu om toegang te blijven houden tot je campagneanalyses."
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "Hallo {name}, je betaling voor de verlenging is bevestigd",
+                        "header": "Hallo [%s:name], je betaling voor de verlenging is bevestigd",
                         "body": "Nu kun je onze exclusieve functies blijven gebruiken!"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "Profiteer van de exclusieve functies! Start nu je campagne."
                         },
                         "plus_2": {
-                            "header": "Hoi {name}, verleng je abonnement nu",
+                            "header": "Hoi [%s:name], verleng je abonnement nu",
                             "body": "Verleng of upgrade je plan nu om toegang te blijven houden tot je campagneanalyses."
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "Geniet van je reclamevrije ervaring en ontvang Twibbons zonder watermerken!"
                         },
                         "plus_2": {
-                            "header": "Hoi {name}, verleng je abonnement nu",
+                            "header": "Hoi [%s:name], verleng je abonnement nu",
                             "body": "Verleng je abonnement nu om te genieten van Twibbons zonder watermerk en een reclamevrije ervaring."
                         }
                     }
@@ -61,164 +61,164 @@
                     },
                     "plus_5": {
                         "body": "Verleng je abonnement nu om te genieten van Twibbons zonder watermerk en een reclamevrije ervaring.",
-                        "header": "Hoi {name}, verleng je abonnement nu"
+                        "header": "Hoi [%s:name], verleng je abonnement nu"
                     }
                 }
             },
             "new_reply": {
                 "header": "Nieuw antwoord!",
-                "body": "{participant} gereageerd op je commentaar in de campagne {title}!"
+                "body": "[%s:participant] gereageerd op je commentaar in de campagne [%s:title]!"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "Gefeliciteerd! De campagne {title} heeft nu {amount} supporters!",
-                "header": "🏆 {name}, nieuwe mijlpaal bereikt!"
+                "body": "Gefeliciteerd! De campagne [%s:title] heeft nu [%s:amount] supporters!",
+                "header": "🏆 [%s:name], nieuwe mijlpaal bereikt!"
             },
             "account_recap": {
-                "body": "Je hebt de afgelopen maand {amount} nieuwe supporters gekregen voor al je campagnes. Ga zo door!",
-                "header": "{name}, Hier is jullie maandoverzicht!"
+                "body": "Je hebt de afgelopen maand [%s:amount] nieuwe supporters gekregen voor al je campagnes. Ga zo door!",
+                "header": "[%s:name], Hier is jullie maandoverzicht!"
             },
             "billing": {
                 "order_received": {
-                    "header": "Hallo {name}, voltooi je betaling",
-                    "body": "Bedankt voor het bestellen van het {product}. Ga naar betaling om je transactie te voltooien."
+                    "header": "Hallo [%s:name], voltooi je betaling",
+                    "body": "Bedankt voor het bestellen van het [%s:product]. Ga naar betaling om je transactie te voltooien."
                 },
                 "order_canceled": {
-                    "header": "Sorry {name}, je {product}-bestelling is geannuleerd",
+                    "header": "Sorry [%s:name], je [%s:product]-bestelling is geannuleerd",
                     "body": "Ga niet verder met betalen."
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "Hallo {name}, je betaling is ontvangen",
-                        "body": "Bedankt voor je aanmelding op {product}. Maak nu je campagne aan en maak gebruik van de speciale functies!"
+                        "header": "Hallo [%s:name], je betaling is ontvangen",
+                        "body": "Bedankt voor je aanmelding op [%s:product]. Maak nu je campagne aan en maak gebruik van de speciale functies!"
                     },
                     "min_3": {
-                        "header": "Hallo {name}, je {product} vervalt over 3 dagen.",
+                        "header": "Hallo [%s:name], je [%s:product] vervalt over 3 dagen.",
                         "body": "Verleng of upgrade je abonnement om te kunnen blijven genieten van de exclusieve functies van Twibbonize."
                     },
                     "exp_day": {
-                        "header": "Hallo {name}, je abonnement op {product} is verlopen",
-                        "body": "Verleng of upgrade je abonnement voor {date_plus_7} om toegang te houden tot campagneanalyses en alle exclusieve functies."
+                        "header": "Hallo [%s:name], je abonnement op [%s:product] is verlopen",
+                        "body": "Verleng of upgrade je abonnement voor [%s:date_plus_7] om toegang te houden tot campagneanalyses en alle exclusieve functies."
                     },
                     "plus_5": {
-                        "header": "Hoi {name}, je abonnement wordt over 48 uur beëindigd.",
+                        "header": "Hoi [%s:name], je abonnement wordt over 48 uur beëindigd.",
                         "body": "Verleng of upgrade je plan binnen 48 uur om toegang te houden tot je campagneanalyses."
                     },
                     "plus_7": {
-                        "header": "Hoi {name}, je account is gedegradeerd naar Twibbonize Free",
-                        "body": "Verleng je abonnement om de functies van {product} te kunnen blijven gebruiken."
+                        "header": "Hoi [%s:name], je account is gedegradeerd naar Twibbonize Free",
+                        "body": "Verleng je abonnement om de functies van [%s:product] te kunnen blijven gebruiken."
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "Hallo {name}, je abonnement op {product} is succesvol geannuleerd.",
-                            "body": "Je verliest de toegang tot alle {product}-functies aan het einde van je factureringscyclus."
+                            "header": "Hallo [%s:name], je abonnement op [%s:product] is succesvol geannuleerd.",
+                            "body": "Je verliest de toegang tot alle [%s:product]-functies aan het einde van je factureringscyclus."
                         },
                         "renewed_plan": {
-                            "header": "Hallo {name}, je {product} abonnement is succesvol verlengd.",
-                            "body": "Je {product}-abonnement wordt aan het einde van je factureringscyclus in rekening gebracht."
+                            "header": "Hallo [%s:name], je [%s:product] abonnement is succesvol verlengd.",
+                            "body": "Je [%s:product]-abonnement wordt aan het einde van je factureringscyclus in rekening gebracht."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Hoi {name}, je account is gedegradeerd naar Twibbonize Free",
-                                "body": "Verleng je abonnement om gebruik te kunnen blijven maken van {product} functies."
+                                "header": "Hoi [%s:name], je account is gedegradeerd naar Twibbonize Free",
+                                "body": "Verleng je abonnement om gebruik te kunnen blijven maken van [%s:product] functies."
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "Hallo {name}, je verzoek om de downgrade te annuleren is ontvangen",
+                            "header": "Hallo [%s:name], je verzoek om de downgrade te annuleren is ontvangen",
                             "body": "Je abonnement wordt voortgezet als Premium Creator."
                         },
                         "convert": {
-                            "header": "Hallo {name}, je account is geüpgraded naar Premium Creator",
+                            "header": "Hallo [%s:name], je account is geüpgraded naar Premium Creator",
                             "body": "Gefeliciteerd! Je bent nu een Premium Creator. Geniet nu van alle functies!"
                         },
                         "successful_payment": {
-                            "header": "Hallo {name}, je betaling is ontvangen",
-                            "body": "Bedankt voor je aanmelding op {product}. Maak nu je campagne aan en maak gebruik van de speciale functies!"
+                            "header": "Hallo [%s:name], je betaling is ontvangen",
+                            "body": "Bedankt voor je aanmelding op [%s:product]. Maak nu je campagne aan en maak gebruik van de speciale functies!"
                         },
                         "exp_day": {
-                            "header": "Hallo {name}, je abonnement op {product} is verlopen",
-                            "body": "Werk je factureringsgegevens bij vóór {date_plus_7} om toegang te houden tot je campagneanalyses."
+                            "header": "Hallo [%s:name], je abonnement op [%s:product] is verlopen",
+                            "body": "Werk je factureringsgegevens bij vóór [%s:date_plus_7] om toegang te houden tot je campagneanalyses."
                         },
                         "plus_2": {
-                            "header": "Hoi {name}, je abonnement wordt over 48 uur beëindigd.",
+                            "header": "Hoi [%s:name], je abonnement wordt over 48 uur beëindigd.",
                             "body": "Werk je betaalkaart bij om toegang te houden tot je campagneanalyses."
                         },
                         "plus_5": {
-                            "header": "Hoi {name}, je account is gedegradeerd naar Twibbonize Free",
-                            "body": "Verleng je abonnement om gebruik te kunnen blijven maken van {product} functies."
+                            "header": "Hoi [%s:name], je account is gedegradeerd naar Twibbonize Free",
+                            "body": "Verleng je abonnement om gebruik te kunnen blijven maken van [%s:product] functies."
                         },
                         "convert_addon": {
                             "body": "Gefeliciteerd! Je bent nu een Premium Creator. Geniet nu van alle functies!",
-                            "header": "Hallo {name}, je account is geüpgraded naar Premium Creator"
+                            "header": "Hallo [%s:name], je account is geüpgraded naar Premium Creator"
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "Hallo {name}, je betaalmethode moet worden geverifieerd",
+                            "header": "Hallo [%s:name], je betaalmethode moet worden geverifieerd",
                             "body": "Bevestig je betalingsauthenticatie om je abonnement nu te voltooien."
                         }
                     },
                     "renewed_plan": {
-                        "header": "Hallo {name}, je betaling voor de verlenging is bevestigd",
+                        "header": "Hallo [%s:name], je betaling voor de verlenging is bevestigd",
                         "body": "Nu kun je blijven genieten van exclusieve functies!"
                     },
                     "downgrade_received": {
-                        "header": "Hallo {name}, je downgradeverzoek is ontvangen",
-                        "body": "Je account wordt aan het einde van je factureringscyclus gedowngraded naar {product}."
+                        "header": "Hallo [%s:name], je downgradeverzoek is ontvangen",
+                        "body": "Je account wordt aan het einde van je factureringscyclus gedowngraded naar [%s:product]."
                     },
                     "supporter": {
                         "convert": {
-                            "header": "Hallo {name}, Je account is geüpgraded naar Premium Supporter",
+                            "header": "Hallo [%s:name], Je account is geüpgraded naar Premium Supporter",
                             "body": "Gefeliciteerd! Je bent nu een Premium Supporter. Geniet nu van alle functies!"
                         },
                         "successful_payment": {
                             "body": "Nu kun je Twibbon krijgen zonder watermerken en een advertentievrije ervaring!",
-                            "header": "Hallo {name}, we hebben je betaling succesvol ontvangen"
+                            "header": "Hallo [%s:name], we hebben je betaling succesvol ontvangen"
                         },
                         "min_3": {
                             "body": "Verleng of upgrade je abonnement nu om te blijven genieten van advertentievrij browsen en watermerkvrije Twibbons."
                         },
                         "successful": {
-                            "body": "Bedankt voor je aanmelding op {product}. Nu kun je Twibbon krijgen zonder watermerken en een reclamevrije ervaring!"
+                            "body": "Bedankt voor je aanmelding op [%s:product]. Nu kun je Twibbon krijgen zonder watermerken en een reclamevrije ervaring!"
                         },
                         "exp_day": {
-                            "header": "Hallo {name}, je betaling is niet gelukt",
-                            "body": "Werk je factureringsgegevens bij vóór {date_plus_7} om te genieten van exclusieve functies, reclamevrij browsen en Twibbon zonder watermerk."
+                            "header": "Hallo [%s:name], je betaling is niet gelukt",
+                            "body": "Werk je factureringsgegevens bij vóór [%s:date_plus_7] om te genieten van exclusieve functies, reclamevrij browsen en Twibbon zonder watermerk."
                         },
                         "plus_2": {
-                            "header": "Hoi {name}, je abonnement wordt over 48 uur beëindigd.",
+                            "header": "Hoi [%s:name], je abonnement wordt over 48 uur beëindigd.",
                             "body": "Verleng je abonnement nu om te genieten van Twibbons zonder watermerk en een reclamevrije ervaring."
                         },
                         "plus_7": {
-                            "header": "Hoi {name}, je account is gedegradeerd naar Twibbonize Free"
+                            "header": "Hoi [%s:name], je account is gedegradeerd naar Twibbonize Free"
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Hoi {name}, je account is gedegradeerd naar Twibbonize Free",
-                                "body": "Verleng je abonnement om gebruik te kunnen blijven maken van {product} functies."
+                                "header": "Hoi [%s:name], je account is gedegradeerd naar Twibbonize Free",
+                                "body": "Verleng je abonnement om gebruik te kunnen blijven maken van [%s:product] functies."
                             }
                         },
                         "plus_5": {
-                            "header": "Hoi {name}, je account is gedegradeerd naar Twibbonize Free",
-                            "body": "Verleng je abonnement om gebruik te kunnen blijven maken van {product} functies."
+                            "header": "Hoi [%s:name], je account is gedegradeerd naar Twibbonize Free",
+                            "body": "Verleng je abonnement om gebruik te kunnen blijven maken van [%s:product] functies."
                         }
                     },
                     "period_changed": {
-                        "header": "Hallo {name}, we hebben je verzoek ontvangen om je plan te wijzigen",
-                        "body": "Je account zal worden gewijzigd in {product} aan het einde van je factureringscyclus."
+                        "header": "Hallo [%s:name], we hebben je verzoek ontvangen om je plan te wijzigen",
+                        "body": "Je account zal worden gewijzigd in [%s:product] aan het einde van je factureringscyclus."
                     },
                     "cancel_change_period": {
-                        "header": "Hallo {name}, we hebben je verzoek om de planwijziging te annuleren ontvangen.",
+                        "header": "Hallo [%s:name], we hebben je verzoek om de planwijziging te annuleren ontvangen.",
                         "body": "Je abonnement zal worden voortgezet als Premium Creator."
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "Hoi {name}, bevestig nu je betaling voor het abonnement",
+                            "header": "Hoi [%s:name], bevestig nu je betaling voor het abonnement",
                             "body": "Om aan de veiligheidsvoorschriften te voldoen, hebben we je uitdrukkelijke bevestiging nodig voor je terugkerende betaling op je Twibbonize-abonnement."
                         }
                     }
@@ -226,22 +226,22 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "Nu kun je Twibbon krijgen zonder watermerken en een reclamevrije ervaring!",
-                        "header": "Hallo {name}, je betaling is ontvangen"
+                        "header": "Hallo [%s:name], je betaling is ontvangen"
                     },
                     "exp_day": {
-                        "body": "Verleng of upgrade je abonnement voor {date_plus_7} om te blijven genieten van exclusieve functies, reclamevrij browsen en Twibbon zonder watermerk.",
-                        "header": "Hallo {name}, je abonnement op {product} is verlopen"
+                        "body": "Verleng of upgrade je abonnement voor [%s:date_plus_7] om te blijven genieten van exclusieve functies, reclamevrij browsen en Twibbon zonder watermerk.",
+                        "header": "Hallo [%s:name], je abonnement op [%s:product] is verlopen"
                     },
                     "plus_5": {
                         "body": "Verleng je abonnement binnen 48 uur om te blijven genieten van Twibbon zonder watermerk en een reclamevrije ervaring.",
-                        "header": "Hoi {name}, je abonnement wordt over 48 uur beëindigd."
+                        "header": "Hoi [%s:name], je abonnement wordt over 48 uur beëindigd."
                     },
                     "min_3": {
                         "body": "Verleng of upgrade je abonnement nu om te blijven genieten van reclamevrij browsen en watermerkvrije Twibbons.",
-                        "header": "Hallo {name}, je {product} vervalt over 3 dagen."
+                        "header": "Hallo [%s:name], je [%s:product] vervalt over 3 dagen."
                     },
                     "plus_7": {
-                        "body": "Verleng je abonnement om gebruik te kunnen blijven maken van {product} functies."
+                        "body": "Verleng je abonnement om gebruik te kunnen blijven maken van [%s:product] functies."
                     }
                 }
             },
@@ -262,25 +262,31 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "Resterende reclamevrije quota",
-                    "body": "Je hebt nog reclamevrije quota over voor 50 Supporters op {campaignlink}. Geniet van een reclamevrije ervaring zolang het duurt!"
+                    "body": "Je hebt nog reclamevrije quota over voor 50 Supporters op [%s:campaignlink]. Geniet van een reclamevrije ervaring zolang het duurt!"
                 },
                 "adfree_quota_runout": {
                     "header": "Reclamevrije quotum is op",
-                    "body": "Je {campaignlink} supporters zullen advertenties te zien krijgen tijdens het browsen op ons platform."
+                    "body": "Je [%s:campaignlink] supporters zullen advertenties te zien krijgen tijdens het browsen op ons platform."
                 }
             },
             "new_post": {
                 "header": "Nieuwe Twibbon geplaatst",
-                "body": "{participant} plaatste een Twibbon in je campagne {title}'s galerij!"
+                "body": "[%s:participant] plaatste een Twibbon in je campagne [%s:title]'s galerij!"
             },
             "new_comment": {
                 "header": "Nieuw commentaar!",
-                "body": "{participant} heeft gereageerd op je bericht in de campagne {title}!"
+                "body": "[%s:participant] heeft gereageerd op je bericht in de campagne [%s:title]!"
             },
             "new_reply": {
                 "header": "Nieuw antwoord!",
-                "body": "{participant} gereageerd op je commentaar in de campagne {title}!"
+                "body": "[%s:participant] gereageerd op je commentaar in de campagne [%s:title]!"
             }
+        }
+    },
+    "page_post": {
+        "approval": {
+            "header": "Post behoeft goedkeuring",
+            "description": "[%c] vraag goedkeuring om een bericht toe te voegen aan je campagne [%s]"
         }
     }
 }
