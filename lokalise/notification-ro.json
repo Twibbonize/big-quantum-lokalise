@@ -2,20 +2,20 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {name}, o nouă bornă a fost atinsă!",
-                "body": "Felicitări! Campania ta {title} are acum {amount} susținători!"
+                "header": "🏆 {0}, o nouă bornă a fost atinsă!",
+                "body": "Felicitări! Campania ta {0} are acum [%n] susținători!"
             },
             "new_post": {
                 "header": "Noul Twibbon postat",
-                "body": "{participant} a postat un Twibbon în galeria campaniei dvs. {title}!"
+                "body": "{0} a postat un Twibbon în galeria campaniei dvs. {0}!"
             },
             "new_comment": {
                 "header": "Comentariu nou!",
-                "body": "{participant} a comentat la postarea dvs. din campania {title}!"
+                "body": "{0} a comentat la postarea dvs. din campania {0}!"
             },
             "account_recap": {
-                "header": "🍺 {name}, Iată recapitularea ta lunară!",
-                "body": "Ai câștigat {amount} noi susținători în această lună. Țineți-o tot așa!"
+                "header": "🍺 {0}, Iată recapitularea ta lunară!",
+                "body": "Ai câștigat [%n] noi susținători în această lună. Țineți-o tot așa!"
             },
             "billing": {
                 "creator": {
@@ -24,13 +24,13 @@
                         "body": "Profitați de caracteristicile sale exclusive! Începeți acum campania dvs."
                     },
                     "plus_5": {
-                        "header": "Salut {name}, reînnoiește-ți abonamentul acum",
+                        "header": "Salut {0}, reînnoiește-ți abonamentul acum",
                         "body": "Reînnoiți sau faceți upgrade la planul dvs. acum pentru a continua să accesați analizele campaniei dvs."
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "Bună ziua {name}, plata pentru reînnoire a fost confirmată",
+                        "header": "Bună ziua {0}, plata pentru reînnoire a fost confirmată",
                         "body": "Acum puteți utiliza în continuare funcțiile noastre exclusive!"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "Profitați de caracteristicile sale exclusive! Începeți acum campania dvs."
                         },
                         "plus_2": {
-                            "header": "Salut {name}, reînnoiește-ți abonamentul acum",
+                            "header": "Salut {0}, reînnoiește-ți abonamentul acum",
                             "body": "Reînnoiți sau faceți upgrade la planul dvs. acum pentru a continua să accesați analizele campaniei dvs."
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "Bucurați-vă de experiența fără reclame și obțineți Twibbon fără filigrane!"
                         },
                         "plus_2": {
-                            "header": "Salut {name}, reînnoiește-ți abonamentul acum",
+                            "header": "Salut {0}, reînnoiește-ți abonamentul acum",
                             "body": "Reînnoiește-ți planul acum pentru a te bucura de Twibbon fără filigran și de o experiență fără reclame."
                         }
                     }
@@ -61,164 +61,164 @@
                     },
                     "plus_5": {
                         "body": "Reînnoiește-ți planul acum pentru a te bucura de Twibbon fără filigran și de o experiență fără reclame.",
-                        "header": "Salut {name}, reînnoiește-ți abonamentul acum"
+                        "header": "Salut {0}, reînnoiește-ți abonamentul acum"
                     }
                 }
             },
             "new_reply": {
                 "header": "Răspuns nou!",
-                "body": "{participant} a comentat la comentariul dvs. în campania {title}!"
+                "body": "{0} a comentat la comentariul dvs. în campania {0}!"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "Felicitări! Campania {title} are acum {amount} de susținători!",
-                "header": "🏆 {name}, o nouă bornă a fost atinsă!"
+                "body": "Felicitări! Campania {0} are acum [%n] de susținători!",
+                "header": "🏆 {0}, o nouă bornă a fost atinsă!"
             },
             "account_recap": {
-                "body": "Ai câștigat {amount} noi susținători în ultima lună în toate campaniile tale. Continuați munca extraordinară!",
-                "header": "🍺 {name}, Iată recapitularea ta lunară!"
+                "body": "Ai câștigat [%n] noi susținători în ultima lună în toate campaniile tale. Continuați munca extraordinară!",
+                "header": "🍺 {0}, Iată recapitularea ta lunară!"
             },
             "billing": {
                 "order_received": {
-                    "header": "Bună ziua {name}, vă rugăm să completați plata dvs.",
-                    "body": "Vă mulțumim că ați comandat {product}. Vă rugăm să treceți la plată pentru a finaliza tranzacția."
+                    "header": "Bună ziua {0}, vă rugăm să completați plata dvs.",
+                    "body": "Vă mulțumim că ați comandat [%p]. Vă rugăm să treceți la plată pentru a finaliza tranzacția."
                 },
                 "order_canceled": {
-                    "header": "Ne pare rău {name}, comanda dvs. pentru {product} a fost anulată",
+                    "header": "Ne pare rău {0}, comanda dvs. pentru [%p] a fost anulată",
                     "body": "Vă rugăm să nu continuați plata."
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "Bună ziua {name}, plata dvs. a fost primită",
-                        "body": "Vă mulțumim că v-ați abonat la {product}. Creați-vă acum campania și folosiți caracteristicile speciale ale acesteia!"
+                        "header": "Bună ziua {0}, plata dvs. a fost primită",
+                        "body": "Vă mulțumim că v-ați abonat la [%p]. Creați-vă acum campania și folosiți caracteristicile speciale ale acesteia!"
                     },
                     "min_3": {
-                        "header": "Bună {name}, {product} va expira în 3 zile.",
+                        "header": "Bună {0}, [%p] va expira în 3 zile.",
                         "body": "Reînnoiți sau faceți upgrade la abonamentul dvs. pentru a continua să vă bucurați de caracteristicile exclusive ale Twibbonize."
                     },
                     "exp_day": {
-                        "header": "Bună ziua {name}, abonamentul dvs. de {product} a expirat",
-                        "body": "Reînnoiți sau faceți upgrade la abonamentul dvs. înainte de {date_plus_7} pentru a menține accesul la analiza campaniei și la toate caracteristicile exclusive."
+                        "header": "Bună ziua {0}, abonamentul dvs. de [%p] a expirat",
+                        "body": "Reînnoiți sau faceți upgrade la abonamentul dvs. înainte de [%g] pentru a menține accesul la analiza campaniei și la toate caracteristicile exclusive."
                     },
                     "plus_5": {
-                        "header": "Bună ziua {name}, abonamentul dvs. se va încheia în 48 de ore",
+                        "header": "Bună ziua {0}, abonamentul dvs. se va încheia în 48 de ore",
                         "body": "Reînnoiți sau actualizați planul în termen de 48 de ore pentru a menține accesul la analizele campaniei dvs."
                     },
                     "plus_7": {
-                        "header": "Bună ziua {name}, contul dvs. a fost retrogradat la Twibbonize Free",
-                        "body": "Vă rugăm să vă reînnoiți abonamentul pentru a continua să utilizați funcțiile {product}."
+                        "header": "Bună ziua {0}, contul dvs. a fost retrogradat la Twibbonize Free",
+                        "body": "Vă rugăm să vă reînnoiți abonamentul pentru a continua să utilizați funcțiile [%p]."
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "Bună ziua {name}, abonamentul dvs. de {product} a fost anulat cu succes",
-                            "body": "Veți pierde accesul la toate funcțiile {product} la sfârșitul ciclului de facturare."
+                            "header": "Bună ziua {0}, abonamentul dvs. de [%p] a fost anulat cu succes",
+                            "body": "Veți pierde accesul la toate funcțiile [%p] la sfârșitul ciclului de facturare."
                         },
                         "renewed_plan": {
-                            "header": "Bună ziua {name}, abonamentul dvs. la {product} a fost reînnoit cu succes",
-                            "body": "Abonamentul {product} va fi taxat la sfârșitul ciclului de facturare."
+                            "header": "Bună ziua {0}, abonamentul dvs. la [%p] a fost reînnoit cu succes",
+                            "body": "Abonamentul [%p] va fi taxat la sfârșitul ciclului de facturare."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Bună ziua {name}, contul dvs. a fost retrogradat la Twibbonize Free",
-                                "body": "Vă rugăm să vă reînnoiți abonamentul pentru a continua să utilizați funcțiile {product}."
+                                "header": "Bună ziua {0}, contul dvs. a fost retrogradat la Twibbonize Free",
+                                "body": "Vă rugăm să vă reînnoiți abonamentul pentru a continua să utilizați funcțiile [%p]."
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "Bună ziua {name}, cererea dumneavoastră de anulare a downgrade-ului a fost primită.",
+                            "header": "Bună ziua {0}, cererea dumneavoastră de anulare a downgrade-ului a fost primită.",
                             "body": "Abonamentul dvs. va continua ca Premium Creator."
                         },
                         "convert": {
-                            "header": "Bună ziua {name}, contul dvs. a fost actualizat la Premium Creator",
+                            "header": "Bună ziua {0}, contul dvs. a fost actualizat la Premium Creator",
                             "body": "Felicitări! Sunteți acum un Premium Creator. Bucurați-vă acum de toate caracteristicile!"
                         },
                         "successful_payment": {
-                            "header": "Bună ziua {name}, plata dvs. a fost primită",
-                            "body": "Vă mulțumim că v-ați abonat la {product}. Creați-vă acum campania și folosiți caracteristicile speciale ale acesteia!"
+                            "header": "Bună ziua {0}, plata dvs. a fost primită",
+                            "body": "Vă mulțumim că v-ați abonat la [%p]. Creați-vă acum campania și folosiți caracteristicile speciale ale acesteia!"
                         },
                         "exp_day": {
-                            "header": "Bună ziua {name}, abonamentul dvs. de {product} a expirat",
-                            "body": "Vă rugăm să vă actualizați informațiile de facturare înainte de {date_plus_7} pentru a continua să accesați analiza campaniei dvs."
+                            "header": "Bună ziua {0}, abonamentul dvs. de [%p] a expirat",
+                            "body": "Vă rugăm să vă actualizați informațiile de facturare înainte de [%g] pentru a continua să accesați analiza campaniei dvs."
                         },
                         "plus_2": {
-                            "header": "Bună ziua {name}, abonamentul dvs. se va încheia în 48 de ore",
+                            "header": "Bună ziua {0}, abonamentul dvs. se va încheia în 48 de ore",
                             "body": "Vă rugăm să vă actualizați cardul de plată pentru a menține accesul la analizele campaniei dvs."
                         },
                         "plus_5": {
-                            "header": "Bună ziua {name}, contul dvs. a fost retrogradat la Twibbonize Free",
-                            "body": "Vă rugăm să vă reînnoiți abonamentul pentru a continua să utilizați funcțiile {product}."
+                            "header": "Bună ziua {0}, contul dvs. a fost retrogradat la Twibbonize Free",
+                            "body": "Vă rugăm să vă reînnoiți abonamentul pentru a continua să utilizați funcțiile [%p]."
                         },
                         "convert_addon": {
                             "body": "Felicitări! Sunteți acum un Premium Creator. Bucurați-vă acum de toate caracteristicile!",
-                            "header": "Bună ziua {name}, contul dvs. a fost actualizat la Premium Creator"
+                            "header": "Bună ziua {0}, contul dvs. a fost actualizat la Premium Creator"
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "Bună ziua {name}, metoda de plată are nevoie de autentificare",
+                            "header": "Bună ziua {0}, metoda de plată are nevoie de autentificare",
                             "body": "Vă rugăm să confirmați autentificarea plății pentru a vă finaliza abonamentul acum."
                         }
                     },
                     "renewed_plan": {
-                        "header": "Bună ziua {name}, plata pentru reînnoire a fost confirmată",
+                        "header": "Bună ziua {0}, plata pentru reînnoire a fost confirmată",
                         "body": "Acum, puteți continua să vă bucurați de caracteristici exclusive!"
                     },
                     "downgrade_received": {
-                        "header": "Bună ziua {name}, cererea dvs. de downgrade a fost primită",
-                        "body": "La sfârșitul ciclului de facturare, contul dvs. va fi retrogradat la {product}."
+                        "header": "Bună ziua {0}, cererea dvs. de downgrade a fost primită",
+                        "body": "La sfârșitul ciclului de facturare, contul dvs. va fi retrogradat la [%p]."
                     },
                     "supporter": {
                         "convert": {
-                            "header": "Bună ziua {name}, Contul dvs. a fost actualizat la Premium Supporter",
+                            "header": "Bună ziua {0}, Contul dvs. a fost actualizat la Premium Supporter",
                             "body": "Felicitări! Sunteți acum un Premium Supporter. Bucurați-vă acum de toate caracteristicile!"
                         },
                         "successful_payment": {
                             "body": "Acum, puteți obține Twibbon fără filigrane și o experiență fără anunțuri!",
-                            "header": "Bună ziua {name}, am primit cu succes plata dvs."
+                            "header": "Bună ziua {0}, am primit cu succes plata dvs."
                         },
                         "min_3": {
                             "body": "Reînnoiți sau actualizați abonamentul acum pentru a vă bucura în continuare de navigarea fără reclame și Twibbons fără filigran."
                         },
                         "successful": {
-                            "body": "Vă mulțumim că v-ați abonat la {product}. Acum, puteți obține Twibbon fără filigrane și o experiență fără reclame!"
+                            "body": "Vă mulțumim că v-ați abonat la [%p]. Acum, puteți obține Twibbon fără filigrane și o experiență fără reclame!"
                         },
                         "exp_day": {
-                            "header": "Bună ziua {name}, plata dvs. nu a fost efectuată",
-                            "body": "Vă rugăm să vă actualizați informațiile de facturare înainte de {date_plus_7} pentru a beneficia de funcții exclusive, navigare fără reclame și Twibbon fără filigran."
+                            "header": "Bună ziua {0}, plata dvs. nu a fost efectuată",
+                            "body": "Vă rugăm să vă actualizați informațiile de facturare înainte de [%g] pentru a beneficia de funcții exclusive, navigare fără reclame și Twibbon fără filigran."
                         },
                         "plus_2": {
-                            "header": "Bună ziua {name}, abonamentul dvs. se va încheia în 48 de ore",
+                            "header": "Bună ziua {0}, abonamentul dvs. se va încheia în 48 de ore",
                             "body": "Reînnoiește-ți planul acum pentru a te bucura de Twibbon fără filigran și de o experiență fără reclame."
                         },
                         "plus_7": {
-                            "header": "Bună ziua {name}, contul dvs. a fost retrogradat la Twibbonize Free"
+                            "header": "Bună ziua {0}, contul dvs. a fost retrogradat la Twibbonize Free"
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Bună ziua {name}, contul dvs. a fost retrogradat la Twibbonize Free",
-                                "body": "Vă rugăm să vă reînnoiți abonamentul pentru a continua să utilizați funcțiile {product}."
+                                "header": "Bună ziua {0}, contul dvs. a fost retrogradat la Twibbonize Free",
+                                "body": "Vă rugăm să vă reînnoiți abonamentul pentru a continua să utilizați funcțiile [%p]."
                             }
                         },
                         "plus_5": {
-                            "header": "Bună ziua {name}, contul dvs. a fost retrogradat la Twibbonize Free",
-                            "body": "Vă rugăm să vă reînnoiți abonamentul pentru a continua să utilizați funcțiile {product}."
+                            "header": "Bună ziua {0}, contul dvs. a fost retrogradat la Twibbonize Free",
+                            "body": "Vă rugăm să vă reînnoiți abonamentul pentru a continua să utilizați funcțiile [%p]."
                         }
                     },
                     "period_changed": {
-                        "header": "Bună ziua {name}, am primit solicitarea dvs. de a vă schimba planul",
-                        "body": "Contul dvs. va fi schimbat la {product} la sfârșitul ciclului de facturare."
+                        "header": "Bună ziua {0}, am primit solicitarea dvs. de a vă schimba planul",
+                        "body": "Contul dvs. va fi schimbat la [%p] la sfârșitul ciclului de facturare."
                     },
                     "cancel_change_period": {
-                        "header": "Bună ziua {name}, am primit cererea dvs. de anulare a schimbării planului",
+                        "header": "Bună ziua {0}, am primit cererea dvs. de anulare a schimbării planului",
                         "body": "Abonamentul dvs. va continua ca Premium Creator."
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "Bună ziua {name}, vă rugăm să confirmați plata pentru abonament acum",
+                            "header": "Bună ziua {0}, vă rugăm să confirmați plata pentru abonament acum",
                             "body": "Pentru a asigura conformitatea cu reglementările de securitate, avem nevoie de confirmarea dvs. explicită pentru plata recurentă a abonamentului dvs. la Twibbonize."
                         }
                     }
@@ -226,22 +226,22 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "Acum, puteți obține Twibbon fără filigrane și o experiență fără reclame!",
-                        "header": "Bună ziua {name}, plata dvs. a fost primită"
+                        "header": "Bună ziua {0}, plata dvs. a fost primită"
                     },
                     "exp_day": {
-                        "body": "Reînnoiți sau faceți upgrade la abonamentul dvs. înainte de {date_plus_7} pentru a continua să vă bucurați de funcții exclusive, de navigare fără reclame și de Twibbon fără filigran.",
-                        "header": "Bună ziua {name}, abonamentul dvs. de {product} a expirat"
+                        "body": "Reînnoiți sau faceți upgrade la abonamentul dvs. înainte de [%g] pentru a continua să vă bucurați de funcții exclusive, de navigare fără reclame și de Twibbon fără filigran.",
+                        "header": "Bună ziua {0}, abonamentul dvs. de [%p] a expirat"
                     },
                     "plus_5": {
                         "body": "Reînnoiește-ți planul în termen de 48 de ore pentru a continua să te bucuri de Twibbon fără filigran și de o experiență fără reclame.",
-                        "header": "Bună ziua {name}, abonamentul dvs. se va încheia în 48 de ore"
+                        "header": "Bună ziua {0}, abonamentul dvs. se va încheia în 48 de ore"
                     },
                     "min_3": {
                         "body": "Reînnoiți sau actualizați abonamentul acum pentru a continua să vă bucurați de navigarea fără reclame și de Twibbon fără filigran.",
-                        "header": "Bună {name}, {product} va expira în 3 zile."
+                        "header": "Bună {0}, [%p] va expira în 3 zile."
                     },
                     "plus_7": {
-                        "body": "Vă rugăm să vă reînnoiți abonamentul pentru a continua să utilizați funcțiile {product}."
+                        "body": "Vă rugăm să vă reînnoiți abonamentul pentru a continua să utilizați funcțiile [%p]."
                     }
                 }
             },
@@ -262,25 +262,31 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "Cota fără reclame rămasă",
-                    "body": "Aveți o cotă fără reclame rămasă pentru 50 de susținători pe {campaignlink}. Bucurați-vă de o experiență fără reclame cât mai durează!"
+                    "body": "Aveți o cotă fără reclame rămasă pentru 50 de susținători pe {0}. Bucurați-vă de o experiență fără reclame cât mai durează!"
                 },
                 "adfree_quota_runout": {
                     "header": "Cota Fără reclame s-a epuizat",
-                    "body": "Susținătorii {campaignlink} vor începe să vadă reclame în timp ce navighează pe platforma noastră."
+                    "body": "Susținătorii {0} vor începe să vadă reclame în timp ce navighează pe platforma noastră."
                 }
             },
             "new_post": {
                 "header": "Noul Twibbon postat",
-                "body": "{participant} a postat un Twibbon în campania ta {title}'s gallery!"
+                "body": "{0} a postat un Twibbon în campania ta {0}'s gallery!"
             },
             "new_comment": {
                 "header": "Comentariu nou!",
-                "body": "{participant} a comentat la postarea dvs. din campania {title}!"
+                "body": "{0} a comentat la postarea dvs. din campania {0}!"
             },
             "new_reply": {
                 "header": "Răspuns nou!",
-                "body": "{participant} a comentat la comentariul dvs. în campania {title}!"
+                "body": "{0} a comentat la comentariul dvs. în campania {0}!"
             }
+        }
+    },
+    "page_post": {
+        "approval": {
+            "header": "Postul are nevoie de aprobare",
+            "description": "{0} solicitați aprobarea pentru a adăuga o postare pe campania dvs. {0}"
         }
     }
 }
