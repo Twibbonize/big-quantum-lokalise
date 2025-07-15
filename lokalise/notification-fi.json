@@ -2,20 +2,20 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {name}, uusi virstanpylväs saavutettu!",
-                "body": "Onneksi olkoon! Kampanjallasi {title} on nyt {amount} tukijoita!"
+                "header": "🏆 [%c], uusi virstanpylväs saavutettu!",
+                "body": "Onneksi olkoon! Kampanjallasi [%s] on nyt [%n] tukijoita!"
             },
             "new_post": {
                 "header": "Uusi Twibbon lähetetty",
-                "body": "{participant} julkaisi Twibbonin kampanjasi {title} galleriassa!"
+                "body": "[%c] julkaisi Twibbonin kampanjasi [%s] galleriassa!"
             },
             "new_comment": {
                 "header": "Uusi kommentti!",
-                "body": "{participant} kommentoi viestiäsi kampanjassa {title}!"
+                "body": "[%c] kommentoi viestiäsi kampanjassa [%s]!"
             },
             "account_recap": {
-                "header": "🍺 {name}, Tässä on kuukausittainen yhteenvetosi!",
-                "body": "Sait tässä kuussa {amount} uusia tukijoita. Jatkakaa samaan malliin!"
+                "header": "🍺 [%c], Tässä on kuukausittainen yhteenvetosi!",
+                "body": "Sait tässä kuussa [%n] uusia tukijoita. Jatkakaa samaan malliin!"
             },
             "billing": {
                 "creator": {
@@ -24,13 +24,13 @@
                         "body": "Hyödynnä sen ainutlaatuisia ominaisuuksia! Aloita kampanja nyt"
                     },
                     "plus_5": {
-                        "header": "Hei {name}, uudista tilauksesi nyt",
+                        "header": "Hei [%c], uudista tilauksesi nyt",
                         "body": "Uudista tai päivitä suunnitelmasi nyt, jotta voit jatkaa kampanjaanalyysin käyttöä."
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "Hei {name}, uusintamaksusi on vahvistettu.",
+                        "header": "Hei [%c], uusintamaksusi on vahvistettu.",
                         "body": "Nyt voit jatkaa eksklusiivisten ominaisuuksiemme käyttöä!"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "Hyödynnä sen ainutlaatuisia ominaisuuksia! Aloita kampanja nyt."
                         },
                         "plus_2": {
-                            "header": "Hei {name}, uudista tilauksesi nyt",
+                            "header": "Hei [%c], uudista tilauksesi nyt",
                             "body": "Uudista tai päivitä suunnitelmasi nyt, jotta voit jatkaa kampanjaanalyysin käyttöä."
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "Nauti mainosvapaasta kokemuksesta ja saat Twibbonsin ilman vesileimoja!"
                         },
                         "plus_2": {
-                            "header": "Hei {name}, uudista tilauksesi nyt",
+                            "header": "Hei [%c], uudista tilauksesi nyt",
                             "body": "Uudista tilauksesi nyt ja nauti vesileimattomista Twibbonista ja mainoksettomasta kokemuksesta."
                         }
                     }
@@ -61,164 +61,164 @@
                     },
                     "plus_5": {
                         "body": "Uudista tilauksesi nyt ja nauti vesileimattomista Twibbonista ja mainoksettomasta kokemuksesta.",
-                        "header": "Hei {name}, uudista tilauksesi nyt"
+                        "header": "Hei [%c], uudista tilauksesi nyt"
                     }
                 }
             },
             "new_reply": {
                 "header": "Uusi vastaus!",
-                "body": "{participant} kommentoi kommenttiisi kampanjaan {title}!"
+                "body": "[%c] kommentoi kommenttiisi kampanjaan [%s]!"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "Onnittelut! Kampanjalla {title} on nyt {amount} tukijaa!",
-                "header": "🏆 {name}, uusi virstanpylväs saavutettu!"
+                "body": "Onnittelut! Kampanjalla [%s] on nyt [%n] tukijaa!",
+                "header": "🏆 [%c], uusi virstanpylväs saavutettu!"
             },
             "account_recap": {
-                "body": "Olet saanut {amount} uusia tukijoita viimeisen kuukauden aikana kaikissa kampanjoissasi. Jatkakaa hienoa työtä!",
-                "header": "🍺 {name}, Tässä on kuukausittainen yhteenvetosi!"
+                "body": "Olet saanut [%n] uusia tukijoita viimeisen kuukauden aikana kaikissa kampanjoissasi. Jatkakaa hienoa työtä!",
+                "header": "🍺 [%c], Tässä on kuukausittainen yhteenvetosi!"
             },
             "billing": {
                 "order_received": {
-                    "header": "Hei {name}, suorittakaa maksunne",
-                    "body": "Kiitos, että tilasit {product}. Ole hyvä ja siirry maksuun suorittaaksesi maksutapahtuman."
+                    "header": "Hei [%c], suorittakaa maksunne",
+                    "body": "Kiitos, että tilasit [%p]. Ole hyvä ja siirry maksuun suorittaaksesi maksutapahtuman."
                 },
                 "order_canceled": {
-                    "header": "Pahoittelut {name}, {product}-tilauksesi on peruttu.",
+                    "header": "Pahoittelut [%c], [%p]-tilauksesi on peruttu.",
                     "body": "Älä jatka maksamista."
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "Hei {name}, maksusi on vastaanotettu",
-                        "body": "Kiitos, että tilasit {product}. Luo kampanjasi nyt ja käytä sen erikoisominaisuuksia!"
+                        "header": "Hei [%c], maksusi on vastaanotettu",
+                        "body": "Kiitos, että tilasit [%p]. Luo kampanjasi nyt ja käytä sen erikoisominaisuuksia!"
                     },
                     "min_3": {
-                        "header": "Hei {name}, {product} päättyy 3 päivän kuluttua.",
+                        "header": "Hei [%c], [%p] päättyy 3 päivän kuluttua.",
                         "body": "Uudista tai päivitä tilauksesi ja jatka Twibbonizen yksinoikeusominaisuuksista nauttimista."
                     },
                     "exp_day": {
-                        "header": "Hei {name}, {product}-tilauksesi on päättynyt.",
-                        "body": "Uudista tai päivitä tilauksesi ennen {date_plus_7}, jotta saat kampanja-analyysit ja kaikki yksinoikeusominaisuudet edelleen käyttöösi."
+                        "header": "Hei [%c], [%p]-tilauksesi on päättynyt.",
+                        "body": "Uudista tai päivitä tilauksesi ennen [%g], jotta saat kampanja-analyysit ja kaikki yksinoikeusominaisuudet edelleen käyttöösi."
                     },
                     "plus_5": {
-                        "header": "Hei {name}, tilauksesi päättyy 48 tunnin kuluttua.",
+                        "header": "Hei [%c], tilauksesi päättyy 48 tunnin kuluttua.",
                         "body": "Uudista tai päivitä suunnitelmasi 48 tunnin kuluessa, jotta saat kampanjan analyysit edelleen käyttöösi."
                     },
                     "plus_7": {
-                        "header": "Hei {name}, tilisi on alennettu Twibbonize Free-tiliksi.",
-                        "body": "Jatka tilauksesi uusimista, jotta voit jatkaa {product} ominaisuuksien käyttöä."
+                        "header": "Hei [%c], tilisi on alennettu Twibbonize Free-tiliksi.",
+                        "body": "Jatka tilauksesi uusimista, jotta voit jatkaa [%p] ominaisuuksien käyttöä."
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "Hei {name}, {product}-tilauksesi peruutettiin onnistuneesti.",
-                            "body": "Menetät pääsyn kaikkiin {product}-ominaisuuksiin laskutusjakson lopussa."
+                            "header": "Hei [%c], [%p]-tilauksesi peruutettiin onnistuneesti.",
+                            "body": "Menetät pääsyn kaikkiin [%p]-ominaisuuksiin laskutusjakson lopussa."
                         },
                         "renewed_plan": {
-                            "header": "Hei {name}, {product} tilauksesi uusittiin onnistuneesti.",
-                            "body": "{product}-tilauksesi veloitetaan laskutusjakson lopussa."
+                            "header": "Hei [%c], [%p] tilauksesi uusittiin onnistuneesti.",
+                            "body": "[%p]-tilauksesi veloitetaan laskutusjakson lopussa."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Hei {name}, tilisi on alennettu Twibbonize Free-tiliksi.",
-                                "body": "Jatka tilauksesi uusimista, jotta voit jatkaa {product} ominaisuuksien käyttöä."
+                                "header": "Hei [%c], tilisi on alennettu Twibbonize Free-tiliksi.",
+                                "body": "Jatka tilauksesi uusimista, jotta voit jatkaa [%p] ominaisuuksien käyttöä."
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "Hei {name}, pyyntösi peruuttaa downgrade on vastaanotettu.",
+                            "header": "Hei [%c], pyyntösi peruuttaa downgrade on vastaanotettu.",
                             "body": "Tilauksesi jatkuu Premium Creator-tilauksena."
                         },
                         "convert": {
-                            "header": "Hei {name}, tilisi on päivitetty Premium Creatoriksi.",
+                            "header": "Hei [%c], tilisi on päivitetty Premium Creatoriksi.",
                             "body": "Onnittelut! Olet nyt Premium Creator. Nauti nyt kaikista ominaisuuksista!"
                         },
                         "successful_payment": {
-                            "header": "Hei {name}, maksusi on vastaanotettu",
-                            "body": "Kiitos, että tilasit {product}. Luo kampanjasi nyt ja käytä sen erikoisominaisuuksia!"
+                            "header": "Hei [%c], maksusi on vastaanotettu",
+                            "body": "Kiitos, että tilasit [%p]. Luo kampanjasi nyt ja käytä sen erikoisominaisuuksia!"
                         },
                         "exp_day": {
-                            "header": "Hei {name}, {product}-tilauksesi on päättynyt.",
-                            "body": "Päivitä laskutustietosi ennen {date_plus_7}, jotta voit jatkaa kampanjan analytiikan käyttöä."
+                            "header": "Hei [%c], [%p]-tilauksesi on päättynyt.",
+                            "body": "Päivitä laskutustietosi ennen [%g], jotta voit jatkaa kampanjan analytiikan käyttöä."
                         },
                         "plus_2": {
-                            "header": "Hei {name}, tilauksesi päättyy 48 tunnin kuluttua.",
+                            "header": "Hei [%c], tilauksesi päättyy 48 tunnin kuluttua.",
                             "body": "Päivitä maksukorttisi, jotta voit säilyttää pääsyn kampanjan analytiikkaan."
                         },
                         "plus_5": {
-                            "header": "Hei {name}, tilisi on alennettu Twibbonize Free-tiliksi.",
-                            "body": "Jatka tilauksesi uusimista, jotta voit jatkaa {product} ominaisuuksien käyttöä."
+                            "header": "Hei [%c], tilisi on alennettu Twibbonize Free-tiliksi.",
+                            "body": "Jatka tilauksesi uusimista, jotta voit jatkaa [%p] ominaisuuksien käyttöä."
                         },
                         "convert_addon": {
                             "body": "Onnittelut! Olet nyt Premium Creator. Nauti nyt kaikista ominaisuuksista!",
-                            "header": "Hei {name}, tilisi on päivitetty Premium Creatoriksi."
+                            "header": "Hei [%c], tilisi on päivitetty Premium Creatoriksi."
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "Hei {name}, maksutapasi tarvitsee todentamista.",
+                            "header": "Hei [%c], maksutapasi tarvitsee todentamista.",
                             "body": "Vahvista maksun todennus, jotta saat tilauksesi valmiiksi nyt."
                         }
                     },
                     "renewed_plan": {
-                        "header": "Hei {name}, uusintamaksusi on vahvistettu.",
+                        "header": "Hei [%c], uusintamaksusi on vahvistettu.",
                         "body": "Nyt voit jatkaa yksinoikeusominaisuuksista nauttimista!"
                     },
                     "downgrade_received": {
-                        "header": "Hei {name}, downgrade-pyyntösi on vastaanotettu.",
-                        "body": "Tilisi alennetaan osoitteeseen {product} laskutusjakson lopussa."
+                        "header": "Hei [%c], downgrade-pyyntösi on vastaanotettu.",
+                        "body": "Tilisi alennetaan osoitteeseen [%p] laskutusjakson lopussa."
                     },
                     "supporter": {
                         "convert": {
-                            "header": "Hei {name}, tilisi on päivitetty Premium Supporteriksi.",
+                            "header": "Hei [%c], tilisi on päivitetty Premium Supporteriksi.",
                             "body": "Onnittelut! Olet nyt Premium Supporter. Nauti nyt kaikista ominaisuuksista!"
                         },
                         "successful_payment": {
                             "body": "Nyt saat Twibbonin ilman vesileimoja ja ilman mainoksia!",
-                            "header": "Hei {name}, olemme vastaanottaneet maksunne onnistuneesti."
+                            "header": "Hei [%c], olemme vastaanottaneet maksunne onnistuneesti."
                         },
                         "min_3": {
                             "body": "Uusi tai päivitä tilauksesi nyt, niin voit jatkaa selaamista ilman mainoksia ja vesileimatonta Twibbonsia."
                         },
                         "successful": {
-                            "body": "Kiitos, että tilasit {product}. Nyt saat Twibbonin ilman vesileimoja ja ilman mainoksia!"
+                            "body": "Kiitos, että tilasit [%p]. Nyt saat Twibbonin ilman vesileimoja ja ilman mainoksia!"
                         },
                         "exp_day": {
-                            "header": "Hei {name}, maksusi ei mennyt läpi",
-                            "body": "Päivitä laskutustietosi ennen {date_plus_7} nauttiaksesi yksinoikeusominaisuuksista, mainoksettomasta selaamisesta ja vesileimattomasta Twibbonista."
+                            "header": "Hei [%c], maksusi ei mennyt läpi",
+                            "body": "Päivitä laskutustietosi ennen [%g] nauttiaksesi yksinoikeusominaisuuksista, mainoksettomasta selaamisesta ja vesileimattomasta Twibbonista."
                         },
                         "plus_2": {
-                            "header": "Hei {name}, tilauksesi päättyy 48 tunnin kuluttua.",
+                            "header": "Hei [%c], tilauksesi päättyy 48 tunnin kuluttua.",
                             "body": "Uudista tilauksesi nyt ja nauti vesileimattomista Twibbonista ja mainoksettomasta kokemuksesta."
                         },
                         "plus_7": {
-                            "header": "Hei {name}, tilisi on alennettu Twibbonize Free-tiliksi."
+                            "header": "Hei [%c], tilisi on alennettu Twibbonize Free-tiliksi."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Hei {name}, tilisi on alennettu Twibbonize Free-tiliksi.",
-                                "body": "Jatka tilauksesi uusimista, jotta voit jatkaa {product} ominaisuuksien käyttöä."
+                                "header": "Hei [%c], tilisi on alennettu Twibbonize Free-tiliksi.",
+                                "body": "Jatka tilauksesi uusimista, jotta voit jatkaa [%p] ominaisuuksien käyttöä."
                             }
                         },
                         "plus_5": {
-                            "header": "Hei {name}, tilisi on alennettu Twibbonize Free-tiliksi.",
-                            "body": "Jatka tilauksesi uusimista, jotta voit jatkaa {product} ominaisuuksien käyttöä."
+                            "header": "Hei [%c], tilisi on alennettu Twibbonize Free-tiliksi.",
+                            "body": "Jatka tilauksesi uusimista, jotta voit jatkaa [%p] ominaisuuksien käyttöä."
                         }
                     },
                     "period_changed": {
-                        "header": "Hei {name}, olemme vastaanottaneet pyyntösi vaihtaa suunnitelmaa.",
-                        "body": "Tilisi muutetaan {product} laskutusjakson lopussa."
+                        "header": "Hei [%c], olemme vastaanottaneet pyyntösi vaihtaa suunnitelmaa.",
+                        "body": "Tilisi muutetaan [%p] laskutusjakson lopussa."
                     },
                     "cancel_change_period": {
-                        "header": "Hei {name}, olemme vastaanottaneet pyyntösi peruuttaa suunnitelman muutos.",
+                        "header": "Hei [%c], olemme vastaanottaneet pyyntösi peruuttaa suunnitelman muutos.",
                         "body": "Tilauksesi jatkuu Premium Creator-tilauksena."
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "Hei {name}, vahvista tilausmaksusi nyt.",
+                            "header": "Hei [%c], vahvista tilausmaksusi nyt.",
                             "body": "Turvallisuusmääräysten noudattamisen varmistamiseksi vaadimme nimenomaisen vahvistuksen Twibbonize-tilauksen toistuvalle maksulle."
                         }
                     }
@@ -226,22 +226,23 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "Nyt saat Twibbonin ilman vesileimoja ja ilman mainoksia!",
-                        "header": "Hei {name}, maksusi on vastaanotettu"
+                        "header": "Hei [%c], maksusi on vastaanotettu"
                     },
                     "exp_day": {
-                        "body": "Uudista tai päivitä tilauksesi ennen {date_plus_7}, jotta voit edelleen nauttia yksinoikeusominaisuuksista, mainoksettomasta selaamisesta ja vesileimattomasta Twibbonista.",
-                        "header": "Hei {name}, {product}-tilauksesi on päättynyt."
+                        "body": "Uudista tai päivitä tilauksesi ennen [%g], jotta voit edelleen nauttia yksinoikeusominaisuuksista, mainoksettomasta selaamisesta ja vesileimattomasta Twibbonista.",
+                        "header": "Hei [%c], [%p]-tilauksesi on päättynyt."
                     },
                     "plus_5": {
                         "body": "Uudista tilauksesi 48 tunnin kuluessa, jotta voit edelleen nauttia vesileimattomasta Twibbonista ja mainoksettomasta kokemuksesta.",
-                        "header": "Hei {name}, tilauksesi päättyy 48 tunnin kuluttua."
+                        "header": "Hei [%c], tilauksesi päättyy 48 tunnin kuluttua."
                     },
                     "min_3": {
                         "body": "Uudista tai päivitä tilauksesi nyt ja nauti edelleen mainoksettomasta selaamisesta ja vesileimattomista Twibboneista.",
-                        "header": "Hei {name}, {product} päättyy 3 päivän kuluttua."
+                        "header": "Hei [%c], [%p] päättyy 3 päivän kuluttua."
                     },
                     "plus_7": {
-                        "body": "Jatka tilauksesi uusimista, jotta voit jatkaa {product} ominaisuuksien käyttöä."
+                        "body": "Jatka tilauksesi uusimista, jotta voit jatkaa [%p] ominaisuuksien käyttöä.",
+                        "header": "Hei [%c] , tilisi on alennettu Twibbonize Free -versioon"
                     }
                 }
             },
@@ -262,24 +263,28 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "Mainokseton kiintiö jäljellä",
-                    "body": "Sinulla on jäljellä 50 tukijan mainokseton kiintiö {campaignlink}. Nauti mainosvapaasta kokemuksesta niin kauan kuin sitä riittää!"
+                    "body": "Sinulla on jäljellä 50 tukijan mainokseton kiintiö [%c]. Nauti mainosvapaasta kokemuksesta niin kauan kuin sitä riittää!"
                 },
                 "adfree_quota_runout": {
                     "header": "Mainokseton kiintiö on loppunut",
-                    "body": "{campaignlink}-tukijasi alkavat nähdä mainoksia selatessaan alustaa."
+                    "body": "[%c]-tukijasi alkavat nähdä mainoksia selatessaan alustaa."
                 }
             },
             "new_post": {
                 "header": "Uusi Twibbon lähetetty",
-                "body": "{participant} posted Twibbon in your campaign {title}'s gallery!"
+                "body": "[%c] posted Twibbon in your campaign [%s]'s gallery!"
             },
             "new_comment": {
                 "header": "Uusi kommentti!",
-                "body": "{participant} kommentoi viestiäsi kampanjassa {title}!"
+                "body": "[%c] kommentoi viestiäsi kampanjassa [%s]!"
             },
             "new_reply": {
                 "header": "Uusi vastaus!",
-                "body": "{participant} kommentoi kommenttiisi kampanjaan {title}!"
+                "body": "[%c] kommentoi kommenttiisi kampanjaan [%s]!"
+            },
+            "approval": {
+                "header": "Post tarvitsee hyväksynnän",
+                "body": "[%c] pyydä hyväksyntää lisätä viesti kampanjaasi [%s]"
             }
         }
     }
