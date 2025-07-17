@@ -807,7 +807,8 @@
             "change_photo": "ఫోటోను మార్చండి",
             "processing_complete": "ప్రాసెసింగ్ పూర్తయింది",
             "processing_your_photo": "మీ ఫోటోను ప్రాసెస్ చేస్తోంది",
-            "photo_ready_to_download": "మీ ఫోటో డౌన్‌లోడ్ చేసుకోవడానికి సిద్ధంగా ఉంది."
+            "photo_ready_to_download": "మీ ఫోటో డౌన్‌లోడ్ చేసుకోవడానికి సిద్ధంగా ఉంది.",
+            "copy_caption": "ఈ శీర్షికను సోషల్ మీడియాకు కాపీ చేయండి!"
         },
         "report": {
             "report_campaign": "నివేదిక",
@@ -1035,8 +1036,8 @@
             "order_again": "మళ్ళీ ఆర్డర్ చేయండి"
         },
         "email": {
-            "add_email": "Add Your Email to Continue",
-            "to_make_purchase": "We need your email address added to your account to process your purchase. This allows us to send you order confirmations, receipts, and important updates."
+            "add_email": "కొనసాగించడానికి మీ ఇమెయిల్‌ను జోడించండి",
+            "to_make_purchase": "మీ కొనుగోలును ప్రాసెస్ చేయడానికి మీ ఖాతాకు మీ ఇమెయిల్ చిరునామాను జోడించాలి. దీని వలన మేము మీకు ఆర్డర్ నిర్ధారణలు, రసీదులు మరియు ముఖ్యమైన నవీకరణలను పంపగలము."
         }
     },
     "page_collection": {
@@ -1076,7 +1077,11 @@
             "are_you_sure": "మీరు చెప్పేది నిజమా?",
             "if_you_leave": "మీరు ఈ పేజీ నుండి నిష్క్రమిస్తే, సేవ్ చేయని అన్ని మార్పులు పోతాయి.",
             "yes_leave": "అవును, ఈ పేజీని వదిలివేయి",
-            "no_stay": "లేదు, ఈ పేజీలోనే ఉండు"
+            "no_stay": "లేదు, ఈ పేజీలోనే ఉండు",
+            "update_gallery_permission": "గ్యాలరీ అనుమతిని నవీకరించండి",
+            "switch_to_allow": "'పోస్టింగ్‌ను అనుమతించు'కి మారడం వలన, పాల్గొనేవారి పోస్ట్ అభ్యర్థనలన్నీ స్వయంచాలకంగా ఆమోదించబడతాయి. ఈ నవీకరణను వర్తింపజేయడానికి దయచేసి నిర్ధారించండి.",
+            "yes_change": "అవును, ఇప్పుడే మార్చు",
+            "cancel": "రద్దు చేయి"
         },
         "dropzone": {
             "type": "రకం:",
@@ -1212,7 +1217,18 @@
             "understand": "నాకు అర్థమైంది"
         },
         "permission": {
-            "gallery_permission": "Gallery Permission"
+            "gallery_permission": "గ్యాలరీ అనుమతి",
+            "count_selected": "{count} ఎంచుకోబడింది",
+            "request_approval_to_add_post": "మీ ప్రచారంలో పోస్ట్‌ను జోడించడానికి {username} ఆమోదం అభ్యర్థించారు.",
+            "allow_posting": "పోస్టింగ్‌ను అనుమతించు",
+            "limited_posting": "పరిమిత పోస్టింగ్",
+            "disable_posting": "పోస్టింగ్‌ను నిలిపివేయండి",
+            "in_review": "సమీక్షలో ఉంది ({count})",
+            "hidden": "దాచబడింది ({count})",
+            "approved": "ఆమోదించబడింది",
+            "allow_posting_desc": "ప్రజలు తమ ఫోటోలను నేరుగా మీ ప్రచార పేజీలో పోస్ట్ చేయడం ద్వారా మద్దతు ఇవ్వవచ్చు.",
+            "limited_posting_desc": "ఆమోదించబడిన వినియోగదారులు మాత్రమే మీ ప్రచార పేజీలో వారి ట్విబ్బన్‌లను పోస్ట్ చేయడానికి అనుమతించబడతారు.",
+            "disable_posting_desc": "మీ ప్రచార పేజీలో ఎవరూ తమ ఫోటోను పోస్ట్ చేయలేరు."
         }
     },
     "page_for_creators": {
@@ -2200,19 +2216,23 @@
             "unpinned": "అన్‌పిన్ చేయబడింది"
         },
         "waiting_approval": {
-            "request_approval": "Request approval from {name}",
-            "accept": "Accept {count}",
-            "decline": "Decline {count}",
-            "approved": "Post approved",
-            "rejected": "Post rejected",
-            "post_in_review": "Posts In Review",
-            "selected": "Selected {count}",
-            "posts_waiting_approval": "{count} posts waiting for your approval",
-            "all": "All",
-            "there_are_approval_posts": "There are some posts that need your approval.",
-            "review": "Review",
-            "accept_button": "Accept",
-            "decline_button": "Decline"
+            "request_approval": "{name} నుండి ఆమోదం కోసం అభ్యర్థించండి",
+            "accept": "{count} అంగీకరించు",
+            "decline": "తిరస్కరించు {count}",
+            "approved": "పోస్ట్ ఆమోదించబడింది",
+            "rejected": "పోస్ట్ తిరస్కరించబడింది",
+            "post_in_review": "సమీక్షలో ఉన్న పోస్ట్‌లు",
+            "selected": "ఎంచుకున్న {count}",
+            "posts_waiting_approval": "{count} పోస్ట్‌లు మీ ఆమోదం కోసం వేచి ఉన్నాయి.",
+            "all": "అన్నీ",
+            "there_are_approval_posts": "మీ ఆమోదం అవసరమైన కొన్ని పోస్టులు ఉన్నాయి.",
+            "review": "సమీక్ష",
+            "accept_button": "అంగీకరించు",
+            "decline_button": "తిరస్కరించు",
+            "waiting_approval": "ఆమోదం కోసం వేచి ఉంది",
+            "hidden": "దాచబడింది",
+            "hidden_description": "ఈ సమర్పణను ప్రచార సృష్టికర్త తిరస్కరించారు.",
+            "waiting_description": "సృష్టికర్త ఆమోదించిన తర్వాత ఈ పోస్ట్ కనిపిస్తుంది."
         }
     },
     "report": {

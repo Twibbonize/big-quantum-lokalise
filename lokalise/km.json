@@ -807,7 +807,8 @@
             "change_photo": "ផ្លាស់ប្តូររូបថត",
             "processing_complete": "ដំណើរការបានបញ្ចប់",
             "processing_your_photo": "កំពុងដំណើរការរូបថតរបស់អ្នក។",
-            "photo_ready_to_download": "រូបថតរបស់អ្នករួចរាល់ដើម្បីទាញយក"
+            "photo_ready_to_download": "រូបថតរបស់អ្នករួចរាល់ដើម្បីទាញយក",
+            "copy_caption": "ចម្លងចំណងជើងនេះទៅបណ្តាញសង្គម!"
         },
         "report": {
             "report_campaign": "រាយការណ៍",
@@ -1035,8 +1036,8 @@
             "order_again": "បញ្ជាម្តងទៀត"
         },
         "email": {
-            "add_email": "Add Your Email to Continue",
-            "to_make_purchase": "We need your email address added to your account to process your purchase. This allows us to send you order confirmations, receipts, and important updates."
+            "add_email": "បន្ថែមអ៊ីមែលរបស់អ្នកដើម្បីបន្ត",
+            "to_make_purchase": "យើងត្រូវការបន្ថែមអាសយដ្ឋានអ៊ីមែលរបស់អ្នកទៅក្នុងគណនីរបស់អ្នក ដើម្បីដំណើរការការទិញរបស់អ្នក។ នេះអនុញ្ញាតឱ្យយើងផ្ញើការបញ្ជាក់ការបញ្ជាទិញ បង្កាន់ដៃ និងព័ត៌មានថ្មីៗសំខាន់ៗដល់អ្នក។"
         }
     },
     "page_collection": {
@@ -1076,7 +1077,11 @@
             "are_you_sure": "តើ​អ្នក​ប្រាកដ​ឬ​អត់?",
             "if_you_leave": "ប្រសិនបើអ្នកចាកចេញពីទំព័រនេះ រាល់ការផ្លាស់ប្តូរដែលមិនបានរក្សាទុកនឹងត្រូវបាត់បង់",
             "yes_leave": "បាទ\/ចាស ចាកចេញពីទំព័រនេះ។",
-            "no_stay": "ទេ ស្នាក់នៅលើទំព័រនេះ។"
+            "no_stay": "ទេ ស្នាក់នៅលើទំព័រនេះ។",
+            "update_gallery_permission": "ធ្វើបច្ចុប្បន្នភាពការអនុញ្ញាតវិចិត្រសាល",
+            "switch_to_allow": "ប្តូរទៅអនុញ្ញាតការបង្ហោះ សំណើបង្ហោះរបស់អ្នកចូលរួមទាំងអស់នឹងត្រូវបានយល់ព្រមដោយស្វ័យប្រវត្តិ។ សូមបញ្ជាក់ដើម្បីអនុវត្តបច្ចុប្បន្នភាពនេះ។",
+            "yes_change": "បាទ ផ្លាស់ប្តូរឥឡូវនេះ",
+            "cancel": "បោះបង់"
         },
         "dropzone": {
             "type": "ប្រភេទ៖",
@@ -1212,7 +1217,18 @@
             "understand": "ខ្ញុំយល់"
         },
         "permission": {
-            "gallery_permission": "Gallery Permission"
+            "gallery_permission": "ការអនុញ្ញាតវិចិត្រសាល",
+            "count_selected": "{count} បានជ្រើសរើស",
+            "request_approval_to_add_post": "{username} ស្នើសុំការយល់ព្រមដើម្បីបន្ថែមការបង្ហោះនៅលើយុទ្ធនាការរបស់អ្នក។",
+            "allow_posting": "អនុញ្ញាតឱ្យបង្ហោះ",
+            "limited_posting": "ការបង្ហោះមានកំណត់",
+            "disable_posting": "បិទការបង្ហោះ",
+            "in_review": "កំពុងពិនិត្យ ({count})",
+            "hidden": "លាក់ ({count})",
+            "approved": "បានអនុម័ត",
+            "allow_posting_desc": "មនុស្សអាចគាំទ្រដោយការបង្ហោះរូបថតរបស់ពួកគេដោយផ្ទាល់នៅលើទំព័រយុទ្ធនាការរបស់អ្នក។",
+            "limited_posting_desc": "មានតែអ្នកប្រើប្រាស់ដែលបានអនុម័តប៉ុណ្ណោះដែលត្រូវបានអនុញ្ញាតឱ្យបង្ហោះ Twibbons របស់ពួកគេនៅលើទំព័រយុទ្ធនាការរបស់អ្នក។",
+            "disable_posting_desc": "គ្មាននរណាម្នាក់អាចបង្ហោះរូបថតរបស់ពួកគេនៅលើទំព័រយុទ្ធនាការរបស់អ្នកបានទេ។"
         }
     },
     "page_for_creators": {
@@ -2200,19 +2216,23 @@
             "unpinned": "មិនបានខ្ទាស់"
         },
         "waiting_approval": {
-            "request_approval": "Request approval from {name}",
-            "accept": "Accept {count}",
-            "decline": "Decline {count}",
-            "approved": "Post approved",
-            "rejected": "Post rejected",
-            "post_in_review": "Posts In Review",
-            "selected": "Selected {count}",
-            "posts_waiting_approval": "{count} posts waiting for your approval",
-            "all": "All",
-            "there_are_approval_posts": "There are some posts that need your approval.",
-            "review": "Review",
-            "accept_button": "Accept",
-            "decline_button": "Decline"
+            "request_approval": "ស្នើសុំការយល់ព្រមពី {name}",
+            "accept": "ទទួលយក {count}",
+            "decline": "បដិសេធ {count}",
+            "approved": "ប្រកាសត្រូវបានអនុម័ត",
+            "rejected": "ប្រកាសត្រូវបានបដិសេធ",
+            "post_in_review": "ប្រកាសនៅក្នុងការពិនិត្យឡើងវិញ",
+            "selected": "បានជ្រើសរើស {count}",
+            "posts_waiting_approval": "ប្រកាស {count} រង់ចាំការយល់ព្រមរបស់អ្នក។",
+            "all": "ទាំងអស់។",
+            "there_are_approval_posts": "មានប្រកាសមួយចំនួនដែលត្រូវការការយល់ព្រមពីអ្នក។",
+            "review": "ពិនិត្យ",
+            "accept_button": "ទទួលយក",
+            "decline_button": "បដិសេធ",
+            "waiting_approval": "កំពុងរង់ចាំការអនុម័ត",
+            "hidden": "លាក់",
+            "hidden_description": "ការដាក់ស្នើនេះត្រូវបានបដិសេធដោយអ្នកបង្កើតយុទ្ធនាការ។",
+            "waiting_description": "ការបង្ហោះនេះនឹងបង្ហាញនៅពេលអ្នកបង្កើតយល់ព្រម។"
         }
     },
     "report": {

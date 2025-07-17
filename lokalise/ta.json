@@ -807,7 +807,8 @@
             "change_photo": "புகைப்படத்தை மாற்று",
             "processing_complete": "செயலாக்கம் முடிந்தது",
             "processing_your_photo": "உங்கள் புகைப்படத்தைச் செயலாக்குகிறது",
-            "photo_ready_to_download": "உங்கள் புகைப்படம் பதிவிறக்கத் தயாராக உள்ளது."
+            "photo_ready_to_download": "உங்கள் புகைப்படம் பதிவிறக்கத் தயாராக உள்ளது.",
+            "copy_caption": "இந்த தலைப்பை சமூக ஊடகங்களுக்கு நகலெடுக்கவும்!"
         },
         "report": {
             "report_campaign": "அறிக்கை",
@@ -1035,8 +1036,8 @@
             "order_again": "மீண்டும் ஆர்டர் செய்"
         },
         "email": {
-            "add_email": "Add Your Email to Continue",
-            "to_make_purchase": "We need your email address added to your account to process your purchase. This allows us to send you order confirmations, receipts, and important updates."
+            "add_email": "தொடர உங்கள் மின்னஞ்சலைச் சேர்க்கவும்.",
+            "to_make_purchase": "உங்கள் கொள்முதலைச் செயல்படுத்த, உங்கள் கணக்கில் உங்கள் மின்னஞ்சல் முகவரியைச் சேர்க்க வேண்டும். இது ஆர்டர் உறுதிப்படுத்தல்கள், ரசீதுகள் மற்றும் முக்கியமான புதுப்பிப்புகளை உங்களுக்கு அனுப்ப எங்களை அனுமதிக்கிறது."
         }
     },
     "page_collection": {
@@ -1076,7 +1077,11 @@
             "are_you_sure": "நீ சொல்வது உறுதியா?",
             "if_you_leave": "இந்தப் பக்கத்தை விட்டு வெளியேறினால், சேமிக்கப்படாத அனைத்து மாற்றங்களும் இழக்கப்படும்.",
             "yes_leave": "ஆம், இந்தப் பக்கத்தை விட்டு வெளியேறு",
-            "no_stay": "இல்லை, இந்தப் பக்கத்திலேயே இரு."
+            "no_stay": "இல்லை, இந்தப் பக்கத்திலேயே இரு.",
+            "update_gallery_permission": "கேலரி அனுமதியைப் புதுப்பிக்கவும்",
+            "switch_to_allow": "இடுகையிடுவதை அனுமதி என்பதற்கு மாறுவதால், அனைத்து பங்கேற்பாளர் இடுகை கோரிக்கைகளும் தானாகவே அங்கீகரிக்கப்படும். இந்தப் புதுப்பிப்பைப் பயன்படுத்த உறுதிப்படுத்தவும்.",
+            "yes_change": "ஆம், இப்போதே மாற்று",
+            "cancel": "ரத்துசெய்"
         },
         "dropzone": {
             "type": "வகை:",
@@ -1212,7 +1217,18 @@
             "understand": "எனக்குப் புரிகிறது"
         },
         "permission": {
-            "gallery_permission": "Gallery Permission"
+            "gallery_permission": "கேலரி அனுமதி",
+            "count_selected": "{count} தேர்ந்தெடுக்கப்பட்டது",
+            "request_approval_to_add_post": "உங்கள் பிரச்சாரத்தில் இடுகையைச் சேர்க்க {username} அனுமதி கோருகிறார்.",
+            "allow_posting": "இடுகையிட அனுமதி",
+            "limited_posting": "வரையறுக்கப்பட்ட இடுகையிடல்",
+            "disable_posting": "இடுகையிடுவதை முடக்கு",
+            "in_review": "மதிப்பாய்வில் ({எண்ணிக்கை})",
+            "hidden": "மறைக்கப்பட்டது ({எண்ணிக்கை})",
+            "approved": "அங்கீகரிக்கப்பட்டது",
+            "allow_posting_desc": "மக்கள் தங்கள் புகைப்படங்களை நேரடியாக உங்கள் பிரச்சாரப் பக்கத்தில் இடுகையிடுவதன் மூலம் ஆதரிக்கலாம்.",
+            "limited_posting_desc": "அங்கீகரிக்கப்பட்ட பயனர்கள் மட்டுமே உங்கள் பிரச்சாரப் பக்கத்தில் தங்கள் Twibbons ஐ இடுகையிட அனுமதிக்கப்படுவார்கள்.",
+            "disable_posting_desc": "உங்கள் பிரச்சாரப் பக்கத்தில் யாரும் தங்கள் புகைப்படத்தை இடுகையிட முடியாது."
         }
     },
     "page_for_creators": {
@@ -2200,19 +2216,23 @@
             "unpinned": "பின் நீக்கப்பட்டது"
         },
         "waiting_approval": {
-            "request_approval": "Request approval from {name}",
-            "accept": "Accept {count}",
-            "decline": "Decline {count}",
-            "approved": "Post approved",
-            "rejected": "Post rejected",
-            "post_in_review": "Posts In Review",
-            "selected": "Selected {count}",
-            "posts_waiting_approval": "{count} posts waiting for your approval",
-            "all": "All",
-            "there_are_approval_posts": "There are some posts that need your approval.",
-            "review": "Review",
-            "accept_button": "Accept",
-            "decline_button": "Decline"
+            "request_approval": "{name} இடமிருந்து ஒப்புதலைக் கோருங்கள்",
+            "accept": "{எண்ணிக்கை} ஏற்றுக்கொள்ளுங்கள்",
+            "decline": "{எண்ணிக்கை} குறை",
+            "approved": "இடுகை அங்கீகரிக்கப்பட்டது",
+            "rejected": "இடுகை நிராகரிக்கப்பட்டது",
+            "post_in_review": "மதிப்பாய்வில் உள்ள இடுகைகள்",
+            "selected": "தேர்ந்தெடுக்கப்பட்டது {எண்ணிக்கை}",
+            "posts_waiting_approval": "{count} பதிவுகள் உங்கள் ஒப்புதலுக்காகக் காத்திருக்கின்றன.",
+            "all": "அனைத்தும்",
+            "there_are_approval_posts": "உங்கள் ஒப்புதல் தேவைப்படும் சில பதிவுகள் உள்ளன.",
+            "review": "விமர்சனம்",
+            "accept_button": "ஏற்றுக்கொள்",
+            "decline_button": "நிராகரி",
+            "waiting_approval": "ஒப்புதலுக்காகக் காத்திருக்கிறது",
+            "hidden": "மறைக்கப்பட்டது",
+            "hidden_description": "இந்தச் சமர்ப்பிப்பை பிரச்சார உருவாக்கியவர் நிராகரித்தார்.",
+            "waiting_description": "படைப்பாளர் ஒப்புதல் அளித்தவுடன் இந்தப் பதிவு தோன்றும்."
         }
     },
     "report": {

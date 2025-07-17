@@ -807,7 +807,8 @@
             "change_photo": "ફોટો બદલો",
             "processing_complete": "પ્રક્રિયા પૂર્ણ થઈ",
             "processing_your_photo": "તમારા ફોટા પર પ્રક્રિયા કરી રહ્યાં છીએ",
-            "photo_ready_to_download": "તમારો ફોટો ડાઉનલોડ કરવા માટે તૈયાર છે."
+            "photo_ready_to_download": "તમારો ફોટો ડાઉનલોડ કરવા માટે તૈયાર છે.",
+            "copy_caption": "આ કૅપ્શનને સોશિયલ મીડિયા પર કોપી કરો!"
         },
         "report": {
             "report_campaign": "રિપોર્ટ",
@@ -1035,8 +1036,8 @@
             "order_again": "ફરીથી ઓર્ડર કરો"
         },
         "email": {
-            "add_email": "Add Your Email to Continue",
-            "to_make_purchase": "We need your email address added to your account to process your purchase. This allows us to send you order confirmations, receipts, and important updates."
+            "add_email": "ચાલુ રાખવા માટે તમારું ઇમેઇલ ઉમેરો",
+            "to_make_purchase": "તમારી ખરીદીની પ્રક્રિયા કરવા માટે અમને તમારા એકાઉન્ટમાં તમારું ઇમેઇલ સરનામું ઉમેરવાની જરૂર છે. આનાથી અમે તમને ઓર્ડર પુષ્ટિકરણ, રસીદો અને મહત્વપૂર્ણ અપડેટ્સ મોકલી શકીએ છીએ."
         }
     },
     "page_collection": {
@@ -1076,7 +1077,11 @@
             "are_you_sure": "શું તમને ખાતરી છે?",
             "if_you_leave": "જો તમે આ પૃષ્ઠ છોડી દો છો, તો બધા વણસાચવેલા ફેરફારો ખોવાઈ જશે.",
             "yes_leave": "હા, આ પેજ છોડી દો",
-            "no_stay": "ના, આ પેજ પર રહો"
+            "no_stay": "ના, આ પેજ પર રહો",
+            "update_gallery_permission": "ગેલેરી પરવાનગી અપડેટ કરો",
+            "switch_to_allow": "\"પોસ્ટ કરવાની મંજૂરી આપો\" પર સ્વિચ કરવાથી, બધી સહભાગી પોસ્ટ વિનંતીઓ આપમેળે મંજૂર થશે. કૃપા કરીને આ અપડેટ લાગુ કરવા માટે પુષ્ટિ કરો.",
+            "yes_change": "હા, હમણાં બદલો",
+            "cancel": "રદ કરો"
         },
         "dropzone": {
             "type": "પ્રકાર:",
@@ -1212,7 +1217,18 @@
             "understand": "હું સમજું છું"
         },
         "permission": {
-            "gallery_permission": "Gallery Permission"
+            "gallery_permission": "ગેલેરી પરવાનગી",
+            "count_selected": "{ગણતરી} પસંદ કરેલ",
+            "request_approval_to_add_post": "{username} તમારા ઝુંબેશ પર પોસ્ટ ઉમેરવા માટે મંજૂરીની વિનંતી કરે છે.",
+            "allow_posting": "પોસ્ટ કરવાની મંજૂરી આપો",
+            "limited_posting": "મર્યાદિત પોસ્ટિંગ",
+            "disable_posting": "પોસ્ટિંગ અક્ષમ કરો",
+            "in_review": "સમીક્ષા હેઠળ ({count})",
+            "hidden": "છુપાવેલ ({count})",
+            "approved": "મંજૂર",
+            "allow_posting_desc": "લોકો તમારા ઝુંબેશ પૃષ્ઠ પર સીધા તેમના ફોટા પોસ્ટ કરીને સમર્થન આપી શકે છે",
+            "limited_posting_desc": "ફક્ત માન્ય વપરાશકર્તાઓ જ તમારા ઝુંબેશ પૃષ્ઠ પર તેમના ટ્વિબન્સ પોસ્ટ કરી શકે છે.",
+            "disable_posting_desc": "તમારા ઝુંબેશ પેજ પર કોઈ પોતાનો ફોટો પોસ્ટ કરી શકશે નહીં."
         }
     },
     "page_for_creators": {
@@ -2200,19 +2216,23 @@
             "unpinned": "અનપિન કર્યું"
         },
         "waiting_approval": {
-            "request_approval": "Request approval from {name}",
-            "accept": "Accept {count}",
-            "decline": "Decline {count}",
-            "approved": "Post approved",
-            "rejected": "Post rejected",
-            "post_in_review": "Posts In Review",
-            "selected": "Selected {count}",
-            "posts_waiting_approval": "{count} posts waiting for your approval",
-            "all": "All",
-            "there_are_approval_posts": "There are some posts that need your approval.",
-            "review": "Review",
-            "accept_button": "Accept",
-            "decline_button": "Decline"
+            "request_approval": "{name} પાસેથી મંજૂરીની વિનંતી કરો",
+            "accept": "સ્વીકારો {ગણતરી}",
+            "decline": "{ગણતરી} ઘટાડો",
+            "approved": "પોસ્ટ મંજૂર થઈ",
+            "rejected": "પોસ્ટ નકારી",
+            "post_in_review": "સમીક્ષા હેઠળની પોસ્ટ્સ",
+            "selected": "પસંદ કરેલ {ગણતરી}",
+            "posts_waiting_approval": "{count} પોસ્ટ્સ તમારી મંજૂરીની રાહ જોઈ રહી છે.",
+            "all": "બધા",
+            "there_are_approval_posts": "કેટલીક પોસ્ટ્સ એવી છે જેને તમારી મંજૂરીની જરૂર છે.",
+            "review": "સમીક્ષા",
+            "accept_button": "સ્વીકારો",
+            "decline_button": "નકારો",
+            "waiting_approval": "મંજૂરીની રાહ જોઈ રહ્યા છીએ",
+            "hidden": "છુપાયેલ",
+            "hidden_description": "આ સબમિશન ઝુંબેશ નિર્માતા દ્વારા નકારવામાં આવ્યું હતું.",
+            "waiting_description": "સર્જક મંજૂરી આપે પછી આ પોસ્ટ દેખાશે."
         }
     },
     "report": {

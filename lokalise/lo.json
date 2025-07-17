@@ -807,7 +807,8 @@
             "change_photo": "ປ່ຽນຮູບ",
             "processing_complete": "ການປະມວນຜົນສຳເລັດ",
             "processing_your_photo": "ກຳລັງປະມວນຜົນຮູບຂອງເຈົ້າ",
-            "photo_ready_to_download": "ຮູບຂອງທ່ານພ້ອມໃຫ້ດາວໂຫຼດແລ້ວ"
+            "photo_ready_to_download": "ຮູບຂອງທ່ານພ້ອມໃຫ້ດາວໂຫຼດແລ້ວ",
+            "copy_caption": "ສຳເນົາຄຳບັນຍາຍນີ້ໃສ່ Social Media!"
         },
         "report": {
             "report_campaign": "ລາຍງານ",
@@ -1035,8 +1036,8 @@
             "order_again": "ສັ່ງອີກຄັ້ງ"
         },
         "email": {
-            "add_email": "Add Your Email to Continue",
-            "to_make_purchase": "We need your email address added to your account to process your purchase. This allows us to send you order confirmations, receipts, and important updates."
+            "add_email": "ເພີ່ມອີເມວຂອງທ່ານເພື່ອສືບຕໍ່",
+            "to_make_purchase": "ພວກເຮົາຕ້ອງການທີ່ຢູ່ອີເມວຂອງທ່ານເພີ່ມໃສ່ບັນຊີຂອງທ່ານເພື່ອດໍາເນີນການຊື້ຂອງທ່ານ. ນີ້ອະນຸຍາດໃຫ້ພວກເຮົາສົ່ງການຢືນຢັນການສັ່ງຊື້, ໃບຮັບເງິນ, ແລະການປັບປຸງທີ່ສໍາຄັນໃຫ້ທ່ານ."
         }
     },
     "page_collection": {
@@ -1076,7 +1077,11 @@
             "are_you_sure": "ເຈົ້າ​ແນ່​ໃຈ​ບໍ່?",
             "if_you_leave": "ຖ້າທ່ານອອກຈາກຫນ້ານີ້, ການປ່ຽນແປງທີ່ບໍ່ໄດ້ບັນທຶກໄວ້ທັງຫມົດຈະສູນເສຍໄປ",
             "yes_leave": "ແມ່ນແລ້ວ, ອອກຈາກໜ້ານີ້",
-            "no_stay": "ບໍ່, ຢູ່ໃນໜ້ານີ້"
+            "no_stay": "ບໍ່, ຢູ່ໃນໜ້ານີ້",
+            "update_gallery_permission": "ອັບເດດການອະນຸຍາດຄັງຮູບ",
+            "switch_to_allow": "ການສະຫຼັບໄປອະນຸຍາດໃຫ້ໂພສ, ການຮ້ອງຂໍການໂພສທັງໝົດຂອງຜູ້ເຂົ້າຮ່ວມຈະຖືກອະນຸມັດໂດຍອັດຕະໂນມັດ. ກະລຸນາຢືນຢັນເພື່ອນຳໃຊ້ການອັບເດດນີ້.",
+            "yes_change": "ແມ່ນແລ້ວ, ປ່ຽນດຽວນີ້",
+            "cancel": "ຍົກເລີກ"
         },
         "dropzone": {
             "type": "ປະເພດ:",
@@ -1212,7 +1217,18 @@
             "understand": "ຂ້ອຍເຂົ້າໃຈ"
         },
         "permission": {
-            "gallery_permission": "Gallery Permission"
+            "gallery_permission": "ການອະນຸຍາດຄັງຮູບ",
+            "count_selected": "{count} ເລືອກແລ້ວ",
+            "request_approval_to_add_post": "{username} ຮ້ອງຂໍການອະນຸມັດເພື່ອເພີ່ມໂພສໃນແຄມເປນຂອງທ່ານ.",
+            "allow_posting": "ອະນຸຍາດໃຫ້ໂພສ",
+            "limited_posting": "ການປະກາດຈໍາກັດ",
+            "disable_posting": "ປິດການໂພສ",
+            "in_review": "ກຳລັງກວດສອບ ({count})",
+            "hidden": "ເຊື່ອງ ({count})",
+            "approved": "ອະນຸມັດ",
+            "allow_posting_desc": "ປະຊາຊົນສາມາດສະຫນັບສະຫນູນໂດຍການໂພດຮູບພາບຂອງເຂົາເຈົ້າໂດຍກົງໃນຫນ້າແຄມເປນຂອງທ່ານ",
+            "limited_posting_desc": "ມີພຽງແຕ່ຜູ້ໃຊ້ທີ່ໄດ້ຮັບການອະນຸມັດເທົ່ານັ້ນທີ່ຈະປະກາດ Twibbons ຂອງເຂົາເຈົ້າຢູ່ໃນຫນ້າແຄມເປນຂອງທ່ານ",
+            "disable_posting_desc": "ບໍ່ມີໃຜສາມາດໂພສຮູບຂອງເຂົາເຈົ້າຢູ່ໃນໜ້າແຄມເປນຂອງເຈົ້າໄດ້"
         }
     },
     "page_for_creators": {
@@ -2200,19 +2216,23 @@
             "unpinned": "ຖອດປັກໝຸດແລ້ວ"
         },
         "waiting_approval": {
-            "request_approval": "Request approval from {name}",
-            "accept": "Accept {count}",
-            "decline": "Decline {count}",
-            "approved": "Post approved",
-            "rejected": "Post rejected",
-            "post_in_review": "Posts In Review",
-            "selected": "Selected {count}",
-            "posts_waiting_approval": "{count} posts waiting for your approval",
-            "all": "All",
-            "there_are_approval_posts": "There are some posts that need your approval.",
-            "review": "Review",
-            "accept_button": "Accept",
-            "decline_button": "Decline"
+            "request_approval": "ຮ້ອງຂໍການອະນຸມັດຈາກ {name}",
+            "accept": "ຍອມຮັບ {count}",
+            "decline": "ປະຕິເສດ {count}",
+            "approved": "ປະກາດອະນຸມັດ",
+            "rejected": "ໂພສຖືກປະຕິເສດ",
+            "post_in_review": "ບົດຄວາມຢູ່ໃນການທົບທວນຄືນ",
+            "selected": "ເລືອກ {count} ແລ້ວ",
+            "posts_waiting_approval": "{count} ໂພສລໍຖ້າການອະນຸມັດຂອງທ່ານ",
+            "all": "ທັງໝົດ",
+            "there_are_approval_posts": "ມີບາງໂພສທີ່ຕ້ອງການການອະນຸມັດຈາກເຈົ້າ.",
+            "review": "ທົບທວນຄືນ",
+            "accept_button": "ຍອມຮັບ",
+            "decline_button": "ຫຼຸດລົງ",
+            "waiting_approval": "ລໍຖ້າການອະນຸມັດ",
+            "hidden": "ເຊື່ອງໄວ້",
+            "hidden_description": "ການຍື່ນສະເໜີນີ້ຖືກປະຕິເສດໂດຍຜູ້ສ້າງແຄມເປນ.",
+            "waiting_description": "ໂພສນີ້ຈະປາກົດເມື່ອຜູ້ສ້າງອະນຸມັດມັນ."
         }
     },
     "report": {
