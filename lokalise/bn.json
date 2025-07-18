@@ -807,7 +807,8 @@
             "change_photo": "ছবি পরিবর্তন করুন",
             "processing_complete": "প্রক্রিয়াকরণ সম্পূর্ণ হয়েছে",
             "processing_your_photo": "আপনার ছবি প্রক্রিয়া করা হচ্ছে",
-            "photo_ready_to_download": "আপনার ছবি ডাউনলোডের জন্য প্রস্তুত।"
+            "photo_ready_to_download": "আপনার ছবি ডাউনলোডের জন্য প্রস্তুত।",
+            "copy_caption": "এই ক্যাপশনটি সোশ্যাল মিডিয়ায় কপি করুন!"
         },
         "report": {
             "report_campaign": "রিপোর্ট",
@@ -1035,8 +1036,8 @@
             "order_again": "আবার অর্ডার করুন"
         },
         "email": {
-            "add_email": "Add Your Email to Continue",
-            "to_make_purchase": "We need your email address added to your account to process your purchase. This allows us to send you order confirmations, receipts, and important updates."
+            "add_email": "চালিয়ে যেতে আপনার ইমেল যোগ করুন",
+            "to_make_purchase": "আপনার ক্রয় প্রক্রিয়া করার জন্য আপনার অ্যাকাউন্টে আপনার ইমেল ঠিকানা যোগ করা প্রয়োজন। এর ফলে আমরা আপনাকে অর্ডার নিশ্চিতকরণ, রসিদ এবং গুরুত্বপূর্ণ আপডেট পাঠাতে পারব।"
         }
     },
     "page_collection": {
@@ -1076,7 +1077,11 @@
             "are_you_sure": "তুমি কি নিশ্চিত?",
             "if_you_leave": "আপনি এই পৃষ্ঠাটি ছেড়ে গেলে, সমস্ত অসংরক্ষিত পরিবর্তনগুলি হারিয়ে যাবে৷",
             "yes_leave": "হ্যাঁ, এই পৃষ্ঠাটি ছেড়ে দিন",
-            "no_stay": "না, এই পৃষ্ঠায় থাকুন"
+            "no_stay": "না, এই পৃষ্ঠায় থাকুন",
+            "update_gallery_permission": "গ্যালারির অনুমতি আপডেট করুন",
+            "switch_to_allow": "\"পোস্টিংকে অনুমতি দিন\" বিকল্পে স্যুইচ করলে, সকল অংশগ্রহণকারীর পোস্টের অনুরোধ স্বয়ংক্রিয়ভাবে অনুমোদিত হবে। এই আপডেটটি প্রয়োগ করার জন্য দয়া করে নিশ্চিত করুন।",
+            "yes_change": "হ্যাঁ, এখনই পরিবর্তন করুন",
+            "cancel": "বাতিল করুন"
         },
         "dropzone": {
             "type": "প্রকার:",
@@ -1212,7 +1217,18 @@
             "understand": "আমি বুঝতে পারছি"
         },
         "permission": {
-            "gallery_permission": "Gallery Permission"
+            "gallery_permission": "গ্যালারির অনুমতি",
+            "count_selected": "{গণনা} নির্বাচিত",
+            "request_approval_to_add_post": "আপনার ক্যাম্পেইনে পোস্ট যোগ করার জন্য {username} অনুমোদনের অনুরোধ করছে।",
+            "allow_posting": "পোস্ট করার অনুমতি দিন",
+            "limited_posting": "সীমিত পোস্টিং",
+            "disable_posting": "পোস্টিং অক্ষম করুন",
+            "in_review": "পর্যালোচনায় ({count})",
+            "hidden": "লুকানো ({count})",
+            "approved": "অনুমোদিত",
+            "allow_posting_desc": "লোকেরা আপনার প্রচারণার পৃষ্ঠায় সরাসরি তাদের ছবি পোস্ট করে সমর্থন করতে পারে",
+            "limited_posting_desc": "শুধুমাত্র অনুমোদিত ব্যবহারকারীরা আপনার প্রচারাভিযানের পৃষ্ঠায় তাদের টুইবন পোস্ট করতে পারবেন।",
+            "disable_posting_desc": "আপনার প্রচারণার পৃষ্ঠায় কেউ তাদের ছবি পোস্ট করতে পারবে না।"
         }
     },
     "page_for_creators": {
@@ -2200,19 +2216,23 @@
             "unpinned": "আনপিন করা হয়েছে"
         },
         "waiting_approval": {
-            "request_approval": "Request approval from {name}",
-            "accept": "Accept {count}",
-            "decline": "Decline {count}",
-            "approved": "Post approved",
-            "rejected": "Post rejected",
-            "post_in_review": "Posts In Review",
-            "selected": "Selected {count}",
-            "posts_waiting_approval": "{count} posts waiting for your approval",
-            "all": "All",
-            "there_are_approval_posts": "There are some posts that need your approval.",
-            "review": "Review",
-            "accept_button": "Accept",
-            "decline_button": "Decline"
+            "request_approval": "{name} এর কাছ থেকে অনুমোদনের অনুরোধ করুন",
+            "accept": "{গণনা} গ্রহণ করুন",
+            "decline": "{গণনা} প্রত্যাখ্যান করুন",
+            "approved": "পোস্ট অনুমোদিত হয়েছে",
+            "rejected": "পোস্ট প্রত্যাখ্যাত হয়েছে",
+            "post_in_review": "পর্যালোচনা করা পোস্টগুলি",
+            "selected": "নির্বাচিত {গণনা}",
+            "posts_waiting_approval": "আপনার অনুমোদনের অপেক্ষায় থাকা {count}টি পোস্ট",
+            "all": "সব",
+            "there_are_approval_posts": "কিছু পোস্ট আছে যেগুলোর জন্য আপনার অনুমোদন প্রয়োজন।",
+            "review": "পর্যালোচনা",
+            "accept_button": "গ্রহণ করুন",
+            "decline_button": "প্রত্যাখ্যান",
+            "waiting_approval": "অনুমোদনের অপেক্ষায়",
+            "hidden": "লুকানো",
+            "hidden_description": "প্রচারণা নির্মাতা এই জমাটি প্রত্যাখ্যান করেছেন।",
+            "waiting_description": "স্রষ্টা অনুমোদন করলেই এই পোস্টটি প্রদর্শিত হবে।"
         }
     },
     "report": {
