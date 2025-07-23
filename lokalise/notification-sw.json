@@ -2,20 +2,20 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {name}, hatua mpya imefikiwa!",
-                "body": "Hongera! Kampeni yako {title} sasa ina wafuasi {amount}!"
+                "header": "🏆 {0}, hatua mpya imefikiwa!",
+                "body": "Hongera! Kampeni yako {0} sasa ina wafuasi [%n]!"
             },
             "new_post": {
                 "header": "Twibbon Mpya imechapishwa",
-                "body": "{participant} alichapisha Twibbon katika matunzio ya kampeni yako {title}!"
+                "body": "{0} alichapisha Twibbon katika matunzio ya kampeni yako {0}!"
             },
             "new_comment": {
                 "header": "Maoni mapya!",
-                "body": "{participant} alitoa maoni kuhusu chapisho lako kwenye kampeni {title}!"
+                "body": "{0} alitoa maoni kuhusu chapisho lako kwenye kampeni {0}!"
             },
             "account_recap": {
-                "header": "🍺 {name} , Huu hapa ni muhtasari wako wa kila mwezi!",
-                "body": "Umepata {amount} wafuasi wapya mwezi huu. Endelea!"
+                "header": "🍺 {0} , Huu hapa ni muhtasari wako wa kila mwezi!",
+                "body": "Umepata [%n] wafuasi wapya mwezi huu. Endelea!"
             },
             "billing": {
                 "creator": {
@@ -24,13 +24,13 @@
                         "body": "Chukua fursa ya vipengele vyake vya kipekee! Anza kampeni yako sasa"
                     },
                     "plus_5": {
-                        "header": "Hujambo {name} , sasisha usajili wako sasa",
+                        "header": "Hujambo {0} , sasisha usajili wako sasa",
                         "body": "Sasisha au uboresha mpango wako sasa ili uendelee kufikia takwimu za kampeni yako."
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "Hujambo {name}, malipo yako ya kusasisha yamethibitishwa",
+                        "header": "Hujambo {0}, malipo yako ya kusasisha yamethibitishwa",
                         "body": "Sasa unaweza kuendelea kutumia vipengele vyetu vya kipekee!"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "Chukua fursa ya vipengele vyake vya kipekee! Anza kampeni yako sasa."
                         },
                         "plus_2": {
-                            "header": "Hujambo {name} , sasisha usajili wako sasa",
+                            "header": "Hujambo {0} , sasisha usajili wako sasa",
                             "body": "Sasisha au uboresha mpango wako sasa ili uendelee kufikia takwimu za kampeni yako."
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "Furahia matumizi yako bila matangazo na upate Twibbon bila watermark!"
                         },
                         "plus_2": {
-                            "header": "Hujambo {name} , sasisha usajili wako sasa",
+                            "header": "Hujambo {0} , sasisha usajili wako sasa",
                             "body": "Sasisha mpango wako sasa ili ufurahie Twibbon bila watermark na matumizi bila matangazo."
                         }
                     }
@@ -61,164 +61,164 @@
                     },
                     "plus_5": {
                         "body": "Sasisha mpango wako sasa ili ufurahie Twibbon bila watermark na matumizi bila matangazo.",
-                        "header": "Hujambo {name}, sasisha usajili wako sasa"
+                        "header": "Hujambo {0}, sasisha usajili wako sasa"
                     }
                 }
             },
             "new_reply": {
                 "header": "Jibu jipya!",
-                "body": "{participant} alitoa maoni kuhusu maoni yako kwenye kampeni {title}!"
+                "body": "{0} alitoa maoni kuhusu maoni yako kwenye kampeni {0}!"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "Hongera! Kampeni {title} sasa ina wafuasi {amount}!",
-                "header": "🏆 {name}, hatua mpya imefikiwa!"
+                "body": "Hongera! Kampeni {0} sasa ina wafuasi [%n]!",
+                "header": "🏆 {0}, hatua mpya imefikiwa!"
             },
             "account_recap": {
-                "body": "Umepata {amount} wafuasi wapya katika mwezi uliopita katika kampeni zako zote. Endelea na kazi nzuri!",
-                "header": "🍺 {name} , Huu hapa ni muhtasari wako wa kila mwezi!"
+                "body": "Umepata [%n] wafuasi wapya katika mwezi uliopita katika kampeni zako zote. Endelea na kazi nzuri!",
+                "header": "🍺 {0} , Huu hapa ni muhtasari wako wa kila mwezi!"
             },
             "billing": {
                 "order_received": {
-                    "header": "Hujambo {name}, tafadhali kamilisha malipo yako",
-                    "body": "Asante kwa kuagiza {product}. Tafadhali endelea na malipo ili ukamilishe muamala wako."
+                    "header": "Hujambo {0}, tafadhali kamilisha malipo yako",
+                    "body": "Asante kwa kuagiza [%p]. Tafadhali endelea na malipo ili ukamilishe muamala wako."
                 },
                 "order_canceled": {
-                    "header": "Samahani {name}, agizo lako la {product} limeghairiwa",
+                    "header": "Samahani {0}, agizo lako la [%p] limeghairiwa",
                     "body": "Tafadhali usiendelee kulipa."
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "Hujambo {name} , malipo yako yamepokelewa",
-                        "body": "Asante kwa kujisajili kwa {product}. Unda kampeni yako sasa na utumie vipengele vyake maalum!"
+                        "header": "Hujambo {0} , malipo yako yamepokelewa",
+                        "body": "Asante kwa kujisajili kwa [%p]. Unda kampeni yako sasa na utumie vipengele vyake maalum!"
                     },
                     "min_3": {
-                        "header": "Hujambo {name} , muda wako wa {product} utaisha baada ya siku 3",
+                        "header": "Hujambo {0} , muda wako wa [%p] utaisha baada ya siku 3",
                         "body": "Sasisha au uboresha usajili wako ili kuendelea kufurahia vipengele vya kipekee vya Twibbonize."
                     },
                     "exp_day": {
-                        "header": "Hujambo {name}, muda wa usajili wako wa {product} umeisha",
-                        "body": "Sasisha au uboresha usajili wako kabla ya {date_plus_7} ili kudumisha ufikiaji wa takwimu za kampeni na vipengele vyote vya kipekee."
+                        "header": "Hujambo {0}, muda wa usajili wako wa [%p] umeisha",
+                        "body": "Sasisha au uboresha usajili wako kabla ya [%g] ili kudumisha ufikiaji wa takwimu za kampeni na vipengele vyote vya kipekee."
                     },
                     "plus_5": {
-                        "header": "Hujambo {name} , usajili wako utaisha baada ya saa 48",
+                        "header": "Hujambo {0} , usajili wako utaisha baada ya saa 48",
                         "body": "Sasisha au uboresha mpango wako ndani ya saa 48 ili kudumisha ufikiaji wa takwimu za kampeni yako."
                     },
                     "plus_7": {
-                        "header": "Hujambo {name}, akaunti yako imeshuka hadi Twibbonize Free",
-                        "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya {product}."
+                        "header": "Hujambo {0}, akaunti yako imeshuka hadi Twibbonize Free",
+                        "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya [%p]."
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "Hujambo {name}, usajili wako wa {product} umeghairiwa",
-                            "body": "Utapoteza uwezo wa kufikia vipengele vyote vya {product} mwishoni mwa kipindi chako cha bili."
+                            "header": "Hujambo {0}, usajili wako wa [%p] umeghairiwa",
+                            "body": "Utapoteza uwezo wa kufikia vipengele vyote vya [%p] mwishoni mwa kipindi chako cha bili."
                         },
                         "renewed_plan": {
-                            "header": "Hujambo {name}, usajili wako wa {product} ulisasishwa kwa ufanisi",
-                            "body": "Usajili wako wa {product} utatozwa mwishoni mwa kipindi chako cha bili."
+                            "header": "Hujambo {0}, usajili wako wa [%p] ulisasishwa kwa ufanisi",
+                            "body": "Usajili wako wa [%p] utatozwa mwishoni mwa kipindi chako cha bili."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Hujambo {name}, akaunti yako imeshuka hadi Twibbonize Free",
-                                "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya {product} ."
+                                "header": "Hujambo {0}, akaunti yako imeshuka hadi Twibbonize Free",
+                                "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya [%p] ."
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "Hujambo {name} , ombi lako la kughairi ushushaji daraja limepokelewa",
+                            "header": "Hujambo {0} , ombi lako la kughairi ushushaji daraja limepokelewa",
                             "body": "Usajili wako utaendelea kama Premium Creator."
                         },
                         "convert": {
-                            "header": "Hujambo {name}, akaunti yako imepandishwa daraja na kuwa Premium Creator",
+                            "header": "Hujambo {0}, akaunti yako imepandishwa daraja na kuwa Premium Creator",
                             "body": "Hongera! Sasa wewe ni Premium Creator. Furahia vipengele vyote sasa!"
                         },
                         "successful_payment": {
-                            "header": "Hujambo {name} , malipo yako yamepokelewa",
-                            "body": "Asante kwa kujisajili kwa {product}. Unda kampeni yako sasa na utumie vipengele vyake maalum!"
+                            "header": "Hujambo {0} , malipo yako yamepokelewa",
+                            "body": "Asante kwa kujisajili kwa [%p]. Unda kampeni yako sasa na utumie vipengele vyake maalum!"
                         },
                         "exp_day": {
-                            "header": "Hujambo {name}, muda wa usajili wako wa {product} umeisha",
-                            "body": "Tafadhali sasisha maelezo yako ya malipo kabla ya {date_plus_7} ili kuendelea kufikia takwimu za kampeni yako."
+                            "header": "Hujambo {0}, muda wa usajili wako wa [%p] umeisha",
+                            "body": "Tafadhali sasisha maelezo yako ya malipo kabla ya [%g] ili kuendelea kufikia takwimu za kampeni yako."
                         },
                         "plus_2": {
-                            "header": "Hujambo {name} , usajili wako utaisha baada ya saa 48",
+                            "header": "Hujambo {0} , usajili wako utaisha baada ya saa 48",
                             "body": "Tafadhali sasisha kadi yako ya malipo ili kudumisha ufikiaji wa takwimu za kampeni yako."
                         },
                         "plus_5": {
-                            "header": "Hujambo {name}, akaunti yako imeshuka hadi Twibbonize Free",
-                            "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya {product} ."
+                            "header": "Hujambo {0}, akaunti yako imeshuka hadi Twibbonize Free",
+                            "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya [%p] ."
                         },
                         "convert_addon": {
                             "body": "Hongera! Sasa wewe ni Premium Creator. Furahia vipengele vyote sasa!",
-                            "header": "Hujambo {name}, akaunti yako imepandishwa daraja na kuwa Premium Creator"
+                            "header": "Hujambo {0}, akaunti yako imepandishwa daraja na kuwa Premium Creator"
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "Hujambo {name}, njia yako ya kulipa inahitaji uthibitishaji",
+                            "header": "Hujambo {0}, njia yako ya kulipa inahitaji uthibitishaji",
                             "body": "Tafadhali thibitisha uthibitishaji wako wa malipo ili kukamilisha usajili wako sasa."
                         }
                     },
                     "renewed_plan": {
-                        "header": "Hujambo {name} , malipo yako ya kusasisha yamethibitishwa",
+                        "header": "Hujambo {0} , malipo yako ya kusasisha yamethibitishwa",
                         "body": "Sasa, unaweza kuendelea kufurahia vipengele vya kipekee!"
                     },
                     "downgrade_received": {
-                        "header": "Hujambo {name}, ombi lako la kushusha kiwango limepokelewa",
-                        "body": "Akaunti yako itashushwa hadi {product} mwishoni mwa kipindi chako cha bili."
+                        "header": "Hujambo {0}, ombi lako la kushusha kiwango limepokelewa",
+                        "body": "Akaunti yako itashushwa hadi [%p] mwishoni mwa kipindi chako cha bili."
                     },
                     "supporter": {
                         "convert": {
-                            "header": "Hujambo {name} , Akaunti yako imepandishwa daraja na kuwa Premium Supporter",
+                            "header": "Hujambo {0} , Akaunti yako imepandishwa daraja na kuwa Premium Supporter",
                             "body": "Hongera! Sasa wewe ni Premium Supporter. Furahia vipengele vyote sasa!"
                         },
                         "successful_payment": {
                             "body": "Sasa, unaweza kupata Twibbon bila alama za maji na matumizi bila matangazo!",
-                            "header": "Hujambo {name}, tumepokea malipo yako"
+                            "header": "Hujambo {0}, tumepokea malipo yako"
                         },
                         "min_3": {
                             "body": "Sasisha au upate toleo jipya la usajili wako sasa ili uendelee kufurahia kuvinjari bila matangazo na Twibbons bila watermark."
                         },
                         "successful": {
-                            "body": "Asante kwa kujisajili kwa {product}. Sasa, unaweza kupata Twibbon bila watermark na matumizi bila matangazo!"
+                            "body": "Asante kwa kujisajili kwa [%p]. Sasa, unaweza kupata Twibbon bila watermark na matumizi bila matangazo!"
                         },
                         "exp_day": {
-                            "header": "Hujambo {name}, malipo yako hayakutekelezwa",
-                            "body": "Tafadhali sasisha maelezo yako ya malipo kabla ya {date_plus_7} ili kufurahia vipengele vya kipekee, kuvinjari bila matangazo na Twibbon isiyo na watermark."
+                            "header": "Hujambo {0}, malipo yako hayakutekelezwa",
+                            "body": "Tafadhali sasisha maelezo yako ya malipo kabla ya [%g] ili kufurahia vipengele vya kipekee, kuvinjari bila matangazo na Twibbon isiyo na watermark."
                         },
                         "plus_2": {
-                            "header": "Hujambo {name} , usajili wako utaisha baada ya saa 48",
+                            "header": "Hujambo {0} , usajili wako utaisha baada ya saa 48",
                             "body": "Sasisha mpango wako sasa ili ufurahie Twibbon bila watermark na matumizi bila matangazo."
                         },
                         "plus_7": {
-                            "header": "Hujambo {name}, akaunti yako imeshuka hadi Twibbonize Free"
+                            "header": "Hujambo {0}, akaunti yako imeshuka hadi Twibbonize Free"
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Hujambo {name}, akaunti yako imeshuka hadi Twibbonize Free",
-                                "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya {product} ."
+                                "header": "Hujambo {0}, akaunti yako imeshuka hadi Twibbonize Free",
+                                "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya [%p] ."
                             }
                         },
                         "plus_5": {
-                            "header": "Hujambo {name}, akaunti yako imeshuka hadi Twibbonize Free",
-                            "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya {product} ."
+                            "header": "Hujambo {0}, akaunti yako imeshuka hadi Twibbonize Free",
+                            "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya [%p] ."
                         }
                     },
                     "period_changed": {
-                        "header": "Hujambo {name}, tumepokea ombi lako la kubadilisha mpango wako",
-                        "body": "Akaunti yako itabadilishwa hadi {product} mwishoni mwa kipindi chako cha bili."
+                        "header": "Hujambo {0}, tumepokea ombi lako la kubadilisha mpango wako",
+                        "body": "Akaunti yako itabadilishwa hadi [%p] mwishoni mwa kipindi chako cha bili."
                     },
                     "cancel_change_period": {
-                        "header": "Hujambo {name}, tumepokea ombi lako la kughairi mabadiliko ya mpango",
+                        "header": "Hujambo {0}, tumepokea ombi lako la kughairi mabadiliko ya mpango",
                         "body": "Usajili wako utaendelea kama Premium Creator."
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "Hujambo {name}, tafadhali thibitisha malipo yako ya usajili sasa",
+                            "header": "Hujambo {0}, tafadhali thibitisha malipo yako ya usajili sasa",
                             "body": "Ili kuhakikisha utiifu wa kanuni za usalama, tunahitaji uthibitisho wako wazi kwa malipo yako ya mara kwa mara kwenye usajili wako wa Twibbonize."
                         }
                     }
@@ -226,22 +226,23 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "Sasa, unaweza kupata Twibbon bila watermark na matumizi bila matangazo!",
-                        "header": "Hujambo {name} , malipo yako yamepokelewa"
+                        "header": "Hujambo {0} , malipo yako yamepokelewa"
                     },
                     "exp_day": {
-                        "body": "Sasisha au uboresha usajili wako kabla ya {date_plus_7} ili kuendelea kufurahia vipengele vya kipekee, kuvinjari bila matangazo na Twibbon isiyo na watermark.",
-                        "header": "Hujambo {name}, muda wa usajili wako wa {product} umeisha"
+                        "body": "Sasisha au uboresha usajili wako kabla ya [%g] ili kuendelea kufurahia vipengele vya kipekee, kuvinjari bila matangazo na Twibbon isiyo na watermark.",
+                        "header": "Hujambo {0}, muda wa usajili wako wa [%p] umeisha"
                     },
                     "plus_5": {
                         "body": "Sasisha mpango wako ndani ya saa 48 ili uendelee kufurahia Twibbon bila watermark na matumizi bila matangazo.",
-                        "header": "Hujambo {name} , usajili wako utaisha baada ya saa 48"
+                        "header": "Hujambo {0} , usajili wako utaisha baada ya saa 48"
                     },
                     "min_3": {
                         "body": "Sasisha au upate toleo jipya la usajili wako sasa ili uendelee kufurahia kuvinjari bila matangazo na Twibbon bila watermark.",
-                        "header": "Hujambo {name}, muda wako wa {product} utaisha baada ya siku 3"
+                        "header": "Hujambo {0}, muda wako wa [%p] utaisha baada ya siku 3"
                     },
                     "plus_7": {
-                        "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya {product} ."
+                        "body": "Tafadhali sasisha usajili wako ili kuendelea kutumia vipengele vya [%p] .",
+                        "header": "Hujambo {0} , akaunti yako imeshushwa hadi Twibbonize Free"
                     }
                 }
             },
@@ -262,24 +263,28 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "Kiasi cha mgao bila matangazo kimesalia",
-                    "body": "Una mgawo wa Bila Matangazo uliosalia kwa Wafuasi 50 kwenye {campaignlink}. Furahia matumizi Bila Matangazo inapodumu!"
+                    "body": "Una mgawo wa Bila Matangazo uliosalia kwa Wafuasi 50 kwenye {0}. Furahia matumizi Bila Matangazo inapodumu!"
                 },
                 "adfree_quota_runout": {
                     "header": "Nafasi ya Bila Matangazo imekamilika",
-                    "body": "Wafuasi wako wa {campaignlink} wataanza kuona matangazo wakati wa kuvinjari kwenye mfumo wetu."
+                    "body": "Wafuasi wako wa {0} wataanza kuona matangazo wakati wa kuvinjari kwenye mfumo wetu."
                 }
             },
             "new_post": {
                 "header": "Twibbon Mpya imechapishwa",
-                "body": "{participant} alichapisha Twibbon katika matunzio ya kampeni yako {title} !"
+                "body": "{0} alichapisha Twibbon katika matunzio ya kampeni yako {0} !"
             },
             "new_comment": {
                 "header": "Maoni mapya!",
-                "body": "{participant} alitoa maoni kuhusu chapisho lako kwenye kampeni {title}!"
+                "body": "{0} alitoa maoni kuhusu chapisho lako kwenye kampeni {0}!"
             },
             "new_reply": {
                 "header": "Jibu jipya!",
-                "body": "{participant} alitoa maoni kuhusu maoni yako kwenye kampeni {title}!"
+                "body": "{0} alitoa maoni kuhusu maoni yako kwenye kampeni {0}!"
+            },
+            "approval": {
+                "header": "Chapisho Linahitaji Kuidhinishwa",
+                "body": "{0} omba idhini ya kuongeza chapisho kwenye kampeni yako {0}"
             }
         }
     }

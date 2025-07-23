@@ -2,20 +2,20 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {name}，達到新的里程碑！",
-                "body": "恭喜！您的活動{title}現在有{amount}位支持者！"
+                "header": "🏆 {0}，達到新的里程碑！",
+                "body": "恭喜！您的活動{0}現在有[%n]位支持者！"
             },
             "new_post": {
                 "header": "新 Twibon 發布",
-                "body": "{participant}在你的活動{title}的畫廊中發布了一個 Twibbon！"
+                "body": "{0}在你的活動{0}的畫廊中發布了一個 Twibbon！"
             },
             "new_comment": {
                 "header": "新評論！",
-                "body": "{participant} 在活動 {title} 中對您的貼文進行了評論！"
+                "body": "{0} 在活動 {0} 中對您的貼文進行了評論！"
             },
             "account_recap": {
-                "header": "🍺 {name} ，這是您的每月回顧！",
-                "body": "本月您獲得了{amount}位新支持者。繼續努力！"
+                "header": "🍺 {0} ，這是您的每月回顧！",
+                "body": "本月您獲得了[%n]位新支持者。繼續努力！"
             },
             "billing": {
                 "creator": {
@@ -24,13 +24,13 @@
                         "body": "充分利用其獨特的功能！立即開始您的活動"
                     },
                     "plus_5": {
-                        "header": "{name}您好，立即續訂您的訂閱",
+                        "header": "{0}您好，立即續訂您的訂閱",
                         "body": "立即續訂或升級您的計劃以繼續訪問您的行銷活動分析。"
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "您好 {name}，您的續約付款已確認",
+                        "header": "您好 {0}，您的續約付款已確認",
                         "body": "現在您可以繼續使用我們的獨家功能！"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "充分利用其獨特的功能！立即開始您的活動"
                         },
                         "plus_2": {
-                            "header": "{name}您好，立即續訂您的訂閱",
+                            "header": "{0}您好，立即續訂您的訂閱",
                             "body": "立即續訂或升級您的計劃，以繼續訪問您的廣告系列分析"
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "享受無廣告體驗並獲得無浮水印的 Twibbon！"
                         },
                         "plus_2": {
-                            "header": "{name}您好，立即續訂您的訂閱",
+                            "header": "{0}您好，立即續訂您的訂閱",
                             "body": "立即續訂您的計劃，享受無浮水印的 Twibbon 和無廣告的體驗。"
                         }
                     }
@@ -61,164 +61,164 @@
                     },
                     "plus_5": {
                         "body": "立即續訂您的計劃，享受無浮水印的 Twibbon 和無廣告的體驗。",
-                        "header": "您好 {name}，請立即續訂"
+                        "header": "您好 {0}，請立即續訂"
                     }
                 }
             },
             "new_reply": {
                 "header": "新回覆！",
-                "body": "{participant} 在活動 {title}中對你的評論進行了評論！"
+                "body": "{0} 在活動 {0}中對你的評論進行了評論！"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "恭喜您！活動 {title} 現在有 {amount} 位支持者！",
-                "header": "🏆 {name}，達到新的里程碑！"
+                "body": "恭喜您！活動 {0} 現在有 [%n] 位支持者！",
+                "header": "🏆 {0}，達到新的里程碑！"
             },
             "account_recap": {
-                "body": "過去一個月，您的所有行銷活動都獲得了{amount}位新支持者。繼續努力！",
-                "header": "🍺 {name} ，這是您的每月回顧！"
+                "body": "過去一個月，您的所有行銷活動都獲得了[%n]位新支持者。繼續努力！",
+                "header": "🍺 {0} ，這是您的每月回顧！"
             },
             "billing": {
                 "order_received": {
-                    "header": "您好{name}，請完成付款",
-                    "body": "感謝您訂購{product} 。請繼續付款以完成交易。"
+                    "header": "您好{0}，請完成付款",
+                    "body": "感謝您訂購[%p] 。請繼續付款以完成交易。"
                 },
                 "order_canceled": {
-                    "header": "抱歉 {name}, 您的 {product} 订单已被取消",
+                    "header": "抱歉 {0}, 您的 [%p] 订单已被取消",
                     "body": "請不要繼續付款。"
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "您好{name}，您的付款已收到",
-                        "body": "感謝您訂閱{product}。立即建立您的活動並使用其特殊功能！"
+                        "header": "您好{0}，您的付款已收到",
+                        "body": "感謝您訂閱[%p]。立即建立您的活動並使用其特殊功能！"
                     },
                     "min_3": {
-                        "header": "{name}您好，您的{product}將在 3 天後過期",
+                        "header": "{0}您好，您的[%p]將在 3 天後過期",
                         "body": "續訂或升級您的訂閱以繼續享受 Twibbonize 的獨家功能。"
                     },
                     "exp_day": {
-                        "header": "{name}您好，您的{product}訂閱已過期",
-                        "body": "請在{date_plus_7}之前續訂或升級您的訂閱，以繼續存取活動分析和所有獨特功能。"
+                        "header": "{0}您好，您的[%p]訂閱已過期",
+                        "body": "請在[%g]之前續訂或升級您的訂閱，以繼續存取活動分析和所有獨特功能。"
                     },
                     "plus_5": {
-                        "header": "{name}您好，您的訂閱將在 48 小時後結束",
+                        "header": "{0}您好，您的訂閱將在 48 小時後結束",
                         "body": "在 48 小時內續訂或升級您的計劃，以保持對行銷活動分析的存取。"
                     },
                     "plus_7": {
-                        "header": "你好{name}，你的帳號已降級為 Twibbonize Free",
-                        "body": "請續訂您的訂閱以繼續使用 {product} 的功能。"
+                        "header": "你好{0}，你的帳號已降級為 Twibbonize Free",
+                        "body": "請續訂您的訂閱以繼續使用 [%p] 的功能。"
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "您好{name}，您的{product}訂閱已成功取消",
-                            "body": "在計費週期結束時，您將無法存取所有{product}功能。"
+                            "header": "您好{0}，您的[%p]訂閱已成功取消",
+                            "body": "在計費週期結束時，您將無法存取所有[%p]功能。"
                         },
                         "renewed_plan": {
-                            "header": "您好{name}，您的{product}訂閱已成功續訂",
-                            "body": "您的{product}訂閱將在您的結算週期結束時收取費用。"
+                            "header": "您好{0}，您的[%p]訂閱已成功續訂",
+                            "body": "您的[%p]訂閱將在您的結算週期結束時收取費用。"
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "您好{name} ，您的帳號已降級為 Twibbonize Free",
-                                "body": "請續訂您的訂閱以繼續使用{product}功能。"
+                                "header": "您好{0} ，您的帳號已降級為 Twibbonize Free",
+                                "body": "請續訂您的訂閱以繼續使用[%p]功能。"
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "你好{name}，你取消降級的請求已收到",
+                            "header": "你好{0}，你取消降級的請求已收到",
                             "body": "您的訂閱將繼續為Premium Creator。"
                         },
                         "convert": {
-                            "header": "您好{name}，您的帳號已升級為 Premium Creator",
+                            "header": "您好{0}，您的帳號已升級為 Premium Creator",
                             "body": "恭喜！您現在已成為Premium Creator。立即享受所有功能！"
                         },
                         "successful_payment": {
-                            "header": "您好{name}，您的付款已收到",
-                            "body": "感謝您訂閱{product}。立即建立您的活動並使用其特殊功能！"
+                            "header": "您好{0}，您的付款已收到",
+                            "body": "感謝您訂閱[%p]。立即建立您的活動並使用其特殊功能！"
                         },
                         "exp_day": {
-                            "header": "{name}您好，您的{product}訂閱已過期",
-                            "body": "請在 {date_plus_7} 之前更新您的帳單訊息，以便繼續存取您的行銷活動分析。"
+                            "header": "{0}您好，您的[%p]訂閱已過期",
+                            "body": "請在 [%g] 之前更新您的帳單訊息，以便繼續存取您的行銷活動分析。"
                         },
                         "plus_2": {
-                            "header": "{name}您好，您的訂閱將在 48 小時後結束",
+                            "header": "{0}您好，您的訂閱將在 48 小時後結束",
                             "body": "請更新您的支付卡以保持對廣告活動分析的訪問。"
                         },
                         "plus_5": {
-                            "header": "您好{name} ，您的帳號已降級為 Twibbonize Free",
-                            "body": "請續訂您的訂閱以繼續使用{product}功能。"
+                            "header": "您好{0} ，您的帳號已降級為 Twibbonize Free",
+                            "body": "請續訂您的訂閱以繼續使用[%p]功能。"
                         },
                         "convert_addon": {
                             "body": "恭喜！您現在已成為Premium Creator。立即享受所有功能！",
-                            "header": "您好{name}，您的帳號已升級為 Premium Creator"
+                            "header": "您好{0}，您的帳號已升級為 Premium Creator"
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "您好{name}，您的付款方式需要驗證",
+                            "header": "您好{0}，您的付款方式需要驗證",
                             "body": "請確認您的付款身份驗證以立即完成訂閱。"
                         }
                     },
                     "renewed_plan": {
-                        "header": "您好{name}，您的續約付款已確認",
+                        "header": "您好{0}，您的續約付款已確認",
                         "body": "現在，您可以繼續享受獨家功能！"
                     },
                     "downgrade_received": {
-                        "header": "你好{name}，你的降級請求已收到",
-                        "body": "您的帳戶將在結算週期結束時降級為{product} 。"
+                        "header": "你好{0}，你的降級請求已收到",
+                        "body": "您的帳戶將在結算週期結束時降級為[%p] 。"
                     },
                     "supporter": {
                         "convert": {
-                            "header": "您好{name} ，您的帳號已升級為高級支持者",
+                            "header": "您好{0} ，您的帳號已升級為高級支持者",
                             "body": "恭喜！您現在是Premium Supporter。立即享受所有功能！"
                         },
                         "successful_payment": {
                             "body": "現在，您可以獲得無浮水印和無廣告的 Twibbon 體驗！",
-                            "header": "您好 {name}，我們已成功收到您的付款"
+                            "header": "您好 {0}，我們已成功收到您的付款"
                         },
                         "min_3": {
                             "body": "立即續訂或升級您的訂閱，繼續享受無廣告瀏覽和無浮水印的 Twibbons。"
                         },
                         "successful": {
-                            "body": "感謝您訂閱{product}。現在，您可以獲得沒有浮水印的 Twibbon 並享受無廣告的體驗！"
+                            "body": "感謝您訂閱[%p]。現在，您可以獲得沒有浮水印的 Twibbon 並享受無廣告的體驗！"
                         },
                         "exp_day": {
-                            "header": "您好{name}，您的付款沒有通過",
-                            "body": "請在 {date_plus_7} 之前更新您的帳單訊息，以享受獨家功能、無廣告瀏覽和無浮水印 Twibbon。"
+                            "header": "您好{0}，您的付款沒有通過",
+                            "body": "請在 [%g] 之前更新您的帳單訊息，以享受獨家功能、無廣告瀏覽和無浮水印 Twibbon。"
                         },
                         "plus_2": {
-                            "header": "{name}您好，您的訂閱將在 48 小時後結束",
+                            "header": "{0}您好，您的訂閱將在 48 小時後結束",
                             "body": "立即續訂您的計劃，享受無浮水印的 Twibbon 和無廣告的體驗。"
                         },
                         "plus_7": {
-                            "header": "您好{name} ，您的帳號已降級為 Twibbonize Free"
+                            "header": "您好{0} ，您的帳號已降級為 Twibbonize Free"
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "您好{name} ，您的帳號已降級為 Twibbonize Free",
-                                "body": "請續訂您的訂閱以繼續使用{product}功能。"
+                                "header": "您好{0} ，您的帳號已降級為 Twibbonize Free",
+                                "body": "請續訂您的訂閱以繼續使用[%p]功能。"
                             }
                         },
                         "plus_5": {
-                            "header": "您好{name} ，您的帳號已降級為 Twibbonize Free",
-                            "body": "請續訂您的訂閱以繼續使用{product}功能。"
+                            "header": "您好{0} ，您的帳號已降級為 Twibbonize Free",
+                            "body": "請續訂您的訂閱以繼續使用[%p]功能。"
                         }
                     },
                     "period_changed": {
-                        "header": "您好 {name}，我們收到了您更改計劃的請求",
-                        "body": "您的帳戶將在帳單週期結束時變更為 {product}。"
+                        "header": "您好 {0}，我們收到了您更改計劃的請求",
+                        "body": "您的帳戶將在帳單週期結束時變更為 [%p]。"
                     },
                     "cancel_change_period": {
-                        "header": "您好 {name}，我們已收到您取消計劃變更的請求",
+                        "header": "您好 {0}，我們已收到您取消計劃變更的請求",
                         "body": "您的訂閱將繼續作為 Premium Creator。"
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "您好{name}，請立即確認您的訂閱付款",
+                            "header": "您好{0}，請立即確認您的訂閱付款",
                             "body": "為了確保遵守安全法規，我們要求您明確確認 Twibbonize 訂閱的定期付款。"
                         }
                     }
@@ -226,22 +226,23 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "現在，您可以獲得沒有浮水印的 Twibbon 並享受無廣告的體驗！",
-                        "header": "您好{name}，您的付款已收到"
+                        "header": "您好{0}，您的付款已收到"
                     },
                     "exp_day": {
-                        "body": "在{date_plus_7}之前續訂或升級您的訂閱，以繼續享受獨家功能、無廣告瀏覽和無浮水印 Twibbon。",
-                        "header": "{name}您好，您的{product}訂閱已過期"
+                        "body": "在[%g]之前續訂或升級您的訂閱，以繼續享受獨家功能、無廣告瀏覽和無浮水印 Twibbon。",
+                        "header": "{0}您好，您的[%p]訂閱已過期"
                     },
                     "plus_5": {
                         "body": "在 48 小時內續訂您的計劃，繼續享受無浮水印的 Twibbon 和無廣告的體驗。",
-                        "header": "{name}您好，您的訂閱將在 48 小時後結束"
+                        "header": "{0}您好，您的訂閱將在 48 小時後結束"
                     },
                     "min_3": {
                         "body": "立即續訂或升級您的訂閱，以繼續享受無廣告瀏覽和無浮水印的 Twibbon。",
-                        "header": "您好{name}，您的{product}將在 3 天後過期"
+                        "header": "您好{0}，您的[%p]將在 3 天後過期"
                     },
                     "plus_7": {
-                        "body": "請續訂您的訂閱以繼續使用{product}功能。"
+                        "body": "請續訂您的訂閱以繼續使用[%p]功能。",
+                        "header": "{0}您好，您的帳號已降級為 Twibbonize 免費版"
                     }
                 }
             },
@@ -262,24 +263,28 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "剩餘無廣告配額",
-                    "body": "您在 {campaignlink} 上還有 50 位支持者的無廣告配額。請盡情享受無廣告體驗！"
+                    "body": "您在 {0} 上還有 50 位支持者的無廣告配額。請盡情享受無廣告體驗！"
                 },
                 "adfree_quota_runout": {
                     "header": "無廣告配額已用完",
-                    "body": "您的{campaignlink}支持者將在瀏覽我們的平台時開始看到廣告。"
+                    "body": "您的{0}支持者將在瀏覽我們的平台時開始看到廣告。"
                 }
             },
             "new_post": {
                 "header": "新 Twibon 發布",
-                "body": "{participant}在您的活動{title}的圖庫中發布了 Twibbon！"
+                "body": "{0}在您的活動{0}的圖庫中發布了 Twibbon！"
             },
             "new_comment": {
                 "header": "新評論！",
-                "body": "{participant} 在活動 {title} 中對您的貼文進行了評論！"
+                "body": "{0} 在活動 {0} 中對您的貼文進行了評論！"
             },
             "new_reply": {
                 "header": "新回覆！",
-                "body": "{participant} 在活動 {title}中對你的評論進行了評論！"
+                "body": "{0} 在活動 {0}中對你的評論進行了評論！"
+            },
+            "approval": {
+                "header": "帖子需要批准",
+                "body": "{0} 請求批准在您的活動中新增貼文 {0}"
             }
         }
     }
