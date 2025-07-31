@@ -1183,7 +1183,8 @@
             "frames": "프레임",
             "campaigns": "캠페인",
             "analytics": "해석학",
-            "backgrounds": "배경"
+            "backgrounds": "배경",
+            "gallery": "갱도"
         },
         "blank_design": {
             "suggested": "추천",
@@ -1218,17 +1219,26 @@
         },
         "permission": {
             "gallery_permission": "갤러리 권한",
-            "count_selected": "{카운트} 선택됨",
-            "request_approval_to_add_post": "{사용자 아이디}가 캠페인에 게시물을 추가할 수 있도록 승인을 요청합니다.",
+            "count_selected": "{count} 선택됨",
+            "request_approval_to_add_post": "{username}가 캠페인에 게시물을 추가할 수 있도록 승인을 요청합니다.",
             "allow_posting": "게시 허용",
             "limited_posting": "제한된 게시",
             "disable_posting": "게시 비활성화",
-            "in_review": "검토 중 ({개수})",
-            "hidden": "숨김 ({개수})",
+            "in_review": "검토 중 ({count})",
+            "hidden": "숨김 ({count})",
             "approved": "승인됨",
             "allow_posting_desc": "사람들은 캠페인 페이지에 직접 사진을 게시하여 응원할 수 있습니다",
             "limited_posting_desc": "승인된 사용자만 캠페인 페이지에 트위본을 게시할 수 있습니다",
-            "disable_posting_desc": "누구도 캠페인 페이지에 자신의 사진을 게시할 수 없습니다"
+            "disable_posting_desc": "누구도 캠페인 페이지에 자신의 사진을 게시할 수 없습니다",
+            "submission_forbidden": "캠페인 설정에 따라 제출이 금지되어 있습니다.",
+            "permission_limited": "이 캠페인에 대한 갤러리 사용 권한은 제한되지 않습니다.",
+            "manage_permission": "귀하의 권한을 관리하세요",
+            "change": "변화",
+            "to": "에게",
+            "or": "또는",
+            "to_manage": "캠페인에서 게시물을 관리하려면",
+            "view_request": "요청 보기",
+            "comment_disabled": "댓글 비활성화됨"
         }
     },
     "page_for_creators": {
@@ -1807,7 +1817,7 @@
         },
         "notifications": {
             "notifications_settings": "알림 설정",
-            "pick_notifications": "Push 또는 이메일을 통해 받고 싶은 알림을 선택합니다. 이러한 기본 설정은 푸시 및 이메일에만 적용됩니다.",
+            "pick_notifications": "이메일을 통해 받고 싶은 알림을 선택합니다. 이러한 기본 설정은 이메일에만 적용됩니다.",
             "email": "이메일",
             "push": "Push",
             "campaign_milestone": "캠페인 마일스톤",
@@ -2216,14 +2226,14 @@
             "unpinned": "고정 해제됨"
         },
         "waiting_approval": {
-            "request_approval": "이름}에게 승인 요청",
-            "accept": "수락 {카운트}",
-            "decline": "거부 {개수}",
+            "request_approval": "{name} 에게 승인 요청",
+            "accept": "수락 {count}",
+            "decline": "거부 {count}",
             "approved": "승인된 게시물",
             "rejected": "게시물이 거부됨",
             "post_in_review": "검토 중인 게시물",
-            "selected": "선택한 {개수}",
-            "posts_waiting_approval": "승인 대기 중인 {개수} 게시물",
+            "selected": "선택한 {count}",
+            "posts_waiting_approval": "승인 대기 중인 {count} 게시물",
             "all": "모두",
             "there_are_approval_posts": "승인이 필요한 일부 게시물이 있습니다.",
             "review": "검토",
@@ -2232,7 +2242,9 @@
             "waiting_approval": "승인 대기 중",
             "hidden": "숨겨진",
             "hidden_description": "이 제출은 캠페인 크리에이터에 의해 거부되었습니다.",
-            "waiting_description": "이 게시물은 작성자가 승인하면 표시됩니다."
+            "waiting_description": "이 게시물은 작성자가 승인하면 표시됩니다.",
+            "newest": "최신",
+            "oldest": "가장 오래된"
         }
     },
     "report": {
@@ -2430,7 +2442,7 @@
             "spam": "스팸"
         },
         "general": {
-            "by_account_name": "by"
+            "by_account_name": "{username}의"
         },
         "delete": {
             "delete_post_description": "이 게시물을 삭제하면 영구 삭제되며 되돌릴 수 없습니다.",
@@ -2887,8 +2899,8 @@
             "confirm_password": "비밀번호는 일치해야 합니다.",
             "valid_email": "유효한 이메일 주소를 입력하세요.",
             "valid_url": "유효한 URL을 입력하세요",
-            "min_width": "최소 {분}픽셀 이상이어야 합니다",
-            "max_width": "최대} 픽셀보다 작거나 같아야 합니다",
+            "min_width": "최소 {min}픽셀 이상이어야 합니다",
+            "max_width": "{max} 픽셀보다 작거나 같아야 합니다",
             "min_length": "길이는 최소 {min} 자 이상이어야 합니다.",
             "max_length": "길이는 {max} 자를 초과할 수 없습니다."
         },

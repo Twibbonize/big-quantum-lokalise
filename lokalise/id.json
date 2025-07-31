@@ -1036,8 +1036,8 @@
             "order_again": "Order Again"
         },
         "email": {
-            "add_email": "Add Your Email to Continue",
-            "to_make_purchase": "We need your email address added to your account to process your purchase. This allows us to send you order confirmations, receipts, and important updates."
+            "add_email": "Tambahkan Email Anda untuk Melanjutkan",
+            "to_make_purchase": "Kami memerlukan alamat email Anda yang ditambahkan ke akun Anda untuk memproses pembelian Anda. Ini memungkinkan kami untuk mengirimkan konfirmasi pesanan, tanda terima, dan pembaruan penting."
         }
     },
     "page_collection": {
@@ -1183,7 +1183,8 @@
             "frames": "Bingkai",
             "campaigns": "Kampanye",
             "analytics": "Analitik",
-            "backgrounds": "Latar Belakang"
+            "backgrounds": "Latar Belakang",
+            "gallery": "Galeri"
         },
         "blank_design": {
             "suggested": "Disarankan",
@@ -1218,17 +1219,26 @@
         },
         "permission": {
             "gallery_permission": "Gallery Permission",
-            "count_selected": "[menghitung] Dipilih",
-            "request_approval_to_add_post": "{nama pengguna} meminta persetujuan untuk menambahkan postingan di kampanye Anda.",
+            "count_selected": "{count} Dipilih",
+            "request_approval_to_add_post": "{username} meminta persetujuan untuk menambahkan postingan di kampanye Anda.",
             "allow_posting": "Izinkan Posting",
             "limited_posting": "Posting Terbatas",
             "disable_posting": "Nonaktifkan Posting",
-            "in_review": "Dalam Tinjauan ({hitung})",
-            "hidden": "Tersembunyi ({hitung})",
+            "in_review": "Dalam Tinjauan ({count})",
+            "hidden": "Tersembunyi ({count})",
             "approved": "Disetujui",
             "allow_posting_desc": "Orang-orang dapat mendukung dengan memposting foto mereka secara langsung di halaman kampanye Anda",
             "limited_posting_desc": "Hanya pengguna yang disetujui yang dapat memposting Twibbon mereka di halaman kampanye Anda",
-            "disable_posting_desc": "Tidak seorang pun dapat memposting foto mereka di halaman kampanye Anda"
+            "disable_posting_desc": "Tidak seorang pun dapat memposting foto mereka di halaman kampanye Anda",
+            "submission_forbidden": "Pengiriman dilarang berdasarkan pengaturan kampanye.",
+            "permission_limited": "Izin galeri tidak terbatas untuk kampanye ini.",
+            "manage_permission": "Kelola izin Anda",
+            "change": "Mengubah",
+            "to": "ke",
+            "or": "atau",
+            "to_manage": "untuk mengelola postingan di kampanye Anda",
+            "view_request": "Lihat Permintaan",
+            "comment_disabled": "Komentar Dinonaktifkan"
         }
     },
     "page_for_creators": {
@@ -1807,7 +1817,7 @@
         },
         "notifications": {
             "notifications_settings": "Pengaturan Notifikasi",
-            "pick_notifications": "Pilih notifikasi apa saja yang ingin kamu dapatkan melalui push atau email. Ini hanya berlaku untuk notifikasi push dan email.",
+            "pick_notifications": "Pilih notifikasi apa saja yang ingin kamu dapatkan melalui email. Ini hanya berlaku untuk notifikasi email.",
             "email": "Email",
             "push": "Push",
             "campaign_milestone": "Perkembangan Kampanye",
@@ -2216,23 +2226,25 @@
             "unpinned": "Dilepas pinnya"
         },
         "waiting_approval": {
-            "request_approval": "Request approval from {name}",
-            "accept": "Accept {count}",
-            "decline": "Decline {count}",
-            "approved": "Post approved",
-            "rejected": "Post rejected",
-            "post_in_review": "Posts In Review",
-            "selected": "Selected {count}",
-            "posts_waiting_approval": "{count} posts waiting for your approval",
-            "all": "All",
-            "there_are_approval_posts": "There are some posts that need your approval.",
+            "request_approval": "Meminta persetujuan dari {name}",
+            "accept": "Terima {count}",
+            "decline": "Tolak {count}",
+            "approved": "Post disetujui",
+            "rejected": "Pos ditolak",
+            "post_in_review": "Pos Dalam Peninjauan",
+            "selected": "Terpilih {count}",
+            "posts_waiting_approval": "{count} kiriman menunggu persetujuan Anda",
+            "all": "Semua",
+            "there_are_approval_posts": "Ada beberapa postingan yang perlu persetujuan Anda.",
             "review": "Review",
-            "accept_button": "Accept",
-            "decline_button": "Decline",
+            "accept_button": "Setuju",
+            "decline_button": "Tolak",
             "waiting_approval": "Menunggu Persetujuan",
             "hidden": "Tersembunyi",
             "hidden_description": "Pengajuan ini ditolak oleh pembuat kampanye.",
-            "waiting_description": "Postingan ini akan muncul setelah pembuat menyetujuinya."
+            "waiting_description": "Postingan ini akan muncul setelah pembuat menyetujuinya.",
+            "newest": "Terbaru",
+            "oldest": "Terlama"
         }
     },
     "report": {
@@ -2430,7 +2442,7 @@
             "spam": "Spam"
         },
         "general": {
-            "by_account_name": "oleh"
+            "by_account_name": "oleh {username}"
         },
         "delete": {
             "delete_post_description": "Menghapus pos ini bersifat permanen dan tidak dapat diurungkan.",

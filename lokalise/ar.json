@@ -1183,7 +1183,8 @@
             "frames": "الإطارات",
             "campaigns": "الحملات",
             "analytics": "التحليلات",
-            "backgrounds": "الخلفيات"
+            "backgrounds": "الخلفيات",
+            "gallery": "معرض الصور"
         },
         "blank_design": {
             "suggested": "مقترح",
@@ -1218,17 +1219,26 @@
         },
         "permission": {
             "gallery_permission": "إذن المعرض",
-            "count_selected": "{العدد} مختارة",
-            "request_approval_to_add_post": "{اسم المستخدم} طلب الموافقة على إضافة منشور على حملتك.",
+            "count_selected": "{count} مختارة",
+            "request_approval_to_add_post": "{username} طلب الموافقة على إضافة منشور على حملتك.",
             "allow_posting": "السماح بالنشر",
             "limited_posting": "النشر المحدود",
             "disable_posting": "تعطيل النشر",
-            "in_review": "قيد المراجعة ({العدد})",
-            "hidden": "مخفي ({العدد})",
+            "in_review": "قيد المراجعة ({count})",
+            "hidden": "مخفي ({count})",
             "approved": "معتمد",
             "allow_posting_desc": "يمكن للأشخاص تقديم الدعم من خلال نشر صورهم مباشرةً على صفحة حملتك",
             "limited_posting_desc": "يُسمح للمستخدمين المعتمدين فقط بنشر التويبونات الخاصة بهم على صفحة حملتك",
-            "disable_posting_desc": "لا يمكن لأي شخص نشر صورته على صفحة حملتك الانتخابية"
+            "disable_posting_desc": "لا يمكن لأي شخص نشر صورته على صفحة حملتك الانتخابية",
+            "submission_forbidden": "يُحظر الإرسال حسب إعدادات الحملة.",
+            "permission_limited": "لا يوجد حد أقصى لصلاحية المعرض لهذه الحملة.",
+            "manage_permission": "إدارة أذوناتك",
+            "change": "يتغير",
+            "to": "ل",
+            "or": "أو",
+            "to_manage": "لإدارة المنشورات في حملتك",
+            "view_request": "عرض الطلب",
+            "comment_disabled": "تم تعطيل التعليق"
         }
     },
     "page_for_creators": {
@@ -1807,7 +1817,7 @@
         },
         "notifications": {
             "notifications_settings": "إعدادات الإشعارات",
-            "pick_notifications": "اختر الإشعارات التي تريد الحصول عليها عبر Push أو البريد الإلكتروني. تنطبق هذه التفضيلات على الدفع والبريد الإلكتروني فقط.",
+            "pick_notifications": "اختر الإشعارات التي تريد الحصول عليها عبر البريد الإلكتروني. تنطبق هذه التفضيلات على البريد الإلكتروني فقط.",
             "email": "البريد الإلكتروني",
             "push": "Push",
             "campaign_milestone": "معالم الحملة",
@@ -2216,14 +2226,14 @@
             "unpinned": "غير مثبت"
         },
         "waiting_approval": {
-            "request_approval": "طلب الموافقة من {الاسم}",
-            "accept": "قبول {العدد}",
-            "decline": "انخفاض {العدد}",
+            "request_approval": "طلب الموافقة من {name}",
+            "accept": "قبول {count}",
+            "decline": "انخفاض {count}",
             "approved": "تمت الموافقة على المنشور",
             "rejected": "تم رفض المشاركة",
             "post_in_review": "المشاركات في المراجعة",
-            "selected": "تم تحديد {العدد}",
-            "posts_waiting_approval": "{عدد} المشاركات التي تنتظر موافقتك",
+            "selected": "تم تحديد {count}",
+            "posts_waiting_approval": "{count} المشاركات التي تنتظر موافقتك",
             "all": "الكل",
             "there_are_approval_posts": "هناك بعض المشاركات التي تحتاج إلى موافقتك.",
             "review": "المراجعة",
@@ -2232,7 +2242,9 @@
             "waiting_approval": "في انتظار الموافقة",
             "hidden": "مخفي",
             "hidden_description": "تم رفض هذا التقديم من قبل منشئ الحملة.",
-            "waiting_description": "سيظهر هذا المنشور بمجرد موافقة المنشئ عليه."
+            "waiting_description": "سيظهر هذا المنشور بمجرد موافقة المنشئ عليه.",
+            "newest": "الأحدث",
+            "oldest": "الأقدم"
         }
     },
     "report": {
@@ -2430,7 +2442,7 @@
             "spam": "الرسائل غير المرغوب فيها"
         },
         "general": {
-            "by_account_name": "بواسطة"
+            "by_account_name": "بواسطة {username}"
         },
         "delete": {
             "delete_post_description": "سيكون حذف هذا المنشور دائمًا ولا يمكن التراجع عنه.",
@@ -2887,8 +2899,8 @@
             "confirm_password": "يجب أن تتطابق كلمة المرور",
             "valid_email": "يرجى إدخال عنوان بريد إلكتروني صالح",
             "valid_url": "الرجاء إدخال عنوان URL صالح",
-            "min_width": "يجب أن تكون {دقيقة} بكسل على الأقل",
-            "max_width": "يجب أن يكون أقل من أو يساوي {الحد الأقصى} بكسل",
+            "min_width": "يجب أن تكون {min} بكسل على الأقل",
+            "max_width": "يجب أن يكون أقل من أو يساوي {max} بكسل",
             "min_length": "يجب أن يكون الطول {min} حرفًا على الأقل",
             "max_length": "لا يمكن أن يتجاوز الطول {max} حرفًا"
         },

@@ -1183,7 +1183,8 @@
             "frames": "Kehykset",
             "campaigns": "Kampanjat",
             "analytics": "Analytiikka",
-            "backgrounds": "Taustat"
+            "backgrounds": "Taustat",
+            "gallery": "Galleria"
         },
         "blank_design": {
             "suggested": "Ehdotettu",
@@ -1219,7 +1220,7 @@
         "permission": {
             "gallery_permission": "Galleria Lupa",
             "count_selected": "{count} Valittu",
-            "request_approval_to_add_post": "{käyttäjätunnus} pyydän lupaa lisätä postaus kampanjaasi.",
+            "request_approval_to_add_post": "{username} pyydän lupaa lisätä postaus kampanjaasi.",
             "allow_posting": "Salli postitus",
             "limited_posting": "Rajoitettu lähettäminen",
             "disable_posting": "Poista postitus käytöstä",
@@ -1228,7 +1229,16 @@
             "approved": "Hyväksytty",
             "allow_posting_desc": "Ihmiset voivat tukea kampanjaa lähettämällä kuviaan suoraan kampanjasivullesi",
             "limited_posting_desc": "Vain hyväksytyt käyttäjät voivat julkaista Twibbonejaan kampanjasivullasi",
-            "disable_posting_desc": "Kukaan ei voi julkaista omaa kuvaansa kampanjasivullasi"
+            "disable_posting_desc": "Kukaan ei voi julkaista omaa kuvaansa kampanjasivullasi",
+            "submission_forbidden": "Kampanja-asetukset kieltävät lähettämisen.",
+            "permission_limited": "Galleriakäyttöoikeuksia ei ole rajoitettu tässä kampanjassa.",
+            "manage_permission": "Hallinnoi käyttöoikeuksiasi",
+            "change": "Muuttaa",
+            "to": "että",
+            "or": "tai",
+            "to_manage": "hallita kampanjasi julkaisuja",
+            "view_request": "Näytä pyyntö",
+            "comment_disabled": "Kommentointi poistettu käytöstä"
         }
     },
     "page_for_creators": {
@@ -1807,7 +1817,7 @@
         },
         "notifications": {
             "notifications_settings": "Ilmoitusten asetukset",
-            "pick_notifications": "Valitse ilmoitukset, jotka haluat saada Push- tai sähköpostitse. Nämä asetukset koskevat vain push- ja sähköposti-ilmoituksia.",
+            "pick_notifications": "Valitse ilmoitukset, jotka haluat saada sähköpostitse. Nämä asetukset koskevat vain sähköposti-ilmoituksia.",
             "email": "Sähköposti",
             "push": "Push",
             "campaign_milestone": "Kampanjan virstanpylväs",
@@ -2216,9 +2226,9 @@
             "unpinned": "Irrotettu"
         },
         "waiting_approval": {
-            "request_approval": "Pyydä hyväksyntää {nimi}",
+            "request_approval": "Pyydä hyväksyntää {name}",
             "accept": "Hyväksy {count}",
-            "decline": "Lasku {luku}",
+            "decline": "Lasku {count}",
             "approved": "Hyväksytty virka",
             "rejected": "Posti hylätty",
             "post_in_review": "Posts In Review",
@@ -2232,7 +2242,9 @@
             "waiting_approval": "Odottaa hyväksyntää",
             "hidden": "Piilotettu",
             "hidden_description": "Kampanjan luoja hylkäsi tämän ehdotuksen.",
-            "waiting_description": "Tämä viesti ilmestyy, kun tekijä hyväksyy sen."
+            "waiting_description": "Tämä viesti ilmestyy, kun tekijä hyväksyy sen.",
+            "newest": "Uusin",
+            "oldest": "Vanhin"
         }
     },
     "report": {
@@ -2430,7 +2442,7 @@
             "spam": "Roskaposti"
         },
         "general": {
-            "by_account_name": "by"
+            "by_account_name": "by {username}"
         },
         "delete": {
             "delete_post_description": "Tämän viestin poistaminen on pysyvä eikä sitä voi perua.",

@@ -1183,7 +1183,8 @@
             "frames": "Cadres",
             "campaigns": "Campagnes",
             "analytics": "Analytiques",
-            "backgrounds": "Arrière-plans"
+            "backgrounds": "Arrière-plans",
+            "gallery": "Galerie"
         },
         "blank_design": {
             "suggested": "Suggéré",
@@ -1219,7 +1220,7 @@
         "permission": {
             "gallery_permission": "Autorisation de la galerie",
             "count_selected": "{count} Sélectionné",
-            "request_approval_to_add_post": "{nomdutilisateur} demande l'autorisation d'ajouter un message à votre campagne.",
+            "request_approval_to_add_post": "{username} demande l'autorisation d'ajouter un message à votre campagne.",
             "allow_posting": "Autoriser l'affichage",
             "limited_posting": "Affichage limité",
             "disable_posting": "Désactiver l'affichage",
@@ -1228,7 +1229,16 @@
             "approved": "Approuvé",
             "allow_posting_desc": "Les gens peuvent apporter leur soutien en publiant leurs photos directement sur la page de votre campagne",
             "limited_posting_desc": "Seuls les utilisateurs approuvés sont autorisés à publier leurs Twibbons sur la page de votre campagne",
-            "disable_posting_desc": "Personne ne peut publier sa photo sur la page de votre campagne"
+            "disable_posting_desc": "Personne ne peut publier sa photo sur la page de votre campagne",
+            "submission_forbidden": "Les soumissions sont interdites par le paramètre de campagne.",
+            "permission_limited": "L'autorisation de la galerie n'est pas limitée pour cette campagne.",
+            "manage_permission": "Gérez vos autorisations",
+            "change": "Changement",
+            "to": "à",
+            "or": "ou",
+            "to_manage": "pour gérer les publications de votre campagne",
+            "view_request": "Demande de consultation",
+            "comment_disabled": "Commentaire désactivé"
         }
     },
     "page_for_creators": {
@@ -1807,7 +1817,7 @@
         },
         "notifications": {
             "notifications_settings": "Paramètres des notifications",
-            "pick_notifications": "Choisissez les notifications que vous souhaitez recevoir par Push ou par e-mail. Ces préférences ne s'appliquent qu'aux notifications push et email.",
+            "pick_notifications": "Choisissez les notifications que vous souhaitez recevoir par e-mail. Ces préférences ne s'appliquent qu'aux e-mails.",
             "email": "Courriel",
             "push": "Push",
             "campaign_milestone": "Étape de la campagne",
@@ -2216,7 +2226,7 @@
             "unpinned": "Désépinglé"
         },
         "waiting_approval": {
-            "request_approval": "Demande d'approbation auprès de {nom}",
+            "request_approval": "Demande d'approbation auprès de {name}",
             "accept": "Accepter {count}",
             "decline": "Déclin {count}",
             "approved": "Poste approuvé",
@@ -2232,7 +2242,9 @@
             "waiting_approval": "Attente de l'approbation",
             "hidden": "Caché",
             "hidden_description": "Cette soumission a été refusée par le créateur de la campagne.",
-            "waiting_description": "Ce message apparaîtra une fois que le créateur l'aura approuvé."
+            "waiting_description": "Ce message apparaîtra une fois que le créateur l'aura approuvé.",
+            "newest": "Le plus récent",
+            "oldest": "Le plus ancien"
         }
     },
     "report": {
@@ -2430,7 +2442,7 @@
             "spam": "Spam"
         },
         "general": {
-            "by_account_name": "par"
+            "by_account_name": "par {username}"
         },
         "delete": {
             "delete_post_description": "La suppression de ce message sera permanente et ne pourra pas être annulée.",

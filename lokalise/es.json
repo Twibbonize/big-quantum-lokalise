@@ -1183,7 +1183,8 @@
             "frames": "Marcos",
             "campaigns": "Campañas",
             "analytics": "Analíticas",
-            "backgrounds": "Fondos"
+            "backgrounds": "Fondos",
+            "gallery": "Galería"
         },
         "blank_design": {
             "suggested": "Sugerencia",
@@ -1218,17 +1219,26 @@
         },
         "permission": {
             "gallery_permission": "Galería Permiso",
-            "count_selected": "{contar} Seleccionado",
-            "request_approval_to_add_post": "{nombredeusuario} solicito aprobación para añadir un mensaje a su campaña.",
+            "count_selected": "{count} Seleccionado",
+            "request_approval_to_add_post": "{username} solicito aprobación para añadir un mensaje a su campaña.",
             "allow_posting": "Permitir la contabilización",
             "limited_posting": "Contabilización limitada",
             "disable_posting": "Desactivar la contabilización",
-            "in_review": "En revisión ({cuenta})",
-            "hidden": "Oculto ({contar})",
+            "in_review": "En revisión ({count})",
+            "hidden": "Oculto ({count})",
             "approved": "Aprobado",
             "allow_posting_desc": "La gente puede apoyar publicando sus fotos directamente en la página de tu campaña",
             "limited_posting_desc": "Sólo los usuarios aprobados pueden publicar sus Twibbons en la página de tu campaña",
-            "disable_posting_desc": "Nadie puede publicar su foto en la página de tu campaña"
+            "disable_posting_desc": "Nadie puede publicar su foto en la página de tu campaña",
+            "submission_forbidden": "Los envíos están prohibidos según la configuración de la campaña.",
+            "permission_limited": "El permiso de la galería no está limitado para esta campaña.",
+            "manage_permission": "Gestionar sus permisos",
+            "change": "Cambiar",
+            "to": "a",
+            "or": "o",
+            "to_manage": "Para administrar publicaciones en tu campaña",
+            "view_request": "Ver solicitud",
+            "comment_disabled": "Comentario deshabilitado"
         }
     },
     "page_for_creators": {
@@ -1807,7 +1817,7 @@
         },
         "notifications": {
             "notifications_settings": "Configuración de notificaciones",
-            "pick_notifications": "Elige las notificaciones que quieres recibir vía Push o email. Estas preferencias solo se aplican a las notificaciones push y por correo electrónico.",
+            "pick_notifications": "Elige las notificaciones que quieres recibir vía email. Estas preferencias solo se aplican a las notificaciones por correo electrónico.",
             "email": "Correo electrónico",
             "push": "Push",
             "campaign_milestone": "Hito de la campaña",
@@ -2216,14 +2226,14 @@
             "unpinned": "Desanclar"
         },
         "waiting_approval": {
-            "request_approval": "Solicitar la aprobación de {nombre}",
+            "request_approval": "Solicitar la aprobación de {name}",
             "accept": "Aceptar {count}",
-            "decline": "Disminución {cuenta}",
+            "decline": "Disminución {count}",
             "approved": "Puesto aprobado",
             "rejected": "Puesto rechazado",
             "post_in_review": "Revista de publicaciones",
-            "selected": "Seleccionado {cuenta}",
-            "posts_waiting_approval": "{cuentas} entradas esperando su aprobación",
+            "selected": "Seleccionado {count}",
+            "posts_waiting_approval": "{count} entradas esperando su aprobación",
             "all": "Todos",
             "there_are_approval_posts": "Hay algunos puestos que necesitan tu aprobación.",
             "review": "Consulte",
@@ -2232,7 +2242,9 @@
             "waiting_approval": "En espera de aprobación",
             "hidden": "Oculto",
             "hidden_description": "Este envío fue rechazado por el creador de la campaña.",
-            "waiting_description": "Este post aparecerá una vez que el creador lo apruebe."
+            "waiting_description": "Este post aparecerá una vez que el creador lo apruebe.",
+            "newest": "Más reciente",
+            "oldest": "Más antiguo"
         }
     },
     "report": {
@@ -2430,7 +2442,7 @@
             "spam": "Spam"
         },
         "general": {
-            "by_account_name": "por"
+            "by_account_name": "por {username}"
         },
         "delete": {
             "delete_post_description": "La eliminación de este mensaje será permanente y no podrá deshacerse.",

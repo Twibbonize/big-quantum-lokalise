@@ -1183,7 +1183,8 @@
             "frames": "Ramki",
             "campaigns": "Kampanie",
             "analytics": "Analityka",
-            "backgrounds": "Tła"
+            "backgrounds": "Tła",
+            "gallery": "Galeria"
         },
         "blank_design": {
             "suggested": "Sugerowane",
@@ -1219,7 +1220,7 @@
         "permission": {
             "gallery_permission": "Zezwolenie galerii",
             "count_selected": "{count} Wybrane",
-            "request_approval_to_add_post": "{nazwa użytkownika} prosi o zatwierdzenie dodania postu do kampanii.",
+            "request_approval_to_add_post": "{username} prosi o zatwierdzenie dodania postu do kampanii.",
             "allow_posting": "Zezwalaj na publikowanie",
             "limited_posting": "Ograniczona liczba postów",
             "disable_posting": "Wyłącz publikowanie",
@@ -1228,7 +1229,16 @@
             "approved": "Zatwierdzony",
             "allow_posting_desc": "Ludzie mogą wspierać, publikując swoje zdjęcia bezpośrednio na stronie kampanii",
             "limited_posting_desc": "Tylko zatwierdzeni użytkownicy mogą publikować swoje Twibbony na stronie kampanii",
-            "disable_posting_desc": "Nikt nie może opublikować swojego zdjęcia na stronie kampanii"
+            "disable_posting_desc": "Nikt nie może opublikować swojego zdjęcia na stronie kampanii",
+            "submission_forbidden": "Zgłoszenia są zabronione ze względu na ustawienia kampanii.",
+            "permission_limited": "W przypadku tej kampanii uprawnienia galerii nie są ograniczone.",
+            "manage_permission": "Zarządzaj swoimi uprawnieniami",
+            "change": "Zmiana",
+            "to": "Do",
+            "or": "Lub",
+            "to_manage": "aby zarządzać postami w swojej kampanii",
+            "view_request": "Wyświetl prośbę",
+            "comment_disabled": "Komentarz wyłączony"
         }
     },
     "page_for_creators": {
@@ -1807,7 +1817,7 @@
         },
         "notifications": {
             "notifications_settings": "Ustawienia powiadomień",
-            "pick_notifications": "Wybierz powiadomienia, które chcesz otrzymywać za pośrednictwem wiadomości Push lub e-mail. Te preferencje dotyczą tylko powiadomień push i e-mail.",
+            "pick_notifications": "Wybierz powiadomienia, które chcesz otrzymywać za pośrednictwem e-mail. Te preferencje dotyczą tylko e-mail.",
             "email": "E-mail",
             "push": "Push",
             "campaign_milestone": "Kamień milowy kampanii",
@@ -2216,14 +2226,14 @@
             "unpinned": "Odpięty"
         },
         "waiting_approval": {
-            "request_approval": "Prośba o zatwierdzenie od {imię}",
+            "request_approval": "Prośba o zatwierdzenie od {name}",
             "accept": "Akceptuj {count}",
-            "decline": "Spadek {liczba}",
+            "decline": "Spadek {count}",
             "approved": "Post zatwierdzony",
             "rejected": "Post odrzucony",
             "post_in_review": "Przegląd postów",
-            "selected": "Wybrana {liczba}",
-            "posts_waiting_approval": "{liczba} postów oczekujących na zatwierdzenie",
+            "selected": "Wybrana {count}",
+            "posts_waiting_approval": "{count} postów oczekujących na zatwierdzenie",
             "all": "Wszystkie",
             "there_are_approval_posts": "Niektóre posty wymagają zatwierdzenia.",
             "review": "Recenzja",
@@ -2232,7 +2242,9 @@
             "waiting_approval": "Oczekiwanie na zatwierdzenie",
             "hidden": "Ukryty",
             "hidden_description": "To zgłoszenie zostało odrzucone przez twórcę kampanii.",
-            "waiting_description": "Ten post pojawi się po zatwierdzeniu przez twórcę."
+            "waiting_description": "Ten post pojawi się po zatwierdzeniu przez twórcę.",
+            "newest": "Najnowszy",
+            "oldest": "Najstarszy"
         }
     },
     "report": {
@@ -2430,7 +2442,7 @@
             "spam": "Spam"
         },
         "general": {
-            "by_account_name": "przez"
+            "by_account_name": "przez {username}"
         },
         "delete": {
             "delete_post_description": "Usunięcie tego postu będzie trwałe i nie będzie można go cofnąć.",
