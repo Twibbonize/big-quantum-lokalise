@@ -1183,7 +1183,8 @@
             "frames": "Rammer",
             "campaigns": "Kampanjer",
             "analytics": "Analyser",
-            "backgrounds": "Bakgrunner"
+            "backgrounds": "Bakgrunner",
+            "gallery": "Galleri"
         },
         "blank_design": {
             "suggested": "Foreslått",
@@ -1218,17 +1219,26 @@
         },
         "permission": {
             "gallery_permission": "Tillatelse til galleri",
-            "count_selected": "{telling} Utvalgt",
-            "request_approval_to_add_post": "{brukernavn} ber om godkjenning for å legge til innlegg i kampanjen din.",
+            "count_selected": "{count} Utvalgt",
+            "request_approval_to_add_post": "{username} ber om godkjenning for å legge til innlegg i kampanjen din.",
             "allow_posting": "Tillat utlegging",
             "limited_posting": "Begrenset utsendelse",
             "disable_posting": "Deaktiver utlegging",
-            "in_review": "I gjennomgang ({antall})",
-            "hidden": "Skjult ({antall})",
+            "in_review": "I gjennomgang ({count})",
+            "hidden": "Skjult ({count})",
             "approved": "Godkjent",
             "allow_posting_desc": "Folk kan støtte ved å legge ut bildene sine direkte på kampanjesiden din",
             "limited_posting_desc": "Bare godkjente brukere har lov til å legge ut Twibbons på kampanjesiden din",
-            "disable_posting_desc": "Ingen kan legge ut bilde av seg selv på kampanjesiden din"
+            "disable_posting_desc": "Ingen kan legge ut bilde av seg selv på kampanjesiden din",
+            "submission_forbidden": "Innsendinger er forbudt i henhold til kampanjeinnstillingene.",
+            "permission_limited": "Galleritillatelser er ikke begrenset for denne kampanjen.",
+            "manage_permission": "Administrer tillatelsene dine",
+            "change": "Endre",
+            "to": "til",
+            "or": "eller",
+            "to_manage": "for å administrere innlegg i kampanjen din",
+            "view_request": "Vis forespørsel",
+            "comment_disabled": "Kommentar deaktivert"
         }
     },
     "page_for_creators": {
@@ -1807,7 +1817,7 @@
         },
         "notifications": {
             "notifications_settings": "Innstillinger for varslinger",
-            "pick_notifications": "Velg hvilke varsler du vil motta via Push eller e-post. Disse innstillingene gjelder bare for push og e-post.",
+            "pick_notifications": "Velg hvilke varsler du vil motta via e-post. Disse innstillingene gjelder bare for e-post.",
             "email": "E-post",
             "push": "Push",
             "campaign_milestone": "Milepæl i kampanjen",
@@ -2216,14 +2226,14 @@
             "unpinned": "Løsnede"
         },
         "waiting_approval": {
-            "request_approval": "Be om godkjenning fra {navn}",
-            "accept": "Godta {telling}",
-            "decline": "Nedgang {telling}",
+            "request_approval": "Be om godkjenning fra {name}",
+            "accept": "Godta {count}",
+            "decline": "Nedgang {count}",
             "approved": "Post godkjent",
             "rejected": "Post avvist",
             "post_in_review": "Innlegg i oversikt",
-            "selected": "Valgt {antall}",
-            "posts_waiting_approval": "{antall} innlegg som venter på din godkjenning",
+            "selected": "Valgt {count}",
+            "posts_waiting_approval": "{count} innlegg som venter på din godkjenning",
             "all": "Alle",
             "there_are_approval_posts": "Det er noen innlegg som trenger din godkjenning.",
             "review": "Anmeldelse",
@@ -2430,7 +2440,7 @@
             "spam": "Søppelpost"
         },
         "general": {
-            "by_account_name": "av"
+            "by_account_name": "av {username}"
         },
         "delete": {
             "delete_post_description": "Sletting av dette innlegget vil være permanent og kan ikke angres.",
