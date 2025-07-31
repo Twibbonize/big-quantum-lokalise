@@ -1183,7 +1183,8 @@
             "frames": "フレーム",
             "campaigns": "キャンペーン",
             "analytics": "分析",
-            "backgrounds": "背景"
+            "backgrounds": "背景",
+            "gallery": "ギャラリー"
         },
         "blank_design": {
             "suggested": "推奨",
@@ -1219,7 +1220,7 @@
         "permission": {
             "gallery_permission": "ギャラリー使用許可",
             "count_selected": "{count}（カウント選択された",
-            "request_approval_to_add_post": "{ユーザー名}があなたのキャンペーンに投稿を追加する承認を要求します。",
+            "request_approval_to_add_post": "{username}があなたのキャンペーンに投稿を追加する承認を要求します。",
             "allow_posting": "投稿を許可する",
             "limited_posting": "限定掲載",
             "disable_posting": "ポスティングを無効にする",
@@ -1228,7 +1229,16 @@
             "approved": "承認済み",
             "allow_posting_desc": "キャンペーンページに直接写真を投稿することで支援することができます。",
             "limited_posting_desc": "承認されたユーザーのみがキャンペーンページにTwibbonsを投稿できます。",
-            "disable_posting_desc": "キャンペーンページに自分の写真を掲載することはできません。"
+            "disable_posting_desc": "キャンペーンページに自分の写真を掲載することはできません。",
+            "submission_forbidden": "キャンペーン設定により投稿は禁止されています。",
+            "permission_limited": "このキャンペーンではギャラリーの許可に制限はありません。",
+            "manage_permission": "権限を管理する",
+            "change": "変化",
+            "to": "に",
+            "or": "または",
+            "to_manage": "キャンペーン内の投稿を管理する",
+            "view_request": "リクエストを表示",
+            "comment_disabled": "コメント無効"
         }
     },
     "page_for_creators": {
@@ -1807,7 +1817,7 @@
         },
         "notifications": {
             "notifications_settings": "通知設定",
-            "pick_notifications": "PushまたはEメールで受け取りたい通知を選んでください。これらの設定はプッシュとEメールにのみ適用されます。",
+            "pick_notifications": "Eメールで受け取りたい通知を選んでください。これらの設定はEメールにのみ適用されます。",
             "email": "電子メール",
             "push": "Push",
             "campaign_milestone": "キャンペーンのマイルストーン",
@@ -2216,14 +2226,14 @@
             "unpinned": "ピン留め解除"
         },
         "waiting_approval": {
-            "request_approval": "名前}に承認を求める",
-            "accept": "カウント}を受け入れる",
-            "decline": "減少{数｝",
+            "request_approval": "{name} に承認を求める",
+            "accept": "{count}を受け入れる",
+            "decline": "減少 {count}",
             "approved": "承認されたポスト",
             "rejected": "却下された投稿",
             "post_in_review": "ポスト・イン・レビュー",
-            "selected": "選択された{カウント}。",
-            "posts_waiting_approval": "{数}の投稿があなたの承認を待っている",
+            "selected": "選択された{count}。",
+            "posts_waiting_approval": "{count} の投稿があなたの承認を待っている",
             "all": "すべて",
             "there_are_approval_posts": "あなたの承認が必要な投稿もある。",
             "review": "レビュー",
@@ -2430,7 +2440,7 @@
             "spam": "スパム"
         },
         "general": {
-            "by_account_name": "によって"
+            "by_account_name": "によって {username}"
         },
         "delete": {
             "delete_post_description": "この投稿の削除は永久に行われ、元に戻すことはできません。",
@@ -2888,7 +2898,7 @@
             "valid_email": "有効なメールアドレスを入力してください",
             "valid_url": "有効なURLを入力してください",
             "min_width": "最低 {min} ピクセル必要",
-            "max_width": "最大}ピクセル以下でなければならない。",
+            "max_width": "{max}ピクセル以下でなければならない。",
             "min_length": "長さは少なくとも{min}文字である必要があります",
             "max_length": "長さは{max}文字を超えることはできません"
         },

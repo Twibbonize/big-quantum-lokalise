@@ -1183,7 +1183,8 @@
             "frames": "Ramar",
             "campaigns": "Kampanjer",
             "analytics": "Analys",
-            "backgrounds": "Bakgrunder"
+            "backgrounds": "Bakgrunder",
+            "gallery": "Galleri"
         },
         "blank_design": {
             "suggested": "Föreslagen",
@@ -1218,17 +1219,26 @@
         },
         "permission": {
             "gallery_permission": "Tillstånd för galleri",
-            "count_selected": "{antal} Vald",
-            "request_approval_to_add_post": "{användarnamn} begär godkännande för att lägga till inlägg i din kampanj.",
+            "count_selected": "{count} Vald",
+            "request_approval_to_add_post": "{username} begär godkännande för att lägga till inlägg i din kampanj.",
             "allow_posting": "Tillåt utstationering",
             "limited_posting": "Begränsad utstationering",
             "disable_posting": "Inaktivera postning",
-            "in_review": "I recension ({antal})",
-            "hidden": "Dold ({antal})",
+            "in_review": "I recension ({count})",
+            "hidden": "Dold ({count})",
             "approved": "Godkänd",
             "allow_posting_desc": "Människor kan stödja genom att publicera sina foton direkt på din kampanjsida",
             "limited_posting_desc": "Endast godkända användare får publicera sina Twibbons på din kampanjsida",
-            "disable_posting_desc": "Ingen kan lägga upp sin egen bild på din kampanjsida"
+            "disable_posting_desc": "Ingen kan lägga upp sin egen bild på din kampanjsida",
+            "submission_forbidden": "Inskickade bidrag är förbjudna enligt kampanjinställningarna.",
+            "permission_limited": "Galleribehörighet är inte begränsad för den här kampanjen.",
+            "manage_permission": "Hantera dina behörigheter",
+            "change": "Ändra",
+            "to": "till",
+            "or": "eller",
+            "to_manage": "för att hantera inlägg i din kampanj",
+            "view_request": "Visa begäran",
+            "comment_disabled": "Kommentar inaktiverad"
         }
     },
     "page_for_creators": {
@@ -1807,7 +1817,7 @@
         },
         "notifications": {
             "notifications_settings": "Inställningar för aviseringar",
-            "pick_notifications": "Välj de meddelanden du vill få via Push eller e-post. Dessa inställningar gäller endast för push och e-post.",
+            "pick_notifications": "Välj de meddelanden du vill få via e-post. Dessa inställningar gäller endast för e-post.",
             "email": "E-post",
             "push": "Push",
             "campaign_milestone": "Milstolpe i kampanjen",
@@ -2216,14 +2226,14 @@
             "unpinned": "Lossade"
         },
         "waiting_approval": {
-            "request_approval": "Begär godkännande från {namn}",
-            "accept": "Acceptera {antal}",
-            "decline": "Minska {antal}",
+            "request_approval": "Begär godkännande från {name}",
+            "accept": "Acceptera {count}",
+            "decline": "Minska {count}",
             "approved": "Post godkänd",
             "rejected": "Post avvisad",
             "post_in_review": "Inlägg i översikt",
-            "selected": "Valda {antal}",
-            "posts_waiting_approval": "{antal} inlägg som väntar på ditt godkännande",
+            "selected": "Valda {count}",
+            "posts_waiting_approval": "{count} inlägg som väntar på ditt godkännande",
             "all": "Alla",
             "there_are_approval_posts": "Det finns vissa inlägg som kräver ditt godkännande.",
             "review": "Granskning",
@@ -2430,7 +2440,7 @@
             "spam": "Skräppost"
         },
         "general": {
-            "by_account_name": "av"
+            "by_account_name": "av {username}"
         },
         "delete": {
             "delete_post_description": "Om du raderar det här inlägget blir det permanent och kan inte ångras.",
