@@ -265,6 +265,78 @@
             "sx": "Sint Maarten"
         }
     },
+    "ai_twibbon": {
+        "header": {
+            "title": "AI Twibbon",
+            "paragraph": "Magically transform photo into any style"
+        },
+        "popover_text": {
+            "examples": "Or try with these examples"
+        },
+        "modal_restore": {
+            "title": "Generation Interrupted",
+            "paragraph": "Your last image wasn't finished. Restore the session to continue."
+        },
+        "text_link": {
+            "content_guideline": "Our content guidelines"
+        },
+        "hint_text": {
+            "generate_ai": "AI Twibbon generation may produce unexpected results"
+        },
+        "states": {
+            "running": {
+                "title": "Processing your photo",
+                "subtitle": "Please wait"
+            },
+            "completed": {
+                "download_hint": "Photo not downloading?",
+                "download_action": "Re-Download"
+            },
+            "interrupted": {
+                "network": {
+                    "title": "Connection lost",
+                    "subtitle": "You're offline. Reconnect to generate your image."
+                },
+                "session": {
+                    "title": "You've Been Logged Out",
+                    "subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue"
+                }
+            },
+            "error": {
+                "failed": {
+                    "title": "Unable to process your images",
+                    "subtitle": "Please try again with images that meet our requirements."
+                },
+                "nsfw": {
+                    "title": "Content Not Allowed",
+                    "subtitle": "NSFW content detected. Please try upload a different image or photo that follow our content guidelines"
+                },
+                "general": {
+                    "title": "Couldn't generate your image",
+                    "subtitle": "Something went wrong on our side. No credits were used for this attempt."
+                }
+            }
+        },
+        "actions": {
+            "shuffle": "Shuffle",
+            "retry": "Retry",
+            "next": "Next",
+            "login": "Log In",
+            "download": "Re-Download",
+            "upload_photo": "Upload your Photo",
+            "reference": "Upload Reference",
+            "generate_ai": "Generate"
+        },
+        "labels": {
+            "credit_cost": "1"
+        },
+        "toast": {
+            "session_expired": "Session expired. Please log in again.",
+            "insufficient_credits": "Insufficient credits. Please top up to continue.",
+            "process_ownership_error": "Process belongs to different user, cannot restore",
+            "credits_topup_success": "Top up credits successful!"
+        }
+    },
     "general": {
         "navbar": {
             "start_campaign": "Start a Campaign",
@@ -3260,46 +3332,6 @@
             "package_30": "Top-up Package 30",
             "generate_ai": "Generate an AI Twibbon",
             "credit_refund": "Credit Refund"
-        }
-    },
-    "ai_twibbon": {
-        "header": {
-            "title": "AI Twibbon",
-            "paragraph": "Magically transform photo into any style"
-        },
-        "button": {
-            "upload_photo": "Upload your Photo",
-            "reference": "Upload Reference",
-            "generate_ai": "Generate"
-        },
-        "popover_text": {
-            "examples": "Or try with these examples"
-        },
-        "popover_button": {
-            "shuffle": "Shuffle"
-        },
-        "modal_restore": {
-            "title": "Generation Interrupted",
-            "paragraph": "Your last image wasn't finished. Restore the session to continue."
-        },
-        "button_secondary": {
-            "retry": "Retry"
-        },
-        "generation_error": {
-            "title": "Image Generation Error",
-            "paragraph": "An error has occurated during the image generation process"
-        },
-        "title": {
-            "nsfw_detected": "Content Not Allowed"
-        },
-        "support_text": {
-            "nsfw_info": "NSFW content detected. Please try upload a different image or photo that follow our content guidelines"
-        },
-        "text_link": {
-            "content_guideline": "Our content guidelines"
-        },
-        "hint_text": {
-            "generate_ai": "AI Twibbon generation may produce unexpected results"
         }
     },
     "modal_puchase_credits": {
