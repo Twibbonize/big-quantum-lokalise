@@ -452,7 +452,7 @@
             "generate_twibbon": "Twibbon ကို ဖန်တီးပြီး မျှဝေပါ။",
             "create_campaign": "ကမ်ပိန်းကို ဖန်တီး၊ မျှဝေပြီး တည်းဖြတ်ပါ။",
             "header": "ဆိုက်မြေပုံ",
-            "credits": "Credits"
+            "credits": "ခရက်ဒစ်"
         },
         "relative_time": {
             "seconds": "စက္ကန့်အနည်းငယ်",
@@ -1208,7 +1208,7 @@
             "what_do_you_want_to_create_desc": "သင့်အွန်လိုင်းကမ်ပိန်းဂိမ်းကို ဖရိန်တစ်ခုဖြင့်သာမက ဖန်တီးမှုနောက်ခံများဖြင့်ပါ ဆွဲဆောင်ပါ။",
             "new": "အသစ်",
             "frame_twibbon": "ဖရိမ် Twibbon",
-            "try_twibbon": "Try {type} Twibbon"
+            "try_twibbon": "{type} Twibbon ကိုစမ်းကြည့်ပါ။"
         },
         "confirm_reorder": {
             "title": "Twibbon ကို ပြန်စီမလား။",
@@ -1824,8 +1824,8 @@
             "go_to_homepage": "ပင်မစာမျက်နှာသို့သွားပါ။",
             "set_password": "စကားဝှက်သတ်မှတ်ပါ။",
             "for_security_create_password": "လုံခြုံရေးအရ၊ စကားဝှက်တစ်ခု ဖန်တီးပါ။",
-            "facebook_login_required": "Please login with Facebook to delete your account.",
-            "facebook_revoke_required": "Please revoke your Facebook account to delete your account."
+            "facebook_login_required": "သင့်အကောင့်ကိုဖျက်ရန် Facebook ဖြင့်ဝင်ရောက်ပါ။",
+            "facebook_revoke_required": "ကျေးဇူးပြု၍ သင့်အကောင့်ကိုဖျက်ရန် သင့် Facebook အကောင့်ကို ပြန်လည်ရုပ်သိမ်းပါ။"
         },
         "notifications": {
             "notifications_settings": "အကြောင်းကြားချက်များ ဆက်တင်များ",
@@ -2969,8 +2969,8 @@
             "placeholder_ post_to_twibbonize": "မင်္ဂလာပါ၊ ဒီကမ်ပိန်းကို ထောက်ခံဖို့ အားလုံးပါဝင်ပါတယ်။ စုစည်းပြီး ဒီကမ်ပိန်းကို အတူတူ တွဲလုပ်လိုက်ကြရအောင်။"
         },
         "campaign": {
-            "subheader": "Select a type of Twibbon",
-            "ai_twibbon_sub": "Magically combine two photos and turn it into a template everyone can use",
+            "subheader": "Twibbon အမျိုးအစားကို ရွေးချယ်ပါ။",
+            "ai_twibbon_sub": "ဓာတ်ပုံနှစ်ပုံကို ပေါင်းစပ်၍ လူတိုင်းသုံးနိုင်သော ပုံစံတစ်ခုအဖြစ်သို့ ပြောင်းလဲပါ။",
             "ai_twibbon_title": "AI Twibbon"
         }
     },
@@ -3202,187 +3202,214 @@
     },
     "page_credits": {
         "marketing": {
-            "title": "Easily generate stunning AI Twibbon with Credits. No subscription required, pay as you need!",
-            "topup_button": "Top-Up Credits",
-            "generate_twibbon": "Generate stunning AI Twibbon",
-            "generate_twibbon_desc": "Use Credits to help you transform your image into any style with the power of AI, and share your formula to the world!",
-            "easy_twibbon_creation": "Easy AI Twibbon creation",
-            "easy_twibbon_creation_desc": "In just a few steps, you can create your own Twibbon using Credits with our user-friendly tool.",
-            "step_1": "STEP 1",
-            "step_1_desc": "Top-up your credits. Buy credits as you need.",
-            "step_2": "STEP 2",
-            "step_2_desc": "Use credits to generate AI Twibbon. Apply AI styles to create a unique Twibbon campaign.",
-            "step_3": "STEP 3",
-            "step_3_desc": "Download and share your design instantly, watermark‑free if you choose.",
-            "no_subscriptions_needed": "No subscriptions needed",
-            "no_subscriptions_needed_desc": "Choose the number of Credits that suits your needs. Ideal for anyone who wants to use Twibbonize from time to time.",
-            "upgrade_your_experience": "Upgrade your experience, easily",
-            "upgrade_your_experience_desc": "Get the perks with Credits. No monthly commitment, just flexibility!",
-            "no_subscription_needed_desc": "No subscription needed, pay only when you need it.",
-            "no_subscription_needed_price": "starts from {price}"
+            "title": "Credits များဖြင့် ရင်သပ်ရှုမောဖွယ်ကောင်းသော AI Twibbon ကို လွယ်ကူစွာ ဖန်တီးပါ။ စာရင်းသွင်းမှုမလိုအပ်ပါ၊ လိုအပ်သလိုပေးချေပါ။",
+            "topup_button": "ငွေဖြည့်ခရက်ဒစ်များ",
+            "generate_twibbon": "ရင်သပ်ရှုမောဖွယ် AI Twibbon ကို ဖန်တီးပါ။",
+            "generate_twibbon_desc": "သင့်ပုံကို AI ၏စွမ်းအားဖြင့် မည်သည့်စတိုင်လ်သို့ ပြောင်းလဲစေကာ သင့်ဖော်မြူလာကို ကမ္ဘာသို့မျှဝေရန် ခရက်ဒစ်များကို အသုံးပြုပါ။",
+            "easy_twibbon_creation": "လွယ်ကူသော AI Twibbon ဖန်တီးမှု",
+            "easy_twibbon_creation_desc": "အဆင့်အနည်းငယ်တွင်၊ ကျွန်ုပ်တို့၏အသုံးပြုရလွယ်ကူသောကိရိယာဖြင့် ခရက်ဒစ်များကို အသုံးပြု၍ သင်၏ကိုယ်ပိုင် Twibbon ကို ဖန်တီးနိုင်သည်။",
+            "step_1": "အဆင့် ၁",
+            "step_1_desc": "သင်၏ခရက်ဒစ်များကိုငွေဖြည့်ပါ။ သင်လိုအပ်သလို ခရက်ဒစ်ကို ဝယ်ပါ။",
+            "step_2": "အဆင့် ၂",
+            "step_2_desc": "AI Twibbon ကိုထုတ်လုပ်ရန် ခရက်ဒစ်များကိုသုံးပါ။ ထူးခြားသော Twibbon လှုပ်ရှားမှုကို ဖန်တီးရန် AI စတိုင်များကို အသုံးပြုပါ။",
+            "step_3": "အဆင့် ၃",
+            "step_3_desc": "သင်ရွေးချယ်ပါက သင့်ဒီဇိုင်းကို ချက်ချင်းဒေါင်းလုဒ်လုပ်ပြီး မျှဝေပါ။",
+            "no_subscriptions_needed": "စာရင်းသွင်းမှုများ မလိုအပ်ပါ။",
+            "no_subscriptions_needed_desc": "သင့်လိုအပ်ချက်များနှင့်ကိုက်ညီသော ခရက်ဒစ်အရေအတွက်ကို ရွေးချယ်ပါ။ Twibbonize ကို အခါအားလျော်စွာ အသုံးပြုလိုသူများအတွက် အထူးသင့်လျော်ပါသည်။",
+            "upgrade_your_experience": "သင့်အတွေ့အကြုံကို အလွယ်တကူ အဆင့်မြှင့်ပါ။",
+            "upgrade_your_experience_desc": "ခရက်ဒစ်များဖြင့် အကျိုးခံစားခွင့်များကို ရယူပါ။ လစဉ် ကတိကဝတ်မရှိ၊ ပြောင်းလွယ်ပြင်လွယ်ရှိရုံသာ။",
+            "no_subscription_needed_desc": "စာရင်းသွင်းရန်မလိုအပ်ပါ၊ သင်လိုအပ်သည့်အခါမှသာပေးချေပါ။",
+            "no_subscription_needed_price": "{price} မှ စတင်သည်"
         }
     },
     "dashboard_home": {
         "sidebar": {
-            "home": "Home",
-            "balance": "Balance",
-            "settings": "Settings"
+            "home": "အိမ်",
+            "balance": "လက်ကျန်",
+            "settings": "ဆက်တင်များ"
         },
         "tabs": {
-            "campaigns": "Campaigns",
-            "collections": "Collections",
-            "posts": "Posts"
+            "campaigns": "လှုံ့ဆော်မှုများ",
+            "collections": "စုစည်းမှုများ",
+            "posts": "စာတိုက်"
         },
         "button_checkbox": {
-            "all_types": "All Types"
+            "all_types": "အမျိုးအစားအားလုံး"
         },
         "card_campaign": {
-            "frame": "Frame",
-            "background": "Background"
+            "frame": "ဘောင်",
+            "background": "နောက်ခံ"
         },
         "campaigns": {
-            "column_name": "Name",
-            "column_type": "Type",
-            "column_supports": "Supports",
-            "column_last_modified": "Last Modified",
-            "column_actions": "Actions"
+            "column_name": "နာမည်",
+            "column_type": "ရိုက်ပါ။",
+            "column_supports": "ထောက်ခံပါတယ်။",
+            "column_last_modified": "နောက်ဆုံးပြင်ဆင်ထားသည်။",
+            "column_actions": "လုပ်ဆောင်ချက်များ"
         }
     },
     "dashboard_balance": {
         "title": {
-            "credit_overview": "Overview",
-            "credit_card": "Total Credit Balance",
-            "credit_history": "Credit History"
+            "credit_overview": "ခြုံငုံသုံးသပ်ချက်",
+            "credit_card": "စုစုပေါင်း ခရက်ဒစ်လက်ကျန်",
+            "credit_history": "Credit မှတ်တမ်း"
         },
         "chip_filter": {
-            "all": "All",
-            "topup": "Top-ups",
-            "spending": "Spendings"
+            "all": "အားလုံး",
+            "topup": "ငွေဖြည့်များ",
+            "spending": "အသုံးစရိတ်များ"
         },
         "history_title": {
-            "package_30": "Top-up Package 30",
-            "generate_ai": "Generate an AI Twibbon",
-            "credit_refund": "Credit Refund"
+            "package_30": "ငွေဖြည့်အထုပ် ၃၀",
+            "generate_ai": "AI Twibbon တစ်ခု ဖန်တီးပါ။",
+            "credit_refund": "အကြွေးပြန်အမ်းခြင်း။"
         }
     },
     "ai_twibbon": {
         "header": {
             "title": "AI Twibbon",
-            "paragraph": "Magically transform photo into any style"
+            "paragraph": "ဓာတ်ပုံကို မည်သည့်စတိုင်လ်သို့ မှော်ဆန်စွာ ပြောင်းလဲပါ။"
         },
         "button": {
-            "upload_photo": "Upload your Photo",
-            "reference": "Upload Reference",
-            "generate_ai": "Generate"
+            "upload_photo": "သင့်ဓာတ်ပုံကို အပ်လုဒ်လုပ်ပါ။",
+            "reference": "အကိုးအကား တင်ပါ။",
+            "generate_ai": "ထုတ်လုပ်ပါ။"
         },
         "popover_text": {
-            "examples": "Or try with these examples"
+            "examples": "သို့မဟုတ် ဤဥပမာများဖြင့် ကြိုးစားကြည့်ပါ။"
         },
         "popover_button": {
-            "shuffle": "Shuffle"
+            "shuffle": "မွှေနှောက်သည်။"
         },
         "modal_restore": {
-            "title": "Generation Interrupted",
-            "paragraph": "Your last image wasn't finished. Restore the session to continue."
+            "title": "မျိုးဆက်ပြတ်တောက်သွားသည်။",
+            "paragraph": "သင်၏နောက်ဆုံးပုံသည် မပြီးသေးပါ။ ဆက်လုပ်ရန် စက်ရှင်ကို ပြန်ယူပါ။"
         },
         "button_secondary": {
-            "retry": "Retry"
+            "retry": "ပြန်ကြိုးစားပါ။"
         },
         "generation_error": {
-            "title": "Image Generation Error",
-            "paragraph": "An error has occurated during the image generation process"
+            "title": "ပုံ မျိုးဆက် အမှား",
+            "paragraph": "ရုပ်ပုံထုတ်လုပ်ခြင်းလုပ်ငန်းစဉ်အတွင်း အမှားအယွင်းတစ်ခု ဖြစ်ပေါ်ခဲ့သည်။"
         },
         "title": {
-            "nsfw_detected": "Content Not Allowed"
+            "nsfw_detected": "အကြောင်းအရာကို ခွင့်မပြုပါ။"
         },
         "support_text": {
-            "nsfw_info": "NSFW content detected. Please try upload a different image or photo that follow our content guidelines"
+            "nsfw_info": "NSFW အကြောင်းအရာကို တွေ့ရှိခဲ့သည်။ ကျွန်ုပ်တို့၏ အကြောင်းအရာလမ်းညွှန်ချက်များကို လိုက်နာသော အခြားပုံ သို့မဟုတ် ဓာတ်ပုံကို အပ်လုဒ်လုပ်ကြည့်ပါ။"
         },
         "text_link": {
-            "content_guideline": "Our content guidelines"
+            "content_guideline": "ကျွန်ုပ်တို့၏ အကြောင်းအရာလမ်းညွှန်ချက်များ"
         },
         "hint_text": {
-            "generate_ai": "AI Twibbon generation may produce unexpected results"
+            "generate_ai": "AI Twibbon မျိုးဆက်သည် မျှော်လင့်မထားသောရလဒ်များကို ထုတ်ပေးနိုင်သည်။"
+        },
+        "actions": {
+            "shuffle": "မွှေနှောက်သည်။",
+            "retry": "ပြန်ကြိုးစားပါ။",
+            "next": "နောက်တစ်ခု",
+            "login": "လော့ဂ်အင်",
+            "download": "ပြန်လည်ဒေါင်းလုဒ်လုပ်ပါ။",
+            "upload_photo": "သင့်ဓာတ်ပုံကို အပ်လုဒ်လုပ်ပါ။",
+            "reference": "အကိုးအကား တင်ပါ။",
+            "generate_ai": "ထုတ်လုပ်ပါ။"
+        },
+        "labels": {
+            "credit_cost": "1"
+        },
+        "toast": {
+            "session_expired": "စက်ရှင် သက်တမ်းကုန်သွားပါပြီ။ ကျေးဇူးပြု၍ ထပ်မံဝင်ရောက်ပါ။",
+            "insufficient_credits": "ခရက်ဒစ် မလုံလောက်ပါ။ ဆက်လုပ်ရန် ကျေးဇူးပြု၍ ငွေဖြည့်ပါ။",
+            "process_ownership_error": "လုပ်ငန်းစဉ်သည် မတူညီသောအသုံးပြုသူနှင့်သက်ဆိုင်သည်၊ ပြန်လည်ရယူ၍မရပါ။",
+            "credits_topup_success": "ခရက်ဒစ်ငွေဖြည့်သွင်းမှု အောင်မြင်ပါပြီ။"
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Have voucher code"
+            "payment": "ဘောက်ချာကုဒ် ပါရှိပါသည်။"
         },
         "separator": {
-            "voucher_code": "Enter Code"
+            "voucher_code": "Code ရိုက်ထည့်ပါ။"
         },
         "hint_text": {
-            "paragraph": "See the <span> for voucher redemption"
+            "paragraph": "ဘောက်ချာရွေးယူမှုအတွက် <span> ကိုကြည့်ပါ။"
         },
         "text_link": {
-            "terms": "Terms & Condition"
+            "terms": "စည်းကမ်းသတ်မှတ်ချက်များ"
+        },
+        "header_title": {
+            "alert_balance_credits": "သင့်တွင် ခရက်ဒစ်များ မလုံလောက်ပါ။",
+            "enter_voucher_code": "ဘောက်ချာကုဒ်ထည့်ပါ။"
+        },
+        "support_text": {
+            "enter_voucher_code": "ခရက်ဒစ်လက်ကျန်ကို ကူပွန်ဖြင့် ထုတ်ယူရန် သင့်ဘောက်ချာကုဒ်ကို ထည့်သွင်းပါ။",
+            "info_balance_credits": "ပထမဦးစွာ AI Twibbon တစ်ခုဖန်တီးရန် သင့်ခရက်ဒစ်ငွေဖြည့်သွင်းပါ။"
         }
     },
     "expand_menu_panel": {
         "button": {
-            "view_profile": "View your profile"
+            "view_profile": "သင့်ပရိုဖိုင်ကို ကြည့်ရှုပါ။"
         },
         "credit_overview": {
             "credit": "Credit"
         },
         "card_overview": {
-            "top-up": "Top-Up"
+            "top-up": "ငွေဖြည့်"
         }
     },
     "credits_detail": {
         "header_text": {
-            "title": "Easily generate stunning AI Twibbon with Credits. No subscription required, pay as you need!"
+            "title": "Credits များဖြင့် ရင်သပ်ရှုမောဖွယ်ကောင်းသော AI Twibbon ကို လွယ်ကူစွာ ဖန်တီးပါ။ စာရင်းသွင်းစရာမလိုပါ၊ လိုအပ်သလို ပေးချေပါ။"
         },
         "button_purchase": {
-            "topup": "Top-Up Credits"
+            "topup": "ငွေဖြည့်ခရက်ဒစ်များ"
         }
     },
     "modal_template": {
         "title": {
-            "change_template": "Change AI Twibbon Template?"
+            "change_template": "AI Twibbon Template ကို ပြောင်းမလား။"
         },
         "support_text": {
-            "change_info": "Generating a new image and saving the changes will automatically update the campaign thumbnail and remove the existing ones"
+            "change_info": "ပုံအသစ်တစ်ခု ဖန်တီးခြင်းနှင့် အပြောင်းအလဲများကို သိမ်းဆည်းခြင်းသည် ကမ်ပိန်းပုံသေးကို အလိုအလျောက် အပ်ဒိတ်လုပ်ပြီး ရှိပြီးသားပုံများကို ဖယ်ရှားပါမည်။"
         },
         "button": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "မလုပ်တော့",
+            "continue": "ဆက်ရန်"
         }
     },
     "modal_activity": {
         "header": {
-            "activity_details": "Activity Details"
+            "activity_details": "လုပ်ဆောင်ချက်အသေးစိတ်"
         },
         "text_link": {
-            "download": "Download",
-            "share": "Share as Campaign"
+            "download": "ဒေါင်းလုဒ်လုပ်ပါ။",
+            "share": "ကမ်ပိန်းအဖြစ် မျှဝေပါ။"
         },
         "info": {
-            "unavailable_campaign": "Download and Share as Campaign option will be unavailable after 90 days"
+            "unavailable_campaign": "ကမ်ပိန်းအဖြစ် ဒေါင်းလုဒ်လုပ်ပြီး မျှဝေခြင်း ရွေးချယ်မှုကို ရက် 90 ကြာပြီးနောက် မရနိုင်ပါ။"
         },
         "text_support": {
-            "transaction_id": "Transaction ID",
-            "date_time": "Date & Time",
-            "credit_used": "Credit Used",
-            "error_info": "An error occurred while processing your request."
+            "transaction_id": "ငွေပေးငွေယူ ID",
+            "date_time": "ရက်စွဲနှင့် အချိန်",
+            "credit_used": "ခရက်ဒစ်ကို အသုံးပြုသည်။",
+            "error_info": "သင့်တောင်းဆိုမှုကို လုပ်ဆောင်နေစဉ် အမှားအယွင်းတစ်ခု ဖြစ်ပွားခဲ့သည်။"
         },
         "title": {
-            "generation_failed": "Generation Failed"
+            "generation_failed": "မျိုးဆက် မအောင်မြင်ပါ။"
         }
     },
     "modal_introduction": {
         "ai_twibbon": {
-            "welcome_title": "Welcome to AI Twibbon",
-            "overview_desc": "AI Twibbon allows you to creatively transform your image into any style. Our AI analyzes your face and blends it with your chosen reference image. You can then turn your design into a campaign that others can replicate!",
-            "how_it_works": "How it works",
-            "how_it_works_desc": "Upload a portrait with your face clearly visible, then add a reference photo that matches the style you want. Pro tip: For optimal results, use reference images that closely resemble your photo, such as those featuring a hat or head covering.",
-            "guideline": "Please be aware",
-            "guideline_desc": "AI Twibbon image generation may produce unexpected results. To get the best results, use clear selfie in high-resolution. They work best when they are at least 1000 pixels wide. Our system may not create an image if it finds any NSFW (Not Safe For Work) content."
+            "welcome_title": "AI Twibbon မှလှိုက်လှဲစွာကြိုဆိုပါသည်။",
+            "overview_desc": "AI Twibbon သည် သင့်ပုံရိပ်ကို မည်သည့်စတိုင်လ်အဖြစ်သို့ တီထွင်ဖန်တီးနိုင်မည်နည်း။ ကျွန်ုပ်တို့၏ AI သည် သင့်မျက်နှာကို ပိုင်းခြားစိတ်ဖြာပြီး သင်ရွေးချယ်ထားသော အကိုးအကားပုံနှင့် ရောနှောထားသည်။ ထို့နောက် သင်သည် သင့်ဒီဇိုင်းကို အခြားသူများ ပုံတူပွားနိုင်သည့် ကမ်ပိန်းတစ်ခုအဖြစ် ပြောင်းလဲနိုင်သည်။",
+            "how_it_works": "ဘယ်လိုအလုပ်လုပ်လဲ။",
+            "how_it_works_desc": "သင့်မျက်နှာကို ရှင်းရှင်းလင်းလင်းမြင်ရသဖြင့် ပုံတူတစ်ပုံကို အပ်လုဒ်လုပ်ပါ၊ ထို့နောက် သင်လိုချင်သည့်ပုံစံနှင့် ကိုက်ညီသော ရည်ညွှန်းဓာတ်ပုံကို ထည့်ပါ။ အကြံပြုချက်- အကောင်းဆုံးရလဒ်များအတွက် ဦးထုပ် သို့မဟုတ် ခေါင်းဖုံးများပါရှိသည့် သင့်ဓာတ်ပုံကဲ့သို့သော ကိုးကားချက်ပုံများကို အသုံးပြုပါ။",
+            "guideline": "ကျေးဇူးပြု၍ သတိထားပါ။",
+            "guideline_desc": "AI Twibbon ရုပ်ပုံမျိုးဆက်သည် မျှော်လင့်မထားသောရလဒ်များကို ထုတ်ပေးနိုင်သည်။ အကောင်းဆုံးရလဒ်များရရန်၊ ကြည်လင်ပြတ်သားသော selfie ကိုသုံးပါ။ ၎င်းတို့သည် အနည်းဆုံး 1000 pixels ကျယ်သောအခါတွင် ၎င်းတို့သည် အကောင်းဆုံးလုပ်ဆောင်သည်။ ကျွန်ုပ်တို့၏စနစ်သည် NSFW (အလုပ်အတွက် မလုံခြုံသော) အကြောင်းအရာတစ်ခုခုကို တွေ့ရှိပါက ပုံတစ်ခုကို ဖန်တီးမည်မဟုတ်ပါ။"
         },
         "button": {
-            "next": "Continue",
-            "get_started": "Get Started"
+            "next": "ဆက်ရန်",
+            "get_started": "စတင်လိုက်ပါ။"
         }
     }
 }

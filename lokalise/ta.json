@@ -452,7 +452,7 @@
             "generate_twibbon": "ட்விப்பனை உருவாக்கி பகிரவும்",
             "create_campaign": "பிரச்சாரத்தை உருவாக்கவும், பகிரவும் மற்றும் திருத்தவும்",
             "header": "தள வரைபடம்",
-            "credits": "Credits"
+            "credits": "வரவுகள்"
         },
         "relative_time": {
             "seconds": "சில வினாடிகள்",
@@ -1208,7 +1208,7 @@
             "what_do_you_want_to_create_desc": "உங்கள் ஆன்லைன் பிரச்சார விளையாட்டை, ஒரு சட்டகத்துடன் மட்டுமல்லாமல், படைப்பு பின்னணியுடனும் மேம்படுத்துங்கள்.",
             "new": "புதியது!",
             "frame_twibbon": "பிரேம் ட்விப்பன்",
-            "try_twibbon": "Try {type} Twibbon"
+            "try_twibbon": "{type} Twibbon-ஐ முயற்சிக்கவும்."
         },
         "confirm_reorder": {
             "title": "ட்விப்பனை மறுவரிசைப்படுத்தவா?",
@@ -1824,8 +1824,8 @@
             "go_to_homepage": "முகப்புப் பக்கத்திற்குச் செல்",
             "set_password": "கடவுச்சொல்லை அமைக்கவும்",
             "for_security_create_password": "பாதுகாப்பு காரணங்களுக்காக, தயவுசெய்து ஒரு கடவுச்சொல்லை உருவாக்கவும்.",
-            "facebook_login_required": "Please login with Facebook to delete your account.",
-            "facebook_revoke_required": "Please revoke your Facebook account to delete your account."
+            "facebook_login_required": "உங்கள் கணக்கை நீக்க Facebook இல் உள்நுழையவும்.",
+            "facebook_revoke_required": "உங்கள் கணக்கை நீக்க உங்கள் Facebook கணக்கை ரத்து செய்யவும்."
         },
         "notifications": {
             "notifications_settings": "அறிவிப்பு அமைப்புகள்",
@@ -2969,9 +2969,9 @@
             "placeholder_ post_to_twibbonize": "வணக்கம், இந்தப் பிரச்சாரத்தை ஆதரிக்க நான் அனைவரும் தயாராக இருக்கிறேன். வாருங்கள், ஒன்றுகூடி இந்தப் பிரச்சாரத்தின் மூலம் உண்மையான தாக்கத்தை ஏற்படுத்துவோம்!"
         },
         "campaign": {
-            "subheader": "Select a type of Twibbon",
-            "ai_twibbon_sub": "Magically combine two photos and turn it into a template everyone can use",
-            "ai_twibbon_title": "AI Twibbon"
+            "subheader": "ட்விப்பன் வகையைத் தேர்ந்தெடுக்கவும்",
+            "ai_twibbon_sub": "இரண்டு புகைப்படங்களை மாயாஜாலமாக இணைத்து, அனைவரும் பயன்படுத்தக்கூடிய ஒரு டெம்ப்ளேட்டாக மாற்றவும்.",
+            "ai_twibbon_title": "AI ட்விப்பன்"
         }
     },
     "page_create_collections": {
@@ -3202,187 +3202,214 @@
     },
     "page_credits": {
         "marketing": {
-            "title": "Easily generate stunning AI Twibbon with Credits. No subscription required, pay as you need!",
-            "topup_button": "Top-Up Credits",
-            "generate_twibbon": "Generate stunning AI Twibbon",
-            "generate_twibbon_desc": "Use Credits to help you transform your image into any style with the power of AI, and share your formula to the world!",
-            "easy_twibbon_creation": "Easy AI Twibbon creation",
-            "easy_twibbon_creation_desc": "In just a few steps, you can create your own Twibbon using Credits with our user-friendly tool.",
-            "step_1": "STEP 1",
-            "step_1_desc": "Top-up your credits. Buy credits as you need.",
-            "step_2": "STEP 2",
-            "step_2_desc": "Use credits to generate AI Twibbon. Apply AI styles to create a unique Twibbon campaign.",
-            "step_3": "STEP 3",
-            "step_3_desc": "Download and share your design instantly, watermark‑free if you choose.",
-            "no_subscriptions_needed": "No subscriptions needed",
-            "no_subscriptions_needed_desc": "Choose the number of Credits that suits your needs. Ideal for anyone who wants to use Twibbonize from time to time.",
-            "upgrade_your_experience": "Upgrade your experience, easily",
-            "upgrade_your_experience_desc": "Get the perks with Credits. No monthly commitment, just flexibility!",
-            "no_subscription_needed_desc": "No subscription needed, pay only when you need it.",
-            "no_subscription_needed_price": "starts from {price}"
+            "title": "கிரெடிட்களுடன் அற்புதமான AI ட்விப்பனை எளிதாக உருவாக்குங்கள். சந்தா தேவையில்லை, உங்களுக்குத் தேவையானபடி பணம் செலுத்துங்கள்!",
+            "topup_button": "டாப்-அப் கிரெடிட்கள்",
+            "generate_twibbon": "அற்புதமான AI ட்விப்பனை உருவாக்குங்கள்",
+            "generate_twibbon_desc": "AI இன் சக்தியுடன் உங்கள் படத்தை எந்த பாணியிலும் மாற்ற உதவ கிரெடிட்களைப் பயன்படுத்தவும், மேலும் உங்கள் சூத்திரத்தை உலகிற்குப் பகிரவும்!",
+            "easy_twibbon_creation": "எளிதான AI ட்விப்பன் உருவாக்கம்",
+            "easy_twibbon_creation_desc": "ஒரு சில படிகளில், எங்கள் பயனர் நட்பு கருவி மூலம் கிரெடிட்களைப் பயன்படுத்தி உங்கள் சொந்த ட்விப்பனை உருவாக்கலாம்.",
+            "step_1": "படி 1",
+            "step_1_desc": "உங்கள் கிரெடிட்களை டாப்-அப் செய்யுங்கள். உங்களுக்குத் தேவையான கிரெடிட்களை வாங்கவும்.",
+            "step_2": "படி 2",
+            "step_2_desc": "AI Twibbon ஐ உருவாக்க கிரெடிட்களைப் பயன்படுத்தவும். தனித்துவமான Twibbon பிரச்சாரத்தை உருவாக்க AI பாணிகளைப் பயன்படுத்தவும்.",
+            "step_3": "படி 3",
+            "step_3_desc": "உங்கள் வடிவமைப்பை உடனடியாக பதிவிறக்கம் செய்து பகிரவும், நீங்கள் தேர்வுசெய்தால் வாட்டர்மார்க் இல்லாமல்.",
+            "no_subscriptions_needed": "சந்தாக்கள் தேவையில்லை",
+            "no_subscriptions_needed_desc": "உங்கள் தேவைகளுக்கு ஏற்ற கிரெடிட்களின் எண்ணிக்கையைத் தேர்வுசெய்யவும். அவ்வப்போது Twibbonize ஐப் பயன்படுத்த விரும்பும் எவருக்கும் ஏற்றது.",
+            "upgrade_your_experience": "உங்கள் அனுபவத்தை எளிதாக மேம்படுத்துங்கள்",
+            "upgrade_your_experience_desc": "கிரெடிட்கள் மூலம் சலுகைகளைப் பெறுங்கள். மாதாந்திர உறுதிமொழி இல்லை, நெகிழ்வுத்தன்மை மட்டுமே!",
+            "no_subscription_needed_desc": "சந்தா தேவையில்லை, தேவைப்படும்போது மட்டும் பணம் செலுத்துங்கள்.",
+            "no_subscription_needed_price": "{price} இலிருந்து தொடங்குகிறது"
         }
     },
     "dashboard_home": {
         "sidebar": {
-            "home": "Home",
-            "balance": "Balance",
-            "settings": "Settings"
+            "home": "முகப்புப் பக்கம்",
+            "balance": "இருப்பு",
+            "settings": "அமைப்புகள்"
         },
         "tabs": {
-            "campaigns": "Campaigns",
-            "collections": "Collections",
-            "posts": "Posts"
+            "campaigns": "பிரச்சாரங்கள்",
+            "collections": "தொகுப்புகள்",
+            "posts": "இடுகைகள்"
         },
         "button_checkbox": {
-            "all_types": "All Types"
+            "all_types": "அனைத்து வகைகளும்"
         },
         "card_campaign": {
-            "frame": "Frame",
-            "background": "Background"
+            "frame": "சட்டகம்",
+            "background": "பின்னணி"
         },
         "campaigns": {
-            "column_name": "Name",
-            "column_type": "Type",
-            "column_supports": "Supports",
-            "column_last_modified": "Last Modified",
-            "column_actions": "Actions"
+            "column_name": "பெயர்",
+            "column_type": "வகை",
+            "column_supports": "ஆதரிக்கிறது",
+            "column_last_modified": "கடைசியாக மாற்றப்பட்டது",
+            "column_actions": "செயல்கள்"
         }
     },
     "dashboard_balance": {
         "title": {
-            "credit_overview": "Overview",
-            "credit_card": "Total Credit Balance",
-            "credit_history": "Credit History"
+            "credit_overview": "கண்ணோட்டம்",
+            "credit_card": "மொத்த கடன் இருப்பு",
+            "credit_history": "கடன் வரலாறு"
         },
         "chip_filter": {
-            "all": "All",
-            "topup": "Top-ups",
-            "spending": "Spendings"
+            "all": "அனைத்தும்",
+            "topup": "டாப்-அப்கள்",
+            "spending": "செலவுகள்"
         },
         "history_title": {
-            "package_30": "Top-up Package 30",
-            "generate_ai": "Generate an AI Twibbon",
-            "credit_refund": "Credit Refund"
+            "package_30": "டாப்-அப் தொகுப்பு 30",
+            "generate_ai": "ஒரு AI ட்விப்பனை உருவாக்குங்கள்",
+            "credit_refund": "கடன் திரும்பப்பெறுதல்"
         }
     },
     "ai_twibbon": {
         "header": {
-            "title": "AI Twibbon",
-            "paragraph": "Magically transform photo into any style"
+            "title": "AI ட்விப்பன்",
+            "paragraph": "புகைப்படத்தை எந்த பாணியிலும் மாயாஜாலமாக மாற்றவும்."
         },
         "button": {
-            "upload_photo": "Upload your Photo",
-            "reference": "Upload Reference",
-            "generate_ai": "Generate"
+            "upload_photo": "உங்கள் புகைப்படத்தைப் பதிவேற்றவும்",
+            "reference": "பதிவேற்ற குறிப்பு",
+            "generate_ai": "உருவாக்கு"
         },
         "popover_text": {
-            "examples": "Or try with these examples"
+            "examples": "அல்லது இந்த உதாரணங்களுடன் முயற்சிக்கவும்."
         },
         "popover_button": {
-            "shuffle": "Shuffle"
+            "shuffle": "கலக்கு"
         },
         "modal_restore": {
-            "title": "Generation Interrupted",
-            "paragraph": "Your last image wasn't finished. Restore the session to continue."
+            "title": "தலைமுறை குறுக்கீடு செய்யப்பட்டது",
+            "paragraph": "உங்கள் கடைசி படம் முடிக்கப்படவில்லை. தொடர அமர்வை மீட்டமைக்கவும்."
         },
         "button_secondary": {
-            "retry": "Retry"
+            "retry": "மீண்டும் முயற்சிக்கவும்"
         },
         "generation_error": {
-            "title": "Image Generation Error",
-            "paragraph": "An error has occurated during the image generation process"
+            "title": "படத்தை உருவாக்குவதில் பிழை",
+            "paragraph": "படத்தை உருவாக்கும் செயல்பாட்டின் போது ஒரு பிழை ஏற்பட்டுள்ளது."
         },
         "title": {
-            "nsfw_detected": "Content Not Allowed"
+            "nsfw_detected": "உள்ளடக்கம் அனுமதிக்கப்படவில்லை"
         },
         "support_text": {
-            "nsfw_info": "NSFW content detected. Please try upload a different image or photo that follow our content guidelines"
+            "nsfw_info": "NSFW உள்ளடக்கம் கண்டறியப்பட்டது. எங்கள் உள்ளடக்க வழிகாட்டுதல்களைப் பின்பற்றும் வேறு படம் அல்லது புகைப்படத்தைப் பதிவேற்ற முயற்சிக்கவும்."
         },
         "text_link": {
-            "content_guideline": "Our content guidelines"
+            "content_guideline": "எங்கள் உள்ளடக்க வழிகாட்டுதல்கள்"
         },
         "hint_text": {
-            "generate_ai": "AI Twibbon generation may produce unexpected results"
+            "generate_ai": "AI ட்விப்பன் உருவாக்கம் எதிர்பாராத முடிவுகளைத் தரக்கூடும்."
+        },
+        "actions": {
+            "shuffle": "கலக்கு",
+            "retry": "மீண்டும் முயற்சிக்கவும்",
+            "next": "அடுத்து",
+            "login": "உள் நுழை",
+            "download": "மீண்டும் பதிவிறக்கு",
+            "upload_photo": "உங்கள் புகைப்படத்தைப் பதிவேற்றவும்",
+            "reference": "பதிவேற்ற குறிப்பு",
+            "generate_ai": "உருவாக்கு"
+        },
+        "labels": {
+            "credit_cost": "1"
+        },
+        "toast": {
+            "session_expired": "அமர்வு காலாவதியானது. மீண்டும் உள்நுழையவும்.",
+            "insufficient_credits": "போதுமான கிரெடிட்கள் இல்லை. தொடர, நிரப்பவும்.",
+            "process_ownership_error": "செயல்முறை வேறு பயனருக்கு சொந்தமானது, மீட்டெடுக்க முடியாது.",
+            "credits_topup_success": "டாப் அப் கிரெடிட்கள் வெற்றிகரமாக!"
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Have voucher code"
+            "payment": "வவுச்சர் குறியீடு உள்ளதா?"
         },
         "separator": {
-            "voucher_code": "Enter Code"
+            "voucher_code": "குறியீட்டை உள்ளிடவும்"
         },
         "hint_text": {
-            "paragraph": "See the <span> for voucher redemption"
+            "paragraph": "வவுச்சர் மீட்பிற்கான <span> ஐப் பார்க்கவும்"
         },
         "text_link": {
-            "terms": "Terms & Condition"
+            "terms": "விதிமுறைகள் & நிபந்தனைகள்"
+        },
+        "header_title": {
+            "alert_balance_credits": "உங்களிடம் போதுமான கிரெடிட்கள் இல்லை.",
+            "enter_voucher_code": "வவுச்சர் குறியீட்டை உள்ளிடவும்"
+        },
+        "support_text": {
+            "enter_voucher_code": "கிரெடிட் பேலன்ஸை மீட்டெடுக்க உங்கள் வவுச்சர் குறியீட்டை உள்ளிடவும்.",
+            "info_balance_credits": "முதலில், ஒரு AI Twibbon ஐ உருவாக்க உங்கள் வரவுகளை நிரப்பவும்."
         }
     },
     "expand_menu_panel": {
         "button": {
-            "view_profile": "View your profile"
+            "view_profile": "உங்கள் சுயவிவரத்தைக் காண்க"
         },
         "credit_overview": {
-            "credit": "Credit"
+            "credit": "கடன்"
         },
         "card_overview": {
-            "top-up": "Top-Up"
+            "top-up": "டாப்-அப்"
         }
     },
     "credits_detail": {
         "header_text": {
-            "title": "Easily generate stunning AI Twibbon with Credits. No subscription required, pay as you need!"
+            "title": "கிரெடிட்களுடன் அற்புதமான AI ட்விப்பனை எளிதாக உருவாக்குங்கள். சந்தா தேவையில்லை, உங்களுக்குத் தேவையானபடி பணம் செலுத்துங்கள்!"
         },
         "button_purchase": {
-            "topup": "Top-Up Credits"
+            "topup": "டாப்-அப் கிரெடிட்கள்"
         }
     },
     "modal_template": {
         "title": {
-            "change_template": "Change AI Twibbon Template?"
+            "change_template": "AI ட்விப்பன் டெம்ப்ளேட்டை மாற்றவா?"
         },
         "support_text": {
-            "change_info": "Generating a new image and saving the changes will automatically update the campaign thumbnail and remove the existing ones"
+            "change_info": "புதிய படத்தை உருவாக்கி மாற்றங்களைச் சேமிப்பது, பிரச்சார சிறுபடத்தை தானாகவே புதுப்பித்து, ஏற்கனவே உள்ளவற்றை நீக்கும்."
         },
         "button": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "ரத்துசெய்",
+            "continue": "தொடரவும்"
         }
     },
     "modal_activity": {
         "header": {
-            "activity_details": "Activity Details"
+            "activity_details": "செயல்பாட்டு விவரங்கள்"
         },
         "text_link": {
-            "download": "Download",
-            "share": "Share as Campaign"
+            "download": "பதிவிறக்கவும்",
+            "share": "பிரச்சாரமாகப் பகிரவும்"
         },
         "info": {
-            "unavailable_campaign": "Download and Share as Campaign option will be unavailable after 90 days"
+            "unavailable_campaign": "90 நாட்களுக்குப் பிறகு பதிவிறக்கம் செய்து பிரச்சாரமாகப் பகிரும் விருப்பம் கிடைக்காது."
         },
         "text_support": {
-            "transaction_id": "Transaction ID",
-            "date_time": "Date & Time",
-            "credit_used": "Credit Used",
-            "error_info": "An error occurred while processing your request."
+            "transaction_id": "பரிவர்த்தனை ஐடி",
+            "date_time": "தேதி & நேரம்",
+            "credit_used": "பயன்படுத்தப்பட்ட கிரெடிட்",
+            "error_info": "உங்கள் கோரிக்கையைச் செயல்படுத்தும்போது பிழை ஏற்பட்டது."
         },
         "title": {
-            "generation_failed": "Generation Failed"
+            "generation_failed": "உருவாக்கம் தோல்வியடைந்தது"
         }
     },
     "modal_introduction": {
         "ai_twibbon": {
-            "welcome_title": "Welcome to AI Twibbon",
-            "overview_desc": "AI Twibbon allows you to creatively transform your image into any style. Our AI analyzes your face and blends it with your chosen reference image. You can then turn your design into a campaign that others can replicate!",
-            "how_it_works": "How it works",
-            "how_it_works_desc": "Upload a portrait with your face clearly visible, then add a reference photo that matches the style you want. Pro tip: For optimal results, use reference images that closely resemble your photo, such as those featuring a hat or head covering.",
-            "guideline": "Please be aware",
-            "guideline_desc": "AI Twibbon image generation may produce unexpected results. To get the best results, use clear selfie in high-resolution. They work best when they are at least 1000 pixels wide. Our system may not create an image if it finds any NSFW (Not Safe For Work) content."
+            "welcome_title": "AI Twibbon-க்கு வருக.",
+            "overview_desc": "AI Twibbon உங்கள் படத்தை எந்த பாணியிலும் ஆக்கப்பூர்வமாக மாற்ற உங்களை அனுமதிக்கிறது. எங்கள் AI உங்கள் முகத்தை பகுப்பாய்வு செய்து, நீங்கள் தேர்ந்தெடுத்த குறிப்பு படத்துடன் கலக்கிறது. பின்னர் உங்கள் வடிவமைப்பை மற்றவர்கள் நகலெடுக்கக்கூடிய ஒரு பிரச்சாரமாக மாற்றலாம்!",
+            "how_it_works": "இது எப்படி வேலை செய்கிறது",
+            "how_it_works_desc": "உங்கள் முகம் தெளிவாகத் தெரியும்படி ஒரு உருவப்படத்தைப் பதிவேற்றவும், பின்னர் நீங்கள் விரும்பும் பாணியுடன் பொருந்தக்கூடிய ஒரு குறிப்புப் புகைப்படத்தைச் சேர்க்கவும். தொழில்முறை உதவிக்குறிப்பு: சிறந்த முடிவுகளுக்கு, தொப்பி அல்லது தலைக்கவசம் போன்ற உங்கள் புகைப்படத்தை நெருக்கமாக ஒத்த குறிப்புப் படங்களைப் பயன்படுத்தவும்.",
+            "guideline": "தயவுசெய்து எச்சரிக்கையாக இருங்கள்",
+            "guideline_desc": "AI Twibbon பட உருவாக்கம் எதிர்பாராத முடிவுகளைத் தரக்கூடும். சிறந்த முடிவுகளைப் பெற, உயர் தெளிவுத்திறனில் தெளிவான செல்ஃபியைப் பயன்படுத்தவும். அவை குறைந்தது 1000 பிக்சல்கள் அகலத்தில் இருக்கும்போது சிறப்பாகச் செயல்படும். ஏதேனும் NSFW (வேலைக்கு பாதுகாப்பானது அல்ல) உள்ளடக்கத்தைக் கண்டறிந்தால் எங்கள் அமைப்பு ஒரு படத்தை உருவாக்காமல் போகலாம்."
         },
         "button": {
-            "next": "Continue",
-            "get_started": "Get Started"
+            "next": "தொடரவும்",
+            "get_started": "தொடங்குங்கள்"
         }
     }
 }

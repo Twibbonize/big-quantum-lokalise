@@ -452,7 +452,7 @@
             "generate_twibbon": "Twibbon را ایجاد و به اشتراک بگذارید",
             "create_campaign": "ایجاد، اشتراک گذاری و ویرایش کمپین",
             "header": "نقشه سایت",
-            "credits": "Credits"
+            "credits": "اعتبارات"
         },
         "relative_time": {
             "seconds": "چند ثانیه",
@@ -1208,7 +1208,7 @@
             "what_do_you_want_to_create_desc": "بازی کمپین آنلاین خود را نه تنها با یک قاب، بلکه با پس زمینه های خلاقانه نیز چاشنی کنید",
             "new": "جدید!",
             "frame_twibbon": "قاب Twibbon",
-            "try_twibbon": "Try {type} Twibbon"
+            "try_twibbon": "سعی کنید {type} Twibbon را تایپ کنید"
         },
         "confirm_reorder": {
             "title": "سفارش مجدد Twibbon؟",
@@ -1824,8 +1824,8 @@
             "go_to_homepage": "به صفحه اصلی بروید",
             "set_password": "رمز عبور را تنظیم کنید",
             "for_security_create_password": "به دلایل امنیتی، لطفا یک رمز عبور ایجاد کنید",
-            "facebook_login_required": "Please login with Facebook to delete your account.",
-            "facebook_revoke_required": "Please revoke your Facebook account to delete your account."
+            "facebook_login_required": "برای حذف حساب کاربری خود، لطفاً با فیس‌بوک وارد شوید.",
+            "facebook_revoke_required": "برای حذف حساب کاربری خود، لطفاً حساب فیسبوک خود را لغو کنید."
         },
         "notifications": {
             "notifications_settings": "تنظیمات اعلان ها",
@@ -2969,9 +2969,9 @@
             "placeholder_ post_to_twibbonize": "سلام، من برای حمایت از این کمپین آماده هستم. بیایید با هم جمع شویم و با این کمپین تأثیر واقعی بگذاریم!"
         },
         "campaign": {
-            "subheader": "Select a type of Twibbon",
-            "ai_twibbon_sub": "Magically combine two photos and turn it into a template everyone can use",
-            "ai_twibbon_title": "AI Twibbon"
+            "subheader": "یک نوع تویبون انتخاب کنید",
+            "ai_twibbon_sub": "به طرز جادویی دو عکس را با هم ترکیب کنید و آن را به الگویی تبدیل کنید که همه بتوانند از آن استفاده کنند",
+            "ai_twibbon_title": "هوش مصنوعی تویبون"
         }
     },
     "page_create_collections": {
@@ -3202,187 +3202,214 @@
     },
     "page_credits": {
         "marketing": {
-            "title": "Easily generate stunning AI Twibbon with Credits. No subscription required, pay as you need!",
-            "topup_button": "Top-Up Credits",
-            "generate_twibbon": "Generate stunning AI Twibbon",
-            "generate_twibbon_desc": "Use Credits to help you transform your image into any style with the power of AI, and share your formula to the world!",
-            "easy_twibbon_creation": "Easy AI Twibbon creation",
-            "easy_twibbon_creation_desc": "In just a few steps, you can create your own Twibbon using Credits with our user-friendly tool.",
-            "step_1": "STEP 1",
-            "step_1_desc": "Top-up your credits. Buy credits as you need.",
-            "step_2": "STEP 2",
-            "step_2_desc": "Use credits to generate AI Twibbon. Apply AI styles to create a unique Twibbon campaign.",
-            "step_3": "STEP 3",
-            "step_3_desc": "Download and share your design instantly, watermark‑free if you choose.",
-            "no_subscriptions_needed": "No subscriptions needed",
-            "no_subscriptions_needed_desc": "Choose the number of Credits that suits your needs. Ideal for anyone who wants to use Twibbonize from time to time.",
-            "upgrade_your_experience": "Upgrade your experience, easily",
-            "upgrade_your_experience_desc": "Get the perks with Credits. No monthly commitment, just flexibility!",
-            "no_subscription_needed_desc": "No subscription needed, pay only when you need it.",
-            "no_subscription_needed_price": "starts from {price}"
+            "title": "به راحتی با اعتبار، تویبون هوش مصنوعی خیره‌کننده ایجاد کنید. بدون نیاز به اشتراک، هر چقدر که نیاز دارید پرداخت کنید!",
+            "topup_button": "اعتبارهای اضافی",
+            "generate_twibbon": "ایجاد تویبون هوش مصنوعی خیره‌کننده",
+            "generate_twibbon_desc": "از اعتبارنامه‌ها استفاده کنید تا به شما کمک کند تصویر خود را با قدرت هوش مصنوعی به هر سبکی تبدیل کنید و فرمول خود را با جهان به اشتراک بگذارید!",
+            "easy_twibbon_creation": "ایجاد آسان تویبون‌های هوش مصنوعی",
+            "easy_twibbon_creation_desc": "تنها در چند مرحله، می‌توانید با استفاده از ابزار کاربرپسند ما، با استفاده از اعتبار، تویبون خودتان را ایجاد کنید.",
+            "step_1": "مرحله ۱",
+            "step_1_desc": "اعتبار خود را شارژ کنید. در صورت نیاز اعتبار بخرید.",
+            "step_2": "مرحله ۲",
+            "step_2_desc": "از اعتبار برای ایجاد هوش مصنوعی تویبون استفاده کنید. از سبک‌های هوش مصنوعی برای ایجاد یک کمپین منحصر به فرد تویبون استفاده کنید.",
+            "step_3": "مرحله ۳",
+            "step_3_desc": "طرح خود را فوراً دانلود و به اشتراک بگذارید، در صورت تمایل بدون واترمارک.",
+            "no_subscriptions_needed": "بدون نیاز به اشتراک",
+            "no_subscriptions_needed_desc": "تعداد اعتبارهایی را که متناسب با نیازهای شما است انتخاب کنید. ایده‌آل برای هر کسی که می‌خواهد هر از گاهی از Twibbonize استفاده کند.",
+            "upgrade_your_experience": "تجربه خود را به راحتی ارتقا دهید",
+            "upgrade_your_experience_desc": "با اعتبار از مزایا بهره‌مند شوید. بدون تعهد ماهانه، فقط انعطاف‌پذیری!",
+            "no_subscription_needed_desc": "نیازی به اشتراک نیست، فقط زمانی که به آن نیاز دارید پرداخت کنید.",
+            "no_subscription_needed_price": "از {قیمت} شروع می‌شود"
         }
     },
     "dashboard_home": {
         "sidebar": {
-            "home": "Home",
-            "balance": "Balance",
-            "settings": "Settings"
+            "home": "خانه",
+            "balance": "تعادل",
+            "settings": "تنظیمات"
         },
         "tabs": {
-            "campaigns": "Campaigns",
-            "collections": "Collections",
-            "posts": "Posts"
+            "campaigns": "کمپین‌ها",
+            "collections": "مجموعه‌ها",
+            "posts": "پست‌ها"
         },
         "button_checkbox": {
-            "all_types": "All Types"
+            "all_types": "همه انواع"
         },
         "card_campaign": {
-            "frame": "Frame",
-            "background": "Background"
+            "frame": "قاب",
+            "background": "پیشینه"
         },
         "campaigns": {
-            "column_name": "Name",
-            "column_type": "Type",
-            "column_supports": "Supports",
-            "column_last_modified": "Last Modified",
-            "column_actions": "Actions"
+            "column_name": "نام",
+            "column_type": "نوع",
+            "column_supports": "پشتیبانی‌ها",
+            "column_last_modified": "آخرین اصلاح",
+            "column_actions": "اقدامات"
         }
     },
     "dashboard_balance": {
         "title": {
-            "credit_overview": "Overview",
-            "credit_card": "Total Credit Balance",
-            "credit_history": "Credit History"
+            "credit_overview": "نمای کلی",
+            "credit_card": "کل مانده اعتبار",
+            "credit_history": "سابقه اعتباری"
         },
         "chip_filter": {
-            "all": "All",
-            "topup": "Top-ups",
-            "spending": "Spendings"
+            "all": "همه",
+            "topup": "شارژها",
+            "spending": "هزینه‌ها"
         },
         "history_title": {
-            "package_30": "Top-up Package 30",
-            "generate_ai": "Generate an AI Twibbon",
-            "credit_refund": "Credit Refund"
+            "package_30": "بسته‌ی شارژ ۳۰",
+            "generate_ai": "یک تویبون هوش مصنوعی ایجاد کنید",
+            "credit_refund": "بازپرداخت اعتبار"
         }
     },
     "ai_twibbon": {
         "header": {
-            "title": "AI Twibbon",
-            "paragraph": "Magically transform photo into any style"
+            "title": "هوش مصنوعی تویبون",
+            "paragraph": "تبدیل جادویی عکس به هر سبکی"
         },
         "button": {
-            "upload_photo": "Upload your Photo",
-            "reference": "Upload Reference",
-            "generate_ai": "Generate"
+            "upload_photo": "عکس خود را آپلود کنید",
+            "reference": "مرجع آپلود",
+            "generate_ai": "تولید کردن"
         },
         "popover_text": {
-            "examples": "Or try with these examples"
+            "examples": "یا با این مثال‌ها امتحان کنید"
         },
         "popover_button": {
-            "shuffle": "Shuffle"
+            "shuffle": "تصادفی"
         },
         "modal_restore": {
-            "title": "Generation Interrupted",
-            "paragraph": "Your last image wasn't finished. Restore the session to continue."
+            "title": "نسل منقطع",
+            "paragraph": "آخرین تصویر شما هنوز تمام نشده است. برای ادامه، جلسه را بازیابی کنید."
         },
         "button_secondary": {
-            "retry": "Retry"
+            "retry": "دوباره امتحان کنید"
         },
         "generation_error": {
-            "title": "Image Generation Error",
-            "paragraph": "An error has occurated during the image generation process"
+            "title": "خطای ایجاد تصویر",
+            "paragraph": "در فرآیند تولید تصویر خطایی رخ داده است"
         },
         "title": {
-            "nsfw_detected": "Content Not Allowed"
+            "nsfw_detected": "محتوا مجاز نیست"
         },
         "support_text": {
-            "nsfw_info": "NSFW content detected. Please try upload a different image or photo that follow our content guidelines"
+            "nsfw_info": "محتوای NSFW شناسایی شد. لطفاً تصویر یا عکس دیگری را که از دستورالعمل‌های محتوای ما پیروی می‌کند، بارگذاری کنید."
         },
         "text_link": {
-            "content_guideline": "Our content guidelines"
+            "content_guideline": "دستورالعمل‌های محتوای ما"
         },
         "hint_text": {
-            "generate_ai": "AI Twibbon generation may produce unexpected results"
+            "generate_ai": "تولید تویبون با هوش مصنوعی ممکن است نتایج غیرمنتظره‌ای به همراه داشته باشد"
+        },
+        "actions": {
+            "shuffle": "تصادفی",
+            "retry": "دوباره امتحان کنید",
+            "next": "بعدی",
+            "login": "ورود",
+            "download": "دانلود مجدد",
+            "upload_photo": "عکس خود را آپلود کنید",
+            "reference": "مرجع آپلود",
+            "generate_ai": "تولید کردن"
+        },
+        "labels": {
+            "credit_cost": "1"
+        },
+        "toast": {
+            "session_expired": "زمان اعتبار اعتبار منقضی شده است. لطفا دوباره وارد شوید.",
+            "insufficient_credits": "اعتبار کافی نیست. لطفا برای ادامه، اعتبار خود را افزایش دهید.",
+            "process_ownership_error": "فرآیند متعلق به کاربر دیگری است، قابل بازیابی نیست",
+            "credits_topup_success": "شارژ اعتبار با موفقیت انجام شد!"
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Have voucher code"
+            "payment": "کد تخفیف داشته باشید"
         },
         "separator": {
-            "voucher_code": "Enter Code"
+            "voucher_code": "کد را وارد کنید"
         },
         "hint_text": {
-            "paragraph": "See the <span> for voucher redemption"
+            "paragraph": "برای استفاده از کوپن تخفیف به <span> مراجعه کنید"
         },
         "text_link": {
-            "terms": "Terms & Condition"
+            "terms": "شرایط و ضوابط"
+        },
+        "header_title": {
+            "alert_balance_credits": "اعتبار کافی ندارید",
+            "enter_voucher_code": "کد تخفیف را وارد کنید"
+        },
+        "support_text": {
+            "enter_voucher_code": "لطفا کد تخفیف خود را برای استفاده از موجودی وارد کنید",
+            "info_balance_credits": "ابتدا، اعتبار خود را افزایش دهید تا یک تویبون هوش مصنوعی ایجاد کنید"
         }
     },
     "expand_menu_panel": {
         "button": {
-            "view_profile": "View your profile"
+            "view_profile": "مشاهده پروفایل شما"
         },
         "credit_overview": {
-            "credit": "Credit"
+            "credit": "اعتبار"
         },
         "card_overview": {
-            "top-up": "Top-Up"
+            "top-up": "شارژ مجدد"
         }
     },
     "credits_detail": {
         "header_text": {
-            "title": "Easily generate stunning AI Twibbon with Credits. No subscription required, pay as you need!"
+            "title": "به راحتی با اعتبار، تویبون هوش مصنوعی خیره‌کننده ایجاد کنید. بدون نیاز به اشتراک، هر چقدر که نیاز دارید پرداخت کنید!"
         },
         "button_purchase": {
-            "topup": "Top-Up Credits"
+            "topup": "اعتبارهای اضافی"
         }
     },
     "modal_template": {
         "title": {
-            "change_template": "Change AI Twibbon Template?"
+            "change_template": "قالب هوش مصنوعی تویبون را تغییر دهید؟"
         },
         "support_text": {
-            "change_info": "Generating a new image and saving the changes will automatically update the campaign thumbnail and remove the existing ones"
+            "change_info": "ایجاد یک تصویر جدید و ذخیره تغییرات، به طور خودکار تصویر کوچک کمپین را به‌روزرسانی کرده و تصاویر موجود را حذف می‌کند."
         },
         "button": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "لغو",
+            "continue": "ادامه"
         }
     },
     "modal_activity": {
         "header": {
-            "activity_details": "Activity Details"
+            "activity_details": "جزئیات فعالیت"
         },
         "text_link": {
-            "download": "Download",
-            "share": "Share as Campaign"
+            "download": "دانلود",
+            "share": "اشتراک گذاری به عنوان کمپین"
         },
         "info": {
-            "unavailable_campaign": "Download and Share as Campaign option will be unavailable after 90 days"
+            "unavailable_campaign": "گزینه دانلود و اشتراک‌گذاری به عنوان کمپین پس از ۹۰ روز از دسترس خارج خواهد شد."
         },
         "text_support": {
-            "transaction_id": "Transaction ID",
-            "date_time": "Date & Time",
-            "credit_used": "Credit Used",
-            "error_info": "An error occurred while processing your request."
+            "transaction_id": "شناسه تراکنش",
+            "date_time": "تاریخ و زمان",
+            "credit_used": "اعتبار استفاده شده",
+            "error_info": "هنگام پردازش درخواست شما خطایی رخ داد."
         },
         "title": {
-            "generation_failed": "Generation Failed"
+            "generation_failed": "نسل شکست خورد"
         }
     },
     "modal_introduction": {
         "ai_twibbon": {
-            "welcome_title": "Welcome to AI Twibbon",
-            "overview_desc": "AI Twibbon allows you to creatively transform your image into any style. Our AI analyzes your face and blends it with your chosen reference image. You can then turn your design into a campaign that others can replicate!",
-            "how_it_works": "How it works",
-            "how_it_works_desc": "Upload a portrait with your face clearly visible, then add a reference photo that matches the style you want. Pro tip: For optimal results, use reference images that closely resemble your photo, such as those featuring a hat or head covering.",
-            "guideline": "Please be aware",
-            "guideline_desc": "AI Twibbon image generation may produce unexpected results. To get the best results, use clear selfie in high-resolution. They work best when they are at least 1000 pixels wide. Our system may not create an image if it finds any NSFW (Not Safe For Work) content."
+            "welcome_title": "به هوش مصنوعی تویبون خوش آمدید",
+            "overview_desc": "هوش مصنوعی تویبون به شما این امکان را می‌دهد که تصویر خود را به صورت خلاقانه به هر سبکی تبدیل کنید. هوش مصنوعی ما چهره شما را تجزیه و تحلیل می‌کند و آن را با تصویر مرجع انتخابی شما ترکیب می‌کند. سپس می‌توانید طرح خود را به کمپینی تبدیل کنید که دیگران بتوانند آن را تکرار کنند!",
+            "how_it_works": "چگونه کار می‌کند؟",
+            "how_it_works_desc": "یک عکس پرتره که چهره‌تان به وضوح قابل مشاهده باشد آپلود کنید، سپس یک عکس مرجع که با سبک مورد نظر شما مطابقت دارد اضافه کنید. نکته حرفه‌ای: برای نتایج بهینه، از تصاویر مرجعی استفاده کنید که شباهت زیادی به عکس شما دارند، مانند تصاویری که دارای کلاه یا پوشش سر هستند.",
+            "guideline": "لطفا آگاه باشید",
+            "guideline_desc": "تولید تصویر هوش مصنوعی تویبون ممکن است نتایج غیرمنتظره‌ای ایجاد کند. برای گرفتن بهترین نتیجه، از سلفی‌های واضح با وضوح بالا استفاده کنید. این تصاویر زمانی بهترین عملکرد را دارند که حداقل ۱۰۰۰ پیکسل عرض داشته باشند. اگر سیستم ما هرگونه محتوای NSFW (برای کار ایمن نیست) پیدا کند، ممکن است تصویری ایجاد نکند."
         },
         "button": {
-            "next": "Continue",
-            "get_started": "Get Started"
+            "next": "ادامه",
+            "get_started": "شروع کنید"
         }
     }
 }
