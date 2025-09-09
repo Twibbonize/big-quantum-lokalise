@@ -452,7 +452,7 @@
             "generate_twibbon": "ટ્વિબન જનરેટ કરો અને શેર કરો",
             "create_campaign": "ઝુંબેશ બનાવો, શેર કરો અને સંપાદિત કરો",
             "header": "સાઇટ મેપ",
-            "credits": "Credits"
+            "credits": "ક્રેડિટ્સ"
         },
         "relative_time": {
             "seconds": "થોડીક સેકન્ડ",
@@ -1208,7 +1208,7 @@
             "what_do_you_want_to_create_desc": "તમારી ઓનલાઈન ઝુંબેશ રમતને ફક્ત ફ્રેમથી જ નહીં, પણ સર્જનાત્મક પૃષ્ઠભૂમિથી પણ વધુ રસપ્રદ બનાવો.",
             "new": "નવું!",
             "frame_twibbon": "ફ્રેમ ટ્વિબન",
-            "try_twibbon": "Try {type} Twibbon"
+            "try_twibbon": "{type} Twibbon અજમાવી જુઓ"
         },
         "confirm_reorder": {
             "title": "ટ્વિબનને ફરીથી ગોઠવીએ?",
@@ -1824,8 +1824,8 @@
             "go_to_homepage": "હોમપેજ પર જાઓ",
             "set_password": "પાસવર્ડ સેટ કરો",
             "for_security_create_password": "સુરક્ષા કારણોસર, કૃપા કરીને પાસવર્ડ બનાવો.",
-            "facebook_login_required": "Please login with Facebook to delete your account.",
-            "facebook_revoke_required": "Please revoke your Facebook account to delete your account."
+            "facebook_login_required": "તમારું એકાઉન્ટ ડિલીટ કરવા માટે કૃપા કરીને ફેસબુકથી લોગિન કરો.",
+            "facebook_revoke_required": "કૃપા કરીને તમારું એકાઉન્ટ કાઢી નાખવા માટે તમારા ફેસબુક એકાઉન્ટને રદ કરો."
         },
         "notifications": {
             "notifications_settings": "સૂચના સેટિંગ્સ",
@@ -2969,9 +2969,9 @@
             "placeholder_ post_to_twibbonize": "નમસ્તે, હું આ ઝુંબેશને સમર્થન આપવા માટે તૈયાર છું. ચાલો આપણે ભેગા થઈએ અને સાથે મળીને આ ઝુંબેશનો વાસ્તવિક પ્રભાવ પાડીએ!"
         },
         "campaign": {
-            "subheader": "Select a type of Twibbon",
-            "ai_twibbon_sub": "Magically combine two photos and turn it into a template everyone can use",
-            "ai_twibbon_title": "AI Twibbon"
+            "subheader": "ટ્વિબનનો પ્રકાર પસંદ કરો",
+            "ai_twibbon_sub": "બે ફોટાને જાદુઈ રીતે જોડો અને તેને દરેક વ્યક્તિ વાપરી શકે તેવા ટેમ્પ્લેટમાં ફેરવો.",
+            "ai_twibbon_title": "એઆઈ ટ્વિબન"
         }
     },
     "page_create_collections": {
@@ -3202,187 +3202,214 @@
     },
     "page_credits": {
         "marketing": {
-            "title": "Easily generate stunning AI Twibbon with Credits. No subscription required, pay as you need!",
-            "topup_button": "Top-Up Credits",
-            "generate_twibbon": "Generate stunning AI Twibbon",
-            "generate_twibbon_desc": "Use Credits to help you transform your image into any style with the power of AI, and share your formula to the world!",
-            "easy_twibbon_creation": "Easy AI Twibbon creation",
-            "easy_twibbon_creation_desc": "In just a few steps, you can create your own Twibbon using Credits with our user-friendly tool.",
-            "step_1": "STEP 1",
-            "step_1_desc": "Top-up your credits. Buy credits as you need.",
-            "step_2": "STEP 2",
-            "step_2_desc": "Use credits to generate AI Twibbon. Apply AI styles to create a unique Twibbon campaign.",
-            "step_3": "STEP 3",
-            "step_3_desc": "Download and share your design instantly, watermark‑free if you choose.",
-            "no_subscriptions_needed": "No subscriptions needed",
-            "no_subscriptions_needed_desc": "Choose the number of Credits that suits your needs. Ideal for anyone who wants to use Twibbonize from time to time.",
-            "upgrade_your_experience": "Upgrade your experience, easily",
-            "upgrade_your_experience_desc": "Get the perks with Credits. No monthly commitment, just flexibility!",
-            "no_subscription_needed_desc": "No subscription needed, pay only when you need it.",
-            "no_subscription_needed_price": "starts from {price}"
+            "title": "ક્રેડિટ્સ સાથે સરળતાથી અદભુત AI ટ્વિબન જનરેટ કરો. કોઈ સબ્સ્ક્રિપ્શનની જરૂર નથી, જરૂર મુજબ ચૂકવણી કરો!",
+            "topup_button": "ટોપ-અપ ક્રેડિટ્સ",
+            "generate_twibbon": "અદભુત AI ટ્વિબન જનરેટ કરો",
+            "generate_twibbon_desc": "AI ની શક્તિથી તમારી છબીને કોઈપણ શૈલીમાં રૂપાંતરિત કરવામાં મદદ કરવા માટે ક્રેડિટ્સનો ઉપયોગ કરો, અને તમારા ફોર્મ્યુલાને વિશ્વ સાથે શેર કરો!",
+            "easy_twibbon_creation": "સરળ AI ટ્વિબન બનાવટ",
+            "easy_twibbon_creation_desc": "ફક્ત થોડા જ પગલામાં, તમે અમારા વપરાશકર્તા મૈત્રીપૂર્ણ સાધનનો ઉપયોગ કરીને ક્રેડિટ્સનો ઉપયોગ કરીને તમારું પોતાનું ટ્વિબન બનાવી શકો છો.",
+            "step_1": "પગલું 1",
+            "step_1_desc": "તમારા ક્રેડિટ્સ ટોપ-અપ કરો. જરૂર મુજબ ક્રેડિટ્સ ખરીદો.",
+            "step_2": "પગલું 2",
+            "step_2_desc": "AI Twibbon જનરેટ કરવા માટે ક્રેડિટનો ઉપયોગ કરો. એક અનોખી Twibbon ઝુંબેશ બનાવવા માટે AI શૈલીઓ લાગુ કરો.",
+            "step_3": "પગલું 3",
+            "step_3_desc": "તમારી ડિઝાઇનને તાત્કાલિક ડાઉનલોડ કરો અને શેર કરો, જો તમે ઇચ્છો તો વોટરમાર્ક-મુક્ત.",
+            "no_subscriptions_needed": "કોઈ સબ્સ્ક્રિપ્શનની જરૂર નથી",
+            "no_subscriptions_needed_desc": "તમારી જરૂરિયાતોને અનુરૂપ ક્રેડિટ્સની સંખ્યા પસંદ કરો. સમયાંતરે ટ્વિબ્બોનાઇઝનો ઉપયોગ કરવા માંગતા કોઈપણ માટે આદર્શ.",
+            "upgrade_your_experience": "તમારા અનુભવને સરળતાથી અપગ્રેડ કરો",
+            "upgrade_your_experience_desc": "ક્રેડિટ્સ સાથે લાભો મેળવો. કોઈ માસિક પ્રતિબદ્ધતા નહીં, ફક્ત સુગમતા!",
+            "no_subscription_needed_desc": "કોઈ સબ્સ્ક્રિપ્શનની જરૂર નથી, જરૂર હોય ત્યારે જ ચૂકવણી કરો.",
+            "no_subscription_needed_price": "{કિંમત} થી શરૂ થાય છે"
         }
     },
     "dashboard_home": {
         "sidebar": {
-            "home": "Home",
-            "balance": "Balance",
-            "settings": "Settings"
+            "home": "ઘર",
+            "balance": "સંતુલન",
+            "settings": "સેટિંગ્સ"
         },
         "tabs": {
-            "campaigns": "Campaigns",
-            "collections": "Collections",
-            "posts": "Posts"
+            "campaigns": "ઝુંબેશો",
+            "collections": "સંગ્રહો",
+            "posts": "પોસ્ટ્સ"
         },
         "button_checkbox": {
-            "all_types": "All Types"
+            "all_types": "બધા પ્રકારો"
         },
         "card_campaign": {
-            "frame": "Frame",
-            "background": "Background"
+            "frame": "ફ્રેમ",
+            "background": "પૃષ્ઠભૂમિ"
         },
         "campaigns": {
-            "column_name": "Name",
-            "column_type": "Type",
-            "column_supports": "Supports",
-            "column_last_modified": "Last Modified",
-            "column_actions": "Actions"
+            "column_name": "નામ",
+            "column_type": "પ્રકાર",
+            "column_supports": "સપોર્ટ કરે છે",
+            "column_last_modified": "છેલ્લે ફેરફાર કરેલ",
+            "column_actions": "ક્રિયાઓ"
         }
     },
     "dashboard_balance": {
         "title": {
-            "credit_overview": "Overview",
-            "credit_card": "Total Credit Balance",
-            "credit_history": "Credit History"
+            "credit_overview": "ઝાંખી",
+            "credit_card": "કુલ ક્રેડિટ બેલેન્સ",
+            "credit_history": "ક્રેડિટ ઇતિહાસ"
         },
         "chip_filter": {
-            "all": "All",
-            "topup": "Top-ups",
-            "spending": "Spendings"
+            "all": "બધા",
+            "topup": "ટોપ-અપ્સ",
+            "spending": "ખર્ચ"
         },
         "history_title": {
-            "package_30": "Top-up Package 30",
-            "generate_ai": "Generate an AI Twibbon",
-            "credit_refund": "Credit Refund"
+            "package_30": "ટોપ-અપ પેકેજ ૩૦",
+            "generate_ai": "AI ટ્વિબન જનરેટ કરો",
+            "credit_refund": "ક્રેડિટ રિફંડ"
         }
     },
     "ai_twibbon": {
         "header": {
-            "title": "AI Twibbon",
-            "paragraph": "Magically transform photo into any style"
+            "title": "એઆઈ ટ્વિબન",
+            "paragraph": "જાદુઈ રીતે ફોટાને કોઈપણ શૈલીમાં રૂપાંતરિત કરો"
         },
         "button": {
-            "upload_photo": "Upload your Photo",
-            "reference": "Upload Reference",
-            "generate_ai": "Generate"
+            "upload_photo": "તમારો ફોટો અપલોડ કરો",
+            "reference": "સંદર્ભ અપલોડ કરો",
+            "generate_ai": "પેદા કરો"
         },
         "popover_text": {
-            "examples": "Or try with these examples"
+            "examples": "અથવા આ ઉદાહરણો સાથે પ્રયાસ કરો"
         },
         "popover_button": {
-            "shuffle": "Shuffle"
+            "shuffle": "શફલ કરો"
         },
         "modal_restore": {
-            "title": "Generation Interrupted",
-            "paragraph": "Your last image wasn't finished. Restore the session to continue."
+            "title": "જનરેશન અવરોધાયું",
+            "paragraph": "તમારી છેલ્લી છબી પૂર્ણ થઈ ન હતી. ચાલુ રાખવા માટે સત્ર પુનઃસ્થાપિત કરો."
         },
         "button_secondary": {
-            "retry": "Retry"
+            "retry": "ફરી પ્રયાસ કરો"
         },
         "generation_error": {
-            "title": "Image Generation Error",
-            "paragraph": "An error has occurated during the image generation process"
+            "title": "છબી જનરેશન ભૂલ",
+            "paragraph": "છબી બનાવવાની પ્રક્રિયા દરમિયાન એક ભૂલ આવી છે."
         },
         "title": {
-            "nsfw_detected": "Content Not Allowed"
+            "nsfw_detected": "સામગ્રીને મંજૂરી નથી"
         },
         "support_text": {
-            "nsfw_info": "NSFW content detected. Please try upload a different image or photo that follow our content guidelines"
+            "nsfw_info": "NSFW કન્ટેન્ટ મળ્યું. કૃપા કરીને અમારી કન્ટેન્ટ માર્ગદર્શિકાનું પાલન કરતી કોઈ અલગ છબી અથવા ફોટો અપલોડ કરવાનો પ્રયાસ કરો."
         },
         "text_link": {
-            "content_guideline": "Our content guidelines"
+            "content_guideline": "અમારી સામગ્રી માર્ગદર્શિકા"
         },
         "hint_text": {
-            "generate_ai": "AI Twibbon generation may produce unexpected results"
+            "generate_ai": "AI ટ્વિબન જનરેશન અણધાર્યા પરિણામો લાવી શકે છે"
+        },
+        "actions": {
+            "shuffle": "શફલ કરો",
+            "retry": "ફરી પ્રયાસ કરો",
+            "next": "આગળ",
+            "login": "લૉગ ઇન કરો",
+            "download": "ફરીથી ડાઉનલોડ કરો",
+            "upload_photo": "તમારો ફોટો અપલોડ કરો",
+            "reference": "સંદર્ભ અપલોડ કરો",
+            "generate_ai": "પેદા કરો"
+        },
+        "labels": {
+            "credit_cost": "1"
+        },
+        "toast": {
+            "session_expired": "સત્ર સમાપ્ત થયું. કૃપા કરીને ફરીથી લોગ ઇન કરો.",
+            "insufficient_credits": "અપૂરતી ક્રેડિટ. ચાલુ રાખવા માટે કૃપા કરીને ટોપ અપ કરો.",
+            "process_ownership_error": "પ્રક્રિયા અલગ વપરાશકર્તાની છે, પુનઃસ્થાપિત કરી શકાતી નથી",
+            "credits_topup_success": "ક્રેડિટ્સ ટોપ અપ કરવામાં સફળ!"
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Have voucher code"
+            "payment": "વાઉચર કોડ ધરાવો"
         },
         "separator": {
-            "voucher_code": "Enter Code"
+            "voucher_code": "કોડ દાખલ કરો"
         },
         "hint_text": {
-            "paragraph": "See the <span> for voucher redemption"
+            "paragraph": "વાઉચર રિડેમ્પશન માટે <span> જુઓ"
         },
         "text_link": {
-            "terms": "Terms & Condition"
+            "terms": "નિયમો અને શરતો"
+        },
+        "header_title": {
+            "alert_balance_credits": "તમારી પાસે પૂરતા ક્રેડિટ નથી.",
+            "enter_voucher_code": "વાઉચર કોડ દાખલ કરો"
+        },
+        "support_text": {
+            "enter_voucher_code": "ક્રેડિટ બેલેન્સ રિડીમ કરવા માટે કૃપા કરીને તમારો વાઉચર કોડ દાખલ કરો",
+            "info_balance_credits": "સૌપ્રથમ, AI ટ્વિબન જનરેટ કરવા માટે તમારા ક્રેડિટ્સ ટોપ અપ કરો."
         }
     },
     "expand_menu_panel": {
         "button": {
-            "view_profile": "View your profile"
+            "view_profile": "તમારી પ્રોફાઇલ જુઓ"
         },
         "credit_overview": {
-            "credit": "Credit"
+            "credit": "ક્રેડિટ"
         },
         "card_overview": {
-            "top-up": "Top-Up"
+            "top-up": "ટોપ-અપ"
         }
     },
     "credits_detail": {
         "header_text": {
-            "title": "Easily generate stunning AI Twibbon with Credits. No subscription required, pay as you need!"
+            "title": "ક્રેડિટ્સ સાથે સરળતાથી અદભુત AI ટ્વિબન જનરેટ કરો. કોઈ સબ્સ્ક્રિપ્શનની જરૂર નથી, જરૂર મુજબ ચૂકવણી કરો!"
         },
         "button_purchase": {
-            "topup": "Top-Up Credits"
+            "topup": "ટોપ-અપ ક્રેડિટ્સ"
         }
     },
     "modal_template": {
         "title": {
-            "change_template": "Change AI Twibbon Template?"
+            "change_template": "AI Twibbon ટેમ્પલેટ બદલો?"
         },
         "support_text": {
-            "change_info": "Generating a new image and saving the changes will automatically update the campaign thumbnail and remove the existing ones"
+            "change_info": "નવી છબી જનરેટ કરવાથી અને ફેરફારો સાચવવાથી ઝુંબેશ થંબનેલ આપમેળે અપડેટ થશે અને હાલના થંબનેલ દૂર થશે."
         },
         "button": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "રદ કરો",
+            "continue": "ચાલુ રાખો"
         }
     },
     "modal_activity": {
         "header": {
-            "activity_details": "Activity Details"
+            "activity_details": "પ્રવૃત્તિ વિગતો"
         },
         "text_link": {
-            "download": "Download",
-            "share": "Share as Campaign"
+            "download": "ડાઉનલોડ કરો",
+            "share": "ઝુંબેશ તરીકે શેર કરો"
         },
         "info": {
-            "unavailable_campaign": "Download and Share as Campaign option will be unavailable after 90 days"
+            "unavailable_campaign": "90 દિવસ પછી ડાઉનલોડ અને શેર એઝ કેમ્પેઈન વિકલ્પ ઉપલબ્ધ રહેશે નહીં."
         },
         "text_support": {
-            "transaction_id": "Transaction ID",
-            "date_time": "Date & Time",
-            "credit_used": "Credit Used",
-            "error_info": "An error occurred while processing your request."
+            "transaction_id": "ટ્રાન્ઝેક્શન ID",
+            "date_time": "તારીખ સમય",
+            "credit_used": "વપરાયેલ ક્રેડિટ",
+            "error_info": "તમારી વિનંતી પર પ્રક્રિયા કરતી વખતે એક ભૂલ આવી."
         },
         "title": {
-            "generation_failed": "Generation Failed"
+            "generation_failed": "જનરેશન નિષ્ફળ ગયું"
         }
     },
     "modal_introduction": {
         "ai_twibbon": {
-            "welcome_title": "Welcome to AI Twibbon",
-            "overview_desc": "AI Twibbon allows you to creatively transform your image into any style. Our AI analyzes your face and blends it with your chosen reference image. You can then turn your design into a campaign that others can replicate!",
-            "how_it_works": "How it works",
-            "how_it_works_desc": "Upload a portrait with your face clearly visible, then add a reference photo that matches the style you want. Pro tip: For optimal results, use reference images that closely resemble your photo, such as those featuring a hat or head covering.",
-            "guideline": "Please be aware",
-            "guideline_desc": "AI Twibbon image generation may produce unexpected results. To get the best results, use clear selfie in high-resolution. They work best when they are at least 1000 pixels wide. Our system may not create an image if it finds any NSFW (Not Safe For Work) content."
+            "welcome_title": "AI Twibbon માં આપનું સ્વાગત છે",
+            "overview_desc": "AI Twibbon તમને તમારી છબીને સર્જનાત્મક રીતે કોઈપણ શૈલીમાં રૂપાંતરિત કરવાની મંજૂરી આપે છે. અમારું AI તમારા ચહેરાનું વિશ્લેષણ કરે છે અને તેને તમારી પસંદ કરેલી સંદર્ભ છબી સાથે મિશ્રિત કરે છે. પછી તમે તમારી ડિઝાઇનને એક ઝુંબેશમાં ફેરવી શકો છો જે અન્ય લોકો નકલ કરી શકે!",
+            "how_it_works": "તે કેવી રીતે કામ કરે છે",
+            "how_it_works_desc": "તમારા ચહેરાને સ્પષ્ટ રીતે જોઈ શકાય તેવું પોટ્રેટ અપલોડ કરો, પછી તમને જોઈતી શૈલી સાથે મેળ ખાતો સંદર્ભ ફોટો ઉમેરો. પ્રો ટિપ: શ્રેષ્ઠ પરિણામો માટે, એવી સંદર્ભ છબીઓનો ઉપયોગ કરો જે તમારા ફોટા જેવી જ હોય, જેમ કે ટોપી અથવા માથું ઢાંકતી છબીઓ.",
+            "guideline": "કૃપા કરીને ધ્યાન રાખો",
+            "guideline_desc": "AI Twibbon ઇમેજ જનરેશન અણધાર્યા પરિણામો આપી શકે છે. શ્રેષ્ઠ પરિણામો મેળવવા માટે, ઉચ્ચ-રિઝોલ્યુશનમાં સ્પષ્ટ સેલ્ફીનો ઉપયોગ કરો. જ્યારે તે ઓછામાં ઓછા 1000 પિક્સેલ પહોળા હોય ત્યારે તે શ્રેષ્ઠ કાર્ય કરે છે. જો અમારી સિસ્ટમને કોઈ NSFW (કામ માટે સલામત નથી) સામગ્રી મળે તો તે છબી બનાવી શકશે નહીં."
         },
         "button": {
-            "next": "Continue",
-            "get_started": "Get Started"
+            "next": "ચાલુ રાખો",
+            "get_started": "શરૂ કરો"
         }
     }
 }
