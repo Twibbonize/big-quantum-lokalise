@@ -451,7 +451,8 @@
             "safety": "Turvallisuus",
             "generate_twibbon": "Luo ja jaa Twibbon",
             "create_campaign": "Luo, jaa ja muokkaa kampanjaa",
-            "header": "Sivuston kartta"
+            "header": "Sivuston kartta",
+            "credits": "Krediitit"
         },
         "relative_time": {
             "seconds": "muutama sekunti",
@@ -520,6 +521,12 @@
             "light": "Valo",
             "dark": "Tumma",
             "choose_your_preference": "Valitse mieltymyksesi"
+        },
+        "twibbon": {
+            "ai": "AI",
+            "all_type": "Kaikki tyypit",
+            "background": "Tausta",
+            "frame": "Kehys"
         }
     },
     "page_home": {
@@ -808,7 +815,12 @@
             "processing_complete": "Käsittely valmis",
             "processing_your_photo": "Valokuvan käsittely",
             "photo_ready_to_download": "Valokuvasi on valmis ladattavaksi",
-            "copy_caption": "Kopioi tämä kuvateksti sosiaaliseen mediaan!"
+            "copy_caption": "Kopioi tämä kuvateksti sosiaaliseen mediaan!",
+            "gallery": "Gallery",
+            "no_post_yet": "No posts yet. Be the first to show your support by {button}",
+            "uploading_your_photo": "uploading your photo!",
+            "about_this_campaign": "About This Campaign",
+            "please_wait": "Please wait a moment. Don’t close this browser tab."
         },
         "report": {
             "report_campaign": "Raportoi",
@@ -1200,7 +1212,8 @@
             "what_do_you_want_to_create": "Mitä haluat luoda?",
             "what_do_you_want_to_create_desc": "Piristä verkkokampanjapeliäsi paitsi kehyksellä myös luovilla taustoilla.",
             "new": "Uusi!",
-            "frame_twibbon": "Runko Twibbon"
+            "frame_twibbon": "Runko Twibbon",
+            "try_twibbon": "Kokeile {tyyppi} Twibbon"
         },
         "confirm_reorder": {
             "title": "Tilaa Twibbon uudelleen?",
@@ -1769,7 +1782,9 @@
             "form_province_placeholder": "Anna maakunta \/ alue",
             "form_postal_code_placeholder": "Syötä postinumero",
             "update_invoice_details": "Päivitä laskun tiedot",
-            "update_invoice_details_description": "Päivitä laskuissa näkyvä nimi ja laskutusosoite"
+            "update_invoice_details_description": "Päivitä laskuissa näkyvä nimi ja laskutusosoite",
+            "your_active_subscription": "Aktiivinen tilauksesi",
+            "free_monthly_credits": "Ilmaiset kuukausittaiset hyvitykset"
         },
         "account": {
             "update_email": "Päivitä sähköposti",
@@ -1813,7 +1828,9 @@
             "we_have_sent_password": "Olemme lähettäneet salasanan palautusohjeet sähköpostiisi. Palauta salasanasi 1 tunnin sisällä turvallisuussyistä.",
             "go_to_homepage": "Mene kotisivulle",
             "set_password": "Aseta salasana",
-            "for_security_create_password": "Luo salasana turvallisuussyistä"
+            "for_security_create_password": "Luo salasana turvallisuussyistä",
+            "facebook_login_required": "Kirjaudu sisään Facebookiin poistaaksesi tilisi.",
+            "facebook_revoke_required": "Peruuta Facebook-tilisi poistaaksesi tilisi."
         },
         "notifications": {
             "notifications_settings": "Ilmoitusten asetukset",
@@ -2955,6 +2972,11 @@
     "page_create": {
         "twibbon": {
             "placeholder_ post_to_twibbonize": "Hei, olen mukana tukemassa tätä kampanjaa. Kokoonnutaan ja tehdään yhdessä todellista vaikutusta tällä kampanjalla!"
+        },
+        "campaign": {
+            "subheader": "Valitse nauhatyyppi",
+            "ai_twibbon_sub": "Yhdistä kaksi valokuvaa taianomaisesti ja tee siitä malli, jota kaikki voivat käyttää",
+            "ai_twibbon_title": "AI Twibbon"
         }
     },
     "page_create_collections": {
@@ -3160,6 +3182,17 @@
         },
         "premium_creator": {
             "multiple_frame_background": "Siirry Premiumiin saadaksesi lisää kehyksiä ja taustoja"
+        },
+        "whats_new": {
+            "header_1": "Elokuun 2025 julkaisumme 🎉",
+            "body_1": "Tutustu uusimpaan Twibbonize-päivitykseemme. Meillä on jännittäviä uusia ominaisuuksia sinulle!",
+            "button": "Katso mitä uutta",
+            "header_2": "AI Twibbon",
+            "body_2": "Muunna valokuvasi miksi tahansa AI:n avulla ja tee siitä malli kaikille!",
+            "header_3": "Luojien kojelauta",
+            "body_3": "Uusi kojelautakäyttöliittymämme tekee useiden kampanjoiden ja luottosaldon hallinnasta helpompaa kuin koskaan!",
+            "header_4": "Päivitykset mobiilisovellukseen",
+            "body_4": "Uudet ominaisuuspäivityksemme ovat tulossa myös Twibbonize-mobiilisovellukseen! Lataa se tänään!"
         }
     },
     "private_campaign": {
@@ -3170,6 +3203,218 @@
     "message": {
         "error_codes": {
             "campaign_duplicate": "Kampanjalinkkisi on jo käytössä. Kokeile toista."
+        }
+    },
+    "page_credits": {
+        "marketing": {
+            "title": "Luo helposti upeita AI Twibbon- ja Credits-toimintoja. Ei tilausta, maksa tarpeen mukaan!",
+            "topup_button": "Täydennyshyvitykset",
+            "generate_twibbon": "Luo upea AI Twibbon",
+            "generate_twibbon_desc": "Käytä luottopisteitä, jotta voit muuntaa kuvasi mihin tahansa tyyliin tekoälyn voimalla, ja jaa kaavasi maailmalle!",
+            "easy_twibbon_creation": "Helppo AI Twibbonin luominen",
+            "easy_twibbon_creation_desc": "Voit luoda oman Twibbon-nauhasi Creditsin avulla vain muutamassa vaiheessa käyttäjäystävällisellä työkalullamme.",
+            "step_1": "VAIHE 1",
+            "step_1_desc": "Täydennä luottojasi. Osta krediittejä tarpeen mukaan.",
+            "step_2": "VAIHE 2",
+            "step_2_desc": "Käytä krediittejä AI Twibbonin luomiseen. Sovella AI-tyylejä ainutlaatuisen Twibbon-kampanjan luomiseksi.",
+            "step_3": "VAIHE 3",
+            "step_3_desc": "Lataa ja jaa suunnittelusi heti, halutessasi ilman vesileimaa.",
+            "no_subscriptions_needed": "Tilauksia ei tarvita",
+            "no_subscriptions_needed_desc": "Valitse tarpeisiisi sopiva määrä opintopisteitä. Ihanteellinen kaikille, jotka haluavat käyttää Twibbonizea silloin tällöin.",
+            "upgrade_your_experience": "Päivitä kokemuksesi helposti",
+            "upgrade_your_experience_desc": "Hanki etuisuuksia luottojen avulla. Ei kuukausittaista sitoutumista, vain joustavuutta!",
+            "no_subscription_needed_desc": "Tilausta ei tarvita, maksat vain silloin, kun tarvitset sitä.",
+            "no_subscription_needed_price": "alkaen {hinta}"
+        }
+    },
+    "dashboard_home": {
+        "sidebar": {
+            "home": "Etusivu",
+            "balance": "Balance",
+            "settings": "Asetukset"
+        },
+        "tabs": {
+            "campaigns": "Kampanjat",
+            "collections": "Kokoelmat",
+            "posts": "Virat"
+        },
+        "button_checkbox": {
+            "all_types": "Kaikki tyypit"
+        },
+        "card_campaign": {
+            "frame": "Kehys",
+            "background": "Tausta"
+        },
+        "campaigns": {
+            "column_name": "Nimi",
+            "column_type": "Tyyppi",
+            "column_supports": "Tukee",
+            "column_last_modified": "Viimeksi muokattu",
+            "column_actions": "Toimet"
+        }
+    },
+    "dashboard_balance": {
+        "title": {
+            "credit_overview": "Yleiskatsaus",
+            "credit_card": "Luottosaldo yhteensä",
+            "credit_history": "Luottohistoria"
+        },
+        "chip_filter": {
+            "all": "Kaikki",
+            "topup": "Täydennykset",
+            "spending": "Menot"
+        },
+        "history_title": {
+            "package_30": "Täydennyspaketti 30",
+            "generate_ai": "Luo AI Twibbon",
+            "credit_refund": "Hyvitys Palautus"
+        }
+    },
+    "ai_twibbon": {
+        "header": {
+            "title": "AI Twibbon",
+            "paragraph": "Maagisesti muuttaa valokuvan mihin tahansa tyyliin"
+        },
+        "button": {
+            "upload_photo": "Lataa valokuva",
+            "reference": "Lataa viite",
+            "generate_ai": "Luo"
+        },
+        "popover_text": {
+            "examples": "Tai kokeile näitä esimerkkejä"
+        },
+        "popover_button": {
+            "shuffle": "Shuffle"
+        },
+        "modal_restore": {
+            "title": "Generation Interrupted",
+            "paragraph": "Viimeisin kuvasi ei ollut valmis. Palauta istunto jatkaaksesi."
+        },
+        "button_secondary": {
+            "retry": "Uudelleenyritys"
+        },
+        "generation_error": {
+            "title": "Kuvan luomisvirhe",
+            "paragraph": "Kuvanmuodostusprosessissa on tapahtunut virhe"
+        },
+        "title": {
+            "nsfw_detected": "Sisältö ei sallittu"
+        },
+        "support_text": {
+            "nsfw_info": "NSFW-sisältö havaittu. Yritä ladata toinen kuva tai valokuva, joka noudattaa sisältöohjeitamme"
+        },
+        "text_link": {
+            "content_guideline": "Sisältöohjeemme"
+        },
+        "hint_text": {
+            "generate_ai": "Tekoälyn Twibbon-tuotanto voi tuottaa odottamattomia tuloksia"
+        },
+        "actions": {
+            "shuffle": "Shuffle",
+            "retry": "Uudelleenyritys",
+            "next": "Seuraava",
+            "login": "Kirjaudu sisään",
+            "download": "Lataa uudelleen",
+            "upload_photo": "Lataa valokuva",
+            "reference": "Lataa viite",
+            "generate_ai": "Luo"
+        },
+        "labels": {
+            "credit_cost": "1"
+        },
+        "toast": {
+            "session_expired": "Istunto päättyi. Kirjaudu uudelleen.",
+            "insufficient_credits": "Riittämättömät opintopisteet. Jatka jatkaaksesi.",
+            "process_ownership_error": "Prosessi kuuluu eri käyttäjälle, ei voi palauttaa",
+            "credits_topup_success": "Hyvitysten lisääminen onnistui!"
+        }
+    },
+    "modal_puchase_credits": {
+        "button": {
+            "payment": "Onko kuponkikoodi"
+        },
+        "separator": {
+            "voucher_code": "Syötä koodi"
+        },
+        "hint_text": {
+            "paragraph": "Katso <span> kupongin lunastamista varten"
+        },
+        "text_link": {
+            "terms": "Ehdot ja edellytykset"
+        },
+        "header_title": {
+            "alert_balance_credits": "Sinulla ei ole tarpeeksi opintopisteitä",
+            "enter_voucher_code": "Anna kuponkikoodi"
+        },
+        "support_text": {
+            "enter_voucher_code": "Syötä kuponkikoodi lunastaaksesi hyvitysten saldon",
+            "info_balance_credits": "Täydennä ensin krediittejäsi luodaksesi AI Twibbonin"
+        }
+    },
+    "expand_menu_panel": {
+        "button": {
+            "view_profile": "Näytä profiilisi"
+        },
+        "credit_overview": {
+            "credit": "Luotto"
+        },
+        "card_overview": {
+            "top-up": "Top-Up"
+        }
+    },
+    "credits_detail": {
+        "header_text": {
+            "title": "Luo helposti upeita AI Twibbon- ja Credits-toimintoja. Ei tilausta, maksa tarpeen mukaan!"
+        },
+        "button_purchase": {
+            "topup": "Täydennyshyvitykset"
+        }
+    },
+    "modal_template": {
+        "title": {
+            "change_template": "Muuta AI Twibbon -mallia?"
+        },
+        "support_text": {
+            "change_info": "Uuden kuvan luominen ja muutosten tallentaminen päivittää automaattisesti kampanjan pikkukuvan ja poistaa olemassa olevat kuvat"
+        },
+        "button": {
+            "cancel": "Peruuta",
+            "continue": "Jatka"
+        }
+    },
+    "modal_activity": {
+        "header": {
+            "activity_details": "Toiminnan yksityiskohdat"
+        },
+        "text_link": {
+            "download": "Lataa",
+            "share": "Jaa kampanjana"
+        },
+        "info": {
+            "unavailable_campaign": "Lataa ja Jaa kampanjana -vaihtoehto ei ole käytettävissä 90 päivän kuluttua"
+        },
+        "text_support": {
+            "transaction_id": "Tapahtuman ID",
+            "date_time": "Päivämäärä ja aika",
+            "credit_used": "Käytetty luotto",
+            "error_info": "Pyyntöäsi käsiteltäessä tapahtui virhe."
+        },
+        "title": {
+            "generation_failed": "Sukupolvi epäonnistui"
+        }
+    },
+    "modal_introduction": {
+        "ai_twibbon": {
+            "welcome_title": "Tervetuloa AI Twibboniin",
+            "overview_desc": "AI Twibbonin avulla voit luovasti muuntaa kuvasi mihin tahansa tyyliin. Tekoälymme analysoi kasvosi ja sulauttaa ne valitsemaasi referenssikuvaan. Sen jälkeen voit tehdä suunnittelustasi kampanjan, jota muut voivat kopioida!",
+            "how_it_works": "Miten se toimii",
+            "how_it_works_desc": "Lataa muotokuva, jossa kasvosi näkyvät selvästi, ja lisää sitten haluamaasi tyyliä vastaava vertailukuva. Ammattilaisvinkki: Saat parhaan mahdollisen tuloksen, kun käytät referenssikuvia, jotka muistuttavat hyvin paljon valokuvaasi, esimerkiksi kuvia, joissa on hattu tai päähine.",
+            "guideline": "Huomaa",
+            "guideline_desc": "AI Twibbon -kuvan luominen voi tuottaa odottamattomia tuloksia. Saat parhaat tulokset käyttämällä selkeää selfietä korkearesoluutioisena. Ne toimivat parhaiten, kun ne ovat vähintään 1000 pikselin levyisiä. Järjestelmämme ei ehkä luo kuvaa, jos se löytää NSFW-sisältöä (Not Safe For Work)."
+        },
+        "button": {
+            "next": "Jatka",
+            "get_started": "Aloita"
         }
     }
 }

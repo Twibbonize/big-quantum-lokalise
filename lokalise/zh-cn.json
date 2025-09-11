@@ -451,7 +451,8 @@
             "safety": "安全",
             "generate_twibbon": "生成并共享 Twibbon",
             "create_campaign": "创建、共享和编辑广告活动",
-            "header": "网站地图"
+            "header": "网站地图",
+            "credits": "致谢"
         },
         "relative_time": {
             "seconds": "几秒钟",
@@ -520,6 +521,12 @@
             "light": "光",
             "dark": "黑暗的",
             "choose_your_preference": "选择您的偏好"
+        },
+        "twibbon": {
+            "ai": "人工智能",
+            "all_type": "所有类型",
+            "background": "背景",
+            "frame": "框架"
         }
     },
     "page_home": {
@@ -808,7 +815,12 @@
             "processing_complete": "处理完成",
             "processing_your_photo": "处理您的照片",
             "photo_ready_to_download": "您的照片已准备好下载",
-            "copy_caption": "将此标题复制到社交媒体！"
+            "copy_caption": "将此标题复制到社交媒体！",
+            "gallery": "Gallery",
+            "no_post_yet": "No posts yet. Be the first to show your support by {button}",
+            "uploading_your_photo": "uploading your photo!",
+            "about_this_campaign": "About This Campaign",
+            "please_wait": "Please wait a moment. Don’t close this browser tab."
         },
         "report": {
             "report_campaign": "报告",
@@ -1200,7 +1212,8 @@
             "what_do_you_want_to_create": "您想要创建什么？",
             "what_do_you_want_to_create_desc": "为您的在线活动游戏增添趣味,不仅要有框架,还要有创意背景",
             "new": "新的！",
-            "frame_twibbon": "框架特维邦"
+            "frame_twibbon": "框架特维邦",
+            "try_twibbon": "尝试 {type} Twibbon"
         },
         "confirm_reorder": {
             "title": "重新订购 Twibbon？",
@@ -1769,7 +1782,9 @@
             "form_province_placeholder": "输入省\/地区",
             "form_postal_code_placeholder": "输入邮政编码",
             "update_invoice_details": "更新发票详情",
-            "update_invoice_details_description": "更新发票上显示的姓名和账单地址"
+            "update_invoice_details_description": "更新发票上显示的姓名和账单地址",
+            "your_active_subscription": "您的有效订阅",
+            "free_monthly_credits": "每月免费积分"
         },
         "account": {
             "update_email": "更新电子邮件",
@@ -1813,7 +1828,9 @@
             "we_have_sent_password": "我们已将密码重置说明发送至您的电子邮箱。出于安全原因，请在 1 小时内重置密码。",
             "go_to_homepage": "去首页",
             "set_password": "设置密码",
-            "for_security_create_password": "出于安全原因，请创建密码"
+            "for_security_create_password": "出于安全原因，请创建密码",
+            "facebook_login_required": "请使用 Facebook 登录来删除您的帐户。",
+            "facebook_revoke_required": "请撤销您的 Facebook 帐户以删除您的帐户。"
         },
         "notifications": {
             "notifications_settings": "通知设置",
@@ -2955,6 +2972,11 @@
     "page_create": {
         "twibbon": {
             "placeholder_ post_to_twibbonize": "大家好，我全力支持这次活动。让我们一起团结起来，通过这次活动产生真正的影响吧！"
+        },
+        "campaign": {
+            "subheader": "选择 Twibbon 类型",
+            "ai_twibbon_sub": "神奇地将两张照片组合起来，变成每个人都可以使用的模板",
+            "ai_twibbon_title": "艾特威本"
         }
     },
     "page_create_collections": {
@@ -3160,6 +3182,17 @@
         },
         "premium_creator": {
             "multiple_frame_background": "升级至高级版，获得更多相框和背景"
+        },
+        "whats_new": {
+            "header_1": "我们的 2025 年 8 月发布版本 🎉",
+            "body_1": "查看 Twibbonize 的最新更新。我们为您带来了激动人心的新功能！",
+            "button": "查看最新动态",
+            "header_2": "人工智能特威本",
+            "body_2": "使用 AI 将您的照片转换成任何形式，并将其变成每个人的模板！",
+            "header_3": "创作者仪表板",
+            "body_3": "我们新的仪表板界面使管理多个活动和信用余额比以往更加容易！",
+            "header_4": "移动应用程序更新",
+            "body_4": "我们的新功能更新也即将登陆 Twibbonize 移动应用！立即下载！"
         }
     },
     "private_campaign": {
@@ -3170,6 +3203,218 @@
     "message": {
         "error_codes": {
             "campaign_duplicate": "您的活动链接已被使用。请尝试其他链接。"
+        }
+    },
+    "page_credits": {
+        "marketing": {
+            "title": "使用积分轻松生成精美的 AI Twibbon。无需订阅，按需付费！",
+            "topup_button": "充值积分",
+            "generate_twibbon": "生成令人惊叹的 AI Twibbon",
+            "generate_twibbon_desc": "使用 Credits 帮助您利用 AI 的力量将您的图像转换成任何风格，并与世界分享您的公式！",
+            "easy_twibbon_creation": "轻松创建 AI Twibbon",
+            "easy_twibbon_creation_desc": "只需几个步骤，您就可以通过我们用户友好的工具使用积分创建自己的 Twibbon。",
+            "step_1": "步骤 1",
+            "step_1_desc": "充值您的积分。根据需要购买积分。",
+            "step_2": "步骤 2",
+            "step_2_desc": "使用积分生成 AI Twibbon。应用 AI 风格，打造独一无二的 Twibbon 活动。",
+            "step_3": "步骤 3",
+            "step_3_desc": "立即下载并分享您的设计，如果您选择的话，还可以使用无水印的设计。",
+            "no_subscriptions_needed": "无需订阅",
+            "no_subscriptions_needed_desc": "选择适合您需求的积分数量。非常适合偶尔使用 Twibbonize 的用户。",
+            "upgrade_your_experience": "轻松升级您的体验",
+            "upgrade_your_experience_desc": "使用积分即可享受各种福利。无需每月支付，灵活便捷！",
+            "no_subscription_needed_desc": "无需订阅，仅在需要时付费。",
+            "no_subscription_needed_price": "起价 {price}"
+        }
+    },
+    "dashboard_home": {
+        "sidebar": {
+            "home": "家",
+            "balance": "平衡",
+            "settings": "设置"
+        },
+        "tabs": {
+            "campaigns": "活动",
+            "collections": "收藏",
+            "posts": "帖子"
+        },
+        "button_checkbox": {
+            "all_types": "所有类型"
+        },
+        "card_campaign": {
+            "frame": "框架",
+            "background": "背景"
+        },
+        "campaigns": {
+            "column_name": "姓名",
+            "column_type": "类型",
+            "column_supports": "支持",
+            "column_last_modified": "上次修改",
+            "column_actions": "行动"
+        }
+    },
+    "dashboard_balance": {
+        "title": {
+            "credit_overview": "概述",
+            "credit_card": "总贷方余额",
+            "credit_history": "信用记录"
+        },
+        "chip_filter": {
+            "all": "全部",
+            "topup": "充值",
+            "spending": "支出"
+        },
+        "history_title": {
+            "package_30": "充值套餐 30",
+            "generate_ai": "生成 AI Twibbon",
+            "credit_refund": "信用退款"
+        }
+    },
+    "ai_twibbon": {
+        "header": {
+            "title": "艾特威本",
+            "paragraph": "将照片神奇地转换成任何风格"
+        },
+        "button": {
+            "upload_photo": "上传你的照片",
+            "reference": "上传参考",
+            "generate_ai": "产生"
+        },
+        "popover_text": {
+            "examples": "或者尝试这些例子"
+        },
+        "popover_button": {
+            "shuffle": "随机播放"
+        },
+        "modal_restore": {
+            "title": "中断的一代",
+            "paragraph": "您的上一张图片尚未完成。请恢复会话以继续。"
+        },
+        "button_secondary": {
+            "retry": "重试"
+        },
+        "generation_error": {
+            "title": "图像生成错误",
+            "paragraph": "图像生成过程中发生错误"
+        },
+        "title": {
+            "nsfw_detected": "内容不允许"
+        },
+        "support_text": {
+            "nsfw_info": "检测到 NSFW 内容。请尝试上传符合我们内容准则的其他图片或照片。"
+        },
+        "text_link": {
+            "content_guideline": "我们的内容指南"
+        },
+        "hint_text": {
+            "generate_ai": "AI Twibbon 生成可能会产生意想不到的结果"
+        },
+        "actions": {
+            "shuffle": "随机播放",
+            "retry": "重试",
+            "next": "下一个",
+            "login": "登录",
+            "download": "重新下载",
+            "upload_photo": "上传你的照片",
+            "reference": "上传参考",
+            "generate_ai": "产生"
+        },
+        "labels": {
+            "credit_cost": "1"
+        },
+        "toast": {
+            "session_expired": "会话已过期。请重新登录。",
+            "insufficient_credits": "积分不足。请充值后继续。",
+            "process_ownership_error": "进程属于不同的用户，无法恢复",
+            "credits_topup_success": "充值成功！"
+        }
+    },
+    "modal_puchase_credits": {
+        "button": {
+            "payment": "有优惠券代码"
+        },
+        "separator": {
+            "voucher_code": "输入代码"
+        },
+        "hint_text": {
+            "paragraph": "请参阅<span>了解优惠券兑换方法"
+        },
+        "text_link": {
+            "terms": "条款和条件"
+        },
+        "header_title": {
+            "alert_balance_credits": "您的积分不足",
+            "enter_voucher_code": "输入优惠券代码"
+        },
+        "support_text": {
+            "enter_voucher_code": "请输入您的优惠券代码来兑换积分余额",
+            "info_balance_credits": "首先，充值你的积分来生成一个 AI Twibbon"
+        }
+    },
+    "expand_menu_panel": {
+        "button": {
+            "view_profile": "查看您的个人资料"
+        },
+        "credit_overview": {
+            "credit": "信用"
+        },
+        "card_overview": {
+            "top-up": "充值"
+        }
+    },
+    "credits_detail": {
+        "header_text": {
+            "title": "使用积分轻松生成精美的 AI Twibbon。无需订阅，按需付费！"
+        },
+        "button_purchase": {
+            "topup": "充值积分"
+        }
+    },
+    "modal_template": {
+        "title": {
+            "change_template": "更改 AI Twibbon 模板？"
+        },
+        "support_text": {
+            "change_info": "生成新图像并保存更改将自动更新广告系列缩略图并删除现有缩略图"
+        },
+        "button": {
+            "cancel": "取消",
+            "continue": "继续"
+        }
+    },
+    "modal_activity": {
+        "header": {
+            "activity_details": "活动详情"
+        },
+        "text_link": {
+            "download": "下载",
+            "share": "分享为活动"
+        },
+        "info": {
+            "unavailable_campaign": "下载并分享为活动选项将在 90 天后不可用"
+        },
+        "text_support": {
+            "transaction_id": "交易 ID",
+            "date_time": "日期和时间",
+            "credit_used": "已使用信用",
+            "error_info": "处理您的请求时发生错误。"
+        },
+        "title": {
+            "generation_failed": "生成失败"
+        }
+    },
+    "modal_introduction": {
+        "ai_twibbon": {
+            "welcome_title": "欢迎来到 AI Twibbon",
+            "overview_desc": "AI Twibbon 让您能够创意地将图像转换为任何风格。我们的 AI 会分析您的脸部，并将其与您选择的参考图像融合。然后，您可以将您的设计转化为其他人可以效仿的宣传活动！",
+            "how_it_works": "工作原理",
+            "how_it_works_desc": "上传一张清晰可见的肖像照，然后添加一张符合您所需风格的参考照片。专业提示：为了获得最佳效果，请使用与您的照片非常相似的参考照片，例如带有帽子或头饰的照片。",
+            "guideline": "请注意",
+            "guideline_desc": "AI Twibbon 图像生成可能会产生意想不到的效果。为了获得最佳效果，请使用高分辨率的清晰自拍照。当图像宽度至少为 1000 像素时，效果最佳。如果系统发现任何 NSFW（不适合工作场所）内容，则可能无法创建图像。"
+        },
+        "button": {
+            "next": "继续",
+            "get_started": "开始"
         }
     }
 }

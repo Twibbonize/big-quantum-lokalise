@@ -451,7 +451,8 @@
             "safety": "Säkerhet",
             "generate_twibbon": "Generera och dela Twibbon",
             "create_campaign": "Skapa, dela och redigera kampanj",
-            "header": "Webbplatskarta"
+            "header": "Webbplatskarta",
+            "credits": "Krediter"
         },
         "relative_time": {
             "seconds": "några sekunder",
@@ -520,6 +521,12 @@
             "light": "Ljus",
             "dark": "Mörk",
             "choose_your_preference": "Välj din preferens"
+        },
+        "twibbon": {
+            "ai": "AI",
+            "all_type": "Alla typer",
+            "background": "Bakgrund",
+            "frame": "Ram"
         }
     },
     "page_home": {
@@ -808,7 +815,12 @@
             "processing_complete": "Bearbetning slutförd",
             "processing_your_photo": "Bearbeta ditt foto",
             "photo_ready_to_download": "Ditt foto är redo att laddas ner",
-            "copy_caption": "Kopiera denna bildtext till sociala medier!"
+            "copy_caption": "Kopiera denna bildtext till sociala medier!",
+            "gallery": "Gallery",
+            "no_post_yet": "No posts yet. Be the first to show your support by {button}",
+            "uploading_your_photo": "uploading your photo!",
+            "about_this_campaign": "About This Campaign",
+            "please_wait": "Please wait a moment. Don’t close this browser tab."
         },
         "report": {
             "report_campaign": "Rapportera",
@@ -1200,7 +1212,8 @@
             "what_do_you_want_to_create": "Vad vill du skapa?",
             "what_do_you_want_to_create_desc": "Piffa upp din onlinekampanj, inte bara med en ram, utan också med kreativa bakgrunder",
             "new": "Ny!",
-            "frame_twibbon": "Ram Twibbon"
+            "frame_twibbon": "Ram Twibbon",
+            "try_twibbon": "Prova {typ} Twibbon"
         },
         "confirm_reorder": {
             "title": "Ombeställa Twibbon?",
@@ -1769,7 +1782,9 @@
             "form_province_placeholder": "Ange provins\/region",
             "form_postal_code_placeholder": "Ange postnummer",
             "update_invoice_details": "Uppdatera fakturadetaljer",
-            "update_invoice_details_description": "Uppdatera det namn och den faktureringsadress som ska visas på dina fakturor"
+            "update_invoice_details_description": "Uppdatera det namn och den faktureringsadress som ska visas på dina fakturor",
+            "your_active_subscription": "Din aktiva prenumeration",
+            "free_monthly_credits": "Gratis månatliga krediter"
         },
         "account": {
             "update_email": "Uppdatera e-post",
@@ -1813,7 +1828,9 @@
             "we_have_sent_password": "Vi har skickat instruktioner för återställning av lösenord till din e-post. Vänligen återställ ditt lösenord inom 1 timme av säkerhetsskäl.",
             "go_to_homepage": "Gå till hemsidan",
             "set_password": "Ange lösenord",
-            "for_security_create_password": "Av säkerhetsskäl ber vi dig skapa ett lösenord"
+            "for_security_create_password": "Av säkerhetsskäl ber vi dig skapa ett lösenord",
+            "facebook_login_required": "Logga in med Facebook för att radera ditt konto.",
+            "facebook_revoke_required": "Återkalla ditt Facebook-konto för att radera ditt konto."
         },
         "notifications": {
             "notifications_settings": "Inställningar för aviseringar",
@@ -2955,6 +2972,11 @@
     "page_create": {
         "twibbon": {
             "placeholder_ post_to_twibbonize": "Hej, jag är all in för att stödja den här kampanjen. Låt oss samlas och göra ett verkligt avtryck med den här kampanjen tillsammans!"
+        },
+        "campaign": {
+            "subheader": "Välj en typ av Twibbon",
+            "ai_twibbon_sub": "Kombinera två foton på ett magiskt sätt och gör dem till en mall som alla kan använda",
+            "ai_twibbon_title": "AI Twibbon"
         }
     },
     "page_create_collections": {
@@ -3160,6 +3182,17 @@
         },
         "premium_creator": {
             "multiple_frame_background": "Gå till Premium för fler ramar och bakgrunder"
+        },
+        "whats_new": {
+            "header_1": "Vår lansering i augusti 2025 🎉",
+            "body_1": "Kolla in vår senaste uppdatering på Twibbonize. Vi har spännande nya funktioner för dig!",
+            "button": "Se vad som är nytt",
+            "header_2": "AI Twibbon",
+            "body_2": "Förvandla ditt foto till vad som helst med AI, och gör det till en mall för alla!",
+            "header_3": "Instrumentpanel för kreatörer",
+            "body_3": "Vårt nya dashboard-gränssnitt gör det enklare än någonsin att hantera flera kampanjer och kreditbalanser!",
+            "header_4": "Uppdateringar för mobilapp",
+            "body_4": "Våra nya funktionsuppdateringar kommer också till Twibbonize mobilapp! Ladda ner den idag!"
         }
     },
     "private_campaign": {
@@ -3170,6 +3203,218 @@
     "message": {
         "error_codes": {
             "campaign_duplicate": "Din kampanjlänk är redan i bruk. Försök med en annan."
+        }
+    },
+    "page_credits": {
+        "marketing": {
+            "title": "Skapa enkelt fantastiska AI Twibbon med Credits. Ingen prenumeration krävs, betala efter behov!",
+            "topup_button": "Tilläggskredit",
+            "generate_twibbon": "Generera fantastiska AI Twibbon",
+            "generate_twibbon_desc": "Använd Credits för att hjälpa dig att omvandla din bild till valfri stil med hjälp av AI, och dela med dig av din formel till hela världen!",
+            "easy_twibbon_creation": "Enkel skapande av AI Twibbon",
+            "easy_twibbon_creation_desc": "På bara några steg kan du skapa din egen Twibbon med hjälp av Credits med vårt användarvänliga verktyg.",
+            "step_1": "STEG 1",
+            "step_1_desc": "Fyll på dina krediter. Köp krediter efter behov.",
+            "step_2": "STEG 2",
+            "step_2_desc": "Använd krediter för att generera AI Twibbon. Tillämpa AI-stilar för att skapa en unik Twibbon-kampanj.",
+            "step_3": "STEG 3",
+            "step_3_desc": "Ladda ner och dela din design direkt, vattenstämpelfritt om du vill.",
+            "no_subscriptions_needed": "Inga abonnemang behövs",
+            "no_subscriptions_needed_desc": "Välj det antal Credits som passar dina behov. Perfekt för alla som vill använda Twibbonize då och då.",
+            "upgrade_your_experience": "Förbättra din upplevelse på ett enkelt sätt",
+            "upgrade_your_experience_desc": "Få alla förmåner med Credits. Inget månatligt åtagande, bara flexibilitet!",
+            "no_subscription_needed_desc": "Ingen prenumeration behövs, betala bara när du behöver det.",
+            "no_subscription_needed_price": "börjar från {pris}"
+        }
+    },
+    "dashboard_home": {
+        "sidebar": {
+            "home": "Hem",
+            "balance": "Balans",
+            "settings": "Inställningar"
+        },
+        "tabs": {
+            "campaigns": "Kampanjer",
+            "collections": "Samlingar",
+            "posts": "Inlägg"
+        },
+        "button_checkbox": {
+            "all_types": "Alla typer"
+        },
+        "card_campaign": {
+            "frame": "Ram",
+            "background": "Bakgrund"
+        },
+        "campaigns": {
+            "column_name": "Namn",
+            "column_type": "Typ",
+            "column_supports": "Stöd för",
+            "column_last_modified": "Senast ändrad",
+            "column_actions": "Åtgärder"
+        }
+    },
+    "dashboard_balance": {
+        "title": {
+            "credit_overview": "Översikt",
+            "credit_card": "Total kreditbalans",
+            "credit_history": "Kredithistorik"
+        },
+        "chip_filter": {
+            "all": "Alla",
+            "topup": "Tilläggsköp",
+            "spending": "Utgifter"
+        },
+        "history_title": {
+            "package_30": "Påfyllningspaket 30",
+            "generate_ai": "Skapa en AI Twibbon",
+            "credit_refund": "Återbetalning av kredit"
+        }
+    },
+    "ai_twibbon": {
+        "header": {
+            "title": "AI Twibbon",
+            "paragraph": "Magisk omvandling av foto till valfri stil"
+        },
+        "button": {
+            "upload_photo": "Ladda upp ditt foto",
+            "reference": "Ladda upp referens",
+            "generate_ai": "Generera"
+        },
+        "popover_text": {
+            "examples": "Eller försök med dessa exempel"
+        },
+        "popover_button": {
+            "shuffle": "Shuffle"
+        },
+        "modal_restore": {
+            "title": "Generation avbruten",
+            "paragraph": "Din senaste bild blev inte klar. Återställ sessionen för att fortsätta."
+        },
+        "button_secondary": {
+            "retry": "Försök igen"
+        },
+        "generation_error": {
+            "title": "Fel vid bildgenerering",
+            "paragraph": "Ett fel har inträffat under bildgenereringsprocessen"
+        },
+        "title": {
+            "nsfw_detected": "Innehåll som inte är tillåtet"
+        },
+        "support_text": {
+            "nsfw_info": "NSFW-innehåll upptäckt. Försök att ladda upp en annan bild eller ett foto som följer våra riktlinjer för innehåll"
+        },
+        "text_link": {
+            "content_guideline": "Våra riktlinjer för innehåll"
+        },
+        "hint_text": {
+            "generate_ai": "AI-generering av Twibbon kan ge oväntade resultat"
+        },
+        "actions": {
+            "shuffle": "Shuffle",
+            "retry": "Försök igen",
+            "next": "Nästa",
+            "login": "Logga in",
+            "download": "Ladda ner på nytt",
+            "upload_photo": "Ladda upp ditt foto",
+            "reference": "Ladda upp referens",
+            "generate_ai": "Generera"
+        },
+        "labels": {
+            "credit_cost": "1"
+        },
+        "toast": {
+            "session_expired": "Sessionen har löpt ut. Vänligen logga in igen.",
+            "insufficient_credits": "Otillräckligt med krediter. Vänligen fyll på för att fortsätta.",
+            "process_ownership_error": "Processen tillhör en annan användare, kan inte återställas",
+            "credits_topup_success": "Påfyllning av krediter framgångsrik!"
+        }
+    },
+    "modal_puchase_credits": {
+        "button": {
+            "payment": "Har kupongkod"
+        },
+        "separator": {
+            "voucher_code": "Ange kod"
+        },
+        "hint_text": {
+            "paragraph": "Se <span> för inlösen av värdebevis"
+        },
+        "text_link": {
+            "terms": "Villkor och bestämmelser"
+        },
+        "header_title": {
+            "alert_balance_credits": "Du har inte tillräckligt med krediter",
+            "enter_voucher_code": "Ange kupongkod"
+        },
+        "support_text": {
+            "enter_voucher_code": "Vänligen ange din kupongkod för att lösa in kreditsaldo",
+            "info_balance_credits": "Först fyller du på dina krediter för att generera en AI Twibbon"
+        }
+    },
+    "expand_menu_panel": {
+        "button": {
+            "view_profile": "Visa din profil"
+        },
+        "credit_overview": {
+            "credit": "Kredit"
+        },
+        "card_overview": {
+            "top-up": "Top-Up"
+        }
+    },
+    "credits_detail": {
+        "header_text": {
+            "title": "Skapa enkelt fantastiska AI Twibbon med Credits. Ingen prenumeration krävs, betala efter behov!"
+        },
+        "button_purchase": {
+            "topup": "Tilläggskredit"
+        }
+    },
+    "modal_template": {
+        "title": {
+            "change_template": "Ändra AI Twibbon-mall?"
+        },
+        "support_text": {
+            "change_info": "Om du skapar en ny bild och sparar ändringarna uppdateras kampanjens miniatyrbild automatiskt och de befintliga tas bort"
+        },
+        "button": {
+            "cancel": "Avbryt",
+            "continue": "Fortsätt"
+        }
+    },
+    "modal_activity": {
+        "header": {
+            "activity_details": "Detaljer om aktiviteter"
+        },
+        "text_link": {
+            "download": "Nedladdningar",
+            "share": "Dela som kampanj"
+        },
+        "info": {
+            "unavailable_campaign": "Alternativet Download and Share as Campaign kommer inte att vara tillgängligt efter 90 dagar"
+        },
+        "text_support": {
+            "transaction_id": "Transaktions-ID",
+            "date_time": "Datum och tid",
+            "credit_used": "Använd kredit",
+            "error_info": "Ett fel inträffade under behandlingen av din begäran."
+        },
+        "title": {
+            "generation_failed": "Generation misslyckad"
+        }
+    },
+    "modal_introduction": {
+        "ai_twibbon": {
+            "welcome_title": "Välkommen till AI Twibbon",
+            "overview_desc": "AI Twibbon låter dig kreativt omvandla din bild till vilken stil som helst. Vår AI analyserar ditt ansikte och blandar det med din valda referensbild. Du kan sedan förvandla din design till en kampanj som andra kan kopiera!",
+            "how_it_works": "Så här fungerar det",
+            "how_it_works_desc": "Ladda upp ett porträtt där ditt ansikte syns tydligt och lägg sedan till ett referensfoto som matchar den stil du vill ha. Proffstips: För bästa resultat bör du använda referensbilder som är mycket lika ditt foto, till exempel bilder med hatt eller huvudbonad.",
+            "guideline": "Vänligen observera",
+            "guideline_desc": "AI Twibbon-bildgenerering kan ge oväntade resultat. För att få bästa resultat ska du använda tydliga selfies i hög upplösning. De fungerar bäst när de är minst 1000 pixlar breda. Vårt system kanske inte skapar en bild om det hittar något NSFW-innehåll (Not Safe For Work)."
+        },
+        "button": {
+            "next": "Fortsätt",
+            "get_started": "Kom igång"
         }
     }
 }

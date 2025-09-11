@@ -451,7 +451,8 @@
             "safety": "Biztonság",
             "generate_twibbon": "Twibbon létrehozása és megosztása",
             "create_campaign": "Kampány létrehozása, megosztása és szerkesztése",
-            "header": "Oldaltérkép"
+            "header": "Oldaltérkép",
+            "credits": "Hitelek"
         },
         "relative_time": {
             "seconds": "néhány másodperc",
@@ -520,6 +521,12 @@
             "light": "Fény",
             "dark": "Sötét",
             "choose_your_preference": "Válassza ki a preferenciáját"
+        },
+        "twibbon": {
+            "ai": "AI",
+            "all_type": "Minden típus",
+            "background": "Háttér",
+            "frame": "Keret"
         }
     },
     "page_home": {
@@ -808,7 +815,12 @@
             "processing_complete": "A feldolgozás befejeződött",
             "processing_your_photo": "A fénykép feldolgozása",
             "photo_ready_to_download": "A fénykép készen áll a letöltésre",
-            "copy_caption": "Másold ki ezt a feliratot a közösségi médiába!"
+            "copy_caption": "Másold ki ezt a feliratot a közösségi médiába!",
+            "gallery": "Gallery",
+            "no_post_yet": "No posts yet. Be the first to show your support by {button}",
+            "uploading_your_photo": "uploading your photo!",
+            "about_this_campaign": "About This Campaign",
+            "please_wait": "Please wait a moment. Don’t close this browser tab."
         },
         "report": {
             "report_campaign": "Jelentés",
@@ -1200,7 +1212,8 @@
             "what_do_you_want_to_create": "Mit szeretnél létrehozni?",
             "what_do_you_want_to_create_desc": "Dobja fel online kampányjátékát, nemcsak kerettel, hanem kreatív hátterekkel is.",
             "new": "Új!",
-            "frame_twibbon": "Keret Twibbon"
+            "frame_twibbon": "Keret Twibbon",
+            "try_twibbon": "Próbáld ki a {típus} Twibbon"
         },
         "confirm_reorder": {
             "title": "Twibbon újrarendelése?",
@@ -1769,7 +1782,9 @@
             "form_province_placeholder": "Adja meg a tartományt \/ régiót",
             "form_postal_code_placeholder": "Postai irányítószám megadása",
             "update_invoice_details": "Számlaadatok frissítése",
-            "update_invoice_details_description": "A számlákon megjelenő név és számlázási cím frissítése"
+            "update_invoice_details_description": "A számlákon megjelenő név és számlázási cím frissítése",
+            "your_active_subscription": "Az Ön aktív előfizetése",
+            "free_monthly_credits": "Ingyenes havi kreditek"
         },
         "account": {
             "update_email": "E-mail frissítése",
@@ -1813,7 +1828,9 @@
             "we_have_sent_password": "A jelszó-visszaállítási utasításokat elküldtük az Ön e-mail címére. Kérjük, biztonsági okokból állítsa vissza jelszavát 1 órán belül.",
             "go_to_homepage": "Menj a főoldalra",
             "set_password": "Jelszó beállítása",
-            "for_security_create_password": "Biztonsági okokból, kérjük, hozzon létre egy jelszót"
+            "for_security_create_password": "Biztonsági okokból, kérjük, hozzon létre egy jelszót",
+            "facebook_login_required": "Kérjük, jelentkezzen be a Facebookon a fiókja törléséhez.",
+            "facebook_revoke_required": "Kérjük, a fiók törléséhez vonja vissza Facebook-fiókját."
         },
         "notifications": {
             "notifications_settings": "Értesítések beállításai",
@@ -2955,6 +2972,11 @@
     "page_create": {
         "twibbon": {
             "placeholder_ post_to_twibbonize": "Szia, én is támogatom ezt a kampányt. Gyűljünk össze és tegyünk együtt valódi hatást ezzel a kampánnyal!"
+        },
+        "campaign": {
+            "subheader": "Válassza ki a Twibbon típusát",
+            "ai_twibbon_sub": "Varázslatosan kombináljon két fotót, és alakítsa át egy mindenki által használható sablonná",
+            "ai_twibbon_title": "AI Twibbon"
         }
     },
     "page_create_collections": {
@@ -3160,6 +3182,17 @@
         },
         "premium_creator": {
             "multiple_frame_background": "További keretekért és hátterekért menj Prémiumra"
+        },
+        "whats_new": {
+            "header_1": "Augusztusi 2025-ös kiadásunk 🎉",
+            "body_1": "Nézze meg a Twibbonize legújabb frissítését. Izgalmas új funkciókat kínálunk neked!",
+            "button": "Nézze meg az újdonságokat",
+            "header_2": "AI Twibbon",
+            "body_2": "Alakítsd át a fotódat bármivé az AI segítségével, és csinálj belőle sablont mindenki számára!",
+            "header_3": "Műszerfal alkotóknak",
+            "body_3": "Az új műszerfal felületünkkel a több kampány és a hitelegyenleg kezelése egyszerűbb, mint valaha!",
+            "header_4": "Frissítések a mobilalkalmazáshoz",
+            "body_4": "Új funkciófrissítéseink érkeznek a Twibbonize mobilalkalmazásba is! Töltsd le még ma!"
         }
     },
     "private_campaign": {
@@ -3170,6 +3203,218 @@
     "message": {
         "error_codes": {
             "campaign_duplicate": "Az Ön kampánykapcsolata már használatban van. Próbáljon ki egy másikat."
+        }
+    },
+    "page_credits": {
+        "marketing": {
+            "title": "Könnyedén generálhat lenyűgöző AI Twibbonokat a Credits segítségével. Nincs szükség előfizetésre, fizessen, ahogy szüksége van rá!",
+            "topup_button": "Feltöltési kreditek",
+            "generate_twibbon": "Lenyűgöző AI Twibbon generálása",
+            "generate_twibbon_desc": "Használd a Credits-et, hogy a mesterséges intelligencia erejével bármilyen stílusúvá varázsolhasd a képedet, és oszd meg a képletedet a világgal!",
+            "easy_twibbon_creation": "Egyszerű AI Twibbon készítés",
+            "easy_twibbon_creation_desc": "A felhasználóbarát eszközünkkel néhány lépésben elkészítheti saját Twibbonját a Credits segítségével.",
+            "step_1": "1. LÉPÉS",
+            "step_1_desc": "Töltsd fel a kreditjeidet. Vásároljon krediteket, ahogyan csak szüksége van rá.",
+            "step_2": "2. LÉPÉS",
+            "step_2_desc": "Használd a krediteket AI Twibbon generálásához. Alkalmazza az AI stílusokat egy egyedi Twibbon kampány létrehozásához.",
+            "step_3": "3. LÉPÉS",
+            "step_3_desc": "Töltse le és ossza meg azonnal a tervét, vízjel nélkül, ha úgy dönt.",
+            "no_subscriptions_needed": "Nincs szükség előfizetésre",
+            "no_subscriptions_needed_desc": "Válassza ki az igényeinek megfelelő számú kreditet. Ideális mindenkinek, aki időről időre használni szeretné a Twibbonize-t.",
+            "upgrade_your_experience": "Frissítse élményét, egyszerűen",
+            "upgrade_your_experience_desc": "Szerezd meg a kreditekkel járó előnyöket. Nincs havi kötelezettség, csak rugalmasság!",
+            "no_subscription_needed_desc": "Nincs szükség előfizetésre, csak akkor fizet, amikor szüksége van rá.",
+            "no_subscription_needed_price": "kezdődik {ár}"
+        }
+    },
+    "dashboard_home": {
+        "sidebar": {
+            "home": "Home",
+            "balance": "Egyensúly",
+            "settings": "Settings"
+        },
+        "tabs": {
+            "campaigns": "Kampányok",
+            "collections": "Gyűjtemények",
+            "posts": "Hozzászólások"
+        },
+        "button_checkbox": {
+            "all_types": "Minden típus"
+        },
+        "card_campaign": {
+            "frame": "Keret",
+            "background": "Háttér"
+        },
+        "campaigns": {
+            "column_name": "Név",
+            "column_type": "Típus",
+            "column_supports": "Támogatja a",
+            "column_last_modified": "Utoljára módosítva",
+            "column_actions": "Tevékenységek"
+        }
+    },
+    "dashboard_balance": {
+        "title": {
+            "credit_overview": "Áttekintés",
+            "credit_card": "Hitelegyenleg összesen",
+            "credit_history": "Hiteltörténet"
+        },
+        "chip_filter": {
+            "all": "Minden",
+            "topup": "Feltöltések",
+            "spending": "Kiadások"
+        },
+        "history_title": {
+            "package_30": "Feltöltési csomag 30",
+            "generate_ai": "AI Twibbon generálása",
+            "credit_refund": "Hitel visszatérítés"
+        }
+    },
+    "ai_twibbon": {
+        "header": {
+            "title": "AI Twibbon",
+            "paragraph": "Varázslatosan átalakítja a fényképet bármilyen stílusúvá"
+        },
+        "button": {
+            "upload_photo": "Fotó feltöltése",
+            "reference": "Hivatkozás feltöltése",
+            "generate_ai": "Generálja"
+        },
+        "popover_text": {
+            "examples": "Vagy próbálja ki ezeket a példákat"
+        },
+        "popover_button": {
+            "shuffle": "Shuffle"
+        },
+        "modal_restore": {
+            "title": "Megszakított generáció",
+            "paragraph": "Az utolsó képed nem volt kész. A folytatáshoz állítsa vissza a munkamenetet."
+        },
+        "button_secondary": {
+            "retry": "Retry"
+        },
+        "generation_error": {
+            "title": "Képgenerálási hiba",
+            "paragraph": "Hiba történt a képgenerálás során"
+        },
+        "title": {
+            "nsfw_detected": "Nem megengedett tartalom"
+        },
+        "support_text": {
+            "nsfw_info": "NSFW tartalom észlelve. Kérjük, próbáljon meg feltölteni egy másik képet vagy fotót, amely követi a tartalmi irányelveinket"
+        },
+        "text_link": {
+            "content_guideline": "Tartalmi irányelveink"
+        },
+        "hint_text": {
+            "generate_ai": "Az AI Twibbon generálása váratlan eredményeket hozhat"
+        },
+        "actions": {
+            "shuffle": "Shuffle",
+            "retry": "Retry",
+            "next": "Következő",
+            "login": "Bejelentkezés",
+            "download": "Újratöltés",
+            "upload_photo": "Fotó feltöltése",
+            "reference": "Hivatkozás feltöltése",
+            "generate_ai": "Generálja"
+        },
+        "labels": {
+            "credit_cost": "1"
+        },
+        "toast": {
+            "session_expired": "Az ülésszak lejárt. Kérjük, jelentkezzen be újra.",
+            "insufficient_credits": "Nem elegendő kredit. Kérjük, töltsön fel a folytatáshoz.",
+            "process_ownership_error": "A folyamat más felhasználóhoz tartozik, nem állítható vissza",
+            "credits_topup_success": "Feltöltés sikeres!"
+        }
+    },
+    "modal_puchase_credits": {
+        "button": {
+            "payment": "Van utalvány kód"
+        },
+        "separator": {
+            "voucher_code": "Kód beírása"
+        },
+        "hint_text": {
+            "paragraph": "Lásd a <span> az utalvány beváltásához"
+        },
+        "text_link": {
+            "terms": "Feltételek és feltételek"
+        },
+        "header_title": {
+            "alert_balance_credits": "Nincs elég hiteled",
+            "enter_voucher_code": "Adja meg az utalvány kódot"
+        },
+        "support_text": {
+            "enter_voucher_code": "Kérjük, adja meg az utalvány kódját a kreditegyenleg beváltásához",
+            "info_balance_credits": "Először töltsd fel a kreditjeidet, hogy létrehozz egy AI Twibbon-t"
+        }
+    },
+    "expand_menu_panel": {
+        "button": {
+            "view_profile": "Profiljának megtekintése"
+        },
+        "credit_overview": {
+            "credit": "Hitel"
+        },
+        "card_overview": {
+            "top-up": "Top-Up"
+        }
+    },
+    "credits_detail": {
+        "header_text": {
+            "title": "Könnyedén generálhat lenyűgöző AI Twibbonokat a Credits segítségével. Nincs szükség előfizetésre, fizessen, ahogy szüksége van rá!"
+        },
+        "button_purchase": {
+            "topup": "Feltöltési kreditek"
+        }
+    },
+    "modal_template": {
+        "title": {
+            "change_template": "AI Twibbon sablon módosítása?"
+        },
+        "support_text": {
+            "change_info": "Egy új kép generálása és a módosítások mentése automatikusan frissíti a kampány miniatűrjét és eltávolítja a meglévőket"
+        },
+        "button": {
+            "cancel": "Törölje",
+            "continue": "Folytatás"
+        }
+    },
+    "modal_activity": {
+        "header": {
+            "activity_details": "Tevékenység részletei"
+        },
+        "text_link": {
+            "download": "Letöltés",
+            "share": "Megosztás kampányként"
+        },
+        "info": {
+            "unavailable_campaign": "A Letöltés és megosztás kampányként opció 90 nap után nem lesz elérhető"
+        },
+        "text_support": {
+            "transaction_id": "Tranzakció azonosító",
+            "date_time": "Dátum és idő",
+            "credit_used": "Használt hitel",
+            "error_info": "Hiba történt a kérése feldolgozása során."
+        },
+        "title": {
+            "generation_failed": "Nemzedék sikertelen"
+        }
+    },
+    "modal_introduction": {
+        "ai_twibbon": {
+            "welcome_title": "Üdvözöljük az AI Twibbonnál",
+            "overview_desc": "Az AI Twibbon lehetővé teszi, hogy kreatívan átalakítsa a képét bármilyen stílusúvá. A mesterséges intelligenciánk elemzi az arcodat, és összevegyíti az általad kiválasztott referenciaképpel. Ezután a dizájnodat egy olyan kampánnyá alakíthatod, amelyet mások is lemásolhatnak!",
+            "how_it_works": "Hogyan működik",
+            "how_it_works_desc": "Töltsön fel egy portrét, amelyen jól látható az arca, majd adjon hozzá egy referenciafotót, amely megfelel a kívánt stílusnak. Profi tipp: Az optimális eredmény érdekében használjon olyan referenciaképeket, amelyek nagyon hasonlítanak a fényképéhez, például olyanokat, amelyeken kalap vagy fejfedő látható.",
+            "guideline": "Kérjük, vegye figyelembe",
+            "guideline_desc": "Az AI Twibbon képgenerálás váratlan eredményeket hozhat. A legjobb eredmény elérése érdekében használjon tiszta, nagy felbontású szelfit. Ezek akkor működnek a legjobban, ha legalább 1000 pixel szélesek. Előfordulhat, hogy rendszerünk nem hoz létre képet, ha NSFW (Not Safe For Work) tartalmakat talál."
+        },
+        "button": {
+            "next": "Folytatás",
+            "get_started": "Kezdje el"
         }
     }
 }

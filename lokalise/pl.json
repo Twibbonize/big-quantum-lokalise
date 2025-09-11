@@ -451,7 +451,8 @@
             "safety": "Bezpieczeństwo",
             "generate_twibbon": "Wygeneruj i udostępnij Twibbon",
             "create_campaign": "Twórz, udostępniaj i edytuj kampanię",
-            "header": "Mapa witryny"
+            "header": "Mapa witryny",
+            "credits": "Kredyty"
         },
         "relative_time": {
             "seconds": "kilka sekund",
@@ -520,6 +521,12 @@
             "light": "Światło",
             "dark": "Ciemny",
             "choose_your_preference": "Wybierz swoje preferencje"
+        },
+        "twibbon": {
+            "ai": "AI",
+            "all_type": "Wszystkie typy",
+            "background": "Kontekst",
+            "frame": "Rama"
         }
     },
     "page_home": {
@@ -808,7 +815,12 @@
             "processing_complete": "Przetwarzanie zakończone",
             "processing_your_photo": "Przetwarzanie zdjęcia",
             "photo_ready_to_download": "Zdjęcie jest gotowe do pobrania",
-            "copy_caption": "Skopiuj ten podpis do mediów społecznościowych!"
+            "copy_caption": "Skopiuj ten podpis do mediów społecznościowych!",
+            "gallery": "Gallery",
+            "no_post_yet": "No posts yet. Be the first to show your support by {button}",
+            "uploading_your_photo": "uploading your photo!",
+            "about_this_campaign": "About This Campaign",
+            "please_wait": "Please wait a moment. Don’t close this browser tab."
         },
         "report": {
             "report_campaign": "Raport",
@@ -1200,7 +1212,8 @@
             "what_do_you_want_to_create": "Co chcesz stworzyć?",
             "what_do_you_want_to_create_desc": "Urozmaić swoją kampanię online nie tylko ramką, ale także kreatywnym tłem.",
             "new": "Nowy!",
-            "frame_twibbon": "Rama Twibon"
+            "frame_twibbon": "Rama Twibon",
+            "try_twibbon": "Wypróbuj {typ} Twibbon"
         },
         "confirm_reorder": {
             "title": "Ponownie zamówić Twibbon?",
@@ -1769,7 +1782,9 @@
             "form_province_placeholder": "Wprowadź województwo \/ region",
             "form_postal_code_placeholder": "Wprowadź kod pocztowy",
             "update_invoice_details": "Aktualizacja szczegółów faktury",
-            "update_invoice_details_description": "Zaktualizuj nazwę i adres rozliczeniowy, aby pojawiały się na fakturach"
+            "update_invoice_details_description": "Zaktualizuj nazwę i adres rozliczeniowy, aby pojawiały się na fakturach",
+            "your_active_subscription": "Aktywna subskrypcja",
+            "free_monthly_credits": "Darmowe kredyty miesięczne"
         },
         "account": {
             "update_email": "Aktualizacja wiadomości e-mail",
@@ -1813,7 +1828,9 @@
             "we_have_sent_password": "Wysłaliśmy instrukcje resetowania hasła na Twój adres e-mail. Ze względów bezpieczeństwa zresetuj hasło w ciągu 1 godziny.",
             "go_to_homepage": "Wróć do strony głównej",
             "set_password": "Ustaw hasło",
-            "for_security_create_password": "Ze względów bezpieczeństwa prosimy o utworzenie hasła"
+            "for_security_create_password": "Ze względów bezpieczeństwa prosimy o utworzenie hasła",
+            "facebook_login_required": "Zaloguj się za pomocą Facebooka, aby usunąć swoje konto.",
+            "facebook_revoke_required": "Aby usunąć swoje konto na Facebooku, należy je usunąć."
         },
         "notifications": {
             "notifications_settings": "Ustawienia powiadomień",
@@ -2955,6 +2972,11 @@
     "page_create": {
         "twibbon": {
             "placeholder_ post_to_twibbonize": "Cześć, jestem gotów wesprzeć tę kampanię. Zbierzmy się i wspólnie wywrzyjmy realny wpływ na tę kampanię!"
+        },
+        "campaign": {
+            "subheader": "Wybierz typ taśmy Twibbon",
+            "ai_twibbon_sub": "Magicznie połącz dwa zdjęcia i przekształć je w szablon, z którego każdy będzie mógł korzystać",
+            "ai_twibbon_title": "AI Twibbon"
         }
     },
     "page_create_collections": {
@@ -3160,6 +3182,17 @@
         },
         "premium_creator": {
             "multiple_frame_background": "Przejdź do Premium, aby uzyskać więcej ramek i teł"
+        },
+        "whats_new": {
+            "header_1": "Nasze sierpniowe wydanie 2025 🎉",
+            "body_1": "Sprawdź naszą najnowszą aktualizację Twibbonize. Mamy dla Ciebie nowe, ekscytujące funkcje!",
+            "button": "Zobacz co nowego",
+            "header_2": "AI Twibbon",
+            "body_2": "Przekształć swoje zdjęcie w cokolwiek za pomocą AI i zmień je w szablon dla każdego!",
+            "header_3": "Pulpit nawigacyjny dla twórców",
+            "body_3": "Nasz nowy interfejs pulpitu nawigacyjnego sprawia, że zarządzanie wieloma kampaniami i saldem kredytowym jest łatwiejsze niż kiedykolwiek!",
+            "header_4": "Aktualizacje dla aplikacji mobilnej",
+            "body_4": "Nasze nowe aktualizacje funkcji pojawią się również w aplikacji mobilnej Twibbonize! Pobierz ją już dziś!"
         }
     },
     "private_campaign": {
@@ -3170,6 +3203,218 @@
     "message": {
         "error_codes": {
             "campaign_duplicate": "Link do kampanii jest już używany. Spróbuj użyć innego."
+        }
+    },
+    "page_credits": {
+        "marketing": {
+            "title": "Łatwe generowanie oszałamiających AI Twibbon z kredytami. Subskrypcja nie jest wymagana, płać według potrzeb!",
+            "topup_button": "Kredyty doładowujące",
+            "generate_twibbon": "Generowanie oszałamiających AI Twibbon",
+            "generate_twibbon_desc": "Skorzystaj z Credits, aby przekształcić swój obraz w dowolny styl dzięki mocy sztucznej inteligencji i podziel się swoją formułą ze światem!",
+            "easy_twibbon_creation": "Łatwe tworzenie wstążki AI",
+            "easy_twibbon_creation_desc": "W zaledwie kilku krokach możesz stworzyć własną wstążkę Twibbon przy użyciu kredytów za pomocą naszego przyjaznego dla użytkownika narzędzia.",
+            "step_1": "KROK 1",
+            "step_1_desc": "Doładuj swoje kredyty. Kupuj kredyty według potrzeb.",
+            "step_2": "KROK 2",
+            "step_2_desc": "Użyj kredytów, aby wygenerować AI Twibbon. Zastosuj style AI, aby stworzyć unikalną kampanię Twibbon.",
+            "step_3": "KROK 3",
+            "step_3_desc": "Pobierz i udostępnij swój projekt natychmiast, bez znaku wodnego, jeśli chcesz.",
+            "no_subscriptions_needed": "Subskrypcja nie jest wymagana",
+            "no_subscriptions_needed_desc": "Wybierz liczbę kredytów, która odpowiada Twoim potrzebom. Idealny dla każdego, kto chce korzystać z Twibbonize od czasu do czasu.",
+            "upgrade_your_experience": "Łatwa aktualizacja doświadczenia",
+            "upgrade_your_experience_desc": "Uzyskaj korzyści dzięki kredytom. Brak miesięcznych zobowiązań, tylko elastyczność!",
+            "no_subscription_needed_desc": "Subskrypcja nie jest wymagana, płacisz tylko wtedy, gdy jej potrzebujesz.",
+            "no_subscription_needed_price": "zaczyna się od {cena}"
+        }
+    },
+    "dashboard_home": {
+        "sidebar": {
+            "home": "Strona główna",
+            "balance": "Równowaga",
+            "settings": "Ustawienia"
+        },
+        "tabs": {
+            "campaigns": "Kampanie",
+            "collections": "Kolekcje",
+            "posts": "Posty"
+        },
+        "button_checkbox": {
+            "all_types": "Wszystkie typy"
+        },
+        "card_campaign": {
+            "frame": "Rama",
+            "background": "Kontekst"
+        },
+        "campaigns": {
+            "column_name": "Nazwa",
+            "column_type": "Typ",
+            "column_supports": "Wsparcie",
+            "column_last_modified": "Ostatnia modyfikacja",
+            "column_actions": "Działania"
+        }
+    },
+    "dashboard_balance": {
+        "title": {
+            "credit_overview": "Przegląd",
+            "credit_card": "Całkowite saldo kredytowe",
+            "credit_history": "Historia kredytowa"
+        },
+        "chip_filter": {
+            "all": "Wszystkie",
+            "topup": "Doładowania",
+            "spending": "Wydatki"
+        },
+        "history_title": {
+            "package_30": "Pakiet doładowujący 30",
+            "generate_ai": "Generowanie wstążki AI",
+            "credit_refund": "Zwrot kredytu"
+        }
+    },
+    "ai_twibbon": {
+        "header": {
+            "title": "AI Twibbon",
+            "paragraph": "Magicznie przekształć zdjęcie w dowolny styl"
+        },
+        "button": {
+            "upload_photo": "Prześlij swoje zdjęcie",
+            "reference": "Prześlij odniesienie",
+            "generate_ai": "Generowanie"
+        },
+        "popover_text": {
+            "examples": "Lub spróbuj z tymi przykładami"
+        },
+        "popover_button": {
+            "shuffle": "Shuffle"
+        },
+        "modal_restore": {
+            "title": "Przerwana generacja",
+            "paragraph": "Ostatni obraz nie został ukończony. Przywróć sesję, aby kontynuować."
+        },
+        "button_secondary": {
+            "retry": "Ponów próbę"
+        },
+        "generation_error": {
+            "title": "Błąd generowania obrazu",
+            "paragraph": "Podczas procesu generowania obrazu wystąpił błąd"
+        },
+        "title": {
+            "nsfw_detected": "Niedozwolona zawartość"
+        },
+        "support_text": {
+            "nsfw_info": "Wykryto treści NSFW. Spróbuj przesłać inny obraz lub zdjęcie zgodne z naszymi wytycznymi dotyczącymi treści"
+        },
+        "text_link": {
+            "content_guideline": "Nasze wytyczne dotyczące treści"
+        },
+        "hint_text": {
+            "generate_ai": "Generowanie AI Twibbon może przynieść nieoczekiwane rezultaty"
+        },
+        "actions": {
+            "shuffle": "Shuffle",
+            "retry": "Ponów próbę",
+            "next": "Następny",
+            "login": "Zaloguj się",
+            "download": "Ponowne pobieranie",
+            "upload_photo": "Prześlij swoje zdjęcie",
+            "reference": "Prześlij odniesienie",
+            "generate_ai": "Generowanie"
+        },
+        "labels": {
+            "credit_cost": "1"
+        },
+        "toast": {
+            "session_expired": "Sesja wygasła. Zaloguj się ponownie.",
+            "insufficient_credits": "Niewystarczająca ilość kredytów. Doładuj konto, aby kontynuować.",
+            "process_ownership_error": "Proces należy do innego użytkownika, nie można go przywrócić",
+            "credits_topup_success": "Doładowanie kredytów zakończone sukcesem!"
+        }
+    },
+    "modal_puchase_credits": {
+        "button": {
+            "payment": "Posiadać kod kuponu"
+        },
+        "separator": {
+            "voucher_code": "Wprowadź kod"
+        },
+        "hint_text": {
+            "paragraph": "Zobacz <span>, aby zrealizować kupon"
+        },
+        "text_link": {
+            "terms": "Regulamin"
+        },
+        "header_title": {
+            "alert_balance_credits": "Nie masz wystarczającej liczby kredytów",
+            "enter_voucher_code": "Wprowadź kod kuponu"
+        },
+        "support_text": {
+            "enter_voucher_code": "Wprowadź kod vouchera, aby zrealizować saldo kredytów",
+            "info_balance_credits": "Najpierw doładuj kredyty, aby wygenerować AI Twibbon"
+        }
+    },
+    "expand_menu_panel": {
+        "button": {
+            "view_profile": "Wyświetl swój profil"
+        },
+        "credit_overview": {
+            "credit": "Kredyt"
+        },
+        "card_overview": {
+            "top-up": "Doładowanie"
+        }
+    },
+    "credits_detail": {
+        "header_text": {
+            "title": "Łatwe generowanie oszałamiających AI Twibbon z kredytami. Subskrypcja nie jest wymagana, płać według potrzeb!"
+        },
+        "button_purchase": {
+            "topup": "Kredyty doładowujące"
+        }
+    },
+    "modal_template": {
+        "title": {
+            "change_template": "Zmienić szablon AI Twibbon?"
+        },
+        "support_text": {
+            "change_info": "Wygenerowanie nowego obrazu i zapisanie zmian automatycznie zaktualizuje miniaturę kampanii i usunie istniejące obrazy"
+        },
+        "button": {
+            "cancel": "Anuluj",
+            "continue": "Kontynuuj"
+        }
+    },
+    "modal_activity": {
+        "header": {
+            "activity_details": "Szczegóły dotyczące działalności"
+        },
+        "text_link": {
+            "download": "Pobierz",
+            "share": "Udostępnij jako kampanię"
+        },
+        "info": {
+            "unavailable_campaign": "Opcja pobierania i udostępniania jako kampania będzie niedostępna po upływie 90 dni"
+        },
+        "text_support": {
+            "transaction_id": "Identyfikator transakcji",
+            "date_time": "Data i godzina",
+            "credit_used": "Wykorzystany kredyt",
+            "error_info": "Wystąpił błąd podczas przetwarzania żądania."
+        },
+        "title": {
+            "generation_failed": "Generacja nieudana"
+        }
+    },
+    "modal_introduction": {
+        "ai_twibbon": {
+            "welcome_title": "Witamy w AI Twibbon",
+            "overview_desc": "AI Twibbon pozwala kreatywnie przekształcić swój wizerunek w dowolny styl. Nasza sztuczna inteligencja analizuje twarz i łączy ją z wybranym obrazem referencyjnym. Następnie możesz przekształcić swój projekt w kampanię, którą inni mogą powielać!",
+            "how_it_works": "Jak to działa",
+            "how_it_works_desc": "Prześlij portret z wyraźnie widoczną twarzą, a następnie dodaj zdjęcie referencyjne pasujące do wybranego stylu. Wskazówka: Aby uzyskać optymalne wyniki, użyj obrazów referencyjnych, które bardzo przypominają Twoje zdjęcie, takich jak te z kapeluszem lub nakryciem głowy.",
+            "guideline": "Należy pamiętać",
+            "guideline_desc": "Generowanie obrazu AI Twibbon może przynieść nieoczekiwane rezultaty. Aby uzyskać najlepsze wyniki, używaj wyraźnych selfie w wysokiej rozdzielczości. Działają one najlepiej, gdy mają co najmniej 1000 pikseli szerokości. Nasz system może nie utworzyć obrazu, jeśli znajdzie jakiekolwiek treści NSFW (Not Safe For Work)."
+        },
+        "button": {
+            "next": "Kontynuuj",
+            "get_started": "Rozpocznij"
         }
     }
 }
