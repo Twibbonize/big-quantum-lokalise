@@ -3275,39 +3275,60 @@
             "title": "AI Twibbon",
             "paragraph": "Magically transform photo into any style"
         },
-        "button": {
-            "upload_photo": "Upload your Photo",
-            "reference": "Upload Reference",
-            "generate_ai": "Generate"
-        },
         "popover_text": {
             "examples": "Or try with these examples"
-        },
-        "popover_button": {
-            "shuffle": "Shuffle"
         },
         "modal_restore": {
             "title": "Generation Interrupted",
             "paragraph": "Your last image wasn't finished. Restore the session to continue."
-        },
-        "button_secondary": {
-            "retry": "Retry"
-        },
-        "generation_error": {
-            "title": "Image Generation Error",
-            "paragraph": "An error has occurated during the image generation process"
-        },
-        "title": {
-            "nsfw_detected": "Content Not Allowed"
-        },
-        "support_text": {
-            "nsfw_info": "NSFW content detected. Please try upload a different image or photo that follow our content guidelines"
         },
         "text_link": {
             "content_guideline": "Our content guidelines"
         },
         "hint_text": {
             "generate_ai": "AI Twibbon generation may produce unexpected results"
+        },
+        "states": {
+            "running": {
+                "title": "Processing your photo",
+                "subtitle": "Please wait"
+            },
+            "completed": {
+                "download_hint": "Photo not downloading?",
+                "download_action": "Re-Download"
+            },
+            "interrupted": {
+                "network": {
+                    "title": "Connection lost",
+                    "subtitle": "You're offline. Reconnect to generate your image."
+                },
+                "session": {
+                    "title": "You've Been Logged Out",
+                    "subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue"
+                }
+            },
+            "error": {
+                "failed": {
+                    "title": "Unable to process your images",
+                    "subtitle": "Please try again with images that meet our requirements."
+                },
+                "nsfw": {
+                    "title": "Content Not Allowed",
+                    "subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}"
+                },
+                "general": {
+                    "title": "Couldn't generate your image",
+                    "subtitle": "Something went wrong on our side. No credits were used for this attempt."
+                },
+                "unknown": {
+                    "title": "Couldn't generate your image",
+                    "subtitle": "We can't process your inputs. Please try with other images."
+                },
+                "no_face": {
+                    "title": "No Face Detected",
+                    "subtitle": "Please upload an image with a clear face."
+                }
+            }
         },
         "actions": {
             "shuffle": "Shuffle",
