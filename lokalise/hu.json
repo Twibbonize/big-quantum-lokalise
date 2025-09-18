@@ -301,7 +301,8 @@
             "start_campaign": "Kampány indítása",
             "sign_in": "Bejelentkezés",
             "sign_up": "Feliratkozás",
-            "sign_out": "Kijelentkezés"
+            "sign_out": "Kijelentkezés",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "Minden megtekintése",
@@ -336,7 +337,9 @@
             "previous": "Előző",
             "finish": "Befejezés",
             "from": "a  címről",
-            "close": "Hirdetés bezárása"
+            "close": "Hirdetés bezárása",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "Hét",
@@ -527,6 +530,10 @@
             "all_type": "Minden típus",
             "background": "Háttér",
             "frame": "Keret"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL nem elérhető",
             "caption_placeholder": "Szia, a nevem [[A neved]] , és támogatom ezt a kampányt. Gyűljünk össze, és tegyünk együtt valódi hatást ezzel a kampánnyal!",
             "enter_description": "Adja meg a leírást",
-            "optional": "Választható"
+            "optional": "Választható",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "Kampány testreszabása",
@@ -2531,7 +2539,9 @@
             "collection_updated": "Gyűjtemény frissítve",
             "collection_deleted": "Gyűjtemény törölve",
             "redirect_to_verification": "Az ellenőrző kódot elküldték a következő címre {email}",
-            "campaign_removed": "Kampány eltávolítva"
+            "campaign_removed": "Kampány eltávolítva",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "Valami elromlott"
@@ -3251,6 +3261,17 @@
             "column_supports": "Támogatja a",
             "column_last_modified": "Utoljára módosítva",
             "column_actions": "Tevékenységek"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "Feltöltési csomag 30",
             "generate_ai": "AI Twibbon generálása",
             "credit_refund": "Hitel visszatérítés"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Van utalvány kód"
+            "payment": "Van utalvány kód",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "Kód beírása"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "Kérjük, adja meg az utalvány kódját a kreditegyenleg beváltásához",
             "info_balance_credits": "Először töltsd fel a kreditjeidet, hogy létrehozz egy AI Twibbon-t"
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {

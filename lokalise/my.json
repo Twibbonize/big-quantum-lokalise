@@ -301,7 +301,8 @@
             "start_campaign": "ကမ်ပိန်းတစ်ခုစတင်ပါ။",
             "sign_in": "ဝင်ပါ",
             "sign_up": "ဆိုင်းအပ်",
-            "sign_out": "ဆိုင်းအောက်"
+            "sign_out": "ဆိုင်းအောက်",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "အားလုံးကြည့်ရန်",
@@ -336,7 +337,9 @@
             "previous": "အရင်",
             "finish": "ပြီးအောင်",
             "from": "ထံမှ",
-            "close": "ကြော်ငြာပိတ်ပါ။"
+            "close": "ကြော်ငြာပိတ်ပါ။",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "အေးလေ",
@@ -527,6 +530,10 @@
             "all_type": "အမျိုးအစားအားလုံး",
             "background": "နောက်ခံ",
             "frame": "ဘောင်"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL မရနိုင်ပါ။",
             "caption_placeholder": "မင်္ဂလာပါ၊ ကျွန်ုပ်၏အမည်မှာ [[Your Name]] ဖြစ်ပြီး၊ ကျွန်ုပ်သည် ဤကမ်ပိန်းကို ထောက်ခံရန် အားလုံးပါဝင်ပါသည်။ စုစည်းပြီး ဒီကမ်ပိန်းကို အတူတူ တွဲလုပ်လိုက်ကြရအောင်။",
             "enter_description": "ဖော်ပြချက်ကို ထည့်ပါ။",
-            "optional": "ရွေးချယ်ခွင့်"
+            "optional": "ရွေးချယ်ခွင့်",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "လှုံ့ဆော်မှု စိတ်ကြိုက်ပြုလုပ်ခြင်း။",
@@ -2531,7 +2539,9 @@
             "collection_updated": "စုစည်းမှုကို အပ်ဒိတ်လုပ်ထားသည်။",
             "collection_deleted": "စုစည်းမှုကို ဖျက်လိုက်ပါပြီ။",
             "redirect_to_verification": "အတည်ပြုကုဒ်ကို {email} သို့ ပို့လိုက်ပါပြီ",
-            "campaign_removed": "လှုံ့ဆော်မှုကို ဖယ်ရှားခဲ့သည်။"
+            "campaign_removed": "လှုံ့ဆော်မှုကို ဖယ်ရှားခဲ့သည်။",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "တစ်ခုခုမှားသွားသည်။"
@@ -3251,6 +3261,17 @@
             "column_supports": "ထောက်ခံပါတယ်။",
             "column_last_modified": "နောက်ဆုံးပြင်ဆင်ထားသည်။",
             "column_actions": "လုပ်ဆောင်ချက်များ"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "ငွေဖြည့်အထုပ် ၃၀",
             "generate_ai": "AI Twibbon တစ်ခု ဖန်တီးပါ။",
             "credit_refund": "အကြွေးပြန်အမ်းခြင်း။"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "ဘောက်ချာကုဒ် ပါရှိပါသည်။"
+            "payment": "ဘောက်ချာကုဒ် ပါရှိပါသည်။",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "Code ရိုက်ထည့်ပါ။"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "ခရက်ဒစ်လက်ကျန်ကို ကူပွန်ဖြင့် ထုတ်ယူရန် သင့်ဘောက်ချာကုဒ်ကို ထည့်သွင်းပါ။",
             "info_balance_credits": "ပထမဦးစွာ AI Twibbon တစ်ခုဖန်တီးရန် သင့်ခရက်ဒစ်ငွေဖြည့်သွင်းပါ။"
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {

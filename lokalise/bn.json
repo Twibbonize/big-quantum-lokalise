@@ -301,7 +301,8 @@
             "start_campaign": "একটি ক্যাম্পেইন শুরু করুন",
             "sign_in": "লগ ইন করুন",
             "sign_up": "নিবন্ধন করুন",
-            "sign_out": "সাইন আউট"
+            "sign_out": "সাইন আউট",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "সব দেখ",
@@ -336,7 +337,9 @@
             "previous": "আগের",
             "finish": "শেষ করুন",
             "from": "থেকে",
-            "close": "বিজ্ঞাপন বন্ধ করুন"
+            "close": "বিজ্ঞাপন বন্ধ করুন",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "সপ্তাহ",
@@ -527,6 +530,10 @@
             "all_type": "সকল প্রকার",
             "background": "পটভূমি",
             "frame": "ফ্রেম"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL উপলব্ধ নয়",
             "caption_placeholder": "হাই, আমার নাম [[আপনার নাম]], এবং আমি এই ক্যাম্পেইনকে সমর্থন করতে প্রস্তুত। আসুন একত্রিত হই এবং একসাথে এই প্রচারণার সাথে একটি বাস্তব প্রভাব ফেলি!",
             "enter_description": "বর্ণনা লিখুন",
-            "optional": "ঐচ্ছিক"
+            "optional": "ঐচ্ছিক",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "ক্যাম্পেইন কাস্টমাইজেশন",
@@ -2531,7 +2539,9 @@
             "collection_updated": "সংগ্রহ আপডেট করা হয়েছে",
             "collection_deleted": "সংগ্রহ মুছে ফেলা হয়েছে",
             "redirect_to_verification": "যাচাইকরণ কোড {email} এ পাঠানো হয়েছে",
-            "campaign_removed": "প্রচারাভিযান সরানো হয়েছে"
+            "campaign_removed": "প্রচারাভিযান সরানো হয়েছে",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "কিছু ভুল হয়েছে"
@@ -3251,6 +3261,17 @@
             "column_supports": "সমর্থন করে",
             "column_last_modified": "শেষ সংশোধিত",
             "column_actions": "কর্ম"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "টপ-আপ প্যাকেজ ৩০",
             "generate_ai": "একটি AI Twibbon তৈরি করুন",
             "credit_refund": "ক্রেডিট রিফান্ড"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "ভাউচার কোড আছে"
+            "payment": "ভাউচার কোড আছে",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "কোড লিখুন"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "ক্রেডিট ব্যালেন্স রিডিম করতে আপনার ভাউচার কোডটি লিখুন।",
             "info_balance_credits": "প্রথমে, একটি AI Twibbon তৈরি করতে আপনার ক্রেডিট টপ আপ করুন।"
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {

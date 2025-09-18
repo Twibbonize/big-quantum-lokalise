@@ -301,7 +301,8 @@
             "start_campaign": "캠페인 시작하기",
             "sign_in": "로그인",
             "sign_up": "가입하기",
-            "sign_out": "로그아웃"
+            "sign_out": "로그아웃",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "모두 보기",
@@ -336,7 +337,9 @@
             "previous": "이전 게시물",
             "finish": "완료",
             "from": "에서",
-            "close": "광고 닫기"
+            "close": "광고 닫기",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "주",
@@ -527,6 +530,10 @@
             "all_type": "모든 유형",
             "background": "배경",
             "frame": "프레임"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL을 사용할 수 없습니다.",
             "caption_placeholder": "안녕하세요, 제 이름은 [[당신의 이름]]입니다. 이며, 이 캠페인을 지지합니다. 이 캠페인에 함께 힘을 모아 진정한 영향력을 발휘합시다!",
             "enter_description": "설명 입력",
-            "optional": "선택 과목"
+            "optional": "선택 과목",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "캠페인 사용자 지정",
@@ -2531,7 +2539,9 @@
             "collection_updated": "컬렉션 업데이트됨",
             "collection_deleted": "컬렉션 삭제됨",
             "redirect_to_verification": "인증 코드가 다음 주소로 전송되었습니다. {email}",
-            "campaign_removed": "캠페인 제거됨"
+            "campaign_removed": "캠페인 제거됨",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "문제가 발생했습니다."
@@ -3251,6 +3261,17 @@
             "column_supports": "지원",
             "column_last_modified": "마지막 수정",
             "column_actions": "작업"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "충전 패키지 30",
             "generate_ai": "AI 트위본 생성",
             "credit_refund": "크레딧 환불"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "바우처 코드 보유"
+            "payment": "바우처 코드 보유",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "코드 입력"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "크레딧 잔액을 사용하려면 바우처 코드를 입력하세요",
             "info_balance_credits": "먼저 크레딧을 충전하여 AI 트위본을 생성하세요"
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {

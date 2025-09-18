@@ -301,7 +301,8 @@
             "start_campaign": "ప్రచారాన్ని ప్రారంభించండి",
             "sign_in": "లాగ్ ఇన్",
             "sign_up": "చేరడం",
-            "sign_out": "సైన్ అవుట్ చేయండి"
+            "sign_out": "సైన్ అవుట్ చేయండి",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "అన్నీ చూడండి",
@@ -336,7 +337,9 @@
             "previous": "మునుపటి",
             "finish": "ముగించు",
             "from": "నుండి",
-            "close": "ప్రకటనను మూసివేయి"
+            "close": "ప్రకటనను మూసివేయి",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "వారం",
@@ -527,6 +530,10 @@
             "all_type": "అన్ని రకాలు",
             "background": "నేపథ్యం",
             "frame": "ఫ్రేమ్"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL అందుబాటులో లేదు",
             "caption_placeholder": "హాయ్, నా పేరు [[మీ పేరు]], మరియు నేను ఈ ప్రచారానికి మద్దతు ఇవ్వడానికి సిద్ధంగా ఉన్నాను. మనందరం సమావేశమై ఈ ప్రచారంతో కలిసి నిజమైన ప్రభావాన్ని చూపిద్దాం!",
             "enter_description": "వివరణను నమోదు చేయండి",
-            "optional": "ఐచ్ఛికం"
+            "optional": "ఐచ్ఛికం",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "ప్రచార అనుకూలీకరణ",
@@ -2531,7 +2539,9 @@
             "collection_updated": "సేకరణ నవీకరించబడింది",
             "collection_deleted": "సేకరణ తొలగించబడింది",
             "redirect_to_verification": "ధృవీకరణ కోడ్ {email} కు పంపబడింది.",
-            "campaign_removed": "ప్రచారం తీసివేయబడింది"
+            "campaign_removed": "ప్రచారం తీసివేయబడింది",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "ఏదో తప్పు జరిగింది."
@@ -3251,6 +3261,17 @@
             "column_supports": "మద్దతు ఇస్తుంది",
             "column_last_modified": "చివరిగా సవరించినది",
             "column_actions": "చర్యలు"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "టాప్-అప్ ప్యాకేజీ 30",
             "generate_ai": "AI ట్విబ్బన్‌ను రూపొందించండి",
             "credit_refund": "క్రెడిట్ రీఫండ్"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "వోచర్ కోడ్ ఉంది"
+            "payment": "వోచర్ కోడ్ ఉంది",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "కోడ్‌ను నమోదు చేయండి"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "క్రెడిట్‌ల బ్యాలెన్స్‌ను రీడీమ్ చేయడానికి దయచేసి మీ వోచర్ కోడ్‌ను నమోదు చేయండి.",
             "info_balance_credits": "ముందుగా, AI ట్విబ్బన్‌ను రూపొందించడానికి మీ క్రెడిట్‌లను టాప్ అప్ చేయండి."
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {

@@ -301,7 +301,8 @@
             "start_campaign": "ಅಭಿಯಾನವನ್ನು ಪ್ರಾರಂಭಿಸಿ",
             "sign_in": "ಲಾಗ್ ಇನ್ ಮಾಡಿ",
             "sign_up": "ಸೈನ್ ಅಪ್",
-            "sign_out": "ಸೈನ್ ಔಟ್ ಮಾಡಿ"
+            "sign_out": "ಸೈನ್ ಔಟ್ ಮಾಡಿ",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "ಎಲ್ಲವನ್ನೂ ವೀಕ್ಷಿಸಿ",
@@ -336,7 +337,9 @@
             "previous": "ಹಿಂದಿನದು",
             "finish": "ಮುಗಿಸಿ",
             "from": "ನಿಂದ",
-            "close": "ಜಾಹೀರಾತನ್ನು ಮುಚ್ಚಿ"
+            "close": "ಜಾಹೀರಾತನ್ನು ಮುಚ್ಚಿ",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "ವಾರ",
@@ -527,6 +530,10 @@
             "all_type": "ಎಲ್ಲಾ ಪ್ರಕಾರ",
             "background": "ಹಿನ್ನೆಲೆ",
             "frame": "ಚೌಕಟ್ಟು"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL ಲಭ್ಯವಿಲ್ಲ.",
             "caption_placeholder": "ನಮಸ್ಕಾರ, ನನ್ನ ಹೆಸರು [[ನಿಮ್ಮ ಹೆಸರು]], ಮತ್ತು ನಾನು ಈ ಅಭಿಯಾನವನ್ನು ಬೆಂಬಲಿಸಲು ಸಿದ್ಧನಿದ್ದೇನೆ. ಬನ್ನಿ, ಈ ಅಭಿಯಾನದೊಂದಿಗೆ ಒಟ್ಟಾಗಿ ನಿಜವಾದ ಪ್ರಭಾವ ಬೀರೋಣ!",
             "enter_description": "ವಿವರಣೆಯನ್ನು ನಮೂದಿಸಿ",
-            "optional": "ಐಚ್ಛಿಕ"
+            "optional": "ಐಚ್ಛಿಕ",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "ಅಭಿಯಾನದ ಗ್ರಾಹಕೀಕರಣ",
@@ -2531,7 +2539,9 @@
             "collection_updated": "ಸಂಗ್ರಹವನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ",
             "collection_deleted": "ಸಂಗ್ರಹವನ್ನು ಅಳಿಸಲಾಗಿದೆ",
             "redirect_to_verification": "ಪರಿಶೀಲನಾ ಕೋಡ್ ಅನ್ನು {email} ಗೆ ಕಳುಹಿಸಲಾಗಿದೆ.",
-            "campaign_removed": "ಅಭಿಯಾನವನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+            "campaign_removed": "ಅಭಿಯಾನವನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "ಏನೋ ತಪ್ಪಾಗಿದೆ."
@@ -3251,6 +3261,17 @@
             "column_supports": "ಬೆಂಬಲಿಸುತ್ತದೆ",
             "column_last_modified": "ಕೊನೆಯದಾಗಿ ಮಾರ್ಪಡಿಸಿದ್ದು",
             "column_actions": "ಕ್ರಿಯೆಗಳು"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "ಟಾಪ್-ಅಪ್ ಪ್ಯಾಕೇಜ್ 30",
             "generate_ai": "AI ಟ್ವಿಬ್ಬನ್ ರಚಿಸಿ",
             "credit_refund": "ಕ್ರೆಡಿಟ್ ಮರುಪಾವತಿ"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "ವೋಚರ್ ಕೋಡ್ ಇದೆ"
+            "payment": "ವೋಚರ್ ಕೋಡ್ ಇದೆ",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "ಕೋಡ್ ನಮೂದಿಸಿ"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "ಕ್ರೆಡಿಟ್‌ಗಳ ಬ್ಯಾಲೆನ್ಸ್ ಅನ್ನು ರಿಡೀಮ್ ಮಾಡಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ವೋಚರ್ ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸಿ.",
             "info_balance_credits": "ಮೊದಲು, AI ಟ್ವಿಬ್ಬನ್ ಅನ್ನು ರಚಿಸಲು ನಿಮ್ಮ ಕ್ರೆಡಿಟ್‌ಗಳನ್ನು ಟಾಪ್ ಅಪ್ ಮಾಡಿ."
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {

@@ -301,7 +301,8 @@
             "start_campaign": "Започване на кампания",
             "sign_in": "Влезте",
             "sign_up": "Регистрирайте се",
-            "sign_out": "Отписване"
+            "sign_out": "Отписване",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "Преглед на всички",
@@ -336,7 +337,9 @@
             "previous": "Предишна",
             "finish": "Завършете",
             "from": "от",
-            "close": "Затвори обявата"
+            "close": "Затвори обявата",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "Седмица",
@@ -527,6 +530,10 @@
             "all_type": "Всички типове",
             "background": "Фон",
             "frame": "Рамка"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL адресът не е наличен",
             "caption_placeholder": "Здравейте, името ми е [[Вашето име]] , и съм готов да подкрепя тази кампания. Нека се съберем и заедно да постигнем реално въздействие с тази кампания!",
             "enter_description": "Въведете описание",
-            "optional": "Не е задължително"
+            "optional": "Не е задължително",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "Персонализиране на кампанията",
@@ -2531,7 +2539,9 @@
             "collection_updated": "Колекцията е актуализирана",
             "collection_deleted": "Колекцията е изтрита",
             "redirect_to_verification": "Кодът за проверка е изпратен на {email}",
-            "campaign_removed": "Премахната кампания"
+            "campaign_removed": "Премахната кампания",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "Нещо се обърка"
@@ -3251,6 +3261,17 @@
             "column_supports": "Поддържа",
             "column_last_modified": "Последна промяна",
             "column_actions": "Действия"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "Пакет за допълване 30",
             "generate_ai": "Генериране на AI Twibbon",
             "credit_refund": "Възстановяване на кредит"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Имате код на ваучер"
+            "payment": "Имате код на ваучер",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "Въведете код"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "Моля, въведете кода на ваучера, за да осребрите баланса на кредитите",
             "info_balance_credits": "Първо, допълнете кредитите си, за да генерирате AI Twibbon"
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {

@@ -301,7 +301,8 @@
             "start_campaign": "Aloita kampanja",
             "sign_in": "Kirjaudu sisään",
             "sign_up": "Rekisteröidy",
-            "sign_out": "Kirjaudu ulos"
+            "sign_out": "Kirjaudu ulos",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "Näytä kaikki",
@@ -336,7 +337,9 @@
             "previous": "Edellinen",
             "finish": "Viimeistely",
             "from": "osoitteesta",
-            "close": "Sulje mainos"
+            "close": "Sulje mainos",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "Viikko",
@@ -527,6 +530,10 @@
             "all_type": "Kaikki tyypit",
             "background": "Tausta",
             "frame": "Kehys"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL-osoite ei ole käytettävissä",
             "caption_placeholder": "Hei, nimeni on [[Sinun nimesi]] , ja olen mukana tukemassa tätä kampanjaa. Kokoonnutaan yhdessä ja saadaan aikaan todellista vaikutusta tällä kampanjalla!",
             "enter_description": "Kirjoita kuvaus",
-            "optional": "Valinnainen"
+            "optional": "Valinnainen",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "Kampanjan mukauttaminen",
@@ -2531,7 +2539,9 @@
             "collection_updated": "Kokoelma päivitetty",
             "collection_deleted": "Kokoelma poistettu",
             "redirect_to_verification": "Vahvistuskoodi on lähetetty osoitteeseen {email}",
-            "campaign_removed": "Kampanja poistettu"
+            "campaign_removed": "Kampanja poistettu",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "Jotain meni pieleen"
@@ -3251,6 +3261,17 @@
             "column_supports": "Tukee",
             "column_last_modified": "Viimeksi muokattu",
             "column_actions": "Toimet"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "Täydennyspaketti 30",
             "generate_ai": "Luo AI Twibbon",
             "credit_refund": "Hyvitys Palautus"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Onko kuponkikoodi"
+            "payment": "Onko kuponkikoodi",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "Syötä koodi"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "Syötä kuponkikoodi lunastaaksesi hyvitysten saldon",
             "info_balance_credits": "Täydennä ensin krediittejäsi luodaksesi AI Twibbonin"
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {

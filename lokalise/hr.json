@@ -301,7 +301,8 @@
             "start_campaign": "Započeti kampanju",
             "sign_in": "Prijaviti se",
             "sign_up": "Prijavite se",
-            "sign_out": "Odjavi se"
+            "sign_out": "Odjavi se",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "Pogledaj sve",
@@ -336,7 +337,9 @@
             "previous": "Prethodno",
             "finish": "Završiti",
             "from": "iz",
-            "close": "Zatvori oglas"
+            "close": "Zatvori oglas",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "Tjedan",
@@ -527,6 +530,10 @@
             "all_type": "Sve vrste",
             "background": "Pozadina",
             "frame": "Okvir"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL nije dostupan",
             "caption_placeholder": "Bok, moje ime je [[Vaše ime]] i spreman sam podržati ovu kampanju. Okupimo se i zajedno napravimo stvarni utjecaj ovom kampanjom!",
             "enter_description": "Unesite opis",
-            "optional": "Neobavezno"
+            "optional": "Neobavezno",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "Prilagodba kampanje",
@@ -2531,7 +2539,9 @@
             "collection_updated": "Zbirka ažurirana",
             "collection_deleted": "Zbirka izbrisana",
             "redirect_to_verification": "Kontrolni kod je poslan na {email}",
-            "campaign_removed": "Kampanja uklonjena"
+            "campaign_removed": "Kampanja uklonjena",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "Nešto je pošlo po zlu"
@@ -3251,6 +3261,17 @@
             "column_supports": "Podrška",
             "column_last_modified": "Zadnja izmjena",
             "column_actions": "Radnje"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "Paket dopune 30",
             "generate_ai": "Generiraj AI Twibbon",
             "credit_refund": "Povrat kredita"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Imam kod vaučera"
+            "payment": "Imam kod vaučera",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "Unesite kod"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "Molimo unesite svoj kod vaučera kako biste iskoristili stanje kredita",
             "info_balance_credits": "Prvo nadopunite svoje kredite kako biste generirali AI Twibbon"
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {

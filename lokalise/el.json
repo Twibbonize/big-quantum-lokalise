@@ -301,7 +301,8 @@
             "start_campaign": "Ξεκινήστε μια καμπάνια",
             "sign_in": "Συνδεθείτε",
             "sign_up": "Εγγραφείτε",
-            "sign_out": "Υπογράψτε έξω"
+            "sign_out": "Υπογράψτε έξω",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "Προβολή όλων",
@@ -336,7 +337,9 @@
             "previous": "Προηγούμενο",
             "finish": "Τέλος",
             "from": "από το",
-            "close": "Κλείσιμο αγγελίας"
+            "close": "Κλείσιμο αγγελίας",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "Εβδομάδα",
@@ -527,6 +530,10 @@
             "all_type": "Όλοι οι τύποι",
             "background": "Ιστορικό",
             "frame": "Πλαίσιο"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL δεν είναι διαθέσιμο",
             "caption_placeholder": "Γεια σας, το όνομά μου είναι [[Το όνομά σας]] , και είμαι μέσα για να υποστηρίξω αυτή την εκστρατεία. Ας συγκεντρωθούμε και ας κάνουμε πραγματικό αντίκτυπο με αυτή την εκστρατεία μαζί!",
             "enter_description": "Εισάγετε περιγραφή",
-            "optional": "Προαιρετικός"
+            "optional": "Προαιρετικός",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "Προσαρμογή καμπάνιας",
@@ -2531,7 +2539,9 @@
             "collection_updated": "Η συλλογή ενημερώθηκε",
             "collection_deleted": "Η συλλογή διαγράφηκε",
             "redirect_to_verification": "Ο κωδικός επαλήθευσης έχει σταλεί στο {email}",
-            "campaign_removed": "Καμπάνια που αφαιρέθηκε"
+            "campaign_removed": "Καμπάνια που αφαιρέθηκε",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "Κάτι πήγε στραβά"
@@ -3251,6 +3261,17 @@
             "column_supports": "Υποστηρίζει",
             "column_last_modified": "Τελευταία τροποποίηση",
             "column_actions": "Δράσεις"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "Πακέτο αναπλήρωσης 30",
             "generate_ai": "Δημιουργήστε ένα AI Twibbon",
             "credit_refund": "Πίστωση Επιστροφή χρημάτων"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Έχετε κωδικό κουπονιού"
+            "payment": "Έχετε κωδικό κουπονιού",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "Εισάγετε κωδικό"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "Παρακαλώ εισάγετε τον κωδικό του κουπονιού σας για να εξαργυρώσετε το υπόλοιπο των πιστώσεων",
             "info_balance_credits": "Πρώτα, συμπληρώστε τις μονάδες σας για να δημιουργήσετε ένα AI Twibbon"
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {

@@ -301,7 +301,8 @@
             "start_campaign": "Lancer une campagne",
             "sign_in": "Se connecter",
             "sign_up": "S'inscrire",
-            "sign_out": "S'inscrire"
+            "sign_out": "S'inscrire",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "Voir tout",
@@ -336,7 +337,9 @@
             "previous": "Précédent",
             "finish": "Finition",
             "from": "de",
-            "close": "Fermer l'annonce"
+            "close": "Fermer l'annonce",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "Semaine",
@@ -527,6 +530,10 @@
             "all_type": "Tous les types",
             "background": "Contexte",
             "frame": "Cadre"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL non disponible",
             "caption_placeholder": "Bonjour, je m'appelle [[Votre nom]]. et je suis prêt à soutenir cette campagne. Rassemblons-nous et faisons de cette campagne un véritable impact !",
             "enter_description": "Saisir la description",
-            "optional": "Facultatif"
+            "optional": "Facultatif",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "Personnalisation de la campagne",
@@ -2531,7 +2539,9 @@
             "collection_updated": "Collection mise à jour",
             "collection_deleted": "Collection supprimée",
             "redirect_to_verification": "Le code de vérification a été envoyé à {email}",
-            "campaign_removed": "Campagne supprimée"
+            "campaign_removed": "Campagne supprimée",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "Quelque chose s'est mal passé"
@@ -3251,6 +3261,17 @@
             "column_supports": "Soutien",
             "column_last_modified": "Dernière modification",
             "column_actions": "Actions"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "Paquet complémentaire 30",
             "generate_ai": "Générer un Twibbon AI",
             "credit_refund": "Remboursement de crédit"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Disposer d'un code promo"
+            "payment": "Disposer d'un code promo",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "Entrer le code"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "Veuillez saisir le code de votre bon d'achat pour utiliser le solde des crédits",
             "info_balance_credits": "Tout d'abord, rechargez vos crédits pour générer un Twibbon AI"
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {
