@@ -301,7 +301,8 @@
             "start_campaign": "发起活动",
             "sign_in": "登录",
             "sign_up": "报名",
-            "sign_out": "登出"
+            "sign_out": "登出",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "查看全部",
@@ -336,7 +337,9 @@
             "previous": "以前的",
             "finish": "结束",
             "from": "从",
-            "close": "关闭广告"
+            "close": "关闭广告",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "星期",
@@ -527,6 +530,10 @@
             "all_type": "所有类型",
             "background": "背景",
             "frame": "框架"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "网址不可用",
             "caption_placeholder": "大家好，我叫 [[你的名字]] ，我全力支持这次活动。让我们一起团结起来，通过这次活动产生真正的影响吧！",
             "enter_description": "输入描述",
-            "optional": "选修的"
+            "optional": "选修的",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "活动定制",
@@ -2531,7 +2539,9 @@
             "collection_updated": "收藏已更新",
             "collection_deleted": "收藏集已删除",
             "redirect_to_verification": "验证码已发送至{email}",
-            "campaign_removed": "活动已删除"
+            "campaign_removed": "活动已删除",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "出了些问题"
@@ -3251,6 +3261,17 @@
             "column_supports": "支持",
             "column_last_modified": "上次修改",
             "column_actions": "行动"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "充值套餐 30",
             "generate_ai": "生成 AI Twibbon",
             "credit_refund": "信用退款"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "有优惠券代码"
+            "payment": "有优惠券代码",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "输入代码"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "请输入您的优惠券代码来兑换积分余额",
             "info_balance_credits": "首先，充值你的积分来生成一个 AI Twibbon"
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {

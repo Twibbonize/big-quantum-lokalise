@@ -301,7 +301,8 @@
             "start_campaign": "मोहीम सुरू करा",
             "sign_in": "लॉग इन करा",
             "sign_up": "साइन अप करा",
-            "sign_out": "साइन आउट करा"
+            "sign_out": "साइन आउट करा",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "सर्व पहा",
@@ -336,7 +337,9 @@
             "previous": "मागील",
             "finish": "समाप्त",
             "from": "पासून",
-            "close": "जाहिरात बंद करा"
+            "close": "जाहिरात बंद करा",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "आठवडा",
@@ -527,6 +530,10 @@
             "all_type": "सर्व प्रकार",
             "background": "पार्श्वभूमी",
             "frame": "फ्रेम"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL उपलब्ध नाही",
             "caption_placeholder": "नमस्कार, माझे नाव [[तुमचे नाव]] आहे, आणि मी या मोहिमेला पाठिंबा देण्यासाठी पूर्णपणे तयार आहे. चला आपण एकत्र येऊया आणि या मोहिमेचा खरा परिणाम घडवूया!",
             "enter_description": "वर्णन एंटर करा",
-            "optional": "पर्यायी"
+            "optional": "पर्यायी",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "मोहीम कस्टमायझेशन",
@@ -2531,7 +2539,9 @@
             "collection_updated": "संग्रह अपडेट केला",
             "collection_deleted": "संग्रह हटवला",
             "redirect_to_verification": "पडताळणी कोड {email} वर पाठवला आहे.",
-            "campaign_removed": "मोहीम काढून टाकली"
+            "campaign_removed": "मोहीम काढून टाकली",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "काहीतरी चूक झाली."
@@ -3251,6 +3261,17 @@
             "column_supports": "समर्थन देते",
             "column_last_modified": "शेवटचे सुधारित",
             "column_actions": "क्रिया"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "टॉप-अप पॅकेज ३०",
             "generate_ai": "एआय ट्विबॉन तयार करा",
             "credit_refund": "क्रेडिट परतावा"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "व्हाउचर कोड आहे"
+            "payment": "व्हाउचर कोड आहे",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "कोड एंटर करा"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "क्रेडिट शिल्लक रिडीम करण्यासाठी कृपया तुमचा व्हाउचर कोड एंटर करा.",
             "info_balance_credits": "प्रथम, एआय ट्विबॉन जनरेट करण्यासाठी तुमचे क्रेडिट्स टॉप अप करा."
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {

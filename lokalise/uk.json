@@ -301,7 +301,8 @@
             "start_campaign": "Розпочати кампанію",
             "sign_in": "Увійти",
             "sign_up": "Зареєструватися",
-            "sign_out": "Вийти з системи"
+            "sign_out": "Вийти з системи",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "Переглянути всі",
@@ -336,7 +337,9 @@
             "previous": "Попередні",
             "finish": "Фініш",
             "from": "від",
-            "close": "Закрити оголошення"
+            "close": "Закрити оголошення",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "Тиждень",
@@ -527,6 +530,10 @@
             "all_type": "Всі типи",
             "background": "Передумови",
             "frame": "Рамка"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL-адреса недоступна",
             "caption_placeholder": "Привіт, мене звуть [[Ваше ім'я]] і я повністю підтримую цю кампанію. Давайте зберемося і зробимо реальний вплив за допомогою цієї кампанії разом!",
             "enter_description": "Введіть опис",
-            "optional": "Додатково"
+            "optional": "Додатково",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "Налаштування кампанії",
@@ -2531,7 +2539,9 @@
             "collection_updated": "Колекція оновлена",
             "collection_deleted": "Колекція видалена",
             "redirect_to_verification": "Код підтвердження надіслано на адресу {email}",
-            "campaign_removed": "Кампанію видалено"
+            "campaign_removed": "Кампанію видалено",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "Щось пішло не так"
@@ -3251,6 +3261,17 @@
             "column_supports": "Підтримка",
             "column_last_modified": "Останній раз змінено",
             "column_actions": "Дії"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "Пакет поповнення 30",
             "generate_ai": "Згенеруйте твіббон зі штучним інтелектом",
             "credit_refund": "Повернення кредиту"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Мати код ваучера"
+            "payment": "Мати код ваучера",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "Введіть код"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "Будь ласка, введіть код ваучера, щоб зняти залишок кредитів",
             "info_balance_credits": "По-перше, поповніть свої кредити, щоб згенерувати ШІ Твіббон"
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {

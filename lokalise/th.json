@@ -301,7 +301,8 @@
             "start_campaign": "เริ่มแคมเปญ",
             "sign_in": "เข้าสู่ระบบ",
             "sign_up": "ลงชื่อ",
-            "sign_out": "ออกจากระบบ"
+            "sign_out": "ออกจากระบบ",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "ดูทั้งหมด",
@@ -336,7 +337,9 @@
             "previous": "ก่อนหน้า",
             "finish": "เสร็จ",
             "from": "จาก",
-            "close": "ปิดโฆษณา"
+            "close": "ปิดโฆษณา",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "สัปดาห์",
@@ -527,6 +530,10 @@
             "all_type": "ทุกประเภท",
             "background": "พื้นหลัง",
             "frame": "กรอบ"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL ไม่พร้อมใช้งาน",
             "caption_placeholder": "สวัสดี ฉันชื่อ [[ชื่อของคุณ]] และยินดีที่จะสนับสนุนแคมเปญนี้ มารวบรวมและสร้างผลกระทบอย่างแท้จริงกับแคมเปญนี้ด้วยกัน!",
             "enter_description": "ป้อนคำอธิบาย",
-            "optional": "ไม่จำเป็น"
+            "optional": "ไม่จำเป็น",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "การปรับแต่งแคมเปญ",
@@ -2531,7 +2539,9 @@
             "collection_updated": "อัพเดตคอลเลคชั่นแล้ว",
             "collection_deleted": "คอลเลกชันที่ถูกลบ",
             "redirect_to_verification": "รหัสยืนยันได้ถูกส่งไปยัง {email} แล้ว",
-            "campaign_removed": "แคมเปญถูกลบออก"
+            "campaign_removed": "แคมเปญถูกลบออก",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "บางอย่างผิดพลาด"
@@ -3251,6 +3261,17 @@
             "column_supports": "รองรับ",
             "column_last_modified": "แก้ไขล่าสุด",
             "column_actions": "การกระทำ"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "แพ็กเกจเติมเงิน 30",
             "generate_ai": "สร้าง AI Twibbon",
             "credit_refund": "การคืนเครดิต"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "มีรหัสคูปอง"
+            "payment": "มีรหัสคูปอง",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "ป้อนรหัส"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "กรุณากรอกรหัสคูปองเพื่อแลกรับเครดิตคงเหลือ",
             "info_balance_credits": "ขั้นแรก เติมเครดิตของคุณเพื่อสร้าง AI Twibbon"
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {

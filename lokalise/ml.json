@@ -301,7 +301,8 @@
             "start_campaign": "ഒരു കാമ്പെയ്ൻ ആരംഭിക്കുക",
             "sign_in": "ലോഗിൻ",
             "sign_up": "സൈൻ അപ്പ് ചെയ്യുക",
-            "sign_out": "സൈൻ ഔട്ട്"
+            "sign_out": "സൈൻ ഔട്ട്",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "എല്ലാം കാണുക",
@@ -336,7 +337,9 @@
             "previous": "മുമ്പത്തേത്",
             "finish": "പൂർത്തിയാക്കുക",
             "from": "നിന്ന്",
-            "close": "പരസ്യം അടയ്ക്കുക"
+            "close": "പരസ്യം അടയ്ക്കുക",
+            "continue": "Continue",
+            "crop": "Crop"
         },
         "time": {
             "week": "ആഴ്ച",
@@ -527,6 +530,10 @@
             "all_type": "എല്ലാ തരവും",
             "background": "പശ്ചാത്തലം",
             "frame": "ഫ്രെയിം"
+        },
+        "cropper": {
+            "adjust_image": "Adjust Image",
+            "adjust_banner": "Adjust Banner"
         }
     },
     "page_home": {
@@ -1167,7 +1174,8 @@
             "url_not_available": "URL ലഭ്യമല്ല",
             "caption_placeholder": "ഹായ്, എന്റെ പേര് [[നിങ്ങളുടെ പേര്]], ഈ കാമ്പെയ്‌നിനെ പിന്തുണയ്ക്കാൻ ഞാൻ എല്ലാവരും തയ്യാറാണ്. നമുക്ക് ഒത്തുകൂടി ഈ കാമ്പെയ്‌നിലൂടെ ഒരു യഥാർത്ഥ സ്വാധീനം ചെലുത്താം!",
             "enter_description": "വിവരണം നൽകുക",
-            "optional": "ഓപ്ഷണൽ"
+            "optional": "ഓപ്ഷണൽ",
+            "ai_template_section_title": "Template"
         },
         "customization": {
             "campaign_customization": "കാമ്പെയ്ൻ ഇഷ്ടാനുസൃതമാക്കൽ",
@@ -2531,7 +2539,9 @@
             "collection_updated": "ശേഖരം അപ്ഡേറ്റ് ചെയ്തു",
             "collection_deleted": "ശേഖരം ഇല്ലാതാക്കി",
             "redirect_to_verification": "{email} എന്ന വിലാസത്തിലേക്ക് പരിശോധനാ കോഡ് അയച്ചു.",
-            "campaign_removed": "കാമ്പെയ്ൻ നീക്കം ചെയ്തു"
+            "campaign_removed": "കാമ്പെയ്ൻ നീക്കം ചെയ്തു",
+            "n_campaigns_deleted": "{n} campaigns deleted",
+            "n_collections_deleted": "{n} collections deleted"
         },
         "error": {
             "something_went_wrong": "എന്തോ കുഴപ്പം സംഭവിച്ചു."
@@ -3251,6 +3261,17 @@
             "column_supports": "പിന്തുണയ്ക്കുന്നു",
             "column_last_modified": "അവസാനം പരിഷ്കരിച്ചത്",
             "column_actions": "പ്രവർത്തനങ്ങൾ"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Supports",
+            "last_modified": "Last Modified",
+            "created_at": "Created",
+            "actions": "Actions",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} selected"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3289,17 @@
             "package_30": "ടോപ്പ്-അപ്പ് പാക്കേജ് 30",
             "generate_ai": "ഒരു AI ട്വിബൺ സൃഷ്ടിക്കുക",
             "credit_refund": "ക്രെഡിറ്റ് റീഫണ്ട്"
+        },
+        "buttons": {
+            "top_up": "Top Up",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Loading more transactions"
+        },
+        "empty_state": {
+            "title": "No Transactions Found",
+            "description": "No transaction history available."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3378,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "വൗച്ചർ കോഡ് ഉണ്ട്"
+            "payment": "വൗച്ചർ കോഡ് ഉണ്ട്",
+            "have_voucher_code": "Have voucher code",
+            "redeem": "Redeem",
+            "continue_payment": "Continue to Payment"
         },
         "separator": {
             "voucher_code": "കോഡ് നൽകുക"
@@ -3369,7 +3406,9 @@
         "support_text": {
             "enter_voucher_code": "ക്രെഡിറ്റ് ബാലൻസ് റിഡീം ചെയ്യാൻ നിങ്ങളുടെ വൗച്ചർ കോഡ് നൽകുക.",
             "info_balance_credits": "ആദ്യം, ഒരു AI ട്വിബൺ സൃഷ്ടിക്കാൻ നിങ്ങളുടെ ക്രെഡിറ്റുകൾ ടോപ്പ് അപ്പ് ചെയ്യുക."
-        }
+        },
+        "voucher_redemption_terms_conditions": "See the {link} for voucher redemption",
+        "purchasing_credits_terms_agreements": "By purchasing credits, you agreeing to our {link}."
     },
     "expand_menu_panel": {
         "button": {
