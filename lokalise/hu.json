@@ -301,7 +301,8 @@
             "start_campaign": "Kampány indítása",
             "sign_in": "Bejelentkezés",
             "sign_up": "Feliratkozás",
-            "sign_out": "Kijelentkezés"
+            "sign_out": "Kijelentkezés",
+            "dashboard": "Műszerfal"
         },
         "button": {
             "view_all": "Minden megtekintése",
@@ -336,7 +337,9 @@
             "previous": "Előző",
             "finish": "Befejezés",
             "from": "a  címről",
-            "close": "Hirdetés bezárása"
+            "close": "Hirdetés bezárása",
+            "continue": "Folytatás",
+            "crop": "Növény"
         },
         "time": {
             "week": "Hét",
@@ -527,6 +530,10 @@
             "all_type": "Minden típus",
             "background": "Háttér",
             "frame": "Keret"
+        },
+        "cropper": {
+            "adjust_image": "Kép beállítása",
+            "adjust_banner": "Banner beállítása"
         }
     },
     "page_home": {
@@ -816,11 +823,15 @@
             "processing_your_photo": "A fénykép feldolgozása",
             "photo_ready_to_download": "A fénykép készen áll a letöltésre",
             "copy_caption": "Másold ki ezt a feliratot a közösségi médiába!",
-            "gallery": "Gallery",
-            "no_post_yet": "No posts yet. Be the first to show your support by {button}",
-            "uploading_your_photo": "uploading your photo!",
-            "about_this_campaign": "About This Campaign",
-            "please_wait": "Please wait a moment. Don’t close this browser tab."
+            "gallery": "Galéria",
+            "no_post_yet": "Még nincsenek hozzászólások. Légy az első, aki megmutatja támogatását a {gomb}",
+            "uploading_your_photo": "a fénykép feltöltése!",
+            "about_this_campaign": "Erről a kampányról",
+            "please_wait": "Kérem, várjon egy pillanatot. Ne zárja be ezt a böngészőfület.",
+            "summary": "Kampány összefoglaló",
+            " summary_written_by_ai": "Ezt az összefoglalót az AI készítette, így a minőség változhat.",
+            "summary_detail_message": "Ez az összefoglaló azért jelenik meg, mert a kampányodnak nincs leírása. Adjon hozzá egyet a helyére.",
+            "campaign_recommendation": "Még több ettől az alkotótól"
         },
         "report": {
             "report_campaign": "Jelentés",
@@ -1167,7 +1178,8 @@
             "url_not_available": "URL nem elérhető",
             "caption_placeholder": "Szia, a nevem [[A neved]] , és támogatom ezt a kampányt. Gyűljünk össze, és tegyünk együtt valódi hatást ezzel a kampánnyal!",
             "enter_description": "Adja meg a leírást",
-            "optional": "Választható"
+            "optional": "Választható",
+            "ai_template_section_title": "Sablon"
         },
         "customization": {
             "campaign_customization": "Kampány testreszabása",
@@ -1424,7 +1436,7 @@
             "full_campaigning_experience": "Teljes kampányélményt keresel a Twibbonize-ban?",
             "right_plan_for_you": "Akkor a Premium Creator a megfelelő csomag az Ön számára.",
             "no_more_ads": "Nincs több bosszantó hirdetés",
-            "enjoy_uninterrupted": "Élvezze a megszakítás nélküli élményt hirdetések nélkül a Twibbonize-on. Készüljön fel a Twibbonize tisztább, felhasználóbarátabb verziójának elfogadására.",
+            "enjoy_uninterrupted": "Többé nem fogsz hirdetéseket látni a saját Twibbonize fiókodban!",
             "right_tools": "A megfelelő eszközökkel való felszerelés",
             "scale_up": "Növelje kampánya méretét exkluzív funkcióinkkal.",
             "campaign_analytics_1": "Kampány",
@@ -1459,14 +1471,14 @@
             "like_supporting_campaign_2": "különböző kampányok?",
             "right_plan_for_you": "Akkor a Premium Supporter a megfelelő csomag az Ön számára.",
             "no_more_ads": "Nincs több bosszantó hirdetés",
-            "enjoy_uninterrupted": "Élvezze a megszakítás nélküli élményt hirdetések nélkül a Twibbonize-on. Készüljön fel a Twibbonize tisztább, felhasználóbarátabb verziójának elfogadására.",
+            "enjoy_uninterrupted": "Többé nem fogsz hirdetéseket látni a saját Twibbonize fiókodban!",
             "remove_watermark": "Vízjel eltávolítása a saját számlájához",
             "top_notch": "Frissítse kampányjátékát",
             "considering_all": "Figyelembe véve az összes kényelmet, megéri",
             "use_twibbonize_without_ads": "Twibbonize használata hirdetések nélkül",
             "as_a_free_user": "Ingyenes felhasználóként a Twibbon mindig rendelkezik <strong>vízjellel.<\/strong>",
             "premium_supporter": "<strong>A Premium Supporter<\/strong> eltávolítja a vízjelet a tisztább kép érdekében.",
-            "now_you_can": "Mostantól <strong>támogathat bármilyen kampányt<\/strong> vízjel nélkül.",
+            "now_you_can": "Mostantól <strong>minden kampányt támogathatsz<\/strong> Vízjel nélkül.",
             "remove_watermark_1": "Vízjel",
             "remove_watermark_2": "eltávolítása",
             "for_audience_1": "számára",
@@ -2531,7 +2543,9 @@
             "collection_updated": "Gyűjtemény frissítve",
             "collection_deleted": "Gyűjtemény törölve",
             "redirect_to_verification": "Az ellenőrző kódot elküldték a következő címre {email}",
-            "campaign_removed": "Kampány eltávolítva"
+            "campaign_removed": "Kampány eltávolítva",
+            "n_campaigns_deleted": "{n} kampányok törölve",
+            "n_collections_deleted": "{n} gyűjtemények törölve"
         },
         "error": {
             "something_went_wrong": "Valami elromlott"
@@ -3251,6 +3265,17 @@
             "column_supports": "Támogatja a",
             "column_last_modified": "Utoljára módosítva",
             "column_actions": "Tevékenységek"
+        },
+        "columns": {
+            "name": "Név",
+            "supports": "Támogatja a",
+            "last_modified": "Utoljára módosítva",
+            "created_at": "Létrehozva",
+            "actions": "Tevékenységek",
+            "type": "Típus"
+        },
+        "selection": {
+            "n_selected": "{n} kiválasztott"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3293,17 @@
             "package_30": "Feltöltési csomag 30",
             "generate_ai": "AI Twibbon generálása",
             "credit_refund": "Hitel visszatérítés"
+        },
+        "buttons": {
+            "top_up": "Feltöltés",
+            "details": "Részletek"
+        },
+        "loading": {
+            "transactions": "További tranzakciók betöltése"
+        },
+        "empty_state": {
+            "title": "Nem talált tranzakciók",
+            "description": "Nincs tranzakciós előzmény."
         }
     },
     "ai_twibbon": {
@@ -3329,29 +3365,34 @@
             "credits_topup_success": "Feltöltés sikeres!"
         },
         "states": {
-            "running_title": "Processing your photo",
-            "running_subtitle": "Please wait",
-            "completed_download_hint": "Photo not downloading?",
-            "completed_download_action": "Re-Download",
-            "interrupted_network_title": "Connection lost",
-            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
-            "interrupted_session_title": "You've Been Logged Out",
-            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
-            "error_failed_title": "Unable to process your images",
-            "error_failed_subtitle": "Please try again with images that meet our requirements.",
-            "error_nsfw_title": "Content Not Allowed",
-            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
-            "error_general_title": "Couldn't generate your image",
-            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
-            "error_unknown_title": "Couldn't generate your image",
-            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
-            "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "running_title": "A fénykép feldolgozása",
+            "running_subtitle": "Kérjük, várjon",
+            "completed_download_hint": "A fénykép nem töltődik le?",
+            "completed_download_action": "Újratöltés",
+            "interrupted_network_title": "Kapcsolat megszakadt",
+            "interrupted_network_subtitle": "Offline vagy. A kép létrehozásához csatlakozzon újra.",
+            "interrupted_session_title": "Kijelentkezett",
+            "interrupted_session_subtitle": "Úgy tűnik, hogy az AI Twibbon generálása közben kijelentkeztél. Kérjük, jelentkezzen vissza a folytatáshoz",
+            "error_failed_title": "Nem tudja feldolgozni a képeket",
+            "error_failed_subtitle": "Kérjük, próbálkozzon újra olyan képekkel, amelyek megfelelnek a követelményeinknek.",
+            "error_nsfw_title": "Nem megengedett tartalom",
+            "error_nsfw_subtitle": "NSFW tartalom észlelve. Kérjük, próbáljon meg feltölteni egy másik képet, amely követi a {content_guideline}",
+            "error_general_title": "Nem sikerült létrehozni a képet",
+            "error_general_subtitle": "Valami rosszul sült el a mi oldalunkon. Ehhez a kísérlethez nem használtunk kreditet.",
+            "error_unknown_title": "Nem sikerült létrehozni a képet",
+            "error_unknown_subtitle": "Nem tudjuk feldolgozni a bemeneteket. Kérjük, próbálkozzon más képekkel.",
+            "error_no_face_title": "Nincs észlelt arc",
+            "error_no_face_subtitle": "Kérjük, töltsön fel egy tiszta arcú képet.",
+            "invalid_types": "Érvénytelen fájltípus. Kérjük, válasszon JPG, PNG vagy WebP képfájlt.",
+            "invalid_size": "A fájl mérete meghaladja az 5 MB-os korlátot. Kérjük, válasszon egy kisebb fájlt."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Van utalvány kód"
+            "payment": "Van utalvány kód",
+            "have_voucher_code": "Van utalvány kód",
+            "redeem": "Visszaváltás",
+            "continue_payment": "Tovább a Fizetéshez"
         },
         "separator": {
             "voucher_code": "Kód beírása"
@@ -3369,7 +3410,9 @@
         "support_text": {
             "enter_voucher_code": "Kérjük, adja meg az utalvány kódját a kreditegyenleg beváltásához",
             "info_balance_credits": "Először töltsd fel a kreditjeidet, hogy létrehozz egy AI Twibbon-t"
-        }
+        },
+        "voucher_redemption_terms_conditions": "Lásd a {link} az utalvány beváltásához",
+        "purchasing_credits_terms_agreements": "A kreditek megvásárlásával Ön elfogadja a {link}."
     },
     "expand_menu_panel": {
         "button": {

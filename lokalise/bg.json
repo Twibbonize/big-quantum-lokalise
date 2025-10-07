@@ -301,7 +301,8 @@
             "start_campaign": "Започване на кампания",
             "sign_in": "Влезте",
             "sign_up": "Регистрирайте се",
-            "sign_out": "Отписване"
+            "sign_out": "Отписване",
+            "dashboard": "Информационно табло"
         },
         "button": {
             "view_all": "Преглед на всички",
@@ -336,7 +337,9 @@
             "previous": "Предишна",
             "finish": "Завършете",
             "from": "от",
-            "close": "Затвори обявата"
+            "close": "Затвори обявата",
+            "continue": "Продължи",
+            "crop": "Култури"
         },
         "time": {
             "week": "Седмица",
@@ -527,6 +530,10 @@
             "all_type": "Всички типове",
             "background": "Фон",
             "frame": "Рамка"
+        },
+        "cropper": {
+            "adjust_image": "Регулиране на изображението",
+            "adjust_banner": "Регулиране на банера"
         }
     },
     "page_home": {
@@ -816,11 +823,15 @@
             "processing_your_photo": "Обработка на снимката",
             "photo_ready_to_download": "Вашата снимка е готова за изтегляне",
             "copy_caption": "Копирайте този надпис в социалните мрежи!",
-            "gallery": "Gallery",
-            "no_post_yet": "No posts yet. Be the first to show your support by {button}",
-            "uploading_your_photo": "uploading your photo!",
-            "about_this_campaign": "About This Campaign",
-            "please_wait": "Please wait a moment. Don’t close this browser tab."
+            "gallery": "Галерия",
+            "no_post_yet": "Все още няма публикации. Бъдете първите, които ще покажат подкрепата си, като {бутон}",
+            "uploading_your_photo": "качване на вашата снимка!",
+            "about_this_campaign": "За тази кампания",
+            "please_wait": "Моля, изчакайте малко. Не затваряйте този раздел на браузъра.",
+            "summary": "Обобщение на кампанията",
+            " summary_written_by_ai": "Това обобщение е генерирано от AI, така че качеството може да варира.",
+            "summary_detail_message": "Това обобщение се показва, защото кампанията ви няма описание. Добавете описание, за да го замените.",
+            "campaign_recommendation": "Още от този създател"
         },
         "report": {
             "report_campaign": "Докладвай",
@@ -1167,7 +1178,8 @@
             "url_not_available": "URL адресът не е наличен",
             "caption_placeholder": "Здравейте, името ми е [[Вашето име]] , и съм готов да подкрепя тази кампания. Нека се съберем и заедно да постигнем реално въздействие с тази кампания!",
             "enter_description": "Въведете описание",
-            "optional": "Не е задължително"
+            "optional": "Не е задължително",
+            "ai_template_section_title": "Шаблон"
         },
         "customization": {
             "campaign_customization": "Персонализиране на кампанията",
@@ -1424,7 +1436,7 @@
             "full_campaigning_experience": "Търсите пълноценно изживяване при провеждане на кампании в Twibbonize?",
             "right_plan_for_you": "Тогава планът Premium Creator е подходящ за вас.",
             "no_more_ads": "Без повече досадни реклами",
-            "enjoy_uninterrupted": "Насладете се на непрекъснато изживяване без реклами в Twibbonize. Пригответе се да приемете по-чиста и по-удобна за ползване версия на Twibbonize.",
+            "enjoy_uninterrupted": "Вече няма да виждате реклами в собствения си акаунт в Twibbonize!",
             "right_tools": "Оборудване с правилните инструменти",
             "scale_up": "Увеличете кампанията си с нашите ексклузивни функции.",
             "campaign_analytics_1": "Кампания",
@@ -1459,14 +1471,14 @@
             "like_supporting_campaign_2": "различни кампании?",
             "right_plan_for_you": "Тогава планът Premium Supporter е подходящ за вас.",
             "no_more_ads": "Без повече досадни реклами",
-            "enjoy_uninterrupted": "Насладете се на непрекъснато изживяване без реклами в Twibbonize. Пригответе се да приемете по-чиста и по-удобна за ползване версия на Twibbonize.",
+            "enjoy_uninterrupted": "Вече няма да виждате реклами в собствения си акаунт в Twibbonize!",
             "remove_watermark": "Премахване на водния знак за собствения ви акаунт",
             "top_notch": "Подобрете играта си в кампанията",
             "considering_all": "Като се имат предвид всички удобства, това си заслужава",
             "use_twibbonize_without_ads": "Използвайте Twibbonize без реклами",
             "as_a_free_user": "Като безплатен потребител вашият Twibbon винаги включва съдържа <strong>воден знак.<\/strong>",
             "premium_supporter": "<strong>Premium Supporter<\/strong> премахва водния знак за по-чисто изображение.",
-            "now_you_can": "Сега можете да поддържате <strong>всяка кампания<\/strong> без воден знак.",
+            "now_you_can": "Сега можете да <strong>подкрепяте всяка кампания<\/strong> без воден знак.",
             "remove_watermark_1": "Премахване на",
             "remove_watermark_2": "водния знак",
             "for_audience_1": "за",
@@ -2531,7 +2543,9 @@
             "collection_updated": "Колекцията е актуализирана",
             "collection_deleted": "Колекцията е изтрита",
             "redirect_to_verification": "Кодът за проверка е изпратен на {email}",
-            "campaign_removed": "Премахната кампания"
+            "campaign_removed": "Премахната кампания",
+            "n_campaigns_deleted": "{n} изтрити кампании",
+            "n_collections_deleted": "{n} изтрити колекции"
         },
         "error": {
             "something_went_wrong": "Нещо се обърка"
@@ -3251,6 +3265,17 @@
             "column_supports": "Поддържа",
             "column_last_modified": "Последна промяна",
             "column_actions": "Действия"
+        },
+        "columns": {
+            "name": "Име",
+            "supports": "Поддържа",
+            "last_modified": "Последна промяна",
+            "created_at": "Създаден",
+            "actions": "Действия",
+            "type": "Тип"
+        },
+        "selection": {
+            "n_selected": "{n} избрани"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3293,17 @@
             "package_30": "Пакет за допълване 30",
             "generate_ai": "Генериране на AI Twibbon",
             "credit_refund": "Възстановяване на кредит"
+        },
+        "buttons": {
+            "top_up": "Отгоре нагоре",
+            "details": "Подробности"
+        },
+        "loading": {
+            "transactions": "Зареждане на повече транзакции"
+        },
+        "empty_state": {
+            "title": "Не са намерени транзакции",
+            "description": "Няма налична история на транзакциите."
         }
     },
     "ai_twibbon": {
@@ -3329,29 +3365,34 @@
             "credits_topup_success": "Кредитите за допълване са успешни!"
         },
         "states": {
-            "running_title": "Processing your photo",
-            "running_subtitle": "Please wait",
-            "completed_download_hint": "Photo not downloading?",
-            "completed_download_action": "Re-Download",
-            "interrupted_network_title": "Connection lost",
-            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
-            "interrupted_session_title": "You've Been Logged Out",
-            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
-            "error_failed_title": "Unable to process your images",
-            "error_failed_subtitle": "Please try again with images that meet our requirements.",
-            "error_nsfw_title": "Content Not Allowed",
-            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
-            "error_general_title": "Couldn't generate your image",
-            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
-            "error_unknown_title": "Couldn't generate your image",
-            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
-            "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "running_title": "Обработка на снимката",
+            "running_subtitle": "Моля, изчакайте",
+            "completed_download_hint": "Снимката не се изтегля?",
+            "completed_download_action": "Повторно изтегляне на",
+            "interrupted_network_title": "Загубена връзка",
+            "interrupted_network_subtitle": "Вие сте офлайн. Свържете се отново, за да генерирате изображението си.",
+            "interrupted_session_title": "Излезли сте от системата",
+            "interrupted_session_subtitle": "Изглежда, че сте излезли от системата, докато сте генерирали лентата на AI Twibbon. Моля, влезте отново, за да продължите",
+            "error_failed_title": "Не можете да обработите изображенията си",
+            "error_failed_subtitle": "Моля, опитайте отново с изображения, които отговарят на нашите изисквания.",
+            "error_nsfw_title": "Неразрешено съдържание",
+            "error_nsfw_subtitle": "Открито е NSFW съдържание. Моля, опитайте се да качите друго изображение, което следва нашите {content_guideline}",
+            "error_general_title": "Не можах да генерирам вашето изображение",
+            "error_general_subtitle": "Нещо се обърка от наша страна. За този опит не са използвани кредити.",
+            "error_unknown_title": "Не можах да генерирам вашето изображение",
+            "error_unknown_subtitle": "Не можем да обработим вашите данни. Моля, опитайте с други изображения.",
+            "error_no_face_title": "Не е открито лице",
+            "error_no_face_subtitle": "Моля, качете изображение с ясно изразено лице.",
+            "invalid_types": "Невалиден тип файл. Моля, изберете файл с изображение JPG, PNG или WebP.",
+            "invalid_size": "Размерът на файла надхвърля ограничението от 5 MB. Моля, изберете по-малък файл."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Имате код на ваучер"
+            "payment": "Имате код на ваучер",
+            "have_voucher_code": "Имате код на ваучер",
+            "redeem": "Изкупуване на",
+            "continue_payment": "Продължете към плащане"
         },
         "separator": {
             "voucher_code": "Въведете код"
@@ -3369,7 +3410,9 @@
         "support_text": {
             "enter_voucher_code": "Моля, въведете кода на ваучера, за да осребрите баланса на кредитите",
             "info_balance_credits": "Първо, допълнете кредитите си, за да генерирате AI Twibbon"
-        }
+        },
+        "voucher_redemption_terms_conditions": "Вижте {връзка} за осребряване на ваучер",
+        "purchasing_credits_terms_agreements": "Със закупуването на кредити вие се съгласявате с нашата {връзка}."
     },
     "expand_menu_panel": {
         "button": {

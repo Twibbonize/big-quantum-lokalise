@@ -301,7 +301,8 @@
             "start_campaign": "ಅಭಿಯಾನವನ್ನು ಪ್ರಾರಂಭಿಸಿ",
             "sign_in": "ಲಾಗ್ ಇನ್ ಮಾಡಿ",
             "sign_up": "ಸೈನ್ ಅಪ್",
-            "sign_out": "ಸೈನ್ ಔಟ್ ಮಾಡಿ"
+            "sign_out": "ಸೈನ್ ಔಟ್ ಮಾಡಿ",
+            "dashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್"
         },
         "button": {
             "view_all": "ಎಲ್ಲವನ್ನೂ ವೀಕ್ಷಿಸಿ",
@@ -336,7 +337,9 @@
             "previous": "ಹಿಂದಿನದು",
             "finish": "ಮುಗಿಸಿ",
             "from": "ನಿಂದ",
-            "close": "ಜಾಹೀರಾತನ್ನು ಮುಚ್ಚಿ"
+            "close": "ಜಾಹೀರಾತನ್ನು ಮುಚ್ಚಿ",
+            "continue": "ಮುಂದುವರಿಸಿ",
+            "crop": "ಬೆಳೆ"
         },
         "time": {
             "week": "ವಾರ",
@@ -527,6 +530,10 @@
             "all_type": "ಎಲ್ಲಾ ಪ್ರಕಾರ",
             "background": "ಹಿನ್ನೆಲೆ",
             "frame": "ಚೌಕಟ್ಟು"
+        },
+        "cropper": {
+            "adjust_image": "ಚಿತ್ರವನ್ನು ಹೊಂದಿಸಿ",
+            "adjust_banner": "ಬ್ಯಾನರ್ ಹೊಂದಿಸಿ"
         }
     },
     "page_home": {
@@ -816,11 +823,15 @@
             "processing_your_photo": "ನಿಮ್ಮ ಫೋಟೋವನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತಿದೆ",
             "photo_ready_to_download": "ನಿಮ್ಮ ಫೋಟೋ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಸಿದ್ಧವಾಗಿದೆ.",
             "copy_caption": "ಈ ಶೀರ್ಷಿಕೆಯನ್ನು ಸಾಮಾಜಿಕ ಮಾಧ್ಯಮಕ್ಕೆ ನಕಲಿಸಿ!",
-            "gallery": "Gallery",
-            "no_post_yet": "No posts yet. Be the first to show your support by {button}",
-            "uploading_your_photo": "uploading your photo!",
-            "about_this_campaign": "About This Campaign",
-            "please_wait": "Please wait a moment. Don’t close this browser tab."
+            "gallery": "ಗ್ಯಾಲರಿ",
+            "no_post_yet": "ಇನ್ನೂ ಯಾವುದೇ ಪೋಸ್ಟ್‌ಗಳಿಲ್ಲ. {button} ಮೂಲಕ ನಿಮ್ಮ ಬೆಂಬಲವನ್ನು ತೋರಿಸುವ ಮೊದಲಿಗರಾಗಿರಿ.",
+            "uploading_your_photo": "ನಿಮ್ಮ ಫೋಟೋ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ!",
+            "about_this_campaign": "ಈ ಅಭಿಯಾನದ ಬಗ್ಗೆ",
+            "please_wait": "ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಸಮಯ ಕಾಯಿರಿ. ಈ ಬ್ರೌಸರ್ ಟ್ಯಾಬ್ ಅನ್ನು ಮುಚ್ಚಬೇಡಿ.",
+            "summary": "ಅಭಿಯಾನದ ಸಾರಾಂಶ",
+            " summary_written_by_ai": "ಈ ಸಾರಾಂಶವನ್ನು AI ರಚಿಸಿದೆ, ಆದ್ದರಿಂದ ಗುಣಮಟ್ಟ ಬದಲಾಗಬಹುದು.",
+            "summary_detail_message": "ನಿಮ್ಮ ಅಭಿಯಾನವು ವಿವರಣೆಯನ್ನು ಹೊಂದಿಲ್ಲದ ಕಾರಣ ಈ ಸಾರಾಂಶವನ್ನು ತೋರಿಸಲಾಗಿದೆ. ಅದನ್ನು ಬದಲಾಯಿಸಲು ಒಂದನ್ನು ಸೇರಿಸಿ.",
+            "campaign_recommendation": "ಈ ಸೃಷ್ಟಿಕರ್ತರಿಂದ ಇನ್ನಷ್ಟು"
         },
         "report": {
             "report_campaign": "ವರದಿ",
@@ -1167,7 +1178,8 @@
             "url_not_available": "URL ಲಭ್ಯವಿಲ್ಲ.",
             "caption_placeholder": "ನಮಸ್ಕಾರ, ನನ್ನ ಹೆಸರು [[ನಿಮ್ಮ ಹೆಸರು]], ಮತ್ತು ನಾನು ಈ ಅಭಿಯಾನವನ್ನು ಬೆಂಬಲಿಸಲು ಸಿದ್ಧನಿದ್ದೇನೆ. ಬನ್ನಿ, ಈ ಅಭಿಯಾನದೊಂದಿಗೆ ಒಟ್ಟಾಗಿ ನಿಜವಾದ ಪ್ರಭಾವ ಬೀರೋಣ!",
             "enter_description": "ವಿವರಣೆಯನ್ನು ನಮೂದಿಸಿ",
-            "optional": "ಐಚ್ಛಿಕ"
+            "optional": "ಐಚ್ಛಿಕ",
+            "ai_template_section_title": "ಟೆಂಪ್ಲೇಟ್"
         },
         "customization": {
             "campaign_customization": "ಅಭಿಯಾನದ ಗ್ರಾಹಕೀಕರಣ",
@@ -1424,7 +1436,7 @@
             "full_campaigning_experience": "Twibbonize ನಲ್ಲಿ ಪೂರ್ಣ ಪ್ರಚಾರ ಅನುಭವವನ್ನು ಹುಡುಕುತ್ತಿದ್ದೀರಾ?",
             "right_plan_for_you": "ಹಾಗಾದರೆ ಪ್ರೀಮಿಯಂ ಕ್ರಿಯೇಟರ್ ನಿಮಗೆ ಸರಿಯಾದ ಯೋಜನೆಯಾಗಿದೆ.",
             "no_more_ads": "ಇನ್ನು ಕಿರಿಕಿರಿಗೊಳಿಸುವ ಜಾಹೀರಾತುಗಳಿಲ್ಲ",
-            "enjoy_uninterrupted": "Twibbonize ನಲ್ಲಿ ಜಾಹೀರಾತುಗಳಿಲ್ಲದೆ ನಿರಂತರ ಅನುಭವವನ್ನು ಆನಂದಿಸಿ. Twibbonize ನ ಸ್ವಚ್ಛ, ಹೆಚ್ಚು ಬಳಕೆದಾರ ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು ಅಳವಡಿಸಿಕೊಳ್ಳಲು ಸಿದ್ಧರಾಗಿ.",
+            "enjoy_uninterrupted": "ನಿಮ್ಮ ಸ್ವಂತ Twibbonize ಖಾತೆಯಲ್ಲಿ ನೀವು ಇನ್ನು ಮುಂದೆ ಜಾಹೀರಾತುಗಳನ್ನು ನೋಡುವುದಿಲ್ಲ!",
             "right_tools": "ಸರಿಯಾದ ಪರಿಕರಗಳೊಂದಿಗೆ ನಿಮ್ಮನ್ನು ಸಜ್ಜುಗೊಳಿಸುವುದು",
             "scale_up": "ನಮ್ಮ ವಿಶೇಷ ವೈಶಿಷ್ಟ್ಯಗಳೊಂದಿಗೆ ನಿಮ್ಮ ಅಭಿಯಾನವನ್ನು ಹೆಚ್ಚಿಸಿ.",
             "campaign_analytics_1": "ಪ್ರಚಾರ",
@@ -1459,14 +1471,14 @@
             "like_supporting_campaign_2": "ವಿಭಿನ್ನ ಅಭಿಯಾನಗಳು?",
             "right_plan_for_you": "ಹಾಗಾದರೆ ಪ್ರೀಮಿಯಂ ಸಪೋರ್ಟರ್ ನಿಮಗೆ ಸರಿಯಾದ ಯೋಜನೆಯಾಗಿದೆ.",
             "no_more_ads": "ಇನ್ನು ಕಿರಿಕಿರಿಗೊಳಿಸುವ ಜಾಹೀರಾತುಗಳಿಲ್ಲ",
-            "enjoy_uninterrupted": "Twibbonize ನಲ್ಲಿ ಜಾಹೀರಾತುಗಳಿಲ್ಲದೆ ನಿರಂತರ ಅನುಭವವನ್ನು ಆನಂದಿಸಿ. Twibbonize ನ ಸ್ವಚ್ಛ, ಹೆಚ್ಚು ಬಳಕೆದಾರ ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು ಅಳವಡಿಸಿಕೊಳ್ಳಲು ಸಿದ್ಧರಾಗಿ.",
+            "enjoy_uninterrupted": "ನಿಮ್ಮ ಸ್ವಂತ Twibbonize ಖಾತೆಯಲ್ಲಿ ನೀವು ಇನ್ನು ಮುಂದೆ ಜಾಹೀರಾತುಗಳನ್ನು ನೋಡುವುದಿಲ್ಲ!",
             "remove_watermark": "ನಿಮ್ಮ ಸ್ವಂತ ಖಾತೆಗೆ ವಾಟರ್‌ಮಾರ್ಕ್ ತೆಗೆದುಹಾಕಿ",
             "top_notch": "ನಿಮ್ಮ ಅಭಿಯಾನದ ಆಟವನ್ನು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ",
             "considering_all": "ಅದರ ಮೌಲ್ಯವನ್ನು ಪರಿಗಣಿಸಿದರೆ, ನಿಮ್ಮಲ್ಲಿ ಅನೇಕರಿಗೆ ಅದು ಯೋಗ್ಯವಾಗಿರುತ್ತದೆ.",
             "use_twibbonize_without_ads": "ಜಾಹೀರಾತುಗಳಿಲ್ಲದೆ ಟ್ವಿಬ್ಬೊನೈಸ್ ಬಳಸಿ",
             "as_a_free_user": "ಉಚಿತ ಬಳಕೆದಾರರಾಗಿ, ನಿಮ್ಮ ಟ್ವಿಬ್ಬನ್ ಯಾವಾಗಲೂ <strong>ವಾಟರ್‌ಮಾರ್ಕ್ ಅನ್ನು ಹೊಂದಿರುತ್ತದೆ.<\/strong>",
             "premium_supporter": "<strong>ಪ್ರೀಮಿಯಂ ಸಪೋರ್ಟರ್<\/strong> ಸ್ಪಷ್ಟ ಚಿತ್ರಕ್ಕಾಗಿ ವಾಟರ್‌ಮಾರ್ಕ್ ಅನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ.",
-            "now_you_can": "ಈಗ ನೀವು ಮತ್ತು ನಿಮ್ಮ ಬೆಂಬಲಿಗರು ವಾಟರ್‌ಮಾರ್ಕ್ ಇಲ್ಲದೆ <strong>ಯಾವುದೇ ಅಭಿಯಾನವನ್ನು ಬೆಂಬಲಿಸಬಹುದು<\/strong>.",
+            "now_you_can": "ಈಗ ನೀವು ವಾಟರ್‌ಮಾರ್ಕ್ ಇಲ್ಲದೆ <strong>ಯಾವುದೇ ಅಭಿಯಾನವನ್ನು ಬೆಂಬಲಿಸಬಹುದು<\/strong>.",
             "remove_watermark_1": "ತೆಗೆದುಹಾಕಿ",
             "remove_watermark_2": "ವಾಟರ್‌ಮಾರ್ಕ್",
             "for_audience_1": "ಫಾರ್",
@@ -2531,7 +2543,9 @@
             "collection_updated": "ಸಂಗ್ರಹವನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ",
             "collection_deleted": "ಸಂಗ್ರಹವನ್ನು ಅಳಿಸಲಾಗಿದೆ",
             "redirect_to_verification": "ಪರಿಶೀಲನಾ ಕೋಡ್ ಅನ್ನು {email} ಗೆ ಕಳುಹಿಸಲಾಗಿದೆ.",
-            "campaign_removed": "ಅಭಿಯಾನವನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+            "campaign_removed": "ಅಭಿಯಾನವನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ",
+            "n_campaigns_deleted": "{n} ಅಭಿಯಾನಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ",
+            "n_collections_deleted": "{n} ಸಂಗ್ರಹಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ"
         },
         "error": {
             "something_went_wrong": "ಏನೋ ತಪ್ಪಾಗಿದೆ."
@@ -3251,6 +3265,17 @@
             "column_supports": "ಬೆಂಬಲಿಸುತ್ತದೆ",
             "column_last_modified": "ಕೊನೆಯದಾಗಿ ಮಾರ್ಪಡಿಸಿದ್ದು",
             "column_actions": "ಕ್ರಿಯೆಗಳು"
+        },
+        "columns": {
+            "name": "ಹೆಸರು",
+            "supports": "ಬೆಂಬಲಿಸುತ್ತದೆ",
+            "last_modified": "ಕೊನೆಯದಾಗಿ ಮಾರ್ಪಡಿಸಿದ್ದು",
+            "created_at": "ರಚಿಸಲಾಗಿದೆ",
+            "actions": "ಕ್ರಿಯೆಗಳು",
+            "type": "ಪ್ರಕಾರ"
+        },
+        "selection": {
+            "n_selected": "{n} ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3293,17 @@
             "package_30": "ಟಾಪ್-ಅಪ್ ಪ್ಯಾಕೇಜ್ 30",
             "generate_ai": "AI ಟ್ವಿಬ್ಬನ್ ರಚಿಸಿ",
             "credit_refund": "ಕ್ರೆಡಿಟ್ ಮರುಪಾವತಿ"
+        },
+        "buttons": {
+            "top_up": "ಟಾಪ್ ಅಪ್",
+            "details": "ವಿವರಗಳು"
+        },
+        "loading": {
+            "transactions": "ಹೆಚ್ಚಿನ ವಹಿವಾಟುಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ"
+        },
+        "empty_state": {
+            "title": "ಯಾವುದೇ ವಹಿವಾಟುಗಳು ಕಂಡುಬಂದಿಲ್ಲ.",
+            "description": "ಯಾವುದೇ ವಹಿವಾಟು ಇತಿಹಾಸ ಲಭ್ಯವಿಲ್ಲ."
         }
     },
     "ai_twibbon": {
@@ -3329,29 +3365,34 @@
             "credits_topup_success": "ಕ್ರೆಡಿಟ್‌ಗಳನ್ನು ಟಾಪ್ ಅಪ್ ಮಾಡುವುದು ಯಶಸ್ವಿಯಾಗಿದೆ!"
         },
         "states": {
-            "running_title": "Processing your photo",
-            "running_subtitle": "Please wait",
-            "completed_download_hint": "Photo not downloading?",
-            "completed_download_action": "Re-Download",
-            "interrupted_network_title": "Connection lost",
-            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
-            "interrupted_session_title": "You've Been Logged Out",
-            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
-            "error_failed_title": "Unable to process your images",
-            "error_failed_subtitle": "Please try again with images that meet our requirements.",
-            "error_nsfw_title": "Content Not Allowed",
-            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
-            "error_general_title": "Couldn't generate your image",
-            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
-            "error_unknown_title": "Couldn't generate your image",
-            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
-            "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "running_title": "ನಿಮ್ಮ ಫೋಟೋವನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತಿದೆ",
+            "running_subtitle": "ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ",
+            "completed_download_hint": "ಫೋಟೋ ಡೌನ್‌ಲೋಡ್ ಆಗುತ್ತಿಲ್ಲವೇ?",
+            "completed_download_action": "ಮರು-ಡೌನ್‌ಲೋಡ್",
+            "interrupted_network_title": "ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ",
+            "interrupted_network_subtitle": "ನೀವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿದ್ದೀರಿ. ನಿಮ್ಮ ಚಿತ್ರವನ್ನು ರಚಿಸಲು ಮರುಸಂಪರ್ಕಿಸಿ.",
+            "interrupted_session_title": "ನಿಮ್ಮನ್ನು ಲಾಗ್ ಔಟ್ ಮಾಡಲಾಗಿದೆ.",
+            "interrupted_session_subtitle": "ನಿಮ್ಮ AI ಟ್ವಿಬ್ಬನ್ ಅನ್ನು ರಚಿಸುವಾಗ ನೀವು ಲಾಗ್ ಔಟ್ ಆಗಿರುವಂತೆ ತೋರುತ್ತಿದೆ. ಮುಂದುವರಿಯಲು ದಯವಿಟ್ಟು ಮತ್ತೆ ಲಾಗಿನ್ ಮಾಡಿ.",
+            "error_failed_title": "ನಿಮ್ಮ ಚಿತ್ರಗಳನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ.",
+            "error_failed_subtitle": "ನಮ್ಮ ಅವಶ್ಯಕತೆಗಳನ್ನು ಪೂರೈಸುವ ಚಿತ್ರಗಳೊಂದಿಗೆ ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+            "error_nsfw_title": "ವಿಷಯವನ್ನು ಅನುಮತಿಸಲಾಗುವುದಿಲ್ಲ",
+            "error_nsfw_subtitle": "NSFW ವಿಷಯ ಪತ್ತೆಯಾಗಿದೆ. ದಯವಿಟ್ಟು ನಮ್ಮ {content_guideline} ಅನ್ನು ಅನುಸರಿಸುವ ಬೇರೆ ಚಿತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ.",
+            "error_general_title": "ನಿಮ್ಮ ಚಿತ್ರವನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.",
+            "error_general_subtitle": "ನಮ್ಮ ಕಡೆಯಿಂದ ಏನೋ ತಪ್ಪಾಗಿದೆ. ಈ ಪ್ರಯತ್ನಕ್ಕೆ ಯಾವುದೇ ಕ್ರೆಡಿಟ್‌ಗಳನ್ನು ಬಳಸಲಾಗಿಲ್ಲ.",
+            "error_unknown_title": "ನಿಮ್ಮ ಚಿತ್ರವನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.",
+            "error_unknown_subtitle": "ನಿಮ್ಮ ಇನ್‌ಪುಟ್‌ಗಳನ್ನು ನಾವು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ಇತರ ಚಿತ್ರಗಳೊಂದಿಗೆ ಪ್ರಯತ್ನಿಸಿ.",
+            "error_no_face_title": "ಯಾವುದೇ ಮುಖ ಪತ್ತೆಯಾಗಿಲ್ಲ.",
+            "error_no_face_subtitle": "ದಯವಿಟ್ಟು ಸ್ಪಷ್ಟ ಮುಖವಿರುವ ಚಿತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ.",
+            "invalid_types": "ಅಮಾನ್ಯ ಫೈಲ್ ಪ್ರಕಾರ. ದಯವಿಟ್ಟು JPG, PNG, ಅಥವಾ WebP ಇಮೇಜ್ ಫೈಲ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+            "invalid_size": "ಫೈಲ್ ಗಾತ್ರವು 5MB ಮಿತಿಯನ್ನು ಮೀರಿದೆ. ದಯವಿಟ್ಟು ಚಿಕ್ಕ ಫೈಲ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "ವೋಚರ್ ಕೋಡ್ ಇದೆ"
+            "payment": "ವೋಚರ್ ಕೋಡ್ ಇದೆ",
+            "have_voucher_code": "ವೋಚರ್ ಕೋಡ್ ಇದೆ",
+            "redeem": "ರಿಡೀಮ್ ಮಾಡಿ",
+            "continue_payment": "ಪಾವತಿಗೆ ಮುಂದುವರಿಯಿರಿ"
         },
         "separator": {
             "voucher_code": "ಕೋಡ್ ನಮೂದಿಸಿ"
@@ -3369,7 +3410,9 @@
         "support_text": {
             "enter_voucher_code": "ಕ್ರೆಡಿಟ್‌ಗಳ ಬ್ಯಾಲೆನ್ಸ್ ಅನ್ನು ರಿಡೀಮ್ ಮಾಡಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ವೋಚರ್ ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸಿ.",
             "info_balance_credits": "ಮೊದಲು, AI ಟ್ವಿಬ್ಬನ್ ಅನ್ನು ರಚಿಸಲು ನಿಮ್ಮ ಕ್ರೆಡಿಟ್‌ಗಳನ್ನು ಟಾಪ್ ಅಪ್ ಮಾಡಿ."
-        }
+        },
+        "voucher_redemption_terms_conditions": "ವೋಚರ್ ರಿಡೆಂಪ್ಶನ್‌ಗಾಗಿ {ಲಿಂಕ್} ನೋಡಿ",
+        "purchasing_credits_terms_agreements": "ಕ್ರೆಡಿಟ್‌ಗಳನ್ನು ಖರೀದಿಸುವ ಮೂಲಕ, ನೀವು ನಮ್ಮ {ಲಿಂಕ್} ಗೆ ಒಪ್ಪುತ್ತೀರಿ."
     },
     "expand_menu_panel": {
         "button": {

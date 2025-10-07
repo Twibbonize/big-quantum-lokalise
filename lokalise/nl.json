@@ -301,7 +301,8 @@
             "start_campaign": "Een campagne starten",
             "sign_in": "Inloggen",
             "sign_up": "Aanmelden",
-            "sign_out": "Afmelden"
+            "sign_out": "Afmelden",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "Alles bekijken",
@@ -336,7 +337,9 @@
             "previous": "Vorige",
             "finish": "Afwerking",
             "from": "van",
-            "close": "Advertentie sluiten"
+            "close": "Advertentie sluiten",
+            "continue": "Ga verder",
+            "crop": "Gewas"
         },
         "time": {
             "week": "Week",
@@ -527,6 +530,10 @@
             "all_type": "Alle typen",
             "background": "Achtergrond",
             "frame": "Frame"
+        },
+        "cropper": {
+            "adjust_image": "Afbeelding aanpassen",
+            "adjust_banner": "Banner aanpassen"
         }
     },
     "page_home": {
@@ -816,11 +823,15 @@
             "processing_your_photo": "Je foto verwerken",
             "photo_ready_to_download": "Je foto is klaar om te downloaden",
             "copy_caption": "Kopieer dit onderschrift naar Social Media!",
-            "gallery": "Gallery",
-            "no_post_yet": "No posts yet. Be the first to show your support by {button}",
-            "uploading_your_photo": "uploading your photo!",
-            "about_this_campaign": "About This Campaign",
-            "please_wait": "Please wait a moment. Don’t close this browser tab."
+            "gallery": "Galerij",
+            "no_post_yet": "Nog geen berichten. Wees de eerste om je steun te betuigen door {button}",
+            "uploading_your_photo": "foto uploaden!",
+            "about_this_campaign": "Over deze campagne",
+            "please_wait": "Een ogenblik geduld alstublieft. Sluit deze browsertab niet.",
+            "summary": "Samenvatting campagne",
+            " summary_written_by_ai": "Deze samenvatting is gemaakt door AI, dus de kwaliteit kan variëren.",
+            "summary_detail_message": "Deze samenvatting wordt weergegeven omdat je campagne geen beschrijving heeft. Voeg er een toe om deze te vervangen.",
+            "campaign_recommendation": "Meer van deze maker"
         },
         "report": {
             "report_campaign": "Rapport",
@@ -1167,7 +1178,8 @@
             "url_not_available": "URL niet beschikbaar",
             "caption_placeholder": "Hallo, mijn naam is [[Jouw naam]] , en ik ben helemaal in om deze campagne te steunen. Laten we samenkomen en een echte impact maken met deze campagne!",
             "enter_description": "Beschrijving invoeren",
-            "optional": "Optioneel"
+            "optional": "Optioneel",
+            "ai_template_section_title": "Sjabloon"
         },
         "customization": {
             "campaign_customization": "Campagne aanpassen",
@@ -1424,7 +1436,7 @@
             "full_campaigning_experience": "Op zoek naar een volledige campagne-ervaring in Twibbonize?",
             "right_plan_for_you": "Dan is Premium Creator het juiste plan voor jou.",
             "no_more_ads": "Geen vervelende advertenties meer",
-            "enjoy_uninterrupted": "Geniet van een ononderbroken ervaring zonder advertenties op Twibbonize. Bereid je voor op een schonere, gebruiksvriendelijkere versie van Twibbonize.",
+            "enjoy_uninterrupted": "Je zult geen advertenties meer zien in je eigen Twibbonize account!",
             "right_tools": "Je uitrusten met de juiste hulpmiddelen",
             "scale_up": "Vergroot je campagne met onze exclusieve functies.",
             "campaign_analytics_1": "Campagne",
@@ -1459,14 +1471,14 @@
             "like_supporting_campaign_2": "verschillende campagnes?",
             "right_plan_for_you": "Dan is Premium Supporter het juiste plan voor jou.",
             "no_more_ads": "Geen vervelende advertenties meer",
-            "enjoy_uninterrupted": "Geniet van een ononderbroken ervaring zonder advertenties op Twibbonize. Bereid je voor op een schonere, gebruiksvriendelijkere versie van Twibbonize.",
+            "enjoy_uninterrupted": "Je zult geen advertenties meer zien in je eigen Twibbonize account!",
             "remove_watermark": "Watermerk verwijderen voor je eigen account",
             "top_notch": "Verbeter je campagnespel",
             "considering_all": "Gezien alle gemakken is het de moeite waard",
             "use_twibbonize_without_ads": "Twibbonize gebruiken zonder advertenties",
             "as_a_free_user": "Als gratis gebruiker is je Twibbon altijd voorzien van <strong>een watermerk.<\/strong>",
             "premium_supporter": "<strong>Premium Supporter<\/strong> verwijdert het watermerk voor een schonere afbeelding.",
-            "now_you_can": "Nu kun je <strong>elke campagne<\/strong> ondersteunen zonder Watermerk.",
+            "now_you_can": "Nu kun je <strong>eender welke campagne<\/strong> ondersteunen zonder Watermerk.",
             "remove_watermark_1": "Verwijder",
             "remove_watermark_2": "watermerk",
             "for_audience_1": "voor",
@@ -2531,7 +2543,9 @@
             "collection_updated": "Collectie bijgewerkt",
             "collection_deleted": "Collectie verwijderd",
             "redirect_to_verification": "Verificatiecode is verzonden naar {email}",
-            "campaign_removed": "Campagne verwijderd"
+            "campaign_removed": "Campagne verwijderd",
+            "n_campaigns_deleted": "{n} campagnes verwijderd",
+            "n_collections_deleted": "{n} collecties verwijderd"
         },
         "error": {
             "something_went_wrong": "Er is iets fout gegaan"
@@ -3251,6 +3265,17 @@
             "column_supports": "Ondersteunt",
             "column_last_modified": "Laatst gewijzigd",
             "column_actions": "Acties"
+        },
+        "columns": {
+            "name": "Naam",
+            "supports": "Ondersteunt",
+            "last_modified": "Laatst gewijzigd",
+            "created_at": "Gemaakt",
+            "actions": "Acties",
+            "type": "Type"
+        },
+        "selection": {
+            "n_selected": "{n} geselecteerd"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3293,17 @@
             "package_30": "Aanvullend pakket 30",
             "generate_ai": "Een AI Twibbon genereren",
             "credit_refund": "Terugbetaling"
+        },
+        "buttons": {
+            "top_up": "Herladen",
+            "details": "Details"
+        },
+        "loading": {
+            "transactions": "Meer transacties laden"
+        },
+        "empty_state": {
+            "title": "Geen transacties gevonden",
+            "description": "Geen transactiegeschiedenis beschikbaar."
         }
     },
     "ai_twibbon": {
@@ -3329,29 +3365,34 @@
             "credits_topup_success": "Opwaardeer credits succesvol!"
         },
         "states": {
-            "running_title": "Processing your photo",
-            "running_subtitle": "Please wait",
-            "completed_download_hint": "Photo not downloading?",
-            "completed_download_action": "Re-Download",
-            "interrupted_network_title": "Connection lost",
-            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
-            "interrupted_session_title": "You've Been Logged Out",
-            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
-            "error_failed_title": "Unable to process your images",
-            "error_failed_subtitle": "Please try again with images that meet our requirements.",
-            "error_nsfw_title": "Content Not Allowed",
-            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
-            "error_general_title": "Couldn't generate your image",
-            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
-            "error_unknown_title": "Couldn't generate your image",
-            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
-            "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "running_title": "Je foto verwerken",
+            "running_subtitle": "Even geduld",
+            "completed_download_hint": "Foto niet downloaden?",
+            "completed_download_action": "Opnieuw downloaden",
+            "interrupted_network_title": "Verbinding verloren",
+            "interrupted_network_subtitle": "Je bent offline. Maak opnieuw verbinding om je afbeelding te genereren.",
+            "interrupted_session_title": "Je bent uitgelogd",
+            "interrupted_session_subtitle": "Het lijkt erop dat je bent uitgelogd tijdens het genereren van je AI Twibbon. Log weer in om verder te gaan",
+            "error_failed_title": "Kan uw afbeeldingen niet verwerken",
+            "error_failed_subtitle": "Probeer het opnieuw met afbeeldingen die aan onze eisen voldoen.",
+            "error_nsfw_title": "Inhoud niet toegestaan",
+            "error_nsfw_subtitle": "NSFW-inhoud gedetecteerd. Probeer een andere afbeelding te uploaden die onze {content_guideline} volgt",
+            "error_general_title": "Kon uw afbeelding niet genereren",
+            "error_general_subtitle": "Er ging iets mis aan onze kant. Er zijn geen credits gebruikt voor deze poging.",
+            "error_unknown_title": "Kon uw afbeelding niet genereren",
+            "error_unknown_subtitle": "We kunnen je invoer niet verwerken. Probeer het met andere afbeeldingen.",
+            "error_no_face_title": "Geen gezicht gedetecteerd",
+            "error_no_face_subtitle": "Upload een afbeelding met een duidelijk gezicht.",
+            "invalid_types": "Ongeldig bestandstype. Selecteer een JPG, PNG of WebP afbeeldingsbestand.",
+            "invalid_size": "De bestandsgrootte overschrijdt de limiet van 5 MB. Selecteer een kleiner bestand."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Een vouchercode hebben"
+            "payment": "Een vouchercode hebben",
+            "have_voucher_code": "Een vouchercode hebben",
+            "redeem": "Inwisselen",
+            "continue_payment": "Doorgaan naar betaling"
         },
         "separator": {
             "voucher_code": "Code invoeren"
@@ -3369,7 +3410,9 @@
         "support_text": {
             "enter_voucher_code": "Voer je vouchercode in om tegoed in te wisselen",
             "info_balance_credits": "Vul eerst je credits aan om een AI Twibbon te genereren"
-        }
+        },
+        "voucher_redemption_terms_conditions": "Zie de {link} voor het inwisselen van vouchers",
+        "purchasing_credits_terms_agreements": "Door credits te kopen, gaat u akkoord met onze {link}."
     },
     "expand_menu_panel": {
         "button": {

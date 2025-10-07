@@ -301,7 +301,8 @@
             "start_campaign": "Mulai Kampanye",
             "sign_in": "Masuk",
             "sign_up": "Daftar",
-            "sign_out": "Keluar"
+            "sign_out": "Keluar",
+            "dashboard": "Dasbor"
         },
         "button": {
             "view_all": "Lihat Semua",
@@ -336,7 +337,9 @@
             "previous": "Sebelumnya",
             "finish": "Selesai",
             "from": "dari",
-            "close": "Tutup Iklan"
+            "close": "Tutup Iklan",
+            "continue": "Lanjutkan",
+            "crop": "Pangkas"
         },
         "time": {
             "week": "Minggu",
@@ -527,6 +530,10 @@
             "all_type": "Semua Jenis",
             "background": "Latar Belakang",
             "frame": "Bingkai"
+        },
+        "cropper": {
+            "adjust_image": "Menyesuaikan Gambar",
+            "adjust_banner": "Sesuaikan Spanduk"
         }
     },
     "page_home": {
@@ -820,7 +827,11 @@
             "no_post_yet": "No posts yet. Be the first to show your support by {button}",
             "uploading_your_photo": "uploading your photo!",
             "about_this_campaign": "About This Campaign",
-            "please_wait": "Please wait a moment. Don’t close this browser tab."
+            "please_wait": "Please wait a moment. Don’t close this browser tab.",
+            "summary": "Ringkasan Kampanye",
+            " summary_written_by_ai": "Ringkasan ini dibuat oleh AI, sehingga kualitasnya dapat bervariasi.",
+            "summary_detail_message": "Ringkasan ini ditampilkan karena kampanye Anda tidak memiliki deskripsi. Tambahkan satu untuk menggantikannya.",
+            "campaign_recommendation": "Lebih lanjut dari pencipta ini"
         },
         "report": {
             "report_campaign": "Laporkan",
@@ -1167,7 +1178,8 @@
             "url_not_available": "URL tidak tersedia",
             "caption_placeholder": "Hi, nama saya [[Your Name]] , dan mendukung secara penuh gerakan ini. Yuk, kita satukan suara dan ciptakan dampak dengan gerakan ini!",
             "enter_description": "Masukkan deskripsi",
-            "optional": "Opsional"
+            "optional": "Opsional",
+            "ai_template_section_title": "Templat"
         },
         "customization": {
             "campaign_customization": "Kustomisasi Kampanye",
@@ -1424,7 +1436,7 @@
             "full_campaigning_experience": "Ingin pengalaman berkampanye dengan fitur lengkap?",
             "right_plan_for_you": "Kalau begitu, Premium Creator adalah pilihan tepat untukmu.",
             "no_more_ads": "Tak ada lagi iklan yang mengganggu",
-            "enjoy_uninterrupted": "Nikmati pengalaman bebas gangguan tanpa iklan di Twibbonize. Temukan kenyamanan dari tampilan Twibbonize yang lebih bersih dan ramah pengguna.",
+            "enjoy_uninterrupted": "Anda tidak akan melihat iklan di akun Twibbonize Anda sendiri!",
             "right_tools": "Memfasilitasimu dengan fitur yang tepat",
             "scale_up": "Bikin kampanyemu naik level dengan fitur eksklusif kami.",
             "campaign_analytics_1": "Kampanye",
@@ -1459,14 +1471,14 @@
             "like_supporting_campaign_2": "kampanye lain?",
             "right_plan_for_you": "Kalau begitu, Premium Supporter adalah pilihan tepat untukmu.",
             "no_more_ads": "Bebas dari iklan yang mengganggu",
-            "enjoy_uninterrupted": "Nikmati pengalaman bebas gangguan tanpa iklan di Twibbonize. Temukan kenyamanan dari tampilan Twibbonize yang lebih bersih dan ramah pengguna.",
+            "enjoy_uninterrupted": "Anda tidak akan melihat iklan di akun Twibbonize Anda sendiri!",
             "remove_watermark": "Hapus Watermark untuk akunmu",
             "top_notch": "Bikin kampanyemu naik level",
             "considering_all": "Dengan segala kemudahannya, ini pasti sepadan",
             "use_twibbonize_without_ads": "Gunakan Twibbonize tanpa iklan",
             "as_a_free_user": "Sebagai pengguna gratis, Twibbonmu akan selalu ada <strong>watermark.<\/strong>",
             "premium_supporter": "<strong>Premium Supporter<\/strong> membuat Twibbon-mu bebas watermark.",
-            "now_you_can": "Sekarang kamu & pendukungmu bisa <strong>mendukung semua kampanye<\/strong> tanpa Watermark.",
+            "now_you_can": "Sekarang Anda dapat <strong>mendukung kampanye apa pun<\/strong> tanpa Tanda Air.",
             "remove_watermark_1": "Hapus",
             "remove_watermark_2": "Watermark",
             "for_audience_1": "untuk",
@@ -2531,7 +2543,9 @@
             "collection_updated": "Koleksi Diperbarui",
             "collection_deleted": "Koleksi Dihapus",
             "redirect_to_verification": "Kode verifikasi telah dikirim ke {email}",
-            "campaign_removed": "Kampanye Dihapus"
+            "campaign_removed": "Kampanye Dihapus",
+            "n_campaigns_deleted": "kampanye {n} dihapus",
+            "n_collections_deleted": "{n} koleksi dihapus"
         },
         "error": {
             "something_went_wrong": "Ada yang salah"
@@ -3251,6 +3265,17 @@
             "column_supports": "Supports",
             "column_last_modified": "Last Modified",
             "column_actions": "Actions"
+        },
+        "columns": {
+            "name": "Nama",
+            "supports": "Dukungan",
+            "last_modified": "Terakhir dimodifikasi",
+            "created_at": "Dibuat",
+            "actions": "Tindakan",
+            "type": "Jenis"
+        },
+        "selection": {
+            "n_selected": "{n} dipilih"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3293,17 @@
             "package_30": "Top-up Package 30",
             "generate_ai": "Generate an AI Twibbon",
             "credit_refund": "Credit Refund"
+        },
+        "buttons": {
+            "top_up": "Isi Ulang",
+            "details": "Detail"
+        },
+        "loading": {
+            "transactions": "Memuat lebih banyak transaksi"
+        },
+        "empty_state": {
+            "title": "Tidak Ditemukan Transaksi",
+            "description": "Tidak ada riwayat transaksi yang tersedia."
         }
     },
     "ai_twibbon": {
@@ -3346,12 +3382,17 @@
             "error_unknown_title": "Couldn't generate your image",
             "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
             "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Jenis file tidak valid. Pilih file gambar JPG, PNG, atau WebP.",
+            "invalid_size": "Ukuran file melebihi batas 5MB. Silakan pilih file yang lebih kecil."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Have voucher code"
+            "payment": "Have voucher code",
+            "have_voucher_code": "Memiliki kode voucher",
+            "redeem": "Tebus",
+            "continue_payment": "Lanjutkan ke Pembayaran"
         },
         "separator": {
             "voucher_code": "Enter Code"
@@ -3369,7 +3410,9 @@
         "support_text": {
             "enter_voucher_code": "Masukkan kode voucher Anda untuk menukarkan saldo pulsa",
             "info_balance_credits": "Pertama, isi ulang kredit Anda untuk menghasilkan AI Twibbon"
-        }
+        },
+        "voucher_redemption_terms_conditions": "Lihat {tautan} untuk penukaran voucher",
+        "purchasing_credits_terms_agreements": "Dengan membeli kredit, Anda menyetujui {link} kami."
     },
     "expand_menu_panel": {
         "button": {

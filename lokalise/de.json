@@ -301,7 +301,8 @@
             "start_campaign": "Eine Kampagne starten",
             "sign_in": "Anmelden",
             "sign_up": "Anmeldung",
-            "sign_out": "Abmelden"
+            "sign_out": "Abmelden",
+            "dashboard": "Dashboard"
         },
         "button": {
             "view_all": "Alle anzeigen",
@@ -336,7 +337,9 @@
             "previous": "Vorherige",
             "finish": "Oberfläche",
             "from": "von",
-            "close": "Anzeige schließen"
+            "close": "Anzeige schließen",
+            "continue": "Weiter",
+            "crop": "Kulturpflanzen"
         },
         "time": {
             "week": "Woche",
@@ -527,6 +530,10 @@
             "all_type": "Alle Typen",
             "background": "Hintergrund",
             "frame": "Rahmen"
+        },
+        "cropper": {
+            "adjust_image": "Bild anpassen",
+            "adjust_banner": "Banner anpassen"
         }
     },
     "page_home": {
@@ -816,11 +823,15 @@
             "processing_your_photo": "Bearbeitung Ihres Fotos",
             "photo_ready_to_download": "Ihr Foto ist bereit zum Download",
             "copy_caption": "Kopieren Sie diese Überschrift in die sozialen Medien!",
-            "gallery": "Gallery",
-            "no_post_yet": "No posts yet. Be the first to show your support by {button}",
-            "uploading_your_photo": "uploading your photo!",
-            "about_this_campaign": "About This Campaign",
-            "please_wait": "Please wait a moment. Don’t close this browser tab."
+            "gallery": "Galerie",
+            "no_post_yet": "Noch keine Beiträge. Seien Sie der Erste, der seine Unterstützung zeigt, indem Sie {button}",
+            "uploading_your_photo": "ihr Foto hochladen!",
+            "about_this_campaign": "Über diese Kampagne",
+            "please_wait": "Bitte warten Sie einen Moment. Schließen Sie diese Browser-Registerkarte nicht.",
+            "summary": "Zusammenfassung der Kampagne",
+            " summary_written_by_ai": "Diese Zusammenfassung wurde von AI erstellt, daher kann die Qualität variieren.",
+            "summary_detail_message": "Diese Zusammenfassung wird angezeigt, weil Ihre Kampagne keine Beschreibung hat. Fügen Sie eine hinzu, um sie zu ersetzen.",
+            "campaign_recommendation": "Mehr von diesem Ersteller"
         },
         "report": {
             "report_campaign": "Bericht",
@@ -1167,7 +1178,8 @@
             "url_not_available": "URL nicht verfügbar",
             "caption_placeholder": "Hallo, mein Name ist [[Ihr Name]] und ich bin dabei, um diese Kampagne zu unterstützen. Lassen Sie uns zusammenkommen und mit dieser Kampagne gemeinsam etwas bewirken!",
             "enter_description": "Beschreibung eingeben",
-            "optional": "Optional"
+            "optional": "Optional",
+            "ai_template_section_title": "Vorlage"
         },
         "customization": {
             "campaign_customization": "Kampagnenanpassung",
@@ -1424,7 +1436,7 @@
             "full_campaigning_experience": "Suchen Sie nach einer umfassenden Kampagnenerfahrung in Twibbonize?",
             "right_plan_for_you": "Dann ist Premium Creator der richtige Plan für Sie.",
             "no_more_ads": "Keine lästigen Werbeeinblendungen mehr",
-            "enjoy_uninterrupted": "Genießen Sie ein ununterbrochenes Erlebnis ohne Werbung auf Twibbonize. Machen Sie sich bereit, eine sauberere, benutzerfreundlichere Version von Twibbonize zu begrüßen.",
+            "enjoy_uninterrupted": "Sie werden keine Werbung mehr in Ihrem eigenen Twibbonize-Konto sehen!",
             "right_tools": "Sie mit den richtigen Werkzeugen ausstatten",
             "scale_up": "Erweitern Sie Ihre Kampagne mit unseren exklusiven Funktionen.",
             "campaign_analytics_1": "Kampagne",
@@ -1459,14 +1471,14 @@
             "like_supporting_campaign_2": "verschiedene Kampagnen?",
             "right_plan_for_you": "Dann ist Premium Supporter der richtige Plan für Sie.",
             "no_more_ads": "Keine lästigen Werbeeinblendungen mehr",
-            "enjoy_uninterrupted": "Genießen Sie ein ununterbrochenes Erlebnis ohne Werbung auf Twibbonize. Machen Sie sich bereit, eine sauberere, benutzerfreundlichere Version von Twibbonize zu begrüßen.",
+            "enjoy_uninterrupted": "Sie werden keine Werbung mehr in Ihrem eigenen Twibbonize-Konto sehen!",
             "remove_watermark": "Wasserzeichen für Ihr eigenes Konto entfernen",
             "top_notch": "Verbessern Sie Ihr Kampagnenspiel",
             "considering_all": "In Anbetracht der vielen Annehmlichkeiten ist es das wert",
             "use_twibbonize_without_ads": "Twibbonize ohne Werbung verwenden",
             "as_a_free_user": "Als kostenloser Nutzer verfügt Ihr Twibbon immer über <strong>ein Wasserzeichen.<\/strong>",
             "premium_supporter": "<strong>Premium Supporter<\/strong> entfernt das Wasserzeichen und sorgt so für ein sauberes Bild.",
-            "now_you_can": "Jetzt können Sie <strong>jede Kampagne<\/strong> ohne Wasserzeichen unterstützen.",
+            "now_you_can": "Jetzt können Sie <strong>jede Kampagne<\/strong> ohne Watermark unterstützen.",
             "remove_watermark_1": "Entfernen Sie",
             "remove_watermark_2": "das Wasserzeichen",
             "for_audience_1": "für",
@@ -2531,7 +2543,9 @@
             "collection_updated": "Sammlung aktualisiert",
             "collection_deleted": "Sammlung gelöscht",
             "redirect_to_verification": "Der Verifizierungscode wurde gesendet an {email}",
-            "campaign_removed": "Kampagne entfernt"
+            "campaign_removed": "Kampagne entfernt",
+            "n_campaigns_deleted": "{n} Kampagnen gelöscht",
+            "n_collections_deleted": "{n} Sammlungen gelöscht"
         },
         "error": {
             "something_went_wrong": "Etwas ist schief gelaufen"
@@ -3251,6 +3265,17 @@
             "column_supports": "Unterstützt",
             "column_last_modified": "Zuletzt modifiziert",
             "column_actions": "Aktionen"
+        },
+        "columns": {
+            "name": "Name",
+            "supports": "Unterstützt",
+            "last_modified": "Zuletzt modifiziert",
+            "created_at": "Erstellt",
+            "actions": "Aktionen",
+            "type": "Typ"
+        },
+        "selection": {
+            "n_selected": "{n} ausgewählt"
         }
     },
     "dashboard_balance": {
@@ -3268,6 +3293,17 @@
             "package_30": "Aufstockungspaket 30",
             "generate_ai": "Erzeugen eines AI-Twibbons",
             "credit_refund": "Kredit Rückerstattung"
+        },
+        "buttons": {
+            "top_up": "Aufstocken",
+            "details": "Einzelheiten"
+        },
+        "loading": {
+            "transactions": "Weitere Transaktionen laden"
+        },
+        "empty_state": {
+            "title": "Keine Transaktionen gefunden",
+            "description": "Keine Transaktionshistorie verfügbar."
         }
     },
     "ai_twibbon": {
@@ -3329,29 +3365,34 @@
             "credits_topup_success": "Aufladeguthaben erfolgreich!"
         },
         "states": {
-            "running_title": "Processing your photo",
-            "running_subtitle": "Please wait",
-            "completed_download_hint": "Photo not downloading?",
-            "completed_download_action": "Re-Download",
-            "interrupted_network_title": "Connection lost",
-            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
-            "interrupted_session_title": "You've Been Logged Out",
-            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
-            "error_failed_title": "Unable to process your images",
-            "error_failed_subtitle": "Please try again with images that meet our requirements.",
-            "error_nsfw_title": "Content Not Allowed",
-            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
-            "error_general_title": "Couldn't generate your image",
-            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
-            "error_unknown_title": "Couldn't generate your image",
-            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
-            "error_no_face_title": "No Face Detected",
-            "error_no_face_subtitle": "Please upload an image with a clear face."
+            "running_title": "Bearbeitung Ihres Fotos",
+            "running_subtitle": "Bitte warten",
+            "completed_download_hint": "Foto wird nicht heruntergeladen?",
+            "completed_download_action": "Neu herunterladen",
+            "interrupted_network_title": "Verbindung verloren",
+            "interrupted_network_subtitle": "Sie sind offline. Stellen Sie die Verbindung wieder her, um Ihr Bild zu erstellen.",
+            "interrupted_session_title": "Du wurdest abgemeldet",
+            "interrupted_session_subtitle": "Es sieht so aus, als ob du während der Erstellung deines AI Twibbons ausgeloggt wurdest. Bitte loggen Sie sich wieder ein, um fortzufahren",
+            "error_failed_title": "Ihre Bilder können nicht verarbeitet werden",
+            "error_failed_subtitle": "Bitte versuchen Sie es erneut mit Bildern, die unseren Anforderungen entsprechen.",
+            "error_nsfw_title": "Nicht zulässiger Inhalt",
+            "error_nsfw_subtitle": "NSFW-Inhalt entdeckt. Bitte versuchen Sie, ein anderes Bild hochzuladen, das unseren {content_guideline} entspricht",
+            "error_general_title": "Ihr Bild konnte nicht generiert werden",
+            "error_general_subtitle": "Auf unserer Seite ist etwas schief gelaufen. Für diesen Versuch wurden keine Kredite verwendet.",
+            "error_unknown_title": "Ihr Bild konnte nicht generiert werden",
+            "error_unknown_subtitle": "Wir können Ihre Eingaben nicht verarbeiten. Bitte versuchen Sie es mit anderen Bildern.",
+            "error_no_face_title": "Kein Gesicht erkannt",
+            "error_no_face_subtitle": "Bitte laden Sie ein Bild mit einem klaren Gesicht hoch.",
+            "invalid_types": "Ungültiger Dateityp. Bitte wählen Sie eine JPG-, PNG- oder WebP-Bilddatei.",
+            "invalid_size": "Die Dateigröße überschreitet die 5MB Grenze. Bitte wählen Sie eine kleinere Datei."
         }
     },
     "modal_puchase_credits": {
         "button": {
-            "payment": "Gutscheincode haben"
+            "payment": "Gutscheincode haben",
+            "have_voucher_code": "Gutscheincode haben",
+            "redeem": "Einlösen",
+            "continue_payment": "Weiter zur Zahlung"
         },
         "separator": {
             "voucher_code": "Code eingeben"
@@ -3369,7 +3410,9 @@
         "support_text": {
             "enter_voucher_code": "Bitte geben Sie Ihren Gutscheincode ein, um das Guthaben einzulösen",
             "info_balance_credits": "Laden Sie zunächst Ihr Guthaben auf, um ein KI-Twibbon zu generieren"
-        }
+        },
+        "voucher_redemption_terms_conditions": "Siehe {link} für die Einlösung des Gutscheins",
+        "purchasing_credits_terms_agreements": "Mit dem Kauf von Credits erklären Sie sich mit unserem {link} einverstanden."
     },
     "expand_menu_panel": {
         "button": {
