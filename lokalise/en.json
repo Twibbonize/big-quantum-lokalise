@@ -342,9 +342,6 @@
             "crop": "Crop",
             "refresh_page": "Refresh Page"
         },
-        "aria": {
-            "close": "Close"
-        },
         "time": {
             "week": "Week",
             "month": "Month",
@@ -538,6 +535,9 @@
         "cropper": {
             "adjust_image": "Adjust Image",
             "adjust_banner": "Adjust Banner"
+        },
+        "aria": {
+            "close": "Close"
         }
     },
     "page_home": {
@@ -635,9 +635,6 @@
         },
         "our_team": {
             "our_team": "Our Team",
-            "the_team": "The team",
-            "subtitle": "13 people. Indonesia. Seven years and counting.",
-            "description": "We've been building together since 2020. No one here joined because of a funding announcement or a TechCrunch feature. They joined because they thought this thing had a chance.",
             "view_all": "View all of our personnel (and each of their stories)",
             "here": "Here",
             "1": "Visiting Prambanan temple during our outing to Yogyakarta",
@@ -655,7 +652,10 @@
             "13": "Not sure what pose is this but yeah, we love Prambanan temple that much",
             "14": "Meeting Farhan, our backend engineer, for the first time. Glad he’s real (alive and not an AI)",
             "15": "Our US-based Advisor, Harry Sugama, visiting us in our new HQ!",
-            "16": "Working on our latest update"
+            "16": "Working on our latest update",
+            "the_team": "The team",
+            "subtitle": "13 people. Indonesia. Seven years and counting.",
+            "description": "We've been building together since 2020. No one here joined because of a funding announcement or a TechCrunch feature. They joined because they thought this thing had a chance."
         },
         "history": {
             "the_history": "The History of Twibbon",
@@ -1182,7 +1182,7 @@
             "not_found": "Collection not found",
             "try_another": "Try filter with other keyword",
             "no_campaigns_own_desc": "Start adding Campaigns to your Collections",
-            "no_campaigns_other_desc": "This user hasn't added any Campaigns to the Collection"
+            "no_campaigns_other_desc": "This user hasn't added any Campaigns to the Collection"
         },
         "placeholder": {
             "search_collections": "Search Collections"
@@ -1349,7 +1349,6 @@
             "bad_frame_examples": "Bad frame examples:"
         },
         "permission": {
-            "select_a_permission": "Select a permission",
             "gallery_permission": "Gallery Permission",
             "count_selected": "{count} Selected",
             "request_approval_to_add_post": "{username} request approval to add post on your campaign.",
@@ -1370,7 +1369,8 @@
             "or": "or",
             "to_manage": "to manage posts in your campaign",
             "view_request": "View Request",
-            "comment_disabled": "Comment Disabled"
+            "comment_disabled": "Comment Disabled",
+            "select_a_permission": "Select a permission"
         }
     },
     "page_for_creators": {
@@ -1397,7 +1397,7 @@
             "learn_more": "Learn More",
             "see_who_supports": "See who supports you",
             "see_real_people": "See the real people who support your campaign",
-            "campaign_analytics": "Campaign Analytics",
+            "campaign_analytics": "Track your campaign performance",
             "you_cant_improve": "Track your campaign performance and take it to the new heights",
             "know_supporters": "Real Interaction",
             "let_them_leave": "Let your Supporters share their thoughts and connect in the Comment section",
@@ -1535,8 +1535,8 @@
             "andar_bio_2": "Despite his limited experience in product management, Andar's commitment to learning and personal growth has been remarkable. He actively seeks out additional courses and training to expand his skill set, demonstrating a strong drive to improve. This proactive approach has allowed him to quickly excel as a Product Manager.",
             "angel_bio_1": "Angel is the freelance UX Writer who has helped us throughout the development of our website since Twibbonize website version 2.0. With a solid professional background in UX Writing, Angel seamlessly blends the art of storytelling with data-driven insights to create intuitive and engaging user experiences.",
             "angel_bio_2": "Her expertise in crafting clear and concise content ensures that every interaction is meaningful and accessible, enhancing the overall user journey on our platform.",
-            "adam_bio_1": "Adam is a dedicated and brilliant university sophomore who balances academic commitments with what can only be characterized as a natural talent for coding. He is a junior to Bernino, Fahmi, and Chandra at university, but his sincerity and work ethic have made him an impressive team member.",
-            "adam_bio_2": "Despite being a university student with a hectic schedule, Adam consistently produces excellent work and displays the talents and professionalism that can match our experienced engineers. Even before graduating, his dedication to excellence marked him as a promising young talent in the industry."
+            "adam_bio_1": "Adam is a dedicated and brilliant university sophomore who balances academic commitments with what can only be characterized as a natural talent for coding. He is a junior to Bernino, Fahmi, and Chandra at university, but his sincerity and work ethic have made him an impressive team member.",
+            "adam_bio_2": "Despite being a university student with a hectic schedule, Adam consistently produces excellent work and displays the talents and professionalism that can match our experienced engineers. Even before graduating, his dedication to excellence marked him as a promising young talent in the industry."
         }
     },
     "page_pricing": {
@@ -1575,11 +1575,11 @@
             "right_plan_for_you": "Premium Creator offers exclusive features to enrich your campaign."
         },
         "supporter": {
-            "like_supporting_campaign_1": "Do you like supporting campaigns?",
+            "like_supporting_campaign_1": "Do you like supporting different campaigns?",
             "like_supporting_campaign_2": "different campaigns?",
             "right_plan_for_you": "Then Premium Supporter is the right plan for you.",
             "no_more_ads": "No More Annoying Ads",
-            "enjoy_uninterrupted": "You will no longer see ads in your own Twibbonize account!",
+            "enjoy_uninterrupted": "While participating in any campaign you join, you won't see ads.",
             "top_notch": "Upgrade your campaign game",
             "considering_all": "Considering its value, it might be worth it for a lot of you.",
             "use_twibbonize_without_ads": "Use Twibbonize without Ads",
@@ -1635,9 +1635,9 @@
             "multiple_frames_2": "per campaign",
             "no_extra_features_1": "No Extra Features",
             "no_extra_features_2": "available",
-            "remove_all_watermark_1": "Remove Watermark",
+            "remove_all_watermark_1": "Remove Watermark for",
             "remove_all_watermark_2": "for all of your campaign users",
-            "remove_own_watermark_1": "Remove Watermark",
+            "remove_own_watermark_1": "Remove Watermark for",
             "on": "on",
             "extra_features": "Extra Features",
             "campaign_customization": "Campaign Customization",
@@ -2009,8 +2009,8 @@
             "enter_confirm_password": "Confirm your password"
         },
         "entrypoint_creator": {
-            "title": "Premium Creator Support",
-            "description": "Get 1-on-1 help for any feedback or issues"
+            "description": "Get 1-on-1 help for any feedback or issues",
+            "title": "Premium Creator Support"
         },
         "entrypoint_supporter": {
             "title": "Premium Supporter Support",
@@ -3075,7 +3075,8 @@
             "min_width": "Must be at least {min} pixels",
             "max_width": "Must be less than or equal to {max} pixels",
             "min_length": "The length must be at least {min} characters",
-            "max_length": "The length cannot exceed {max} characters"
+            "max_length": "The length cannot exceed {max} characters",
+            "field_invalid": "The input provided is invalid"
         },
         "failed_order": {
             "header": "We're having a problem with the payment system",
@@ -3227,7 +3228,7 @@
             "review_non_compliance": "The appeal review confirmed this non-compliance with our platform standards.",
             "no_one_can_see": "No one can see or find your account and you can't use it. ",
             "all_information_deleted": "All your information will be permanently deleted. ",
-            "cannot_request": "You cannot  request another review of this decision.",
+            "cannot_request": "You cannot  request another review of this decision.",
             "closed_account": "We've closed your account",
             "permanently_suspend": "We've decided to permanently suspend your account as no appeal was submitted within 180 days."
         }
@@ -3277,7 +3278,7 @@
     "app_update": {
         "pop_up": {
             "new_version_available": "New version available \n",
-            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
+            "new_version_available_desc": "Update the app to get the latest features. It usually takes less than a minute."
         },
         "button": {
             "update": "Update"
@@ -3312,7 +3313,7 @@
             "enjoy_no_watermark": "Enjoy your No Watermark Promo plan!"
         },
         "countdown": {
-            "title": "Your Remove Watermark Promo Plan expires in",
+            "title": "Your Remove Watermark Promo Plan expires in",
             "hours": "Hours",
             "minutes": "Minutes",
             "seconds": "Seconds",
