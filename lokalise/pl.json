@@ -1,65 +1,4 @@
 {
-    "ai_twibbon": {
-        "button": {
-            "upload_photo": "Prześlij swoje zdjęcie",
-            "reference": "Prześlij odniesienie",
-            "generate_ai": "Generowanie"
-        },
-        "popover_button": {
-            "shuffle": "Shuffle"
-        },
-        "button_secondary": {
-            "retry": "Ponów próbę"
-        },
-        "generation_error": {
-            "title": "Błąd generowania obrazu",
-            "paragraph": "Podczas procesu generowania obrazu wystąpił błąd"
-        },
-        "title": {
-            "nsfw_detected": "Niedozwolona zawartość"
-        },
-        "support_text": {
-            "nsfw_info": "Wykryto treści NSFW. Spróbuj przesłać inny obraz lub zdjęcie zgodne z naszymi wytycznymi dotyczącymi treści"
-        },
-        "text_link": {
-            "content_guideline": "Nasze wytyczne dotyczące treści"
-        },
-        "hint_text": {
-            "generate_ai": "Generowanie AI Twibbon może przynieść nieoczekiwane rezultaty"
-        },
-        "actions": {
-            "retry": "Ponów próbę",
-            "download": "Ponowne pobieranie",
-            "generate_ai": "Generowanie"
-        },
-        "labels": {
-            "credit_cost": "1"
-        },
-        "toast": {
-            "session_expired": "Sesja wygasła. Zaloguj się ponownie.",
-            "insufficient_credits": "Niewystarczająca ilość kredytów. Doładuj konto, aby kontynuować."
-        },
-        "states": {
-            "completed_download_hint": "Zdjęcie nie pobiera się?",
-            "completed_download_action": "Ponowne pobieranie",
-            "interrupted_network_title": "Połączenie utracone",
-            "interrupted_network_subtitle": "Jesteś offline. Połącz się ponownie, aby wygenerować obraz.",
-            "interrupted_session_title": "Zostałeś wylogowany",
-            "interrupted_session_subtitle": "Wygląda na to, że zostałeś wylogowany podczas generowania AI Twibbon. Zaloguj się ponownie, aby kontynuować",
-            "error_failed_title": "Nie można przetworzyć obrazów",
-            "error_failed_subtitle": "Spróbuj ponownie z obrazami, które spełniają nasze wymagania.",
-            "error_nsfw_title": "Niedozwolona zawartość",
-            "error_nsfw_subtitle": "Wykryto zawartość NSFW. Spróbuj przesłać inny obraz, który jest zgodny z naszymi {content_guideline}",
-            "error_general_title": "Nie można wygenerować obrazu",
-            "error_general_subtitle": "Coś poszło nie tak po naszej stronie. Przy tej próbie nie wykorzystano żadnych kredytów.",
-            "error_unknown_title": "Nie można wygenerować obrazu",
-            "error_unknown_subtitle": "Nie możemy przetworzyć danych wejściowych. Spróbuj użyć innych obrazów.",
-            "error_no_face_title": "Nie wykryto twarzy",
-            "error_no_face_subtitle": "Prześlij zdjęcie z wyraźną twarzą.",
-            "invalid_types": "Nieprawidłowy typ pliku. Wybierz plik obrazu JPG, PNG lub WebP.",
-            "invalid_size": "Rozmiar pliku przekracza limit 5 MB. Wybierz mniejszy plik."
-        }
-    },
     "appeal_system": {
         "form": {
             "warning": "Ostrzeżenie!",
@@ -175,7 +114,8 @@
             "sign_up": "Zarejestruj się",
             "sign_out": "Wyloguj się",
             "dashboard": "Pulpit nawigacyjny",
-            "view_profile": "View your profile"
+            "view_profile": "View your profile",
+            "content_guideline": "Our content guidelines"
         },
         "button": {
             "view_all": "Wyświetl wszystko",
@@ -213,7 +153,9 @@
             "close": "Zamknij ogłoszenie",
             "continue": "Kontynuuj",
             "crop": "Uprawa",
-            "refresh_page": "Odśwież stronę"
+            "refresh_page": "Odśwież stronę",
+            "retry": "Retry",
+            "generate": "Generate"
         },
         "time": {
             "week": "Tydzień",
@@ -1121,13 +1063,28 @@
             "upload_unsuccessful_title": "Przesyłanie nie powiodło się",
             "upload_unsuccessful_desc": "Nie mogliśmy przesłać pliku. Spróbuj ponownie, używając innej przeglądarki lub urządzenia. {link}",
             "trouble_publishing_title": "Masz problemy z publikacją kampanii?",
-            "trouble_publishing_message": "Zgłoś ten problem. Połączymy Cię z naszym działem obsługi klienta na czacie na żywo."
+            "trouble_publishing_message": "Zgłoś ten problem. Połączymy Cię z naszym działem obsługi klienta na czacie na żywo.",
+            "session_expired": "Session expired. Please log in again."
+        },
+        "states": {
+            "interrupted_network_title": "Connection lost",
+            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
+            "interrupted_session_title": "You've Been Logged Out",
+            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
+            "error_nsfw_title": "Content Not Allowed",
+            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
+            "error_general_title": "Couldn't generate your image",
+            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
+            "error_unknown_title": "Couldn't generate your image",
+            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
+            "error_no_face_title": "No Face Detected",
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "page_about": {
         "header": {
-            "about_us": "O nas",
-            "the_what": "Co, kto, dlaczego i jak",
             "hero_eyebrow": "O nas",
             "hero_title": "Przynależność była kiedyś widoczna",
             "hero_body_1": "Nosiłeś koszulkę. Przypinałeś odznakę. Niosłeś transparent. Stałeś w tłumie i wszyscy wokół widzieli, w czym brałeś udział.",

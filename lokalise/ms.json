@@ -1,65 +1,4 @@
 {
-    "ai_twibbon": {
-        "button": {
-            "upload_photo": "Muat naik Foto anda",
-            "reference": "Muat naik Rujukan",
-            "generate_ai": "Menjana"
-        },
-        "popover_button": {
-            "shuffle": "Kocok"
-        },
-        "button_secondary": {
-            "retry": "Cuba semula"
-        },
-        "generation_error": {
-            "title": "Ralat Penjanaan Imej",
-            "paragraph": "Ralat telah berlaku semasa proses penjanaan imej"
-        },
-        "title": {
-            "nsfw_detected": "Kandungan Tidak Dibenarkan"
-        },
-        "support_text": {
-            "nsfw_info": "Kandungan NSFW dikesan. Sila cuba muat naik imej atau foto lain yang mengikut garis panduan kandungan kami"
-        },
-        "text_link": {
-            "content_guideline": "Garis panduan kandungan kami"
-        },
-        "hint_text": {
-            "generate_ai": "Penjanaan AI Twibbon mungkin menghasilkan hasil yang tidak dijangka"
-        },
-        "actions": {
-            "retry": "Cuba semula",
-            "download": "Muat Turun Semula",
-            "generate_ai": "Menjana"
-        },
-        "labels": {
-            "credit_cost": "1"
-        },
-        "toast": {
-            "session_expired": "Sesi tamat tempoh. Sila log masuk semula.",
-            "insufficient_credits": "Kredit tidak mencukupi. Sila tambah nilai untuk meneruskan."
-        },
-        "states": {
-            "completed_download_hint": "Foto tidak dimuat turun?",
-            "completed_download_action": "Muat Turun Semula",
-            "interrupted_network_title": "Sambungan terputus",
-            "interrupted_network_subtitle": "Anda di luar talian. Sambung semula untuk menjana imej anda.",
-            "interrupted_session_title": "Anda Telah Log Keluar",
-            "interrupted_session_subtitle": "Nampaknya anda telah log keluar semasa menjana AI Twibbon anda. Sila log masuk semula untuk meneruskan",
-            "error_failed_title": "Tidak dapat memproses imej anda",
-            "error_failed_subtitle": "Sila cuba lagi dengan imej yang memenuhi keperluan kami.",
-            "error_nsfw_title": "Kandungan Tidak Dibenarkan",
-            "error_nsfw_subtitle": "Kandungan NSFW dikesan. Sila cuba muat naik imej lain yang mengikut {content_guideline} kami",
-            "error_general_title": "Tidak dapat menjana imej anda",
-            "error_general_subtitle": "Sesuatu telah berlaku di pihak kami. Tiada kredit digunakan untuk percubaan ini.",
-            "error_unknown_title": "Tidak dapat menjana imej anda",
-            "error_unknown_subtitle": "Kami tidak dapat memproses input anda. Sila cuba dengan imej lain.",
-            "error_no_face_title": "Tiada Wajah Dikesan",
-            "error_no_face_subtitle": "Sila muat naik imej dengan wajah yang jelas.",
-            "invalid_types": "Jenis fail tidak sah. Sila pilih fail imej JPG, PNG atau WebP.",
-            "invalid_size": "Saiz fail melebihi had 5MB. Sila pilih fail yang lebih kecil."
-        }
-    },
     "appeal_system": {
         "form": {
             "warning": "Amaran!",
@@ -175,7 +114,8 @@
             "sign_up": "Daftar",
             "sign_out": "Log Keluar",
             "dashboard": "Papan pemuka",
-            "view_profile": "View your profile"
+            "view_profile": "View your profile",
+            "content_guideline": "Our content guidelines"
         },
         "button": {
             "view_all": "Lihat semua",
@@ -213,7 +153,9 @@
             "close": "Tutup Iklan",
             "continue": "teruskan",
             "crop": "tanaman",
-            "refresh_page": "Segarkan Halaman"
+            "refresh_page": "Segarkan Halaman",
+            "retry": "Retry",
+            "generate": "Generate"
         },
         "time": {
             "week": "Minggu",
@@ -1121,13 +1063,28 @@
             "upload_unsuccessful_title": "Muat Naik Tidak Berjaya",
             "upload_unsuccessful_desc": "Kami tidak dapat memuat naik fail anda. Sila cuba lagi menggunakan penyemak imbas atau peranti lain. {link}",
             "trouble_publishing_title": "Masalah menerbitkan kempen anda?",
-            "trouble_publishing_message": "Sila laporkan isu ini. Anda akan disambungkan ke sokongan sembang langsung kami."
+            "trouble_publishing_message": "Sila laporkan isu ini. Anda akan disambungkan ke sokongan sembang langsung kami.",
+            "session_expired": "Session expired. Please log in again."
+        },
+        "states": {
+            "interrupted_network_title": "Connection lost",
+            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
+            "interrupted_session_title": "You've Been Logged Out",
+            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
+            "error_nsfw_title": "Content Not Allowed",
+            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
+            "error_general_title": "Couldn't generate your image",
+            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
+            "error_unknown_title": "Couldn't generate your image",
+            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
+            "error_no_face_title": "No Face Detected",
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "page_about": {
         "header": {
-            "about_us": "Tentang kita",
-            "the_what": "Apa, siapa, kenapa dan bagaimana",
             "hero_eyebrow": "Tentang kami",
             "hero_title": "Rasa kekitaan dahulunya dapat dilihat",
             "hero_body_1": "Awak pakai jersi. Awak pasang lencana. Awak bawa sepanduk. Awak berdiri di khalayak ramai dan semua orang di sekeliling awak dapat melihat bahagian awak.",

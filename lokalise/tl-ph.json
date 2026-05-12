@@ -1,65 +1,4 @@
 {
-    "ai_twibbon": {
-        "button": {
-            "upload_photo": "I-upload ang iyong Larawan",
-            "reference": "Mag-upload ng Sanggunian",
-            "generate_ai": "Bumuo"
-        },
-        "popover_button": {
-            "shuffle": "Balasahin"
-        },
-        "button_secondary": {
-            "retry": "Subukan muli"
-        },
-        "generation_error": {
-            "title": "Error sa Pagbuo ng Larawan",
-            "paragraph": "May naganap na error sa proseso ng pagbuo ng imahe"
-        },
-        "title": {
-            "nsfw_detected": "Hindi Pinapayagan ang Nilalaman"
-        },
-        "support_text": {
-            "nsfw_info": "Natukoy ang nilalaman ng NSFW. Pakisubukang mag-upload ng ibang larawan o larawan na sumusunod sa aming mga alituntunin sa nilalaman"
-        },
-        "text_link": {
-            "content_guideline": "Ang aming mga alituntunin sa nilalaman"
-        },
-        "hint_text": {
-            "generate_ai": "Ang pagbuo ng AI Twibbon ay maaaring makagawa ng mga hindi inaasahang resulta"
-        },
-        "actions": {
-            "retry": "Subukan muli",
-            "download": "Muling I-download",
-            "generate_ai": "Bumuo"
-        },
-        "labels": {
-            "credit_cost": "1"
-        },
-        "toast": {
-            "session_expired": "Nag-expire na ang session. Mangyaring mag-log in muli.",
-            "insufficient_credits": "Hindi sapat na mga kredito. Mangyaring mag-top up upang magpatuloy."
-        },
-        "states": {
-            "completed_download_hint": "Hindi dina-download ang larawan?",
-            "completed_download_action": "Muling I-download",
-            "interrupted_network_title": "Nawala ang koneksyon",
-            "interrupted_network_subtitle": "Offline ka. Muling kumonekta upang mabuo ang iyong larawan.",
-            "interrupted_session_title": "Ikaw ay Naka-log Out",
-            "interrupted_session_subtitle": "Mukhang naka-log out ka habang binubuo ang iyong AI Twibbon. Mangyaring mag-log in muli upang magpatuloy",
-            "error_failed_title": "Hindi maproseso ang iyong mga larawan",
-            "error_failed_subtitle": "Pakisubukang muli gamit ang mga larawang nakakatugon sa aming mga kinakailangan.",
-            "error_nsfw_title": "Hindi Pinapayagan ang Nilalaman",
-            "error_nsfw_subtitle": "Natukoy ang nilalaman ng NSFW. Pakisubukang mag-upload ng ibang larawan na sumusunod sa aming {content_guideline}",
-            "error_general_title": "Hindi mabuo ang iyong larawan",
-            "error_general_subtitle": "May nangyaring mali sa aming panig. Walang ginamit na credit para sa pagtatangkang ito.",
-            "error_unknown_title": "Hindi mabuo ang iyong larawan",
-            "error_unknown_subtitle": "Hindi namin maproseso ang iyong mga input. Mangyaring subukan sa iba pang mga larawan.",
-            "error_no_face_title": "Walang Natukoy na Mukha",
-            "error_no_face_subtitle": "Mangyaring mag-upload ng larawang may malinaw na mukha.",
-            "invalid_types": "Di-wastong uri ng file. Mangyaring pumili ng JPG, PNG, o WebP image file.",
-            "invalid_size": "Lampas sa 5MB na limitasyon ang laki ng file. Mangyaring pumili ng mas maliit na file."
-        }
-    },
     "appeal_system": {
         "form": {
             "warning": "Babala!",
@@ -175,7 +114,8 @@
             "sign_up": "Mag-sign Up",
             "sign_out": "Mag-sign Out",
             "dashboard": "Dashboard",
-            "view_profile": "View your profile"
+            "view_profile": "View your profile",
+            "content_guideline": "Our content guidelines"
         },
         "button": {
             "view_all": "Tingnan lahat",
@@ -213,7 +153,9 @@
             "close": "Isara ang Ad",
             "continue": "Magpatuloy",
             "crop": "I-crop",
-            "refresh_page": "I-refresh ang Pahina"
+            "refresh_page": "I-refresh ang Pahina",
+            "retry": "Retry",
+            "generate": "Generate"
         },
         "time": {
             "week": "Linggo",
@@ -1121,13 +1063,28 @@
             "upload_unsuccessful_title": "Hindi Matagumpay ang Pag-upload",
             "upload_unsuccessful_desc": "Hindi namin ma-upload ang iyong file. Pakisubukang muli gamit ang ibang browser o device. {link}",
             "trouble_publishing_title": "Nagkakaproblema sa pag-publish ng iyong kampanya?",
-            "trouble_publishing_message": "Pakiulat ang isyung ito. Makakakonekta ka sa aming live chat support."
+            "trouble_publishing_message": "Pakiulat ang isyung ito. Makakakonekta ka sa aming live chat support.",
+            "session_expired": "Session expired. Please log in again."
+        },
+        "states": {
+            "interrupted_network_title": "Connection lost",
+            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
+            "interrupted_session_title": "You've Been Logged Out",
+            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
+            "error_nsfw_title": "Content Not Allowed",
+            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
+            "error_general_title": "Couldn't generate your image",
+            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
+            "error_unknown_title": "Couldn't generate your image",
+            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
+            "error_no_face_title": "No Face Detected",
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "page_about": {
         "header": {
-            "about_us": "Tungkol sa atin",
-            "the_what": "Ang ano, sino, bakit at paano",
             "hero_eyebrow": "Tungkol sa amin",
             "hero_title": "Dati nakikita ang pagiging kabilang",
             "hero_body_1": "Isinuot mo ang jersey. Idiniin mo ang badge. Dala mo ang banner. Tumayo ka sa karamihan at nakita ng lahat ng nakapaligid sa iyo kung saan ka kabilang.",

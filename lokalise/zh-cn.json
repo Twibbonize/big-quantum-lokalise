@@ -1,65 +1,4 @@
 {
-    "ai_twibbon": {
-        "button": {
-            "upload_photo": "上传你的照片",
-            "reference": "上传参考",
-            "generate_ai": "产生"
-        },
-        "popover_button": {
-            "shuffle": "随机播放"
-        },
-        "button_secondary": {
-            "retry": "重试"
-        },
-        "generation_error": {
-            "title": "图像生成错误",
-            "paragraph": "图像生成过程中发生错误"
-        },
-        "title": {
-            "nsfw_detected": "内容不允许"
-        },
-        "support_text": {
-            "nsfw_info": "检测到 NSFW 内容。请尝试上传符合我们内容准则的其他图片或照片。"
-        },
-        "text_link": {
-            "content_guideline": "我们的内容指南"
-        },
-        "hint_text": {
-            "generate_ai": "AI Twibbon 生成可能会产生意想不到的结果"
-        },
-        "actions": {
-            "retry": "重试",
-            "download": "重新下载",
-            "generate_ai": "产生"
-        },
-        "labels": {
-            "credit_cost": "1"
-        },
-        "toast": {
-            "session_expired": "会话已过期。请重新登录。",
-            "insufficient_credits": "积分不足。请充值后继续。"
-        },
-        "states": {
-            "completed_download_hint": "照片没有下载？",
-            "completed_download_action": "重新下载",
-            "interrupted_network_title": "连接丢失",
-            "interrupted_network_subtitle": "您处于离线状态。请重新连接以生成您的图像。",
-            "interrupted_session_title": "您已退出",
-            "interrupted_session_subtitle": "您在生成 AI Twibbon 时似乎已退出。请重新登录以继续",
-            "error_failed_title": "无法处理您的图像",
-            "error_failed_subtitle": "请使用符合我们要求的图像重试。",
-            "error_nsfw_title": "内容不允许",
-            "error_nsfw_subtitle": "检测到 NSFW 内容。请尝试上传符合我们{content_guideline} 的其他图片。",
-            "error_general_title": "无法生成您的图片",
-            "error_general_subtitle": "我们这边出了点问题。本次尝试未使用任何积分。",
-            "error_unknown_title": "无法生成您的图片",
-            "error_unknown_subtitle": "我们无法处理您的输入。请尝试使用其他图片。",
-            "error_no_face_title": "未检测到人脸",
-            "error_no_face_subtitle": "请上传一张脸部清晰的图像。",
-            "invalid_types": "文件类型无效。请选择 JPG、PNG 或 WebP 图像文件。",
-            "invalid_size": "文件大小超出 5MB 限制。请选择较小的文件。"
-        }
-    },
     "appeal_system": {
         "form": {
             "warning": "警告！",
@@ -175,7 +114,8 @@
             "sign_up": "报名",
             "sign_out": "登出",
             "dashboard": "仪表板",
-            "view_profile": "View your profile"
+            "view_profile": "View your profile",
+            "content_guideline": "Our content guidelines"
         },
         "button": {
             "view_all": "查看全部",
@@ -213,7 +153,9 @@
             "close": "关闭广告",
             "continue": "继续",
             "crop": "庄稼",
-            "refresh_page": "刷新页面"
+            "refresh_page": "刷新页面",
+            "retry": "Retry",
+            "generate": "Generate"
         },
         "time": {
             "week": "星期",
@@ -1121,13 +1063,28 @@
             "upload_unsuccessful_title": "上传失败",
             "upload_unsuccessful_desc": "我们无法上传您的文件。请使用其他浏览器或设备重试。{link}",
             "trouble_publishing_title": "发布活动遇到问题？",
-            "trouble_publishing_message": "请报告此问题。您将被转接到我们的在线客服。"
+            "trouble_publishing_message": "请报告此问题。您将被转接到我们的在线客服。",
+            "session_expired": "Session expired. Please log in again."
+        },
+        "states": {
+            "interrupted_network_title": "Connection lost",
+            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
+            "interrupted_session_title": "You've Been Logged Out",
+            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
+            "error_nsfw_title": "Content Not Allowed",
+            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
+            "error_general_title": "Couldn't generate your image",
+            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
+            "error_unknown_title": "Couldn't generate your image",
+            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
+            "error_no_face_title": "No Face Detected",
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "page_about": {
         "header": {
-            "about_us": "关于我们",
-            "the_what": "什么、谁、为什么和如何",
             "hero_eyebrow": "关于我们",
             "hero_title": "归属感曾经是显而易见的。",
             "hero_body_1": "你穿上了球衣，佩戴了徽章，举起了横幅，站在人群中，周围的每个人都能看出你属于哪个群体。",

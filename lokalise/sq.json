@@ -1,65 +1,4 @@
 {
-    "ai_twibbon": {
-        "button": {
-            "upload_photo": "Ngarko Foton tënde",
-            "reference": "Referencë ngarkimi",
-            "generate_ai": "Gjenero"
-        },
-        "popover_button": {
-            "shuffle": "Përziej"
-        },
-        "button_secondary": {
-            "retry": "Riprovo"
-        },
-        "generation_error": {
-            "title": "Gabim në Gjenerimin e Imazhit",
-            "paragraph": "Ka ndodhur një gabim gjatë procesit të gjenerimit të imazhit"
-        },
-        "title": {
-            "nsfw_detected": "Përmbajtja nuk lejohet"
-        },
-        "support_text": {
-            "nsfw_info": "Përmbajtje NSFW e zbuluar. Ju lutemi provoni të ngarkoni një imazh ose foto tjetër që ndjek udhëzimet tona të përmbajtjes."
-        },
-        "text_link": {
-            "content_guideline": "Udhëzimet tona për përmbajtjen"
-        },
-        "hint_text": {
-            "generate_ai": "Gjenerimi i Twibbon-it me inteligjencë artificiale mund të japë rezultate të papritura"
-        },
-        "actions": {
-            "retry": "Riprovo",
-            "download": "Ri-Shkarko",
-            "generate_ai": "Gjenero"
-        },
-        "labels": {
-            "credit_cost": "1"
-        },
-        "toast": {
-            "session_expired": "Sesioni skadoi. Ju lutemi, hyni përsëri.",
-            "insufficient_credits": "Kredite të pamjaftueshme. Ju lutemi rimbushni për të vazhduar."
-        },
-        "states": {
-            "completed_download_hint": "Fotografia nuk po shkarkohet?",
-            "completed_download_action": "Ri-Shkarko",
-            "interrupted_network_title": "Lidhja u humb",
-            "interrupted_network_subtitle": "Je jashtë linje. Lidhu përsëri për të gjeneruar imazhin tënd.",
-            "interrupted_session_title": "Je çregjistruar",
-            "interrupted_session_subtitle": "Me sa duket, je çregjistruar gjatë gjenerimit të Twibbon-it tënd me inteligjencë artificiale. Hyr përsëri për të vazhduar.",
-            "error_failed_title": "Imazhet tuaja nuk mund të përpunohen",
-            "error_failed_subtitle": "Ju lutemi provoni përsëri me imazhe që plotësojnë kërkesat tona.",
-            "error_nsfw_title": "Përmbajtja nuk lejohet",
-            "error_nsfw_subtitle": "Përmbajtje NSFW e zbuluar. Ju lutemi provoni të ngarkoni një imazh tjetër që ndjek {content_guideline} tonë.",
-            "error_general_title": "Imazhi juaj nuk mund të gjenerohej",
-            "error_general_subtitle": "Diçka shkoi keq nga ana jonë. Nuk u përdorën kredite për këtë përpjekje.",
-            "error_unknown_title": "Imazhi juaj nuk mund të gjenerohej",
-            "error_unknown_subtitle": "Nuk mund t'i përpunojmë të dhënat tuaja. Ju lutemi provoni me imazhe të tjera.",
-            "error_no_face_title": "Nuk u zbulua asnjë fytyrë",
-            "error_no_face_subtitle": "Ju lutem ngarkoni një imazh me fytyrë të qartë.",
-            "invalid_types": "Lloj skedari i pavlefshëm. Zgjidh një skedar imazhi JPG, PNG ose WebP.",
-            "invalid_size": "Madhësia e skedarit tejkalon limitin prej 5MB. Zgjidh një skedar më të vogël."
-        }
-    },
     "appeal_system": {
         "form": {
             "warning": "Paralajmërim!",
@@ -175,7 +114,8 @@
             "sign_up": "Regjistrohu",
             "sign_out": "Dilni",
             "dashboard": "Paneli i kontrollit",
-            "view_profile": "View your profile"
+            "view_profile": "View your profile",
+            "content_guideline": "Our content guidelines"
         },
         "button": {
             "view_all": "Shiko te gjitha",
@@ -213,7 +153,9 @@
             "close": "Mbyll shpalljen",
             "continue": "Vazhdo",
             "crop": "Prit",
-            "refresh_page": "Rifresko faqen"
+            "refresh_page": "Rifresko faqen",
+            "retry": "Retry",
+            "generate": "Generate"
         },
         "time": {
             "week": "javë",
@@ -1121,13 +1063,28 @@
             "upload_unsuccessful_title": "Ngarkimi i pasuksesshëm",
             "upload_unsuccessful_desc": "Nuk mundëm të ngarkonim skedarin tuaj. Ju lutemi provoni përsëri duke përdorur një shfletues ose pajisje tjetër. {link}",
             "trouble_publishing_title": "Probleme me publikimin e fushatës suaj?",
-            "trouble_publishing_message": "Ju lutemi raportoni këtë problem. Do të lidheni me mbështetjen tonë përmes bisedës së drejtpërdrejtë."
+            "trouble_publishing_message": "Ju lutemi raportoni këtë problem. Do të lidheni me mbështetjen tonë përmes bisedës së drejtpërdrejtë.",
+            "session_expired": "Session expired. Please log in again."
+        },
+        "states": {
+            "interrupted_network_title": "Connection lost",
+            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
+            "interrupted_session_title": "You've Been Logged Out",
+            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
+            "error_nsfw_title": "Content Not Allowed",
+            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
+            "error_general_title": "Couldn't generate your image",
+            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
+            "error_unknown_title": "Couldn't generate your image",
+            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
+            "error_no_face_title": "No Face Detected",
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "page_about": {
         "header": {
-            "about_us": "Rreth Nesh",
-            "the_what": "Çfarë, kush, pse dhe si",
             "hero_eyebrow": "Rreth nesh",
             "hero_title": "Përkatësia dikur ishte e dukshme",
             "hero_body_1": "Ti e veshe fanellën. E fiksove stemën. Mbaje flamurin. Qëndroje në turmë dhe të gjithë përreth teje mund të shihnin se në çfarë pjese ishe.",

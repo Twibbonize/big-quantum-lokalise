@@ -1,65 +1,4 @@
 {
-    "ai_twibbon": {
-        "button": {
-            "upload_photo": "Prenesite svoju fotografiju",
-            "reference": "Prenesi referencu",
-            "generate_ai": "Generirati"
-        },
-        "popover_button": {
-            "shuffle": "Nasumično reproduciranje"
-        },
-        "button_secondary": {
-            "retry": "Pokušaj ponovno"
-        },
-        "generation_error": {
-            "title": "Pogreška u generiranju slike",
-            "paragraph": "Došlo je do pogreške tijekom procesa generiranja slike"
-        },
-        "title": {
-            "nsfw_detected": "Sadržaj nije dopušten"
-        },
-        "support_text": {
-            "nsfw_info": "Otkriven je sadržaj koji nije namijenjen za gledanje na radnom mjestu. Pokušajte prenijeti drugu sliku ili fotografiju koja je u skladu s našim smjernicama za sadržaj."
-        },
-        "text_link": {
-            "content_guideline": "Naše smjernice za sadržaj"
-        },
-        "hint_text": {
-            "generate_ai": "Generiranje AI Twibbona može dati neočekivane rezultate"
-        },
-        "actions": {
-            "retry": "Pokušaj ponovno",
-            "download": "Ponovno preuzimanje",
-            "generate_ai": "Generirati"
-        },
-        "labels": {
-            "credit_cost": "1"
-        },
-        "toast": {
-            "session_expired": "Sesija je istekla. Molimo vas da se ponovno prijavite.",
-            "insufficient_credits": "Nedovoljno kredita. Molimo vas da nadoplatite za nastavak."
-        },
-        "states": {
-            "completed_download_hint": "Fotografija se ne preuzima?",
-            "completed_download_action": "Ponovno preuzimanje",
-            "interrupted_network_title": "Veza je prekinuta",
-            "interrupted_network_subtitle": "Niste povezani s internetom. Ponovno se povežite kako biste generirali sliku.",
-            "interrupted_session_title": "Odjavljeni ste",
-            "interrupted_session_subtitle": "Izgleda da ste se odjavili tijekom generiranja vašeg AI Twibbona. Molimo vas da se ponovno prijavite za nastavak.",
-            "error_failed_title": "Nije moguće obraditi vaše slike",
-            "error_failed_subtitle": "Molimo pokušajte ponovno sa slikama koje zadovoljavaju naše uvjete.",
-            "error_nsfw_title": "Sadržaj nije dopušten",
-            "error_nsfw_subtitle": "Otkriven je sadržaj koji nije namijenjen za gledanje na radnom mjestu. Pokušajte prenijeti drugu sliku koja slijedi naše {content_guideline}",
-            "error_general_title": "Nije moguće generirati vašu sliku",
-            "error_general_subtitle": "Nešto je pošlo po zlu s naše strane. Za ovaj pokušaj nisu iskorišteni krediti.",
-            "error_unknown_title": "Nije moguće generirati vašu sliku",
-            "error_unknown_subtitle": "Ne možemo obraditi vaše unose. Pokušajte s drugim slikama.",
-            "error_no_face_title": "Nije otkriveno lice",
-            "error_no_face_subtitle": "Molimo prenesite sliku s jasnim licem.",
-            "invalid_types": "Nevažeća vrsta datoteke. Odaberite JPG, PNG ili WebP slikovnu datoteku.",
-            "invalid_size": "Veličina datoteke prelazi ograničenje od 5 MB. Odaberite manju datoteku."
-        }
-    },
     "appeal_system": {
         "form": {
             "warning": "Upozorenje!",
@@ -175,7 +114,8 @@
             "sign_up": "Prijavite se",
             "sign_out": "Odjavi se",
             "dashboard": "Nadzorna ploča",
-            "view_profile": "View your profile"
+            "view_profile": "View your profile",
+            "content_guideline": "Our content guidelines"
         },
         "button": {
             "view_all": "Pogledaj sve",
@@ -213,7 +153,9 @@
             "close": "Zatvori oglas",
             "continue": "Nastaviti",
             "crop": "Obrezivanje",
-            "refresh_page": "Osvježi stranicu"
+            "refresh_page": "Osvježi stranicu",
+            "retry": "Retry",
+            "generate": "Generate"
         },
         "time": {
             "week": "Tjedan",
@@ -1121,13 +1063,28 @@
             "upload_unsuccessful_title": "Prijenos neuspješan",
             "upload_unsuccessful_desc": "Nismo mogli prenijeti vašu datoteku. Pokušajte ponovo pomoću drugog preglednika ili uređaja. {link}",
             "trouble_publishing_title": "Imate problema s objavljivanjem kampanje?",
-            "trouble_publishing_message": "Molimo prijavite ovaj problem. Bit ćete povezani s našom podrškom putem chata uživo."
+            "trouble_publishing_message": "Molimo prijavite ovaj problem. Bit ćete povezani s našom podrškom putem chata uživo.",
+            "session_expired": "Session expired. Please log in again."
+        },
+        "states": {
+            "interrupted_network_title": "Connection lost",
+            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
+            "interrupted_session_title": "You've Been Logged Out",
+            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
+            "error_nsfw_title": "Content Not Allowed",
+            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
+            "error_general_title": "Couldn't generate your image",
+            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
+            "error_unknown_title": "Couldn't generate your image",
+            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
+            "error_no_face_title": "No Face Detected",
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "page_about": {
         "header": {
-            "about_us": "O nama",
-            "the_what": "Što, tko, zašto i kako",
             "hero_eyebrow": "O nama",
             "hero_title": "Pripadnost je nekad bila vidljiva",
             "hero_body_1": "Nosio si dres. Prikvačio si značku. Nosio si transparent. Stajao si u gomili i svi oko tebe mogli su vidjeti čega si dio.",

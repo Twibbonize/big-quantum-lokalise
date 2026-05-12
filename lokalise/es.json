@@ -1,65 +1,4 @@
 {
-    "ai_twibbon": {
-        "button": {
-            "upload_photo": "Cargue su foto",
-            "reference": "Subir Referencia",
-            "generate_ai": "Genere"
-        },
-        "popover_button": {
-            "shuffle": "Baraja"
-        },
-        "button_secondary": {
-            "retry": "Reintentar"
-        },
-        "generation_error": {
-            "title": "Error de generación de imágenes",
-            "paragraph": "Se ha producido un error durante el proceso de generación de la imagen"
-        },
-        "title": {
-            "nsfw_detected": "Contenido no permitido"
-        },
-        "support_text": {
-            "nsfw_info": "Contenido NSFW detectado. Por favor, intente subir una imagen o foto diferente que siga nuestras directrices de contenido"
-        },
-        "text_link": {
-            "content_guideline": "Nuestras directrices sobre contenidos"
-        },
-        "hint_text": {
-            "generate_ai": "La generación de Twibbon con IA puede producir resultados inesperados"
-        },
-        "actions": {
-            "retry": "Reintentar",
-            "download": "Volver a descargar",
-            "generate_ai": "Genere"
-        },
-        "labels": {
-            "credit_cost": "1"
-        },
-        "toast": {
-            "session_expired": "Sesión expirada. Por favor, conéctese de nuevo.",
-            "insufficient_credits": "Créditos insuficientes. Por favor, recargue para continuar."
-        },
-        "states": {
-            "completed_download_hint": "¿No se descarga la foto?",
-            "completed_download_action": "Volver a descargar",
-            "interrupted_network_title": "Conexión perdida",
-            "interrupted_network_subtitle": "Estás desconectado. Vuelve a conectarte para generar tu imagen.",
-            "interrupted_session_title": "Has sido desconectado",
-            "interrupted_session_subtitle": "Parece que te has desconectado mientras generabas tu Twibbon AI. Vuelve a conectarte para continuar",
-            "error_failed_title": "No se pueden procesar las imágenes",
-            "error_failed_subtitle": "Por favor, inténtelo de nuevo con imágenes que cumplan nuestros requisitos.",
-            "error_nsfw_title": "Contenido no permitido",
-            "error_nsfw_subtitle": "Contenido NSFW detectado. Por favor, intenta subir una imagen diferente que siga nuestras {content_guideline}",
-            "error_general_title": "No se ha podido generar su imagen",
-            "error_general_subtitle": "Algo salió mal por nuestra parte. No se utilizaron créditos para este intento.",
-            "error_unknown_title": "No se ha podido generar su imagen",
-            "error_unknown_subtitle": "No podemos procesar sus entradas. Por favor, inténtelo con otras imágenes.",
-            "error_no_face_title": "No se detecta ninguna cara",
-            "error_no_face_subtitle": "Por favor, suba una imagen con la cara despejada.",
-            "invalid_types": "Tipo de archivo no válido. Seleccione un archivo de imagen JPG, PNG o WebP.",
-            "invalid_size": "El tamaño del archivo supera el límite de 5 MB. Seleccione un archivo más pequeño."
-        }
-    },
     "appeal_system": {
         "form": {
             "warning": "¡Atención!",
@@ -175,7 +114,8 @@
             "sign_up": "Registrarse",
             "sign_out": "Cerrar sesión",
             "dashboard": "Cuadro de mandos",
-            "view_profile": "View your profile"
+            "view_profile": "View your profile",
+            "content_guideline": "Our content guidelines"
         },
         "button": {
             "view_all": "Ver todos",
@@ -213,7 +153,9 @@
             "close": "Cerrar anuncio",
             "continue": "Continúe en",
             "crop": "Cultivos",
-            "refresh_page": "Actualizar página"
+            "refresh_page": "Actualizar página",
+            "retry": "Retry",
+            "generate": "Generate"
         },
         "time": {
             "week": "Semana",
@@ -1121,13 +1063,28 @@
             "upload_unsuccessful_title": "Carga fallida",
             "upload_unsuccessful_desc": "No hemos podido cargar su archivo. Por favor, inténtalo de nuevo utilizando otro navegador o dispositivo. {link}",
             "trouble_publishing_title": "¿Problemas para publicar tu campaña?",
-            "trouble_publishing_message": "Por favor, reporte este problema. Se le conectará con nuestro chat de soporte en vivo."
+            "trouble_publishing_message": "Por favor, reporte este problema. Se le conectará con nuestro chat de soporte en vivo.",
+            "session_expired": "Session expired. Please log in again."
+        },
+        "states": {
+            "interrupted_network_title": "Connection lost",
+            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
+            "interrupted_session_title": "You've Been Logged Out",
+            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
+            "error_nsfw_title": "Content Not Allowed",
+            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
+            "error_general_title": "Couldn't generate your image",
+            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
+            "error_unknown_title": "Couldn't generate your image",
+            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
+            "error_no_face_title": "No Face Detected",
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "page_about": {
         "header": {
-            "about_us": "Quiénes somos",
-            "the_what": "El qué, el quién, el por qué y el cómo",
             "hero_eyebrow": "Sobre nosotros",
             "hero_title": "El sentido de pertenencia solía ser visible.",
             "hero_body_1": "Llevabas la camiseta. Te pusiste el escudo. Llevabas la pancarta. Estabas entre la multitud y todos a tu alrededor podían ver de qué formabas parte.",

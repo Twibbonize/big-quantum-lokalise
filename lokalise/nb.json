@@ -1,65 +1,4 @@
 {
-    "ai_twibbon": {
-        "button": {
-            "upload_photo": "Last opp bildet ditt",
-            "reference": "Last opp referanse",
-            "generate_ai": "Generer"
-        },
-        "popover_button": {
-            "shuffle": "Shuffle"
-        },
-        "button_secondary": {
-            "retry": "Prøv på nytt"
-        },
-        "generation_error": {
-            "title": "Feil i bildegenerering",
-            "paragraph": "Det har oppstått en feil under bildegenereringsprosessen"
-        },
-        "title": {
-            "nsfw_detected": "Innhold som ikke er tillatt"
-        },
-        "support_text": {
-            "nsfw_info": "NSFW-innhold oppdaget. Prøv å laste opp et annet bilde eller bilde som følger retningslinjene våre for innhold"
-        },
-        "text_link": {
-            "content_guideline": "Våre retningslinjer for innhold"
-        },
-        "hint_text": {
-            "generate_ai": "AI Twibbon-generering kan gi uventede resultater"
-        },
-        "actions": {
-            "retry": "Prøv på nytt",
-            "download": "Last ned på nytt",
-            "generate_ai": "Generer"
-        },
-        "labels": {
-            "credit_cost": "1"
-        },
-        "toast": {
-            "session_expired": "Økten er utløpt. Vennligst logg inn på nytt.",
-            "insufficient_credits": "Utilstrekkelig med kreditter. Vennligst fyll på for å fortsette."
-        },
-        "states": {
-            "completed_download_hint": "Bildet lastes ikke ned?",
-            "completed_download_action": "Last ned på nytt",
-            "interrupted_network_title": "Forbindelsen mistet",
-            "interrupted_network_subtitle": "Du er frakoblet. Koble til igjen for å generere bildet ditt.",
-            "interrupted_session_title": "Du har blitt logget ut",
-            "interrupted_session_subtitle": "Det ser ut til at du har blitt logget av mens du genererte AI Twibbon. Vennligst logg inn igjen for å fortsette",
-            "error_failed_title": "Kan ikke behandle bildene dine",
-            "error_failed_subtitle": "Prøv igjen med bilder som oppfyller våre krav.",
-            "error_nsfw_title": "Innhold som ikke er tillatt",
-            "error_nsfw_subtitle": "NSFW-innhold oppdaget. Prøv å laste opp et annet bilde som følger våre {content_guideline}",
-            "error_general_title": "Kunne ikke generere bildet ditt",
-            "error_general_subtitle": "Noe gikk galt på vår side. Ingen kreditter ble brukt til dette forsøket.",
-            "error_unknown_title": "Kunne ikke generere bildet ditt",
-            "error_unknown_subtitle": "Vi kan ikke behandle inndataene dine. Vennligst prøv med andre bilder.",
-            "error_no_face_title": "Ingen ansikt oppdaget",
-            "error_no_face_subtitle": "Last opp et bilde med et tydelig ansikt.",
-            "invalid_types": "Ugyldig filtype. Vennligst velg en JPG-, PNG- eller WebP-bildefil.",
-            "invalid_size": "Filstørrelsen overskrider grensen på 5 MB. Vennligst velg en mindre fil."
-        }
-    },
     "appeal_system": {
         "form": {
             "warning": "Advarsel!",
@@ -175,7 +114,8 @@
             "sign_up": "Registrer deg",
             "sign_out": "Logg ut",
             "dashboard": "Dashbord",
-            "view_profile": "View your profile"
+            "view_profile": "View your profile",
+            "content_guideline": "Our content guidelines"
         },
         "button": {
             "view_all": "Se alle",
@@ -213,7 +153,9 @@
             "close": "Lukk annonse",
             "continue": "Fortsett",
             "crop": "Avling",
-            "refresh_page": "Oppdater siden"
+            "refresh_page": "Oppdater siden",
+            "retry": "Retry",
+            "generate": "Generate"
         },
         "time": {
             "week": "Uke",
@@ -1121,13 +1063,28 @@
             "upload_unsuccessful_title": "Opplasting mislykket",
             "upload_unsuccessful_desc": "Vi kunne ikke laste opp filen din. Prøv igjen med en annen nettleser eller enhet. {link}",
             "trouble_publishing_title": "Problemer med å publisere kampanjen din?",
-            "trouble_publishing_message": "Vennligst rapporter dette problemet. Du vil bli koblet til vår live chat-støtte."
+            "trouble_publishing_message": "Vennligst rapporter dette problemet. Du vil bli koblet til vår live chat-støtte.",
+            "session_expired": "Session expired. Please log in again."
+        },
+        "states": {
+            "interrupted_network_title": "Connection lost",
+            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
+            "interrupted_session_title": "You've Been Logged Out",
+            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
+            "error_nsfw_title": "Content Not Allowed",
+            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
+            "error_general_title": "Couldn't generate your image",
+            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
+            "error_unknown_title": "Couldn't generate your image",
+            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
+            "error_no_face_title": "No Face Detected",
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "page_about": {
         "header": {
-            "about_us": "Om oss",
-            "the_what": "Hva, hvem, hvorfor og hvordan",
             "hero_eyebrow": "Om oss",
             "hero_title": "Tilhørighet pleide å være synlig",
             "hero_body_1": "Du hadde på deg drakten. Du festet merket. Du bar banneret. Du sto i mengden, og alle rundt deg kunne se hva du var en del av.",

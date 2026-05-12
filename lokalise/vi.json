@@ -1,65 +1,4 @@
 {
-    "ai_twibbon": {
-        "button": {
-            "upload_photo": "Tải ảnh của bạn lên",
-            "reference": "Tải lên tài liệu tham khảo",
-            "generate_ai": "Phát ra"
-        },
-        "popover_button": {
-            "shuffle": "Xáo trộn"
-        },
-        "button_secondary": {
-            "retry": "Thử lại"
-        },
-        "generation_error": {
-            "title": "Lỗi tạo hình ảnh",
-            "paragraph": "Đã xảy ra lỗi trong quá trình tạo hình ảnh"
-        },
-        "title": {
-            "nsfw_detected": "Nội dung không được phép"
-        },
-        "support_text": {
-            "nsfw_info": "Đã phát hiện nội dung NSFW. Vui lòng thử tải lên hình ảnh hoặc ảnh khác tuân thủ nguyên tắc nội dung của chúng tôi."
-        },
-        "text_link": {
-            "content_guideline": "Nguyên tắc nội dung của chúng tôi"
-        },
-        "hint_text": {
-            "generate_ai": "Thế hệ AI Twibbon có thể tạo ra những kết quả bất ngờ"
-        },
-        "actions": {
-            "retry": "Thử lại",
-            "download": "Tải lại",
-            "generate_ai": "Phát ra"
-        },
-        "labels": {
-            "credit_cost": "1"
-        },
-        "toast": {
-            "session_expired": "Phiên đã hết hạn. Vui lòng đăng nhập lại.",
-            "insufficient_credits": "Không đủ tín dụng. Vui lòng nạp tiền để tiếp tục."
-        },
-        "states": {
-            "completed_download_hint": "Không tải được ảnh?",
-            "completed_download_action": "Tải lại",
-            "interrupted_network_title": "Mất kết nối",
-            "interrupted_network_subtitle": "Bạn đang ngoại tuyến. Hãy kết nối lại để tạo hình ảnh.",
-            "interrupted_session_title": "Bạn đã đăng xuất",
-            "interrupted_session_subtitle": "Có vẻ như bạn đã bị đăng xuất khi tạo AI Twibbon. Vui lòng đăng nhập lại để tiếp tục.",
-            "error_failed_title": "Không thể xử lý hình ảnh của bạn",
-            "error_failed_subtitle": "Vui lòng thử lại với hình ảnh đáp ứng yêu cầu của chúng tôi.",
-            "error_nsfw_title": "Nội dung không được phép",
-            "error_nsfw_subtitle": "Đã phát hiện nội dung NSFW. Vui lòng thử tải lên một hình ảnh khác tuân theo {content_guideline} của chúng tôi.",
-            "error_general_title": "Không thể tạo hình ảnh của bạn",
-            "error_general_subtitle": "Có sự cố xảy ra từ phía chúng tôi. Không có tín dụng nào được sử dụng cho lần thử này.",
-            "error_unknown_title": "Không thể tạo hình ảnh của bạn",
-            "error_unknown_subtitle": "Chúng tôi không thể xử lý thông tin bạn nhập. Vui lòng thử với hình ảnh khác.",
-            "error_no_face_title": "Không phát hiện được khuôn mặt",
-            "error_no_face_subtitle": "Vui lòng tải lên hình ảnh có khuôn mặt rõ ràng.",
-            "invalid_types": "Định dạng tệp không hợp lệ. Vui lòng chọn tệp hình ảnh JPG, PNG hoặc WebP.",
-            "invalid_size": "Kích thước tệp vượt quá giới hạn 5MB. Vui lòng chọn tệp nhỏ hơn."
-        }
-    },
     "appeal_system": {
         "form": {
             "warning": "Cảnh báo!",
@@ -175,7 +114,8 @@
             "sign_up": "Đăng ký",
             "sign_out": "Đăng xuất",
             "dashboard": "Bảng điều khiển",
-            "view_profile": "View your profile"
+            "view_profile": "View your profile",
+            "content_guideline": "Our content guidelines"
         },
         "button": {
             "view_all": "Xem tất cả",
@@ -213,7 +153,9 @@
             "close": "Đóng quảng cáo",
             "continue": "Tiếp tục",
             "crop": "Mùa vụ",
-            "refresh_page": "Làm mới trang"
+            "refresh_page": "Làm mới trang",
+            "retry": "Retry",
+            "generate": "Generate"
         },
         "time": {
             "week": "Tuần",
@@ -1121,13 +1063,28 @@
             "upload_unsuccessful_title": "Tải lên không thành công",
             "upload_unsuccessful_desc": "Chúng tôi không thể tải tệp của bạn lên. Vui lòng thử lại bằng trình duyệt hoặc thiết bị khác. {link}",
             "trouble_publishing_title": "Gặp sự cố khi đăng tải chiến dịch?",
-            "trouble_publishing_message": "Vui lòng báo cáo sự cố này. Bạn sẽ được kết nối với bộ phận hỗ trợ trực tuyến của chúng tôi."
+            "trouble_publishing_message": "Vui lòng báo cáo sự cố này. Bạn sẽ được kết nối với bộ phận hỗ trợ trực tuyến của chúng tôi.",
+            "session_expired": "Session expired. Please log in again."
+        },
+        "states": {
+            "interrupted_network_title": "Connection lost",
+            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
+            "interrupted_session_title": "You've Been Logged Out",
+            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
+            "error_nsfw_title": "Content Not Allowed",
+            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
+            "error_general_title": "Couldn't generate your image",
+            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
+            "error_unknown_title": "Couldn't generate your image",
+            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
+            "error_no_face_title": "No Face Detected",
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "page_about": {
         "header": {
-            "about_us": "Về chúng tôi",
-            "the_what": "Cái gì, ai, tại sao và như thế nào",
             "hero_eyebrow": "Về chúng tôi",
             "hero_title": "Sự thuộc về từng rất rõ ràng.",
             "hero_body_1": "Bạn mặc chiếc áo đấu. Bạn cài huy hiệu. Bạn cầm biểu ngữ. Bạn đứng giữa đám đông và mọi người xung quanh đều có thể thấy bạn là một phần của điều gì.",

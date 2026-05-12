@@ -1,65 +1,4 @@
 {
-    "ai_twibbon": {
-        "button": {
-            "upload_photo": "Nahrajte svoju fotografiu",
-            "reference": "Nahrať odkaz",
-            "generate_ai": "Generovať"
-        },
-        "popover_button": {
-            "shuffle": "Náhodný výber"
-        },
-        "button_secondary": {
-            "retry": "Opakovanie"
-        },
-        "generation_error": {
-            "title": "Chyba pri generovaní obrázkov",
-            "paragraph": "Počas procesu generovania obrázka sa vyskytla chyba"
-        },
-        "title": {
-            "nsfw_detected": "Obsah nie je povolený"
-        },
-        "support_text": {
-            "nsfw_info": "Zistený obsah NSFW. Skúste nahrať iný obrázok alebo fotografiu, ktoré budú v súlade s našimi usmerneniami o obsahu"
-        },
-        "text_link": {
-            "content_guideline": "Naše usmernenia týkajúce sa obsahu"
-        },
-        "hint_text": {
-            "generate_ai": "Generovanie pások AI Twibbon môže priniesť neočakávané výsledky"
-        },
-        "actions": {
-            "retry": "Opakovanie",
-            "download": "Opätovné stiahnutie",
-            "generate_ai": "Generovať"
-        },
-        "labels": {
-            "credit_cost": "1"
-        },
-        "toast": {
-            "session_expired": "Zasadnutie sa skončilo. Prihláste sa znova.",
-            "insufficient_credits": "Nedostatok kreditov. Prosím, doplňte si ich, aby ste mohli pokračovať."
-        },
-        "states": {
-            "completed_download_hint": "Fotografia sa nedá stiahnuť?",
-            "completed_download_action": "Opätovné stiahnutie",
-            "interrupted_network_title": "Strata spojenia",
-            "interrupted_network_subtitle": "Ste offline. Znovu sa pripojte a vygenerujte si obrázok.",
-            "interrupted_session_title": "Boli ste odhlásení",
-            "interrupted_session_subtitle": "Vyzerá to, že ste boli počas generovania pásky AI Twibbon odhlásen. Ak chcete pokračovať, prihláste sa späť",
-            "error_failed_title": "Nie je možné spracovať vaše obrázky",
-            "error_failed_subtitle": "Skúste to prosím znova s obrázkami, ktoré spĺňajú naše požiadavky.",
-            "error_nsfw_title": "Obsah nie je povolený",
-            "error_nsfw_subtitle": "Zistený obsah NSFW. Skúste prosím nahrať iný obrázok, ktorý bude dodržiavať naše {content_guideline}",
-            "error_general_title": "Nepodarilo sa vygenerovať váš obrázok",
-            "error_general_subtitle": "Na našej strane sa niečo pokazilo. Pri tomto pokuse neboli použité žiadne kredity.",
-            "error_unknown_title": "Nepodarilo sa vygenerovať váš obrázok",
-            "error_unknown_subtitle": "Vaše vstupy nemôžeme spracovať. Skúste to, prosím, s inými obrázkami.",
-            "error_no_face_title": "Žiadna zistená tvár",
-            "error_no_face_subtitle": "Nahrajte obrázok s jasnou tvárou.",
-            "invalid_types": "Nesprávny typ súboru. Prosím, vyberte obrázkový súbor JPG, PNG alebo WebP.",
-            "invalid_size": "Veľkosť súboru prekračuje limit 5 MB. Prosím, vyberte menší súbor."
-        }
-    },
     "appeal_system": {
         "form": {
             "warning": "Varovanie!",
@@ -175,7 +114,8 @@
             "sign_up": "Zaregistrujte sa",
             "sign_out": "Odhlásiť sa",
             "dashboard": "Prístrojová doska",
-            "view_profile": "View your profile"
+            "view_profile": "View your profile",
+            "content_guideline": "Our content guidelines"
         },
         "button": {
             "view_all": "Zobraziť všetko",
@@ -213,7 +153,9 @@
             "close": "Zavrieť reklamu",
             "continue": "Pokračovať",
             "crop": "Plodiny",
-            "refresh_page": "Obnoviť stránku"
+            "refresh_page": "Obnoviť stránku",
+            "retry": "Retry",
+            "generate": "Generate"
         },
         "time": {
             "week": "Týždeň",
@@ -1121,13 +1063,28 @@
             "upload_unsuccessful_title": "Nahrávanie neúspešné",
             "upload_unsuccessful_desc": "Váš súbor sa nám nepodarilo nahrať. Prosím, skúste to znova pomocou iného prehliadača alebo zariadenia. {link}",
             "trouble_publishing_title": "Máte problémy so zverejnením kampane?",
-            "trouble_publishing_message": "Nahláste tento problém. Budete prepojení s našou podporou prostredníctvom živého chatu."
+            "trouble_publishing_message": "Nahláste tento problém. Budete prepojení s našou podporou prostredníctvom živého chatu.",
+            "session_expired": "Session expired. Please log in again."
+        },
+        "states": {
+            "interrupted_network_title": "Connection lost",
+            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
+            "interrupted_session_title": "You've Been Logged Out",
+            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
+            "error_nsfw_title": "Content Not Allowed",
+            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
+            "error_general_title": "Couldn't generate your image",
+            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
+            "error_unknown_title": "Couldn't generate your image",
+            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
+            "error_no_face_title": "No Face Detected",
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "page_about": {
         "header": {
-            "about_us": "O nás",
-            "the_what": "Čo, kto, prečo a ako",
             "hero_eyebrow": "O nás",
             "hero_title": "Príslušnosť bývala viditeľná",
             "hero_body_1": "Nosil si dres. Pripol si si odznak. Niesol si transparent. Stál si v dave a všetci okolo teba videli, čoho si súčasťou.",

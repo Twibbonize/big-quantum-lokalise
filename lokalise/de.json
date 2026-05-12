@@ -1,65 +1,4 @@
 {
-    "ai_twibbon": {
-        "button": {
-            "upload_photo": "Ihr Foto hochladen",
-            "reference": "Referenz hochladen",
-            "generate_ai": "Erzeugen Sie"
-        },
-        "popover_button": {
-            "shuffle": "Mischen"
-        },
-        "button_secondary": {
-            "retry": "Wiederholung"
-        },
-        "generation_error": {
-            "title": "Fehler bei der Bilderzeugung",
-            "paragraph": "Während der Bilderzeugung ist ein Fehler aufgetreten"
-        },
-        "title": {
-            "nsfw_detected": "Nicht zulässiger Inhalt"
-        },
-        "support_text": {
-            "nsfw_info": "NSFW-Inhalt entdeckt. Bitte versuchen Sie, ein anderes Bild oder Foto hochzuladen, das unseren Inhaltsrichtlinien entspricht"
-        },
-        "text_link": {
-            "content_guideline": "Unsere Leitlinien für den Inhalt"
-        },
-        "hint_text": {
-            "generate_ai": "AI Twibbon-Generierung kann unerwartete Ergebnisse liefern"
-        },
-        "actions": {
-            "retry": "Wiederholung",
-            "download": "Neu herunterladen",
-            "generate_ai": "Erzeugen Sie"
-        },
-        "labels": {
-            "credit_cost": "1"
-        },
-        "toast": {
-            "session_expired": "Die Sitzung ist abgelaufen. Bitte melden Sie sich erneut an.",
-            "insufficient_credits": "Unzureichendes Guthaben. Bitte laden Sie auf, um fortzufahren."
-        },
-        "states": {
-            "completed_download_hint": "Foto wird nicht heruntergeladen?",
-            "completed_download_action": "Neu herunterladen",
-            "interrupted_network_title": "Verbindung verloren",
-            "interrupted_network_subtitle": "Sie sind offline. Stellen Sie die Verbindung wieder her, um Ihr Bild zu erstellen.",
-            "interrupted_session_title": "Du wurdest abgemeldet",
-            "interrupted_session_subtitle": "Es sieht so aus, als ob du während der Erstellung deines AI Twibbons ausgeloggt wurdest. Bitte loggen Sie sich wieder ein, um fortzufahren",
-            "error_failed_title": "Ihre Bilder können nicht verarbeitet werden",
-            "error_failed_subtitle": "Bitte versuchen Sie es erneut mit Bildern, die unseren Anforderungen entsprechen.",
-            "error_nsfw_title": "Nicht zulässiger Inhalt",
-            "error_nsfw_subtitle": "NSFW-Inhalt entdeckt. Bitte versuchen Sie, ein anderes Bild hochzuladen, das unseren {content_guideline} entspricht",
-            "error_general_title": "Ihr Bild konnte nicht generiert werden",
-            "error_general_subtitle": "Auf unserer Seite ist etwas schief gelaufen. Für diesen Versuch wurden keine Kredite verwendet.",
-            "error_unknown_title": "Ihr Bild konnte nicht generiert werden",
-            "error_unknown_subtitle": "Wir können Ihre Eingaben nicht verarbeiten. Bitte versuchen Sie es mit anderen Bildern.",
-            "error_no_face_title": "Kein Gesicht erkannt",
-            "error_no_face_subtitle": "Bitte laden Sie ein Bild mit einem klaren Gesicht hoch.",
-            "invalid_types": "Ungültiger Dateityp. Bitte wählen Sie eine JPG-, PNG- oder WebP-Bilddatei.",
-            "invalid_size": "Die Dateigröße überschreitet die 5MB Grenze. Bitte wählen Sie eine kleinere Datei."
-        }
-    },
     "appeal_system": {
         "form": {
             "warning": "Warnung!",
@@ -175,7 +114,8 @@
             "sign_up": "Anmeldung",
             "sign_out": "Abmelden",
             "dashboard": "Dashboard",
-            "view_profile": "View your profile"
+            "view_profile": "View your profile",
+            "content_guideline": "Our content guidelines"
         },
         "button": {
             "view_all": "Alle anzeigen",
@@ -213,7 +153,9 @@
             "close": "Anzeige schließen",
             "continue": "Weiter",
             "crop": "Kulturpflanzen",
-            "refresh_page": "Seite aktualisieren"
+            "refresh_page": "Seite aktualisieren",
+            "retry": "Retry",
+            "generate": "Generate"
         },
         "time": {
             "week": "Woche",
@@ -1121,13 +1063,28 @@
             "upload_unsuccessful_title": "Upload erfolglos",
             "upload_unsuccessful_desc": "Wir konnten Ihre Datei nicht hochladen. Bitte versuchen Sie es mit einem anderen Browser oder Gerät erneut. {link}",
             "trouble_publishing_title": "Probleme bei der Veröffentlichung Ihrer Kampagne?",
-            "trouble_publishing_message": "Bitte melden Sie dieses Problem. Sie werden mit unserem Live-Chat-Support verbunden."
+            "trouble_publishing_message": "Bitte melden Sie dieses Problem. Sie werden mit unserem Live-Chat-Support verbunden.",
+            "session_expired": "Session expired. Please log in again."
+        },
+        "states": {
+            "interrupted_network_title": "Connection lost",
+            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
+            "interrupted_session_title": "You've Been Logged Out",
+            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
+            "error_nsfw_title": "Content Not Allowed",
+            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
+            "error_general_title": "Couldn't generate your image",
+            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
+            "error_unknown_title": "Couldn't generate your image",
+            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
+            "error_no_face_title": "No Face Detected",
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "page_about": {
         "header": {
-            "about_us": "Über uns",
-            "the_what": "Das Was, Wer, Warum und Wie",
             "hero_eyebrow": "Über uns",
             "hero_title": "Zugehörigkeit war früher sichtbar",
             "hero_body_1": "Du hast das Trikot getragen. Du hast das Abzeichen angeheftet. Du hast das Banner getragen. Du standest in der Menge und jeder um dich herum konnte sehen, wozu du gehörtest.",

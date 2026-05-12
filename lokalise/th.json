@@ -1,65 +1,4 @@
 {
-    "ai_twibbon": {
-        "button": {
-            "upload_photo": "อัพโหลดรูปภาพของคุณ",
-            "reference": "อัพโหลดข้อมูลอ้างอิง",
-            "generate_ai": "สร้าง"
-        },
-        "popover_button": {
-            "shuffle": "สับเปลี่ยน"
-        },
-        "button_secondary": {
-            "retry": "ลองใหม่อีกครั้ง"
-        },
-        "generation_error": {
-            "title": "ข้อผิดพลาดในการสร้างภาพ",
-            "paragraph": "เกิดข้อผิดพลาดระหว่างกระบวนการสร้างภาพ"
-        },
-        "title": {
-            "nsfw_detected": "เนื้อหาไม่ได้รับอนุญาต"
-        },
-        "support_text": {
-            "nsfw_info": "ตรวจพบเนื้อหา NSFW โปรดลองอัปโหลดรูปภาพหรือรูปถ่ายอื่นที่เป็นไปตามหลักเกณฑ์เนื้อหาของเรา"
-        },
-        "text_link": {
-            "content_guideline": "แนวทางเนื้อหาของเรา"
-        },
-        "hint_text": {
-            "generate_ai": "การสร้าง AI Twibbon อาจสร้างผลลัพธ์ที่ไม่คาดคิด"
-        },
-        "actions": {
-            "retry": "ลองใหม่อีกครั้ง",
-            "download": "ดาวน์โหลดอีกครั้ง",
-            "generate_ai": "สร้าง"
-        },
-        "labels": {
-            "credit_cost": "1"
-        },
-        "toast": {
-            "session_expired": "เซสชั่นหมดอายุแล้ว กรุณาเข้าสู่ระบบอีกครั้ง",
-            "insufficient_credits": "เครดิตไม่เพียงพอ กรุณาเติมเงินเพื่อดำเนินการต่อ"
-        },
-        "states": {
-            "completed_download_hint": "รูปภาพไม่สามารถดาวน์โหลด?",
-            "completed_download_action": "ดาวน์โหลดอีกครั้ง",
-            "interrupted_network_title": "การเชื่อมต่อขาดหาย",
-            "interrupted_network_subtitle": "คุณออฟไลน์อยู่ โปรดเชื่อมต่อใหม่เพื่อสร้างภาพของคุณ",
-            "interrupted_session_title": "คุณถูกออกจากระบบแล้ว",
-            "interrupted_session_subtitle": "ดูเหมือนว่าคุณได้ออกจากระบบขณะสร้าง AI Twibbon ของคุณ โปรดเข้าสู่ระบบอีกครั้งเพื่อดำเนินการต่อ",
-            "error_failed_title": "ไม่สามารถประมวลผลภาพของคุณได้",
-            "error_failed_subtitle": "โปรดลองอีกครั้งด้วยรูปภาพที่ตรงตามข้อกำหนดของเรา",
-            "error_nsfw_title": "เนื้อหาไม่ได้รับอนุญาต",
-            "error_nsfw_subtitle": "ตรวจพบเนื้อหา NSFW โปรดลองอัปโหลดรูปภาพอื่นที่เป็นไปตาม {content_guideline} ของเรา",
-            "error_general_title": "ไม่สามารถสร้างภาพของคุณได้",
-            "error_general_subtitle": "มีบางอย่างผิดพลาดเกิดขึ้นที่ฝั่งของเรา ไม่มีการใช้เครดิตสำหรับความพยายามนี้",
-            "error_unknown_title": "ไม่สามารถสร้างภาพของคุณได้",
-            "error_unknown_subtitle": "เราไม่สามารถประมวลผลข้อมูลของคุณได้ โปรดลองใช้รูปภาพอื่น",
-            "error_no_face_title": "ไม่พบใบหน้า",
-            "error_no_face_subtitle": "กรุณาอัพโหลดรูปภาพที่มีใบหน้าที่ชัดเจน",
-            "invalid_types": "ประเภทไฟล์ไม่ถูกต้อง กรุณาเลือกไฟล์ภาพ JPG, PNG หรือ WebP",
-            "invalid_size": "ขนาดไฟล์เกินขีดจำกัด 5MB กรุณาเลือกไฟล์ขนาดเล็กกว่านี้"
-        }
-    },
     "appeal_system": {
         "form": {
             "warning": "คำเตือน!",
@@ -175,7 +114,8 @@
             "sign_up": "ลงชื่อ",
             "sign_out": "ออกจากระบบ",
             "dashboard": "แดชบอร์ด",
-            "view_profile": "View your profile"
+            "view_profile": "View your profile",
+            "content_guideline": "Our content guidelines"
         },
         "button": {
             "view_all": "ดูทั้งหมด",
@@ -213,7 +153,9 @@
             "close": "ปิดโฆษณา",
             "continue": "ดำเนินการต่อ",
             "crop": "พืชผล",
-            "refresh_page": "รีเฟรชหน้าเว็บ"
+            "refresh_page": "รีเฟรชหน้าเว็บ",
+            "retry": "Retry",
+            "generate": "Generate"
         },
         "time": {
             "week": "สัปดาห์",
@@ -1121,13 +1063,28 @@
             "upload_unsuccessful_title": "อัพโหลดไม่สำเร็จ",
             "upload_unsuccessful_desc": "ไม่สามารถอัปโหลดไฟล์ของคุณได้ โปรดลองอีกครั้งโดยใช้เบราว์เซอร์หรืออุปกรณ์อื่น {link}",
             "trouble_publishing_title": "มีปัญหาในการเผยแพร่แคมเปญของคุณหรือไม่?",
-            "trouble_publishing_message": "โปรดแจ้งปัญหาดังกล่าว คุณจะได้รับการเชื่อมต่อไปยังฝ่ายสนับสนุนทางแชทสดของเรา"
+            "trouble_publishing_message": "โปรดแจ้งปัญหาดังกล่าว คุณจะได้รับการเชื่อมต่อไปยังฝ่ายสนับสนุนทางแชทสดของเรา",
+            "session_expired": "Session expired. Please log in again."
+        },
+        "states": {
+            "interrupted_network_title": "Connection lost",
+            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
+            "interrupted_session_title": "You've Been Logged Out",
+            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
+            "error_nsfw_title": "Content Not Allowed",
+            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
+            "error_general_title": "Couldn't generate your image",
+            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
+            "error_unknown_title": "Couldn't generate your image",
+            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
+            "error_no_face_title": "No Face Detected",
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "page_about": {
         "header": {
-            "about_us": "เกี่ยวกับเรา",
-            "the_what": "อะไร ใคร ทำไม และอย่างไร",
             "hero_eyebrow": "เกี่ยวกับเรา",
             "hero_title": "ความรู้สึกเป็นเจ้าของเคยเป็นสิ่งที่มองเห็นได้ง่าย",
             "hero_body_1": "คุณสวมเสื้อทีม คุณติดเข็มกลัด คุณถือธง คุณยืนอยู่ในฝูงชน และทุกคนรอบตัวคุณสามารถเห็นได้ว่าคุณเป็นส่วนหนึ่งของอะไร",

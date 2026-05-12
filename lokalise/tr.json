@@ -1,65 +1,4 @@
 {
-    "ai_twibbon": {
-        "button": {
-            "upload_photo": "Fotoğrafınızı Yükleyin",
-            "reference": "Referans Yükle",
-            "generate_ai": "Oluşturmak"
-        },
-        "popover_button": {
-            "shuffle": "Karıştır"
-        },
-        "button_secondary": {
-            "retry": "Yeniden Dene"
-        },
-        "generation_error": {
-            "title": "Görüntü Oluşturma Hatası",
-            "paragraph": "Görüntü oluşturma işlemi sırasında bir hata oluştu"
-        },
-        "title": {
-            "nsfw_detected": "İzin Verilmeyen İçerik"
-        },
-        "support_text": {
-            "nsfw_info": "NSFW içerik algılandı. Lütfen içerik yönergelerimize uygun farklı bir resim veya fotoğraf yüklemeyi deneyin"
-        },
-        "text_link": {
-            "content_guideline": "İçerik yönergelerimiz"
-        },
-        "hint_text": {
-            "generate_ai": "Yapay zeka Twibbon üretimi beklenmedik sonuçlar doğurabilir"
-        },
-        "actions": {
-            "retry": "Yeniden Dene",
-            "download": "Yeniden İndir",
-            "generate_ai": "Oluşturmak"
-        },
-        "labels": {
-            "credit_cost": "1"
-        },
-        "toast": {
-            "session_expired": "Oturum süresi doldu. Lütfen tekrar giriş yapın.",
-            "insufficient_credits": "Yetersiz kredi. Devam etmek için lütfen tamamlayın."
-        },
-        "states": {
-            "completed_download_hint": "Fotoğraf indirilmiyor mu?",
-            "completed_download_action": "Yeniden İndir",
-            "interrupted_network_title": "Bağlantı kesildi",
-            "interrupted_network_subtitle": "Çevrimdışı durumdasınız. Görüntünüzü oluşturmak için yeniden bağlanın.",
-            "interrupted_session_title": "Oturumunuz Kapatıldı",
-            "interrupted_session_subtitle": "AI Twibbon'unuzu oluştururken oturumunuz kapatılmış gibi görünüyor. Devam etmek için lütfen tekrar giriş yapın",
-            "error_failed_title": "Görüntüleriniz işlenemiyor",
-            "error_failed_subtitle": "Lütfen gereksinimlerimizi karşılayan resimlerle tekrar deneyin.",
-            "error_nsfw_title": "İzin Verilmeyen İçerik",
-            "error_nsfw_subtitle": "NSFW içerik algılandı. Lütfen {content_guideline} yönergemize uygun farklı bir resim yüklemeyi deneyin",
-            "error_general_title": "Resminiz oluşturulamadı",
-            "error_general_subtitle": "Bizim tarafımızda bir şeyler ters gitti. Bu girişim için kredi kullanılmadı.",
-            "error_unknown_title": "Resminiz oluşturulamadı",
-            "error_unknown_subtitle": "Girdilerinizi işleyemiyoruz. Lütfen başka resimlerle deneyin.",
-            "error_no_face_title": "Yüz Algılanmadı",
-            "error_no_face_subtitle": "Lütfen yüzü net olan bir resim yükleyin.",
-            "invalid_types": "Geçersiz dosya türü. Lütfen bir JPG, PNG veya WebP görüntü dosyası seçin.",
-            "invalid_size": "Dosya boyutu 5MB sınırını aşıyor. Lütfen daha küçük bir dosya seçin."
-        }
-    },
     "appeal_system": {
         "form": {
             "warning": "Uyarı!",
@@ -175,7 +114,8 @@
             "sign_up": "Kaydolun",
             "sign_out": "Çıkış Yapın",
             "dashboard": "Gösterge Tablosu",
-            "view_profile": "View your profile"
+            "view_profile": "View your profile",
+            "content_guideline": "Our content guidelines"
         },
         "button": {
             "view_all": "Tümünü Görüntüle",
@@ -213,7 +153,9 @@
             "close": "Reklamı Kapat",
             "continue": "Devam et",
             "crop": "Mahsul",
-            "refresh_page": "Sayfayı Yenile"
+            "refresh_page": "Sayfayı Yenile",
+            "retry": "Retry",
+            "generate": "Generate"
         },
         "time": {
             "week": "Hafta",
@@ -1121,13 +1063,28 @@
             "upload_unsuccessful_title": "Yükleme Başarısız",
             "upload_unsuccessful_desc": "Dosyanızı yükleyemedik. Lütfen başka bir tarayıcı veya cihaz kullanarak tekrar deneyin. {link}",
             "trouble_publishing_title": "Kampanyanızı yayınlamakta sorun mu yaşıyorsunuz?",
-            "trouble_publishing_message": "Lütfen bu sorunu bildirin. Canlı sohbet destek ekibimize bağlanacaksınız."
+            "trouble_publishing_message": "Lütfen bu sorunu bildirin. Canlı sohbet destek ekibimize bağlanacaksınız.",
+            "session_expired": "Session expired. Please log in again."
+        },
+        "states": {
+            "interrupted_network_title": "Connection lost",
+            "interrupted_network_subtitle": "You're offline. Reconnect to generate your image.",
+            "interrupted_session_title": "You've Been Logged Out",
+            "interrupted_session_subtitle": "It looks like you've been logged out while generating your AI Twibbon. Please log back in to continue",
+            "error_nsfw_title": "Content Not Allowed",
+            "error_nsfw_subtitle": "NSFW content detected. Please try upload a different image that follow our {content_guideline}",
+            "error_general_title": "Couldn't generate your image",
+            "error_general_subtitle": "Something went wrong on our side. No credits were used for this attempt.",
+            "error_unknown_title": "Couldn't generate your image",
+            "error_unknown_subtitle": "We can't process your inputs. Please try with other images.",
+            "error_no_face_title": "No Face Detected",
+            "error_no_face_subtitle": "Please upload an image with a clear face.",
+            "invalid_types": "Invalid file type. Please select a JPG, PNG, or WebP image file.",
+            "invalid_size": "File size exceeds 5MB limit. Please select a smaller file."
         }
     },
     "page_about": {
         "header": {
-            "about_us": "Hakkımızda",
-            "the_what": "Ne, kim, neden ve nasıl",
             "hero_eyebrow": "Hakkımızda",
             "hero_title": "Aidiyet eskiden görünürdü.",
             "hero_body_1": "Formayı giydin. Rozeti taktın. Pankartı taşıdın. Kalabalığın içinde durdun ve etrafındaki herkes neyin parçası olduğunu görebildi.",
