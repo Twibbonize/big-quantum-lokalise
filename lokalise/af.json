@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Veldtogte",
             "created": "Geskep",
-            "supporters": "ondersteuner|ondersteuners"
+            "supporters": "{general::campaign::supporters, plural, =1 {ondersteuner} other {ondersteuners}}"
         },
         "collection": {
             "collections": "Versamelings",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Jy kan al hierdie Skepper se veldtog ondersteun sonder die watermerk!"
         },
         "campaign_card": {
-            "a_month_ago": "N maand gelede|Maande gelede",
-            "a_day_ago": "'n dag gelede|dae gelede"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {N maand gelede} other {Maande gelede}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {'n dag gelede} other {dae gelede}}"
         },
         "search": {
             "searching": "Soek tans …"
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "Wysig profiel",
-            "campaigns": "Veldtog|Veldtogte",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Veldtog} other {Veldtogte}}",
             "collections": "Versamelings",
             "posts": "Plasings"
         },

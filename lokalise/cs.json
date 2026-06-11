@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Kampaně",
             "created": "Vytvořeno",
-            "supporters": "podporovatel|podporovatelé|podporovatele|podporovatelů"
+            "supporters": "{general::campaign::supporters, plural, =1 {podporovatel} few {podporovatelé} many {podporovatele} other {podporovatelů}}"
         },
         "collection": {
             "collections": "Sbírky",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Můžete podpořit celou kampaň tohoto tvůrce bez vodoznaku!"
         },
         "campaign_card": {
-            "a_month_ago": "Před měsícem|Před několika měsíci|Před mnoha měsíci|Před měsíci",
-            "a_day_ago": "Před dnem|Před pár dny|Před mnoha dny|Před pár dny"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Před měsícem} few {Před několika měsíci} many {Před mnoha měsíci} other {Před měsíci}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {Před dnem} few {Před pár dny} many {Před mnoha dny} other {Před pár dny}}"
         },
         "search": {
             "searching": "Hledání..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "Upravit profil",
-            "campaigns": "Kampaně|Kampaně|Kampaně|Kampaně",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Kampaně} few {Kampaně} many {Kampaně} other {Kampaně}}",
             "collections": "Sbírky",
             "posts": "Příspěvky"
         },

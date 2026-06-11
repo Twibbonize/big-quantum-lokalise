@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Kampane",
             "created": "Vytvorené",
-            "supporters": "podporovateľ|podporovatelia|podporovatelia|podporovatelia"
+            "supporters": "{general::campaign::supporters, plural, =1 {podporovateľ} few {podporovatelia} many {podporovatelia} other {podporovatelia}}"
         },
         "collection": {
             "collections": "Zbierky",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Môžete podporiť celú kampaň tohto autora bez vodoznaku!"
         },
         "campaign_card": {
-            "a_month_ago": "Pred mesiacom|Pred niekoľkými mesiacmi|Pred mnohými mesiacmi|Mesiace dozadu",
-            "a_day_ago": "Pred dňom|Pred pár dňami|Pred mnohými dňami|Pred dňami"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Pred mesiacom} few {Pred niekoľkými mesiacmi} many {Pred mnohými mesiacmi} other {Mesiace dozadu}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {Pred dňom} few {Pred pár dňami} many {Pred mnohými dňami} other {Pred dňami}}"
         },
         "search": {
             "searching": "Hľadá sa..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "Upraviť profil",
-            "campaigns": "Kampaň|Kampane|Kampane|Kampane",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Kampaň} few {Kampane} many {Kampane} other {Kampane}}",
             "collections": "Zbierky",
             "posts": "Príspevky"
         },

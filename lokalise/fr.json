@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Campagnes",
             "created": "Créée",
-            "supporters": "partisan|partisans"
+            "supporters": "{general::campaign::supporters, plural, =1 {partisan} other {partisans}}"
         },
         "collection": {
             "collections": "Collections",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Vous pouvez soutenir toute la campagne de ce créateur sans filigrane !"
         },
         "campaign_card": {
-            "a_month_ago": "Il y a un mois|Il y a des mois",
-            "a_day_ago": "Il y a un jour|Il y a quelques jours"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Il y a un mois} other {Il y a des mois}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {Il y a un jour} other {Il y a quelques jours}}"
         },
         "search": {
             "searching": "Recherche..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "Modifier le profil",
-            "campaigns": "Campagne|Campagnes",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Campagne} other {Campagnes}}",
             "collections": "Collections",
             "posts": "Postes"
         },

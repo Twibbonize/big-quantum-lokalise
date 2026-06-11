@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Кампанії",
             "created": "Створено",
-            "supporters": "підтримуючий|підтримуючі|підтримуючих|підтримуючого"
+            "supporters": "{general::campaign::supporters, plural, =1 {підтримуючий} few {підтримуючі} many {підтримуючих} other {підтримуючого}}"
         },
         "collection": {
             "collections": "Колекції",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Ви можете підтримати всю цю кампанію Творця без водяного знака!"
         },
         "campaign_card": {
-            "a_month_ago": "Місяць тому|Кілька місяців тому|Багато місяців тому|Місяці тому",
-            "a_day_ago": "день тому|дні тому|днів тому|дня тому"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Місяць тому} few {Кілька місяців тому} many {Багато місяців тому} other {Місяці тому}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {день тому} few {дні тому} many {днів тому} other {дня тому}}"
         },
         "search": {
             "searching": "Пошук..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "Редагувати профіль",
-            "campaigns": "Kампанія|Кампанії|Кампанії|Кампанії",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Kампанія} few {Кампанії} many {Кампанії} other {Кампанії}}",
             "collections": "Колекції",
             "posts": "Пости"
         },

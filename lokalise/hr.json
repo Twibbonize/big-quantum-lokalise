@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Kampanje",
             "created": "Stvoreno",
-            "supporters": "pristalica|pristalice|pristalica"
+            "supporters": "{general::campaign::supporters, plural, =1 {pristalica} few {pristalice} other {pristalica}}"
         },
         "collection": {
             "collections": "Zbirke",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Možete podržati cijelu ovu Kreatorovu kampanju bez vodenog žiga!"
         },
         "campaign_card": {
-            "a_month_ago": "Prije mjesec dana|Prije nekoliko mjeseci|Prije nekoliko mjeseci",
-            "a_day_ago": "Jučer|Prije nekoliko dana|Prije nekoliko dana"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Prije mjesec dana} few {Prije nekoliko mjeseci} other {Prije nekoliko mjeseci}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {Jučer} few {Prije nekoliko dana} other {Prije nekoliko dana}}"
         },
         "search": {
             "searching": "Pretraživanje..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "Uredi profil",
-            "campaigns": "Kampanja|Kampanje|Kampanje",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Kampanja} few {Kampanje} other {Kampanje}}",
             "collections": "Zbirke",
             "posts": "Postovi"
         },

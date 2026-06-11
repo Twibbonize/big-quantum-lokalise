@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "பிரச்சாரங்கள்",
             "created": "உருவாக்கப்பட்டது",
-            "supporters": "ஆதரவாளர்|ஆதரவாளர்கள்"
+            "supporters": "{general::campaign::supporters, plural, =1 {ஆதரவாளர்} other {ஆதரவாளர்கள்}}"
         },
         "collection": {
             "collections": "தொகுப்புகள்",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "வாட்டர்மார்க் இல்லாமலேயே இந்தப் படைப்பாளரின் பிரச்சாரம் முழுவதையும் நீங்கள் ஆதரிக்கலாம்!"
         },
         "campaign_card": {
-            "a_month_ago": "ஒரு மாதத்திற்கு முன்பு|மாதங்களுக்கு முன்பு",
-            "a_day_ago": "ஒரு நாள் முன்பு|நாட்களுக்கு முன்பு"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {ஒரு மாதத்திற்கு முன்பு} other {மாதங்களுக்கு முன்பு}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {ஒரு நாள் முன்பு} other {நாட்களுக்கு முன்பு}}"
         },
         "search": {
             "searching": "தேடுகிறது..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "சுயவிவரத்தைத் திருத்து",
-            "campaigns": "பிரச்சாரம்|பிரச்சாரங்கள்",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {பிரச்சாரம்} other {பிரச்சாரங்கள்}}",
             "collections": "தொகுப்புகள்",
             "posts": "இடுகைகள்"
         },

@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Kampagner",
             "created": "Oprettet",
-            "supporters": "tilhænger|tilhængere"
+            "supporters": "{general::campaign::supporters, plural, =1 {tilhænger} other {tilhængere}}"
         },
         "collection": {
             "collections": "Samlinger",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Du kan støtte hele denne skabers kampagne uden vandmærket!"
         },
         "campaign_card": {
-            "a_month_ago": "For en måned siden|Måneder siden",
-            "a_day_ago": "For en dag siden|Dage siden"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {For en måned siden} other {Måneder siden}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {For en dag siden} other {Dage siden}}"
         },
         "search": {
             "searching": "Søger..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "Rediger profil",
-            "campaigns": "Kampagne|Kampagner",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Kampagne} other {Kampagner}}",
             "collections": "Samlinger",
             "posts": "Indlæg"
         },

@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Campanii",
             "created": "Creat",
-            "supporters": "suporter|sustinator|sustinatori"
+            "supporters": "{general::campaign::supporters, plural, =1 {suporter} few {sustinator} other {sustinatori}}"
         },
         "collection": {
             "collections": "Colecții",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Puteți susține toată campania acestui Creator fără filigran!"
         },
         "campaign_card": {
-            "a_month_ago": "O lună în urmă|Cateva luni in urma|Cu luni în urmă",
-            "a_day_ago": "Acum o zi|Cu câteva zile în urmă|Zile în urmă"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {O lună în urmă} few {Cateva luni in urma} other {Cu luni în urmă}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {Acum o zi} few {Cu câteva zile în urmă} other {Zile în urmă}}"
         },
         "search": {
             "searching": "In cautarea..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "Editare profil",
-            "campaigns": "Campanii|Campanii|Campanii",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Campanii} few {Campanii} other {Campanii}}",
             "collections": "Colecții",
             "posts": "Mesaje"
         },

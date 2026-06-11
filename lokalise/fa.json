@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "کمپین ها",
             "created": "ایجاد شده",
-            "supporters": "حامی|حامیان"
+            "supporters": "{general::campaign::supporters, plural, =1 {حامی} other {حامیان}}"
         },
         "collection": {
             "collections": "مجموعه ها",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "می‌توانید از همه کمپین سازنده بدون واترمارک پشتیبانی کنید!"
         },
         "campaign_card": {
-            "a_month_ago": "یک ماه قبل|ماه ها قبل",
-            "a_day_ago": "یک روز پیش|چند روز قبل"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {یک ماه قبل} other {ماه ها قبل}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {یک روز پیش} other {چند روز قبل}}"
         },
         "search": {
             "searching": "جستجوکردن..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "ویرایش نمایه",
-            "campaigns": "کمپین ها|کمپین ها",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {کمپین ها} other {کمپین ها}}",
             "collections": "مجموعه ها",
             "posts": "نوشته ها"
         },

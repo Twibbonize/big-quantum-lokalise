@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "ઝુંબેશો",
             "created": "બનાવ્યું",
-            "supporters": "સમર્થક|સમર્થકો"
+            "supporters": "{general::campaign::supporters, plural, =1 {સમર્થક} other {સમર્થકો}}"
         },
         "collection": {
             "collections": "સંગ્રહો",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "તમે વોટરમાર્ક વિના પણ આ સર્જકના આખા અભિયાનને સમર્થન આપી શકો છો!"
         },
         "campaign_card": {
-            "a_month_ago": "એક મહિના પહેલા|મહિનાઓ પહેલા",
-            "a_day_ago": "એક દિવસ પહેલા|દિવસો પહેલા"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {એક મહિના પહેલા} other {મહિનાઓ પહેલા}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {એક દિવસ પહેલા} other {દિવસો પહેલા}}"
         },
         "search": {
             "searching": "શોધી રહ્યું છે..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "પ્રોફાઇલ સંપાદિત કરો",
-            "campaigns": "ઝુંબેશ|ઝુંબેશો",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {ઝુંબેશ} other {ઝુંબેશો}}",
             "collections": "સંગ્રહો",
             "posts": "પોસ્ટ્સ"
         },

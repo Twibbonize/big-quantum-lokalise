@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Campagnes",
             "created": "Gemaakt",
-            "supporters": "supporter|supporters"
+            "supporters": "{general::campaign::supporters, plural, =1 {supporter} other {supporters}}"
         },
         "collection": {
             "collections": "Collecties",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Je kunt de hele campagne van deze maker steunen zonder het watermerk!"
         },
         "campaign_card": {
-            "a_month_ago": "Een maand geleden|Maanden geleden",
-            "a_day_ago": "een dag geleden|dagen geleden"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Een maand geleden} other {Maanden geleden}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {een dag geleden} other {dagen geleden}}"
         },
         "search": {
             "searching": "Zoeken..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "Profiel bewerken",
-            "campaigns": "Campagne|Campagnes",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Campagne} other {Campagnes}}",
             "collections": "Collecties",
             "posts": "Berichten"
         },

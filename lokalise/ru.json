@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Кампании",
             "created": "Создано",
-            "supporters": "поддерживающий|поддерживающего|поддерживающих|поддерживающего"
+            "supporters": "{general::campaign::supporters, plural, =1 {поддерживающий} few {поддерживающего} many {поддерживающих} other {поддерживающего}}"
         },
         "collection": {
             "collections": "Коллекции",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Вы можете поддержать всю кампанию этого Создателя без водяного знака!"
         },
         "campaign_card": {
-            "a_month_ago": "Месяц назад|Несколько месяцев спустя|Много месяцев назад|Несколько месяцев назад",
-            "a_day_ago": "день назад|дня назад|дней назад|дня назад"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Месяц назад} few {Несколько месяцев спустя} many {Много месяцев назад} other {Несколько месяцев назад}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {день назад} few {дня назад} many {дней назад} other {дня назад}}"
         },
         "search": {
             "searching": "Идет поиск..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "Редактировать профиль",
-            "campaigns": "кампания|Кампании|Кампании|Кампании",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {кампания} few {Кампании} many {Кампании} other {Кампании}}",
             "collections": "Коллекции",
             "posts": "Посты"
         },

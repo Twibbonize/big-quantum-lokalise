@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "ਮੁਹਿੰਮਾਂ",
             "created": "ਬਣਾਇਆ ਗਿਆ",
-            "supporters": "ਸਮਰਥਕ|ਸਮਰਥਕ"
+            "supporters": "{general::campaign::supporters, plural, =1 {ਸਮਰਥਕ} other {ਸਮਰਥਕ}}"
         },
         "collection": {
             "collections": "ਸੰਗ੍ਰਹਿ",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "ਤੁਸੀਂ ਵਾਟਰਮਾਰਕ ਤੋਂ ਬਿਨਾਂ ਇਸ ਸਿਰਜਣਹਾਰ ਦੀ ਸਾਰੀ ਮੁਹਿੰਮ ਦਾ ਸਮਰਥਨ ਕਰ ਸਕਦੇ ਹੋ!"
         },
         "campaign_card": {
-            "a_month_ago": "ਇੱਕ ਮਹੀਨਾ ਪਹਿਲਾਂ|ਮਹੀਨੋ ਪਹਿਲਾਂ",
-            "a_day_ago": "ਇੱਕ ਦਿਨ ਪਹਿਲਾਂ|ਦਿਨ ਪਹਿਲਾਂ"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {ਇੱਕ ਮਹੀਨਾ ਪਹਿਲਾਂ} other {ਮਹੀਨੋ ਪਹਿਲਾਂ}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {ਇੱਕ ਦਿਨ ਪਹਿਲਾਂ} other {ਦਿਨ ਪਹਿਲਾਂ}}"
         },
         "search": {
             "searching": "ਖੋਜ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "ਪ੍ਰੋਫਾਈਲ ਸੋਧੋ",
-            "campaigns": "ਮੁਹਿੰਮ|ਮੁਹਿੰਮਾਂ",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {ਮੁਹਿੰਮ} other {ਮੁਹਿੰਮਾਂ}}",
             "collections": "ਸੰਗ੍ਰਹਿ",
             "posts": "ਪੋਸਟਾਂ"
         },

@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "ಅಭಿಯಾನಗಳು",
             "created": "ರಚಿಸಲಾಗಿದೆ",
-            "supporters": "ಬೆಂಬಲಿಗ|ಬೆಂಬಲಿಗರು"
+            "supporters": "{general::campaign::supporters, plural, =1 {ಬೆಂಬಲಿಗ} other {ಬೆಂಬಲಿಗರು}}"
         },
         "collection": {
             "collections": "ಸಂಗ್ರಹಣೆಗಳು",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "ವಾಟರ್‌ಮಾರ್ಕ್ ಇಲ್ಲದೆಯೇ ನೀವು ಈ ಎಲ್ಲಾ ರಚನೆಕಾರರ ಅಭಿಯಾನವನ್ನು ಬೆಂಬಲಿಸಬಹುದು!"
         },
         "campaign_card": {
-            "a_month_ago": "ಒಂದು ತಿಂಗಳ ಹಿಂದೆ|ತಿಂಗಳ ಹಿಂದೆ",
-            "a_day_ago": "ಒಂದು ದಿನದ ಹಿಂದೆ|ದಿನಗಳ ಹಿಂದೆ"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {ಒಂದು ತಿಂಗಳ ಹಿಂದೆ} other {ತಿಂಗಳ ಹಿಂದೆ}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {ಒಂದು ದಿನದ ಹಿಂದೆ} other {ದಿನಗಳ ಹಿಂದೆ}}"
         },
         "search": {
             "searching": "ಹುಡುಕಲಾಗುತ್ತಿದೆ..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "ಪ್ರೊಫೈಲ್ ಸಂಪಾದಿಸಿ",
-            "campaigns": "ಪ್ರಚಾರ|ಅಭಿಯಾನಗಳು",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {ಪ್ರಚಾರ} other {ಅಭಿಯಾನಗಳು}}",
             "collections": "ಸಂಗ್ರಹಣೆಗಳು",
             "posts": "ಪೋಸ್ಟ್‌ಗಳು"
         },

@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Mga kampanya",
             "created": "Nilikha",
-            "supporters": "tagasuporta|tagasuporta"
+            "supporters": "{general::campaign::supporters, plural, =1 {tagasuporta} other {tagasuporta}}"
         },
         "collection": {
             "collections": "Mga koleksyon",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Maaari mong suportahan ang lahat ng kampanya ng Creator na ito nang walang watermark!"
         },
         "campaign_card": {
-            "a_month_ago": "Isang buwan na ang nakalipas|Mga buwan na nakalipas",
-            "a_day_ago": "Kahapon|Mga araw na nakalipas"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Isang buwan na ang nakalipas} other {Mga buwan na nakalipas}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {Kahapon} other {Mga araw na nakalipas}}"
         },
         "search": {
             "searching": "Naghahanap..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "I-edit ang Profile",
-            "campaigns": "Mga kampanya|Mga kampanya",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Mga kampanya} other {Mga kampanya}}",
             "collections": "Mga koleksyon",
             "posts": "Mga post"
         },

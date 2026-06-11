@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "প্রচারণা",
             "created": "তৈরি হয়েছে",
-            "supporters": "সমর্থক|সমর্থক"
+            "supporters": "{general::campaign::supporters, plural, =1 {সমর্থক} other {সমর্থক}}"
         },
         "collection": {
             "collections": "সংগ্রহ",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "আপনি জলছাপ ছাড়া এই সৃষ্টিকর্তার ক্যাম্পেইন সব সমর্থন করতে পারেন!"
         },
         "campaign_card": {
-            "a_month_ago": "এক মাস আগে|এক মাস আগে",
-            "a_day_ago": "একদিন আগে|দিন আগে"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {এক মাস আগে} other {এক মাস আগে}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {একদিন আগে} other {দিন আগে}}"
         },
         "search": {
             "searching": "অনুসন্ধান করা হচ্ছে..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "জীবন বৃত্তান্ত সম্পাদনা",
-            "campaigns": "প্রচারণা|প্রচারণা",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {প্রচারণা} other {প্রচারণা}}",
             "collections": "সংগ্রহ",
             "posts": "পোস্ট"
         },

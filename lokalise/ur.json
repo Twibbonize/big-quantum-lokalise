@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "مہمات",
             "created": "بنایا",
-            "supporters": "حامی|حامی"
+            "supporters": "{general::campaign::supporters, plural, =1 {حامی} other {حامی}}"
         },
         "collection": {
             "collections": "مجموعے",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "آپ واٹر مارک کے بغیر اس تخلیق کار کی مہم کی حمایت کر سکتے ہیں!"
         },
         "campaign_card": {
-            "a_month_ago": "ایک مہینہ پہلے|مہینوں پہلے",
-            "a_day_ago": "ایک دن پہلے|دنوں پہلے"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {ایک مہینہ پہلے} other {مہینوں پہلے}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {ایک دن پہلے} other {دنوں پہلے}}"
         },
         "search": {
             "searching": "تلاش کر رہا ہے..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "پروفائل میں ترمیم کریں",
-            "campaigns": "مہمات|مہمات",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {مہمات} other {مہمات}}",
             "collections": "مجموعے",
             "posts": "پوسٹس"
         },

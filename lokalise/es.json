@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Campañas",
             "created": "Creado",
-            "supporters": "partidario|partidarios"
+            "supporters": "{general::campaign::supporters, plural, =1 {partidario} other {partidarios}}"
         },
         "collection": {
             "collections": "Colecciones",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "¡Puedes apoyar toda la campaña de este Creador sin la marca de agua!"
         },
         "campaign_card": {
-            "a_month_ago": "Hace un mes|Hace meses",
-            "a_day_ago": "Hace un día|Hace días"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Hace un mes} other {Hace meses}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {Hace un día} other {Hace días}}"
         },
         "search": {
             "searching": "Buscando..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "Editar perfil",
-            "campaigns": "Campaña|Campañas",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Campaña} other {Campañas}}",
             "collections": "Colecciones",
             "posts": "Puestos"
         },

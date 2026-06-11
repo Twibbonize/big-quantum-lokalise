@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "कैंपेन",
             "created": "बनाया था",
-            "supporters": "समर्थक|समर्थक"
+            "supporters": "{general::campaign::supporters, plural, =1 {समर्थक} other {समर्थक}}"
         },
         "collection": {
             "collections": "संग्रह",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "आप वॉटरमार्क के बिना भी क्रिएटर के इस कैंपेन का समर्थन कर सकते हैं!"
         },
         "campaign_card": {
-            "a_month_ago": "एक महीने पहले|महीने पहले",
-            "a_day_ago": "एक दिन पहले|दिन पहले"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {एक महीने पहले} other {महीने पहले}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {एक दिन पहले} other {दिन पहले}}"
         },
         "search": {
             "searching": "खोज कर..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "प्रोफ़ाइल संपादित करें",
-            "campaigns": "कैंपेन|कैंपेन",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {कैंपेन} other {कैंपेन}}",
             "collections": "संग्रह",
             "posts": "पदों"
         },

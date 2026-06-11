@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "കാമ്പെയ്‌നുകൾ",
             "created": "സൃഷ്ടിച്ചു",
-            "supporters": "പിന്തുണക്കാരൻ|പിന്തുണയ്ക്കുന്നവർ"
+            "supporters": "{general::campaign::supporters, plural, =1 {പിന്തുണക്കാരൻ} other {പിന്തുണയ്ക്കുന്നവർ}}"
         },
         "collection": {
             "collections": "ശേഖരങ്ങൾ",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "വാട്ടർമാർക്ക് ഇല്ലാതെ തന്നെ നിങ്ങൾക്ക് ഈ സ്രഷ്ടാവിന്റെ മുഴുവൻ കാമ്പെയ്‌നിനെയും പിന്തുണയ്ക്കാൻ കഴിയും!"
         },
         "campaign_card": {
-            "a_month_ago": "ഒരു മാസം മുമ്പ്|മാസം മുമ്പ്",
-            "a_day_ago": "ഒരു ദിവസം മുമ്പ്|ദിവസങ്ങൾക്ക് മുമ്പ്"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {ഒരു മാസം മുമ്പ്} other {മാസം മുമ്പ്}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {ഒരു ദിവസം മുമ്പ്} other {ദിവസങ്ങൾക്ക് മുമ്പ്}}"
         },
         "search": {
             "searching": "തിരയുന്നു..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "പ്രൊഫൈൽ എഡിറ്റ് ചെയ്യുക",
-            "campaigns": "കാമ്പെയ്ൻ|കാമ്പെയ്‌നുകൾ",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {കാമ്പെയ്ൻ} other {കാമ്പെയ്‌നുകൾ}}",
             "collections": "ശേഖരങ്ങൾ",
             "posts": "പോസ്റ്റുകൾ"
         },

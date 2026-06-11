@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Καμπάνιες",
             "created": "Δημιουργήθηκε",
-            "supporters": "υποστηρικτής|υποστηρικτές"
+            "supporters": "{general::campaign::supporters, plural, =1 {υποστηρικτής} other {υποστηρικτές}}"
         },
         "collection": {
             "collections": "Συλλογές",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Μπορείτε να υποστηρίξετε όλη αυτήν την καμπάνια του Δημιουργού χωρίς το υδατογράφημα!"
         },
         "campaign_card": {
-            "a_month_ago": "Ενα μήνα πριν|Μήνες πριν",
-            "a_day_ago": "Χθες|Μέρες πριν"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Ενα μήνα πριν} other {Μήνες πριν}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {Χθες} other {Μέρες πριν}}"
         },
         "search": {
             "searching": "Ερευνητικός..."
@@ -1836,7 +1836,7 @@
         },
         "my_profile": {
             "edit_profile": "Επεξεργασία προφίλ",
-            "campaigns": "Καμπάνιε|Καμπάνιες",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Καμπάνιε} other {Καμπάνιες}}",
             "collections": "Συλλογές",
             "posts": "Θέσεις"
         },
