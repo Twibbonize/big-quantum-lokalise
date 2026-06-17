@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Campagne",
             "created": "Creato",
-            "supporters": "sostenitore|sostenitore"
+            "supporters": "{general::campaign::supporters, plural, =1 {sostenitore} other {sostenitore}}"
         },
         "collection": {
             "collections": "Collezioni",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Puoi supportare tutta la campagna di questo Creator senza la filigrana!"
         },
         "campaign_card": {
-            "a_month_ago": "Un mese fa|Mesi fa",
-            "a_day_ago": "Un giorno fa|Giorni fa"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Un mese fa} other {Mesi fa}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {Un giorno fa} other {Giorni fa}}"
         },
         "search": {
             "searching": "Ricerca..."
@@ -769,16 +769,20 @@
             "subheading": "Campagne che hanno un impatto in tutto il mondo",
             "campaign_1_title": "Festeggia il WDSD",
             "campaign_1_creator": "Sindrome di Down Regno Unito | Un atteggiamento positivo nei confronti della sindrome di Down",
-            "campaign_1_description": "WONCA ha riunito in un unico luogo i medici di famiglia di tutto il mondo, i medici di base che individuano ogni problema per primi e poi indirizzano i pazienti agli specialisti. Oltre 2.500 sostenitori provenienti da tutta la comunità medica globale hanno indossato il distintivo.",
+            "campaign_1_description": "L'Unione delle ONG del Kerala ha fornito ai dipendenti pubblici dello stato un quadro di riferimento per far sentire la propria voce alla conferenza statale del 2026. Oltre 1.430 membri hanno partecipato all'evento. ",
             "campaign_2_title": "Celebrazione del Mese Nazionale delle Donne 2026",
             "campaign_2_creator": "Commissione filippina per le donne",
-            "campaign_2_description": "Al Gran Premio del Canada, Lando Norris ha indossato un casco speciale per sostenere la campagna Race Against Dementia. È qui per supportare questo movimento e i suoi fan stanno dimostrando il loro sostegno nei suoi confronti attraverso questo Twibbon.",
+            "campaign_2_description": "Il mese di Muharram inizia con il martirio di Umar Farooq (che Allah sia soddisfatto di lui) il 1° e si conclude con quello di Hussain (che Allah sia soddisfatto di lui) il 10. Ammar Khan Yasir ha donato una cornice a oltre 6.500 musulmani per onorare entrambi.",
             "campaign_3_title": "Mese della consapevolezza su EDS e HSD nel maggio 2026!",
             "campaign_3_creator": "LA SOCIETÀ EHLERS-DANLOS",
-            "campaign_3_description": "Il fan club argentino del Kerala si è presentato con una cornice per i Mondiali del 2026. Oltre 1.500 tifosi in tutto lo stato indossano già la maglia dell'Albiceleste prima dell'inizio del torneo.",
+            "campaign_3_description": "Per i padri dei membri di Phi Beta Sigma, la Festa del Papà e l'orgoglio di appartenere alla confraternita sono sempre stati la stessa cosa. Oltre 200 membri hanno indossato la montatura per dimostrarlo. ",
             "campaign_4_title": "Vota per l'UDF",
             "campaign_4_creator": "INC Kerala",
-            "campaign_4_description": "Palang Merah Indonesia celebra la Giornata Mondiale della Croce Rossa e della Mezzaluna Rossa con oltre 6.000 sostenitori che rendono omaggio ai volontari e agli operatori umanitari che intervengono ovunque ce ne sia più bisogno. "
+            "campaign_4_description": "IMUN International ha offerto ai giovani diplomatici un quadro di riferimento per perseguire le proprie ambizioni in vista dell'edizione indonesiana del 2026. Quasi 900 delegati hanno partecipato all'evento. ",
+            "campaign_1_description_copy": "WONCA ha riunito in un unico luogo i medici di famiglia di tutto il mondo, i medici di base che individuano ogni problema per primi e poi indirizzano i pazienti agli specialisti. Oltre 2.500 sostenitori provenienti da tutta la comunità medica globale hanno indossato il distintivo.",
+            "campaign_2_description_copy": "Al Gran Premio del Canada, Lando Norris ha indossato un casco speciale per sostenere la campagna Race Against Dementia. È qui per supportare questo movimento e i suoi fan stanno dimostrando il loro sostegno nei suoi confronti attraverso questo Twibbon.",
+            "campaign_3_description_copy": "Il fan club argentino del Kerala si è presentato con una cornice per i Mondiali del 2026. Oltre 1.500 tifosi in tutto lo stato indossano già la maglia dell'Albiceleste prima dell'inizio del torneo.",
+            "campaign_4_description_copy": "Palang Merah Indonesia celebra la Giornata Mondiale della Croce Rossa e della Mezzaluna Rossa con oltre 6.000 sostenitori che rendono omaggio ai volontari e agli operatori umanitari che intervengono ovunque ce ne sia più bisogno. "
         },
         "how_it_works": {
             "heading": "Come funziona",
@@ -1836,7 +1840,7 @@
         },
         "my_profile": {
             "edit_profile": "Modifica profilo",
-            "campaigns": "Campagna|Campagne",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Campagna} other {Campagne}}",
             "collections": "Collezioni",
             "posts": "Messaggi"
         },

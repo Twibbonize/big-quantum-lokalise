@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Kampanjat",
             "created": "Luotu",
-            "supporters": "kannattaja|kannattajat"
+            "supporters": "{general::campaign::supporters, plural, =1 {kannattaja} other {kannattajat}}"
         },
         "collection": {
             "collections": "Kokoelmat",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Voit tukea kaikkea tätä Creatorin kampanjaa ilman vesileimaa!"
         },
         "campaign_card": {
-            "a_month_ago": "Kuukausi sitten|Kuukausia sitten",
-            "a_day_ago": "Päivä sitten|Päiviä sitten"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Kuukausi sitten} other {Kuukausia sitten}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {Päivä sitten} other {Päiviä sitten}}"
         },
         "search": {
             "searching": "Haetaan..."
@@ -769,16 +769,20 @@
             "subheading": "Kampanjat, joilla on vaikutusta ympäri maailmaa",
             "campaign_1_title": "Juhlista WDSD:tä",
             "campaign_1_creator": "Downin oireyhtymä Iso-Britannia | Positiivista Downin oireyhtymästä",
-            "campaign_1_description": "WONCA toi yhteen maailman perhelääkärit – yleislääkärit, jotka havaitsevat kaiken ensin ja lähettävät kaiken seuraavaksi. Yli 2 500 kannattajaa maailmanlaajuisesti lääketieteen alalla kantoi rintamerkkiä.",
+            "campaign_1_description": "Keralan kansalaisjärjestöjen liitto antoi osavaltion hallituksen työntekijöille kehyksen äänensä esittämiseen vuoden 2026 osavaltion konferenssissa. Tilaisuuteen saapui yli 1 430 jäsentä. ",
             "campaign_2_title": "Vuoden 2026 kansallisen naisten kuukauden juhla",
             "campaign_2_creator": "Filippiinien naisten toimikunta",
-            "campaign_2_description": "Kanadan osakilpailussa Lando Norris käytti erikoiskypärää tukeakseen Race Against Dementia -kampanjaa. Hän on täällä tukemassa tätä liikettä, ja hänen faninsa osoittavat tukeaan hänelle tämän Twibbonin kautta.",
+            "campaign_2_description": "Muharram alkaa Umar Farooqin (rauha hänelle) marttyyrikuolemalla 1. päivänä ja päättyy Hussainin (rauha hänelle) marttyyrikuolemaan 10. päivänä. Ammar Khan Yasir antoi yli 6 500 muslimille kehyksen molempien kunnioittamiseksi.",
             "campaign_3_title": "EDS:n ja HSD:n toukokuun tietoisuuskuukausi 2026!",
             "campaign_3_creator": "EHLERS-DANLOS-YHDISTYS",
-            "campaign_3_description": "Keralan Argentiinan faniklubi saapuu paikalle kehys mukanaan vuoden 2026 jalkapallon MM-kisoja varten. Yli 1 500 kannattajaa eri puolilla osavaltiota käyttää La Albiceleste -asua jo ennen turnauksen alkua.",
+            "campaign_3_description": "Phi Beta Sigman isille isänpäivä ja veljeskunnan ylpeys ovat aina olleet sama asia. Yli 200 jäsentä käytti kehystä todistaakseen sen. ",
             "campaign_4_title": "Äänestä UDF:ää",
             "campaign_4_creator": "INC Kerala",
-            "campaign_4_description": "Palang Merah Indonesiassa viettää Punaisen Ristin ja Punaisen Puolikuun päivää yli 6 000 tukijan kanssa kunnioittaen vapaaehtoisia ja humanitaarisia työntekijöitä, jotka tulevat sinne, missä apua eniten tarvitaan. "
+            "campaign_4_description": "IMUN International antoi nuorille diplomaateille kehyksen viedä tavoitteensa vuoden 2026 Indonesian-tapahtumaan. Lähes 900 edustajaa saapui paikalle. ",
+            "campaign_1_description_copy": "WONCA toi yhteen maailman perhelääkärit – yleislääkärit, jotka havaitsevat kaiken ensin ja lähettävät kaiken seuraavaksi. Yli 2 500 kannattajaa maailmanlaajuisesti lääketieteen alalla kantoi rintamerkkiä.",
+            "campaign_2_description_copy": "Kanadan osakilpailussa Lando Norris käytti erikoiskypärää tukeakseen Race Against Dementia -kampanjaa. Hän on täällä tukemassa tätä liikettä, ja hänen faninsa osoittavat tukeaan hänelle tämän Twibbonin kautta.",
+            "campaign_3_description_copy": "Keralan Argentiinan faniklubi saapuu paikalle kehys mukanaan vuoden 2026 jalkapallon MM-kisoja varten. Yli 1 500 kannattajaa eri puolilla osavaltiota käyttää La Albiceleste -asua jo ennen turnauksen alkua.",
+            "campaign_4_description_copy": "Palang Merah Indonesiassa viettää Punaisen Ristin ja Punaisen Puolikuun päivää yli 6 000 tukijan kanssa kunnioittaen vapaaehtoisia ja humanitaarisia työntekijöitä, jotka tulevat sinne, missä apua eniten tarvitaan. "
         },
         "how_it_works": {
             "heading": "Näin se toimii",
@@ -1836,7 +1840,7 @@
         },
         "my_profile": {
             "edit_profile": "Muokkaa profiilia",
-            "campaigns": "Kampanja|Kampanjat",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Kampanja} other {Kampanjat}}",
             "collections": "Kokoelmat",
             "posts": "Virat"
         },

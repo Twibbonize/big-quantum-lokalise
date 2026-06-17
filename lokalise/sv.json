@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Kampanjer",
             "created": "Skapad",
-            "supporters": "supporter|supportrar"
+            "supporters": "{general::campaign::supporters, plural, =1 {supporter} other {supportrar}}"
         },
         "collection": {
             "collections": "Samlingar",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Du kan stödja hela den här skaparens kampanj utan vattenstämpeln!"
         },
         "campaign_card": {
-            "a_month_ago": "En månad sedan|Månader sedan",
-            "a_day_ago": "En dag sen|Dagar sedan"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {En månad sedan} other {Månader sedan}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {En dag sen} other {Dagar sedan}}"
         },
         "search": {
             "searching": "Sökande..."
@@ -769,16 +769,20 @@
             "subheading": "Kampanjer som gör skillnad runt om i världen",
             "campaign_1_title": "Fira WDSD",
             "campaign_1_creator": "Downs syndrom Storbritannien | Positiva inställning till Downs syndrom",
-            "campaign_1_description": "WONCA samlade världens familjeläkare i en enda bild – de allmänläkare som upptäcker allt först och remitterar allt sedan. Fler än 2 500 supportrar inom den globala läkarkåren bar märket.",
+            "campaign_1_description": "Kerala NGO Union gav statens offentliganställda en ram för att föra fram sina röster till statskonferensen 2026. Över 1 430 medlemmar dök upp. ",
             "campaign_2_title": "Firandet av den nationella kvinnomånaden 2026",
             "campaign_2_creator": "Filippinska kvinnokommissionen",
-            "campaign_2_description": "Vid Kanadas Grand Prix bar Lando Norris en speciell hjälm för att stödja kampanjen Race Against Dementia. Han är här för att stödja den här rörelsen, och hans fans visar sitt stöd för honom genom denna Twibbon.",
+            "campaign_2_description": "Muharram inleds med Umar Farooqs martyrdöd den 1:a och avslutas med Hussains martyrdöd den 10:e. Ammar Khan Yasir gav över 6 500 muslimer en ram för att hedra båda.",
             "campaign_3_title": "EDS & HSD majmånaden 2026!",
             "campaign_3_creator": "EHLERS-DANLOS-SÄLLSKAPET",
-            "campaign_3_description": "Keralas argentinska fanklubb dyker upp med en båge inför VM 2026. Fler än 1 500 supportrar över hela delstaten bär redan La Albiceleste innan turneringen börjar.",
+            "campaign_3_description": "För Phi Beta Sigmas pappor har fars dag och studentstolthet alltid varit samma sak. Fler än 200 medlemmar bar bågen som bevis. ",
             "campaign_4_title": "Rösta på UDF",
             "campaign_4_creator": "INC Kerala",
-            "campaign_4_description": "Palang Merah Indonesien firar Världsröda Korsets och Röda Halvmånens dag med över 6 000 supportrar som hedrar de volontärer och humanitära arbetare som dyker upp där hjälp behövs som mest. "
+            "campaign_4_description": "IMUN International gav unga diplomater en ram för att föra sina ambitioner vidare till den indonesiska upplagan 2026. Nästan 900 delegater dök upp. ",
+            "campaign_1_description_copy": "WONCA samlade världens familjeläkare i en enda bild – de allmänläkare som upptäcker allt först och remitterar allt sedan. Fler än 2 500 supportrar inom den globala läkarkåren bar märket.",
+            "campaign_2_description_copy": "Vid Kanadas Grand Prix bar Lando Norris en speciell hjälm för att stödja kampanjen Race Against Dementia. Han är här för att stödja den här rörelsen, och hans fans visar sitt stöd för honom genom denna Twibbon.",
+            "campaign_3_description_copy": "Keralas argentinska fanklubb dyker upp med en båge inför VM 2026. Fler än 1 500 supportrar över hela delstaten bär redan La Albiceleste innan turneringen börjar.",
+            "campaign_4_description_copy": "Palang Merah Indonesien firar Världsröda Korsets och Röda Halvmånens dag med över 6 000 supportrar som hedrar de volontärer och humanitära arbetare som dyker upp där hjälp behövs som mest. "
         },
         "how_it_works": {
             "heading": "Hur det fungerar",
@@ -1836,7 +1840,7 @@
         },
         "my_profile": {
             "edit_profile": "Redigera profil",
-            "campaigns": "Kampanj|Kampanjer",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Kampanj} other {Kampanjer}}",
             "collections": "Samlingar",
             "posts": "Inlägg"
         },

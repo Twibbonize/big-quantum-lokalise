@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Campanhas",
             "created": "Criado",
-            "supporters": "apoiador|apoiadores"
+            "supporters": "{general::campaign::supporters, plural, =1 {apoiador} other {apoiadores}}"
         },
         "collection": {
             "collections": "Coleções",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Você pode apoiar toda essa campanha do Criador sem marca d'água!"
         },
         "campaign_card": {
-            "a_month_ago": "Um mês atrás|Meses antes",
-            "a_day_ago": "Um dia atrás|Dias atrás"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Um mês atrás} other {Meses antes}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {Um dia atrás} other {Dias atrás}}"
         },
         "search": {
             "searching": "Procurando..."
@@ -769,16 +769,20 @@
             "subheading": "Campanhas que geram impacto em todo o mundo.",
             "campaign_1_title": "Comemore o WDSD",
             "campaign_1_creator": "Síndrome de Down no Reino Unido | Positividade em relação à Síndrome de Down",
-            "campaign_1_description": "A WONCA reuniu os médicos de família do mundo em uma única imagem, os clínicos gerais que detectam todos os problemas primeiro e encaminham todos os casos para especialistas. Mais de 2.500 apoiadores da comunidade médica global usaram o distintivo.",
+            "campaign_1_description": "A União das ONGs de Kerala ofereceu aos funcionários públicos do estado uma plataforma para levar suas vozes à conferência estadual de 2026. Mais de 1.430 membros compareceram. ",
             "campaign_2_title": "Celebração do Mês Nacional da Mulher de 2026",
             "campaign_2_creator": "Comissão Filipina sobre Mulheres",
-            "campaign_2_description": "No Grande Prêmio do Canadá, Lando Norris usou um capacete especial para apoiar a campanha Race Against Dementia. Ele está aqui para apoiar esse movimento, e seus fãs estão mostrando seu apoio a ele por meio deste Twibbon.",
+            "campaign_2_description": "Muharram começa com o martírio de Umar Farooq (que a paz esteja com ele) no dia 1º e termina com o de Hussain (que a paz esteja com ele) no dia 10. Ammar Khan Yasir presenteou mais de 6.500 muçulmanos com uma moldura para homenagear ambos.",
             "campaign_3_title": "Maio de 2026: Conscientização sobre EDS e HSD!",
             "campaign_3_creator": "A Sociedade Ehlers-Danlos",
-            "campaign_3_description": "O fã-clube argentino de Kerala exibe uma moldura para a Copa do Mundo de 2026. Mais de 1.500 torcedores em todo o estado já estão vestindo a camisa da Albiceleste antes mesmo do início do torneio.",
+            "campaign_3_description": "Para os pais da Phi Beta Sigma, o Dia dos Pais e o orgulho da fraternidade sempre foram a mesma coisa. Mais de 200 membros usaram a armação para provar isso. ",
             "campaign_4_title": "Vote na UDF",
             "campaign_4_creator": "INC Kerala",
-            "campaign_4_description": "A Palang Merah Indonesia celebra o Dia Mundial da Cruz Vermelha e do Crescente Vermelho com mais de 6.000 apoiadores, homenageando os voluntários e trabalhadores humanitários que se dedicam a ajudar onde a necessidade é maior. "
+            "campaign_4_description": "A IMUN International ofereceu aos jovens diplomatas uma estrutura para levar suas ambições para a edição indonésia de 2026. Quase 900 delegados compareceram. ",
+            "campaign_1_description_copy": "A WONCA reuniu os médicos de família do mundo em uma única imagem, os clínicos gerais que detectam todos os problemas primeiro e encaminham todos os casos para especialistas. Mais de 2.500 apoiadores da comunidade médica global usaram o distintivo.",
+            "campaign_2_description_copy": "No Grande Prêmio do Canadá, Lando Norris usou um capacete especial para apoiar a campanha Race Against Dementia. Ele está aqui para apoiar esse movimento, e seus fãs estão mostrando seu apoio a ele por meio deste Twibbon.",
+            "campaign_3_description_copy": "O fã-clube argentino de Kerala exibe uma moldura para a Copa do Mundo de 2026. Mais de 1.500 torcedores em todo o estado já estão vestindo a camisa da Albiceleste antes mesmo do início do torneio.",
+            "campaign_4_description_copy": "A Palang Merah Indonesia celebra o Dia Mundial da Cruz Vermelha e do Crescente Vermelho com mais de 6.000 apoiadores, homenageando os voluntários e trabalhadores humanitários que se dedicam a ajudar onde a necessidade é maior. "
         },
         "how_it_works": {
             "heading": "Como funciona",
@@ -1836,7 +1840,7 @@
         },
         "my_profile": {
             "edit_profile": "Editar perfil",
-            "campaigns": "Campanha|Campanhas",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Campanha} other {Campanhas}}",
             "collections": "Coleções",
             "posts": "Publicações"
         },

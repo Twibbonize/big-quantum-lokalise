@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Kampanje",
             "created": "Stvoreno",
-            "supporters": "pristalica|pristalice|pristalica"
+            "supporters": "{general::campaign::supporters, plural, =1 {pristalica} few {pristalice} other {pristalica}}"
         },
         "collection": {
             "collections": "Zbirke",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Možete podržati sve kampanje ovog Kreatora bez vodenog žiga!"
         },
         "campaign_card": {
-            "a_month_ago": "Пре месец дана|Пре неколико месеци|Неколико месеци раније",
-            "a_day_ago": "pre jedan dan|pre nekoliko dana|pre dana"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Пре месец дана} few {Пре неколико месеци} other {Неколико месеци раније}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {pre jedan dan} few {pre nekoliko dana} other {pre dana}}"
         },
         "search": {
             "searching": "U potrazi..."
@@ -769,16 +769,20 @@
             "subheading": "Кампање које имају утицај широм света",
             "campaign_1_title": "Прославите СДС",
             "campaign_1_creator": "Даунов синдром УК | Позитивно о Дауновом синдрому",
-            "campaign_1_description": "WONCA је објединила све породичне лекаре из целог света, лекаре опште праксе који први све открију, а затим упућују. Више од 2.500 присталица широм светске медицинске заједнице носило је значку.",
+            "campaign_1_description": "Синдикат невладиних организација Керале пружио је државним службеницима оквир да изнесу свој глас на државној конференцији 2026. године. Присуствовало је више од 1.430 чланова. ",
             "campaign_2_title": "Прослава Националног месеца жена 2026.",
             "campaign_2_creator": "Филипинска комисија за жене",
-            "campaign_2_description": "На Великој награди Канаде, Ландо Норис је носио специјалну кацигу како би подржао кампању Race Against Dementia. Он је овде да подржи овај покрет, а његови фанови му пружају подршку путем овог Твибона (Twibbon).",
+            "campaign_2_description": "Мухарем почиње мучеништвом Омера Фарука, р.а., 1. а завршава се мучеништвом Хусеина, р.а., 10. Амар Кан Јасир је дао оквир за преко 6.500 муслимана у част обојица.",
             "campaign_3_title": "EDS и HSD мај, месец свести 2026!",
             "campaign_3_creator": "ДРУШТВО ЕЛЕРС-ДАНЛОС",
-            "campaign_3_description": "Навијачки клуб Аргентине из Керале појављује се са рамом за Светско првенство 2026. Више од 1.500 навијача широм државе већ носи Ла Албиселесте пре почетка турнира.",
+            "campaign_3_description": "За очеве Фи Бета Сигме, Дан очева и понос братства су увек били иста ствар. Више од 200 чланова је носило оквир да то докаже. ",
             "campaign_4_title": "Гласајте за УДФ",
             "campaign_4_creator": "ИНК Керала",
-            "campaign_4_description": "Паланг Мерах Индонезија обележава Светски дан Црвеног крста и Црвеног полумесеца са преко 6.000 присталица који одају почаст волонтерима и хуманитарним радницима који се појављују тамо где је помоћ најпотребнија. "
+            "campaign_4_description": "IMUN International је младим дипломатама пружио оквир да пренесу своје амбиције у индонежанско издање 2026. године. Присуствовало је скоро 900 делегата. ",
+            "campaign_1_description_copy": "WONCA је објединила све породичне лекаре из целог света, лекаре опште праксе који први све открију, а затим упућују. Више од 2.500 присталица широм светске медицинске заједнице носило је значку.",
+            "campaign_2_description_copy": "На Великој награди Канаде, Ландо Норис је носио специјалну кацигу како би подржао кампању Race Against Dementia. Он је овде да подржи овај покрет, а његови фанови му пружају подршку путем овог Твибона (Twibbon).",
+            "campaign_3_description_copy": "Навијачки клуб Аргентине из Керале појављује се са рамом за Светско првенство 2026. Више од 1.500 навијача широм државе већ носи Ла Албиселесте пре почетка турнира.",
+            "campaign_4_description_copy": "Паланг Мерах Индонезија обележава Светски дан Црвеног крста и Црвеног полумесеца са преко 6.000 присталица који одају почаст волонтерима и хуманитарним радницима који се појављују тамо где је помоћ најпотребнија. "
         },
         "how_it_works": {
             "heading": "Како функционише",
@@ -1836,7 +1840,7 @@
         },
         "my_profile": {
             "edit_profile": "Urediti profil",
-            "campaigns": "Kampanja|Kampanje|Kampanje",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Kampanja} few {Kampanje} other {Kampanje}}",
             "collections": "Zbirke",
             "posts": "Postovi"
         },

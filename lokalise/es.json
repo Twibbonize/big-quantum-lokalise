@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Campañas",
             "created": "Creado",
-            "supporters": "partidario|partidarios"
+            "supporters": "{general::campaign::supporters, plural, =1 {partidario} other {partidarios}}"
         },
         "collection": {
             "collections": "Colecciones",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "¡Puedes apoyar toda la campaña de este Creador sin la marca de agua!"
         },
         "campaign_card": {
-            "a_month_ago": "Hace un mes|Hace meses",
-            "a_day_ago": "Hace un día|Hace días"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Hace un mes} other {Hace meses}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {Hace un día} other {Hace días}}"
         },
         "search": {
             "searching": "Buscando..."
@@ -769,16 +769,20 @@
             "subheading": "Campañas que generan impacto en todo el mundo.",
             "campaign_1_title": "Celebremos el Día Mundial del Deporte.",
             "campaign_1_creator": "Síndrome de Down en el Reino Unido | Una visión positiva del síndrome de Down",
-            "campaign_1_description": "WONCA reunió a los médicos de familia del mundo en una sola imagen: los médicos generales que detectan todos los problemas primero y derivan a los pacientes después. Más de 2500 personas de la comunidad médica mundial lucieron la insignia.",
+            "campaign_1_description": "La Unión de ONG de Kerala brindó a los funcionarios del gobierno estatal un espacio para hacer oír su voz en la conferencia estatal de 2026. Más de 1430 miembros asistieron al evento. ",
             "campaign_2_title": "Celebración del Mes Nacional de la Mujer 2026",
             "campaign_2_creator": "Comisión Filipina para la Mujer",
-            "campaign_2_description": "En el Gran Premio de Canadá, Lando Norris usó un casco especial para apoyar la campaña Race Against Dementia. Él está aquí para respaldar este movimiento, y sus fanáticos muestran su apoyo a través de este Twibbon.",
+            "campaign_2_description": "Muharram comienza con el martirio de Umar Farooq RA el día 1 y termina con el de Hussain RA el día 10. Ammar Khan Yasir regaló a más de 6.500 musulmanes un marco para honrar a ambos.",
             "campaign_3_title": "¡Mes de concientización sobre el síndrome de Ehlers-Danlos y el trastorno del espectro autista en mayo de 2026!",
             "campaign_3_creator": "LA SOCIEDAD EHLERS-DANLOS",
-            "campaign_3_description": "El club de fans argentino de Kerala se presenta con un marco para el Mundial de 2026. Más de 1500 seguidores en todo el estado ya visten la camiseta de la Albiceleste antes de que comience el torneo.",
+            "campaign_3_description": "Para los padres de Phi Beta Sigma, el Día del Padre y el orgullo de pertenecer a la fraternidad siempre han sido sinónimos. Más de 200 miembros lucieron el marco para demostrarlo. ",
             "campaign_4_title": "Vota por la UDF",
             "campaign_4_creator": "INC Kerala",
-            "campaign_4_description": "Palang Merah Indonesia celebra el Día Mundial de la Cruz Roja y de la Media Luna Roja con más de 6.000 simpatizantes que rinden homenaje a los voluntarios y trabajadores humanitarios que acuden allí donde más se necesita ayuda. "
+            "campaign_4_description": "IMUN International brindó a los jóvenes diplomáticos un marco para proyectar sus ambiciones en la edición indonesia de 2026. Casi 900 delegados se presentaron. ",
+            "campaign_1_description_copy": "WONCA reunió a los médicos de familia del mundo en una sola imagen: los médicos generales que detectan todos los problemas primero y derivan a los pacientes después. Más de 2500 personas de la comunidad médica mundial lucieron la insignia.",
+            "campaign_2_description_copy": "En el Gran Premio de Canadá, Lando Norris usó un casco especial para apoyar la campaña Race Against Dementia. Él está aquí para respaldar este movimiento, y sus fanáticos muestran su apoyo a través de este Twibbon.",
+            "campaign_3_description_copy": "El club de fans argentino de Kerala se presenta con un marco para el Mundial de 2026. Más de 1500 seguidores en todo el estado ya visten la camiseta de la Albiceleste antes de que comience el torneo.",
+            "campaign_4_description_copy": "Palang Merah Indonesia celebra el Día Mundial de la Cruz Roja y de la Media Luna Roja con más de 6.000 simpatizantes que rinden homenaje a los voluntarios y trabajadores humanitarios que acuden allí donde más se necesita ayuda. "
         },
         "how_it_works": {
             "heading": "Cómo funciona",
@@ -1836,7 +1840,7 @@
         },
         "my_profile": {
             "edit_profile": "Editar perfil",
-            "campaigns": "Campaña|Campañas",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Campaña} other {Campañas}}",
             "collections": "Colecciones",
             "posts": "Puestos"
         },

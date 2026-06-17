@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "Kampányok",
             "created": "Létrehozva",
-            "supporters": "támogató|támogatók"
+            "supporters": "{general::campaign::supporters, plural, =1 {támogató} other {támogatók}}"
         },
         "collection": {
             "collections": "Gyűjtemények",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "Támogathatod az Alkotó kampányát vízjel nélkül!"
         },
         "campaign_card": {
-            "a_month_ago": "Egy hónapja|Hónapokkal ezelőtt",
-            "a_day_ago": "Egy napja|Napja"
+            "a_month_ago": "{general::campaign_card::a_month_ago, plural, =1 {Egy hónapja} other {Hónapokkal ezelőtt}}",
+            "a_day_ago": "{general::campaign_card::a_day_ago, plural, =1 {Egy napja} other {Napja}}"
         },
         "search": {
             "searching": "Keresés..."
@@ -769,16 +769,20 @@
             "subheading": "Világszerte hatásos kampányok",
             "campaign_1_title": "Ünnepelje a WDSD-t",
             "campaign_1_creator": "Down-szindróma Egyesült Királyság | Pozitív vélemények a Down-szindrómáról",
-            "campaign_1_description": "A WONCA egy keretbe foglalta a világ családorvosait, azokat a háziorvosokat, akik először mindent észrevesznek, és csak azután utalnak be mindent. A kitűzőt több mint 2500 támogató viselte a globális orvosi közösségben.",
+            "campaign_1_description": "A Kerala NGO Union keretet adott az állam kormányzati dolgozóinak, hogy hangot adjanak hangjuknak a 2026-os állami konferencián. Több mint 1430 tag jelent meg rajta. ",
             "campaign_2_title": "2026-os nemzeti női hónap ünnepség",
             "campaign_2_creator": "Fülöp-szigeteki Nőkért Felelős Bizottság",
-            "campaign_2_description": "A Kanadai Nagydíjon Lando Norris egy különleges sisakot viselt, hogy támogassa a Race Against Dementia kampányt. Azért van itt, hogy beálljon a mozgalom mögé, a rajongói pedig ezen a Twibbonon keresztül fejezik ki a támogatásukat.",
+            "campaign_2_description": "A Muharram ünnep Umar Farooq (mecset al-Hamrah) mártíromságával kezdődik az 1-jén, és Hussain (mecset al-Hamrah) mártíromságával zárul a 10-én. Ammar Khan Yasir több mint 6500 muszlimnak adott keretet mindkettőjük tiszteletére.",
             "campaign_3_title": "EDS és HSD májusi tudatosság hónapja 2026!",
             "campaign_3_creator": "AZ EHLERS-DANLOS TÁRSASÁG",
-            "campaign_3_description": "Kerala argentin szurkolói klubja egy kerettel érkezett a 2026-os világbajnokságra. Az államban több mint 1500 szurkoló viseli már a La Albiceleste mezt a torna kezdete előtt.",
+            "campaign_3_description": "Phi Beta Sigma apukái számára az apák napja és a testvériség büszkesége mindig is ugyanaz volt. Több mint 200 tag viselte a keretet, hogy ezt bebizonyítsa. ",
             "campaign_4_title": "Szavazz az UDF-re",
             "campaign_4_creator": "INC Kerala",
-            "campaign_4_description": "Az indonéziai Palang Merahban több mint 6000 támogató ünnepli a Vöröskereszt és Vörös Félhold világnapját, akik az önkénteseket és a humanitárius dolgozókat köszöntik, akik ott érkeznek, ahol a legnagyobb szükség van segítségre. "
+            "campaign_4_description": "Az IMUN International keretet adott a fiatal diplomatáknak, hogy megvalósítsák ambícióikat a 2026-os indonéz kiadáson. Közel 900 küldött jelent meg. ",
+            "campaign_1_description_copy": "A WONCA egy keretbe foglalta a világ családorvosait, azokat a háziorvosokat, akik először mindent észrevesznek, és csak azután utalnak be mindent. A kitűzőt több mint 2500 támogató viselte a globális orvosi közösségben.",
+            "campaign_2_description_copy": "A Kanadai Nagydíjon Lando Norris egy különleges sisakot viselt, hogy támogassa a Race Against Dementia kampányt. Azért van itt, hogy beálljon a mozgalom mögé, a rajongói pedig ezen a Twibbonon keresztül fejezik ki a támogatásukat.",
+            "campaign_3_description_copy": "Kerala argentin szurkolói klubja egy kerettel érkezett a 2026-os világbajnokságra. Az államban több mint 1500 szurkoló viseli már a La Albiceleste mezt a torna kezdete előtt.",
+            "campaign_4_description_copy": "Az indonéziai Palang Merahban több mint 6000 támogató ünnepli a Vöröskereszt és Vörös Félhold világnapját, akik az önkénteseket és a humanitárius dolgozókat köszöntik, akik ott érkeznek, ahol a legnagyobb szükség van segítségre. "
         },
         "how_it_works": {
             "heading": "Hogyan működik",
@@ -1836,7 +1840,7 @@
         },
         "my_profile": {
             "edit_profile": "Profil szerkesztése",
-            "campaigns": "Kampányo|Kampányok",
+            "campaigns": "{page_profile::my_profile::campaigns, plural, =1 {Kampányo} other {Kampányok}}",
             "collections": "Gyűjtemények",
             "posts": "Hozzászólások"
         },
