@@ -531,7 +531,8 @@
             "ai": "AI",
             "all_type": "Todos los tipos",
             "background": "Fondo",
-            "frame": "Marco"
+            "frame": "Marco",
+            "video": "Video"
         },
         "cropper": {
             "adjust_image": "Ajustar imagen",
@@ -769,16 +770,16 @@
             "subheading": "Campañas que generan impacto en todo el mundo.",
             "campaign_1_title": "Celebremos el Día Mundial del Deporte.",
             "campaign_1_creator": "Síndrome de Down en el Reino Unido | Una visión positiva del síndrome de Down",
-            "campaign_1_description": "Durante 52 años, julio ha sido el Mes de la Nutrición en Filipinas. Este año, la iniciativa vincula la alimentación saludable con un planeta sano, y más de 8.000 personas lucieron el pañuelo tradicional.",
+            "campaign_1_description": "Cada mes de julio, Indonesia celebra el Día Nacional del Niño. El lema de este año es amar a los niños, protegerlos del daño y construir su futuro. Más de 10 000 personas lucieron el marco.",
             "campaign_2_title": "Celebración del Mes Nacional de la Mujer 2026",
             "campaign_2_creator": "Comisión Filipina para la Mujer",
-            "campaign_2_description": "La Facultad de Administración de Empresas de NORSU abrió sus puertas a una nueva generación de estudiantes. Más de 1300 alumnos de primer año lucieron el marco para conmemorar su primer día de pertenencia.",
+            "campaign_2_description": "La banda indonesia The Panturas cruza el océano para su primera gira por Estados Unidos, diez años después de comenzar su andadura. Más de 8700 fans lucieron el marco para despedirlos, coreando su propio grito: ¡Viva Los Panturas!",
             "campaign_3_title": "¡Mes de concientización sobre el síndrome de Ehlers-Danlos y el trastorno del espectro autista en mayo de 2026!",
             "campaign_3_creator": "LA SOCIEDAD EHLERS-DANLOS",
-            "campaign_3_description": "Yumeaka Robinson Washington se postula para jueza en el segundo distrito judicial de Luisiana. Más de 80 simpatizantes usaron su imagen para que apareciera en sus redes sociales. ",
+            "campaign_3_description": "El grupo Godllywood de la Iglesia Universal reúne a mujeres cada mes para crecer en la fe y en el corazón. Más de 12.000 mujeres lucieron el marco antes de la reunión de julio en el Templo de Salomón.",
             "campaign_4_title": "Vota por la UDF",
             "campaign_4_creator": "INC Kerala",
-            "campaign_4_description": "Cada dos años, Alpha Kappa Alpha reúne a sus miembros en un mismo lugar. Más de 3500 integrantes lucieron el emblema antes de la 72.ª Boule en Las Vegas. "
+            "campaign_4_description": "Samy 'Rivers' Rivera subirá al ring de Ibai para enfrentarse a RoRo en Sevilla el próximo 25 de julio. Más de 600 aficionados lucieron el marco para apoyarla antes de que sonara la campana."
         },
         "how_it_works": {
             "heading": "Cómo funciona",
@@ -1407,7 +1408,8 @@
             "campaigns": "Campañas",
             "analytics": "Analíticas",
             "backgrounds": "Fondos",
-            "gallery": "Galería"
+            "gallery": "Galería",
+            "videos": "Videos"
         },
         "blank_design": {
             "suggested": "Sugerencia",
@@ -1424,7 +1426,16 @@
             "what_do_you_want_to_create_desc": "Dale sabor a tu campaña online, no solo con un marco, sino también con fondos creativos",
             "new": "¡Nuevo!",
             "frame_twibbon": "Marco Twibbon",
-            "try_twibbon": "Prueba {type} Twibbon"
+            "try_twibbon": "Prueba {type} Twibbon",
+            "video_twibbon": "Video Twibbon",
+            "video_twibbon_desc": "An animated frame that moves",
+            "beta": "Beta",
+            "no_watermark": "No Watermark",
+            "no_watermark_limited": "No Watermark (Limited time only)",
+            "frame_twibbon_desc": "A frame placed on top of the photo",
+            "background_twibbon": "Background Twibbon",
+            "background_twibbon_desc": "Photo sits on top of the design",
+            "most_popular": "Most Popular"
         },
         "confirm_reorder": {
             "title": "¿Reordenar Twibbon?",
@@ -3745,6 +3756,82 @@
             "badge": "ENCUESTA",
             "message": "¡Ayúdanos a mejorar Twibbonize y participa para ganar una tarjeta de regalo de $10!",
             "cta": "Realice la encuesta ahora"
+        }
+    },
+    "page_video_campaign": {
+        "dropzone": {
+            "drag_and_drop": "Drag and drop your design, or",
+            "browse": "browse",
+            "gif_hint": "image file with transparency",
+            "video_hint": "video file with chroma key",
+            "max_size": "Maximum 100 MB file size",
+            "legal": "By uploading, you agree to our Terms of Service and Privacy Policy"
+        },
+        "detecting": {
+            "title": "Detecting chroma key… {progress}%",
+            "description": "Analyzing frames for the green or blue screen"
+        },
+        "errors": {
+            "unsupported": "That file type isn't supported. Upload a GIF or MP4.",
+            "too_large": "That file is over the 100 MB limit.",
+            "try_again": "Try again",
+            "mp4_only": "Only MP4 videos can be published for now.",
+            "processing_failed": "We couldn't process that video. Try a different file.",
+            "poster_video_unsupported": "This browser can't prepare the video preview. Please publish from Chrome, Edge, or Firefox."
+        },
+        "chroma": {
+            "title": "Chroma Key",
+            "strength": "Strength",
+            "eyedropper": "Pick color from screen",
+            "eyedropper_unsupported": "Not supported in this browser"
+        },
+        "guide": {
+            "title": "No chroma key area detected in your video file",
+            "description": "Without a chroma key area, we can't add supporter photos to your Video Twibbon",
+            "learn_more": "Learn More",
+            "understand": "I Understand"
+        },
+        "thumbnail": {
+            "title": "Set Campaign Thumbnail",
+            "recommended": "Recommended",
+            "keyframe": "Key-frame position",
+            "select_placeholder": "Select a Placeholder",
+            "shuffle": "Shuffle",
+            "upload": "Upload",
+            "campaign_name_placeholder": "[Campaign Name]",
+            "adjust_photo": "Adjust Photo",
+            "drag_hint": "Drag to select the exact video frame you want to feature as your campaign thumbnail.",
+            "choose_photo": "Choose Photo for Thumbnail",
+            "preparing": "Preparing your thumbnail options…"
+        },
+        "preview": {
+            "play": "Play",
+            "pause": "Pause",
+            "scrubber": "Video timeline",
+            "add_another": "Upload another video"
+        },
+        "edit": {
+            "title": "Campaign Videos",
+            "change_thumbnail": "Change Thumbnail"
+        },
+        "support": {
+            "change_photo": "Change photo",
+            "posting": "Posting…",
+            "downloading": "Downloading",
+            "post_title": "Post this video to Twibbonize",
+            "publishing": "Publishing your campaign…",
+            "saving": "Saving your changes…",
+            "post_success": "Posted to the gallery",
+            "stage_loading": "Loading your photo",
+            "stage_compositing": "Compositing your video",
+            "stage_almost": "Almost there"
+        },
+        "result": {
+            "title": "Your Video Twibbon is ready!",
+            "description": "Preview your animated result below",
+            "download": "Download",
+            "download_soon": "Video download is coming soon",
+            "back_to_campaign": "Back to campaign"
         }
     }
 }

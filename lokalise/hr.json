@@ -531,7 +531,8 @@
             "ai": "Umjetna inteligencija",
             "all_type": "Sve vrste",
             "background": "Pozadina",
-            "frame": "Okvir"
+            "frame": "Okvir",
+            "video": "Video"
         },
         "cropper": {
             "adjust_image": "Prilagodi sliku",
@@ -769,16 +770,16 @@
             "subheading": "Kampanje koje imaju utjecaj diljem svijeta",
             "campaign_1_title": "Proslavite Srijedu, nedjelju i nedjelju",
             "campaign_1_creator": "Downov sindrom UK | Pozitivno o Downovom sindromu",
-            "campaign_1_description": "Srpanj je već 52 godine Mjesec prehrane na Filipinima. Ove godine povezuje zdravu prehranu sa zdravim planetom, a više od 8000 pristaša nosilo je twibbon.",
+            "campaign_1_description": "Svakog srpnja, Indonezija obilježava Nacionalni dan djeteta. Ovogodišnji poziv je voljeti djecu, zaštititi ih od zla i graditi njihovu budućnost. Okvir je nosilo više od 10 000 podržavatelja.",
             "campaign_2_title": "Proslava Nacionalnog mjeseca žena 2026.",
             "campaign_2_creator": "Filipinska komisija za žene",
-            "campaign_2_description": "Fakultet poslovne administracije Sveučilišta NORSU otvorio je svoja vrata novoj generaciji studenata. Više od 1300 brucoša nosilo je okvir kako bi obilježili svoj prvi dan pripadnosti.",
+            "campaign_2_description": "Indonezijski bend The Panturas prelazi ocean na svoju prvu američku turneju, deset godina nakon početka turneje. Više od 8700 obožavatelja nosilo je okvir kako bi ih ispratilo, pjevajući njihov vlastiti poklič, Viva Los Panturas.",
             "campaign_3_title": "Mjesec osvješćivanja o EDS-u i HSD-u u svibnju 2026.!",
             "campaign_3_creator": "DRUŠTVO EHLERS-DANLOS",
-            "campaign_3_description": "Yumeaka Robinson Washington kandidira se za sutkinju u 2. sudskom okrugu Louisiane. Više od 80 pristaša nosilo je njezin okvir kako bi njezino ime objavili na svojim feedovima. ",
+            "campaign_3_description": "Godlywood Univerzalne crkve okuplja žene svaki mjesec kako bi rasle u vjeri i srcu. Više od 12 000 nosilo je okvir prije srpanjskog sastanka u Salomonovom hramu.",
             "campaign_4_title": "Glasajte za UDF",
             "campaign_4_creator": "INC Kerala",
-            "campaign_4_description": "Svake dvije godine, Alpha Kappa Alpha okuplja svoje sestrinstvo na jednom mjestu. Više od 3500 članica nosilo je okvir prije 72. Boulea u Las Vegasu. "
+            "campaign_4_description": "Samy 'Rivers' Rivera ulazi u Ibaijevu La Veladu del Año VI kako bi se suočila s RoRoom u Sevilli 25. srpnja. Više od 600 obožavatelja nosilo je okvir kako bi je podržali prije zvona."
         },
         "how_it_works": {
             "heading": "Kako funkcionira",
@@ -1407,7 +1408,8 @@
             "campaigns": "Kampanje",
             "analytics": "Analitika",
             "backgrounds": "Pozadine",
-            "gallery": "Galerija"
+            "gallery": "Galerija",
+            "videos": "Videos"
         },
         "blank_design": {
             "suggested": "Predloženo",
@@ -1424,7 +1426,16 @@
             "what_do_you_want_to_create_desc": "Začinite svoju online kampanju, ne samo okvirom, već i kreativnom pozadinom",
             "new": "Novi!",
             "frame_twibbon": "Okvir Twibbon",
-            "try_twibbon": "Isprobajte {type} Twibbon"
+            "try_twibbon": "Isprobajte {type} Twibbon",
+            "video_twibbon": "Video Twibbon",
+            "video_twibbon_desc": "An animated frame that moves",
+            "beta": "Beta",
+            "no_watermark": "No Watermark",
+            "no_watermark_limited": "No Watermark (Limited time only)",
+            "frame_twibbon_desc": "A frame placed on top of the photo",
+            "background_twibbon": "Background Twibbon",
+            "background_twibbon_desc": "Photo sits on top of the design",
+            "most_popular": "Most Popular"
         },
         "confirm_reorder": {
             "title": "Ponovno naručiti Twibbon?",
@@ -3745,6 +3756,82 @@
             "badge": "ANKETA",
             "message": "Pomozite nam poboljšati Twibbonize - osvojite poklon karticu od 10 USD!",
             "cta": "Ispunite anketu odmah"
+        }
+    },
+    "page_video_campaign": {
+        "dropzone": {
+            "drag_and_drop": "Drag and drop your design, or",
+            "browse": "browse",
+            "gif_hint": "image file with transparency",
+            "video_hint": "video file with chroma key",
+            "max_size": "Maximum 100 MB file size",
+            "legal": "By uploading, you agree to our Terms of Service and Privacy Policy"
+        },
+        "detecting": {
+            "title": "Detecting chroma key… {progress}%",
+            "description": "Analyzing frames for the green or blue screen"
+        },
+        "errors": {
+            "unsupported": "That file type isn't supported. Upload a GIF or MP4.",
+            "too_large": "That file is over the 100 MB limit.",
+            "try_again": "Try again",
+            "mp4_only": "Only MP4 videos can be published for now.",
+            "processing_failed": "We couldn't process that video. Try a different file.",
+            "poster_video_unsupported": "This browser can't prepare the video preview. Please publish from Chrome, Edge, or Firefox."
+        },
+        "chroma": {
+            "title": "Chroma Key",
+            "strength": "Strength",
+            "eyedropper": "Pick color from screen",
+            "eyedropper_unsupported": "Not supported in this browser"
+        },
+        "guide": {
+            "title": "No chroma key area detected in your video file",
+            "description": "Without a chroma key area, we can't add supporter photos to your Video Twibbon",
+            "learn_more": "Learn More",
+            "understand": "I Understand"
+        },
+        "thumbnail": {
+            "title": "Set Campaign Thumbnail",
+            "recommended": "Recommended",
+            "keyframe": "Key-frame position",
+            "select_placeholder": "Select a Placeholder",
+            "shuffle": "Shuffle",
+            "upload": "Upload",
+            "campaign_name_placeholder": "[Campaign Name]",
+            "adjust_photo": "Adjust Photo",
+            "drag_hint": "Drag to select the exact video frame you want to feature as your campaign thumbnail.",
+            "choose_photo": "Choose Photo for Thumbnail",
+            "preparing": "Preparing your thumbnail options…"
+        },
+        "preview": {
+            "play": "Play",
+            "pause": "Pause",
+            "scrubber": "Video timeline",
+            "add_another": "Upload another video"
+        },
+        "edit": {
+            "title": "Campaign Videos",
+            "change_thumbnail": "Change Thumbnail"
+        },
+        "support": {
+            "change_photo": "Change photo",
+            "posting": "Posting…",
+            "downloading": "Downloading",
+            "post_title": "Post this video to Twibbonize",
+            "publishing": "Publishing your campaign…",
+            "saving": "Saving your changes…",
+            "post_success": "Posted to the gallery",
+            "stage_loading": "Loading your photo",
+            "stage_compositing": "Compositing your video",
+            "stage_almost": "Almost there"
+        },
+        "result": {
+            "title": "Your Video Twibbon is ready!",
+            "description": "Preview your animated result below",
+            "download": "Download",
+            "download_soon": "Video download is coming soon",
+            "back_to_campaign": "Back to campaign"
         }
     }
 }
