@@ -531,7 +531,8 @@
             "ai": "AI",
             "all_type": "All Type",
             "background": "Background",
-            "frame": "Frame"
+            "frame": "Frame",
+            "video": "Video"
         },
         "cropper": {
             "adjust_image": "Adjust Image",
@@ -769,16 +770,16 @@
             "subheading": "Campaigns making an impact around the world",
             "campaign_1_title": "Celebrate WDSD",
             "campaign_1_creator": "Down Syndrome UK | Positive About Down Syndrome",
-            "campaign_1_description": "For 52 years, July has been Nutrition Month in the Philippines. This year it links healthy eating to a healthy planet, and 8,000+ supporters wore the twibbon.",
+            "campaign_1_description": "Every July, Indonesia marks National Children's Day. This year's call is to love children, protect them from harm, and build their future. 10,000+ supporters wore the frame.",
             "campaign_2_title": "2026 National Women’s Month Celebration",
             "campaign_2_creator": "Philippine Commission on Women",
-            "campaign_2_description": "NORSU's College of Business Administration threw open its doors to a new batch. 1,300+ freshies wore the frame to mark their first day belonging.",
+            "campaign_2_description": "Indonesian band The Panturas cross the ocean for their first US tour, ten years into the ride. 8,700+ fans wore the frame to see them off, riffing on their own cry, Viva Los Panturas.",
             "campaign_3_title": "EDS & HSD May Awareness Month 2026!",
             "campaign_3_creator": "THE EHLERS-DANLOS SOCIETY",
-            "campaign_3_description": "Yumeaka Robinson Washington is running for judge in Louisiana's 2nd Judicial District. 80+ supporters wore her frame to put her name on their feeds. ",
+            "campaign_3_description": "The Universal Church's Godllywood gathers women each month to grow in faith and heart. 12,000+ wore the frame ahead of July's meeting at the Temple of Solomon.",
             "campaign_4_title": "Vote For UDF",
             "campaign_4_creator": "INC Kerala",
-            "campaign_4_description": "Every two years, Alpha Kappa Alpha gathers its sisterhood in one place. 3,500+ members wore the frame ahead of the 72nd Boule in Las Vegas. "
+            "campaign_4_description": "Samy 'Rivers' Rivera steps into Ibai's La Velada del Año VI to face RoRo in Seville this July 25th. 600+ fans wore the frame to back her before the bell."
         },
         "how_it_works": {
             "heading": "How it works",
@@ -1407,7 +1408,8 @@
             "campaigns": "Campaigns",
             "analytics": "Analytics",
             "backgrounds": "Backgrounds",
-            "gallery": "Gallery"
+            "gallery": "Gallery",
+            "videos": "Videos"
         },
         "blank_design": {
             "suggested": "Suggested",
@@ -1424,7 +1426,16 @@
             "what_do_you_want_to_create_desc": "Spice up your online campaign game, not only with a frame, but also with creative backgrounds",
             "new": "New!",
             "frame_twibbon": "Frame Twibbon",
-            "try_twibbon": "Try {type} Twibbon"
+            "try_twibbon": "Try {type} Twibbon",
+            "video_twibbon": "Video Twibbon",
+            "video_twibbon_desc": "An animated frame that moves",
+            "beta": "Beta",
+            "no_watermark": "No Watermark",
+            "no_watermark_limited": "No Watermark (Limited time only)",
+            "frame_twibbon_desc": "A frame placed on top of the photo",
+            "background_twibbon": "Background Twibbon",
+            "background_twibbon_desc": "Photo sits on top of the design",
+            "most_popular": "Most Popular"
         },
         "confirm_reorder": {
             "title": "Reorder Twibbon?",
@@ -3745,6 +3756,82 @@
             "badge": "SURVEY",
             "message": "Help us improve Twibbonize - Get a chance to win a $10 gift card!",
             "cta": "Take Survey Now"
+        }
+    },
+    "page_video_campaign": {
+        "dropzone": {
+            "drag_and_drop": "Drag and drop your design, or",
+            "browse": "browse",
+            "gif_hint": "image file with transparency",
+            "video_hint": "video file with chroma key",
+            "max_size": "Maximum 100 MB file size",
+            "legal": "By uploading, you agree to our Terms of Service and Privacy Policy"
+        },
+        "detecting": {
+            "title": "Detecting chroma key… {progress}%",
+            "description": "Analyzing frames for the green or blue screen"
+        },
+        "errors": {
+            "unsupported": "That file type isn't supported. Upload a GIF or MP4.",
+            "too_large": "That file is over the 100 MB limit.",
+            "try_again": "Try again",
+            "mp4_only": "Only MP4 videos can be published for now.",
+            "processing_failed": "We couldn't process that video. Try a different file.",
+            "poster_video_unsupported": "This browser can't prepare the video preview. Please publish from Chrome, Edge, or Firefox."
+        },
+        "chroma": {
+            "title": "Chroma Key",
+            "strength": "Strength",
+            "eyedropper": "Pick color from screen",
+            "eyedropper_unsupported": "Not supported in this browser"
+        },
+        "guide": {
+            "title": "No chroma key area detected in your video file",
+            "description": "Without a chroma key area, we can't add supporter photos to your Video Twibbon",
+            "learn_more": "Learn More",
+            "understand": "I Understand"
+        },
+        "thumbnail": {
+            "title": "Set Campaign Thumbnail",
+            "recommended": "Recommended",
+            "keyframe": "Key-frame position",
+            "select_placeholder": "Select a Placeholder",
+            "shuffle": "Shuffle",
+            "upload": "Upload",
+            "campaign_name_placeholder": "[Campaign Name]",
+            "adjust_photo": "Adjust Photo",
+            "drag_hint": "Drag to select the exact video frame you want to feature as your campaign thumbnail.",
+            "choose_photo": "Choose Photo for Thumbnail",
+            "preparing": "Preparing your thumbnail options…"
+        },
+        "preview": {
+            "play": "Play",
+            "pause": "Pause",
+            "scrubber": "Video timeline",
+            "add_another": "Upload another video"
+        },
+        "edit": {
+            "title": "Campaign Videos",
+            "change_thumbnail": "Change Thumbnail"
+        },
+        "support": {
+            "change_photo": "Change photo",
+            "posting": "Posting…",
+            "downloading": "Downloading",
+            "post_title": "Post this video to Twibbonize",
+            "publishing": "Publishing your campaign…",
+            "saving": "Saving your changes…",
+            "post_success": "Posted to the gallery",
+            "stage_loading": "Loading your photo",
+            "stage_compositing": "Compositing your video",
+            "stage_almost": "Almost there"
+        },
+        "result": {
+            "title": "Your Video Twibbon is ready!",
+            "description": "Preview your animated result below",
+            "download": "Download",
+            "download_soon": "Video download is coming soon",
+            "back_to_campaign": "Back to campaign"
         }
     }
 }

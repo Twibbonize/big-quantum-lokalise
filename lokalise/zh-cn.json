@@ -531,7 +531,8 @@
             "ai": "人工智能",
             "all_type": "所有类型",
             "background": "背景",
-            "frame": "框架"
+            "frame": "框架",
+            "video": "Video"
         },
         "cropper": {
             "adjust_image": "调整图像",
@@ -769,16 +770,16 @@
             "subheading": "在全球范围内产生影响的活动",
             "campaign_1_title": "庆祝 WDSD",
             "campaign_1_creator": "英国唐氏综合征协会 | 积极看待唐氏综合征",
-            "campaign_1_description": "菲律宾已有52年的历史，每年7月都是营养月。今年，营养月的主题是健康饮食与地球健康，超过8000名支持者佩戴了营养徽章。",
+            "campaign_1_description": "每年七月，印尼都会庆祝全国儿童节。今年的主题是关爱儿童、保护儿童免受伤害、共创儿童未来。超过一万名支持者佩戴了这款相框。",
             "campaign_2_title": "2026年全国妇女月庆祝活动",
             "campaign_2_creator": "菲律宾妇女委员会",
-            "campaign_2_description": "诺尔斯州立大学商学院迎来了新生。1300多名新生佩戴着纪念框，庆祝他们正式加入学院的第一天。",
+            "campaign_2_description": "印尼乐队The Panturas跨越重洋，开启了他们成军十年后的首次美国巡演。超过8700名歌迷戴着纪念相框为他们送行，高喊着他们的口号“Viva Los Panturas”。",
             "campaign_3_title": "2026年5月是EDS和HSD意识宣传月！",
             "campaign_3_creator": "埃勒斯-当洛斯综合征协会",
-            "campaign_3_description": "尤梅卡·罗宾逊·华盛顿正在竞选路易斯安那州第二司法区的法官。80多名支持者戴着印有她名字的相框，在社交媒体上发布她的名字。 ",
+            "campaign_3_description": "普世教会的“Godllywood”每月都会聚集女性，帮助她们在信仰和心灵上成长。在7月份于所罗门圣殿举行的聚会之前，超过12000名女性佩戴了该相框。",
             "campaign_4_title": "投票给联合民主阵线",
             "campaign_4_creator": "喀拉拉邦 INC",
-            "campaign_4_description": "每两年，Alpha Kappa Alpha 都会将姐妹们聚集在一起。在拉斯维加斯举行的第 72 届 Boule 大会之前，超过 3500 名成员佩戴了纪念框。 "
+            "campaign_4_description": "萨米·“里弗斯”·里维拉将于7月25日在塞维利亚参加伊拜的第六届“La Velada del Año VI”拳击赛，对阵RoRo。赛前，超过600名粉丝戴着眼镜框为她加油助威。"
         },
         "how_it_works": {
             "heading": "工作原理",
@@ -1407,7 +1408,8 @@
             "campaigns": "活动",
             "analytics": "分析",
             "backgrounds": "背景",
-            "gallery": "画廊"
+            "gallery": "画廊",
+            "videos": "Videos"
         },
         "blank_design": {
             "suggested": "建议",
@@ -1424,7 +1426,16 @@
             "what_do_you_want_to_create_desc": "为您的在线活动游戏增添趣味,不仅要有框架,还要有创意背景",
             "new": "新的！",
             "frame_twibbon": "框架特维邦",
-            "try_twibbon": "尝试 {type} Twibbon"
+            "try_twibbon": "尝试 {type} Twibbon",
+            "video_twibbon": "Video Twibbon",
+            "video_twibbon_desc": "An animated frame that moves",
+            "beta": "Beta",
+            "no_watermark": "No Watermark",
+            "no_watermark_limited": "No Watermark (Limited time only)",
+            "frame_twibbon_desc": "A frame placed on top of the photo",
+            "background_twibbon": "Background Twibbon",
+            "background_twibbon_desc": "Photo sits on top of the design",
+            "most_popular": "Most Popular"
         },
         "confirm_reorder": {
             "title": "重新订购 Twibbon？",
@@ -3745,6 +3756,82 @@
             "badge": "民意调查",
             "message": "帮助我们改进 Twibbonize - 有机会赢取 10 美元礼品卡！",
             "cta": "立即参与调查"
+        }
+    },
+    "page_video_campaign": {
+        "dropzone": {
+            "drag_and_drop": "Drag and drop your design, or",
+            "browse": "browse",
+            "gif_hint": "image file with transparency",
+            "video_hint": "video file with chroma key",
+            "max_size": "Maximum 100 MB file size",
+            "legal": "By uploading, you agree to our Terms of Service and Privacy Policy"
+        },
+        "detecting": {
+            "title": "Detecting chroma key… {progress}%",
+            "description": "Analyzing frames for the green or blue screen"
+        },
+        "errors": {
+            "unsupported": "That file type isn't supported. Upload a GIF or MP4.",
+            "too_large": "That file is over the 100 MB limit.",
+            "try_again": "Try again",
+            "mp4_only": "Only MP4 videos can be published for now.",
+            "processing_failed": "We couldn't process that video. Try a different file.",
+            "poster_video_unsupported": "This browser can't prepare the video preview. Please publish from Chrome, Edge, or Firefox."
+        },
+        "chroma": {
+            "title": "Chroma Key",
+            "strength": "Strength",
+            "eyedropper": "Pick color from screen",
+            "eyedropper_unsupported": "Not supported in this browser"
+        },
+        "guide": {
+            "title": "No chroma key area detected in your video file",
+            "description": "Without a chroma key area, we can't add supporter photos to your Video Twibbon",
+            "learn_more": "Learn More",
+            "understand": "I Understand"
+        },
+        "thumbnail": {
+            "title": "Set Campaign Thumbnail",
+            "recommended": "Recommended",
+            "keyframe": "Key-frame position",
+            "select_placeholder": "Select a Placeholder",
+            "shuffle": "Shuffle",
+            "upload": "Upload",
+            "campaign_name_placeholder": "[Campaign Name]",
+            "adjust_photo": "Adjust Photo",
+            "drag_hint": "Drag to select the exact video frame you want to feature as your campaign thumbnail.",
+            "choose_photo": "Choose Photo for Thumbnail",
+            "preparing": "Preparing your thumbnail options…"
+        },
+        "preview": {
+            "play": "Play",
+            "pause": "Pause",
+            "scrubber": "Video timeline",
+            "add_another": "Upload another video"
+        },
+        "edit": {
+            "title": "Campaign Videos",
+            "change_thumbnail": "Change Thumbnail"
+        },
+        "support": {
+            "change_photo": "Change photo",
+            "posting": "Posting…",
+            "downloading": "Downloading",
+            "post_title": "Post this video to Twibbonize",
+            "publishing": "Publishing your campaign…",
+            "saving": "Saving your changes…",
+            "post_success": "Posted to the gallery",
+            "stage_loading": "Loading your photo",
+            "stage_compositing": "Compositing your video",
+            "stage_almost": "Almost there"
+        },
+        "result": {
+            "title": "Your Video Twibbon is ready!",
+            "description": "Preview your animated result below",
+            "download": "Download",
+            "download_soon": "Video download is coming soon",
+            "back_to_campaign": "Back to campaign"
         }
     }
 }

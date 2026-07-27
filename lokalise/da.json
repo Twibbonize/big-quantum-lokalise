@@ -531,7 +531,8 @@
             "ai": "AI",
             "all_type": "Alle typer",
             "background": "Baggrund",
-            "frame": "Ramme"
+            "frame": "Ramme",
+            "video": "Video"
         },
         "cropper": {
             "adjust_image": "Juster billedet",
@@ -769,16 +770,16 @@
             "subheading": "Kampagner, der gør en forskel verden over",
             "campaign_1_title": "Fejr WDSD",
             "campaign_1_creator": "Downs syndrom UK | Positiv omkring Downs syndrom",
-            "campaign_1_description": "I 52 år har juli været ernæringsmåned i Filippinerne. I år forbinder den sund kost med en sund planet, og over 8.000 tilhængere bar twibbon-trøjen.",
+            "campaign_1_description": "Hvert år i juli markerer Indonesien den nationale børnedag. Årets opfordring er at elske børn, beskytte dem mod overgreb og bygge deres fremtid. Over 10.000 tilhængere bar stellet.",
             "campaign_2_title": "Fejring af den nationale kvindemåned 2026",
             "campaign_2_creator": "Filippinsk kvindekommission",
-            "campaign_2_description": "NORSUs handelshøjskole åbnede dørene for et nyt hold. Over 1.300 nyuddannede bar stellet for at markere deres første dag.",
+            "campaign_2_description": "Det indonesiske band The Panturas krydser havet på deres første USA-turné, ti år inde i turnéen. Over 8.700 fans bar stellet, da de tog afsted, mens de sang deres eget råb, Viva Los Panturas.",
             "campaign_3_title": "EDS & HSD maj måned 2026!",
             "campaign_3_creator": "EHLERS-DANLOS SELSKABET",
-            "campaign_3_description": "Yumeaka Robinson Washington stiller op som dommer i Louisianas 2. retskreds. Over 80 støtter bar hendes brillestel for at sætte hendes navn på deres feeds. ",
+            "campaign_3_description": "Den Universale Kirkes Godllywood samler kvinder hver måned for at vokse i tro og hjerte. Over 12.000 bar stellet forud for mødet i juli i Salomons Tempel.",
             "campaign_4_title": "Stem på UDF",
             "campaign_4_creator": "INC Kerala",
-            "campaign_4_description": "Hvert andet år samler Alpha Kappa Alpha sit søsterskab på ét sted. Over 3.500 medlemmer bar stellet forud for den 72. Boule-konkurrence i Las Vegas. "
+            "campaign_4_description": "Samy 'Rivers' Rivera træder ind i Ibais La Velada del Año VI for at møde RoRo i Sevilla den 25. juli. Over 600 fans bar stellet for at bakke hende op inden klokken ringede."
         },
         "how_it_works": {
             "heading": "Sådan fungerer det",
@@ -1407,7 +1408,8 @@
             "campaigns": "Kampagner",
             "analytics": "Analyse",
             "backgrounds": "Baggrunde",
-            "gallery": "Galleri"
+            "gallery": "Galleri",
+            "videos": "Videos"
         },
         "blank_design": {
             "suggested": "Foreslået",
@@ -1424,7 +1426,16 @@
             "what_do_you_want_to_create_desc": "Pift din onlinekampagne op, ikke kun med en ramme, men også med kreative baggrunde",
             "new": "Ny!",
             "frame_twibbon": "Ramme Twibbon",
-            "try_twibbon": "Prøv {type} Twibbon"
+            "try_twibbon": "Prøv {type} Twibbon",
+            "video_twibbon": "Video Twibbon",
+            "video_twibbon_desc": "An animated frame that moves",
+            "beta": "Beta",
+            "no_watermark": "No Watermark",
+            "no_watermark_limited": "No Watermark (Limited time only)",
+            "frame_twibbon_desc": "A frame placed on top of the photo",
+            "background_twibbon": "Background Twibbon",
+            "background_twibbon_desc": "Photo sits on top of the design",
+            "most_popular": "Most Popular"
         },
         "confirm_reorder": {
             "title": "Genbestille Twibbon?",
@@ -3745,6 +3756,82 @@
             "badge": "KORTLÆGGE",
             "message": "Hjælp os med at forbedre Twibbonize - Få chancen for at vinde et gavekort på 10 dollars!",
             "cta": "Tag undersøgelsen nu"
+        }
+    },
+    "page_video_campaign": {
+        "dropzone": {
+            "drag_and_drop": "Drag and drop your design, or",
+            "browse": "browse",
+            "gif_hint": "image file with transparency",
+            "video_hint": "video file with chroma key",
+            "max_size": "Maximum 100 MB file size",
+            "legal": "By uploading, you agree to our Terms of Service and Privacy Policy"
+        },
+        "detecting": {
+            "title": "Detecting chroma key… {progress}%",
+            "description": "Analyzing frames for the green or blue screen"
+        },
+        "errors": {
+            "unsupported": "That file type isn't supported. Upload a GIF or MP4.",
+            "too_large": "That file is over the 100 MB limit.",
+            "try_again": "Try again",
+            "mp4_only": "Only MP4 videos can be published for now.",
+            "processing_failed": "We couldn't process that video. Try a different file.",
+            "poster_video_unsupported": "This browser can't prepare the video preview. Please publish from Chrome, Edge, or Firefox."
+        },
+        "chroma": {
+            "title": "Chroma Key",
+            "strength": "Strength",
+            "eyedropper": "Pick color from screen",
+            "eyedropper_unsupported": "Not supported in this browser"
+        },
+        "guide": {
+            "title": "No chroma key area detected in your video file",
+            "description": "Without a chroma key area, we can't add supporter photos to your Video Twibbon",
+            "learn_more": "Learn More",
+            "understand": "I Understand"
+        },
+        "thumbnail": {
+            "title": "Set Campaign Thumbnail",
+            "recommended": "Recommended",
+            "keyframe": "Key-frame position",
+            "select_placeholder": "Select a Placeholder",
+            "shuffle": "Shuffle",
+            "upload": "Upload",
+            "campaign_name_placeholder": "[Campaign Name]",
+            "adjust_photo": "Adjust Photo",
+            "drag_hint": "Drag to select the exact video frame you want to feature as your campaign thumbnail.",
+            "choose_photo": "Choose Photo for Thumbnail",
+            "preparing": "Preparing your thumbnail options…"
+        },
+        "preview": {
+            "play": "Play",
+            "pause": "Pause",
+            "scrubber": "Video timeline",
+            "add_another": "Upload another video"
+        },
+        "edit": {
+            "title": "Campaign Videos",
+            "change_thumbnail": "Change Thumbnail"
+        },
+        "support": {
+            "change_photo": "Change photo",
+            "posting": "Posting…",
+            "downloading": "Downloading",
+            "post_title": "Post this video to Twibbonize",
+            "publishing": "Publishing your campaign…",
+            "saving": "Saving your changes…",
+            "post_success": "Posted to the gallery",
+            "stage_loading": "Loading your photo",
+            "stage_compositing": "Compositing your video",
+            "stage_almost": "Almost there"
+        },
+        "result": {
+            "title": "Your Video Twibbon is ready!",
+            "description": "Preview your animated result below",
+            "download": "Download",
+            "download_soon": "Video download is coming soon",
+            "back_to_campaign": "Back to campaign"
         }
     }
 }

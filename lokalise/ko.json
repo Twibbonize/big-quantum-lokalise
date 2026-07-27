@@ -531,7 +531,8 @@
             "ai": "AI",
             "all_type": "모든 유형",
             "background": "배경",
-            "frame": "프레임"
+            "frame": "프레임",
+            "video": "Video"
         },
         "cropper": {
             "adjust_image": "이미지 조정",
@@ -769,16 +770,16 @@
             "subheading": "전 세계에 영향을 미치는 캠페인",
             "campaign_1_title": "세계 여성의 날을 기념하세요",
             "campaign_1_creator": "다운증후군 영국 | 다운증후군에 대한 긍정적인 인식",
-            "campaign_1_description": "필리핀에서는 52년 동안 7월이 영양의 달로 지정되어 왔습니다. 올해는 건강한 식습관과 건강한 지구를 연결하는 캠페인을 진행했으며, 8,000명 이상의 사람들이 영양을 상징하는 리본을 착용했습니다.",
+            "campaign_1_description": "인도네시아는 매년 7월 국립 어린이날을 기념합니다. 올해의 주제는 아이들을 사랑하고, 위험으로부터 보호하며, 그들의 미래를 만들어 나가자는 것이었습니다. 1만 명이 넘는 사람들이 이 메시지를 담은 액자를 착용하고 참여했습니다.",
             "campaign_2_title": "2026년 전국 여성의 달 기념 행사",
             "campaign_2_creator": "필리핀 여성위원회",
-            "campaign_2_description": "노르주립대학교(NORSU) 경영대학이 신입생들을 맞이했습니다. 1,300명이 넘는 신입생들이 새 학년 첫날을 기념하기 위해 기념 액자를 착용했습니다.",
+            "campaign_2_description": "인도네시아 밴드 더 판투라스가 데뷔 10년 만에 첫 미국 투어를 위해 바다를 건넜다. 8,700명이 넘는 팬들이 밴드의 얼굴 모형을 착용하고 \"비바 로스 판투라스(Viva Los Panturas)\"라는 밴드의 구호를 외치며 배웅했다.",
             "campaign_3_title": "2026년 5월 EDS 및 HSD 인식의 달!",
             "campaign_3_creator": "엘러스-단로스 학회",
-            "campaign_3_description": "유메아카 로빈슨 워싱턴은 루이지애나 제2사법지구 판사직에 출마했습니다. 80명이 넘는 지지자들이 그녀의 사진이 담긴 액자를 착용하고 자신의 소셜 미디어에 그녀의 이름을 올렸습니다. ",
+            "campaign_3_description": "유니버설 교회의 갓리우드(Godllywood)는 매달 여성들이 모여 신앙과 마음을 성장시키는 모임입니다. 7월 솔로몬 성전에서 열린 모임에 앞서 12,000명 이상이 이 액자를 착용했습니다.",
             "campaign_4_title": "UDF에 투표하세요",
             "campaign_4_creator": "INC 케랄라",
-            "campaign_4_description": "알파 카파 알파는 2년마다 한자리에 모여 자매애를 다집니다. 라스베이거스에서 열린 제72회 불레 행사에 앞서 3,500명이 넘는 회원들이 기념 액자를 착용했습니다. "
+            "campaign_4_description": "사미 '리버스' 리베라가 7월 25일 세비야에서 열리는 이바이의 라 벨라다 델 아뇨 VI 대회에서 로로와 맞붙습니다. 600명이 넘는 팬들이 경기 시작 전 그녀를 응원하기 위해 응원가를 들고 왔습니다."
         },
         "how_it_works": {
             "heading": "작동 방식",
@@ -1407,7 +1408,8 @@
             "campaigns": "캠페인",
             "analytics": "해석학",
             "backgrounds": "배경",
-            "gallery": "갱도"
+            "gallery": "갱도",
+            "videos": "Videos"
         },
         "blank_design": {
             "suggested": "추천",
@@ -1424,7 +1426,16 @@
             "what_do_you_want_to_create_desc": "프레임뿐만 아니라 창의적인 배경으로 온라인 캠페인 게임에 활기를 불어넣으세요.",
             "new": "새로운!",
             "frame_twibbon": "프레임 트위본",
-            "try_twibbon": "시도 {type} Twibbon"
+            "try_twibbon": "시도 {type} Twibbon",
+            "video_twibbon": "Video Twibbon",
+            "video_twibbon_desc": "An animated frame that moves",
+            "beta": "Beta",
+            "no_watermark": "No Watermark",
+            "no_watermark_limited": "No Watermark (Limited time only)",
+            "frame_twibbon_desc": "A frame placed on top of the photo",
+            "background_twibbon": "Background Twibbon",
+            "background_twibbon_desc": "Photo sits on top of the design",
+            "most_popular": "Most Popular"
         },
         "confirm_reorder": {
             "title": "트위본을 재주문하시겠습니까?",
@@ -3745,6 +3756,82 @@
             "badge": "조사",
             "message": "Twibbonize 개선에 참여하고 $10 기프트 카드 당첨 기회를 잡으세요!",
             "cta": "지금 설문조사에 참여하세요"
+        }
+    },
+    "page_video_campaign": {
+        "dropzone": {
+            "drag_and_drop": "Drag and drop your design, or",
+            "browse": "browse",
+            "gif_hint": "image file with transparency",
+            "video_hint": "video file with chroma key",
+            "max_size": "Maximum 100 MB file size",
+            "legal": "By uploading, you agree to our Terms of Service and Privacy Policy"
+        },
+        "detecting": {
+            "title": "Detecting chroma key… {progress}%",
+            "description": "Analyzing frames for the green or blue screen"
+        },
+        "errors": {
+            "unsupported": "That file type isn't supported. Upload a GIF or MP4.",
+            "too_large": "That file is over the 100 MB limit.",
+            "try_again": "Try again",
+            "mp4_only": "Only MP4 videos can be published for now.",
+            "processing_failed": "We couldn't process that video. Try a different file.",
+            "poster_video_unsupported": "This browser can't prepare the video preview. Please publish from Chrome, Edge, or Firefox."
+        },
+        "chroma": {
+            "title": "Chroma Key",
+            "strength": "Strength",
+            "eyedropper": "Pick color from screen",
+            "eyedropper_unsupported": "Not supported in this browser"
+        },
+        "guide": {
+            "title": "No chroma key area detected in your video file",
+            "description": "Without a chroma key area, we can't add supporter photos to your Video Twibbon",
+            "learn_more": "Learn More",
+            "understand": "I Understand"
+        },
+        "thumbnail": {
+            "title": "Set Campaign Thumbnail",
+            "recommended": "Recommended",
+            "keyframe": "Key-frame position",
+            "select_placeholder": "Select a Placeholder",
+            "shuffle": "Shuffle",
+            "upload": "Upload",
+            "campaign_name_placeholder": "[Campaign Name]",
+            "adjust_photo": "Adjust Photo",
+            "drag_hint": "Drag to select the exact video frame you want to feature as your campaign thumbnail.",
+            "choose_photo": "Choose Photo for Thumbnail",
+            "preparing": "Preparing your thumbnail options…"
+        },
+        "preview": {
+            "play": "Play",
+            "pause": "Pause",
+            "scrubber": "Video timeline",
+            "add_another": "Upload another video"
+        },
+        "edit": {
+            "title": "Campaign Videos",
+            "change_thumbnail": "Change Thumbnail"
+        },
+        "support": {
+            "change_photo": "Change photo",
+            "posting": "Posting…",
+            "downloading": "Downloading",
+            "post_title": "Post this video to Twibbonize",
+            "publishing": "Publishing your campaign…",
+            "saving": "Saving your changes…",
+            "post_success": "Posted to the gallery",
+            "stage_loading": "Loading your photo",
+            "stage_compositing": "Compositing your video",
+            "stage_almost": "Almost there"
+        },
+        "result": {
+            "title": "Your Video Twibbon is ready!",
+            "description": "Preview your animated result below",
+            "download": "Download",
+            "download_soon": "Video download is coming soon",
+            "back_to_campaign": "Back to campaign"
         }
     }
 }
