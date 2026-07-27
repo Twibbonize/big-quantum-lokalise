@@ -531,7 +531,8 @@
             "ai": "KI",
             "all_type": "Alle tipes",
             "background": "Agtergrond",
-            "frame": "Raam"
+            "frame": "Raam",
+            "video": "Video"
         },
         "cropper": {
             "adjust_image": "Pas beeld aan",
@@ -769,16 +770,16 @@
             "subheading": "Veldtogte wat wêreldwyd 'n impak maak",
             "campaign_1_title": "Vier WDSD",
             "campaign_1_creator": "Downsindroom VK | Positief oor Downsindroom",
-            "campaign_1_description": "Vir 52 jaar is Julie Voedingsmaand in die Filippyne. Hierdie jaar verbind dit gesonde eetgewoontes met 'n gesonde planeet, en 8 000+ ondersteuners het die twibbon gedra.",
+            "campaign_1_description": "Elke Julie vier Indonesië Nasionale Kinderdag. Vanjaar se oproep is om kinders lief te hê, hulle teen skade te beskerm en hul toekoms te bou. Meer as 10 000 ondersteuners het die raam gedra.",
             "campaign_2_title": "2026 Nasionale Vrouemaandviering",
             "campaign_2_creator": "Filippynse Kommissie vir Vroue",
-            "campaign_2_description": "NORSU se Kollege vir Besigheidsadministrasie het sy deure vir 'n nuwe groep geopen. 1 300+ eerstejaars het die raam gedra om hul eerste dag van samehorigheid te vier.",
+            "campaign_2_description": "Tien jaar later, na die begin van die toer, steek die Indonesiese groep The Panturas die oseaan oor vir hul eerste Amerikaanse toer. Meer as 8 700 aanhangers het die raam gedra om hulle te sien vertrek, terwyl hulle hul eie kreet, Viva Los Panturas, gesing het.",
             "campaign_3_title": "EDS & HSD Mei-bewustheidsmaand 2026!",
             "campaign_3_creator": "DIE EHLERS-DANLOS VERENIGING",
-            "campaign_3_description": "Yumeaka Robinson Washington staan as kandidaat vir regter in Louisiana se 2de Geregtelike Distrik. 80+ ondersteuners het haar raam gedra om haar naam op hul strome te plaas.",
+            "campaign_3_description": "Die Universele Kerk se Godllywood bring elke maand vroue bymekaar om in geloof en hart te groei. Meer as 12 000 het die raam gedra voor Julie se byeenkoms by die Tempel van Salomo.",
             "campaign_4_title": "Stem vir UDF",
             "campaign_4_creator": "INC Kerala",
-            "campaign_4_description": "Elke twee jaar bring Alpha Kappa Alpha sy susterskap op een plek bymekaar. 3 500+ lede het die raam gedra voor die 72ste Boule in Las Vegas."
+            "campaign_4_description": "Samy 'Rivers' Rivera tree in Ibai se La Velada del Año VI in om RoRo in Sevilla op 25 Julie te pak. Meer as 600 aanhangers het die raam gedra om haar te ondersteun voor die klok lui."
         },
         "how_it_works": {
             "heading": "Hoe dit werk",
@@ -1407,7 +1408,8 @@
             "campaigns": "Veldtogte",
             "analytics": "Ontleding",
             "backgrounds": "Agtergronde",
-            "gallery": "Galery"
+            "gallery": "Galery",
+            "videos": "Videos"
         },
         "blank_design": {
             "suggested": "Voorgestel",
@@ -1424,7 +1426,16 @@
             "what_do_you_want_to_create_desc": "Spuit jou aanlyn veldtogspeletjie op, nie net met 'n raam nie, maar ook met kreatiewe agtergronde",
             "new": "Nuut!",
             "frame_twibbon": "Raam Twibbon",
-            "try_twibbon": "Probeer {type} Twibbon"
+            "try_twibbon": "Probeer {type} Twibbon",
+            "video_twibbon": "Video Twibbon",
+            "video_twibbon_desc": "An animated frame that moves",
+            "beta": "Beta",
+            "no_watermark": "No Watermark",
+            "no_watermark_limited": "No Watermark (Limited time only)",
+            "frame_twibbon_desc": "A frame placed on top of the photo",
+            "background_twibbon": "Background Twibbon",
+            "background_twibbon_desc": "Photo sits on top of the design",
+            "most_popular": "Most Popular"
         },
         "confirm_reorder": {
             "title": "Herrangskik Twibbon?",
@@ -3745,6 +3756,82 @@
             "badge": "OPNAME",
             "message": "Help ons om Twibbonize te verbeter - Kry 'n kans om 'n $10-geskenkbewys te wen!",
             "cta": "Neem nou 'n opname"
+        }
+    },
+    "page_video_campaign": {
+        "dropzone": {
+            "drag_and_drop": "Drag and drop your design, or",
+            "browse": "browse",
+            "gif_hint": "image file with transparency",
+            "video_hint": "video file with chroma key",
+            "max_size": "Maximum 100 MB file size",
+            "legal": "By uploading, you agree to our Terms of Service and Privacy Policy"
+        },
+        "detecting": {
+            "title": "Detecting chroma key… {progress}%",
+            "description": "Analyzing frames for the green or blue screen"
+        },
+        "errors": {
+            "unsupported": "That file type isn't supported. Upload a GIF or MP4.",
+            "too_large": "That file is over the 100 MB limit.",
+            "try_again": "Try again",
+            "mp4_only": "Only MP4 videos can be published for now.",
+            "processing_failed": "We couldn't process that video. Try a different file.",
+            "poster_video_unsupported": "This browser can't prepare the video preview. Please publish from Chrome, Edge, or Firefox."
+        },
+        "chroma": {
+            "title": "Chroma Key",
+            "strength": "Strength",
+            "eyedropper": "Pick color from screen",
+            "eyedropper_unsupported": "Not supported in this browser"
+        },
+        "guide": {
+            "title": "No chroma key area detected in your video file",
+            "description": "Without a chroma key area, we can't add supporter photos to your Video Twibbon",
+            "learn_more": "Learn More",
+            "understand": "I Understand"
+        },
+        "thumbnail": {
+            "title": "Set Campaign Thumbnail",
+            "recommended": "Recommended",
+            "keyframe": "Key-frame position",
+            "select_placeholder": "Select a Placeholder",
+            "shuffle": "Shuffle",
+            "upload": "Upload",
+            "campaign_name_placeholder": "[Campaign Name]",
+            "adjust_photo": "Adjust Photo",
+            "drag_hint": "Drag to select the exact video frame you want to feature as your campaign thumbnail.",
+            "choose_photo": "Choose Photo for Thumbnail",
+            "preparing": "Preparing your thumbnail options…"
+        },
+        "preview": {
+            "play": "Play",
+            "pause": "Pause",
+            "scrubber": "Video timeline",
+            "add_another": "Upload another video"
+        },
+        "edit": {
+            "title": "Campaign Videos",
+            "change_thumbnail": "Change Thumbnail"
+        },
+        "support": {
+            "change_photo": "Change photo",
+            "posting": "Posting…",
+            "downloading": "Downloading",
+            "post_title": "Post this video to Twibbonize",
+            "publishing": "Publishing your campaign…",
+            "saving": "Saving your changes…",
+            "post_success": "Posted to the gallery",
+            "stage_loading": "Loading your photo",
+            "stage_compositing": "Compositing your video",
+            "stage_almost": "Almost there"
+        },
+        "result": {
+            "title": "Your Video Twibbon is ready!",
+            "description": "Preview your animated result below",
+            "download": "Download",
+            "download_soon": "Video download is coming soon",
+            "back_to_campaign": "Back to campaign"
         }
     }
 }

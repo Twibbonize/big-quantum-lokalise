@@ -531,7 +531,8 @@
             "ai": "AI",
             "all_type": "Alle typer",
             "background": "Bakgrunn",
-            "frame": "Ramme"
+            "frame": "Ramme",
+            "video": "Video"
         },
         "cropper": {
             "adjust_image": "Juster bildet",
@@ -769,16 +770,16 @@
             "subheading": "Kampanjer som gjør en forskjell over hele verden",
             "campaign_1_title": "Feir WDSD",
             "campaign_1_creator": "Downs syndrom Storbritannia | Positivt om Downs syndrom",
-            "campaign_1_description": "I 52 år har juli vært ernæringsmåned på Filippinene. I år kobles sunt kosthold til en sunn planet, og over 8000 støttespillere brukte twibbon-t-skjorten.",
+            "campaign_1_description": "Hver juli markerer Indonesia den nasjonale barnedagen. Årets oppfordring er å elske barn, beskytte dem mot skade og bygge fremtiden deres. Over 10 000 støttespillere brukte innfatningen.",
             "campaign_2_title": "Feiringen av den nasjonale kvinnemåneden i 2026",
             "campaign_2_creator": "Filippinsk kvinnekommisjon",
-            "campaign_2_description": "NORSUs handelshøyskole åpnet dørene for et nytt kull. Over 1300 nyutdannede brukte innfatningen for å markere sin første dag som solbriller.",
+            "campaign_2_description": "Det indonesiske bandet The Panturas krysser havet for sin første USA-turné, ti år inn i turnéen. Over 8700 fans hadde på seg innfatningen da de dro, mens de sang om deres eget rop, Viva Los Panturas.",
             "campaign_3_title": "EDS og HSD mai måned for bevissthet 2026!",
             "campaign_3_creator": "EHLERS-DANLOS-FORENINGEN",
-            "campaign_3_description": "Yumeaka Robinson Washington stiller til valg som dommer i Louisianas andre rettsdistrikt. Over 80 støttespillere brukte innfatningen hennes for å legge navnet hennes ut på feedene sine. ",
+            "campaign_3_description": "Den universelle kirkens Godllywood samler kvinner hver måned for å vokse i tro og hjerte. Over 12 000 brukte innfatningen før møtet i Salomos tempel i juli.",
             "campaign_4_title": "Stem på UDF",
             "campaign_4_creator": "INC Kerala",
-            "campaign_4_description": "Hvert andre år samler Alpha Kappa Alpha søsterskapet sitt på ett sted. Over 3500 medlemmer brukte innfatningen før den 72. Boule-konkurransen i Las Vegas. "
+            "campaign_4_description": "Samy «Rivers» Rivera tar steget inn i Ibais La Velada del Año VI for å møte RoRo i Sevilla den 25. juli. Over 600 fans brukte innfatningen for å støtte henne før klokken ringte."
         },
         "how_it_works": {
             "heading": "Hvordan det fungerer",
@@ -1407,7 +1408,8 @@
             "campaigns": "Kampanjer",
             "analytics": "Analyser",
             "backgrounds": "Bakgrunner",
-            "gallery": "Galleri"
+            "gallery": "Galleri",
+            "videos": "Videos"
         },
         "blank_design": {
             "suggested": "Foreslått",
@@ -1424,7 +1426,16 @@
             "what_do_you_want_to_create_desc": "Piff opp kampanjen din på nett, ikke bare med en ramme, men også med kreative bakgrunner",
             "new": "Ny!",
             "frame_twibbon": "Ramme Twibbon",
-            "try_twibbon": "Prøv {type} Twibbon"
+            "try_twibbon": "Prøv {type} Twibbon",
+            "video_twibbon": "Video Twibbon",
+            "video_twibbon_desc": "An animated frame that moves",
+            "beta": "Beta",
+            "no_watermark": "No Watermark",
+            "no_watermark_limited": "No Watermark (Limited time only)",
+            "frame_twibbon_desc": "A frame placed on top of the photo",
+            "background_twibbon": "Background Twibbon",
+            "background_twibbon_desc": "Photo sits on top of the design",
+            "most_popular": "Most Popular"
         },
         "confirm_reorder": {
             "title": "Bestill Twibbon på nytt?",
@@ -3745,6 +3756,82 @@
             "badge": "UNDERSØKELSE",
             "message": "Hjelp oss med å forbedre Twibbonize – få sjansen til å vinne et gavekort på 10 dollar!",
             "cta": "Ta undersøkelsen nå"
+        }
+    },
+    "page_video_campaign": {
+        "dropzone": {
+            "drag_and_drop": "Drag and drop your design, or",
+            "browse": "browse",
+            "gif_hint": "image file with transparency",
+            "video_hint": "video file with chroma key",
+            "max_size": "Maximum 100 MB file size",
+            "legal": "By uploading, you agree to our Terms of Service and Privacy Policy"
+        },
+        "detecting": {
+            "title": "Detecting chroma key… {progress}%",
+            "description": "Analyzing frames for the green or blue screen"
+        },
+        "errors": {
+            "unsupported": "That file type isn't supported. Upload a GIF or MP4.",
+            "too_large": "That file is over the 100 MB limit.",
+            "try_again": "Try again",
+            "mp4_only": "Only MP4 videos can be published for now.",
+            "processing_failed": "We couldn't process that video. Try a different file.",
+            "poster_video_unsupported": "This browser can't prepare the video preview. Please publish from Chrome, Edge, or Firefox."
+        },
+        "chroma": {
+            "title": "Chroma Key",
+            "strength": "Strength",
+            "eyedropper": "Pick color from screen",
+            "eyedropper_unsupported": "Not supported in this browser"
+        },
+        "guide": {
+            "title": "No chroma key area detected in your video file",
+            "description": "Without a chroma key area, we can't add supporter photos to your Video Twibbon",
+            "learn_more": "Learn More",
+            "understand": "I Understand"
+        },
+        "thumbnail": {
+            "title": "Set Campaign Thumbnail",
+            "recommended": "Recommended",
+            "keyframe": "Key-frame position",
+            "select_placeholder": "Select a Placeholder",
+            "shuffle": "Shuffle",
+            "upload": "Upload",
+            "campaign_name_placeholder": "[Campaign Name]",
+            "adjust_photo": "Adjust Photo",
+            "drag_hint": "Drag to select the exact video frame you want to feature as your campaign thumbnail.",
+            "choose_photo": "Choose Photo for Thumbnail",
+            "preparing": "Preparing your thumbnail options…"
+        },
+        "preview": {
+            "play": "Play",
+            "pause": "Pause",
+            "scrubber": "Video timeline",
+            "add_another": "Upload another video"
+        },
+        "edit": {
+            "title": "Campaign Videos",
+            "change_thumbnail": "Change Thumbnail"
+        },
+        "support": {
+            "change_photo": "Change photo",
+            "posting": "Posting…",
+            "downloading": "Downloading",
+            "post_title": "Post this video to Twibbonize",
+            "publishing": "Publishing your campaign…",
+            "saving": "Saving your changes…",
+            "post_success": "Posted to the gallery",
+            "stage_loading": "Loading your photo",
+            "stage_compositing": "Compositing your video",
+            "stage_almost": "Almost there"
+        },
+        "result": {
+            "title": "Your Video Twibbon is ready!",
+            "description": "Preview your animated result below",
+            "download": "Download",
+            "download_soon": "Video download is coming soon",
+            "back_to_campaign": "Back to campaign"
         }
     }
 }
