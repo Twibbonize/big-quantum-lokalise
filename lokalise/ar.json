@@ -360,7 +360,7 @@
         "campaign": {
             "campaigns": "الحملات",
             "created": "تم إنشاؤها",
-            "supporters": "داعم|داعم|داعمان|داعمون|داعما|داعم"
+            "supporters": "{count, plural, zero{داعم} one{داعم} two{داعمان} few{داعمون} many{داعما} other{داعم}}"
         },
         "collection": {
             "collections": "المجموعات",
@@ -394,8 +394,8 @@
             "all_supporters_without_watermark": "يمكنك دعم جميع حملات منشئ المحتوى هذه بدون العلامة المائية!"
         },
         "campaign_card": {
-            "a_month_ago": "منذ شهر صفر|قبل شهر|قبل شهرين|منذ أشهر قليلة|منذ عدة أشهر|منذ أشهر",
-            "a_day_ago": "قبل يوم|قبل يوم واحد|قبل يومين|منذ بضعة أيام|منذ عدة أيام|أيام مضت"
+            "a_month_ago": "{count, plural, zero{منذ شهر صفر} one{قبل شهر} two{قبل شهرين} few{منذ أشهر قليلة} many{منذ عدة أشهر} other{منذ أشهر}}",
+            "a_day_ago": "{count, plural, zero{قبل يوم} one{قبل يوم واحد} two{قبل يومين} few{منذ بضعة أيام} many{منذ عدة أيام} other{أيام مضت}}"
         },
         "search": {
             "searching": "يبحث..."
@@ -1870,7 +1870,7 @@
         },
         "my_profile": {
             "edit_profile": "تعديل الملف الشخصي",
-            "campaigns": "الحملات|الحملات|الحملات|الحملات|الحملات|الحملات",
+            "campaigns": "{count, plural, zero{الحملات} one{الحملات} two{الحملات} few{الحملات} many{الحملات} other{الحملات}}",
             "collections": "المجموعات",
             "posts": "المنشورات"
         },
