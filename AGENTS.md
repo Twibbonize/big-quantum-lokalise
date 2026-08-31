@@ -47,6 +47,8 @@ Two systems coexist. Match what the surrounding file already uses — do not con
 
 ### `[%x]` — server-side tokens (notification files)
 
+Full reference: [`lokalise/NOTIFICATION_TOKENS.md`](lokalise/NOTIFICATION_TOKENS.md). Catalogue of every notification string: [`lokalise/NOTIFICATION_KEYS.md`](lokalise/NOTIFICATION_KEYS.md).
+
 | Token | Means |
 |---|---|
 | `[%p]` | plan / package name |
