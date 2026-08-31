@@ -2,19 +2,19 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {0}, új mérföldkőhöz érkeztünk!",
-                "body": "Gratulálok! A {0} kampányodnak már [%n] támogatója van!"
+                "header": "🏆 [%c], új mérföldkőhöz érkeztünk!",
+                "body": "Gratulálok! A [%s] kampányodnak már [%n] támogatója van!"
             },
             "new_post": {
                 "header": "Új Twibbon postázva",
-                "body": "{0} egy Twibbont tett közzé a kampányod galériájában {0}!"
+                "body": "[%c] egy Twibbont tett közzé a kampányod galériájában [%s]!"
             },
             "new_comment": {
                 "header": "Új megjegyzés!",
-                "body": "{0} hozzászólásodhoz a kampányban {0}!"
+                "body": "[%c] hozzászólásodhoz a kampányban [%s]!"
             },
             "account_recap": {
-                "header": "🍺 {0}, Itt a havi összefoglaló!",
+                "header": "🍺 [%c], Itt a havi összefoglaló!",
                 "body": "Ebben a hónapban [%n] új támogatót szereztél. Csak így tovább!"
             },
             "billing": {
@@ -24,13 +24,13 @@
                         "body": "Használja ki az exkluzív funkciókat! Indítsa el kampányát most"
                     },
                     "plus_5": {
-                        "header": "Szia {0}, újítsa meg előfizetését most",
+                        "header": "Szia [%c], újítsa meg előfizetését most",
                         "body": "Újítsa meg vagy frissítse csomagját most, hogy továbbra is hozzáférhessen kampányelemzéseihez."
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "Szia {0}, a megújítás kifizetését visszaigazoltuk.",
+                        "header": "Szia [%c], a megújítás kifizetését visszaigazoltuk.",
                         "body": "Mostantól továbbra is használhatja exkluzív funkcióinkat!"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "Használja ki az exkluzív funkciókat! Indítsa el kampányát most."
                         },
                         "plus_2": {
-                            "header": "Szia {0}, újítsa meg előfizetését most",
+                            "header": "Szia [%c], újítsa meg előfizetését most",
                             "body": "Újítsa meg vagy frissítse csomagját most, hogy továbbra is hozzáférhessen kampányelemzéseihez."
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "Élvezze a reklámmentes élményt, és szerezzen Twibbonokat vízjelek nélkül!"
                         },
                         "plus_2": {
-                            "header": "Szia {0}, újítsa meg előfizetését most",
+                            "header": "Szia [%c], újítsa meg előfizetését most",
                             "body": "Újítsa meg csomagját most, hogy élvezhesse a vízjelmentes Twibbonokat és a reklámoktól mentes élményt."
                         }
                     }
@@ -61,122 +61,122 @@
                     },
                     "plus_5": {
                         "body": "Újítsa meg csomagját most, hogy élvezhesse a vízjelmentes Twibbonokat és a reklámoktól mentes élményt.",
-                        "header": "Szia {0}, újítsa meg előfizetését most"
+                        "header": "Szia [%c], újítsa meg előfizetését most"
                     }
                 }
             },
             "new_reply": {
                 "header": "Új válasz!",
-                "body": "{0} hozzászólásodhoz a kampányban {0}!"
+                "body": "[%c] hozzászólásodhoz a kampányban [%s]!"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "Gratulálunk! A {0} kampánynak már [%n] támogatója van!",
-                "header": "🏆 {0}, új mérföldkőhöz érkeztünk!"
+                "body": "Gratulálunk! A [%s] kampánynak már [%n] támogatója van!",
+                "header": "🏆 [%c], új mérföldkőhöz érkeztünk!"
             },
             "account_recap": {
                 "body": "Az elmúlt hónapban az összes kampányodban [%n] új támogatót szereztél. Csak így tovább!",
-                "header": "🍺 {0}, Itt a havi összefoglaló!"
+                "header": "🍺 [%c], Itt a havi összefoglaló!"
             },
             "billing": {
                 "order_received": {
-                    "header": "Hello {0}, kérjük, töltse ki a fizetést",
+                    "header": "Hello [%c], kérjük, töltse ki a fizetést",
                     "body": "Köszönjük, hogy megrendelte a [%p]. Kérjük, folytassa a fizetést a tranzakció befejezéséhez."
                 },
                 "order_canceled": {
-                    "header": "Sajnáljuk {0}, a [%p] megrendelését töröltük.",
+                    "header": "Sajnáljuk [%c], a [%p] megrendelését töröltük.",
                     "body": "Kérjük, ne folytassa a fizetést."
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "Hello {0}, a fizetésed megérkezett",
+                        "header": "Hello [%c], a fizetésed megérkezett",
                         "body": "Köszönjük, hogy feliratkozott a [%p] oldalra. Hozzon létre kampányt most, és használja ki a különleges funkciókat!"
                     },
                     "min_3": {
-                        "header": "Szia {0}, a [%p] 3 nap múlva lejár.",
+                        "header": "Szia [%c], a [%p] 3 nap múlva lejár.",
                         "body": "Újítsa meg vagy frissítse előfizetését, hogy továbbra is élvezhesse a Twibbonize exkluzív funkcióit."
                     },
                     "exp_day": {
-                        "header": "Hello {0}, a [%p] előfizetése lejárt.",
+                        "header": "Hello [%c], a [%p] előfizetése lejárt.",
                         "body": "Újítsa meg vagy frissítse előfizetését a [%g] előtt, hogy továbbra is hozzáférjen a kampányelemzésekhez és az összes exkluzív funkcióhoz."
                     },
                     "plus_5": {
-                        "header": "Szia {0}, az előfizetésed 48 órán belül megszűnik.",
+                        "header": "Szia [%c], az előfizetésed 48 órán belül megszűnik.",
                         "body": "A kampányelemzésekhez való hozzáférés fenntartásához 48 órán belül megújíthatja vagy frissítheti csomagját."
                     },
                     "plus_7": {
-                        "header": "Szia {0}, a fiókod leminősült Twibbonize Free-re.",
+                        "header": "Szia [%c], a fiókod leminősült Twibbonize Free-re.",
                         "body": "Kérjük, újítsa meg előfizetését a [%p] funkciók további használatához."
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "Szia {0}, a [%p] előfizetését sikeresen lemondtuk.",
+                            "header": "Szia [%c], a [%p] előfizetését sikeresen lemondtuk.",
                             "body": "A számlázási ciklus végén elveszíti a hozzáférést a [%p] összes funkciójához."
                         },
                         "renewed_plan": {
-                            "header": "Szia {0}, a [%p] előfizetésed sikeresen megújult.",
+                            "header": "Szia [%c], a [%p] előfizetésed sikeresen megújult.",
                             "body": "A [%p] előfizetés a számlázási ciklus végén kerül felszámításra."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Szia {0}, a fiókod leminősült Twibbonize Free-re.",
+                                "header": "Szia [%c], a fiókod leminősült Twibbonize Free-re.",
                                 "body": "Kérjük, újítsa meg előfizetését a [%p] funkciók további használatához."
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "Hello {0}, a leminősítés törlésére vonatkozó kérését megkaptuk.",
+                            "header": "Hello [%c], a leminősítés törlésére vonatkozó kérését megkaptuk.",
                             "body": "Az előfizetésed Premium Creator néven folytatódik."
                         },
                         "convert": {
-                            "header": "Hello {0}, a fiókodat Premium Creatorrá fejlesztettük.",
+                            "header": "Hello [%c], a fiókodat Premium Creatorrá fejlesztettük.",
                             "body": "Gratulálunk! Ön mostantól Prémium Creator. Élvezze az összes funkciót!"
                         },
                         "successful_payment": {
-                            "header": "Hello {0}, a fizetésed megérkezett",
+                            "header": "Hello [%c], a fizetésed megérkezett",
                             "body": "Köszönjük, hogy feliratkozott a [%p] oldalra. Hozzon létre kampányt most, és használja ki a különleges funkciókat!"
                         },
                         "exp_day": {
-                            "header": "Hello {0}, a [%p] előfizetése lejárt.",
+                            "header": "Hello [%c], a [%p] előfizetése lejárt.",
                             "body": "Kérjük, frissítse számlázási adatait [%g] előtt, hogy továbbra is hozzáférhessen a kampányelemzésekhez."
                         },
                         "plus_2": {
-                            "header": "Szia {0}, az előfizetésed 48 órán belül megszűnik.",
+                            "header": "Szia [%c], az előfizetésed 48 órán belül megszűnik.",
                             "body": "Kérjük, frissítse fizetési kártyáját, hogy továbbra is hozzáférhessen a kampányelemzésekhez."
                         },
                         "plus_5": {
-                            "header": "Szia {0}, a fiókod leminősült Twibbonize Free-re.",
+                            "header": "Szia [%c], a fiókod leminősült Twibbonize Free-re.",
                             "body": "Kérjük, újítsa meg előfizetését a [%p] funkciók további használatához."
                         },
                         "convert_addon": {
                             "body": "Gratulálunk! Ön mostantól Prémium Creator. Élvezze az összes funkciót!",
-                            "header": "Hello {0}, a fiókodat Premium Creatorrá fejlesztettük."
+                            "header": "Hello [%c], a fiókodat Premium Creatorrá fejlesztettük."
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "Szia {0}, a fizetési módodnak hitelesítésre van szüksége.",
+                            "header": "Szia [%c], a fizetési módodnak hitelesítésre van szüksége.",
                             "body": "Kérjük, erősítse meg a fizetés hitelesítését, hogy az előfizetés most befejeződjön."
                         }
                     },
                     "renewed_plan": {
-                        "header": "Hello {0}, a megújítási kifizetését megerősítették.",
+                        "header": "Hello [%c], a megújítási kifizetését megerősítették.",
                         "body": "Mostantól továbbra is élvezheti az exkluzív funkciókat!"
                     },
                     "downgrade_received": {
-                        "header": "Helló {0}, a leminősítési kérelmét megkaptuk.",
+                        "header": "Helló [%c], a leminősítési kérelmét megkaptuk.",
                         "body": "Számlája a számlázási ciklus végén visszaminősítésre kerül a [%p] címre."
                     },
                     "supporter": {
                         "convert": {
-                            "header": "Hello {0}, A fiókodat Premium Supporterré léptettük elő.",
+                            "header": "Hello [%c], A fiókodat Premium Supporterré léptettük elő.",
                             "body": "Gratulálunk! Ön mostantól Premium Supporter. Élvezze az összes funkciót!"
                         },
                         "successful_payment": {
                             "body": "Most vízjelek és reklámmentes élményben részesítheti a Twibbont!",
-                            "header": "Üdvözlöm {0}, sikeresen megkaptuk a fizetését."
+                            "header": "Üdvözlöm [%c], sikeresen megkaptuk a fizetését."
                         },
                         "min_3": {
                             "body": "Újítsa meg vagy frissítse előfizetését most, hogy továbbra is élvezze a hirdetések nélküli böngészést és a vízjel nélküli Twibbons szolgáltatást."
@@ -185,40 +185,40 @@
                             "body": "Köszönjük, hogy feliratkozott a [%p] oldalra. Most már vízjelek nélkül és reklámmentes élményt nyújt a Twibbon!"
                         },
                         "exp_day": {
-                            "header": "Hello {0}, a fizetésed nem történt meg",
+                            "header": "Hello [%c], a fizetésed nem történt meg",
                             "body": "Kérjük, frissítse számlázási adatait [%g] előtt, hogy élvezhesse az exkluzív funkciókat, a reklámmentes böngészést és a vízjelmentes Twibbont."
                         },
                         "plus_2": {
-                            "header": "Szia {0}, az előfizetésed 48 órán belül megszűnik.",
+                            "header": "Szia [%c], az előfizetésed 48 órán belül megszűnik.",
                             "body": "Újítsa meg csomagját most, hogy élvezhesse a vízjelmentes Twibbonokat és a reklámoktól mentes élményt."
                         },
                         "plus_7": {
-                            "header": "Szia {0}, a fiókod leminősült Twibbonize Free-re."
+                            "header": "Szia [%c], a fiókod leminősült Twibbonize Free-re."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Szia {0}, a fiókod leminősült Twibbonize Free-re.",
+                                "header": "Szia [%c], a fiókod leminősült Twibbonize Free-re.",
                                 "body": "Kérjük, újítsa meg előfizetését a [%p] funkciók további használatához."
                             }
                         },
                         "plus_5": {
-                            "header": "Szia {0}, a fiókod leminősült Twibbonize Free-re.",
+                            "header": "Szia [%c], a fiókod leminősült Twibbonize Free-re.",
                             "body": "Kérjük, újítsa meg előfizetését a [%p] funkciók további használatához."
                         }
                     },
                     "period_changed": {
-                        "header": "Szia {0}, megkaptuk a tervezetváltoztatásra vonatkozó kérését.",
+                        "header": "Szia [%c], megkaptuk a tervezetváltoztatásra vonatkozó kérését.",
                         "body": "A számlázási ciklus végén a fiókját [%p] tervezetre változtatjuk."
                     },
                     "cancel_change_period": {
-                        "header": "Szia {0}, megkaptuk a tervmódosítás törlésére vonatkozó kérelmét.",
+                        "header": "Szia [%c], megkaptuk a tervmódosítás törlésére vonatkozó kérelmét.",
                         "body": "Az előfizetésed Premium Creator néven folytatódik."
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "Szia {0}, kérjük, erősítse meg az előfizetés kifizetését most.",
+                            "header": "Szia [%c], kérjük, erősítse meg az előfizetés kifizetését most.",
                             "body": "A biztonsági előírások betartása érdekében a Twibbonize-előfizetésedre vonatkozó ismétlődő fizetésedhez kifejezett megerősítésre van szükségünk."
                         }
                     }
@@ -226,23 +226,23 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "Most már vízjelek nélkül és reklámmentes élményt nyújt a Twibbon!",
-                        "header": "Hello {0}, a fizetésed megérkezett"
+                        "header": "Hello [%c], a fizetésed megérkezett"
                     },
                     "exp_day": {
                         "body": "Újítsa meg vagy frissítse előfizetését a [%g] előtt, hogy továbbra is élvezhesse az exkluzív funkciókat, a reklámmentes böngészést és a vízjelmentes Twibbont.",
-                        "header": "Hello {0}, a [%p] előfizetése lejárt."
+                        "header": "Hello [%c], a [%p] előfizetése lejárt."
                     },
                     "plus_5": {
                         "body": "Ha 48 órán belül megújítod a csomagodat, továbbra is élvezheted a vízjelmentes Twibbont és a reklámmentes élményt.",
-                        "header": "Szia {0}, az előfizetésed 48 órán belül megszűnik."
+                        "header": "Szia [%c], az előfizetésed 48 órán belül megszűnik."
                     },
                     "min_3": {
                         "body": "Újítsa meg vagy frissítse előfizetését most, hogy továbbra is élvezhesse a reklámmentes böngészést és a vízjelmentes Twibbonokat.",
-                        "header": "Szia {0}, a [%p] 3 nap múlva lejár."
+                        "header": "Szia [%c], a [%p] 3 nap múlva lejár."
                     },
                     "plus_7": {
                         "body": "Kérjük, újítsa meg előfizetését a [%p] funkciók további használatához.",
-                        "header": "Szia {0} ! Fiókja visszaminősült Twibbonize Free-re"
+                        "header": "Szia [%c] ! Fiókja visszaminősült Twibbonize Free-re"
                     }
                 }
             },
@@ -263,28 +263,54 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "Maradék reklámmentes kvóta",
-                    "body": "Önnek még 50 támogató számára maradt reklámmentes kvótája a {0} oldalon. Élvezze a reklámmentes élményt, amíg tart!"
+                    "body": "Önnek még 50 támogató számára maradt reklámmentes kvótája a [%c] oldalon. Élvezze a reklámmentes élményt, amíg tart!"
                 },
                 "adfree_quota_runout": {
                     "header": "Reklámmentes kvóta elfogyott",
-                    "body": "A {0} támogatói hirdetéseket fognak látni a platformunkon való böngészés közben."
+                    "body": "A [%c] támogatói hirdetéseket fognak látni a platformunkon való böngészés közben."
                 }
             },
             "new_post": {
                 "header": "Új Twibbon postázva",
-                "body": "{0} posztolt egy Twibbon a kampányodban {0}'s galériában!"
+                "body": "[%c] posztolt egy Twibbon a kampányodban [%s]'s galériában!"
             },
             "new_comment": {
                 "header": "Új megjegyzés!",
-                "body": "{0} hozzászólt a {0} kampány bejegyzéséhez!"
+                "body": "[%c] hozzászólt a [%s] kampány bejegyzéséhez!"
             },
             "new_reply": {
                 "header": "Új válasz!",
-                "body": "{0} hozzászólásodhoz a kampányban {0}!"
+                "body": "[%c] hozzászólásodhoz a kampányban [%s]!"
             },
             "approval": {
                 "header": "Post jóváhagyásra szorul",
-                "body": "{0} jóváhagyást kérek egy poszt hozzáadásához a kampányodhoz {0}"
+                "body": "[%c] jóváhagyást kérek egy poszt hozzáadásához a kampányodhoz [%s]"
+            },
+            "education": {
+                "d14_reminder": {
+                    "header": "A Premium Creator for Education [%g]-án véget ér",
+                    "body": "Hosszabbítsd meg előtte, hogy megtartsd a Premium Creator funkciókat."
+                },
+                "grant_expired_extendable": {
+                    "header": "Az oktatási támogatásod véget ért",
+                    "body": "Visszatértél a Twibbonize Free-re. Hosszabbítsd meg, hogy visszakapd a Premium Creator funkciókat."
+                },
+                "grant_expired_not_extendable": {
+                    "header": "Az oktatási támogatásod véget ért",
+                    "body": "Visszatértél a Twibbonize Free-re. Vásárold meg a Premium Creatort, hogy megtartsd a készítői funkciókat."
+                },
+                "grant_approved": {
+                    "header": "Megkaptad a Premium Creatort ingyen",
+                    "body": "Aktív [%g]-ig. Indíts egy kampányt, és próbáld ki az új funkciókat."
+                },
+                "grant_revoked": {
+                    "header": "Az oktatási támogatásodat visszavontuk",
+                    "body": "Ok: [%r]. A fiókod visszatért a Twibbonize Free-re. Koppints, hogy felvedd velünk a kapcsolatot."
+                },
+                "grant_extended": {
+                    "header": "A támogatásod 12 hónappal meghosszabbodott",
+                    "body": "A Premium Creator [%g]-ig aktív."
+                }
             }
         }
     }

@@ -2,19 +2,19 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {0}, ny milepæl nået!",
-                "body": "Tillykke med det! Din kampagne {0} har nu [%n] supportere!"
+                "header": "🏆 [%c], ny milepæl nået!",
+                "body": "Tillykke med det! Din kampagne [%s] har nu [%n] supportere!"
             },
             "new_post": {
                 "header": "Nyt Twibbon slået op",
-                "body": "{0} har lagt en Twibbon op i galleriet for din kampagne {0}!"
+                "body": "[%c] har lagt en Twibbon op i galleriet for din kampagne [%s]!"
             },
             "new_comment": {
                 "header": "Ny kommentar!",
-                "body": "{0} kommenterede dit indlæg i kampagnen {0}!"
+                "body": "[%c] kommenterede dit indlæg i kampagnen [%s]!"
             },
             "account_recap": {
-                "header": "🍺 {0}, Her er din månedlige opsummering!",
+                "header": "🍺 [%c], Her er din månedlige opsummering!",
                 "body": "Du har fået [%n] nye støtter i denne måned. Bliv ved med det!"
             },
             "billing": {
@@ -24,13 +24,13 @@
                         "body": "Udnyt de eksklusive funktioner! Start din kampagne nu"
                     },
                     "plus_5": {
-                        "header": "Hej {0}, forny dit abonnement nu",
+                        "header": "Hej [%c], forny dit abonnement nu",
                         "body": "Forny eller opgrader dit abonnement nu for at fortsætte med at få adgang til dine kampagneanalyser."
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "Hej {0}, din fornyelsesbetaling er blevet bekræftet",
+                        "header": "Hej [%c], din fornyelsesbetaling er blevet bekræftet",
                         "body": "Nu kan du fortsætte med at bruge vores eksklusive funktioner!"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "Udnyt de eksklusive funktioner! Start din kampagne nu."
                         },
                         "plus_2": {
-                            "header": "Hej {0}, forny dit abonnement nu",
+                            "header": "Hej [%c], forny dit abonnement nu",
                             "body": "Forny eller opgrader dit abonnement nu for at fortsætte med at få adgang til dine kampagneanalyser."
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "Nyd din reklamefri oplevelse, og få Twibbons uden vandmærker!"
                         },
                         "plus_2": {
-                            "header": "Hej {0}, forny dit abonnement nu",
+                            "header": "Hej [%c], forny dit abonnement nu",
                             "body": "Forny dit abonnement nu for at nyde Twibbons uden vandmærker og en reklamefri oplevelse."
                         }
                     }
@@ -61,122 +61,122 @@
                     },
                     "plus_5": {
                         "body": "Forny dit abonnement nu for at nyde Twibbons uden vandmærker og en reklamefri oplevelse.",
-                        "header": "Hej {0}, forny dit abonnement nu"
+                        "header": "Hej [%c], forny dit abonnement nu"
                     }
                 }
             },
             "new_reply": {
                 "header": "Nyt svar!",
-                "body": "{0} kommenterede din kommentar i kampagnen {0}!"
+                "body": "[%c] kommenterede din kommentar i kampagnen [%s]!"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "Tillykke med det! Kampagnen {0} har nu [%n] tilhængere!",
-                "header": "🏆 {0}, ny milepæl nået!"
+                "body": "Tillykke med det! Kampagnen [%s] har nu [%n] tilhængere!",
+                "header": "🏆 [%c], ny milepæl nået!"
             },
             "account_recap": {
                 "body": "Du har fået [%n] nye støtter i løbet af den sidste måned på tværs af alle dine kampagner. Fortsæt det gode arbejde!",
-                "header": "🍺 {0}, Her er din månedlige opsummering!"
+                "header": "🍺 [%c], Her er din månedlige opsummering!"
             },
             "billing": {
                 "order_received": {
-                    "header": "Hej {0}, gennemfør venligst din betaling",
+                    "header": "Hej [%c], gennemfør venligst din betaling",
                     "body": "Tak, fordi du har bestilt [%p]. Gå venligst videre til betaling for at gennemføre din transaktion."
                 },
                 "order_canceled": {
-                    "header": "Beklager {0}, din [%p]-ordre er blevet annulleret",
+                    "header": "Beklager [%c], din [%p]-ordre er blevet annulleret",
                     "body": "Fortsæt venligst ikke med at betale."
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "Hej {0}, din betaling er modtaget",
+                        "header": "Hej [%c], din betaling er modtaget",
                         "body": "Tak, fordi du abonnerer på [%p]. Opret din kampagne nu, og brug dens særlige funktioner!"
                     },
                     "min_3": {
-                        "header": "Hej {0}, din [%p] udløber om 3 dage",
+                        "header": "Hej [%c], din [%p] udløber om 3 dage",
                         "body": "Forny eller opgrader dit abonnement for at fortsætte med at nyde godt af Twibbonizes eksklusive funktioner."
                     },
                     "exp_day": {
-                        "header": "Hej {0}, dit abonnement på [%p] er udløbet",
+                        "header": "Hej [%c], dit abonnement på [%p] er udløbet",
                         "body": "Forny eller opgrader dit abonnement inden [%g] for at bevare adgangen til kampagneanalyser og alle eksklusive funktioner."
                     },
                     "plus_5": {
-                        "header": "Hej {0}, dit abonnement vil blive afsluttet om 48 timer",
+                        "header": "Hej [%c], dit abonnement vil blive afsluttet om 48 timer",
                         "body": "Forny eller opgrader din plan inden for 48 timer for at bevare adgangen til dine kampagneanalyser."
                     },
                     "plus_7": {
-                        "header": "Hej {0}, din konto er blevet nedgraderet til Twibbonize Free",
+                        "header": "Hej [%c], din konto er blevet nedgraderet til Twibbonize Free",
                         "body": "Forny venligst dit abonnement for at fortsætte med at bruge funktionerne i [%p]."
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "Hej {0}, dit abonnement på [%p] er blevet annulleret.",
+                            "header": "Hej [%c], dit abonnement på [%p] er blevet annulleret.",
                             "body": "Du mister adgangen til alle [%p]-funktioner ved udgangen af din faktureringscyklus."
                         },
                         "renewed_plan": {
-                            "header": "Hej {0}, dit [%p] abonnement er blevet fornyet.",
+                            "header": "Hej [%c], dit [%p] abonnement er blevet fornyet.",
                             "body": "Dit [%p]-abonnement vil blive opkrævet ved afslutningen af din faktureringscyklus."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Hej {0}, din konto er blevet nedgraderet til Twibbonize Free",
+                                "header": "Hej [%c], din konto er blevet nedgraderet til Twibbonize Free",
                                 "body": "Forny dit abonnement for at fortsætte med at bruge [%p] 's funktioner."
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "Hej {0}, din anmodning om at annullere nedgraderingen er modtaget",
+                            "header": "Hej [%c], din anmodning om at annullere nedgraderingen er modtaget",
                             "body": "Dit abonnement fortsætter som Premium Creator."
                         },
                         "convert": {
-                            "header": "Hej {0}, din konto er blevet opgraderet til Premium Creator",
+                            "header": "Hej [%c], din konto er blevet opgraderet til Premium Creator",
                             "body": "Vi ønsker dig tillykke! Du er nu en Premium Creator. Nyd alle funktionerne nu!"
                         },
                         "successful_payment": {
-                            "header": "Hej {0}, din betaling er modtaget",
+                            "header": "Hej [%c], din betaling er modtaget",
                             "body": "Tak, fordi du abonnerer på [%p]. Opret din kampagne nu, og brug dens særlige funktioner!"
                         },
                         "exp_day": {
-                            "header": "Hej {0}, dit abonnement på [%p] er udløbet",
+                            "header": "Hej [%c], dit abonnement på [%p] er udløbet",
                             "body": "Opdater venligst dine faktureringsoplysninger inden [%g] for at fortsætte med at få adgang til dine kampagneanalyser."
                         },
                         "plus_2": {
-                            "header": "Hej {0}, dit abonnement vil blive afsluttet om 48 timer",
+                            "header": "Hej [%c], dit abonnement vil blive afsluttet om 48 timer",
                             "body": "Opdater venligst dit betalingskort for at bevare adgangen til dine kampagneanalyser."
                         },
                         "plus_5": {
-                            "header": "Hej {0}, din konto er blevet nedgraderet til Twibbonize Free",
+                            "header": "Hej [%c], din konto er blevet nedgraderet til Twibbonize Free",
                             "body": "Forny dit abonnement for at fortsætte med at bruge [%p] 's funktioner."
                         },
                         "convert_addon": {
                             "body": "Vi ønsker dig tillykke! Du er nu en Premium Creator. Nyd alle funktionerne nu!",
-                            "header": "Hej {0}, din konto er blevet opgraderet til Premium Creator"
+                            "header": "Hej [%c], din konto er blevet opgraderet til Premium Creator"
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "Hej {0}, din betalingsmetode skal godkendes",
+                            "header": "Hej [%c], din betalingsmetode skal godkendes",
                             "body": "Bekræft venligst din betalingsgodkendelse for at afslutte dit abonnement nu."
                         }
                     },
                     "renewed_plan": {
-                        "header": "Hej {0}, din fornyelsesbetaling er blevet bekræftet",
+                        "header": "Hej [%c], din fornyelsesbetaling er blevet bekræftet",
                         "body": "Nu kan du fortsætte med at nyde eksklusive funktioner!"
                     },
                     "downgrade_received": {
-                        "header": "Hej {0}, din nedgraderingsanmodning er modtaget",
+                        "header": "Hej [%c], din nedgraderingsanmodning er modtaget",
                         "body": "Din konto vil blive nedgraderet til [%p] ved udgangen af din faktureringscyklus."
                     },
                     "supporter": {
                         "convert": {
-                            "header": "Hej {0}, Din konto er blevet opgraderet til Premium Supporter",
+                            "header": "Hej [%c], Din konto er blevet opgraderet til Premium Supporter",
                             "body": "Vi ønsker dig tillykke! Du er nu Premium Supporter. Nyd alle funktionerne nu!"
                         },
                         "successful_payment": {
                             "body": "Nu kan du få Twibbon uden vandmærker og en annoncefri oplevelse!",
-                            "header": "Hej {0}, vi har modtaget din betaling."
+                            "header": "Hej [%c], vi har modtaget din betaling."
                         },
                         "min_3": {
                             "body": "Forny eller opgrader dit abonnement nu for at fortsætte med at nyde reklamefri browsing og vandmærkefri Twibbons."
@@ -185,40 +185,40 @@
                             "body": "Tak, fordi du abonnerer på [%p]. Nu kan du få Twibbon uden vandmærker og en reklamefri oplevelse!"
                         },
                         "exp_day": {
-                            "header": "Hej {0}, din betaling gik ikke igennem",
+                            "header": "Hej [%c], din betaling gik ikke igennem",
                             "body": "Opdater venligst dine faktureringsoplysninger inden [%g] for at få glæde af eksklusive funktioner, reklamefri browsing og Twibbon uden vandmærker."
                         },
                         "plus_2": {
-                            "header": "Hej {0}, dit abonnement vil blive afsluttet om 48 timer",
+                            "header": "Hej [%c], dit abonnement vil blive afsluttet om 48 timer",
                             "body": "Forny dit abonnement nu for at nyde Twibbons uden vandmærker og en reklamefri oplevelse."
                         },
                         "plus_7": {
-                            "header": "Hej {0}, din konto er blevet nedgraderet til Twibbonize Free"
+                            "header": "Hej [%c], din konto er blevet nedgraderet til Twibbonize Free"
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Hej {0}, din konto er blevet nedgraderet til Twibbonize Free",
+                                "header": "Hej [%c], din konto er blevet nedgraderet til Twibbonize Free",
                                 "body": "Forny dit abonnement for at fortsætte med at bruge [%p] 's funktioner."
                             }
                         },
                         "plus_5": {
-                            "header": "Hej {0}, din konto er blevet nedgraderet til Twibbonize Free",
+                            "header": "Hej [%c], din konto er blevet nedgraderet til Twibbonize Free",
                             "body": "Forny dit abonnement for at fortsætte med at bruge [%p] 's funktioner."
                         }
                     },
                     "period_changed": {
-                        "header": "Hej {0}, vi har modtaget din anmodning om at ændre din plan",
+                        "header": "Hej [%c], vi har modtaget din anmodning om at ændre din plan",
                         "body": "Din konto vil blive ændret til [%p] ved afslutningen af din faktureringscyklus."
                     },
                     "cancel_change_period": {
-                        "header": "Hej {0}, vi har modtaget din anmodning om at annullere planændringen",
+                        "header": "Hej [%c], vi har modtaget din anmodning om at annullere planændringen",
                         "body": "Dit abonnement fortsætter som Premium Creator."
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "Hej {0}, bekræft venligst din betaling for abonnement nu",
+                            "header": "Hej [%c], bekræft venligst din betaling for abonnement nu",
                             "body": "For at sikre overholdelse af sikkerhedsbestemmelser kræver vi din udtrykkelige bekræftelse af din tilbagevendende betaling på dit Twibbonize-abonnement."
                         }
                     }
@@ -226,23 +226,23 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "Nu kan du få Twibbon uden vandmærker og en reklamefri oplevelse!",
-                        "header": "Hej {0}, din betaling er modtaget"
+                        "header": "Hej [%c], din betaling er modtaget"
                     },
                     "exp_day": {
                         "body": "Forny eller opgrader dit abonnement inden [%g] for fortsat at nyde godt af eksklusive funktioner, reklamefri browsing og Twibbon uden vandmærker.",
-                        "header": "Hej {0}, dit abonnement på [%p] er udløbet"
+                        "header": "Hej [%c], dit abonnement på [%p] er udløbet"
                     },
                     "plus_5": {
                         "body": "Forny dit abonnement inden for 48 timer for at fortsætte med at nyde Twibbon uden vandmærker og en reklamefri oplevelse.",
-                        "header": "Hej {0}, dit abonnement vil blive afsluttet om 48 timer"
+                        "header": "Hej [%c], dit abonnement vil blive afsluttet om 48 timer"
                     },
                     "min_3": {
                         "body": "Forny eller opgrader dit abonnement nu for at fortsætte med at nyde reklamefri browsing og vandmærkefri Twibbons.",
-                        "header": "Hej {0}, din [%p] udløber om 3 dage"
+                        "header": "Hej [%c], din [%p] udløber om 3 dage"
                     },
                     "plus_7": {
                         "body": "Forny dit abonnement for at fortsætte med at bruge [%p] 's funktioner.",
-                        "header": "Hej {0} , din konto er nedgraderet til Twibbonize Free"
+                        "header": "Hej [%c] , din konto er nedgraderet til Twibbonize Free"
                     }
                 }
             },
@@ -263,28 +263,54 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "Reklamefri kvote tilbage",
-                    "body": "Du har reklamefri kvote tilbage til 50 supportere på {0}. Nyd en reklamefri oplevelse, så længe det varer!"
+                    "body": "Du har reklamefri kvote tilbage til 50 supportere på [%c]. Nyd en reklamefri oplevelse, så længe det varer!"
                 },
                 "adfree_quota_runout": {
                     "header": "Reklamefri kvoten er opbrugt",
-                    "body": "Dine {0}-supportere vil begynde at se annoncer, når de surfer på vores platform."
+                    "body": "Dine [%c]-supportere vil begynde at se annoncer, når de surfer på vores platform."
                 }
             },
             "new_post": {
                 "header": "Nyt Twibbon slået op",
-                "body": "{0} lagt et Twibbon op i din kampagne {0}'s galleri!"
+                "body": "[%c] lagt et Twibbon op i din kampagne [%s]'s galleri!"
             },
             "new_comment": {
                 "header": "Ny kommentar!",
-                "body": "{0} kommenterede dit indlæg i kampagnen {0}!"
+                "body": "[%c] kommenterede dit indlæg i kampagnen [%s]!"
             },
             "new_reply": {
                 "header": "Nyt svar!",
-                "body": "{0} kommenterede din kommentar i kampagnen {0}!"
+                "body": "[%c] kommenterede din kommentar i kampagnen [%s]!"
             },
             "approval": {
                 "header": "Indlæg skal godkendes",
-                "body": "{0} anmoder om godkendelse til at tilføje et indlæg i din kampagne {0}"
+                "body": "[%c] anmoder om godkendelse til at tilføje et indlæg i din kampagne [%s]"
+            },
+            "education": {
+                "d14_reminder": {
+                    "header": "Din Premium Creator for Education slutter [%g]",
+                    "body": "Forlæng inden da for at beholde dine Premium Creator-funktioner."
+                },
+                "grant_expired_extendable": {
+                    "header": "Din uddannelsesbevilling er slut",
+                    "body": "Du er tilbage på Twibbonize Free. Forlæng for at få dine Premium Creator-funktioner tilbage."
+                },
+                "grant_expired_not_extendable": {
+                    "header": "Din uddannelsesbevilling er slut",
+                    "body": "Du er tilbage på Twibbonize Free. Køb Premium Creator for at beholde dine Creator-funktioner."
+                },
+                "grant_approved": {
+                    "header": "Du har fået Premium Creator gratis",
+                    "body": "Aktiv til [%g]. Start en kampagne og prøv dine nye funktioner."
+                },
+                "grant_revoked": {
+                    "header": "Din uddannelsesbevilling er tilbagekaldt",
+                    "body": "Årsag: [%r]. Din konto er tilbage på Twibbonize Free. Tryk for at kontakte os."
+                },
+                "grant_extended": {
+                    "header": "Din bevilling er forlænget 12 måneder",
+                    "body": "Premium Creator er aktiv til [%g]."
+                }
             }
         }
     }

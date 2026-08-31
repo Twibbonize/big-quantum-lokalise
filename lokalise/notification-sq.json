@@ -2,19 +2,19 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {0}, u arrit një moment i ri!",
-                "body": "Urime! Fushata juaj {0} tani ka [%n] mbështetës!"
+                "header": "🏆 [%c], u arrit një moment i ri!",
+                "body": "Urime! Fushata juaj [%s] tani ka [%n] mbështetës!"
             },
             "new_post": {
                 "header": "Twibbon i ri u postua",
-                "body": "{0} postoi një Twibbon në galerinë e fushatës suaj {0} !"
+                "body": "[%c] postoi një Twibbon në galerinë e fushatës suaj [%s] !"
             },
             "new_comment": {
                 "header": "Koment i ri!",
-                "body": "{0} komentoi postimin tuaj në fushatën {0}!"
+                "body": "[%c] komentoi postimin tuaj në fushatën [%s]!"
             },
             "account_recap": {
-                "header": "🍺 {0} , Ja përmbledhja juaj mujore!",
+                "header": "🍺 [%c] , Ja përmbledhja juaj mujore!",
                 "body": "Ju fituat [%n] mbështetës të rinj këtë muaj. Vazhdo kështu!"
             },
             "billing": {
@@ -24,13 +24,13 @@
                         "body": "Përfitoni nga veçoritë e tij ekskluzive! Filloni fushatën tuaj tani"
                     },
                     "plus_5": {
-                        "header": "Përshëndetje {0} , rinovoni tani abonimin tuaj",
+                        "header": "Përshëndetje [%c] , rinovoni tani abonimin tuaj",
                         "body": "Rinovoni ose përmirësoni planin tuaj tani për të vazhduar qasjen në analitikën e fushatës suaj."
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "Përshëndetje {0}, pagesa juaj e rinovimit është konfirmuar",
+                        "header": "Përshëndetje [%c], pagesa juaj e rinovimit është konfirmuar",
                         "body": "Tani mund të vazhdoni të përdorni veçoritë tona ekskluzive!"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "Përfitoni nga veçoritë e tij ekskluzive! Filloni fushatën tuaj tani."
                         },
                         "plus_2": {
-                            "header": "Përshëndetje {0} , rinovoni tani abonimin tuaj",
+                            "header": "Përshëndetje [%c] , rinovoni tani abonimin tuaj",
                             "body": "Rinovoni ose përmirësoni planin tuaj tani për të vazhduar qasjen në analitikën e fushatës suaj."
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "Shijoni përvojën tuaj pa reklama dhe merrni Twibbon pa filigranë!"
                         },
                         "plus_2": {
-                            "header": "Përshëndetje {0} , rinovoni tani abonimin tuaj",
+                            "header": "Përshëndetje [%c] , rinovoni tani abonimin tuaj",
                             "body": "Rinovoni planin tuaj tani për të shijuar Twibbon pa filigranë dhe një përvojë pa reklama."
                         }
                     }
@@ -61,122 +61,122 @@
                     },
                     "plus_5": {
                         "body": "Rinovoni planin tuaj tani për të shijuar Twibbon pa filigranë dhe një përvojë pa reklama.",
-                        "header": "Përshëndetje {0}, rinovoni tani abonimin tuaj"
+                        "header": "Përshëndetje [%c], rinovoni tani abonimin tuaj"
                     }
                 }
             },
             "new_reply": {
                 "header": "Përgjigje e re!",
-                "body": "{0} komentoi komentin tuaj në fushatën {0}!"
+                "body": "[%c] komentoi komentin tuaj në fushatën [%s]!"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "Urime! Fushata {0} tani ka [%n] mbështetës!",
-                "header": "🏆 {0}, u arrit një moment i ri!"
+                "body": "Urime! Fushata [%s] tani ka [%n] mbështetës!",
+                "header": "🏆 [%c], u arrit një moment i ri!"
             },
             "account_recap": {
                 "body": "Ju keni fituar [%n] mbështetës të rinj muajin e kaluar në të gjitha fushatat tuaja. Vazhdoni punën e madhe!",
-                "header": "🍺 {0} , Ja përmbledhja juaj mujore!"
+                "header": "🍺 [%c] , Ja përmbledhja juaj mujore!"
             },
             "billing": {
                 "order_received": {
-                    "header": "Përshëndetje {0}, ju lutemi plotësoni pagesën tuaj",
+                    "header": "Përshëndetje [%c], ju lutemi plotësoni pagesën tuaj",
                     "body": "Faleminderit që porositët [%p]. Ju lutemi vazhdoni me pagesën për të përfunduar transaksionin tuaj."
                 },
                 "order_canceled": {
-                    "header": "Na vjen keq {0}, porosia juaj [%p] është anuluar",
+                    "header": "Na vjen keq [%c], porosia juaj [%p] është anuluar",
                     "body": "Ju lutemi mos vazhdoni të paguani."
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "Përshëndetje {0}, pagesa juaj është marrë",
+                        "header": "Përshëndetje [%c], pagesa juaj është marrë",
                         "body": "Faleminderit që u abonuat në [%p]. Krijo fushatën tënde tani dhe përdor veçoritë e saj të veçanta!"
                     },
                     "min_3": {
-                        "header": "Përshëndetje {0} , [%p] juaj do të skadojë për 3 ditë",
+                        "header": "Përshëndetje [%c] , [%p] juaj do të skadojë për 3 ditë",
                         "body": "Rinovoni ose përmirësoni abonimin tuaj për të vazhduar të shijoni veçoritë ekskluzive të Twibbonize."
                     },
                     "exp_day": {
-                        "header": "Përshëndetje {0}, abonimi juaj për [%p] ka skaduar",
+                        "header": "Përshëndetje [%c], abonimi juaj për [%p] ka skaduar",
                         "body": "Rinovoni ose përmirësoni abonimin tuaj përpara [%g] për të ruajtur aksesin në analitikën e fushatës dhe të gjitha veçoritë ekskluzive."
                     },
                     "plus_5": {
-                        "header": "Përshëndetje {0}, abonimi juaj do të përfundojë për 48 orë",
+                        "header": "Përshëndetje [%c], abonimi juaj do të përfundojë për 48 orë",
                         "body": "Rinovoni ose përmirësoni planin tuaj brenda 48 orëve për të ruajtur aksesin në analitikën e fushatës suaj."
                     },
                     "plus_7": {
-                        "header": "Përshëndetje {0}, llogaria juaj është ulur në Twibbonize Free",
+                        "header": "Përshëndetje [%c], llogaria juaj është ulur në Twibbonize Free",
                         "body": "Ju lutemi, rinovoni abonimin tuaj për të vazhduar përdorimin e veçorive të [%p] ."
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "Përshëndetje {0}, abonimi juaj për [%p] u anulua me sukses",
+                            "header": "Përshëndetje [%c], abonimi juaj për [%p] u anulua me sukses",
                             "body": "Do të humbasësh qasjen në të gjitha veçoritë e [%p] në fund të ciklit të faturimit."
                         },
                         "renewed_plan": {
-                            "header": "Përshëndetje {0}, abonimi juaj i [%p] u rinovua me sukses",
+                            "header": "Përshëndetje [%c], abonimi juaj i [%p] u rinovua me sukses",
                             "body": "Abonimi juaj [%p] do të tarifohet në fund të ciklit tuaj të faturimit."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Përshëndetje {0}, llogaria juaj është ulur në Twibbonize Free",
+                                "header": "Përshëndetje [%c], llogaria juaj është ulur në Twibbonize Free",
                                 "body": "Ju lutemi, rinovoni abonimin tuaj për të vazhduar përdorimin e veçorive të [%p] ."
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "Përshëndetje {0} , kërkesa juaj për të anuluar uljen është marrë",
+                            "header": "Përshëndetje [%c] , kërkesa juaj për të anuluar uljen është marrë",
                             "body": "Abonimi juaj do të vazhdojë si Premium Creator."
                         },
                         "convert": {
-                            "header": "Përshëndetje {0} , llogaria juaj është përmirësuar në Premium Creator",
+                            "header": "Përshëndetje [%c] , llogaria juaj është përmirësuar në Premium Creator",
                             "body": "urime! Tani jeni një Premium Creator. Shijoni të gjitha veçoritë tani!"
                         },
                         "successful_payment": {
-                            "header": "Përshëndetje {0}, pagesa juaj është marrë",
+                            "header": "Përshëndetje [%c], pagesa juaj është marrë",
                             "body": "Faleminderit që u abonuat në [%p]. Krijo fushatën tënde tani dhe përdor veçoritë e saj të veçanta!"
                         },
                         "exp_day": {
-                            "header": "Përshëndetje {0}, abonimi juaj për [%p] ka skaduar",
+                            "header": "Përshëndetje [%c], abonimi juaj për [%p] ka skaduar",
                             "body": "Përditëso informacionin e faturimit përpara [%g] për të vazhduar qasjen në analitikën e fushatës suaj."
                         },
                         "plus_2": {
-                            "header": "Përshëndetje {0} , abonimi juaj do të përfundojë për 48 orë",
+                            "header": "Përshëndetje [%c] , abonimi juaj do të përfundojë për 48 orë",
                             "body": "Ju lutemi përditësoni kartën tuaj të pagesës për të ruajtur aksesin në analitikën e fushatës suaj."
                         },
                         "plus_5": {
-                            "header": "Përshëndetje {0}, llogaria juaj është ulur në Twibbonize Free",
+                            "header": "Përshëndetje [%c], llogaria juaj është ulur në Twibbonize Free",
                             "body": "Ju lutemi, rinovoni abonimin tuaj për të vazhduar përdorimin e veçorive të [%p] ."
                         },
                         "convert_addon": {
                             "body": "Urime! Tani jeni një Premium Creator. Shijoni të gjitha veçoritë tani!",
-                            "header": "Përshëndetje {0} , llogaria juaj është përmirësuar në Premium Creator"
+                            "header": "Përshëndetje [%c] , llogaria juaj është përmirësuar në Premium Creator"
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "Përshëndetje {0}, mënyra juaj e pagesës ka nevojë për vërtetim",
+                            "header": "Përshëndetje [%c], mënyra juaj e pagesës ka nevojë për vërtetim",
                             "body": "Ju lutemi konfirmoni vërtetimin e pagesës për të përfunduar abonimin tuaj tani."
                         }
                     },
                     "renewed_plan": {
-                        "header": "Përshëndetje {0}, pagesa juaj e rinovimit është konfirmuar",
+                        "header": "Përshëndetje [%c], pagesa juaj e rinovimit është konfirmuar",
                         "body": "Tani, mund të vazhdoni të shijoni veçori ekskluzive!"
                     },
                     "downgrade_received": {
-                        "header": "Përshëndetje {0}, kërkesa juaj për ulje është marrë",
+                        "header": "Përshëndetje [%c], kërkesa juaj për ulje është marrë",
                         "body": "Llogaria juaj do të ulet në [%p] në fund të ciklit tuaj të faturimit."
                     },
                     "supporter": {
                         "convert": {
-                            "header": "Përshëndetje {0} , Llogaria juaj është përmirësuar në Mbështetës Premium",
+                            "header": "Përshëndetje [%c] , Llogaria juaj është përmirësuar në Mbështetës Premium",
                             "body": "urime! Tani jeni një Premium Supporter. Shijoni të gjitha veçoritë tani!"
                         },
                         "successful_payment": {
                             "body": "Tani, mund të merrni Twibbon pa filigranë dhe një përvojë pa reklama!",
-                            "header": "Përshëndetje {0}, e kemi marrë me sukses pagesën tuaj"
+                            "header": "Përshëndetje [%c], e kemi marrë me sukses pagesën tuaj"
                         },
                         "min_3": {
                             "body": "Rinovoni ose përmirësoni abonimin tuaj tani për të vazhduar të shijoni shfletimin pa reklama dhe Twibbons pa filigranë."
@@ -185,40 +185,40 @@
                             "body": "Faleminderit që u abonuat në [%p]. Tani, mund të merrni Twibbon pa filigranë dhe një përvojë pa reklama!"
                         },
                         "exp_day": {
-                            "header": "Përshëndetje {0}, pagesa juaj nuk u krye",
+                            "header": "Përshëndetje [%c], pagesa juaj nuk u krye",
                             "body": "Përditëso informacionin e faturimit përpara [%g] për të shijuar veçori ekskluzive, shfletim pa reklama dhe Twibbon pa filigranë."
                         },
                         "plus_2": {
-                            "header": "Përshëndetje {0} , abonimi juaj do të përfundojë për 48 orë",
+                            "header": "Përshëndetje [%c] , abonimi juaj do të përfundojë për 48 orë",
                             "body": "Rinovoni planin tuaj tani për të shijuar Twibbon pa filigranë dhe një përvojë pa reklama."
                         },
                         "plus_7": {
-                            "header": "Përshëndetje {0}, llogaria juaj është ulur në Twibbonize Free"
+                            "header": "Përshëndetje [%c], llogaria juaj është ulur në Twibbonize Free"
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Përshëndetje {0}, llogaria juaj është ulur në Twibbonize Free",
+                                "header": "Përshëndetje [%c], llogaria juaj është ulur në Twibbonize Free",
                                 "body": "Ju lutemi, rinovoni abonimin tuaj për të vazhduar përdorimin e veçorive të [%p] ."
                             }
                         },
                         "plus_5": {
-                            "header": "Përshëndetje {0}, llogaria juaj është ulur në Twibbonize Free",
+                            "header": "Përshëndetje [%c], llogaria juaj është ulur në Twibbonize Free",
                             "body": "Ju lutemi, rinovoni abonimin tuaj për të vazhduar përdorimin e veçorive të [%p] ."
                         }
                     },
                     "period_changed": {
-                        "header": "Përshëndetje {0}, ne kemi marrë kërkesën tuaj për të ndryshuar planin tuaj",
+                        "header": "Përshëndetje [%c], ne kemi marrë kërkesën tuaj për të ndryshuar planin tuaj",
                         "body": "Llogaria juaj do të ndryshohet në [%p] në fund të ciklit tuaj të faturimit."
                     },
                     "cancel_change_period": {
-                        "header": "Përshëndetje {0}, ne kemi marrë kërkesën tuaj për të anuluar ndryshimin e planit",
+                        "header": "Përshëndetje [%c], ne kemi marrë kërkesën tuaj për të anuluar ndryshimin e planit",
                         "body": "Abonimi juaj do të vazhdojë si Premium Creator."
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "Përshëndetje {0}, ju lutemi konfirmoni pagesën tuaj për abonim tani",
+                            "header": "Përshëndetje [%c], ju lutemi konfirmoni pagesën tuaj për abonim tani",
                             "body": "Për të siguruar pajtueshmërinë me rregulloret e sigurisë, ne kërkojmë konfirmimin tuaj të qartë për pagesën tuaj të përsëritur në pajtimin tuaj në Twibbonize."
                         }
                     }
@@ -226,23 +226,23 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "Tani, mund të merrni Twibbon pa filigranë dhe një përvojë pa reklama!",
-                        "header": "Përshëndetje {0}, pagesa juaj është marrë"
+                        "header": "Përshëndetje [%c], pagesa juaj është marrë"
                     },
                     "exp_day": {
                         "body": "Rinovoni ose përmirësoni abonimin tuaj përpara [%g] për të vazhduar të shijoni veçori ekskluzive, shfletim pa reklama dhe Twibbon pa filigranë.",
-                        "header": "Përshëndetje {0}, abonimi juaj për [%p] ka skaduar"
+                        "header": "Përshëndetje [%c], abonimi juaj për [%p] ka skaduar"
                     },
                     "plus_5": {
                         "body": "Rinovoni planin tuaj brenda 48 orëve për të vazhduar të shijoni Twibbon pa filigranë dhe një përvojë pa reklama.",
-                        "header": "Përshëndetje {0} , abonimi juaj do të përfundojë për 48 orë"
+                        "header": "Përshëndetje [%c] , abonimi juaj do të përfundojë për 48 orë"
                     },
                     "min_3": {
                         "body": "Rinovoni ose përmirësoni abonimin tuaj tani për të vazhduar të shijoni shfletimin pa reklama dhe Twibbons pa filigranë.",
-                        "header": "Përshëndetje {0}, [%p] juaj do të skadojë për 3 ditë"
+                        "header": "Përshëndetje [%c], [%p] juaj do të skadojë për 3 ditë"
                     },
                     "plus_7": {
                         "body": "Ju lutemi, rinovoni abonimin tuaj për të vazhduar përdorimin e veçorive të [%p] .",
-                        "header": "Përshëndetje {0} , llogaria juaj është ulur në Twibbonize Free"
+                        "header": "Përshëndetje [%c] , llogaria juaj është ulur në Twibbonize Free"
                     }
                 }
             },
@@ -263,28 +263,54 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "Kuota pa reklama e mbetur",
-                    "body": "Ju keni mbetur kuotë pa reklama për 50 mbështetës në {0}. Shijo një përvojë pa reklama sa zgjat!"
+                    "body": "Ju keni mbetur kuotë pa reklama për 50 mbështetës në [%c]. Shijo një përvojë pa reklama sa zgjat!"
                 },
                 "adfree_quota_runout": {
                     "header": "Kuota pa reklama ka mbaruar",
-                    "body": "Mbështetësit tuaj të {0} do të fillojnë të shohin reklama gjatë shfletimit në platformën tonë."
+                    "body": "Mbështetësit tuaj të [%c] do të fillojnë të shohin reklama gjatë shfletimit në platformën tonë."
                 }
             },
             "new_post": {
                 "header": "Twibbon i ri u postua",
-                "body": "{0} postoi një Twibbon në galerinë e fushatës suaj {0} !"
+                "body": "[%c] postoi një Twibbon në galerinë e fushatës suaj [%s] !"
             },
             "new_comment": {
                 "header": "Koment i ri!",
-                "body": "{0} komentoi postimin tuaj në fushatën {0}!"
+                "body": "[%c] komentoi postimin tuaj në fushatën [%s]!"
             },
             "new_reply": {
                 "header": "Përgjigje e re!",
-                "body": "{0} komentoi komentin tuaj në fushatën {0} !"
+                "body": "[%c] komentoi komentin tuaj në fushatën [%s] !"
             },
             "approval": {
                 "header": "Postimi ka nevojë për miratim",
-                "body": "{0} kërko miratim për të shtuar një postim në fushatën tënde {0}"
+                "body": "[%c] kërko miratim për të shtuar një postim në fushatën tënde [%s]"
+            },
+            "education": {
+                "d14_reminder": {
+                    "header": "Premium Creator for Education juaj përfundon më [%g]",
+                    "body": "Zgjate përpara atij afati për të mbajtur funksionet Premium Creator."
+                },
+                "grant_expired_extendable": {
+                    "header": "Përfitimi juaj arsimor ka përfunduar",
+                    "body": "Jeni kthyer në Twibbonize Free. Zgjateni për të rimarrë funksionet Premium Creator."
+                },
+                "grant_expired_not_extendable": {
+                    "header": "Përfitimi juaj arsimor ka përfunduar",
+                    "body": "Jeni kthyer në Twibbonize Free. Blini Premium Creator për të mbajtur funksionet e krijuesit."
+                },
+                "grant_approved": {
+                    "header": "Ju kanë dhënë Premium Creator, falas",
+                    "body": "Aktiv deri më [%g]. Nisni një fushatë dhe provoni funksionet e reja."
+                },
+                "grant_revoked": {
+                    "header": "Përfitimi juaj arsimor u revokua",
+                    "body": "Arsyeja: [%r]. Llogaria juaj u kthye në Twibbonize Free. Trokitni për të na kontaktuar."
+                },
+                "grant_extended": {
+                    "header": "Përfitimi juaj u zgjat 12 muaj",
+                    "body": "Premium Creator është aktiv deri më [%g]."
+                }
             }
         }
     }
