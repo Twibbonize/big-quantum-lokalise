@@ -44,7 +44,6 @@ Two systems coexist. Match what the surrounding file already uses — do not con
 - Keep the placeholder token **identical** in every locale. `{plan}` stays `{plan}` in Arabic.
 - Translate only the words around it. Reorder freely to fit target grammar.
 - `{br}` and `{link}`/`{icon}` are markup slots — never wrap them, never duplicate them.
-- Numbered `{0}` appears in `notification-*` — positional; keep the same count and order the source has.
 
 ### `[%x]` — server-side tokens (notification files)
 
@@ -53,8 +52,15 @@ Two systems coexist. Match what the surrounding file already uses — do not con
 | `[%p]` | plan / package name |
 | `[%n]` | number (supporter count etc.) |
 | `[%g]` | date (grace/expiry) |
+| `[%c]` | creator / user display name |
+| `[%s]` | campaign name |
+| `[%r]` | reason (education grant revocation) |
 
 Verbatim, case-sensitive, brackets included. Never translate, never pluralize the word inside, never change to `{}`.
+
+These replaced the positional `{0}` that `notification-*` used previously — a single string carried two different `{0}` values, so which was which depended on argument order. Do not reintroduce `{0}` in these files.
+
+Word order is free: `[%c]` and `[%s]` may appear in whichever order the target grammar needs (`ja`/`ko` put `[%s]` first in `panel.approval.body`). Only the token spelling is fixed.
 
 ### `%s` / `%d` — printf (time files only)
 

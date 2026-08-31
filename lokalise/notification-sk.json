@@ -2,19 +2,19 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {0}, dosiahnutý nový míľnik!",
-                "body": "Gratulujeme! Vaša kampaň {0} má teraz [%n] podporovateľov!"
+                "header": "🏆 [%c], dosiahnutý nový míľnik!",
+                "body": "Gratulujeme! Vaša kampaň [%s] má teraz [%n] podporovateľov!"
             },
             "new_post": {
                 "header": "Nový Twibbon zverejnený",
-                "body": "{0} zverejnil Twibbon v galérii vašej kampane {0}!"
+                "body": "[%c] zverejnil Twibbon v galérii vašej kampane [%s]!"
             },
             "new_comment": {
                 "header": "Nový komentár!",
-                "body": "{0} komentoval váš príspevok v kampani {0}!"
+                "body": "[%c] komentoval váš príspevok v kampani [%s]!"
             },
             "account_recap": {
-                "header": "🍺 {0}, Tu je váš mesačný prehľad!",
+                "header": "🍺 [%c], Tu je váš mesačný prehľad!",
                 "body": "Tento mesiac ste získali [%n] nových priaznivcov. Len tak ďalej!"
             },
             "billing": {
@@ -24,13 +24,13 @@
                         "body": "Využite jeho exkluzívne funkcie! Spustite svoju kampaň teraz"
                     },
                     "plus_5": {
-                        "header": "Ahoj {0}, obnovte si predplatné teraz",
+                        "header": "Ahoj [%c], obnovte si predplatné teraz",
                         "body": "Obnovte alebo aktualizujte svoj plán teraz a pokračujte v prístupe k analýze kampaní."
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "Dobrý deň, {0}, vaša platba za obnovenie bola potvrdená.",
+                        "header": "Dobrý deň, [%c], vaša platba za obnovenie bola potvrdená.",
                         "body": "Teraz môžete naďalej využívať naše exkluzívne funkcie!"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "Využite jeho exkluzívne funkcie! Spustite svoju kampaň teraz."
                         },
                         "plus_2": {
-                            "header": "Ahoj {0}, obnovte si predplatné teraz",
+                            "header": "Ahoj [%c], obnovte si predplatné teraz",
                             "body": "Obnovte alebo aktualizujte svoj plán teraz a pokračujte v prístupe k analýze kampaní."
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "Užite si zážitok bez reklám a získajte Twibbons bez vodoznakov!"
                         },
                         "plus_2": {
-                            "header": "Ahoj {0}, obnovte si predplatné teraz",
+                            "header": "Ahoj [%c], obnovte si predplatné teraz",
                             "body": "Obnovte si svoj plán a užívajte si Twibbony bez vodoznaku a bez reklám."
                         }
                     }
@@ -61,122 +61,122 @@
                     },
                     "plus_5": {
                         "body": "Obnovte si svoj plán a užívajte si Twibbony bez vodoznaku a bez reklám.",
-                        "header": "Ahoj {0}, obnovte si predplatné teraz"
+                        "header": "Ahoj [%c], obnovte si predplatné teraz"
                     }
                 }
             },
             "new_reply": {
                 "header": "Nová odpoveď!",
-                "body": "{0} komentoval váš komentár v kampani {0}!"
+                "body": "[%c] komentoval váš komentár v kampani [%s]!"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "Gratulujeme! Kampaň {0} má teraz [%n] podporovateľov!",
-                "header": "🏆 {0}, dosiahnutý nový míľnik!"
+                "body": "Gratulujeme! Kampaň [%s] má teraz [%n] podporovateľov!",
+                "header": "🏆 [%c], dosiahnutý nový míľnik!"
             },
             "account_recap": {
                 "body": "Za posledný mesiac ste vo všetkých svojich kampaniach získali [%n] nových podporovateľov. Pokračujte v skvelej práci!",
-                "header": "🍺 {0}, Tu je váš mesačný prehľad!"
+                "header": "🍺 [%c], Tu je váš mesačný prehľad!"
             },
             "billing": {
                 "order_received": {
-                    "header": "Dobrý deň, {0}, dokončite prosím svoju platbu",
+                    "header": "Dobrý deň, [%c], dokončite prosím svoju platbu",
                     "body": "Ďakujeme, že ste si objednali [%p]. Prosím, prejdite k platbe a dokončite transakciu."
                 },
                 "order_canceled": {
-                    "header": "Je nám ľúto {0}, vaša objednávka na [%p] bola zrušená",
+                    "header": "Je nám ľúto [%c], vaša objednávka na [%p] bola zrušená",
                     "body": "Prosím, nepokračujte v platbe."
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "Dobrý deň, {0}, vaša platba bola prijatá",
+                        "header": "Dobrý deň, [%c], vaša platba bola prijatá",
                         "body": "Ďakujeme, že ste sa prihlásili na odber [%p]. Vytvorte si kampaň a využívajte jej špeciálne funkcie!"
                     },
                     "min_3": {
-                        "header": "Ahoj {0}, platnosť vášho [%p] vyprší za 3 dni.",
+                        "header": "Ahoj [%c], platnosť vášho [%p] vyprší za 3 dni.",
                         "body": "Obnovte alebo aktualizujte svoje predplatné a využívajte exkluzívne funkcie Twibbonize aj naďalej."
                     },
                     "exp_day": {
-                        "header": "Dobrý deň, {0}, vaše predplatné [%p] vypršalo.",
+                        "header": "Dobrý deň, [%c], vaše predplatné [%p] vypršalo.",
                         "body": "Obnovte alebo aktualizujte svoje predplatné pred [%g], aby ste si zachovali prístup k analýze kampaní a všetkým exkluzívnym funkciám."
                     },
                     "plus_5": {
-                        "header": "Ahoj {0}, vaše predplatné bude ukončené do 48 hodín.",
+                        "header": "Ahoj [%c], vaše predplatné bude ukončené do 48 hodín.",
                         "body": "Obnovte alebo aktualizujte svoj plán do 48 hodín, aby ste si zachovali prístup k analýze kampaní."
                     },
                     "plus_7": {
-                        "header": "Dobrý deň, {0}, vaše konto bolo preradené na Twibbonize Free",
+                        "header": "Dobrý deň, [%c], vaše konto bolo preradené na Twibbonize Free",
                         "body": "Ak chcete naďalej používať funkcie [%p], obnovte si predplatné."
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "Dobrý deň, {0}, vaše predplatné [%p] bolo úspešne zrušené",
+                            "header": "Dobrý deň, [%c], vaše predplatné [%p] bolo úspešne zrušené",
                             "body": "Na konci fakturačného cyklu stratíte prístup ku všetkým funkciám [%p]."
                         },
                         "renewed_plan": {
-                            "header": "Dobrý deň {0}, vaše predplatné [%p] bolo úspešne obnovené.",
+                            "header": "Dobrý deň [%c], vaše predplatné [%p] bolo úspešne obnovené.",
                             "body": "Vaše predplatné [%p] bude účtované na konci vášho fakturačného cyklu."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Dobrý deň, {0}, vaše konto bolo preradené na Twibbonize Free",
+                                "header": "Dobrý deň, [%c], vaše konto bolo preradené na Twibbonize Free",
                                 "body": "Ak chcete naďalej používať funkcie [%p], obnovte si predplatné."
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "Dobrý deň, {0}, vaša žiadosť o zrušenie aktualizácie bola prijatá.",
+                            "header": "Dobrý deň, [%c], vaša žiadosť o zrušenie aktualizácie bola prijatá.",
                             "body": "Vaše predplatné bude pokračovať ako Premium Creator."
                         },
                         "convert": {
-                            "header": "Dobrý deň, {0}, vaše konto bolo aktualizované na Premium Creator",
+                            "header": "Dobrý deň, [%c], vaše konto bolo aktualizované na Premium Creator",
                             "body": "Gratulujeme! Teraz ste Premium Creator. Užívajte si teraz všetky funkcie!"
                         },
                         "successful_payment": {
-                            "header": "Dobrý deň, {0}, vaša platba bola prijatá",
+                            "header": "Dobrý deň, [%c], vaša platba bola prijatá",
                             "body": "Ďakujeme, že ste sa prihlásili na odber [%p]. Vytvorte si kampaň a využívajte jej špeciálne funkcie!"
                         },
                         "exp_day": {
-                            "header": "Dobrý deň, {0}, vaše predplatné [%p] vypršalo.",
+                            "header": "Dobrý deň, [%c], vaše predplatné [%p] vypršalo.",
                             "body": "Ak chcete pokračovať v prístupe k analýze kampane, aktualizujte svoje fakturačné údaje pred [%g]."
                         },
                         "plus_2": {
-                            "header": "Ahoj {0}, vaše predplatné bude ukončené do 48 hodín.",
+                            "header": "Ahoj [%c], vaše predplatné bude ukončené do 48 hodín.",
                             "body": "Aktualizujte svoju platobnú kartu, aby ste si zachovali prístup k analýze kampane."
                         },
                         "plus_5": {
-                            "header": "Dobrý deň, {0}, vaše konto bolo preradené na Twibbonize Free",
+                            "header": "Dobrý deň, [%c], vaše konto bolo preradené na Twibbonize Free",
                             "body": "Ak chcete naďalej používať funkcie [%p], obnovte si predplatné."
                         },
                         "convert_addon": {
                             "body": "Gratulujeme! Teraz ste Premium Creator. Užívajte si teraz všetky funkcie!",
-                            "header": "Dobrý deň, {0}, vaše konto bolo aktualizované na Premium Creator"
+                            "header": "Dobrý deň, [%c], vaše konto bolo aktualizované na Premium Creator"
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "Ahoj {0}, váš spôsob platby potrebuje overenie",
+                            "header": "Ahoj [%c], váš spôsob platby potrebuje overenie",
                             "body": "Ak chcete dokončiť predplatné, potvrďte overenie platby."
                         }
                     },
                     "renewed_plan": {
-                        "header": "Dobrý deň, {0}, vaša platba za obnovenie bola potvrdená.",
+                        "header": "Dobrý deň, [%c], vaša platba za obnovenie bola potvrdená.",
                         "body": "Teraz si môžete naďalej užívať exkluzívne funkcie!"
                     },
                     "downgrade_received": {
-                        "header": "Dobrý deň, {0}, vaša žiadosť o zníženie úrovne bola prijatá",
+                        "header": "Dobrý deň, [%c], vaša žiadosť o zníženie úrovne bola prijatá",
                         "body": "Na konci fakturačného cyklu bude váš účet preradený do kategórie [%p]."
                     },
                     "supporter": {
                         "convert": {
-                            "header": "Dobrý deň, {0}, Vaše konto bolo aktualizované na Premium Supporter",
+                            "header": "Dobrý deň, [%c], Vaše konto bolo aktualizované na Premium Supporter",
                             "body": "Gratulujeme! Teraz ste Premium Supporter. Užívajte si teraz všetky funkcie!"
                         },
                         "successful_payment": {
                             "body": "Teraz môžete získať Twibbon bez vodoznakov a bez reklám!",
-                            "header": "Ahoj {0}, úspešne sme prijali tvoju platbu"
+                            "header": "Ahoj [%c], úspešne sme prijali tvoju platbu"
                         },
                         "min_3": {
                             "body": "Obnovte alebo upgradujte svoje predplatné, aby ste si mohli naďalej užívať prehliadanie bez reklám a Twibbons bez vodoznakov."
@@ -185,40 +185,40 @@
                             "body": "Ďakujeme, že ste sa prihlásili na odber [%p]. Teraz môžete získať Twibbon bez vodoznakov a bez reklám!"
                         },
                         "exp_day": {
-                            "header": "Dobrý deň, {0}, vaša platba neprešla",
+                            "header": "Dobrý deň, [%c], vaša platba neprešla",
                             "body": "Aktualizujte svoje fakturačné údaje do [%g], aby ste mohli využívať exkluzívne funkcie, prehliadanie bez reklám a Twibbon bez vodoznaku."
                         },
                         "plus_2": {
-                            "header": "Ahoj {0}, vaše predplatné bude ukončené do 48 hodín.",
+                            "header": "Ahoj [%c], vaše predplatné bude ukončené do 48 hodín.",
                             "body": "Obnovte si svoj plán a užívajte si Twibbony bez vodoznaku a bez reklám."
                         },
                         "plus_7": {
-                            "header": "Dobrý deň, {0}, vaše konto bolo preradené na Twibbonize Free"
+                            "header": "Dobrý deň, [%c], vaše konto bolo preradené na Twibbonize Free"
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Dobrý deň, {0}, vaše konto bolo preradené na Twibbonize Free",
+                                "header": "Dobrý deň, [%c], vaše konto bolo preradené na Twibbonize Free",
                                 "body": "Ak chcete naďalej používať funkcie [%p], obnovte si predplatné."
                             }
                         },
                         "plus_5": {
-                            "header": "Dobrý deň, {0}, vaše konto bolo preradené na Twibbonize Free",
+                            "header": "Dobrý deň, [%c], vaše konto bolo preradené na Twibbonize Free",
                             "body": "Ak chcete naďalej používať funkcie [%p], obnovte si predplatné."
                         }
                     },
                     "period_changed": {
-                        "header": "Dobrý deň {0}, dostali sme vašu žiadosť o zmenu plánu",
+                        "header": "Dobrý deň [%c], dostali sme vašu žiadosť o zmenu plánu",
                         "body": "Váš účet bude na konci zúčtovacieho cyklu zmenený na [%p]."
                     },
                     "cancel_change_period": {
-                        "header": "Dobrý deň {0}, dostali sme vašu žiadosť o zrušenie zmeny plánu",
+                        "header": "Dobrý deň [%c], dostali sme vašu žiadosť o zrušenie zmeny plánu",
                         "body": "Vaše predplatné bude pokračovať ako Premium Creator."
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "Ahoj {0}, prosím, potvrďte svoju platbu za predplatné teraz",
+                            "header": "Ahoj [%c], prosím, potvrďte svoju platbu za predplatné teraz",
                             "body": "Na zabezpečenie súladu s bezpečnostnými predpismi vyžadujeme vaše výslovné potvrdenie opakovanej platby za predplatné Twibbonize."
                         }
                     }
@@ -226,23 +226,23 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "Teraz môžete získať Twibbon bez vodoznakov a bez reklám!",
-                        "header": "Dobrý deň, {0}, vaša platba bola prijatá"
+                        "header": "Dobrý deň, [%c], vaša platba bola prijatá"
                     },
                     "exp_day": {
                         "body": "Obnovte alebo aktualizujte svoje predplatné pred stránkou [%g] a naďalej využívajte exkluzívne funkcie, prehliadanie bez reklám a Twibbon bez vodoznaku.",
-                        "header": "Dobrý deň, {0}, vaše predplatné [%p] vypršalo."
+                        "header": "Dobrý deň, [%c], vaše predplatné [%p] vypršalo."
                     },
                     "plus_5": {
                         "body": "Obnovte si svoj plán do 48 hodín a užívajte si Twibbon bez vodoznaku a bez reklám.",
-                        "header": "Ahoj {0}, vaše predplatné bude ukončené do 48 hodín."
+                        "header": "Ahoj [%c], vaše predplatné bude ukončené do 48 hodín."
                     },
                     "min_3": {
                         "body": "Obnovte alebo aktualizujte svoje predplatné a naďalej si užívajte prehliadanie bez reklám a Twibbony bez vodoznakov.",
-                        "header": "Ahoj {0}, platnosť vášho [%p] vyprší za 3 dni."
+                        "header": "Ahoj [%c], platnosť vášho [%p] vyprší za 3 dni."
                     },
                     "plus_7": {
                         "body": "Ak chcete naďalej používať funkcie [%p], obnovte si predplatné.",
-                        "header": "Dobrý deň {0} , váš účet je znížený na Twibbonize Free"
+                        "header": "Dobrý deň [%c] , váš účet je znížený na Twibbonize Free"
                     }
                 }
             },
@@ -263,28 +263,28 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "Zostávajúca kvóta bez reklám",
-                    "body": "Zostáva vám kvóta bez reklám pre 50 podporovateľov na {0}. Užívajte si zážitok bez reklám, kým trvá!"
+                    "body": "Zostáva vám kvóta bez reklám pre 50 podporovateľov na [%c]. Užívajte si zážitok bez reklám, kým trvá!"
                 },
                 "adfree_quota_runout": {
                     "header": "Kvóta bez reklám sa vyčerpala",
-                    "body": "Vašim podporovateľom na stránke {0} sa pri prehliadaní našej platformy začnú zobrazovať reklamy."
+                    "body": "Vašim podporovateľom na stránke [%c] sa pri prehliadaní našej platformy začnú zobrazovať reklamy."
                 }
             },
             "new_post": {
                 "header": "Nový Twibbon zverejnený",
-                "body": "{0} uverejnil Twibbon v galérii svojej kampane {0}'s!"
+                "body": "[%c] uverejnil Twibbon v galérii svojej kampane [%s]'s!"
             },
             "new_comment": {
                 "header": "Nový komentár!",
-                "body": "{0} komentoval váš príspevok v kampani {0}!"
+                "body": "[%c] komentoval váš príspevok v kampani [%s]!"
             },
             "new_reply": {
                 "header": "Nová odpoveď!",
-                "body": "{0} komentoval váš komentár v kampani {0}!"
+                "body": "[%c] komentoval váš komentár v kampani [%s]!"
             },
             "approval": {
                 "header": "Príspevok potrebuje schválenie",
-                "body": "{0} žiadosť o schválenie pridania príspevku do vašej kampane {0}"
+                "body": "[%c] žiadosť o schválenie pridania príspevku do vašej kampane [%s]"
             },
             "education": {
                 "d14_reminder": {

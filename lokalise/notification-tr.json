@@ -2,19 +2,19 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {0}, yeni bir kilometre taşına ulaşıldı!",
-                "body": "Tebrikler! {0} kampanyanızın artık [%n] destekçisi var!"
+                "header": "🏆 [%c], yeni bir kilometre taşına ulaşıldı!",
+                "body": "Tebrikler! [%s] kampanyanızın artık [%n] destekçisi var!"
             },
             "new_post": {
                 "header": "Yeni Twibbon gönderildi",
-                "body": "{0} kampanyanızın {0} galerisinde bir Twibbon yayınladı!"
+                "body": "[%c] kampanyanızın [%s] galerisinde bir Twibbon yayınladı!"
             },
             "new_comment": {
                 "header": "Yeni yorum!",
-                "body": "{0} {0} kampanyasındaki gönderinize yorum yaptı!"
+                "body": "[%c] [%s] kampanyasındaki gönderinize yorum yaptı!"
             },
             "account_recap": {
-                "header": "🍺 {0}, İşte aylık özetin!",
+                "header": "🍺 [%c], İşte aylık özetin!",
                 "body": "Bu ay [%n] yeni destekçiler kazandınız. Böyle devam edin!"
             },
             "billing": {
@@ -24,13 +24,13 @@
                         "body": "Ayrıcalıklı özelliklerinden yararlanın! Kampanyanızı şimdi başlatın"
                     },
                     "plus_5": {
-                        "header": "Merhaba {0}, aboneliğinizi şimdi yenileyin",
+                        "header": "Merhaba [%c], aboneliğinizi şimdi yenileyin",
                         "body": "Kampanya analizlerinize erişmeye devam etmek için planınızı şimdi yenileyin veya yükseltin."
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "Merhaba {0}, yenileme ödemeniz onaylandı",
+                        "header": "Merhaba [%c], yenileme ödemeniz onaylandı",
                         "body": "Şimdi özel özelliklerimizi kullanmaya devam edebilirsiniz!"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "Ayrıcalıklı özelliklerinden yararlanın! Kampanyanızı şimdi başlatın."
                         },
                         "plus_2": {
-                            "header": "Merhaba {0}, aboneliğinizi şimdi yenileyin",
+                            "header": "Merhaba [%c], aboneliğinizi şimdi yenileyin",
                             "body": "Kampanya analizlerinize erişmeye devam etmek için planınızı şimdi yenileyin veya yükseltin."
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "Reklamsız deneyiminizin keyfini çıkarın ve filigransız Twibbons alın!"
                         },
                         "plus_2": {
-                            "header": "Merhaba {0}, aboneliğinizi şimdi yenileyin",
+                            "header": "Merhaba [%c], aboneliğinizi şimdi yenileyin",
                             "body": "Filigransız Twibbon'ların ve reklamsız bir deneyimin keyfini çıkarmak için planınızı şimdi yenileyin."
                         }
                     }
@@ -61,122 +61,122 @@
                     },
                     "plus_5": {
                         "body": "Filigransız Twibbon'ların ve reklamsız bir deneyimin keyfini çıkarmak için planınızı şimdi yenileyin.",
-                        "header": "Merhaba {0}, aboneliğinizi şimdi yenileyin"
+                        "header": "Merhaba [%c], aboneliğinizi şimdi yenileyin"
                     }
                 }
             },
             "new_reply": {
                 "header": "Yeni cevap!",
-                "body": "{0} {0} kampanyasındaki yorumunuza yorum yaptım!"
+                "body": "[%c] [%s] kampanyasındaki yorumunuza yorum yaptım!"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "Tebrikler! {0} kampanyasının artık [%n] destekçisi var!",
-                "header": "🏆 {0}, yeni bir kilometre taşına ulaşıldı!"
+                "body": "Tebrikler! [%s] kampanyasının artık [%n] destekçisi var!",
+                "header": "🏆 [%c], yeni bir kilometre taşına ulaşıldı!"
             },
             "account_recap": {
                 "body": "Geçtiğimiz ay tüm kampanyalarınızda [%n] yeni destekçiler kazandınız. Harika çalışmaya devam edin!",
-                "header": "🍺 {0}, İşte aylık özetiniz!"
+                "header": "🍺 [%c], İşte aylık özetiniz!"
             },
             "billing": {
                 "order_received": {
-                    "header": "Merhaba {0}, lütfen ödemenizi tamamlayın",
+                    "header": "Merhaba [%c], lütfen ödemenizi tamamlayın",
                     "body": "[%p] adresinden sipariş verdiğiniz için teşekkür ederiz. İşleminizi tamamlamak için lütfen ödemeye geçin."
                 },
                 "order_canceled": {
-                    "header": "Üzgünüz {0}, [%p] siparişiniz iptal edildi",
+                    "header": "Üzgünüz [%c], [%p] siparişiniz iptal edildi",
                     "body": "Lütfen ödemeye devam etmeyin."
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "Merhaba {0}, ödemeniz alınmıştır",
+                        "header": "Merhaba [%c], ödemeniz alınmıştır",
                         "body": "[%p] adresine abone olduğunuz için teşekkür ederiz. Kampanyanızı şimdi oluşturun ve özel özelliklerini kullanın!"
                     },
                     "min_3": {
-                        "header": "Merhaba {0}, [%p] adresinizin süresi 3 gün içinde dolacaktır",
+                        "header": "Merhaba [%c], [%p] adresinizin süresi 3 gün içinde dolacaktır",
                         "body": "Twibbonize'ın ayrıcalıklı özelliklerinden yararlanmaya devam etmek için aboneliğinizi yenileyin veya yükseltin."
                     },
                     "exp_day": {
-                        "header": "Merhaba {0}, [%p] aboneliğinizin süresi doldu",
+                        "header": "Merhaba [%c], [%p] aboneliğinizin süresi doldu",
                         "body": "Kampanya analizlerine ve tüm özel özelliklere erişmeye devam etmek için [%g] adresinden önce aboneliğinizi yenileyin veya yükseltin."
                     },
                     "plus_5": {
-                        "header": "Merhaba {0}, aboneliğiniz 48 saat içinde sona erecektir",
+                        "header": "Merhaba [%c], aboneliğiniz 48 saat içinde sona erecektir",
                         "body": "Kampanya analizlerinize erişiminizi sürdürmek için planınızı 48 saat içinde yenileyin veya yükseltin."
                     },
                     "plus_7": {
-                        "header": "Merhaba {0}, hesabınız Twibbonize Free'ye düşürüldü",
+                        "header": "Merhaba [%c], hesabınız Twibbonize Free'ye düşürüldü",
                         "body": "[%p] özelliklerini kullanmaya devam etmek için lütfen aboneliğinizi yenileyin."
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "Merhaba {0}, [%p] aboneliğiniz başarıyla iptal edildi",
+                            "header": "Merhaba [%c], [%p] aboneliğiniz başarıyla iptal edildi",
                             "body": "Fatura döneminizin sonunda tüm [%p] özelliklerine erişiminizi kaybedersiniz."
                         },
                         "renewed_plan": {
-                            "header": "Merhaba {0}, [%p] aboneliğiniz başarıyla yenilendi",
+                            "header": "Merhaba [%c], [%p] aboneliğiniz başarıyla yenilendi",
                             "body": "[%p] aboneliğiniz fatura döneminizin sonunda ücretlendirilecektir."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Merhaba {0}, hesabınız Twibbonize Free'ye düşürüldü",
+                                "header": "Merhaba [%c], hesabınız Twibbonize Free'ye düşürüldü",
                                 "body": "[%p] özelliklerini kullanmaya devam etmek için lütfen aboneliğinizi yenileyin."
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "Merhaba {0}, sürüm düşürme iptal talebiniz alınmıştır",
+                            "header": "Merhaba [%c], sürüm düşürme iptal talebiniz alınmıştır",
                             "body": "Aboneliğiniz Premium Creator olarak devam edecektir."
                         },
                         "convert": {
-                            "header": "Merhaba {0}, hesabınız Premium Creator'a yükseltildi",
+                            "header": "Merhaba [%c], hesabınız Premium Creator'a yükseltildi",
                             "body": "Tebrikler! Artık bir Premium Creator'siniz. Şimdi tüm özelliklerin tadını çıkarın!"
                         },
                         "successful_payment": {
-                            "header": "Merhaba {0}, ödemeniz alınmıştır",
+                            "header": "Merhaba [%c], ödemeniz alınmıştır",
                             "body": "[%p] adresine abone olduğunuz için teşekkür ederiz. Kampanyanızı şimdi oluşturun ve özel özelliklerini kullanın!"
                         },
                         "exp_day": {
-                            "header": "Merhaba {0}, [%p] aboneliğinizin süresi doldu",
+                            "header": "Merhaba [%c], [%p] aboneliğinizin süresi doldu",
                             "body": "Kampanya analizlerinize erişmeye devam etmek için lütfen [%g] tarihinden önce fatura bilgilerinizi güncelleyin."
                         },
                         "plus_2": {
-                            "header": "Merhaba {0}, aboneliğiniz 48 saat içinde sona erecektir",
+                            "header": "Merhaba [%c], aboneliğiniz 48 saat içinde sona erecektir",
                             "body": "Kampanya analizlerinize erişiminizi sürdürmek için lütfen ödeme kartınızı güncelleyin."
                         },
                         "plus_5": {
-                            "header": "Merhaba {0}, hesabınız Twibbonize Free'ye düşürüldü",
+                            "header": "Merhaba [%c], hesabınız Twibbonize Free'ye düşürüldü",
                             "body": "[%p] özelliklerini kullanmaya devam etmek için lütfen aboneliğinizi yenileyin."
                         },
                         "convert_addon": {
                             "body": "Tebrikler! Artık bir Premium Creator'siniz. Şimdi tüm özelliklerin tadını çıkarın!",
-                            "header": "Merhaba {0}, hesabınız Premium Creator'a yükseltildi"
+                            "header": "Merhaba [%c], hesabınız Premium Creator'a yükseltildi"
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "Merhaba {0}, ödeme yönteminizin kimlik doğrulamasına ihtiyacı var",
+                            "header": "Merhaba [%c], ödeme yönteminizin kimlik doğrulamasına ihtiyacı var",
                             "body": "Aboneliğinizi şimdi tamamlamak için lütfen ödeme doğrulamanızı onaylayın."
                         }
                     },
                     "renewed_plan": {
-                        "header": "Merhaba {0}, yenileme ödemeniz onaylandı",
+                        "header": "Merhaba [%c], yenileme ödemeniz onaylandı",
                         "body": "Şimdi, özel özelliklerin keyfini çıkarmaya devam edebilirsiniz!"
                     },
                     "downgrade_received": {
-                        "header": "Merhaba {0}, sürüm düşürme talebiniz alınmıştır",
+                        "header": "Merhaba [%c], sürüm düşürme talebiniz alınmıştır",
                         "body": "Fatura döneminizin sonunda hesabınız [%p] adresine düşürülecektir."
                     },
                     "supporter": {
                         "convert": {
-                            "header": "Merhaba {0}, Hesabınız Premium Destekçiye yükseltildi",
+                            "header": "Merhaba [%c], Hesabınız Premium Destekçiye yükseltildi",
                             "body": "Tebrikler! Artık bir Premium Supporter'siniz. Şimdi tüm özelliklerin tadını çıkarın!"
                         },
                         "successful_payment": {
                             "body": "Artık Twibbon'u filigran olmadan ve reklamsız bir deneyime sahip olabilirsiniz!",
-                            "header": "Merhaba {0}, ödemenizi başarıyla aldık"
+                            "header": "Merhaba [%c], ödemenizi başarıyla aldık"
                         },
                         "min_3": {
                             "body": "Reklamsız gezinmenin ve filigransız Twibbons'un keyfini çıkarmaya devam etmek için aboneliğinizi şimdi yenileyin veya yükseltin."
@@ -185,40 +185,40 @@
                             "body": "[%p] paketine abone olduğunuz için teşekkür ederiz. Artık Twibbon'a filigransız ve reklamsız bir deneyimle sahip olabilirsiniz!"
                         },
                         "exp_day": {
-                            "header": "Merhaba {0}, ödemeniz gerçekleşmedi",
+                            "header": "Merhaba [%c], ödemeniz gerçekleşmedi",
                             "body": "Özel özelliklerin, reklamsız gezinmenin ve filigransız Twibbon'un keyfini çıkarmak için lütfen [%g] tarihinden önce fatura bilgilerinizi güncelleyin."
                         },
                         "plus_2": {
-                            "header": "Merhaba {0}, aboneliğiniz 48 saat içinde sona erecektir",
+                            "header": "Merhaba [%c], aboneliğiniz 48 saat içinde sona erecektir",
                             "body": "Filigransız Twibbon'ların ve reklamsız bir deneyimin keyfini çıkarmak için planınızı şimdi yenileyin."
                         },
                         "plus_7": {
-                            "header": "Merhaba {0}, hesabınız Twibbonize Free'ye düşürüldü"
+                            "header": "Merhaba [%c], hesabınız Twibbonize Free'ye düşürüldü"
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Merhaba {0}, hesabınız Twibbonize Free'ye düşürüldü",
+                                "header": "Merhaba [%c], hesabınız Twibbonize Free'ye düşürüldü",
                                 "body": "[%p] özelliklerini kullanmaya devam etmek için lütfen aboneliğinizi yenileyin."
                             }
                         },
                         "plus_5": {
-                            "header": "Merhaba {0}, hesabınız Twibbonize Free'ye düşürüldü",
+                            "header": "Merhaba [%c], hesabınız Twibbonize Free'ye düşürüldü",
                             "body": "[%p] özelliklerini kullanmaya devam etmek için lütfen aboneliğinizi yenileyin."
                         }
                     },
                     "period_changed": {
-                        "header": "Merhaba {0}, planınızı değiştirme talebinizi aldık",
+                        "header": "Merhaba [%c], planınızı değiştirme talebinizi aldık",
                         "body": "Hesabınız fatura döneminizin sonunda [%p] olarak değiştirilecektir."
                     },
                     "cancel_change_period": {
-                        "header": "Merhaba {0}, plan değişikliğini iptal etme talebinizi aldık",
+                        "header": "Merhaba [%c], plan değişikliğini iptal etme talebinizi aldık",
                         "body": "Aboneliğiniz Premium Creator olarak devam edecektir."
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "Merhaba {0}, lütfen abonelik için ödemenizi şimdi onaylayın",
+                            "header": "Merhaba [%c], lütfen abonelik için ödemenizi şimdi onaylayın",
                             "body": "Güvenlik düzenlemelerine uygunluğu sağlamak için, Twibbonize aboneliğinizde yinelenen ödemeniz için açık onayınızı istiyoruz."
                         }
                     }
@@ -226,23 +226,23 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "Artık Twibbon'a filigransız ve reklamsız bir deneyimle sahip olabilirsiniz!",
-                        "header": "Merhaba {0}, ödemeniz alınmıştır"
+                        "header": "Merhaba [%c], ödemeniz alınmıştır"
                     },
                     "exp_day": {
                         "body": "Özel özelliklerin, reklamsız gezinmenin ve filigransız Twibbon'un keyfini çıkarmaya devam etmek için [%g] adresinden önce aboneliğinizi yenileyin veya yükseltin.",
-                        "header": "Merhaba {0}, [%p] aboneliğinizin süresi doldu"
+                        "header": "Merhaba [%c], [%p] aboneliğinizin süresi doldu"
                     },
                     "plus_5": {
                         "body": "Filigransız Twibbon'un ve reklamsız bir deneyimin keyfini çıkarmaya devam etmek için planınızı 48 saat içinde yenileyin.",
-                        "header": "Merhaba {0}, aboneliğiniz 48 saat içinde sona erecektir"
+                        "header": "Merhaba [%c], aboneliğiniz 48 saat içinde sona erecektir"
                     },
                     "min_3": {
                         "body": "Reklamsız gezinmenin ve filigransız Twibbon'ların keyfini çıkarmaya devam etmek için aboneliğinizi şimdi yenileyin veya yükseltin.",
-                        "header": "Merhaba {0}, [%p] adresinizin süresi 3 gün içinde dolacaktır"
+                        "header": "Merhaba [%c], [%p] adresinizin süresi 3 gün içinde dolacaktır"
                     },
                     "plus_7": {
                         "body": "[%p] özelliklerini kullanmaya devam etmek için lütfen aboneliğinizi yenileyin.",
-                        "header": "Merhaba {0} , hesabınız Twibbonize Free'ye düşürüldü"
+                        "header": "Merhaba [%c] , hesabınız Twibbonize Free'ye düşürüldü"
                     }
                 }
             },
@@ -263,28 +263,28 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "Kalan Reklamsız kota",
-                    "body": "{0} üzerinde 50 Destekçi için Reklamsız kotanız kaldı. Sürdüğü sürece Reklamsız bir deneyimin tadını çıkarın!"
+                    "body": "[%c] üzerinde 50 Destekçi için Reklamsız kotanız kaldı. Sürdüğü sürece Reklamsız bir deneyimin tadını çıkarın!"
                 },
                 "adfree_quota_runout": {
                     "header": "Reklamsız kota doldu",
-                    "body": "{0} destekçileriniz platformumuzda gezinirken reklamlar görmeye başlayacaktır."
+                    "body": "[%c] destekçileriniz platformumuzda gezinirken reklamlar görmeye başlayacaktır."
                 }
             },
             "new_post": {
                 "header": "Yeni Twibbon gönderildi",
-                "body": "{0} kampanyanızda bir Twibbon yayınladı {0}'un galerisi!"
+                "body": "[%c] kampanyanızda bir Twibbon yayınladı [%s]'un galerisi!"
             },
             "new_comment": {
                 "header": "Yeni yorum!",
-                "body": "{0} {0} kampanyasındaki gönderinize yorum yaptım!"
+                "body": "[%c] [%s] kampanyasındaki gönderinize yorum yaptım!"
             },
             "new_reply": {
                 "header": "Yeni cevap!",
-                "body": "{0} {0} kampanyasındaki yorumunuza yorum yaptım!"
+                "body": "[%c] [%s] kampanyasındaki yorumunuza yorum yaptım!"
             },
             "approval": {
                 "header": "Gönderinin Onaylanması Gerekiyor",
-                "body": "kampanyanıza bir gönderi eklemek için {0} onay isteyin {0}"
+                "body": "kampanyanıza bir gönderi eklemek için [%c] onay isteyin [%s]"
             },
             "education": {
                 "d14_reminder": {

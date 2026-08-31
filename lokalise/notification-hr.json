@@ -2,19 +2,19 @@
     "notification": {
         "push": {
             "campaign_milestone": {
-                "header": "🏆 {0}, dostignuta nova prekretnica!",
-                "body": "Čestitamo! Vaša kampanja {0} sada ima [%n] pristalica!"
+                "header": "🏆 [%c], dostignuta nova prekretnica!",
+                "body": "Čestitamo! Vaša kampanja [%s] sada ima [%n] pristalica!"
             },
             "new_post": {
                 "header": "Objavljen novi Twibbon",
-                "body": "{0} je objavio Twibbon u galeriji vaše kampanje {0}!"
+                "body": "[%c] je objavio Twibbon u galeriji vaše kampanje [%s]!"
             },
             "new_comment": {
                 "header": "Novi komentar!",
-                "body": "{0} komentirao je vaš post u kampanji {0}!"
+                "body": "[%c] komentirao je vaš post u kampanji [%s]!"
             },
             "account_recap": {
-                "header": "🍺 {0} , Evo vašeg mjesečnog sažetka!",
+                "header": "🍺 [%c] , Evo vašeg mjesečnog sažetka!",
                 "body": "Dobili ste [%n] novih pristalica ovog mjeseca. Samo tako nastavi!"
             },
             "billing": {
@@ -24,13 +24,13 @@
                         "body": "Iskoristite njegove ekskluzivne značajke! Započnite svoju kampanju sada"
                     },
                     "plus_5": {
-                        "header": "Bok {0} , sada obnovi svoju pretplatu",
+                        "header": "Bok [%c] , sada obnovi svoju pretplatu",
                         "body": "Obnovite ili nadogradite svoj plan sada kako biste nastavili pristupati analitici svoje kampanje."
                     }
                 },
                 "international": {
                     "renewed_plan": {
-                        "header": "Pozdrav {0}, vaše plaćanje obnove je potvrđeno",
+                        "header": "Pozdrav [%c], vaše plaćanje obnove je potvrđeno",
                         "body": "Sada možete nastaviti koristiti naše ekskluzivne značajke!"
                     },
                     "creator": {
@@ -39,7 +39,7 @@
                             "body": "Iskoristite njegove ekskluzivne značajke! Započnite svoju kampanju sada."
                         },
                         "plus_2": {
-                            "header": "Bok {0} , sada obnovi svoju pretplatu",
+                            "header": "Bok [%c] , sada obnovi svoju pretplatu",
                             "body": "Obnovite ili nadogradite svoj plan sada kako biste nastavili pristupati analitici svoje kampanje."
                         }
                     },
@@ -49,7 +49,7 @@
                             "body": "Uživajte u svom iskustvu bez reklama i dobijte Twibbone bez vodenih žigova!"
                         },
                         "plus_2": {
-                            "header": "Bok {0} , sada obnovi svoju pretplatu",
+                            "header": "Bok [%c] , sada obnovi svoju pretplatu",
                             "body": "Sada obnovite svoj plan kako biste uživali u Twibbonima bez vodenih žigova i iskustvu bez oglasa."
                         }
                     }
@@ -61,122 +61,122 @@
                     },
                     "plus_5": {
                         "body": "Sada obnovite svoj plan kako biste uživali u Twibbonima bez vodenih žigova i iskustvu bez oglasa.",
-                        "header": "Bok {0}, sada obnovi svoju pretplatu"
+                        "header": "Bok [%c], sada obnovi svoju pretplatu"
                     }
                 }
             },
             "new_reply": {
                 "header": "Novi odgovor!",
-                "body": "{0} komentirao je vaš komentar u kampanji {0}!"
+                "body": "[%c] komentirao je vaš komentar u kampanji [%s]!"
             }
         },
         "panel": {
             "campaign_milestone": {
-                "body": "Čestitamo! Kampanja {0} sada ima [%n] pristalica!",
-                "header": "🏆 {0}, dostignuta nova prekretnica!"
+                "body": "Čestitamo! Kampanja [%s] sada ima [%n] pristalica!",
+                "header": "🏆 [%c], dostignuta nova prekretnica!"
             },
             "account_recap": {
                 "body": "Dobili ste [%n] novih pristalica u proteklom mjesecu u svim svojim kampanjama. Samo tako nastavi!",
-                "header": "🍺 {0} , Evo vašeg mjesečnog sažetka!"
+                "header": "🍺 [%c] , Evo vašeg mjesečnog sažetka!"
             },
             "billing": {
                 "order_received": {
-                    "header": "Pozdrav {0}, dovršite plaćanje",
+                    "header": "Pozdrav [%c], dovršite plaćanje",
                     "body": "Hvala što ste naručili [%p]. Prijeđite na plaćanje kako biste dovršili transakciju."
                 },
                 "order_canceled": {
-                    "header": "Žao nam je {0}, vaša narudžba [%p] je otkazana",
+                    "header": "Žao nam je [%c], vaša narudžba [%p] je otkazana",
                     "body": "Molimo nemojte nastaviti s plaćanjem."
                 },
                 "creator": {
                     "successful_payment": {
-                        "header": "Pozdrav {0}, vaša je uplata primljena",
+                        "header": "Pozdrav [%c], vaša je uplata primljena",
                         "body": "Hvala što ste se pretplatili na [%p]. Kreirajte svoju kampanju sada i koristite njezine posebne funkcije!"
                     },
                     "min_3": {
-                        "header": "Bok {0} , tvoj [%p] će isteći za 3 dana",
+                        "header": "Bok [%c] , tvoj [%p] će isteći za 3 dana",
                         "body": "Obnovite ili nadogradite svoju pretplatu kako biste nastavili uživati u ekskluzivnim značajkama Twibbonizea."
                     },
                     "exp_day": {
-                        "header": "Pozdrav {0}, vaša pretplata na [%p] je istekla",
+                        "header": "Pozdrav [%c], vaša pretplata na [%p] je istekla",
                         "body": "Obnovite ili nadogradite svoju pretplatu prije [%g] kako biste zadržali pristup analitici kampanje i svim ekskluzivnim funkcijama."
                     },
                     "plus_5": {
-                        "header": "Bok {0}, vaša će pretplata isteći za 48 sati",
+                        "header": "Bok [%c], vaša će pretplata isteći za 48 sati",
                         "body": "Obnovite ili nadogradite svoj plan u roku od 48 sati kako biste zadržali pristup analitici svoje kampanje."
                     },
                     "plus_7": {
-                        "header": "Bok {0}, vaš račun je vraćen na Twibbonize Free",
+                        "header": "Bok [%c], vaš račun je vraćen na Twibbonize Free",
                         "body": "Obnovite svoju pretplatu kako biste nastavili koristiti funkcije [%p] ."
                     }
                 },
                 "international": {
                     "creator": {
                         "canceled_plan": {
-                            "header": "Bok {0}, vaša pretplata na [%p] uspješno je otkazana",
+                            "header": "Bok [%c], vaša pretplata na [%p] uspješno je otkazana",
                             "body": "Izgubit ćete pristup svim značajkama [%p] na kraju vašeg ciklusa naplate."
                         },
                         "renewed_plan": {
-                            "header": "Bok {0}, vaša [%p] pretplata je uspješno obnovljena",
+                            "header": "Bok [%c], vaša [%p] pretplata je uspješno obnovljena",
                             "body": "Vaša [%p] pretplata bit će naplaćena na kraju vašeg ciklusa naplate."
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Bok {0} , vaš račun je vraćen na Twibbonize Free",
+                                "header": "Bok [%c] , vaš račun je vraćen na Twibbonize Free",
                                 "body": "Obnovite svoju pretplatu kako biste nastavili koristiti značajke [%p] ."
                             }
                         },
                         "cancel_downgrade": {
-                            "header": "Pozdrav {0}, vaš zahtjev za otkazivanjem vraćanja na stariju verziju je primljen",
+                            "header": "Pozdrav [%c], vaš zahtjev za otkazivanjem vraćanja na stariju verziju je primljen",
                             "body": "Vaša će se pretplata nastaviti kao Premium Creator."
                         },
                         "convert": {
-                            "header": "Pozdrav {0}, vaš račun je nadograđen na Premium Creator",
+                            "header": "Pozdrav [%c], vaš račun je nadograđen na Premium Creator",
                             "body": "Čestitamo! Sada ste Premium Creator. Uživajte u svim značajkama sada!"
                         },
                         "successful_payment": {
-                            "header": "Pozdrav {0}, vaša je uplata primljena",
+                            "header": "Pozdrav [%c], vaša je uplata primljena",
                             "body": "Hvala što ste se pretplatili na [%p]. Kreirajte svoju kampanju sada i koristite njezine posebne značajke!"
                         },
                         "exp_day": {
-                            "header": "Pozdrav {0}, vaša pretplata na [%p] je istekla",
+                            "header": "Pozdrav [%c], vaša pretplata na [%p] je istekla",
                             "body": "Ažurirajte podatke o naplati prije [%g] kako biste nastavili pristupati analitici svoje kampanje."
                         },
                         "plus_2": {
-                            "header": "Bok {0}, tvoja će pretplata isteći za 48 sati",
+                            "header": "Bok [%c], tvoja će pretplata isteći za 48 sati",
                             "body": "Ažurirajte svoju karticu za plaćanje kako biste zadržali pristup analitici svoje kampanje."
                         },
                         "plus_5": {
-                            "header": "Bok {0} , vaš račun je vraćen na Twibbonize Free",
+                            "header": "Bok [%c] , vaš račun je vraćen na Twibbonize Free",
                             "body": "Obnovite svoju pretplatu kako biste nastavili koristiti značajke [%p] ."
                         },
                         "convert_addon": {
                             "body": "Čestitamo! Sada ste Premium Creator. Uživajte u svim značajkama sada!",
-                            "header": "Pozdrav {0}, vaš račun je nadograđen na Premium Creator"
+                            "header": "Pozdrav [%c], vaš račun je nadograđen na Premium Creator"
                         }
                     },
                     "auth": {
                         "exp_day": {
-                            "header": "Bok {0}, vaš način plaćanja treba autentifikaciju",
+                            "header": "Bok [%c], vaš način plaćanja treba autentifikaciju",
                             "body": "Potvrdite autentifikaciju plaćanja kako biste sada dovršili svoju pretplatu."
                         }
                     },
                     "renewed_plan": {
-                        "header": "Pozdrav {0}, vaše plaćanje obnove je potvrđeno",
+                        "header": "Pozdrav [%c], vaše plaćanje obnove je potvrđeno",
                         "body": "Sada možete nastaviti uživati u ekskluzivnim značajkama!"
                     },
                     "downgrade_received": {
-                        "header": "Pozdrav {0}, vaš zahtjev za vraćanje na stariju verziju je primljen",
+                        "header": "Pozdrav [%c], vaš zahtjev za vraćanje na stariju verziju je primljen",
                         "body": "Vaš će račun biti vraćen na [%p] na kraju vašeg ciklusa naplate."
                     },
                     "supporter": {
                         "convert": {
-                            "header": "Pozdrav {0} , Vaš račun je nadograđen na Premium Supporter",
+                            "header": "Pozdrav [%c] , Vaš račun je nadograđen na Premium Supporter",
                             "body": "Čestitamo! Sada ste Premium Supporter. Uživajte u svim značajkama sada!"
                         },
                         "successful_payment": {
                             "body": "Sada možete dobiti Twibbon bez vodenih žigova i iskustvo bez reklama!",
-                            "header": "Pozdrav {0}, uspješno smo primili vašu uplatu"
+                            "header": "Pozdrav [%c], uspješno smo primili vašu uplatu"
                         },
                         "min_3": {
                             "body": "Obnovite ili nadogradite svoju pretplatu sada kako biste nastavili uživati u pregledavanju bez oglasa i Twibbons bez vodenih žigova."
@@ -185,40 +185,40 @@
                             "body": "Hvala što ste se pretplatili na [%p]. Sada možete dobiti Twibbon bez vodenih žigova i iskustvo bez reklama!"
                         },
                         "exp_day": {
-                            "header": "Pozdrav {0}, vaša uplata nije prošla",
+                            "header": "Pozdrav [%c], vaša uplata nije prošla",
                             "body": "Ažurirajte podatke o naplati prije [%g] kako biste uživali u ekskluzivnim značajkama, pregledavanju bez oglasa i Twibonu bez vodenog žiga."
                         },
                         "plus_2": {
-                            "header": "Bok {0}, tvoja će pretplata isteći za 48 sati",
+                            "header": "Bok [%c], tvoja će pretplata isteći za 48 sati",
                             "body": "Sada obnovite svoj plan kako biste uživali u Twibbonima bez vodenih žigova i iskustvu bez oglasa."
                         },
                         "plus_7": {
-                            "header": "Bok {0} , vaš račun je vraćen na Twibbonize Free"
+                            "header": "Bok [%c] , vaš račun je vraćen na Twibbonize Free"
                         },
                         "canceled": {
                             "exp_day": {
-                                "header": "Bok {0} , vaš račun je vraćen na Twibbonize Free",
+                                "header": "Bok [%c] , vaš račun je vraćen na Twibbonize Free",
                                 "body": "Obnovite svoju pretplatu kako biste nastavili koristiti značajke [%p] ."
                             }
                         },
                         "plus_5": {
-                            "header": "Bok {0} , vaš račun je vraćen na Twibbonize Free",
+                            "header": "Bok [%c] , vaš račun je vraćen na Twibbonize Free",
                             "body": "Obnovite svoju pretplatu kako biste nastavili koristiti značajke [%p] ."
                         }
                     },
                     "period_changed": {
-                        "header": "Pozdrav {0}, primili smo vaš zahtjev za promjenu vašeg plana",
+                        "header": "Pozdrav [%c], primili smo vaš zahtjev za promjenu vašeg plana",
                         "body": "Vaš će račun biti promijenjen u [%p] na kraju vašeg ciklusa naplate."
                     },
                     "cancel_change_period": {
-                        "header": "Pozdrav {0}, primili smo vaš zahtjev za otkazivanjem promjene plana",
+                        "header": "Pozdrav [%c], primili smo vaš zahtjev za otkazivanjem promjene plana",
                         "body": "Vaša će se pretplata nastaviti kao Premium Creator."
                     }
                 },
                 "india": {
                     "auth": {
                         "exp_day": {
-                            "header": "Bok {0}, potvrdite svoju uplatu za pretplatu sada",
+                            "header": "Bok [%c], potvrdite svoju uplatu za pretplatu sada",
                             "body": "Kako bismo osigurali usklađenost sa sigurnosnim propisima, potrebna nam je vaša izričita potvrda za vaše ponavljajuće plaćanje na vašoj pretplati na Twibbonize."
                         }
                     }
@@ -226,23 +226,23 @@
                 "supporter": {
                     "successful_payment": {
                         "body": "Sada možete dobiti Twibbon bez vodenih žigova i iskustvo bez reklama!",
-                        "header": "Pozdrav {0}, vaša je uplata primljena"
+                        "header": "Pozdrav [%c], vaša je uplata primljena"
                     },
                     "exp_day": {
                         "body": "Obnovite ili nadogradite svoju pretplatu prije [%g] kako biste nastavili uživati u ekskluzivnim značajkama, pregledavanju bez oglasa i Twibonu bez vodenog žiga.",
-                        "header": "Pozdrav {0}, vaša pretplata na [%p] je istekla"
+                        "header": "Pozdrav [%c], vaša pretplata na [%p] je istekla"
                     },
                     "plus_5": {
                         "body": "Obnovite svoj plan u roku od 48 sati kako biste nastavili uživati u Twibonu bez vodenog žiga i iskustvu bez oglasa.",
-                        "header": "Bok {0}, tvoja će pretplata isteći za 48 sati"
+                        "header": "Bok [%c], tvoja će pretplata isteći za 48 sati"
                     },
                     "min_3": {
                         "body": "Obnovite ili nadogradite svoju pretplatu sada kako biste nastavili uživati u pregledavanju bez oglasa i Twibbone bez vodenih žigova.",
-                        "header": "Bok {0}, vaš [%p] će isteći za 3 dana"
+                        "header": "Bok [%c], vaš [%p] će isteći za 3 dana"
                     },
                     "plus_7": {
                         "body": "Obnovite svoju pretplatu kako biste nastavili koristiti značajke [%p] .",
-                        "header": "Bok {0} , tvoj račun je vraćen na Twibbonize Free"
+                        "header": "Bok [%c] , tvoj račun je vraćen na Twibbonize Free"
                     }
                 }
             },
@@ -263,28 +263,28 @@
             "campaign_addon": {
                 "adfree_quota_remaining": {
                     "header": "Preostala kvota bez oglasa",
-                    "body": "Imate preostalu kvotu bez oglasa za 50 podržavatelja na {0}. Uživajte u iskustvu bez oglasa dok traje!"
+                    "body": "Imate preostalu kvotu bez oglasa za 50 podržavatelja na [%c]. Uživajte u iskustvu bez oglasa dok traje!"
                 },
                 "adfree_quota_runout": {
                     "header": "Istekla je kvota bez oglasa",
-                    "body": "Vaši {0} podržavatelji počet će vidjeti oglase dok pregledavaju našu platformu."
+                    "body": "Vaši [%c] podržavatelji počet će vidjeti oglase dok pregledavaju našu platformu."
                 }
             },
             "new_post": {
                 "header": "Objavljen novi Twibbon",
-                "body": "{0} je objavio Twibbon u galeriji vaše kampanje {0} !"
+                "body": "[%c] je objavio Twibbon u galeriji vaše kampanje [%s] !"
             },
             "new_comment": {
                 "header": "Novi komentar!",
-                "body": "{0} komentirao je vaš post u kampanji {0}!"
+                "body": "[%c] komentirao je vaš post u kampanji [%s]!"
             },
             "new_reply": {
                 "header": "Novi odgovor!",
-                "body": "{0} komentirao je vaš komentar u kampanji {0} !"
+                "body": "[%c] komentirao je vaš komentar u kampanji [%s] !"
             },
             "approval": {
                 "header": "Objava zahtijeva odobrenje",
-                "body": "{0} zatražite odobrenje za dodavanje objave u vašu kampanju {0}"
+                "body": "[%c] zatražite odobrenje za dodavanje objave u vašu kampanju [%s]"
             },
             "education": {
                 "d14_reminder": {
