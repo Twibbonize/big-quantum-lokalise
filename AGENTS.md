@@ -13,14 +13,14 @@ Push to `staging` or `main` syncs `lokalise/` to S3 (`.github/workflows/github-a
 | notification | `notification-<locale>.json` | push/email notification copy |
 | time | `time-<locale>.json` | relative-time strings |
 
-53 locales: `af ar bg bn cs da de el en en-au en-gb es fa fi fr gu he hi hr hu id it ja km kn ko lo ml mr ms my nb nl or pa pl pt ro ru sk sq sr sv sw ta te th tl-ph tr uk ur vi zh-cn zh-tw`
+54 locales: `af ar bg bn cs da de el en en-au en-gb es fa fi fr gu he hi hr hu id it ja km kn ko lo ml mr ms my nb nl or pa pl pt ro ru sk sq sr sv sw ta te th tl-ph tr uk ur vi zh-cn zh-tw`
 
 `en.json` is source of truth. Every other file mirrors its key tree.
 
 ## Adding keys
 
 1. Add to `lokalise/en.json` first, inside the existing section (`page_*`, `general.*`, …). Nesting is `page_x.section.key`, snake_case leaves.
-2. Add the **same key path** to all other 52 locales with a real translation — never copy the English string as a placeholder, never leave the key out.
+2. Add the **same key path** to all other 53 locales with a real translation — never copy the English string as a placeholder, never leave the key out.
 3. Formatting: 4-space indent, trailing newline, no BOM. Preserve existing key order; append new sections at the end of the object.
 4. Do not touch the top-level `"default": "EN"` — it is `EN` in every file, including non-English ones.
 5. Only edit the family the key belongs to. A UI string does not go into `notification-*` or `time-*`.
@@ -110,4 +110,4 @@ Nothing in the JSON carries context — key path is the only signal. So:
 
 ## Commits
 
-One logical change per commit; touching all 53 files in one commit is normal and expected for a key addition.
+One logical change per commit; touching all 54 files in one commit is normal and expected for a key addition.
