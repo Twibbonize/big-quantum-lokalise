@@ -1372,7 +1372,13 @@
             "ai_template_section_title": "टेम्पलेट",
             "important_notice": "महत्वाची सूचना",
             "custom_background_no_longer_supported": "कस्टम बॅकग्राउंड आता समर्थित नाहीत. तुम्ही नवीन इमेज निवडल्याशिवाय तुमची सध्याची इमेज तशीच राहील, जी परत करता येणार नाही.",
-            "custom_background_failed_to_upload": "पार्श्वभूमी प्रतिमा अपलोड करण्यात अयशस्वी. कृपया त्याऐवजी पूर्वनिर्धारित पार्श्वभूमी निवडा."
+            "custom_background_failed_to_upload": "पार्श्वभूमी प्रतिमा अपलोड करण्यात अयशस्वी. कृपया त्याऐवजी पूर्वनिर्धारित पार्श्वभूमी निवडा.",
+            "campaign_link_creating": "मोहिमेची लिंक तयार करत आहोत…",
+            "campaign_link_checking": "मोहिमेची लिंक तपासत आहोत…",
+            "campaign_link_checking_unique": "मूळ लिंक आधीच वापरात आहे. एक वेगळी आवृत्ती तपासत आहोत…",
+            "campaign_link_generation_unavailable": "आम्ही आपोआप लिंक तयार करू शकलो नाही. कृपया लिंक स्वतः टाका.",
+            "campaign_link_taken_options": "ती लिंक आधीच वापरात आहे. उपलब्ध पर्याय निवडा.",
+            "campaign_link_available_options": "उपलब्ध मोहीम लिंक"
         },
         "customization": {
             "campaign_customization": "मोहीम कस्टमायझेशन",
@@ -2033,7 +2039,8 @@
             "restore_success": "खरेदी पुनर्स्थापित झाली आहे — तुमची योजना आता सक्रिय झाली आहे.",
             "restore_nothing": "या डिव्हाइसच्या स्टोअर खात्यावर आम्हाला कोणतेही सक्रिय सदस्यत्व आढळले नाही. तुम्ही पैसे भरताना वापरलेल्या Google Play \/ App Store खात्यामध्ये साइन इन केले असल्याची खात्री करा आणि नंतर पुन्हा प्रयत्न करा.",
             "extend_12_months": "12 महिने वाढवा",
-            "revoked": "मागे घेतले"
+            "revoked": "मागे घेतले",
+            "once_cancel_plan_immediately": "एकदा तुम्ही रद्द केले की, तुम्ही तुमच्या सर्व Premium Creator वैशिष्ट्यांचा अ‍ॅक्सेस लगेच गमवाल"
         },
         "account": {
             "update_email": "ईमेल अपडेट करा",
@@ -3941,7 +3948,33 @@
             "max_period_desc": "Premium Creator for Education तुमच्या पहिल्या मंजुरीपासून चार वर्षे उपलब्ध असते. तुमची चार वर्षे {date} रोजी संपली, म्हणून या खात्यावर ती पुन्हा वाढवता येणार नाही.",
             "max_period_desc_no_date": "Premium Creator for Education तुमच्या पहिल्या मंजुरीपासून चार वर्षे उपलब्ध असते. तुमची चार वर्षे संपली आहेत, म्हणून या खात्यावर ती पुन्हा वाढवता येणार नाही.",
             "max_period_see_plans": "Premium Creator योजना पहा",
-            "max_period_later": "नंतर"
+            "max_period_later": "नंतर",
+            "or_academic_email": "किंवा तुमचा शैक्षणिक ईमेल वापरा",
+            "email_eligible": "ईमेल पात्र आहे",
+            "email_ineligible": "हा ईमेल मान्यताप्राप्त शैक्षणिक डोमेनचा नाही.",
+            "email_taken": "हा ईमेल आधीच दुसऱ्या खात्याशी जोडलेला आहे.",
+            "paid_plan_title": "तुमच्याकडे सक्रिय सशुल्क योजना आहे",
+            "paid_plan_desc": "तुमची योजना रद्द करा किंवा कालावधी संपण्याची वाट पाहा, नंतर अर्ज करा.",
+            "paid_plan_active_until": "सशुल्क योजना {date} पर्यंत सक्रिय",
+            "paid_plan_manage": "सदस्यता व्यवस्थापित करा",
+            "extend_title": "आणखी 12 महिन्यांसाठी वाढवा",
+            "extend_desc": "आम्ही तुमच्या शैक्षणिक ईमेलवर पडताळणी दुवा पाठवू. पत्ता अजूनही सक्रिय आहे याची पुष्टी करण्यासाठी आणि 12 महिने वाढवण्यासाठी त्यावर क्लिक करा.",
+            "extend_email_label": "या खात्यावरील ईमेल",
+            "extend_send": "पडताळणी दुवा पाठवा",
+            "check_email_title": "तुमचा ईमेल तपासा",
+            "check_email_desc": "वाढवणे पूर्ण करण्यासाठी {email} वर पाठवलेल्या दुव्यावर क्लिक करा.",
+            "renewal_success_title": "वाढवणे यशस्वी",
+            "renewal_success_desc": "तुमचा शैक्षणिक ईमेल पडताळला गेला आहे. आता तुम्हाला Premium Creator योजनेचा पूर्ण प्रवेश आहे.",
+            "renewal_active_until": "{date} पर्यंत सक्रिय",
+            "already_active_title": "आधीच सक्रिय",
+            "already_active_desc": "या खात्यावर Premium Creator for Education {date} पर्यंत सक्रिय आहे. ते संपण्यापूर्वीच्या 14 दिवसांत तुम्ही ते वाढवू शकता.",
+            "already_active_desc_no_date": "या खात्यावर Premium Creator for Education सक्रिय आहे. ते संपण्यापूर्वीच्या 14 दिवसांत तुम्ही ते वाढवू शकता.",
+            "google_not_academic_title": "तुमचे Google खाते शाळेचे नाही",
+            "google_not_academic_desc": "येथे आम्ही फक्त शाळा किंवा विद्यापीठाचे ईमेल स्वीकारतो. दुसरे Google खाते निवडा, किंवा खाली तुमचा शाळेचा ईमेल टाका.",
+            "already_registered_title": "ईमेल आधीच नोंदणीकृत आहे",
+            "link_with_google": "Google सह सुरू ठेवा",
+            "email_ineligible_desc": "हा डोमेन आम्ही ओळखत नाही. स्वीकृत: विद्यापीठ आणि महाविद्यालय डोमेन, guru.belajar.id, .sch.id आणि deped.gov.ph.",
+            "check_email_desc_activation": "सक्रियण पूर्ण करण्यासाठी {email} वर पाठवलेल्या दुव्यावर क्लिक करा."
         },
         "pricing": {
             "benefit_1": "तुमच्या सर्व मोहिमांमधून वॉटरमार्क काढा",
