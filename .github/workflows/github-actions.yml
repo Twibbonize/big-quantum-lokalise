@@ -80,3 +80,18 @@ jobs:
 
           aws s3 cp "$LOCAL_DIRECTORY" "$BUCKET_NAME/$DIRECTORY_NAME" --recursive --exclude "*" --include "*.json"          
         if: ${{ github.ref == 'refs/heads/main' }}
+
+        # Same files to Cloudflare R2 (S3-compatible API). The big-quantum
+        # Workers serve /lokalise/* from these buckets. Keep the S3 steps above
+        # until cdn.twibbonize.com moves off S3.
+      - name: Copy json lokalise objects to Cloudflare R2
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          # main -> production bucket (big-quantum prod + preprod Workers),
+          # staging -> staging bucket (big-quantum-staging Worker).
+          BUCKET: ${{ github.ref == 'refs/heads/main' && 'twibbonize-bq-lokalise' || 'twibbonize-bq-lokalise-staging' }}
+        run: |
+          aws s3 cp lokalise "s3://$BUCKET/lokalise" --recursive --exclude "*" --include "*.json" \
+            --endpoint-url https://dfe55578060b86f221c69e339f791949.r2.cloudflarestorage.com
