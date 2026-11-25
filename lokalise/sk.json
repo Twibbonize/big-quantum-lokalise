@@ -2842,7 +2842,9 @@
             "type": "Typ:",
             "size": "Veľkosť:",
             "type_image": "JPG, PNG alebo SVG",
-            "maximum_size": "Maximálne 5 MB"
+            "maximum_size": "Maximálne 5 MB",
+            "abandoned": "Nahrávanie sa zastavilo, keď bola vrstva odstránená. Skúste to znova, ak ju chcete zachovať vo svojej knižnici.",
+            "failed": "Nahrávanie zlyhalo. Skontrolujte pripojenie a skúste to znova."
         },
         "toolbar": {
             "copy": "Kopírovať",
@@ -2871,7 +2873,119 @@
             "border_weight": "Hmotnosť hranice",
             "corner_rounding": "Zaoblenie rohov",
             "align": "Zarovnať",
-            "effects": "Účinky"
+            "effects": "Účinky",
+            "animate": {
+                "amount": "Množstvo",
+                "angle": "Uhol",
+                "close": "Zavrieť nastavenia animácie",
+                "delete_animation": "Odstrániť animáciu",
+                "distance": "Vzdialenosť",
+                "easing": "Zjemnenie",
+                "fade": "Prelínanie",
+                "settings_aria": "Nastavenia animácie"
+            },
+            "audio": {
+                "replace": "Nahradiť",
+                "tools_aria": "Nástroje zvukovej stopy",
+                "trim": "Orezať",
+                "volume": "Hlasitosť"
+            },
+            "clip": {
+                "length": "Dĺžka",
+                "split": "Rozdeliť",
+                "trim": "Orezať"
+            },
+            "entry": {
+                "animate": "Animovať"
+            },
+            "image": {
+                "adjust": "Upraviť",
+                "background_removal_unavailable": "Odstránenie pozadia zatiaľ nie je k dispozícii",
+                "remove_background": "Odstrániť pozadie",
+                "remove_background_short": "Výrez",
+                "replace": "Nahradiť"
+            },
+            "keyframe": {
+                "blur": "Rozmazanie vrstvy",
+                "close": "Zavrieť vlastnosti kľúčového snímku",
+                "delete_keyframe": "Odstrániť kľúčový snímok",
+                "letter_spacing": "Rozstup",
+                "line_height": "Riadkovanie",
+                "opacity": "Priehľadnosť",
+                "position": "Pozícia",
+                "properties_aria": "Vlastnosti kľúčového snímku",
+                "rotation": "Rotácia",
+                "scale": "Mierka"
+            },
+            "layer_tools": {
+                "deselect": "Zrušiť výber vrstvy",
+                "tools_aria": "Nástroje vrstvy"
+            },
+            "media": {
+                "adjust": "Upraviť",
+                "green_screen": "Zelené pozadie",
+                "replace": "Nahradiť",
+                "trim": "Orezať"
+            },
+            "misc": {
+                "background_fill": "Výplň pozadia",
+                "background_fill_short": "Výplň",
+                "configure_qr": "Nastaviť QR kód",
+                "edit_background_image": "Upraviť obrázok na pozadí",
+                "no_background_image": "Zatiaľ žiadny obrázok na pozadí",
+                "replace_unavailable": "Nahradiť (zatiaľ nedostupné)"
+            },
+            "opacity": {
+                "label": "Priehľadnosť"
+            },
+            "shape": {
+                "corner_radius": "Polomer rohov",
+                "corner_radius_short": "Polomer",
+                "fill": "Výplň",
+                "line_color": "Farba čiary",
+                "line_style_dots": "Bodky",
+                "line_style_long_dashes": "Dlhé čiarky",
+                "line_style_named": "Štýl čiary: {style}",
+                "line_style_short_dashes": "Krátke čiarky",
+                "line_style_solid": "Plná",
+                "line_weight": "Hrúbka čiary",
+                "stroke_color": "Farba obrysu",
+                "stroke_color_short": "Obrys",
+                "stroke_weight": "Hrúbka obrysu",
+                "stroke_weight_short": "Hrúbka"
+            },
+            "speed": {
+                "custom_input": "Vlastná rýchlosť prehrávania",
+                "label": "Rýchlosť",
+                "playback_length": "Dĺžka prehrávania",
+                "playback_speed": "Rýchlosť prehrávania",
+                "range_hint": "Od {min}× do {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Zmenšiť veľkosť písma",
+                "font_family": "Písmo",
+                "font_family_named": "Písmo: {value}",
+                "font_size": "Veľkosť písma",
+                "font_weight": "Hrúbka písma",
+                "font_weight_named": "Hrúbka písma: {value}",
+                "increase_font_size": "Zväčšiť veľkosť písma",
+                "keyboard": "Klávesnica",
+                "line_height": "Riadkovanie",
+                "spacing": "Rozstup",
+                "text_color": "Farba textu",
+                "weight": "Hrúbka"
+            },
+            "volume": {
+                "clip_hint": "Iba tento klip. Zvuk umiestnený na časovej osi si zachováva vlastnú úroveň.",
+                "label": "Hlasitosť",
+                "level": "Úroveň",
+                "mute": "Stlmiť",
+                "muted": "Stlmené",
+                "muted_hint": "Úroveň zostáva zachovaná. Po zrušení stlmenia sa klip vráti na {percent} %.",
+                "no_audio": "Toto video nemá zvuk.",
+                "slider": "Úroveň hlasitosti",
+                "unmute": "Zrušiť stlmenie"
+            }
         },
         "confirmation": {
             "cancel": "Vyradiť",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Farby dokumentov",
             "default_colors": "Predvolené farby"
         },
-        "graphic": "Grafika"
+        "graphic": "Grafika",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Dole v strede",
+                "bottom_left": "Vľavo dole",
+                "bottom_right": "Vpravo dole",
+                "center_left": "Vľavo v strede",
+                "center_right": "Vpravo v strede",
+                "top_center": "Hore v strede",
+                "top_left": "Vľavo hore",
+                "top_right": "Vpravo hore"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Koniec",
+                "more_options": "Ďalšie možnosti"
+            },
+            "direction": {
+                "bottom_left": "Vľavo dole",
+                "bottom_right": "Vpravo dole",
+                "clockwise": "V smere hodinových ručičiek",
+                "counter_clockwise": "Proti smeru hodinových ručičiek",
+                "from_the": "Z: {place}",
+                "to_the": "Do: {place}",
+                "top_left": "Vľavo hore",
+                "top_right": "Vpravo hore"
+            },
+            "easing": {
+                "accelerate": "Zrýchlenie",
+                "bounce": "Odraz",
+                "elastic": "Pružnosť",
+                "impulse": "Impulz",
+                "natural": "Prirodzené",
+                "overshoot": "Prekmit",
+                "slow_down": "Spomalenie",
+                "smooth": "Plynulé",
+                "swing": "Kyvadlo"
+            },
+            "field": {
+                "amount": "Množstvo",
+                "anchor_group": "Kotviaci bod",
+                "anchor_point": "Kotviaci bod",
+                "angle": "Uhol",
+                "apply_effect_to": "Použiť efekt na",
+                "axis": "Os",
+                "choose_easing": "Vyberte zjemnenie",
+                "distance": "Vzdialenosť",
+                "duration": "Trvanie",
+                "edge": "Okraj",
+                "fade": "Prelínanie",
+                "from_noun": "Od: {noun}",
+                "horizontal": "Vodorovne",
+                "noun_blur": "rozmazanie",
+                "noun_opacity": "priehľadnosť",
+                "noun_size": "veľkosť",
+                "opacity": "Priehľadnosť",
+                "order": "Poradie",
+                "position": "Pozícia",
+                "rotation": "Rotácia",
+                "rotation_direction": "Smer rotácie",
+                "scale": "Mierka",
+                "smoothing": "Vyhladenie",
+                "to_noun": "Do: {noun}",
+                "vertical": "Zvisle"
+            },
+            "mode": {
+                "arrives": "Príchod",
+                "departs": "Odchod",
+                "in": "Vstup",
+                "out": "Výstup"
+            },
+            "panel": {
+                "animation": "Animácia",
+                "animations_tab": "Animácie",
+                "basic": "Základné",
+                "changing_note": "Vyberte náhradu. Prevezme miesto a dĺžku animácie, ktorú meníte.",
+                "corner_radius": "Polomer rohov",
+                "easing": "Zjemnenie",
+                "fade": "Prelínanie",
+                "keyframe_tab": "Kľúčový snímok",
+                "layer_blur": "Rozmazanie vrstvy",
+                "line_height": "Riadkovanie",
+                "more_options": "Ďalšie možnosti",
+                "motion": "Pohyb",
+                "needs_one_element": "Predvoľby animácií vyžadujú jeden prvok. Vyberte jednu vrstvu, aby sa zobrazili.",
+                "paste_animation": "Vložiť animáciu",
+                "scale": "Mierka",
+                "slide": "Posun",
+                "stroke": "Obrys",
+                "text_animation": "Animácia textu"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Objavenie",
+                    "label": "Objavenie"
+                },
+                "blur": {
+                    "label": "Vstup s rozmazaním"
+                },
+                "blur_scale": {
+                    "caption": "Rozmazanie a mierka",
+                    "label": "Vstup s rozmazaním a zmenou mierky"
+                },
+                "blur_slide": {
+                    "caption": "Rozmazanie a posun",
+                    "label": "Vstup s rozmazaním a posunom"
+                },
+                "fade": {
+                    "caption": "Prelínanie",
+                    "label": "Prelínanie"
+                },
+                "grow": {
+                    "caption": "Vyskočenie",
+                    "label": "Vyskočenie pri vstupe"
+                },
+                "mask_center": {
+                    "caption": "Maska od stredu",
+                    "label": "Odkrytie maskou od stredu"
+                },
+                "mask_reveal": {
+                    "caption": "Odkrytie maskou",
+                    "label": "Odkrytie maskou od okraja"
+                },
+                "mask_slide": {
+                    "caption": "Maska a posun",
+                    "label": "Odkrytie maskou s posunom"
+                },
+                "move_scale": {
+                    "caption": "Pohyb a mierka",
+                    "label": "Vstup s pohybom a zmenou mierky"
+                },
+                "rotate_left": {
+                    "label": "Rotácia zľava"
+                },
+                "rotate_right": {
+                    "label": "Rotácia sprava"
+                },
+                "shrink": {
+                    "caption": "Veľké",
+                    "label": "Vstup vo veľkom"
+                },
+                "slide": {
+                    "caption": "Posun",
+                    "label": "Vjazd"
+                },
+                "slide_from_bottom": {
+                    "label": "Vjazd zdola"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Vľavo dole",
+                    "label": "Vjazd zľava dole"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Vpravo dole",
+                    "label": "Vjazd sprava dole"
+                },
+                "slide_from_left": {
+                    "label": "Vjazd zľava"
+                },
+                "slide_from_right": {
+                    "label": "Vjazd sprava"
+                },
+                "slide_from_top": {
+                    "label": "Vjazd zhora"
+                },
+                "slide_from_top_left": {
+                    "caption": "Vľavo hore",
+                    "label": "Vjazd zľava hore"
+                },
+                "slide_from_top_right": {
+                    "caption": "Vpravo hore",
+                    "label": "Vjazd sprava hore"
+                },
+                "spin": {
+                    "caption": "Roztočenie",
+                    "label": "Vstup s roztočením"
+                },
+                "spin_scale": {
+                    "caption": "Roztočenie a mierka",
+                    "label": "Vstup s roztočením a zmenou mierky"
+                },
+                "twist": {
+                    "caption": "Skrútenie",
+                    "label": "Vstup so skrútením"
+                }
+            },
+            "property": {
+                "change_text": "Zmeniť text",
+                "morph": "Morfovanie",
+                "move": "Pohyb",
+                "opacity": "Priehľadnosť",
+                "scale": "Mierka"
+            },
+            "section": {
+                "fade": "Prelínanie",
+                "mask": "Maska",
+                "scale": "Mierka",
+                "slide": "Posun",
+                "transform": "Transformácia"
+            },
+            "text": {
+                "backward": "Dozadu",
+                "forward": "Dopredu",
+                "letters": "Písmená",
+                "summary_overlap": "Každé: {unit} sa začne, keď predchádzajúce dosiahne {percent} %.",
+                "summary_sequential": "Každé: {unit} skončí, kým sa začne ďalšie.",
+                "summary_together": "Všetky ({unit}) sa pohybujú spolu.",
+                "summary_whole": "Celý textový blok sa animuje ako celok.",
+                "words": "Slová"
+            },
+            "type": {
+                "fade_in": "Prelínanie pri vstupe",
+                "fade_out": "Prelínanie pri výstupe",
+                "line_height": "Riadkovanie",
+                "radius": "Polomer",
+                "resize_in": "Zmena veľkosti pri vstupe",
+                "resize_out": "Zmena veľkosti pri výstupe",
+                "rotate_in": "Rotácia pri vstupe",
+                "rotate_out": "Rotácia pri výstupe",
+                "scale_in": "Zmena mierky pri vstupe",
+                "scale_out": "Zmena mierky pri výstupe",
+                "slide_in": "Vjazd",
+                "slide_out": "Výjazd",
+                "spacing": "Rozstup",
+                "stroke": "Obrys"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Ak chcete pokračovať, pridajte svoju fotku.",
+                    "gesture": {
+                        "frameDesktop": "Presunutím zmeníte polohu · Posunutím kolieska priblížite",
+                        "frameMobile": "Presunutím zmeníte polohu, stiahnutím prstov priblížite",
+                        "handles": "Veľkosť meňte z rohov a strán, otáčajte zhora",
+                        "move": "Presunutím premiestnite",
+                        "moveOrHandles": "Presunutím premiestnite alebo použite úchyty",
+                        "resize": "Presunutím rohu alebo strany zmeníte veľkosť",
+                        "rotate": "Presunutím horného úchytu otočíte",
+                        "rotateDesktop": "Presuňte pravítko alebo použite klávesy so šípkami",
+                        "rotateMobile": "Presunutím pravítka otočíte"
+                    },
+                    "hint": {
+                        "pickDesktop": "Kliknite na označenú oblasť alebo vyberte vrstvu vľavo",
+                        "pickMobile": "Ťuknite na označenú oblasť alebo vyberte vrstvu nižšie",
+                        "previewDesktop": "Náhľad vášho návrhu. Kliknutím naň budete pokračovať v úpravách.",
+                        "previewMobile": "Náhľad vášho návrhu. Ťuknutím naň budete pokračovať v úpravách."
+                    },
+                    "layer": {
+                        "addPhoto": "Pridajte svoju fotku",
+                        "text": "Text: {text}",
+                        "yourPhoto": "Vaša fotka",
+                        "yourText": "Váš text"
+                    },
+                    "layers": {
+                        "all": "Všetky vrstvy",
+                        "photo": "Fotka",
+                        "sheetDescription": "Všetko v tomto návrhu, čo môžete zmeniť.",
+                        "title": "Vrstvy"
+                    },
+                    "photoError": "Túto fotku sa nepodarilo použiť. Skúste iný obrázok.",
+                    "preview": {
+                        "backToEditing": "Späť na úpravy"
+                    },
+                    "rotation": {
+                        "aria": "Rotácia",
+                        "value": "one:# stupeň|few:# stupne|other:# stupňov"
+                    },
+                    "tools": {
+                        "adjust": "Upraviť",
+                        "aria": "Nástroje vrstvy",
+                        "editText": "Upraviť text",
+                        "flip": "Preklopiť",
+                        "locked": "Veľkosť a pozíciu nastavil tvorca",
+                        "replace": "Nahradiť",
+                        "textAria": "Nástroje textu",
+                        "zoomIn": "Priblížiť",
+                        "zoomOut": "Oddialiť"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "Súbor {name} bol pridaný na časovú os.",
+                "too_big": "Súbor {name} presahuje {limit}.",
+                "too_long": "Súbor {name} je dlhší ako {minutes} min.",
+                "too_many": "Naraz je možné pridať iba tento počet súborov: {count}.",
+                "wrong_type": "Súbor {name} sa nedá pridať — iba obrázky, videá a súbory SVG."
+            }
+        },
+        "catalogue": {
+            "error_body": "Skontrolujte pripojenie a skúste to znova.",
+            "loading_more": "Načítavanie ďalších"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Zahodiť koncept",
+                "description_unsaved": "Tento návrh nie je uložený. Návrat späť ho natrvalo odstráni — vrátane vrstiev, štýlov a animácií.",
+                "title": "Zahodiť koncept „{title}“?"
+            },
+            "save": {
+                "description": "Po uložení už úpravy nebudú možné.",
+                "saving": "Ukladá sa…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Prispôsobiť obrazovke"
+        },
+        "graphic_panel": {
+            "add": "Pridať: {name}",
+            "add_failed": "Túto grafiku sa nepodarilo pridať. Skúste to znova.",
+            "empty_body": "Skúste kratšie alebo všeobecnejšie slovo, napríklad hviezda alebo srdce.",
+            "empty_title": "Žiadne grafiky nezodpovedajú „{query}“",
+            "error_title": "Grafiky sa nepodarilo načítať",
+            "none_title": "Žiadne grafiky na zobrazenie",
+            "search_label": "Hľadať grafiky",
+            "search_placeholder": "Hľadať grafiky"
+        },
+        "header": {
+            "redo": "Znova",
+            "saving": "Ukladá sa…",
+            "undo": "Späť",
+            "untitled_design": "Návrh bez názvu"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Miesto pre fotku"
+            },
+            "menu": {
+                "align_center": "Na stred",
+                "bring_forward": "Posunúť vyššie",
+                "bring_to_front": "Presunúť navrch",
+                "detach_image": "Odpojiť obrázok",
+                "flip_horizontal": "Preklopiť vodorovne",
+                "flip_vertical": "Preklopiť zvisle",
+                "replace_image": "Nahradiť obrázok",
+                "send_backward": "Posunúť nižšie",
+                "send_to_back": "Presunúť na spodok",
+                "set_as_background_image": "Nastaviť ako obrázok na pozadí",
+                "set_as_background_video": "Nastaviť ako video na pozadí",
+                "set_background_as_image_layer": "Nastaviť pozadie ako vrstvu obrázka",
+                "set_background_as_video_layer": "Nastaviť pozadie ako vrstvu videa",
+                "sheet_title": "Možnosti vrstvy",
+                "show_layers": "Zobraziť vrstvy"
+            },
+            "pill": {
+                "duplicate": "Duplikovať vrstvu",
+                "more": "Ďalšie akcie vrstvy",
+                "remove": "Odstrániť vrstvu",
+                "toolbar": "Akcie vrstvy"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Párovací kód je pripravený: {code}. Odovzdajte ho svojmu AI klientovi.",
+                "connecting": "Vytvára sa párovací kód.",
+                "failed": "Pripojenie zlyhalo. {reason}",
+                "reconnecting": "Pripojenie sa prerušilo. Skúšam sa znova pripojiť."
+            },
+            "clipboard_blocked": "Váš prehliadač zablokoval schránku. {hint}",
+            "connect": "Pripojiť",
+            "connecting": "Pripájanie…",
+            "copied_address_announcement": "Adresa servera skopírovaná",
+            "copied_code_announcement": "Párovací kód skopírovaný",
+            "copy_address_hint": "Vyberte adresu a skopírujte ju ručne.",
+            "copy_code": "Kopírovať kód",
+            "copy_code_hint": "Vyberte kód a skopírujte ho ručne.",
+            "copy_server_address": "Kopírovať adresu servera MCP",
+            "disconnect": "Odpojiť",
+            "error_fallback": "Služba párovania neodpovedala. Skontrolujte pripojenie a skúste to znova.",
+            "guide": {
+                "fresh_code": "Ak kód prestane fungovať, kliknite na Odpojiť a pripojte sa znova pre nový kód.",
+                "how_to_set_up": "Ako to nastaviť",
+                "step_add_body": "Pridajte Twibbonize do svojho AI klienta pomocou nižšie uvedenej adresy. V Claude Code spustite",
+                "step_add_title": "Pridajte Twibbonize do svojho AI klienta",
+                "step_pair_body": "Povedzte „spáruj s editorom Twibbonize“ a odovzdajte mu kód vyššie.",
+                "step_pair_title": "Požiadajte o spárovanie",
+                "where_to_paste": "Kam mám tento kód vložiť?"
+            },
+            "lead": {
+                "code_ready_sentence": "Vložte ho do Claude a požiadajte o spárovanie. Plátno okolo stránky vykreslí rámček, kým Claude pracuje.",
+                "code_ready_title": "Odovzdajte tento kód svojmu AI klientovi",
+                "connecting_sentence": "Chvíľu to potrvá.",
+                "connecting_title": "Vytvára sa párovací kód",
+                "disconnected_sentence": "Claude Desktop a Claude Code môžu pridávať vrstvy, písať text, nastavovať animácie a čítať, čo je na plátne.",
+                "disconnected_title": "Pripojte AI klienta k tomuto návrhu",
+                "failed_title": "Pripojenie zlyhalo",
+                "reconnecting_sentence": "Spojenie s vaším AI klientom sa prerušilo. Skúšam ho obnoviť.",
+                "reconnecting_title": "Opätovné pripájanie",
+                "unavailable_sentence": "Táto verzia editora nemá nastavené AI pripojenie, takže sa zatiaľ nie je k čomu pripojiť.",
+                "unavailable_title": "MCP tu nie je zapnuté"
+            },
+            "pairing_code_label": "Párovací kód: {code}"
+        },
+        "media": {
+            "add_asset": "Pridať: {name}",
+            "dismiss_error": "Zavrieť",
+            "empty_body": "Nižšie pridajte obrázok, video alebo zvukový súbor a zostane tu do konca tejto relácie.",
+            "empty_narrowed_body": "Vymažte vyhľadávanie alebo vyberte iný typ, aby sa zobrazilo všetko, čo ste pridali.",
+            "empty_narrowed_title": "Nič sa nenašlo",
+            "empty_title": "Zatiaľ nič nenahraté",
+            "filter": {
+                "audio": "Zvuk",
+                "images": "Obrázky"
+            },
+            "filter_group_label": "Typ média",
+            "make_an_image": "Vytvoriť obrázok",
+            "make_image_unavailable": "Generovanie obrázkov zatiaľ nie je k dispozícii",
+            "search_placeholder": "Hľadať médiá",
+            "upload_button": "Nahrať obrázok, video alebo zvuk",
+            "uploads_heading": "Nahraté"
+        },
+        "page_bar": {
+            "group_label": "Ovládanie priblíženia",
+            "zoom_menu": "Úroveň priblíženia: {percent} %"
+        },
+        "panel": {
+            "loading": "Načítava sa: {panel}…"
+        },
+        "photo": {
+            "add_by": "Pridať fotku od autora {name}",
+            "add_described": "Pridať fotku: {description}",
+            "credit": "Fotky poskytuje",
+            "empty_body": "Skúste kratšie alebo všeobecnejšie slovo, napríklad pláž alebo mesto.",
+            "empty_title": "Žiadne fotky nezodpovedajú „{query}“",
+            "error_title": "Fotky sa nepodarilo načítať",
+            "none_title": "Žiadne fotky na zobrazenie",
+            "search_label": "Hľadať fotky",
+            "search_placeholder": "Hľadať fotky"
+        },
+        "qr": {
+            "add_logo": "Pridať logo",
+            "add_to_design": "Pridať do návrhu",
+            "background_colour_label": "Farba pozadia",
+            "code_colour_label": "Farba kódu",
+            "code_label": "Kód",
+            "link_input_label": "Odkaz QR kódu",
+            "link_label": "Odkaz",
+            "logo_fallback_name": "Obrázok loga",
+            "logo_label": "Logo",
+            "remove_logo": "Odstrániť logo"
+        },
+        "rail": {
+            "aria_label": "Knižnice návrhu",
+            "graphic": "Grafiky",
+            "help": "Pomocník",
+            "layers": "Vrstvy",
+            "mcp": "MCP",
+            "media": "Médiá",
+            "photo": "Fotky",
+            "qr_code": "QR kód",
+            "shapes": "Tvary",
+            "templates": "Šablóny",
+            "textures": "Textúry",
+            "tools": "Nástroje"
+        },
+        "save": {
+            "failed": "Návrh sa nepodarilo uložiť. Skúste to znova."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Jas",
+                "compare": "Porovnať s originálom",
+                "contrast": "Kontrast",
+                "grayscale": "Odtiene sivej",
+                "group": {
+                    "basic": "Základné",
+                    "refinements": "Dolaďovanie"
+                },
+                "hue_rotate": "Posun odtieňa",
+                "reset": "Obnoviť úpravy",
+                "saturation": "Sýtosť",
+                "title": "Úpravy"
+            },
+            "color": {
+                "trigger": "Farba"
+            },
+            "common": {
+                "layer_blur": "Rozmazanie vrstvy",
+                "layer_blur_stepper": "Rozmazanie vrstvy"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Voľný tvar",
+                    "landscape": "Na šírku",
+                    "original": "Originál",
+                    "portrait": "Na výšku",
+                    "square": "Štvorec",
+                    "story": "Príbeh",
+                    "widescreen": "Širokouhlé"
+                },
+                "shape": {
+                    "circle": "Kruh",
+                    "diamond": "Kosoštvorec",
+                    "half_circle": "Polkruh",
+                    "oval": "Ovál",
+                    "parallelogram": "Rovnobežník",
+                    "rounded": "Zaoblené"
+                }
+            },
+            "filter": {
+                "cool": "Studené",
+                "duotone": "Duotone",
+                "mono": "Mono",
+                "original": "Originál",
+                "vivid": "Živé",
+                "warm": "Teplé"
+            },
+            "font_weight": {
+                "black": "Black",
+                "extra_bold": "ExtraBold",
+                "extra_light": "ExtraLight",
+                "medium": "Medium",
+                "regular": "Regular",
+                "semibold": "SemiBold",
+                "thin": "Thin"
+            },
+            "frame": {
+                "colour": "Farba rámu"
+            },
+            "green_screen": {
+                "choose_colour": "Vyberte farbu",
+                "colour": "Farba",
+                "compare": "Porovnať s originálom",
+                "eyedropper": "Vybrať farbu z plátna",
+                "key_colour": "Kľúčová farba {hex}",
+                "loose": "Voľne",
+                "nothing_found": "Nenašla sa žiadna farba pozadia.",
+                "precise": "Presne",
+                "preset": {
+                    "bright_blue": "Jasne modrá",
+                    "bright_green": "Jasne zelená",
+                    "chroma_blue": "Modrá chroma",
+                    "chroma_green": "Zelená chroma"
+                },
+                "presets": "Bežné farby pozadia",
+                "remove": "Odstrániť zelené pozadie",
+                "title": "Zelené pozadie"
+            },
+            "image": {
+                "corner_radius": "Polomer rohov",
+                "corner_radius_stepper": "Polomer rohov",
+                "per_corner": "Upraviť jednotlivé rohy",
+                "per_corner_unavailable": "Úprava jednotlivých rohov zatiaľ nie je k dispozícii"
+            },
+            "keypad": {
+                "value_field": "Hodnota: {label}"
+            },
+            "line": {
+                "colour": "Farba čiary",
+                "style": {
+                    "dots": "Bodky",
+                    "long_dashes": "Dlhé čiarky",
+                    "short_dashes": "Krátke čiarky",
+                    "solid": "Plná"
+                },
+                "style_trigger": "Štýl čiary: {style}",
+                "weight": "Hrúbka čiary",
+                "weight_trigger": "Hrúbka čiary {weight}"
+            },
+            "media": {
+                "heading": "Médiá"
+            },
+            "page": {
+                "size_capped": "Max. {max} px — pomer zachovaný"
+            },
+            "pages": {
+                "title": "Stránky"
+            },
+            "photo_slot": {
+                "enable": "Použiť ako miesto pre fotku",
+                "key_field": "Kľúč (jedinečný)",
+                "key_required": "Kľúč je povinný",
+                "key_taken": "Kľúč už používa iné miesto",
+                "label_field": "Popisok (zobrazuje sa koncovému používateľovi)",
+                "on": "Miesto pre fotku",
+                "remove": "Odstrániť miesto pre fotku"
+            },
+            "qr": {
+                "add_logo": "Pridať logo",
+                "background_colour": "Farba pozadia",
+                "code": "Kód",
+                "code_colour": "Farba kódu",
+                "link": "Odkaz",
+                "link_input": "Odkaz QR kódu",
+                "logo": "Logo",
+                "remove_logo": "Odstrániť logo"
+            },
+            "root": {
+                "background_image": "Obrázok na pozadí",
+                "edit_background": "Upraviť obrázok na pozadí",
+                "fill": "Výplň",
+                "fill_gradient": "Prechod",
+                "page_height": "Výška stránky",
+                "page_width": "Šírka stránky",
+                "ratio_lock": "Zamknúť pomer strán",
+                "ratio_unlock": "Odomknúť pomer strán",
+                "rotate_left": "Otočiť pozadie doľava",
+                "rotate_right": "Otočiť pozadie doprava"
+            },
+            "scalar": {
+                "clip_length": "Dĺžka",
+                "corner_radius": "Polomer rohov",
+                "font_size": "Veľkosť písma",
+                "layer_blur": "Rozmazanie vrstvy",
+                "letter_spacing": "Rozstup písmen",
+                "line_height": "Riadkovanie",
+                "opacity": "Priehľadnosť",
+                "speed": "Rýchlosť",
+                "stroke_width": "Šírka obrysu",
+                "volume": "Hlasitosť"
+            },
+            "shape": {
+                "corner_radius": "Polomer rohov",
+                "corner_radius_stepper": "Polomer rohov",
+                "fill": "Výplň",
+                "fill_gradient": "Prechod",
+                "fill_mixed": "Zmiešané",
+                "fill_transparent": "Priehľadná",
+                "stroke": "Obrys",
+                "stroke_color": "Farba obrysu",
+                "stroke_style": {
+                    "dots": "Bodky",
+                    "long_dashes": "Dlhé čiarky",
+                    "short_dashes": "Krátke čiarky",
+                    "solid": "Plná"
+                },
+                "stroke_style_select": "Štýl obrysu",
+                "stroke_transparent": "Priehľadný",
+                "stroke_weight": "Hrúbka obrysu"
+            },
+            "svg": {
+                "path_colour": "Farba {index}"
+            },
+            "swatch": {
+                "more_colours": "Ďalšie farby"
+            },
+            "text": {
+                "align": {
+                    "justify": "Do bloku"
+                },
+                "alignment": "Zarovnanie",
+                "edit_text": "Upraviť text",
+                "font_family": "Písmo",
+                "font_family_select": "Písmo",
+                "font_size": "Veľkosť písma",
+                "italic_unavailable": "Toto písmo nemá v tejto hrúbke kurzívu",
+                "letter_spacing_stepper": "Rozstup písmen",
+                "line_height": "Riadkovanie",
+                "line_height_stepper": "Riadkovanie",
+                "list": "Zoznam",
+                "list_bulleted": "Odrážkový zoznam",
+                "list_numbered": "Číslovaný zoznam",
+                "list_style": "Štýl zoznamu",
+                "text_case": "Veľkosť písmen",
+                "text_color": "Farba textu",
+                "text_style": "Štýl textu",
+                "weight": "Hrúbka"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Zarovnať nadol",
+                    "center_x": "Zarovnať na vodorovný stred",
+                    "center_y": "Zarovnať na zvislý stred",
+                    "left": "Zarovnať doľava",
+                    "right": "Zarovnať doprava",
+                    "top": "Zarovnať nahor"
+                },
+                "align_to_page": "Zarovnať na stránku",
+                "opacity": "Priehľadnosť",
+                "position": "Pozícia",
+                "position_x": "Pozícia X",
+                "position_y": "Pozícia Y",
+                "rotation": "Rotácia",
+                "scale": "Mierka"
+            },
+            "video": {
+                "adjust": "Upraviť",
+                "audio": "Zvuk",
+                "clip_runs": "Klip trvá {length}",
+                "corner_radius": "Polomer rohov",
+                "corner_radius_stepper": "Polomer rohov",
+                "green_screen": "Zelené pozadie",
+                "loop": "Opakovať do konca návrhu",
+                "mute": "Stlmiť",
+                "muted": "Stlmené",
+                "no_audio": "Toto video nemá zvuk.",
+                "playback": "Prehrávanie",
+                "replace": "Nahradiť video",
+                "speed": "Rýchlosť",
+                "speed_custom_input": "Vlastná rýchlosť prehrávania",
+                "speed_presets": "Rýchlosť prehrávania",
+                "speed_range": "Od {min}× do {max}×",
+                "tools": "Nástroje",
+                "unmute": "Zrušiť stlmenie",
+                "volume": "Hlasitosť",
+                "volume_level": "Úroveň hlasitosti"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Šípka",
+            "arrow_down": "Šípka nadol",
+            "arrow_left": "Šípka doľava",
+            "arrow_pentagon": "Päťuholníková šípka",
+            "arrow_right": "Šípka doprava",
+            "arrow_up": "Šípka nahor",
+            "chevron": "Chevron",
+            "circle": "Kruh",
+            "cross": "Kríž",
+            "diamond": "Kosoštvorec",
+            "hexagon": "Šesťuholník",
+            "hexagon_wide": "Široký šesťuholník",
+            "line": "Čiara",
+            "octagon": "Osemuholník",
+            "parallelogram": "Rovnobežník",
+            "parallelogram_mirrored": "Zrkadlený rovnobežník",
+            "pentagon": "Päťuholník",
+            "square": "Štvorec",
+            "trapezoid": "Lichobežník",
+            "trapezoid_upside_down": "Obrátený lichobežník",
+            "triangle": "Trojuholník",
+            "triangle_upside_down": "Obrátený trojuholník"
+        },
+        "shapes_panel": {
+            "basic": "Základné",
+            "lines": "Čiary a šípky"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Pridať kľúčový snímok",
+                "back_to_animations": "Späť na animácie",
+                "basic": "Základné",
+                "basic_opacity": "Priehľadnosť",
+                "basic_position": "Pozícia",
+                "basic_rotation": "Rotácia",
+                "basic_scale": "Mierka",
+                "keyframe": "Kľúčový snímok",
+                "pick_property_hint": "Vyberte vlastnosť pre kľúčový snímok. Ťuknutím sa panel zatvorí a otvorí sa jej nastavenie, pričom kľúčový snímok bude umiestnený na ukazovateli prehrávania s aktuálnou hodnotou vrstvy.",
+                "presets_need_one": "Predvoľby animácií vyžadujú jeden prvok. Vyberte jednu vrstvu, aby sa zobrazili.",
+                "title": "Animovať"
+            },
+            "easing": {
+                "title": "Zjemnenie"
+            },
+            "font_weight": {
+                "title": "Hrúbka písma"
+            },
+            "speed": {
+                "title": "Rýchlosť"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Predvolené farby",
+                "eyedropper": "Vybrať farbu z obrazovky",
+                "eyedropper_unsupported": "Váš prehliadač nepodporuje pipetu",
+                "fill_linear": "lineárny",
+                "fill_radial": "radiálny",
+                "fill_solid": "plný",
+                "fill_type": "Typ výplne",
+                "gradients_in_design": "Prechody v návrhu",
+                "hex": "Farba hex",
+                "in_design": "V návrhu",
+                "title": "Farba výplne",
+                "use_color": "Použiť: {color}",
+                "use_gradient": "Použiť prechod: {style}",
+                "use_transparent": "Priehľadná"
+            },
+            "crop": {
+                "adjust_shape": "Upraviť tvar orezu",
+                "aspect": "Pomer strán",
+                "framing": "Kompozícia",
+                "framing_hint": "Presunutím fotky zmeníte výrez, presunutím rohu zmeníte veľkosť okna orezu. Posunutím kolieska priblížite.",
+                "scale": "Mierka"
+            },
+            "filters": {
+                "show_earlier": "Zobraziť skoršie filtre",
+                "show_more": "Zobraziť ďalšie filtre",
+                "swatch": "{label}, farba: {color}",
+                "title": "Filtre"
+            },
+            "font": {
+                "all_fonts": "VŠETKY PÍSMA",
+                "applying": "Použitie písma",
+                "back": "Späť na možnosti textu",
+                "clear_search": "Vymazať vyhľadávanie",
+                "clear_search_action": "Vymazať vyhľadávanie",
+                "in_this_design": "V TOMTO NÁVRHU",
+                "no_match": "Žiadne písma nezodpovedajú „{query}“",
+                "no_match_hint": "Twibbonize čerpá z katalógu Google Fonts a táto rodina v ňom nie je. Skúste kratší hľadaný výraz.",
+                "search_label": "Hľadať rodiny písem",
+                "search_placeholder": "Hľadať písma",
+                "title": "Písmo",
+                "weight": "Hrúbka písma"
+            },
+            "gradient": {
+                "add_stop": "Pridať zarážku prechodu",
+                "angle": "Uhol",
+                "angle_dial": "Uhol prechodu: {degrees} stupňov. Presunutím zmeníte",
+                "angle_dial_hint": "Presunutím zmeníte uhol prechodu",
+                "angle_input": "Uhol prechodu v stupňoch",
+                "centre_unsupported": "Stred prechodu zatiaľ nie je podporovaný vykresľovačom",
+                "stop": "Zarážka prechodu {index} na {percent} %, {color}",
+                "stop_hint": "Presunutím premiestnite, dvojitým kliknutím odstránite"
+            },
+            "image": {
+                "adjustment": "Úprava",
+                "adjustments": "Úpravy",
+                "back_to_edit": "Späť na kartu Úpravy",
+                "background_removal": "Odstránenie pozadia",
+                "compare": "Porovnať s originálom",
+                "removing": "Odstraňovanie…",
+                "removing_background": "Odstraňovanie pozadia",
+                "reset_adjustments": "Obnoviť úpravy",
+                "tools": "Nástroje"
+            },
+            "keyframe": {
+                "add": "Pridať kľúčový snímok",
+                "add_at_playhead": "Pridať kľúčový snímok ({property}) na ukazovateľ prehrávania",
+                "add_at_playhead_short": "Pridať kľúčový snímok na ukazovateľ prehrávania",
+                "add_lane_at_playhead": "Pridať kľúčový snímok ({lane}) na ukazovateľ prehrávania",
+                "add_property": "Pridať vlastnosť na animáciu",
+                "all_lanes_added": "Každá vlastnosť, ktorú možno pri tejto vrstve animovať, už má dráhu",
+                "delete": "Odstrániť tento kľúčový snímok",
+                "diamond": "Kľúčový snímok ({lane}) v {seconds} s",
+                "easing": "Zjemnenie",
+                "easing_caps": "ZJEMNENIE",
+                "first_no_easing": "Prvý kľúčový snímok nemá zjemnenie",
+                "hex": "Farba hex",
+                "layer_blur": "Rozmazanie vrstvy",
+                "letter_spacing": "Rozstup písmen",
+                "line_height": "Riadkovanie",
+                "opacity": "Priehľadnosť",
+                "opacity_percent": "Priehľadnosť v percentách",
+                "position_x": "Pozícia X",
+                "position_y": "Pozícia Y",
+                "radius_bottom_left": "Polomer ľavého dolného rohu",
+                "radius_bottom_right": "Polomer pravého dolného rohu",
+                "radius_top_left": "Polomer ľavého horného rohu",
+                "radius_top_right": "Polomer pravého horného rohu",
+                "remove": "Odstrániť kľúčový snímok",
+                "remove_at_playhead": "Odstrániť kľúčový snímok ({property}) z ukazovateľa prehrávania",
+                "rotation": "Rotácia",
+                "scale": "Mierka",
+                "shadow_blur": "Rozmazanie tieňa",
+                "shadow_color": "Farba tieňa",
+                "shadow_offset_x": "Posun tieňa X",
+                "shadow_offset_y": "Posun tieňa Y",
+                "shadow_spread": "Rozptyl tieňa",
+                "stroke_color": "Farba obrysu",
+                "stroke_weight": "Hrúbka obrysu"
+            },
+            "layer": {
+                "page_background": "Pozadie stránky",
+                "tab_animate": "Animovať",
+                "tabs_label": "Panel vrstiev",
+                "title": "Vrstvy"
+            },
+            "page_preset": {
+                "group_label": "Predvoľby veľkosti plátna",
+                "landscape": "Na šírku",
+                "portrait": "Na výšku",
+                "square": "Štvorec",
+                "story": "Príbeh",
+                "tile_aria": "{name}, {width} × {height} pixelov"
+            },
+            "personalization": {
+                "act_as_placeholder": "Fungovať ako zástupný prvok",
+                "allow_adjust_framing": "Povoliť úpravu výrezu",
+                "allow_adjust_framing_hint": "Podporovatelia môžu svoju fotku v ráme približovať a posúvať.",
+                "allow_change_adjustments": "Povoliť zmenu úprav",
+                "allow_change_adjustments_hint": "Podporovatelia môžu meniť jas, kontrast a ďalšie úpravy.",
+                "allow_change_effect": "Povoliť zmenu efektu",
+                "allow_change_effect_hint": "Podporovatelia môžu pre túto vrstvu zvoliť iný efekt.",
+                "allow_change_filter": "Povoliť zmenu filtra",
+                "allow_change_filter_hint": "Podporovatelia môžu pre túto vrstvu zvoliť iný filter.",
+                "allow_edit_text": "Povoliť úpravu textu",
+                "allow_edit_text_hint": "Podporovatelia môžu do tohto textu napísať vlastné slová.",
+                "allow_flip": "Povoliť preklopenie",
+                "allow_flip_hint": "Podporovatelia môžu túto vrstvu zrkadlovo preklopiť.",
+                "allow_move": "Povoliť presun",
+                "allow_move_hint": "Podporovatelia môžu túto vrstvu presunúť na nové miesto.",
+                "allow_replace_media": "Povoliť výmenu média",
+                "allow_replace_media_hint": "Podporovatelia môžu tento obrázok nahradiť vlastnou fotkou.",
+                "allow_resize": "Povoliť zmenu veľkosti",
+                "allow_resize_hint": "Podporovatelia môžu meniť veľkosť tejto vrstvy presunutím jej rohov a strán.",
+                "allow_rotate": "Povoliť otáčanie",
+                "allow_rotate_hint": "Podporovatelia môžu túto vrstvu otočiť do ľubovoľného uhla.",
+                "group_appearance": "Vzhľad",
+                "group_arrange": "Usporiadanie",
+                "group_media": "Médiá",
+                "placeholder_hint": "Zobrazí prázdne miesto, na ktoré môžu podporovatelia ťuknúť a pridať svoju fotku.",
+                "remove_background": "Odstrániť pozadie z ich fotky",
+                "remove_background_hint": "Vystrihne podporovateľa z jeho fotky, aby sa okolo neho zobrazil váš návrh.",
+                "text_placeholder_hint": "Zobrazí tento text ako ukážku, ktorú podporovatelia nahradia vlastným."
+            },
+            "shape_effect": {
+                "colour": "Farba efektu",
+                "distance": "Vzdialenosť",
+                "echo": "Echo",
+                "first_color": "Prvá farba",
+                "first_colour": "Prvá farba efektu",
+                "glitch": "Glitch",
+                "glow": "Žiara",
+                "group_label": "Efekt tvaru",
+                "second_color": "Druhá farba",
+                "second_colour": "Druhá farba efektu",
+                "section": "Efekt",
+                "shadow": "Vrhnutý tieň"
+            },
+            "text_effect": {
+                "colour": "Farba efektu",
+                "curve": "Zakrivenie",
+                "distance": "Vzdialenosť",
+                "echo": "Echo",
+                "glow": "Žiara",
+                "group_label": "Efekt textu",
+                "outline": "Obrys",
+                "section": "Efekt",
+                "shape_group_label": "Tvar textu",
+                "splice": "Strih",
+                "title": "Efekty textu"
+            }
+        },
+        "templates": {
+            "empty_body": "Skúste kratšie alebo všeobecnejšie slovo.",
+            "empty_title": "Žiadne šablóny nezodpovedajú „{query}“",
+            "error_title": "Šablóny sa nepodarilo načítať",
+            "none_body": "Vyhľadajte tému, napríklad narodeniny alebo promócie.",
+            "none_title": "Pre tento návrh zatiaľ nie sú žiadne šablóny",
+            "search_label": "Hľadať šablóny",
+            "search_placeholder": "Hľadať šablóny"
+        },
+        "text_panel": {
+            "add_template": "Pridať šablónu textu: {name}",
+            "add_text_box": "Pridať textové pole",
+            "empty_body": "Skúste kratšie alebo všeobecnejšie slovo.",
+            "empty_title": "Žiadne šablóny textu nezodpovedajú „{query}“",
+            "error_title": "Šablóny textu sa nepodarilo načítať",
+            "none_body": "Začnite radšej obyčajným textovým poľom.",
+            "none_title": "Žiadne šablóny textu na zobrazenie",
+            "search_label": "Hľadať šablóny textu",
+            "search_placeholder": "Hľadať šablóny textu"
+        },
+        "text_preset": {
+            "seed": "Sem pridajte svoj text"
+        },
+        "textures": {
+            "apply_texture": "Použiť: {name}",
+            "category": {
+                "fabric": "Látka",
+                "grain": "Zrno",
+                "grunge": "Grunge",
+                "paper": "Papier",
+                "print": "Tlač"
+            },
+            "category_group_label": "Kategória textúr",
+            "empty_body": "Túto knižnicu budujeme — čoskoro sa sem vráťte.",
+            "empty_title": "Textúry tu zatiaľ nie sú",
+            "most_used": "Najpoužívanejšie",
+            "search_placeholder": "Hľadať textúry"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Pridať zvuk",
+                "add_tooltip": "Pridať zvukovú stopu na pozadie",
+                "bar_aria": "{name} od {start}, dĺžka {duration}",
+                "decoding": "Dekódovanie zvuku…",
+                "decoding_waveform": "Dekódovanie priebehu vlny…",
+                "default_name": "Zvuk",
+                "drop_to_add": "Pustením pridáte zvuk",
+                "kind_suffix": "· Zvuk",
+                "mute": "Stlmiť stopu",
+                "unmute": "Zrušiť stlmenie stopy",
+                "volume": "Hlasitosť stopy",
+                "waveform_error": "Priebeh vlny tejto stopy sa nepodarilo načítať."
+            },
+            "keyframe": {
+                "add": "Pridať kľúčový snímok",
+                "add_at_playhead": "Pridať kľúčový snímok na ukazovateľ prehrávania",
+                "add_tooltip": "Pridať kľúčový snímok pre vlastnosť tejto vrstvy",
+                "diamond_aria": "Kľúčový snímok ({lane}) v {time}",
+                "diamond_hint": " · presunutím zmeníte čas, kliknutím pravým tlačidlom odstránite",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Polomer rohov",
+                    "layer_blur": "Rozmazanie vrstvy",
+                    "line_height": "Riadkovanie",
+                    "opacity": "Priehľadnosť",
+                    "position": "Pozícia",
+                    "rotation": "Rotácia",
+                    "scale": "Mierka",
+                    "stroke": "Obrys"
+                },
+                "remove_lane": "Odstrániť kľúčové snímky ({lane})",
+                "remove_lane_from_layer": "Odstrániť kľúčové snímky ({lane}) z vrstvy {layer}",
+                "segment_easing_aria": "Časovacia funkcia ({lane}) medzi {from} a {to}, aktuálne {easing}",
+                "segment_easing_title": "Časovacia funkcia · {easing}",
+                "welded_aria": ", prichytené k okraju vrstvy",
+                "welded_title": " · prichytené k okraju vrstvy"
+            },
+            "menu": {
+                "repeat_until_end": "Opakovať do konca"
+            },
+            "track": {
+                "bar_aria": "{name} od {start}, dĺžka {duration}",
+                "bar_aria_end_glued": ", koniec prichytený k vrstve",
+                "bar_aria_start_glued": ", začiatok prichytený k vrstve",
+                "bar_tooltip": "{name} · {start}, {duration} ms · presunutím premiestnite, presunutím okraja zmeníte veľkosť (Alt = bez prichytenia)",
+                "bar_tooltip_sole": " · presunutím tohto okraja sa presunie vrstva",
+                "clip_aria": "Klip {name}",
+                "clip_tooltip": "Presunutím posuniete vrstvu v čase · presunutím konca orežete (Alt = bez prichytenia)",
+                "collapse": "Zbaliť",
+                "collapse_all": "Zbaliť všetky vrstvy",
+                "collapse_named": "Zbaliť: {name}",
+                "delete_layer": "Odstrániť vrstvu",
+                "delete_named": "Odstrániť: {name}",
+                "ends_at": "Končí o",
+                "expand": "Rozbaliť",
+                "expand_named": "Rozbaliť: {name}",
+                "hidden_lane_one": "{count} skrytá dráha",
+                "hidden_lane_other": "Skryté dráhy: {count}",
+                "hide": "Skryť",
+                "hide_named": "Skryť: {name}",
+                "lane_reorder_tooltip": "Presunutím zmeníte poradie — vyššia dráha má prednosť tam, kde sa animácie prekrývajú",
+                "layer_animations": "Animácie vrstvy",
+                "lock_layer": "Zamknúť vrstvu",
+                "lock_named": "Zamknúť: {name}",
+                "remove_animation": "Odstrániť animáciu",
+                "remove_animation_aria": "Odstrániť animáciu {name} z vrstvy {layer}",
+                "reorder_tooltip": "Presunutím zmeníte poradie stôp — poradie na plátne sa nastavuje v paneli vrstiev",
+                "show": "Zobraziť",
+                "show_named": "Zobraziť: {name}",
+                "split": "Rozdeliť",
+                "starts_at": "Začína o",
+                "trim_end": "Orezať koniec",
+                "trim_start": "Orezať začiatok",
+                "trim_to": "Orezať na {time}",
+                "unlock_layer": "Odomknúť vrstvu",
+                "unlock_named": "Odomknúť: {name}"
+            },
+            "transport": {
+                "current_time_field": "Aktuálny čas v milisekundách",
+                "duration_edge_aria": "Dĺžka stránky {seconds} sekúnd",
+                "duration_edge_tooltip": "Dĺžka stránky {seconds} s · presunutím zmeníte, kliknutím zadáte presnú hodnotu (Alt = bez prichytenia)",
+                "duration_max": "Maximálne {seconds} s",
+                "fit_to_width": "Prispôsobiť šírke",
+                "forward": "Dopredu",
+                "lengthen_page": "Predĺžiť stránku",
+                "loop": "Prehrávanie v slučke",
+                "page_duration": "Dĺžka stránky",
+                "page_duration_field": "Dĺžka stránky v milisekundách",
+                "resize_dock": "Zmeniť veľkosť časovej osi",
+                "rewind": "Pretočiť späť",
+                "shorten_page": "Skrátiť stránku",
+                "zoom": "Priblíženie časovej osi"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {

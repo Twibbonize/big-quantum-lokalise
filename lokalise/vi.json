@@ -2842,7 +2842,9 @@
             "type": "Kiểu:",
             "size": "Kích cỡ:",
             "type_image": "JPG, PNG hoặc SVG",
-            "maximum_size": "Tối đa 5 MB"
+            "maximum_size": "Tối đa 5 MB",
+            "abandoned": "Quá trình tải lên đã dừng vì lớp bị xóa. Hãy thử lại để giữ tệp này trong thư viện.",
+            "failed": "Tải lên thất bại. Hãy kiểm tra kết nối và thử lại."
         },
         "toolbar": {
             "copy": "Sao chép",
@@ -2871,7 +2873,119 @@
             "border_weight": "Độ dày đường viền",
             "corner_rounding": "Làm tròn góc",
             "align": "Căn chỉnh",
-            "effects": "Hiệu ứng"
+            "effects": "Hiệu ứng",
+            "animate": {
+                "amount": "Mức độ",
+                "angle": "Góc",
+                "close": "Đóng cài đặt hoạt ảnh",
+                "delete_animation": "Xóa hoạt ảnh",
+                "distance": "Khoảng cách",
+                "easing": "Easing",
+                "fade": "Mờ dần",
+                "settings_aria": "Cài đặt hoạt ảnh"
+            },
+            "audio": {
+                "replace": "Thay thế",
+                "tools_aria": "Công cụ track âm thanh",
+                "trim": "Cắt bớt",
+                "volume": "Âm lượng"
+            },
+            "clip": {
+                "length": "Độ dài",
+                "split": "Tách",
+                "trim": "Cắt bớt"
+            },
+            "entry": {
+                "animate": "Hoạt ảnh"
+            },
+            "image": {
+                "adjust": "Điều chỉnh",
+                "background_removal_unavailable": "Chưa hỗ trợ xóa nền",
+                "remove_background": "Xóa nền",
+                "remove_background_short": "Tách nền",
+                "replace": "Thay thế"
+            },
+            "keyframe": {
+                "blur": "Làm mờ lớp",
+                "close": "Đóng thuộc tính khung hình chính",
+                "delete_keyframe": "Xóa khung hình chính",
+                "letter_spacing": "Khoảng cách chữ",
+                "line_height": "Giãn dòng",
+                "opacity": "Độ mờ đục",
+                "position": "Vị trí",
+                "properties_aria": "Thuộc tính khung hình chính",
+                "rotation": "Xoay",
+                "scale": "Tỷ lệ"
+            },
+            "layer_tools": {
+                "deselect": "Bỏ chọn lớp",
+                "tools_aria": "Công cụ lớp"
+            },
+            "media": {
+                "adjust": "Điều chỉnh",
+                "green_screen": "Phông xanh",
+                "replace": "Thay thế",
+                "trim": "Cắt bớt"
+            },
+            "misc": {
+                "background_fill": "Màu nền",
+                "background_fill_short": "Tô màu",
+                "configure_qr": "Cấu hình mã QR",
+                "edit_background_image": "Chỉnh sửa ảnh nền",
+                "no_background_image": "Chưa có ảnh nền",
+                "replace_unavailable": "Thay thế (chưa khả dụng)"
+            },
+            "opacity": {
+                "label": "Độ mờ đục"
+            },
+            "shape": {
+                "corner_radius": "Bo góc",
+                "corner_radius_short": "Bán kính",
+                "fill": "Tô màu",
+                "line_color": "Màu đường",
+                "line_style_dots": "Chấm",
+                "line_style_long_dashes": "Nét đứt dài",
+                "line_style_named": "Kiểu đường: {style}",
+                "line_style_short_dashes": "Nét đứt ngắn",
+                "line_style_solid": "Nét liền",
+                "line_weight": "Độ dày đường",
+                "stroke_color": "Màu viền",
+                "stroke_color_short": "Viền",
+                "stroke_weight": "Độ dày viền",
+                "stroke_weight_short": "Độ dày"
+            },
+            "speed": {
+                "custom_input": "Tốc độ phát tùy chỉnh",
+                "label": "Tốc độ",
+                "playback_length": "Thời lượng phát",
+                "playback_speed": "Tốc độ phát",
+                "range_hint": "Từ {min}× đến {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Giảm cỡ chữ",
+                "font_family": "Phông chữ",
+                "font_family_named": "Phông chữ: {value}",
+                "font_size": "Cỡ chữ",
+                "font_weight": "Độ đậm chữ",
+                "font_weight_named": "Độ đậm chữ: {value}",
+                "increase_font_size": "Tăng cỡ chữ",
+                "keyboard": "Bàn phím",
+                "line_height": "Giãn dòng",
+                "spacing": "Khoảng cách",
+                "text_color": "Màu chữ",
+                "weight": "Độ đậm"
+            },
+            "volume": {
+                "clip_hint": "Chỉ áp dụng cho clip này. Âm thanh đặt trên dòng thời gian giữ mức âm lượng riêng.",
+                "label": "Âm lượng",
+                "level": "Mức",
+                "mute": "Tắt tiếng",
+                "muted": "Đã tắt tiếng",
+                "muted_hint": "Mức âm lượng vẫn được giữ. Bật tiếng lại và clip sẽ trở về {percent}%.",
+                "no_audio": "Video này không có âm thanh.",
+                "slider": "Mức âm lượng",
+                "unmute": "Bật tiếng"
+            }
         },
         "confirmation": {
             "cancel": "Bỏ đi",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Màu tài liệu",
             "default_colors": "Màu mặc định"
         },
-        "graphic": "Đồ họa"
+        "graphic": "Đồ họa",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Giữa dưới",
+                "bottom_left": "Dưới bên trái",
+                "bottom_right": "Dưới bên phải",
+                "center_left": "Giữa bên trái",
+                "center_right": "Giữa bên phải",
+                "top_center": "Giữa trên",
+                "top_left": "Trên bên trái",
+                "top_right": "Trên bên phải"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Kết thúc",
+                "more_options": "Thêm tùy chọn"
+            },
+            "direction": {
+                "bottom_left": "Dưới bên trái",
+                "bottom_right": "Dưới bên phải",
+                "clockwise": "Theo chiều kim đồng hồ",
+                "counter_clockwise": "Ngược chiều kim đồng hồ",
+                "from_the": "Từ {place}",
+                "to_the": "Đến {place}",
+                "top_left": "Trên bên trái",
+                "top_right": "Trên bên phải"
+            },
+            "easing": {
+                "accelerate": "Tăng tốc",
+                "bounce": "Nảy",
+                "elastic": "Đàn hồi",
+                "impulse": "Xung",
+                "natural": "Tự nhiên",
+                "overshoot": "Vượt mức",
+                "slow_down": "Giảm tốc",
+                "smooth": "Mượt",
+                "swing": "Lắc lư"
+            },
+            "field": {
+                "amount": "Mức độ",
+                "anchor_group": "Điểm neo",
+                "anchor_point": "Điểm neo",
+                "angle": "Góc",
+                "apply_effect_to": "Áp dụng hiệu ứng cho",
+                "axis": "Trục",
+                "choose_easing": "Chọn easing",
+                "distance": "Khoảng cách",
+                "duration": "Thời lượng",
+                "edge": "Cạnh",
+                "fade": "Mờ dần",
+                "from_noun": "{noun} ban đầu",
+                "horizontal": "Ngang",
+                "noun_blur": "độ mờ nhòe",
+                "noun_opacity": "độ mờ đục",
+                "noun_size": "kích thước",
+                "opacity": "Độ mờ đục",
+                "order": "Thứ tự",
+                "position": "Vị trí",
+                "rotation": "Xoay",
+                "rotation_direction": "Hướng xoay",
+                "scale": "Tỷ lệ",
+                "smoothing": "Độ mượt",
+                "to_noun": "{noun} cuối",
+                "vertical": "Dọc"
+            },
+            "mode": {
+                "arrives": "Xuất hiện",
+                "departs": "Rời đi",
+                "in": "Vào",
+                "out": "Ra"
+            },
+            "panel": {
+                "animation": "Hoạt ảnh",
+                "animations_tab": "Hoạt ảnh",
+                "basic": "Cơ bản",
+                "changing_note": "Chọn một hiệu ứng thay thế. Nó sẽ giữ vị trí và độ dài của hoạt ảnh bạn đang thay đổi.",
+                "corner_radius": "Bo góc",
+                "easing": "Easing",
+                "fade": "Mờ dần",
+                "keyframe_tab": "Khung hình chính",
+                "layer_blur": "Làm mờ lớp",
+                "line_height": "Giãn dòng",
+                "more_options": "Thêm tùy chọn",
+                "motion": "Chuyển động",
+                "needs_one_element": "Hoạt ảnh có sẵn cần chọn một phần tử. Hãy chọn một lớp duy nhất để xem.",
+                "paste_animation": "Dán hoạt ảnh",
+                "scale": "Tỷ lệ",
+                "slide": "Trượt",
+                "stroke": "Viền",
+                "text_animation": "Hoạt ảnh văn bản"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Xuất hiện",
+                    "label": "Xuất hiện"
+                },
+                "blur": {
+                    "label": "Mờ nhòe vào"
+                },
+                "blur_scale": {
+                    "caption": "Mờ nhòe & Tỷ lệ",
+                    "label": "Mờ nhòe vào kèm thay đổi tỷ lệ"
+                },
+                "blur_slide": {
+                    "caption": "Mờ nhòe & Trượt",
+                    "label": "Mờ nhòe vào kèm trượt"
+                },
+                "fade": {
+                    "caption": "Mờ dần",
+                    "label": "Mờ dần"
+                },
+                "grow": {
+                    "caption": "Bật lên",
+                    "label": "Bật lên"
+                },
+                "mask_center": {
+                    "caption": "Mặt nạ từ giữa",
+                    "label": "Hiện mặt nạ từ chính giữa"
+                },
+                "mask_reveal": {
+                    "caption": "Hiện mặt nạ",
+                    "label": "Hiện mặt nạ từ một cạnh"
+                },
+                "mask_slide": {
+                    "caption": "Mặt nạ & Trượt",
+                    "label": "Hiện mặt nạ kèm trượt"
+                },
+                "move_scale": {
+                    "caption": "Di chuyển & Tỷ lệ",
+                    "label": "Di chuyển và thay đổi tỷ lệ khi vào"
+                },
+                "rotate_left": {
+                    "label": "Xoay từ bên trái"
+                },
+                "rotate_right": {
+                    "label": "Xoay từ bên phải"
+                },
+                "shrink": {
+                    "caption": "Phóng to",
+                    "label": "Phóng to vào"
+                },
+                "slide": {
+                    "caption": "Trượt",
+                    "label": "Trượt vào"
+                },
+                "slide_from_bottom": {
+                    "label": "Trượt từ dưới lên"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Dưới bên trái",
+                    "label": "Trượt từ dưới bên trái"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Dưới bên phải",
+                    "label": "Trượt từ dưới bên phải"
+                },
+                "slide_from_left": {
+                    "label": "Trượt từ bên trái"
+                },
+                "slide_from_right": {
+                    "label": "Trượt từ bên phải"
+                },
+                "slide_from_top": {
+                    "label": "Trượt từ trên xuống"
+                },
+                "slide_from_top_left": {
+                    "caption": "Trên bên trái",
+                    "label": "Trượt từ trên bên trái"
+                },
+                "slide_from_top_right": {
+                    "caption": "Trên bên phải",
+                    "label": "Trượt từ trên bên phải"
+                },
+                "spin": {
+                    "caption": "Quay",
+                    "label": "Quay vào"
+                },
+                "spin_scale": {
+                    "caption": "Quay & Tỷ lệ",
+                    "label": "Quay và thay đổi tỷ lệ khi vào"
+                },
+                "twist": {
+                    "caption": "Xoắn",
+                    "label": "Xoắn vào"
+                }
+            },
+            "property": {
+                "change_text": "Đổi văn bản",
+                "morph": "Biến hình",
+                "move": "Di chuyển",
+                "opacity": "Độ mờ đục",
+                "scale": "Tỷ lệ"
+            },
+            "section": {
+                "fade": "Mờ dần",
+                "mask": "Mặt nạ",
+                "scale": "Tỷ lệ",
+                "slide": "Trượt",
+                "transform": "Biến đổi"
+            },
+            "text": {
+                "backward": "Ngược",
+                "forward": "Xuôi",
+                "letters": "Chữ cái",
+                "summary_overlap": "Mỗi {unit} bắt đầu khi phần trước đó chạy được {percent}%.",
+                "summary_sequential": "Mỗi {unit} kết thúc trước khi phần tiếp theo bắt đầu.",
+                "summary_together": "Mọi {unit} chuyển động cùng lúc.",
+                "summary_whole": "Toàn bộ khối văn bản chuyển động như một.",
+                "words": "Từ"
+            },
+            "type": {
+                "fade_in": "Mờ dần vào",
+                "fade_out": "Mờ dần ra",
+                "line_height": "Giãn dòng",
+                "radius": "Bán kính",
+                "resize_in": "Đổi kích thước vào",
+                "resize_out": "Đổi kích thước ra",
+                "rotate_in": "Xoay vào",
+                "rotate_out": "Xoay ra",
+                "scale_in": "Thu phóng vào",
+                "scale_out": "Thu phóng ra",
+                "slide_in": "Trượt vào",
+                "slide_out": "Trượt ra",
+                "spacing": "Khoảng cách",
+                "stroke": "Viền"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Thêm ảnh của bạn để tiếp tục.",
+                    "gesture": {
+                        "frameDesktop": "Kéo để đổi vị trí · Cuộn để thu phóng",
+                        "frameMobile": "Kéo để đổi vị trí, chụm hai ngón để thu phóng",
+                        "handles": "Đổi kích thước từ góc và cạnh, xoay từ phía trên",
+                        "move": "Kéo để di chuyển",
+                        "moveOrHandles": "Kéo để di chuyển, hoặc dùng các tay nắm",
+                        "resize": "Kéo một góc hoặc cạnh để đổi kích thước",
+                        "rotate": "Kéo tay nắm phía trên để xoay",
+                        "rotateDesktop": "Kéo thước, hoặc dùng phím mũi tên",
+                        "rotateMobile": "Kéo thước để xoay"
+                    },
+                    "hint": {
+                        "pickDesktop": "Nhấp vào vùng được đánh dấu, hoặc chọn một lớp ở bên trái",
+                        "pickMobile": "Chạm vào vùng được đánh dấu, hoặc chọn một lớp bên dưới",
+                        "previewDesktop": "Đang xem trước thiết kế của bạn. Nhấp vào để tiếp tục chỉnh sửa.",
+                        "previewMobile": "Đang xem trước thiết kế của bạn. Chạm vào để tiếp tục chỉnh sửa."
+                    },
+                    "layer": {
+                        "addPhoto": "Thêm ảnh của bạn",
+                        "text": "Văn bản: {text}",
+                        "yourPhoto": "Ảnh của bạn",
+                        "yourText": "Văn bản của bạn"
+                    },
+                    "layers": {
+                        "all": "Tất cả các lớp",
+                        "photo": "Ảnh",
+                        "sheetDescription": "Mọi thứ trong thiết kế này mà bạn có thể thay đổi.",
+                        "title": "Lớp"
+                    },
+                    "photoError": "Chúng tôi không thể dùng ảnh đó. Hãy thử một hình ảnh khác.",
+                    "preview": {
+                        "backToEditing": "Quay lại chỉnh sửa"
+                    },
+                    "rotation": {
+                        "aria": "Xoay",
+                        "value": "one:#độ|other:#độ"
+                    },
+                    "tools": {
+                        "adjust": "Điều chỉnh",
+                        "aria": "Công cụ lớp",
+                        "editText": "Sửa văn bản",
+                        "flip": "Lật",
+                        "locked": "Kích thước và vị trí do người tạo thiết lập",
+                        "replace": "Thay thế",
+                        "textAria": "Công cụ văn bản",
+                        "zoomIn": "Phóng to",
+                        "zoomOut": "Thu nhỏ"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "Đã thêm {name} vào dòng thời gian.",
+                "too_big": "{name} vượt quá {limit}.",
+                "too_long": "{name} dài hơn {minutes} phút.",
+                "too_many": "Chỉ được {count} tệp mỗi lần.",
+                "wrong_type": "Không thể thêm {name} — chỉ hỗ trợ hình ảnh, video và tệp SVG."
+            }
+        },
+        "catalogue": {
+            "error_body": "Hãy kiểm tra kết nối rồi thử lại.",
+            "loading_more": "Đang tải thêm"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Hủy bản nháp",
+                "description_unsaved": "Thiết kế này chưa được lưu. Quay lại sẽ xóa vĩnh viễn thiết kế, bao gồm các lớp, kiểu và hoạt ảnh.",
+                "title": "Hủy bản nháp “{title}”?"
+            },
+            "save": {
+                "description": "Sau khi lưu, bạn không thể chỉnh sửa nữa.",
+                "saving": "Đang lưu…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Vừa với màn hình"
+        },
+        "graphic_panel": {
+            "add": "Thêm {name}",
+            "add_failed": "Không thể thêm đồ họa này. Hãy thử lại.",
+            "empty_body": "Hãy thử từ ngắn hơn hoặc chung hơn, như ngôi sao hoặc trái tim.",
+            "empty_title": "Không có đồ họa nào khớp với “{query}”",
+            "error_title": "Không thể tải đồ họa",
+            "none_title": "Không có đồ họa để hiển thị",
+            "search_label": "Tìm đồ họa",
+            "search_placeholder": "Tìm đồ họa"
+        },
+        "header": {
+            "redo": "Làm lại",
+            "saving": "Đang lưu…",
+            "undo": "Hoàn tác",
+            "untitled_design": "Thiết kế chưa đặt tên"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Khung ảnh"
+            },
+            "menu": {
+                "align_center": "Căn giữa",
+                "bring_forward": "Đưa lên một lớp",
+                "bring_to_front": "Đưa lên trên cùng",
+                "detach_image": "Tách ảnh",
+                "flip_horizontal": "Lật ngang",
+                "flip_vertical": "Lật dọc",
+                "replace_image": "Thay thế hình ảnh",
+                "send_backward": "Đưa xuống một lớp",
+                "send_to_back": "Đưa xuống dưới cùng",
+                "set_as_background_image": "Đặt làm ảnh nền",
+                "set_as_background_video": "Đặt làm video nền",
+                "set_background_as_image_layer": "Đặt nền làm lớp hình ảnh",
+                "set_background_as_video_layer": "Đặt nền làm lớp video",
+                "sheet_title": "Tùy chọn lớp",
+                "show_layers": "Hiển thị các lớp"
+            },
+            "pill": {
+                "duplicate": "Nhân đôi lớp",
+                "more": "Thêm thao tác với lớp",
+                "remove": "Xóa lớp",
+                "toolbar": "Thao tác với lớp"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Mã ghép nối đã sẵn sàng: {code}. Hãy đưa mã này cho ứng dụng AI của bạn.",
+                "connecting": "Đang tạo mã ghép nối.",
+                "failed": "Không thể kết nối. {reason}",
+                "reconnecting": "Mất kết nối. Đang thử kết nối lại."
+            },
+            "clipboard_blocked": "Trình duyệt của bạn đã chặn bảng nhớ tạm. {hint}",
+            "connect": "Kết nối",
+            "connecting": "Đang kết nối…",
+            "copied_address_announcement": "Đã sao chép địa chỉ máy chủ",
+            "copied_code_announcement": "Đã sao chép mã ghép nối",
+            "copy_address_hint": "Hãy chọn địa chỉ và sao chép thủ công.",
+            "copy_code": "Sao chép mã",
+            "copy_code_hint": "Hãy chọn mã và sao chép thủ công.",
+            "copy_server_address": "Sao chép địa chỉ máy chủ MCP",
+            "disconnect": "Ngắt kết nối",
+            "error_fallback": "Dịch vụ ghép nối không phản hồi. Hãy kiểm tra kết nối và thử lại.",
+            "guide": {
+                "fresh_code": "Nếu mã ngừng hoạt động, hãy nhấn Ngắt kết nối rồi kết nối lại để nhận mã mới.",
+                "how_to_set_up": "Cách thiết lập",
+                "step_add_body": "Thêm Twibbonize vào ứng dụng AI của bạn bằng địa chỉ bên dưới. Trong Claude Code, hãy chạy",
+                "step_add_title": "Thêm Twibbonize vào ứng dụng AI của bạn",
+                "step_pair_body": "Hãy nói “ghép nối với trình chỉnh sửa Twibbonize” và đưa mã ở trên.",
+                "step_pair_title": "Yêu cầu ghép nối",
+                "where_to_paste": "Dán mã này ở đâu?"
+            },
+            "lead": {
+                "code_ready_sentence": "Dán mã vào Claude và yêu cầu ghép nối. Khung vẽ sẽ hiện một vòng sáng quanh trang khi Claude đang làm việc.",
+                "code_ready_title": "Đưa mã này cho ứng dụng AI của bạn",
+                "connecting_sentence": "Chỉ mất một lát.",
+                "connecting_title": "Đang tạo mã ghép nối",
+                "disconnected_sentence": "Claude Desktop và Claude Code có thể thêm lớp, viết văn bản, đặt hoạt ảnh và đọc nội dung trên khung vẽ.",
+                "disconnected_title": "Đưa ứng dụng AI vào thiết kế này",
+                "failed_title": "Không thể kết nối",
+                "reconnecting_sentence": "Kết nối tới ứng dụng AI đã bị mất. Đang thử khôi phục.",
+                "reconnecting_title": "Đang kết nối lại",
+                "unavailable_sentence": "Bản dựng trình chỉnh sửa này chưa cấu hình kết nối AI nên chưa có gì để kết nối.",
+                "unavailable_title": "MCP chưa được bật ở đây"
+            },
+            "pairing_code_label": "Mã ghép nối: {code}"
+        },
+        "media": {
+            "add_asset": "Thêm {name}",
+            "dismiss_error": "Đóng",
+            "empty_body": "Thêm tệp hình ảnh, video hoặc âm thanh bên dưới, tệp sẽ được giữ ở đây trong suốt phiên này.",
+            "empty_narrowed_body": "Xóa tìm kiếm hoặc chọn loại khác để xem mọi thứ bạn đã thêm.",
+            "empty_narrowed_title": "Không có kết quả phù hợp",
+            "empty_title": "Chưa tải lên gì",
+            "filter": {
+                "audio": "Âm thanh",
+                "images": "Hình ảnh"
+            },
+            "filter_group_label": "Loại phương tiện",
+            "make_an_image": "Tạo hình ảnh",
+            "make_image_unavailable": "Chưa hỗ trợ tạo hình ảnh",
+            "search_placeholder": "Tìm phương tiện",
+            "upload_button": "Tải lên hình ảnh, video hoặc âm thanh",
+            "uploads_heading": "Tệp tải lên"
+        },
+        "page_bar": {
+            "group_label": "Điều khiển thu phóng",
+            "zoom_menu": "Mức thu phóng, {percent}%"
+        },
+        "panel": {
+            "loading": "Đang tải {panel}…"
+        },
+        "photo": {
+            "add_by": "Thêm ảnh của {name}",
+            "add_described": "Thêm ảnh: {description}",
+            "credit": "Ảnh được cung cấp bởi",
+            "empty_body": "Hãy thử từ ngắn hơn hoặc chung hơn, như bãi biển hoặc thành phố.",
+            "empty_title": "Không có ảnh nào khớp với “{query}”",
+            "error_title": "Không thể tải ảnh",
+            "none_title": "Không có ảnh để hiển thị",
+            "search_label": "Tìm ảnh",
+            "search_placeholder": "Tìm ảnh"
+        },
+        "qr": {
+            "add_logo": "Thêm logo",
+            "add_to_design": "Thêm vào thiết kế",
+            "background_colour_label": "Màu nền",
+            "code_colour_label": "Màu mã",
+            "code_label": "Mã",
+            "link_input_label": "Liên kết mã QR",
+            "link_label": "Liên kết",
+            "logo_fallback_name": "Ảnh logo",
+            "logo_label": "Logo",
+            "remove_logo": "Xóa logo"
+        },
+        "rail": {
+            "aria_label": "Thư viện thiết kế",
+            "graphic": "Đồ họa",
+            "help": "Trợ giúp",
+            "layers": "Lớp",
+            "mcp": "MCP",
+            "media": "Phương tiện",
+            "photo": "Ảnh",
+            "qr_code": "Mã QR",
+            "shapes": "Hình khối",
+            "templates": "Mẫu",
+            "textures": "Kết cấu",
+            "tools": "Công cụ"
+        },
+        "save": {
+            "failed": "Không thể lưu thiết kế của bạn. Hãy thử lại."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Độ sáng",
+                "compare": "So sánh với bản gốc",
+                "contrast": "Độ tương phản",
+                "grayscale": "Thang xám",
+                "group": {
+                    "basic": "Cơ bản",
+                    "refinements": "Tinh chỉnh"
+                },
+                "hue_rotate": "Xoay tông màu",
+                "reset": "Đặt lại điều chỉnh",
+                "saturation": "Độ bão hòa",
+                "title": "Điều chỉnh"
+            },
+            "color": {
+                "trigger": "Màu"
+            },
+            "common": {
+                "layer_blur": "Làm mờ lớp",
+                "layer_blur_stepper": "Làm mờ lớp"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Tự do",
+                    "landscape": "Ngang",
+                    "original": "Gốc",
+                    "portrait": "Dọc",
+                    "square": "Vuông",
+                    "story": "Story",
+                    "widescreen": "Màn ảnh rộng"
+                },
+                "shape": {
+                    "circle": "Hình tròn",
+                    "diamond": "Hình thoi",
+                    "half_circle": "Nửa hình tròn",
+                    "oval": "Hình bầu dục",
+                    "parallelogram": "Hình bình hành",
+                    "rounded": "Bo góc"
+                }
+            },
+            "filter": {
+                "cool": "Lạnh",
+                "duotone": "Hai tông màu",
+                "mono": "Đơn sắc",
+                "original": "Gốc",
+                "vivid": "Sống động",
+                "warm": "Ấm"
+            },
+            "font_weight": {
+                "black": "Siêu đen",
+                "extra_bold": "Rất đậm",
+                "extra_light": "Rất nhẹ",
+                "medium": "Vừa",
+                "regular": "Thường",
+                "semibold": "Bán đậm",
+                "thin": "Mảnh"
+            },
+            "frame": {
+                "colour": "Màu khung"
+            },
+            "green_screen": {
+                "choose_colour": "Chọn một màu",
+                "colour": "Màu",
+                "compare": "So sánh với bản gốc",
+                "eyedropper": "Chọn màu từ khung vẽ",
+                "key_colour": "Màu khóa {hex}",
+                "loose": "Rộng",
+                "nothing_found": "Không tìm thấy màu nền.",
+                "precise": "Chính xác",
+                "preset": {
+                    "bright_blue": "Xanh dương sáng",
+                    "bright_green": "Xanh lá sáng",
+                    "chroma_blue": "Xanh dương chroma",
+                    "chroma_green": "Xanh lá chroma"
+                },
+                "presets": "Các màu phông nền phổ biến",
+                "remove": "Xóa phông xanh",
+                "title": "Phông xanh"
+            },
+            "image": {
+                "corner_radius": "Bo góc",
+                "corner_radius_stepper": "Bo góc",
+                "per_corner": "Chỉnh từng góc riêng",
+                "per_corner_unavailable": "Chưa hỗ trợ chỉnh từng góc riêng"
+            },
+            "keypad": {
+                "value_field": "Giá trị {label}"
+            },
+            "line": {
+                "colour": "Màu đường",
+                "style": {
+                    "dots": "Chấm",
+                    "long_dashes": "Nét đứt dài",
+                    "short_dashes": "Nét đứt ngắn",
+                    "solid": "Nét liền"
+                },
+                "style_trigger": "Kiểu đường: {style}",
+                "weight": "Độ dày đường",
+                "weight_trigger": "Độ dày đường {weight}"
+            },
+            "media": {
+                "heading": "Phương tiện"
+            },
+            "page": {
+                "size_capped": "Tối đa {max} px — giữ nguyên tỷ lệ"
+            },
+            "pages": {
+                "title": "Trang"
+            },
+            "photo_slot": {
+                "enable": "Dùng làm khung ảnh",
+                "key_field": "Khóa (duy nhất)",
+                "key_required": "Cần có khóa",
+                "key_taken": "Khóa đã được khung khác sử dụng",
+                "label_field": "Nhãn (hiển thị cho người dùng cuối)",
+                "on": "Khung ảnh",
+                "remove": "Xóa khung ảnh"
+            },
+            "qr": {
+                "add_logo": "Thêm logo",
+                "background_colour": "Màu nền",
+                "code": "Mã",
+                "code_colour": "Màu mã",
+                "link": "Liên kết",
+                "link_input": "Liên kết mã QR",
+                "logo": "Logo",
+                "remove_logo": "Xóa logo"
+            },
+            "root": {
+                "background_image": "Ảnh nền",
+                "edit_background": "Chỉnh sửa ảnh nền",
+                "fill": "Tô màu",
+                "fill_gradient": "Chuyển sắc",
+                "page_height": "Chiều cao trang",
+                "page_width": "Chiều rộng trang",
+                "ratio_lock": "Khóa tỷ lệ khung hình",
+                "ratio_unlock": "Mở khóa tỷ lệ khung hình",
+                "rotate_left": "Xoay nền sang trái",
+                "rotate_right": "Xoay nền sang phải"
+            },
+            "scalar": {
+                "clip_length": "Độ dài",
+                "corner_radius": "Bo góc",
+                "font_size": "Cỡ chữ",
+                "layer_blur": "Làm mờ lớp",
+                "letter_spacing": "Khoảng cách chữ",
+                "line_height": "Giãn dòng",
+                "opacity": "Độ mờ đục",
+                "speed": "Tốc độ",
+                "stroke_width": "Độ rộng viền",
+                "volume": "Âm lượng"
+            },
+            "shape": {
+                "corner_radius": "Bo góc",
+                "corner_radius_stepper": "Bo góc",
+                "fill": "Tô màu",
+                "fill_gradient": "Chuyển sắc",
+                "fill_mixed": "Hỗn hợp",
+                "fill_transparent": "Trong suốt",
+                "stroke": "Viền",
+                "stroke_color": "Màu viền",
+                "stroke_style": {
+                    "dots": "Chấm",
+                    "long_dashes": "Nét đứt dài",
+                    "short_dashes": "Nét đứt ngắn",
+                    "solid": "Nét liền"
+                },
+                "stroke_style_select": "Kiểu viền",
+                "stroke_transparent": "Trong suốt",
+                "stroke_weight": "Độ dày viền"
+            },
+            "svg": {
+                "path_colour": "Màu {index}"
+            },
+            "swatch": {
+                "more_colours": "Thêm màu"
+            },
+            "text": {
+                "align": {
+                    "justify": "Căn đều hai bên"
+                },
+                "alignment": "Căn lề",
+                "edit_text": "Sửa văn bản",
+                "font_family": "Phông chữ",
+                "font_family_select": "Phông chữ",
+                "font_size": "Cỡ chữ",
+                "italic_unavailable": "Phông chữ này không có kiểu nghiêng ở độ đậm này",
+                "letter_spacing_stepper": "Khoảng cách chữ",
+                "line_height": "Giãn dòng",
+                "line_height_stepper": "Giãn dòng",
+                "list": "Danh sách",
+                "list_bulleted": "Danh sách có dấu đầu dòng",
+                "list_numbered": "Danh sách đánh số",
+                "list_style": "Kiểu danh sách",
+                "text_case": "Kiểu chữ hoa\/thường",
+                "text_color": "Màu chữ",
+                "text_style": "Kiểu chữ",
+                "weight": "Độ đậm"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Căn dưới",
+                    "center_x": "Căn giữa theo chiều ngang",
+                    "center_y": "Căn giữa theo chiều dọc",
+                    "left": "Căn trái",
+                    "right": "Căn phải",
+                    "top": "Căn trên"
+                },
+                "align_to_page": "Căn theo trang",
+                "opacity": "Độ mờ đục",
+                "position": "Vị trí",
+                "position_x": "Vị trí X",
+                "position_y": "Vị trí Y",
+                "rotation": "Xoay",
+                "scale": "Tỷ lệ"
+            },
+            "video": {
+                "adjust": "Điều chỉnh",
+                "audio": "Âm thanh",
+                "clip_runs": "clip dài {length}",
+                "corner_radius": "Bo góc",
+                "corner_radius_stepper": "Bo góc",
+                "green_screen": "Phông xanh",
+                "loop": "Lặp lại đến hết thiết kế",
+                "mute": "Tắt tiếng",
+                "muted": "Đã tắt tiếng",
+                "no_audio": "Video này không có âm thanh.",
+                "playback": "Phát",
+                "replace": "Thay thế video",
+                "speed": "Tốc độ",
+                "speed_custom_input": "Tốc độ phát tùy chỉnh",
+                "speed_presets": "Tốc độ phát",
+                "speed_range": "Từ {min}× đến {max}×",
+                "tools": "Công cụ",
+                "unmute": "Bật tiếng",
+                "volume": "Âm lượng",
+                "volume_level": "Mức âm lượng"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Mũi tên",
+            "arrow_down": "Mũi tên xuống",
+            "arrow_left": "Mũi tên trái",
+            "arrow_pentagon": "Mũi tên ngũ giác",
+            "arrow_right": "Mũi tên phải",
+            "arrow_up": "Mũi tên lên",
+            "chevron": "Chữ V",
+            "circle": "Hình tròn",
+            "cross": "Chữ thập",
+            "diamond": "Hình thoi",
+            "hexagon": "Hình lục giác",
+            "hexagon_wide": "Lục giác rộng",
+            "line": "Đường",
+            "octagon": "Hình bát giác",
+            "parallelogram": "Hình bình hành",
+            "parallelogram_mirrored": "Hình bình hành đối xứng",
+            "pentagon": "Hình ngũ giác",
+            "square": "Hình vuông",
+            "trapezoid": "Hình thang",
+            "trapezoid_upside_down": "Hình thang ngược",
+            "triangle": "Hình tam giác",
+            "triangle_upside_down": "Tam giác ngược"
+        },
+        "shapes_panel": {
+            "basic": "Cơ bản",
+            "lines": "Đường và mũi tên"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Thêm khung hình chính",
+                "back_to_animations": "Quay lại hoạt ảnh",
+                "basic": "Cơ bản",
+                "basic_opacity": "Độ mờ đục",
+                "basic_position": "Vị trí",
+                "basic_rotation": "Xoay",
+                "basic_scale": "Tỷ lệ",
+                "keyframe": "Khung hình chính",
+                "pick_property_hint": "Chọn thuộc tính để tạo khung hình chính. Khi chạm vào, bảng sẽ đóng và mở bảng của thuộc tính đó, với khung hình chính đặt sẵn tại đầu phát và giữ giá trị hiện tại của lớp.",
+                "presets_need_one": "Hoạt ảnh có sẵn cần chọn một phần tử. Hãy chọn một lớp duy nhất để xem.",
+                "title": "Hoạt ảnh"
+            },
+            "easing": {
+                "title": "Easing"
+            },
+            "font_weight": {
+                "title": "Độ đậm chữ"
+            },
+            "speed": {
+                "title": "Tốc độ"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Màu mặc định",
+                "eyedropper": "Chọn màu từ màn hình",
+                "eyedropper_unsupported": "Trình duyệt của bạn không hỗ trợ công cụ chọn màu",
+                "fill_linear": "tuyến tính",
+                "fill_radial": "xuyên tâm",
+                "fill_solid": "đơn sắc",
+                "fill_type": "Kiểu tô",
+                "gradients_in_design": "Chuyển sắc trong thiết kế",
+                "hex": "Màu hex",
+                "in_design": "Trong thiết kế",
+                "title": "Màu tô",
+                "use_color": "Dùng {color}",
+                "use_gradient": "Dùng chuyển sắc {style}",
+                "use_transparent": "Trong suốt"
+            },
+            "crop": {
+                "adjust_shape": "Điều chỉnh hình dạng cắt",
+                "aspect": "Tỷ lệ khung hình",
+                "framing": "Bố cục khung",
+                "framing_hint": "Kéo ảnh để đổi khung hình, hoặc kéo một góc để đổi kích thước vùng cắt. Cuộn để thu phóng.",
+                "scale": "Tỷ lệ"
+            },
+            "filters": {
+                "show_earlier": "Hiện các bộ lọc trước đó",
+                "show_more": "Hiện thêm bộ lọc",
+                "swatch": "Màu {label}: {color}",
+                "title": "Bộ lọc"
+            },
+            "font": {
+                "all_fonts": "TẤT CẢ PHÔNG CHỮ",
+                "applying": "Đang áp dụng phông chữ",
+                "back": "Quay lại tùy chọn văn bản",
+                "clear_search": "Xóa tìm kiếm",
+                "clear_search_action": "Xóa tìm kiếm",
+                "in_this_design": "TRONG THIẾT KẾ NÀY",
+                "no_match": "Không có phông chữ nào khớp với “{query}”",
+                "no_match_hint": "Twibbonize lấy phông chữ từ danh mục Google Fonts, và họ phông này không có trong đó. Hãy thử từ khóa ngắn hơn.",
+                "search_label": "Tìm họ phông chữ",
+                "search_placeholder": "Tìm phông chữ",
+                "title": "Phông chữ",
+                "weight": "Độ đậm chữ"
+            },
+            "gradient": {
+                "add_stop": "Thêm điểm chuyển sắc",
+                "angle": "Góc",
+                "angle_dial": "Góc chuyển sắc, {degrees} độ. Kéo để thay đổi",
+                "angle_dial_hint": "Kéo để thay đổi góc chuyển sắc",
+                "angle_input": "Góc chuyển sắc theo độ",
+                "centre_unsupported": "Trình kết xuất chưa hỗ trợ tâm chuyển sắc",
+                "stop": "Điểm chuyển sắc {index} tại {percent}%, {color}",
+                "stop_hint": "Kéo để di chuyển, nhấp đúp để xóa"
+            },
+            "image": {
+                "adjustment": "Điều chỉnh",
+                "adjustments": "Điều chỉnh",
+                "back_to_edit": "Quay lại tab Chỉnh sửa",
+                "background_removal": "Xóa nền",
+                "compare": "So sánh với bản gốc",
+                "removing": "Đang xóa…",
+                "removing_background": "Đang xóa nền",
+                "reset_adjustments": "Đặt lại điều chỉnh",
+                "tools": "Công cụ"
+            },
+            "keyframe": {
+                "add": "Thêm khung hình chính",
+                "add_at_playhead": "Thêm khung hình chính {property} tại đầu phát",
+                "add_at_playhead_short": "Thêm khung hình chính tại đầu phát",
+                "add_lane_at_playhead": "Thêm khung hình chính {lane} tại đầu phát",
+                "add_property": "Thêm thuộc tính để tạo hoạt ảnh",
+                "all_lanes_added": "Mọi thuộc tính của lớp này có thể tạo khung hình chính đều đã có track",
+                "delete": "Xóa khung hình chính này",
+                "diamond": "Khung hình chính {lane} tại {seconds} giây",
+                "easing": "Easing",
+                "easing_caps": "EASING",
+                "first_no_easing": "Khung hình chính đầu tiên không có easing",
+                "hex": "Màu hex",
+                "layer_blur": "Làm mờ lớp",
+                "letter_spacing": "Khoảng cách chữ",
+                "line_height": "Giãn dòng",
+                "opacity": "Độ mờ đục",
+                "opacity_percent": "Phần trăm độ mờ đục",
+                "position_x": "Vị trí X",
+                "position_y": "Vị trí Y",
+                "radius_bottom_left": "Bo góc dưới bên trái",
+                "radius_bottom_right": "Bo góc dưới bên phải",
+                "radius_top_left": "Bo góc trên bên trái",
+                "radius_top_right": "Bo góc trên bên phải",
+                "remove": "Xóa khung hình chính",
+                "remove_at_playhead": "Xóa khung hình chính {property} tại đầu phát",
+                "rotation": "Xoay",
+                "scale": "Tỷ lệ",
+                "shadow_blur": "Độ nhòe bóng đổ",
+                "shadow_color": "Màu bóng đổ",
+                "shadow_offset_x": "Độ lệch bóng đổ X",
+                "shadow_offset_y": "Độ lệch bóng đổ Y",
+                "shadow_spread": "Độ lan bóng đổ",
+                "stroke_color": "Màu viền",
+                "stroke_weight": "Độ dày viền"
+            },
+            "layer": {
+                "page_background": "Nền trang",
+                "tab_animate": "Hoạt ảnh",
+                "tabs_label": "Bảng lớp",
+                "title": "Lớp"
+            },
+            "page_preset": {
+                "group_label": "Kích thước khung vẽ có sẵn",
+                "landscape": "Ngang",
+                "portrait": "Dọc",
+                "square": "Vuông",
+                "story": "Story",
+                "tile_aria": "{name}, {width} x {height} pixel"
+            },
+            "personalization": {
+                "act_as_placeholder": "Dùng làm vùng giữ chỗ",
+                "allow_adjust_framing": "Cho phép chỉnh khung hình",
+                "allow_adjust_framing_hint": "Người ủng hộ có thể thu phóng và di chuyển ảnh của họ bên trong khung.",
+                "allow_change_adjustments": "Cho phép đổi điều chỉnh",
+                "allow_change_adjustments_hint": "Người ủng hộ có thể đổi độ sáng, độ tương phản và các điều chỉnh khác.",
+                "allow_change_effect": "Cho phép đổi hiệu ứng",
+                "allow_change_effect_hint": "Người ủng hộ có thể chọn hiệu ứng khác cho lớp này.",
+                "allow_change_filter": "Cho phép đổi bộ lọc",
+                "allow_change_filter_hint": "Người ủng hộ có thể chọn bộ lọc khác cho lớp này.",
+                "allow_edit_text": "Cho phép sửa văn bản",
+                "allow_edit_text_hint": "Người ủng hộ có thể tự nhập nội dung vào văn bản này.",
+                "allow_flip": "Cho phép lật",
+                "allow_flip_hint": "Người ủng hộ có thể lật đối xứng lớp này.",
+                "allow_move": "Cho phép di chuyển",
+                "allow_move_hint": "Người ủng hộ có thể kéo lớp này sang vị trí mới.",
+                "allow_replace_media": "Cho phép thay thế phương tiện",
+                "allow_replace_media_hint": "Người ủng hộ có thể thay hình ảnh này bằng ảnh của họ.",
+                "allow_resize": "Cho phép đổi kích thước",
+                "allow_resize_hint": "Người ủng hộ có thể đổi kích thước lớp này bằng cách kéo các góc và cạnh.",
+                "allow_rotate": "Cho phép xoay",
+                "allow_rotate_hint": "Người ủng hộ có thể xoay lớp này theo bất kỳ góc nào.",
+                "group_appearance": "Giao diện",
+                "group_arrange": "Sắp xếp",
+                "group_media": "Phương tiện",
+                "placeholder_hint": "Hiển thị một khung trống để người ủng hộ chạm vào và thêm ảnh của họ.",
+                "remove_background": "Xóa nền khỏi ảnh của họ",
+                "remove_background_hint": "Tách người ủng hộ khỏi ảnh để thiết kế của bạn hiển thị xung quanh họ.",
+                "text_placeholder_hint": "Hiển thị văn bản này làm mẫu để người ủng hộ thay bằng văn bản của họ."
+            },
+            "shape_effect": {
+                "colour": "Màu hiệu ứng",
+                "distance": "Khoảng cách",
+                "echo": "Dư ảnh",
+                "first_color": "Màu thứ nhất",
+                "first_colour": "Màu hiệu ứng thứ nhất",
+                "glitch": "Nhiễu",
+                "glow": "Phát sáng",
+                "group_label": "Hiệu ứng hình khối",
+                "second_color": "Màu thứ hai",
+                "second_colour": "Màu hiệu ứng thứ hai",
+                "section": "Hiệu ứng",
+                "shadow": "Đổ bóng"
+            },
+            "text_effect": {
+                "colour": "Màu hiệu ứng",
+                "curve": "Cong",
+                "distance": "Khoảng cách",
+                "echo": "Dư ảnh",
+                "glow": "Phát sáng",
+                "group_label": "Hiệu ứng văn bản",
+                "outline": "Viền ngoài",
+                "section": "Hiệu ứng",
+                "shape_group_label": "Hình dạng văn bản",
+                "splice": "Ghép",
+                "title": "Hiệu ứng văn bản"
+            }
+        },
+        "templates": {
+            "empty_body": "Hãy thử từ ngắn hơn hoặc chung hơn.",
+            "empty_title": "Không có mẫu nào khớp với “{query}”",
+            "error_title": "Không thể tải mẫu",
+            "none_body": "Hãy tìm theo chủ đề, như sinh nhật hoặc tốt nghiệp.",
+            "none_title": "Chưa có mẫu cho thiết kế này",
+            "search_label": "Tìm mẫu",
+            "search_placeholder": "Tìm mẫu"
+        },
+        "text_panel": {
+            "add_template": "Thêm mẫu văn bản: {name}",
+            "add_text_box": "Thêm hộp văn bản",
+            "empty_body": "Hãy thử từ ngắn hơn hoặc chung hơn.",
+            "empty_title": "Không có mẫu văn bản nào khớp với “{query}”",
+            "error_title": "Không thể tải mẫu văn bản",
+            "none_body": "Hãy bắt đầu bằng một hộp văn bản trơn.",
+            "none_title": "Không có mẫu văn bản để hiển thị",
+            "search_label": "Tìm mẫu văn bản",
+            "search_placeholder": "Tìm mẫu văn bản"
+        },
+        "text_preset": {
+            "seed": "Thêm văn bản của bạn tại đây"
+        },
+        "textures": {
+            "apply_texture": "Áp dụng {name}",
+            "category": {
+                "fabric": "Vải",
+                "grain": "Hạt",
+                "grunge": "Grunge",
+                "paper": "Giấy",
+                "print": "In ấn"
+            },
+            "category_group_label": "Danh mục kết cấu",
+            "empty_body": "Chúng tôi đang xây dựng thư viện này, hãy quay lại sau nhé.",
+            "empty_title": "Chưa có kết cấu",
+            "most_used": "Dùng nhiều nhất",
+            "search_placeholder": "Tìm kết cấu"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Thêm âm thanh",
+                "add_tooltip": "Thêm track âm thanh nền",
+                "bar_aria": "{name} tại {start} trong {duration}",
+                "decoding": "Đang giải mã âm thanh…",
+                "decoding_waveform": "Đang giải mã dạng sóng…",
+                "default_name": "Âm thanh",
+                "drop_to_add": "Thả để thêm âm thanh",
+                "kind_suffix": "· Âm thanh",
+                "mute": "Tắt tiếng track",
+                "unmute": "Bật tiếng track",
+                "volume": "Âm lượng track",
+                "waveform_error": "Không thể tải dạng sóng của track này."
+            },
+            "keyframe": {
+                "add": "Thêm khung hình chính",
+                "add_at_playhead": "Thêm khung hình chính tại đầu phát",
+                "add_tooltip": "Tạo khung hình chính cho một thuộc tính của lớp này",
+                "diamond_aria": "Khung hình chính {lane} tại {time}",
+                "diamond_hint": " · kéo để đổi thời điểm, nhấp chuột phải để xóa",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Bo góc",
+                    "layer_blur": "Làm mờ lớp",
+                    "line_height": "Giãn dòng",
+                    "opacity": "Độ mờ đục",
+                    "position": "Vị trí",
+                    "rotation": "Xoay",
+                    "scale": "Tỷ lệ",
+                    "stroke": "Viền"
+                },
+                "remove_lane": "Xóa khung hình chính {lane}",
+                "remove_lane_from_layer": "Xóa khung hình chính {lane} khỏi {layer}",
+                "segment_easing_aria": "Hàm thời gian của {lane} giữa {from} và {to}, hiện là {easing}",
+                "segment_easing_title": "Hàm thời gian · {easing}",
+                "welded_aria": ", dính vào cạnh lớp",
+                "welded_title": " · dính vào cạnh lớp"
+            },
+            "menu": {
+                "repeat_until_end": "Lặp lại đến hết"
+            },
+            "track": {
+                "bar_aria": "{name} tại {start} trong {duration}",
+                "bar_aria_end_glued": ", điểm cuối dính vào lớp",
+                "bar_aria_start_glued": ", điểm đầu dính vào lớp",
+                "bar_tooltip": "{name} · {start} trong {duration}ms · kéo để di chuyển, kéo một cạnh để đổi kích thước (Alt = không bắt dính)",
+                "bar_tooltip_sole": " · kéo cạnh này sẽ di chuyển lớp",
+                "clip_aria": "Clip {name}",
+                "clip_tooltip": "Kéo để di chuyển lớp theo thời gian · kéo một đầu để cắt bớt (Alt = không bắt dính)",
+                "collapse": "Thu gọn",
+                "collapse_all": "Thu gọn tất cả các lớp",
+                "collapse_named": "Thu gọn {name}",
+                "delete_layer": "Xóa lớp",
+                "delete_named": "Xóa {name}",
+                "ends_at": "Kết thúc lúc",
+                "expand": "Mở rộng",
+                "expand_named": "Mở rộng {name}",
+                "hidden_lane_one": "{count} track bị ẩn",
+                "hidden_lane_other": "{count} track bị ẩn",
+                "hide": "Ẩn",
+                "hide_named": "Ẩn {name}",
+                "lane_reorder_tooltip": "Kéo để sắp xếp lại — track trên cùng được ưu tiên khi các hoạt ảnh chồng lên nhau",
+                "layer_animations": "Hoạt ảnh của lớp",
+                "lock_layer": "Khóa lớp",
+                "lock_named": "Khóa {name}",
+                "remove_animation": "Xóa hoạt ảnh",
+                "remove_animation_aria": "Xóa hoạt ảnh {name} khỏi {layer}",
+                "reorder_tooltip": "Kéo để sắp xếp lại các track — thứ tự xếp chồng trên khung vẽ được đặt trong bảng lớp",
+                "show": "Hiện",
+                "show_named": "Hiện {name}",
+                "split": "Tách",
+                "starts_at": "Bắt đầu lúc",
+                "trim_end": "Cắt bớt phần cuối",
+                "trim_start": "Cắt bớt phần đầu",
+                "trim_to": "Cắt bớt đến {time}",
+                "unlock_layer": "Mở khóa lớp",
+                "unlock_named": "Mở khóa {name}"
+            },
+            "transport": {
+                "current_time_field": "Thời gian hiện tại tính bằng mili giây",
+                "duration_edge_aria": "Thời lượng trang {seconds} giây",
+                "duration_edge_tooltip": "Thời lượng trang {seconds}s · kéo để thay đổi, nhấp để nhập giá trị chính xác (Alt = không bắt dính)",
+                "duration_max": "Tối đa {seconds} giây",
+                "fit_to_width": "Vừa với chiều rộng",
+                "forward": "Tua tới",
+                "lengthen_page": "Kéo dài trang",
+                "loop": "Phát lặp lại",
+                "page_duration": "Thời lượng trang",
+                "page_duration_field": "Thời lượng trang tính bằng mili giây",
+                "resize_dock": "Đổi kích thước dòng thời gian",
+                "rewind": "Tua lại",
+                "shorten_page": "Rút ngắn trang",
+                "zoom": "Thu phóng dòng thời gian"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {

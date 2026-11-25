@@ -2842,7 +2842,9 @@
             "type": "النوع:",
             "size": "الحجم:",
             "type_image": "JPG أو PNG أو SVG",
-            "maximum_size": "5 ميغابايت كحد أقصى"
+            "maximum_size": "5 ميغابايت كحد أقصى",
+            "abandoned": "توقف الرفع لأن طبقته حُذفت. أعد المحاولة للاحتفاظ به في مكتبتك.",
+            "failed": "فشل الرفع. تحقق من اتصالك وحاول مرة أخرى."
         },
         "toolbar": {
             "copy": "نسخ",
@@ -2871,7 +2873,119 @@
             "border_weight": "وزن الحدود",
             "corner_rounding": "تقريب الزاوية",
             "align": "محاذاة",
-            "effects": "المؤثرات"
+            "effects": "المؤثرات",
+            "animate": {
+                "amount": "الكمية",
+                "angle": "الزاوية",
+                "close": "إغلاق إعدادات الحركة",
+                "delete_animation": "حذف الحركة",
+                "distance": "المسافة",
+                "easing": "التسهيل",
+                "fade": "تلاشي",
+                "settings_aria": "إعدادات الحركة"
+            },
+            "audio": {
+                "replace": "استبدال",
+                "tools_aria": "أدوات المقطع الصوتي",
+                "trim": "قص",
+                "volume": "مستوى الصوت"
+            },
+            "clip": {
+                "length": "المدة",
+                "split": "تقسيم",
+                "trim": "قص"
+            },
+            "entry": {
+                "animate": "تحريك"
+            },
+            "image": {
+                "adjust": "تعديل",
+                "background_removal_unavailable": "إزالة الخلفية غير متاحة بعد",
+                "remove_background": "إزالة الخلفية",
+                "remove_background_short": "اقتطاع",
+                "replace": "استبدال"
+            },
+            "keyframe": {
+                "blur": "تمويه الطبقة",
+                "close": "إغلاق خصائص الإطار المفتاحي",
+                "delete_keyframe": "حذف الإطار المفتاحي",
+                "letter_spacing": "التباعد",
+                "line_height": "ارتفاع السطر",
+                "opacity": "الشفافية",
+                "position": "الموضع",
+                "properties_aria": "خصائص الإطار المفتاحي",
+                "rotation": "التدوير",
+                "scale": "الحجم"
+            },
+            "layer_tools": {
+                "deselect": "إلغاء تحديد الطبقة",
+                "tools_aria": "أدوات الطبقة"
+            },
+            "media": {
+                "adjust": "تعديل",
+                "green_screen": "الشاشة الخضراء",
+                "replace": "استبدال",
+                "trim": "قص"
+            },
+            "misc": {
+                "background_fill": "تعبئة الخلفية",
+                "background_fill_short": "تعبئة",
+                "configure_qr": "ضبط رمز QR",
+                "edit_background_image": "تحرير صورة الخلفية",
+                "no_background_image": "لا توجد صورة خلفية بعد",
+                "replace_unavailable": "استبدال (غير متاح بعد)"
+            },
+            "opacity": {
+                "label": "الشفافية"
+            },
+            "shape": {
+                "corner_radius": "نصف قطر الزاوية",
+                "corner_radius_short": "نصف القطر",
+                "fill": "التعبئة",
+                "line_color": "لون الخط",
+                "line_style_dots": "نقاط",
+                "line_style_long_dashes": "شرطات طويلة",
+                "line_style_named": "نمط الخط: {style}",
+                "line_style_short_dashes": "شرطات قصيرة",
+                "line_style_solid": "متصل",
+                "line_weight": "سماكة الخط",
+                "stroke_color": "لون الحد",
+                "stroke_color_short": "الحد",
+                "stroke_weight": "سماكة الحد",
+                "stroke_weight_short": "السماكة"
+            },
+            "speed": {
+                "custom_input": "سرعة تشغيل مخصصة",
+                "label": "السرعة",
+                "playback_length": "مدة التشغيل",
+                "playback_speed": "سرعة التشغيل",
+                "range_hint": "بين {min}× و{max}×"
+            },
+            "text": {
+                "decrease_font_size": "تصغير حجم الخط",
+                "font_family": "نوع الخط",
+                "font_family_named": "نوع الخط: {value}",
+                "font_size": "حجم الخط",
+                "font_weight": "سماكة الخط",
+                "font_weight_named": "سماكة الخط: {value}",
+                "increase_font_size": "تكبير حجم الخط",
+                "keyboard": "لوحة المفاتيح",
+                "line_height": "ارتفاع السطر",
+                "spacing": "التباعد",
+                "text_color": "لون النص",
+                "weight": "السماكة"
+            },
+            "volume": {
+                "clip_hint": "المقطع فقط. الصوت الموضوع على الخط الزمني يحتفظ بمستواه.",
+                "label": "مستوى الصوت",
+                "level": "المستوى",
+                "mute": "كتم الصوت",
+                "muted": "مكتوم",
+                "muted_hint": "المستوى محفوظ. ألغِ الكتم ليعود المقطع إلى {percent}%.",
+                "no_audio": "لا يحتوي هذا الفيديو على صوت.",
+                "slider": "مستوى الصوت",
+                "unmute": "إلغاء الكتم"
+            }
         },
         "confirmation": {
             "cancel": "تجاهل",
@@ -2918,7 +3032,1066 @@
             "document_colors": "ألوان المستندات",
             "default_colors": "الألوان الافتراضية"
         },
-        "graphic": "الرسم البياني"
+        "graphic": "الرسم البياني",
+        "animate": {
+            "anchor": {
+                "bottom_center": "أسفل الوسط",
+                "bottom_left": "أسفل اليسار",
+                "bottom_right": "أسفل اليمين",
+                "center_left": "وسط اليسار",
+                "center_right": "وسط اليمين",
+                "top_center": "أعلى الوسط",
+                "top_left": "أعلى اليسار",
+                "top_right": "أعلى اليمين"
+            },
+            "curve": {
+                "axis_x": "{row} س",
+                "axis_y": "{row} ص",
+                "end": "النهاية",
+                "more_options": "المزيد من الخيارات"
+            },
+            "direction": {
+                "bottom_left": "أسفل اليسار",
+                "bottom_right": "أسفل اليمين",
+                "clockwise": "في اتجاه عقارب الساعة",
+                "counter_clockwise": "عكس اتجاه عقارب الساعة",
+                "from_the": "من {place}",
+                "to_the": "إلى {place}",
+                "top_left": "أعلى اليسار",
+                "top_right": "أعلى اليمين"
+            },
+            "easing": {
+                "accelerate": "تسارع",
+                "bounce": "ارتداد",
+                "elastic": "مرن",
+                "impulse": "اندفاع",
+                "natural": "طبيعي",
+                "overshoot": "تجاوز",
+                "slow_down": "تباطؤ",
+                "smooth": "انسيابي",
+                "swing": "تأرجح"
+            },
+            "field": {
+                "amount": "الكمية",
+                "anchor_group": "نقطة الارتكاز",
+                "anchor_point": "نقطة الارتكاز",
+                "angle": "الزاوية",
+                "apply_effect_to": "تطبيق التأثير على",
+                "axis": "المحور",
+                "choose_easing": "اختيار التسهيل",
+                "distance": "المسافة",
+                "duration": "المدة",
+                "edge": "الحافة",
+                "fade": "تلاشي",
+                "from_noun": "من {noun}",
+                "horizontal": "أفقي",
+                "noun_blur": "التمويه",
+                "noun_opacity": "الشفافية",
+                "noun_size": "الحجم",
+                "opacity": "الشفافية",
+                "order": "الترتيب",
+                "position": "الموضع",
+                "rotation": "التدوير",
+                "rotation_direction": "اتجاه التدوير",
+                "scale": "الحجم",
+                "smoothing": "التنعيم",
+                "to_noun": "إلى {noun}",
+                "vertical": "عمودي"
+            },
+            "mode": {
+                "arrives": "عند الوصول",
+                "departs": "عند المغادرة",
+                "in": "دخول",
+                "out": "خروج"
+            },
+            "panel": {
+                "animation": "الحركة",
+                "animations_tab": "الحركات",
+                "basic": "أساسي",
+                "changing_note": "اختر بديلاً. سيأخذ مكان الحركة التي تغيّرها ومدتها.",
+                "corner_radius": "نصف قطر الزاوية",
+                "easing": "التسهيل",
+                "fade": "تلاشي",
+                "keyframe_tab": "الإطار المفتاحي",
+                "layer_blur": "تمويه الطبقة",
+                "line_height": "ارتفاع السطر",
+                "more_options": "المزيد من الخيارات",
+                "motion": "الحركة",
+                "needs_one_element": "تتطلب الحركات الجاهزة عنصراً واحداً. حدّد طبقة واحدة لعرضها.",
+                "paste_animation": "لصق الحركة",
+                "scale": "الحجم",
+                "slide": "انزلاق",
+                "stroke": "الحد",
+                "text_animation": "حركة النص"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "ظهور",
+                    "label": "ظهور"
+                },
+                "blur": {
+                    "label": "تمويه تدريجي"
+                },
+                "blur_scale": {
+                    "caption": "تمويه وتكبير",
+                    "label": "تمويه تدريجي مع تكبير"
+                },
+                "blur_slide": {
+                    "caption": "تمويه وانزلاق",
+                    "label": "تمويه تدريجي مع انزلاق"
+                },
+                "fade": {
+                    "caption": "تلاشي",
+                    "label": "تلاشي"
+                },
+                "grow": {
+                    "caption": "ظهور مفاجئ",
+                    "label": "ظهور مفاجئ"
+                },
+                "mask_center": {
+                    "caption": "قناع من المركز",
+                    "label": "كشف بقناع من المركز"
+                },
+                "mask_reveal": {
+                    "caption": "كشف بقناع",
+                    "label": "كشف بقناع من حافة"
+                },
+                "mask_slide": {
+                    "caption": "قناع وانزلاق",
+                    "label": "كشف بقناع مع انزلاق"
+                },
+                "move_scale": {
+                    "caption": "تحريك وتكبير",
+                    "label": "تحريك وتكبير تدريجي"
+                },
+                "rotate_left": {
+                    "label": "تدوير من اليسار"
+                },
+                "rotate_right": {
+                    "label": "تدوير من اليمين"
+                },
+                "shrink": {
+                    "caption": "كبير",
+                    "label": "دخول كبير"
+                },
+                "slide": {
+                    "caption": "انزلاق",
+                    "label": "انزلاق للداخل"
+                },
+                "slide_from_bottom": {
+                    "label": "انزلاق من الأسفل"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "أسفل اليسار",
+                    "label": "انزلاق من أسفل اليسار"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "أسفل اليمين",
+                    "label": "انزلاق من أسفل اليمين"
+                },
+                "slide_from_left": {
+                    "label": "انزلاق من اليسار"
+                },
+                "slide_from_right": {
+                    "label": "انزلاق من اليمين"
+                },
+                "slide_from_top": {
+                    "label": "انزلاق من الأعلى"
+                },
+                "slide_from_top_left": {
+                    "caption": "أعلى اليسار",
+                    "label": "انزلاق من أعلى اليسار"
+                },
+                "slide_from_top_right": {
+                    "caption": "أعلى اليمين",
+                    "label": "انزلاق من أعلى اليمين"
+                },
+                "spin": {
+                    "caption": "دوران",
+                    "label": "دخول دوراني"
+                },
+                "spin_scale": {
+                    "caption": "دوران وتكبير",
+                    "label": "دخول دوراني مع تكبير"
+                },
+                "twist": {
+                    "caption": "التواء",
+                    "label": "دخول بالتواء"
+                }
+            },
+            "property": {
+                "change_text": "تغيير النص",
+                "morph": "تحويل",
+                "move": "تحريك",
+                "opacity": "الشفافية",
+                "scale": "الحجم"
+            },
+            "section": {
+                "fade": "تلاشي",
+                "mask": "قناع",
+                "scale": "الحجم",
+                "slide": "انزلاق",
+                "transform": "تحويل"
+            },
+            "text": {
+                "backward": "للخلف",
+                "forward": "للأمام",
+                "letters": "الحروف",
+                "summary_overlap": "يبدأ كل {unit} عندما يبلغ الذي قبله {percent}%.",
+                "summary_sequential": "ينتهي كل {unit} قبل أن يبدأ التالي.",
+                "summary_together": "يتحرك كل {unit} معاً.",
+                "summary_whole": "تتحرك كتلة النص كاملة كوحدة واحدة.",
+                "words": "الكلمات"
+            },
+            "type": {
+                "fade_in": "تلاشي للداخل",
+                "fade_out": "تلاشي للخارج",
+                "line_height": "ارتفاع السطر",
+                "radius": "نصف القطر",
+                "resize_in": "تغيير الحجم للداخل",
+                "resize_out": "تغيير الحجم للخارج",
+                "rotate_in": "تدوير للداخل",
+                "rotate_out": "تدوير للخارج",
+                "scale_in": "تكبير للداخل",
+                "scale_out": "تصغير للخارج",
+                "slide_in": "انزلاق للداخل",
+                "slide_out": "انزلاق للخارج",
+                "spacing": "التباعد",
+                "stroke": "الحد"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "أضف صورتك للمتابعة.",
+                    "gesture": {
+                        "frameDesktop": "اسحب لإعادة التموضع · مرّر للتكبير",
+                        "frameMobile": "اسحب لإعادة التموضع، واقرص للتكبير",
+                        "handles": "غيّر الحجم من الزوايا والجوانب، ودوّر من الأعلى",
+                        "move": "اسحب للتحريك",
+                        "moveOrHandles": "اسحب للتحريك، أو استخدم المقابض",
+                        "resize": "اسحب زاوية أو جانباً لتغيير الحجم",
+                        "rotate": "اسحب المقبض العلوي للتدوير",
+                        "rotateDesktop": "اسحب المسطرة، أو استخدم مفاتيح الأسهم",
+                        "rotateMobile": "اسحب المسطرة للتدوير"
+                    },
+                    "hint": {
+                        "pickDesktop": "انقر على منطقة محددة، أو اختر طبقة من اليسار",
+                        "pickMobile": "المس منطقة محددة، أو اختر طبقة من الأسفل",
+                        "previewDesktop": "معاينة تصميمك. انقر عليه لمتابعة التحرير.",
+                        "previewMobile": "معاينة تصميمك. المسه لمتابعة التحرير."
+                    },
+                    "layer": {
+                        "addPhoto": "أضف صورتك",
+                        "text": "النص: {text}",
+                        "yourPhoto": "صورتك",
+                        "yourText": "نصك"
+                    },
+                    "layers": {
+                        "all": "كل الطبقات",
+                        "photo": "الصورة",
+                        "sheetDescription": "كل ما في هذا التصميم يمكنك تغييره.",
+                        "title": "الطبقات"
+                    },
+                    "photoError": "تعذر استخدام هذه الصورة. جرّب صورة أخرى.",
+                    "preview": {
+                        "backToEditing": "العودة إلى التحرير"
+                    },
+                    "rotation": {
+                        "aria": "التدوير",
+                        "value": "one:# درجة|other:# درجات"
+                    },
+                    "tools": {
+                        "adjust": "تعديل",
+                        "aria": "أدوات الطبقة",
+                        "editText": "تعديل النص",
+                        "flip": "قلب",
+                        "locked": "الحجم والموضع يحددهما المنشئ",
+                        "replace": "استبدال",
+                        "textAria": "أدوات النص",
+                        "zoomIn": "تكبير",
+                        "zoomOut": "تصغير"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "تمت إضافة {name} إلى الخط الزمني.",
+                "too_big": "{name} يتجاوز {limit}.",
+                "too_long": "{name} أطول من {minutes} دقيقة.",
+                "too_many": "يمكن إضافة {count} ملفات فقط في كل مرة.",
+                "wrong_type": "لا يمكن إضافة {name} — الصور ومقاطع الفيديو وملفات SVG فقط."
+            }
+        },
+        "catalogue": {
+            "error_body": "تحقق من اتصالك، ثم حاول مرة أخرى.",
+            "loading_more": "جارٍ تحميل المزيد"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "تجاهل المسودة",
+                "description_unsaved": "هذا التصميم غير محفوظ. العودة تحذفه نهائياً، بما في ذلك الطبقات والأنماط والحركات.",
+                "title": "تجاهل مسودة «{title}»؟"
+            },
+            "save": {
+                "description": "بعد الحفظ، لن يكون التحرير متاحاً.",
+                "saving": "جارٍ الحفظ…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "ملاءمة الشاشة"
+        },
+        "graphic_panel": {
+            "add": "إضافة {name}",
+            "add_failed": "تعذرت إضافة هذا الرسم. حاول مرة أخرى.",
+            "empty_body": "جرّب كلمة أقصر أو أعم، مثل نجمة أو قلب.",
+            "empty_title": "لا توجد رسومات مطابقة لـ «{query}»",
+            "error_title": "تعذر تحميل الرسومات",
+            "none_title": "لا توجد رسومات للعرض",
+            "search_label": "بحث في الرسومات",
+            "search_placeholder": "بحث في الرسومات"
+        },
+        "header": {
+            "redo": "إعادة",
+            "saving": "جارٍ الحفظ…",
+            "undo": "تراجع",
+            "untitled_design": "تصميم بلا عنوان"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "خانة الصورة"
+            },
+            "menu": {
+                "align_center": "توسيط",
+                "bring_forward": "إحضار للأمام خطوة",
+                "bring_to_front": "إحضار إلى الأمام",
+                "detach_image": "فصل الصورة",
+                "flip_horizontal": "قلب أفقي",
+                "flip_vertical": "قلب عمودي",
+                "replace_image": "استبدال الصورة",
+                "send_backward": "إرسال للخلف خطوة",
+                "send_to_back": "إرسال إلى الخلف",
+                "set_as_background_image": "تعيين كصورة خلفية",
+                "set_as_background_video": "تعيين كفيديو خلفية",
+                "set_background_as_image_layer": "تعيين الخلفية كطبقة صورة",
+                "set_background_as_video_layer": "تعيين الخلفية كطبقة فيديو",
+                "sheet_title": "خيارات الطبقة",
+                "show_layers": "إظهار الطبقات"
+            },
+            "pill": {
+                "duplicate": "تكرار الطبقة",
+                "more": "المزيد من إجراءات الطبقة",
+                "remove": "إزالة الطبقة",
+                "toolbar": "إجراءات الطبقة"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "رمز الإقران جاهز: {code}. أعطه لعميل الذكاء الاصطناعي.",
+                "connecting": "جارٍ إعداد رمز الإقران.",
+                "failed": "تعذر الاتصال. {reason}",
+                "reconnecting": "انقطع الاتصال. جارٍ محاولة إعادة الاتصال."
+            },
+            "clipboard_blocked": "منع المتصفح الوصول إلى الحافظة. {hint}",
+            "connect": "اتصال",
+            "connecting": "جارٍ الاتصال…",
+            "copied_address_announcement": "تم نسخ عنوان الخادم",
+            "copied_code_announcement": "تم نسخ رمز الإقران",
+            "copy_address_hint": "حدد العنوان وانسخه يدوياً.",
+            "copy_code": "نسخ الرمز",
+            "copy_code_hint": "حدد الرمز وانسخه يدوياً.",
+            "copy_server_address": "نسخ عنوان خادم MCP",
+            "disconnect": "قطع الاتصال",
+            "error_fallback": "لم تستجب خدمة الإقران. تحقق من اتصالك وحاول مرة أخرى.",
+            "guide": {
+                "fresh_code": "إذا توقف الرمز عن العمل، اضغط «قطع الاتصال» ثم اتصل مجدداً للحصول على رمز جديد.",
+                "how_to_set_up": "كيفية الإعداد",
+                "step_add_body": "أضف Twibbonize إلى عميل الذكاء الاصطناعي باستخدام العنوان أدناه. في Claude Code، شغّل",
+                "step_add_title": "أضف Twibbonize إلى عميل الذكاء الاصطناعي",
+                "step_pair_body": "قل «اقترن بمحرر Twibbonize» وأعطه الرمز أعلاه.",
+                "step_pair_title": "اطلب منه الإقران",
+                "where_to_paste": "أين ألصق هذا الرمز؟"
+            },
+            "lead": {
+                "code_ready_sentence": "الصقه في Claude واطلب منه الإقران. تعرض اللوحة حلقة حول الصفحة أثناء عمل Claude.",
+                "code_ready_title": "أعطِ هذا الرمز لعميل الذكاء الاصطناعي",
+                "connecting_sentence": "هذا يستغرق لحظة.",
+                "connecting_title": "جارٍ إعداد رمز الإقران",
+                "disconnected_sentence": "يمكن لـ Claude Desktop وClaude Code إضافة الطبقات وكتابة النصوص وضبط الحركات وقراءة محتوى اللوحة.",
+                "disconnected_title": "أحضر عميل ذكاء اصطناعي إلى هذا التصميم",
+                "failed_title": "تعذر الاتصال",
+                "reconnecting_sentence": "انقطع الرابط مع عميل الذكاء الاصطناعي. جارٍ محاولة استعادته.",
+                "reconnecting_title": "جارٍ إعادة الاتصال",
+                "unavailable_sentence": "لم يتم إعداد اتصال بالذكاء الاصطناعي في إصدار هذا المحرر، لذا لا يوجد ما يمكن الاتصال به بعد.",
+                "unavailable_title": "MCP غير مفعّل هنا"
+            },
+            "pairing_code_label": "رمز الإقران: {code}"
+        },
+        "media": {
+            "add_asset": "إضافة {name}",
+            "dismiss_error": "إغلاق",
+            "empty_body": "أضف صورة أو فيديو أو ملفاً صوتياً أدناه وسيبقى هنا حتى نهاية هذه الجلسة.",
+            "empty_narrowed_body": "امسح البحث أو اختر نوعاً آخر لرؤية كل ما أضفته.",
+            "empty_narrowed_title": "لا توجد نتائج مطابقة",
+            "empty_title": "لم يتم رفع أي شيء بعد",
+            "filter": {
+                "audio": "الصوت",
+                "images": "الصور"
+            },
+            "filter_group_label": "نوع الوسائط",
+            "make_an_image": "إنشاء صورة",
+            "make_image_unavailable": "إنشاء الصور غير متاح بعد",
+            "search_placeholder": "بحث في الوسائط",
+            "upload_button": "رفع صورة أو فيديو أو ملف صوتي",
+            "uploads_heading": "المرفوعات"
+        },
+        "page_bar": {
+            "group_label": "عناصر التحكم في التكبير",
+            "zoom_menu": "مستوى التكبير، {percent}%"
+        },
+        "panel": {
+            "loading": "جارٍ تحميل {panel}…"
+        },
+        "photo": {
+            "add_by": "إضافة صورة من {name}",
+            "add_described": "إضافة صورة: {description}",
+            "credit": "الصور مقدمة من",
+            "empty_body": "جرّب كلمة أقصر أو أعم، مثل شاطئ أو مدينة.",
+            "empty_title": "لا توجد صور مطابقة لـ «{query}»",
+            "error_title": "تعذر تحميل الصور",
+            "none_title": "لا توجد صور للعرض",
+            "search_label": "بحث في الصور",
+            "search_placeholder": "بحث في الصور"
+        },
+        "qr": {
+            "add_logo": "إضافة شعار",
+            "add_to_design": "إضافة إلى التصميم",
+            "background_colour_label": "لون الخلفية",
+            "code_colour_label": "لون الرمز",
+            "code_label": "الرمز",
+            "link_input_label": "رابط رمز QR",
+            "link_label": "الرابط",
+            "logo_fallback_name": "صورة الشعار",
+            "logo_label": "الشعار",
+            "remove_logo": "إزالة الشعار"
+        },
+        "rail": {
+            "aria_label": "مكتبات التصميم",
+            "graphic": "الرسومات",
+            "help": "المساعدة",
+            "layers": "الطبقات",
+            "mcp": "MCP",
+            "media": "الوسائط",
+            "photo": "الصور",
+            "qr_code": "رمز QR",
+            "shapes": "الأشكال",
+            "templates": "القوالب",
+            "textures": "الخامات",
+            "tools": "الأدوات"
+        },
+        "save": {
+            "failed": "تعذر حفظ تصميمك. حاول مرة أخرى."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "السطوع",
+                "compare": "مقارنة بالأصل",
+                "contrast": "التباين",
+                "grayscale": "تدرج رمادي",
+                "group": {
+                    "basic": "أساسي",
+                    "refinements": "تحسينات"
+                },
+                "hue_rotate": "تدوير الصبغة",
+                "reset": "إعادة ضبط التعديلات",
+                "saturation": "التشبع",
+                "title": "التعديلات"
+            },
+            "color": {
+                "trigger": "اللون"
+            },
+            "common": {
+                "layer_blur": "تمويه الطبقة",
+                "layer_blur_stepper": "تمويه الطبقة"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "حر",
+                    "landscape": "أفقي",
+                    "original": "الأصل",
+                    "portrait": "رأسي",
+                    "square": "مربع",
+                    "story": "قصة",
+                    "widescreen": "شاشة عريضة"
+                },
+                "shape": {
+                    "circle": "دائرة",
+                    "diamond": "معيّن",
+                    "half_circle": "نصف دائرة",
+                    "oval": "بيضاوي",
+                    "parallelogram": "متوازي أضلاع",
+                    "rounded": "مستدير"
+                }
+            },
+            "filter": {
+                "cool": "بارد",
+                "duotone": "ثنائي اللون",
+                "mono": "أحادي اللون",
+                "original": "الأصل",
+                "vivid": "نابض",
+                "warm": "دافئ"
+            },
+            "font_weight": {
+                "black": "أسود",
+                "extra_bold": "عريض جداً",
+                "extra_light": "نحيف جداً",
+                "medium": "متوسط",
+                "regular": "عادي",
+                "semibold": "شبه عريض",
+                "thin": "نحيف"
+            },
+            "frame": {
+                "colour": "لون الإطار"
+            },
+            "green_screen": {
+                "choose_colour": "اختر لوناً",
+                "colour": "اللون",
+                "compare": "مقارنة بالأصل",
+                "eyedropper": "التقاط لون من اللوحة",
+                "key_colour": "لون المفتاح {hex}",
+                "loose": "متساهل",
+                "nothing_found": "لم يتم العثور على لون الخلفية.",
+                "precise": "دقيق",
+                "preset": {
+                    "bright_blue": "أزرق ساطع",
+                    "bright_green": "أخضر ساطع",
+                    "chroma_blue": "أزرق كروما",
+                    "chroma_green": "أخضر كروما"
+                },
+                "presets": "ألوان الخلفيات الشائعة",
+                "remove": "إزالة الشاشة الخضراء",
+                "title": "الشاشة الخضراء"
+            },
+            "image": {
+                "corner_radius": "نصف قطر الزاوية",
+                "corner_radius_stepper": "نصف قطر الزاوية",
+                "per_corner": "تحرير كل زاوية على حدة",
+                "per_corner_unavailable": "تحرير الزوايا بشكل فردي غير متاح بعد"
+            },
+            "keypad": {
+                "value_field": "قيمة {label}"
+            },
+            "line": {
+                "colour": "لون الخط",
+                "style": {
+                    "dots": "نقاط",
+                    "long_dashes": "شرطات طويلة",
+                    "short_dashes": "شرطات قصيرة",
+                    "solid": "متصل"
+                },
+                "style_trigger": "نمط الخط: {style}",
+                "weight": "سماكة الخط",
+                "weight_trigger": "سماكة الخط {weight}"
+            },
+            "media": {
+                "heading": "الوسائط"
+            },
+            "page": {
+                "size_capped": "الحد الأقصى {max} بكسل — مع الحفاظ على النسبة"
+            },
+            "pages": {
+                "title": "الصفحات"
+            },
+            "photo_slot": {
+                "enable": "استخدام كخانة صورة",
+                "key_field": "المفتاح (فريد)",
+                "key_required": "المفتاح مطلوب",
+                "key_taken": "المفتاح مستخدم في خانة أخرى",
+                "label_field": "التسمية (تظهر للمستخدم النهائي)",
+                "on": "خانة الصورة",
+                "remove": "إزالة خانة الصورة"
+            },
+            "qr": {
+                "add_logo": "إضافة شعار",
+                "background_colour": "لون الخلفية",
+                "code": "الرمز",
+                "code_colour": "لون الرمز",
+                "link": "الرابط",
+                "link_input": "رابط رمز QR",
+                "logo": "الشعار",
+                "remove_logo": "إزالة الشعار"
+            },
+            "root": {
+                "background_image": "صورة الخلفية",
+                "edit_background": "تحرير صورة الخلفية",
+                "fill": "التعبئة",
+                "fill_gradient": "تدرج",
+                "page_height": "ارتفاع الصفحة",
+                "page_width": "عرض الصفحة",
+                "ratio_lock": "قفل نسبة العرض إلى الارتفاع",
+                "ratio_unlock": "فتح نسبة العرض إلى الارتفاع",
+                "rotate_left": "تدوير الخلفية لليسار",
+                "rotate_right": "تدوير الخلفية لليمين"
+            },
+            "scalar": {
+                "clip_length": "المدة",
+                "corner_radius": "نصف قطر الزاوية",
+                "font_size": "حجم الخط",
+                "layer_blur": "تمويه الطبقة",
+                "letter_spacing": "تباعد الأحرف",
+                "line_height": "ارتفاع السطر",
+                "opacity": "الشفافية",
+                "speed": "السرعة",
+                "stroke_width": "سماكة الحد",
+                "volume": "مستوى الصوت"
+            },
+            "shape": {
+                "corner_radius": "نصف قطر الزاوية",
+                "corner_radius_stepper": "نصف قطر الزاوية",
+                "fill": "التعبئة",
+                "fill_gradient": "تدرج",
+                "fill_mixed": "مختلط",
+                "fill_transparent": "شفاف",
+                "stroke": "الحد",
+                "stroke_color": "لون الحد",
+                "stroke_style": {
+                    "dots": "نقاط",
+                    "long_dashes": "شرطات طويلة",
+                    "short_dashes": "شرطات قصيرة",
+                    "solid": "متصل"
+                },
+                "stroke_style_select": "نمط الحد",
+                "stroke_transparent": "شفاف",
+                "stroke_weight": "سماكة الحد"
+            },
+            "svg": {
+                "path_colour": "اللون {index}"
+            },
+            "swatch": {
+                "more_colours": "مزيد من الألوان"
+            },
+            "text": {
+                "align": {
+                    "justify": "ضبط"
+                },
+                "alignment": "المحاذاة",
+                "edit_text": "تحرير النص",
+                "font_family": "نوع الخط",
+                "font_family_select": "نوع الخط",
+                "font_size": "حجم الخط",
+                "italic_unavailable": "هذا الخط لا يتضمن نمطاً مائلاً بهذه السماكة",
+                "letter_spacing_stepper": "تباعد الأحرف",
+                "line_height": "ارتفاع السطر",
+                "line_height_stepper": "ارتفاع السطر",
+                "list": "قائمة",
+                "list_bulleted": "قائمة نقطية",
+                "list_numbered": "قائمة مرقمة",
+                "list_style": "نمط القائمة",
+                "text_case": "حالة الأحرف",
+                "text_color": "لون النص",
+                "text_style": "نمط النص",
+                "weight": "السماكة"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "محاذاة للأسفل",
+                    "center_x": "محاذاة المراكز الأفقية",
+                    "center_y": "محاذاة المراكز الرأسية",
+                    "left": "محاذاة لليسار",
+                    "right": "محاذاة لليمين",
+                    "top": "محاذاة للأعلى"
+                },
+                "align_to_page": "محاذاة إلى الصفحة",
+                "opacity": "الشفافية",
+                "position": "الموضع",
+                "position_x": "الموضع س",
+                "position_y": "الموضع ص",
+                "rotation": "التدوير",
+                "scale": "الحجم"
+            },
+            "video": {
+                "adjust": "تعديل",
+                "audio": "الصوت",
+                "clip_runs": "مدة المقطع {length}",
+                "corner_radius": "نصف قطر الزاوية",
+                "corner_radius_stepper": "نصف قطر الزاوية",
+                "green_screen": "الشاشة الخضراء",
+                "loop": "تكرار حتى نهاية التصميم",
+                "mute": "كتم الصوت",
+                "muted": "مكتوم",
+                "no_audio": "لا يحتوي هذا الفيديو على صوت.",
+                "playback": "التشغيل",
+                "replace": "استبدال الفيديو",
+                "speed": "السرعة",
+                "speed_custom_input": "سرعة تشغيل مخصصة",
+                "speed_presets": "سرعة التشغيل",
+                "speed_range": "بين {min}× و{max}×",
+                "tools": "الأدوات",
+                "unmute": "إلغاء الكتم",
+                "volume": "مستوى الصوت",
+                "volume_level": "مستوى الصوت"
+            }
+        },
+        "shape_preset": {
+            "arrow": "سهم",
+            "arrow_down": "سهم لأسفل",
+            "arrow_left": "سهم لليسار",
+            "arrow_pentagon": "سهم خماسي",
+            "arrow_right": "سهم لليمين",
+            "arrow_up": "سهم لأعلى",
+            "chevron": "شيفرون",
+            "circle": "دائرة",
+            "cross": "علامة زائد",
+            "diamond": "معيّن",
+            "hexagon": "سداسي",
+            "hexagon_wide": "سداسي عريض",
+            "line": "خط",
+            "octagon": "ثماني",
+            "parallelogram": "متوازي أضلاع",
+            "parallelogram_mirrored": "متوازي أضلاع معكوس",
+            "pentagon": "خماسي",
+            "square": "مربع",
+            "trapezoid": "شبه منحرف",
+            "trapezoid_upside_down": "شبه منحرف مقلوب",
+            "triangle": "مثلث",
+            "triangle_upside_down": "مثلث مقلوب"
+        },
+        "shapes_panel": {
+            "basic": "أساسي",
+            "lines": "خطوط وأسهم"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "إضافة إطار مفتاحي",
+                "back_to_animations": "العودة إلى الحركات",
+                "basic": "أساسي",
+                "basic_opacity": "الشفافية",
+                "basic_position": "الموضع",
+                "basic_rotation": "التدوير",
+                "basic_scale": "الحجم",
+                "keyframe": "الإطار المفتاحي",
+                "pick_property_hint": "اختر الخاصية المراد تحديد إطار مفتاحي لها. عند النقر على إحداها تُغلق الورقة وتُفتح لوحتها، مع وضع الإطار المفتاحي عند مؤشر التشغيل بقيمة الطبقة الحالية.",
+                "presets_need_one": "تتطلب الحركات الجاهزة عنصراً واحداً. حدّد طبقة واحدة لعرضها.",
+                "title": "تحريك"
+            },
+            "easing": {
+                "title": "التسهيل"
+            },
+            "font_weight": {
+                "title": "سماكة الخط"
+            },
+            "speed": {
+                "title": "السرعة"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "الألوان الافتراضية",
+                "eyedropper": "التقاط اللون من الشاشة",
+                "eyedropper_unsupported": "متصفحك لا يدعم أداة التقاط الألوان",
+                "fill_linear": "خطي",
+                "fill_radial": "شعاعي",
+                "fill_solid": "متجانس",
+                "fill_type": "نوع التعبئة",
+                "gradients_in_design": "التدرجات في التصميم",
+                "hex": "لون سداسي عشري",
+                "in_design": "في التصميم",
+                "title": "لون التعبئة",
+                "use_color": "استخدام {color}",
+                "use_gradient": "استخدام تدرج {style}",
+                "use_transparent": "شفاف"
+            },
+            "crop": {
+                "adjust_shape": "ضبط شكل الاقتصاص",
+                "aspect": "النسبة",
+                "framing": "الإطار",
+                "framing_hint": "اسحب الصورة لإعادة تأطيرها، أو اسحب زاوية لتغيير حجم نافذة الاقتصاص. مرّر للتكبير.",
+                "scale": "الحجم"
+            },
+            "filters": {
+                "show_earlier": "عرض الفلاتر السابقة",
+                "show_more": "عرض المزيد من الفلاتر",
+                "swatch": "{label} اللون: {color}",
+                "title": "الفلاتر"
+            },
+            "font": {
+                "all_fonts": "كل الخطوط",
+                "applying": "جارٍ تطبيق الخط",
+                "back": "العودة إلى خيارات النص",
+                "clear_search": "مسح البحث",
+                "clear_search_action": "مسح البحث",
+                "in_this_design": "في هذا التصميم",
+                "no_match": "لا توجد خطوط مطابقة لـ «{query}»",
+                "no_match_hint": "يستخدم Twibbonize كتالوج خطوط Google، وهذه العائلة ليست ضمنه. جرّب كلمة بحث أقصر.",
+                "search_label": "بحث في عائلات الخطوط",
+                "search_placeholder": "بحث في الخطوط",
+                "title": "نوع الخط",
+                "weight": "سماكة الخط"
+            },
+            "gradient": {
+                "add_stop": "إضافة نقطة تدرج",
+                "angle": "الزاوية",
+                "angle_dial": "زاوية التدرج {degrees} درجة. اسحب للتغيير",
+                "angle_dial_hint": "اسحب لتغيير زاوية التدرج",
+                "angle_input": "زاوية التدرج بالدرجات",
+                "centre_unsupported": "مركز التدرج غير مدعوم في المُصيِّر بعد",
+                "stop": "نقطة التدرج {index} عند {percent}%، {color}",
+                "stop_hint": "اسحب للتحريك، وانقر مرتين للإزالة"
+            },
+            "image": {
+                "adjustment": "التعديل",
+                "adjustments": "التعديلات",
+                "back_to_edit": "العودة إلى تبويب التحرير",
+                "background_removal": "إزالة الخلفية",
+                "compare": "مقارنة بالأصل",
+                "removing": "جارٍ الإزالة…",
+                "removing_background": "جارٍ إزالة الخلفية",
+                "reset_adjustments": "إعادة ضبط التعديلات",
+                "tools": "الأدوات"
+            },
+            "keyframe": {
+                "add": "إضافة إطار مفتاحي",
+                "add_at_playhead": "إضافة إطار مفتاحي لـ {property} عند مؤشر التشغيل",
+                "add_at_playhead_short": "إضافة إطار مفتاحي عند مؤشر التشغيل",
+                "add_lane_at_playhead": "إضافة إطار مفتاحي لـ {lane} عند مؤشر التشغيل",
+                "add_property": "إضافة خاصية للتحريك",
+                "all_lanes_added": "كل خاصية يمكن تحديد إطار مفتاحي لها في هذه الطبقة لها مسار بالفعل",
+                "delete": "حذف هذا الإطار المفتاحي",
+                "diamond": "إطار مفتاحي {lane} عند {seconds} ث",
+                "easing": "التسهيل",
+                "easing_caps": "التسهيل",
+                "first_no_easing": "الإطار المفتاحي الأول ليس له تسهيل",
+                "hex": "لون سداسي عشري",
+                "layer_blur": "تمويه الطبقة",
+                "letter_spacing": "تباعد الأحرف",
+                "line_height": "ارتفاع السطر",
+                "opacity": "الشفافية",
+                "opacity_percent": "نسبة الشفافية",
+                "position_x": "الموضع س",
+                "position_y": "الموضع ص",
+                "radius_bottom_left": "نصف قطر الزاوية السفلية اليسرى",
+                "radius_bottom_right": "نصف قطر الزاوية السفلية اليمنى",
+                "radius_top_left": "نصف قطر الزاوية العلوية اليسرى",
+                "radius_top_right": "نصف قطر الزاوية العلوية اليمنى",
+                "remove": "إزالة الإطار المفتاحي",
+                "remove_at_playhead": "إزالة إطار مفتاحي {property} عند مؤشر التشغيل",
+                "rotation": "التدوير",
+                "scale": "الحجم",
+                "shadow_blur": "تمويه الظل",
+                "shadow_color": "لون الظل",
+                "shadow_offset_x": "إزاحة الظل س",
+                "shadow_offset_y": "إزاحة الظل ص",
+                "shadow_spread": "انتشار الظل",
+                "stroke_color": "لون الحد",
+                "stroke_weight": "سماكة الحد"
+            },
+            "layer": {
+                "page_background": "خلفية الصفحة",
+                "tab_animate": "تحريك",
+                "tabs_label": "لوحة الطبقة",
+                "title": "الطبقات"
+            },
+            "page_preset": {
+                "group_label": "أحجام اللوحة الجاهزة",
+                "landscape": "أفقي",
+                "portrait": "رأسي",
+                "square": "مربع",
+                "story": "قصة",
+                "tile_aria": "{name}، {width} في {height} بكسل"
+            },
+            "personalization": {
+                "act_as_placeholder": "العمل كعنصر نائب",
+                "allow_adjust_framing": "السماح بضبط التأطير",
+                "allow_adjust_framing_hint": "يمكن للداعمين تكبير صورتهم وتحريكها داخل الإطار.",
+                "allow_change_adjustments": "السماح بتغيير التعديلات",
+                "allow_change_adjustments_hint": "يمكن للداعمين تغيير السطوع والتباين وغيرها من التعديلات.",
+                "allow_change_effect": "السماح بتغيير التأثير",
+                "allow_change_effect_hint": "يمكن للداعمين اختيار تأثير مختلف لهذه الطبقة.",
+                "allow_change_filter": "السماح بتغيير الفلتر",
+                "allow_change_filter_hint": "يمكن للداعمين اختيار فلتر مختلف لهذه الطبقة.",
+                "allow_edit_text": "السماح بتحرير النص",
+                "allow_edit_text_hint": "يمكن للداعمين كتابة كلماتهم الخاصة في هذا النص.",
+                "allow_flip": "السماح بالقلب",
+                "allow_flip_hint": "يمكن للداعمين عكس هذه الطبقة.",
+                "allow_move": "السماح بالتحريك",
+                "allow_move_hint": "يمكن للداعمين سحب هذه الطبقة إلى مكان جديد.",
+                "allow_replace_media": "السماح باستبدال الوسائط",
+                "allow_replace_media_hint": "يمكن للداعمين استبدال هذه الصورة بصورتهم.",
+                "allow_resize": "السماح بتغيير الحجم",
+                "allow_resize_hint": "يمكن للداعمين تغيير حجم هذه الطبقة بسحب زواياها وجوانبها.",
+                "allow_rotate": "السماح بالتدوير",
+                "allow_rotate_hint": "يمكن للداعمين تدوير هذه الطبقة بأي زاوية.",
+                "group_appearance": "المظهر",
+                "group_arrange": "الترتيب",
+                "group_media": "الوسائط",
+                "placeholder_hint": "يعرض خانة فارغة يمكن للداعمين لمسها لإضافة صورتهم.",
+                "remove_background": "إزالة الخلفية من صورتهم",
+                "remove_background_hint": "يقتطع الداعم من صورته ليظهر تصميمك حوله.",
+                "text_placeholder_hint": "يعرض هذا النص كمثال يستبدله الداعمون بنصهم."
+            },
+            "shape_effect": {
+                "colour": "لون التأثير",
+                "distance": "المسافة",
+                "echo": "صدى",
+                "first_color": "اللون الأول",
+                "first_colour": "لون التأثير الأول",
+                "glitch": "خلل رقمي",
+                "glow": "توهج",
+                "group_label": "تأثير الشكل",
+                "second_color": "اللون الثاني",
+                "second_colour": "لون التأثير الثاني",
+                "section": "التأثير",
+                "shadow": "ظل"
+            },
+            "text_effect": {
+                "colour": "لون التأثير",
+                "curve": "منحنى",
+                "distance": "المسافة",
+                "echo": "صدى",
+                "glow": "توهج",
+                "group_label": "تأثير النص",
+                "outline": "حدود خارجية",
+                "section": "التأثير",
+                "shape_group_label": "شكل النص",
+                "splice": "تجزئة",
+                "title": "تأثيرات النص"
+            }
+        },
+        "templates": {
+            "empty_body": "جرّب كلمة أقصر أو أعم.",
+            "empty_title": "لا توجد قوالب مطابقة لـ «{query}»",
+            "error_title": "تعذر تحميل القوالب",
+            "none_body": "ابحث عن موضوع، مثل عيد ميلاد أو تخرج.",
+            "none_title": "لا توجد قوالب لهذا التصميم بعد",
+            "search_label": "بحث في القوالب",
+            "search_placeholder": "بحث في القوالب"
+        },
+        "text_panel": {
+            "add_template": "إضافة قالب نص: {name}",
+            "add_text_box": "إضافة مربع نص",
+            "empty_body": "جرّب كلمة أقصر أو أعم.",
+            "empty_title": "لا توجد قوالب نصوص مطابقة لـ «{query}»",
+            "error_title": "تعذر تحميل قوالب النصوص",
+            "none_body": "ابدأ بمربع نص بسيط بدلاً من ذلك.",
+            "none_title": "لا توجد قوالب نصوص للعرض",
+            "search_label": "بحث في قوالب النصوص",
+            "search_placeholder": "بحث في قوالب النصوص"
+        },
+        "text_preset": {
+            "seed": "أضف نصك هنا"
+        },
+        "textures": {
+            "apply_texture": "تطبيق {name}",
+            "category": {
+                "fabric": "قماش",
+                "grain": "حبيبات",
+                "grunge": "متقادم",
+                "paper": "ورق",
+                "print": "طباعة"
+            },
+            "category_group_label": "فئة الخامة",
+            "empty_body": "نعمل على بناء هذه المكتبة — عاود الزيارة قريباً.",
+            "empty_title": "الخامات غير متوفرة بعد",
+            "most_used": "الأكثر استخداماً",
+            "search_placeholder": "بحث في الخامات"
+        },
+        "timeline": {
+            "audio": {
+                "add": "إضافة صوت",
+                "add_tooltip": "إضافة مقطع صوتي للخلفية",
+                "bar_aria": "{name} عند {start} لمدة {duration}",
+                "decoding": "جارٍ فك ترميز الصوت…",
+                "decoding_waveform": "جارٍ فك ترميز الشكل الموجي…",
+                "default_name": "صوت",
+                "drop_to_add": "أفلت لإضافة الصوت",
+                "kind_suffix": "· صوت",
+                "mute": "كتم المقطع",
+                "unmute": "إلغاء كتم المقطع",
+                "volume": "مستوى صوت المقطع",
+                "waveform_error": "تعذر تحميل الشكل الموجي لهذا المقطع."
+            },
+            "keyframe": {
+                "add": "إضافة إطار مفتاحي",
+                "add_at_playhead": "إضافة إطار مفتاحي عند مؤشر التشغيل",
+                "add_tooltip": "تحديد إطار مفتاحي لخاصية في هذه الطبقة",
+                "diamond_aria": "إطار مفتاحي {lane} عند {time}",
+                "diamond_hint": " · اسحب لتغيير التوقيت، انقر بزر الماوس الأيمن للحذف",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "نصف قطر الزاوية",
+                    "layer_blur": "تمويه الطبقة",
+                    "line_height": "ارتفاع السطر",
+                    "opacity": "الشفافية",
+                    "position": "الموضع",
+                    "rotation": "التدوير",
+                    "scale": "الحجم",
+                    "stroke": "الحد"
+                },
+                "remove_lane": "إزالة إطارات {lane} المفتاحية",
+                "remove_lane_from_layer": "إزالة إطارات {lane} المفتاحية من {layer}",
+                "segment_easing_aria": "دالة التوقيت لـ {lane} بين {from} و{to}، الحالية {easing}",
+                "segment_easing_title": "دالة التوقيت · {easing}",
+                "welded_aria": "، ملتصق بحافة الطبقة",
+                "welded_title": " · ملتصق بحافة الطبقة"
+            },
+            "menu": {
+                "repeat_until_end": "التكرار حتى النهاية"
+            },
+            "track": {
+                "bar_aria": "{name} عند {start} لمدة {duration}",
+                "bar_aria_end_glued": "، النهاية ملتصقة بالطبقة",
+                "bar_aria_start_glued": "، البداية ملتصقة بالطبقة",
+                "bar_tooltip": "{name} · {start} لمدة {duration}ms · اسحب للتحريك، واسحب حافة لتغيير الحجم (Alt = بدون التقاط)",
+                "bar_tooltip_sole": " · سحب هذه الحافة يحرك الطبقة",
+                "clip_aria": "مقطع {name}",
+                "clip_tooltip": "اسحب لتحريك الطبقة في الزمن · اسحب طرفاً للقص (Alt = بدون التقاط)",
+                "collapse": "طي",
+                "collapse_all": "طي كل الطبقات",
+                "collapse_named": "طي {name}",
+                "delete_layer": "حذف الطبقة",
+                "delete_named": "حذف {name}",
+                "ends_at": "تنتهي عند",
+                "expand": "توسيع",
+                "expand_named": "توسيع {name}",
+                "hidden_lane_one": "{count} مسار مخفي",
+                "hidden_lane_other": "{count} مسارات مخفية",
+                "hide": "إخفاء",
+                "hide_named": "إخفاء {name}",
+                "lane_reorder_tooltip": "اسحب لإعادة الترتيب — المسار العلوي له الأولوية عند تداخل الحركات",
+                "layer_animations": "حركات الطبقة",
+                "lock_layer": "قفل الطبقة",
+                "lock_named": "قفل {name}",
+                "remove_animation": "إزالة الحركة",
+                "remove_animation_aria": "إزالة حركة {name} من {layer}",
+                "reorder_tooltip": "اسحب لإعادة ترتيب المسارات — ترتيب التراكب على اللوحة يُضبط في لوحة الطبقات",
+                "show": "إظهار",
+                "show_named": "إظهار {name}",
+                "split": "تقسيم",
+                "starts_at": "تبدأ عند",
+                "trim_end": "قص النهاية",
+                "trim_start": "قص البداية",
+                "trim_to": "قص إلى {time}",
+                "unlock_layer": "فتح قفل الطبقة",
+                "unlock_named": "فتح قفل {name}"
+            },
+            "transport": {
+                "current_time_field": "الوقت الحالي بالمللي ثانية",
+                "duration_edge_aria": "مدة الصفحة {seconds} ثانية",
+                "duration_edge_tooltip": "مدة الصفحة {seconds}ث · اسحب للتغيير، وانقر للقيمة الدقيقة (Alt = بدون التقاط)",
+                "duration_max": "الحد الأقصى {seconds} ث",
+                "fit_to_width": "ملاءمة العرض",
+                "forward": "للأمام",
+                "lengthen_page": "إطالة الصفحة",
+                "loop": "تكرار التشغيل",
+                "page_duration": "مدة الصفحة",
+                "page_duration_field": "مدة الصفحة بالمللي ثانية",
+                "resize_dock": "تغيير حجم الخط الزمني",
+                "rewind": "إرجاع",
+                "shorten_page": "تقصير الصفحة",
+                "zoom": "تكبير الخط الزمني"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {

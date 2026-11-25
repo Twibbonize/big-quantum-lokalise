@@ -2842,7 +2842,9 @@
             "type": "類型：",
             "size": "尺寸：",
             "type_image": "JPG、PNG 或 SVG",
-            "maximum_size": "最大 5 MB"
+            "maximum_size": "最大 5 MB",
+            "abandoned": "圖層已被移除，上傳已停止。請重試以將其保留在素材庫中。",
+            "failed": "上傳失敗。請檢查網路連線後再試一次。"
         },
         "toolbar": {
             "copy": "複製",
@@ -2871,7 +2873,119 @@
             "border_weight": "邊框粗細",
             "corner_rounding": "圓角",
             "align": "對齊",
-            "effects": "效果"
+            "effects": "效果",
+            "animate": {
+                "amount": "數量",
+                "angle": "角度",
+                "close": "關閉動畫設定",
+                "delete_animation": "刪除動畫",
+                "distance": "距離",
+                "easing": "緩動",
+                "fade": "淡入淡出",
+                "settings_aria": "動畫設定"
+            },
+            "audio": {
+                "replace": "取代",
+                "tools_aria": "音軌工具",
+                "trim": "修剪",
+                "volume": "音量"
+            },
+            "clip": {
+                "length": "長度",
+                "split": "分割",
+                "trim": "修剪"
+            },
+            "entry": {
+                "animate": "動畫"
+            },
+            "image": {
+                "adjust": "調整",
+                "background_removal_unavailable": "尚未支援移除背景",
+                "remove_background": "移除背景",
+                "remove_background_short": "去背",
+                "replace": "取代"
+            },
+            "keyframe": {
+                "blur": "圖層模糊",
+                "close": "關閉關鍵影格屬性",
+                "delete_keyframe": "刪除關鍵影格",
+                "letter_spacing": "間距",
+                "line_height": "行高",
+                "opacity": "不透明度",
+                "position": "位置",
+                "properties_aria": "關鍵影格屬性",
+                "rotation": "旋轉",
+                "scale": "縮放"
+            },
+            "layer_tools": {
+                "deselect": "取消選取圖層",
+                "tools_aria": "圖層工具"
+            },
+            "media": {
+                "adjust": "調整",
+                "green_screen": "綠幕",
+                "replace": "取代",
+                "trim": "修剪"
+            },
+            "misc": {
+                "background_fill": "背景填色",
+                "background_fill_short": "填色",
+                "configure_qr": "設定 QR Code",
+                "edit_background_image": "編輯背景圖片",
+                "no_background_image": "尚無背景圖片",
+                "replace_unavailable": "取代（尚未提供）"
+            },
+            "opacity": {
+                "label": "不透明度"
+            },
+            "shape": {
+                "corner_radius": "圓角半徑",
+                "corner_radius_short": "半徑",
+                "fill": "填色",
+                "line_color": "線條顏色",
+                "line_style_dots": "點線",
+                "line_style_long_dashes": "長虛線",
+                "line_style_named": "線條樣式：{style}",
+                "line_style_short_dashes": "短虛線",
+                "line_style_solid": "實線",
+                "line_weight": "線條粗細",
+                "stroke_color": "外框顏色",
+                "stroke_color_short": "外框",
+                "stroke_weight": "外框粗細",
+                "stroke_weight_short": "粗細"
+            },
+            "speed": {
+                "custom_input": "自訂播放速度",
+                "label": "速度",
+                "playback_length": "播放長度",
+                "playback_speed": "播放速度",
+                "range_hint": "介於 {min}× 與 {max}× 之間"
+            },
+            "text": {
+                "decrease_font_size": "縮小字級",
+                "font_family": "字型",
+                "font_family_named": "字型：{value}",
+                "font_size": "字級",
+                "font_weight": "字重",
+                "font_weight_named": "字重：{value}",
+                "increase_font_size": "放大字級",
+                "keyboard": "鍵盤",
+                "line_height": "行高",
+                "spacing": "間距",
+                "text_color": "文字顏色",
+                "weight": "字重"
+            },
+            "volume": {
+                "clip_hint": "僅套用於此片段。放在時間軸上的音訊會保留自己的音量。",
+                "label": "音量",
+                "level": "音量大小",
+                "mute": "靜音",
+                "muted": "已靜音",
+                "muted_hint": "音量設定已保留。取消靜音後，片段會恢復為 {percent}%。",
+                "no_audio": "此影片沒有音訊。",
+                "slider": "音量大小",
+                "unmute": "取消靜音"
+            }
         },
         "confirmation": {
             "cancel": "丟棄",
@@ -2918,7 +3032,1066 @@
             "document_colors": "文檔顏色",
             "default_colors": "預設顏色"
         },
-        "graphic": "形象的"
+        "graphic": "形象的",
+        "animate": {
+            "anchor": {
+                "bottom_center": "底部置中",
+                "bottom_left": "左下",
+                "bottom_right": "右下",
+                "center_left": "左側置中",
+                "center_right": "右側置中",
+                "top_center": "頂部置中",
+                "top_left": "左上",
+                "top_right": "右上"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "結束",
+                "more_options": "更多選項"
+            },
+            "direction": {
+                "bottom_left": "左下",
+                "bottom_right": "右下",
+                "clockwise": "順時針",
+                "counter_clockwise": "逆時針",
+                "from_the": "從{place}",
+                "to_the": "往{place}",
+                "top_left": "左上",
+                "top_right": "右上"
+            },
+            "easing": {
+                "accelerate": "加速",
+                "bounce": "彈跳",
+                "elastic": "彈性",
+                "impulse": "脈衝",
+                "natural": "自然",
+                "overshoot": "過衝",
+                "slow_down": "減速",
+                "smooth": "平滑",
+                "swing": "擺動"
+            },
+            "field": {
+                "amount": "數量",
+                "anchor_group": "錨點",
+                "anchor_point": "錨點",
+                "angle": "角度",
+                "apply_effect_to": "套用效果至",
+                "axis": "軸",
+                "choose_easing": "選擇緩動",
+                "distance": "距離",
+                "duration": "時間長度",
+                "edge": "邊緣",
+                "fade": "淡入淡出",
+                "from_noun": "起始{noun}",
+                "horizontal": "水平",
+                "noun_blur": "模糊",
+                "noun_opacity": "不透明度",
+                "noun_size": "大小",
+                "opacity": "不透明度",
+                "order": "順序",
+                "position": "位置",
+                "rotation": "旋轉",
+                "rotation_direction": "旋轉方向",
+                "scale": "縮放",
+                "smoothing": "平滑度",
+                "to_noun": "結束{noun}",
+                "vertical": "垂直"
+            },
+            "mode": {
+                "arrives": "進入",
+                "departs": "離開",
+                "in": "進場",
+                "out": "退場"
+            },
+            "panel": {
+                "animation": "動畫",
+                "animations_tab": "動畫",
+                "basic": "基本",
+                "changing_note": "請選擇一個取代項目。它會沿用你要變更的動畫的位置與長度。",
+                "corner_radius": "圓角半徑",
+                "easing": "緩動",
+                "fade": "淡入淡出",
+                "keyframe_tab": "關鍵影格",
+                "layer_blur": "圖層模糊",
+                "line_height": "行高",
+                "more_options": "更多選項",
+                "motion": "動態",
+                "needs_one_element": "動畫預設需要選取一個元素。請選取單一圖層以查看。",
+                "paste_animation": "貼上動畫",
+                "scale": "縮放",
+                "slide": "滑動",
+                "stroke": "外框",
+                "text_animation": "文字動畫"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "出現",
+                    "label": "出現"
+                },
+                "blur": {
+                    "label": "模糊進場"
+                },
+                "blur_scale": {
+                    "caption": "模糊與縮放",
+                    "label": "模糊並縮放進場"
+                },
+                "blur_slide": {
+                    "caption": "模糊與滑動",
+                    "label": "模糊並滑動進場"
+                },
+                "fade": {
+                    "caption": "淡入淡出",
+                    "label": "淡入淡出"
+                },
+                "grow": {
+                    "caption": "彈出",
+                    "label": "彈出進場"
+                },
+                "mask_center": {
+                    "caption": "中心遮罩",
+                    "label": "從中心遮罩顯現"
+                },
+                "mask_reveal": {
+                    "caption": "遮罩顯現",
+                    "label": "從邊緣遮罩顯現"
+                },
+                "mask_slide": {
+                    "caption": "遮罩與滑動",
+                    "label": "遮罩顯現並滑動"
+                },
+                "move_scale": {
+                    "caption": "移動與縮放",
+                    "label": "移動並縮放進場"
+                },
+                "rotate_left": {
+                    "label": "從左側旋轉"
+                },
+                "rotate_right": {
+                    "label": "從右側旋轉"
+                },
+                "shrink": {
+                    "caption": "放大",
+                    "label": "放大進場"
+                },
+                "slide": {
+                    "caption": "滑動",
+                    "label": "滑入"
+                },
+                "slide_from_bottom": {
+                    "label": "從底部滑入"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "左下",
+                    "label": "從左下滑入"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "右下",
+                    "label": "從右下滑入"
+                },
+                "slide_from_left": {
+                    "label": "從左側滑入"
+                },
+                "slide_from_right": {
+                    "label": "從右側滑入"
+                },
+                "slide_from_top": {
+                    "label": "從頂部滑入"
+                },
+                "slide_from_top_left": {
+                    "caption": "左上",
+                    "label": "從左上滑入"
+                },
+                "slide_from_top_right": {
+                    "caption": "右上",
+                    "label": "從右上滑入"
+                },
+                "spin": {
+                    "caption": "旋轉",
+                    "label": "旋轉進場"
+                },
+                "spin_scale": {
+                    "caption": "旋轉與縮放",
+                    "label": "旋轉並縮放進場"
+                },
+                "twist": {
+                    "caption": "扭轉",
+                    "label": "扭轉進場"
+                }
+            },
+            "property": {
+                "change_text": "變更文字",
+                "morph": "變形",
+                "move": "移動",
+                "opacity": "不透明度",
+                "scale": "縮放"
+            },
+            "section": {
+                "fade": "淡入淡出",
+                "mask": "遮罩",
+                "scale": "縮放",
+                "slide": "滑動",
+                "transform": "變形"
+            },
+            "text": {
+                "backward": "倒序",
+                "forward": "正序",
+                "letters": "字母",
+                "summary_overlap": "每個{unit}會在前一個進行到 {percent}% 時開始。",
+                "summary_sequential": "每個{unit}會在前一個結束後才開始。",
+                "summary_together": "所有{unit}同時移動。",
+                "summary_whole": "整個文字區塊會作為一個整體執行動畫。",
+                "words": "單字"
+            },
+            "type": {
+                "fade_in": "淡入",
+                "fade_out": "淡出",
+                "line_height": "行高",
+                "radius": "半徑",
+                "resize_in": "縮放進場",
+                "resize_out": "縮放退場",
+                "rotate_in": "旋轉進場",
+                "rotate_out": "旋轉退場",
+                "scale_in": "放大進場",
+                "scale_out": "放大退場",
+                "slide_in": "滑入",
+                "slide_out": "滑出",
+                "spacing": "間距",
+                "stroke": "外框"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "請新增你的照片以繼續。",
+                    "gesture": {
+                        "frameDesktop": "拖曳以調整位置 · 捲動以縮放",
+                        "frameMobile": "拖曳以調整位置，雙指縮放",
+                        "handles": "拖曳角落與邊緣調整大小，拖曳頂端旋轉",
+                        "move": "拖曳以移動",
+                        "moveOrHandles": "拖曳以移動，或使用控制點",
+                        "resize": "拖曳角落或邊緣以調整大小",
+                        "rotate": "拖曳頂端控制點以旋轉",
+                        "rotateDesktop": "拖曳尺規，或使用方向鍵",
+                        "rotateMobile": "拖曳尺規以旋轉"
+                    },
+                    "hint": {
+                        "pickDesktop": "點選標記的區域，或從左側選擇圖層",
+                        "pickMobile": "輕觸標記的區域，或從下方選擇圖層",
+                        "previewDesktop": "正在預覽你的設計。點一下即可繼續編輯。",
+                        "previewMobile": "正在預覽你的設計。輕觸即可繼續編輯。"
+                    },
+                    "layer": {
+                        "addPhoto": "新增你的照片",
+                        "text": "文字：{text}",
+                        "yourPhoto": "你的照片",
+                        "yourText": "你的文字"
+                    },
+                    "layers": {
+                        "all": "所有圖層",
+                        "photo": "照片",
+                        "sheetDescription": "此設計中所有你可以更改的內容。",
+                        "title": "圖層"
+                    },
+                    "photoError": "無法使用該照片。請試試其他圖片。",
+                    "preview": {
+                        "backToEditing": "返回編輯"
+                    },
+                    "rotation": {
+                        "aria": "旋轉",
+                        "value": "one:#度|other:#度"
+                    },
+                    "tools": {
+                        "adjust": "調整",
+                        "aria": "圖層工具",
+                        "editText": "編輯文字",
+                        "flip": "翻轉",
+                        "locked": "大小與位置由創作者設定",
+                        "replace": "取代",
+                        "textAria": "文字工具",
+                        "zoomIn": "放大",
+                        "zoomOut": "縮小"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "已將{name}新增至時間軸。",
+                "too_big": "{name}超過{limit}。",
+                "too_long": "{name}的長度超過 {minutes} 分鐘。",
+                "too_many": "一次最多 {count} 個檔案。",
+                "wrong_type": "無法新增{name}，僅支援圖片、影片與 SVG 檔案。"
+            }
+        },
+        "catalogue": {
+            "error_body": "請檢查網路連線後再試一次。",
+            "loading_more": "正在載入更多"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "捨棄草稿",
+                "description_unsaved": "此設計尚未儲存。返回後將永久刪除，包括圖層、樣式與動畫。",
+                "title": "要捨棄「{title}」草稿嗎？"
+            },
+            "save": {
+                "description": "儲存後就無法再編輯。",
+                "saving": "儲存中…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "符合畫面大小"
+        },
+        "graphic_panel": {
+            "add": "新增{name}",
+            "add_failed": "無法新增此圖形。請再試一次。",
+            "empty_body": "請試試更短或更通用的字詞，例如星星或愛心。",
+            "empty_title": "找不到符合「{query}」的圖形",
+            "error_title": "無法載入圖形",
+            "none_title": "沒有可顯示的圖形",
+            "search_label": "搜尋圖形",
+            "search_placeholder": "搜尋圖形"
+        },
+        "header": {
+            "redo": "重做",
+            "saving": "儲存中…",
+            "undo": "復原",
+            "untitled_design": "未命名設計"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "照片欄位"
+            },
+            "menu": {
+                "align_center": "置中",
+                "bring_forward": "上移一層",
+                "bring_to_front": "移到最上層",
+                "detach_image": "分離圖片",
+                "flip_horizontal": "水平翻轉",
+                "flip_vertical": "垂直翻轉",
+                "replace_image": "取代圖片",
+                "send_backward": "下移一層",
+                "send_to_back": "移到最下層",
+                "set_as_background_image": "設為背景圖片",
+                "set_as_background_video": "設為背景影片",
+                "set_background_as_image_layer": "將背景設為圖片圖層",
+                "set_background_as_video_layer": "將背景設為影片圖層",
+                "sheet_title": "圖層選項",
+                "show_layers": "顯示圖層"
+            },
+            "pill": {
+                "duplicate": "複製圖層",
+                "more": "更多圖層操作",
+                "remove": "移除圖層",
+                "toolbar": "圖層操作"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "配對碼已就緒：{code}。請將它提供給你的 AI 用戶端。",
+                "connecting": "正在產生配對碼。",
+                "failed": "無法連線。{reason}",
+                "reconnecting": "連線已中斷。正在嘗試重新連線。"
+            },
+            "clipboard_blocked": "你的瀏覽器封鎖了剪貼簿。{hint}",
+            "connect": "連線",
+            "connecting": "連線中…",
+            "copied_address_announcement": "已複製伺服器位址",
+            "copied_code_announcement": "已複製配對碼",
+            "copy_address_hint": "請選取位址並手動複製。",
+            "copy_code": "複製代碼",
+            "copy_code_hint": "請選取代碼並手動複製。",
+            "copy_server_address": "複製 MCP 伺服器位址",
+            "disconnect": "中斷連線",
+            "error_fallback": "配對服務沒有回應。請檢查網路連線後再試一次。",
+            "guide": {
+                "fresh_code": "如果代碼失效，請按「中斷連線」，再重新連線以取得新的代碼。",
+                "how_to_set_up": "設定方式",
+                "step_add_body": "使用下方位址將 Twibbonize 新增至你的 AI 用戶端。在 Claude Code 中，請執行",
+                "step_add_title": "將 Twibbonize 新增至你的 AI 用戶端",
+                "step_pair_body": "說「與 Twibbonize 編輯器配對」，並提供上方的代碼。",
+                "step_pair_title": "要求配對",
+                "where_to_paste": "要在哪裡貼上此代碼？"
+            },
+            "lead": {
+                "code_ready_sentence": "將它貼到 Claude 並請它配對。Claude 作業時，畫布會在頁面周圍顯示一圈外框。",
+                "code_ready_title": "將此代碼提供給你的 AI 用戶端",
+                "connecting_sentence": "請稍候。",
+                "connecting_title": "正在產生配對碼",
+                "disconnected_sentence": "Claude Desktop 與 Claude Code 可以新增圖層、撰寫文字、設定動畫，並讀取畫布上的內容。",
+                "disconnected_title": "將 AI 用戶端帶入此設計",
+                "failed_title": "無法連線",
+                "reconnecting_sentence": "與 AI 用戶端的連線已中斷。正在嘗試恢復。",
+                "reconnecting_title": "重新連線中",
+                "unavailable_sentence": "此編輯器版本未設定 AI 連線，因此目前沒有可連線的對象。",
+                "unavailable_title": "此處未啟用 MCP"
+            },
+            "pairing_code_label": "配對碼：{code}"
+        },
+        "media": {
+            "add_asset": "新增{name}",
+            "dismiss_error": "關閉",
+            "empty_body": "在下方新增圖片、影片或音訊檔案，它會在本次工作階段期間保留在此。",
+            "empty_narrowed_body": "清除搜尋或選擇其他類型，即可查看你新增的所有內容。",
+            "empty_narrowed_title": "沒有符合的項目",
+            "empty_title": "尚未上傳任何內容",
+            "filter": {
+                "audio": "音訊",
+                "images": "圖片"
+            },
+            "filter_group_label": "媒體類型",
+            "make_an_image": "製作圖片",
+            "make_image_unavailable": "尚未提供圖片生成功能",
+            "search_placeholder": "搜尋媒體",
+            "upload_button": "上傳圖片、影片或音訊",
+            "uploads_heading": "上傳"
+        },
+        "page_bar": {
+            "group_label": "縮放控制",
+            "zoom_menu": "縮放比例，{percent}%"
+        },
+        "panel": {
+            "loading": "正在載入{panel}…"
+        },
+        "photo": {
+            "add_by": "新增{name}的照片",
+            "add_described": "新增照片：{description}",
+            "credit": "照片提供者：",
+            "empty_body": "請試試更短或更通用的字詞，例如海灘或城市。",
+            "empty_title": "找不到符合「{query}」的照片",
+            "error_title": "無法載入照片",
+            "none_title": "沒有可顯示的照片",
+            "search_label": "搜尋照片",
+            "search_placeholder": "搜尋照片"
+        },
+        "qr": {
+            "add_logo": "新增標誌",
+            "add_to_design": "新增至設計",
+            "background_colour_label": "背景顏色",
+            "code_colour_label": "QR Code 顏色",
+            "code_label": "QR Code",
+            "link_input_label": "QR Code 連結",
+            "link_label": "連結",
+            "logo_fallback_name": "標誌圖片",
+            "logo_label": "標誌",
+            "remove_logo": "移除標誌"
+        },
+        "rail": {
+            "aria_label": "設計素材庫",
+            "graphic": "圖形",
+            "help": "說明",
+            "layers": "圖層",
+            "mcp": "MCP",
+            "media": "媒體",
+            "photo": "照片",
+            "qr_code": "QR Code",
+            "shapes": "形狀",
+            "templates": "範本",
+            "textures": "紋理",
+            "tools": "工具"
+        },
+        "save": {
+            "failed": "無法儲存你的設計。請再試一次。"
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "亮度",
+                "compare": "與原圖比較",
+                "contrast": "對比",
+                "grayscale": "灰階",
+                "group": {
+                    "basic": "基本",
+                    "refinements": "細部調整"
+                },
+                "hue_rotate": "色相旋轉",
+                "reset": "重設調整",
+                "saturation": "飽和度",
+                "title": "調整"
+            },
+            "color": {
+                "trigger": "顏色"
+            },
+            "common": {
+                "layer_blur": "圖層模糊",
+                "layer_blur_stepper": "圖層模糊"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "自由裁切",
+                    "landscape": "橫向",
+                    "original": "原始",
+                    "portrait": "直向",
+                    "square": "正方形",
+                    "story": "限時動態",
+                    "widescreen": "寬螢幕"
+                },
+                "shape": {
+                    "circle": "圓形",
+                    "diamond": "菱形",
+                    "half_circle": "半圓形",
+                    "oval": "橢圓形",
+                    "parallelogram": "平行四邊形",
+                    "rounded": "圓角"
+                }
+            },
+            "filter": {
+                "cool": "冷色",
+                "duotone": "雙色調",
+                "mono": "單色",
+                "original": "原始",
+                "vivid": "鮮豔",
+                "warm": "暖色"
+            },
+            "font_weight": {
+                "black": "特黑",
+                "extra_bold": "特粗",
+                "extra_light": "特細",
+                "medium": "中等",
+                "regular": "標準",
+                "semibold": "半粗",
+                "thin": "極細"
+            },
+            "frame": {
+                "colour": "邊框顏色"
+            },
+            "green_screen": {
+                "choose_colour": "選擇顏色",
+                "colour": "顏色",
+                "compare": "與原圖比較",
+                "eyedropper": "從畫布選取顏色",
+                "key_colour": "去背色 {hex}",
+                "loose": "寬鬆",
+                "nothing_found": "找不到背景顏色。",
+                "precise": "精確",
+                "preset": {
+                    "bright_blue": "亮藍色",
+                    "bright_green": "亮綠色",
+                    "chroma_blue": "色鍵藍",
+                    "chroma_green": "色鍵綠"
+                },
+                "presets": "常見背景顏色",
+                "remove": "移除綠幕",
+                "title": "綠幕"
+            },
+            "image": {
+                "corner_radius": "圓角半徑",
+                "corner_radius_stepper": "圓角半徑",
+                "per_corner": "個別編輯各個角落",
+                "per_corner_unavailable": "尚未支援個別編輯各個角落"
+            },
+            "keypad": {
+                "value_field": "{label}數值"
+            },
+            "line": {
+                "colour": "線條顏色",
+                "style": {
+                    "dots": "點線",
+                    "long_dashes": "長虛線",
+                    "short_dashes": "短虛線",
+                    "solid": "實線"
+                },
+                "style_trigger": "線條樣式：{style}",
+                "weight": "線條粗細",
+                "weight_trigger": "線條粗細 {weight}"
+            },
+            "media": {
+                "heading": "媒體"
+            },
+            "page": {
+                "size_capped": "最大 {max} px，維持比例"
+            },
+            "pages": {
+                "title": "頁面"
+            },
+            "photo_slot": {
+                "enable": "作為照片欄位",
+                "key_field": "鍵（唯一）",
+                "key_required": "必須填寫鍵",
+                "key_taken": "此鍵已被其他欄位使用",
+                "label_field": "標籤（顯示給最終使用者）",
+                "on": "照片欄位",
+                "remove": "移除照片欄位"
+            },
+            "qr": {
+                "add_logo": "新增標誌",
+                "background_colour": "背景顏色",
+                "code": "QR Code",
+                "code_colour": "QR Code 顏色",
+                "link": "連結",
+                "link_input": "QR Code 連結",
+                "logo": "標誌",
+                "remove_logo": "移除標誌"
+            },
+            "root": {
+                "background_image": "背景圖片",
+                "edit_background": "編輯背景圖片",
+                "fill": "填色",
+                "fill_gradient": "漸層",
+                "page_height": "頁面高度",
+                "page_width": "頁面寬度",
+                "ratio_lock": "鎖定長寬比",
+                "ratio_unlock": "解除鎖定長寬比",
+                "rotate_left": "將背景向左旋轉",
+                "rotate_right": "將背景向右旋轉"
+            },
+            "scalar": {
+                "clip_length": "長度",
+                "corner_radius": "圓角半徑",
+                "font_size": "字級",
+                "layer_blur": "圖層模糊",
+                "letter_spacing": "字距",
+                "line_height": "行高",
+                "opacity": "不透明度",
+                "speed": "速度",
+                "stroke_width": "外框寬度",
+                "volume": "音量"
+            },
+            "shape": {
+                "corner_radius": "圓角半徑",
+                "corner_radius_stepper": "圓角半徑",
+                "fill": "填色",
+                "fill_gradient": "漸層",
+                "fill_mixed": "混合",
+                "fill_transparent": "透明",
+                "stroke": "外框",
+                "stroke_color": "外框顏色",
+                "stroke_style": {
+                    "dots": "點線",
+                    "long_dashes": "長虛線",
+                    "short_dashes": "短虛線",
+                    "solid": "實線"
+                },
+                "stroke_style_select": "外框樣式",
+                "stroke_transparent": "透明",
+                "stroke_weight": "外框粗細"
+            },
+            "svg": {
+                "path_colour": "顏色 {index}"
+            },
+            "swatch": {
+                "more_colours": "更多顏色"
+            },
+            "text": {
+                "align": {
+                    "justify": "左右對齊"
+                },
+                "alignment": "對齊方式",
+                "edit_text": "編輯文字",
+                "font_family": "字型",
+                "font_family_select": "字型",
+                "font_size": "字級",
+                "italic_unavailable": "此字型在這個字重下沒有斜體",
+                "letter_spacing_stepper": "字距",
+                "line_height": "行高",
+                "line_height_stepper": "行高",
+                "list": "清單",
+                "list_bulleted": "項目符號清單",
+                "list_numbered": "編號清單",
+                "list_style": "清單樣式",
+                "text_case": "大小寫",
+                "text_color": "文字顏色",
+                "text_style": "文字樣式",
+                "weight": "字重"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "靠下對齊",
+                    "center_x": "水平置中對齊",
+                    "center_y": "垂直置中對齊",
+                    "left": "靠左對齊",
+                    "right": "靠右對齊",
+                    "top": "靠上對齊"
+                },
+                "align_to_page": "對齊頁面",
+                "opacity": "不透明度",
+                "position": "位置",
+                "position_x": "位置 X",
+                "position_y": "位置 Y",
+                "rotation": "旋轉",
+                "scale": "縮放"
+            },
+            "video": {
+                "adjust": "調整",
+                "audio": "音訊",
+                "clip_runs": "片段長度 {length}",
+                "corner_radius": "圓角半徑",
+                "corner_radius_stepper": "圓角半徑",
+                "green_screen": "綠幕",
+                "loop": "循環播放至設計結束",
+                "mute": "靜音",
+                "muted": "已靜音",
+                "no_audio": "此影片沒有音訊。",
+                "playback": "播放",
+                "replace": "取代影片",
+                "speed": "速度",
+                "speed_custom_input": "自訂播放速度",
+                "speed_presets": "播放速度",
+                "speed_range": "介於 {min}× 與 {max}× 之間",
+                "tools": "工具",
+                "unmute": "取消靜音",
+                "volume": "音量",
+                "volume_level": "音量大小"
+            }
+        },
+        "shape_preset": {
+            "arrow": "箭頭",
+            "arrow_down": "向下箭頭",
+            "arrow_left": "向左箭頭",
+            "arrow_pentagon": "五邊形箭頭",
+            "arrow_right": "向右箭頭",
+            "arrow_up": "向上箭頭",
+            "chevron": "V 形",
+            "circle": "圓形",
+            "cross": "十字",
+            "diamond": "菱形",
+            "hexagon": "六邊形",
+            "hexagon_wide": "寬六邊形",
+            "line": "線條",
+            "octagon": "八邊形",
+            "parallelogram": "平行四邊形",
+            "parallelogram_mirrored": "鏡射平行四邊形",
+            "pentagon": "五邊形",
+            "square": "正方形",
+            "trapezoid": "梯形",
+            "trapezoid_upside_down": "倒梯形",
+            "triangle": "三角形",
+            "triangle_upside_down": "倒三角形"
+        },
+        "shapes_panel": {
+            "basic": "基本",
+            "lines": "線條與箭頭"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "新增關鍵影格",
+                "back_to_animations": "返回動畫",
+                "basic": "基本",
+                "basic_opacity": "不透明度",
+                "basic_position": "位置",
+                "basic_rotation": "旋轉",
+                "basic_scale": "縮放",
+                "keyframe": "關鍵影格",
+                "pick_property_hint": "選擇要設定關鍵影格的屬性。點選後會關閉面板並開啟該屬性的面板，同時在播放磁頭位置加入一個保持圖層目前數值的關鍵影格。",
+                "presets_need_one": "動畫預設需要選取一個元素。請選取單一圖層以查看。",
+                "title": "動畫"
+            },
+            "easing": {
+                "title": "緩動"
+            },
+            "font_weight": {
+                "title": "字重"
+            },
+            "speed": {
+                "title": "速度"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "預設顏色",
+                "eyedropper": "從螢幕選取顏色",
+                "eyedropper_unsupported": "你的瀏覽器不支援滴管工具",
+                "fill_linear": "線性",
+                "fill_radial": "放射狀",
+                "fill_solid": "純色",
+                "fill_type": "填色類型",
+                "gradients_in_design": "設計中的漸層",
+                "hex": "十六進位顏色",
+                "in_design": "設計中使用",
+                "title": "填色",
+                "use_color": "使用{color}",
+                "use_gradient": "使用{style}漸層",
+                "use_transparent": "透明"
+            },
+            "crop": {
+                "adjust_shape": "調整裁切形狀",
+                "aspect": "比例",
+                "framing": "取景",
+                "framing_hint": "拖曳照片可重新取景，拖曳角落可調整裁切框大小。捲動可縮放。",
+                "scale": "縮放"
+            },
+            "filters": {
+                "show_earlier": "顯示前面的濾鏡",
+                "show_more": "顯示更多濾鏡",
+                "swatch": "{label}顏色：{color}",
+                "title": "濾鏡"
+            },
+            "font": {
+                "all_fonts": "所有字型",
+                "applying": "正在套用字型",
+                "back": "返回文字選項",
+                "clear_search": "清除搜尋",
+                "clear_search_action": "清除搜尋",
+                "in_this_design": "此設計中使用",
+                "no_match": "找不到符合「{query}」的字型",
+                "no_match_hint": "Twibbonize 使用 Google Fonts 字型庫，而此字型不在其中。請試試更短的搜尋字詞。",
+                "search_label": "搜尋字型",
+                "search_placeholder": "搜尋字型",
+                "title": "字型",
+                "weight": "字重"
+            },
+            "gradient": {
+                "add_stop": "新增漸層色標",
+                "angle": "角度",
+                "angle_dial": "漸層角度，{degrees} 度。拖曳以變更",
+                "angle_dial_hint": "拖曳以變更漸層角度",
+                "angle_input": "漸層角度（度）",
+                "centre_unsupported": "轉譯器尚未支援漸層中心",
+                "stop": "漸層色標 {index}，位置 {percent}%，{color}",
+                "stop_hint": "拖曳以移動，按兩下以移除"
+            },
+            "image": {
+                "adjustment": "調整",
+                "adjustments": "調整",
+                "back_to_edit": "返回「編輯」分頁",
+                "background_removal": "移除背景",
+                "compare": "與原圖比較",
+                "removing": "移除中…",
+                "removing_background": "正在移除背景",
+                "reset_adjustments": "重設調整",
+                "tools": "工具"
+            },
+            "keyframe": {
+                "add": "新增關鍵影格",
+                "add_at_playhead": "在播放磁頭位置新增{property}關鍵影格",
+                "add_at_playhead_short": "在播放磁頭位置新增關鍵影格",
+                "add_lane_at_playhead": "在播放磁頭位置新增{lane}關鍵影格",
+                "add_property": "新增要設定動畫的屬性",
+                "all_lanes_added": "此圖層可設定關鍵影格的所有屬性都已有軌道",
+                "delete": "刪除此關鍵影格",
+                "diamond": "{seconds} 秒處的{lane}關鍵影格",
+                "easing": "緩動",
+                "easing_caps": "緩動",
+                "first_no_easing": "第一個關鍵影格沒有緩動",
+                "hex": "十六進位顏色",
+                "layer_blur": "圖層模糊",
+                "letter_spacing": "字距",
+                "line_height": "行高",
+                "opacity": "不透明度",
+                "opacity_percent": "不透明度百分比",
+                "position_x": "位置 X",
+                "position_y": "位置 Y",
+                "radius_bottom_left": "左下角圓角半徑",
+                "radius_bottom_right": "右下角圓角半徑",
+                "radius_top_left": "左上角圓角半徑",
+                "radius_top_right": "右上角圓角半徑",
+                "remove": "移除關鍵影格",
+                "remove_at_playhead": "移除播放磁頭位置的{property}關鍵影格",
+                "rotation": "旋轉",
+                "scale": "縮放",
+                "shadow_blur": "陰影模糊",
+                "shadow_color": "陰影顏色",
+                "shadow_offset_x": "陰影位移 X",
+                "shadow_offset_y": "陰影位移 Y",
+                "shadow_spread": "陰影擴展",
+                "stroke_color": "外框顏色",
+                "stroke_weight": "外框粗細"
+            },
+            "layer": {
+                "page_background": "頁面背景",
+                "tab_animate": "動畫",
+                "tabs_label": "圖層面板",
+                "title": "圖層"
+            },
+            "page_preset": {
+                "group_label": "畫布尺寸預設",
+                "landscape": "橫向",
+                "portrait": "直向",
+                "square": "正方形",
+                "story": "限時動態",
+                "tile_aria": "{name}，{width} × {height} 像素"
+            },
+            "personalization": {
+                "act_as_placeholder": "作為預留位置",
+                "allow_adjust_framing": "允許調整取景",
+                "allow_adjust_framing_hint": "支持者可以在框內縮放並移動自己的照片。",
+                "allow_change_adjustments": "允許變更調整",
+                "allow_change_adjustments_hint": "支持者可以變更亮度、對比及其他調整。",
+                "allow_change_effect": "允許變更效果",
+                "allow_change_effect_hint": "支持者可以為此圖層選擇其他效果。",
+                "allow_change_filter": "允許變更濾鏡",
+                "allow_change_filter_hint": "支持者可以為此圖層選擇其他濾鏡。",
+                "allow_edit_text": "允許編輯文字",
+                "allow_edit_text_hint": "支持者可以在此文字中輸入自己的內容。",
+                "allow_flip": "允許翻轉",
+                "allow_flip_hint": "支持者可以鏡射此圖層。",
+                "allow_move": "允許移動",
+                "allow_move_hint": "支持者可以將此圖層拖曳到新位置。",
+                "allow_replace_media": "允許取代媒體",
+                "allow_replace_media_hint": "支持者可以將此圖片換成自己的照片。",
+                "allow_resize": "允許調整大小",
+                "allow_resize_hint": "支持者可以拖曳圖層的角落與邊緣來調整大小。",
+                "allow_rotate": "允許旋轉",
+                "allow_rotate_hint": "支持者可以將此圖層轉到任何角度。",
+                "group_appearance": "外觀",
+                "group_arrange": "排列",
+                "group_media": "媒體",
+                "placeholder_hint": "顯示一個空欄位，支持者可以輕觸它來新增自己的照片。",
+                "remove_background": "移除其照片的背景",
+                "remove_background_hint": "將支持者從照片中去背，讓你的設計顯示在其周圍。",
+                "text_placeholder_hint": "將此文字顯示為範例，支持者會替換成自己的文字。"
+            },
+            "shape_effect": {
+                "colour": "效果顏色",
+                "distance": "距離",
+                "echo": "回音",
+                "first_color": "第一種顏色",
+                "first_colour": "第一種效果顏色",
+                "glitch": "故障",
+                "glow": "發光",
+                "group_label": "形狀效果",
+                "second_color": "第二種顏色",
+                "second_colour": "第二種效果顏色",
+                "section": "效果",
+                "shadow": "陰影"
+            },
+            "text_effect": {
+                "colour": "效果顏色",
+                "curve": "彎曲",
+                "distance": "距離",
+                "echo": "回音",
+                "glow": "發光",
+                "group_label": "文字效果",
+                "outline": "外框",
+                "section": "效果",
+                "shape_group_label": "文字形狀",
+                "splice": "拼接",
+                "title": "文字效果"
+            }
+        },
+        "templates": {
+            "empty_body": "請試試更短的字詞。",
+            "empty_title": "找不到符合「{query}」的範本",
+            "error_title": "無法載入範本",
+            "none_body": "搜尋主題，例如生日或畢業。",
+            "none_title": "此設計尚無範本",
+            "search_label": "搜尋範本",
+            "search_placeholder": "搜尋範本"
+        },
+        "text_panel": {
+            "add_template": "新增文字範本：{name}",
+            "add_text_box": "新增文字方塊",
+            "empty_body": "請試試更短或更通用的字詞。",
+            "empty_title": "找不到符合「{query}」的文字範本",
+            "error_title": "無法載入文字範本",
+            "none_body": "不妨先從一般的文字方塊開始。",
+            "none_title": "沒有可顯示的文字範本",
+            "search_label": "搜尋文字範本",
+            "search_placeholder": "搜尋文字範本"
+        },
+        "text_preset": {
+            "seed": "在此新增你的文字"
+        },
+        "textures": {
+            "apply_texture": "套用{name}",
+            "category": {
+                "fabric": "布料",
+                "grain": "顆粒",
+                "grunge": "粗獷風",
+                "paper": "紙張",
+                "print": "印刷"
+            },
+            "category_group_label": "紋理類別",
+            "empty_body": "我們正在建置此素材庫，請稍後再回來看看。",
+            "empty_title": "尚無紋理",
+            "most_used": "最常使用",
+            "search_placeholder": "搜尋紋理"
+        },
+        "timeline": {
+            "audio": {
+                "add": "新增音訊",
+                "add_tooltip": "新增背景音軌",
+                "bar_aria": "{name}，開始於 {start}，長度 {duration}",
+                "decoding": "正在解碼音訊…",
+                "decoding_waveform": "正在解碼波形…",
+                "default_name": "音訊",
+                "drop_to_add": "拖放以新增音訊",
+                "kind_suffix": "· 音訊",
+                "mute": "軌道靜音",
+                "unmute": "取消軌道靜音",
+                "volume": "軌道音量",
+                "waveform_error": "無法載入此軌道的波形。"
+            },
+            "keyframe": {
+                "add": "新增關鍵影格",
+                "add_at_playhead": "在播放磁頭位置新增關鍵影格",
+                "add_tooltip": "為此圖層的屬性設定關鍵影格",
+                "diamond_aria": "{time} 處的{lane}關鍵影格",
+                "diamond_hint": " · 拖曳以調整時間，按右鍵以刪除",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "圓角半徑",
+                    "layer_blur": "圖層模糊",
+                    "line_height": "行高",
+                    "opacity": "不透明度",
+                    "position": "位置",
+                    "rotation": "旋轉",
+                    "scale": "縮放",
+                    "stroke": "外框"
+                },
+                "remove_lane": "移除{lane}關鍵影格",
+                "remove_lane_from_layer": "從{layer}移除{lane}關鍵影格",
+                "segment_easing_aria": "{from}到{to}之間的{lane}時間函數，目前為{easing}",
+                "segment_easing_title": "時間函數 · {easing}",
+                "welded_aria": "，已吸附至圖層邊緣",
+                "welded_title": " · 已吸附至圖層邊緣"
+            },
+            "menu": {
+                "repeat_until_end": "重複至結尾"
+            },
+            "track": {
+                "bar_aria": "{name}，開始於 {start}，長度 {duration}",
+                "bar_aria_end_glued": "，結束點已吸附至圖層",
+                "bar_aria_start_glued": "，起始點已吸附至圖層",
+                "bar_tooltip": "{name} · 從 {start} 起 {duration}ms · 拖曳以移動，拖曳邊緣以調整大小（Alt = 不吸附）",
+                "bar_tooltip_sole": " · 拖曳此邊緣會移動圖層",
+                "clip_aria": "{name}片段",
+                "clip_tooltip": "拖曳以在時間上移動圖層 · 拖曳末端以修剪（Alt = 不吸附）",
+                "collapse": "收合",
+                "collapse_all": "收合所有圖層",
+                "collapse_named": "收合{name}",
+                "delete_layer": "刪除圖層",
+                "delete_named": "刪除{name}",
+                "ends_at": "結束於",
+                "expand": "展開",
+                "expand_named": "展開{name}",
+                "hidden_lane_one": "{count} 條隱藏軌道",
+                "hidden_lane_other": "{count} 條隱藏軌道",
+                "hide": "隱藏",
+                "hide_named": "隱藏{name}",
+                "lane_reorder_tooltip": "拖曳以重新排序 — 動畫重疊時，最上方的軌道優先",
+                "layer_animations": "圖層動畫",
+                "lock_layer": "鎖定圖層",
+                "lock_named": "鎖定{name}",
+                "remove_animation": "移除動畫",
+                "remove_animation_aria": "從{layer}移除{name}動畫",
+                "reorder_tooltip": "拖曳以重新排序軌道 — 畫布上的堆疊順序在圖層面板中設定",
+                "show": "顯示",
+                "show_named": "顯示{name}",
+                "split": "分割",
+                "starts_at": "開始於",
+                "trim_end": "修剪結尾",
+                "trim_start": "修剪開頭",
+                "trim_to": "修剪至 {time}",
+                "unlock_layer": "解除鎖定圖層",
+                "unlock_named": "解除鎖定{name}"
+            },
+            "transport": {
+                "current_time_field": "目前時間（毫秒）",
+                "duration_edge_aria": "頁面長度 {seconds} 秒",
+                "duration_edge_tooltip": "頁面長度 {seconds} 秒 · 拖曳以變更，點一下輸入精確數值（Alt = 不吸附）",
+                "duration_max": "最長 {seconds} 秒",
+                "fit_to_width": "符合寬度",
+                "forward": "快轉",
+                "lengthen_page": "延長頁面",
+                "loop": "循環播放",
+                "page_duration": "頁面長度",
+                "page_duration_field": "頁面長度（毫秒）",
+                "resize_dock": "調整時間軸大小",
+                "rewind": "倒轉",
+                "shorten_page": "縮短頁面",
+                "zoom": "時間軸縮放"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {

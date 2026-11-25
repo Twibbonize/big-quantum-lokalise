@@ -2842,7 +2842,9 @@
             "type": "Tipe:",
             "size": "Ukuran:",
             "type_image": "JPG, PNG atau SVG",
-            "maximum_size": "Maksimum 5 MB"
+            "maximum_size": "Maksimum 5 MB",
+            "abandoned": "Unggahan berhenti karena layer-nya dihapus. Coba lagi untuk menyimpannya di pustaka kamu.",
+            "failed": "Unggahan gagal. Periksa koneksi kamu lalu coba lagi."
         },
         "toolbar": {
             "copy": "Salin",
@@ -2871,7 +2873,119 @@
             "border_weight": "Berat Perbatasan",
             "corner_rounding": "Pembulatan Sudut",
             "align": "Sejajarkan",
-            "effects": "Efek"
+            "effects": "Efek",
+            "animate": {
+                "amount": "Jumlah",
+                "angle": "Sudut",
+                "close": "Tutup pengaturan animasi",
+                "delete_animation": "Hapus animasi",
+                "distance": "Jarak",
+                "easing": "Easing",
+                "fade": "Pudar",
+                "settings_aria": "Pengaturan animasi"
+            },
+            "audio": {
+                "replace": "Ganti",
+                "tools_aria": "Alat trek audio",
+                "trim": "Potong",
+                "volume": "Volume"
+            },
+            "clip": {
+                "length": "Durasi",
+                "split": "Pisah",
+                "trim": "Potong"
+            },
+            "entry": {
+                "animate": "Animasi"
+            },
+            "image": {
+                "adjust": "Sesuaikan",
+                "background_removal_unavailable": "Hapus latar belum tersedia",
+                "remove_background": "Hapus latar",
+                "remove_background_short": "Hapus BG",
+                "replace": "Ganti"
+            },
+            "keyframe": {
+                "blur": "Buram layer",
+                "close": "Tutup properti keyframe",
+                "delete_keyframe": "Hapus keyframe",
+                "letter_spacing": "Spasi",
+                "line_height": "Tinggi baris",
+                "opacity": "Opasitas",
+                "position": "Posisi",
+                "properties_aria": "Properti keyframe",
+                "rotation": "Rotasi",
+                "scale": "Skala"
+            },
+            "layer_tools": {
+                "deselect": "Batalkan pilihan layer",
+                "tools_aria": "Alat layer"
+            },
+            "media": {
+                "adjust": "Sesuaikan",
+                "green_screen": "Layar hijau",
+                "replace": "Ganti",
+                "trim": "Potong"
+            },
+            "misc": {
+                "background_fill": "Isian latar",
+                "background_fill_short": "Isian",
+                "configure_qr": "Atur kode QR",
+                "edit_background_image": "Edit gambar latar",
+                "no_background_image": "Belum ada gambar latar",
+                "replace_unavailable": "Ganti (belum tersedia)"
+            },
+            "opacity": {
+                "label": "Opasitas"
+            },
+            "shape": {
+                "corner_radius": "Radius sudut",
+                "corner_radius_short": "Radius",
+                "fill": "Isian",
+                "line_color": "Warna garis",
+                "line_style_dots": "Titik",
+                "line_style_long_dashes": "Garis panjang",
+                "line_style_named": "Gaya garis: {style}",
+                "line_style_short_dashes": "Garis pendek",
+                "line_style_solid": "Padat",
+                "line_weight": "Tebal garis",
+                "stroke_color": "Warna garis tepi",
+                "stroke_color_short": "Tepi",
+                "stroke_weight": "Tebal garis tepi",
+                "stroke_weight_short": "Tebal"
+            },
+            "speed": {
+                "custom_input": "Kecepatan putar khusus",
+                "label": "Kecepatan",
+                "playback_length": "Durasi putar",
+                "playback_speed": "Kecepatan putar",
+                "range_hint": "Antara {min}× dan {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Perkecil ukuran font",
+                "font_family": "Keluarga font",
+                "font_family_named": "Keluarga font: {value}",
+                "font_size": "Ukuran font",
+                "font_weight": "Ketebalan font",
+                "font_weight_named": "Ketebalan font: {value}",
+                "increase_font_size": "Perbesar ukuran font",
+                "keyboard": "Keyboard",
+                "line_height": "Tinggi baris",
+                "spacing": "Spasi",
+                "text_color": "Warna teks",
+                "weight": "Tebal"
+            },
+            "volume": {
+                "clip_hint": "Hanya klip ini. Audio yang ditaruh di timeline punya levelnya sendiri.",
+                "label": "Volume",
+                "level": "Level",
+                "mute": "Bisukan",
+                "muted": "Dibisukan",
+                "muted_hint": "Levelnya tetap tersimpan. Bunyikan lagi dan klip kembali ke {percent}%.",
+                "no_audio": "Video ini tidak punya audio.",
+                "slider": "Level volume",
+                "unmute": "Bunyikan"
+            }
         },
         "confirmation": {
             "cancel": "Keluar",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Warna Dokumen",
             "default_colors": "Warna Default"
         },
-        "graphic": "Grafis"
+        "graphic": "Grafis",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Tengah bawah",
+                "bottom_left": "Kiri bawah",
+                "bottom_right": "Kanan bawah",
+                "center_left": "Kiri tengah",
+                "center_right": "Kanan tengah",
+                "top_center": "Tengah atas",
+                "top_left": "Kiri atas",
+                "top_right": "Kanan atas"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Akhir",
+                "more_options": "Opsi lainnya"
+            },
+            "direction": {
+                "bottom_left": "Kiri bawah",
+                "bottom_right": "Kanan bawah",
+                "clockwise": "Searah jarum jam",
+                "counter_clockwise": "Berlawanan arah jarum jam",
+                "from_the": "Dari {place}",
+                "to_the": "Ke {place}",
+                "top_left": "Kiri atas",
+                "top_right": "Kanan atas"
+            },
+            "easing": {
+                "accelerate": "Percepat",
+                "bounce": "Memantul",
+                "elastic": "Elastis",
+                "impulse": "Impuls",
+                "natural": "Alami",
+                "overshoot": "Melampaui",
+                "slow_down": "Perlambat",
+                "smooth": "Halus",
+                "swing": "Mengayun"
+            },
+            "field": {
+                "amount": "Jumlah",
+                "anchor_group": "Titik jangkar",
+                "anchor_point": "Titik Jangkar",
+                "angle": "Sudut",
+                "apply_effect_to": "Terapkan Efek Ke",
+                "axis": "Sumbu",
+                "choose_easing": "Pilih easing",
+                "distance": "Jarak",
+                "duration": "Durasi",
+                "edge": "Tepi",
+                "fade": "Pudar",
+                "from_noun": "Dari {noun}",
+                "horizontal": "Horizontal",
+                "noun_blur": "buram",
+                "noun_opacity": "opasitas",
+                "noun_size": "ukuran",
+                "opacity": "Opasitas",
+                "order": "Urutan",
+                "position": "Posisi",
+                "rotation": "Rotasi",
+                "rotation_direction": "Arah rotasi",
+                "scale": "Skala",
+                "smoothing": "Penghalusan",
+                "to_noun": "Ke {noun}",
+                "vertical": "Vertikal"
+            },
+            "mode": {
+                "arrives": "Masuk",
+                "departs": "Keluar",
+                "in": "Masuk",
+                "out": "Keluar"
+            },
+            "panel": {
+                "animation": "Animasi",
+                "animations_tab": "Animasi",
+                "basic": "Dasar",
+                "changing_note": "Pilih penggantinya. Animasi baru memakai posisi dan durasi animasi yang kamu ubah.",
+                "corner_radius": "Radius Sudut",
+                "easing": "Easing",
+                "fade": "Pudar",
+                "keyframe_tab": "Keyframe",
+                "layer_blur": "Buram Layer",
+                "line_height": "Tinggi Baris",
+                "more_options": "Opsi lainnya",
+                "motion": "Gerak",
+                "needs_one_element": "Preset animasi butuh satu elemen. Pilih satu layer saja untuk melihatnya.",
+                "paste_animation": "Tempel Animasi",
+                "scale": "Skala",
+                "slide": "Geser",
+                "stroke": "Garis Tepi",
+                "text_animation": "Animasi Teks"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Muncul",
+                    "label": "Muncul"
+                },
+                "blur": {
+                    "label": "Masuk dari buram"
+                },
+                "blur_scale": {
+                    "caption": "Buram & Skala",
+                    "label": "Masuk dari buram sambil berubah skala"
+                },
+                "blur_slide": {
+                    "caption": "Buram & Geser",
+                    "label": "Masuk dari buram sambil bergeser"
+                },
+                "fade": {
+                    "caption": "Pudar",
+                    "label": "Pudar"
+                },
+                "grow": {
+                    "caption": "Pop",
+                    "label": "Masuk dengan efek pop"
+                },
+                "mask_center": {
+                    "caption": "Singkap Tengah",
+                    "label": "Tersingkap dari tengah"
+                },
+                "mask_reveal": {
+                    "caption": "Singkap",
+                    "label": "Tersingkap dari salah satu tepi"
+                },
+                "mask_slide": {
+                    "caption": "Singkap & Geser",
+                    "label": "Tersingkap sambil bergeser"
+                },
+                "move_scale": {
+                    "caption": "Pindah & Skala",
+                    "label": "Masuk sambil berpindah dan berubah skala"
+                },
+                "rotate_left": {
+                    "label": "Putar dari kiri"
+                },
+                "rotate_right": {
+                    "label": "Putar dari kanan"
+                },
+                "shrink": {
+                    "caption": "Besar",
+                    "label": "Masuk dari ukuran besar"
+                },
+                "slide": {
+                    "caption": "Geser",
+                    "label": "Geser masuk"
+                },
+                "slide_from_bottom": {
+                    "label": "Geser dari bawah"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Kiri Bawah",
+                    "label": "Geser dari kiri bawah"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Kanan Bawah",
+                    "label": "Geser dari kanan bawah"
+                },
+                "slide_from_left": {
+                    "label": "Geser dari kiri"
+                },
+                "slide_from_right": {
+                    "label": "Geser dari kanan"
+                },
+                "slide_from_top": {
+                    "label": "Geser dari atas"
+                },
+                "slide_from_top_left": {
+                    "caption": "Kiri Atas",
+                    "label": "Geser dari kiri atas"
+                },
+                "slide_from_top_right": {
+                    "caption": "Kanan Atas",
+                    "label": "Geser dari kanan atas"
+                },
+                "spin": {
+                    "caption": "Berputar",
+                    "label": "Masuk sambil berputar"
+                },
+                "spin_scale": {
+                    "caption": "Berputar & Skala",
+                    "label": "Masuk sambil berputar dan berubah skala"
+                },
+                "twist": {
+                    "caption": "Puntir",
+                    "label": "Masuk dengan puntiran"
+                }
+            },
+            "property": {
+                "change_text": "Ubah Teks",
+                "morph": "Morf",
+                "move": "Pindah",
+                "opacity": "Opasitas",
+                "scale": "Skala"
+            },
+            "section": {
+                "fade": "Pudar",
+                "mask": "Singkap",
+                "scale": "Skala",
+                "slide": "Geser",
+                "transform": "Transformasi"
+            },
+            "text": {
+                "backward": "Mundur",
+                "forward": "Maju",
+                "letters": "Huruf",
+                "summary_overlap": "Setiap {unit} mulai saat yang sebelumnya sudah berjalan {percent}%.",
+                "summary_sequential": "Setiap {unit} selesai dulu sebelum yang berikutnya mulai.",
+                "summary_together": "Semua {unit} bergerak bersamaan.",
+                "summary_whole": "Seluruh blok teks bergerak sebagai satu kesatuan.",
+                "words": "Kata"
+            },
+            "type": {
+                "fade_in": "Pudar masuk",
+                "fade_out": "Pudar keluar",
+                "line_height": "Tinggi Baris",
+                "radius": "Radius",
+                "resize_in": "Ubah ukuran masuk",
+                "resize_out": "Ubah ukuran keluar",
+                "rotate_in": "Putar masuk",
+                "rotate_out": "Putar keluar",
+                "scale_in": "Skala masuk",
+                "scale_out": "Skala keluar",
+                "slide_in": "Geser masuk",
+                "slide_out": "Geser keluar",
+                "spacing": "Spasi",
+                "stroke": "Garis Tepi"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Tambahkan foto Anda untuk melanjutkan.",
+                    "gesture": {
+                        "frameDesktop": "Seret untuk mengatur posisi · Gulir untuk zoom",
+                        "frameMobile": "Seret untuk mengatur posisi, cubit untuk zoom",
+                        "handles": "Ubah ukuran dari sudut dan sisi, putar dari atas",
+                        "move": "Seret untuk memindahkan",
+                        "moveOrHandles": "Seret untuk memindahkan, atau gunakan pegangan",
+                        "resize": "Seret sudut atau sisi untuk mengubah ukuran",
+                        "rotate": "Seret pegangan atas untuk memutar",
+                        "rotateDesktop": "Geser penggaris, atau gunakan tombol panah",
+                        "rotateMobile": "Geser penggaris untuk memutar"
+                    },
+                    "hint": {
+                        "pickDesktop": "Klik area yang ditandai, atau pilih layer di kiri",
+                        "pickMobile": "Ketuk area yang ditandai, atau pilih layer di bawah",
+                        "previewDesktop": "Pratinjau desain Anda. Klik untuk lanjut mengedit.",
+                        "previewMobile": "Pratinjau desain Anda. Ketuk untuk lanjut mengedit."
+                    },
+                    "layer": {
+                        "addPhoto": "Tambahkan foto Anda",
+                        "text": "Teks: {text}",
+                        "yourPhoto": "Foto Anda",
+                        "yourText": "Teks Anda"
+                    },
+                    "layers": {
+                        "all": "Semua layer",
+                        "photo": "Foto",
+                        "sheetDescription": "Semua yang bisa Anda ubah di desain ini.",
+                        "title": "Layer"
+                    },
+                    "photoError": "Kami tidak dapat memakai foto itu. Coba gambar lain.",
+                    "preview": {
+                        "backToEditing": "Kembali mengedit"
+                    },
+                    "rotation": {
+                        "aria": "Rotasi",
+                        "value": "other:# derajat"
+                    },
+                    "tools": {
+                        "adjust": "Atur",
+                        "aria": "Alat layer",
+                        "editText": "Edit teks",
+                        "flip": "Balik",
+                        "locked": "Ukuran dan posisi diatur oleh kreator",
+                        "replace": "Ganti",
+                        "textAria": "Alat teks",
+                        "zoomIn": "Perbesar",
+                        "zoomOut": "Perkecil"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} ditambahkan ke timeline.",
+                "too_big": "{name} melebihi {limit}.",
+                "too_long": "{name} lebih panjang dari {minutes} menit.",
+                "too_many": "Hanya {count} file sekaligus.",
+                "wrong_type": "{name} tidak bisa ditambahkan — hanya file gambar, video, dan SVG."
+            }
+        },
+        "catalogue": {
+            "error_body": "Periksa koneksi kamu, lalu coba lagi.",
+            "loading_more": "Memuat lagi"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Buang Draf",
+                "description_unsaved": "Desain ini belum disimpan. Kalau kamu kembali, desain ini terhapus permanen — termasuk layer, gaya, dan animasinya.",
+                "title": "Buang draf “{title}”?"
+            },
+            "save": {
+                "description": "Setelah disimpan, desain tidak bisa diedit lagi.",
+                "saving": "Menyimpan…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Paskan ke layar"
+        },
+        "graphic_panel": {
+            "add": "Tambah {name}",
+            "add_failed": "Grafis ini tidak bisa ditambahkan. Coba lagi.",
+            "empty_body": "Coba kata yang lebih pendek atau lebih umum, seperti bintang atau hati.",
+            "empty_title": "Tidak ada grafis yang cocok dengan “{query}”",
+            "error_title": "Grafis tidak bisa dimuat",
+            "none_title": "Belum ada grafis untuk ditampilkan",
+            "search_label": "Cari grafis",
+            "search_placeholder": "Cari grafis"
+        },
+        "header": {
+            "redo": "Ulangi",
+            "saving": "Menyimpan…",
+            "undo": "Urungkan",
+            "untitled_design": "Desain tanpa judul"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Slot foto"
+            },
+            "menu": {
+                "align_center": "Tengah horizontal",
+                "bring_forward": "Maju satu lapis",
+                "bring_to_front": "Bawa ke depan",
+                "detach_image": "Lepaskan gambar",
+                "flip_horizontal": "Balik horizontal",
+                "flip_vertical": "Balik vertikal",
+                "replace_image": "Ganti gambar",
+                "send_backward": "Mundur satu lapis",
+                "send_to_back": "Kirim ke belakang",
+                "set_as_background_image": "Jadikan gambar latar",
+                "set_as_background_video": "Jadikan video latar",
+                "set_background_as_image_layer": "Jadikan latar sebagai layer gambar",
+                "set_background_as_video_layer": "Jadikan latar sebagai layer video",
+                "sheet_title": "Opsi layer",
+                "show_layers": "Tampilkan layer"
+            },
+            "pill": {
+                "duplicate": "Duplikat layer",
+                "more": "Tindakan layer lainnya",
+                "remove": "Hapus layer",
+                "toolbar": "Tindakan layer"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Kode pairing siap: {code}. Berikan ke klien AI kamu.",
+                "connecting": "Menyiapkan kode pairing.",
+                "failed": "Gagal terhubung. {reason}",
+                "reconnecting": "Koneksi terputus. Mencoba menyambung lagi."
+            },
+            "clipboard_blocked": "Browser kamu memblokir papan klip. {hint}",
+            "connect": "Hubungkan",
+            "connecting": "Menghubungkan…",
+            "copied_address_announcement": "Alamat server disalin",
+            "copied_code_announcement": "Kode pairing disalin",
+            "copy_address_hint": "Pilih alamatnya dan salin manual.",
+            "copy_code": "Salin kode",
+            "copy_code_hint": "Pilih kodenya dan salin manual.",
+            "copy_server_address": "Salin alamat server MCP",
+            "disconnect": "Putuskan",
+            "error_fallback": "Layanan pairing tidak merespons. Periksa koneksi kamu lalu coba lagi.",
+            "guide": {
+                "fresh_code": "Kalau sebuah kode berhenti bekerja, tekan Putuskan lalu hubungkan lagi untuk dapat kode baru.",
+                "how_to_set_up": "Cara menyiapkannya",
+                "step_add_body": "Tambahkan Twibbonize ke klien AI kamu memakai alamat di bawah. Di Claude Code, jalankan",
+                "step_add_title": "Tambahkan Twibbonize ke klien AI kamu",
+                "step_pair_body": "Katakan “pairing dengan editor Twibbonize” lalu berikan kode di atas.",
+                "step_pair_title": "Minta dia melakukan pairing",
+                "where_to_paste": "Kode ini ditempel di mana?"
+            },
+            "lead": {
+                "code_ready_sentence": "Tempel kode ini ke Claude dan minta dia melakukan pairing. Kanvas menampilkan cincin di sekeliling halaman selama Claude bekerja.",
+                "code_ready_title": "Berikan kode ini ke klien AI kamu",
+                "connecting_sentence": "Butuh sebentar.",
+                "connecting_title": "Menyiapkan kode pairing",
+                "disconnected_sentence": "Claude Desktop dan Claude Code bisa menambah layer, menulis teks, mengatur animasi, dan membaca isi kanvas.",
+                "disconnected_title": "Bawa klien AI ke desain ini",
+                "failed_title": "Gagal terhubung",
+                "reconnecting_sentence": "Sambungan ke klien AI kamu terputus. Mencoba memulihkannya.",
+                "reconnecting_title": "Menyambung ulang",
+                "unavailable_sentence": "Build editor ini belum punya koneksi AI yang diatur, jadi belum ada yang bisa dihubungkan.",
+                "unavailable_title": "MCP belum aktif di sini"
+            },
+            "pairing_code_label": "Kode pairing: {code}"
+        },
+        "media": {
+            "add_asset": "Tambah {name}",
+            "dismiss_error": "Tutup",
+            "empty_body": "Tambahkan file gambar, video, atau audio di bawah dan file itu tetap di sini sampai sesi ini berakhir.",
+            "empty_narrowed_body": "Hapus pencarian atau pilih tipe lain untuk melihat semua yang sudah kamu tambahkan.",
+            "empty_narrowed_title": "Tidak ada yang cocok",
+            "empty_title": "Belum ada yang diunggah",
+            "filter": {
+                "audio": "Audio",
+                "images": "Gambar"
+            },
+            "filter_group_label": "Tipe media",
+            "make_an_image": "Buat Gambar",
+            "make_image_unavailable": "Pembuatan gambar belum tersedia",
+            "search_placeholder": "Cari media",
+            "upload_button": "Unggah Gambar, Video, atau Audio",
+            "uploads_heading": "Unggahan"
+        },
+        "page_bar": {
+            "group_label": "Kontrol zoom",
+            "zoom_menu": "Tingkat zoom, {percent}%"
+        },
+        "panel": {
+            "loading": "Memuat {panel}…"
+        },
+        "photo": {
+            "add_by": "Tambah foto oleh {name}",
+            "add_described": "Tambah foto: {description}",
+            "credit": "Foto disediakan oleh",
+            "empty_body": "Coba kata yang lebih pendek atau lebih umum, seperti pantai atau kota.",
+            "empty_title": "Tidak ada foto yang cocok dengan “{query}”",
+            "error_title": "Foto tidak bisa dimuat",
+            "none_title": "Belum ada foto untuk ditampilkan",
+            "search_label": "Cari foto",
+            "search_placeholder": "Cari foto"
+        },
+        "qr": {
+            "add_logo": "Tambah logo",
+            "add_to_design": "Tambah ke desain",
+            "background_colour_label": "Warna latar",
+            "code_colour_label": "Warna kode",
+            "code_label": "Kode",
+            "link_input_label": "Tautan kode QR",
+            "link_label": "Tautan",
+            "logo_fallback_name": "Gambar logo",
+            "logo_label": "Logo",
+            "remove_logo": "Hapus logo"
+        },
+        "rail": {
+            "aria_label": "Pustaka desain",
+            "graphic": "Grafis",
+            "help": "Bantuan",
+            "layers": "Layer",
+            "mcp": "MCP",
+            "media": "Media",
+            "photo": "Foto",
+            "qr_code": "Kode QR",
+            "shapes": "Bentuk",
+            "templates": "Template",
+            "textures": "Tekstur",
+            "tools": "Alat"
+        },
+        "save": {
+            "failed": "Desain kamu tidak bisa disimpan. Coba lagi."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Kecerahan",
+                "compare": "Bandingkan dengan asli",
+                "contrast": "Kontras",
+                "grayscale": "Skala abu-abu",
+                "group": {
+                    "basic": "Dasar",
+                    "refinements": "Penyempurnaan"
+                },
+                "hue_rotate": "Rotasi Rona",
+                "reset": "Atur Ulang Penyesuaian",
+                "saturation": "Saturasi",
+                "title": "Penyesuaian"
+            },
+            "color": {
+                "trigger": "Warna"
+            },
+            "common": {
+                "layer_blur": "Buram Layer",
+                "layer_blur_stepper": "Buram layer"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Bebas",
+                    "landscape": "Lanskap",
+                    "original": "Asli",
+                    "portrait": "Potret",
+                    "square": "Persegi",
+                    "story": "Story",
+                    "widescreen": "Layar lebar"
+                },
+                "shape": {
+                    "circle": "Lingkaran",
+                    "diamond": "Belah ketupat",
+                    "half_circle": "Setengah lingkaran",
+                    "oval": "Oval",
+                    "parallelogram": "Jajar genjang",
+                    "rounded": "Membulat"
+                }
+            },
+            "filter": {
+                "cool": "Sejuk",
+                "duotone": "Duotone",
+                "mono": "Mono",
+                "original": "Asli",
+                "vivid": "Cerah",
+                "warm": "Hangat"
+            },
+            "font_weight": {
+                "black": "Black",
+                "extra_bold": "ExtraBold",
+                "extra_light": "ExtraLight",
+                "medium": "Medium",
+                "regular": "Regular",
+                "semibold": "SemiBold",
+                "thin": "Thin"
+            },
+            "frame": {
+                "colour": "Warna bingkai"
+            },
+            "green_screen": {
+                "choose_colour": "Pilih warna",
+                "colour": "Warna",
+                "compare": "Bandingkan dengan aslinya",
+                "eyedropper": "Ambil warna dari kanvas",
+                "key_colour": "Warna kunci {hex}",
+                "loose": "Longgar",
+                "nothing_found": "Tidak ada warna latar yang ditemukan.",
+                "precise": "Presisi",
+                "preset": {
+                    "bright_blue": "Biru terang",
+                    "bright_green": "Hijau terang",
+                    "chroma_blue": "Biru chroma",
+                    "chroma_green": "Hijau chroma"
+                },
+                "presets": "Warna latar umum",
+                "remove": "Hapus Green Screen",
+                "title": "Layar hijau"
+            },
+            "image": {
+                "corner_radius": "Radius Sudut",
+                "corner_radius_stepper": "Radius sudut",
+                "per_corner": "Edit tiap sudut",
+                "per_corner_unavailable": "Edit tiap sudut belum tersedia"
+            },
+            "keypad": {
+                "value_field": "Nilai {label}"
+            },
+            "line": {
+                "colour": "Warna garis",
+                "style": {
+                    "dots": "Titik",
+                    "long_dashes": "Garis panjang",
+                    "short_dashes": "Garis pendek",
+                    "solid": "Padat"
+                },
+                "style_trigger": "Gaya garis: {style}",
+                "weight": "Tebal garis",
+                "weight_trigger": "Tebal garis {weight}"
+            },
+            "media": {
+                "heading": "Media"
+            },
+            "page": {
+                "size_capped": "Maks {max} px — rasio dipertahankan"
+            },
+            "pages": {
+                "title": "Halaman"
+            },
+            "photo_slot": {
+                "enable": "Jadikan slot foto",
+                "key_field": "Key (unik)",
+                "key_required": "Key wajib diisi",
+                "key_taken": "Key sudah dipakai slot lain",
+                "label_field": "Label (tampil ke pengguna)",
+                "on": "Slot foto",
+                "remove": "Hapus Slot Foto"
+            },
+            "qr": {
+                "add_logo": "Tambah logo",
+                "background_colour": "Warna latar",
+                "code": "Kode",
+                "code_colour": "Warna kode",
+                "link": "Tautan",
+                "link_input": "Tautan kode QR",
+                "logo": "Logo",
+                "remove_logo": "Hapus logo"
+            },
+            "root": {
+                "background_image": "Gambar latar",
+                "edit_background": "Edit gambar latar",
+                "fill": "Isi",
+                "fill_gradient": "Gradien",
+                "page_height": "Tinggi halaman",
+                "page_width": "Lebar halaman",
+                "ratio_lock": "Kunci rasio aspek",
+                "ratio_unlock": "Buka kunci rasio aspek",
+                "rotate_left": "Putar latar ke kiri",
+                "rotate_right": "Putar latar ke kanan"
+            },
+            "scalar": {
+                "clip_length": "Durasi",
+                "corner_radius": "Radius sudut",
+                "font_size": "Ukuran font",
+                "layer_blur": "Buram layer",
+                "letter_spacing": "Jarak huruf",
+                "line_height": "Tinggi baris",
+                "opacity": "Opasitas",
+                "speed": "Kecepatan",
+                "stroke_width": "Tebal garis tepi",
+                "volume": "Volume"
+            },
+            "shape": {
+                "corner_radius": "Radius Sudut",
+                "corner_radius_stepper": "Radius sudut",
+                "fill": "Isi",
+                "fill_gradient": "Gradien",
+                "fill_mixed": "Campuran",
+                "fill_transparent": "Transparan",
+                "stroke": "Garis tepi",
+                "stroke_color": "Warna garis tepi",
+                "stroke_style": {
+                    "dots": "Titik",
+                    "long_dashes": "Garis panjang",
+                    "short_dashes": "Garis pendek",
+                    "solid": "Padat"
+                },
+                "stroke_style_select": "Gaya garis tepi",
+                "stroke_transparent": "Transparan",
+                "stroke_weight": "Tebal garis tepi"
+            },
+            "svg": {
+                "path_colour": "Warna {index}"
+            },
+            "swatch": {
+                "more_colours": "Warna lainnya"
+            },
+            "text": {
+                "align": {
+                    "justify": "Rata kanan-kiri"
+                },
+                "alignment": "Perataan",
+                "edit_text": "Edit teks",
+                "font_family": "Jenis Font",
+                "font_family_select": "Jenis font",
+                "font_size": "Ukuran font",
+                "italic_unavailable": "Font ini tidak punya gaya miring di ketebalan ini",
+                "letter_spacing_stepper": "Jarak huruf",
+                "line_height": "Tinggi Baris",
+                "line_height_stepper": "Tinggi baris",
+                "list": "Daftar",
+                "list_bulleted": "Daftar poin",
+                "list_numbered": "Daftar nomor",
+                "list_style": "Gaya daftar",
+                "text_case": "Kapitalisasi",
+                "text_color": "Warna teks",
+                "text_style": "Gaya teks",
+                "weight": "Ketebalan"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Ratakan bawah",
+                    "center_x": "Ratakan tengah horizontal",
+                    "center_y": "Ratakan tengah vertikal",
+                    "left": "Ratakan kiri",
+                    "right": "Ratakan kanan",
+                    "top": "Ratakan atas"
+                },
+                "align_to_page": "Ratakan ke halaman",
+                "opacity": "Opasitas",
+                "position": "Posisi",
+                "position_x": "Posisi X",
+                "position_y": "Posisi Y",
+                "rotation": "Rotasi",
+                "scale": "Skala"
+            },
+            "video": {
+                "adjust": "Sesuaikan",
+                "audio": "Audio",
+                "clip_runs": "durasi klip {length}",
+                "corner_radius": "Radius Sudut",
+                "corner_radius_stepper": "Radius sudut",
+                "green_screen": "Layar hijau",
+                "loop": "Ulang sampai desain selesai",
+                "mute": "Bisukan",
+                "muted": "Dibisukan",
+                "no_audio": "Video ini tidak punya audio.",
+                "playback": "Pemutaran",
+                "replace": "Ganti Video",
+                "speed": "Kecepatan",
+                "speed_custom_input": "Kecepatan pemutaran khusus",
+                "speed_presets": "Kecepatan pemutaran",
+                "speed_range": "Antara {min}× dan {max}×",
+                "tools": "Alat",
+                "unmute": "Suarakan",
+                "volume": "Volume",
+                "volume_level": "Tingkat volume"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Panah",
+            "arrow_down": "Panah bawah",
+            "arrow_left": "Panah kiri",
+            "arrow_pentagon": "Panah segi lima",
+            "arrow_right": "Panah kanan",
+            "arrow_up": "Panah atas",
+            "chevron": "Chevron",
+            "circle": "Lingkaran",
+            "cross": "Silang",
+            "diamond": "Belah ketupat",
+            "hexagon": "Segi Enam",
+            "hexagon_wide": "Segi enam lebar",
+            "line": "Garis",
+            "octagon": "Segi delapan",
+            "parallelogram": "Jajar genjang",
+            "parallelogram_mirrored": "Jajar genjang terbalik",
+            "pentagon": "Segi Lima",
+            "square": "Persegi",
+            "trapezoid": "Trapesium",
+            "trapezoid_upside_down": "Trapesium terbalik",
+            "triangle": "Segitiga",
+            "triangle_upside_down": "Segitiga terbalik"
+        },
+        "shapes_panel": {
+            "basic": "Dasar",
+            "lines": "Garis dan panah"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Tambah keyframe",
+                "back_to_animations": "Kembali ke animasi",
+                "basic": "Dasar",
+                "basic_opacity": "Opasitas",
+                "basic_position": "Posisi",
+                "basic_rotation": "Rotasi",
+                "basic_scale": "Skala",
+                "keyframe": "Keyframe",
+                "pick_property_hint": "Pilih properti yang mau di-keyframe. Ketuk salah satunya untuk menutup daftar ini dan membuka panelnya, dengan keyframe yang sudah ditaruh di playhead memakai nilai layer saat ini.",
+                "presets_need_one": "Preset animasi butuh satu elemen. Pilih satu layer saja untuk melihatnya.",
+                "title": "Animasi"
+            },
+            "easing": {
+                "title": "Easing"
+            },
+            "font_weight": {
+                "title": "Ketebalan font"
+            },
+            "speed": {
+                "title": "Kecepatan"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Warna bawaan",
+                "eyedropper": "Ambil warna dari layar",
+                "eyedropper_unsupported": "Browser kamu tidak mendukung pipet warna",
+                "fill_linear": "linier",
+                "fill_radial": "radial",
+                "fill_solid": "solid",
+                "fill_type": "Tipe isian",
+                "gradients_in_design": "Gradien di desain",
+                "hex": "Warna HEX",
+                "in_design": "Di desain",
+                "title": "Warna isian",
+                "use_color": "Pakai {color}",
+                "use_gradient": "Pakai gradien {style}",
+                "use_transparent": "Transparan"
+            },
+            "crop": {
+                "adjust_shape": "Atur bentuk pangkasan",
+                "aspect": "Rasio",
+                "framing": "Penempatan",
+                "framing_hint": "Geser fotonya untuk mengatur penempatan, atau tarik sudutnya untuk mengubah ukuran area pangkas. Gulir untuk memperbesar.",
+                "scale": "Skala"
+            },
+            "filters": {
+                "show_earlier": "Tampilkan filter sebelumnya",
+                "show_more": "Tampilkan filter lainnya",
+                "swatch": "Warna {label}: {color}",
+                "title": "Filter"
+            },
+            "font": {
+                "all_fonts": "SEMUA FONT",
+                "applying": "Menerapkan font",
+                "back": "Kembali ke opsi teks",
+                "clear_search": "Hapus pencarian",
+                "clear_search_action": "Hapus Pencarian",
+                "in_this_design": "DI DESAIN INI",
+                "no_match": "Tidak ada font yang cocok dengan “{query}”",
+                "no_match_hint": "Twibbonize memakai katalog Google Fonts, dan keluarga font ini tidak ada di sana. Coba kata pencarian yang lebih pendek.",
+                "search_label": "Cari keluarga font",
+                "search_placeholder": "Cari font",
+                "title": "Keluarga font",
+                "weight": "Ketebalan font"
+            },
+            "gradient": {
+                "add_stop": "Tambah titik gradien",
+                "angle": "Sudut",
+                "angle_dial": "Sudut gradien, {degrees} derajat. Geser untuk mengubah",
+                "angle_dial_hint": "Geser untuk mengubah sudut gradien",
+                "angle_input": "Sudut gradien dalam derajat",
+                "centre_unsupported": "Titik tengah gradien belum didukung oleh renderer",
+                "stop": "Titik gradien {index} di {percent}%, {color}",
+                "stop_hint": "Geser untuk memindahkan, klik dua kali untuk menghapus"
+            },
+            "image": {
+                "adjustment": "Penyesuaian",
+                "adjustments": "Penyesuaian",
+                "back_to_edit": "Kembali ke tab Edit",
+                "background_removal": "Hapus Latar",
+                "compare": "Bandingkan dengan aslinya",
+                "removing": "Menghapus…",
+                "removing_background": "Menghapus latar",
+                "reset_adjustments": "Atur Ulang Penyesuaian",
+                "tools": "Alat"
+            },
+            "keyframe": {
+                "add": "Tambah keyframe",
+                "add_at_playhead": "Tambah keyframe {property} di playhead",
+                "add_at_playhead_short": "Tambah keyframe di playhead",
+                "add_lane_at_playhead": "Tambah keyframe {lane} di playhead",
+                "add_property": "Tambah Properti untuk Dianimasikan",
+                "all_lanes_added": "Semua properti yang bisa di-keyframe di layer ini sudah punya jalur",
+                "delete": "Hapus keyframe ini",
+                "diamond": "Keyframe {lane} di {seconds} dtk",
+                "easing": "Easing",
+                "easing_caps": "EASING",
+                "first_no_easing": "Keyframe pertama tidak punya easing",
+                "hex": "Warna HEX",
+                "layer_blur": "Buram layer",
+                "letter_spacing": "Spasi huruf",
+                "line_height": "Tinggi baris",
+                "opacity": "Opasitas",
+                "opacity_percent": "Persen opasitas",
+                "position_x": "Posisi X",
+                "position_y": "Posisi Y",
+                "radius_bottom_left": "Radius sudut kiri bawah",
+                "radius_bottom_right": "Radius sudut kanan bawah",
+                "radius_top_left": "Radius sudut kiri atas",
+                "radius_top_right": "Radius sudut kanan atas",
+                "remove": "Hapus keyframe",
+                "remove_at_playhead": "Hapus keyframe {property} di playhead",
+                "rotation": "Rotasi",
+                "scale": "Skala",
+                "shadow_blur": "Buram bayangan",
+                "shadow_color": "Warna bayangan",
+                "shadow_offset_x": "Offset bayangan X",
+                "shadow_offset_y": "Offset bayangan Y",
+                "shadow_spread": "Sebaran bayangan",
+                "stroke_color": "Warna garis tepi",
+                "stroke_weight": "Tebal garis tepi"
+            },
+            "layer": {
+                "page_background": "Latar halaman",
+                "tab_animate": "Animasi",
+                "tabs_label": "Panel layer",
+                "title": "Layer"
+            },
+            "page_preset": {
+                "group_label": "Preset ukuran kanvas",
+                "landscape": "Lanskap",
+                "portrait": "Potret",
+                "square": "Persegi",
+                "story": "Story",
+                "tile_aria": "{name}, {width} kali {height} piksel"
+            },
+            "personalization": {
+                "act_as_placeholder": "Jadikan Slot Kosong",
+                "allow_adjust_framing": "Izinkan Ubah Penempatan",
+                "allow_adjust_framing_hint": "Pendukung bisa memperbesar dan menggeser foto mereka di dalam bingkai.",
+                "allow_change_adjustments": "Izinkan Ubah Penyesuaian",
+                "allow_change_adjustments_hint": "Pendukung bisa mengubah kecerahan, kontras, dan penyesuaian lainnya.",
+                "allow_change_effect": "Izinkan Ubah Efek",
+                "allow_change_effect_hint": "Pendukung bisa memilih efek lain untuk layer ini.",
+                "allow_change_filter": "Izinkan Ubah Filter",
+                "allow_change_filter_hint": "Pendukung bisa memilih filter lain untuk layer ini.",
+                "allow_edit_text": "Izinkan Ubah Teks",
+                "allow_edit_text_hint": "Pendukung bisa mengetik kata-kata mereka sendiri di teks ini.",
+                "allow_flip": "Izinkan Balik",
+                "allow_flip_hint": "Pendukung bisa membalik layer ini.",
+                "allow_move": "Izinkan Pindah",
+                "allow_move_hint": "Pendukung bisa menyeret layer ini ke posisi baru.",
+                "allow_replace_media": "Izinkan Ganti Media",
+                "allow_replace_media_hint": "Pendukung bisa mengganti gambar ini dengan foto mereka sendiri.",
+                "allow_resize": "Izinkan Ubah Ukuran",
+                "allow_resize_hint": "Pendukung bisa mengubah ukuran layer ini dengan menyeret sudut dan sisinya.",
+                "allow_rotate": "Izinkan Putar",
+                "allow_rotate_hint": "Pendukung bisa memutar layer ini ke sudut mana pun.",
+                "group_appearance": "Tampilan",
+                "group_arrange": "Susun",
+                "group_media": "Media",
+                "placeholder_hint": "Menampilkan slot kosong yang bisa diketuk pendukung untuk menambahkan fotonya.",
+                "remove_background": "Hapus latar dari foto mereka",
+                "remove_background_hint": "Memotong pendukung dari fotonya supaya desainmu tampil di sekeliling mereka.",
+                "text_placeholder_hint": "Menampilkan teks ini sebagai contoh yang bisa diganti pendukung dengan teks mereka sendiri."
+            },
+            "shape_effect": {
+                "colour": "Warna efek",
+                "distance": "Jarak",
+                "echo": "Gema",
+                "first_color": "Warna pertama",
+                "first_colour": "Warna efek pertama",
+                "glitch": "Glitch",
+                "glow": "Cahaya",
+                "group_label": "Efek bentuk",
+                "second_color": "Warna kedua",
+                "second_colour": "Warna efek kedua",
+                "section": "Efek",
+                "shadow": "Bayangan jatuh"
+            },
+            "text_effect": {
+                "colour": "Warna efek",
+                "curve": "Lengkung",
+                "distance": "Jarak",
+                "echo": "Gema",
+                "glow": "Cahaya",
+                "group_label": "Efek teks",
+                "outline": "Garis tepi",
+                "section": "Efek",
+                "shape_group_label": "Bentuk teks",
+                "splice": "Splice",
+                "title": "Efek teks"
+            }
+        },
+        "templates": {
+            "empty_body": "Coba kata yang lebih pendek atau lebih umum.",
+            "empty_title": "Tidak ada template yang cocok dengan “{query}”",
+            "error_title": "Template tidak bisa dimuat",
+            "none_body": "Cari tema, seperti ulang tahun atau wisuda.",
+            "none_title": "Belum ada template untuk desain ini",
+            "search_label": "Cari template",
+            "search_placeholder": "Cari template"
+        },
+        "text_panel": {
+            "add_template": "Tambah template teks: {name}",
+            "add_text_box": "Tambah Kotak Teks",
+            "empty_body": "Coba kata yang lebih pendek atau lebih umum.",
+            "empty_title": "Tidak ada template teks yang cocok dengan “{query}”",
+            "error_title": "Template teks tidak bisa dimuat",
+            "none_body": "Mulai saja dengan kotak teks biasa.",
+            "none_title": "Belum ada template teks untuk ditampilkan",
+            "search_label": "Cari template teks",
+            "search_placeholder": "Cari template teks"
+        },
+        "text_preset": {
+            "seed": "Tulis teksmu di sini"
+        },
+        "textures": {
+            "apply_texture": "Terapkan {name}",
+            "category": {
+                "fabric": "Kain",
+                "grain": "Butiran",
+                "grunge": "Grunge",
+                "paper": "Kertas",
+                "print": "Cetak"
+            },
+            "category_group_label": "Kategori tekstur",
+            "empty_body": "Kami sedang menyiapkan pustaka ini — cek lagi nanti.",
+            "empty_title": "Tekstur belum tersedia",
+            "most_used": "Paling sering dipakai",
+            "search_placeholder": "Cari tekstur"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Tambah Audio",
+                "add_tooltip": "Tambahkan trek audio latar",
+                "bar_aria": "{name} pada {start} selama {duration}",
+                "decoding": "Mendekode audio…",
+                "decoding_waveform": "Mendekode bentuk gelombang…",
+                "default_name": "Audio",
+                "drop_to_add": "Lepas untuk menambahkan audio",
+                "kind_suffix": "· Audio",
+                "mute": "Bisukan trek",
+                "unmute": "Bunyikan trek",
+                "volume": "Volume trek",
+                "waveform_error": "Bentuk gelombang trek ini tidak bisa dimuat."
+            },
+            "keyframe": {
+                "add": "Tambah Keyframe",
+                "add_at_playhead": "Tambahkan keyframe di posisi playhead",
+                "add_tooltip": "Buat keyframe untuk properti layer ini",
+                "diamond_aria": "Keyframe {lane} di {time}",
+                "diamond_hint": " · seret untuk mengubah waktu, klik kanan untuk menghapus",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Radius Sudut",
+                    "layer_blur": "Buram Layer",
+                    "line_height": "Tinggi Baris",
+                    "opacity": "Opasitas",
+                    "position": "Posisi",
+                    "rotation": "Rotasi",
+                    "scale": "Skala",
+                    "stroke": "Garis Tepi"
+                },
+                "remove_lane": "Hapus keyframe {lane}",
+                "remove_lane_from_layer": "Hapus keyframe {lane} dari {layer}",
+                "segment_easing_aria": "Timing function {lane} antara {from} dan {to}, sekarang {easing}",
+                "segment_easing_title": "Timing function · {easing}",
+                "welded_aria": ", menempel ke tepi layer",
+                "welded_title": " · menempel ke tepi layer"
+            },
+            "menu": {
+                "repeat_until_end": "Ulang sampai akhir"
+            },
+            "track": {
+                "bar_aria": "{name} pada {start} selama {duration}",
+                "bar_aria_end_glued": ", ujung akhir menempel ke layer",
+                "bar_aria_start_glued": ", ujung awal menempel ke layer",
+                "bar_tooltip": "{name} · {start} selama {duration}ms · seret untuk memindahkan, seret tepinya untuk mengubah ukuran (Alt = tanpa snap)",
+                "bar_tooltip_sole": " · menyeret tepi ini akan memindahkan layer",
+                "clip_aria": "Klip {name}",
+                "clip_tooltip": "Seret untuk memindahkan layer di timeline · seret ujungnya untuk memangkas (Alt = tanpa snap)",
+                "collapse": "Ciutkan",
+                "collapse_all": "Ciutkan semua layer",
+                "collapse_named": "Ciutkan {name}",
+                "delete_layer": "Hapus Layer",
+                "delete_named": "Hapus {name}",
+                "ends_at": "Berakhir di",
+                "expand": "Bentangkan",
+                "expand_named": "Bentangkan {name}",
+                "hidden_lane_one": "{count} jalur tersembunyi",
+                "hidden_lane_other": "{count} jalur tersembunyi",
+                "hide": "Sembunyikan",
+                "hide_named": "Sembunyikan {name}",
+                "lane_reorder_tooltip": "Seret untuk mengurutkan ulang — jalur paling atas yang menang saat animasi bertumpuk",
+                "layer_animations": "Animasi layer",
+                "lock_layer": "Kunci layer",
+                "lock_named": "Kunci {name}",
+                "remove_animation": "Hapus Animasi",
+                "remove_animation_aria": "Hapus animasi {name} dari {layer}",
+                "reorder_tooltip": "Seret untuk mengurutkan ulang trek — urutan tumpukan di kanvas diatur di panel layer",
+                "show": "Tampilkan",
+                "show_named": "Tampilkan {name}",
+                "split": "Pisah",
+                "starts_at": "Mulai di",
+                "trim_end": "Pangkas akhir",
+                "trim_start": "Pangkas awal",
+                "trim_to": "Pangkas sampai {time}",
+                "unlock_layer": "Buka kunci layer",
+                "unlock_named": "Buka kunci {name}"
+            },
+            "transport": {
+                "current_time_field": "Waktu saat ini dalam milidetik",
+                "duration_edge_aria": "Durasi halaman {seconds} detik",
+                "duration_edge_tooltip": "Durasi halaman {seconds} dtk · seret untuk mengubah, klik untuk nilai persisnya (Alt = tanpa snap)",
+                "duration_max": "Maksimal {seconds} dtk",
+                "fit_to_width": "Paskan ke lebar",
+                "forward": "Maju",
+                "lengthen_page": "Perpanjang halaman",
+                "loop": "Putar berulang",
+                "page_duration": "Durasi halaman",
+                "page_duration_field": "Durasi halaman dalam milidetik",
+                "resize_dock": "Ubah ukuran timeline",
+                "rewind": "Mundur",
+                "shorten_page": "Perpendek halaman",
+                "zoom": "Zoom timeline"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {

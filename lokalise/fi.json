@@ -2842,7 +2842,9 @@
             "type": "Tyyppi:",
             "size": "Koko:",
             "type_image": "JPG, PNG tai SVG",
-            "maximum_size": "Enintään 5 MB"
+            "maximum_size": "Enintään 5 MB",
+            "abandoned": "Lataus pysähtyi, kun kerros poistettiin. Yritä uudelleen, jos haluat pitää sen kirjastossasi.",
+            "failed": "Lataus epäonnistui. Tarkista yhteytesi ja yritä uudelleen."
         },
         "toolbar": {
             "copy": "Kopioi",
@@ -2871,7 +2873,119 @@
             "border_weight": "Reunan paino",
             "corner_rounding": "Kulman pyöristys",
             "align": "Kohdista",
-            "effects": "Tehosteet"
+            "effects": "Tehosteet",
+            "animate": {
+                "amount": "Määrä",
+                "angle": "Kulma",
+                "close": "Sulje animaation asetukset",
+                "delete_animation": "Poista animaatio",
+                "distance": "Etäisyys",
+                "easing": "Pehmennys",
+                "fade": "Häivytys",
+                "settings_aria": "Animaation asetukset"
+            },
+            "audio": {
+                "replace": "Korvaa",
+                "tools_aria": "Äänriston työkalut",
+                "trim": "Rajaa",
+                "volume": "Äänenvoimakkuus"
+            },
+            "clip": {
+                "length": "Pituus",
+                "split": "Jaa",
+                "trim": "Rajaa"
+            },
+            "entry": {
+                "animate": "Animoi"
+            },
+            "image": {
+                "adjust": "Säädä",
+                "background_removal_unavailable": "Taustan poisto ei ole vielä käytettävissä",
+                "remove_background": "Poista tausta",
+                "remove_background_short": "Rajaus",
+                "replace": "Korvaa"
+            },
+            "keyframe": {
+                "blur": "Kerroksen sumennus",
+                "close": "Sulje avainkehyksen ominaisuudet",
+                "delete_keyframe": "Poista avainkehys",
+                "letter_spacing": "Välistys",
+                "line_height": "Riviväli",
+                "opacity": "Peittävyys",
+                "position": "Sijainti",
+                "properties_aria": "Avainkehyksen ominaisuudet",
+                "rotation": "Kierto",
+                "scale": "Skaalaus"
+            },
+            "layer_tools": {
+                "deselect": "Poista kerroksen valinta",
+                "tools_aria": "Kerroksen työkalut"
+            },
+            "media": {
+                "adjust": "Säädä",
+                "green_screen": "Vihreä tausta",
+                "replace": "Korvaa",
+                "trim": "Rajaa"
+            },
+            "misc": {
+                "background_fill": "Taustan täyttö",
+                "background_fill_short": "Täyttö",
+                "configure_qr": "Määritä QR-koodi",
+                "edit_background_image": "Muokkaa taustakuvaa",
+                "no_background_image": "Ei vielä taustakuvaa",
+                "replace_unavailable": "Korvaa (ei vielä käytettävissä)"
+            },
+            "opacity": {
+                "label": "Peittävyys"
+            },
+            "shape": {
+                "corner_radius": "Kulman säde",
+                "corner_radius_short": "Säde",
+                "fill": "Täyttö",
+                "line_color": "Viivan väri",
+                "line_style_dots": "Pisteet",
+                "line_style_long_dashes": "Pitkät katkoviivat",
+                "line_style_named": "Viivan tyyli: {style}",
+                "line_style_short_dashes": "Lyhyet katkoviivat",
+                "line_style_solid": "Yhtenäinen",
+                "line_weight": "Viivan paksuus",
+                "stroke_color": "Ääriviivan väri",
+                "stroke_color_short": "Ääriviiva",
+                "stroke_weight": "Ääriviivan paksuus",
+                "stroke_weight_short": "Paksuus"
+            },
+            "speed": {
+                "custom_input": "Mukautettu toistonopeus",
+                "label": "Nopeus",
+                "playback_length": "Toiston pituus",
+                "playback_speed": "Toistonopeus",
+                "range_hint": "Väliltä {min}×–{max}×"
+            },
+            "text": {
+                "decrease_font_size": "Pienennä fonttikokoa",
+                "font_family": "Fonttiperhe",
+                "font_family_named": "Fonttiperhe: {value}",
+                "font_size": "Fonttikoko",
+                "font_weight": "Fontin paksuus",
+                "font_weight_named": "Fontin paksuus: {value}",
+                "increase_font_size": "Suurenna fonttikokoa",
+                "keyboard": "Näppäimistö",
+                "line_height": "Riviväli",
+                "spacing": "Välistys",
+                "text_color": "Tekstin väri",
+                "weight": "Paksuus"
+            },
+            "volume": {
+                "clip_hint": "Vain tämä leike. Aikajanalle sijoitettu ääni säilyttää oman tasonsa.",
+                "label": "Äänenvoimakkuus",
+                "level": "Taso",
+                "mute": "Mykistä",
+                "muted": "Mykistetty",
+                "muted_hint": "Taso säilyy. Poista mykistys, niin leike palaa tasolle {percent}%.",
+                "no_audio": "Tässä videossa ei ole ääntä.",
+                "slider": "Äänenvoimakkuuden taso",
+                "unmute": "Poista mykistys"
+            }
         },
         "confirmation": {
             "cancel": "Hävitä",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Asiakirjan värit",
             "default_colors": "Oletusvärit"
         },
-        "graphic": "Graafinen"
+        "graphic": "Graafinen",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Alakeskellä",
+                "bottom_left": "Vasemmalla alhaalla",
+                "bottom_right": "Oikealla alhaalla",
+                "center_left": "Keskellä vasemmalla",
+                "center_right": "Keskellä oikealla",
+                "top_center": "Ylhäällä keskellä",
+                "top_left": "Vasemmalla ylhäällä",
+                "top_right": "Oikealla ylhäällä"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Loppu",
+                "more_options": "Lisää vaihtoehtoja"
+            },
+            "direction": {
+                "bottom_left": "Vasemmalta alhaalta",
+                "bottom_right": "Oikealta alhaalta",
+                "clockwise": "Myötäpäivään",
+                "counter_clockwise": "Vastapäivään",
+                "from_the": "Mistä: {place}",
+                "to_the": "Mihin: {place}",
+                "top_left": "Vasemmalta ylhäältä",
+                "top_right": "Oikealta ylhäältä"
+            },
+            "easing": {
+                "accelerate": "Kiihdytä",
+                "bounce": "Pomppu",
+                "elastic": "Joustava",
+                "impulse": "Impulssi",
+                "natural": "Luonnollinen",
+                "overshoot": "Ylitys",
+                "slow_down": "Hidasta",
+                "smooth": "Pehmeä",
+                "swing": "Heilahdus"
+            },
+            "field": {
+                "amount": "Määrä",
+                "anchor_group": "Ankkuripiste",
+                "anchor_point": "Ankkuripiste",
+                "angle": "Kulma",
+                "apply_effect_to": "Käytä tehostetta kohteeseen",
+                "axis": "Akseli",
+                "choose_easing": "Valitse pehmennys",
+                "distance": "Etäisyys",
+                "duration": "Kesto",
+                "edge": "Reuna",
+                "fade": "Häivytys",
+                "from_noun": "Lähtötila: {noun}",
+                "horizontal": "Vaakasuuntainen",
+                "noun_blur": "sumennus",
+                "noun_opacity": "peittävyys",
+                "noun_size": "koko",
+                "opacity": "Peittävyys",
+                "order": "Järjestys",
+                "position": "Sijainti",
+                "rotation": "Kierto",
+                "rotation_direction": "Kiertosuunta",
+                "scale": "Skaalaus",
+                "smoothing": "Tasoitus",
+                "to_noun": "Lopputila: {noun}",
+                "vertical": "Pystysuuntainen"
+            },
+            "mode": {
+                "arrives": "Saapuu",
+                "departs": "Poistuu",
+                "in": "Sisään",
+                "out": "Ulos"
+            },
+            "panel": {
+                "animation": "Animaatio",
+                "animations_tab": "Animaatiot",
+                "basic": "Perus",
+                "changing_note": "Valitse korvaava. Se ottaa muutettavan animaation paikan ja pituuden.",
+                "corner_radius": "Kulman säde",
+                "easing": "Pehmennys",
+                "fade": "Häivytys",
+                "keyframe_tab": "Avainkehys",
+                "layer_blur": "Kerroksen sumennus",
+                "line_height": "Riviväli",
+                "more_options": "Lisää vaihtoehtoja",
+                "motion": "Liike",
+                "needs_one_element": "Animaatioesiasetukset tarvitsevat yhden elementin. Valitse yksi kerros nähdäksesi ne.",
+                "paste_animation": "Liitä animaatio",
+                "scale": "Skaalaus",
+                "slide": "Liuku",
+                "stroke": "Ääriviiva",
+                "text_animation": "Tekstianimaatio"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Ilmesty",
+                    "label": "Ilmesty"
+                },
+                "blur": {
+                    "label": "Sumennuksesta esiin"
+                },
+                "blur_scale": {
+                    "caption": "Sumennus ja skaalaus",
+                    "label": "Sumennuksesta esiin skaalaten"
+                },
+                "blur_slide": {
+                    "caption": "Sumennus ja liuku",
+                    "label": "Sumennuksesta esiin liukuen"
+                },
+                "fade": {
+                    "caption": "Häivytys",
+                    "label": "Häivytys"
+                },
+                "grow": {
+                    "caption": "Pomppaus",
+                    "label": "Pomppaa esiin"
+                },
+                "mask_center": {
+                    "caption": "Peitto keskeltä",
+                    "label": "Peittopaljastus keskeltä"
+                },
+                "mask_reveal": {
+                    "caption": "Peittopaljastus",
+                    "label": "Peittopaljastus reunalta"
+                },
+                "mask_slide": {
+                    "caption": "Peitto ja liuku",
+                    "label": "Peittopaljastus liukuen"
+                },
+                "move_scale": {
+                    "caption": "Siirto ja skaalaus",
+                    "label": "Siirry ja skaalaudu esiin"
+                },
+                "rotate_left": {
+                    "label": "Käännä vasemmalta"
+                },
+                "rotate_right": {
+                    "label": "Käännä oikealta"
+                },
+                "shrink": {
+                    "caption": "Iso",
+                    "label": "Isona esiin"
+                },
+                "slide": {
+                    "caption": "Liuku",
+                    "label": "Liu'u esiin"
+                },
+                "slide_from_bottom": {
+                    "label": "Liu'u alhaalta"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Vasen alakulma",
+                    "label": "Liu'u vasemmasta alakulmasta"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Oikea alakulma",
+                    "label": "Liu'u oikeasta alakulmasta"
+                },
+                "slide_from_left": {
+                    "label": "Liu'u vasemmalta"
+                },
+                "slide_from_right": {
+                    "label": "Liu'u oikealta"
+                },
+                "slide_from_top": {
+                    "label": "Liu'u ylhäältä"
+                },
+                "slide_from_top_left": {
+                    "caption": "Vasen yläkulma",
+                    "label": "Liu'u vasemmasta yläkulmasta"
+                },
+                "slide_from_top_right": {
+                    "caption": "Oikea yläkulma",
+                    "label": "Liu'u oikeasta yläkulmasta"
+                },
+                "spin": {
+                    "caption": "Pyöräytys",
+                    "label": "Pyöri esiin"
+                },
+                "spin_scale": {
+                    "caption": "Pyöräytys ja skaalaus",
+                    "label": "Pyöri ja skaalaudu esiin"
+                },
+                "twist": {
+                    "caption": "Kierre",
+                    "label": "Kierry esiin"
+                }
+            },
+            "property": {
+                "change_text": "Muuta tekstiä",
+                "morph": "Muunnos",
+                "move": "Siirrä",
+                "opacity": "Peittävyys",
+                "scale": "Skaalaus"
+            },
+            "section": {
+                "fade": "Häivytys",
+                "mask": "Maski",
+                "scale": "Skaalaus",
+                "slide": "Liuku",
+                "transform": "Muunna"
+            },
+            "text": {
+                "backward": "Taaksepäin",
+                "forward": "Eteenpäin",
+                "letters": "Kirjaimet",
+                "summary_overlap": "Kukin {unit} alkaa, kun edellinen on {percent}% valmis.",
+                "summary_sequential": "Kukin {unit} päättyy ennen seuraavan alkua.",
+                "summary_together": "Kaikki {unit} liikkuvat yhdessä.",
+                "summary_whole": "Koko tekstilohko animoituu yhtenä.",
+                "words": "Sanat"
+            },
+            "type": {
+                "fade_in": "Häivytys sisään",
+                "fade_out": "Häivytys ulos",
+                "line_height": "Riviväli",
+                "radius": "Säde",
+                "resize_in": "Koon muutos sisään",
+                "resize_out": "Koon muutos ulos",
+                "rotate_in": "Kierto sisään",
+                "rotate_out": "Kierto ulos",
+                "scale_in": "Skaalaus sisään",
+                "scale_out": "Skaalaus ulos",
+                "slide_in": "Liuku sisään",
+                "slide_out": "Liuku ulos",
+                "spacing": "Välistys",
+                "stroke": "Ääriviiva"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Lisää kuvasi jatkaaksesi.",
+                    "gesture": {
+                        "frameDesktop": "Siirrä vetämällä · Zoomaa vierittämällä",
+                        "frameMobile": "Siirrä vetämällä, zoomaa nipistämällä",
+                        "handles": "Muuta kokoa kulmista ja sivuilta, kierrä yläreunasta",
+                        "move": "Siirrä vetämällä",
+                        "moveOrHandles": "Siirrä vetämällä tai käytä kahvoja",
+                        "resize": "Muuta kokoa vetämällä kulmasta tai sivusta",
+                        "rotate": "Kierrä vetämällä ylintä kahvaa",
+                        "rotateDesktop": "Vedä viivainta tai käytä nuolinäppäimiä",
+                        "rotateMobile": "Kierrä vetämällä viivainta"
+                    },
+                    "hint": {
+                        "pickDesktop": "Napsauta merkittyä aluetta tai valitse kerros vasemmalta",
+                        "pickMobile": "Napauta merkittyä aluetta tai valitse kerros alta",
+                        "previewDesktop": "Suunnitelmasi esikatselu. Jatka muokkausta napsauttamalla sitä.",
+                        "previewMobile": "Suunnitelmasi esikatselu. Jatka muokkausta napauttamalla sitä."
+                    },
+                    "layer": {
+                        "addPhoto": "Lisää kuvasi",
+                        "text": "Teksti: {text}",
+                        "yourPhoto": "Sinun kuvasi",
+                        "yourText": "Sinun tekstisi"
+                    },
+                    "layers": {
+                        "all": "Kaikki kerrokset",
+                        "photo": "Kuva",
+                        "sheetDescription": "Kaikki tämän suunnitelman muutettavissa oleva.",
+                        "title": "Kerrokset"
+                    },
+                    "photoError": "Emme voineet käyttää tuota kuvaa. Kokeile toista kuvaa.",
+                    "preview": {
+                        "backToEditing": "Takaisin muokkaukseen"
+                    },
+                    "rotation": {
+                        "aria": "Kierto",
+                        "value": "one:# aste|other:# astetta"
+                    },
+                    "tools": {
+                        "adjust": "Säädä",
+                        "aria": "Kerroksen työkalut",
+                        "editText": "Muokkaa tekstiä",
+                        "flip": "Käännä",
+                        "locked": "Tekijä on asettanut koon ja sijainnin",
+                        "replace": "Korvaa",
+                        "textAria": "Tekstityökalut",
+                        "zoomIn": "Lähennä",
+                        "zoomOut": "Loitonna"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} lisättiin aikajanalle.",
+                "too_big": "{name} ylittää rajan {limit}.",
+                "too_long": "{name} on yli {minutes} minuuttia pitkä.",
+                "too_many": "Vain {count} tiedostoa kerrallaan.",
+                "wrong_type": "Kohdetta {name} ei voi lisätä — vain kuvat, videot ja SVG-tiedostot."
+            }
+        },
+        "catalogue": {
+            "error_body": "Tarkista yhteytesi ja yritä sitten uudelleen.",
+            "loading_more": "Ladataan lisää"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Hylkää luonnos",
+                "description_unsaved": "Tätä suunnitelmaa ei ole tallennettu. Takaisin palaaminen poistaa sen pysyvästi — kerrokset, tyylit ja animaatiot mukaan lukien.",
+                "title": "Hylätäänkö luonnos “{title}”?"
+            },
+            "save": {
+                "description": "Kun se on tallennettu, muokkaus ei ole enää käytettävissä.",
+                "saving": "Tallennetaan…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Sovita näyttöön"
+        },
+        "graphic_panel": {
+            "add": "Lisää {name}",
+            "add_failed": "Tätä grafiikkaa ei voitu lisätä. Yritä uudelleen.",
+            "empty_body": "Kokeile lyhyempää tai yleisempää sanaa, kuten tähti tai sydän.",
+            "empty_title": "Ei grafiikkaa haulle “{query}”",
+            "error_title": "Grafiikan lataus epäonnistui",
+            "none_title": "Ei näytettävää grafiikkaa",
+            "search_label": "Hae grafiikkaa",
+            "search_placeholder": "Hae grafiikkaa"
+        },
+        "header": {
+            "redo": "Tee uudelleen",
+            "saving": "Tallennetaan…",
+            "undo": "Kumoa",
+            "untitled_design": "Nimetön suunnitelma"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Kuvapaikka"
+            },
+            "menu": {
+                "align_center": "Keskitä",
+                "bring_forward": "Tuo eteenpäin",
+                "bring_to_front": "Tuo eteen",
+                "detach_image": "Irrota kuva",
+                "flip_horizontal": "Käännä vaakasuunnassa",
+                "flip_vertical": "Käännä pystysuunnassa",
+                "replace_image": "Korvaa kuva",
+                "send_backward": "Lähetä taaksepäin",
+                "send_to_back": "Lähetä taakse",
+                "set_as_background_image": "Aseta taustakuvaksi",
+                "set_as_background_video": "Aseta taustavideoksi",
+                "set_background_as_image_layer": "Aseta tausta kuvakerrokseksi",
+                "set_background_as_video_layer": "Aseta tausta videokerrokseksi",
+                "sheet_title": "Kerroksen asetukset",
+                "show_layers": "Näytä kerrokset"
+            },
+            "pill": {
+                "duplicate": "Kaksoiskappale kerroksesta",
+                "more": "Lisää kerrostoimintoja",
+                "remove": "Poista kerros",
+                "toolbar": "Kerroksen toiminnot"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Parituskoodi valmis: {code}. Anna se tekoälyasiakkaallesi.",
+                "connecting": "Luodaan parituskoodia.",
+                "failed": "Yhteyden muodostus epäonnistui. {reason}",
+                "reconnecting": "Yhteys katkesi. Yritetään yhdistää uudelleen."
+            },
+            "clipboard_blocked": "Selaimesi esti leikepöydän. {hint}",
+            "connect": "Yhdistä",
+            "connecting": "Yhdistetään…",
+            "copied_address_announcement": "Palvelimen osoite kopioitu",
+            "copied_code_announcement": "Parituskoodi kopioitu",
+            "copy_address_hint": "Valitse osoite ja kopioi se käsin.",
+            "copy_code": "Kopioi koodi",
+            "copy_code_hint": "Valitse koodi ja kopioi se käsin.",
+            "copy_server_address": "Kopioi MCP-palvelimen osoite",
+            "disconnect": "Katkaise yhteys",
+            "error_fallback": "Parituspalvelu ei vastannut. Tarkista yhteytesi ja yritä uudelleen.",
+            "guide": {
+                "fresh_code": "Jos koodi lakkaa toimimasta, paina Katkaise yhteys ja yhdistä uudelleen saadaksesi uuden.",
+                "how_to_set_up": "Näin otat tämän käyttöön",
+                "step_add_body": "Lisää Twibbonize tekoälyasiakkaaseesi alla olevalla osoitteella. Suorita Claude Codessa",
+                "step_add_title": "Lisää Twibbonize tekoälyasiakkaaseesi",
+                "step_pair_body": "Sano “pair with the Twibbonize editor” ja anna sille yllä oleva koodi.",
+                "step_pair_title": "Pyydä sitä parittamaan",
+                "where_to_paste": "Mihin tämä koodi liitetään?"
+            },
+            "lead": {
+                "code_ready_sentence": "Liitä se Claudeen ja pyydä parittamaan. Kangas piirtää sivun ympärille renkaan, kun Claude työskentelee.",
+                "code_ready_title": "Anna tämä koodi tekoälyasiakkaallesi",
+                "connecting_sentence": "Tähän menee hetki.",
+                "connecting_title": "Luodaan parituskoodia",
+                "disconnected_sentence": "Claude Desktop ja Claude Code voivat lisätä kerroksia, kirjoittaa tekstiä, asettaa animaatioita ja lukea kankaan sisältöä.",
+                "disconnected_title": "Tuo tekoälyasiakas tähän suunnitelmaan",
+                "failed_title": "Yhteyden muodostus epäonnistui",
+                "reconnecting_sentence": "Yhteys tekoälyasiakkaaseesi katkesi. Yritetään palauttaa se.",
+                "reconnecting_title": "Yhdistetään uudelleen",
+                "unavailable_sentence": "Tähän editoriversioon ei ole määritetty tekoälyyhteyttä, joten ei ole vielä mitään, mihin yhdistää.",
+                "unavailable_title": "MCP ei ole käytössä täällä"
+            },
+            "pairing_code_label": "Parituskoodi: {code}"
+        },
+        "media": {
+            "add_asset": "Lisää {name}",
+            "dismiss_error": "Ohita",
+            "empty_body": "Lisää kuva-, video- tai äänitiedosto alla, niin se pysyy täällä koko istunnon ajan.",
+            "empty_narrowed_body": "Tyhjennä haku tai valitse toinen tyyppi nähdäksesi kaiken lisäämäsi.",
+            "empty_narrowed_title": "Ei osumia",
+            "empty_title": "Ei vielä latauksia",
+            "filter": {
+                "audio": "Ääni",
+                "images": "Kuvat"
+            },
+            "filter_group_label": "Median tyyppi",
+            "make_an_image": "Luo kuva",
+            "make_image_unavailable": "Kuvien luonti ei ole vielä käytettävissä",
+            "search_placeholder": "Hae mediaa",
+            "upload_button": "Lataa kuva, video tai ääni",
+            "uploads_heading": "Lataukset"
+        },
+        "page_bar": {
+            "group_label": "Zoomausohjaimet",
+            "zoom_menu": "Zoomaustaso, {percent}%"
+        },
+        "panel": {
+            "loading": "Ladataan {panel}…"
+        },
+        "photo": {
+            "add_by": "Lisää kuva, tekijä {name}",
+            "add_described": "Lisää kuva: {description}",
+            "credit": "Kuvat tarjoaa",
+            "empty_body": "Kokeile lyhyempää tai yleisempää sanaa, kuten ranta tai kaupunki.",
+            "empty_title": "Ei kuvia haulle “{query}”",
+            "error_title": "Kuvien lataus epäonnistui",
+            "none_title": "Ei näytettäviä kuvia",
+            "search_label": "Hae kuvia",
+            "search_placeholder": "Hae kuvia"
+        },
+        "qr": {
+            "add_logo": "Lisää logo",
+            "add_to_design": "Lisää suunnitelmaan",
+            "background_colour_label": "Taustaväri",
+            "code_colour_label": "Koodin väri",
+            "code_label": "Koodi",
+            "link_input_label": "QR-koodin linkki",
+            "link_label": "Linkki",
+            "logo_fallback_name": "Logokuva",
+            "logo_label": "Logo",
+            "remove_logo": "Poista logo"
+        },
+        "rail": {
+            "aria_label": "Suunnittelukirjastot",
+            "graphic": "Grafiikka",
+            "help": "Ohje",
+            "layers": "Kerrokset",
+            "mcp": "MCP",
+            "media": "Media",
+            "photo": "Kuvat",
+            "qr_code": "QR-koodi",
+            "shapes": "Muodot",
+            "templates": "Mallit",
+            "textures": "Tekstuurit",
+            "tools": "Työkalut"
+        },
+        "save": {
+            "failed": "Suunnitelmaasi ei voitu tallentaa. Yritä uudelleen."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Kirkkaus",
+                "compare": "Vertaa alkuperäiseen",
+                "contrast": "Kontrasti",
+                "grayscale": "Harmaasävy",
+                "group": {
+                    "basic": "Perus",
+                    "refinements": "Hienosäädöt"
+                },
+                "hue_rotate": "Sävyn kierto",
+                "reset": "Palauta säädöt",
+                "saturation": "Kylläisyys",
+                "title": "Säädöt"
+            },
+            "color": {
+                "trigger": "Väri"
+            },
+            "common": {
+                "layer_blur": "Kerroksen sumennus",
+                "layer_blur_stepper": "Kerroksen sumennus"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Vapaa muoto",
+                    "landscape": "Vaaka",
+                    "original": "Alkuperäinen",
+                    "portrait": "Pysty",
+                    "square": "Neliö",
+                    "story": "Story",
+                    "widescreen": "Laajakuva"
+                },
+                "shape": {
+                    "circle": "Ympyrä",
+                    "diamond": "Vinoneliö",
+                    "half_circle": "Puoliympyrä",
+                    "oval": "Soikio",
+                    "parallelogram": "Suunnikas",
+                    "rounded": "Pyöristetty"
+                }
+            },
+            "filter": {
+                "cool": "Viileä",
+                "duotone": "Duotone",
+                "mono": "Mono",
+                "original": "Alkuperäinen",
+                "vivid": "Eloisa",
+                "warm": "Lämmin"
+            },
+            "font_weight": {
+                "black": "Musta",
+                "extra_bold": "Erittäin lihavoitu",
+                "extra_light": "Erittäin ohut",
+                "medium": "Keskipaksu",
+                "regular": "Normaali",
+                "semibold": "Puolilihava",
+                "thin": "Ohut"
+            },
+            "frame": {
+                "colour": "Kehyksen väri"
+            },
+            "green_screen": {
+                "choose_colour": "Valitse väri",
+                "colour": "Väri",
+                "compare": "Vertaa alkuperäiseen",
+                "eyedropper": "Valitse väri kankaalta",
+                "key_colour": "Avainväri {hex}",
+                "loose": "Väljä",
+                "nothing_found": "Taustaväriä ei löytynyt.",
+                "precise": "Tarkka",
+                "preset": {
+                    "bright_blue": "Kirkas sininen",
+                    "bright_green": "Kirkas vihreä",
+                    "chroma_blue": "Chroma-sininen",
+                    "chroma_green": "Chroma-vihreä"
+                },
+                "presets": "Yleiset taustavärit",
+                "remove": "Poista vihreä tausta",
+                "title": "Vihreä tausta"
+            },
+            "image": {
+                "corner_radius": "Kulman säde",
+                "corner_radius_stepper": "Kulman säde",
+                "per_corner": "Muokkaa yksittäisiä kulmia",
+                "per_corner_unavailable": "Yksittäisten kulmien muokkaus ei ole vielä käytettävissä"
+            },
+            "keypad": {
+                "value_field": "{label}-arvo"
+            },
+            "line": {
+                "colour": "Viivan väri",
+                "style": {
+                    "dots": "Pisteet",
+                    "long_dashes": "Pitkät katkoviivat",
+                    "short_dashes": "Lyhyet katkoviivat",
+                    "solid": "Yhtenäinen"
+                },
+                "style_trigger": "Viivan tyyli: {style}",
+                "weight": "Viivan paksuus",
+                "weight_trigger": "Viivan paksuus {weight}"
+            },
+            "media": {
+                "heading": "Media"
+            },
+            "page": {
+                "size_capped": "Enintään {max} px — kuvasuhde säilyy"
+            },
+            "pages": {
+                "title": "Sivut"
+            },
+            "photo_slot": {
+                "enable": "Käytä kuvapaikkana",
+                "key_field": "Avain (yksilöllinen)",
+                "key_required": "Avain vaaditaan",
+                "key_taken": "Avain on jo toisen paikan käytössä",
+                "label_field": "Nimike (näytetään loppukäyttäjälle)",
+                "on": "Kuvapaikka",
+                "remove": "Poista kuvapaikka"
+            },
+            "qr": {
+                "add_logo": "Lisää logo",
+                "background_colour": "Taustaväri",
+                "code": "Koodi",
+                "code_colour": "Koodin väri",
+                "link": "Linkki",
+                "link_input": "QR-koodin linkki",
+                "logo": "Logo",
+                "remove_logo": "Poista logo"
+            },
+            "root": {
+                "background_image": "Taustakuva",
+                "edit_background": "Muokkaa taustakuvaa",
+                "fill": "Täyttö",
+                "fill_gradient": "Liukuväri",
+                "page_height": "Sivun korkeus",
+                "page_width": "Sivun leveys",
+                "ratio_lock": "Lukitse kuvasuhde",
+                "ratio_unlock": "Poista kuvasuhteen lukitus",
+                "rotate_left": "Kierrä taustaa vasemmalle",
+                "rotate_right": "Kierrä taustaa oikealle"
+            },
+            "scalar": {
+                "clip_length": "Pituus",
+                "corner_radius": "Kulman säde",
+                "font_size": "Fonttikoko",
+                "layer_blur": "Kerroksen sumennus",
+                "letter_spacing": "Kirjainväli",
+                "line_height": "Riviväli",
+                "opacity": "Peittävyys",
+                "speed": "Nopeus",
+                "stroke_width": "Ääriviivan paksuus",
+                "volume": "Äänenvoimakkuus"
+            },
+            "shape": {
+                "corner_radius": "Kulman säde",
+                "corner_radius_stepper": "Kulman säde",
+                "fill": "Täyttö",
+                "fill_gradient": "Liukuväri",
+                "fill_mixed": "Sekalainen",
+                "fill_transparent": "Läpinäkyvä",
+                "stroke": "Ääriviiva",
+                "stroke_color": "Ääriviivan väri",
+                "stroke_style": {
+                    "dots": "Pisteet",
+                    "long_dashes": "Pitkät katkoviivat",
+                    "short_dashes": "Lyhyet katkoviivat",
+                    "solid": "Yhtenäinen"
+                },
+                "stroke_style_select": "Ääriviivan tyyli",
+                "stroke_transparent": "Läpinäkyvä",
+                "stroke_weight": "Ääriviivan paksuus"
+            },
+            "svg": {
+                "path_colour": "Väri {index}"
+            },
+            "swatch": {
+                "more_colours": "Lisää värejä"
+            },
+            "text": {
+                "align": {
+                    "justify": "Tasaa molemmat reunat"
+                },
+                "alignment": "Tasaus",
+                "edit_text": "Muokkaa tekstiä",
+                "font_family": "Fonttiperhe",
+                "font_family_select": "Fonttiperhe",
+                "font_size": "Fonttikoko",
+                "italic_unavailable": "Tällä fontilla ei ole kursiivia tällä paksuudella",
+                "letter_spacing_stepper": "Kirjainväli",
+                "line_height": "Riviväli",
+                "line_height_stepper": "Riviväli",
+                "list": "Luettelo",
+                "list_bulleted": "Luettelomerkein",
+                "list_numbered": "Numeroitu luettelo",
+                "list_style": "Luettelon tyyli",
+                "text_case": "Kirjainkoko",
+                "text_color": "Tekstin väri",
+                "text_style": "Tekstin tyyli",
+                "weight": "Paksuus"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Tasaa alas",
+                    "center_x": "Tasaa vaakasuunnassa keskelle",
+                    "center_y": "Tasaa pystysuunnassa keskelle",
+                    "left": "Tasaa vasemmalle",
+                    "right": "Tasaa oikealle",
+                    "top": "Tasaa ylös"
+                },
+                "align_to_page": "Tasaa sivuun",
+                "opacity": "Peittävyys",
+                "position": "Sijainti",
+                "position_x": "Sijainti X",
+                "position_y": "Sijainti Y",
+                "rotation": "Kierto",
+                "scale": "Skaalaus"
+            },
+            "video": {
+                "adjust": "Säädä",
+                "audio": "Ääni",
+                "clip_runs": "leike kestää {length}",
+                "corner_radius": "Kulman säde",
+                "corner_radius_stepper": "Kulman säde",
+                "green_screen": "Vihreä tausta",
+                "loop": "Toista, kunnes suunnitelma päättyy",
+                "mute": "Mykistä",
+                "muted": "Mykistetty",
+                "no_audio": "Tässä videossa ei ole ääntä.",
+                "playback": "Toisto",
+                "replace": "Korvaa video",
+                "speed": "Nopeus",
+                "speed_custom_input": "Mukautettu toistonopeus",
+                "speed_presets": "Toistonopeus",
+                "speed_range": "Väliltä {min}×–{max}×",
+                "tools": "Työkalut",
+                "unmute": "Poista mykistys",
+                "volume": "Äänenvoimakkuus",
+                "volume_level": "Äänenvoimakkuuden taso"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Nuoli",
+            "arrow_down": "Nuoli alas",
+            "arrow_left": "Nuoli vasemmalle",
+            "arrow_pentagon": "Viisikulmainen nuoli",
+            "arrow_right": "Nuoli oikealle",
+            "arrow_up": "Nuoli ylös",
+            "chevron": "Kulmasulku",
+            "circle": "Ympyrä",
+            "cross": "Risti",
+            "diamond": "Vinoneliö",
+            "hexagon": "Kuusikulmio",
+            "hexagon_wide": "Leveä kuusikulmio",
+            "line": "Viiva",
+            "octagon": "Kahdeksankulmio",
+            "parallelogram": "Suunnikas",
+            "parallelogram_mirrored": "Peilattu suunnikas",
+            "pentagon": "Viisikulmio",
+            "square": "Neliö",
+            "trapezoid": "Puolisuunnikas",
+            "trapezoid_upside_down": "Ylösalaisin oleva puolisuunnikas",
+            "triangle": "Kolmio",
+            "triangle_upside_down": "Ylösalaisin oleva kolmio"
+        },
+        "shapes_panel": {
+            "basic": "Perus",
+            "lines": "Viivat ja nuolet"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Lisää avainkehys",
+                "back_to_animations": "Takaisin animaatioihin",
+                "basic": "Perus",
+                "basic_opacity": "Peittävyys",
+                "basic_position": "Sijainti",
+                "basic_rotation": "Kierto",
+                "basic_scale": "Skaalaus",
+                "keyframe": "Avainkehys",
+                "pick_property_hint": "Valitse ominaisuus, jolle lisätään avainkehys. Napautus sulkee paneelin ja avaa ominaisuuden paneelin, ja avainkehys sijoitetaan toistopäähän kerroksen nykyisellä arvolla.",
+                "presets_need_one": "Animaatioesiasetukset tarvitsevat yhden elementin. Valitse yksi kerros nähdäksesi ne.",
+                "title": "Animoi"
+            },
+            "easing": {
+                "title": "Pehmennys"
+            },
+            "font_weight": {
+                "title": "Fontin paksuus"
+            },
+            "speed": {
+                "title": "Nopeus"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Oletusvärit",
+                "eyedropper": "Valitse väri näytöltä",
+                "eyedropper_unsupported": "Selaimesi ei tue pipettiä",
+                "fill_linear": "lineaarinen",
+                "fill_radial": "säteittäinen",
+                "fill_solid": "yhtenäinen",
+                "fill_type": "Täytön tyyppi",
+                "gradients_in_design": "Suunnitelman liukuvärit",
+                "hex": "Heksaväri",
+                "in_design": "Suunnitelmassa",
+                "title": "Täyttöväri",
+                "use_color": "Käytä väriä {color}",
+                "use_gradient": "Käytä liukuväriä: {style}",
+                "use_transparent": "Läpinäkyvä"
+            },
+            "crop": {
+                "adjust_shape": "Säädä rajausmuotoa",
+                "aspect": "Kuvasuhde",
+                "framing": "Rajaus",
+                "framing_hint": "Vedä kuvaa kehystääksesi sen uudelleen tai kulmaa muuttaaksesi rajausikkunan kokoa. Zoomaa vierittämällä.",
+                "scale": "Skaalaus"
+            },
+            "filters": {
+                "show_earlier": "Näytä aiemmat suodattimet",
+                "show_more": "Näytä lisää suodattimia",
+                "swatch": "{label}-väri: {color}",
+                "title": "Suodattimet"
+            },
+            "font": {
+                "all_fonts": "KAIKKI FONTIT",
+                "applying": "Otetaan fonttia käyttöön",
+                "back": "Takaisin tekstiasetuksiin",
+                "clear_search": "Tyhjennä haku",
+                "clear_search_action": "Tyhjennä haku",
+                "in_this_design": "TÄSSÄ SUUNNITELMASSA",
+                "no_match": "Ei fontteja haulle “{query}”",
+                "no_match_hint": "Twibbonize hakee Google Fonts -luettelosta, eikä tämä fonttiperhe kuulu siihen. Kokeile lyhyempää hakusanaa.",
+                "search_label": "Hae fonttiperheitä",
+                "search_placeholder": "Hae fontteja",
+                "title": "Fonttiperhe",
+                "weight": "Fontin paksuus"
+            },
+            "gradient": {
+                "add_stop": "Lisää liukuvärin pysäytyspiste",
+                "angle": "Kulma",
+                "angle_dial": "Liukuvärin kulma, {degrees} astetta. Muuta vetämällä",
+                "angle_dial_hint": "Muuta liukuvärin kulmaa vetämällä",
+                "angle_input": "Liukuvärin kulma asteina",
+                "centre_unsupported": "Renderöijä ei vielä tue liukuvärin keskipistettä",
+                "stop": "Liukuvärin pysäytyspiste {index} kohdassa {percent}%, {color}",
+                "stop_hint": "Siirrä vetämällä, poista kaksoisnapsauttamalla"
+            },
+            "image": {
+                "adjustment": "Säätö",
+                "adjustments": "Säädöt",
+                "back_to_edit": "Takaisin Muokkaa-välilehteen",
+                "background_removal": "Taustan poisto",
+                "compare": "Vertaa alkuperäiseen",
+                "removing": "Poistetaan…",
+                "removing_background": "Poistetaan taustaa",
+                "reset_adjustments": "Palauta säädöt",
+                "tools": "Työkalut"
+            },
+            "keyframe": {
+                "add": "Lisää avainkehys",
+                "add_at_playhead": "Lisää {property}-avainkehys toistopäähän",
+                "add_at_playhead_short": "Lisää avainkehys toistopäähän",
+                "add_lane_at_playhead": "Lisää {lane}-avainkehys toistopäähän",
+                "add_property": "Lisää animoitava ominaisuus",
+                "all_lanes_added": "Jokaisella tämän kerroksen avainkehysominaisuudella on jo kaista",
+                "delete": "Poista tämä avainkehys",
+                "diamond": "{lane}-avainkehys kohdassa {seconds}s",
+                "easing": "Pehmennys",
+                "easing_caps": "PEHMENNYS",
+                "first_no_easing": "Ensimmäisellä avainkehyksellä ei ole pehmennystä",
+                "hex": "Heksaväri",
+                "layer_blur": "Kerroksen sumennus",
+                "letter_spacing": "Kirjainväli",
+                "line_height": "Riviväli",
+                "opacity": "Peittävyys",
+                "opacity_percent": "Peittävyysprosentti",
+                "position_x": "Sijainti X",
+                "position_y": "Sijainti Y",
+                "radius_bottom_left": "Vasemman alakulman säde",
+                "radius_bottom_right": "Oikean alakulman säde",
+                "radius_top_left": "Vasemman yläkulman säde",
+                "radius_top_right": "Oikean yläkulman säde",
+                "remove": "Poista avainkehys",
+                "remove_at_playhead": "Poista {property}-avainkehys toistopäästä",
+                "rotation": "Kierto",
+                "scale": "Skaalaus",
+                "shadow_blur": "Varjon sumennus",
+                "shadow_color": "Varjon väri",
+                "shadow_offset_x": "Varjon siirtymä X",
+                "shadow_offset_y": "Varjon siirtymä Y",
+                "shadow_spread": "Varjon levitys",
+                "stroke_color": "Ääriviivan väri",
+                "stroke_weight": "Ääriviivan paksuus"
+            },
+            "layer": {
+                "page_background": "Sivun tausta",
+                "tab_animate": "Animoi",
+                "tabs_label": "Kerrospaneeli",
+                "title": "Kerrokset"
+            },
+            "page_preset": {
+                "group_label": "Kankaan kokoesiasetukset",
+                "landscape": "Vaaka",
+                "portrait": "Pysty",
+                "square": "Neliö",
+                "story": "Story",
+                "tile_aria": "{name}, {width} × {height} pikseliä"
+            },
+            "personalization": {
+                "act_as_placeholder": "Toimi paikkamerkkinä",
+                "allow_adjust_framing": "Salli kehystyksen säätö",
+                "allow_adjust_framing_hint": "Tukijat voivat zoomata ja siirtää kuvaansa kehyksen sisällä.",
+                "allow_change_adjustments": "Salli säätöjen muuttaminen",
+                "allow_change_adjustments_hint": "Tukijat voivat muuttaa kirkkautta, kontrastia ja muita säätöjä.",
+                "allow_change_effect": "Salli tehosteen muuttaminen",
+                "allow_change_effect_hint": "Tukijat voivat valita tälle kerrokselle toisen tehosteen.",
+                "allow_change_filter": "Salli suodattimen muuttaminen",
+                "allow_change_filter_hint": "Tukijat voivat valita tälle kerrokselle toisen suodattimen.",
+                "allow_edit_text": "Salli tekstin muokkaus",
+                "allow_edit_text_hint": "Tukijat voivat kirjoittaa tähän tekstiin omat sanansa.",
+                "allow_flip": "Salli kääntäminen",
+                "allow_flip_hint": "Tukijat voivat peilata tämän kerroksen.",
+                "allow_move": "Salli siirtäminen",
+                "allow_move_hint": "Tukijat voivat vetää tämän kerroksen uuteen paikkaan.",
+                "allow_replace_media": "Salli median korvaaminen",
+                "allow_replace_media_hint": "Tukijat voivat vaihtaa tämän kuvan omaan kuvaansa.",
+                "allow_resize": "Salli koon muuttaminen",
+                "allow_resize_hint": "Tukijat voivat muuttaa tämän kerroksen kokoa vetämällä sen kulmista ja sivuilta.",
+                "allow_rotate": "Salli kiertäminen",
+                "allow_rotate_hint": "Tukijat voivat kiertää tämän kerroksen mihin tahansa kulmaan.",
+                "group_appearance": "Ulkoasu",
+                "group_arrange": "Järjestä",
+                "group_media": "Media",
+                "placeholder_hint": "Näyttää tyhjän paikan, jota napauttamalla tukijat voivat lisätä kuvansa.",
+                "remove_background": "Poista tausta heidän kuvastaan",
+                "remove_background_hint": "Leikkaa tukijan esiin kuvastaan, jotta suunnitelmasi näkyy hänen ympärillään.",
+                "text_placeholder_hint": "Näyttää tämän tekstin esimerkkinä, jonka tukijat korvaavat omallaan."
+            },
+            "shape_effect": {
+                "colour": "Tehosteen väri",
+                "distance": "Etäisyys",
+                "echo": "Kaiku",
+                "first_color": "Ensimmäinen väri",
+                "first_colour": "Tehosteen ensimmäinen väri",
+                "glitch": "Häiriö",
+                "glow": "Hehku",
+                "group_label": "Muototehoste",
+                "second_color": "Toinen väri",
+                "second_colour": "Tehosteen toinen väri",
+                "section": "Tehoste",
+                "shadow": "Varjo"
+            },
+            "text_effect": {
+                "colour": "Tehosteen väri",
+                "curve": "Kaari",
+                "distance": "Etäisyys",
+                "echo": "Kaiku",
+                "glow": "Hehku",
+                "group_label": "Tekstitehoste",
+                "outline": "Ääriviiva",
+                "section": "Tehoste",
+                "shape_group_label": "Tekstin muoto",
+                "splice": "Silmukointi",
+                "title": "Tekstitehosteet"
+            }
+        },
+        "templates": {
+            "empty_body": "Kokeile lyhyempää tai yleisempää sanaa.",
+            "empty_title": "Ei malleja haulle “{query}”",
+            "error_title": "Mallien lataus epäonnistui",
+            "none_body": "Hae teemaa, kuten syntymäpäivä tai valmistujaiset.",
+            "none_title": "Tälle suunnitelmalle ei ole vielä malleja",
+            "search_label": "Hae malleja",
+            "search_placeholder": "Hae malleja"
+        },
+        "text_panel": {
+            "add_template": "Lisää tekstimalli: {name}",
+            "add_text_box": "Lisää tekstiruutu",
+            "empty_body": "Kokeile lyhyempää tai yleisempää sanaa.",
+            "empty_title": "Ei tekstimalleja haulle “{query}”",
+            "error_title": "Tekstimallien lataus epäonnistui",
+            "none_body": "Aloita sen sijaan tavallisella tekstiruudulla.",
+            "none_title": "Ei näytettäviä tekstimalleja",
+            "search_label": "Hae tekstimalleja",
+            "search_placeholder": "Hae tekstimalleja"
+        },
+        "text_preset": {
+            "seed": "Lisää tekstisi tähän"
+        },
+        "textures": {
+            "apply_texture": "Käytä {name}",
+            "category": {
+                "fabric": "Kangas",
+                "grain": "Rakeisuus",
+                "grunge": "Grunge",
+                "paper": "Paperi",
+                "print": "Painojälki"
+            },
+            "category_group_label": "Tekstuurin luokka",
+            "empty_body": "Rakennamme tätä kirjastoa — palaa pian takaisin.",
+            "empty_title": "Tekstuurit eivät ole vielä täällä",
+            "most_used": "Käytetyimmät",
+            "search_placeholder": "Hae tekstuureja"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Lisää ääni",
+                "add_tooltip": "Lisää taustaääniraita",
+                "bar_aria": "{name} kohdassa {start}, kesto {duration}",
+                "decoding": "Puretaan ääntä…",
+                "decoding_waveform": "Puretaan aaltomuotoa…",
+                "default_name": "Ääni",
+                "drop_to_add": "Pudota lisätäksesi äänen",
+                "kind_suffix": "· Ääni",
+                "mute": "Mykistä raita",
+                "unmute": "Poista raidan mykistys",
+                "volume": "Raidan äänenvoimakkuus",
+                "waveform_error": "Tämän raidan aaltomuotoa ei voitu ladata."
+            },
+            "keyframe": {
+                "add": "Lisää avainkehys",
+                "add_at_playhead": "Lisää avainkehys toistopäähän",
+                "add_tooltip": "Lisää tämän kerroksen ominaisuudelle avainkehys",
+                "diamond_aria": "{lane}-avainkehys kohdassa {time}",
+                "diamond_hint": " · muuta ajoitusta vetämällä, poista napsauttamalla hiiren kakkospainikkeella",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Kulman säde",
+                    "layer_blur": "Kerroksen sumennus",
+                    "line_height": "Riviväli",
+                    "opacity": "Peittävyys",
+                    "position": "Sijainti",
+                    "rotation": "Kierto",
+                    "scale": "Skaalaus",
+                    "stroke": "Ääriviiva"
+                },
+                "remove_lane": "Poista {lane}-avainkehykset",
+                "remove_lane_from_layer": "Poista {lane}-avainkehykset kerrokselta {layer}",
+                "segment_easing_aria": "{lane}-ajoitusfunktio välillä {from}–{to}, nyt {easing}",
+                "segment_easing_title": "Ajoitusfunktio · {easing}",
+                "welded_aria": ", kiinnitetty kerroksen reunaan",
+                "welded_title": " · kiinnitetty kerroksen reunaan"
+            },
+            "menu": {
+                "repeat_until_end": "Toista loppuun asti"
+            },
+            "track": {
+                "bar_aria": "{name} kohdassa {start}, kesto {duration}",
+                "bar_aria_end_glued": ", loppu kiinnitetty kerrokseen",
+                "bar_aria_start_glued": ", alku kiinnitetty kerrokseen",
+                "bar_tooltip": "{name} · {start}, kesto {duration} ms · siirrä vetämällä, muuta kokoa vetämällä reunasta (Alt = ei tarttumista)",
+                "bar_tooltip_sole": " · tämän reunan vetäminen siirtää kerrosta",
+                "clip_aria": "{name}-leike",
+                "clip_tooltip": "Siirrä kerrosta ajassa vetämällä · rajaa vetämällä päästä (Alt = ei tarttumista)",
+                "collapse": "Tiivistä",
+                "collapse_all": "Tiivistä kaikki kerrokset",
+                "collapse_named": "Tiivistä {name}",
+                "delete_layer": "Poista kerros",
+                "delete_named": "Poista {name}",
+                "ends_at": "Päättyy",
+                "expand": "Laajenna",
+                "expand_named": "Laajenna {name}",
+                "hidden_lane_one": "{count} piilotettu kaista",
+                "hidden_lane_other": "{count} piilotettua kaistaa",
+                "hide": "Piilota",
+                "hide_named": "Piilota {name}",
+                "lane_reorder_tooltip": "Järjestä vetämällä — ylin kaista voittaa, kun animaatiot menevät päällekkäin",
+                "layer_animations": "Kerroksen animaatiot",
+                "lock_layer": "Lukitse kerros",
+                "lock_named": "Lukitse {name}",
+                "remove_animation": "Poista animaatio",
+                "remove_animation_aria": "Poista animaatio {name} kerrokselta {layer}",
+                "reorder_tooltip": "Järjestä raidat vetämällä — kankaan pinoamisjärjestys määritetään kerrospaneelissa",
+                "show": "Näytä",
+                "show_named": "Näytä {name}",
+                "split": "Jaa",
+                "starts_at": "Alkaa",
+                "trim_end": "Rajaa loppu",
+                "trim_start": "Rajaa alku",
+                "trim_to": "Rajaa kohtaan {time}",
+                "unlock_layer": "Poista kerroksen lukitus",
+                "unlock_named": "Poista kohteen {name} lukitus"
+            },
+            "transport": {
+                "current_time_field": "Nykyinen aika millisekunteina",
+                "duration_edge_aria": "Sivun kesto {seconds} sekuntia",
+                "duration_edge_tooltip": "Sivun kesto {seconds}s · muuta vetämällä, napsauta tarkkaa arvoa varten (Alt = ei tarttumista)",
+                "duration_max": "Enintään {seconds} s",
+                "fit_to_width": "Sovita leveyteen",
+                "forward": "Eteenpäin",
+                "lengthen_page": "Pidennä sivua",
+                "loop": "Toista silmukkana",
+                "page_duration": "Sivun kesto",
+                "page_duration_field": "Sivun kesto millisekunteina",
+                "resize_dock": "Muuta aikajanan kokoa",
+                "rewind": "Kelaa taaksepäin",
+                "shorten_page": "Lyhennä sivua",
+                "zoom": "Aikajanan zoomaus"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
