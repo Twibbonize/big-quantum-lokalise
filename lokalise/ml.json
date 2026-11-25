@@ -2842,7 +2842,9 @@
             "type": "തരം:",
             "size": "വലിപ്പം:",
             "type_image": "JPG, PNG അല്ലെങ്കിൽ SVG",
-            "maximum_size": "പരമാവധി 5 MB"
+            "maximum_size": "പരമാവധി 5 MB",
+            "abandoned": "ലെയർ നീക്കം ചെയ്തതിനാൽ അപ്‌ലോഡ് നിർത്തി. ഇത് നിങ്ങളുടെ ലൈബ്രറിയിൽ സൂക്ഷിക്കാൻ വീണ്ടും ശ്രമിക്കുക.",
+            "failed": "അപ്‌ലോഡ് പരാജയപ്പെട്ടു. നിങ്ങളുടെ കണക്ഷൻ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക."
         },
         "toolbar": {
             "copy": "പകർത്തുക",
@@ -2871,7 +2873,119 @@
             "border_weight": "ബോർഡർ വെയ്റ്റ്",
             "corner_rounding": "കോർണർ റൗണ്ടിംഗ്",
             "align": "വിന്യസിക്കുക",
-            "effects": "ഇഫക്റ്റുകൾ"
+            "effects": "ഇഫക്റ്റുകൾ",
+            "animate": {
+                "amount": "അളവ്",
+                "angle": "കോൺ",
+                "close": "ആനിമേഷൻ ക്രമീകരണങ്ങൾ അടയ്ക്കുക",
+                "delete_animation": "ആനിമേഷൻ ഇല്ലാതാക്കുക",
+                "distance": "ദൂരം",
+                "easing": "ഈസിങ്",
+                "fade": "ഫേഡ്",
+                "settings_aria": "ആനിമേഷൻ ക്രമീകരണങ്ങൾ"
+            },
+            "audio": {
+                "replace": "മാറ്റിസ്ഥാപിക്കുക",
+                "tools_aria": "ഓഡിയോ ട്രാക്ക് ടൂളുകൾ",
+                "trim": "ട്രിം",
+                "volume": "വോളിയം"
+            },
+            "clip": {
+                "length": "ദൈർഘ്യം",
+                "split": "സ്പ്ലിറ്റ്",
+                "trim": "ട്രിം"
+            },
+            "entry": {
+                "animate": "ആനിമേറ്റ്"
+            },
+            "image": {
+                "adjust": "ക്രമീകരിക്കുക",
+                "background_removal_unavailable": "പശ്ചാത്തലം നീക്കം ചെയ്യൽ ഇതുവരെ ലഭ്യമല്ല",
+                "remove_background": "പശ്ചാത്തലം നീക്കം ചെയ്യുക",
+                "remove_background_short": "കട്ട്ഔട്ട്",
+                "replace": "മാറ്റിസ്ഥാപിക്കുക"
+            },
+            "keyframe": {
+                "blur": "ലെയർ ബ്ലർ",
+                "close": "കീഫ്രെയിം പ്രോപ്പർട്ടികൾ അടയ്ക്കുക",
+                "delete_keyframe": "കീഫ്രെയിം ഇല്ലാതാക്കുക",
+                "letter_spacing": "അകലം",
+                "line_height": "ലൈൻ ഉയരം",
+                "opacity": "അതാര്യത",
+                "position": "സ്ഥാനം",
+                "properties_aria": "കീഫ്രെയിം പ്രോപ്പർട്ടികൾ",
+                "rotation": "റൊട്ടേഷൻ",
+                "scale": "സ്കെയിൽ"
+            },
+            "layer_tools": {
+                "deselect": "ലെയർ തിരഞ്ഞെടുപ്പ് ഒഴിവാക്കുക",
+                "tools_aria": "ലെയർ ടൂളുകൾ"
+            },
+            "media": {
+                "adjust": "ക്രമീകരിക്കുക",
+                "green_screen": "ഗ്രീൻ സ്ക്രീൻ",
+                "replace": "മാറ്റിസ്ഥാപിക്കുക",
+                "trim": "ട്രിം"
+            },
+            "misc": {
+                "background_fill": "പശ്ചാത്തല ഫിൽ",
+                "background_fill_short": "ഫിൽ",
+                "configure_qr": "QR കോഡ് കോൺഫിഗർ ചെയ്യുക",
+                "edit_background_image": "പശ്ചാത്തല ചിത്രം എഡിറ്റ് ചെയ്യുക",
+                "no_background_image": "പശ്ചാത്തല ചിത്രം ഇതുവരെ ഇല്ല",
+                "replace_unavailable": "മാറ്റിസ്ഥാപിക്കുക (ഇതുവരെ ലഭ്യമല്ല)"
+            },
+            "opacity": {
+                "label": "അതാര്യത"
+            },
+            "shape": {
+                "corner_radius": "കോർണർ റേഡിയസ്",
+                "corner_radius_short": "റേഡിയസ്",
+                "fill": "ഫിൽ",
+                "line_color": "ലൈൻ നിറം",
+                "line_style_dots": "ഡോട്ടുകൾ",
+                "line_style_long_dashes": "നീണ്ട ഡാഷുകൾ",
+                "line_style_named": "ലൈൻ ശൈലി: {style}",
+                "line_style_short_dashes": "ചെറിയ ഡാഷുകൾ",
+                "line_style_solid": "സോളിഡ്",
+                "line_weight": "ലൈൻ കനം",
+                "stroke_color": "സ്ട്രോക്ക് നിറം",
+                "stroke_color_short": "സ്ട്രോക്ക്",
+                "stroke_weight": "സ്ട്രോക്ക് കനം",
+                "stroke_weight_short": "കനം"
+            },
+            "speed": {
+                "custom_input": "ഇഷ്ടാനുസൃത പ്ലേബാക്ക് വേഗത",
+                "label": "വേഗത",
+                "playback_length": "പ്ലേബാക്ക് ദൈർഘ്യം",
+                "playback_speed": "പ്ലേബാക്ക് വേഗത",
+                "range_hint": "{min}× നും {max}× നും ഇടയിൽ"
+            },
+            "text": {
+                "decrease_font_size": "ഫോണ്ട് വലുപ്പം കുറയ്ക്കുക",
+                "font_family": "ഫോണ്ട് ഫാമിലി",
+                "font_family_named": "ഫോണ്ട് ഫാമിലി: {value}",
+                "font_size": "ഫോണ്ട് വലുപ്പം",
+                "font_weight": "ഫോണ്ട് വെയ്റ്റ്",
+                "font_weight_named": "ഫോണ്ട് വെയ്റ്റ്: {value}",
+                "increase_font_size": "ഫോണ്ട് വലുപ്പം കൂട്ടുക",
+                "keyboard": "കീബോർഡ്",
+                "line_height": "ലൈൻ ഉയരം",
+                "spacing": "അകലം",
+                "text_color": "ടെക്സ്റ്റ് നിറം",
+                "weight": "വെയ്റ്റ്"
+            },
+            "volume": {
+                "clip_hint": "ഈ ക്ലിപ്പിന് മാത്രം. ടൈംലൈനിൽ വെച്ച ഓഡിയോ അതിന്റെ സ്വന്തം ലെവൽ നിലനിർത്തും.",
+                "label": "വോളിയം",
+                "level": "ലെവൽ",
+                "mute": "മ്യൂട്ട് ചെയ്യുക",
+                "muted": "മ്യൂട്ട് ചെയ്തു",
+                "muted_hint": "ലെവൽ സൂക്ഷിച്ചിരിക്കുന്നു. അൺമ്യൂട്ട് ചെയ്താൽ ക്ലിപ്പ് {percent}% ലേക്ക് മടങ്ങും.",
+                "no_audio": "ഈ വീഡിയോയിൽ ഓഡിയോ ഇല്ല.",
+                "slider": "വോളിയം ലെവൽ",
+                "unmute": "അൺമ്യൂട്ട് ചെയ്യുക"
+            }
         },
         "confirmation": {
             "cancel": "ഉപേക്ഷിക്കുക",
@@ -2918,7 +3032,1066 @@
             "document_colors": "പ്രമാണ നിറങ്ങൾ",
             "default_colors": "സ്ഥിരസ്ഥിതി നിറങ്ങൾ"
         },
-        "graphic": "ഗ്രാഫിക്"
+        "graphic": "ഗ്രാഫിക്",
+        "animate": {
+            "anchor": {
+                "bottom_center": "താഴെ മധ്യം",
+                "bottom_left": "താഴെ ഇടത്",
+                "bottom_right": "താഴെ വലത്",
+                "center_left": "മധ്യം ഇടത്",
+                "center_right": "മധ്യം വലത്",
+                "top_center": "മുകളിൽ മധ്യം",
+                "top_left": "മുകളിൽ ഇടത്",
+                "top_right": "മുകളിൽ വലത്"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "അവസാനം",
+                "more_options": "കൂടുതൽ ഓപ്ഷനുകൾ"
+            },
+            "direction": {
+                "bottom_left": "താഴെ ഇടത്",
+                "bottom_right": "താഴെ വലത്",
+                "clockwise": "ഘടികാരദിശയിൽ",
+                "counter_clockwise": "എതിർ ഘടികാരദിശയിൽ",
+                "from_the": "{place} നിന്ന്",
+                "to_the": "{place} ലേക്ക്",
+                "top_left": "മുകളിൽ ഇടത്",
+                "top_right": "മുകളിൽ വലത്"
+            },
+            "easing": {
+                "accelerate": "ആക്സിലറേറ്റ്",
+                "bounce": "ബൗൺസ്",
+                "elastic": "ഇലാസ്റ്റിക്",
+                "impulse": "ഇംപൾസ്",
+                "natural": "നാച്ചുറൽ",
+                "overshoot": "ഓവർഷൂട്ട്",
+                "slow_down": "സ്ലോ ഡൗൺ",
+                "smooth": "സ്മൂത്ത്",
+                "swing": "സ്വിംഗ്"
+            },
+            "field": {
+                "amount": "അളവ്",
+                "anchor_group": "ആങ്കർ പോയിന്റ്",
+                "anchor_point": "ആങ്കർ പോയിന്റ്",
+                "angle": "കോൺ",
+                "apply_effect_to": "ഇഫക്റ്റ് പ്രയോഗിക്കുക",
+                "axis": "അക്ഷം",
+                "choose_easing": "ഈസിങ് തിരഞ്ഞെടുക്കുക",
+                "distance": "ദൂരം",
+                "duration": "ദൈർഘ്യം",
+                "edge": "അറ്റം",
+                "fade": "ഫേഡ്",
+                "from_noun": "{noun} ൽ നിന്ന്",
+                "horizontal": "തിരശ്ചീനം",
+                "noun_blur": "ബ്ലർ",
+                "noun_opacity": "അതാര്യത",
+                "noun_size": "വലുപ്പം",
+                "opacity": "അതാര്യത",
+                "order": "ക്രമം",
+                "position": "സ്ഥാനം",
+                "rotation": "റൊട്ടേഷൻ",
+                "rotation_direction": "റൊട്ടേഷൻ ദിശ",
+                "scale": "സ്കെയിൽ",
+                "smoothing": "സ്മൂത്തിങ്",
+                "to_noun": "{noun} ലേക്ക്",
+                "vertical": "ലംബം"
+            },
+            "mode": {
+                "arrives": "പ്രവേശനം",
+                "departs": "പുറപ്പാട്",
+                "in": "ഇൻ",
+                "out": "ഔട്ട്"
+            },
+            "panel": {
+                "animation": "ആനിമേഷൻ",
+                "animations_tab": "ആനിമേഷനുകൾ",
+                "basic": "ബേസിക്",
+                "changing_note": "ഒരു പകരക്കാരനെ തിരഞ്ഞെടുക്കുക. നിങ്ങൾ മാറ്റുന്ന ആനിമേഷന്റെ സ്ഥാനവും ദൈർഘ്യവും അത് ഏറ്റെടുക്കും.",
+                "corner_radius": "കോർണർ റേഡിയസ്",
+                "easing": "ഈസിങ്",
+                "fade": "ഫേഡ്",
+                "keyframe_tab": "കീഫ്രെയിം",
+                "layer_blur": "ലെയർ ബ്ലർ",
+                "line_height": "ലൈൻ ഉയരം",
+                "more_options": "കൂടുതൽ ഓപ്ഷനുകൾ",
+                "motion": "മോഷൻ",
+                "needs_one_element": "ആനിമേഷൻ പ്രീസെറ്റുകൾക്ക് ഒരു ഘടകം വേണം. അവ കാണാൻ ഒരൊറ്റ ലെയർ തിരഞ്ഞെടുക്കുക.",
+                "paste_animation": "ആനിമേഷൻ ഒട്ടിക്കുക",
+                "scale": "സ്കെയിൽ",
+                "slide": "സ്ലൈഡ്",
+                "stroke": "സ്ട്രോക്ക്",
+                "text_animation": "ടെക്സ്റ്റ് ആനിമേഷൻ"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "അപ്പിയർ",
+                    "label": "അപ്പിയർ"
+                },
+                "blur": {
+                    "label": "ബ്ലർ ഇൻ"
+                },
+                "blur_scale": {
+                    "caption": "ബ്ലർ & സ്കെയിൽ",
+                    "label": "സ്കെയിലോടെ ബ്ലർ ഇൻ"
+                },
+                "blur_slide": {
+                    "caption": "ബ്ലർ & സ്ലൈഡ്",
+                    "label": "സ്ലൈഡോടെ ബ്ലർ ഇൻ"
+                },
+                "fade": {
+                    "caption": "ഫേഡ്",
+                    "label": "ഫേഡ്"
+                },
+                "grow": {
+                    "caption": "പോപ്പ്",
+                    "label": "പോപ്പ് ഇൻ"
+                },
+                "mask_center": {
+                    "caption": "മാസ്ക് സെന്റർ",
+                    "label": "മധ്യത്തിൽ നിന്ന് മാസ്ക് റിവീൽ"
+                },
+                "mask_reveal": {
+                    "caption": "മാസ്ക് റിവീൽ",
+                    "label": "അറ്റത്ത് നിന്ന് മാസ്ക് റിവീൽ"
+                },
+                "mask_slide": {
+                    "caption": "മാസ്ക് & സ്ലൈഡ്",
+                    "label": "സ്ലൈഡോടെ മാസ്ക് റിവീൽ"
+                },
+                "move_scale": {
+                    "caption": "മൂവ് & സ്കെയിൽ",
+                    "label": "നീങ്ങി സ്കെയിലോടെ ഉള്ളിലേക്ക്"
+                },
+                "rotate_left": {
+                    "label": "ഇടതുവശത്ത് നിന്ന് തിരിക്കുക"
+                },
+                "rotate_right": {
+                    "label": "വലതുവശത്ത് നിന്ന് തിരിക്കുക"
+                },
+                "shrink": {
+                    "caption": "ബിഗ്",
+                    "label": "ബിഗ് ഇൻ"
+                },
+                "slide": {
+                    "caption": "സ്ലൈഡ്",
+                    "label": "സ്ലൈഡ് ഇൻ"
+                },
+                "slide_from_bottom": {
+                    "label": "താഴെ നിന്ന് സ്ലൈഡ്"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "താഴെ ഇടത്",
+                    "label": "താഴെ ഇടത്ത് നിന്ന് സ്ലൈഡ്"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "താഴെ വലത്",
+                    "label": "താഴെ വലത്ത് നിന്ന് സ്ലൈഡ്"
+                },
+                "slide_from_left": {
+                    "label": "ഇടതുവശത്ത് നിന്ന് സ്ലൈഡ്"
+                },
+                "slide_from_right": {
+                    "label": "വലതുവശത്ത് നിന്ന് സ്ലൈഡ്"
+                },
+                "slide_from_top": {
+                    "label": "മുകളിൽ നിന്ന് സ്ലൈഡ്"
+                },
+                "slide_from_top_left": {
+                    "caption": "മുകളിൽ ഇടത്",
+                    "label": "മുകളിൽ ഇടത്ത് നിന്ന് സ്ലൈഡ്"
+                },
+                "slide_from_top_right": {
+                    "caption": "മുകളിൽ വലത്",
+                    "label": "മുകളിൽ വലത്ത് നിന്ന് സ്ലൈഡ്"
+                },
+                "spin": {
+                    "caption": "സ്പിൻ",
+                    "label": "സ്പിൻ ഇൻ"
+                },
+                "spin_scale": {
+                    "caption": "സ്പിൻ & സ്കെയിൽ",
+                    "label": "കറങ്ങി സ്കെയിലോടെ ഉള്ളിലേക്ക്"
+                },
+                "twist": {
+                    "caption": "ട്വിസ്റ്റ്",
+                    "label": "ട്വിസ്റ്റ് ഇൻ"
+                }
+            },
+            "property": {
+                "change_text": "ടെക്സ്റ്റ് മാറ്റുക",
+                "morph": "മോർഫ്",
+                "move": "മൂവ്",
+                "opacity": "അതാര്യത",
+                "scale": "സ്കെയിൽ"
+            },
+            "section": {
+                "fade": "ഫേഡ്",
+                "mask": "മാസ്ക്",
+                "scale": "സ്കെയിൽ",
+                "slide": "സ്ലൈഡ്",
+                "transform": "ട്രാൻസ്ഫോം"
+            },
+            "text": {
+                "backward": "പിന്നിലേക്ക്",
+                "forward": "മുന്നിലേക്ക്",
+                "letters": "അക്ഷരങ്ങൾ",
+                "summary_overlap": "ഓരോ {unit} ഉം തൊട്ടുമുമ്പത്തേത് {percent}% പൂർത്തിയാകുമ്പോൾ ആരംഭിക്കും.",
+                "summary_sequential": "ഓരോ {unit} ഉം അടുത്തത് ആരംഭിക്കുന്നതിന് മുമ്പ് പൂർത്തിയാകും.",
+                "summary_together": "ഓരോ {unit} ഉം ഒരുമിച്ച് നീങ്ങും.",
+                "summary_whole": "മുഴുവൻ ടെക്സ്റ്റ് ബോക്സും ഒന്നായി ആനിമേറ്റ് ചെയ്യും.",
+                "words": "വാക്കുകൾ"
+            },
+            "type": {
+                "fade_in": "ഫേഡ് ഇൻ",
+                "fade_out": "ഫേഡ് ഔട്ട്",
+                "line_height": "ലൈൻ ഉയരം",
+                "radius": "റേഡിയസ്",
+                "resize_in": "റീസൈസ് ഇൻ",
+                "resize_out": "റീസൈസ് ഔട്ട്",
+                "rotate_in": "റൊട്ടേറ്റ് ഇൻ",
+                "rotate_out": "റൊട്ടേറ്റ് ഔട്ട്",
+                "scale_in": "സ്കെയിൽ ഇൻ",
+                "scale_out": "സ്കെയിൽ ഔട്ട്",
+                "slide_in": "സ്ലൈഡ് ഇൻ",
+                "slide_out": "സ്ലൈഡ് ഔട്ട്",
+                "spacing": "അകലം",
+                "stroke": "സ്ട്രോക്ക്"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "തുടരാൻ നിങ്ങളുടെ ഫോട്ടോ ചേർക്കുക.",
+                    "gesture": {
+                        "frameDesktop": "സ്ഥാനം മാറ്റാൻ വലിക്കുക · സൂം ചെയ്യാൻ സ്ക്രോൾ ചെയ്യുക",
+                        "frameMobile": "സ്ഥാനം മാറ്റാൻ വലിക്കുക, സൂം ചെയ്യാൻ പിഞ്ച് ചെയ്യുക",
+                        "handles": "കോണുകളിൽ നിന്നും വശങ്ങളിൽ നിന്നും വലുപ്പം മാറ്റുക, മുകളിൽ നിന്ന് തിരിക്കുക",
+                        "move": "നീക്കാൻ വലിക്കുക",
+                        "moveOrHandles": "നീക്കാൻ വലിക്കുക, അല്ലെങ്കിൽ ഹാൻഡിലുകൾ ഉപയോഗിക്കുക",
+                        "resize": "വലുപ്പം മാറ്റാൻ ഒരു കോണോ വശമോ വലിക്കുക",
+                        "rotate": "തിരിക്കാൻ മുകളിലെ ഹാൻഡിൽ വലിക്കുക",
+                        "rotateDesktop": "റൂളർ വലിക്കുക, അല്ലെങ്കിൽ ആരോ കീകൾ ഉപയോഗിക്കുക",
+                        "rotateMobile": "തിരിക്കാൻ റൂളർ വലിക്കുക"
+                    },
+                    "hint": {
+                        "pickDesktop": "അടയാളപ്പെടുത്തിയ ഭാഗത്ത് ക്ലിക്ക് ചെയ്യുക, അല്ലെങ്കിൽ ഇടതുവശത്ത് ഒരു ലെയർ തിരഞ്ഞെടുക്കുക",
+                        "pickMobile": "അടയാളപ്പെടുത്തിയ ഭാഗത്ത് ടാപ്പ് ചെയ്യുക, അല്ലെങ്കിൽ താഴെ ഒരു ലെയർ തിരഞ്ഞെടുക്കുക",
+                        "previewDesktop": "നിങ്ങളുടെ ഡിസൈനിന്റെ പ്രിവ്യൂ. എഡിറ്റ് തുടരാൻ ഇതിൽ ക്ലിക്ക് ചെയ്യുക.",
+                        "previewMobile": "നിങ്ങളുടെ ഡിസൈനിന്റെ പ്രിവ്യൂ. എഡിറ്റ് തുടരാൻ ഇതിൽ ടാപ്പ് ചെയ്യുക."
+                    },
+                    "layer": {
+                        "addPhoto": "നിങ്ങളുടെ ഫോട്ടോ ചേർക്കുക",
+                        "text": "ടെക്സ്റ്റ്: {text}",
+                        "yourPhoto": "നിങ്ങളുടെ ഫോട്ടോ",
+                        "yourText": "നിങ്ങളുടെ ടെക്സ്റ്റ്"
+                    },
+                    "layers": {
+                        "all": "എല്ലാ ലെയറുകളും",
+                        "photo": "ഫോട്ടോ",
+                        "sheetDescription": "ഈ ഡിസൈനിൽ നിങ്ങൾക്ക് മാറ്റാവുന്ന എല്ലാം.",
+                        "title": "ലെയറുകൾ"
+                    },
+                    "photoError": "ആ ഫോട്ടോ ഉപയോഗിക്കാൻ കഴിഞ്ഞില്ല. മറ്റൊരു ചിത്രം പരീക്ഷിക്കുക.",
+                    "preview": {
+                        "backToEditing": "എഡിറ്റിങ്ങിലേക്ക് മടങ്ങുക"
+                    },
+                    "rotation": {
+                        "aria": "റൊട്ടേഷൻ",
+                        "value": "one:# ഡിഗ്രി|other:# ഡിഗ്രി"
+                    },
+                    "tools": {
+                        "adjust": "ക്രമീകരിക്കുക",
+                        "aria": "ലെയർ ടൂളുകൾ",
+                        "editText": "ടെക്സ്റ്റ് എഡിറ്റ് ചെയ്യുക",
+                        "flip": "ഫ്ലിപ്പ്",
+                        "locked": "വലുപ്പവും സ്ഥാനവും സ്രഷ്ടാവ് നിശ്ചയിച്ചതാണ്",
+                        "replace": "മാറ്റിസ്ഥാപിക്കുക",
+                        "textAria": "ടെക്സ്റ്റ് ടൂളുകൾ",
+                        "zoomIn": "സൂം ഇൻ",
+                        "zoomOut": "സൂം ഔട്ട്"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} ടൈംലൈനിൽ ചേർത്തു.",
+                "too_big": "{name} {limit} കവിഞ്ഞു.",
+                "too_long": "{name} {minutes} മിനിറ്റിൽ കൂടുതൽ ദൈർഘ്യമുള്ളതാണ്.",
+                "too_many": "ഒരു സമയം {count} ഫയലുകൾ മാത്രം.",
+                "wrong_type": "{name} ചേർക്കാൻ കഴിയില്ല — ചിത്രങ്ങൾ, വീഡിയോകൾ, SVG ഫയലുകൾ മാത്രം."
+            }
+        },
+        "catalogue": {
+            "error_body": "നിങ്ങളുടെ കണക്ഷൻ പരിശോധിച്ച ശേഷം വീണ്ടും ശ്രമിക്കുക.",
+            "loading_more": "കൂടുതൽ ലോഡ് ചെയ്യുന്നു"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "ഡ്രാഫ്റ്റ് ഉപേക്ഷിക്കുക",
+                "description_unsaved": "ഈ ഡിസൈൻ സേവ് ചെയ്തിട്ടില്ല. പിന്നിലേക്ക് പോയാൽ ലെയറുകൾ, സ്റ്റൈലുകൾ, ആനിമേഷൻ ഉൾപ്പെടെ എല്ലാം എന്നെന്നേക്കുമായി ഇല്ലാതാകും.",
+                "title": "“{title}” ഡ്രാഫ്റ്റ് ഉപേക്ഷിക്കണോ?"
+            },
+            "save": {
+                "description": "സേവ് ചെയ്തുകഴിഞ്ഞാൽ, എഡിറ്റിങ് ലഭ്യമല്ല.",
+                "saving": "സേവ് ചെയ്യുന്നു…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "സ്ക്രീനിന് അനുയോജ്യമാക്കുക"
+        },
+        "graphic_panel": {
+            "add": "{name} ചേർക്കുക",
+            "add_failed": "ഈ ഗ്രാഫിക് ചേർക്കാൻ കഴിഞ്ഞില്ല. വീണ്ടും ശ്രമിക്കുക.",
+            "empty_body": "സ്റ്റാർ അല്ലെങ്കിൽ ഹാർട്ട് പോലുള്ള ചെറിയതോ പൊതുവായതോ ആയ വാക്ക് പരീക്ഷിക്കുക.",
+            "empty_title": "“{query}” ന് യോജിക്കുന്ന ഗ്രാഫിക്കുകളില്ല",
+            "error_title": "ഗ്രാഫിക്കുകൾ ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല",
+            "none_title": "കാണിക്കാൻ ഗ്രാഫിക്കുകളില്ല",
+            "search_label": "ഗ്രാഫിക്കുകൾ തിരയുക",
+            "search_placeholder": "ഗ്രാഫിക്കുകൾ തിരയുക"
+        },
+        "header": {
+            "redo": "റീഡൂ",
+            "saving": "സേവ് ചെയ്യുന്നു…",
+            "undo": "അൺഡൂ",
+            "untitled_design": "പേരില്ലാത്ത ഡിസൈൻ"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "ഫോട്ടോ സ്ലോട്ട്"
+            },
+            "menu": {
+                "align_center": "മധ്യം",
+                "bring_forward": "മുന്നോട്ട് കൊണ്ടുവരിക",
+                "bring_to_front": "ഏറ്റവും മുന്നിലേക്ക് കൊണ്ടുവരിക",
+                "detach_image": "ചിത്രം വേർപെടുത്തുക",
+                "flip_horizontal": "തിരശ്ചീനമായി ഫ്ലിപ്പ് ചെയ്യുക",
+                "flip_vertical": "ലംബമായി ഫ്ലിപ്പ് ചെയ്യുക",
+                "replace_image": "ചിത്രം മാറ്റിസ്ഥാപിക്കുക",
+                "send_backward": "പിന്നോട്ട് അയയ്ക്കുക",
+                "send_to_back": "ഏറ്റവും പിന്നിലേക്ക് അയയ്ക്കുക",
+                "set_as_background_image": "പശ്ചാത്തല ചിത്രമായി സജ്ജമാക്കുക",
+                "set_as_background_video": "പശ്ചാത്തല വീഡിയോ ആയി സജ്ജമാക്കുക",
+                "set_background_as_image_layer": "പശ്ചാത്തലം ഇമേജ് ലെയറായി സജ്ജമാക്കുക",
+                "set_background_as_video_layer": "പശ്ചാത്തലം വീഡിയോ ലെയറായി സജ്ജമാക്കുക",
+                "sheet_title": "ലെയർ ഓപ്ഷനുകൾ",
+                "show_layers": "ലെയറുകൾ കാണിക്കുക"
+            },
+            "pill": {
+                "duplicate": "ലെയർ ഡ്യൂപ്ലിക്കേറ്റ് ചെയ്യുക",
+                "more": "കൂടുതൽ ലെയർ പ്രവർത്തനങ്ങൾ",
+                "remove": "ലെയർ നീക്കം ചെയ്യുക",
+                "toolbar": "ലെയർ പ്രവർത്തനങ്ങൾ"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "പെയറിങ് കോഡ് തയ്യാർ: {code}. ഇത് നിങ്ങളുടെ AI ക്ലയന്റിന് നൽകുക.",
+                "connecting": "പെയറിങ് കോഡ് സജ്ജമാക്കുന്നു.",
+                "failed": "കണക്റ്റ് ചെയ്യാൻ കഴിഞ്ഞില്ല. {reason}",
+                "reconnecting": "കണക്ഷൻ നഷ്ടപ്പെട്ടു. വീണ്ടും കണക്റ്റ് ചെയ്യാൻ ശ്രമിക്കുന്നു."
+            },
+            "clipboard_blocked": "നിങ്ങളുടെ ബ്രൗസർ ക്ലിപ്പ്ബോർഡ് തടഞ്ഞു. {hint}",
+            "connect": "കണക്റ്റ് ചെയ്യുക",
+            "connecting": "കണക്റ്റ് ചെയ്യുന്നു…",
+            "copied_address_announcement": "സെർവർ വിലാസം പകർത്തി",
+            "copied_code_announcement": "പെയറിങ് കോഡ് പകർത്തി",
+            "copy_address_hint": "വിലാസം തിരഞ്ഞെടുത്ത് സ്വയം പകർത്തുക.",
+            "copy_code": "കോഡ് പകർത്തുക",
+            "copy_code_hint": "കോഡ് തിരഞ്ഞെടുത്ത് സ്വയം പകർത്തുക.",
+            "copy_server_address": "MCP സെർവർ വിലാസം പകർത്തുക",
+            "disconnect": "വിച്ഛേദിക്കുക",
+            "error_fallback": "പെയറിങ് സേവനം പ്രതികരിച്ചില്ല. നിങ്ങളുടെ കണക്ഷൻ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക.",
+            "guide": {
+                "fresh_code": "ഒരു കോഡ് പ്രവർത്തിക്കുന്നില്ലെങ്കിൽ, വിച്ഛേദിക്കുക അമർത്തി പുതിയതിനായി വീണ്ടും കണക്റ്റ് ചെയ്യുക.",
+                "how_to_set_up": "ഇത് എങ്ങനെ സജ്ജമാക്കാം",
+                "step_add_body": "താഴെയുള്ള വിലാസം ഉപയോഗിച്ച് Twibbonize നിങ്ങളുടെ AI ക്ലയന്റിൽ ചേർക്കുക. Claude Code-ൽ, ഇത് റൺ ചെയ്യുക",
+                "step_add_title": "Twibbonize നിങ്ങളുടെ AI ക്ലയന്റിൽ ചേർക്കുക",
+                "step_pair_body": "“Twibbonize എഡിറ്ററുമായി പെയർ ചെയ്യുക” എന്ന് പറഞ്ഞ് മുകളിലെ കോഡ് നൽകുക.",
+                "step_pair_title": "പെയർ ചെയ്യാൻ ആവശ്യപ്പെടുക",
+                "where_to_paste": "ഈ കോഡ് എവിടെ ഒട്ടിക്കണം?"
+            },
+            "lead": {
+                "code_ready_sentence": "ഇത് Claude-ൽ ഒട്ടിച്ച് പെയർ ചെയ്യാൻ ആവശ്യപ്പെടുക. Claude പ്രവർത്തിക്കുമ്പോൾ ക്യാൻവാസ് പേജിന് ചുറ്റും ഒരു റിങ് വരയ്ക്കും.",
+                "code_ready_title": "ഈ കോഡ് നിങ്ങളുടെ AI ക്ലയന്റിന് നൽകുക",
+                "connecting_sentence": "ഇതിന് അൽപ്പം സമയമെടുക്കും.",
+                "connecting_title": "പെയറിങ് കോഡ് സജ്ജമാക്കുന്നു",
+                "disconnected_sentence": "Claude Desktop, Claude Code എന്നിവയ്ക്ക് ലെയറുകൾ ചേർക്കാനും ടെക്സ്റ്റ് എഴുതാനും ആനിമേഷനുകൾ സജ്ജമാക്കാനും ക്യാൻവാസിലുള്ളത് വായിക്കാനും കഴിയും.",
+                "disconnected_title": "ഒരു AI ക്ലയന്റിനെ ഈ ഡിസൈനിലേക്ക് കൊണ്ടുവരിക",
+                "failed_title": "കണക്റ്റ് ചെയ്യാൻ കഴിഞ്ഞില്ല",
+                "reconnecting_sentence": "നിങ്ങളുടെ AI ക്ലയന്റിലേക്കുള്ള ലിങ്ക് നഷ്ടപ്പെട്ടു. പുനഃസ്ഥാപിക്കാൻ ശ്രമിക്കുന്നു.",
+                "reconnecting_title": "വീണ്ടും കണക്റ്റ് ചെയ്യുന്നു",
+                "unavailable_sentence": "ഈ എഡിറ്റർ ബിൽഡിൽ AI കണക്ഷൻ കോൺഫിഗർ ചെയ്തിട്ടില്ല, അതിനാൽ ഇതുവരെ കണക്റ്റ് ചെയ്യാൻ ഒന്നുമില്ല.",
+                "unavailable_title": "MCP ഇവിടെ ഓണാക്കിയിട്ടില്ല"
+            },
+            "pairing_code_label": "പെയറിങ് കോഡ്: {code}"
+        },
+        "media": {
+            "add_asset": "{name} ചേർക്കുക",
+            "dismiss_error": "ഒഴിവാക്കുക",
+            "empty_body": "താഴെ ഒരു ചിത്രം, വീഡിയോ അല്ലെങ്കിൽ ഓഡിയോ ഫയൽ ചേർത്താൽ ഈ സെഷൻ മുഴുവൻ അത് ഇവിടെ ഉണ്ടാകും.",
+            "empty_narrowed_body": "നിങ്ങൾ ചേർത്തതെല്ലാം കാണാൻ തിരയൽ മായ്ക്കുക അല്ലെങ്കിൽ മറ്റൊരു തരം തിരഞ്ഞെടുക്കുക.",
+            "empty_narrowed_title": "ഒന്നും യോജിക്കുന്നില്ല",
+            "empty_title": "ഇതുവരെ ഒന്നും അപ്‌ലോഡ് ചെയ്തിട്ടില്ല",
+            "filter": {
+                "audio": "ഓഡിയോ",
+                "images": "ചിത്രങ്ങൾ"
+            },
+            "filter_group_label": "മീഡിയ തരം",
+            "make_an_image": "ചിത്രം സൃഷ്ടിക്കുക",
+            "make_image_unavailable": "ചിത്രങ്ങൾ സൃഷ്ടിക്കുന്നത് ഇതുവരെ ലഭ്യമല്ല",
+            "search_placeholder": "മീഡിയ തിരയുക",
+            "upload_button": "ചിത്രം, വീഡിയോ അല്ലെങ്കിൽ ഓഡിയോ അപ്‌ലോഡ് ചെയ്യുക",
+            "uploads_heading": "അപ്‌ലോഡുകൾ"
+        },
+        "page_bar": {
+            "group_label": "സൂം നിയന്ത്രണങ്ങൾ",
+            "zoom_menu": "സൂം ലെവൽ, {percent}%"
+        },
+        "panel": {
+            "loading": "{panel} ലോഡ് ചെയ്യുന്നു…"
+        },
+        "photo": {
+            "add_by": "{name} നൽകിയ ഫോട്ടോ ചേർക്കുക",
+            "add_described": "ഫോട്ടോ ചേർക്കുക: {description}",
+            "credit": "ഫോട്ടോകൾ നൽകിയത്",
+            "empty_body": "ബീച്ച് അല്ലെങ്കിൽ സിറ്റി പോലുള്ള ചെറിയതോ പൊതുവായതോ ആയ വാക്ക് പരീക്ഷിക്കുക.",
+            "empty_title": "“{query}” ന് യോജിക്കുന്ന ഫോട്ടോകളില്ല",
+            "error_title": "ഫോട്ടോകൾ ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല",
+            "none_title": "കാണിക്കാൻ ഫോട്ടോകളില്ല",
+            "search_label": "ഫോട്ടോകൾ തിരയുക",
+            "search_placeholder": "ഫോട്ടോകൾ തിരയുക"
+        },
+        "qr": {
+            "add_logo": "ലോഗോ ചേർക്കുക",
+            "add_to_design": "ഡിസൈനിലേക്ക് ചേർക്കുക",
+            "background_colour_label": "പശ്ചാത്തല നിറം",
+            "code_colour_label": "കോഡ് നിറം",
+            "code_label": "കോഡ്",
+            "link_input_label": "QR കോഡ് ലിങ്ക്",
+            "link_label": "ലിങ്ക്",
+            "logo_fallback_name": "ലോഗോ ചിത്രം",
+            "logo_label": "ലോഗോ",
+            "remove_logo": "ലോഗോ നീക്കം ചെയ്യുക"
+        },
+        "rail": {
+            "aria_label": "ഡിസൈൻ ലൈബ്രറികൾ",
+            "graphic": "ഗ്രാഫിക്കുകൾ",
+            "help": "സഹായം",
+            "layers": "ലെയറുകൾ",
+            "mcp": "MCP",
+            "media": "മീഡിയ",
+            "photo": "ഫോട്ടോകൾ",
+            "qr_code": "QR കോഡ്",
+            "shapes": "ആകൃതികൾ",
+            "templates": "ടെംപ്ലേറ്റുകൾ",
+            "textures": "ടെക്സ്ചറുകൾ",
+            "tools": "ടൂളുകൾ"
+        },
+        "save": {
+            "failed": "നിങ്ങളുടെ ഡിസൈൻ സേവ് ചെയ്യാൻ കഴിഞ്ഞില്ല. വീണ്ടും ശ്രമിക്കുക."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "ബ്രൈറ്റ്നസ്",
+                "compare": "ഒറിജിനലുമായി താരതമ്യം ചെയ്യുക",
+                "contrast": "കോൺട്രാസ്റ്റ്",
+                "grayscale": "ഗ്രേസ്കെയിൽ",
+                "group": {
+                    "basic": "ബേസിക്",
+                    "refinements": "മെച്ചപ്പെടുത്തലുകൾ"
+                },
+                "hue_rotate": "ഹ്യൂ റൊട്ടേറ്റ്",
+                "reset": "ക്രമീകരണങ്ങൾ റീസെറ്റ് ചെയ്യുക",
+                "saturation": "സാച്ചുറേഷൻ",
+                "title": "ക്രമീകരണങ്ങൾ"
+            },
+            "color": {
+                "trigger": "നിറം"
+            },
+            "common": {
+                "layer_blur": "ലെയർ ബ്ലർ",
+                "layer_blur_stepper": "ലെയർ ബ്ലർ"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "ഫ്രീ ഫോം",
+                    "landscape": "ലാൻഡ്സ്കേപ്പ്",
+                    "original": "ഒറിജിനൽ",
+                    "portrait": "പോർട്രെയ്റ്റ്",
+                    "square": "ചതുരം",
+                    "story": "സ്റ്റോറി",
+                    "widescreen": "വൈഡ്സ്ക്രീൻ"
+                },
+                "shape": {
+                    "circle": "വൃത്തം",
+                    "diamond": "ഡയമണ്ട്",
+                    "half_circle": "അർദ്ധവൃത്തം",
+                    "oval": "ദീർഘവൃത്തം",
+                    "parallelogram": "സമാന്തരീകരണം",
+                    "rounded": "വൃത്താകൃതി"
+                }
+            },
+            "filter": {
+                "cool": "കൂൾ",
+                "duotone": "ഡ്യൂവോടോൺ",
+                "mono": "മോണോ",
+                "original": "ഒറിജിനൽ",
+                "vivid": "വിവിഡ്",
+                "warm": "വാം"
+            },
+            "font_weight": {
+                "black": "ബ്ലാക്ക്",
+                "extra_bold": "എക്സ്ട്രാബോൾഡ്",
+                "extra_light": "എക്സ്ട്രാലൈറ്റ്",
+                "medium": "മീഡിയം",
+                "regular": "റെഗുലർ",
+                "semibold": "സെമിബോൾഡ്",
+                "thin": "തിൻ"
+            },
+            "frame": {
+                "colour": "ഫ്രെയിം നിറം"
+            },
+            "green_screen": {
+                "choose_colour": "ഒരു നിറം തിരഞ്ഞെടുക്കുക",
+                "colour": "നിറം",
+                "compare": "ഒറിജിനലുമായി താരതമ്യം ചെയ്യുക",
+                "eyedropper": "ക്യാൻവാസിൽ നിന്ന് ഒരു നിറം തിരഞ്ഞെടുക്കുക",
+                "key_colour": "കീ നിറം {hex}",
+                "loose": "ലൂസ്",
+                "nothing_found": "പശ്ചാത്തല നിറം കണ്ടെത്തിയില്ല.",
+                "precise": "പ്രിസൈസ്",
+                "preset": {
+                    "bright_blue": "ബ്രൈറ്റ് ബ്ലൂ",
+                    "bright_green": "ബ്രൈറ്റ് ഗ്രീൻ",
+                    "chroma_blue": "ക്രോമ ബ്ലൂ",
+                    "chroma_green": "ക്രോമ ഗ്രീൻ"
+                },
+                "presets": "സാധാരണ ബാക്ക്ഡ്രോപ്പ് നിറങ്ങൾ",
+                "remove": "ഗ്രീൻ സ്ക്രീൻ നീക്കം ചെയ്യുക",
+                "title": "ഗ്രീൻ സ്ക്രീൻ"
+            },
+            "image": {
+                "corner_radius": "കോർണർ റേഡിയസ്",
+                "corner_radius_stepper": "കോർണർ റേഡിയസ്",
+                "per_corner": "വ്യക്തിഗത കോണുകൾ എഡിറ്റ് ചെയ്യുക",
+                "per_corner_unavailable": "വ്യക്തിഗത കോൺ എഡിറ്റിങ് ഇതുവരെ ലഭ്യമല്ല"
+            },
+            "keypad": {
+                "value_field": "{label} മൂല്യം"
+            },
+            "line": {
+                "colour": "ലൈൻ നിറം",
+                "style": {
+                    "dots": "ഡോട്ടുകൾ",
+                    "long_dashes": "നീണ്ട ഡാഷുകൾ",
+                    "short_dashes": "ചെറിയ ഡാഷുകൾ",
+                    "solid": "സോളിഡ്"
+                },
+                "style_trigger": "ലൈൻ ശൈലി: {style}",
+                "weight": "ലൈൻ കനം",
+                "weight_trigger": "ലൈൻ കനം {weight}"
+            },
+            "media": {
+                "heading": "മീഡിയ"
+            },
+            "page": {
+                "size_capped": "പരമാവധി {max} px — അനുപാതം നിലനിർത്തുന്നു"
+            },
+            "pages": {
+                "title": "പേജുകൾ"
+            },
+            "photo_slot": {
+                "enable": "ഫോട്ടോ സ്ലോട്ടായി ഉപയോഗിക്കുക",
+                "key_field": "കീ (ഏകീകൃതം)",
+                "key_required": "കീ ആവശ്യമാണ്",
+                "key_taken": "കീ മറ്റൊരു സ്ലോട്ട് ഇതിനകം ഉപയോഗിക്കുന്നു",
+                "label_field": "ലേബൽ (അന്തിമ ഉപയോക്താവിന് കാണിക്കും)",
+                "on": "ഫോട്ടോ സ്ലോട്ട്",
+                "remove": "ഫോട്ടോ സ്ലോട്ട് നീക്കം ചെയ്യുക"
+            },
+            "qr": {
+                "add_logo": "ലോഗോ ചേർക്കുക",
+                "background_colour": "പശ്ചാത്തല നിറം",
+                "code": "കോഡ്",
+                "code_colour": "കോഡ് നിറം",
+                "link": "ലിങ്ക്",
+                "link_input": "QR കോഡ് ലിങ്ക്",
+                "logo": "ലോഗോ",
+                "remove_logo": "ലോഗോ നീക്കം ചെയ്യുക"
+            },
+            "root": {
+                "background_image": "പശ്ചാത്തല ചിത്രം",
+                "edit_background": "പശ്ചാത്തല ചിത്രം എഡിറ്റ് ചെയ്യുക",
+                "fill": "ഫിൽ",
+                "fill_gradient": "ഗ്രേഡിയന്റ്",
+                "page_height": "പേജ് ഉയരം",
+                "page_width": "പേജ് വീതി",
+                "ratio_lock": "ആസ്പെക്റ്റ് റേഷ്യോ ലോക്ക് ചെയ്യുക",
+                "ratio_unlock": "ആസ്പെക്റ്റ് റേഷ്യോ അൺലോക്ക് ചെയ്യുക",
+                "rotate_left": "പശ്ചാത്തലം ഇടത്തോട്ട് തിരിക്കുക",
+                "rotate_right": "പശ്ചാത്തലം വലത്തോട്ട് തിരിക്കുക"
+            },
+            "scalar": {
+                "clip_length": "ദൈർഘ്യം",
+                "corner_radius": "കോർണർ റേഡിയസ്",
+                "font_size": "ഫോണ്ട് വലുപ്പം",
+                "layer_blur": "ലെയർ ബ്ലർ",
+                "letter_spacing": "അക്ഷര അകലം",
+                "line_height": "ലൈൻ ഉയരം",
+                "opacity": "അതാര്യത",
+                "speed": "വേഗത",
+                "stroke_width": "സ്ട്രോക്ക് വീതി",
+                "volume": "വോളിയം"
+            },
+            "shape": {
+                "corner_radius": "കോർണർ റേഡിയസ്",
+                "corner_radius_stepper": "കോർണർ റേഡിയസ്",
+                "fill": "ഫിൽ",
+                "fill_gradient": "ഗ്രേഡിയന്റ്",
+                "fill_mixed": "സമ്മിശ്രം",
+                "fill_transparent": "സുതാര്യം",
+                "stroke": "സ്ട്രോക്ക്",
+                "stroke_color": "സ്ട്രോക്ക് നിറം",
+                "stroke_style": {
+                    "dots": "ഡോട്ടുകൾ",
+                    "long_dashes": "നീണ്ട ഡാഷുകൾ",
+                    "short_dashes": "ചെറിയ ഡാഷുകൾ",
+                    "solid": "സോളിഡ്"
+                },
+                "stroke_style_select": "സ്ട്രോക്ക് ശൈലി",
+                "stroke_transparent": "സുതാര്യം",
+                "stroke_weight": "സ്ട്രോക്ക് കനം"
+            },
+            "svg": {
+                "path_colour": "നിറം {index}"
+            },
+            "swatch": {
+                "more_colours": "കൂടുതൽ നിറങ്ങൾ"
+            },
+            "text": {
+                "align": {
+                    "justify": "ജസ്റ്റിഫൈ"
+                },
+                "alignment": "അലൈൻമെന്റ്",
+                "edit_text": "ടെക്സ്റ്റ് എഡിറ്റ് ചെയ്യുക",
+                "font_family": "ഫോണ്ട് ഫാമിലി",
+                "font_family_select": "ഫോണ്ട് ഫാമിലി",
+                "font_size": "ഫോണ്ട് വലുപ്പം",
+                "italic_unavailable": "ഈ ഫോണ്ട് ഈ വെയ്റ്റിൽ ഇറ്റാലിക് നൽകുന്നില്ല",
+                "letter_spacing_stepper": "അക്ഷര അകലം",
+                "line_height": "ലൈൻ ഉയരം",
+                "line_height_stepper": "ലൈൻ ഉയരം",
+                "list": "ലിസ്റ്റ്",
+                "list_bulleted": "ബുള്ളറ്റ് ലിസ്റ്റ്",
+                "list_numbered": "നമ്പർ ലിസ്റ്റ്",
+                "list_style": "ലിസ്റ്റ് ശൈലി",
+                "text_case": "ടെക്സ്റ്റ് കേസ്",
+                "text_color": "ടെക്സ്റ്റ് നിറം",
+                "text_style": "ടെക്സ്റ്റ് ശൈലി",
+                "weight": "വെയ്റ്റ്"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "താഴേക്ക് അലൈൻ ചെയ്യുക",
+                    "center_x": "തിരശ്ചീന കേന്ദ്രങ്ങൾ അലൈൻ ചെയ്യുക",
+                    "center_y": "ലംബ കേന്ദ്രങ്ങൾ അലൈൻ ചെയ്യുക",
+                    "left": "ഇടത്തേക്ക് അലൈൻ ചെയ്യുക",
+                    "right": "വലത്തേക്ക് അലൈൻ ചെയ്യുക",
+                    "top": "മുകളിലേക്ക് അലൈൻ ചെയ്യുക"
+                },
+                "align_to_page": "പേജിലേക്ക് അലൈൻ ചെയ്യുക",
+                "opacity": "അതാര്യത",
+                "position": "സ്ഥാനം",
+                "position_x": "സ്ഥാനം X",
+                "position_y": "സ്ഥാനം Y",
+                "rotation": "റൊട്ടേഷൻ",
+                "scale": "സ്കെയിൽ"
+            },
+            "video": {
+                "adjust": "ക്രമീകരിക്കുക",
+                "audio": "ഓഡിയോ",
+                "clip_runs": "ക്ലിപ്പ് ദൈർഘ്യം {length}",
+                "corner_radius": "കോർണർ റേഡിയസ്",
+                "corner_radius_stepper": "കോർണർ റേഡിയസ്",
+                "green_screen": "ഗ്രീൻ സ്ക്രീൻ",
+                "loop": "ഡിസൈൻ അവസാനിക്കുന്നതുവരെ ലൂപ്പ് ചെയ്യുക",
+                "mute": "മ്യൂട്ട് ചെയ്യുക",
+                "muted": "മ്യൂട്ട് ചെയ്തു",
+                "no_audio": "ഈ വീഡിയോയിൽ ഓഡിയോ ഇല്ല.",
+                "playback": "പ്ലേബാക്ക്",
+                "replace": "വീഡിയോ മാറ്റിസ്ഥാപിക്കുക",
+                "speed": "വേഗത",
+                "speed_custom_input": "ഇഷ്ടാനുസൃത പ്ലേബാക്ക് വേഗത",
+                "speed_presets": "പ്ലേബാക്ക് വേഗത",
+                "speed_range": "{min}× നും {max}× നും ഇടയിൽ",
+                "tools": "ടൂളുകൾ",
+                "unmute": "അൺമ്യൂട്ട് ചെയ്യുക",
+                "volume": "വോളിയം",
+                "volume_level": "വോളിയം ലെവൽ"
+            }
+        },
+        "shape_preset": {
+            "arrow": "ആരോ",
+            "arrow_down": "താഴേക്കുള്ള ആരോ",
+            "arrow_left": "ഇടത് ആരോ",
+            "arrow_pentagon": "പെന്റഗൺ ആരോ",
+            "arrow_right": "വലത് ആരോ",
+            "arrow_up": "മുകളിലേക്കുള്ള ആരോ",
+            "chevron": "ഷെവ്റോൺ",
+            "circle": "വൃത്തം",
+            "cross": "ക്രോസ്",
+            "diamond": "ഡയമണ്ട്",
+            "hexagon": "ഷഡ്ഭുജം",
+            "hexagon_wide": "വീതിയുള്ള ഷഡ്ഭുജം",
+            "line": "ലൈൻ",
+            "octagon": "അഷ്ടഭുജം",
+            "parallelogram": "സമാന്തരീകരണം",
+            "parallelogram_mirrored": "മിറർ ചെയ്ത സമാന്തരീകരണം",
+            "pentagon": "പഞ്ചഭുജം",
+            "square": "ചതുരം",
+            "trapezoid": "ട്രപീസിയം",
+            "trapezoid_upside_down": "തലകീഴായ ട്രപീസിയം",
+            "triangle": "ത്രികോണം",
+            "triangle_upside_down": "തലകീഴായ ത്രികോണം"
+        },
+        "shapes_panel": {
+            "basic": "ബേസിക്",
+            "lines": "ലൈനുകളും ആരോകളും"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "കീഫ്രെയിം ചേർക്കുക",
+                "back_to_animations": "ആനിമേഷനുകളിലേക്ക് മടങ്ങുക",
+                "basic": "ബേസിക്",
+                "basic_opacity": "അതാര്യത",
+                "basic_position": "സ്ഥാനം",
+                "basic_rotation": "റൊട്ടേഷൻ",
+                "basic_scale": "സ്കെയിൽ",
+                "keyframe": "കീഫ്രെയിം",
+                "pick_property_hint": "കീഫ്രെയിം ചെയ്യേണ്ട പ്രോപ്പർട്ടി തിരഞ്ഞെടുക്കുക. ഒന്നിൽ ടാപ്പ് ചെയ്താൽ ഷീറ്റ് അടയുകയും അതിന്റെ പാനൽ തുറക്കുകയും ചെയ്യും; ലെയറിന്റെ നിലവിലെ മൂല്യത്തോടെ പ്ലേഹെഡിൽ കീഫ്രെയിം ഇതിനകം വെച്ചിരിക്കും.",
+                "presets_need_one": "ആനിമേഷൻ പ്രീസെറ്റുകൾക്ക് ഒരു ഘടകം വേണം. അവ കാണാൻ ഒരൊറ്റ ലെയർ തിരഞ്ഞെടുക്കുക.",
+                "title": "ആനിമേറ്റ്"
+            },
+            "easing": {
+                "title": "ഈസിങ്"
+            },
+            "font_weight": {
+                "title": "ഫോണ്ട് വെയ്റ്റ്"
+            },
+            "speed": {
+                "title": "വേഗത"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "ഡിഫോൾട്ട് നിറങ്ങൾ",
+                "eyedropper": "സ്ക്രീനിൽ നിന്ന് നിറം തിരഞ്ഞെടുക്കുക",
+                "eyedropper_unsupported": "നിങ്ങളുടെ ബ്രൗസർ ഐഡ്രോപ്പർ പിന്തുണയ്ക്കുന്നില്ല",
+                "fill_linear": "ലീനിയർ",
+                "fill_radial": "റേഡിയൽ",
+                "fill_solid": "സോളിഡ്",
+                "fill_type": "ഫിൽ തരം",
+                "gradients_in_design": "ഡിസൈനിലെ ഗ്രേഡിയന്റുകൾ",
+                "hex": "ഹെക്സ് നിറം",
+                "in_design": "ഡിസൈനിൽ",
+                "title": "ഫിൽ നിറം",
+                "use_color": "{color} ഉപയോഗിക്കുക",
+                "use_gradient": "{style} ഗ്രേഡിയന്റ് ഉപയോഗിക്കുക",
+                "use_transparent": "സുതാര്യം"
+            },
+            "crop": {
+                "adjust_shape": "ക്രോപ്പ് ആകൃതി ക്രമീകരിക്കുക",
+                "aspect": "ആസ്പെക്റ്റ്",
+                "framing": "ഫ്രെയിമിങ്",
+                "framing_hint": "ഫോട്ടോ റീഫ്രെയിം ചെയ്യാൻ വലിക്കുക, അല്ലെങ്കിൽ ക്രോപ്പ് വിൻഡോയുടെ വലുപ്പം മാറ്റാൻ ഒരു കോൺ വലിക്കുക. സൂം ചെയ്യാൻ സ്ക്രോൾ ചെയ്യുക.",
+                "scale": "സ്കെയിൽ"
+            },
+            "filters": {
+                "show_earlier": "മുമ്പത്തെ ഫിൽട്ടറുകൾ കാണിക്കുക",
+                "show_more": "കൂടുതൽ ഫിൽട്ടറുകൾ കാണിക്കുക",
+                "swatch": "{label} നിറം: {color}",
+                "title": "ഫിൽട്ടറുകൾ"
+            },
+            "font": {
+                "all_fonts": "എല്ലാ ഫോണ്ടുകളും",
+                "applying": "ഫോണ്ട് പ്രയോഗിക്കുന്നു",
+                "back": "ടെക്സ്റ്റ് ഓപ്ഷനുകളിലേക്ക് മടങ്ങുക",
+                "clear_search": "തിരയൽ മായ്ക്കുക",
+                "clear_search_action": "തിരയൽ മായ്ക്കുക",
+                "in_this_design": "ഈ ഡിസൈനിൽ",
+                "no_match": "“{query}” ന് യോജിക്കുന്ന ഫോണ്ടുകളില്ല",
+                "no_match_hint": "Twibbonize Google Fonts കാറ്റലോഗിൽ നിന്നാണ് എടുക്കുന്നത്, ഈ ഫാമിലി അതിലില്ല. ചെറിയ തിരയൽ പദം പരീക്ഷിക്കുക.",
+                "search_label": "ഫോണ്ട് ഫാമിലികൾ തിരയുക",
+                "search_placeholder": "ഫോണ്ടുകൾ തിരയുക",
+                "title": "ഫോണ്ട് ഫാമിലി",
+                "weight": "ഫോണ്ട് വെയ്റ്റ്"
+            },
+            "gradient": {
+                "add_stop": "ഗ്രേഡിയന്റ് സ്റ്റോപ്പ് ചേർക്കുക",
+                "angle": "കോൺ",
+                "angle_dial": "ഗ്രേഡിയന്റ് കോൺ, {degrees} ഡിഗ്രി. മാറ്റാൻ വലിക്കുക",
+                "angle_dial_hint": "ഗ്രേഡിയന്റ് കോൺ മാറ്റാൻ വലിക്കുക",
+                "angle_input": "ഡിഗ്രിയിൽ ഗ്രേഡിയന്റ് കോൺ",
+                "centre_unsupported": "ഗ്രേഡിയന്റ് കേന്ദ്രം റെൻഡറർ ഇതുവരെ പിന്തുണയ്ക്കുന്നില്ല",
+                "stop": "ഗ്രേഡിയന്റ് സ്റ്റോപ്പ് {index}, {percent}% ൽ, {color}",
+                "stop_hint": "നീക്കാൻ വലിക്കുക, നീക്കം ചെയ്യാൻ ഡബിൾ ക്ലിക്ക് ചെയ്യുക"
+            },
+            "image": {
+                "adjustment": "ക്രമീകരണം",
+                "adjustments": "ക്രമീകരണങ്ങൾ",
+                "back_to_edit": "എഡിറ്റ് ടാബിലേക്ക് മടങ്ങുക",
+                "background_removal": "പശ്ചാത്തലം നീക്കം ചെയ്യൽ",
+                "compare": "ഒറിജിനലുമായി താരതമ്യം ചെയ്യുക",
+                "removing": "നീക്കം ചെയ്യുന്നു…",
+                "removing_background": "പശ്ചാത്തലം നീക്കം ചെയ്യുന്നു",
+                "reset_adjustments": "ക്രമീകരണങ്ങൾ റീസെറ്റ് ചെയ്യുക",
+                "tools": "ടൂളുകൾ"
+            },
+            "keyframe": {
+                "add": "കീഫ്രെയിം ചേർക്കുക",
+                "add_at_playhead": "പ്ലേഹെഡിൽ {property} കീഫ്രെയിം ചേർക്കുക",
+                "add_at_playhead_short": "പ്ലേഹെഡിൽ കീഫ്രെയിം ചേർക്കുക",
+                "add_lane_at_playhead": "പ്ലേഹെഡിൽ {lane} കീഫ്രെയിം ചേർക്കുക",
+                "add_property": "ആനിമേറ്റ് ചെയ്യാൻ പ്രോപ്പർട്ടി ചേർക്കുക",
+                "all_lanes_added": "ഈ ലെയറിന് കീഫ്രെയിം ചെയ്യാവുന്ന എല്ലാ പ്രോപ്പർട്ടിക്കും ഇതിനകം ലെയ്ൻ ഉണ്ട്",
+                "delete": "ഈ കീഫ്രെയിം ഇല്ലാതാക്കുക",
+                "diamond": "{seconds}സെ ൽ {lane} കീഫ്രെയിം",
+                "easing": "ഈസിങ്",
+                "easing_caps": "ഈസിങ്",
+                "first_no_easing": "ആദ്യ കീഫ്രെയിമിന് ഈസിങ് ഇല്ല",
+                "hex": "ഹെക്സ് നിറം",
+                "layer_blur": "ലെയർ ബ്ലർ",
+                "letter_spacing": "അക്ഷര അകലം",
+                "line_height": "ലൈൻ ഉയരം",
+                "opacity": "അതാര്യത",
+                "opacity_percent": "അതാര്യത ശതമാനം",
+                "position_x": "സ്ഥാനം X",
+                "position_y": "സ്ഥാനം Y",
+                "radius_bottom_left": "താഴെ ഇടത് കോർണർ റേഡിയസ്",
+                "radius_bottom_right": "താഴെ വലത് കോർണർ റേഡിയസ്",
+                "radius_top_left": "മുകളിൽ ഇടത് കോർണർ റേഡിയസ്",
+                "radius_top_right": "മുകളിൽ വലത് കോർണർ റേഡിയസ്",
+                "remove": "കീഫ്രെയിം നീക്കം ചെയ്യുക",
+                "remove_at_playhead": "പ്ലേഹെഡിൽ {property} കീഫ്രെയിം നീക്കം ചെയ്യുക",
+                "rotation": "റൊട്ടേഷൻ",
+                "scale": "സ്കെയിൽ",
+                "shadow_blur": "ഷാഡോ ബ്ലർ",
+                "shadow_color": "ഷാഡോ നിറം",
+                "shadow_offset_x": "ഷാഡോ ഓഫ്സെറ്റ് X",
+                "shadow_offset_y": "ഷാഡോ ഓഫ്സെറ്റ് Y",
+                "shadow_spread": "ഷാഡോ സ്പ്രെഡ്",
+                "stroke_color": "സ്ട്രോക്ക് നിറം",
+                "stroke_weight": "സ്ട്രോക്ക് കനം"
+            },
+            "layer": {
+                "page_background": "പേജ് പശ്ചാത്തലം",
+                "tab_animate": "ആനിമേറ്റ്",
+                "tabs_label": "ലെയർ പാനൽ",
+                "title": "ലെയറുകൾ"
+            },
+            "page_preset": {
+                "group_label": "ക്യാൻവാസ് വലുപ്പ പ്രീസെറ്റുകൾ",
+                "landscape": "ലാൻഡ്സ്കേപ്പ്",
+                "portrait": "പോർട്രെയ്റ്റ്",
+                "square": "ചതുരം",
+                "story": "സ്റ്റോറി",
+                "tile_aria": "{name}, {width} x {height} പിക്സൽ"
+            },
+            "personalization": {
+                "act_as_placeholder": "പ്ലേസ്ഹോൾഡറായി പ്രവർത്തിക്കുക",
+                "allow_adjust_framing": "ഫ്രെയിമിങ് ക്രമീകരിക്കാൻ അനുവദിക്കുക",
+                "allow_adjust_framing_hint": "പിന്തുണക്കാർക്ക് ഫ്രെയിമിനുള്ളിൽ അവരുടെ ഫോട്ടോ സൂം ചെയ്യാനും നീക്കാനും കഴിയും.",
+                "allow_change_adjustments": "ക്രമീകരണങ്ങൾ മാറ്റാൻ അനുവദിക്കുക",
+                "allow_change_adjustments_hint": "പിന്തുണക്കാർക്ക് ബ്രൈറ്റ്നസ്, കോൺട്രാസ്റ്റ്, മറ്റ് ക്രമീകരണങ്ങൾ എന്നിവ മാറ്റാൻ കഴിയും.",
+                "allow_change_effect": "ഇഫക്റ്റ് മാറ്റാൻ അനുവദിക്കുക",
+                "allow_change_effect_hint": "പിന്തുണക്കാർക്ക് ഈ ലെയറിന് മറ്റൊരു ഇഫക്റ്റ് തിരഞ്ഞെടുക്കാം.",
+                "allow_change_filter": "ഫിൽട്ടർ മാറ്റാൻ അനുവദിക്കുക",
+                "allow_change_filter_hint": "പിന്തുണക്കാർക്ക് ഈ ലെയറിന് മറ്റൊരു ഫിൽട്ടർ തിരഞ്ഞെടുക്കാം.",
+                "allow_edit_text": "ടെക്സ്റ്റ് എഡിറ്റ് ചെയ്യാൻ അനുവദിക്കുക",
+                "allow_edit_text_hint": "പിന്തുണക്കാർക്ക് ഈ ടെക്സ്റ്റിൽ അവരുടെ സ്വന്തം വാക്കുകൾ ടൈപ്പ് ചെയ്യാം.",
+                "allow_flip": "ഫ്ലിപ്പ് ചെയ്യാൻ അനുവദിക്കുക",
+                "allow_flip_hint": "പിന്തുണക്കാർക്ക് ഈ ലെയർ മിറർ ചെയ്യാം.",
+                "allow_move": "നീക്കാൻ അനുവദിക്കുക",
+                "allow_move_hint": "പിന്തുണക്കാർക്ക് ഈ ലെയർ പുതിയ സ്ഥലത്തേക്ക് വലിച്ചിടാം.",
+                "allow_replace_media": "മീഡിയ മാറ്റിസ്ഥാപിക്കാൻ അനുവദിക്കുക",
+                "allow_replace_media_hint": "പിന്തുണക്കാർക്ക് ഈ ചിത്രം അവരുടെ സ്വന്തം ഫോട്ടോ ഉപയോഗിച്ച് മാറ്റാം.",
+                "allow_resize": "വലുപ്പം മാറ്റാൻ അനുവദിക്കുക",
+                "allow_resize_hint": "പിന്തുണക്കാർക്ക് കോണുകളും വശങ്ങളും വലിച്ച് ഈ ലെയറിന്റെ വലുപ്പം മാറ്റാം.",
+                "allow_rotate": "തിരിക്കാൻ അനുവദിക്കുക",
+                "allow_rotate_hint": "പിന്തുണക്കാർക്ക് ഈ ലെയർ ഏത് കോണിലേക്കും തിരിക്കാം.",
+                "group_appearance": "രൂപഭാവം",
+                "group_arrange": "ക്രമീകരിക്കുക",
+                "group_media": "മീഡിയ",
+                "placeholder_hint": "പിന്തുണക്കാർക്ക് അവരുടെ ഫോട്ടോ ചേർക്കാൻ ടാപ്പ് ചെയ്യാവുന്ന ഒരു ശൂന്യ സ്ലോട്ട് കാണിക്കുന്നു.",
+                "remove_background": "അവരുടെ ഫോട്ടോയിൽ നിന്ന് പശ്ചാത്തലം നീക്കം ചെയ്യുക",
+                "remove_background_hint": "പിന്തുണക്കാരനെ അവരുടെ ഫോട്ടോയിൽ നിന്ന് വേർതിരിക്കുന്നു, അതിനാൽ നിങ്ങളുടെ ഡിസൈൻ അവർക്ക് ചുറ്റും കാണിക്കും.",
+                "text_placeholder_hint": "ഈ ടെക്സ്റ്റ് ഒരു സാമ്പിളായി കാണിക്കുന്നു, പിന്തുണക്കാർ അത് അവരുടേതുകൊണ്ട് മാറ്റും."
+            },
+            "shape_effect": {
+                "colour": "ഇഫക്റ്റ് നിറം",
+                "distance": "ദൂരം",
+                "echo": "എക്കോ",
+                "first_color": "ആദ്യ നിറം",
+                "first_colour": "ആദ്യ ഇഫക്റ്റ് നിറം",
+                "glitch": "ഗ്ലിച്ച്",
+                "glow": "ഗ്ലോ",
+                "group_label": "ആകൃതി ഇഫക്റ്റ്",
+                "second_color": "രണ്ടാം നിറം",
+                "second_colour": "രണ്ടാം ഇഫക്റ്റ് നിറം",
+                "section": "ഇഫക്റ്റ്",
+                "shadow": "ഡ്രോപ്പ് ഷാഡോ"
+            },
+            "text_effect": {
+                "colour": "ഇഫക്റ്റ് നിറം",
+                "curve": "കർവ്",
+                "distance": "ദൂരം",
+                "echo": "എക്കോ",
+                "glow": "ഗ്ലോ",
+                "group_label": "ടെക്സ്റ്റ് ഇഫക്റ്റ്",
+                "outline": "ഔട്ട്ലൈൻ",
+                "section": "ഇഫക്റ്റ്",
+                "shape_group_label": "ടെക്സ്റ്റ് ആകൃതി",
+                "splice": "സ്പ്ലൈസ്",
+                "title": "ടെക്സ്റ്റ് ഇഫക്റ്റുകൾ"
+            }
+        },
+        "templates": {
+            "empty_body": "ചെറിയതോ പൊതുവായതോ ആയ വാക്ക് പരീക്ഷിക്കുക.",
+            "empty_title": "“{query}” ന് യോജിക്കുന്ന ടെംപ്ലേറ്റുകളില്ല",
+            "error_title": "ടെംപ്ലേറ്റുകൾ ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല",
+            "none_body": "ബർത്ത്ഡേ അല്ലെങ്കിൽ ഗ്രാജുവേഷൻ പോലുള്ള ഒരു തീം തിരയുക.",
+            "none_title": "ഈ ഡിസൈനിന് ഇതുവരെ ടെംപ്ലേറ്റുകളില്ല",
+            "search_label": "ടെംപ്ലേറ്റുകൾ തിരയുക",
+            "search_placeholder": "ടെംപ്ലേറ്റുകൾ തിരയുക"
+        },
+        "text_panel": {
+            "add_template": "ടെക്സ്റ്റ് ടെംപ്ലേറ്റ് ചേർക്കുക: {name}",
+            "add_text_box": "ടെക്സ്റ്റ് ബോക്സ് ചേർക്കുക",
+            "empty_body": "ചെറിയതോ പൊതുവായതോ ആയ വാക്ക് പരീക്ഷിക്കുക.",
+            "empty_title": "“{query}” ന് യോജിക്കുന്ന ടെക്സ്റ്റ് ടെംപ്ലേറ്റുകളില്ല",
+            "error_title": "ടെക്സ്റ്റ് ടെംപ്ലേറ്റുകൾ ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല",
+            "none_body": "പകരം ഒരു സാധാരണ ടെക്സ്റ്റ് ബോക്സിൽ തുടങ്ങുക.",
+            "none_title": "കാണിക്കാൻ ടെക്സ്റ്റ് ടെംപ്ലേറ്റുകളില്ല",
+            "search_label": "ടെക്സ്റ്റ് ടെംപ്ലേറ്റുകൾ തിരയുക",
+            "search_placeholder": "ടെക്സ്റ്റ് ടെംപ്ലേറ്റുകൾ തിരയുക"
+        },
+        "text_preset": {
+            "seed": "നിങ്ങളുടെ ടെക്സ്റ്റ് ഇവിടെ ചേർക്കുക"
+        },
+        "textures": {
+            "apply_texture": "{name} പ്രയോഗിക്കുക",
+            "category": {
+                "fabric": "ഫാബ്രിക്",
+                "grain": "ഗ്രെയിൻ",
+                "grunge": "ഗ്രഞ്ച്",
+                "paper": "പേപ്പർ",
+                "print": "പ്രിന്റ്"
+            },
+            "category_group_label": "ടെക്സ്ചർ വിഭാഗം",
+            "empty_body": "ഞങ്ങൾ ഈ ലൈബ്രറി നിർമ്മിക്കുകയാണ് — ഉടൻ വീണ്ടും നോക്കൂ.",
+            "empty_title": "ടെക്സ്ചറുകൾ ഇതുവരെ ഇല്ല",
+            "most_used": "ഏറ്റവും കൂടുതൽ ഉപയോഗിച്ചത്",
+            "search_placeholder": "ടെക്സ്ചറുകൾ തിരയുക"
+        },
+        "timeline": {
+            "audio": {
+                "add": "ഓഡിയോ ചേർക്കുക",
+                "add_tooltip": "ഒരു പശ്ചാത്തല ഓഡിയോ ട്രാക്ക് ചേർക്കുക",
+                "bar_aria": "{name} {start} ൽ {duration} നേരത്തേക്ക്",
+                "decoding": "ഓഡിയോ ഡീകോഡ് ചെയ്യുന്നു…",
+                "decoding_waveform": "വേവ്ഫോം ഡീകോഡ് ചെയ്യുന്നു…",
+                "default_name": "ഓഡിയോ",
+                "drop_to_add": "ഓഡിയോ ചേർക്കാൻ ഡ്രോപ്പ് ചെയ്യുക",
+                "kind_suffix": "· ഓഡിയോ",
+                "mute": "ട്രാക്ക് മ്യൂട്ട് ചെയ്യുക",
+                "unmute": "ട്രാക്ക് അൺമ്യൂട്ട് ചെയ്യുക",
+                "volume": "ട്രാക്ക് വോളിയം",
+                "waveform_error": "ഈ ട്രാക്കിന്റെ വേവ്ഫോം ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല."
+            },
+            "keyframe": {
+                "add": "കീഫ്രെയിം ചേർക്കുക",
+                "add_at_playhead": "പ്ലേഹെഡിൽ കീഫ്രെയിം ചേർക്കുക",
+                "add_tooltip": "ഈ ലെയറിന്റെ ഒരു പ്രോപ്പർട്ടി കീഫ്രെയിം ചെയ്യുക",
+                "diamond_aria": "{time} ൽ {lane} കീഫ്രെയിം",
+                "diamond_hint": " · സമയം മാറ്റാൻ വലിക്കുക, ഇല്ലാതാക്കാൻ റൈറ്റ്-ക്ലിക്ക് ചെയ്യുക",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "കോർണർ റേഡിയസ്",
+                    "layer_blur": "ലെയർ ബ്ലർ",
+                    "line_height": "ലൈൻ ഉയരം",
+                    "opacity": "അതാര്യത",
+                    "position": "സ്ഥാനം",
+                    "rotation": "റൊട്ടേഷൻ",
+                    "scale": "സ്കെയിൽ",
+                    "stroke": "സ്ട്രോക്ക്"
+                },
+                "remove_lane": "{lane} കീഫ്രെയിമുകൾ നീക്കം ചെയ്യുക",
+                "remove_lane_from_layer": "{layer} ൽ നിന്ന് {lane} കീഫ്രെയിമുകൾ നീക്കം ചെയ്യുക",
+                "segment_easing_aria": "{from} നും {to} നും ഇടയിലുള്ള {lane} ടൈമിങ് ഫംഗ്ഷൻ, നിലവിൽ {easing}",
+                "segment_easing_title": "ടൈമിങ് ഫംഗ്ഷൻ · {easing}",
+                "welded_aria": ", ലെയറിന്റെ അറ്റത്ത് ഒട്ടിച്ചിരിക്കുന്നു",
+                "welded_title": " · ലെയറിന്റെ അറ്റത്ത് ഒട്ടിച്ചിരിക്കുന്നു"
+            },
+            "menu": {
+                "repeat_until_end": "അവസാനം വരെ ആവർത്തിക്കുക"
+            },
+            "track": {
+                "bar_aria": "{name} {start} ൽ {duration} നേരത്തേക്ക്",
+                "bar_aria_end_glued": ", അവസാനം ലെയറിനോട് ഒട്ടിച്ചിരിക്കുന്നു",
+                "bar_aria_start_glued": ", തുടക്കം ലെയറിനോട് ഒട്ടിച്ചിരിക്കുന്നു",
+                "bar_tooltip": "{name} · {start} മുതൽ {duration}ms · നീക്കാൻ വലിക്കുക, വലുപ്പം മാറ്റാൻ അറ്റം വലിക്കുക (Alt = സ്നാപ്പ് ഇല്ല)",
+                "bar_tooltip_sole": " · ഈ അറ്റം വലിച്ചാൽ ലെയർ നീങ്ങും",
+                "clip_aria": "{name} ക്ലിപ്പ്",
+                "clip_tooltip": "ലെയർ സമയത്തിൽ നീക്കാൻ വലിക്കുക · ട്രിം ചെയ്യാൻ ഒരറ്റം വലിക്കുക (Alt = സ്നാപ്പ് ഇല്ല)",
+                "collapse": "ചുരുക്കുക",
+                "collapse_all": "എല്ലാ ലെയറുകളും ചുരുക്കുക",
+                "collapse_named": "{name} ചുരുക്കുക",
+                "delete_layer": "ലെയർ ഇല്ലാതാക്കുക",
+                "delete_named": "{name} ഇല്ലാതാക്കുക",
+                "ends_at": "അവസാനിക്കുന്നത്",
+                "expand": "വികസിപ്പിക്കുക",
+                "expand_named": "{name} വികസിപ്പിക്കുക",
+                "hidden_lane_one": "{count} മറച്ച ലെയ്ൻ",
+                "hidden_lane_other": "{count} മറച്ച ലെയ്നുകൾ",
+                "hide": "മറയ്ക്കുക",
+                "hide_named": "{name} മറയ്ക്കുക",
+                "lane_reorder_tooltip": "പുനഃക്രമീകരിക്കാൻ വലിക്കുക — ആനിമേഷനുകൾ ഓവർലാപ്പ് ചെയ്യുന്നിടത്ത് മുകളിലെ ലെയ്ൻ മുൻഗണന നേടും",
+                "layer_animations": "ലെയർ ആനിമേഷനുകൾ",
+                "lock_layer": "ലെയർ ലോക്ക് ചെയ്യുക",
+                "lock_named": "{name} ലോക്ക് ചെയ്യുക",
+                "remove_animation": "ആനിമേഷൻ നീക്കം ചെയ്യുക",
+                "remove_animation_aria": "{layer} ൽ നിന്ന് {name} ആനിമേഷൻ നീക്കം ചെയ്യുക",
+                "reorder_tooltip": "ട്രാക്കുകൾ പുനഃക്രമീകരിക്കാൻ വലിക്കുക — ക്യാൻവാസ് സ്റ്റാക്കിങ് ലെയർ പാനലിൽ സജ്ജമാക്കുന്നു",
+                "show": "കാണിക്കുക",
+                "show_named": "{name} കാണിക്കുക",
+                "split": "സ്പ്ലിറ്റ്",
+                "starts_at": "ആരംഭിക്കുന്നത്",
+                "trim_end": "അവസാനം ട്രിം ചെയ്യുക",
+                "trim_start": "തുടക്കം ട്രിം ചെയ്യുക",
+                "trim_to": "{time} വരെ ട്രിം ചെയ്യുക",
+                "unlock_layer": "ലെയർ അൺലോക്ക് ചെയ്യുക",
+                "unlock_named": "{name} അൺലോക്ക് ചെയ്യുക"
+            },
+            "transport": {
+                "current_time_field": "നിലവിലെ സമയം മില്ലിസെക്കൻഡിൽ",
+                "duration_edge_aria": "പേജ് ദൈർഘ്യം {seconds} സെക്കൻഡ്",
+                "duration_edge_tooltip": "പേജ് ദൈർഘ്യം {seconds}സെ · മാറ്റാൻ വലിക്കുക, കൃത്യമായ മൂല്യത്തിന് ക്ലിക്ക് ചെയ്യുക (Alt = സ്നാപ്പ് ഇല്ല)",
+                "duration_max": "പരമാവധി {seconds} സെ",
+                "fit_to_width": "വീതിക്ക് അനുയോജ്യമാക്കുക",
+                "forward": "ഫോർവേഡ്",
+                "lengthen_page": "പേജ് നീട്ടുക",
+                "loop": "ലൂപ്പ് പ്ലേബാക്ക്",
+                "page_duration": "പേജ് ദൈർഘ്യം",
+                "page_duration_field": "പേജ് ദൈർഘ്യം മില്ലിസെക്കൻഡിൽ",
+                "resize_dock": "ടൈംലൈൻ വലുപ്പം മാറ്റുക",
+                "rewind": "റിവൈൻഡ്",
+                "shorten_page": "പേജ് ചുരുക്കുക",
+                "zoom": "ടൈംലൈൻ സൂം"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {

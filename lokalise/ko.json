@@ -2842,7 +2842,9 @@
             "type": "유형:",
             "size": "크기:",
             "type_image": "JPG, PNG 또는 SVG",
-            "maximum_size": "최대 5MB"
+            "maximum_size": "최대 5MB",
+            "abandoned": "레이어가 삭제되어 업로드가 중단되었습니다. 라이브러리에 보관하려면 다시 시도하세요.",
+            "failed": "업로드에 실패했습니다. 연결을 확인하고 다시 시도하세요."
         },
         "toolbar": {
             "copy": "복사",
@@ -2871,7 +2873,119 @@
             "border_weight": "테두리 가중치",
             "corner_rounding": "코너 라운딩",
             "align": "정렬",
-            "effects": "효과"
+            "effects": "효과",
+            "animate": {
+                "amount": "양",
+                "angle": "각도",
+                "close": "애니메이션 설정 닫기",
+                "delete_animation": "애니메이션 삭제",
+                "distance": "거리",
+                "easing": "이징",
+                "fade": "페이드",
+                "settings_aria": "애니메이션 설정"
+            },
+            "audio": {
+                "replace": "교체",
+                "tools_aria": "오디오 트랙 도구",
+                "trim": "다듬기",
+                "volume": "볼륨"
+            },
+            "clip": {
+                "length": "길이",
+                "split": "분할",
+                "trim": "다듬기"
+            },
+            "entry": {
+                "animate": "애니메이션"
+            },
+            "image": {
+                "adjust": "조정",
+                "background_removal_unavailable": "배경 제거는 아직 사용할 수 없습니다",
+                "remove_background": "배경 제거",
+                "remove_background_short": "누끼",
+                "replace": "교체"
+            },
+            "keyframe": {
+                "blur": "레이어 블러",
+                "close": "키프레임 속성 닫기",
+                "delete_keyframe": "키프레임 삭제",
+                "letter_spacing": "자간",
+                "line_height": "줄 간격",
+                "opacity": "불투명도",
+                "position": "위치",
+                "properties_aria": "키프레임 속성",
+                "rotation": "회전",
+                "scale": "크기"
+            },
+            "layer_tools": {
+                "deselect": "레이어 선택 해제",
+                "tools_aria": "레이어 도구"
+            },
+            "media": {
+                "adjust": "조정",
+                "green_screen": "그린 스크린",
+                "replace": "교체",
+                "trim": "다듬기"
+            },
+            "misc": {
+                "background_fill": "배경 채우기",
+                "background_fill_short": "채우기",
+                "configure_qr": "QR 코드 설정",
+                "edit_background_image": "배경 이미지 편집",
+                "no_background_image": "아직 배경 이미지가 없습니다",
+                "replace_unavailable": "교체(아직 사용할 수 없음)"
+            },
+            "opacity": {
+                "label": "불투명도"
+            },
+            "shape": {
+                "corner_radius": "모서리 반경",
+                "corner_radius_short": "반경",
+                "fill": "채우기",
+                "line_color": "선 색상",
+                "line_style_dots": "점선",
+                "line_style_long_dashes": "긴 파선",
+                "line_style_named": "선 스타일: {style}",
+                "line_style_short_dashes": "짧은 파선",
+                "line_style_solid": "실선",
+                "line_weight": "선 두께",
+                "stroke_color": "획 색상",
+                "stroke_color_short": "획",
+                "stroke_weight": "획 두께",
+                "stroke_weight_short": "두께"
+            },
+            "speed": {
+                "custom_input": "사용자 지정 재생 속도",
+                "label": "속도",
+                "playback_length": "재생 길이",
+                "playback_speed": "재생 속도",
+                "range_hint": "{min}×에서 {max}× 사이"
+            },
+            "text": {
+                "decrease_font_size": "글꼴 크기 줄이기",
+                "font_family": "글꼴",
+                "font_family_named": "글꼴: {value}",
+                "font_size": "글꼴 크기",
+                "font_weight": "글꼴 두께",
+                "font_weight_named": "글꼴 두께: {value}",
+                "increase_font_size": "글꼴 크기 키우기",
+                "keyboard": "키보드",
+                "line_height": "줄 간격",
+                "spacing": "간격",
+                "text_color": "텍스트 색상",
+                "weight": "두께"
+            },
+            "volume": {
+                "clip_hint": "이 클립에만 적용됩니다. 타임라인에 배치한 오디오는 자체 음량을 유지합니다.",
+                "label": "볼륨",
+                "level": "음량",
+                "mute": "음소거",
+                "muted": "음소거됨",
+                "muted_hint": "음량은 유지됩니다. 음소거를 해제하면 클립이 {percent}%로 돌아갑니다.",
+                "no_audio": "이 동영상에는 오디오가 없습니다.",
+                "slider": "볼륨 수준",
+                "unmute": "음소거 해제"
+            }
         },
         "confirmation": {
             "cancel": "폐기",
@@ -2918,7 +3032,1066 @@
             "document_colors": "문서 색상",
             "default_colors": "기본 색상"
         },
-        "graphic": "그래픽"
+        "graphic": "그래픽",
+        "animate": {
+            "anchor": {
+                "bottom_center": "하단 중앙",
+                "bottom_left": "왼쪽 하단",
+                "bottom_right": "오른쪽 하단",
+                "center_left": "왼쪽 중앙",
+                "center_right": "오른쪽 중앙",
+                "top_center": "상단 중앙",
+                "top_left": "왼쪽 상단",
+                "top_right": "오른쪽 상단"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "끝",
+                "more_options": "추가 옵션"
+            },
+            "direction": {
+                "bottom_left": "왼쪽 하단",
+                "bottom_right": "오른쪽 하단",
+                "clockwise": "시계 방향",
+                "counter_clockwise": "시계 반대 방향",
+                "from_the": "{place}에서",
+                "to_the": "{place}(으)로",
+                "top_left": "왼쪽 상단",
+                "top_right": "오른쪽 상단"
+            },
+            "easing": {
+                "accelerate": "가속",
+                "bounce": "바운스",
+                "elastic": "탄성",
+                "impulse": "임펄스",
+                "natural": "자연스럽게",
+                "overshoot": "오버슈트",
+                "slow_down": "감속",
+                "smooth": "부드럽게",
+                "swing": "스윙"
+            },
+            "field": {
+                "amount": "양",
+                "anchor_group": "기준점",
+                "anchor_point": "기준점",
+                "angle": "각도",
+                "apply_effect_to": "효과 적용 대상",
+                "axis": "축",
+                "choose_easing": "이징 선택",
+                "distance": "거리",
+                "duration": "길이",
+                "edge": "가장자리",
+                "fade": "페이드",
+                "from_noun": "시작 {noun}",
+                "horizontal": "가로",
+                "noun_blur": "블러",
+                "noun_opacity": "불투명도",
+                "noun_size": "크기",
+                "opacity": "불투명도",
+                "order": "순서",
+                "position": "위치",
+                "rotation": "회전",
+                "rotation_direction": "회전 방향",
+                "scale": "크기",
+                "smoothing": "스무딩",
+                "to_noun": "끝 {noun}",
+                "vertical": "세로"
+            },
+            "mode": {
+                "arrives": "들어옴",
+                "departs": "나감",
+                "in": "인",
+                "out": "아웃"
+            },
+            "panel": {
+                "animation": "애니메이션",
+                "animations_tab": "애니메이션",
+                "basic": "기본",
+                "changing_note": "대체할 항목을 선택하세요. 변경하려는 애니메이션의 위치와 길이를 그대로 이어받습니다.",
+                "corner_radius": "모서리 반경",
+                "easing": "이징",
+                "fade": "페이드",
+                "keyframe_tab": "키프레임",
+                "layer_blur": "레이어 블러",
+                "line_height": "줄 간격",
+                "more_options": "추가 옵션",
+                "motion": "모션",
+                "needs_one_element": "애니메이션 프리셋을 사용하려면 요소 하나가 필요합니다. 레이어 하나를 선택하세요.",
+                "paste_animation": "애니메이션 붙여넣기",
+                "scale": "크기",
+                "slide": "슬라이드",
+                "stroke": "획",
+                "text_animation": "텍스트 애니메이션"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "나타나기",
+                    "label": "나타나기"
+                },
+                "blur": {
+                    "label": "블러 인"
+                },
+                "blur_scale": {
+                    "caption": "블러 & 크기",
+                    "label": "크기 변화와 함께 블러 인"
+                },
+                "blur_slide": {
+                    "caption": "블러 & 슬라이드",
+                    "label": "슬라이드와 함께 블러 인"
+                },
+                "fade": {
+                    "caption": "페이드",
+                    "label": "페이드"
+                },
+                "grow": {
+                    "caption": "팝",
+                    "label": "팝 인"
+                },
+                "mask_center": {
+                    "caption": "중앙 마스크",
+                    "label": "중앙에서 마스크로 나타나기"
+                },
+                "mask_reveal": {
+                    "caption": "마스크 리빌",
+                    "label": "가장자리에서 마스크로 나타나기"
+                },
+                "mask_slide": {
+                    "caption": "마스크 & 슬라이드",
+                    "label": "슬라이드와 함께 마스크로 나타나기"
+                },
+                "move_scale": {
+                    "caption": "이동 & 크기",
+                    "label": "이동하며 크기가 커지며 등장"
+                },
+                "rotate_left": {
+                    "label": "왼쪽에서 회전"
+                },
+                "rotate_right": {
+                    "label": "오른쪽에서 회전"
+                },
+                "shrink": {
+                    "caption": "빅",
+                    "label": "빅 인"
+                },
+                "slide": {
+                    "caption": "슬라이드",
+                    "label": "슬라이드 인"
+                },
+                "slide_from_bottom": {
+                    "label": "아래에서 슬라이드"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "왼쪽 하단",
+                    "label": "왼쪽 하단에서 슬라이드"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "오른쪽 하단",
+                    "label": "오른쪽 하단에서 슬라이드"
+                },
+                "slide_from_left": {
+                    "label": "왼쪽에서 슬라이드"
+                },
+                "slide_from_right": {
+                    "label": "오른쪽에서 슬라이드"
+                },
+                "slide_from_top": {
+                    "label": "위에서 슬라이드"
+                },
+                "slide_from_top_left": {
+                    "caption": "왼쪽 상단",
+                    "label": "왼쪽 상단에서 슬라이드"
+                },
+                "slide_from_top_right": {
+                    "caption": "오른쪽 상단",
+                    "label": "오른쪽 상단에서 슬라이드"
+                },
+                "spin": {
+                    "caption": "스핀",
+                    "label": "스핀 인"
+                },
+                "spin_scale": {
+                    "caption": "스핀 & 크기",
+                    "label": "회전하며 크기가 커지며 등장"
+                },
+                "twist": {
+                    "caption": "트위스트",
+                    "label": "트위스트 인"
+                }
+            },
+            "property": {
+                "change_text": "텍스트 변경",
+                "morph": "모프",
+                "move": "이동",
+                "opacity": "불투명도",
+                "scale": "크기"
+            },
+            "section": {
+                "fade": "페이드",
+                "mask": "마스크",
+                "scale": "크기",
+                "slide": "슬라이드",
+                "transform": "변형"
+            },
+            "text": {
+                "backward": "뒤로",
+                "forward": "앞으로",
+                "letters": "글자",
+                "summary_overlap": "각 {unit}은(는) 직전 항목이 {percent}% 진행되면 시작됩니다.",
+                "summary_sequential": "각 {unit}은(는) 이전 항목이 끝난 뒤에 시작됩니다.",
+                "summary_together": "모든 {unit}이(가) 함께 움직입니다.",
+                "summary_whole": "텍스트 블록 전체가 하나로 애니메이션됩니다.",
+                "words": "단어"
+            },
+            "type": {
+                "fade_in": "페이드 인",
+                "fade_out": "페이드 아웃",
+                "line_height": "줄 간격",
+                "radius": "반경",
+                "resize_in": "크기 조정 인",
+                "resize_out": "크기 조정 아웃",
+                "rotate_in": "회전 인",
+                "rotate_out": "회전 아웃",
+                "scale_in": "확대 인",
+                "scale_out": "확대 아웃",
+                "slide_in": "슬라이드 인",
+                "slide_out": "슬라이드 아웃",
+                "spacing": "간격",
+                "stroke": "획"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "계속하려면 사진을 추가하세요.",
+                    "gesture": {
+                        "frameDesktop": "드래그하여 위치 조정 · 스크롤하여 확대\/축소",
+                        "frameMobile": "드래그하여 위치 조정, 핀치하여 확대\/축소",
+                        "handles": "모서리와 변으로 크기 조정, 위쪽에서 회전",
+                        "move": "드래그하여 이동",
+                        "moveOrHandles": "드래그하여 이동하거나 핸들 사용",
+                        "resize": "모서리나 변을 드래그하여 크기 조정",
+                        "rotate": "위쪽 핸들을 드래그하여 회전",
+                        "rotateDesktop": "눈금자를 드래그하거나 방향키 사용",
+                        "rotateMobile": "눈금자를 드래그하여 회전"
+                    },
+                    "hint": {
+                        "pickDesktop": "표시된 영역을 클릭하거나 왼쪽에서 레이어 선택",
+                        "pickMobile": "표시된 영역을 탭하거나 아래에서 레이어 선택",
+                        "previewDesktop": "디자인을 미리 보는 중입니다. 클릭하면 계속 편집할 수 있습니다.",
+                        "previewMobile": "디자인을 미리 보는 중입니다. 탭하면 계속 편집할 수 있습니다."
+                    },
+                    "layer": {
+                        "addPhoto": "사진 추가",
+                        "text": "텍스트: {text}",
+                        "yourPhoto": "내 사진",
+                        "yourText": "내 텍스트"
+                    },
+                    "layers": {
+                        "all": "모든 레이어",
+                        "photo": "사진",
+                        "sheetDescription": "이 디자인에서 바꿀 수 있는 모든 항목입니다.",
+                        "title": "레이어"
+                    },
+                    "photoError": "해당 사진을 사용할 수 없습니다. 다른 이미지를 시도해 보세요.",
+                    "preview": {
+                        "backToEditing": "편집으로 돌아가기"
+                    },
+                    "rotation": {
+                        "aria": "회전",
+                        "value": "one:#도|other:#도"
+                    },
+                    "tools": {
+                        "adjust": "조정",
+                        "aria": "레이어 도구",
+                        "editText": "텍스트 편집",
+                        "flip": "뒤집기",
+                        "locked": "크기와 위치는 제작자가 설정했습니다",
+                        "replace": "교체",
+                        "textAria": "텍스트 도구",
+                        "zoomIn": "확대",
+                        "zoomOut": "축소"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name}이(가) 타임라인에 추가되었습니다.",
+                "too_big": "{name}이(가) {limit}을(를) 초과합니다.",
+                "too_long": "{name}이(가) {minutes}분보다 깁니다.",
+                "too_many": "한 번에 {count}개 파일만 가능합니다.",
+                "wrong_type": "{name}은(는) 추가할 수 없습니다. 이미지, 동영상, SVG 파일만 가능합니다."
+            }
+        },
+        "catalogue": {
+            "error_body": "연결을 확인하고 다시 시도하세요.",
+            "loading_more": "더 불러오는 중"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "초안 삭제",
+                "description_unsaved": "이 디자인은 저장되지 않았습니다. 돌아가면 레이어, 스타일, 애니메이션을 포함해 영구적으로 삭제됩니다.",
+                "title": "“{title}” 초안을 삭제하시겠습니까?"
+            },
+            "save": {
+                "description": "저장하면 더 이상 편집할 수 없습니다.",
+                "saving": "저장 중…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "화면에 맞추기"
+        },
+        "graphic_panel": {
+            "add": "{name} 추가",
+            "add_failed": "이 그래픽을 추가할 수 없습니다. 다시 시도하세요.",
+            "empty_body": "별이나 하트처럼 더 짧고 일반적인 단어를 사용해 보세요.",
+            "empty_title": "“{query}”와(과) 일치하는 그래픽이 없습니다",
+            "error_title": "그래픽을 불러올 수 없습니다",
+            "none_title": "표시할 그래픽이 없습니다",
+            "search_label": "그래픽 검색",
+            "search_placeholder": "그래픽 검색"
+        },
+        "header": {
+            "redo": "다시 실행",
+            "saving": "저장 중…",
+            "undo": "실행 취소",
+            "untitled_design": "제목 없는 디자인"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "사진 슬롯"
+            },
+            "menu": {
+                "align_center": "가운데 정렬",
+                "bring_forward": "앞으로 가져오기",
+                "bring_to_front": "맨 앞으로 가져오기",
+                "detach_image": "이미지 분리",
+                "flip_horizontal": "좌우 반전",
+                "flip_vertical": "상하 반전",
+                "replace_image": "이미지 교체",
+                "send_backward": "뒤로 보내기",
+                "send_to_back": "맨 뒤로 보내기",
+                "set_as_background_image": "배경 이미지로 설정",
+                "set_as_background_video": "배경 동영상으로 설정",
+                "set_background_as_image_layer": "배경을 이미지 레이어로 설정",
+                "set_background_as_video_layer": "배경을 동영상 레이어로 설정",
+                "sheet_title": "레이어 옵션",
+                "show_layers": "레이어 표시"
+            },
+            "pill": {
+                "duplicate": "레이어 복제",
+                "more": "레이어 작업 더 보기",
+                "remove": "레이어 삭제",
+                "toolbar": "레이어 작업"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "페어링 코드가 준비되었습니다: {code}. AI 클라이언트에 입력하세요.",
+                "connecting": "페어링 코드를 설정하는 중입니다.",
+                "failed": "연결할 수 없습니다. {reason}",
+                "reconnecting": "연결이 끊어졌습니다. 다시 연결하는 중입니다."
+            },
+            "clipboard_blocked": "브라우저에서 클립보드를 차단했습니다. {hint}",
+            "connect": "연결",
+            "connecting": "연결 중…",
+            "copied_address_announcement": "서버 주소를 복사했습니다",
+            "copied_code_announcement": "페어링 코드를 복사했습니다",
+            "copy_address_hint": "주소를 선택하여 직접 복사하세요.",
+            "copy_code": "코드 복사",
+            "copy_code_hint": "코드를 선택하여 직접 복사하세요.",
+            "copy_server_address": "MCP 서버 주소 복사",
+            "disconnect": "연결 해제",
+            "error_fallback": "페어링 서비스가 응답하지 않았습니다. 연결을 확인하고 다시 시도하세요.",
+            "guide": {
+                "fresh_code": "코드가 작동하지 않으면 연결 해제를 누른 뒤 다시 연결하여 새 코드를 받으세요.",
+                "how_to_set_up": "설정 방법",
+                "step_add_body": "아래 주소를 사용하여 AI 클라이언트에 Twibbonize를 추가하세요. Claude Code에서는 다음을 실행하세요",
+                "step_add_title": "AI 클라이언트에 Twibbonize 추가",
+                "step_pair_body": "“Twibbonize 에디터와 페어링해 줘”라고 말하고 위의 코드를 입력하세요.",
+                "step_pair_title": "페어링 요청",
+                "where_to_paste": "이 코드는 어디에 붙여넣나요?"
+            },
+            "lead": {
+                "code_ready_sentence": "Claude에 붙여넣고 페어링을 요청하세요. Claude가 작업하는 동안 캔버스의 페이지 주위에 링이 표시됩니다.",
+                "code_ready_title": "이 코드를 AI 클라이언트에 입력하세요",
+                "connecting_sentence": "잠시만 기다려 주세요.",
+                "connecting_title": "페어링 코드 설정 중",
+                "disconnected_sentence": "Claude Desktop과 Claude Code는 레이어 추가, 텍스트 입력, 애니메이션 설정, 캔버스 내용 읽기를 할 수 있습니다.",
+                "disconnected_title": "이 디자인에 AI 클라이언트 연결하기",
+                "failed_title": "연결할 수 없습니다",
+                "reconnecting_sentence": "AI 클라이언트와의 연결이 끊어졌습니다. 복구하는 중입니다.",
+                "reconnecting_title": "다시 연결 중",
+                "unavailable_sentence": "이 에디터 빌드에는 AI 연결이 구성되어 있지 않아 아직 연결할 대상이 없습니다.",
+                "unavailable_title": "여기서는 MCP가 켜져 있지 않습니다"
+            },
+            "pairing_code_label": "페어링 코드: {code}"
+        },
+        "media": {
+            "add_asset": "{name} 추가",
+            "dismiss_error": "닫기",
+            "empty_body": "아래에서 이미지, 동영상 또는 오디오 파일을 추가하면 이 세션 동안 여기에 유지됩니다.",
+            "empty_narrowed_body": "검색어를 지우거나 다른 유형을 선택하면 추가한 항목을 모두 볼 수 있습니다.",
+            "empty_narrowed_title": "일치하는 항목 없음",
+            "empty_title": "아직 업로드한 항목이 없습니다",
+            "filter": {
+                "audio": "오디오",
+                "images": "이미지"
+            },
+            "filter_group_label": "미디어 유형",
+            "make_an_image": "이미지 만들기",
+            "make_image_unavailable": "이미지 생성은 아직 사용할 수 없습니다",
+            "search_placeholder": "미디어 검색",
+            "upload_button": "이미지, 동영상 또는 오디오 업로드",
+            "uploads_heading": "업로드"
+        },
+        "page_bar": {
+            "group_label": "확대\/축소 컨트롤",
+            "zoom_menu": "확대\/축소 수준, {percent}%"
+        },
+        "panel": {
+            "loading": "{panel} 불러오는 중…"
+        },
+        "photo": {
+            "add_by": "{name}님의 사진 추가",
+            "add_described": "사진 추가: {description}",
+            "credit": "사진 제공:",
+            "empty_body": "해변이나 도시처럼 더 짧고 일반적인 단어를 사용해 보세요.",
+            "empty_title": "“{query}”와(과) 일치하는 사진이 없습니다",
+            "error_title": "사진을 불러올 수 없습니다",
+            "none_title": "표시할 사진이 없습니다",
+            "search_label": "사진 검색",
+            "search_placeholder": "사진 검색"
+        },
+        "qr": {
+            "add_logo": "로고 추가",
+            "add_to_design": "디자인에 추가",
+            "background_colour_label": "배경색",
+            "code_colour_label": "코드 색상",
+            "code_label": "코드",
+            "link_input_label": "QR 코드 링크",
+            "link_label": "링크",
+            "logo_fallback_name": "로고 이미지",
+            "logo_label": "로고",
+            "remove_logo": "로고 삭제"
+        },
+        "rail": {
+            "aria_label": "디자인 라이브러리",
+            "graphic": "그래픽",
+            "help": "도움말",
+            "layers": "레이어",
+            "mcp": "MCP",
+            "media": "미디어",
+            "photo": "사진",
+            "qr_code": "QR 코드",
+            "shapes": "도형",
+            "templates": "템플릿",
+            "textures": "텍스처",
+            "tools": "도구"
+        },
+        "save": {
+            "failed": "디자인을 저장할 수 없습니다. 다시 시도하세요."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "밝기",
+                "compare": "원본과 비교",
+                "contrast": "대비",
+                "grayscale": "흑백",
+                "group": {
+                    "basic": "기본",
+                    "refinements": "세부 조정"
+                },
+                "hue_rotate": "색조 회전",
+                "reset": "조정 초기화",
+                "saturation": "채도",
+                "title": "조정"
+            },
+            "color": {
+                "trigger": "색상"
+            },
+            "common": {
+                "layer_blur": "레이어 블러",
+                "layer_blur_stepper": "레이어 블러"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "자유 형식",
+                    "landscape": "가로",
+                    "original": "원본",
+                    "portrait": "세로",
+                    "square": "정사각형",
+                    "story": "스토리",
+                    "widescreen": "와이드스크린"
+                },
+                "shape": {
+                    "circle": "원",
+                    "diamond": "마름모",
+                    "half_circle": "반원",
+                    "oval": "타원",
+                    "parallelogram": "평행사변형",
+                    "rounded": "둥근 모서리"
+                }
+            },
+            "filter": {
+                "cool": "쿨",
+                "duotone": "듀오톤",
+                "mono": "모노",
+                "original": "원본",
+                "vivid": "비비드",
+                "warm": "웜"
+            },
+            "font_weight": {
+                "black": "블랙",
+                "extra_bold": "엑스트라볼드",
+                "extra_light": "엑스트라라이트",
+                "medium": "미디엄",
+                "regular": "레귤러",
+                "semibold": "세미볼드",
+                "thin": "씬"
+            },
+            "frame": {
+                "colour": "프레임 색상"
+            },
+            "green_screen": {
+                "choose_colour": "색상 선택",
+                "colour": "색상",
+                "compare": "원본과 비교",
+                "eyedropper": "캔버스에서 색상 선택",
+                "key_colour": "키 색상 {hex}",
+                "loose": "느슨하게",
+                "nothing_found": "배경색을 찾을 수 없습니다.",
+                "precise": "정밀하게",
+                "preset": {
+                    "bright_blue": "밝은 파랑",
+                    "bright_green": "밝은 초록",
+                    "chroma_blue": "크로마 블루",
+                    "chroma_green": "크로마 그린"
+                },
+                "presets": "일반적인 배경 색상",
+                "remove": "그린 스크린 제거",
+                "title": "그린 스크린"
+            },
+            "image": {
+                "corner_radius": "모서리 반경",
+                "corner_radius_stepper": "모서리 반경",
+                "per_corner": "모서리 개별 편집",
+                "per_corner_unavailable": "모서리 개별 편집은 아직 사용할 수 없습니다"
+            },
+            "keypad": {
+                "value_field": "{label} 값"
+            },
+            "line": {
+                "colour": "선 색상",
+                "style": {
+                    "dots": "점선",
+                    "long_dashes": "긴 파선",
+                    "short_dashes": "짧은 파선",
+                    "solid": "실선"
+                },
+                "style_trigger": "선 스타일: {style}",
+                "weight": "선 두께",
+                "weight_trigger": "선 두께 {weight}"
+            },
+            "media": {
+                "heading": "미디어"
+            },
+            "page": {
+                "size_capped": "최대 {max}px — 비율 유지"
+            },
+            "pages": {
+                "title": "페이지"
+            },
+            "photo_slot": {
+                "enable": "사진 슬롯으로 사용",
+                "key_field": "키(고유)",
+                "key_required": "키는 필수입니다",
+                "key_taken": "다른 슬롯에서 이미 사용 중인 키입니다",
+                "label_field": "레이블(최종 사용자에게 표시)",
+                "on": "사진 슬롯",
+                "remove": "사진 슬롯 삭제"
+            },
+            "qr": {
+                "add_logo": "로고 추가",
+                "background_colour": "배경색",
+                "code": "코드",
+                "code_colour": "코드 색상",
+                "link": "링크",
+                "link_input": "QR 코드 링크",
+                "logo": "로고",
+                "remove_logo": "로고 삭제"
+            },
+            "root": {
+                "background_image": "배경 이미지",
+                "edit_background": "배경 이미지 편집",
+                "fill": "채우기",
+                "fill_gradient": "그라데이션",
+                "page_height": "페이지 높이",
+                "page_width": "페이지 너비",
+                "ratio_lock": "가로세로 비율 잠금",
+                "ratio_unlock": "가로세로 비율 잠금 해제",
+                "rotate_left": "배경을 왼쪽으로 회전",
+                "rotate_right": "배경을 오른쪽으로 회전"
+            },
+            "scalar": {
+                "clip_length": "길이",
+                "corner_radius": "모서리 반경",
+                "font_size": "글꼴 크기",
+                "layer_blur": "레이어 블러",
+                "letter_spacing": "자간",
+                "line_height": "줄 간격",
+                "opacity": "불투명도",
+                "speed": "속도",
+                "stroke_width": "획 너비",
+                "volume": "볼륨"
+            },
+            "shape": {
+                "corner_radius": "모서리 반경",
+                "corner_radius_stepper": "모서리 반경",
+                "fill": "채우기",
+                "fill_gradient": "그라데이션",
+                "fill_mixed": "혼합",
+                "fill_transparent": "투명",
+                "stroke": "획",
+                "stroke_color": "획 색상",
+                "stroke_style": {
+                    "dots": "점선",
+                    "long_dashes": "긴 파선",
+                    "short_dashes": "짧은 파선",
+                    "solid": "실선"
+                },
+                "stroke_style_select": "획 스타일",
+                "stroke_transparent": "투명",
+                "stroke_weight": "획 두께"
+            },
+            "svg": {
+                "path_colour": "색상 {index}"
+            },
+            "swatch": {
+                "more_colours": "색상 더 보기"
+            },
+            "text": {
+                "align": {
+                    "justify": "양쪽 정렬"
+                },
+                "alignment": "정렬",
+                "edit_text": "텍스트 편집",
+                "font_family": "글꼴",
+                "font_family_select": "글꼴",
+                "font_size": "글꼴 크기",
+                "italic_unavailable": "이 글꼴은 이 두께의 이탤릭체를 지원하지 않습니다",
+                "letter_spacing_stepper": "자간",
+                "line_height": "줄 간격",
+                "line_height_stepper": "줄 간격",
+                "list": "목록",
+                "list_bulleted": "글머리 기호 목록",
+                "list_numbered": "번호 매기기 목록",
+                "list_style": "목록 스타일",
+                "text_case": "대소문자",
+                "text_color": "텍스트 색상",
+                "text_style": "텍스트 스타일",
+                "weight": "두께"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "아래쪽 정렬",
+                    "center_x": "가로 가운데 정렬",
+                    "center_y": "세로 가운데 정렬",
+                    "left": "왼쪽 정렬",
+                    "right": "오른쪽 정렬",
+                    "top": "위쪽 정렬"
+                },
+                "align_to_page": "페이지에 맞춰 정렬",
+                "opacity": "불투명도",
+                "position": "위치",
+                "position_x": "위치 X",
+                "position_y": "위치 Y",
+                "rotation": "회전",
+                "scale": "크기"
+            },
+            "video": {
+                "adjust": "조정",
+                "audio": "오디오",
+                "clip_runs": "클립 길이 {length}",
+                "corner_radius": "모서리 반경",
+                "corner_radius_stepper": "모서리 반경",
+                "green_screen": "그린 스크린",
+                "loop": "디자인이 끝날 때까지 반복",
+                "mute": "음소거",
+                "muted": "음소거됨",
+                "no_audio": "이 동영상에는 오디오가 없습니다.",
+                "playback": "재생",
+                "replace": "동영상 교체",
+                "speed": "속도",
+                "speed_custom_input": "사용자 지정 재생 속도",
+                "speed_presets": "재생 속도",
+                "speed_range": "{min}×에서 {max}× 사이",
+                "tools": "도구",
+                "unmute": "음소거 해제",
+                "volume": "볼륨",
+                "volume_level": "볼륨 수준"
+            }
+        },
+        "shape_preset": {
+            "arrow": "화살표",
+            "arrow_down": "아래쪽 화살표",
+            "arrow_left": "왼쪽 화살표",
+            "arrow_pentagon": "오각형 화살표",
+            "arrow_right": "오른쪽 화살표",
+            "arrow_up": "위쪽 화살표",
+            "chevron": "갈매기형",
+            "circle": "원",
+            "cross": "십자",
+            "diamond": "마름모",
+            "hexagon": "육각형",
+            "hexagon_wide": "넓은 육각형",
+            "line": "선",
+            "octagon": "팔각형",
+            "parallelogram": "평행사변형",
+            "parallelogram_mirrored": "대칭 평행사변형",
+            "pentagon": "오각형",
+            "square": "정사각형",
+            "trapezoid": "사다리꼴",
+            "trapezoid_upside_down": "거꾸로 된 사다리꼴",
+            "triangle": "삼각형",
+            "triangle_upside_down": "거꾸로 된 삼각형"
+        },
+        "shapes_panel": {
+            "basic": "기본",
+            "lines": "선 및 화살표"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "키프레임 추가",
+                "back_to_animations": "애니메이션으로 돌아가기",
+                "basic": "기본",
+                "basic_opacity": "불투명도",
+                "basic_position": "위치",
+                "basic_rotation": "회전",
+                "basic_scale": "크기",
+                "keyframe": "키프레임",
+                "pick_property_hint": "키프레임을 지정할 속성을 선택하세요. 속성을 탭하면 시트가 닫히고 해당 패널이 열리며, 재생 헤드 위치에 레이어의 현재 값을 가진 키프레임이 추가됩니다.",
+                "presets_need_one": "애니메이션 프리셋을 사용하려면 요소 하나가 필요합니다. 레이어 하나를 선택하세요.",
+                "title": "애니메이션"
+            },
+            "easing": {
+                "title": "이징"
+            },
+            "font_weight": {
+                "title": "글꼴 두께"
+            },
+            "speed": {
+                "title": "속도"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "기본 색상",
+                "eyedropper": "화면에서 색상 선택",
+                "eyedropper_unsupported": "이 브라우저는 스포이트를 지원하지 않습니다",
+                "fill_linear": "선형",
+                "fill_radial": "원형",
+                "fill_solid": "단색",
+                "fill_type": "채우기 유형",
+                "gradients_in_design": "디자인에 사용된 그라데이션",
+                "hex": "16진수 색상",
+                "in_design": "디자인에 사용된 색상",
+                "title": "채우기 색상",
+                "use_color": "{color} 사용",
+                "use_gradient": "{style} 그라데이션 사용",
+                "use_transparent": "투명"
+            },
+            "crop": {
+                "adjust_shape": "자르기 모양 조정",
+                "aspect": "비율",
+                "framing": "프레이밍",
+                "framing_hint": "사진을 드래그하여 위치를 조정하거나 모서리를 드래그하여 자르기 영역 크기를 조정하세요. 스크롤하여 확대\/축소할 수 있습니다.",
+                "scale": "크기"
+            },
+            "filters": {
+                "show_earlier": "이전 필터 보기",
+                "show_more": "필터 더 보기",
+                "swatch": "{label} 색상: {color}",
+                "title": "필터"
+            },
+            "font": {
+                "all_fonts": "모든 글꼴",
+                "applying": "글꼴 적용 중",
+                "back": "텍스트 옵션으로 돌아가기",
+                "clear_search": "검색어 지우기",
+                "clear_search_action": "검색어 지우기",
+                "in_this_design": "이 디자인에서 사용 중",
+                "no_match": "“{query}”와(과) 일치하는 글꼴이 없습니다",
+                "no_match_hint": "Twibbonize는 Google Fonts 카탈로그를 사용하며, 이 글꼴은 그 카탈로그에 없습니다. 더 짧은 검색어를 사용해 보세요.",
+                "search_label": "글꼴 검색",
+                "search_placeholder": "글꼴 검색",
+                "title": "글꼴",
+                "weight": "글꼴 두께"
+            },
+            "gradient": {
+                "add_stop": "그라데이션 정지점 추가",
+                "angle": "각도",
+                "angle_dial": "그라데이션 각도, {degrees}도. 드래그하여 변경",
+                "angle_dial_hint": "드래그하여 그라데이션 각도 변경",
+                "angle_input": "그라데이션 각도(도)",
+                "centre_unsupported": "그라데이션 중심은 아직 렌더러에서 지원되지 않습니다",
+                "stop": "그라데이션 정지점 {index}, {percent}% 위치, {color}",
+                "stop_hint": "드래그하여 이동, 더블클릭하여 삭제"
+            },
+            "image": {
+                "adjustment": "조정",
+                "adjustments": "조정",
+                "back_to_edit": "편집 탭으로 돌아가기",
+                "background_removal": "배경 제거",
+                "compare": "원본과 비교",
+                "removing": "제거 중…",
+                "removing_background": "배경 제거 중",
+                "reset_adjustments": "조정 초기화",
+                "tools": "도구"
+            },
+            "keyframe": {
+                "add": "키프레임 추가",
+                "add_at_playhead": "재생 헤드 위치에 {property} 키프레임 추가",
+                "add_at_playhead_short": "재생 헤드 위치에 키프레임 추가",
+                "add_lane_at_playhead": "재생 헤드 위치에 {lane} 키프레임 추가",
+                "add_property": "애니메이션할 속성 추가",
+                "all_lanes_added": "이 레이어에서 키프레임을 지정할 수 있는 모든 속성에 이미 레인이 있습니다",
+                "delete": "이 키프레임 삭제",
+                "diamond": "{seconds}초의 {lane} 키프레임",
+                "easing": "이징",
+                "easing_caps": "이징",
+                "first_no_easing": "첫 번째 키프레임에는 이징이 없습니다",
+                "hex": "16진수 색상",
+                "layer_blur": "레이어 블러",
+                "letter_spacing": "자간",
+                "line_height": "줄 간격",
+                "opacity": "불투명도",
+                "opacity_percent": "불투명도 퍼센트",
+                "position_x": "위치 X",
+                "position_y": "위치 Y",
+                "radius_bottom_left": "왼쪽 하단 모서리 반경",
+                "radius_bottom_right": "오른쪽 하단 모서리 반경",
+                "radius_top_left": "왼쪽 상단 모서리 반경",
+                "radius_top_right": "오른쪽 상단 모서리 반경",
+                "remove": "키프레임 삭제",
+                "remove_at_playhead": "재생 헤드 위치의 {property} 키프레임 삭제",
+                "rotation": "회전",
+                "scale": "크기",
+                "shadow_blur": "그림자 블러",
+                "shadow_color": "그림자 색상",
+                "shadow_offset_x": "그림자 오프셋 X",
+                "shadow_offset_y": "그림자 오프셋 Y",
+                "shadow_spread": "그림자 확산",
+                "stroke_color": "획 색상",
+                "stroke_weight": "획 두께"
+            },
+            "layer": {
+                "page_background": "페이지 배경",
+                "tab_animate": "애니메이션",
+                "tabs_label": "레이어 패널",
+                "title": "레이어"
+            },
+            "page_preset": {
+                "group_label": "캔버스 크기 프리셋",
+                "landscape": "가로",
+                "portrait": "세로",
+                "square": "정사각형",
+                "story": "스토리",
+                "tile_aria": "{name}, {width} x {height} 픽셀"
+            },
+            "personalization": {
+                "act_as_placeholder": "플레이스홀더로 사용",
+                "allow_adjust_framing": "프레이밍 조정 허용",
+                "allow_adjust_framing_hint": "서포터가 프레임 안에서 사진을 확대하거나 이동할 수 있습니다.",
+                "allow_change_adjustments": "조정 변경 허용",
+                "allow_change_adjustments_hint": "서포터가 밝기, 대비 등의 조정을 변경할 수 있습니다.",
+                "allow_change_effect": "효과 변경 허용",
+                "allow_change_effect_hint": "서포터가 이 레이어의 다른 효과를 선택할 수 있습니다.",
+                "allow_change_filter": "필터 변경 허용",
+                "allow_change_filter_hint": "서포터가 이 레이어의 다른 필터를 선택할 수 있습니다.",
+                "allow_edit_text": "텍스트 편집 허용",
+                "allow_edit_text_hint": "서포터가 이 텍스트에 직접 문구를 입력할 수 있습니다.",
+                "allow_flip": "뒤집기 허용",
+                "allow_flip_hint": "서포터가 이 레이어를 좌우 반전할 수 있습니다.",
+                "allow_move": "이동 허용",
+                "allow_move_hint": "서포터가 이 레이어를 드래그하여 다른 위치로 옮길 수 있습니다.",
+                "allow_replace_media": "미디어 교체 허용",
+                "allow_replace_media_hint": "서포터가 이 이미지를 자신의 사진으로 바꿀 수 있습니다.",
+                "allow_resize": "크기 조정 허용",
+                "allow_resize_hint": "서포터가 모서리와 변을 드래그하여 이 레이어의 크기를 조정할 수 있습니다.",
+                "allow_rotate": "회전 허용",
+                "allow_rotate_hint": "서포터가 이 레이어를 원하는 각도로 돌릴 수 있습니다.",
+                "group_appearance": "모양",
+                "group_arrange": "정렬",
+                "group_media": "미디어",
+                "placeholder_hint": "서포터가 탭하여 사진을 추가할 수 있는 빈 슬롯을 표시합니다.",
+                "remove_background": "사진에서 배경 제거",
+                "remove_background_hint": "서포터를 사진에서 오려내어 디자인이 그 주변에 보이도록 합니다.",
+                "text_placeholder_hint": "이 텍스트를 샘플로 표시하며, 서포터가 자신의 텍스트로 바꿉니다."
+            },
+            "shape_effect": {
+                "colour": "효과 색상",
+                "distance": "거리",
+                "echo": "에코",
+                "first_color": "첫 번째 색상",
+                "first_colour": "첫 번째 효과 색상",
+                "glitch": "글리치",
+                "glow": "글로우",
+                "group_label": "도형 효과",
+                "second_color": "두 번째 색상",
+                "second_colour": "두 번째 효과 색상",
+                "section": "효과",
+                "shadow": "드롭 섀도"
+            },
+            "text_effect": {
+                "colour": "효과 색상",
+                "curve": "곡선",
+                "distance": "거리",
+                "echo": "에코",
+                "glow": "글로우",
+                "group_label": "텍스트 효과",
+                "outline": "아웃라인",
+                "section": "효과",
+                "shape_group_label": "텍스트 모양",
+                "splice": "스플라이스",
+                "title": "텍스트 효과"
+            }
+        },
+        "templates": {
+            "empty_body": "더 짧은 단어를 사용해 보세요.",
+            "empty_title": "“{query}”와(과) 일치하는 템플릿이 없습니다",
+            "error_title": "템플릿을 불러올 수 없습니다",
+            "none_body": "생일이나 졸업 같은 주제를 검색해 보세요.",
+            "none_title": "이 디자인에 맞는 템플릿이 아직 없습니다",
+            "search_label": "템플릿 검색",
+            "search_placeholder": "템플릿 검색"
+        },
+        "text_panel": {
+            "add_template": "텍스트 템플릿 추가: {name}",
+            "add_text_box": "텍스트 상자 추가",
+            "empty_body": "더 짧고 일반적인 단어를 사용해 보세요.",
+            "empty_title": "“{query}”와(과) 일치하는 텍스트 템플릿이 없습니다",
+            "error_title": "텍스트 템플릿을 불러올 수 없습니다",
+            "none_body": "대신 기본 텍스트 상자로 시작해 보세요.",
+            "none_title": "표시할 텍스트 템플릿이 없습니다",
+            "search_label": "텍스트 템플릿 검색",
+            "search_placeholder": "텍스트 템플릿 검색"
+        },
+        "text_preset": {
+            "seed": "여기에 텍스트를 추가하세요"
+        },
+        "textures": {
+            "apply_texture": "{name} 적용",
+            "category": {
+                "fabric": "패브릭",
+                "grain": "그레인",
+                "grunge": "그런지",
+                "paper": "종이",
+                "print": "인쇄"
+            },
+            "category_group_label": "텍스처 카테고리",
+            "empty_body": "이 라이브러리를 준비하고 있습니다. 곧 다시 확인해 주세요.",
+            "empty_title": "아직 텍스처가 없습니다",
+            "most_used": "가장 많이 사용됨",
+            "search_placeholder": "텍스처 검색"
+        },
+        "timeline": {
+            "audio": {
+                "add": "오디오 추가",
+                "add_tooltip": "배경 오디오 트랙 추가",
+                "bar_aria": "{name}, 시작 {start}, 길이 {duration}",
+                "decoding": "오디오 디코딩 중…",
+                "decoding_waveform": "파형 디코딩 중…",
+                "default_name": "오디오",
+                "drop_to_add": "여기에 놓아 오디오 추가",
+                "kind_suffix": "· 오디오",
+                "mute": "트랙 음소거",
+                "unmute": "트랙 음소거 해제",
+                "volume": "트랙 볼륨",
+                "waveform_error": "이 트랙의 파형을 불러올 수 없습니다."
+            },
+            "keyframe": {
+                "add": "키프레임 추가",
+                "add_at_playhead": "재생 헤드 위치에 키프레임 추가",
+                "add_tooltip": "이 레이어의 속성에 키프레임 지정",
+                "diamond_aria": "{time}의 {lane} 키프레임",
+                "diamond_hint": " · 드래그하여 타이밍 변경, 오른쪽 클릭하여 삭제",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "모서리 반경",
+                    "layer_blur": "레이어 블러",
+                    "line_height": "줄 간격",
+                    "opacity": "불투명도",
+                    "position": "위치",
+                    "rotation": "회전",
+                    "scale": "크기",
+                    "stroke": "획"
+                },
+                "remove_lane": "{lane} 키프레임 삭제",
+                "remove_lane_from_layer": "{layer}에서 {lane} 키프레임 삭제",
+                "segment_easing_aria": "{from}과(와) {to} 사이의 {lane} 타이밍 함수, 현재 {easing}",
+                "segment_easing_title": "타이밍 함수 · {easing}",
+                "welded_aria": ", 레이어 가장자리에 고정됨",
+                "welded_title": " · 레이어 가장자리에 고정됨"
+            },
+            "menu": {
+                "repeat_until_end": "끝까지 반복"
+            },
+            "track": {
+                "bar_aria": "{name}, 시작 {start}, 길이 {duration}",
+                "bar_aria_end_glued": ", 끝이 레이어에 고정됨",
+                "bar_aria_start_glued": ", 시작이 레이어에 고정됨",
+                "bar_tooltip": "{name} · {start}부터 {duration}ms · 드래그하여 이동, 가장자리를 드래그하여 크기 조정 (Alt = 스냅 해제)",
+                "bar_tooltip_sole": " · 이 가장자리를 드래그하면 레이어가 이동합니다",
+                "clip_aria": "{name} 클립",
+                "clip_tooltip": "드래그하여 레이어를 시간상 이동 · 끝을 드래그하여 다듬기 (Alt = 스냅 해제)",
+                "collapse": "접기",
+                "collapse_all": "모든 레이어 접기",
+                "collapse_named": "{name} 접기",
+                "delete_layer": "레이어 삭제",
+                "delete_named": "{name} 삭제",
+                "ends_at": "종료 시간",
+                "expand": "펼치기",
+                "expand_named": "{name} 펼치기",
+                "hidden_lane_one": "숨겨진 레인 {count}개",
+                "hidden_lane_other": "숨겨진 레인 {count}개",
+                "hide": "숨기기",
+                "hide_named": "{name} 숨기기",
+                "lane_reorder_tooltip": "드래그하여 순서 변경 — 애니메이션이 겹치면 맨 위 레인이 우선합니다",
+                "layer_animations": "레이어 애니메이션",
+                "lock_layer": "레이어 잠금",
+                "lock_named": "{name} 잠금",
+                "remove_animation": "애니메이션 삭제",
+                "remove_animation_aria": "{layer}에서 {name} 애니메이션 삭제",
+                "reorder_tooltip": "드래그하여 트랙 순서 변경 — 캔버스의 쌓임 순서는 레이어 패널에서 설정합니다",
+                "show": "표시",
+                "show_named": "{name} 표시",
+                "split": "분할",
+                "starts_at": "시작 시간",
+                "trim_end": "끝 다듬기",
+                "trim_start": "시작 다듬기",
+                "trim_to": "{time}까지 다듬기",
+                "unlock_layer": "레이어 잠금 해제",
+                "unlock_named": "{name} 잠금 해제"
+            },
+            "transport": {
+                "current_time_field": "현재 시간(밀리초)",
+                "duration_edge_aria": "페이지 길이 {seconds}초",
+                "duration_edge_tooltip": "페이지 길이 {seconds}초 · 드래그하여 변경, 클릭하여 정확한 값 입력 (Alt = 스냅 해제)",
+                "duration_max": "최대 {seconds}초",
+                "fit_to_width": "너비에 맞추기",
+                "forward": "앞으로 감기",
+                "lengthen_page": "페이지 길게 하기",
+                "loop": "반복 재생",
+                "page_duration": "페이지 길이",
+                "page_duration_field": "페이지 길이(밀리초)",
+                "resize_dock": "타임라인 크기 조정",
+                "rewind": "되감기",
+                "shorten_page": "페이지 짧게 하기",
+                "zoom": "타임라인 확대\/축소"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {

@@ -2842,7 +2842,9 @@
             "type": "Art:",
             "size": "Größe:",
             "type_image": "JPG, PNG oder SVG",
-            "maximum_size": "Maximal 5 MB"
+            "maximum_size": "Maximal 5 MB",
+            "abandoned": "Der Upload wurde beendet, weil die Ebene entfernt wurde. Versuchen Sie es erneut, um ihn in Ihrer Bibliothek zu behalten.",
+            "failed": "Upload fehlgeschlagen. Prüfen Sie Ihre Verbindung und versuchen Sie es erneut."
         },
         "toolbar": {
             "copy": "Kopieren",
@@ -2871,7 +2873,119 @@
             "border_weight": "Rahmenstärke",
             "corner_rounding": "Eckenrundung",
             "align": "Ausrichten",
-            "effects": "Effekte"
+            "effects": "Effekte",
+            "animate": {
+                "amount": "Stärke",
+                "angle": "Winkel",
+                "close": "Animationseinstellungen schließen",
+                "delete_animation": "Animation löschen",
+                "distance": "Abstand",
+                "easing": "Easing",
+                "fade": "Ausblenden",
+                "settings_aria": "Animationseinstellungen"
+            },
+            "audio": {
+                "replace": "Ersetzen",
+                "tools_aria": "Audiospur-Werkzeuge",
+                "trim": "Kürzen",
+                "volume": "Lautstärke"
+            },
+            "clip": {
+                "length": "Länge",
+                "split": "Teilen",
+                "trim": "Kürzen"
+            },
+            "entry": {
+                "animate": "Animieren"
+            },
+            "image": {
+                "adjust": "Anpassen",
+                "background_removal_unavailable": "Hintergrundentfernung ist noch nicht verfügbar",
+                "remove_background": "Hintergrund entfernen",
+                "remove_background_short": "Freistellen",
+                "replace": "Ersetzen"
+            },
+            "keyframe": {
+                "blur": "Ebenenunschärfe",
+                "close": "Keyframe-Eigenschaften schließen",
+                "delete_keyframe": "Keyframe löschen",
+                "letter_spacing": "Abstand",
+                "line_height": "Zeilenhöhe",
+                "opacity": "Deckkraft",
+                "position": "Position",
+                "properties_aria": "Keyframe-Eigenschaften",
+                "rotation": "Drehung",
+                "scale": "Skalierung"
+            },
+            "layer_tools": {
+                "deselect": "Ebene abwählen",
+                "tools_aria": "Ebenenwerkzeuge"
+            },
+            "media": {
+                "adjust": "Anpassen",
+                "green_screen": "Greenscreen",
+                "replace": "Ersetzen",
+                "trim": "Kürzen"
+            },
+            "misc": {
+                "background_fill": "Hintergrundfüllung",
+                "background_fill_short": "Füllung",
+                "configure_qr": "QR-Code konfigurieren",
+                "edit_background_image": "Hintergrundbild bearbeiten",
+                "no_background_image": "Noch kein Hintergrundbild",
+                "replace_unavailable": "Ersetzen (noch nicht verfügbar)"
+            },
+            "opacity": {
+                "label": "Deckkraft"
+            },
+            "shape": {
+                "corner_radius": "Eckenradius",
+                "corner_radius_short": "Radius",
+                "fill": "Füllung",
+                "line_color": "Linienfarbe",
+                "line_style_dots": "Punkte",
+                "line_style_long_dashes": "Lange Striche",
+                "line_style_named": "Linienstil: {style}",
+                "line_style_short_dashes": "Kurze Striche",
+                "line_style_solid": "Durchgezogen",
+                "line_weight": "Linienstärke",
+                "stroke_color": "Konturfarbe",
+                "stroke_color_short": "Kontur",
+                "stroke_weight": "Konturstärke",
+                "stroke_weight_short": "Stärke"
+            },
+            "speed": {
+                "custom_input": "Eigene Wiedergabegeschwindigkeit",
+                "label": "Tempo",
+                "playback_length": "Wiedergabedauer",
+                "playback_speed": "Wiedergabegeschwindigkeit",
+                "range_hint": "Zwischen {min}× und {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Schriftgröße verkleinern",
+                "font_family": "Schriftart",
+                "font_family_named": "Schriftart: {value}",
+                "font_size": "Schriftgröße",
+                "font_weight": "Schriftstärke",
+                "font_weight_named": "Schriftstärke: {value}",
+                "increase_font_size": "Schriftgröße vergrößern",
+                "keyboard": "Tastatur",
+                "line_height": "Zeilenhöhe",
+                "spacing": "Abstand",
+                "text_color": "Textfarbe",
+                "weight": "Stärke"
+            },
+            "volume": {
+                "clip_hint": "Nur dieser Clip. Audio auf der Zeitleiste behält seine eigene Lautstärke.",
+                "label": "Lautstärke",
+                "level": "Pegel",
+                "mute": "Stummschalten",
+                "muted": "Stumm",
+                "muted_hint": "Der Pegel bleibt erhalten. Heben Sie die Stummschaltung auf, und der Clip kehrt zu {percent}% zurück.",
+                "no_audio": "Dieses Video hat keinen Ton.",
+                "slider": "Lautstärkepegel",
+                "unmute": "Stummschaltung aufheben"
+            }
         },
         "confirmation": {
             "cancel": "Ablegen",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Dokument Farben",
             "default_colors": "Standard-Farben"
         },
-        "graphic": "Grafik"
+        "graphic": "Grafik",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Unten Mitte",
+                "bottom_left": "Unten links",
+                "bottom_right": "Unten rechts",
+                "center_left": "Mitte links",
+                "center_right": "Mitte rechts",
+                "top_center": "Oben Mitte",
+                "top_left": "Oben links",
+                "top_right": "Oben rechts"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Ende",
+                "more_options": "Weitere Optionen"
+            },
+            "direction": {
+                "bottom_left": "Unten links",
+                "bottom_right": "Unten rechts",
+                "clockwise": "Im Uhrzeigersinn",
+                "counter_clockwise": "Gegen den Uhrzeigersinn",
+                "from_the": "Von {place}",
+                "to_the": "Nach {place}",
+                "top_left": "Oben links",
+                "top_right": "Oben rechts"
+            },
+            "easing": {
+                "accelerate": "Beschleunigen",
+                "bounce": "Abprallen",
+                "elastic": "Elastisch",
+                "impulse": "Impuls",
+                "natural": "Natürlich",
+                "overshoot": "Überschwingen",
+                "slow_down": "Verlangsamen",
+                "smooth": "Sanft",
+                "swing": "Schwingen"
+            },
+            "field": {
+                "amount": "Stärke",
+                "anchor_group": "Ankerpunkt",
+                "anchor_point": "Ankerpunkt",
+                "angle": "Winkel",
+                "apply_effect_to": "Effekt anwenden auf",
+                "axis": "Achse",
+                "choose_easing": "Easing wählen",
+                "distance": "Abstand",
+                "duration": "Dauer",
+                "edge": "Kante",
+                "fade": "Ausblenden",
+                "from_noun": "Von {noun}",
+                "horizontal": "Horizontal",
+                "noun_blur": "Unschärfe",
+                "noun_opacity": "Deckkraft",
+                "noun_size": "Größe",
+                "opacity": "Deckkraft",
+                "order": "Reihenfolge",
+                "position": "Position",
+                "rotation": "Drehung",
+                "rotation_direction": "Drehrichtung",
+                "scale": "Skalierung",
+                "smoothing": "Glättung",
+                "to_noun": "Bis {noun}",
+                "vertical": "Vertikal"
+            },
+            "mode": {
+                "arrives": "Eintritt",
+                "departs": "Austritt",
+                "in": "Ein",
+                "out": "Aus"
+            },
+            "panel": {
+                "animation": "Animation",
+                "animations_tab": "Animationen",
+                "basic": "Grundlagen",
+                "changing_note": "Wählen Sie einen Ersatz. Er übernimmt Platz und Dauer der Animation, die Sie ändern.",
+                "corner_radius": "Eckenradius",
+                "easing": "Easing",
+                "fade": "Ausblenden",
+                "keyframe_tab": "Keyframe",
+                "layer_blur": "Ebenenunschärfe",
+                "line_height": "Zeilenhöhe",
+                "more_options": "Weitere Optionen",
+                "motion": "Bewegung",
+                "needs_one_element": "Animationsvorlagen benötigen ein Element. Wählen Sie eine einzelne Ebene, um sie zu sehen.",
+                "paste_animation": "Animation einfügen",
+                "scale": "Skalierung",
+                "slide": "Gleiten",
+                "stroke": "Kontur",
+                "text_animation": "Textanimation"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Erscheinen",
+                    "label": "Erscheinen"
+                },
+                "blur": {
+                    "label": "Einblenden mit Unschärfe"
+                },
+                "blur_scale": {
+                    "caption": "Unschärfe & Skalierung",
+                    "label": "Einblenden mit Unschärfe und Skalierung"
+                },
+                "blur_slide": {
+                    "caption": "Unschärfe & Gleiten",
+                    "label": "Einblenden mit Unschärfe und Gleiten"
+                },
+                "fade": {
+                    "caption": "Einblenden",
+                    "label": "Einblenden"
+                },
+                "grow": {
+                    "caption": "Pop",
+                    "label": "Aufpoppen"
+                },
+                "mask_center": {
+                    "caption": "Maske Mitte",
+                    "label": "Maskenreveal von der Mitte"
+                },
+                "mask_reveal": {
+                    "caption": "Maskenreveal",
+                    "label": "Maskenreveal von einer Kante"
+                },
+                "mask_slide": {
+                    "caption": "Maske & Gleiten",
+                    "label": "Maskenreveal mit Gleiten"
+                },
+                "move_scale": {
+                    "caption": "Bewegen & Skalieren",
+                    "label": "Bewegen und Skalieren"
+                },
+                "rotate_left": {
+                    "label": "Von links drehen"
+                },
+                "rotate_right": {
+                    "label": "Von rechts drehen"
+                },
+                "shrink": {
+                    "caption": "Groß",
+                    "label": "Groß einblenden"
+                },
+                "slide": {
+                    "caption": "Gleiten",
+                    "label": "Hineingleiten"
+                },
+                "slide_from_bottom": {
+                    "label": "Von unten gleiten"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Unten links",
+                    "label": "Von unten links gleiten"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Unten rechts",
+                    "label": "Von unten rechts gleiten"
+                },
+                "slide_from_left": {
+                    "label": "Von links gleiten"
+                },
+                "slide_from_right": {
+                    "label": "Von rechts gleiten"
+                },
+                "slide_from_top": {
+                    "label": "Von oben gleiten"
+                },
+                "slide_from_top_left": {
+                    "caption": "Oben links",
+                    "label": "Von oben links gleiten"
+                },
+                "slide_from_top_right": {
+                    "caption": "Oben rechts",
+                    "label": "Von oben rechts gleiten"
+                },
+                "spin": {
+                    "caption": "Wirbeln",
+                    "label": "Hineinwirbeln"
+                },
+                "spin_scale": {
+                    "caption": "Wirbeln & Skalieren",
+                    "label": "Wirbeln und Skalieren"
+                },
+                "twist": {
+                    "caption": "Verdrehen",
+                    "label": "Hineinverdrehen"
+                }
+            },
+            "property": {
+                "change_text": "Text ändern",
+                "morph": "Morphen",
+                "move": "Bewegen",
+                "opacity": "Deckkraft",
+                "scale": "Skalierung"
+            },
+            "section": {
+                "fade": "Ausblenden",
+                "mask": "Maske",
+                "scale": "Skalierung",
+                "slide": "Gleiten",
+                "transform": "Transformieren"
+            },
+            "text": {
+                "backward": "Rückwärts",
+                "forward": "Vorwärts",
+                "letters": "Buchstaben",
+                "summary_overlap": "Pro {unit} startet die Animation, wenn die vorherige zu {percent}% abgeschlossen ist.",
+                "summary_sequential": "Pro {unit} endet die Animation, bevor die nächste beginnt.",
+                "summary_together": "Pro {unit} läuft die Animation gleichzeitig.",
+                "summary_whole": "Der gesamte Textblock wird als Ganzes animiert.",
+                "words": "Wörter"
+            },
+            "type": {
+                "fade_in": "Einblenden",
+                "fade_out": "Ausblenden",
+                "line_height": "Zeilenhöhe",
+                "radius": "Radius",
+                "resize_in": "Größe ändern (ein)",
+                "resize_out": "Größe ändern (aus)",
+                "rotate_in": "Eindrehen",
+                "rotate_out": "Ausdrehen",
+                "scale_in": "Einskalieren",
+                "scale_out": "Ausskalieren",
+                "slide_in": "Hineingleiten",
+                "slide_out": "Hinausgleiten",
+                "spacing": "Abstand",
+                "stroke": "Kontur"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Fügen Sie Ihr Foto hinzu, um fortzufahren.",
+                    "gesture": {
+                        "frameDesktop": "Ziehen zum Verschieben · Scrollen zum Zoomen",
+                        "frameMobile": "Ziehen zum Verschieben, Pinch zum Zoomen",
+                        "handles": "Größe über Ecken und Seiten ändern, über die Oberseite drehen",
+                        "move": "Ziehen zum Verschieben",
+                        "moveOrHandles": "Ziehen zum Verschieben oder Griffe verwenden",
+                        "resize": "Ecke oder Seite ziehen, um die Größe zu ändern",
+                        "rotate": "Oberen Griff ziehen, um zu drehen",
+                        "rotateDesktop": "Lineal ziehen oder Pfeiltasten verwenden",
+                        "rotateMobile": "Lineal ziehen, um zu drehen"
+                    },
+                    "hint": {
+                        "pickDesktop": "Klicken Sie auf einen markierten Bereich oder wählen Sie links eine Ebene",
+                        "pickMobile": "Tippen Sie auf einen markierten Bereich oder wählen Sie unten eine Ebene",
+                        "previewDesktop": "Vorschau Ihres Designs. Klicken Sie darauf, um weiterzubearbeiten.",
+                        "previewMobile": "Vorschau Ihres Designs. Tippen Sie darauf, um weiterzubearbeiten."
+                    },
+                    "layer": {
+                        "addPhoto": "Foto hinzufügen",
+                        "text": "Text: {text}",
+                        "yourPhoto": "Ihr Foto",
+                        "yourText": "Ihr Text"
+                    },
+                    "layers": {
+                        "all": "Alle Ebenen",
+                        "photo": "Foto",
+                        "sheetDescription": "Alles in diesem Design, was Sie ändern können.",
+                        "title": "Ebenen"
+                    },
+                    "photoError": "Dieses Foto konnten wir nicht verwenden. Versuchen Sie ein anderes Bild.",
+                    "preview": {
+                        "backToEditing": "Zurück zum Bearbeiten"
+                    },
+                    "rotation": {
+                        "aria": "Drehung",
+                        "value": "one:# Grad|other:# Grad"
+                    },
+                    "tools": {
+                        "adjust": "Anpassen",
+                        "aria": "Ebenenwerkzeuge",
+                        "editText": "Text bearbeiten",
+                        "flip": "Spiegeln",
+                        "locked": "Größe und Position sind vom Ersteller festgelegt",
+                        "replace": "Ersetzen",
+                        "textAria": "Textwerkzeuge",
+                        "zoomIn": "Vergrößern",
+                        "zoomOut": "Verkleinern"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} wurde zur Zeitleiste hinzugefügt.",
+                "too_big": "{name} ist größer als {limit}.",
+                "too_long": "{name} ist länger als {minutes} Minuten.",
+                "too_many": "Nur {count} Dateien gleichzeitig.",
+                "wrong_type": "{name} kann nicht hinzugefügt werden – nur Bilder, Videos und SVG-Dateien."
+            }
+        },
+        "catalogue": {
+            "error_body": "Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+            "loading_more": "Weitere werden geladen"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Entwurf verwerfen",
+                "description_unsaved": "Dieses Design ist nicht gespeichert. Wenn Sie zurückgehen, wird es endgültig gelöscht – samt Ebenen, Stilen und Animation.",
+                "title": "Entwurf „{title}“ verwerfen?"
+            },
+            "save": {
+                "description": "Nach dem Speichern ist keine Bearbeitung mehr möglich.",
+                "saving": "Wird gespeichert…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "An Bildschirm anpassen"
+        },
+        "graphic_panel": {
+            "add": "{name} hinzufügen",
+            "add_failed": "Diese Grafik konnte nicht hinzugefügt werden. Versuchen Sie es erneut.",
+            "empty_body": "Versuchen Sie ein kürzeres oder allgemeineres Wort, z. B. Stern oder Herz.",
+            "empty_title": "Keine Grafiken für „{query}“",
+            "error_title": "Grafiken konnten nicht geladen werden",
+            "none_title": "Keine Grafiken vorhanden",
+            "search_label": "Grafiken suchen",
+            "search_placeholder": "Grafiken suchen"
+        },
+        "header": {
+            "redo": "Wiederholen",
+            "saving": "Wird gespeichert…",
+            "undo": "Rückgängig",
+            "untitled_design": "Unbenanntes Design"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Fotoplatz"
+            },
+            "menu": {
+                "align_center": "Zentrieren",
+                "bring_forward": "Eine Ebene nach vorn",
+                "bring_to_front": "In den Vordergrund",
+                "detach_image": "Bild lösen",
+                "flip_horizontal": "Horizontal spiegeln",
+                "flip_vertical": "Vertikal spiegeln",
+                "replace_image": "Bild ersetzen",
+                "send_backward": "Eine Ebene nach hinten",
+                "send_to_back": "In den Hintergrund",
+                "set_as_background_image": "Als Hintergrundbild festlegen",
+                "set_as_background_video": "Als Hintergrundvideo festlegen",
+                "set_background_as_image_layer": "Hintergrund als Bildebene festlegen",
+                "set_background_as_video_layer": "Hintergrund als Videoebene festlegen",
+                "sheet_title": "Ebenenoptionen",
+                "show_layers": "Ebenen anzeigen"
+            },
+            "pill": {
+                "duplicate": "Ebene duplizieren",
+                "more": "Weitere Ebenenaktionen",
+                "remove": "Ebene entfernen",
+                "toolbar": "Ebenenaktionen"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Kopplungscode bereit: {code}. Geben Sie ihn Ihrem KI-Client.",
+                "connecting": "Kopplungscode wird erstellt.",
+                "failed": "Verbindung fehlgeschlagen. {reason}",
+                "reconnecting": "Verbindung unterbrochen. Verbindung wird neu aufgebaut."
+            },
+            "clipboard_blocked": "Ihr Browser hat die Zwischenablage blockiert. {hint}",
+            "connect": "Verbinden",
+            "connecting": "Verbindung wird hergestellt…",
+            "copied_address_announcement": "Serveradresse kopiert",
+            "copied_code_announcement": "Kopplungscode kopiert",
+            "copy_address_hint": "Markieren Sie die Adresse und kopieren Sie sie manuell.",
+            "copy_code": "Code kopieren",
+            "copy_code_hint": "Markieren Sie den Code und kopieren Sie ihn manuell.",
+            "copy_server_address": "MCP-Serveradresse kopieren",
+            "disconnect": "Trennen",
+            "error_fallback": "Der Kopplungsdienst hat nicht geantwortet. Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+            "guide": {
+                "fresh_code": "Wenn ein Code nicht mehr funktioniert, klicken Sie auf „Trennen“ und verbinden Sie sich neu, um einen neuen zu erhalten.",
+                "how_to_set_up": "So richten Sie es ein",
+                "step_add_body": "Fügen Sie Twibbonize mit der Adresse unten zu Ihrem KI-Client hinzu. In Claude Code führen Sie aus:",
+                "step_add_title": "Twibbonize zu Ihrem KI-Client hinzufügen",
+                "step_pair_body": "Sagen Sie „Mit dem Twibbonize-Editor koppeln“ und geben Sie den Code von oben an.",
+                "step_pair_title": "Zum Koppeln auffordern",
+                "where_to_paste": "Wo füge ich diesen Code ein?"
+            },
+            "lead": {
+                "code_ready_sentence": "Fügen Sie ihn in Claude ein und bitten Sie darum, zu koppeln. Die Arbeitsfläche zeichnet einen Rahmen um die Seite, während Claude arbeitet.",
+                "code_ready_title": "Geben Sie diesen Code Ihrem KI-Client",
+                "connecting_sentence": "Das dauert einen Moment.",
+                "connecting_title": "Kopplungscode wird erstellt",
+                "disconnected_sentence": "Claude Desktop und Claude Code können Ebenen hinzufügen, Text schreiben, Animationen festlegen und lesen, was auf der Arbeitsfläche ist.",
+                "disconnected_title": "Holen Sie einen KI-Client in dieses Design",
+                "failed_title": "Verbindung fehlgeschlagen",
+                "reconnecting_sentence": "Die Verbindung zu Ihrem KI-Client wurde unterbrochen. Sie wird wiederhergestellt.",
+                "reconnecting_title": "Verbindung wird neu aufgebaut",
+                "unavailable_sentence": "In dieser Editor-Version ist keine KI-Verbindung konfiguriert, daher gibt es noch nichts, womit man sich verbinden könnte.",
+                "unavailable_title": "MCP ist hier nicht aktiviert"
+            },
+            "pairing_code_label": "Kopplungscode: {code}"
+        },
+        "media": {
+            "add_asset": "{name} hinzufügen",
+            "dismiss_error": "Schließen",
+            "empty_body": "Fügen Sie unten eine Bild-, Video- oder Audiodatei hinzu, dann bleibt sie für den Rest dieser Sitzung hier.",
+            "empty_narrowed_body": "Löschen Sie die Suche oder wählen Sie einen anderen Typ, um alles Hinzugefügte zu sehen.",
+            "empty_narrowed_title": "Keine Treffer",
+            "empty_title": "Noch nichts hochgeladen",
+            "filter": {
+                "audio": "Audio",
+                "images": "Bilder"
+            },
+            "filter_group_label": "Medientyp",
+            "make_an_image": "Bild erstellen",
+            "make_image_unavailable": "Bilder generieren ist noch nicht verfügbar",
+            "search_placeholder": "Medien suchen",
+            "upload_button": "Bild, Video oder Audio hochladen",
+            "uploads_heading": "Uploads"
+        },
+        "page_bar": {
+            "group_label": "Zoom-Steuerung",
+            "zoom_menu": "Zoomstufe, {percent}%"
+        },
+        "panel": {
+            "loading": "{panel} wird geladen…"
+        },
+        "photo": {
+            "add_by": "Foto von {name} hinzufügen",
+            "add_described": "Foto hinzufügen: {description}",
+            "credit": "Fotos von",
+            "empty_body": "Versuchen Sie ein kürzeres oder allgemeineres Wort, z. B. Strand oder Stadt.",
+            "empty_title": "Keine Fotos für „{query}“",
+            "error_title": "Fotos konnten nicht geladen werden",
+            "none_title": "Keine Fotos vorhanden",
+            "search_label": "Fotos suchen",
+            "search_placeholder": "Fotos suchen"
+        },
+        "qr": {
+            "add_logo": "Logo hinzufügen",
+            "add_to_design": "Zum Design hinzufügen",
+            "background_colour_label": "Hintergrundfarbe",
+            "code_colour_label": "Codefarbe",
+            "code_label": "Code",
+            "link_input_label": "QR-Code-Link",
+            "link_label": "Link",
+            "logo_fallback_name": "Logobild",
+            "logo_label": "Logo",
+            "remove_logo": "Logo entfernen"
+        },
+        "rail": {
+            "aria_label": "Design-Bibliotheken",
+            "graphic": "Grafiken",
+            "help": "Hilfe",
+            "layers": "Ebenen",
+            "mcp": "MCP",
+            "media": "Medien",
+            "photo": "Fotos",
+            "qr_code": "QR-Code",
+            "shapes": "Formen",
+            "templates": "Vorlagen",
+            "textures": "Texturen",
+            "tools": "Werkzeuge"
+        },
+        "save": {
+            "failed": "Ihr Design konnte nicht gespeichert werden. Versuchen Sie es erneut."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Helligkeit",
+                "compare": "Mit Original vergleichen",
+                "contrast": "Kontrast",
+                "grayscale": "Graustufen",
+                "group": {
+                    "basic": "Grundlagen",
+                    "refinements": "Feinabstimmung"
+                },
+                "hue_rotate": "Farbton drehen",
+                "reset": "Anpassungen zurücksetzen",
+                "saturation": "Sättigung",
+                "title": "Anpassungen"
+            },
+            "color": {
+                "trigger": "Farbe"
+            },
+            "common": {
+                "layer_blur": "Ebenenunschärfe",
+                "layer_blur_stepper": "Ebenenunschärfe"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Freiform",
+                    "landscape": "Querformat",
+                    "original": "Original",
+                    "portrait": "Hochformat",
+                    "square": "Quadrat",
+                    "story": "Story",
+                    "widescreen": "Breitbild"
+                },
+                "shape": {
+                    "circle": "Kreis",
+                    "diamond": "Raute",
+                    "half_circle": "Halbkreis",
+                    "oval": "Oval",
+                    "parallelogram": "Parallelogramm",
+                    "rounded": "Abgerundet"
+                }
+            },
+            "filter": {
+                "cool": "Kühl",
+                "duotone": "Duotone",
+                "mono": "Mono",
+                "original": "Original",
+                "vivid": "Lebendig",
+                "warm": "Warm"
+            },
+            "font_weight": {
+                "black": "Black",
+                "extra_bold": "ExtraBold",
+                "extra_light": "ExtraLight",
+                "medium": "Medium",
+                "regular": "Regular",
+                "semibold": "SemiBold",
+                "thin": "Thin"
+            },
+            "frame": {
+                "colour": "Rahmenfarbe"
+            },
+            "green_screen": {
+                "choose_colour": "Farbe wählen",
+                "colour": "Farbe",
+                "compare": "Mit dem Original vergleichen",
+                "eyedropper": "Farbe von der Arbeitsfläche aufnehmen",
+                "key_colour": "Key-Farbe {hex}",
+                "loose": "Locker",
+                "nothing_found": "Keine Hintergrundfarbe gefunden.",
+                "precise": "Präzise",
+                "preset": {
+                    "bright_blue": "Leuchtendes Blau",
+                    "bright_green": "Leuchtendes Grün",
+                    "chroma_blue": "Chroma-Blau",
+                    "chroma_green": "Chroma-Grün"
+                },
+                "presets": "Gängige Hintergrundfarben",
+                "remove": "Greenscreen entfernen",
+                "title": "Greenscreen"
+            },
+            "image": {
+                "corner_radius": "Eckenradius",
+                "corner_radius_stepper": "Eckenradius",
+                "per_corner": "Einzelne Ecken bearbeiten",
+                "per_corner_unavailable": "Die Bearbeitung einzelner Ecken ist noch nicht verfügbar"
+            },
+            "keypad": {
+                "value_field": "Wert für {label}"
+            },
+            "line": {
+                "colour": "Linienfarbe",
+                "style": {
+                    "dots": "Punkte",
+                    "long_dashes": "Lange Striche",
+                    "short_dashes": "Kurze Striche",
+                    "solid": "Durchgezogen"
+                },
+                "style_trigger": "Linienstil: {style}",
+                "weight": "Linienstärke",
+                "weight_trigger": "Linienstärke {weight}"
+            },
+            "media": {
+                "heading": "Medien"
+            },
+            "page": {
+                "size_capped": "Max. {max} px – Seitenverhältnis bleibt erhalten"
+            },
+            "pages": {
+                "title": "Seiten"
+            },
+            "photo_slot": {
+                "enable": "Als Fotoplatz verwenden",
+                "key_field": "Schlüssel (eindeutig)",
+                "key_required": "Schlüssel ist erforderlich",
+                "key_taken": "Schlüssel wird bereits von einem anderen Platz verwendet",
+                "label_field": "Bezeichnung (für Endnutzer sichtbar)",
+                "on": "Fotoplatz",
+                "remove": "Fotoplatz entfernen"
+            },
+            "qr": {
+                "add_logo": "Logo hinzufügen",
+                "background_colour": "Hintergrundfarbe",
+                "code": "Code",
+                "code_colour": "Codefarbe",
+                "link": "Link",
+                "link_input": "QR-Code-Link",
+                "logo": "Logo",
+                "remove_logo": "Logo entfernen"
+            },
+            "root": {
+                "background_image": "Hintergrundbild",
+                "edit_background": "Hintergrundbild bearbeiten",
+                "fill": "Füllung",
+                "fill_gradient": "Verlauf",
+                "page_height": "Seitenhöhe",
+                "page_width": "Seitenbreite",
+                "ratio_lock": "Seitenverhältnis sperren",
+                "ratio_unlock": "Seitenverhältnis entsperren",
+                "rotate_left": "Hintergrund nach links drehen",
+                "rotate_right": "Hintergrund nach rechts drehen"
+            },
+            "scalar": {
+                "clip_length": "Länge",
+                "corner_radius": "Eckenradius",
+                "font_size": "Schriftgröße",
+                "layer_blur": "Ebenenunschärfe",
+                "letter_spacing": "Buchstabenabstand",
+                "line_height": "Zeilenhöhe",
+                "opacity": "Deckkraft",
+                "speed": "Tempo",
+                "stroke_width": "Konturbreite",
+                "volume": "Lautstärke"
+            },
+            "shape": {
+                "corner_radius": "Eckenradius",
+                "corner_radius_stepper": "Eckenradius",
+                "fill": "Füllung",
+                "fill_gradient": "Verlauf",
+                "fill_mixed": "Gemischt",
+                "fill_transparent": "Transparent",
+                "stroke": "Kontur",
+                "stroke_color": "Konturfarbe",
+                "stroke_style": {
+                    "dots": "Punkte",
+                    "long_dashes": "Lange Striche",
+                    "short_dashes": "Kurze Striche",
+                    "solid": "Durchgezogen"
+                },
+                "stroke_style_select": "Konturstil",
+                "stroke_transparent": "Transparent",
+                "stroke_weight": "Konturstärke"
+            },
+            "svg": {
+                "path_colour": "Farbe {index}"
+            },
+            "swatch": {
+                "more_colours": "Weitere Farben"
+            },
+            "text": {
+                "align": {
+                    "justify": "Blocksatz"
+                },
+                "alignment": "Ausrichtung",
+                "edit_text": "Text bearbeiten",
+                "font_family": "Schriftart",
+                "font_family_select": "Schriftart",
+                "font_size": "Schriftgröße",
+                "italic_unavailable": "Diese Schrift hat in dieser Stärke keine Kursivvariante",
+                "letter_spacing_stepper": "Buchstabenabstand",
+                "line_height": "Zeilenhöhe",
+                "line_height_stepper": "Zeilenhöhe",
+                "list": "Liste",
+                "list_bulleted": "Aufzählungsliste",
+                "list_numbered": "Nummerierte Liste",
+                "list_style": "Listenstil",
+                "text_case": "Groß-\/Kleinschreibung",
+                "text_color": "Textfarbe",
+                "text_style": "Textstil",
+                "weight": "Stärke"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Unten ausrichten",
+                    "center_x": "Horizontal zentrieren",
+                    "center_y": "Vertikal zentrieren",
+                    "left": "Links ausrichten",
+                    "right": "Rechts ausrichten",
+                    "top": "Oben ausrichten"
+                },
+                "align_to_page": "An Seite ausrichten",
+                "opacity": "Deckkraft",
+                "position": "Position",
+                "position_x": "Position X",
+                "position_y": "Position Y",
+                "rotation": "Drehung",
+                "scale": "Skalierung"
+            },
+            "video": {
+                "adjust": "Anpassen",
+                "audio": "Audio",
+                "clip_runs": "Clip läuft {length}",
+                "corner_radius": "Eckenradius",
+                "corner_radius_stepper": "Eckenradius",
+                "green_screen": "Greenscreen",
+                "loop": "Wiederholen, bis das Design endet",
+                "mute": "Stummschalten",
+                "muted": "Stumm",
+                "no_audio": "Dieses Video hat keinen Ton.",
+                "playback": "Wiedergabe",
+                "replace": "Video ersetzen",
+                "speed": "Tempo",
+                "speed_custom_input": "Eigene Wiedergabegeschwindigkeit",
+                "speed_presets": "Wiedergabegeschwindigkeit",
+                "speed_range": "Zwischen {min}× und {max}×",
+                "tools": "Werkzeuge",
+                "unmute": "Stummschaltung aufheben",
+                "volume": "Lautstärke",
+                "volume_level": "Lautstärkepegel"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Pfeil",
+            "arrow_down": "Pfeil nach unten",
+            "arrow_left": "Pfeil nach links",
+            "arrow_pentagon": "Pentagonpfeil",
+            "arrow_right": "Pfeil nach rechts",
+            "arrow_up": "Pfeil nach oben",
+            "chevron": "Winkel",
+            "circle": "Kreis",
+            "cross": "Kreuz",
+            "diamond": "Raute",
+            "hexagon": "Sechseck",
+            "hexagon_wide": "Breites Sechseck",
+            "line": "Linie",
+            "octagon": "Achteck",
+            "parallelogram": "Parallelogramm",
+            "parallelogram_mirrored": "Gespiegeltes Parallelogramm",
+            "pentagon": "Fünfeck",
+            "square": "Quadrat",
+            "trapezoid": "Trapez",
+            "trapezoid_upside_down": "Trapez, kopfüber",
+            "triangle": "Dreieck",
+            "triangle_upside_down": "Dreieck, kopfüber"
+        },
+        "shapes_panel": {
+            "basic": "Grundformen",
+            "lines": "Linien und Pfeile"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Keyframe hinzufügen",
+                "back_to_animations": "Zurück zu den Animationen",
+                "basic": "Grundlagen",
+                "basic_opacity": "Deckkraft",
+                "basic_position": "Position",
+                "basic_rotation": "Drehung",
+                "basic_scale": "Skalierung",
+                "keyframe": "Keyframe",
+                "pick_property_hint": "Wählen Sie die Eigenschaft für den Keyframe. Beim Antippen schließt sich das Blatt und das zugehörige Panel öffnet sich, mit einem Keyframe an der Abspielposition, der den aktuellen Wert der Ebene enthält.",
+                "presets_need_one": "Animationsvorlagen benötigen ein Element. Wählen Sie eine einzelne Ebene, um sie zu sehen.",
+                "title": "Animieren"
+            },
+            "easing": {
+                "title": "Easing"
+            },
+            "font_weight": {
+                "title": "Schriftstärke"
+            },
+            "speed": {
+                "title": "Tempo"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Standardfarben",
+                "eyedropper": "Farbe vom Bildschirm aufnehmen",
+                "eyedropper_unsupported": "Ihr Browser unterstützt die Pipette nicht",
+                "fill_linear": "linear",
+                "fill_radial": "radial",
+                "fill_solid": "einfarbig",
+                "fill_type": "Fülltyp",
+                "gradients_in_design": "Verläufe im Design",
+                "hex": "Hex-Farbe",
+                "in_design": "Im Design",
+                "title": "Füllfarbe",
+                "use_color": "{color} verwenden",
+                "use_gradient": "{style}-Verlauf verwenden",
+                "use_transparent": "Transparent"
+            },
+            "crop": {
+                "adjust_shape": "Zuschneideform anpassen",
+                "aspect": "Seitenverhältnis",
+                "framing": "Ausschnitt",
+                "framing_hint": "Ziehen Sie das Foto, um den Ausschnitt zu ändern, oder eine Ecke, um das Zuschneidefenster zu skalieren. Scrollen zum Zoomen.",
+                "scale": "Skalierung"
+            },
+            "filters": {
+                "show_earlier": "Frühere Filter anzeigen",
+                "show_more": "Weitere Filter anzeigen",
+                "swatch": "{label}-Farbe: {color}",
+                "title": "Filter"
+            },
+            "font": {
+                "all_fonts": "ALLE SCHRIFTEN",
+                "applying": "Schrift wird angewendet",
+                "back": "Zurück zu den Textoptionen",
+                "clear_search": "Suche löschen",
+                "clear_search_action": "Suche löschen",
+                "in_this_design": "IN DIESEM DESIGN",
+                "no_match": "Keine Schriften für „{query}“",
+                "no_match_hint": "Twibbonize nutzt den Google-Fonts-Katalog, und diese Schriftfamilie gehört nicht dazu. Versuchen Sie einen kürzeren Suchbegriff.",
+                "search_label": "Schriftfamilien suchen",
+                "search_placeholder": "Schriften suchen",
+                "title": "Schriftart",
+                "weight": "Schriftstärke"
+            },
+            "gradient": {
+                "add_stop": "Verlaufsstopp hinzufügen",
+                "angle": "Winkel",
+                "angle_dial": "Verlaufswinkel, {degrees} Grad. Ziehen zum Ändern",
+                "angle_dial_hint": "Ziehen, um den Verlaufswinkel zu ändern",
+                "angle_input": "Verlaufswinkel in Grad",
+                "centre_unsupported": "Die Verlaufsmitte wird vom Renderer noch nicht unterstützt",
+                "stop": "Verlaufsstopp {index} bei {percent}%, {color}",
+                "stop_hint": "Ziehen zum Verschieben, Doppelklick zum Entfernen"
+            },
+            "image": {
+                "adjustment": "Anpassung",
+                "adjustments": "Anpassungen",
+                "back_to_edit": "Zurück zum Tab „Bearbeiten“",
+                "background_removal": "Hintergrundentfernung",
+                "compare": "Mit Original vergleichen",
+                "removing": "Wird entfernt…",
+                "removing_background": "Hintergrund wird entfernt",
+                "reset_adjustments": "Anpassungen zurücksetzen",
+                "tools": "Werkzeuge"
+            },
+            "keyframe": {
+                "add": "Keyframe hinzufügen",
+                "add_at_playhead": "{property}-Keyframe an der Abspielposition hinzufügen",
+                "add_at_playhead_short": "Keyframe an der Abspielposition hinzufügen",
+                "add_lane_at_playhead": "{lane}-Keyframe an der Abspielposition hinzufügen",
+                "add_property": "Eigenschaft zum Animieren hinzufügen",
+                "all_lanes_added": "Jede Eigenschaft, die diese Ebene per Keyframe animieren kann, hat bereits eine Spur",
+                "delete": "Diesen Keyframe löschen",
+                "diamond": "{lane}-Keyframe bei {seconds} s",
+                "easing": "Easing",
+                "easing_caps": "EASING",
+                "first_no_easing": "Der erste Keyframe hat kein Easing",
+                "hex": "Hex-Farbe",
+                "layer_blur": "Ebenenunschärfe",
+                "letter_spacing": "Buchstabenabstand",
+                "line_height": "Zeilenhöhe",
+                "opacity": "Deckkraft",
+                "opacity_percent": "Deckkraft in Prozent",
+                "position_x": "Position X",
+                "position_y": "Position Y",
+                "radius_bottom_left": "Eckenradius unten links",
+                "radius_bottom_right": "Eckenradius unten rechts",
+                "radius_top_left": "Eckenradius oben links",
+                "radius_top_right": "Eckenradius oben rechts",
+                "remove": "Keyframe entfernen",
+                "remove_at_playhead": "{property}-Keyframe an der Abspielposition entfernen",
+                "rotation": "Drehung",
+                "scale": "Skalierung",
+                "shadow_blur": "Schattenunschärfe",
+                "shadow_color": "Schattenfarbe",
+                "shadow_offset_x": "Schattenversatz X",
+                "shadow_offset_y": "Schattenversatz Y",
+                "shadow_spread": "Schattenausbreitung",
+                "stroke_color": "Konturfarbe",
+                "stroke_weight": "Konturstärke"
+            },
+            "layer": {
+                "page_background": "Seitenhintergrund",
+                "tab_animate": "Animieren",
+                "tabs_label": "Ebenenpanel",
+                "title": "Ebenen"
+            },
+            "page_preset": {
+                "group_label": "Vorgaben für die Arbeitsflächengröße",
+                "landscape": "Querformat",
+                "portrait": "Hochformat",
+                "square": "Quadrat",
+                "story": "Story",
+                "tile_aria": "{name}, {width} mal {height} Pixel"
+            },
+            "personalization": {
+                "act_as_placeholder": "Als Platzhalter verwenden",
+                "allow_adjust_framing": "Ausschnitt anpassen erlauben",
+                "allow_adjust_framing_hint": "Unterstützer können ihr Foto im Rahmen zoomen und verschieben.",
+                "allow_change_adjustments": "Anpassungen ändern erlauben",
+                "allow_change_adjustments_hint": "Unterstützer können Helligkeit, Kontrast und andere Anpassungen ändern.",
+                "allow_change_effect": "Effekt ändern erlauben",
+                "allow_change_effect_hint": "Unterstützer können einen anderen Effekt für diese Ebene wählen.",
+                "allow_change_filter": "Filter ändern erlauben",
+                "allow_change_filter_hint": "Unterstützer können einen anderen Filter für diese Ebene wählen.",
+                "allow_edit_text": "Text bearbeiten erlauben",
+                "allow_edit_text_hint": "Unterstützer können in diesem Text eigene Worte eingeben.",
+                "allow_flip": "Spiegeln erlauben",
+                "allow_flip_hint": "Unterstützer können diese Ebene spiegeln.",
+                "allow_move": "Verschieben erlauben",
+                "allow_move_hint": "Unterstützer können diese Ebene an eine andere Stelle ziehen.",
+                "allow_replace_media": "Medien ersetzen erlauben",
+                "allow_replace_media_hint": "Unterstützer können dieses Bild durch ihr eigenes Foto ersetzen.",
+                "allow_resize": "Größe ändern erlauben",
+                "allow_resize_hint": "Unterstützer können die Größe dieser Ebene durch Ziehen an Ecken und Seiten ändern.",
+                "allow_rotate": "Drehen erlauben",
+                "allow_rotate_hint": "Unterstützer können diese Ebene beliebig drehen.",
+                "group_appearance": "Darstellung",
+                "group_arrange": "Anordnen",
+                "group_media": "Medien",
+                "placeholder_hint": "Zeigt einen leeren Platz, auf den Unterstützer tippen können, um ihr Foto hinzuzufügen.",
+                "remove_background": "Hintergrund ihres Fotos entfernen",
+                "remove_background_hint": "Schneidet den Unterstützer aus seinem Foto frei, sodass Ihr Design um ihn herum sichtbar ist.",
+                "text_placeholder_hint": "Zeigt diesen Text als Beispiel, den Unterstützer durch ihren eigenen ersetzen."
+            },
+            "shape_effect": {
+                "colour": "Effektfarbe",
+                "distance": "Abstand",
+                "echo": "Echo",
+                "first_color": "Erste Farbe",
+                "first_colour": "Erste Effektfarbe",
+                "glitch": "Glitch",
+                "glow": "Leuchten",
+                "group_label": "Formeffekt",
+                "second_color": "Zweite Farbe",
+                "second_colour": "Zweite Effektfarbe",
+                "section": "Effekt",
+                "shadow": "Schlagschatten"
+            },
+            "text_effect": {
+                "colour": "Effektfarbe",
+                "curve": "Krümmung",
+                "distance": "Abstand",
+                "echo": "Echo",
+                "glow": "Leuchten",
+                "group_label": "Texteffekt",
+                "outline": "Umriss",
+                "section": "Effekt",
+                "shape_group_label": "Textform",
+                "splice": "Splice",
+                "title": "Texteffekte"
+            }
+        },
+        "templates": {
+            "empty_body": "Versuchen Sie ein kürzeres oder allgemeineres Wort.",
+            "empty_title": "Keine Vorlagen für „{query}“",
+            "error_title": "Vorlagen konnten nicht geladen werden",
+            "none_body": "Suchen Sie nach einem Thema, z. B. Geburtstag oder Abschluss.",
+            "none_title": "Noch keine Vorlagen für dieses Design",
+            "search_label": "Vorlagen suchen",
+            "search_placeholder": "Vorlagen suchen"
+        },
+        "text_panel": {
+            "add_template": "Textvorlage hinzufügen: {name}",
+            "add_text_box": "Textfeld hinzufügen",
+            "empty_body": "Versuchen Sie ein kürzeres oder allgemeineres Wort.",
+            "empty_title": "Keine Textvorlagen für „{query}“",
+            "error_title": "Textvorlagen konnten nicht geladen werden",
+            "none_body": "Beginnen Sie stattdessen mit einem einfachen Textfeld.",
+            "none_title": "Keine Textvorlagen vorhanden",
+            "search_label": "Textvorlagen suchen",
+            "search_placeholder": "Textvorlagen suchen"
+        },
+        "text_preset": {
+            "seed": "Fügen Sie hier Ihren Text hinzu"
+        },
+        "textures": {
+            "apply_texture": "{name} anwenden",
+            "category": {
+                "fabric": "Stoff",
+                "grain": "Körnung",
+                "grunge": "Grunge",
+                "paper": "Papier",
+                "print": "Druck"
+            },
+            "category_group_label": "Texturkategorie",
+            "empty_body": "Wir bauen diese Bibliothek gerade auf – schauen Sie bald wieder vorbei.",
+            "empty_title": "Noch keine Texturen",
+            "most_used": "Am häufigsten verwendet",
+            "search_placeholder": "Texturen suchen"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Audio hinzufügen",
+                "add_tooltip": "Hintergrund-Audiospur hinzufügen",
+                "bar_aria": "{name} bei {start} für {duration}",
+                "decoding": "Audio wird dekodiert…",
+                "decoding_waveform": "Wellenform wird dekodiert…",
+                "default_name": "Audio",
+                "drop_to_add": "Zum Hinzufügen von Audio ablegen",
+                "kind_suffix": "· Audio",
+                "mute": "Spur stummschalten",
+                "unmute": "Stummschaltung der Spur aufheben",
+                "volume": "Spurlautstärke",
+                "waveform_error": "Die Wellenform dieser Spur konnte nicht geladen werden."
+            },
+            "keyframe": {
+                "add": "Keyframe hinzufügen",
+                "add_at_playhead": "Keyframe an der Abspielposition hinzufügen",
+                "add_tooltip": "Eine Eigenschaft dieser Ebene per Keyframe animieren",
+                "diamond_aria": "{lane}-Keyframe bei {time}",
+                "diamond_hint": " · ziehen zum Neu-Timen, Rechtsklick zum Löschen",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Eckenradius",
+                    "layer_blur": "Ebenenunschärfe",
+                    "line_height": "Zeilenhöhe",
+                    "opacity": "Deckkraft",
+                    "position": "Position",
+                    "rotation": "Drehung",
+                    "scale": "Skalierung",
+                    "stroke": "Kontur"
+                },
+                "remove_lane": "{lane}-Keyframes entfernen",
+                "remove_lane_from_layer": "{lane}-Keyframes von {layer} entfernen",
+                "segment_easing_aria": "{lane}-Timing-Funktion zwischen {from} und {to}, derzeit {easing}",
+                "segment_easing_title": "Timing-Funktion · {easing}",
+                "welded_aria": ", an die Ebenenkante gekoppelt",
+                "welded_title": " · an die Ebenenkante gekoppelt"
+            },
+            "menu": {
+                "repeat_until_end": "Bis zum Ende wiederholen"
+            },
+            "track": {
+                "bar_aria": "{name} bei {start} für {duration}",
+                "bar_aria_end_glued": ", Ende an die Ebene gekoppelt",
+                "bar_aria_start_glued": ", Anfang an die Ebene gekoppelt",
+                "bar_tooltip": "{name} · {start} für {duration} ms · ziehen zum Verschieben, Kante ziehen zum Ändern der Größe (Alt = kein Einrasten)",
+                "bar_tooltip_sole": " · Ziehen dieser Kante verschiebt die Ebene",
+                "clip_aria": "{name}-Clip",
+                "clip_tooltip": "Ziehen, um die Ebene zeitlich zu verschieben · Ende ziehen zum Kürzen (Alt = kein Einrasten)",
+                "collapse": "Einklappen",
+                "collapse_all": "Alle Ebenen einklappen",
+                "collapse_named": "{name} einklappen",
+                "delete_layer": "Ebene löschen",
+                "delete_named": "{name} löschen",
+                "ends_at": "Endet bei",
+                "expand": "Ausklappen",
+                "expand_named": "{name} ausklappen",
+                "hidden_lane_one": "{count} ausgeblendete Spur",
+                "hidden_lane_other": "{count} ausgeblendete Spuren",
+                "hide": "Ausblenden",
+                "hide_named": "{name} ausblenden",
+                "lane_reorder_tooltip": "Ziehen zum Neuordnen – die oberste Spur gewinnt, wo sich Animationen überlappen",
+                "layer_animations": "Ebenenanimationen",
+                "lock_layer": "Ebene sperren",
+                "lock_named": "{name} sperren",
+                "remove_animation": "Animation entfernen",
+                "remove_animation_aria": "{name}-Animation von {layer} entfernen",
+                "reorder_tooltip": "Ziehen, um Spuren neu zu ordnen – die Stapelreihenfolge auf der Arbeitsfläche wird im Ebenenpanel festgelegt",
+                "show": "Einblenden",
+                "show_named": "{name} einblenden",
+                "split": "Teilen",
+                "starts_at": "Beginnt bei",
+                "trim_end": "Ende kürzen",
+                "trim_start": "Anfang kürzen",
+                "trim_to": "Auf {time} kürzen",
+                "unlock_layer": "Ebene entsperren",
+                "unlock_named": "{name} entsperren"
+            },
+            "transport": {
+                "current_time_field": "Aktuelle Zeit in Millisekunden",
+                "duration_edge_aria": "Seitendauer {seconds} Sekunden",
+                "duration_edge_tooltip": "Seitendauer {seconds} s · ziehen zum Ändern, klicken für den genauen Wert (Alt = kein Einrasten)",
+                "duration_max": "Maximal {seconds} s",
+                "fit_to_width": "An Breite anpassen",
+                "forward": "Vorspulen",
+                "lengthen_page": "Seite verlängern",
+                "loop": "Wiedergabe wiederholen",
+                "page_duration": "Seitendauer",
+                "page_duration_field": "Seitendauer in Millisekunden",
+                "resize_dock": "Zeitleiste in der Größe ändern",
+                "rewind": "Zurückspulen",
+                "shorten_page": "Seite verkürzen",
+                "zoom": "Zeitleisten-Zoom"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {

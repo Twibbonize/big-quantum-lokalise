@@ -2842,7 +2842,9 @@
             "type": "Tipo:",
             "size": "Tamaño:",
             "type_image": "JPG, PNG o SVG",
-            "maximum_size": "Máximo 5 MB"
+            "maximum_size": "Máximo 5 MB",
+            "abandoned": "La subida se detuvo al eliminar su capa. Vuelve a intentarlo para conservarla en tu biblioteca.",
+            "failed": "Error al subir. Comprueba tu conexión e inténtalo de nuevo."
         },
         "toolbar": {
             "copy": "Copia",
@@ -2871,7 +2873,119 @@
             "border_weight": "Peso del borde",
             "corner_rounding": "Redondeo de esquinas",
             "align": "Alinear",
-            "effects": "Efectos"
+            "effects": "Efectos",
+            "animate": {
+                "amount": "Cantidad",
+                "angle": "Ángulo",
+                "close": "Cerrar ajustes de animación",
+                "delete_animation": "Eliminar animación",
+                "distance": "Distancia",
+                "easing": "Suavizado",
+                "fade": "Desvanecer",
+                "settings_aria": "Ajustes de animación"
+            },
+            "audio": {
+                "replace": "Reemplazar",
+                "tools_aria": "Herramientas de pista de audio",
+                "trim": "Recortar",
+                "volume": "Volumen"
+            },
+            "clip": {
+                "length": "Duración",
+                "split": "Dividir",
+                "trim": "Recortar"
+            },
+            "entry": {
+                "animate": "Animar"
+            },
+            "image": {
+                "adjust": "Ajustar",
+                "background_removal_unavailable": "La eliminación de fondo aún no está disponible",
+                "remove_background": "Eliminar fondo",
+                "remove_background_short": "Recorte",
+                "replace": "Reemplazar"
+            },
+            "keyframe": {
+                "blur": "Desenfoque de capa",
+                "close": "Cerrar propiedades del fotograma clave",
+                "delete_keyframe": "Eliminar fotograma clave",
+                "letter_spacing": "Espaciado",
+                "line_height": "Interlineado",
+                "opacity": "Opacidad",
+                "position": "Posición",
+                "properties_aria": "Propiedades del fotograma clave",
+                "rotation": "Rotación",
+                "scale": "Escala"
+            },
+            "layer_tools": {
+                "deselect": "Deseleccionar capa",
+                "tools_aria": "Herramientas de capa"
+            },
+            "media": {
+                "adjust": "Ajustar",
+                "green_screen": "Pantalla verde",
+                "replace": "Reemplazar",
+                "trim": "Recortar"
+            },
+            "misc": {
+                "background_fill": "Relleno de fondo",
+                "background_fill_short": "Relleno",
+                "configure_qr": "Configurar código QR",
+                "edit_background_image": "Editar imagen de fondo",
+                "no_background_image": "Aún no hay imagen de fondo",
+                "replace_unavailable": "Reemplazar (aún no disponible)"
+            },
+            "opacity": {
+                "label": "Opacidad"
+            },
+            "shape": {
+                "corner_radius": "Radio de esquina",
+                "corner_radius_short": "Radio",
+                "fill": "Relleno",
+                "line_color": "Color de línea",
+                "line_style_dots": "Puntos",
+                "line_style_long_dashes": "Guiones largos",
+                "line_style_named": "Estilo de línea: {style}",
+                "line_style_short_dashes": "Guiones cortos",
+                "line_style_solid": "Sólida",
+                "line_weight": "Grosor de línea",
+                "stroke_color": "Color de trazo",
+                "stroke_color_short": "Trazo",
+                "stroke_weight": "Grosor de trazo",
+                "stroke_weight_short": "Grosor"
+            },
+            "speed": {
+                "custom_input": "Velocidad de reproducción personalizada",
+                "label": "Velocidad",
+                "playback_length": "Duración de reproducción",
+                "playback_speed": "Velocidad de reproducción",
+                "range_hint": "Entre {min}× y {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Reducir tamaño de fuente",
+                "font_family": "Familia de fuente",
+                "font_family_named": "Familia de fuente: {value}",
+                "font_size": "Tamaño de fuente",
+                "font_weight": "Grosor de fuente",
+                "font_weight_named": "Grosor de fuente: {value}",
+                "increase_font_size": "Aumentar tamaño de fuente",
+                "keyboard": "Teclado",
+                "line_height": "Interlineado",
+                "spacing": "Espaciado",
+                "text_color": "Color del texto",
+                "weight": "Grosor"
+            },
+            "volume": {
+                "clip_hint": "Solo este clip. El audio colocado en la línea de tiempo mantiene su propio nivel.",
+                "label": "Volumen",
+                "level": "Nivel",
+                "mute": "Silenciar",
+                "muted": "Silenciado",
+                "muted_hint": "Se conserva el nivel. Activa el sonido y el clip vuelve al {percent} %.",
+                "no_audio": "Este vídeo no tiene audio.",
+                "slider": "Nivel de volumen",
+                "unmute": "Activar sonido"
+            }
         },
         "confirmation": {
             "cancel": "Descartar",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Colores de los documentos",
             "default_colors": "Colores por defecto"
         },
-        "graphic": "Gráfico"
+        "graphic": "Gráfico",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Abajo al centro",
+                "bottom_left": "Abajo a la izquierda",
+                "bottom_right": "Abajo a la derecha",
+                "center_left": "Centro izquierda",
+                "center_right": "Centro derecha",
+                "top_center": "Arriba al centro",
+                "top_left": "Arriba a la izquierda",
+                "top_right": "Arriba a la derecha"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Fin",
+                "more_options": "Más opciones"
+            },
+            "direction": {
+                "bottom_left": "Abajo a la izquierda",
+                "bottom_right": "Abajo a la derecha",
+                "clockwise": "Sentido horario",
+                "counter_clockwise": "Sentido antihorario",
+                "from_the": "Desde {place}",
+                "to_the": "Hacia {place}",
+                "top_left": "Arriba a la izquierda",
+                "top_right": "Arriba a la derecha"
+            },
+            "easing": {
+                "accelerate": "Acelerar",
+                "bounce": "Rebote",
+                "elastic": "Elástico",
+                "impulse": "Impulso",
+                "natural": "Natural",
+                "overshoot": "Sobrepaso",
+                "slow_down": "Desacelerar",
+                "smooth": "Suave",
+                "swing": "Balanceo"
+            },
+            "field": {
+                "amount": "Cantidad",
+                "anchor_group": "Punto de anclaje",
+                "anchor_point": "Punto de anclaje",
+                "angle": "Ángulo",
+                "apply_effect_to": "Aplicar efecto a",
+                "axis": "Eje",
+                "choose_easing": "Elegir suavizado",
+                "distance": "Distancia",
+                "duration": "Duración",
+                "edge": "Borde",
+                "fade": "Desvanecer",
+                "from_noun": "Desde {noun}",
+                "horizontal": "Horizontal",
+                "noun_blur": "desenfoque",
+                "noun_opacity": "opacidad",
+                "noun_size": "tamaño",
+                "opacity": "Opacidad",
+                "order": "Orden",
+                "position": "Posición",
+                "rotation": "Rotación",
+                "rotation_direction": "Dirección de rotación",
+                "scale": "Escala",
+                "smoothing": "Suavizado",
+                "to_noun": "Hasta {noun}",
+                "vertical": "Vertical"
+            },
+            "mode": {
+                "arrives": "Llega",
+                "departs": "Sale",
+                "in": "Entrada",
+                "out": "Salida"
+            },
+            "panel": {
+                "animation": "Animación",
+                "animations_tab": "Animaciones",
+                "basic": "Básico",
+                "changing_note": "Elige un reemplazo. Ocupa el lugar y la duración de la animación que estás cambiando.",
+                "corner_radius": "Radio de esquina",
+                "easing": "Suavizado",
+                "fade": "Desvanecer",
+                "keyframe_tab": "Fotograma clave",
+                "layer_blur": "Desenfoque de capa",
+                "line_height": "Interlineado",
+                "more_options": "Más opciones",
+                "motion": "Movimiento",
+                "needs_one_element": "Los ajustes preestablecidos de animación necesitan un solo elemento. Selecciona una sola capa para verlos.",
+                "paste_animation": "Pegar animación",
+                "scale": "Escala",
+                "slide": "Deslizar",
+                "stroke": "Trazo",
+                "text_animation": "Animación de texto"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Aparecer",
+                    "label": "Aparecer"
+                },
+                "blur": {
+                    "label": "Entrada con desenfoque"
+                },
+                "blur_scale": {
+                    "caption": "Desenfoque y escala",
+                    "label": "Entrada con desenfoque y escala"
+                },
+                "blur_slide": {
+                    "caption": "Desenfoque y deslizamiento",
+                    "label": "Entrada con desenfoque y deslizamiento"
+                },
+                "fade": {
+                    "caption": "Desvanecer",
+                    "label": "Desvanecer"
+                },
+                "grow": {
+                    "caption": "Pop",
+                    "label": "Entrada pop"
+                },
+                "mask_center": {
+                    "caption": "Máscara central",
+                    "label": "Revelado con máscara desde el centro"
+                },
+                "mask_reveal": {
+                    "caption": "Revelado con máscara",
+                    "label": "Revelado con máscara desde un borde"
+                },
+                "mask_slide": {
+                    "caption": "Máscara y deslizamiento",
+                    "label": "Revelado con máscara y deslizamiento"
+                },
+                "move_scale": {
+                    "caption": "Mover y escalar",
+                    "label": "Entrada con movimiento y escala"
+                },
+                "rotate_left": {
+                    "label": "Rotar desde la izquierda"
+                },
+                "rotate_right": {
+                    "label": "Rotar desde la derecha"
+                },
+                "shrink": {
+                    "caption": "Grande",
+                    "label": "Entrada grande"
+                },
+                "slide": {
+                    "caption": "Deslizar",
+                    "label": "Entrada deslizante"
+                },
+                "slide_from_bottom": {
+                    "label": "Deslizar desde abajo"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Abajo a la izquierda",
+                    "label": "Deslizar desde abajo a la izquierda"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Abajo a la derecha",
+                    "label": "Deslizar desde abajo a la derecha"
+                },
+                "slide_from_left": {
+                    "label": "Deslizar desde la izquierda"
+                },
+                "slide_from_right": {
+                    "label": "Deslizar desde la derecha"
+                },
+                "slide_from_top": {
+                    "label": "Deslizar desde arriba"
+                },
+                "slide_from_top_left": {
+                    "caption": "Arriba a la izquierda",
+                    "label": "Deslizar desde arriba a la izquierda"
+                },
+                "slide_from_top_right": {
+                    "caption": "Arriba a la derecha",
+                    "label": "Deslizar desde arriba a la derecha"
+                },
+                "spin": {
+                    "caption": "Giro",
+                    "label": "Entrada con giro"
+                },
+                "spin_scale": {
+                    "caption": "Giro y escala",
+                    "label": "Entrada con giro y escala"
+                },
+                "twist": {
+                    "caption": "Torsión",
+                    "label": "Entrada con torsión"
+                }
+            },
+            "property": {
+                "change_text": "Cambiar texto",
+                "morph": "Transformar",
+                "move": "Mover",
+                "opacity": "Opacidad",
+                "scale": "Escala"
+            },
+            "section": {
+                "fade": "Desvanecer",
+                "mask": "Máscara",
+                "scale": "Escala",
+                "slide": "Deslizar",
+                "transform": "Transformar"
+            },
+            "text": {
+                "backward": "Hacia atrás",
+                "forward": "Hacia delante",
+                "letters": "Letras",
+                "summary_overlap": "Cada {unit} empieza cuando el anterior va por el {percent} %.",
+                "summary_sequential": "Cada {unit} termina antes de que empiece el siguiente.",
+                "summary_together": "Todos los {unit} se mueven a la vez.",
+                "summary_whole": "Todo el bloque de texto se anima como uno solo.",
+                "words": "Palabras"
+            },
+            "type": {
+                "fade_in": "Aparición gradual",
+                "fade_out": "Desaparición gradual",
+                "line_height": "Interlineado",
+                "radius": "Radio",
+                "resize_in": "Entrada con cambio de tamaño",
+                "resize_out": "Salida con cambio de tamaño",
+                "rotate_in": "Entrada con rotación",
+                "rotate_out": "Salida con rotación",
+                "scale_in": "Entrada con escala",
+                "scale_out": "Salida con escala",
+                "slide_in": "Entrada deslizante",
+                "slide_out": "Salida deslizante",
+                "spacing": "Espaciado",
+                "stroke": "Trazo"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Añade tu foto para continuar.",
+                    "gesture": {
+                        "frameDesktop": "Arrastra para reposicionar · Desplaza para ampliar",
+                        "frameMobile": "Arrastra para reposicionar, pellizca para ampliar",
+                        "handles": "Cambia el tamaño desde las esquinas y los lados, rota desde arriba",
+                        "move": "Arrastra para mover",
+                        "moveOrHandles": "Arrastra para mover o usa los tiradores",
+                        "resize": "Arrastra una esquina o un lado para cambiar el tamaño",
+                        "rotate": "Arrastra el tirador superior para rotar",
+                        "rotateDesktop": "Arrastra la regla o usa las teclas de flecha",
+                        "rotateMobile": "Arrastra la regla para rotar"
+                    },
+                    "hint": {
+                        "pickDesktop": "Haz clic en una zona marcada o elige una capa a la izquierda",
+                        "pickMobile": "Toca una zona marcada o elige una capa abajo",
+                        "previewDesktop": "Vista previa de tu diseño. Haz clic en él para seguir editando.",
+                        "previewMobile": "Vista previa de tu diseño. Tócalo para seguir editando."
+                    },
+                    "layer": {
+                        "addPhoto": "Añade tu foto",
+                        "text": "Texto: {text}",
+                        "yourPhoto": "Tu foto",
+                        "yourText": "Tu texto"
+                    },
+                    "layers": {
+                        "all": "Todas las capas",
+                        "photo": "Foto",
+                        "sheetDescription": "Todo lo que puedes cambiar en este diseño.",
+                        "title": "Capas"
+                    },
+                    "photoError": "No pudimos usar esa foto. Prueba con otra imagen.",
+                    "preview": {
+                        "backToEditing": "Volver a editar"
+                    },
+                    "rotation": {
+                        "aria": "Rotación",
+                        "value": "one:# grado|other:# grados"
+                    },
+                    "tools": {
+                        "adjust": "Ajustar",
+                        "aria": "Herramientas de capa",
+                        "editText": "Editar texto",
+                        "flip": "Voltear",
+                        "locked": "El creador ha fijado el tamaño y la posición",
+                        "replace": "Reemplazar",
+                        "textAria": "Herramientas de texto",
+                        "zoomIn": "Acercar",
+                        "zoomOut": "Alejar"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} añadido a la línea de tiempo.",
+                "too_big": "{name} supera {limit}.",
+                "too_long": "{name} dura más de {minutes} minutos.",
+                "too_many": "Solo {count} archivos a la vez.",
+                "wrong_type": "No se puede añadir {name}: solo imágenes, vídeos y archivos SVG."
+            }
+        },
+        "catalogue": {
+            "error_body": "Comprueba tu conexión y vuelve a intentarlo.",
+            "loading_more": "Cargando más"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Descartar borrador",
+                "description_unsaved": "Este diseño no está guardado. Si vuelves atrás, se eliminará para siempre, incluidas las capas, los estilos y las animaciones.",
+                "title": "¿Descartar el borrador «{title}»?"
+            },
+            "save": {
+                "description": "Una vez guardado, ya no se podrá editar.",
+                "saving": "Guardando…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Ajustar a la pantalla"
+        },
+        "graphic_panel": {
+            "add": "Añadir {name}",
+            "add_failed": "No se pudo añadir este gráfico. Inténtalo de nuevo.",
+            "empty_body": "Prueba con una palabra más corta o más general, como estrella o corazón.",
+            "empty_title": "Ningún gráfico coincide con «{query}»",
+            "error_title": "No se pudieron cargar los gráficos",
+            "none_title": "No hay gráficos que mostrar",
+            "search_label": "Buscar gráficos",
+            "search_placeholder": "Buscar gráficos"
+        },
+        "header": {
+            "redo": "Rehacer",
+            "saving": "Guardando…",
+            "undo": "Deshacer",
+            "untitled_design": "Diseño sin título"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Espacio para foto"
+            },
+            "menu": {
+                "align_center": "Centrar",
+                "bring_forward": "Traer adelante",
+                "bring_to_front": "Traer al frente",
+                "detach_image": "Separar imagen",
+                "flip_horizontal": "Voltear horizontalmente",
+                "flip_vertical": "Voltear verticalmente",
+                "replace_image": "Reemplazar imagen",
+                "send_backward": "Enviar atrás",
+                "send_to_back": "Enviar al fondo",
+                "set_as_background_image": "Establecer como imagen de fondo",
+                "set_as_background_video": "Establecer como vídeo de fondo",
+                "set_background_as_image_layer": "Establecer el fondo como capa de imagen",
+                "set_background_as_video_layer": "Establecer el fondo como capa de vídeo",
+                "sheet_title": "Opciones de capa",
+                "show_layers": "Mostrar capas"
+            },
+            "pill": {
+                "duplicate": "Duplicar capa",
+                "more": "Más acciones de capa",
+                "remove": "Eliminar capa",
+                "toolbar": "Acciones de capa"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Código de vinculación listo: {code}. Dáselo a tu cliente de IA.",
+                "connecting": "Generando un código de vinculación.",
+                "failed": "No se pudo conectar. {reason}",
+                "reconnecting": "Se perdió la conexión. Intentando reconectar."
+            },
+            "clipboard_blocked": "Tu navegador bloqueó el portapapeles. {hint}",
+            "connect": "Conectar",
+            "connecting": "Conectando…",
+            "copied_address_announcement": "Dirección del servidor copiada",
+            "copied_code_announcement": "Código de vinculación copiado",
+            "copy_address_hint": "Selecciona la dirección y cópiala manualmente.",
+            "copy_code": "Copiar código",
+            "copy_code_hint": "Selecciona el código y cópialo manualmente.",
+            "copy_server_address": "Copiar la dirección del servidor MCP",
+            "disconnect": "Desconectar",
+            "error_fallback": "El servicio de vinculación no respondió. Comprueba tu conexión e inténtalo de nuevo.",
+            "guide": {
+                "fresh_code": "Si un código deja de funcionar, pulsa Desconectar y vuelve a conectar para obtener uno nuevo.",
+                "how_to_set_up": "Cómo configurarlo",
+                "step_add_body": "Añade Twibbonize a tu cliente de IA con la dirección de abajo. En Claude Code, ejecuta",
+                "step_add_title": "Añade Twibbonize a tu cliente de IA",
+                "step_pair_body": "Di «vincúlate con el editor de Twibbonize» y dale el código de arriba.",
+                "step_pair_title": "Pídele que se vincule",
+                "where_to_paste": "¿Dónde pego este código?"
+            },
+            "lead": {
+                "code_ready_sentence": "Pégalo en Claude y pídele que se vincule. El lienzo dibuja un anillo alrededor de la página mientras Claude trabaja.",
+                "code_ready_title": "Da este código a tu cliente de IA",
+                "connecting_sentence": "Esto tarda un momento.",
+                "connecting_title": "Generando un código de vinculación",
+                "disconnected_sentence": "Claude Desktop y Claude Code pueden añadir capas, escribir texto, configurar animaciones y leer lo que hay en el lienzo.",
+                "disconnected_title": "Lleva un cliente de IA a este diseño",
+                "failed_title": "No se pudo conectar",
+                "reconnecting_sentence": "Se perdió el enlace con tu cliente de IA. Intentando restablecerlo.",
+                "reconnecting_title": "Reconectando",
+                "unavailable_sentence": "Esta versión del editor no tiene ninguna conexión de IA configurada, así que aún no hay nada a lo que conectarse.",
+                "unavailable_title": "MCP no está activado aquí"
+            },
+            "pairing_code_label": "Código de vinculación: {code}"
+        },
+        "media": {
+            "add_asset": "Añadir {name}",
+            "dismiss_error": "Descartar",
+            "empty_body": "Añade una imagen, un vídeo o un archivo de audio abajo y se quedará aquí durante el resto de esta sesión.",
+            "empty_narrowed_body": "Borra la búsqueda o elige otro tipo para ver todo lo que has añadido.",
+            "empty_narrowed_title": "Sin coincidencias",
+            "empty_title": "Aún no hay nada subido",
+            "filter": {
+                "audio": "Audio",
+                "images": "Imágenes"
+            },
+            "filter_group_label": "Tipo de medio",
+            "make_an_image": "Crear una imagen",
+            "make_image_unavailable": "La generación de imágenes aún no está disponible",
+            "search_placeholder": "Buscar medios",
+            "upload_button": "Subir imagen, vídeo o audio",
+            "uploads_heading": "Subidas"
+        },
+        "page_bar": {
+            "group_label": "Controles de zoom",
+            "zoom_menu": "Nivel de zoom, {percent} %"
+        },
+        "panel": {
+            "loading": "Cargando {panel}…"
+        },
+        "photo": {
+            "add_by": "Añadir foto de {name}",
+            "add_described": "Añadir foto: {description}",
+            "credit": "Fotos proporcionadas por",
+            "empty_body": "Prueba con una palabra más corta o más general, como playa o ciudad.",
+            "empty_title": "Ninguna foto coincide con «{query}»",
+            "error_title": "No se pudieron cargar las fotos",
+            "none_title": "No hay fotos que mostrar",
+            "search_label": "Buscar fotos",
+            "search_placeholder": "Buscar fotos"
+        },
+        "qr": {
+            "add_logo": "Añadir logotipo",
+            "add_to_design": "Añadir al diseño",
+            "background_colour_label": "Color de fondo",
+            "code_colour_label": "Color del código",
+            "code_label": "Código",
+            "link_input_label": "Enlace del código QR",
+            "link_label": "Enlace",
+            "logo_fallback_name": "Imagen del logotipo",
+            "logo_label": "Logotipo",
+            "remove_logo": "Quitar logotipo"
+        },
+        "rail": {
+            "aria_label": "Bibliotecas de diseño",
+            "graphic": "Gráficos",
+            "help": "Ayuda",
+            "layers": "Capas",
+            "mcp": "MCP",
+            "media": "Medios",
+            "photo": "Fotos",
+            "qr_code": "Código QR",
+            "shapes": "Formas",
+            "templates": "Plantillas",
+            "textures": "Texturas",
+            "tools": "Herramientas"
+        },
+        "save": {
+            "failed": "No se pudo guardar tu diseño. Inténtalo de nuevo."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Brillo",
+                "compare": "Comparar con el original",
+                "contrast": "Contraste",
+                "grayscale": "Escala de grises",
+                "group": {
+                    "basic": "Básico",
+                    "refinements": "Refinamientos"
+                },
+                "hue_rotate": "Rotación de tono",
+                "reset": "Restablecer ajustes",
+                "saturation": "Saturación",
+                "title": "Ajustes"
+            },
+            "color": {
+                "trigger": "Color"
+            },
+            "common": {
+                "layer_blur": "Desenfoque de capa",
+                "layer_blur_stepper": "Desenfoque de capa"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Forma libre",
+                    "landscape": "Horizontal",
+                    "original": "Original",
+                    "portrait": "Vertical",
+                    "square": "Cuadrado",
+                    "story": "Historia",
+                    "widescreen": "Panorámico"
+                },
+                "shape": {
+                    "circle": "Círculo",
+                    "diamond": "Rombo",
+                    "half_circle": "Semicírculo",
+                    "oval": "Óvalo",
+                    "parallelogram": "Paralelogramo",
+                    "rounded": "Redondeado"
+                }
+            },
+            "filter": {
+                "cool": "Frío",
+                "duotone": "Duotono",
+                "mono": "Mono",
+                "original": "Original",
+                "vivid": "Intenso",
+                "warm": "Cálido"
+            },
+            "font_weight": {
+                "black": "Black",
+                "extra_bold": "ExtraBold",
+                "extra_light": "ExtraLight",
+                "medium": "Medium",
+                "regular": "Regular",
+                "semibold": "SemiBold",
+                "thin": "Thin"
+            },
+            "frame": {
+                "colour": "Color del marco"
+            },
+            "green_screen": {
+                "choose_colour": "Elige un color",
+                "colour": "Color",
+                "compare": "Comparar con el original",
+                "eyedropper": "Elige un color del lienzo",
+                "key_colour": "Color clave {hex}",
+                "loose": "Amplio",
+                "nothing_found": "No se encontró ningún color de fondo.",
+                "precise": "Preciso",
+                "preset": {
+                    "bright_blue": "Azul intenso",
+                    "bright_green": "Verde intenso",
+                    "chroma_blue": "Azul croma",
+                    "chroma_green": "Verde croma"
+                },
+                "presets": "Colores de fondo habituales",
+                "remove": "Quitar pantalla verde",
+                "title": "Pantalla verde"
+            },
+            "image": {
+                "corner_radius": "Radio de esquina",
+                "corner_radius_stepper": "Radio de esquina",
+                "per_corner": "Editar esquinas individuales",
+                "per_corner_unavailable": "La edición de esquinas individuales aún no está disponible"
+            },
+            "keypad": {
+                "value_field": "Valor de {label}"
+            },
+            "line": {
+                "colour": "Color de línea",
+                "style": {
+                    "dots": "Puntos",
+                    "long_dashes": "Guiones largos",
+                    "short_dashes": "Guiones cortos",
+                    "solid": "Sólida"
+                },
+                "style_trigger": "Estilo de línea: {style}",
+                "weight": "Grosor de línea",
+                "weight_trigger": "Grosor de línea {weight}"
+            },
+            "media": {
+                "heading": "Medios"
+            },
+            "page": {
+                "size_capped": "Máx. {max} px — se mantiene la proporción"
+            },
+            "pages": {
+                "title": "Páginas"
+            },
+            "photo_slot": {
+                "enable": "Usar como espacio para foto",
+                "key_field": "Clave (única)",
+                "key_required": "La clave es obligatoria",
+                "key_taken": "Clave ya usada por otro espacio",
+                "label_field": "Etiqueta (visible para el usuario final)",
+                "on": "Espacio para foto",
+                "remove": "Quitar espacio para foto"
+            },
+            "qr": {
+                "add_logo": "Añadir logotipo",
+                "background_colour": "Color de fondo",
+                "code": "Código",
+                "code_colour": "Color del código",
+                "link": "Enlace",
+                "link_input": "Enlace del código QR",
+                "logo": "Logotipo",
+                "remove_logo": "Quitar logotipo"
+            },
+            "root": {
+                "background_image": "Imagen de fondo",
+                "edit_background": "Editar imagen de fondo",
+                "fill": "Relleno",
+                "fill_gradient": "Degradado",
+                "page_height": "Alto de la página",
+                "page_width": "Ancho de la página",
+                "ratio_lock": "Bloquear la proporción",
+                "ratio_unlock": "Desbloquear la proporción",
+                "rotate_left": "Rotar el fondo a la izquierda",
+                "rotate_right": "Rotar el fondo a la derecha"
+            },
+            "scalar": {
+                "clip_length": "Duración",
+                "corner_radius": "Radio de esquina",
+                "font_size": "Tamaño de fuente",
+                "layer_blur": "Desenfoque de capa",
+                "letter_spacing": "Espaciado entre letras",
+                "line_height": "Interlineado",
+                "opacity": "Opacidad",
+                "speed": "Velocidad",
+                "stroke_width": "Grosor del trazo",
+                "volume": "Volumen"
+            },
+            "shape": {
+                "corner_radius": "Radio de esquina",
+                "corner_radius_stepper": "Radio de esquina",
+                "fill": "Relleno",
+                "fill_gradient": "Degradado",
+                "fill_mixed": "Mixto",
+                "fill_transparent": "Transparente",
+                "stroke": "Trazo",
+                "stroke_color": "Color de trazo",
+                "stroke_style": {
+                    "dots": "Puntos",
+                    "long_dashes": "Guiones largos",
+                    "short_dashes": "Guiones cortos",
+                    "solid": "Sólida"
+                },
+                "stroke_style_select": "Estilo de trazo",
+                "stroke_transparent": "Transparente",
+                "stroke_weight": "Grosor de trazo"
+            },
+            "svg": {
+                "path_colour": "Color {index}"
+            },
+            "swatch": {
+                "more_colours": "Más colores"
+            },
+            "text": {
+                "align": {
+                    "justify": "Justificar"
+                },
+                "alignment": "Alineación",
+                "edit_text": "Editar texto",
+                "font_family": "Familia de fuente",
+                "font_family_select": "Familia de fuente",
+                "font_size": "Tamaño de fuente",
+                "italic_unavailable": "Esta fuente no incluye cursiva con este grosor",
+                "letter_spacing_stepper": "Espaciado entre letras",
+                "line_height": "Interlineado",
+                "line_height_stepper": "Interlineado",
+                "list": "Lista",
+                "list_bulleted": "Lista con viñetas",
+                "list_numbered": "Lista numerada",
+                "list_style": "Estilo de lista",
+                "text_case": "Mayúsculas y minúsculas",
+                "text_color": "Color del texto",
+                "text_style": "Estilo de texto",
+                "weight": "Grosor"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Alinear abajo",
+                    "center_x": "Alinear centros horizontales",
+                    "center_y": "Alinear centros verticales",
+                    "left": "Alinear a la izquierda",
+                    "right": "Alinear a la derecha",
+                    "top": "Alinear arriba"
+                },
+                "align_to_page": "Alinear a la página",
+                "opacity": "Opacidad",
+                "position": "Posición",
+                "position_x": "Posición X",
+                "position_y": "Posición Y",
+                "rotation": "Rotación",
+                "scale": "Escala"
+            },
+            "video": {
+                "adjust": "Ajustar",
+                "audio": "Audio",
+                "clip_runs": "el clip dura {length}",
+                "corner_radius": "Radio de esquina",
+                "corner_radius_stepper": "Radio de esquina",
+                "green_screen": "Pantalla verde",
+                "loop": "Repetir hasta que termine el diseño",
+                "mute": "Silenciar",
+                "muted": "Silenciado",
+                "no_audio": "Este vídeo no tiene audio.",
+                "playback": "Reproducción",
+                "replace": "Reemplazar vídeo",
+                "speed": "Velocidad",
+                "speed_custom_input": "Velocidad de reproducción personalizada",
+                "speed_presets": "Velocidad de reproducción",
+                "speed_range": "Entre {min}× y {max}×",
+                "tools": "Herramientas",
+                "unmute": "Activar sonido",
+                "volume": "Volumen",
+                "volume_level": "Nivel de volumen"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Flecha",
+            "arrow_down": "Flecha hacia abajo",
+            "arrow_left": "Flecha hacia la izquierda",
+            "arrow_pentagon": "Flecha pentagonal",
+            "arrow_right": "Flecha hacia la derecha",
+            "arrow_up": "Flecha hacia arriba",
+            "chevron": "Chevrón",
+            "circle": "Círculo",
+            "cross": "Cruz",
+            "diamond": "Rombo",
+            "hexagon": "Hexágono",
+            "hexagon_wide": "Hexágono ancho",
+            "line": "Línea",
+            "octagon": "Octógono",
+            "parallelogram": "Paralelogramo",
+            "parallelogram_mirrored": "Paralelogramo invertido",
+            "pentagon": "Pentágono",
+            "square": "Cuadrado",
+            "trapezoid": "Trapecio",
+            "trapezoid_upside_down": "Trapecio invertido",
+            "triangle": "Triángulo",
+            "triangle_upside_down": "Triángulo invertido"
+        },
+        "shapes_panel": {
+            "basic": "Básicas",
+            "lines": "Líneas y flechas"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Añadir fotograma clave",
+                "back_to_animations": "Volver a las animaciones",
+                "basic": "Básico",
+                "basic_opacity": "Opacidad",
+                "basic_position": "Posición",
+                "basic_rotation": "Rotación",
+                "basic_scale": "Escala",
+                "keyframe": "Fotograma clave",
+                "pick_property_hint": "Elige la propiedad a la que añadir un fotograma clave. Al tocar una, se cierra la hoja y se abre su panel, con el fotograma clave ya colocado en el cabezal con el valor actual de la capa.",
+                "presets_need_one": "Los ajustes preestablecidos de animación necesitan un solo elemento. Selecciona una sola capa para verlos.",
+                "title": "Animar"
+            },
+            "easing": {
+                "title": "Suavizado"
+            },
+            "font_weight": {
+                "title": "Grosor de fuente"
+            },
+            "speed": {
+                "title": "Velocidad"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Colores predeterminados",
+                "eyedropper": "Elegir color de la pantalla",
+                "eyedropper_unsupported": "Tu navegador no admite el cuentagotas",
+                "fill_linear": "lineal",
+                "fill_radial": "radial",
+                "fill_solid": "sólido",
+                "fill_type": "Tipo de relleno",
+                "gradients_in_design": "Degradados en el diseño",
+                "hex": "Color hexadecimal",
+                "in_design": "En el diseño",
+                "title": "Color de relleno",
+                "use_color": "Usar {color}",
+                "use_gradient": "Usar degradado {style}",
+                "use_transparent": "Transparente"
+            },
+            "crop": {
+                "adjust_shape": "Ajustar la forma del recorte",
+                "aspect": "Proporción",
+                "framing": "Encuadre",
+                "framing_hint": "Arrastra la foto para reencuadrarla o una esquina para cambiar el tamaño del recorte. Desplaza para ampliar.",
+                "scale": "Escala"
+            },
+            "filters": {
+                "show_earlier": "Mostrar filtros anteriores",
+                "show_more": "Mostrar más filtros",
+                "swatch": "{label} color: {color}",
+                "title": "Filtros"
+            },
+            "font": {
+                "all_fonts": "TODAS LAS FUENTES",
+                "applying": "Aplicando fuente",
+                "back": "Volver a las opciones de texto",
+                "clear_search": "Borrar búsqueda",
+                "clear_search_action": "Borrar búsqueda",
+                "in_this_design": "EN ESTE DISEÑO",
+                "no_match": "Ninguna fuente coincide con «{query}»",
+                "no_match_hint": "Twibbonize usa el catálogo de Google Fonts y esta familia no forma parte de él. Prueba con un término de búsqueda más corto.",
+                "search_label": "Buscar familias de fuentes",
+                "search_placeholder": "Buscar fuentes",
+                "title": "Familia de fuente",
+                "weight": "Grosor de fuente"
+            },
+            "gradient": {
+                "add_stop": "Añadir punto de degradado",
+                "angle": "Ángulo",
+                "angle_dial": "Ángulo del degradado, {degrees} grados. Arrastra para cambiarlo",
+                "angle_dial_hint": "Arrastra para cambiar el ángulo del degradado",
+                "angle_input": "Ángulo del degradado en grados",
+                "centre_unsupported": "El centro del degradado aún no es compatible con el motor de renderizado",
+                "stop": "Punto de degradado {index} al {percent} %, {color}",
+                "stop_hint": "Arrastra para mover, doble clic para quitar"
+            },
+            "image": {
+                "adjustment": "Ajuste",
+                "adjustments": "Ajustes",
+                "back_to_edit": "Volver a la pestaña Editar",
+                "background_removal": "Eliminación de fondo",
+                "compare": "Comparar con el original",
+                "removing": "Eliminando…",
+                "removing_background": "Eliminando el fondo",
+                "reset_adjustments": "Restablecer ajustes",
+                "tools": "Herramientas"
+            },
+            "keyframe": {
+                "add": "Añadir fotograma clave",
+                "add_at_playhead": "Añadir fotograma clave de {property} en el cabezal",
+                "add_at_playhead_short": "Añadir un fotograma clave en el cabezal",
+                "add_lane_at_playhead": "Añadir un fotograma clave de {lane} en el cabezal",
+                "add_property": "Añadir propiedad para animar",
+                "all_lanes_added": "Todas las propiedades que esta capa admite ya tienen una pista",
+                "delete": "Eliminar este fotograma clave",
+                "diamond": "Fotograma clave de {lane} en {seconds} s",
+                "easing": "Suavizado",
+                "easing_caps": "SUAVIZADO",
+                "first_no_easing": "El primer fotograma clave no tiene suavizado",
+                "hex": "Color hexadecimal",
+                "layer_blur": "Desenfoque de capa",
+                "letter_spacing": "Espaciado entre letras",
+                "line_height": "Interlineado",
+                "opacity": "Opacidad",
+                "opacity_percent": "Porcentaje de opacidad",
+                "position_x": "Posición X",
+                "position_y": "Posición Y",
+                "radius_bottom_left": "Radio de la esquina inferior izquierda",
+                "radius_bottom_right": "Radio de la esquina inferior derecha",
+                "radius_top_left": "Radio de la esquina superior izquierda",
+                "radius_top_right": "Radio de la esquina superior derecha",
+                "remove": "Eliminar fotograma clave",
+                "remove_at_playhead": "Eliminar fotograma clave de {property} en el cabezal",
+                "rotation": "Rotación",
+                "scale": "Escala",
+                "shadow_blur": "Desenfoque de sombra",
+                "shadow_color": "Color de sombra",
+                "shadow_offset_x": "Desplazamiento X de sombra",
+                "shadow_offset_y": "Desplazamiento Y de sombra",
+                "shadow_spread": "Expansión de sombra",
+                "stroke_color": "Color de trazo",
+                "stroke_weight": "Grosor de trazo"
+            },
+            "layer": {
+                "page_background": "Fondo de página",
+                "tab_animate": "Animar",
+                "tabs_label": "Panel de capas",
+                "title": "Capas"
+            },
+            "page_preset": {
+                "group_label": "Tamaños de lienzo predefinidos",
+                "landscape": "Horizontal",
+                "portrait": "Vertical",
+                "square": "Cuadrado",
+                "story": "Historia",
+                "tile_aria": "{name}, {width} por {height} píxeles"
+            },
+            "personalization": {
+                "act_as_placeholder": "Actuar como marcador de posición",
+                "allow_adjust_framing": "Permitir ajustar el encuadre",
+                "allow_adjust_framing_hint": "Los partidarios pueden ampliar y mover su foto dentro del marco.",
+                "allow_change_adjustments": "Permitir cambiar los ajustes",
+                "allow_change_adjustments_hint": "Los partidarios pueden cambiar el brillo, el contraste y otros ajustes.",
+                "allow_change_effect": "Permitir cambiar el efecto",
+                "allow_change_effect_hint": "Los partidarios pueden elegir otro efecto para esta capa.",
+                "allow_change_filter": "Permitir cambiar el filtro",
+                "allow_change_filter_hint": "Los partidarios pueden elegir otro filtro para esta capa.",
+                "allow_edit_text": "Permitir editar el texto",
+                "allow_edit_text_hint": "Los partidarios pueden escribir sus propias palabras en este texto.",
+                "allow_flip": "Permitir voltear",
+                "allow_flip_hint": "Los partidarios pueden voltear esta capa como en un espejo.",
+                "allow_move": "Permitir mover",
+                "allow_move_hint": "Los partidarios pueden arrastrar esta capa a otro lugar.",
+                "allow_replace_media": "Permitir reemplazar medios",
+                "allow_replace_media_hint": "Los partidarios pueden cambiar esta imagen por su propia foto.",
+                "allow_resize": "Permitir cambiar el tamaño",
+                "allow_resize_hint": "Los partidarios pueden cambiar el tamaño de esta capa arrastrando sus esquinas y lados.",
+                "allow_rotate": "Permitir rotar",
+                "allow_rotate_hint": "Los partidarios pueden girar esta capa a cualquier ángulo.",
+                "group_appearance": "Apariencia",
+                "group_arrange": "Organización",
+                "group_media": "Medios",
+                "placeholder_hint": "Muestra un espacio vacío que los partidarios pueden tocar para añadir su foto.",
+                "remove_background": "Quitar el fondo de su foto",
+                "remove_background_hint": "Recorta al partidario de su foto para que tu diseño se vea a su alrededor.",
+                "text_placeholder_hint": "Muestra este texto como ejemplo para que los partidarios lo sustituyan por el suyo."
+            },
+            "shape_effect": {
+                "colour": "Color del efecto",
+                "distance": "Distancia",
+                "echo": "Eco",
+                "first_color": "Primer color",
+                "first_colour": "Primer color del efecto",
+                "glitch": "Glitch",
+                "glow": "Resplandor",
+                "group_label": "Efecto de forma",
+                "second_color": "Segundo color",
+                "second_colour": "Segundo color del efecto",
+                "section": "Efecto",
+                "shadow": "Sombra paralela"
+            },
+            "text_effect": {
+                "colour": "Color del efecto",
+                "curve": "Curva",
+                "distance": "Distancia",
+                "echo": "Eco",
+                "glow": "Resplandor",
+                "group_label": "Efecto de texto",
+                "outline": "Contorno",
+                "section": "Efecto",
+                "shape_group_label": "Forma del texto",
+                "splice": "Empalme",
+                "title": "Efectos de texto"
+            }
+        },
+        "templates": {
+            "empty_body": "Prueba con una palabra más corta o más general.",
+            "empty_title": "Ninguna plantilla coincide con «{query}»",
+            "error_title": "No se pudieron cargar las plantillas",
+            "none_body": "Busca un tema, como cumpleaños o graduación.",
+            "none_title": "Aún no hay plantillas para este diseño",
+            "search_label": "Buscar plantillas",
+            "search_placeholder": "Buscar plantillas"
+        },
+        "text_panel": {
+            "add_template": "Añadir plantilla de texto: {name}",
+            "add_text_box": "Añadir un cuadro de texto",
+            "empty_body": "Prueba con una palabra más corta o más general.",
+            "empty_title": "Ninguna plantilla de texto coincide con «{query}»",
+            "error_title": "No se pudieron cargar las plantillas de texto",
+            "none_body": "Empieza mejor con un cuadro de texto sencillo.",
+            "none_title": "No hay plantillas de texto que mostrar",
+            "search_label": "Buscar plantillas de texto",
+            "search_placeholder": "Buscar plantillas de texto"
+        },
+        "text_preset": {
+            "seed": "Añade tu texto aquí"
+        },
+        "textures": {
+            "apply_texture": "Aplicar {name}",
+            "category": {
+                "fabric": "Tela",
+                "grain": "Grano",
+                "grunge": "Grunge",
+                "paper": "Papel",
+                "print": "Impresión"
+            },
+            "category_group_label": "Categoría de textura",
+            "empty_body": "Estamos creando esta biblioteca. Vuelve pronto.",
+            "empty_title": "Aún no hay texturas",
+            "most_used": "Más usadas",
+            "search_placeholder": "Buscar texturas"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Añadir audio",
+                "add_tooltip": "Añadir una pista de audio de fondo",
+                "bar_aria": "{name} en {start} durante {duration}",
+                "decoding": "Decodificando audio…",
+                "decoding_waveform": "Decodificando forma de onda…",
+                "default_name": "Audio",
+                "drop_to_add": "Suelta para añadir audio",
+                "kind_suffix": "· Audio",
+                "mute": "Silenciar pista",
+                "unmute": "Activar sonido de la pista",
+                "volume": "Volumen de la pista",
+                "waveform_error": "No se pudo cargar la forma de onda de esta pista."
+            },
+            "keyframe": {
+                "add": "Añadir fotograma clave",
+                "add_at_playhead": "Añadir fotograma clave en el cabezal",
+                "add_tooltip": "Añadir un fotograma clave a una propiedad de esta capa",
+                "diamond_aria": "Fotograma clave de {lane} en {time}",
+                "diamond_hint": " · arrastra para cambiar el momento, clic derecho para eliminar",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Radio de esquina",
+                    "layer_blur": "Desenfoque de capa",
+                    "line_height": "Interlineado",
+                    "opacity": "Opacidad",
+                    "position": "Posición",
+                    "rotation": "Rotación",
+                    "scale": "Escala",
+                    "stroke": "Trazo"
+                },
+                "remove_lane": "Eliminar fotogramas clave de {lane}",
+                "remove_lane_from_layer": "Eliminar fotogramas clave de {lane} de {layer}",
+                "segment_easing_aria": "Función de temporización de {lane} entre {from} y {to}, actualmente {easing}",
+                "segment_easing_title": "Función de temporización · {easing}",
+                "welded_aria": ", pegado al borde de la capa",
+                "welded_title": " · pegado al borde de la capa"
+            },
+            "menu": {
+                "repeat_until_end": "Repetir hasta el final"
+            },
+            "track": {
+                "bar_aria": "{name} en {start} durante {duration}",
+                "bar_aria_end_glued": ", final pegado a la capa",
+                "bar_aria_start_glued": ", inicio pegado a la capa",
+                "bar_tooltip": "{name} · {start} durante {duration} ms · arrastra para mover, arrastra un borde para cambiar el tamaño (Alt = sin ajuste)",
+                "bar_tooltip_sole": " · al arrastrar este borde se mueve la capa",
+                "clip_aria": "Clip {name}",
+                "clip_tooltip": "Arrastra para mover la capa en el tiempo · arrastra un extremo para recortar (Alt = sin ajuste)",
+                "collapse": "Contraer",
+                "collapse_all": "Contraer todas las capas",
+                "collapse_named": "Contraer {name}",
+                "delete_layer": "Eliminar capa",
+                "delete_named": "Eliminar {name}",
+                "ends_at": "Termina en",
+                "expand": "Expandir",
+                "expand_named": "Expandir {name}",
+                "hidden_lane_one": "{count} pista oculta",
+                "hidden_lane_other": "{count} pistas ocultas",
+                "hide": "Ocultar",
+                "hide_named": "Ocultar {name}",
+                "lane_reorder_tooltip": "Arrastra para reordenar: la pista superior prevalece donde se solapan las animaciones",
+                "layer_animations": "Animaciones de la capa",
+                "lock_layer": "Bloquear capa",
+                "lock_named": "Bloquear {name}",
+                "remove_animation": "Eliminar animación",
+                "remove_animation_aria": "Eliminar la animación {name} de {layer}",
+                "reorder_tooltip": "Arrastra para reordenar las pistas. El orden en el lienzo se define en el panel de capas",
+                "show": "Mostrar",
+                "show_named": "Mostrar {name}",
+                "split": "Dividir",
+                "starts_at": "Empieza en",
+                "trim_end": "Recortar final",
+                "trim_start": "Recortar inicio",
+                "trim_to": "Recortar a {time}",
+                "unlock_layer": "Desbloquear capa",
+                "unlock_named": "Desbloquear {name}"
+            },
+            "transport": {
+                "current_time_field": "Tiempo actual en milisegundos",
+                "duration_edge_aria": "Duración de la página: {seconds} segundos",
+                "duration_edge_tooltip": "Duración de la página: {seconds} s · arrastra para cambiar, haz clic para el valor exacto (Alt = sin ajuste)",
+                "duration_max": "Máximo {seconds} s",
+                "fit_to_width": "Ajustar al ancho",
+                "forward": "Avanzar",
+                "lengthen_page": "Alargar la página",
+                "loop": "Reproducción en bucle",
+                "page_duration": "Duración de la página",
+                "page_duration_field": "Duración de la página en milisegundos",
+                "resize_dock": "Cambiar el tamaño de la línea de tiempo",
+                "rewind": "Retroceder",
+                "shorten_page": "Acortar la página",
+                "zoom": "Zoom de la línea de tiempo"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {

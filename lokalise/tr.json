@@ -2842,7 +2842,9 @@
             "type": "Tip:",
             "size": "Boyut:",
             "type_image": "JPG, PNG veya SVG",
-            "maximum_size": "Maksimum 5 MB"
+            "maximum_size": "Maksimum 5 MB",
+            "abandoned": "Katmanı kaldırıldığı için yükleme durdu. Kitaplığınızda kalması için tekrar deneyin.",
+            "failed": "Yükleme başarısız oldu. Bağlantınızı kontrol edip tekrar deneyin."
         },
         "toolbar": {
             "copy": "Anlaşıldı",
@@ -2871,7 +2873,119 @@
             "border_weight": "Kenar Ağırlığı",
             "corner_rounding": "Köşe Yuvarlama",
             "align": "Hizala",
-            "effects": "Efektleri"
+            "effects": "Efektleri",
+            "animate": {
+                "amount": "Miktar",
+                "angle": "Açı",
+                "close": "Animasyon ayarlarını kapat",
+                "delete_animation": "Animasyonu sil",
+                "distance": "Mesafe",
+                "easing": "Yumuşatma",
+                "fade": "Solma",
+                "settings_aria": "Animasyon ayarları"
+            },
+            "audio": {
+                "replace": "Değiştir",
+                "tools_aria": "Ses parçası araçları",
+                "trim": "Kırp",
+                "volume": "Ses düzeyi"
+            },
+            "clip": {
+                "length": "Uzunluk",
+                "split": "Böl",
+                "trim": "Kırp"
+            },
+            "entry": {
+                "animate": "Canlandır"
+            },
+            "image": {
+                "adjust": "Ayarla",
+                "background_removal_unavailable": "Arka plan kaldırma henüz kullanılamıyor",
+                "remove_background": "Arka planı kaldır",
+                "remove_background_short": "Kesip çıkar",
+                "replace": "Değiştir"
+            },
+            "keyframe": {
+                "blur": "Katman Bulanıklığı",
+                "close": "Anahtar kare özelliklerini kapat",
+                "delete_keyframe": "Anahtar kareyi sil",
+                "letter_spacing": "Aralık",
+                "line_height": "Satır Yüksekliği",
+                "opacity": "Opaklık",
+                "position": "Konum",
+                "properties_aria": "Anahtar kare özellikleri",
+                "rotation": "Döndürme",
+                "scale": "Ölçek"
+            },
+            "layer_tools": {
+                "deselect": "Katman seçimini kaldır",
+                "tools_aria": "Katman araçları"
+            },
+            "media": {
+                "adjust": "Ayarla",
+                "green_screen": "Yeşil perde",
+                "replace": "Değiştir",
+                "trim": "Kırp"
+            },
+            "misc": {
+                "background_fill": "Arka plan dolgusu",
+                "background_fill_short": "Dolgu",
+                "configure_qr": "QR kodunu yapılandır",
+                "edit_background_image": "Arka plan resmini düzenle",
+                "no_background_image": "Henüz arka plan resmi yok",
+                "replace_unavailable": "Değiştir (henüz kullanılamıyor)"
+            },
+            "opacity": {
+                "label": "Opaklık"
+            },
+            "shape": {
+                "corner_radius": "Köşe yarıçapı",
+                "corner_radius_short": "Yarıçap",
+                "fill": "Dolgu",
+                "line_color": "Çizgi rengi",
+                "line_style_dots": "Noktalar",
+                "line_style_long_dashes": "Uzun çizgiler",
+                "line_style_named": "Çizgi stili: {style}",
+                "line_style_short_dashes": "Kısa çizgiler",
+                "line_style_solid": "Düz",
+                "line_weight": "Çizgi kalınlığı",
+                "stroke_color": "Kontur rengi",
+                "stroke_color_short": "Kontur",
+                "stroke_weight": "Kontur kalınlığı",
+                "stroke_weight_short": "Kalınlık"
+            },
+            "speed": {
+                "custom_input": "Özel oynatma hızı",
+                "label": "Hız",
+                "playback_length": "Oynatma süresi",
+                "playback_speed": "Oynatma hızı",
+                "range_hint": "{min}× ile {max}× arasında"
+            },
+            "text": {
+                "decrease_font_size": "Yazı tipi boyutunu küçült",
+                "font_family": "Yazı tipi ailesi",
+                "font_family_named": "Yazı tipi ailesi: {value}",
+                "font_size": "Yazı tipi boyutu",
+                "font_weight": "Yazı tipi kalınlığı",
+                "font_weight_named": "Yazı tipi kalınlığı: {value}",
+                "increase_font_size": "Yazı tipi boyutunu büyüt",
+                "keyboard": "Klavye",
+                "line_height": "Satır yüksekliği",
+                "spacing": "Aralık",
+                "text_color": "Metin rengi",
+                "weight": "Kalınlık"
+            },
+            "volume": {
+                "clip_hint": "Yalnızca bu klip. Zaman çizelgesine yerleştirilen ses kendi düzeyini korur.",
+                "label": "Ses düzeyi",
+                "level": "Düzey",
+                "mute": "Sesi kapat",
+                "muted": "Sessiz",
+                "muted_hint": "Düzey korunur. Sesi açın, klip {percent}% düzeyine dönsün.",
+                "no_audio": "Bu videoda ses yok.",
+                "slider": "Ses düzeyi",
+                "unmute": "Sesi aç"
+            }
         },
         "confirmation": {
             "cancel": "Iskarta",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Belge Renkleri",
             "default_colors": "Varsayılan Renkler"
         },
-        "graphic": "Grafik"
+        "graphic": "Grafik",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Alt orta",
+                "bottom_left": "Sol alt",
+                "bottom_right": "Sağ alt",
+                "center_left": "Sol orta",
+                "center_right": "Sağ orta",
+                "top_center": "Üst orta",
+                "top_left": "Sol üst",
+                "top_right": "Sağ üst"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Bitiş",
+                "more_options": "Daha fazla seçenek"
+            },
+            "direction": {
+                "bottom_left": "Sol alt",
+                "bottom_right": "Sağ alt",
+                "clockwise": "Saat yönünde",
+                "counter_clockwise": "Saat yönünün tersine",
+                "from_the": "{place} yönünden",
+                "to_the": "{place} yönüne",
+                "top_left": "Sol üst",
+                "top_right": "Sağ üst"
+            },
+            "easing": {
+                "accelerate": "Hızlanma",
+                "bounce": "Sekme",
+                "elastic": "Elastik",
+                "impulse": "Darbe",
+                "natural": "Doğal",
+                "overshoot": "Aşma",
+                "slow_down": "Yavaşlama",
+                "smooth": "Pürüzsüz",
+                "swing": "Salınım"
+            },
+            "field": {
+                "amount": "Miktar",
+                "anchor_group": "Sabitleme noktası",
+                "anchor_point": "Sabitleme noktası",
+                "angle": "Açı",
+                "apply_effect_to": "Efekti uygula",
+                "axis": "Eksen",
+                "choose_easing": "Yumuşatma seç",
+                "distance": "Mesafe",
+                "duration": "Süre",
+                "edge": "Kenar",
+                "fade": "Solma",
+                "from_noun": "{noun} başlangıcı",
+                "horizontal": "Yatay",
+                "noun_blur": "bulanıklık",
+                "noun_opacity": "opaklık",
+                "noun_size": "boyut",
+                "opacity": "Opaklık",
+                "order": "Sıra",
+                "position": "Konum",
+                "rotation": "Döndürme",
+                "rotation_direction": "Dönme yönü",
+                "scale": "Ölçek",
+                "smoothing": "Düzgünleştirme",
+                "to_noun": "{noun} bitişi",
+                "vertical": "Dikey"
+            },
+            "mode": {
+                "arrives": "Varış",
+                "departs": "Ayrılış",
+                "in": "Giriş",
+                "out": "Çıkış"
+            },
+            "panel": {
+                "animation": "Animasyon",
+                "animations_tab": "Animasyonlar",
+                "basic": "Temel",
+                "changing_note": "Bir yedek seçin. Değiştirdiğiniz animasyonun yerini ve süresini alır.",
+                "corner_radius": "Köşe Yarıçapı",
+                "easing": "Yumuşatma",
+                "fade": "Solma",
+                "keyframe_tab": "Anahtar Kare",
+                "layer_blur": "Katman Bulanıklığı",
+                "line_height": "Satır Yüksekliği",
+                "more_options": "Daha fazla seçenek",
+                "motion": "Hareket",
+                "needs_one_element": "Hazır animasyonlar için tek bir öğe gerekir. Görmek için tek bir katman seçin.",
+                "paste_animation": "Animasyonu Yapıştır",
+                "scale": "Ölçek",
+                "slide": "Kaydırma",
+                "stroke": "Kontur",
+                "text_animation": "Metin Animasyonu"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Beliriş",
+                    "label": "Beliriş"
+                },
+                "blur": {
+                    "label": "Bulanıktan giriş"
+                },
+                "blur_scale": {
+                    "caption": "Bulanıklık ve Ölçek",
+                    "label": "Ölçekle bulanıktan giriş"
+                },
+                "blur_slide": {
+                    "caption": "Bulanıklık ve Kaydırma",
+                    "label": "Kaydırmayla bulanıktan giriş"
+                },
+                "fade": {
+                    "caption": "Solma",
+                    "label": "Solma"
+                },
+                "grow": {
+                    "caption": "Patlama",
+                    "label": "Patlayarak giriş"
+                },
+                "mask_center": {
+                    "caption": "Maske Merkez",
+                    "label": "Merkezden maskeyle gösterim"
+                },
+                "mask_reveal": {
+                    "caption": "Maskeyle Gösterim",
+                    "label": "Kenardan maskeyle gösterim"
+                },
+                "mask_slide": {
+                    "caption": "Maske ve Kaydırma",
+                    "label": "Kaydırmalı maskeyle gösterim"
+                },
+                "move_scale": {
+                    "caption": "Taşıma ve Ölçek",
+                    "label": "Taşıyarak ve ölçekleyerek giriş"
+                },
+                "rotate_left": {
+                    "label": "Soldan döndürme"
+                },
+                "rotate_right": {
+                    "label": "Sağdan döndürme"
+                },
+                "shrink": {
+                    "caption": "Büyük",
+                    "label": "Büyükten giriş"
+                },
+                "slide": {
+                    "caption": "Kaydırma",
+                    "label": "Kaydırarak giriş"
+                },
+                "slide_from_bottom": {
+                    "label": "Alttan kaydırma"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Sol Alt",
+                    "label": "Sol alttan kaydırma"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Sağ Alt",
+                    "label": "Sağ alttan kaydırma"
+                },
+                "slide_from_left": {
+                    "label": "Soldan kaydırma"
+                },
+                "slide_from_right": {
+                    "label": "Sağdan kaydırma"
+                },
+                "slide_from_top": {
+                    "label": "Üstten kaydırma"
+                },
+                "slide_from_top_left": {
+                    "caption": "Sol Üst",
+                    "label": "Sol üstten kaydırma"
+                },
+                "slide_from_top_right": {
+                    "caption": "Sağ Üst",
+                    "label": "Sağ üstten kaydırma"
+                },
+                "spin": {
+                    "caption": "Dönüş",
+                    "label": "Dönerek giriş"
+                },
+                "spin_scale": {
+                    "caption": "Dönüş ve Ölçek",
+                    "label": "Dönerek ve ölçekleyerek giriş"
+                },
+                "twist": {
+                    "caption": "Bükülme",
+                    "label": "Bükülerek giriş"
+                }
+            },
+            "property": {
+                "change_text": "Metni Değiştir",
+                "morph": "Dönüştürme",
+                "move": "Taşı",
+                "opacity": "Opaklık",
+                "scale": "Ölçek"
+            },
+            "section": {
+                "fade": "Solma",
+                "mask": "Maske",
+                "scale": "Ölçek",
+                "slide": "Kaydırma",
+                "transform": "Dönüştür"
+            },
+            "text": {
+                "backward": "Geriye",
+                "forward": "İleriye",
+                "letters": "Harfler",
+                "summary_overlap": "Her {unit}, öncekinin %{percent} noktasına geldiğinde başlar.",
+                "summary_sequential": "Her {unit}, sonraki başlamadan önce biter.",
+                "summary_together": "Her {unit} birlikte hareket eder.",
+                "summary_whole": "Metin bloğunun tamamı tek parça olarak canlanır.",
+                "words": "Kelimeler"
+            },
+            "type": {
+                "fade_in": "Solarak giriş",
+                "fade_out": "Solarak çıkış",
+                "line_height": "Satır Yüksekliği",
+                "radius": "Yarıçap",
+                "resize_in": "Boyutlanarak giriş",
+                "resize_out": "Boyutlanarak çıkış",
+                "rotate_in": "Dönerek giriş",
+                "rotate_out": "Dönerek çıkış",
+                "scale_in": "Ölçekleyerek giriş",
+                "scale_out": "Ölçekleyerek çıkış",
+                "slide_in": "Kaydırarak giriş",
+                "slide_out": "Kaydırarak çıkış",
+                "spacing": "Aralık",
+                "stroke": "Kontur"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Devam etmek için fotoğrafınızı ekleyin.",
+                    "gesture": {
+                        "frameDesktop": "Konumlandırmak için sürükleyin · Yakınlaştırmak için kaydırın",
+                        "frameMobile": "Konumlandırmak için sürükleyin, yakınlaştırmak için çimdikleyin",
+                        "handles": "Köşelerden ve kenarlardan yeniden boyutlandırın, üstten döndürün",
+                        "move": "Taşımak için sürükleyin",
+                        "moveOrHandles": "Taşımak için sürükleyin veya tutamaçları kullanın",
+                        "resize": "Yeniden boyutlandırmak için bir köşeyi ya da kenarı sürükleyin",
+                        "rotate": "Döndürmek için üstteki tutamacı sürükleyin",
+                        "rotateDesktop": "Cetveli sürükleyin veya ok tuşlarını kullanın",
+                        "rotateMobile": "Döndürmek için cetveli sürükleyin"
+                    },
+                    "hint": {
+                        "pickDesktop": "İşaretli bir alana tıklayın veya soldan bir katman seçin",
+                        "pickMobile": "İşaretli bir alana dokunun veya aşağıdan bir katman seçin",
+                        "previewDesktop": "Tasarımınızın önizlemesi. Düzenlemeye devam etmek için tıklayın.",
+                        "previewMobile": "Tasarımınızın önizlemesi. Düzenlemeye devam etmek için dokunun."
+                    },
+                    "layer": {
+                        "addPhoto": "Fotoğrafınızı ekleyin",
+                        "text": "Metin: {text}",
+                        "yourPhoto": "Fotoğrafınız",
+                        "yourText": "Metniniz"
+                    },
+                    "layers": {
+                        "all": "Tüm katmanlar",
+                        "photo": "Fotoğraf",
+                        "sheetDescription": "Bu tasarımdaki her şeyi değiştirebilirsiniz.",
+                        "title": "Katmanlar"
+                    },
+                    "photoError": "Bu fotoğrafı kullanamadık. Farklı bir resim deneyin.",
+                    "preview": {
+                        "backToEditing": "Düzenlemeye dön"
+                    },
+                    "rotation": {
+                        "aria": "Döndürme",
+                        "value": "one:# derece|other:# derece"
+                    },
+                    "tools": {
+                        "adjust": "Ayarla",
+                        "aria": "Katman araçları",
+                        "editText": "Metni düzenle",
+                        "flip": "Çevir",
+                        "locked": "Boyut ve konum oluşturan tarafından belirlendi",
+                        "replace": "Değiştir",
+                        "textAria": "Metin araçları",
+                        "zoomIn": "Yakınlaştır",
+                        "zoomOut": "Uzaklaştır"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} zaman çizelgesine eklendi.",
+                "too_big": "{name}, {limit} sınırını aşıyor.",
+                "too_long": "{name}, {minutes} dakikadan uzun.",
+                "too_many": "Aynı anda yalnızca {count} dosya.",
+                "wrong_type": "{name} eklenemez — yalnızca resim, video ve SVG dosyaları."
+            }
+        },
+        "catalogue": {
+            "error_body": "Bağlantınızı kontrol edin, sonra tekrar deneyin.",
+            "loading_more": "Daha fazlası yükleniyor"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Taslağı Sil",
+                "description_unsaved": "Bu tasarım kaydedilmedi. Geri dönmek onu kalıcı olarak siler — katmanlar, stiller ve animasyon dahil.",
+                "title": "“{title}” taslağı silinsin mi?"
+            },
+            "save": {
+                "description": "Kaydedildikten sonra düzenleme artık mümkün olmaz.",
+                "saving": "Kaydediliyor…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Ekrana sığdır"
+        },
+        "graphic_panel": {
+            "add": "{name} ekle",
+            "add_failed": "Bu grafik eklenemedi. Tekrar deneyin.",
+            "empty_body": "Daha kısa veya daha genel bir kelime deneyin, örneğin yıldız veya kalp.",
+            "empty_title": "“{query}” ile eşleşen grafik yok",
+            "error_title": "Grafikler yüklenemedi",
+            "none_title": "Gösterilecek grafik yok",
+            "search_label": "Grafik ara",
+            "search_placeholder": "Grafik ara"
+        },
+        "header": {
+            "redo": "Yinele",
+            "saving": "Kaydediliyor…",
+            "undo": "Geri al",
+            "untitled_design": "Adsız tasarım"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Fotoğraf alanı"
+            },
+            "menu": {
+                "align_center": "Ortala",
+                "bring_forward": "Bir öne getir",
+                "bring_to_front": "En öne getir",
+                "detach_image": "Resmi ayır",
+                "flip_horizontal": "Yatay çevir",
+                "flip_vertical": "Dikey çevir",
+                "replace_image": "Resmi değiştir",
+                "send_backward": "Bir arkaya gönder",
+                "send_to_back": "En arkaya gönder",
+                "set_as_background_image": "Arka plan resmi olarak ayarla",
+                "set_as_background_video": "Arka plan videosu olarak ayarla",
+                "set_background_as_image_layer": "Arka planı resim katmanı olarak ayarla",
+                "set_background_as_video_layer": "Arka planı video katmanı olarak ayarla",
+                "sheet_title": "Katman seçenekleri",
+                "show_layers": "Katmanları göster"
+            },
+            "pill": {
+                "duplicate": "Katmanı çoğalt",
+                "more": "Diğer katman işlemleri",
+                "remove": "Katmanı kaldır",
+                "toolbar": "Katman işlemleri"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Eşleştirme kodu hazır: {code}. Bunu yapay zeka istemcinize verin.",
+                "connecting": "Eşleştirme kodu hazırlanıyor.",
+                "failed": "Bağlanılamadı. {reason}",
+                "reconnecting": "Bağlantı koptu. Yeniden bağlanmaya çalışılıyor."
+            },
+            "clipboard_blocked": "Tarayıcınız panoyu engelledi. {hint}",
+            "connect": "Bağlan",
+            "connecting": "Bağlanıyor…",
+            "copied_address_announcement": "Sunucu adresi kopyalandı",
+            "copied_code_announcement": "Eşleştirme kodu kopyalandı",
+            "copy_address_hint": "Adresi seçin ve elle kopyalayın.",
+            "copy_code": "Kodu kopyala",
+            "copy_code_hint": "Kodu seçin ve elle kopyalayın.",
+            "copy_server_address": "MCP sunucu adresini kopyala",
+            "disconnect": "Bağlantıyı kes",
+            "error_fallback": "Eşleştirme hizmeti yanıt vermedi. Bağlantınızı kontrol edip tekrar deneyin.",
+            "guide": {
+                "fresh_code": "Bir kod çalışmayı bırakırsa Bağlantıyı kes'e basın ve yeni bir kod için tekrar bağlanın.",
+                "how_to_set_up": "Nasıl kurulur",
+                "step_add_body": "Aşağıdaki adresi kullanarak Twibbonize'ı yapay zeka istemcinize ekleyin. Claude Code'da şunu çalıştırın",
+                "step_add_title": "Twibbonize'ı yapay zeka istemcinize ekleyin",
+                "step_pair_body": "“Twibbonize düzenleyicisiyle eşleş” deyin ve yukarıdaki kodu verin.",
+                "step_pair_title": "Eşleşmesini isteyin",
+                "where_to_paste": "Bu kodu nereye yapıştırırım?"
+            },
+            "lead": {
+                "code_ready_sentence": "Claude'a yapıştırın ve eşleşmesini isteyin. Claude çalışırken tuval sayfanın etrafına bir halka çizer.",
+                "code_ready_title": "Bu kodu yapay zeka istemcinize verin",
+                "connecting_sentence": "Bu bir an sürer.",
+                "connecting_title": "Eşleştirme kodu hazırlanıyor",
+                "disconnected_sentence": "Claude Desktop ve Claude Code katman ekleyebilir, metin yazabilir, animasyon ayarlayabilir ve tuvaldekileri okuyabilir.",
+                "disconnected_title": "Bu tasarıma bir yapay zeka istemcisi getirin",
+                "failed_title": "Bağlanılamadı",
+                "reconnecting_sentence": "Yapay zeka istemcinizle bağlantı koptu. Geri yüklenmeye çalışılıyor.",
+                "reconnecting_title": "Yeniden bağlanıyor",
+                "unavailable_sentence": "Bu düzenleyici sürümünde yapay zeka bağlantısı yapılandırılmamış, bu yüzden henüz bağlanılacak bir şey yok.",
+                "unavailable_title": "MCP burada açık değil"
+            },
+            "pairing_code_label": "Eşleştirme kodu: {code}"
+        },
+        "media": {
+            "add_asset": "{name} ekle",
+            "dismiss_error": "Kapat",
+            "empty_body": "Aşağıdan bir resim, video veya ses dosyası ekleyin; bu oturumun sonuna kadar burada kalır.",
+            "empty_narrowed_body": "Eklediğiniz her şeyi görmek için aramayı temizleyin veya başka bir tür seçin.",
+            "empty_narrowed_title": "Eşleşen yok",
+            "empty_title": "Henüz bir şey yüklenmedi",
+            "filter": {
+                "audio": "Ses",
+                "images": "Resimler"
+            },
+            "filter_group_label": "Medya türü",
+            "make_an_image": "Resim Oluştur",
+            "make_image_unavailable": "Resim oluşturma henüz kullanılamıyor",
+            "search_placeholder": "Medya ara",
+            "upload_button": "Resim, Video veya Ses Yükle",
+            "uploads_heading": "Yüklemeler"
+        },
+        "page_bar": {
+            "group_label": "Yakınlaştırma denetimleri",
+            "zoom_menu": "Yakınlaştırma düzeyi, {percent}%"
+        },
+        "panel": {
+            "loading": "{panel} yükleniyor…"
+        },
+        "photo": {
+            "add_by": "{name} tarafından fotoğraf ekle",
+            "add_described": "Fotoğraf ekle: {description}",
+            "credit": "Fotoğrafları sağlayan",
+            "empty_body": "Daha kısa veya daha genel bir kelime deneyin, örneğin plaj veya şehir.",
+            "empty_title": "“{query}” ile eşleşen fotoğraf yok",
+            "error_title": "Fotoğraflar yüklenemedi",
+            "none_title": "Gösterilecek fotoğraf yok",
+            "search_label": "Fotoğraf ara",
+            "search_placeholder": "Fotoğraf ara"
+        },
+        "qr": {
+            "add_logo": "Logo ekle",
+            "add_to_design": "Tasarıma ekle",
+            "background_colour_label": "Arka plan rengi",
+            "code_colour_label": "Kod rengi",
+            "code_label": "Kod",
+            "link_input_label": "QR kodu bağlantısı",
+            "link_label": "Bağlantı",
+            "logo_fallback_name": "Logo resmi",
+            "logo_label": "Logo",
+            "remove_logo": "Logoyu kaldır"
+        },
+        "rail": {
+            "aria_label": "Tasarım kitaplıkları",
+            "graphic": "Grafikler",
+            "help": "Yardım",
+            "layers": "Katmanlar",
+            "mcp": "MCP",
+            "media": "Medya",
+            "photo": "Fotoğraflar",
+            "qr_code": "QR kodu",
+            "shapes": "Şekiller",
+            "templates": "Şablonlar",
+            "textures": "Dokular",
+            "tools": "Araçlar"
+        },
+        "save": {
+            "failed": "Tasarımınız kaydedilemedi. Tekrar deneyin."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Parlaklık",
+                "compare": "Orijinalle karşılaştır",
+                "contrast": "Kontrast",
+                "grayscale": "Gri tonlama",
+                "group": {
+                    "basic": "Temel",
+                    "refinements": "İnce ayarlar"
+                },
+                "hue_rotate": "Ton döndürme",
+                "reset": "Ayarları sıfırla",
+                "saturation": "Doygunluk",
+                "title": "Ayarlar"
+            },
+            "color": {
+                "trigger": "Renk"
+            },
+            "common": {
+                "layer_blur": "Katman Bulanıklığı",
+                "layer_blur_stepper": "Katman bulanıklığı"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Serbest biçim",
+                    "landscape": "Yatay",
+                    "original": "Orijinal",
+                    "portrait": "Dikey",
+                    "square": "Kare",
+                    "story": "Hikaye",
+                    "widescreen": "Geniş ekran"
+                },
+                "shape": {
+                    "circle": "Daire",
+                    "diamond": "Elmas",
+                    "half_circle": "Yarım daire",
+                    "oval": "Oval",
+                    "parallelogram": "Paralelkenar",
+                    "rounded": "Yuvarlatılmış"
+                }
+            },
+            "filter": {
+                "cool": "Soğuk",
+                "duotone": "Çift ton",
+                "mono": "Mono",
+                "original": "Orijinal",
+                "vivid": "Canlı",
+                "warm": "Sıcak"
+            },
+            "font_weight": {
+                "black": "Siyah",
+                "extra_bold": "Ekstra Kalın",
+                "extra_light": "Ekstra İnce",
+                "medium": "Orta",
+                "regular": "Normal",
+                "semibold": "Yarı Kalın",
+                "thin": "İnce"
+            },
+            "frame": {
+                "colour": "Çerçeve rengi"
+            },
+            "green_screen": {
+                "choose_colour": "Bir renk seçin",
+                "colour": "Renk",
+                "compare": "Orijinalle karşılaştır",
+                "eyedropper": "Tuvalden renk seç",
+                "key_colour": "Anahtar renk {hex}",
+                "loose": "Gevşek",
+                "nothing_found": "Arka plan rengi bulunamadı.",
+                "precise": "Hassas",
+                "preset": {
+                    "bright_blue": "Parlak mavi",
+                    "bright_green": "Parlak yeşil",
+                    "chroma_blue": "Chroma mavisi",
+                    "chroma_green": "Chroma yeşili"
+                },
+                "presets": "Yaygın fon renkleri",
+                "remove": "Yeşil Perdeyi Kaldır",
+                "title": "Yeşil perde"
+            },
+            "image": {
+                "corner_radius": "Köşe Yarıçapı",
+                "corner_radius_stepper": "Köşe yarıçapı",
+                "per_corner": "Köşeleri tek tek düzenle",
+                "per_corner_unavailable": "Köşeleri tek tek düzenleme henüz kullanılamıyor"
+            },
+            "keypad": {
+                "value_field": "{label} değeri"
+            },
+            "line": {
+                "colour": "Çizgi rengi",
+                "style": {
+                    "dots": "Noktalar",
+                    "long_dashes": "Uzun çizgiler",
+                    "short_dashes": "Kısa çizgiler",
+                    "solid": "Düz"
+                },
+                "style_trigger": "Çizgi stili: {style}",
+                "weight": "Çizgi kalınlığı",
+                "weight_trigger": "Çizgi kalınlığı {weight}"
+            },
+            "media": {
+                "heading": "Medya"
+            },
+            "page": {
+                "size_capped": "En fazla {max} px — oran korunur"
+            },
+            "pages": {
+                "title": "Sayfalar"
+            },
+            "photo_slot": {
+                "enable": "Fotoğraf alanı olarak kullan",
+                "key_field": "Anahtar (benzersiz)",
+                "key_required": "Anahtar gerekli",
+                "key_taken": "Anahtar başka bir alanda zaten kullanılıyor",
+                "label_field": "Etiket (son kullanıcıya gösterilir)",
+                "on": "Fotoğraf alanı",
+                "remove": "Fotoğraf Alanını Kaldır"
+            },
+            "qr": {
+                "add_logo": "Logo ekle",
+                "background_colour": "Arka plan rengi",
+                "code": "Kod",
+                "code_colour": "Kod rengi",
+                "link": "Bağlantı",
+                "link_input": "QR kodu bağlantısı",
+                "logo": "Logo",
+                "remove_logo": "Logoyu kaldır"
+            },
+            "root": {
+                "background_image": "Arka plan resmi",
+                "edit_background": "Arka plan resmini düzenle",
+                "fill": "Dolgu",
+                "fill_gradient": "Gradyan",
+                "page_height": "Sayfa yüksekliği",
+                "page_width": "Sayfa genişliği",
+                "ratio_lock": "En boy oranını kilitle",
+                "ratio_unlock": "En boy oranının kilidini aç",
+                "rotate_left": "Arka planı sola döndür",
+                "rotate_right": "Arka planı sağa döndür"
+            },
+            "scalar": {
+                "clip_length": "Uzunluk",
+                "corner_radius": "Köşe yarıçapı",
+                "font_size": "Yazı tipi boyutu",
+                "layer_blur": "Katman bulanıklığı",
+                "letter_spacing": "Harf aralığı",
+                "line_height": "Satır yüksekliği",
+                "opacity": "Opaklık",
+                "speed": "Hız",
+                "stroke_width": "Kontur genişliği",
+                "volume": "Ses düzeyi"
+            },
+            "shape": {
+                "corner_radius": "Köşe Yarıçapı",
+                "corner_radius_stepper": "Köşe yarıçapı",
+                "fill": "Dolgu",
+                "fill_gradient": "Gradyan",
+                "fill_mixed": "Karışık",
+                "fill_transparent": "Saydam",
+                "stroke": "Kontur",
+                "stroke_color": "Kontur rengi",
+                "stroke_style": {
+                    "dots": "Noktalar",
+                    "long_dashes": "Uzun çizgiler",
+                    "short_dashes": "Kısa çizgiler",
+                    "solid": "Düz"
+                },
+                "stroke_style_select": "Kontur stili",
+                "stroke_transparent": "Saydam",
+                "stroke_weight": "Kontur kalınlığı"
+            },
+            "svg": {
+                "path_colour": "Renk {index}"
+            },
+            "swatch": {
+                "more_colours": "Daha fazla renk"
+            },
+            "text": {
+                "align": {
+                    "justify": "Yasla"
+                },
+                "alignment": "Hizalama",
+                "edit_text": "Metni düzenle",
+                "font_family": "Yazı Tipi Ailesi",
+                "font_family_select": "Yazı tipi ailesi",
+                "font_size": "Yazı tipi boyutu",
+                "italic_unavailable": "Bu yazı tipinin bu kalınlıkta italiği yok",
+                "letter_spacing_stepper": "Harf aralığı",
+                "line_height": "Satır Yüksekliği",
+                "line_height_stepper": "Satır yüksekliği",
+                "list": "Liste",
+                "list_bulleted": "Madde işaretli liste",
+                "list_numbered": "Numaralı liste",
+                "list_style": "Liste stili",
+                "text_case": "Metin büyük\/küçük harf",
+                "text_color": "Metin rengi",
+                "text_style": "Metin stili",
+                "weight": "Kalınlık"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Alta hizala",
+                    "center_x": "Yatay merkezleri hizala",
+                    "center_y": "Dikey merkezleri hizala",
+                    "left": "Sola hizala",
+                    "right": "Sağa hizala",
+                    "top": "Üste hizala"
+                },
+                "align_to_page": "Sayfaya hizala",
+                "opacity": "Opaklık",
+                "position": "Konum",
+                "position_x": "Konum X",
+                "position_y": "Konum Y",
+                "rotation": "Döndürme",
+                "scale": "Ölçek"
+            },
+            "video": {
+                "adjust": "Ayarla",
+                "audio": "Ses",
+                "clip_runs": "klip süresi {length}",
+                "corner_radius": "Köşe Yarıçapı",
+                "corner_radius_stepper": "Köşe yarıçapı",
+                "green_screen": "Yeşil perde",
+                "loop": "Tasarım bitene kadar döngüye al",
+                "mute": "Sesi kapat",
+                "muted": "Sessiz",
+                "no_audio": "Bu videoda ses yok.",
+                "playback": "Oynatma",
+                "replace": "Videoyu Değiştir",
+                "speed": "Hız",
+                "speed_custom_input": "Özel oynatma hızı",
+                "speed_presets": "Oynatma hızı",
+                "speed_range": "{min}× ile {max}× arasında",
+                "tools": "Araçlar",
+                "unmute": "Sesi aç",
+                "volume": "Ses düzeyi",
+                "volume_level": "Ses düzeyi"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Ok",
+            "arrow_down": "Aşağı ok",
+            "arrow_left": "Sol ok",
+            "arrow_pentagon": "Beşgen ok",
+            "arrow_right": "Sağ ok",
+            "arrow_up": "Yukarı ok",
+            "chevron": "Şerit",
+            "circle": "Daire",
+            "cross": "Çarpı",
+            "diamond": "Elmas",
+            "hexagon": "Altıgen",
+            "hexagon_wide": "Geniş altıgen",
+            "line": "Çizgi",
+            "octagon": "Sekizgen",
+            "parallelogram": "Paralelkenar",
+            "parallelogram_mirrored": "Aynalı paralelkenar",
+            "pentagon": "Beşgen",
+            "square": "Kare",
+            "trapezoid": "Yamuk",
+            "trapezoid_upside_down": "Ters yamuk",
+            "triangle": "Üçgen",
+            "triangle_upside_down": "Ters üçgen"
+        },
+        "shapes_panel": {
+            "basic": "Temel",
+            "lines": "Çizgiler ve oklar"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Anahtar kare ekle",
+                "back_to_animations": "Animasyonlara dön",
+                "basic": "Temel",
+                "basic_opacity": "Opaklık",
+                "basic_position": "Konum",
+                "basic_rotation": "Döndürme",
+                "basic_scale": "Ölçek",
+                "keyframe": "Anahtar kare",
+                "pick_property_hint": "Anahtar karelenecek özelliği seçin. Birine dokunmak sayfayı kapatır ve panelini açar; anahtar kare, katmanın mevcut değeriyle oynatma kafasının üzerine yerleştirilir.",
+                "presets_need_one": "Hazır animasyonlar için tek bir öğe gerekir. Görmek için tek bir katman seçin.",
+                "title": "Canlandır"
+            },
+            "easing": {
+                "title": "Yumuşatma"
+            },
+            "font_weight": {
+                "title": "Yazı tipi kalınlığı"
+            },
+            "speed": {
+                "title": "Hız"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Varsayılan renkler",
+                "eyedropper": "Ekrandan renk seç",
+                "eyedropper_unsupported": "Tarayıcınız damlalığı desteklemiyor",
+                "fill_linear": "doğrusal",
+                "fill_radial": "radyal",
+                "fill_solid": "düz",
+                "fill_type": "Dolgu türü",
+                "gradients_in_design": "Tasarımdaki gradyanlar",
+                "hex": "Hex rengi",
+                "in_design": "Tasarımda",
+                "title": "Dolgu rengi",
+                "use_color": "{color} kullan",
+                "use_gradient": "{style} gradyan kullan",
+                "use_transparent": "Saydam"
+            },
+            "crop": {
+                "adjust_shape": "Kırpma şeklini ayarla",
+                "aspect": "En boy",
+                "framing": "Çerçeveleme",
+                "framing_hint": "Yeniden çerçevelemek için fotoğrafı, kırpma penceresini boyutlandırmak için bir köşeyi sürükleyin. Yakınlaştırmak için kaydırın.",
+                "scale": "Ölçek"
+            },
+            "filters": {
+                "show_earlier": "Önceki filtreleri göster",
+                "show_more": "Daha fazla filtre göster",
+                "swatch": "{label} rengi: {color}",
+                "title": "Filtreler"
+            },
+            "font": {
+                "all_fonts": "TÜM YAZI TİPLERİ",
+                "applying": "Yazı tipi uygulanıyor",
+                "back": "Metin seçeneklerine dön",
+                "clear_search": "Aramayı temizle",
+                "clear_search_action": "Aramayı Temizle",
+                "in_this_design": "BU TASARIMDA",
+                "no_match": "“{query}” ile eşleşen yazı tipi yok",
+                "no_match_hint": "Twibbonize, Google Fonts kataloğundan yararlanır ve bu aile onun parçası değil. Daha kısa bir arama terimi deneyin.",
+                "search_label": "Yazı tipi ailesi ara",
+                "search_placeholder": "Yazı tipi ara",
+                "title": "Yazı tipi ailesi",
+                "weight": "Yazı tipi kalınlığı"
+            },
+            "gradient": {
+                "add_stop": "Gradyan durağı ekle",
+                "angle": "Açı",
+                "angle_dial": "Gradyan açısı, {degrees} derece. Değiştirmek için sürükleyin",
+                "angle_dial_hint": "Gradyan açısını değiştirmek için sürükleyin",
+                "angle_input": "Gradyan açısı (derece)",
+                "centre_unsupported": "Gradyan merkezi henüz oluşturucu tarafından desteklenmiyor",
+                "stop": "Gradyan durağı {index}, %{percent} konumunda, {color}",
+                "stop_hint": "Taşımak için sürükleyin, kaldırmak için çift tıklayın"
+            },
+            "image": {
+                "adjustment": "Ayar",
+                "adjustments": "Ayarlar",
+                "back_to_edit": "Düzenle sekmesine dön",
+                "background_removal": "Arka Plan Kaldırma",
+                "compare": "Orijinalle karşılaştır",
+                "removing": "Kaldırılıyor…",
+                "removing_background": "Arka plan kaldırılıyor",
+                "reset_adjustments": "Ayarları sıfırla",
+                "tools": "Araçlar"
+            },
+            "keyframe": {
+                "add": "Anahtar kare ekle",
+                "add_at_playhead": "Oynatma kafasına {property} anahtar karesi ekle",
+                "add_at_playhead_short": "Oynatma kafasına anahtar kare ekle",
+                "add_lane_at_playhead": "Oynatma kafasına {lane} anahtar karesi ekle",
+                "add_property": "Canlandırılacak Özellik Ekle",
+                "all_lanes_added": "Bu katmanın anahtar karelenebilen her özelliğinin zaten bir şeridi var",
+                "delete": "Bu anahtar kareyi sil",
+                "diamond": "{lane} anahtar karesi, {seconds} sn",
+                "easing": "Yumuşatma",
+                "easing_caps": "YUMUŞATMA",
+                "first_no_easing": "İlk anahtar karenin yumuşatması yoktur",
+                "hex": "Hex rengi",
+                "layer_blur": "Katman bulanıklığı",
+                "letter_spacing": "Harf aralığı",
+                "line_height": "Satır yüksekliği",
+                "opacity": "Opaklık",
+                "opacity_percent": "Opaklık yüzdesi",
+                "position_x": "Konum X",
+                "position_y": "Konum Y",
+                "radius_bottom_left": "Sol alt köşe yarıçapı",
+                "radius_bottom_right": "Sağ alt köşe yarıçapı",
+                "radius_top_left": "Sol üst köşe yarıçapı",
+                "radius_top_right": "Sağ üst köşe yarıçapı",
+                "remove": "Anahtar kareyi kaldır",
+                "remove_at_playhead": "Oynatma kafasındaki {property} anahtar karesini kaldır",
+                "rotation": "Döndürme",
+                "scale": "Ölçek",
+                "shadow_blur": "Gölge bulanıklığı",
+                "shadow_color": "Gölge rengi",
+                "shadow_offset_x": "Gölge kayması X",
+                "shadow_offset_y": "Gölge kayması Y",
+                "shadow_spread": "Gölge yayılımı",
+                "stroke_color": "Kontur rengi",
+                "stroke_weight": "Kontur kalınlığı"
+            },
+            "layer": {
+                "page_background": "Sayfa arka planı",
+                "tab_animate": "Canlandır",
+                "tabs_label": "Katman paneli",
+                "title": "Katmanlar"
+            },
+            "page_preset": {
+                "group_label": "Tuval boyutu hazır ayarları",
+                "landscape": "Yatay",
+                "portrait": "Dikey",
+                "square": "Kare",
+                "story": "Hikaye",
+                "tile_aria": "{name}, {width} x {height} piksel"
+            },
+            "personalization": {
+                "act_as_placeholder": "Yer Tutucu Olarak Davran",
+                "allow_adjust_framing": "Çerçevelemeyi Ayarlamaya İzin Ver",
+                "allow_adjust_framing_hint": "Destekçiler fotoğraflarını çerçevenin içinde yakınlaştırıp taşıyabilir.",
+                "allow_change_adjustments": "Ayarları Değiştirmeye İzin Ver",
+                "allow_change_adjustments_hint": "Destekçiler parlaklığı, kontrastı ve diğer ayarları değiştirebilir.",
+                "allow_change_effect": "Efekti Değiştirmeye İzin Ver",
+                "allow_change_effect_hint": "Destekçiler bu katman için farklı bir efekt seçebilir.",
+                "allow_change_filter": "Filtreyi Değiştirmeye İzin Ver",
+                "allow_change_filter_hint": "Destekçiler bu katman için farklı bir filtre seçebilir.",
+                "allow_edit_text": "Metni Düzenlemeye İzin Ver",
+                "allow_edit_text_hint": "Destekçiler bu metne kendi sözlerini yazabilir.",
+                "allow_flip": "Çevirmeye İzin Ver",
+                "allow_flip_hint": "Destekçiler bu katmanı aynalayabilir.",
+                "allow_move": "Taşımaya İzin Ver",
+                "allow_move_hint": "Destekçiler bu katmanı yeni bir yere sürükleyebilir.",
+                "allow_replace_media": "Medyayı Değiştirmeye İzin Ver",
+                "allow_replace_media_hint": "Destekçiler bu resmi kendi fotoğraflarıyla değiştirebilir.",
+                "allow_resize": "Yeniden Boyutlandırmaya İzin Ver",
+                "allow_resize_hint": "Destekçiler bu katmanı köşelerinden ve kenarlarından sürükleyerek yeniden boyutlandırabilir.",
+                "allow_rotate": "Döndürmeye İzin Ver",
+                "allow_rotate_hint": "Destekçiler bu katmanı istedikleri açıya çevirebilir.",
+                "group_appearance": "Görünüm",
+                "group_arrange": "Düzen",
+                "group_media": "Medya",
+                "placeholder_hint": "Destekçilerin fotoğraflarını eklemek için dokunabileceği boş bir alan gösterir.",
+                "remove_background": "Fotoğraflarının arka planını kaldır",
+                "remove_background_hint": "Destekçiyi fotoğrafından keser, böylece tasarımınız çevresinde görünür.",
+                "text_placeholder_hint": "Bu metni, destekçilerin kendi metinleriyle değiştireceği bir örnek olarak gösterir."
+            },
+            "shape_effect": {
+                "colour": "Efekt rengi",
+                "distance": "Mesafe",
+                "echo": "Yankı",
+                "first_color": "İlk renk",
+                "first_colour": "İlk efekt rengi",
+                "glitch": "Glitch",
+                "glow": "Parıltı",
+                "group_label": "Şekil efekti",
+                "second_color": "İkinci renk",
+                "second_colour": "İkinci efekt rengi",
+                "section": "Efekt",
+                "shadow": "Gölge"
+            },
+            "text_effect": {
+                "colour": "Efekt rengi",
+                "curve": "Eğri",
+                "distance": "Mesafe",
+                "echo": "Yankı",
+                "glow": "Parıltı",
+                "group_label": "Metin efekti",
+                "outline": "Anahat",
+                "section": "Efekt",
+                "shape_group_label": "Metin şekli",
+                "splice": "Birleştirme",
+                "title": "Metin efektleri"
+            }
+        },
+        "templates": {
+            "empty_body": "Daha kısa veya daha genel bir kelime deneyin.",
+            "empty_title": "“{query}” ile eşleşen şablon yok",
+            "error_title": "Şablonlar yüklenemedi",
+            "none_body": "Doğum günü veya mezuniyet gibi bir tema arayın.",
+            "none_title": "Bu tasarım için henüz şablon yok",
+            "search_label": "Şablon ara",
+            "search_placeholder": "Şablon ara"
+        },
+        "text_panel": {
+            "add_template": "Metin şablonu ekle: {name}",
+            "add_text_box": "Metin Kutusu Ekle",
+            "empty_body": "Daha kısa veya daha genel bir kelime deneyin.",
+            "empty_title": "“{query}” ile eşleşen metin şablonu yok",
+            "error_title": "Metin şablonları yüklenemedi",
+            "none_body": "Bunun yerine düz bir metin kutusuyla başlayın.",
+            "none_title": "Gösterilecek metin şablonu yok",
+            "search_label": "Metin şablonu ara",
+            "search_placeholder": "Metin şablonu ara"
+        },
+        "text_preset": {
+            "seed": "Metninizi buraya ekleyin"
+        },
+        "textures": {
+            "apply_texture": "{name} uygula",
+            "category": {
+                "fabric": "Kumaş",
+                "grain": "Tanecik",
+                "grunge": "Grunge",
+                "paper": "Kâğıt",
+                "print": "Baskı"
+            },
+            "category_group_label": "Doku kategorisi",
+            "empty_body": "Bu kitaplığı hazırlıyoruz — yakında tekrar bakın.",
+            "empty_title": "Dokular henüz burada değil",
+            "most_used": "En çok kullanılan",
+            "search_placeholder": "Doku ara"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Ses Ekle",
+                "add_tooltip": "Arka plan ses parçası ekle",
+                "bar_aria": "{name}, {start} konumunda, {duration} süreyle",
+                "decoding": "Ses çözülüyor…",
+                "decoding_waveform": "Dalga biçimi çözülüyor…",
+                "default_name": "Ses",
+                "drop_to_add": "Ses eklemek için bırakın",
+                "kind_suffix": "· Ses",
+                "mute": "Parçayı sessize al",
+                "unmute": "Parçanın sesini aç",
+                "volume": "Parça ses düzeyi",
+                "waveform_error": "Bu parçanın dalga biçimi yüklenemedi."
+            },
+            "keyframe": {
+                "add": "Anahtar Kare Ekle",
+                "add_at_playhead": "Oynatma kafasına anahtar kare ekle",
+                "add_tooltip": "Bu katmanın bir özelliğine anahtar kare ekle",
+                "diamond_aria": "{lane} anahtar karesi, {time}",
+                "diamond_hint": " · zamanlamayı değiştirmek için sürükleyin, silmek için sağ tıklayın",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Köşe Yarıçapı",
+                    "layer_blur": "Katman Bulanıklığı",
+                    "line_height": "Satır Yüksekliği",
+                    "opacity": "Opaklık",
+                    "position": "Konum",
+                    "rotation": "Döndürme",
+                    "scale": "Ölçek",
+                    "stroke": "Kontur"
+                },
+                "remove_lane": "{lane} anahtar karelerini kaldır",
+                "remove_lane_from_layer": "{lane} anahtar karelerini {layer} katmanından kaldır",
+                "segment_easing_aria": "{from} ile {to} arasında {lane} zamanlama işlevi, şu anda {easing}",
+                "segment_easing_title": "Zamanlama işlevi · {easing}",
+                "welded_aria": ", katman kenarına yapışık",
+                "welded_title": " · katman kenarına yapışık"
+            },
+            "menu": {
+                "repeat_until_end": "Sona kadar tekrarla"
+            },
+            "track": {
+                "bar_aria": "{name}, {start} konumunda, {duration} süreyle",
+                "bar_aria_end_glued": ", bitiş katmana yapışık",
+                "bar_aria_start_glued": ", başlangıç katmana yapışık",
+                "bar_tooltip": "{name} · {start}, {duration}ms süreyle · taşımak için sürükleyin, yeniden boyutlandırmak için kenarı sürükleyin (Alt = yapışma yok)",
+                "bar_tooltip_sole": " · bu kenarı sürüklemek katmanı taşır",
+                "clip_aria": "{name} klibi",
+                "clip_tooltip": "Katmanı zamanda taşımak için sürükleyin · kırpmak için bir ucu sürükleyin (Alt = yapışma yok)",
+                "collapse": "Daralt",
+                "collapse_all": "Tüm katmanları daralt",
+                "collapse_named": "{name} katmanını daralt",
+                "delete_layer": "Katmanı Sil",
+                "delete_named": "{name} katmanını sil",
+                "ends_at": "Bitiş",
+                "expand": "Genişlet",
+                "expand_named": "{name} katmanını genişlet",
+                "hidden_lane_one": "{count} gizli şerit",
+                "hidden_lane_other": "{count} gizli şerit",
+                "hide": "Gizle",
+                "hide_named": "{name} katmanını gizle",
+                "lane_reorder_tooltip": "Sıralamak için sürükleyin — animasyonlar çakıştığında üstteki şerit geçerlidir",
+                "layer_animations": "Katman animasyonları",
+                "lock_layer": "Katmanı kilitle",
+                "lock_named": "{name} katmanını kilitle",
+                "remove_animation": "Animasyonu Kaldır",
+                "remove_animation_aria": "{name} animasyonunu {layer} katmanından kaldır",
+                "reorder_tooltip": "Parçaları sıralamak için sürükleyin — tuval üzerindeki üst üste dizilim katman panelinde ayarlanır",
+                "show": "Göster",
+                "show_named": "{name} katmanını göster",
+                "split": "Böl",
+                "starts_at": "Başlangıç",
+                "trim_end": "Sonu kırp",
+                "trim_start": "Başı kırp",
+                "trim_to": "{time} konumuna kırp",
+                "unlock_layer": "Katmanın kilidini aç",
+                "unlock_named": "{name} katmanının kilidini aç"
+            },
+            "transport": {
+                "current_time_field": "Geçerli süre (milisaniye)",
+                "duration_edge_aria": "Sayfa süresi {seconds} saniye",
+                "duration_edge_tooltip": "Sayfa süresi {seconds}sn · değiştirmek için sürükleyin, kesin değer için tıklayın (Alt = yapışma yok)",
+                "duration_max": "En fazla {seconds} sn",
+                "fit_to_width": "Genişliğe sığdır",
+                "forward": "İleri",
+                "lengthen_page": "Sayfayı uzat",
+                "loop": "Oynatmayı döngüye al",
+                "page_duration": "Sayfa süresi",
+                "page_duration_field": "Sayfa süresi (milisaniye)",
+                "resize_dock": "Zaman çizelgesini yeniden boyutlandır",
+                "rewind": "Geri sar",
+                "shorten_page": "Sayfayı kısalt",
+                "zoom": "Zaman çizelgesi yakınlaştırma"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {

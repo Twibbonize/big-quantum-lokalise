@@ -2842,7 +2842,9 @@
             "type": "प्रकार:",
             "size": "आकार:",
             "type_image": "जेपीजी, पीएनजी या एसवीजी",
-            "maximum_size": "अधिकतम 5 एमबी"
+            "maximum_size": "अधिकतम 5 एमबी",
+            "abandoned": "लेयर हटाए जाने पर अपलोड रुक गया। इसे अपनी लाइब्रेरी में रखने के लिए दोबारा कोशिश करें।",
+            "failed": "अपलोड विफल रहा। अपना कनेक्शन जाँचें और फिर कोशिश करें।"
         },
         "toolbar": {
             "copy": "प्रतिलिपि",
@@ -2871,7 +2873,119 @@
             "border_weight": "सीमा वजन",
             "corner_rounding": "कोना गोलाई",
             "align": "संरेखित",
-            "effects": "प्रभाव"
+            "effects": "प्रभाव",
+            "animate": {
+                "amount": "मात्रा",
+                "angle": "कोण",
+                "close": "एनिमेशन सेटिंग बंद करें",
+                "delete_animation": "एनिमेशन हटाएँ",
+                "distance": "दूरी",
+                "easing": "ईज़िंग",
+                "fade": "फ़ेड",
+                "settings_aria": "एनिमेशन सेटिंग"
+            },
+            "audio": {
+                "replace": "बदलें",
+                "tools_aria": "ऑडियो ट्रैक टूल",
+                "trim": "ट्रिम करें",
+                "volume": "वॉल्यूम"
+            },
+            "clip": {
+                "length": "अवधि",
+                "split": "विभाजित करें",
+                "trim": "ट्रिम करें"
+            },
+            "entry": {
+                "animate": "एनिमेट करें"
+            },
+            "image": {
+                "adjust": "एडजस्ट करें",
+                "background_removal_unavailable": "बैकग्राउंड हटाने की सुविधा अभी उपलब्ध नहीं है",
+                "remove_background": "बैकग्राउंड हटाएँ",
+                "remove_background_short": "कटआउट",
+                "replace": "बदलें"
+            },
+            "keyframe": {
+                "blur": "लेयर ब्लर",
+                "close": "कीफ़्रेम प्रॉपर्टी बंद करें",
+                "delete_keyframe": "कीफ़्रेम हटाएँ",
+                "letter_spacing": "स्पेसिंग",
+                "line_height": "लाइन की ऊँचाई",
+                "opacity": "पारदर्शिता",
+                "position": "स्थिति",
+                "properties_aria": "कीफ़्रेम प्रॉपर्टी",
+                "rotation": "घुमाव",
+                "scale": "स्केल"
+            },
+            "layer_tools": {
+                "deselect": "लेयर का चयन हटाएँ",
+                "tools_aria": "लेयर टूल"
+            },
+            "media": {
+                "adjust": "एडजस्ट करें",
+                "green_screen": "ग्रीन स्क्रीन",
+                "replace": "बदलें",
+                "trim": "ट्रिम करें"
+            },
+            "misc": {
+                "background_fill": "बैकग्राउंड फ़िल",
+                "background_fill_short": "फ़िल",
+                "configure_qr": "QR कोड कॉन्फ़िगर करें",
+                "edit_background_image": "बैकग्राउंड इमेज एडिट करें",
+                "no_background_image": "अभी कोई बैकग्राउंड इमेज नहीं है",
+                "replace_unavailable": "बदलें (अभी उपलब्ध नहीं)"
+            },
+            "opacity": {
+                "label": "पारदर्शिता"
+            },
+            "shape": {
+                "corner_radius": "कोने की गोलाई",
+                "corner_radius_short": "गोलाई",
+                "fill": "फ़िल",
+                "line_color": "लाइन का रंग",
+                "line_style_dots": "बिंदु",
+                "line_style_long_dashes": "लंबे डैश",
+                "line_style_named": "लाइन स्टाइल: {style}",
+                "line_style_short_dashes": "छोटे डैश",
+                "line_style_solid": "ठोस",
+                "line_weight": "लाइन की मोटाई",
+                "stroke_color": "स्ट्रोक का रंग",
+                "stroke_color_short": "स्ट्रोक",
+                "stroke_weight": "स्ट्रोक की मोटाई",
+                "stroke_weight_short": "मोटाई"
+            },
+            "speed": {
+                "custom_input": "कस्टम प्लेबैक स्पीड",
+                "label": "स्पीड",
+                "playback_length": "प्लेबैक अवधि",
+                "playback_speed": "प्लेबैक स्पीड",
+                "range_hint": "{min}× से {max}× के बीच"
+            },
+            "text": {
+                "decrease_font_size": "फ़ॉन्ट आकार घटाएँ",
+                "font_family": "फ़ॉन्ट फ़ैमिली",
+                "font_family_named": "फ़ॉन्ट फ़ैमिली: {value}",
+                "font_size": "फ़ॉन्ट आकार",
+                "font_weight": "फ़ॉन्ट वेट",
+                "font_weight_named": "फ़ॉन्ट वेट: {value}",
+                "increase_font_size": "फ़ॉन्ट आकार बढ़ाएँ",
+                "keyboard": "कीबोर्ड",
+                "line_height": "लाइन की ऊँचाई",
+                "spacing": "स्पेसिंग",
+                "text_color": "टेक्स्ट का रंग",
+                "weight": "वेट"
+            },
+            "volume": {
+                "clip_hint": "सिर्फ़ यह क्लिप। टाइमलाइन पर रखे ऑडियो का अपना स्तर बना रहता है।",
+                "label": "वॉल्यूम",
+                "level": "स्तर",
+                "mute": "म्यूट करें",
+                "muted": "म्यूट",
+                "muted_hint": "स्तर सुरक्षित है। अनम्यूट करने पर क्लिप {percent}% पर लौट आएगी।",
+                "no_audio": "इस वीडियो में ऑडियो नहीं है।",
+                "slider": "वॉल्यूम स्तर",
+                "unmute": "अनम्यूट करें"
+            }
         },
         "confirmation": {
             "cancel": "खारिज करना",
@@ -2918,7 +3032,1066 @@
             "document_colors": "दस्तावेज़ रंग",
             "default_colors": "डिफ़ॉल्ट रंग"
         },
-        "graphic": "ग्राफ़िक"
+        "graphic": "ग्राफ़िक",
+        "animate": {
+            "anchor": {
+                "bottom_center": "नीचे मध्य",
+                "bottom_left": "नीचे बाएँ",
+                "bottom_right": "नीचे दाएँ",
+                "center_left": "मध्य बाएँ",
+                "center_right": "मध्य दाएँ",
+                "top_center": "ऊपर मध्य",
+                "top_left": "ऊपर बाएँ",
+                "top_right": "ऊपर दाएँ"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "अंत",
+                "more_options": "और विकल्प"
+            },
+            "direction": {
+                "bottom_left": "नीचे बाएँ",
+                "bottom_right": "नीचे दाएँ",
+                "clockwise": "घड़ी की दिशा में",
+                "counter_clockwise": "घड़ी की उलटी दिशा में",
+                "from_the": "{place} से",
+                "to_the": "{place} की ओर",
+                "top_left": "ऊपर बाएँ",
+                "top_right": "ऊपर दाएँ"
+            },
+            "easing": {
+                "accelerate": "तेज़ी से",
+                "bounce": "उछाल",
+                "elastic": "इलास्टिक",
+                "impulse": "इम्पल्स",
+                "natural": "प्राकृतिक",
+                "overshoot": "ओवरशूट",
+                "slow_down": "धीमा करें",
+                "smooth": "स्मूद",
+                "swing": "स्विंग"
+            },
+            "field": {
+                "amount": "मात्रा",
+                "anchor_group": "एंकर पॉइंट",
+                "anchor_point": "एंकर पॉइंट",
+                "angle": "कोण",
+                "apply_effect_to": "इफ़ेक्ट लागू करें",
+                "axis": "अक्ष",
+                "choose_easing": "ईज़िंग चुनें",
+                "distance": "दूरी",
+                "duration": "अवधि",
+                "edge": "किनारा",
+                "fade": "फ़ेड",
+                "from_noun": "{noun} से",
+                "horizontal": "क्षैतिज",
+                "noun_blur": "ब्लर",
+                "noun_opacity": "पारदर्शिता",
+                "noun_size": "आकार",
+                "opacity": "पारदर्शिता",
+                "order": "क्रम",
+                "position": "स्थिति",
+                "rotation": "घुमाव",
+                "rotation_direction": "घुमाव की दिशा",
+                "scale": "स्केल",
+                "smoothing": "स्मूदिंग",
+                "to_noun": "{noun} तक",
+                "vertical": "ऊर्ध्वाधर"
+            },
+            "mode": {
+                "arrives": "आगमन",
+                "departs": "प्रस्थान",
+                "in": "अंदर",
+                "out": "बाहर"
+            },
+            "panel": {
+                "animation": "एनिमेशन",
+                "animations_tab": "एनिमेशन",
+                "basic": "बेसिक",
+                "changing_note": "बदलने के लिए कोई विकल्प चुनें। यह बदली जा रही एनिमेशन की जगह और अवधि ले लेगा।",
+                "corner_radius": "कोने की गोलाई",
+                "easing": "ईज़िंग",
+                "fade": "फ़ेड",
+                "keyframe_tab": "कीफ़्रेम",
+                "layer_blur": "लेयर ब्लर",
+                "line_height": "लाइन की ऊँचाई",
+                "more_options": "और विकल्प",
+                "motion": "मोशन",
+                "needs_one_element": "एनिमेशन प्रीसेट के लिए एक एलिमेंट चाहिए। उन्हें देखने के लिए कोई एक लेयर चुनें।",
+                "paste_animation": "एनिमेशन पेस्ट करें",
+                "scale": "स्केल",
+                "slide": "स्लाइड",
+                "stroke": "स्ट्रोक",
+                "text_animation": "टेक्स्ट एनिमेशन"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "दिखें",
+                    "label": "दिखें"
+                },
+                "blur": {
+                    "label": "ब्लर के साथ आएँ"
+                },
+                "blur_scale": {
+                    "caption": "ब्लर और स्केल",
+                    "label": "स्केल के साथ ब्लर में आएँ"
+                },
+                "blur_slide": {
+                    "caption": "ब्लर और स्लाइड",
+                    "label": "स्लाइड के साथ ब्लर में आएँ"
+                },
+                "fade": {
+                    "caption": "फ़ेड",
+                    "label": "फ़ेड"
+                },
+                "grow": {
+                    "caption": "पॉप",
+                    "label": "पॉप होकर आएँ"
+                },
+                "mask_center": {
+                    "caption": "मास्क सेंटर",
+                    "label": "केंद्र से मास्क रिवील"
+                },
+                "mask_reveal": {
+                    "caption": "मास्क रिवील",
+                    "label": "किनारे से मास्क रिवील"
+                },
+                "mask_slide": {
+                    "caption": "मास्क और स्लाइड",
+                    "label": "स्लाइड के साथ मास्क रिवील"
+                },
+                "move_scale": {
+                    "caption": "मूव और स्केल",
+                    "label": "मूव और स्केल करके आएँ"
+                },
+                "rotate_left": {
+                    "label": "बाईं ओर से घुमाएँ"
+                },
+                "rotate_right": {
+                    "label": "दाईं ओर से घुमाएँ"
+                },
+                "shrink": {
+                    "caption": "बड़ा",
+                    "label": "बड़ा होकर आएँ"
+                },
+                "slide": {
+                    "caption": "स्लाइड",
+                    "label": "स्लाइड करके आएँ"
+                },
+                "slide_from_bottom": {
+                    "label": "नीचे से स्लाइड करें"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "नीचे बाएँ",
+                    "label": "नीचे बाएँ से स्लाइड करें"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "नीचे दाएँ",
+                    "label": "नीचे दाएँ से स्लाइड करें"
+                },
+                "slide_from_left": {
+                    "label": "बाईं ओर से स्लाइड करें"
+                },
+                "slide_from_right": {
+                    "label": "दाईं ओर से स्लाइड करें"
+                },
+                "slide_from_top": {
+                    "label": "ऊपर से स्लाइड करें"
+                },
+                "slide_from_top_left": {
+                    "caption": "ऊपर बाएँ",
+                    "label": "ऊपर बाएँ से स्लाइड करें"
+                },
+                "slide_from_top_right": {
+                    "caption": "ऊपर दाएँ",
+                    "label": "ऊपर दाएँ से स्लाइड करें"
+                },
+                "spin": {
+                    "caption": "स्पिन",
+                    "label": "स्पिन होकर आएँ"
+                },
+                "spin_scale": {
+                    "caption": "स्पिन और स्केल",
+                    "label": "स्पिन और स्केल करके आएँ"
+                },
+                "twist": {
+                    "caption": "ट्विस्ट",
+                    "label": "ट्विस्ट होकर आएँ"
+                }
+            },
+            "property": {
+                "change_text": "टेक्स्ट बदलें",
+                "morph": "मॉर्फ़",
+                "move": "मूव",
+                "opacity": "पारदर्शिता",
+                "scale": "स्केल"
+            },
+            "section": {
+                "fade": "फ़ेड",
+                "mask": "मास्क",
+                "scale": "स्केल",
+                "slide": "स्लाइड",
+                "transform": "ट्रांसफ़ॉर्म"
+            },
+            "text": {
+                "backward": "पीछे की ओर",
+                "forward": "आगे की ओर",
+                "letters": "अक्षर",
+                "summary_overlap": "हर {unit} पिछले वाले के {percent}% पूरा होने पर शुरू होता है।",
+                "summary_sequential": "हर {unit} अगले के शुरू होने से पहले पूरा होता है।",
+                "summary_together": "हर {unit} एक साथ चलता है।",
+                "summary_whole": "पूरा टेक्स्ट ब्लॉक एक साथ एनिमेट होता है।",
+                "words": "शब्द"
+            },
+            "type": {
+                "fade_in": "फ़ेड इन",
+                "fade_out": "फ़ेड आउट",
+                "line_height": "लाइन की ऊँचाई",
+                "radius": "गोलाई",
+                "resize_in": "रीसाइज़ इन",
+                "resize_out": "रीसाइज़ आउट",
+                "rotate_in": "रोटेट इन",
+                "rotate_out": "रोटेट आउट",
+                "scale_in": "स्केल इन",
+                "scale_out": "स्केल आउट",
+                "slide_in": "स्लाइड इन",
+                "slide_out": "स्लाइड आउट",
+                "spacing": "स्पेसिंग",
+                "stroke": "स्ट्रोक"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "जारी रखने के लिए अपनी फ़ोटो जोड़ें।",
+                    "gesture": {
+                        "frameDesktop": "जगह बदलने के लिए खींचें · ज़ूम के लिए स्क्रोल करें",
+                        "frameMobile": "जगह बदलने के लिए खींचें, ज़ूम के लिए पिंच करें",
+                        "handles": "कोनों और किनारों से आकार बदलें, ऊपर से घुमाएँ",
+                        "move": "हिलाने के लिए खींचें",
+                        "moveOrHandles": "हिलाने के लिए खींचें, या हैंडल इस्तेमाल करें",
+                        "resize": "आकार बदलने के लिए कोना या किनारा खींचें",
+                        "rotate": "घुमाने के लिए ऊपर का हैंडल खींचें",
+                        "rotateDesktop": "रूलर खींचें, या ऐरो कीज़ इस्तेमाल करें",
+                        "rotateMobile": "घुमाने के लिए रूलर खींचें"
+                    },
+                    "hint": {
+                        "pickDesktop": "चिह्नित जगह पर क्लिक करें, या बाईं ओर से कोई लेयर चुनें",
+                        "pickMobile": "चिह्नित जगह पर टैप करें, या नीचे से कोई लेयर चुनें",
+                        "previewDesktop": "आपके डिज़ाइन का प्रीव्यू। एडिट जारी रखने के लिए इस पर क्लिक करें।",
+                        "previewMobile": "आपके डिज़ाइन का प्रीव्यू। एडिट जारी रखने के लिए इस पर टैप करें।"
+                    },
+                    "layer": {
+                        "addPhoto": "अपनी फ़ोटो जोड़ें",
+                        "text": "टेक्स्ट: {text}",
+                        "yourPhoto": "आपकी फ़ोटो",
+                        "yourText": "आपका टेक्स्ट"
+                    },
+                    "layers": {
+                        "all": "सभी लेयर",
+                        "photo": "फ़ोटो",
+                        "sheetDescription": "इस डिज़ाइन में आप जो कुछ बदल सकते हैं, वह सब।",
+                        "title": "लेयर"
+                    },
+                    "photoError": "हम वह फ़ोटो इस्तेमाल नहीं कर पाए। कोई दूसरी इमेज आज़माएँ।",
+                    "preview": {
+                        "backToEditing": "एडिटिंग पर लौटें"
+                    },
+                    "rotation": {
+                        "aria": "घुमाव",
+                        "value": "one:# डिग्री|other:# डिग्री"
+                    },
+                    "tools": {
+                        "adjust": "एडजस्ट करें",
+                        "aria": "लेयर टूल",
+                        "editText": "टेक्स्ट एडिट करें",
+                        "flip": "फ़्लिप करें",
+                        "locked": "आकार और स्थिति क्रिएटर ने तय की है",
+                        "replace": "बदलें",
+                        "textAria": "टेक्स्ट टूल",
+                        "zoomIn": "ज़ूम इन",
+                        "zoomOut": "ज़ूम आउट"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} टाइमलाइन में जोड़ दिया गया।",
+                "too_big": "{name} {limit} से बड़ा है।",
+                "too_long": "{name} {minutes} मिनट से लंबा है।",
+                "too_many": "एक बार में सिर्फ़ {count} फ़ाइलें।",
+                "wrong_type": "{name} जोड़ा नहीं जा सकता — सिर्फ़ इमेज, वीडियो और SVG फ़ाइलें।"
+            }
+        },
+        "catalogue": {
+            "error_body": "अपना कनेक्शन जाँचें, फिर दोबारा कोशिश करें।",
+            "loading_more": "और लोड हो रहा है"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "ड्राफ़्ट हटाएँ",
+                "description_unsaved": "यह डिज़ाइन सेव नहीं है। वापस जाने पर यह हमेशा के लिए हट जाएगा — लेयर, स्टाइल और एनिमेशन समेत।",
+                "title": "“{title}” ड्राफ़्ट हटाएँ?"
+            },
+            "save": {
+                "description": "सेव करने के बाद एडिटिंग उपलब्ध नहीं रहेगी।",
+                "saving": "सेव हो रहा है…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "स्क्रीन के अनुसार फ़िट करें"
+        },
+        "graphic_panel": {
+            "add": "{name} जोड़ें",
+            "add_failed": "यह ग्राफ़िक जोड़ा नहीं जा सका। फिर कोशिश करें।",
+            "empty_body": "कोई छोटा या सामान्य शब्द आज़माएँ, जैसे स्टार या दिल।",
+            "empty_title": "“{query}” से मेल खाता कोई ग्राफ़िक नहीं",
+            "error_title": "ग्राफ़िक लोड नहीं हो सके",
+            "none_title": "दिखाने के लिए कोई ग्राफ़िक नहीं",
+            "search_label": "ग्राफ़िक खोजें",
+            "search_placeholder": "ग्राफ़िक खोजें"
+        },
+        "header": {
+            "redo": "रीडू",
+            "saving": "सेव हो रहा है…",
+            "undo": "अनडू",
+            "untitled_design": "बिना शीर्षक का डिज़ाइन"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "फ़ोटो स्लॉट"
+            },
+            "menu": {
+                "align_center": "केंद्र",
+                "bring_forward": "आगे लाएँ",
+                "bring_to_front": "सबसे आगे लाएँ",
+                "detach_image": "इमेज अलग करें",
+                "flip_horizontal": "क्षैतिज फ़्लिप",
+                "flip_vertical": "ऊर्ध्वाधर फ़्लिप",
+                "replace_image": "इमेज बदलें",
+                "send_backward": "पीछे भेजें",
+                "send_to_back": "सबसे पीछे भेजें",
+                "set_as_background_image": "बैकग्राउंड इमेज बनाएँ",
+                "set_as_background_video": "बैकग्राउंड वीडियो बनाएँ",
+                "set_background_as_image_layer": "बैकग्राउंड को इमेज लेयर बनाएँ",
+                "set_background_as_video_layer": "बैकग्राउंड को वीडियो लेयर बनाएँ",
+                "sheet_title": "लेयर विकल्प",
+                "show_layers": "लेयर दिखाएँ"
+            },
+            "pill": {
+                "duplicate": "लेयर डुप्लिकेट करें",
+                "more": "लेयर के और एक्शन",
+                "remove": "लेयर हटाएँ",
+                "toolbar": "लेयर एक्शन"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "पेयरिंग कोड तैयार है: {code}। इसे अपने AI क्लाइंट को दें।",
+                "connecting": "पेयरिंग कोड बनाया जा रहा है।",
+                "failed": "कनेक्ट नहीं हो सका। {reason}",
+                "reconnecting": "कनेक्शन टूट गया। दोबारा कनेक्ट करने की कोशिश हो रही है।"
+            },
+            "clipboard_blocked": "आपके ब्राउज़र ने क्लिपबोर्ड ब्लॉक कर दिया। {hint}",
+            "connect": "कनेक्ट करें",
+            "connecting": "कनेक्ट हो रहा है…",
+            "copied_address_announcement": "सर्वर का पता कॉपी हो गया",
+            "copied_code_announcement": "पेयरिंग कोड कॉपी हो गया",
+            "copy_address_hint": "पता चुनें और उसे हाथ से कॉपी करें।",
+            "copy_code": "कोड कॉपी करें",
+            "copy_code_hint": "कोड चुनें और उसे हाथ से कॉपी करें।",
+            "copy_server_address": "MCP सर्वर का पता कॉपी करें",
+            "disconnect": "डिस्कनेक्ट करें",
+            "error_fallback": "पेयरिंग सेवा ने जवाब नहीं दिया। अपना कनेक्शन जाँचें और फिर कोशिश करें।",
+            "guide": {
+                "fresh_code": "अगर कोई कोड काम करना बंद कर दे, तो डिस्कनेक्ट दबाएँ और नया कोड पाने के लिए फिर से कनेक्ट करें।",
+                "how_to_set_up": "इसे कैसे सेट करें",
+                "step_add_body": "नीचे दिए पते से Twibbonize को अपने AI क्लाइंट में जोड़ें। Claude Code में यह चलाएँ",
+                "step_add_title": "Twibbonize को अपने AI क्लाइंट में जोड़ें",
+                "step_pair_body": "कहें “Twibbonize एडिटर के साथ पेयर करो” और ऊपर दिया कोड दें।",
+                "step_pair_title": "उससे पेयर करने को कहें",
+                "where_to_paste": "यह कोड कहाँ पेस्ट करना है?"
+            },
+            "lead": {
+                "code_ready_sentence": "इसे Claude में पेस्ट करें और पेयर करने को कहें। Claude के काम करते समय कैनवास पेज के चारों ओर एक रिंग बनाता है।",
+                "code_ready_title": "यह कोड अपने AI क्लाइंट को दें",
+                "connecting_sentence": "इसमें थोड़ा समय लगता है।",
+                "connecting_title": "पेयरिंग कोड बनाया जा रहा है",
+                "disconnected_sentence": "Claude Desktop और Claude Code लेयर जोड़ सकते हैं, टेक्स्ट लिख सकते हैं, एनिमेशन सेट कर सकते हैं और कैनवास पर मौजूद चीज़ें पढ़ सकते हैं।",
+                "disconnected_title": "इस डिज़ाइन में AI क्लाइंट को लाएँ",
+                "failed_title": "कनेक्ट नहीं हो सका",
+                "reconnecting_sentence": "आपके AI क्लाइंट से लिंक टूट गया। उसे बहाल करने की कोशिश हो रही है।",
+                "reconnecting_title": "दोबारा कनेक्ट हो रहा है",
+                "unavailable_sentence": "इस एडिटर बिल्ड में कोई AI कनेक्शन कॉन्फ़िगर नहीं है, इसलिए अभी कनेक्ट करने के लिए कुछ नहीं है।",
+                "unavailable_title": "यहाँ MCP चालू नहीं है"
+            },
+            "pairing_code_label": "पेयरिंग कोड: {code}"
+        },
+        "media": {
+            "add_asset": "{name} जोड़ें",
+            "dismiss_error": "बंद करें",
+            "empty_body": "नीचे इमेज, वीडियो या ऑडियो फ़ाइल जोड़ें, वह इस सेशन में यहीं रहेगी।",
+            "empty_narrowed_body": "आपने जो कुछ जोड़ा है वह सब देखने के लिए खोज हटाएँ या कोई दूसरा प्रकार चुनें।",
+            "empty_narrowed_title": "कुछ भी मेल नहीं खाता",
+            "empty_title": "अभी कुछ अपलोड नहीं हुआ",
+            "filter": {
+                "audio": "ऑडियो",
+                "images": "इमेज"
+            },
+            "filter_group_label": "मीडिया प्रकार",
+            "make_an_image": "इमेज बनाएँ",
+            "make_image_unavailable": "इमेज जनरेट करना अभी उपलब्ध नहीं है",
+            "search_placeholder": "मीडिया खोजें",
+            "upload_button": "इमेज, वीडियो या ऑडियो अपलोड करें",
+            "uploads_heading": "अपलोड"
+        },
+        "page_bar": {
+            "group_label": "ज़ूम कंट्रोल",
+            "zoom_menu": "ज़ूम स्तर, {percent}%"
+        },
+        "panel": {
+            "loading": "{panel} लोड हो रहा है…"
+        },
+        "photo": {
+            "add_by": "{name} की फ़ोटो जोड़ें",
+            "add_described": "फ़ोटो जोड़ें: {description}",
+            "credit": "फ़ोटो उपलब्ध कराने वाले",
+            "empty_body": "कोई छोटा या सामान्य शब्द आज़माएँ, जैसे समुद्र तट या शहर।",
+            "empty_title": "“{query}” से मेल खाती कोई फ़ोटो नहीं",
+            "error_title": "फ़ोटो लोड नहीं हो सकीं",
+            "none_title": "दिखाने के लिए कोई फ़ोटो नहीं",
+            "search_label": "फ़ोटो खोजें",
+            "search_placeholder": "फ़ोटो खोजें"
+        },
+        "qr": {
+            "add_logo": "लोगो जोड़ें",
+            "add_to_design": "डिज़ाइन में जोड़ें",
+            "background_colour_label": "बैकग्राउंड का रंग",
+            "code_colour_label": "कोड का रंग",
+            "code_label": "कोड",
+            "link_input_label": "QR कोड लिंक",
+            "link_label": "लिंक",
+            "logo_fallback_name": "लोगो इमेज",
+            "logo_label": "लोगो",
+            "remove_logo": "लोगो हटाएँ"
+        },
+        "rail": {
+            "aria_label": "डिज़ाइन लाइब्रेरी",
+            "graphic": "ग्राफ़िक",
+            "help": "सहायता",
+            "layers": "लेयर",
+            "mcp": "MCP",
+            "media": "मीडिया",
+            "photo": "फ़ोटो",
+            "qr_code": "QR कोड",
+            "shapes": "आकृतियाँ",
+            "templates": "टेम्पलेट",
+            "textures": "टेक्सचर",
+            "tools": "टूल"
+        },
+        "save": {
+            "failed": "आपका डिज़ाइन सेव नहीं हो सका। फिर कोशिश करें।"
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "ब्राइटनेस",
+                "compare": "मूल से तुलना करें",
+                "contrast": "कंट्रास्ट",
+                "grayscale": "ग्रेस्केल",
+                "group": {
+                    "basic": "बेसिक",
+                    "refinements": "रिफ़ाइनमेंट"
+                },
+                "hue_rotate": "ह्यू रोटेट",
+                "reset": "एडजस्टमेंट रीसेट करें",
+                "saturation": "सैचुरेशन",
+                "title": "एडजस्टमेंट"
+            },
+            "color": {
+                "trigger": "रंग"
+            },
+            "common": {
+                "layer_blur": "लेयर ब्लर",
+                "layer_blur_stepper": "लेयर ब्लर"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "फ़्री फ़ॉर्म",
+                    "landscape": "लैंडस्केप",
+                    "original": "मूल",
+                    "portrait": "पोर्ट्रेट",
+                    "square": "वर्ग",
+                    "story": "स्टोरी",
+                    "widescreen": "वाइडस्क्रीन"
+                },
+                "shape": {
+                    "circle": "वृत्त",
+                    "diamond": "डायमंड",
+                    "half_circle": "अर्धवृत्त",
+                    "oval": "अंडाकार",
+                    "parallelogram": "समांतर चतुर्भुज",
+                    "rounded": "गोलाकार"
+                }
+            },
+            "filter": {
+                "cool": "कूल",
+                "duotone": "ड्यूओटोन",
+                "mono": "मोनो",
+                "original": "मूल",
+                "vivid": "विविड",
+                "warm": "वार्म"
+            },
+            "font_weight": {
+                "black": "ब्लैक",
+                "extra_bold": "एक्स्ट्राबोल्ड",
+                "extra_light": "एक्स्ट्रालाइट",
+                "medium": "मीडियम",
+                "regular": "रेगुलर",
+                "semibold": "सेमीबोल्ड",
+                "thin": "थिन"
+            },
+            "frame": {
+                "colour": "फ़्रेम का रंग"
+            },
+            "green_screen": {
+                "choose_colour": "रंग चुनें",
+                "colour": "रंग",
+                "compare": "मूल से तुलना करें",
+                "eyedropper": "कैनवास से रंग चुनें",
+                "key_colour": "की कलर {hex}",
+                "loose": "ढीला",
+                "nothing_found": "कोई बैकग्राउंड रंग नहीं मिला।",
+                "precise": "सटीक",
+                "preset": {
+                    "bright_blue": "चमकीला नीला",
+                    "bright_green": "चमकीला हरा",
+                    "chroma_blue": "क्रोमा ब्लू",
+                    "chroma_green": "क्रोमा ग्रीन"
+                },
+                "presets": "आम बैकड्रॉप रंग",
+                "remove": "ग्रीन स्क्रीन हटाएँ",
+                "title": "ग्रीन स्क्रीन"
+            },
+            "image": {
+                "corner_radius": "कोने की गोलाई",
+                "corner_radius_stepper": "कोने की गोलाई",
+                "per_corner": "अलग-अलग कोने एडिट करें",
+                "per_corner_unavailable": "अलग-अलग कोने एडिट करना अभी उपलब्ध नहीं है"
+            },
+            "keypad": {
+                "value_field": "{label} मान"
+            },
+            "line": {
+                "colour": "लाइन का रंग",
+                "style": {
+                    "dots": "बिंदु",
+                    "long_dashes": "लंबे डैश",
+                    "short_dashes": "छोटे डैश",
+                    "solid": "ठोस"
+                },
+                "style_trigger": "लाइन स्टाइल: {style}",
+                "weight": "लाइन की मोटाई",
+                "weight_trigger": "लाइन की मोटाई {weight}"
+            },
+            "media": {
+                "heading": "मीडिया"
+            },
+            "page": {
+                "size_capped": "अधिकतम {max} px — अनुपात बरकरार"
+            },
+            "pages": {
+                "title": "पेज"
+            },
+            "photo_slot": {
+                "enable": "फ़ोटो स्लॉट के रूप में इस्तेमाल करें",
+                "key_field": "की (यूनीक)",
+                "key_required": "की ज़रूरी है",
+                "key_taken": "यह की किसी दूसरे स्लॉट में इस्तेमाल हो चुकी है",
+                "label_field": "लेबल (एंड यूज़र को दिखेगा)",
+                "on": "फ़ोटो स्लॉट",
+                "remove": "फ़ोटो स्लॉट हटाएँ"
+            },
+            "qr": {
+                "add_logo": "लोगो जोड़ें",
+                "background_colour": "बैकग्राउंड का रंग",
+                "code": "कोड",
+                "code_colour": "कोड का रंग",
+                "link": "लिंक",
+                "link_input": "QR कोड लिंक",
+                "logo": "लोगो",
+                "remove_logo": "लोगो हटाएँ"
+            },
+            "root": {
+                "background_image": "बैकग्राउंड इमेज",
+                "edit_background": "बैकग्राउंड इमेज एडिट करें",
+                "fill": "फ़िल",
+                "fill_gradient": "ग्रेडिएंट",
+                "page_height": "पेज की ऊँचाई",
+                "page_width": "पेज की चौड़ाई",
+                "ratio_lock": "आस्पेक्ट रेशियो लॉक करें",
+                "ratio_unlock": "आस्पेक्ट रेशियो अनलॉक करें",
+                "rotate_left": "बैकग्राउंड बाईं ओर घुमाएँ",
+                "rotate_right": "बैकग्राउंड दाईं ओर घुमाएँ"
+            },
+            "scalar": {
+                "clip_length": "अवधि",
+                "corner_radius": "कोने की गोलाई",
+                "font_size": "फ़ॉन्ट आकार",
+                "layer_blur": "लेयर ब्लर",
+                "letter_spacing": "अक्षर स्पेसिंग",
+                "line_height": "लाइन की ऊँचाई",
+                "opacity": "पारदर्शिता",
+                "speed": "स्पीड",
+                "stroke_width": "स्ट्रोक की चौड़ाई",
+                "volume": "वॉल्यूम"
+            },
+            "shape": {
+                "corner_radius": "कोने की गोलाई",
+                "corner_radius_stepper": "कोने की गोलाई",
+                "fill": "फ़िल",
+                "fill_gradient": "ग्रेडिएंट",
+                "fill_mixed": "मिश्रित",
+                "fill_transparent": "पारदर्शी",
+                "stroke": "स्ट्रोक",
+                "stroke_color": "स्ट्रोक का रंग",
+                "stroke_style": {
+                    "dots": "बिंदु",
+                    "long_dashes": "लंबे डैश",
+                    "short_dashes": "छोटे डैश",
+                    "solid": "ठोस"
+                },
+                "stroke_style_select": "स्ट्रोक स्टाइल",
+                "stroke_transparent": "पारदर्शी",
+                "stroke_weight": "स्ट्रोक की मोटाई"
+            },
+            "svg": {
+                "path_colour": "रंग {index}"
+            },
+            "swatch": {
+                "more_colours": "और रंग"
+            },
+            "text": {
+                "align": {
+                    "justify": "जस्टिफ़ाई"
+                },
+                "alignment": "अलाइनमेंट",
+                "edit_text": "टेक्स्ट एडिट करें",
+                "font_family": "फ़ॉन्ट फ़ैमिली",
+                "font_family_select": "फ़ॉन्ट फ़ैमिली",
+                "font_size": "फ़ॉन्ट आकार",
+                "italic_unavailable": "इस फ़ॉन्ट में इस वेट पर इटैलिक उपलब्ध नहीं है",
+                "letter_spacing_stepper": "अक्षर स्पेसिंग",
+                "line_height": "लाइन की ऊँचाई",
+                "line_height_stepper": "लाइन की ऊँचाई",
+                "list": "सूची",
+                "list_bulleted": "बुलेट सूची",
+                "list_numbered": "क्रमांकित सूची",
+                "list_style": "सूची स्टाइल",
+                "text_case": "टेक्स्ट केस",
+                "text_color": "टेक्स्ट का रंग",
+                "text_style": "टेक्स्ट स्टाइल",
+                "weight": "वेट"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "नीचे अलाइन करें",
+                    "center_x": "क्षैतिज केंद्र अलाइन करें",
+                    "center_y": "ऊर्ध्वाधर केंद्र अलाइन करें",
+                    "left": "बाएँ अलाइन करें",
+                    "right": "दाएँ अलाइन करें",
+                    "top": "ऊपर अलाइन करें"
+                },
+                "align_to_page": "पेज के अनुसार अलाइन करें",
+                "opacity": "पारदर्शिता",
+                "position": "स्थिति",
+                "position_x": "स्थिति X",
+                "position_y": "स्थिति Y",
+                "rotation": "घुमाव",
+                "scale": "स्केल"
+            },
+            "video": {
+                "adjust": "एडजस्ट करें",
+                "audio": "ऑडियो",
+                "clip_runs": "क्लिप {length} चलती है",
+                "corner_radius": "कोने की गोलाई",
+                "corner_radius_stepper": "कोने की गोलाई",
+                "green_screen": "ग्रीन स्क्रीन",
+                "loop": "डिज़ाइन खत्म होने तक दोहराएँ",
+                "mute": "म्यूट करें",
+                "muted": "म्यूट",
+                "no_audio": "इस वीडियो में ऑडियो नहीं है।",
+                "playback": "प्लेबैक",
+                "replace": "वीडियो बदलें",
+                "speed": "स्पीड",
+                "speed_custom_input": "कस्टम प्लेबैक स्पीड",
+                "speed_presets": "प्लेबैक स्पीड",
+                "speed_range": "{min}× से {max}× के बीच",
+                "tools": "टूल",
+                "unmute": "अनम्यूट करें",
+                "volume": "वॉल्यूम",
+                "volume_level": "वॉल्यूम स्तर"
+            }
+        },
+        "shape_preset": {
+            "arrow": "ऐरो",
+            "arrow_down": "नीचे का ऐरो",
+            "arrow_left": "बाएँ का ऐरो",
+            "arrow_pentagon": "पेंटागन ऐरो",
+            "arrow_right": "दाएँ का ऐरो",
+            "arrow_up": "ऊपर का ऐरो",
+            "chevron": "शेवरॉन",
+            "circle": "वृत्त",
+            "cross": "क्रॉस",
+            "diamond": "डायमंड",
+            "hexagon": "षट्भुज",
+            "hexagon_wide": "चौड़ा षट्भुज",
+            "line": "लाइन",
+            "octagon": "अष्टभुज",
+            "parallelogram": "समांतर चतुर्भुज",
+            "parallelogram_mirrored": "उलटा समांतर चतुर्भुज",
+            "pentagon": "पंचभुज",
+            "square": "वर्ग",
+            "trapezoid": "समलंब चतुर्भुज",
+            "trapezoid_upside_down": "उलटा समलंब चतुर्भुज",
+            "triangle": "त्रिभुज",
+            "triangle_upside_down": "उलटा त्रिभुज"
+        },
+        "shapes_panel": {
+            "basic": "बेसिक",
+            "lines": "लाइनें और ऐरो"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "कीफ़्रेम जोड़ें",
+                "back_to_animations": "एनिमेशन पर लौटें",
+                "basic": "बेसिक",
+                "basic_opacity": "पारदर्शिता",
+                "basic_position": "स्थिति",
+                "basic_rotation": "घुमाव",
+                "basic_scale": "स्केल",
+                "keyframe": "कीफ़्रेम",
+                "pick_property_hint": "कीफ़्रेम के लिए प्रॉपर्टी चुनें। किसी एक पर टैप करने से शीट बंद हो जाती है और उसका पैनल खुलता है, जिसमें कीफ़्रेम प्लेहेड पर लेयर के मौजूदा मान के साथ पहले से रखा होता है।",
+                "presets_need_one": "एनिमेशन प्रीसेट के लिए एक एलिमेंट चाहिए। उन्हें देखने के लिए कोई एक लेयर चुनें।",
+                "title": "एनिमेट करें"
+            },
+            "easing": {
+                "title": "ईज़िंग"
+            },
+            "font_weight": {
+                "title": "फ़ॉन्ट वेट"
+            },
+            "speed": {
+                "title": "स्पीड"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "डिफ़ॉल्ट रंग",
+                "eyedropper": "स्क्रीन से रंग चुनें",
+                "eyedropper_unsupported": "आपका ब्राउज़र आईड्रॉपर को सपोर्ट नहीं करता",
+                "fill_linear": "लीनियर",
+                "fill_radial": "रेडियल",
+                "fill_solid": "ठोस",
+                "fill_type": "फ़िल का प्रकार",
+                "gradients_in_design": "डिज़ाइन में ग्रेडिएंट",
+                "hex": "हेक्स कलर",
+                "in_design": "डिज़ाइन में",
+                "title": "फ़िल का रंग",
+                "use_color": "{color} इस्तेमाल करें",
+                "use_gradient": "{style} ग्रेडिएंट इस्तेमाल करें",
+                "use_transparent": "पारदर्शी"
+            },
+            "crop": {
+                "adjust_shape": "क्रॉप का आकार एडजस्ट करें",
+                "aspect": "आस्पेक्ट",
+                "framing": "फ़्रेमिंग",
+                "framing_hint": "फ़ोटो को दोबारा फ़्रेम करने के लिए खींचें, या क्रॉप विंडो का आकार बदलने के लिए कोना खींचें। ज़ूम के लिए स्क्रोल करें।",
+                "scale": "स्केल"
+            },
+            "filters": {
+                "show_earlier": "पिछले फ़िल्टर दिखाएँ",
+                "show_more": "और फ़िल्टर दिखाएँ",
+                "swatch": "{label} रंग: {color}",
+                "title": "फ़िल्टर"
+            },
+            "font": {
+                "all_fonts": "सभी फ़ॉन्ट",
+                "applying": "फ़ॉन्ट लागू हो रहा है",
+                "back": "टेक्स्ट विकल्पों पर लौटें",
+                "clear_search": "खोज हटाएँ",
+                "clear_search_action": "खोज हटाएँ",
+                "in_this_design": "इस डिज़ाइन में",
+                "no_match": "“{query}” से मेल खाता कोई फ़ॉन्ट नहीं",
+                "no_match_hint": "Twibbonize Google Fonts कैटलॉग से फ़ॉन्ट लेता है, और यह फ़ैमिली उसमें नहीं है। कोई छोटा खोज शब्द आज़माएँ।",
+                "search_label": "फ़ॉन्ट फ़ैमिली खोजें",
+                "search_placeholder": "फ़ॉन्ट खोजें",
+                "title": "फ़ॉन्ट फ़ैमिली",
+                "weight": "फ़ॉन्ट वेट"
+            },
+            "gradient": {
+                "add_stop": "ग्रेडिएंट स्टॉप जोड़ें",
+                "angle": "कोण",
+                "angle_dial": "ग्रेडिएंट कोण, {degrees} डिग्री। बदलने के लिए खींचें",
+                "angle_dial_hint": "ग्रेडिएंट कोण बदलने के लिए खींचें",
+                "angle_input": "ग्रेडिएंट कोण डिग्री में",
+                "centre_unsupported": "ग्रेडिएंट का केंद्र अभी रेंडरर में सपोर्टेड नहीं है",
+                "stop": "ग्रेडिएंट स्टॉप {index}, {percent}% पर, {color}",
+                "stop_hint": "हिलाने के लिए खींचें, हटाने के लिए डबल-क्लिक करें"
+            },
+            "image": {
+                "adjustment": "एडजस्टमेंट",
+                "adjustments": "एडजस्टमेंट",
+                "back_to_edit": "एडिट टैब पर लौटें",
+                "background_removal": "बैकग्राउंड हटाना",
+                "compare": "मूल से तुलना करें",
+                "removing": "हटाया जा रहा है…",
+                "removing_background": "बैकग्राउंड हटाया जा रहा है",
+                "reset_adjustments": "एडजस्टमेंट रीसेट करें",
+                "tools": "टूल"
+            },
+            "keyframe": {
+                "add": "कीफ़्रेम जोड़ें",
+                "add_at_playhead": "प्लेहेड पर {property} कीफ़्रेम जोड़ें",
+                "add_at_playhead_short": "प्लेहेड पर कीफ़्रेम जोड़ें",
+                "add_lane_at_playhead": "प्लेहेड पर {lane} कीफ़्रेम जोड़ें",
+                "add_property": "एनिमेट करने के लिए प्रॉपर्टी जोड़ें",
+                "all_lanes_added": "इस लेयर की हर कीफ़्रेम योग्य प्रॉपर्टी की लेन पहले से मौजूद है",
+                "delete": "यह कीफ़्रेम हटाएँ",
+                "diamond": "{lane} कीफ़्रेम {seconds}s पर",
+                "easing": "ईज़िंग",
+                "easing_caps": "ईज़िंग",
+                "first_no_easing": "पहले कीफ़्रेम में ईज़िंग नहीं होती",
+                "hex": "हेक्स कलर",
+                "layer_blur": "लेयर ब्लर",
+                "letter_spacing": "अक्षर स्पेसिंग",
+                "line_height": "लाइन की ऊँचाई",
+                "opacity": "पारदर्शिता",
+                "opacity_percent": "पारदर्शिता प्रतिशत",
+                "position_x": "स्थिति X",
+                "position_y": "स्थिति Y",
+                "radius_bottom_left": "नीचे बाएँ कोने की गोलाई",
+                "radius_bottom_right": "नीचे दाएँ कोने की गोलाई",
+                "radius_top_left": "ऊपर बाएँ कोने की गोलाई",
+                "radius_top_right": "ऊपर दाएँ कोने की गोलाई",
+                "remove": "कीफ़्रेम हटाएँ",
+                "remove_at_playhead": "प्लेहेड पर {property} कीफ़्रेम हटाएँ",
+                "rotation": "घुमाव",
+                "scale": "स्केल",
+                "shadow_blur": "शैडो ब्लर",
+                "shadow_color": "शैडो का रंग",
+                "shadow_offset_x": "शैडो ऑफ़सेट X",
+                "shadow_offset_y": "शैडो ऑफ़सेट Y",
+                "shadow_spread": "शैडो स्प्रेड",
+                "stroke_color": "स्ट्रोक का रंग",
+                "stroke_weight": "स्ट्रोक की मोटाई"
+            },
+            "layer": {
+                "page_background": "पेज बैकग्राउंड",
+                "tab_animate": "एनिमेट करें",
+                "tabs_label": "लेयर पैनल",
+                "title": "लेयर"
+            },
+            "page_preset": {
+                "group_label": "कैनवास साइज़ प्रीसेट",
+                "landscape": "लैंडस्केप",
+                "portrait": "पोर्ट्रेट",
+                "square": "वर्ग",
+                "story": "स्टोरी",
+                "tile_aria": "{name}, {width} गुणा {height} पिक्सल"
+            },
+            "personalization": {
+                "act_as_placeholder": "प्लेसहोल्डर की तरह काम करे",
+                "allow_adjust_framing": "फ़्रेमिंग एडजस्ट करने दें",
+                "allow_adjust_framing_hint": "समर्थक फ़्रेम के अंदर अपनी फ़ोटो को ज़ूम और मूव कर सकते हैं।",
+                "allow_change_adjustments": "एडजस्टमेंट बदलने दें",
+                "allow_change_adjustments_hint": "समर्थक ब्राइटनेस, कंट्रास्ट और दूसरे एडजस्टमेंट बदल सकते हैं।",
+                "allow_change_effect": "इफ़ेक्ट बदलने दें",
+                "allow_change_effect_hint": "समर्थक इस लेयर के लिए कोई दूसरा इफ़ेक्ट चुन सकते हैं।",
+                "allow_change_filter": "फ़िल्टर बदलने दें",
+                "allow_change_filter_hint": "समर्थक इस लेयर के लिए कोई दूसरा फ़िल्टर चुन सकते हैं।",
+                "allow_edit_text": "टेक्स्ट एडिट करने दें",
+                "allow_edit_text_hint": "समर्थक इस टेक्स्ट में अपने शब्द लिख सकते हैं।",
+                "allow_flip": "फ़्लिप करने दें",
+                "allow_flip_hint": "समर्थक इस लेयर को मिरर कर सकते हैं।",
+                "allow_move": "मूव करने दें",
+                "allow_move_hint": "समर्थक इस लेयर को खींचकर नई जगह रख सकते हैं।",
+                "allow_replace_media": "मीडिया बदलने दें",
+                "allow_replace_media_hint": "समर्थक इस इमेज की जगह अपनी फ़ोटो लगा सकते हैं।",
+                "allow_resize": "रीसाइज़ करने दें",
+                "allow_resize_hint": "समर्थक कोनों और किनारों को खींचकर इस लेयर का आकार बदल सकते हैं।",
+                "allow_rotate": "रोटेट करने दें",
+                "allow_rotate_hint": "समर्थक इस लेयर को किसी भी कोण पर घुमा सकते हैं।",
+                "group_appearance": "दिखावट",
+                "group_arrange": "व्यवस्था",
+                "group_media": "मीडिया",
+                "placeholder_hint": "एक खाली स्लॉट दिखाता है जिस पर टैप करके समर्थक अपनी फ़ोटो जोड़ सकते हैं।",
+                "remove_background": "उनकी फ़ोटो से बैकग्राउंड हटाएँ",
+                "remove_background_hint": "समर्थक को उनकी फ़ोटो से अलग करता है ताकि आपका डिज़ाइन उनके चारों ओर दिखे।",
+                "text_placeholder_hint": "इस टेक्स्ट को नमूने के रूप में दिखाता है, जिसे समर्थक अपने टेक्स्ट से बदलते हैं।"
+            },
+            "shape_effect": {
+                "colour": "इफ़ेक्ट का रंग",
+                "distance": "दूरी",
+                "echo": "इको",
+                "first_color": "पहला रंग",
+                "first_colour": "पहला इफ़ेक्ट रंग",
+                "glitch": "ग्लिच",
+                "glow": "ग्लो",
+                "group_label": "शेप इफ़ेक्ट",
+                "second_color": "दूसरा रंग",
+                "second_colour": "दूसरा इफ़ेक्ट रंग",
+                "section": "इफ़ेक्ट",
+                "shadow": "ड्रॉप शैडो"
+            },
+            "text_effect": {
+                "colour": "इफ़ेक्ट का रंग",
+                "curve": "कर्व",
+                "distance": "दूरी",
+                "echo": "इको",
+                "glow": "ग्लो",
+                "group_label": "टेक्स्ट इफ़ेक्ट",
+                "outline": "आउटलाइन",
+                "section": "इफ़ेक्ट",
+                "shape_group_label": "टेक्स्ट शेप",
+                "splice": "स्प्लाइस",
+                "title": "टेक्स्ट इफ़ेक्ट"
+            }
+        },
+        "templates": {
+            "empty_body": "कोई छोटा या सामान्य शब्द आज़माएँ।",
+            "empty_title": "“{query}” से मेल खाता कोई टेम्पलेट नहीं",
+            "error_title": "टेम्पलेट लोड नहीं हो सके",
+            "none_body": "कोई थीम खोजें, जैसे जन्मदिन या ग्रेजुएशन।",
+            "none_title": "इस डिज़ाइन के लिए अभी कोई टेम्पलेट नहीं",
+            "search_label": "टेम्पलेट खोजें",
+            "search_placeholder": "टेम्पलेट खोजें"
+        },
+        "text_panel": {
+            "add_template": "टेक्स्ट टेम्पलेट जोड़ें: {name}",
+            "add_text_box": "टेक्स्ट बॉक्स जोड़ें",
+            "empty_body": "कोई छोटा या सामान्य शब्द आज़माएँ।",
+            "empty_title": "“{query}” से मेल खाता कोई टेक्स्ट टेम्पलेट नहीं",
+            "error_title": "टेक्स्ट टेम्पलेट लोड नहीं हो सके",
+            "none_body": "इसकी जगह एक सादे टेक्स्ट बॉक्स से शुरू करें।",
+            "none_title": "दिखाने के लिए कोई टेक्स्ट टेम्पलेट नहीं",
+            "search_label": "टेक्स्ट टेम्पलेट खोजें",
+            "search_placeholder": "टेक्स्ट टेम्पलेट खोजें"
+        },
+        "text_preset": {
+            "seed": "अपना टेक्स्ट यहाँ जोड़ें"
+        },
+        "textures": {
+            "apply_texture": "{name} लागू करें",
+            "category": {
+                "fabric": "फ़ैब्रिक",
+                "grain": "ग्रेन",
+                "grunge": "ग्रंज",
+                "paper": "पेपर",
+                "print": "प्रिंट"
+            },
+            "category_group_label": "टेक्सचर श्रेणी",
+            "empty_body": "हम यह लाइब्रेरी बना रहे हैं — जल्द ही फिर देखें।",
+            "empty_title": "टेक्सचर अभी यहाँ नहीं हैं",
+            "most_used": "सबसे ज़्यादा इस्तेमाल किए गए",
+            "search_placeholder": "टेक्सचर खोजें"
+        },
+        "timeline": {
+            "audio": {
+                "add": "ऑडियो जोड़ें",
+                "add_tooltip": "बैकग्राउंड ऑडियो ट्रैक जोड़ें",
+                "bar_aria": "{name}, {start} पर, {duration} के लिए",
+                "decoding": "ऑडियो डिकोड हो रहा है…",
+                "decoding_waveform": "वेवफ़ॉर्म डिकोड हो रहा है…",
+                "default_name": "ऑडियो",
+                "drop_to_add": "ऑडियो जोड़ने के लिए यहाँ छोड़ें",
+                "kind_suffix": "· ऑडियो",
+                "mute": "ट्रैक म्यूट करें",
+                "unmute": "ट्रैक अनम्यूट करें",
+                "volume": "ट्रैक वॉल्यूम",
+                "waveform_error": "इस ट्रैक का वेवफ़ॉर्म लोड नहीं हो सका।"
+            },
+            "keyframe": {
+                "add": "कीफ़्रेम जोड़ें",
+                "add_at_playhead": "प्लेहेड पर कीफ़्रेम जोड़ें",
+                "add_tooltip": "इस लेयर की किसी प्रॉपर्टी का कीफ़्रेम बनाएँ",
+                "diamond_aria": "{lane} कीफ़्रेम {time} पर",
+                "diamond_hint": " · समय बदलने के लिए खींचें, हटाने के लिए राइट-क्लिक करें",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "कोने की गोलाई",
+                    "layer_blur": "लेयर ब्लर",
+                    "line_height": "लाइन की ऊँचाई",
+                    "opacity": "पारदर्शिता",
+                    "position": "स्थिति",
+                    "rotation": "घुमाव",
+                    "scale": "स्केल",
+                    "stroke": "स्ट्रोक"
+                },
+                "remove_lane": "{lane} कीफ़्रेम हटाएँ",
+                "remove_lane_from_layer": "{layer} से {lane} कीफ़्रेम हटाएँ",
+                "segment_easing_aria": "{from} और {to} के बीच {lane} टाइमिंग फ़ंक्शन, अभी {easing}",
+                "segment_easing_title": "टाइमिंग फ़ंक्शन · {easing}",
+                "welded_aria": ", लेयर के किनारे से जुड़ा हुआ",
+                "welded_title": " · लेयर के किनारे से जुड़ा हुआ"
+            },
+            "menu": {
+                "repeat_until_end": "अंत तक दोहराएँ"
+            },
+            "track": {
+                "bar_aria": "{name}, {start} पर, {duration} के लिए",
+                "bar_aria_end_glued": ", अंत लेयर से जुड़ा हुआ",
+                "bar_aria_start_glued": ", शुरुआत लेयर से जुड़ी हुई",
+                "bar_tooltip": "{name} · {start} पर, {duration}ms के लिए · हिलाने के लिए खींचें, आकार बदलने के लिए किनारा खींचें (Alt = बिना स्नैप)",
+                "bar_tooltip_sole": " · इस किनारे को खींचने से लेयर हिलती है",
+                "clip_aria": "{name} क्लिप",
+                "clip_tooltip": "लेयर को समय में हिलाने के लिए खींचें · ट्रिम करने के लिए सिरा खींचें (Alt = बिना स्नैप)",
+                "collapse": "समेटें",
+                "collapse_all": "सभी लेयर समेटें",
+                "collapse_named": "{name} समेटें",
+                "delete_layer": "लेयर हटाएँ",
+                "delete_named": "{name} हटाएँ",
+                "ends_at": "समाप्ति",
+                "expand": "फैलाएँ",
+                "expand_named": "{name} फैलाएँ",
+                "hidden_lane_one": "{count} छिपी लेन",
+                "hidden_lane_other": "{count} छिपी लेन",
+                "hide": "छिपाएँ",
+                "hide_named": "{name} छिपाएँ",
+                "lane_reorder_tooltip": "क्रम बदलने के लिए खींचें — जहाँ एनिमेशन ओवरलैप होते हैं वहाँ सबसे ऊपर की लेन लागू होती है",
+                "layer_animations": "लेयर एनिमेशन",
+                "lock_layer": "लेयर लॉक करें",
+                "lock_named": "{name} लॉक करें",
+                "remove_animation": "एनिमेशन हटाएँ",
+                "remove_animation_aria": "{layer} से {name} एनिमेशन हटाएँ",
+                "reorder_tooltip": "ट्रैक का क्रम बदलने के लिए खींचें — कैनवास पर स्टैकिंग लेयर पैनल में तय होती है",
+                "show": "दिखाएँ",
+                "show_named": "{name} दिखाएँ",
+                "split": "विभाजित करें",
+                "starts_at": "शुरुआत",
+                "trim_end": "अंत ट्रिम करें",
+                "trim_start": "शुरुआत ट्रिम करें",
+                "trim_to": "{time} तक ट्रिम करें",
+                "unlock_layer": "लेयर अनलॉक करें",
+                "unlock_named": "{name} अनलॉक करें"
+            },
+            "transport": {
+                "current_time_field": "मौजूदा समय मिलीसेकंड में",
+                "duration_edge_aria": "पेज की अवधि {seconds} सेकंड",
+                "duration_edge_tooltip": "पेज की अवधि {seconds}s · बदलने के लिए खींचें, सटीक मान के लिए क्लिक करें (Alt = बिना स्नैप)",
+                "duration_max": "अधिकतम {seconds} s",
+                "fit_to_width": "चौड़ाई के अनुसार फ़िट करें",
+                "forward": "आगे",
+                "lengthen_page": "पेज लंबा करें",
+                "loop": "प्लेबैक दोहराएँ",
+                "page_duration": "पेज की अवधि",
+                "page_duration_field": "पेज की अवधि मिलीसेकंड में",
+                "resize_dock": "टाइमलाइन का आकार बदलें",
+                "rewind": "पीछे",
+                "shorten_page": "पेज छोटा करें",
+                "zoom": "टाइमलाइन ज़ूम"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {

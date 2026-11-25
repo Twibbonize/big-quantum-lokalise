@@ -2842,7 +2842,9 @@
             "type": "סוּג:",
             "size": "גודל:",
             "type_image": "JPG, PNG או SVG",
-            "maximum_size": "מקסימום 5 מגה-בייט"
+            "maximum_size": "מקסימום 5 מגה-בייט",
+            "abandoned": "ההעלאה הופסקה כי השכבה שלה הוסרה. נסו שוב כדי לשמור אותה בספרייה שלכם.",
+            "failed": "ההעלאה נכשלה. בדקו את החיבור ונסו שוב."
         },
         "toolbar": {
             "copy": "עותק",
@@ -2871,7 +2873,119 @@
             "border_weight": "משקל גבול",
             "corner_rounding": "עיגול פינה",
             "align": "לישר",
-            "effects": "אפקטים"
+            "effects": "אפקטים",
+            "animate": {
+                "amount": "כמות",
+                "angle": "זווית",
+                "close": "סגירת הגדרות האנימציה",
+                "delete_animation": "מחיקת האנימציה",
+                "distance": "מרחק",
+                "easing": "האצה והאטה",
+                "fade": "דהייה",
+                "settings_aria": "הגדרות אנימציה"
+            },
+            "audio": {
+                "replace": "החלפה",
+                "tools_aria": "כלי רצועת שמע",
+                "trim": "חיתוך",
+                "volume": "עוצמת שמע"
+            },
+            "clip": {
+                "length": "אורך",
+                "split": "פיצול",
+                "trim": "חיתוך"
+            },
+            "entry": {
+                "animate": "הנפשה"
+            },
+            "image": {
+                "adjust": "כוונון",
+                "background_removal_unavailable": "הסרת הרקע עדיין לא זמינה",
+                "remove_background": "הסרת רקע",
+                "remove_background_short": "חיתוך אובייקט",
+                "replace": "החלפה"
+            },
+            "keyframe": {
+                "blur": "טשטוש שכבה",
+                "close": "סגירת מאפייני פריים מפתח",
+                "delete_keyframe": "מחיקת פריים מפתח",
+                "letter_spacing": "ריווח",
+                "line_height": "גובה שורה",
+                "opacity": "שקיפות",
+                "position": "מיקום",
+                "properties_aria": "מאפייני פריים מפתח",
+                "rotation": "סיבוב",
+                "scale": "קנה מידה"
+            },
+            "layer_tools": {
+                "deselect": "ביטול בחירת שכבה",
+                "tools_aria": "כלי שכבה"
+            },
+            "media": {
+                "adjust": "כוונון",
+                "green_screen": "מסך ירוק",
+                "replace": "החלפה",
+                "trim": "חיתוך"
+            },
+            "misc": {
+                "background_fill": "מילוי רקע",
+                "background_fill_short": "מילוי",
+                "configure_qr": "הגדרת קוד QR",
+                "edit_background_image": "עריכת תמונת רקע",
+                "no_background_image": "עדיין אין תמונת רקע",
+                "replace_unavailable": "החלפה (עדיין לא זמין)"
+            },
+            "opacity": {
+                "label": "שקיפות"
+            },
+            "shape": {
+                "corner_radius": "רדיוס פינה",
+                "corner_radius_short": "רדיוס",
+                "fill": "מילוי",
+                "line_color": "צבע קו",
+                "line_style_dots": "נקודות",
+                "line_style_long_dashes": "קווים מקווקווים ארוכים",
+                "line_style_named": "סגנון קו: {style}",
+                "line_style_short_dashes": "קווים מקווקווים קצרים",
+                "line_style_solid": "רציף",
+                "line_weight": "עובי קו",
+                "stroke_color": "צבע קו מתאר",
+                "stroke_color_short": "קו מתאר",
+                "stroke_weight": "עובי קו מתאר",
+                "stroke_weight_short": "עובי"
+            },
+            "speed": {
+                "custom_input": "מהירות ניגון מותאמת אישית",
+                "label": "מהירות",
+                "playback_length": "אורך הניגון",
+                "playback_speed": "מהירות ניגון",
+                "range_hint": "בין {min}× ל-{max}×"
+            },
+            "text": {
+                "decrease_font_size": "הקטנת גודל גופן",
+                "font_family": "משפחת גופנים",
+                "font_family_named": "משפחת גופנים: {value}",
+                "font_size": "גודל גופן",
+                "font_weight": "עובי גופן",
+                "font_weight_named": "עובי גופן: {value}",
+                "increase_font_size": "הגדלת גודל גופן",
+                "keyboard": "מקלדת",
+                "line_height": "גובה שורה",
+                "spacing": "ריווח",
+                "text_color": "צבע טקסט",
+                "weight": "עובי"
+            },
+            "volume": {
+                "clip_hint": "הקליפ הזה בלבד. שמע שהוצב בציר הזמן שומר על העוצמה שלו.",
+                "label": "עוצמת שמע",
+                "level": "רמה",
+                "mute": "השתקה",
+                "muted": "מושתק",
+                "muted_hint": "הרמה נשמרת. בטלו את ההשתקה והקליפ יחזור ל-{percent}%.",
+                "no_audio": "בסרטון הזה אין שמע.",
+                "slider": "רמת עוצמת שמע",
+                "unmute": "ביטול השתקה"
+            }
         },
         "confirmation": {
             "cancel": "לְהַשְׁלִיך",
@@ -2918,7 +3032,1066 @@
             "document_colors": "צבעי מסמכים",
             "default_colors": "צבעי ברירת מחדל"
         },
-        "graphic": "גרפי"
+        "graphic": "גרפי",
+        "animate": {
+            "anchor": {
+                "bottom_center": "למטה במרכז",
+                "bottom_left": "למטה משמאל",
+                "bottom_right": "למטה מימין",
+                "center_left": "במרכז משמאל",
+                "center_right": "במרכז מימין",
+                "top_center": "למעלה במרכז",
+                "top_left": "למעלה משמאל",
+                "top_right": "למעלה מימין"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "סוף",
+                "more_options": "אפשרויות נוספות"
+            },
+            "direction": {
+                "bottom_left": "למטה משמאל",
+                "bottom_right": "למטה מימין",
+                "clockwise": "עם כיוון השעון",
+                "counter_clockwise": "נגד כיוון השעון",
+                "from_the": "מ{place}",
+                "to_the": "ל{place}",
+                "top_left": "למעלה משמאל",
+                "top_right": "למעלה מימין"
+            },
+            "easing": {
+                "accelerate": "האצה",
+                "bounce": "קפיצה",
+                "elastic": "אלסטי",
+                "impulse": "דחף",
+                "natural": "טבעי",
+                "overshoot": "חריגה",
+                "slow_down": "האטה",
+                "smooth": "חלק",
+                "swing": "נדנוד"
+            },
+            "field": {
+                "amount": "כמות",
+                "anchor_group": "נקודת עיגון",
+                "anchor_point": "נקודת עיגון",
+                "angle": "זווית",
+                "apply_effect_to": "החלת האפקט על",
+                "axis": "ציר",
+                "choose_easing": "בחירת האצה והאטה",
+                "distance": "מרחק",
+                "duration": "משך",
+                "edge": "קצה",
+                "fade": "דהייה",
+                "from_noun": "מ{noun}",
+                "horizontal": "אופקי",
+                "noun_blur": "טשטוש",
+                "noun_opacity": "שקיפות",
+                "noun_size": "גודל",
+                "opacity": "שקיפות",
+                "order": "סדר",
+                "position": "מיקום",
+                "rotation": "סיבוב",
+                "rotation_direction": "כיוון סיבוב",
+                "scale": "קנה מידה",
+                "smoothing": "החלקה",
+                "to_noun": "ל{noun}",
+                "vertical": "אנכי"
+            },
+            "mode": {
+                "arrives": "הגעה",
+                "departs": "עזיבה",
+                "in": "כניסה",
+                "out": "יציאה"
+            },
+            "panel": {
+                "animation": "אנימציה",
+                "animations_tab": "אנימציות",
+                "basic": "בסיסי",
+                "changing_note": "בחרו תחליף. הוא יתפוס את המקום והאורך של האנימציה שאתם מחליפים.",
+                "corner_radius": "רדיוס פינה",
+                "easing": "האצה והאטה",
+                "fade": "דהייה",
+                "keyframe_tab": "פריים מפתח",
+                "layer_blur": "טשטוש שכבה",
+                "line_height": "גובה שורה",
+                "more_options": "אפשרויות נוספות",
+                "motion": "תנועה",
+                "needs_one_element": "אנימציות מוכנות דורשות אלמנט אחד. בחרו שכבה אחת כדי לראות אותן.",
+                "paste_animation": "הדבקת אנימציה",
+                "scale": "קנה מידה",
+                "slide": "החלקה",
+                "stroke": "קו מתאר",
+                "text_animation": "אנימציית טקסט"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "הופעה",
+                    "label": "הופעה"
+                },
+                "blur": {
+                    "label": "כניסה מטושטשת"
+                },
+                "blur_scale": {
+                    "caption": "טשטוש וקנה מידה",
+                    "label": "כניסה מטושטשת עם שינוי קנה מידה"
+                },
+                "blur_slide": {
+                    "caption": "טשטוש והחלקה",
+                    "label": "כניסה מטושטשת עם החלקה"
+                },
+                "fade": {
+                    "caption": "דהייה",
+                    "label": "דהייה"
+                },
+                "grow": {
+                    "caption": "קפיצה",
+                    "label": "כניסה בקפיצה"
+                },
+                "mask_center": {
+                    "caption": "מסכה ממרכז",
+                    "label": "חשיפה במסכה מהמרכז"
+                },
+                "mask_reveal": {
+                    "caption": "חשיפה במסכה",
+                    "label": "חשיפה במסכה מקצה"
+                },
+                "mask_slide": {
+                    "caption": "מסכה והחלקה",
+                    "label": "חשיפה במסכה עם החלקה"
+                },
+                "move_scale": {
+                    "caption": "תנועה וקנה מידה",
+                    "label": "כניסה עם תנועה ושינוי קנה מידה"
+                },
+                "rotate_left": {
+                    "label": "סיבוב משמאל"
+                },
+                "rotate_right": {
+                    "label": "סיבוב מימין"
+                },
+                "shrink": {
+                    "caption": "גדול",
+                    "label": "כניסה בגדול"
+                },
+                "slide": {
+                    "caption": "החלקה",
+                    "label": "כניסה בהחלקה"
+                },
+                "slide_from_bottom": {
+                    "label": "החלקה מלמטה"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "למטה משמאל",
+                    "label": "החלקה מלמטה משמאל"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "למטה מימין",
+                    "label": "החלקה מלמטה מימין"
+                },
+                "slide_from_left": {
+                    "label": "החלקה משמאל"
+                },
+                "slide_from_right": {
+                    "label": "החלקה מימין"
+                },
+                "slide_from_top": {
+                    "label": "החלקה מלמעלה"
+                },
+                "slide_from_top_left": {
+                    "caption": "למעלה משמאל",
+                    "label": "החלקה מלמעלה משמאל"
+                },
+                "slide_from_top_right": {
+                    "caption": "למעלה מימין",
+                    "label": "החלקה מלמעלה מימין"
+                },
+                "spin": {
+                    "caption": "ספין",
+                    "label": "כניסה בספין"
+                },
+                "spin_scale": {
+                    "caption": "ספין וקנה מידה",
+                    "label": "כניסה בספין עם שינוי קנה מידה"
+                },
+                "twist": {
+                    "caption": "פיתול",
+                    "label": "כניסה בפיתול"
+                }
+            },
+            "property": {
+                "change_text": "שינוי טקסט",
+                "morph": "מורפינג",
+                "move": "הזזה",
+                "opacity": "שקיפות",
+                "scale": "קנה מידה"
+            },
+            "section": {
+                "fade": "דהייה",
+                "mask": "מסכה",
+                "scale": "קנה מידה",
+                "slide": "החלקה",
+                "transform": "שינוי צורה"
+            },
+            "text": {
+                "backward": "לאחור",
+                "forward": "קדימה",
+                "letters": "אותיות",
+                "summary_overlap": "כל {unit} מתחיל כשהקודם הגיע ל-{percent}%.",
+                "summary_sequential": "כל {unit} מסתיים לפני שהבא מתחיל.",
+                "summary_together": "כל ה{unit} זזים יחד.",
+                "summary_whole": "כל גוש הטקסט מונפש כיחידה אחת.",
+                "words": "מילים"
+            },
+            "type": {
+                "fade_in": "דהייה פנימה",
+                "fade_out": "דהייה החוצה",
+                "line_height": "גובה שורה",
+                "radius": "רדיוס",
+                "resize_in": "שינוי גודל פנימה",
+                "resize_out": "שינוי גודל החוצה",
+                "rotate_in": "סיבוב פנימה",
+                "rotate_out": "סיבוב החוצה",
+                "scale_in": "הגדלה פנימה",
+                "scale_out": "הקטנה החוצה",
+                "slide_in": "החלקה פנימה",
+                "slide_out": "החלקה החוצה",
+                "spacing": "ריווח",
+                "stroke": "קו מתאר"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "הוסיפו את התמונה שלכם כדי להמשיך.",
+                    "gesture": {
+                        "frameDesktop": "גררו כדי למקם מחדש · גללו כדי להתקרב",
+                        "frameMobile": "גררו כדי למקם מחדש, צביטה כדי להתקרב",
+                        "handles": "שנו גודל מהפינות והצדדים, סובבו מלמעלה",
+                        "move": "גררו כדי להזיז",
+                        "moveOrHandles": "גררו כדי להזיז, או השתמשו בידיות",
+                        "resize": "גררו פינה או צד כדי לשנות גודל",
+                        "rotate": "גררו את הידית העליונה כדי לסובב",
+                        "rotateDesktop": "גררו את הסרגל, או השתמשו במקשי החצים",
+                        "rotateMobile": "גררו את הסרגל כדי לסובב"
+                    },
+                    "hint": {
+                        "pickDesktop": "לחצו על אזור מסומן, או בחרו שכבה משמאל",
+                        "pickMobile": "הקישו על אזור מסומן, או בחרו שכבה למטה",
+                        "previewDesktop": "תצוגה מקדימה של העיצוב. לחצו עליו כדי להמשיך לערוך.",
+                        "previewMobile": "תצוגה מקדימה של העיצוב. הקישו עליו כדי להמשיך לערוך."
+                    },
+                    "layer": {
+                        "addPhoto": "הוסיפו את התמונה שלכם",
+                        "text": "טקסט: {text}",
+                        "yourPhoto": "התמונה שלכם",
+                        "yourText": "הטקסט שלכם"
+                    },
+                    "layers": {
+                        "all": "כל השכבות",
+                        "photo": "תמונה",
+                        "sheetDescription": "כל מה שבעיצוב הזה ניתן לשינוי.",
+                        "title": "שכבות"
+                    },
+                    "photoError": "לא הצלחנו להשתמש בתמונה הזו. נסו תמונה אחרת.",
+                    "preview": {
+                        "backToEditing": "חזרה לעריכה"
+                    },
+                    "rotation": {
+                        "aria": "סיבוב",
+                        "value": "one:# מעלה|other:# מעלות"
+                    },
+                    "tools": {
+                        "adjust": "כוונון",
+                        "aria": "כלי שכבה",
+                        "editText": "עריכת טקסט",
+                        "flip": "היפוך",
+                        "locked": "הגודל והמיקום נקבעו על ידי היוצר",
+                        "replace": "החלפה",
+                        "textAria": "כלי טקסט",
+                        "zoomIn": "התקרבות",
+                        "zoomOut": "התרחקות"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} נוסף לציר הזמן.",
+                "too_big": "{name} חורג מ-{limit}.",
+                "too_long": "{name} ארוך מ-{minutes} דקות.",
+                "too_many": "רק {count} קבצים בכל פעם.",
+                "wrong_type": "לא ניתן להוסיף את {name} — רק תמונות, סרטונים וקובצי SVG."
+            }
+        },
+        "catalogue": {
+            "error_body": "בדקו את החיבור ונסו שוב.",
+            "loading_more": "טוען עוד"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "מחיקת הטיוטה",
+                "description_unsaved": "העיצוב הזה לא שמור. חזרה אחורה תמחק אותו לצמיתות — כולל שכבות, סגנונות ואנימציה.",
+                "title": "למחוק את הטיוטה “{title}”?"
+            },
+            "save": {
+                "description": "לאחר השמירה, לא ניתן יהיה לערוך יותר.",
+                "saving": "שומר…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "התאמה למסך"
+        },
+        "graphic_panel": {
+            "add": "הוספת {name}",
+            "add_failed": "לא ניתן היה להוסיף את הגרפיקה הזו. נסו שוב.",
+            "empty_body": "נסו מילה קצרה או כללית יותר, כמו כוכב או לב.",
+            "empty_title": "אין גרפיקות שמתאימות ל-“{query}”",
+            "error_title": "לא ניתן היה לטעון גרפיקות",
+            "none_title": "אין גרפיקות להצגה",
+            "search_label": "חיפוש גרפיקות",
+            "search_placeholder": "חיפוש גרפיקות"
+        },
+        "header": {
+            "redo": "ביצוע חוזר",
+            "saving": "שומר…",
+            "undo": "ביטול",
+            "untitled_design": "עיצוב ללא שם"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "משבצת תמונה"
+            },
+            "menu": {
+                "align_center": "מירכוז",
+                "bring_forward": "הבאה קדימה",
+                "bring_to_front": "הבאה לחזית",
+                "detach_image": "ניתוק תמונה",
+                "flip_horizontal": "היפוך אופקי",
+                "flip_vertical": "היפוך אנכי",
+                "replace_image": "החלפת תמונה",
+                "send_backward": "שליחה אחורה",
+                "send_to_back": "שליחה לרקע",
+                "set_as_background_image": "הגדרה כתמונת רקע",
+                "set_as_background_video": "הגדרה כסרטון רקע",
+                "set_background_as_image_layer": "הגדרת הרקע כשכבת תמונה",
+                "set_background_as_video_layer": "הגדרת הרקע כשכבת סרטון",
+                "sheet_title": "אפשרויות שכבה",
+                "show_layers": "הצגת שכבות"
+            },
+            "pill": {
+                "duplicate": "שכפול שכבה",
+                "more": "פעולות נוספות לשכבה",
+                "remove": "הסרת שכבה",
+                "toolbar": "פעולות שכבה"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "קוד הצימוד מוכן: {code}. מסרו אותו ללקוח ה-AI שלכם.",
+                "connecting": "מכין קוד צימוד.",
+                "failed": "לא ניתן להתחבר. {reason}",
+                "reconnecting": "החיבור נותק. מנסה להתחבר מחדש."
+            },
+            "clipboard_blocked": "הדפדפן חסם את הלוח. {hint}",
+            "connect": "התחברות",
+            "connecting": "מתחבר…",
+            "copied_address_announcement": "כתובת השרת הועתקה",
+            "copied_code_announcement": "קוד הצימוד הועתק",
+            "copy_address_hint": "בחרו את הכתובת והעתיקו אותה ידנית.",
+            "copy_code": "העתקת הקוד",
+            "copy_code_hint": "בחרו את הקוד והעתיקו אותו ידנית.",
+            "copy_server_address": "העתקת כתובת שרת ה-MCP",
+            "disconnect": "התנתקות",
+            "error_fallback": "שירות הצימוד לא הגיב. בדקו את החיבור ונסו שוב.",
+            "guide": {
+                "fresh_code": "אם קוד מפסיק לעבוד, לחצו על התנתקות והתחברו שוב לקבלת קוד חדש.",
+                "how_to_set_up": "איך מגדירים",
+                "step_add_body": "הוסיפו את Twibbonize ללקוח ה-AI שלכם באמצעות הכתובת שלמטה. ב-Claude Code, הריצו",
+                "step_add_title": "הוסיפו את Twibbonize ללקוח ה-AI שלכם",
+                "step_pair_body": "אמרו “התחבר לעורך של Twibbonize” ומסרו לו את הקוד שלמעלה.",
+                "step_pair_title": "בקשו ממנו להתחבר",
+                "where_to_paste": "איפה מדביקים את הקוד הזה?"
+            },
+            "lead": {
+                "code_ready_sentence": "הדביקו אותו ב-Claude ובקשו ממנו להתחבר. הקנבס מצייר טבעת סביב הדף בזמן ש-Claude עובד.",
+                "code_ready_title": "מסרו את הקוד הזה ללקוח ה-AI שלכם",
+                "connecting_sentence": "זה לוקח רגע.",
+                "connecting_title": "מכין קוד צימוד",
+                "disconnected_sentence": "Claude Desktop ו-Claude Code יכולים להוסיף שכבות, לכתוב טקסט, להגדיר אנימציות ולקרוא את מה שיש על הקנבס.",
+                "disconnected_title": "הכניסו לקוח AI לעיצוב הזה",
+                "failed_title": "לא ניתן להתחבר",
+                "reconnecting_sentence": "הקישור ללקוח ה-AI שלכם נותק. מנסה לשחזר אותו.",
+                "reconnecting_title": "מתחבר מחדש",
+                "unavailable_sentence": "בגרסת העורך הזו לא הוגדר חיבור AI, ולכן עדיין אין למה להתחבר.",
+                "unavailable_title": "MCP לא מופעל כאן"
+            },
+            "pairing_code_label": "קוד צימוד: {code}"
+        },
+        "media": {
+            "add_asset": "הוספת {name}",
+            "dismiss_error": "סגירה",
+            "empty_body": "הוסיפו תמונה, סרטון או קובץ שמע למטה והם יישארו כאן עד סוף הסשן.",
+            "empty_narrowed_body": "נקו את החיפוש או בחרו סוג אחר כדי לראות את כל מה שהוספתם.",
+            "empty_narrowed_title": "אין התאמות",
+            "empty_title": "עדיין לא הועלה כלום",
+            "filter": {
+                "audio": "שמע",
+                "images": "תמונות"
+            },
+            "filter_group_label": "סוג מדיה",
+            "make_an_image": "יצירת תמונה",
+            "make_image_unavailable": "יצירת תמונות עדיין לא זמינה",
+            "search_placeholder": "חיפוש מדיה",
+            "upload_button": "העלאת תמונה, סרטון או שמע",
+            "uploads_heading": "העלאות"
+        },
+        "page_bar": {
+            "group_label": "פקדי זום",
+            "zoom_menu": "רמת זום, {percent}%"
+        },
+        "panel": {
+            "loading": "טוען {panel}…"
+        },
+        "photo": {
+            "add_by": "הוספת תמונה מאת {name}",
+            "add_described": "הוספת תמונה: {description}",
+            "credit": "התמונות מסופקות על ידי",
+            "empty_body": "נסו מילה קצרה או כללית יותר, כמו חוף או עיר.",
+            "empty_title": "אין תמונות שמתאימות ל-“{query}”",
+            "error_title": "לא ניתן היה לטעון תמונות",
+            "none_title": "אין תמונות להצגה",
+            "search_label": "חיפוש תמונות",
+            "search_placeholder": "חיפוש תמונות"
+        },
+        "qr": {
+            "add_logo": "הוספת לוגו",
+            "add_to_design": "הוספה לעיצוב",
+            "background_colour_label": "צבע רקע",
+            "code_colour_label": "צבע הקוד",
+            "code_label": "קוד",
+            "link_input_label": "קישור קוד QR",
+            "link_label": "קישור",
+            "logo_fallback_name": "תמונת לוגו",
+            "logo_label": "לוגו",
+            "remove_logo": "הסרת לוגו"
+        },
+        "rail": {
+            "aria_label": "ספריות עיצוב",
+            "graphic": "גרפיקות",
+            "help": "עזרה",
+            "layers": "שכבות",
+            "mcp": "MCP",
+            "media": "מדיה",
+            "photo": "תמונות",
+            "qr_code": "קוד QR",
+            "shapes": "צורות",
+            "templates": "תבניות",
+            "textures": "טקסטורות",
+            "tools": "כלים"
+        },
+        "save": {
+            "failed": "לא ניתן היה לשמור את העיצוב שלכם. נסו שוב."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "בהירות",
+                "compare": "השוואה למקור",
+                "contrast": "ניגודיות",
+                "grayscale": "גווני אפור",
+                "group": {
+                    "basic": "בסיסי",
+                    "refinements": "התאמות עדינות"
+                },
+                "hue_rotate": "סיבוב גוון",
+                "reset": "איפוס התאמות",
+                "saturation": "רוויה",
+                "title": "התאמות"
+            },
+            "color": {
+                "trigger": "צבע"
+            },
+            "common": {
+                "layer_blur": "טשטוש שכבה",
+                "layer_blur_stepper": "טשטוש שכבה"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "חופשי",
+                    "landscape": "לרוחב",
+                    "original": "מקורי",
+                    "portrait": "לאורך",
+                    "square": "ריבוע",
+                    "story": "סטורי",
+                    "widescreen": "מסך רחב"
+                },
+                "shape": {
+                    "circle": "עיגול",
+                    "diamond": "מעוין",
+                    "half_circle": "חצי עיגול",
+                    "oval": "אליפסה",
+                    "parallelogram": "מקבילית",
+                    "rounded": "מעוגל"
+                }
+            },
+            "filter": {
+                "cool": "קר",
+                "duotone": "דו-גוני",
+                "mono": "מונוכרום",
+                "original": "מקורי",
+                "vivid": "חי",
+                "warm": "חם"
+            },
+            "font_weight": {
+                "black": "שחור",
+                "extra_bold": "עבה במיוחד",
+                "extra_light": "דק במיוחד",
+                "medium": "בינוני",
+                "regular": "רגיל",
+                "semibold": "חצי עבה",
+                "thin": "דק"
+            },
+            "frame": {
+                "colour": "צבע מסגרת"
+            },
+            "green_screen": {
+                "choose_colour": "בחירת צבע",
+                "colour": "צבע",
+                "compare": "השוואה למקור",
+                "eyedropper": "בחירת צבע מהקנבס",
+                "key_colour": "צבע מפתח {hex}",
+                "loose": "מקל",
+                "nothing_found": "לא נמצא צבע רקע.",
+                "precise": "מדויק",
+                "preset": {
+                    "bright_blue": "כחול בהיר",
+                    "bright_green": "ירוק בהיר",
+                    "chroma_blue": "כחול כרומה",
+                    "chroma_green": "ירוק כרומה"
+                },
+                "presets": "צבעי רקע נפוצים",
+                "remove": "הסרת מסך ירוק",
+                "title": "מסך ירוק"
+            },
+            "image": {
+                "corner_radius": "רדיוס פינה",
+                "corner_radius_stepper": "רדיוס פינה",
+                "per_corner": "עריכת פינות בנפרד",
+                "per_corner_unavailable": "עריכת פינות בנפרד עדיין לא זמינה"
+            },
+            "keypad": {
+                "value_field": "ערך {label}"
+            },
+            "line": {
+                "colour": "צבע קו",
+                "style": {
+                    "dots": "נקודות",
+                    "long_dashes": "קווים מקווקווים ארוכים",
+                    "short_dashes": "קווים מקווקווים קצרים",
+                    "solid": "רציף"
+                },
+                "style_trigger": "סגנון קו: {style}",
+                "weight": "עובי קו",
+                "weight_trigger": "עובי קו {weight}"
+            },
+            "media": {
+                "heading": "מדיה"
+            },
+            "page": {
+                "size_capped": "מקסימום {max} px — היחס נשמר"
+            },
+            "pages": {
+                "title": "עמודים"
+            },
+            "photo_slot": {
+                "enable": "שימוש כמשבצת תמונה",
+                "key_field": "מפתח (ייחודי)",
+                "key_required": "נדרש מפתח",
+                "key_taken": "המפתח כבר בשימוש במשבצת אחרת",
+                "label_field": "תווית (מוצגת למשתמש הקצה)",
+                "on": "משבצת תמונה",
+                "remove": "הסרת משבצת תמונה"
+            },
+            "qr": {
+                "add_logo": "הוספת לוגו",
+                "background_colour": "צבע רקע",
+                "code": "קוד",
+                "code_colour": "צבע הקוד",
+                "link": "קישור",
+                "link_input": "קישור קוד QR",
+                "logo": "לוגו",
+                "remove_logo": "הסרת לוגו"
+            },
+            "root": {
+                "background_image": "תמונת רקע",
+                "edit_background": "עריכת תמונת רקע",
+                "fill": "מילוי",
+                "fill_gradient": "גרדיאנט",
+                "page_height": "גובה עמוד",
+                "page_width": "רוחב עמוד",
+                "ratio_lock": "נעילת יחס הגובה-רוחב",
+                "ratio_unlock": "ביטול נעילת יחס הגובה-רוחב",
+                "rotate_left": "סיבוב הרקע שמאלה",
+                "rotate_right": "סיבוב הרקע ימינה"
+            },
+            "scalar": {
+                "clip_length": "אורך",
+                "corner_radius": "רדיוס פינה",
+                "font_size": "גודל גופן",
+                "layer_blur": "טשטוש שכבה",
+                "letter_spacing": "ריווח אותיות",
+                "line_height": "גובה שורה",
+                "opacity": "שקיפות",
+                "speed": "מהירות",
+                "stroke_width": "עובי קו מתאר",
+                "volume": "עוצמת שמע"
+            },
+            "shape": {
+                "corner_radius": "רדיוס פינה",
+                "corner_radius_stepper": "רדיוס פינה",
+                "fill": "מילוי",
+                "fill_gradient": "גרדיאנט",
+                "fill_mixed": "מעורב",
+                "fill_transparent": "שקוף",
+                "stroke": "קו מתאר",
+                "stroke_color": "צבע קו מתאר",
+                "stroke_style": {
+                    "dots": "נקודות",
+                    "long_dashes": "קווים מקווקווים ארוכים",
+                    "short_dashes": "קווים מקווקווים קצרים",
+                    "solid": "רציף"
+                },
+                "stroke_style_select": "סגנון קו מתאר",
+                "stroke_transparent": "שקוף",
+                "stroke_weight": "עובי קו מתאר"
+            },
+            "svg": {
+                "path_colour": "צבע {index}"
+            },
+            "swatch": {
+                "more_colours": "עוד צבעים"
+            },
+            "text": {
+                "align": {
+                    "justify": "יישור לשני הצדדים"
+                },
+                "alignment": "יישור",
+                "edit_text": "עריכת טקסט",
+                "font_family": "משפחת גופנים",
+                "font_family_select": "משפחת גופנים",
+                "font_size": "גודל גופן",
+                "italic_unavailable": "לגופן הזה אין גרסה נטויה בעובי הזה",
+                "letter_spacing_stepper": "ריווח אותיות",
+                "line_height": "גובה שורה",
+                "line_height_stepper": "גובה שורה",
+                "list": "רשימה",
+                "list_bulleted": "רשימת תבליטים",
+                "list_numbered": "רשימה ממוספרת",
+                "list_style": "סגנון רשימה",
+                "text_case": "אותיות רישיות\/קטנות",
+                "text_color": "צבע טקסט",
+                "text_style": "סגנון טקסט",
+                "weight": "עובי"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "יישור לתחתית",
+                    "center_x": "יישור מרכזים אופקיים",
+                    "center_y": "יישור מרכזים אנכיים",
+                    "left": "יישור לשמאל",
+                    "right": "יישור לימין",
+                    "top": "יישור לראש"
+                },
+                "align_to_page": "יישור לעמוד",
+                "opacity": "שקיפות",
+                "position": "מיקום",
+                "position_x": "מיקום X",
+                "position_y": "מיקום Y",
+                "rotation": "סיבוב",
+                "scale": "קנה מידה"
+            },
+            "video": {
+                "adjust": "כוונון",
+                "audio": "שמע",
+                "clip_runs": "אורך הקליפ {length}",
+                "corner_radius": "רדיוס פינה",
+                "corner_radius_stepper": "רדיוס פינה",
+                "green_screen": "מסך ירוק",
+                "loop": "חזרה עד סוף העיצוב",
+                "mute": "השתקה",
+                "muted": "מושתק",
+                "no_audio": "בסרטון הזה אין שמע.",
+                "playback": "ניגון",
+                "replace": "החלפת סרטון",
+                "speed": "מהירות",
+                "speed_custom_input": "מהירות ניגון מותאמת אישית",
+                "speed_presets": "מהירות ניגון",
+                "speed_range": "בין {min}× ל-{max}×",
+                "tools": "כלים",
+                "unmute": "ביטול השתקה",
+                "volume": "עוצמת שמע",
+                "volume_level": "רמת עוצמת שמע"
+            }
+        },
+        "shape_preset": {
+            "arrow": "חץ",
+            "arrow_down": "חץ למטה",
+            "arrow_left": "חץ שמאלה",
+            "arrow_pentagon": "חץ מחומש",
+            "arrow_right": "חץ ימינה",
+            "arrow_up": "חץ למעלה",
+            "chevron": "שברון",
+            "circle": "עיגול",
+            "cross": "צלב",
+            "diamond": "מעוין",
+            "hexagon": "משושה",
+            "hexagon_wide": "משושה רחב",
+            "line": "קו",
+            "octagon": "מתומן",
+            "parallelogram": "מקבילית",
+            "parallelogram_mirrored": "מקבילית מהופכת",
+            "pentagon": "מחומש",
+            "square": "ריבוע",
+            "trapezoid": "טרפז",
+            "trapezoid_upside_down": "טרפז הפוך",
+            "triangle": "משולש",
+            "triangle_upside_down": "משולש הפוך"
+        },
+        "shapes_panel": {
+            "basic": "בסיסי",
+            "lines": "קווים וחצים"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "הוספת פריים מפתח",
+                "back_to_animations": "חזרה לאנימציות",
+                "basic": "בסיסי",
+                "basic_opacity": "שקיפות",
+                "basic_position": "מיקום",
+                "basic_rotation": "סיבוב",
+                "basic_scale": "קנה מידה",
+                "keyframe": "פריים מפתח",
+                "pick_property_hint": "בחרו את המאפיין שרוצים להוסיף לו פריים מפתח. הקשה על אחד סוגרת את הגיליון ופותחת את הלוח שלו, כשפריים המפתח כבר ממוקם במחוון הניגון עם הערך הנוכחי של השכבה.",
+                "presets_need_one": "אנימציות מוכנות דורשות אלמנט אחד. בחרו שכבה אחת כדי לראות אותן.",
+                "title": "הנפשה"
+            },
+            "easing": {
+                "title": "האצה והאטה"
+            },
+            "font_weight": {
+                "title": "עובי גופן"
+            },
+            "speed": {
+                "title": "מהירות"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "צבעי ברירת מחדל",
+                "eyedropper": "בחירת צבע מהמסך",
+                "eyedropper_unsupported": "הדפדפן שלכם לא תומך בטפטפת צבע",
+                "fill_linear": "לינארי",
+                "fill_radial": "רדיאלי",
+                "fill_solid": "אחיד",
+                "fill_type": "סוג מילוי",
+                "gradients_in_design": "גרדיאנטים בעיצוב",
+                "hex": "קוד צבע הקסדצימלי",
+                "in_design": "בעיצוב",
+                "title": "צבע מילוי",
+                "use_color": "שימוש ב-{color}",
+                "use_gradient": "שימוש בגרדיאנט {style}",
+                "use_transparent": "שקוף"
+            },
+            "crop": {
+                "adjust_shape": "התאמת צורת החיתוך",
+                "aspect": "יחס",
+                "framing": "מסגור",
+                "framing_hint": "גררו את התמונה כדי למסגר מחדש, או פינה כדי לשנות את גודל חלון החיתוך. גללו כדי להתקרב.",
+                "scale": "קנה מידה"
+            },
+            "filters": {
+                "show_earlier": "הצגת מסננים קודמים",
+                "show_more": "הצגת עוד מסננים",
+                "swatch": "{label} צבע: {color}",
+                "title": "מסננים"
+            },
+            "font": {
+                "all_fonts": "כל הגופנים",
+                "applying": "מחיל גופן",
+                "back": "חזרה לאפשרויות הטקסט",
+                "clear_search": "ניקוי חיפוש",
+                "clear_search_action": "ניקוי חיפוש",
+                "in_this_design": "בעיצוב הזה",
+                "no_match": "אין גופנים שמתאימים ל-“{query}”",
+                "no_match_hint": "Twibbonize שואבת מקטלוג Google Fonts, ומשפחה זו אינה חלק ממנו. נסו מונח חיפוש קצר יותר.",
+                "search_label": "חיפוש משפחות גופנים",
+                "search_placeholder": "חיפוש גופנים",
+                "title": "משפחת גופנים",
+                "weight": "עובי גופן"
+            },
+            "gradient": {
+                "add_stop": "הוספת נקודת גרדיאנט",
+                "angle": "זווית",
+                "angle_dial": "זווית הגרדיאנט, {degrees} מעלות. גררו לשינוי",
+                "angle_dial_hint": "גררו כדי לשנות את זווית הגרדיאנט",
+                "angle_input": "זווית הגרדיאנט במעלות",
+                "centre_unsupported": "מרכז הגרדיאנט עדיין לא נתמך במנוע התצוגה",
+                "stop": "נקודת גרדיאנט {index} ב-{percent}%, {color}",
+                "stop_hint": "גררו כדי להזיז, לחיצה כפולה כדי להסיר"
+            },
+            "image": {
+                "adjustment": "התאמה",
+                "adjustments": "התאמות",
+                "back_to_edit": "חזרה ללשונית העריכה",
+                "background_removal": "הסרת רקע",
+                "compare": "השוואה למקור",
+                "removing": "מסיר…",
+                "removing_background": "מסיר את הרקע",
+                "reset_adjustments": "איפוס התאמות",
+                "tools": "כלים"
+            },
+            "keyframe": {
+                "add": "הוספת פריים מפתח",
+                "add_at_playhead": "הוספת פריים מפתח של {property} במחוון הניגון",
+                "add_at_playhead_short": "הוספת פריים מפתח במחוון הניגון",
+                "add_lane_at_playhead": "הוספת פריים מפתח של {lane} במחוון הניגון",
+                "add_property": "הוספת מאפיין להנפשה",
+                "all_lanes_added": "לכל מאפיין שהשכבה הזו יכולה להוסיף לו פריים מפתח כבר יש מסלול",
+                "delete": "מחיקת פריים המפתח הזה",
+                "diamond": "פריים מפתח של {lane} ב-{seconds} שניות",
+                "easing": "האצה והאטה",
+                "easing_caps": "האצה והאטה",
+                "first_no_easing": "לפריים המפתח הראשון אין האצה והאטה",
+                "hex": "קוד צבע הקסדצימלי",
+                "layer_blur": "טשטוש שכבה",
+                "letter_spacing": "ריווח אותיות",
+                "line_height": "גובה שורה",
+                "opacity": "שקיפות",
+                "opacity_percent": "אחוז שקיפות",
+                "position_x": "מיקום X",
+                "position_y": "מיקום Y",
+                "radius_bottom_left": "רדיוס הפינה השמאלית התחתונה",
+                "radius_bottom_right": "רדיוס הפינה הימנית התחתונה",
+                "radius_top_left": "רדיוס הפינה השמאלית העליונה",
+                "radius_top_right": "רדיוס הפינה הימנית העליונה",
+                "remove": "הסרת פריים מפתח",
+                "remove_at_playhead": "הסרת פריים מפתח של {property} במחוון הניגון",
+                "rotation": "סיבוב",
+                "scale": "קנה מידה",
+                "shadow_blur": "טשטוש צל",
+                "shadow_color": "צבע צל",
+                "shadow_offset_x": "היסט צל X",
+                "shadow_offset_y": "היסט צל Y",
+                "shadow_spread": "פיזור צל",
+                "stroke_color": "צבע קו מתאר",
+                "stroke_weight": "עובי קו מתאר"
+            },
+            "layer": {
+                "page_background": "רקע העמוד",
+                "tab_animate": "הנפשה",
+                "tabs_label": "לוח שכבה",
+                "title": "שכבות"
+            },
+            "page_preset": {
+                "group_label": "גדלי קנבס מוכנים",
+                "landscape": "לרוחב",
+                "portrait": "לאורך",
+                "square": "ריבוע",
+                "story": "סטורי",
+                "tile_aria": "{name}, {width} על {height} פיקסלים"
+            },
+            "personalization": {
+                "act_as_placeholder": "פעולה כמציין מיקום",
+                "allow_adjust_framing": "אפשר להתאים מסגור",
+                "allow_adjust_framing_hint": "תומכים יכולים להתקרב ולהזיז את התמונה שלהם בתוך המסגרת.",
+                "allow_change_adjustments": "אפשר לשנות התאמות",
+                "allow_change_adjustments_hint": "תומכים יכולים לשנות בהירות, ניגודיות והתאמות אחרות.",
+                "allow_change_effect": "אפשר לשנות אפקט",
+                "allow_change_effect_hint": "תומכים יכולים לבחור אפקט אחר לשכבה הזו.",
+                "allow_change_filter": "אפשר לשנות מסנן",
+                "allow_change_filter_hint": "תומכים יכולים לבחור מסנן אחר לשכבה הזו.",
+                "allow_edit_text": "אפשר לערוך טקסט",
+                "allow_edit_text_hint": "תומכים יכולים להקליד את המילים שלהם בטקסט הזה.",
+                "allow_flip": "אפשר להפוך",
+                "allow_flip_hint": "תומכים יכולים להפוך את השכבה הזו כמראה.",
+                "allow_move": "אפשר להזיז",
+                "allow_move_hint": "תומכים יכולים לגרור את השכבה הזו למקום חדש.",
+                "allow_replace_media": "אפשר להחליף מדיה",
+                "allow_replace_media_hint": "תומכים יכולים להחליף את התמונה הזו בתמונה שלהם.",
+                "allow_resize": "אפשר לשנות גודל",
+                "allow_resize_hint": "תומכים יכולים לשנות את גודל השכבה הזו על ידי גרירת הפינות והצדדים שלה.",
+                "allow_rotate": "אפשר לסובב",
+                "allow_rotate_hint": "תומכים יכולים לסובב את השכבה הזו בכל זווית.",
+                "group_appearance": "מראה",
+                "group_arrange": "סידור",
+                "group_media": "מדיה",
+                "placeholder_hint": "מציג משבצת ריקה שתומכים יכולים להקיש עליה כדי להוסיף את התמונה שלהם.",
+                "remove_background": "הסרת הרקע מהתמונה שלהם",
+                "remove_background_hint": "חותך את התומך מהתמונה שלו כדי שהעיצוב שלכם יופיע סביבו.",
+                "text_placeholder_hint": "מציג את הטקסט הזה כדוגמה שתומכים מחליפים בטקסט שלהם."
+            },
+            "shape_effect": {
+                "colour": "צבע האפקט",
+                "distance": "מרחק",
+                "echo": "הד",
+                "first_color": "צבע ראשון",
+                "first_colour": "צבע האפקט הראשון",
+                "glitch": "גליץ'",
+                "glow": "זוהר",
+                "group_label": "אפקט צורה",
+                "second_color": "צבע שני",
+                "second_colour": "צבע האפקט השני",
+                "section": "אפקט",
+                "shadow": "צל"
+            },
+            "text_effect": {
+                "colour": "צבע האפקט",
+                "curve": "עיקול",
+                "distance": "מרחק",
+                "echo": "הד",
+                "glow": "זוהר",
+                "group_label": "אפקט טקסט",
+                "outline": "קו חיצוני",
+                "section": "אפקט",
+                "shape_group_label": "צורת טקסט",
+                "splice": "שחזור",
+                "title": "אפקטי טקסט"
+            }
+        },
+        "templates": {
+            "empty_body": "נסו מילה קצרה או כללית יותר.",
+            "empty_title": "אין תבניות שמתאימות ל-“{query}”",
+            "error_title": "לא ניתן היה לטעון תבניות",
+            "none_body": "חפשו נושא, כמו יום הולדת או סיום לימודים.",
+            "none_title": "עדיין אין תבניות לעיצוב הזה",
+            "search_label": "חיפוש תבניות",
+            "search_placeholder": "חיפוש תבניות"
+        },
+        "text_panel": {
+            "add_template": "הוספת תבנית טקסט: {name}",
+            "add_text_box": "הוספת תיבת טקסט",
+            "empty_body": "נסו מילה קצרה או כללית יותר.",
+            "empty_title": "אין תבניות טקסט שמתאימות ל-“{query}”",
+            "error_title": "לא ניתן היה לטעון תבניות טקסט",
+            "none_body": "התחילו במקום זה בתיבת טקסט פשוטה.",
+            "none_title": "אין תבניות טקסט להצגה",
+            "search_label": "חיפוש תבניות טקסט",
+            "search_placeholder": "חיפוש תבניות טקסט"
+        },
+        "text_preset": {
+            "seed": "הוסיפו כאן את הטקסט שלכם"
+        },
+        "textures": {
+            "apply_texture": "החלת {name}",
+            "category": {
+                "fabric": "בד",
+                "grain": "גרגר",
+                "grunge": "גראנג'",
+                "paper": "נייר",
+                "print": "הדפס"
+            },
+            "category_group_label": "קטגוריית טקסטורה",
+            "empty_body": "אנחנו בונים את הספרייה הזו — חזרו בקרוב.",
+            "empty_title": "הטקסטורות עדיין לא כאן",
+            "most_used": "הנפוצות ביותר",
+            "search_placeholder": "חיפוש טקסטורות"
+        },
+        "timeline": {
+            "audio": {
+                "add": "הוספת שמע",
+                "add_tooltip": "הוספת רצועת שמע לרקע",
+                "bar_aria": "{name} ב-{start} למשך {duration}",
+                "decoding": "מפענח שמע…",
+                "decoding_waveform": "מפענח צורת גל…",
+                "default_name": "שמע",
+                "drop_to_add": "שחררו כדי להוסיף שמע",
+                "kind_suffix": "· שמע",
+                "mute": "השתקת הרצועה",
+                "unmute": "ביטול השתקת הרצועה",
+                "volume": "עוצמת הרצועה",
+                "waveform_error": "לא ניתן היה לטעון את צורת הגל של הרצועה הזו."
+            },
+            "keyframe": {
+                "add": "הוספת פריים מפתח",
+                "add_at_playhead": "הוספת פריים מפתח במחוון הניגון",
+                "add_tooltip": "הוספת פריים מפתח למאפיין של השכבה הזו",
+                "diamond_aria": "פריים מפתח של {lane} ב-{time}",
+                "diamond_hint": " · גררו לשינוי התזמון, לחצו קליק ימני למחיקה",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "רדיוס פינה",
+                    "layer_blur": "טשטוש שכבה",
+                    "line_height": "גובה שורה",
+                    "opacity": "שקיפות",
+                    "position": "מיקום",
+                    "rotation": "סיבוב",
+                    "scale": "קנה מידה",
+                    "stroke": "קו מתאר"
+                },
+                "remove_lane": "הסרת פריימי המפתח של {lane}",
+                "remove_lane_from_layer": "הסרת פריימי המפתח של {lane} מ-{layer}",
+                "segment_easing_aria": "פונקציית תזמון של {lane} בין {from} ל-{to}, כרגע {easing}",
+                "segment_easing_title": "פונקציית תזמון · {easing}",
+                "welded_aria": ", מוצמד לקצה השכבה",
+                "welded_title": " · מוצמד לקצה השכבה"
+            },
+            "menu": {
+                "repeat_until_end": "חזרה עד הסוף"
+            },
+            "track": {
+                "bar_aria": "{name} ב-{start} למשך {duration}",
+                "bar_aria_end_glued": ", הסוף מוצמד לשכבה",
+                "bar_aria_start_glued": ", ההתחלה מוצמדת לשכבה",
+                "bar_tooltip": "{name} · {start} למשך {duration}ms · גררו להזזה, גררו קצה לשינוי גודל (Alt = ללא הצמדה)",
+                "bar_tooltip_sole": " · גרירת הקצה הזה מזיזה את השכבה",
+                "clip_aria": "קליפ {name}",
+                "clip_tooltip": "גררו להזזת השכבה בזמן · גררו קצה לחיתוך (Alt = ללא הצמדה)",
+                "collapse": "כיווץ",
+                "collapse_all": "כיווץ כל השכבות",
+                "collapse_named": "כיווץ {name}",
+                "delete_layer": "מחיקת שכבה",
+                "delete_named": "מחיקת {name}",
+                "ends_at": "מסתיים ב",
+                "expand": "הרחבה",
+                "expand_named": "הרחבת {name}",
+                "hidden_lane_one": "{count} מסלול מוסתר",
+                "hidden_lane_other": "{count} מסלולים מוסתרים",
+                "hide": "הסתרה",
+                "hide_named": "הסתרת {name}",
+                "lane_reorder_tooltip": "גררו לשינוי סדר — המסלול העליון קובע במקומות שבהם אנימציות חופפות",
+                "layer_animations": "אנימציות שכבה",
+                "lock_layer": "נעילת שכבה",
+                "lock_named": "נעילת {name}",
+                "remove_animation": "הסרת אנימציה",
+                "remove_animation_aria": "הסרת האנימציה {name} מ-{layer}",
+                "reorder_tooltip": "גררו לשינוי סדר המסלולים — סדר השכבות בקנבס נקבע בלוח השכבות",
+                "show": "הצגה",
+                "show_named": "הצגת {name}",
+                "split": "פיצול",
+                "starts_at": "מתחיל ב",
+                "trim_end": "חיתוך הסוף",
+                "trim_start": "חיתוך ההתחלה",
+                "trim_to": "חיתוך עד {time}",
+                "unlock_layer": "ביטול נעילת שכבה",
+                "unlock_named": "ביטול נעילת {name}"
+            },
+            "transport": {
+                "current_time_field": "הזמן הנוכחי באלפיות שנייה",
+                "duration_edge_aria": "משך העמוד {seconds} שניות",
+                "duration_edge_tooltip": "משך העמוד {seconds}s · גררו לשינוי, לחצו לערך המדויק (Alt = ללא הצמדה)",
+                "duration_max": "מקסימום {seconds} s",
+                "fit_to_width": "התאמה לרוחב",
+                "forward": "קדימה",
+                "lengthen_page": "הארכת העמוד",
+                "loop": "ניגון בלולאה",
+                "page_duration": "משך העמוד",
+                "page_duration_field": "משך העמוד באלפיות שנייה",
+                "resize_dock": "שינוי גודל ציר הזמן",
+                "rewind": "אחורה",
+                "shorten_page": "קיצור העמוד",
+                "zoom": "זום ציר הזמן"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {

@@ -2842,7 +2842,9 @@
             "type": "Type:",
             "size": "Størrelse:",
             "type_image": "JPG, PNG eller SVG",
-            "maximum_size": "Maksimalt 5 MB"
+            "maximum_size": "Maksimalt 5 MB",
+            "abandoned": "Opplastingen ble stoppet fordi laget ble fjernet. Prøv igjen for å beholde den i biblioteket ditt.",
+            "failed": "Opplastingen mislyktes. Sjekk tilkoblingen din og prøv igjen."
         },
         "toolbar": {
             "copy": "Kopi",
@@ -2871,7 +2873,119 @@
             "border_weight": "Grensevekt",
             "corner_rounding": "Hjørneavrunding",
             "align": "Juster",
-            "effects": "Effekter"
+            "effects": "Effekter",
+            "animate": {
+                "amount": "Mengde",
+                "angle": "Vinkel",
+                "close": "Lukk animasjonsinnstillinger",
+                "delete_animation": "Slett animasjon",
+                "distance": "Avstand",
+                "easing": "Easing",
+                "fade": "Tone",
+                "settings_aria": "Animasjonsinnstillinger"
+            },
+            "audio": {
+                "replace": "Erstatt",
+                "tools_aria": "Verktøy for lydspor",
+                "trim": "Trim",
+                "volume": "Volum"
+            },
+            "clip": {
+                "length": "Lengde",
+                "split": "Del",
+                "trim": "Trim"
+            },
+            "entry": {
+                "animate": "Animer"
+            },
+            "image": {
+                "adjust": "Juster",
+                "background_removal_unavailable": "Fjerning av bakgrunn er ikke tilgjengelig ennå",
+                "remove_background": "Fjern bakgrunn",
+                "remove_background_short": "Frilegg",
+                "replace": "Erstatt"
+            },
+            "keyframe": {
+                "blur": "Laguskarphet",
+                "close": "Lukk keyframe-egenskaper",
+                "delete_keyframe": "Slett keyframe",
+                "letter_spacing": "Avstand",
+                "line_height": "Linjehøyde",
+                "opacity": "Opasitet",
+                "position": "Posisjon",
+                "properties_aria": "Keyframe-egenskaper",
+                "rotation": "Rotasjon",
+                "scale": "Skala"
+            },
+            "layer_tools": {
+                "deselect": "Fjern valg av lag",
+                "tools_aria": "Lagverktøy"
+            },
+            "media": {
+                "adjust": "Juster",
+                "green_screen": "Greenscreen",
+                "replace": "Erstatt",
+                "trim": "Trim"
+            },
+            "misc": {
+                "background_fill": "Bakgrunnsfyll",
+                "background_fill_short": "Fyll",
+                "configure_qr": "Konfigurer QR-kode",
+                "edit_background_image": "Rediger bakgrunnsbilde",
+                "no_background_image": "Ingen bakgrunnsbilde ennå",
+                "replace_unavailable": "Erstatt (ikke tilgjengelig ennå)"
+            },
+            "opacity": {
+                "label": "Opasitet"
+            },
+            "shape": {
+                "corner_radius": "Hjørneradius",
+                "corner_radius_short": "Radius",
+                "fill": "Fyll",
+                "line_color": "Linjefarge",
+                "line_style_dots": "Prikker",
+                "line_style_long_dashes": "Lange streker",
+                "line_style_named": "Linjestil: {style}",
+                "line_style_short_dashes": "Korte streker",
+                "line_style_solid": "Hel",
+                "line_weight": "Linjetykkelse",
+                "stroke_color": "Strekfarge",
+                "stroke_color_short": "Strek",
+                "stroke_weight": "Strektykkelse",
+                "stroke_weight_short": "Tykkelse"
+            },
+            "speed": {
+                "custom_input": "Egendefinert avspillingshastighet",
+                "label": "Hastighet",
+                "playback_length": "Avspillingslengde",
+                "playback_speed": "Avspillingshastighet",
+                "range_hint": "Mellom {min}× og {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Reduser skriftstørrelsen",
+                "font_family": "Skrifttype",
+                "font_family_named": "Skrifttype: {value}",
+                "font_size": "Skriftstørrelse",
+                "font_weight": "Skriftvekt",
+                "font_weight_named": "Skriftvekt: {value}",
+                "increase_font_size": "Øk skriftstørrelsen",
+                "keyboard": "Tastatur",
+                "line_height": "Linjehøyde",
+                "spacing": "Avstand",
+                "text_color": "Tekstfarge",
+                "weight": "Vekt"
+            },
+            "volume": {
+                "clip_hint": "Bare dette klippet. Lyd på tidslinjen beholder sitt eget nivå.",
+                "label": "Volum",
+                "level": "Nivå",
+                "mute": "Slå av lyden",
+                "muted": "Lyden er av",
+                "muted_hint": "Nivået beholdes. Slå på lyden igjen, så går klippet tilbake til {percent}%.",
+                "no_audio": "Denne videoen har ingen lyd.",
+                "slider": "Volumnivå",
+                "unmute": "Slå på lyden"
+            }
         },
         "confirmation": {
             "cancel": "Kasser",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Dokumentfarger",
             "default_colors": "Standardfarger"
         },
-        "graphic": "Grafisk"
+        "graphic": "Grafisk",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Nederst i midten",
+                "bottom_left": "Nederst til venstre",
+                "bottom_right": "Nederst til høyre",
+                "center_left": "Midten til venstre",
+                "center_right": "Midten til høyre",
+                "top_center": "Øverst i midten",
+                "top_left": "Øverst til venstre",
+                "top_right": "Øverst til høyre"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Slutt",
+                "more_options": "Flere alternativer"
+            },
+            "direction": {
+                "bottom_left": "Nederst til venstre",
+                "bottom_right": "Nederst til høyre",
+                "clockwise": "Med klokken",
+                "counter_clockwise": "Mot klokken",
+                "from_the": "Fra {place}",
+                "to_the": "Til {place}",
+                "top_left": "Øverst til venstre",
+                "top_right": "Øverst til høyre"
+            },
+            "easing": {
+                "accelerate": "Akselerer",
+                "bounce": "Sprett",
+                "elastic": "Elastisk",
+                "impulse": "Impuls",
+                "natural": "Naturlig",
+                "overshoot": "Overskyting",
+                "slow_down": "Sakk ned",
+                "smooth": "Myk",
+                "swing": "Sving"
+            },
+            "field": {
+                "amount": "Mengde",
+                "anchor_group": "Ankerpunkt",
+                "anchor_point": "Ankerpunkt",
+                "angle": "Vinkel",
+                "apply_effect_to": "Bruk effekt på",
+                "axis": "Akse",
+                "choose_easing": "Velg easing",
+                "distance": "Avstand",
+                "duration": "Varighet",
+                "edge": "Kant",
+                "fade": "Tone",
+                "from_noun": "Fra {noun}",
+                "horizontal": "Horisontal",
+                "noun_blur": "uskarphet",
+                "noun_opacity": "opasitet",
+                "noun_size": "størrelse",
+                "opacity": "Opasitet",
+                "order": "Rekkefølge",
+                "position": "Posisjon",
+                "rotation": "Rotasjon",
+                "rotation_direction": "Rotasjonsretning",
+                "scale": "Skala",
+                "smoothing": "Utjevning",
+                "to_noun": "Til {noun}",
+                "vertical": "Vertikal"
+            },
+            "mode": {
+                "arrives": "Kommer inn",
+                "departs": "Går ut",
+                "in": "Inn",
+                "out": "Ut"
+            },
+            "panel": {
+                "animation": "Animasjon",
+                "animations_tab": "Animasjoner",
+                "basic": "Grunnleggende",
+                "changing_note": "Velg en erstatning. Den overtar plassen og lengden til animasjonen du bytter ut.",
+                "corner_radius": "Hjørneradius",
+                "easing": "Easing",
+                "fade": "Tone",
+                "keyframe_tab": "Keyframe",
+                "layer_blur": "Laguskarphet",
+                "line_height": "Linjehøyde",
+                "more_options": "Flere alternativer",
+                "motion": "Bevegelse",
+                "needs_one_element": "Animasjonsforhåndsinnstillinger krever ett element. Velg ett enkelt lag for å se dem.",
+                "paste_animation": "Lim inn animasjon",
+                "scale": "Skala",
+                "slide": "Gli",
+                "stroke": "Strek",
+                "text_animation": "Tekstanimasjon"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Vis",
+                    "label": "Vis"
+                },
+                "blur": {
+                    "label": "Tone inn med uskarphet"
+                },
+                "blur_scale": {
+                    "caption": "Uskarphet og skala",
+                    "label": "Tone inn med uskarphet og skala"
+                },
+                "blur_slide": {
+                    "caption": "Uskarphet og gli",
+                    "label": "Tone inn med uskarphet og gli"
+                },
+                "fade": {
+                    "caption": "Tone",
+                    "label": "Tone"
+                },
+                "grow": {
+                    "caption": "Pop",
+                    "label": "Pop inn"
+                },
+                "mask_center": {
+                    "caption": "Maske fra midten",
+                    "label": "Maskeavsløring fra midten"
+                },
+                "mask_reveal": {
+                    "caption": "Maskeavsløring",
+                    "label": "Maskeavsløring fra en kant"
+                },
+                "mask_slide": {
+                    "caption": "Maske og gli",
+                    "label": "Maskeavsløring med gli"
+                },
+                "move_scale": {
+                    "caption": "Flytt og skaler",
+                    "label": "Flytt og skaler inn"
+                },
+                "rotate_left": {
+                    "label": "Roter fra venstre"
+                },
+                "rotate_right": {
+                    "label": "Roter fra høyre"
+                },
+                "shrink": {
+                    "caption": "Stor",
+                    "label": "Stor inn"
+                },
+                "slide": {
+                    "caption": "Gli",
+                    "label": "Gli inn"
+                },
+                "slide_from_bottom": {
+                    "label": "Gli fra bunnen"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Nederst til venstre",
+                    "label": "Gli fra nederst til venstre"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Nederst til høyre",
+                    "label": "Gli fra nederst til høyre"
+                },
+                "slide_from_left": {
+                    "label": "Gli fra venstre"
+                },
+                "slide_from_right": {
+                    "label": "Gli fra høyre"
+                },
+                "slide_from_top": {
+                    "label": "Gli fra toppen"
+                },
+                "slide_from_top_left": {
+                    "caption": "Øverst til venstre",
+                    "label": "Gli fra øverst til venstre"
+                },
+                "slide_from_top_right": {
+                    "caption": "Øverst til høyre",
+                    "label": "Gli fra øverst til høyre"
+                },
+                "spin": {
+                    "caption": "Snurr",
+                    "label": "Snurr inn"
+                },
+                "spin_scale": {
+                    "caption": "Snurr og skaler",
+                    "label": "Snurr og skaler inn"
+                },
+                "twist": {
+                    "caption": "Vri",
+                    "label": "Vri inn"
+                }
+            },
+            "property": {
+                "change_text": "Endre tekst",
+                "morph": "Morf",
+                "move": "Flytt",
+                "opacity": "Opasitet",
+                "scale": "Skala"
+            },
+            "section": {
+                "fade": "Tone",
+                "mask": "Maske",
+                "scale": "Skala",
+                "slide": "Gli",
+                "transform": "Transformer"
+            },
+            "text": {
+                "backward": "Bakover",
+                "forward": "Forover",
+                "letters": "Bokstaver",
+                "summary_overlap": "Hver {unit} starter når den forrige er {percent}% ferdig.",
+                "summary_sequential": "Hver {unit} er ferdig før den neste starter.",
+                "summary_together": "Hver {unit} beveger seg samtidig.",
+                "summary_whole": "Hele tekstblokken animeres som én enhet.",
+                "words": "Ord"
+            },
+            "type": {
+                "fade_in": "Tone inn",
+                "fade_out": "Tone ut",
+                "line_height": "Linjehøyde",
+                "radius": "Radius",
+                "resize_in": "Størrelse inn",
+                "resize_out": "Størrelse ut",
+                "rotate_in": "Roter inn",
+                "rotate_out": "Roter ut",
+                "scale_in": "Skaler inn",
+                "scale_out": "Skaler ut",
+                "slide_in": "Gli inn",
+                "slide_out": "Gli ut",
+                "spacing": "Avstand",
+                "stroke": "Strek"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Legg til bildet ditt for å fortsette.",
+                    "gesture": {
+                        "frameDesktop": "Dra for å flytte · Rull for å zoome",
+                        "frameMobile": "Dra for å flytte, knip for å zoome",
+                        "handles": "Endre størrelse fra hjørner og sider, roter fra toppen",
+                        "move": "Dra for å flytte",
+                        "moveOrHandles": "Dra for å flytte, eller bruk håndtakene",
+                        "resize": "Dra i et hjørne eller en side for å endre størrelse",
+                        "rotate": "Dra i det øverste håndtaket for å rotere",
+                        "rotateDesktop": "Dra i linjalen, eller bruk piltastene",
+                        "rotateMobile": "Dra i linjalen for å rotere"
+                    },
+                    "hint": {
+                        "pickDesktop": "Klikk på et markert område, eller velg et lag til venstre",
+                        "pickMobile": "Trykk på et markert område, eller velg et lag nedenfor",
+                        "previewDesktop": "Viser en forhåndsvisning av designet ditt. Klikk på det for å fortsette å redigere.",
+                        "previewMobile": "Viser en forhåndsvisning av designet ditt. Trykk på det for å fortsette å redigere."
+                    },
+                    "layer": {
+                        "addPhoto": "Legg til bildet ditt",
+                        "text": "Tekst: {text}",
+                        "yourPhoto": "Bildet ditt",
+                        "yourText": "Teksten din"
+                    },
+                    "layers": {
+                        "all": "Alle lag",
+                        "photo": "Bilde",
+                        "sheetDescription": "Alt i dette designet som du kan endre.",
+                        "title": "Lag"
+                    },
+                    "photoError": "Vi kunne ikke bruke det bildet. Prøv et annet bilde.",
+                    "preview": {
+                        "backToEditing": "Tilbake til redigering"
+                    },
+                    "rotation": {
+                        "aria": "Rotasjon",
+                        "value": "one:# grad|other:# grader"
+                    },
+                    "tools": {
+                        "adjust": "Juster",
+                        "aria": "Lagverktøy",
+                        "editText": "Rediger tekst",
+                        "flip": "Vend",
+                        "locked": "Størrelse og posisjon er bestemt av skaperen",
+                        "replace": "Erstatt",
+                        "textAria": "Tekstverktøy",
+                        "zoomIn": "Zoom inn",
+                        "zoomOut": "Zoom ut"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} er lagt til på tidslinjen.",
+                "too_big": "{name} er større enn {limit}.",
+                "too_long": "{name} er lengre enn {minutes} minutter.",
+                "too_many": "Bare {count} filer om gangen.",
+                "wrong_type": "{name} kan ikke legges til – bare bilder, videoer og SVG-filer."
+            }
+        },
+        "catalogue": {
+            "error_body": "Sjekk tilkoblingen din og prøv igjen.",
+            "loading_more": "Laster inn flere"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Forkast utkast",
+                "description_unsaved": "Dette designet er ikke lagret. Hvis du går tilbake, slettes det for godt – inkludert lag, stiler og animasjon.",
+                "title": "Forkaste utkastet «{title}»?"
+            },
+            "save": {
+                "description": "Når det er lagret, kan det ikke lenger redigeres.",
+                "saving": "Lagrer…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Tilpass til skjermen"
+        },
+        "graphic_panel": {
+            "add": "Legg til {name}",
+            "add_failed": "Denne grafikken kunne ikke legges til. Prøv igjen.",
+            "empty_body": "Prøv et kortere eller mer generelt ord, som stjerne eller hjerte.",
+            "empty_title": "Ingen grafikk samsvarer med «{query}»",
+            "error_title": "Grafikk kunne ikke lastes inn",
+            "none_title": "Ingen grafikk å vise",
+            "search_label": "Søk etter grafikk",
+            "search_placeholder": "Søk etter grafikk"
+        },
+        "header": {
+            "redo": "Gjør om",
+            "saving": "Lagrer…",
+            "undo": "Angre",
+            "untitled_design": "Design uten navn"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Bildeplass"
+            },
+            "menu": {
+                "align_center": "Sentrer",
+                "bring_forward": "Flytt fremover",
+                "bring_to_front": "Legg øverst",
+                "detach_image": "Frigjør bilde",
+                "flip_horizontal": "Vend horisontalt",
+                "flip_vertical": "Vend vertikalt",
+                "replace_image": "Erstatt bilde",
+                "send_backward": "Flytt bakover",
+                "send_to_back": "Legg nederst",
+                "set_as_background_image": "Bruk som bakgrunnsbilde",
+                "set_as_background_video": "Bruk som bakgrunnsvideo",
+                "set_background_as_image_layer": "Bruk bakgrunnen som bildelag",
+                "set_background_as_video_layer": "Bruk bakgrunnen som videolag",
+                "sheet_title": "Lagalternativer",
+                "show_layers": "Vis lag"
+            },
+            "pill": {
+                "duplicate": "Dupliser lag",
+                "more": "Flere laghandlinger",
+                "remove": "Fjern lag",
+                "toolbar": "Laghandlinger"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Paringskode klar: {code}. Gi den til AI-klienten din.",
+                "connecting": "Lager en paringskode.",
+                "failed": "Kunne ikke koble til. {reason}",
+                "reconnecting": "Tilkoblingen ble brutt. Prøver å koble til igjen."
+            },
+            "clipboard_blocked": "Nettleseren din blokkerte utklippstavlen. {hint}",
+            "connect": "Koble til",
+            "connecting": "Kobler til…",
+            "copied_address_announcement": "Serveradressen er kopiert",
+            "copied_code_announcement": "Paringskoden er kopiert",
+            "copy_address_hint": "Marker adressen og kopier den manuelt.",
+            "copy_code": "Kopier kode",
+            "copy_code_hint": "Marker koden og kopier den manuelt.",
+            "copy_server_address": "Kopier MCP-serveradressen",
+            "disconnect": "Koble fra",
+            "error_fallback": "Paringstjenesten svarte ikke. Sjekk tilkoblingen din og prøv igjen.",
+            "guide": {
+                "fresh_code": "Hvis en kode slutter å fungere, trykker du på Koble fra og kobler til igjen for å få en ny.",
+                "how_to_set_up": "Slik setter du det opp",
+                "step_add_body": "Legg til Twibbonize i AI-klienten din med adressen nedenfor. I Claude Code kjører du",
+                "step_add_title": "Legg til Twibbonize i AI-klienten din",
+                "step_pair_body": "Si «par med Twibbonize-editoren» og gi den koden ovenfor.",
+                "step_pair_title": "Be den om å pare",
+                "where_to_paste": "Hvor limer jeg inn denne koden?"
+            },
+            "lead": {
+                "code_ready_sentence": "Lim den inn i Claude og be den om å pare. Lerretet tegner en ramme rundt siden mens Claude jobber.",
+                "code_ready_title": "Gi denne koden til AI-klienten din",
+                "connecting_sentence": "Dette tar et øyeblikk.",
+                "connecting_title": "Lager en paringskode",
+                "disconnected_sentence": "Claude Desktop og Claude Code kan legge til lag, skrive tekst, sette animasjoner og lese hva som er på lerretet.",
+                "disconnected_title": "Ta med en AI-klient inn i dette designet",
+                "failed_title": "Kunne ikke koble til",
+                "reconnecting_sentence": "Koblingen til AI-klienten din ble brutt. Prøver å gjenopprette den.",
+                "reconnecting_title": "Kobler til igjen",
+                "unavailable_sentence": "Denne versjonen av editoren har ingen AI-tilkobling satt opp, så det er ingenting å koble til ennå.",
+                "unavailable_title": "MCP er ikke slått på her"
+            },
+            "pairing_code_label": "Paringskode: {code}"
+        },
+        "media": {
+            "add_asset": "Legg til {name}",
+            "dismiss_error": "Lukk",
+            "empty_body": "Legg til en bilde-, video- eller lydfil nedenfor, så blir den her resten av denne økten.",
+            "empty_narrowed_body": "Fjern søket eller velg en annen type for å se alt du har lagt til.",
+            "empty_narrowed_title": "Ingen treff",
+            "empty_title": "Ingenting lastet opp ennå",
+            "filter": {
+                "audio": "Lyd",
+                "images": "Bilder"
+            },
+            "filter_group_label": "Medietype",
+            "make_an_image": "Lag et bilde",
+            "make_image_unavailable": "Bildegenerering er ikke tilgjengelig ennå",
+            "search_placeholder": "Søk etter medier",
+            "upload_button": "Last opp bilde, video eller lyd",
+            "uploads_heading": "Opplastinger"
+        },
+        "page_bar": {
+            "group_label": "Zoomkontroller",
+            "zoom_menu": "Zoomnivå, {percent}%"
+        },
+        "panel": {
+            "loading": "Laster inn {panel}…"
+        },
+        "photo": {
+            "add_by": "Legg til bilde av {name}",
+            "add_described": "Legg til bilde: {description}",
+            "credit": "Bilder levert av",
+            "empty_body": "Prøv et kortere eller mer generelt ord, som strand eller by.",
+            "empty_title": "Ingen bilder samsvarer med «{query}»",
+            "error_title": "Bilder kunne ikke lastes inn",
+            "none_title": "Ingen bilder å vise",
+            "search_label": "Søk etter bilder",
+            "search_placeholder": "Søk etter bilder"
+        },
+        "qr": {
+            "add_logo": "Legg til logo",
+            "add_to_design": "Legg til i designet",
+            "background_colour_label": "Bakgrunnsfarge",
+            "code_colour_label": "Kodefarge",
+            "code_label": "Kode",
+            "link_input_label": "Lenke til QR-kode",
+            "link_label": "Lenke",
+            "logo_fallback_name": "Logobilde",
+            "logo_label": "Logo",
+            "remove_logo": "Fjern logo"
+        },
+        "rail": {
+            "aria_label": "Designbibliotek",
+            "graphic": "Grafikk",
+            "help": "Hjelp",
+            "layers": "Lag",
+            "mcp": "MCP",
+            "media": "Medier",
+            "photo": "Bilder",
+            "qr_code": "QR-kode",
+            "shapes": "Former",
+            "templates": "Maler",
+            "textures": "Teksturer",
+            "tools": "Verktøy"
+        },
+        "save": {
+            "failed": "Designet ditt kunne ikke lagres. Prøv igjen."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Lysstyrke",
+                "compare": "Sammenlign med originalen",
+                "contrast": "Kontrast",
+                "grayscale": "Gråtoner",
+                "group": {
+                    "basic": "Grunnleggende",
+                    "refinements": "Finjusteringer"
+                },
+                "hue_rotate": "Fargetonerotasjon",
+                "reset": "Tilbakestill justeringer",
+                "saturation": "Metning",
+                "title": "Justeringer"
+            },
+            "color": {
+                "trigger": "Farge"
+            },
+            "common": {
+                "layer_blur": "Laguskarphet",
+                "layer_blur_stepper": "Laguskarphet"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Fritt format",
+                    "landscape": "Liggende",
+                    "original": "Original",
+                    "portrait": "Stående",
+                    "square": "Kvadrat",
+                    "story": "Story",
+                    "widescreen": "Bredformat"
+                },
+                "shape": {
+                    "circle": "Sirkel",
+                    "diamond": "Rombe",
+                    "half_circle": "Halvsirkel",
+                    "oval": "Oval",
+                    "parallelogram": "Parallellogram",
+                    "rounded": "Avrundet"
+                }
+            },
+            "filter": {
+                "cool": "Kjølig",
+                "duotone": "Duotone",
+                "mono": "Mono",
+                "original": "Original",
+                "vivid": "Livlig",
+                "warm": "Varm"
+            },
+            "font_weight": {
+                "black": "Black",
+                "extra_bold": "ExtraBold",
+                "extra_light": "ExtraLight",
+                "medium": "Medium",
+                "regular": "Regular",
+                "semibold": "SemiBold",
+                "thin": "Thin"
+            },
+            "frame": {
+                "colour": "Rammefarge"
+            },
+            "green_screen": {
+                "choose_colour": "Velg en farge",
+                "colour": "Farge",
+                "compare": "Sammenlign med originalen",
+                "eyedropper": "Velg en farge fra lerretet",
+                "key_colour": "Nøkkelfarge {hex}",
+                "loose": "Løs",
+                "nothing_found": "Fant ingen bakgrunnsfarge.",
+                "precise": "Presis",
+                "preset": {
+                    "bright_blue": "Klar blå",
+                    "bright_green": "Klar grønn",
+                    "chroma_blue": "Chroma-blå",
+                    "chroma_green": "Chroma-grønn"
+                },
+                "presets": "Vanlige bakgrunnsfarger",
+                "remove": "Fjern greenscreen",
+                "title": "Greenscreen"
+            },
+            "image": {
+                "corner_radius": "Hjørneradius",
+                "corner_radius_stepper": "Hjørneradius",
+                "per_corner": "Rediger individuelle hjørner",
+                "per_corner_unavailable": "Redigering av individuelle hjørner er ikke tilgjengelig ennå"
+            },
+            "keypad": {
+                "value_field": "Verdi for {label}"
+            },
+            "line": {
+                "colour": "Linjefarge",
+                "style": {
+                    "dots": "Prikker",
+                    "long_dashes": "Lange streker",
+                    "short_dashes": "Korte streker",
+                    "solid": "Hel"
+                },
+                "style_trigger": "Linjestil: {style}",
+                "weight": "Linjetykkelse",
+                "weight_trigger": "Linjetykkelse {weight}"
+            },
+            "media": {
+                "heading": "Medier"
+            },
+            "page": {
+                "size_capped": "Maks. {max} px – forholdet beholdes"
+            },
+            "pages": {
+                "title": "Sider"
+            },
+            "photo_slot": {
+                "enable": "Bruk som bildeplass",
+                "key_field": "Nøkkel (unik)",
+                "key_required": "Nøkkel er påkrevd",
+                "key_taken": "Nøkkelen brukes allerede av en annen plass",
+                "label_field": "Etikett (vises for sluttbrukeren)",
+                "on": "Bildeplass",
+                "remove": "Fjern bildeplass"
+            },
+            "qr": {
+                "add_logo": "Legg til logo",
+                "background_colour": "Bakgrunnsfarge",
+                "code": "Kode",
+                "code_colour": "Kodefarge",
+                "link": "Lenke",
+                "link_input": "Lenke til QR-kode",
+                "logo": "Logo",
+                "remove_logo": "Fjern logo"
+            },
+            "root": {
+                "background_image": "Bakgrunnsbilde",
+                "edit_background": "Rediger bakgrunnsbilde",
+                "fill": "Fyll",
+                "fill_gradient": "Gradient",
+                "page_height": "Sidehøyde",
+                "page_width": "Sidebredde",
+                "ratio_lock": "Lås sideforholdet",
+                "ratio_unlock": "Lås opp sideforholdet",
+                "rotate_left": "Roter bakgrunnen til venstre",
+                "rotate_right": "Roter bakgrunnen til høyre"
+            },
+            "scalar": {
+                "clip_length": "Lengde",
+                "corner_radius": "Hjørneradius",
+                "font_size": "Skriftstørrelse",
+                "layer_blur": "Laguskarphet",
+                "letter_spacing": "Bokstavavstand",
+                "line_height": "Linjehøyde",
+                "opacity": "Opasitet",
+                "speed": "Hastighet",
+                "stroke_width": "Strekbredde",
+                "volume": "Volum"
+            },
+            "shape": {
+                "corner_radius": "Hjørneradius",
+                "corner_radius_stepper": "Hjørneradius",
+                "fill": "Fyll",
+                "fill_gradient": "Gradient",
+                "fill_mixed": "Blandet",
+                "fill_transparent": "Gjennomsiktig",
+                "stroke": "Strek",
+                "stroke_color": "Strekfarge",
+                "stroke_style": {
+                    "dots": "Prikker",
+                    "long_dashes": "Lange streker",
+                    "short_dashes": "Korte streker",
+                    "solid": "Hel"
+                },
+                "stroke_style_select": "Strekstil",
+                "stroke_transparent": "Gjennomsiktig",
+                "stroke_weight": "Strektykkelse"
+            },
+            "svg": {
+                "path_colour": "Farge {index}"
+            },
+            "swatch": {
+                "more_colours": "Flere farger"
+            },
+            "text": {
+                "align": {
+                    "justify": "Blokkjuster"
+                },
+                "alignment": "Justering",
+                "edit_text": "Rediger tekst",
+                "font_family": "Skrifttype",
+                "font_family_select": "Skrifttype",
+                "font_size": "Skriftstørrelse",
+                "italic_unavailable": "Denne skrifttypen har ingen kursiv i denne vekten",
+                "letter_spacing_stepper": "Bokstavavstand",
+                "line_height": "Linjehøyde",
+                "line_height_stepper": "Linjehøyde",
+                "list": "Liste",
+                "list_bulleted": "Punktliste",
+                "list_numbered": "Nummerert liste",
+                "list_style": "Listestil",
+                "text_case": "Store\/små bokstaver",
+                "text_color": "Tekstfarge",
+                "text_style": "Tekststil",
+                "weight": "Vekt"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Juster nederst",
+                    "center_x": "Sentrer horisontalt",
+                    "center_y": "Sentrer vertikalt",
+                    "left": "Juster til venstre",
+                    "right": "Juster til høyre",
+                    "top": "Juster øverst"
+                },
+                "align_to_page": "Juster mot siden",
+                "opacity": "Opasitet",
+                "position": "Posisjon",
+                "position_x": "Posisjon X",
+                "position_y": "Posisjon Y",
+                "rotation": "Rotasjon",
+                "scale": "Skala"
+            },
+            "video": {
+                "adjust": "Juster",
+                "audio": "Lyd",
+                "clip_runs": "klippet varer {length}",
+                "corner_radius": "Hjørneradius",
+                "corner_radius_stepper": "Hjørneradius",
+                "green_screen": "Greenscreen",
+                "loop": "Gjenta til designet slutter",
+                "mute": "Slå av lyden",
+                "muted": "Lyden er av",
+                "no_audio": "Denne videoen har ingen lyd.",
+                "playback": "Avspilling",
+                "replace": "Erstatt video",
+                "speed": "Hastighet",
+                "speed_custom_input": "Egendefinert avspillingshastighet",
+                "speed_presets": "Avspillingshastighet",
+                "speed_range": "Mellom {min}× og {max}×",
+                "tools": "Verktøy",
+                "unmute": "Slå på lyden",
+                "volume": "Volum",
+                "volume_level": "Volumnivå"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Pil",
+            "arrow_down": "Pil ned",
+            "arrow_left": "Pil til venstre",
+            "arrow_pentagon": "Femkantet pil",
+            "arrow_right": "Pil til høyre",
+            "arrow_up": "Pil opp",
+            "chevron": "Chevron",
+            "circle": "Sirkel",
+            "cross": "Kryss",
+            "diamond": "Rombe",
+            "hexagon": "Sekskant",
+            "hexagon_wide": "Bred sekskant",
+            "line": "Linje",
+            "octagon": "Åttekant",
+            "parallelogram": "Parallellogram",
+            "parallelogram_mirrored": "Speilvendt parallellogram",
+            "pentagon": "Femkant",
+            "square": "Kvadrat",
+            "trapezoid": "Trapes",
+            "trapezoid_upside_down": "Opp-ned-trapes",
+            "triangle": "Trekant",
+            "triangle_upside_down": "Opp-ned-trekant"
+        },
+        "shapes_panel": {
+            "basic": "Grunnleggende",
+            "lines": "Linjer og piler"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Legg til keyframe",
+                "back_to_animations": "Tilbake til animasjoner",
+                "basic": "Grunnleggende",
+                "basic_opacity": "Opasitet",
+                "basic_position": "Posisjon",
+                "basic_rotation": "Rotasjon",
+                "basic_scale": "Skala",
+                "keyframe": "Keyframe",
+                "pick_property_hint": "Velg egenskapen som skal få en keyframe. Når du trykker på en, lukkes arket og panelet åpnes, med keyframen allerede plassert ved avspillingsmarkøren med lagets nåværende verdi.",
+                "presets_need_one": "Animasjonsforhåndsinnstillinger krever ett element. Velg ett enkelt lag for å se dem.",
+                "title": "Animer"
+            },
+            "easing": {
+                "title": "Easing"
+            },
+            "font_weight": {
+                "title": "Skriftvekt"
+            },
+            "speed": {
+                "title": "Hastighet"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Standardfarger",
+                "eyedropper": "Velg farge fra skjermen",
+                "eyedropper_unsupported": "Nettleseren din støtter ikke pipetten",
+                "fill_linear": "lineær",
+                "fill_radial": "radial",
+                "fill_solid": "ensfarget",
+                "fill_type": "Fylltype",
+                "gradients_in_design": "Gradienter i designet",
+                "hex": "Hex-farge",
+                "in_design": "I designet",
+                "title": "Fyllfarge",
+                "use_color": "Bruk {color}",
+                "use_gradient": "Bruk {style} gradient",
+                "use_transparent": "Gjennomsiktig"
+            },
+            "crop": {
+                "adjust_shape": "Juster beskjæringsformen",
+                "aspect": "Sideforhold",
+                "framing": "Utsnitt",
+                "framing_hint": "Dra i bildet for å endre utsnittet, eller i et hjørne for å endre størrelsen på beskjæringsvinduet. Rull for å zoome.",
+                "scale": "Skala"
+            },
+            "filters": {
+                "show_earlier": "Vis tidligere filtre",
+                "show_more": "Vis flere filtre",
+                "swatch": "{label}-farge: {color}",
+                "title": "Filtre"
+            },
+            "font": {
+                "all_fonts": "ALLE SKRIFTTYPER",
+                "applying": "Bruker skrifttype",
+                "back": "Tilbake til tekstalternativer",
+                "clear_search": "Fjern søket",
+                "clear_search_action": "Fjern søket",
+                "in_this_design": "I DETTE DESIGNET",
+                "no_match": "Ingen skrifttyper samsvarer med «{query}»",
+                "no_match_hint": "Twibbonize henter fra Google Fonts-katalogen, og denne skriftfamilien er ikke en del av den. Prøv et kortere søkeord.",
+                "search_label": "Søk etter skriftfamilier",
+                "search_placeholder": "Søk etter skrifttyper",
+                "title": "Skrifttype",
+                "weight": "Skriftvekt"
+            },
+            "gradient": {
+                "add_stop": "Legg til gradientstopp",
+                "angle": "Vinkel",
+                "angle_dial": "Gradientvinkel, {degrees} grader. Dra for å endre",
+                "angle_dial_hint": "Dra for å endre gradientvinkelen",
+                "angle_input": "Gradientvinkel i grader",
+                "centre_unsupported": "Gradientens midtpunkt støttes ikke av renderen ennå",
+                "stop": "Gradientstopp {index} ved {percent}%, {color}",
+                "stop_hint": "Dra for å flytte, dobbeltklikk for å fjerne"
+            },
+            "image": {
+                "adjustment": "Justering",
+                "adjustments": "Justeringer",
+                "back_to_edit": "Tilbake til Rediger-fanen",
+                "background_removal": "Fjerning av bakgrunn",
+                "compare": "Sammenlign med originalen",
+                "removing": "Fjerner…",
+                "removing_background": "Fjerner bakgrunnen",
+                "reset_adjustments": "Tilbakestill justeringer",
+                "tools": "Verktøy"
+            },
+            "keyframe": {
+                "add": "Legg til keyframe",
+                "add_at_playhead": "Legg til {property}-keyframe ved avspillingsmarkøren",
+                "add_at_playhead_short": "Legg til en keyframe ved avspillingsmarkøren",
+                "add_lane_at_playhead": "Legg til en {lane}-keyframe ved avspillingsmarkøren",
+                "add_property": "Legg til egenskap som skal animeres",
+                "all_lanes_added": "Alle egenskaper dette laget kan animere med keyframes, har allerede et spor",
+                "delete": "Slett denne keyframen",
+                "diamond": "{lane}-keyframe ved {seconds} s",
+                "easing": "Easing",
+                "easing_caps": "EASING",
+                "first_no_easing": "Den første keyframen har ingen easing",
+                "hex": "Hex-farge",
+                "layer_blur": "Laguskarphet",
+                "letter_spacing": "Bokstavavstand",
+                "line_height": "Linjehøyde",
+                "opacity": "Opasitet",
+                "opacity_percent": "Opasitet i prosent",
+                "position_x": "Posisjon X",
+                "position_y": "Posisjon Y",
+                "radius_bottom_left": "Hjørneradius nederst til venstre",
+                "radius_bottom_right": "Hjørneradius nederst til høyre",
+                "radius_top_left": "Hjørneradius øverst til venstre",
+                "radius_top_right": "Hjørneradius øverst til høyre",
+                "remove": "Fjern keyframe",
+                "remove_at_playhead": "Fjern {property}-keyframe ved avspillingsmarkøren",
+                "rotation": "Rotasjon",
+                "scale": "Skala",
+                "shadow_blur": "Skyggeuskarphet",
+                "shadow_color": "Skyggefarge",
+                "shadow_offset_x": "Skyggeforskyvning X",
+                "shadow_offset_y": "Skyggeforskyvning Y",
+                "shadow_spread": "Skyggespredning",
+                "stroke_color": "Strekfarge",
+                "stroke_weight": "Strektykkelse"
+            },
+            "layer": {
+                "page_background": "Sidebakgrunn",
+                "tab_animate": "Animer",
+                "tabs_label": "Lagpanel",
+                "title": "Lag"
+            },
+            "page_preset": {
+                "group_label": "Forhåndsinnstilte lerretsstørrelser",
+                "landscape": "Liggende",
+                "portrait": "Stående",
+                "square": "Kvadrat",
+                "story": "Story",
+                "tile_aria": "{name}, {width} ganger {height} piksler"
+            },
+            "personalization": {
+                "act_as_placeholder": "Fungér som plassholder",
+                "allow_adjust_framing": "Tillat justering av utsnitt",
+                "allow_adjust_framing_hint": "Supportere kan zoome og flytte bildet sitt inne i rammen.",
+                "allow_change_adjustments": "Tillat endring av justeringer",
+                "allow_change_adjustments_hint": "Supportere kan endre lysstyrke, kontrast og andre justeringer.",
+                "allow_change_effect": "Tillat endring av effekt",
+                "allow_change_effect_hint": "Supportere kan velge en annen effekt for dette laget.",
+                "allow_change_filter": "Tillat endring av filter",
+                "allow_change_filter_hint": "Supportere kan velge et annet filter for dette laget.",
+                "allow_edit_text": "Tillat redigering av tekst",
+                "allow_edit_text_hint": "Supportere kan skrive sine egne ord i denne teksten.",
+                "allow_flip": "Tillat vending",
+                "allow_flip_hint": "Supportere kan speilvende dette laget.",
+                "allow_move": "Tillat flytting",
+                "allow_move_hint": "Supportere kan dra dette laget til et nytt sted.",
+                "allow_replace_media": "Tillat bytte av medier",
+                "allow_replace_media_hint": "Supportere kan bytte ut dette bildet med sitt eget bilde.",
+                "allow_resize": "Tillat endring av størrelse",
+                "allow_resize_hint": "Supportere kan endre størrelsen på dette laget ved å dra i hjørner og sider.",
+                "allow_rotate": "Tillat rotasjon",
+                "allow_rotate_hint": "Supportere kan dreie dette laget til hvilken som helst vinkel.",
+                "group_appearance": "Utseende",
+                "group_arrange": "Ordne",
+                "group_media": "Medier",
+                "placeholder_hint": "Viser en tom plass som supportere kan trykke på for å legge til bildet sitt.",
+                "remove_background": "Fjern bakgrunnen fra bildet deres",
+                "remove_background_hint": "Frilegger supporteren fra bildet slik at designet ditt vises rundt personen.",
+                "text_placeholder_hint": "Viser denne teksten som et eksempel som supportere erstatter med sin egen."
+            },
+            "shape_effect": {
+                "colour": "Effektfarge",
+                "distance": "Avstand",
+                "echo": "Ekko",
+                "first_color": "Første farge",
+                "first_colour": "Første effektfarge",
+                "glitch": "Glitch",
+                "glow": "Glød",
+                "group_label": "Formeffekt",
+                "second_color": "Andre farge",
+                "second_colour": "Andre effektfarge",
+                "section": "Effekt",
+                "shadow": "Slagskygge"
+            },
+            "text_effect": {
+                "colour": "Effektfarge",
+                "curve": "Kurve",
+                "distance": "Avstand",
+                "echo": "Ekko",
+                "glow": "Glød",
+                "group_label": "Teksteffekt",
+                "outline": "Omriss",
+                "section": "Effekt",
+                "shape_group_label": "Tekstform",
+                "splice": "Splice",
+                "title": "Teksteffekter"
+            }
+        },
+        "templates": {
+            "empty_body": "Prøv et kortere eller mer generelt ord.",
+            "empty_title": "Ingen maler samsvarer med «{query}»",
+            "error_title": "Maler kunne ikke lastes inn",
+            "none_body": "Søk etter et tema, som bursdag eller eksamen.",
+            "none_title": "Ingen maler for dette designet ennå",
+            "search_label": "Søk etter maler",
+            "search_placeholder": "Søk etter maler"
+        },
+        "text_panel": {
+            "add_template": "Legg til tekstmal: {name}",
+            "add_text_box": "Legg til en tekstboks",
+            "empty_body": "Prøv et kortere eller mer generelt ord.",
+            "empty_title": "Ingen tekstmaler samsvarer med «{query}»",
+            "error_title": "Tekstmaler kunne ikke lastes inn",
+            "none_body": "Start heller med en vanlig tekstboks.",
+            "none_title": "Ingen tekstmaler å vise",
+            "search_label": "Søk etter tekstmaler",
+            "search_placeholder": "Søk etter tekstmaler"
+        },
+        "text_preset": {
+            "seed": "Legg til teksten din her"
+        },
+        "textures": {
+            "apply_texture": "Bruk {name}",
+            "category": {
+                "fabric": "Stoff",
+                "grain": "Korn",
+                "grunge": "Grunge",
+                "paper": "Papir",
+                "print": "Trykk"
+            },
+            "category_group_label": "Teksturkategori",
+            "empty_body": "Vi bygger dette biblioteket – kom tilbake snart.",
+            "empty_title": "Ingen teksturer her ennå",
+            "most_used": "Mest brukt",
+            "search_placeholder": "Søk etter teksturer"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Legg til lyd",
+                "add_tooltip": "Legg til et bakgrunnslydspor",
+                "bar_aria": "{name} ved {start} i {duration}",
+                "decoding": "Dekoder lyd…",
+                "decoding_waveform": "Dekoder bølgeform…",
+                "default_name": "Lyd",
+                "drop_to_add": "Slipp for å legge til lyd",
+                "kind_suffix": "· Lyd",
+                "mute": "Slå av lyden for sporet",
+                "unmute": "Slå på lyden for sporet",
+                "volume": "Sporvolum",
+                "waveform_error": "Kunne ikke laste inn bølgeformen til dette sporet."
+            },
+            "keyframe": {
+                "add": "Legg til keyframe",
+                "add_at_playhead": "Legg til keyframe ved avspillingsmarkøren",
+                "add_tooltip": "Animer en egenskap på dette laget med keyframes",
+                "diamond_aria": "{lane}-keyframe ved {time}",
+                "diamond_hint": " · dra for å endre timing, høyreklikk for å slette",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Hjørneradius",
+                    "layer_blur": "Laguskarphet",
+                    "line_height": "Linjehøyde",
+                    "opacity": "Opasitet",
+                    "position": "Posisjon",
+                    "rotation": "Rotasjon",
+                    "scale": "Skala",
+                    "stroke": "Strek"
+                },
+                "remove_lane": "Fjern {lane}-keyframes",
+                "remove_lane_from_layer": "Fjern {lane}-keyframes fra {layer}",
+                "segment_easing_aria": "{lane}-timingfunksjon mellom {from} og {to}, for øyeblikket {easing}",
+                "segment_easing_title": "Timingfunksjon · {easing}",
+                "welded_aria": ", låst til lagets kant",
+                "welded_title": " · låst til lagets kant"
+            },
+            "menu": {
+                "repeat_until_end": "Gjenta til slutten"
+            },
+            "track": {
+                "bar_aria": "{name} ved {start} i {duration}",
+                "bar_aria_end_glued": ", slutten er låst til laget",
+                "bar_aria_start_glued": ", starten er låst til laget",
+                "bar_tooltip": "{name} · {start} i {duration} ms · dra for å flytte, dra i en kant for å endre størrelse (Alt = ingen magnetisk justering)",
+                "bar_tooltip_sole": " · hvis du drar i denne kanten, flyttes laget",
+                "clip_aria": "{name}-klipp",
+                "clip_tooltip": "Dra for å flytte laget i tid · dra i en ende for å trimme (Alt = ingen magnetisk justering)",
+                "collapse": "Skjul",
+                "collapse_all": "Skjul alle lag",
+                "collapse_named": "Skjul {name}",
+                "delete_layer": "Slett lag",
+                "delete_named": "Slett {name}",
+                "ends_at": "Slutter ved",
+                "expand": "Utvid",
+                "expand_named": "Utvid {name}",
+                "hidden_lane_one": "{count} skjult spor",
+                "hidden_lane_other": "{count} skjulte spor",
+                "hide": "Skjul",
+                "hide_named": "Skjul {name}",
+                "lane_reorder_tooltip": "Dra for å endre rekkefølge – det øverste sporet vinner der animasjoner overlapper",
+                "layer_animations": "Laganimasjoner",
+                "lock_layer": "Lås lag",
+                "lock_named": "Lås {name}",
+                "remove_animation": "Fjern animasjon",
+                "remove_animation_aria": "Fjern {name}-animasjonen fra {layer}",
+                "reorder_tooltip": "Dra for å endre rekkefølgen på spor – stablingsrekkefølgen på lerretet angis i lagpanelet",
+                "show": "Vis",
+                "show_named": "Vis {name}",
+                "split": "Del",
+                "starts_at": "Starter ved",
+                "trim_end": "Trim slutten",
+                "trim_start": "Trim starten",
+                "trim_to": "Trim til {time}",
+                "unlock_layer": "Lås opp lag",
+                "unlock_named": "Lås opp {name}"
+            },
+            "transport": {
+                "current_time_field": "Gjeldende tid i millisekunder",
+                "duration_edge_aria": "Sidevarighet {seconds} sekunder",
+                "duration_edge_tooltip": "Sidevarighet {seconds} s · dra for å endre, klikk for den nøyaktige verdien (Alt = ingen magnetisk justering)",
+                "duration_max": "Maks. {seconds} s",
+                "fit_to_width": "Tilpass til bredde",
+                "forward": "Frem",
+                "lengthen_page": "Gjør siden lengre",
+                "loop": "Gjenta avspilling",
+                "page_duration": "Sidevarighet",
+                "page_duration_field": "Sidevarighet i millisekunder",
+                "resize_dock": "Endre størrelse på tidslinjen",
+                "rewind": "Spol tilbake",
+                "shorten_page": "Gjør siden kortere",
+                "zoom": "Tidslinjezoom"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {

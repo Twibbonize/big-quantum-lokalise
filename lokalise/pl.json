@@ -2842,7 +2842,9 @@
             "type": "Typ:",
             "size": "Rozmiar:",
             "type_image": "JPG, PNG lub SVG",
-            "maximum_size": "Maksymalnie 5 MB"
+            "maximum_size": "Maksymalnie 5 MB",
+            "abandoned": "Przesyłanie zatrzymano, gdy warstwa została usunięta. Spróbuj ponownie, aby zachować ją w bibliotece.",
+            "failed": "Przesyłanie nie powiodło się. Sprawdź połączenie i spróbuj ponownie."
         },
         "toolbar": {
             "copy": "Kopia",
@@ -2871,7 +2873,119 @@
             "border_weight": "Waga graniczna",
             "corner_rounding": "Zaokrąglanie narożników",
             "align": "Wyrównaj",
-            "effects": "Efekty"
+            "effects": "Efekty",
+            "animate": {
+                "amount": "Ilość",
+                "angle": "Kąt",
+                "close": "Zamknij ustawienia animacji",
+                "delete_animation": "Usuń animację",
+                "distance": "Odległość",
+                "easing": "Łagodzenie",
+                "fade": "Zanikanie",
+                "settings_aria": "Ustawienia animacji"
+            },
+            "audio": {
+                "replace": "Zamień",
+                "tools_aria": "Narzędzia ścieżki audio",
+                "trim": "Przytnij",
+                "volume": "Głośność"
+            },
+            "clip": {
+                "length": "Długość",
+                "split": "Podziel",
+                "trim": "Przytnij"
+            },
+            "entry": {
+                "animate": "Animuj"
+            },
+            "image": {
+                "adjust": "Dostosuj",
+                "background_removal_unavailable": "Usuwanie tła nie jest jeszcze dostępne",
+                "remove_background": "Usuń tło",
+                "remove_background_short": "Wycięcie",
+                "replace": "Zamień"
+            },
+            "keyframe": {
+                "blur": "Rozmycie warstwy",
+                "close": "Zamknij właściwości klatki kluczowej",
+                "delete_keyframe": "Usuń klatkę kluczową",
+                "letter_spacing": "Odstępy",
+                "line_height": "Interlinia",
+                "opacity": "Przezroczystość",
+                "position": "Pozycja",
+                "properties_aria": "Właściwości klatki kluczowej",
+                "rotation": "Obrót",
+                "scale": "Skala"
+            },
+            "layer_tools": {
+                "deselect": "Odznacz warstwę",
+                "tools_aria": "Narzędzia warstwy"
+            },
+            "media": {
+                "adjust": "Dostosuj",
+                "green_screen": "Zielony ekran",
+                "replace": "Zamień",
+                "trim": "Przytnij"
+            },
+            "misc": {
+                "background_fill": "Wypełnienie tła",
+                "background_fill_short": "Wypełnienie",
+                "configure_qr": "Skonfiguruj kod QR",
+                "edit_background_image": "Edytuj obraz tła",
+                "no_background_image": "Brak obrazu tła",
+                "replace_unavailable": "Zamień (jeszcze niedostępne)"
+            },
+            "opacity": {
+                "label": "Przezroczystość"
+            },
+            "shape": {
+                "corner_radius": "Promień narożnika",
+                "corner_radius_short": "Promień",
+                "fill": "Wypełnienie",
+                "line_color": "Kolor linii",
+                "line_style_dots": "Kropki",
+                "line_style_long_dashes": "Długie kreski",
+                "line_style_named": "Styl linii: {style}",
+                "line_style_short_dashes": "Krótkie kreski",
+                "line_style_solid": "Ciągła",
+                "line_weight": "Grubość linii",
+                "stroke_color": "Kolor obrysu",
+                "stroke_color_short": "Obrys",
+                "stroke_weight": "Grubość obrysu",
+                "stroke_weight_short": "Grubość"
+            },
+            "speed": {
+                "custom_input": "Własna prędkość odtwarzania",
+                "label": "Prędkość",
+                "playback_length": "Długość odtwarzania",
+                "playback_speed": "Prędkość odtwarzania",
+                "range_hint": "Od {min}× do {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Zmniejsz rozmiar czcionki",
+                "font_family": "Rodzina czcionek",
+                "font_family_named": "Rodzina czcionek: {value}",
+                "font_size": "Rozmiar czcionki",
+                "font_weight": "Grubość czcionki",
+                "font_weight_named": "Grubość czcionki: {value}",
+                "increase_font_size": "Zwiększ rozmiar czcionki",
+                "keyboard": "Klawiatura",
+                "line_height": "Interlinia",
+                "spacing": "Odstępy",
+                "text_color": "Kolor tekstu",
+                "weight": "Grubość"
+            },
+            "volume": {
+                "clip_hint": "Tylko ten klip. Dźwięk umieszczony na osi czasu zachowuje własny poziom.",
+                "label": "Głośność",
+                "level": "Poziom",
+                "mute": "Wycisz",
+                "muted": "Wyciszono",
+                "muted_hint": "Poziom zostaje zachowany. Po włączeniu dźwięku klip wróci do {percent}%.",
+                "no_audio": "To wideo nie ma dźwięku.",
+                "slider": "Poziom głośności",
+                "unmute": "Włącz dźwięk"
+            }
         },
         "confirmation": {
             "cancel": "Odrzucić",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Kolory dokumentów",
             "default_colors": "Kolory domyślne"
         },
-        "graphic": "Grafika"
+        "graphic": "Grafika",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Dół, środek",
+                "bottom_left": "Dół, lewo",
+                "bottom_right": "Dół, prawo",
+                "center_left": "Środek, lewo",
+                "center_right": "Środek, prawo",
+                "top_center": "Góra, środek",
+                "top_left": "Góra, lewo",
+                "top_right": "Góra, prawo"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Koniec",
+                "more_options": "Więcej opcji"
+            },
+            "direction": {
+                "bottom_left": "Dół, lewo",
+                "bottom_right": "Dół, prawo",
+                "clockwise": "Zgodnie z ruchem wskazówek zegara",
+                "counter_clockwise": "Przeciwnie do ruchu wskazówek zegara",
+                "from_the": "Z: {place}",
+                "to_the": "Do: {place}",
+                "top_left": "Góra, lewo",
+                "top_right": "Góra, prawo"
+            },
+            "easing": {
+                "accelerate": "Przyspieszenie",
+                "bounce": "Odbicie",
+                "elastic": "Sprężystość",
+                "impulse": "Impuls",
+                "natural": "Naturalne",
+                "overshoot": "Przeregulowanie",
+                "slow_down": "Zwolnienie",
+                "smooth": "Płynne",
+                "swing": "Wahadło"
+            },
+            "field": {
+                "amount": "Ilość",
+                "anchor_group": "Punkt zakotwiczenia",
+                "anchor_point": "Punkt zakotwiczenia",
+                "angle": "Kąt",
+                "apply_effect_to": "Zastosuj efekt do",
+                "axis": "Oś",
+                "choose_easing": "Wybierz łagodzenie",
+                "distance": "Odległość",
+                "duration": "Czas trwania",
+                "edge": "Krawędź",
+                "fade": "Zanikanie",
+                "from_noun": "Od: {noun}",
+                "horizontal": "Poziomo",
+                "noun_blur": "rozmycie",
+                "noun_opacity": "przezroczystość",
+                "noun_size": "rozmiar",
+                "opacity": "Przezroczystość",
+                "order": "Kolejność",
+                "position": "Pozycja",
+                "rotation": "Obrót",
+                "rotation_direction": "Kierunek obrotu",
+                "scale": "Skala",
+                "smoothing": "Wygładzanie",
+                "to_noun": "Do: {noun}",
+                "vertical": "Pionowo"
+            },
+            "mode": {
+                "arrives": "Wejście",
+                "departs": "Wyjście",
+                "in": "Wjazd",
+                "out": "Wyjazd"
+            },
+            "panel": {
+                "animation": "Animacja",
+                "animations_tab": "Animacje",
+                "basic": "Podstawowe",
+                "changing_note": "Wybierz zamiennik. Zajmie miejsce i czas trwania zmienianej animacji.",
+                "corner_radius": "Promień narożnika",
+                "easing": "Łagodzenie",
+                "fade": "Zanikanie",
+                "keyframe_tab": "Klatka kluczowa",
+                "layer_blur": "Rozmycie warstwy",
+                "line_height": "Interlinia",
+                "more_options": "Więcej opcji",
+                "motion": "Ruch",
+                "needs_one_element": "Gotowe animacje wymagają jednego elementu. Zaznacz pojedynczą warstwę, aby je zobaczyć.",
+                "paste_animation": "Wklej animację",
+                "scale": "Skala",
+                "slide": "Przesunięcie",
+                "stroke": "Obrys",
+                "text_animation": "Animacja tekstu"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Pojawienie",
+                    "label": "Pojawienie się"
+                },
+                "blur": {
+                    "label": "Rozmycie przy wejściu"
+                },
+                "blur_scale": {
+                    "caption": "Rozmycie i skala",
+                    "label": "Rozmycie przy wejściu ze skalowaniem"
+                },
+                "blur_slide": {
+                    "caption": "Rozmycie i przesunięcie",
+                    "label": "Rozmycie przy wejściu z przesunięciem"
+                },
+                "fade": {
+                    "caption": "Zanikanie",
+                    "label": "Zanikanie"
+                },
+                "grow": {
+                    "caption": "Wyskok",
+                    "label": "Wyskok przy wejściu"
+                },
+                "mask_center": {
+                    "caption": "Maska od środka",
+                    "label": "Odsłonięcie maską od środka"
+                },
+                "mask_reveal": {
+                    "caption": "Odsłonięcie maską",
+                    "label": "Odsłonięcie maską od krawędzi"
+                },
+                "mask_slide": {
+                    "caption": "Maska i przesunięcie",
+                    "label": "Odsłonięcie maską z przesunięciem"
+                },
+                "move_scale": {
+                    "caption": "Ruch i skala",
+                    "label": "Wejście z ruchem i skalowaniem"
+                },
+                "rotate_left": {
+                    "label": "Obrót z lewej strony"
+                },
+                "rotate_right": {
+                    "label": "Obrót z prawej strony"
+                },
+                "shrink": {
+                    "caption": "Duży",
+                    "label": "Wejście w dużym rozmiarze"
+                },
+                "slide": {
+                    "caption": "Przesunięcie",
+                    "label": "Wjazd"
+                },
+                "slide_from_bottom": {
+                    "label": "Wjazd z dołu"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Dół, lewo",
+                    "label": "Wjazd z lewego dolnego rogu"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Dół, prawo",
+                    "label": "Wjazd z prawego dolnego rogu"
+                },
+                "slide_from_left": {
+                    "label": "Wjazd z lewej strony"
+                },
+                "slide_from_right": {
+                    "label": "Wjazd z prawej strony"
+                },
+                "slide_from_top": {
+                    "label": "Wjazd z góry"
+                },
+                "slide_from_top_left": {
+                    "caption": "Góra, lewo",
+                    "label": "Wjazd z lewego górnego rogu"
+                },
+                "slide_from_top_right": {
+                    "caption": "Góra, prawo",
+                    "label": "Wjazd z prawego górnego rogu"
+                },
+                "spin": {
+                    "caption": "Wirowanie",
+                    "label": "Wejście z wirowaniem"
+                },
+                "spin_scale": {
+                    "caption": "Wirowanie i skala",
+                    "label": "Wejście z wirowaniem i skalowaniem"
+                },
+                "twist": {
+                    "caption": "Skręcenie",
+                    "label": "Wejście ze skręceniem"
+                }
+            },
+            "property": {
+                "change_text": "Zmień tekst",
+                "morph": "Morfing",
+                "move": "Ruch",
+                "opacity": "Przezroczystość",
+                "scale": "Skala"
+            },
+            "section": {
+                "fade": "Zanikanie",
+                "mask": "Maska",
+                "scale": "Skala",
+                "slide": "Przesunięcie",
+                "transform": "Przekształcenie"
+            },
+            "text": {
+                "backward": "Do tyłu",
+                "forward": "Do przodu",
+                "letters": "Litery",
+                "summary_overlap": "Każde: {unit} zaczyna się, gdy poprzednie jest w {percent}%.",
+                "summary_sequential": "Każde: {unit} kończy się, zanim zacznie się następne.",
+                "summary_together": "Wszystkie ({unit}) poruszają się razem.",
+                "summary_whole": "Cały blok tekstu animuje się jako całość.",
+                "words": "Słowa"
+            },
+            "type": {
+                "fade_in": "Pojawienie się",
+                "fade_out": "Zanikanie",
+                "line_height": "Interlinia",
+                "radius": "Promień",
+                "resize_in": "Zmiana rozmiaru (wejście)",
+                "resize_out": "Zmiana rozmiaru (wyjście)",
+                "rotate_in": "Obrót (wejście)",
+                "rotate_out": "Obrót (wyjście)",
+                "scale_in": "Skalowanie (wejście)",
+                "scale_out": "Skalowanie (wyjście)",
+                "slide_in": "Wjazd",
+                "slide_out": "Wyjazd",
+                "spacing": "Odstępy",
+                "stroke": "Obrys"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Dodaj swoje zdjęcie, aby kontynuować.",
+                    "gesture": {
+                        "frameDesktop": "Przeciągnij, aby zmienić położenie · Przewiń, aby powiększyć",
+                        "frameMobile": "Przeciągnij, aby zmienić położenie, ściśnij palcami, aby powiększyć",
+                        "handles": "Zmieniaj rozmiar z rogów i boków, obracaj od góry",
+                        "move": "Przeciągnij, aby przesunąć",
+                        "moveOrHandles": "Przeciągnij, aby przesunąć, lub użyj uchwytów",
+                        "resize": "Przeciągnij róg lub bok, aby zmienić rozmiar",
+                        "rotate": "Przeciągnij górny uchwyt, aby obrócić",
+                        "rotateDesktop": "Przeciągnij linijkę lub użyj klawiszy strzałek",
+                        "rotateMobile": "Przeciągnij linijkę, aby obrócić"
+                    },
+                    "hint": {
+                        "pickDesktop": "Kliknij oznaczony obszar lub wybierz warstwę po lewej",
+                        "pickMobile": "Dotknij oznaczony obszar lub wybierz warstwę poniżej",
+                        "previewDesktop": "Podgląd projektu. Kliknij go, aby kontynuować edycję.",
+                        "previewMobile": "Podgląd projektu. Dotknij go, aby kontynuować edycję."
+                    },
+                    "layer": {
+                        "addPhoto": "Dodaj swoje zdjęcie",
+                        "text": "Tekst: {text}",
+                        "yourPhoto": "Twoje zdjęcie",
+                        "yourText": "Twój tekst"
+                    },
+                    "layers": {
+                        "all": "Wszystkie warstwy",
+                        "photo": "Zdjęcie",
+                        "sheetDescription": "Wszystko w tym projekcie, co możesz zmienić.",
+                        "title": "Warstwy"
+                    },
+                    "photoError": "Nie udało się użyć tego zdjęcia. Spróbuj innego obrazu.",
+                    "preview": {
+                        "backToEditing": "Wróć do edycji"
+                    },
+                    "rotation": {
+                        "aria": "Obrót",
+                        "value": "one:# stopień|few:# stopnie|many:# stopni|other:# stopnia"
+                    },
+                    "tools": {
+                        "adjust": "Dostosuj",
+                        "aria": "Narzędzia warstwy",
+                        "editText": "Edytuj tekst",
+                        "flip": "Odbij",
+                        "locked": "Rozmiar i położenie są ustawione przez twórcę",
+                        "replace": "Zamień",
+                        "textAria": "Narzędzia tekstu",
+                        "zoomIn": "Powiększ",
+                        "zoomOut": "Pomniejsz"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "Dodano {name} do osi czasu.",
+                "too_big": "Plik {name} przekracza {limit}.",
+                "too_long": "Plik {name} jest dłuższy niż {minutes} min.",
+                "too_many": "Tylko {count} plików naraz.",
+                "wrong_type": "Nie można dodać pliku {name} — tylko obrazy, wideo i pliki SVG."
+            }
+        },
+        "catalogue": {
+            "error_body": "Sprawdź połączenie, a następnie spróbuj ponownie.",
+            "loading_more": "Wczytywanie kolejnych"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Odrzuć wersję roboczą",
+                "description_unsaved": "Ten projekt nie jest zapisany. Cofnięcie go usunie na zawsze — wraz z warstwami, stylami i animacjami.",
+                "title": "Odrzucić wersję roboczą „{title}”?"
+            },
+            "save": {
+                "description": "Po zapisaniu edycja nie będzie już dostępna.",
+                "saving": "Zapisywanie…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Dopasuj do ekranu"
+        },
+        "graphic_panel": {
+            "add": "Dodaj: {name}",
+            "add_failed": "Nie udało się dodać tej grafiki. Spróbuj ponownie.",
+            "empty_body": "Spróbuj krótszego lub bardziej ogólnego słowa, np. gwiazda lub serce.",
+            "empty_title": "Brak grafik pasujących do „{query}”",
+            "error_title": "Nie udało się wczytać grafik",
+            "none_title": "Brak grafik do wyświetlenia",
+            "search_label": "Szukaj grafik",
+            "search_placeholder": "Szukaj grafik"
+        },
+        "header": {
+            "redo": "Ponów",
+            "saving": "Zapisywanie…",
+            "undo": "Cofnij",
+            "untitled_design": "Projekt bez tytułu"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Miejsce na zdjęcie"
+            },
+            "menu": {
+                "align_center": "Wyśrodkuj",
+                "bring_forward": "Przesuń do przodu",
+                "bring_to_front": "Przenieś na wierzch",
+                "detach_image": "Odłącz obraz",
+                "flip_horizontal": "Odbij w poziomie",
+                "flip_vertical": "Odbij w pionie",
+                "replace_image": "Zamień obraz",
+                "send_backward": "Przesuń wstecz",
+                "send_to_back": "Przenieś na spód",
+                "set_as_background_image": "Ustaw jako obraz tła",
+                "set_as_background_video": "Ustaw jako wideo tła",
+                "set_background_as_image_layer": "Ustaw tło jako warstwę obrazu",
+                "set_background_as_video_layer": "Ustaw tło jako warstwę wideo",
+                "sheet_title": "Opcje warstwy",
+                "show_layers": "Pokaż warstwy"
+            },
+            "pill": {
+                "duplicate": "Duplikuj warstwę",
+                "more": "Więcej akcji warstwy",
+                "remove": "Usuń warstwę",
+                "toolbar": "Akcje warstwy"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Kod parowania gotowy: {code}. Podaj go swojemu klientowi AI.",
+                "connecting": "Przygotowywanie kodu parowania.",
+                "failed": "Nie udało się połączyć. {reason}",
+                "reconnecting": "Połączenie zostało przerwane. Próba ponownego połączenia."
+            },
+            "clipboard_blocked": "Przeglądarka zablokowała schowek. {hint}",
+            "connect": "Połącz",
+            "connecting": "Łączenie…",
+            "copied_address_announcement": "Skopiowano adres serwera",
+            "copied_code_announcement": "Skopiowano kod parowania",
+            "copy_address_hint": "Zaznacz adres i skopiuj go ręcznie.",
+            "copy_code": "Kopiuj kod",
+            "copy_code_hint": "Zaznacz kod i skopiuj go ręcznie.",
+            "copy_server_address": "Kopiuj adres serwera MCP",
+            "disconnect": "Rozłącz",
+            "error_fallback": "Usługa parowania nie odpowiedziała. Sprawdź połączenie i spróbuj ponownie.",
+            "guide": {
+                "fresh_code": "Jeśli kod przestanie działać, kliknij Rozłącz i połącz ponownie, aby uzyskać nowy.",
+                "how_to_set_up": "Jak to skonfigurować",
+                "step_add_body": "Dodaj Twibbonize do swojego klienta AI, używając poniższego adresu. W Claude Code uruchom",
+                "step_add_title": "Dodaj Twibbonize do swojego klienta AI",
+                "step_pair_body": "Powiedz „sparuj z edytorem Twibbonize” i podaj kod powyżej.",
+                "step_pair_title": "Poproś o sparowanie",
+                "where_to_paste": "Gdzie wkleić ten kod?"
+            },
+            "lead": {
+                "code_ready_sentence": "Wklej go do Claude i poproś o sparowanie. Gdy Claude pracuje, kanwa rysuje wokół strony ramkę.",
+                "code_ready_title": "Podaj ten kod swojemu klientowi AI",
+                "connecting_sentence": "To chwilę potrwa.",
+                "connecting_title": "Przygotowywanie kodu parowania",
+                "disconnected_sentence": "Claude Desktop i Claude Code mogą dodawać warstwy, pisać tekst, ustawiać animacje i odczytywać zawartość kanwy.",
+                "disconnected_title": "Wprowadź klienta AI do tego projektu",
+                "failed_title": "Nie udało się połączyć",
+                "reconnecting_sentence": "Połączenie z klientem AI zostało przerwane. Próba przywrócenia.",
+                "reconnecting_title": "Ponowne łączenie",
+                "unavailable_sentence": "Ta wersja edytora nie ma skonfigurowanego połączenia AI, więc nie ma jeszcze z czym się łączyć.",
+                "unavailable_title": "MCP nie jest tu włączone"
+            },
+            "pairing_code_label": "Kod parowania: {code}"
+        },
+        "media": {
+            "add_asset": "Dodaj: {name}",
+            "dismiss_error": "Zamknij",
+            "empty_body": "Dodaj poniżej obraz, wideo lub plik audio, a pozostanie tutaj do końca tej sesji.",
+            "empty_narrowed_body": "Wyczyść wyszukiwanie lub wybierz inny typ, aby zobaczyć wszystko, co dodano.",
+            "empty_narrowed_title": "Brak wyników",
+            "empty_title": "Nic jeszcze nie przesłano",
+            "filter": {
+                "audio": "Audio",
+                "images": "Obrazy"
+            },
+            "filter_group_label": "Typ mediów",
+            "make_an_image": "Utwórz obraz",
+            "make_image_unavailable": "Generowanie obrazów nie jest jeszcze dostępne",
+            "search_placeholder": "Szukaj mediów",
+            "upload_button": "Prześlij obraz, wideo lub audio",
+            "uploads_heading": "Przesłane"
+        },
+        "page_bar": {
+            "group_label": "Elementy sterujące powiększeniem",
+            "zoom_menu": "Poziom powiększenia, {percent}%"
+        },
+        "panel": {
+            "loading": "Wczytywanie: {panel}…"
+        },
+        "photo": {
+            "add_by": "Dodaj zdjęcie autora: {name}",
+            "add_described": "Dodaj zdjęcie: {description}",
+            "credit": "Zdjęcia dostarcza",
+            "empty_body": "Spróbuj krótszego lub bardziej ogólnego słowa, np. plaża lub miasto.",
+            "empty_title": "Brak zdjęć pasujących do „{query}”",
+            "error_title": "Nie udało się wczytać zdjęć",
+            "none_title": "Brak zdjęć do wyświetlenia",
+            "search_label": "Szukaj zdjęć",
+            "search_placeholder": "Szukaj zdjęć"
+        },
+        "qr": {
+            "add_logo": "Dodaj logo",
+            "add_to_design": "Dodaj do projektu",
+            "background_colour_label": "Kolor tła",
+            "code_colour_label": "Kolor kodu",
+            "code_label": "Kod",
+            "link_input_label": "Link kodu QR",
+            "link_label": "Link",
+            "logo_fallback_name": "Obraz logo",
+            "logo_label": "Logo",
+            "remove_logo": "Usuń logo"
+        },
+        "rail": {
+            "aria_label": "Biblioteki projektu",
+            "graphic": "Grafiki",
+            "help": "Pomoc",
+            "layers": "Warstwy",
+            "mcp": "MCP",
+            "media": "Media",
+            "photo": "Zdjęcia",
+            "qr_code": "Kod QR",
+            "shapes": "Kształty",
+            "templates": "Szablony",
+            "textures": "Tekstury",
+            "tools": "Narzędzia"
+        },
+        "save": {
+            "failed": "Nie udało się zapisać projektu. Spróbuj ponownie."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Jasność",
+                "compare": "Porównaj z oryginałem",
+                "contrast": "Kontrast",
+                "grayscale": "Skala szarości",
+                "group": {
+                    "basic": "Podstawowe",
+                    "refinements": "Dopracowanie"
+                },
+                "hue_rotate": "Obrót barwy",
+                "reset": "Resetuj korekty",
+                "saturation": "Nasycenie",
+                "title": "Korekty"
+            },
+            "color": {
+                "trigger": "Kolor"
+            },
+            "common": {
+                "layer_blur": "Rozmycie warstwy",
+                "layer_blur_stepper": "Rozmycie warstwy"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Dowolny",
+                    "landscape": "Pozioma",
+                    "original": "Oryginał",
+                    "portrait": "Pionowa",
+                    "square": "Kwadrat",
+                    "story": "Relacja",
+                    "widescreen": "Szeroki ekran"
+                },
+                "shape": {
+                    "circle": "Koło",
+                    "diamond": "Romb",
+                    "half_circle": "Półkole",
+                    "oval": "Owal",
+                    "parallelogram": "Równoległobok",
+                    "rounded": "Zaokrąglony"
+                }
+            },
+            "filter": {
+                "cool": "Chłodny",
+                "duotone": "Duoton",
+                "mono": "Mono",
+                "original": "Oryginał",
+                "vivid": "Żywy",
+                "warm": "Ciepły"
+            },
+            "font_weight": {
+                "black": "Black",
+                "extra_bold": "ExtraBold",
+                "extra_light": "ExtraLight",
+                "medium": "Medium",
+                "regular": "Regular",
+                "semibold": "SemiBold",
+                "thin": "Thin"
+            },
+            "frame": {
+                "colour": "Kolor ramki"
+            },
+            "green_screen": {
+                "choose_colour": "Wybierz kolor",
+                "colour": "Kolor",
+                "compare": "Porównaj z oryginałem",
+                "eyedropper": "Wybierz kolor z kanwy",
+                "key_colour": "Kolor klucza {hex}",
+                "loose": "Luźno",
+                "nothing_found": "Nie znaleziono koloru tła.",
+                "precise": "Dokładnie",
+                "preset": {
+                    "bright_blue": "Jasnoniebieski",
+                    "bright_green": "Jasnozielony",
+                    "chroma_blue": "Niebieski chroma",
+                    "chroma_green": "Zielony chroma"
+                },
+                "presets": "Popularne kolory tła",
+                "remove": "Usuń zielony ekran",
+                "title": "Zielony ekran"
+            },
+            "image": {
+                "corner_radius": "Promień narożnika",
+                "corner_radius_stepper": "Promień narożnika",
+                "per_corner": "Edytuj poszczególne narożniki",
+                "per_corner_unavailable": "Edycja poszczególnych narożników nie jest jeszcze dostępna"
+            },
+            "keypad": {
+                "value_field": "Wartość: {label}"
+            },
+            "line": {
+                "colour": "Kolor linii",
+                "style": {
+                    "dots": "Kropki",
+                    "long_dashes": "Długie kreski",
+                    "short_dashes": "Krótkie kreski",
+                    "solid": "Ciągła"
+                },
+                "style_trigger": "Styl linii: {style}",
+                "weight": "Grubość linii",
+                "weight_trigger": "Grubość linii {weight}"
+            },
+            "media": {
+                "heading": "Media"
+            },
+            "page": {
+                "size_capped": "Maks. {max} px — proporcje zachowane"
+            },
+            "pages": {
+                "title": "Strony"
+            },
+            "photo_slot": {
+                "enable": "Użyj jako miejsca na zdjęcie",
+                "key_field": "Klucz (unikalny)",
+                "key_required": "Klucz jest wymagany",
+                "key_taken": "Klucz jest już używany przez inne miejsce",
+                "label_field": "Etykieta (widoczna dla użytkownika)",
+                "on": "Miejsce na zdjęcie",
+                "remove": "Usuń miejsce na zdjęcie"
+            },
+            "qr": {
+                "add_logo": "Dodaj logo",
+                "background_colour": "Kolor tła",
+                "code": "Kod",
+                "code_colour": "Kolor kodu",
+                "link": "Link",
+                "link_input": "Link kodu QR",
+                "logo": "Logo",
+                "remove_logo": "Usuń logo"
+            },
+            "root": {
+                "background_image": "Obraz tła",
+                "edit_background": "Edytuj obraz tła",
+                "fill": "Wypełnienie",
+                "fill_gradient": "Gradient",
+                "page_height": "Wysokość strony",
+                "page_width": "Szerokość strony",
+                "ratio_lock": "Zablokuj proporcje",
+                "ratio_unlock": "Odblokuj proporcje",
+                "rotate_left": "Obróć tło w lewo",
+                "rotate_right": "Obróć tło w prawo"
+            },
+            "scalar": {
+                "clip_length": "Długość",
+                "corner_radius": "Promień narożnika",
+                "font_size": "Rozmiar czcionki",
+                "layer_blur": "Rozmycie warstwy",
+                "letter_spacing": "Odstępy między literami",
+                "line_height": "Interlinia",
+                "opacity": "Przezroczystość",
+                "speed": "Prędkość",
+                "stroke_width": "Szerokość obrysu",
+                "volume": "Głośność"
+            },
+            "shape": {
+                "corner_radius": "Promień narożnika",
+                "corner_radius_stepper": "Promień narożnika",
+                "fill": "Wypełnienie",
+                "fill_gradient": "Gradient",
+                "fill_mixed": "Mieszane",
+                "fill_transparent": "Przezroczyste",
+                "stroke": "Obrys",
+                "stroke_color": "Kolor obrysu",
+                "stroke_style": {
+                    "dots": "Kropki",
+                    "long_dashes": "Długie kreski",
+                    "short_dashes": "Krótkie kreski",
+                    "solid": "Ciągła"
+                },
+                "stroke_style_select": "Styl obrysu",
+                "stroke_transparent": "Przezroczysty",
+                "stroke_weight": "Grubość obrysu"
+            },
+            "svg": {
+                "path_colour": "Kolor {index}"
+            },
+            "swatch": {
+                "more_colours": "Więcej kolorów"
+            },
+            "text": {
+                "align": {
+                    "justify": "Wyjustuj"
+                },
+                "alignment": "Wyrównanie",
+                "edit_text": "Edytuj tekst",
+                "font_family": "Rodzina czcionek",
+                "font_family_select": "Rodzina czcionek",
+                "font_size": "Rozmiar czcionki",
+                "italic_unavailable": "Ta czcionka nie ma kursywy w tej grubości",
+                "letter_spacing_stepper": "Odstępy między literami",
+                "line_height": "Interlinia",
+                "line_height_stepper": "Interlinia",
+                "list": "Lista",
+                "list_bulleted": "Lista punktowana",
+                "list_numbered": "Lista numerowana",
+                "list_style": "Styl listy",
+                "text_case": "Wielkość liter",
+                "text_color": "Kolor tekstu",
+                "text_style": "Styl tekstu",
+                "weight": "Grubość"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Wyrównaj do dołu",
+                    "center_x": "Wyrównaj do środka w poziomie",
+                    "center_y": "Wyrównaj do środka w pionie",
+                    "left": "Wyrównaj do lewej",
+                    "right": "Wyrównaj do prawej",
+                    "top": "Wyrównaj do góry"
+                },
+                "align_to_page": "Wyrównaj do strony",
+                "opacity": "Przezroczystość",
+                "position": "Pozycja",
+                "position_x": "Pozycja X",
+                "position_y": "Pozycja Y",
+                "rotation": "Obrót",
+                "scale": "Skala"
+            },
+            "video": {
+                "adjust": "Dostosuj",
+                "audio": "Audio",
+                "clip_runs": "Klip trwa {length}",
+                "corner_radius": "Promień narożnika",
+                "corner_radius_stepper": "Promień narożnika",
+                "green_screen": "Zielony ekran",
+                "loop": "Zapętlaj do końca projektu",
+                "mute": "Wycisz",
+                "muted": "Wyciszono",
+                "no_audio": "To wideo nie ma dźwięku.",
+                "playback": "Odtwarzanie",
+                "replace": "Zamień wideo",
+                "speed": "Prędkość",
+                "speed_custom_input": "Własna prędkość odtwarzania",
+                "speed_presets": "Prędkość odtwarzania",
+                "speed_range": "Od {min}× do {max}×",
+                "tools": "Narzędzia",
+                "unmute": "Włącz dźwięk",
+                "volume": "Głośność",
+                "volume_level": "Poziom głośności"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Strzałka",
+            "arrow_down": "Strzałka w dół",
+            "arrow_left": "Strzałka w lewo",
+            "arrow_pentagon": "Strzałka pięciokątna",
+            "arrow_right": "Strzałka w prawo",
+            "arrow_up": "Strzałka w górę",
+            "chevron": "Szewron",
+            "circle": "Koło",
+            "cross": "Krzyżyk",
+            "diamond": "Romb",
+            "hexagon": "Sześciokąt",
+            "hexagon_wide": "Szeroki sześciokąt",
+            "line": "Linia",
+            "octagon": "Ośmiokąt",
+            "parallelogram": "Równoległobok",
+            "parallelogram_mirrored": "Odwrócony równoległobok",
+            "pentagon": "Pięciokąt",
+            "square": "Kwadrat",
+            "trapezoid": "Trapez",
+            "trapezoid_upside_down": "Odwrócony trapez",
+            "triangle": "Trójkąt",
+            "triangle_upside_down": "Odwrócony trójkąt"
+        },
+        "shapes_panel": {
+            "basic": "Podstawowe",
+            "lines": "Linie i strzałki"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Dodaj klatkę kluczową",
+                "back_to_animations": "Wróć do animacji",
+                "basic": "Podstawowe",
+                "basic_opacity": "Przezroczystość",
+                "basic_position": "Pozycja",
+                "basic_rotation": "Obrót",
+                "basic_scale": "Skala",
+                "keyframe": "Klatka kluczowa",
+                "pick_property_hint": "Wybierz właściwość do animowania. Po dotknięciu arkusz się zamknie i otworzy się jej panel, a klatka kluczowa zostanie umieszczona na wskaźniku odtwarzania z bieżącą wartością warstwy.",
+                "presets_need_one": "Gotowe animacje wymagają jednego elementu. Zaznacz pojedynczą warstwę, aby je zobaczyć.",
+                "title": "Animuj"
+            },
+            "easing": {
+                "title": "Łagodzenie"
+            },
+            "font_weight": {
+                "title": "Grubość czcionki"
+            },
+            "speed": {
+                "title": "Prędkość"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Kolory domyślne",
+                "eyedropper": "Wybierz kolor z ekranu",
+                "eyedropper_unsupported": "Twoja przeglądarka nie obsługuje zakraplacza",
+                "fill_linear": "liniowy",
+                "fill_radial": "kołowy",
+                "fill_solid": "jednolity",
+                "fill_type": "Typ wypełnienia",
+                "gradients_in_design": "Gradienty w projekcie",
+                "hex": "Kolor szesnastkowy",
+                "in_design": "W projekcie",
+                "title": "Kolor wypełnienia",
+                "use_color": "Użyj: {color}",
+                "use_gradient": "Użyj gradientu: {style}",
+                "use_transparent": "Przezroczysty"
+            },
+            "crop": {
+                "adjust_shape": "Dostosuj kształt kadrowania",
+                "aspect": "Proporcje",
+                "framing": "Kadrowanie",
+                "framing_hint": "Przeciągnij zdjęcie, aby zmienić kadr, lub róg, aby zmienić rozmiar okna kadrowania. Przewiń, aby powiększyć.",
+                "scale": "Skala"
+            },
+            "filters": {
+                "show_earlier": "Pokaż wcześniejsze filtry",
+                "show_more": "Pokaż więcej filtrów",
+                "swatch": "{label}, kolor: {color}",
+                "title": "Filtry"
+            },
+            "font": {
+                "all_fonts": "WSZYSTKIE CZCIONKI",
+                "applying": "Stosowanie czcionki",
+                "back": "Wróć do opcji tekstu",
+                "clear_search": "Wyczyść wyszukiwanie",
+                "clear_search_action": "Wyczyść wyszukiwanie",
+                "in_this_design": "W TYM PROJEKCIE",
+                "no_match": "Brak czcionek pasujących do „{query}”",
+                "no_match_hint": "Twibbonize korzysta z katalogu Google Fonts, a ta rodzina w nim nie występuje. Spróbuj krótszej frazy.",
+                "search_label": "Szukaj rodzin czcionek",
+                "search_placeholder": "Szukaj czcionek",
+                "title": "Rodzina czcionek",
+                "weight": "Grubość czcionki"
+            },
+            "gradient": {
+                "add_stop": "Dodaj punkt gradientu",
+                "angle": "Kąt",
+                "angle_dial": "Kąt gradientu: {degrees} stopni. Przeciągnij, aby zmienić",
+                "angle_dial_hint": "Przeciągnij, aby zmienić kąt gradientu",
+                "angle_input": "Kąt gradientu w stopniach",
+                "centre_unsupported": "Środek gradientu nie jest jeszcze obsługiwany przez renderer",
+                "stop": "Punkt gradientu {index} na {percent}%, {color}",
+                "stop_hint": "Przeciągnij, aby przesunąć, kliknij dwukrotnie, aby usunąć"
+            },
+            "image": {
+                "adjustment": "Korekta",
+                "adjustments": "Korekty",
+                "back_to_edit": "Wróć do karty Edycja",
+                "background_removal": "Usuwanie tła",
+                "compare": "Porównaj z oryginałem",
+                "removing": "Usuwanie…",
+                "removing_background": "Usuwanie tła",
+                "reset_adjustments": "Resetuj korekty",
+                "tools": "Narzędzia"
+            },
+            "keyframe": {
+                "add": "Dodaj klatkę kluczową",
+                "add_at_playhead": "Dodaj klatkę kluczową ({property}) na wskaźniku odtwarzania",
+                "add_at_playhead_short": "Dodaj klatkę kluczową na wskaźniku odtwarzania",
+                "add_lane_at_playhead": "Dodaj klatkę kluczową ({lane}) na wskaźniku odtwarzania",
+                "add_property": "Dodaj właściwość do animowania",
+                "all_lanes_added": "Każda właściwość, którą ta warstwa może animować, ma już ścieżkę",
+                "delete": "Usuń tę klatkę kluczową",
+                "diamond": "Klatka kluczowa ({lane}) w {seconds} s",
+                "easing": "Łagodzenie",
+                "easing_caps": "ŁAGODZENIE",
+                "first_no_easing": "Pierwsza klatka kluczowa nie ma łagodzenia",
+                "hex": "Kolor szesnastkowy",
+                "layer_blur": "Rozmycie warstwy",
+                "letter_spacing": "Odstępy między literami",
+                "line_height": "Interlinia",
+                "opacity": "Przezroczystość",
+                "opacity_percent": "Przezroczystość w procentach",
+                "position_x": "Pozycja X",
+                "position_y": "Pozycja Y",
+                "radius_bottom_left": "Promień lewego dolnego narożnika",
+                "radius_bottom_right": "Promień prawego dolnego narożnika",
+                "radius_top_left": "Promień lewego górnego narożnika",
+                "radius_top_right": "Promień prawego górnego narożnika",
+                "remove": "Usuń klatkę kluczową",
+                "remove_at_playhead": "Usuń klatkę kluczową ({property}) ze wskaźnika odtwarzania",
+                "rotation": "Obrót",
+                "scale": "Skala",
+                "shadow_blur": "Rozmycie cienia",
+                "shadow_color": "Kolor cienia",
+                "shadow_offset_x": "Przesunięcie cienia X",
+                "shadow_offset_y": "Przesunięcie cienia Y",
+                "shadow_spread": "Rozproszenie cienia",
+                "stroke_color": "Kolor obrysu",
+                "stroke_weight": "Grubość obrysu"
+            },
+            "layer": {
+                "page_background": "Tło strony",
+                "tab_animate": "Animuj",
+                "tabs_label": "Panel warstw",
+                "title": "Warstwy"
+            },
+            "page_preset": {
+                "group_label": "Gotowe rozmiary kanwy",
+                "landscape": "Pozioma",
+                "portrait": "Pionowa",
+                "square": "Kwadrat",
+                "story": "Relacja",
+                "tile_aria": "{name}, {width} na {height} pikseli"
+            },
+            "personalization": {
+                "act_as_placeholder": "Działaj jako miejsce na zdjęcie",
+                "allow_adjust_framing": "Zezwól na dopasowanie kadru",
+                "allow_adjust_framing_hint": "Wspierający mogą powiększać i przesuwać swoje zdjęcie w ramce.",
+                "allow_change_adjustments": "Zezwól na zmianę korekt",
+                "allow_change_adjustments_hint": "Wspierający mogą zmieniać jasność, kontrast i inne korekty.",
+                "allow_change_effect": "Zezwól na zmianę efektu",
+                "allow_change_effect_hint": "Wspierający mogą wybrać inny efekt dla tej warstwy.",
+                "allow_change_filter": "Zezwól na zmianę filtra",
+                "allow_change_filter_hint": "Wspierający mogą wybrać inny filtr dla tej warstwy.",
+                "allow_edit_text": "Zezwól na edycję tekstu",
+                "allow_edit_text_hint": "Wspierający mogą wpisać w tym tekście własne słowa.",
+                "allow_flip": "Zezwól na odbicie",
+                "allow_flip_hint": "Wspierający mogą odbić tę warstwę lustrzanie.",
+                "allow_move": "Zezwól na przesuwanie",
+                "allow_move_hint": "Wspierający mogą przeciągnąć tę warstwę w nowe miejsce.",
+                "allow_replace_media": "Zezwól na zamianę mediów",
+                "allow_replace_media_hint": "Wspierający mogą zamienić ten obraz na własne zdjęcie.",
+                "allow_resize": "Zezwól na zmianę rozmiaru",
+                "allow_resize_hint": "Wspierający mogą zmieniać rozmiar tej warstwy, przeciągając jej rogi i boki.",
+                "allow_rotate": "Zezwól na obracanie",
+                "allow_rotate_hint": "Wspierający mogą obrócić tę warstwę pod dowolnym kątem.",
+                "group_appearance": "Wygląd",
+                "group_arrange": "Układ",
+                "group_media": "Media",
+                "placeholder_hint": "Pokazuje puste miejsce, które wspierający mogą dotknąć, aby dodać swoje zdjęcie.",
+                "remove_background": "Usuń tło z ich zdjęcia",
+                "remove_background_hint": "Wycina wspierającego ze zdjęcia, aby projekt był widoczny wokół niego.",
+                "text_placeholder_hint": "Pokazuje ten tekst jako przykład, który wspierający zastąpią własnym."
+            },
+            "shape_effect": {
+                "colour": "Kolor efektu",
+                "distance": "Odległość",
+                "echo": "Echo",
+                "first_color": "Pierwszy kolor",
+                "first_colour": "Pierwszy kolor efektu",
+                "glitch": "Zakłócenie",
+                "glow": "Poświata",
+                "group_label": "Efekt kształtu",
+                "second_color": "Drugi kolor",
+                "second_colour": "Drugi kolor efektu",
+                "section": "Efekt",
+                "shadow": "Cień"
+            },
+            "text_effect": {
+                "colour": "Kolor efektu",
+                "curve": "Krzywa",
+                "distance": "Odległość",
+                "echo": "Echo",
+                "glow": "Poświata",
+                "group_label": "Efekt tekstu",
+                "outline": "Kontur",
+                "section": "Efekt",
+                "shape_group_label": "Kształt tekstu",
+                "splice": "Podział",
+                "title": "Efekty tekstu"
+            }
+        },
+        "templates": {
+            "empty_body": "Spróbuj krótszego lub bardziej ogólnego słowa.",
+            "empty_title": "Brak szablonów pasujących do „{query}”",
+            "error_title": "Nie udało się wczytać szablonów",
+            "none_body": "Wyszukaj motyw, np. urodziny lub ukończenie szkoły.",
+            "none_title": "Brak szablonów dla tego projektu",
+            "search_label": "Szukaj szablonów",
+            "search_placeholder": "Szukaj szablonów"
+        },
+        "text_panel": {
+            "add_template": "Dodaj szablon tekstu: {name}",
+            "add_text_box": "Dodaj pole tekstowe",
+            "empty_body": "Spróbuj krótszego lub bardziej ogólnego słowa.",
+            "empty_title": "Brak szablonów tekstu pasujących do „{query}”",
+            "error_title": "Nie udało się wczytać szablonów tekstu",
+            "none_body": "Zacznij od zwykłego pola tekstowego.",
+            "none_title": "Brak szablonów tekstu do wyświetlenia",
+            "search_label": "Szukaj szablonów tekstu",
+            "search_placeholder": "Szukaj szablonów tekstu"
+        },
+        "text_preset": {
+            "seed": "Dodaj tutaj swój tekst"
+        },
+        "textures": {
+            "apply_texture": "Zastosuj: {name}",
+            "category": {
+                "fabric": "Tkanina",
+                "grain": "Ziarno",
+                "grunge": "Grunge",
+                "paper": "Papier",
+                "print": "Druk"
+            },
+            "category_group_label": "Kategoria tekstur",
+            "empty_body": "Budujemy tę bibliotekę — wróć wkrótce.",
+            "empty_title": "Tekstur jeszcze tu nie ma",
+            "most_used": "Najczęściej używane",
+            "search_placeholder": "Szukaj tekstur"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Dodaj audio",
+                "add_tooltip": "Dodaj ścieżkę audio w tle",
+                "bar_aria": "{name} od {start}, czas trwania: {duration}",
+                "decoding": "Dekodowanie audio…",
+                "decoding_waveform": "Dekodowanie przebiegu fali…",
+                "default_name": "Audio",
+                "drop_to_add": "Upuść, aby dodać audio",
+                "kind_suffix": "· Audio",
+                "mute": "Wycisz ścieżkę",
+                "unmute": "Włącz dźwięk ścieżki",
+                "volume": "Głośność ścieżki",
+                "waveform_error": "Nie udało się wczytać przebiegu fali tej ścieżki."
+            },
+            "keyframe": {
+                "add": "Dodaj klatkę kluczową",
+                "add_at_playhead": "Dodaj klatkę kluczową na wskaźniku odtwarzania",
+                "add_tooltip": "Dodaj klatkę kluczową dla właściwości tej warstwy",
+                "diamond_aria": "Klatka kluczowa ({lane}) w {time}",
+                "diamond_hint": " · przeciągnij, aby zmienić czas, kliknij prawym przyciskiem, aby usunąć",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Promień narożnika",
+                    "layer_blur": "Rozmycie warstwy",
+                    "line_height": "Interlinia",
+                    "opacity": "Przezroczystość",
+                    "position": "Pozycja",
+                    "rotation": "Obrót",
+                    "scale": "Skala",
+                    "stroke": "Obrys"
+                },
+                "remove_lane": "Usuń klatki kluczowe ({lane})",
+                "remove_lane_from_layer": "Usuń klatki kluczowe ({lane}) z warstwy {layer}",
+                "segment_easing_aria": "Funkcja czasowa ({lane}) między {from} a {to}, obecnie: {easing}",
+                "segment_easing_title": "Funkcja czasowa · {easing}",
+                "welded_aria": ", przyklejona do krawędzi warstwy",
+                "welded_title": " · przyklejona do krawędzi warstwy"
+            },
+            "menu": {
+                "repeat_until_end": "Powtarzaj do końca"
+            },
+            "track": {
+                "bar_aria": "{name} od {start}, czas trwania: {duration}",
+                "bar_aria_end_glued": ", koniec przyklejony do warstwy",
+                "bar_aria_start_glued": ", początek przyklejony do warstwy",
+                "bar_tooltip": "{name} · {start}, {duration} ms · przeciągnij, aby przesunąć, przeciągnij krawędź, aby zmienić rozmiar (Alt = bez przyciągania)",
+                "bar_tooltip_sole": " · przeciągnięcie tej krawędzi przesuwa warstwę",
+                "clip_aria": "Klip {name}",
+                "clip_tooltip": "Przeciągnij, aby przesunąć warstwę w czasie · przeciągnij koniec, aby przyciąć (Alt = bez przyciągania)",
+                "collapse": "Zwiń",
+                "collapse_all": "Zwiń wszystkie warstwy",
+                "collapse_named": "Zwiń: {name}",
+                "delete_layer": "Usuń warstwę",
+                "delete_named": "Usuń: {name}",
+                "ends_at": "Kończy się o",
+                "expand": "Rozwiń",
+                "expand_named": "Rozwiń: {name}",
+                "hidden_lane_one": "{count} ukryta ścieżka",
+                "hidden_lane_other": "Ukryte ścieżki: {count}",
+                "hide": "Ukryj",
+                "hide_named": "Ukryj: {name}",
+                "lane_reorder_tooltip": "Przeciągnij, aby zmienić kolejność — wyższa ścieżka ma pierwszeństwo tam, gdzie animacje się nakładają",
+                "layer_animations": "Animacje warstwy",
+                "lock_layer": "Zablokuj warstwę",
+                "lock_named": "Zablokuj: {name}",
+                "remove_animation": "Usuń animację",
+                "remove_animation_aria": "Usuń animację {name} z warstwy {layer}",
+                "reorder_tooltip": "Przeciągnij, aby zmienić kolejność ścieżek — kolejność warstw na kanwie ustawia się w panelu warstw",
+                "show": "Pokaż",
+                "show_named": "Pokaż: {name}",
+                "split": "Podziel",
+                "starts_at": "Zaczyna się o",
+                "trim_end": "Przytnij koniec",
+                "trim_start": "Przytnij początek",
+                "trim_to": "Przytnij do {time}",
+                "unlock_layer": "Odblokuj warstwę",
+                "unlock_named": "Odblokuj: {name}"
+            },
+            "transport": {
+                "current_time_field": "Bieżący czas w milisekundach",
+                "duration_edge_aria": "Czas trwania strony: {seconds} s",
+                "duration_edge_tooltip": "Czas trwania strony {seconds} s · przeciągnij, aby zmienić, kliknij, aby podać dokładną wartość (Alt = bez przyciągania)",
+                "duration_max": "Maksymalnie {seconds} s",
+                "fit_to_width": "Dopasuj do szerokości",
+                "forward": "Do przodu",
+                "lengthen_page": "Wydłuż stronę",
+                "loop": "Odtwarzanie w pętli",
+                "page_duration": "Czas trwania strony",
+                "page_duration_field": "Czas trwania strony w milisekundach",
+                "resize_dock": "Zmień rozmiar osi czasu",
+                "rewind": "Przewiń do tyłu",
+                "shorten_page": "Skróć stronę",
+                "zoom": "Powiększenie osi czasu"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {

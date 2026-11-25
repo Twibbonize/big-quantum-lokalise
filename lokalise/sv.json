@@ -2842,7 +2842,9 @@
             "type": "Typ:",
             "size": "Storlek:",
             "type_image": "JPG, PNG eller SVG",
-            "maximum_size": "Högst 5 MB"
+            "maximum_size": "Högst 5 MB",
+            "abandoned": "Uppladdningen avbröts när lagret togs bort. Försök igen för att behålla den i ditt bibliotek.",
+            "failed": "Uppladdningen misslyckades. Kontrollera din anslutning och försök igen."
         },
         "toolbar": {
             "copy": "Kopia",
@@ -2871,7 +2873,119 @@
             "border_weight": "Gränsvikt",
             "corner_rounding": "Hörnrundning",
             "align": "Justera",
-            "effects": "Effekter"
+            "effects": "Effekter",
+            "animate": {
+                "amount": "Mängd",
+                "angle": "Vinkel",
+                "close": "Stäng animationsinställningar",
+                "delete_animation": "Ta bort animation",
+                "distance": "Avstånd",
+                "easing": "Easing",
+                "fade": "Tona",
+                "settings_aria": "Animationsinställningar"
+            },
+            "audio": {
+                "replace": "Ersätt",
+                "tools_aria": "Verktyg för ljudspår",
+                "trim": "Trimma",
+                "volume": "Volym"
+            },
+            "clip": {
+                "length": "Längd",
+                "split": "Dela",
+                "trim": "Trimma"
+            },
+            "entry": {
+                "animate": "Animera"
+            },
+            "image": {
+                "adjust": "Justera",
+                "background_removal_unavailable": "Borttagning av bakgrund är inte tillgänglig ännu",
+                "remove_background": "Ta bort bakgrund",
+                "remove_background_short": "Frilägg",
+                "replace": "Ersätt"
+            },
+            "keyframe": {
+                "blur": "Lageroskärpa",
+                "close": "Stäng keyframe-egenskaper",
+                "delete_keyframe": "Ta bort keyframe",
+                "letter_spacing": "Avstånd",
+                "line_height": "Radhöjd",
+                "opacity": "Opacitet",
+                "position": "Position",
+                "properties_aria": "Keyframe-egenskaper",
+                "rotation": "Rotation",
+                "scale": "Skala"
+            },
+            "layer_tools": {
+                "deselect": "Avmarkera lager",
+                "tools_aria": "Lagerverktyg"
+            },
+            "media": {
+                "adjust": "Justera",
+                "green_screen": "Greenscreen",
+                "replace": "Ersätt",
+                "trim": "Trimma"
+            },
+            "misc": {
+                "background_fill": "Bakgrundsfyllning",
+                "background_fill_short": "Fyllning",
+                "configure_qr": "Konfigurera QR-kod",
+                "edit_background_image": "Redigera bakgrundsbild",
+                "no_background_image": "Ingen bakgrundsbild ännu",
+                "replace_unavailable": "Ersätt (inte tillgängligt ännu)"
+            },
+            "opacity": {
+                "label": "Opacitet"
+            },
+            "shape": {
+                "corner_radius": "Hörnradie",
+                "corner_radius_short": "Radie",
+                "fill": "Fyllning",
+                "line_color": "Linjefärg",
+                "line_style_dots": "Punkter",
+                "line_style_long_dashes": "Långa streck",
+                "line_style_named": "Linjestil: {style}",
+                "line_style_short_dashes": "Korta streck",
+                "line_style_solid": "Heldragen",
+                "line_weight": "Linjetjocklek",
+                "stroke_color": "Konturfärg",
+                "stroke_color_short": "Kontur",
+                "stroke_weight": "Konturtjocklek",
+                "stroke_weight_short": "Tjocklek"
+            },
+            "speed": {
+                "custom_input": "Anpassad uppspelningshastighet",
+                "label": "Hastighet",
+                "playback_length": "Uppspelningslängd",
+                "playback_speed": "Uppspelningshastighet",
+                "range_hint": "Mellan {min}× och {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Minska teckenstorleken",
+                "font_family": "Typsnitt",
+                "font_family_named": "Typsnitt: {value}",
+                "font_size": "Teckenstorlek",
+                "font_weight": "Teckentjocklek",
+                "font_weight_named": "Teckentjocklek: {value}",
+                "increase_font_size": "Öka teckenstorleken",
+                "keyboard": "Tangentbord",
+                "line_height": "Radhöjd",
+                "spacing": "Avstånd",
+                "text_color": "Textfärg",
+                "weight": "Tjocklek"
+            },
+            "volume": {
+                "clip_hint": "Bara det här klippet. Ljud på tidslinjen behåller sin egen nivå.",
+                "label": "Volym",
+                "level": "Nivå",
+                "mute": "Ljud av",
+                "muted": "Ljudet är av",
+                "muted_hint": "Nivån behålls. Slå på ljudet igen så återgår klippet till {percent}%.",
+                "no_audio": "Den här videon har inget ljud.",
+                "slider": "Volymnivå",
+                "unmute": "Ljud på"
+            }
         },
         "confirmation": {
             "cancel": "Kassera",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Dokumentfärger",
             "default_colors": "Standardfärger"
         },
-        "graphic": "Grafisk"
+        "graphic": "Grafisk",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Nederst i mitten",
+                "bottom_left": "Nederst till vänster",
+                "bottom_right": "Nederst till höger",
+                "center_left": "Mitten till vänster",
+                "center_right": "Mitten till höger",
+                "top_center": "Överst i mitten",
+                "top_left": "Överst till vänster",
+                "top_right": "Överst till höger"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Slut",
+                "more_options": "Fler alternativ"
+            },
+            "direction": {
+                "bottom_left": "Nederst till vänster",
+                "bottom_right": "Nederst till höger",
+                "clockwise": "Medurs",
+                "counter_clockwise": "Moturs",
+                "from_the": "Från {place}",
+                "to_the": "Till {place}",
+                "top_left": "Överst till vänster",
+                "top_right": "Överst till höger"
+            },
+            "easing": {
+                "accelerate": "Accelerera",
+                "bounce": "Studsa",
+                "elastic": "Elastisk",
+                "impulse": "Impuls",
+                "natural": "Naturlig",
+                "overshoot": "Översvängning",
+                "slow_down": "Sakta ner",
+                "smooth": "Mjuk",
+                "swing": "Svänga"
+            },
+            "field": {
+                "amount": "Mängd",
+                "anchor_group": "Ankarpunkt",
+                "anchor_point": "Ankarpunkt",
+                "angle": "Vinkel",
+                "apply_effect_to": "Tillämpa effekt på",
+                "axis": "Axel",
+                "choose_easing": "Välj easing",
+                "distance": "Avstånd",
+                "duration": "Längd",
+                "edge": "Kant",
+                "fade": "Tona",
+                "from_noun": "Från {noun}",
+                "horizontal": "Horisontell",
+                "noun_blur": "oskärpa",
+                "noun_opacity": "opacitet",
+                "noun_size": "storlek",
+                "opacity": "Opacitet",
+                "order": "Ordning",
+                "position": "Position",
+                "rotation": "Rotation",
+                "rotation_direction": "Rotationsriktning",
+                "scale": "Skala",
+                "smoothing": "Utjämning",
+                "to_noun": "Till {noun}",
+                "vertical": "Vertikal"
+            },
+            "mode": {
+                "arrives": "Anländer",
+                "departs": "Lämnar",
+                "in": "In",
+                "out": "Ut"
+            },
+            "panel": {
+                "animation": "Animation",
+                "animations_tab": "Animationer",
+                "basic": "Grundläggande",
+                "changing_note": "Välj en ersättare. Den tar över platsen och längden för animationen du byter ut.",
+                "corner_radius": "Hörnradie",
+                "easing": "Easing",
+                "fade": "Tona",
+                "keyframe_tab": "Keyframe",
+                "layer_blur": "Lageroskärpa",
+                "line_height": "Radhöjd",
+                "more_options": "Fler alternativ",
+                "motion": "Rörelse",
+                "needs_one_element": "Animationsförval kräver ett element. Markera ett enskilt lager för att se dem.",
+                "paste_animation": "Klistra in animation",
+                "scale": "Skala",
+                "slide": "Glid",
+                "stroke": "Kontur",
+                "text_animation": "Textanimation"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Visa",
+                    "label": "Visa"
+                },
+                "blur": {
+                    "label": "Tona in med oskärpa"
+                },
+                "blur_scale": {
+                    "caption": "Oskärpa och skala",
+                    "label": "Tona in med oskärpa och skala"
+                },
+                "blur_slide": {
+                    "caption": "Oskärpa och glid",
+                    "label": "Tona in med oskärpa och glid"
+                },
+                "fade": {
+                    "caption": "Tona",
+                    "label": "Tona"
+                },
+                "grow": {
+                    "caption": "Pop",
+                    "label": "Poppa in"
+                },
+                "mask_center": {
+                    "caption": "Mask från mitten",
+                    "label": "Maskavslöjande från mitten"
+                },
+                "mask_reveal": {
+                    "caption": "Maskavslöjande",
+                    "label": "Maskavslöjande från en kant"
+                },
+                "mask_slide": {
+                    "caption": "Mask och glid",
+                    "label": "Maskavslöjande med glid"
+                },
+                "move_scale": {
+                    "caption": "Flytta och skala",
+                    "label": "Flytta och skala in"
+                },
+                "rotate_left": {
+                    "label": "Rotera från vänster"
+                },
+                "rotate_right": {
+                    "label": "Rotera från höger"
+                },
+                "shrink": {
+                    "caption": "Stor",
+                    "label": "Stor in"
+                },
+                "slide": {
+                    "caption": "Glid",
+                    "label": "Glid in"
+                },
+                "slide_from_bottom": {
+                    "label": "Glid från botten"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Nederst till vänster",
+                    "label": "Glid från nederst till vänster"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Nederst till höger",
+                    "label": "Glid från nederst till höger"
+                },
+                "slide_from_left": {
+                    "label": "Glid från vänster"
+                },
+                "slide_from_right": {
+                    "label": "Glid från höger"
+                },
+                "slide_from_top": {
+                    "label": "Glid från toppen"
+                },
+                "slide_from_top_left": {
+                    "caption": "Överst till vänster",
+                    "label": "Glid från överst till vänster"
+                },
+                "slide_from_top_right": {
+                    "caption": "Överst till höger",
+                    "label": "Glid från överst till höger"
+                },
+                "spin": {
+                    "caption": "Snurra",
+                    "label": "Snurra in"
+                },
+                "spin_scale": {
+                    "caption": "Snurra och skala",
+                    "label": "Snurra och skala in"
+                },
+                "twist": {
+                    "caption": "Vrid",
+                    "label": "Vrid in"
+                }
+            },
+            "property": {
+                "change_text": "Ändra text",
+                "morph": "Morpha",
+                "move": "Flytta",
+                "opacity": "Opacitet",
+                "scale": "Skala"
+            },
+            "section": {
+                "fade": "Tona",
+                "mask": "Mask",
+                "scale": "Skala",
+                "slide": "Glid",
+                "transform": "Transformera"
+            },
+            "text": {
+                "backward": "Bakåt",
+                "forward": "Framåt",
+                "letters": "Bokstäver",
+                "summary_overlap": "Varje {unit} startar när den föregående är {percent}% klar.",
+                "summary_sequential": "Varje {unit} är klar innan nästa startar.",
+                "summary_together": "Varje {unit} rör sig samtidigt.",
+                "summary_whole": "Hela textblocket animeras som en enhet.",
+                "words": "Ord"
+            },
+            "type": {
+                "fade_in": "Tona in",
+                "fade_out": "Tona ut",
+                "line_height": "Radhöjd",
+                "radius": "Radie",
+                "resize_in": "Storlek in",
+                "resize_out": "Storlek ut",
+                "rotate_in": "Rotera in",
+                "rotate_out": "Rotera ut",
+                "scale_in": "Skala in",
+                "scale_out": "Skala ut",
+                "slide_in": "Glid in",
+                "slide_out": "Glid ut",
+                "spacing": "Avstånd",
+                "stroke": "Kontur"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Lägg till ditt foto för att fortsätta.",
+                    "gesture": {
+                        "frameDesktop": "Dra för att flytta · Scrolla för att zooma",
+                        "frameMobile": "Dra för att flytta, nyp för att zooma",
+                        "handles": "Ändra storlek från hörn och sidor, rotera från toppen",
+                        "move": "Dra för att flytta",
+                        "moveOrHandles": "Dra för att flytta, eller använd handtagen",
+                        "resize": "Dra i ett hörn eller en sida för att ändra storlek",
+                        "rotate": "Dra i det övre handtaget för att rotera",
+                        "rotateDesktop": "Dra i linjalen eller använd piltangenterna",
+                        "rotateMobile": "Dra i linjalen för att rotera"
+                    },
+                    "hint": {
+                        "pickDesktop": "Klicka på ett markerat område eller välj ett lager till vänster",
+                        "pickMobile": "Tryck på ett markerat område eller välj ett lager nedan",
+                        "previewDesktop": "Förhandsgranskar din design. Klicka på den för att fortsätta redigera.",
+                        "previewMobile": "Förhandsgranskar din design. Tryck på den för att fortsätta redigera."
+                    },
+                    "layer": {
+                        "addPhoto": "Lägg till ditt foto",
+                        "text": "Text: {text}",
+                        "yourPhoto": "Ditt foto",
+                        "yourText": "Din text"
+                    },
+                    "layers": {
+                        "all": "Alla lager",
+                        "photo": "Foto",
+                        "sheetDescription": "Allt i den här designen som du kan ändra.",
+                        "title": "Lager"
+                    },
+                    "photoError": "Vi kunde inte använda det fotot. Prova en annan bild.",
+                    "preview": {
+                        "backToEditing": "Tillbaka till redigering"
+                    },
+                    "rotation": {
+                        "aria": "Rotation",
+                        "value": "one:# grad|other:# grader"
+                    },
+                    "tools": {
+                        "adjust": "Justera",
+                        "aria": "Lagerverktyg",
+                        "editText": "Redigera text",
+                        "flip": "Vänd",
+                        "locked": "Storlek och position är bestämda av skaparen",
+                        "replace": "Ersätt",
+                        "textAria": "Textverktyg",
+                        "zoomIn": "Zooma in",
+                        "zoomOut": "Zooma ut"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} har lagts till på tidslinjen.",
+                "too_big": "{name} är större än {limit}.",
+                "too_long": "{name} är längre än {minutes} minuter.",
+                "too_many": "Bara {count} filer åt gången.",
+                "wrong_type": "{name} kan inte läggas till – bara bilder, videor och SVG-filer."
+            }
+        },
+        "catalogue": {
+            "error_body": "Kontrollera din anslutning och försök igen.",
+            "loading_more": "Läser in fler"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Kassera utkast",
+                "description_unsaved": "Den här designen är inte sparad. Om du går tillbaka raderas den för gott – inklusive lager, stilar och animation.",
+                "title": "Kassera utkastet “{title}”?"
+            },
+            "save": {
+                "description": "När den är sparad går det inte längre att redigera.",
+                "saving": "Sparar…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Anpassa till skärmen"
+        },
+        "graphic_panel": {
+            "add": "Lägg till {name}",
+            "add_failed": "Den här grafiken kunde inte läggas till. Försök igen.",
+            "empty_body": "Prova ett kortare eller mer allmänt ord, som stjärna eller hjärta.",
+            "empty_title": "Ingen grafik matchar “{query}”",
+            "error_title": "Grafik kunde inte läsas in",
+            "none_title": "Ingen grafik att visa",
+            "search_label": "Sök grafik",
+            "search_placeholder": "Sök grafik"
+        },
+        "header": {
+            "redo": "Gör om",
+            "saving": "Sparar…",
+            "undo": "Ångra",
+            "untitled_design": "Namnlös design"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Fotoplats"
+            },
+            "menu": {
+                "align_center": "Centrera",
+                "bring_forward": "Flytta framåt",
+                "bring_to_front": "Placera längst fram",
+                "detach_image": "Lösgör bild",
+                "flip_horizontal": "Vänd horisontellt",
+                "flip_vertical": "Vänd vertikalt",
+                "replace_image": "Ersätt bild",
+                "send_backward": "Flytta bakåt",
+                "send_to_back": "Placera längst bak",
+                "set_as_background_image": "Använd som bakgrundsbild",
+                "set_as_background_video": "Använd som bakgrundsvideo",
+                "set_background_as_image_layer": "Använd bakgrunden som bildlager",
+                "set_background_as_video_layer": "Använd bakgrunden som videolager",
+                "sheet_title": "Lageralternativ",
+                "show_layers": "Visa lager"
+            },
+            "pill": {
+                "duplicate": "Duplicera lager",
+                "more": "Fler lageråtgärder",
+                "remove": "Ta bort lager",
+                "toolbar": "Lageråtgärder"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Kopplingskod klar: {code}. Ge den till din AI-klient.",
+                "connecting": "Skapar en kopplingskod.",
+                "failed": "Det gick inte att ansluta. {reason}",
+                "reconnecting": "Anslutningen bröts. Försöker ansluta igen."
+            },
+            "clipboard_blocked": "Din webbläsare blockerade urklippet. {hint}",
+            "connect": "Anslut",
+            "connecting": "Ansluter…",
+            "copied_address_announcement": "Serveradressen kopierades",
+            "copied_code_announcement": "Kopplingskoden kopierades",
+            "copy_address_hint": "Markera adressen och kopiera den manuellt.",
+            "copy_code": "Kopiera kod",
+            "copy_code_hint": "Markera koden och kopiera den manuellt.",
+            "copy_server_address": "Kopiera MCP-serveradressen",
+            "disconnect": "Koppla från",
+            "error_fallback": "Kopplingstjänsten svarade inte. Kontrollera din anslutning och försök igen.",
+            "guide": {
+                "fresh_code": "Om en kod slutar fungera trycker du på Koppla från och ansluter igen för att få en ny.",
+                "how_to_set_up": "Så här ställer du in det",
+                "step_add_body": "Lägg till Twibbonize i din AI-klient med adressen nedan. I Claude Code kör du",
+                "step_add_title": "Lägg till Twibbonize i din AI-klient",
+                "step_pair_body": "Säg “koppla med Twibbonize-redigeraren” och ge den koden ovan.",
+                "step_pair_title": "Be den koppla",
+                "where_to_paste": "Var klistrar jag in den här koden?"
+            },
+            "lead": {
+                "code_ready_sentence": "Klistra in den i Claude och be den koppla. Arbetsytan ritar en ram runt sidan medan Claude arbetar.",
+                "code_ready_title": "Ge den här koden till din AI-klient",
+                "connecting_sentence": "Det tar en liten stund.",
+                "connecting_title": "Skapar en kopplingskod",
+                "disconnected_sentence": "Claude Desktop och Claude Code kan lägga till lager, skriva text, ställa in animationer och läsa vad som finns på arbetsytan.",
+                "disconnected_title": "Ta med en AI-klient in i den här designen",
+                "failed_title": "Det gick inte att ansluta",
+                "reconnecting_sentence": "Länken till din AI-klient bröts. Försöker återställa den.",
+                "reconnecting_title": "Ansluter igen",
+                "unavailable_sentence": "Den här versionen av redigeraren har ingen AI-anslutning konfigurerad, så det finns ännu inget att ansluta till.",
+                "unavailable_title": "MCP är inte aktiverat här"
+            },
+            "pairing_code_label": "Kopplingskod: {code}"
+        },
+        "media": {
+            "add_asset": "Lägg till {name}",
+            "dismiss_error": "Stäng",
+            "empty_body": "Lägg till en bild-, video- eller ljudfil nedan så finns den kvar här under resten av sessionen.",
+            "empty_narrowed_body": "Rensa sökningen eller välj en annan typ för att se allt du har lagt till.",
+            "empty_narrowed_title": "Inga träffar",
+            "empty_title": "Inget uppladdat ännu",
+            "filter": {
+                "audio": "Ljud",
+                "images": "Bilder"
+            },
+            "filter_group_label": "Mediatyp",
+            "make_an_image": "Skapa en bild",
+            "make_image_unavailable": "Bildgenerering är inte tillgänglig ännu",
+            "search_placeholder": "Sök media",
+            "upload_button": "Ladda upp bild, video eller ljud",
+            "uploads_heading": "Uppladdningar"
+        },
+        "page_bar": {
+            "group_label": "Zoomkontroller",
+            "zoom_menu": "Zoomnivå, {percent}%"
+        },
+        "panel": {
+            "loading": "Läser in {panel}…"
+        },
+        "photo": {
+            "add_by": "Lägg till foto av {name}",
+            "add_described": "Lägg till foto: {description}",
+            "credit": "Foton från",
+            "empty_body": "Prova ett kortare eller mer allmänt ord, som strand eller stad.",
+            "empty_title": "Inga foton matchar “{query}”",
+            "error_title": "Foton kunde inte läsas in",
+            "none_title": "Inga foton att visa",
+            "search_label": "Sök foton",
+            "search_placeholder": "Sök foton"
+        },
+        "qr": {
+            "add_logo": "Lägg till logotyp",
+            "add_to_design": "Lägg till i designen",
+            "background_colour_label": "Bakgrundsfärg",
+            "code_colour_label": "Kodfärg",
+            "code_label": "Kod",
+            "link_input_label": "Länk till QR-kod",
+            "link_label": "Länk",
+            "logo_fallback_name": "Logotypbild",
+            "logo_label": "Logotyp",
+            "remove_logo": "Ta bort logotyp"
+        },
+        "rail": {
+            "aria_label": "Designbibliotek",
+            "graphic": "Grafik",
+            "help": "Hjälp",
+            "layers": "Lager",
+            "mcp": "MCP",
+            "media": "Media",
+            "photo": "Foton",
+            "qr_code": "QR-kod",
+            "shapes": "Former",
+            "templates": "Mallar",
+            "textures": "Texturer",
+            "tools": "Verktyg"
+        },
+        "save": {
+            "failed": "Din design kunde inte sparas. Försök igen."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Ljusstyrka",
+                "compare": "Jämför med originalet",
+                "contrast": "Kontrast",
+                "grayscale": "Gråskala",
+                "group": {
+                    "basic": "Grundläggande",
+                    "refinements": "Finjusteringar"
+                },
+                "hue_rotate": "Nyansrotation",
+                "reset": "Återställ justeringar",
+                "saturation": "Mättnad",
+                "title": "Justeringar"
+            },
+            "color": {
+                "trigger": "Färg"
+            },
+            "common": {
+                "layer_blur": "Lageroskärpa",
+                "layer_blur_stepper": "Lageroskärpa"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Fritt format",
+                    "landscape": "Liggande",
+                    "original": "Original",
+                    "portrait": "Stående",
+                    "square": "Kvadrat",
+                    "story": "Story",
+                    "widescreen": "Bredbild"
+                },
+                "shape": {
+                    "circle": "Cirkel",
+                    "diamond": "Romb",
+                    "half_circle": "Halvcirkel",
+                    "oval": "Oval",
+                    "parallelogram": "Parallellogram",
+                    "rounded": "Rundad"
+                }
+            },
+            "filter": {
+                "cool": "Sval",
+                "duotone": "Duotone",
+                "mono": "Mono",
+                "original": "Original",
+                "vivid": "Levande",
+                "warm": "Varm"
+            },
+            "font_weight": {
+                "black": "Black",
+                "extra_bold": "ExtraBold",
+                "extra_light": "ExtraLight",
+                "medium": "Medium",
+                "regular": "Regular",
+                "semibold": "SemiBold",
+                "thin": "Thin"
+            },
+            "frame": {
+                "colour": "Ramfärg"
+            },
+            "green_screen": {
+                "choose_colour": "Välj en färg",
+                "colour": "Färg",
+                "compare": "Jämför med originalet",
+                "eyedropper": "Välj en färg från arbetsytan",
+                "key_colour": "Nyckelfärg {hex}",
+                "loose": "Löst",
+                "nothing_found": "Ingen bakgrundsfärg hittades.",
+                "precise": "Exakt",
+                "preset": {
+                    "bright_blue": "Klarblå",
+                    "bright_green": "Klargrön",
+                    "chroma_blue": "Chromablå",
+                    "chroma_green": "Chromagrön"
+                },
+                "presets": "Vanliga bakgrundsfärger",
+                "remove": "Ta bort greenscreen",
+                "title": "Greenscreen"
+            },
+            "image": {
+                "corner_radius": "Hörnradie",
+                "corner_radius_stepper": "Hörnradie",
+                "per_corner": "Redigera enskilda hörn",
+                "per_corner_unavailable": "Redigering av enskilda hörn är inte tillgänglig ännu"
+            },
+            "keypad": {
+                "value_field": "Värde för {label}"
+            },
+            "line": {
+                "colour": "Linjefärg",
+                "style": {
+                    "dots": "Punkter",
+                    "long_dashes": "Långa streck",
+                    "short_dashes": "Korta streck",
+                    "solid": "Heldragen"
+                },
+                "style_trigger": "Linjestil: {style}",
+                "weight": "Linjetjocklek",
+                "weight_trigger": "Linjetjocklek {weight}"
+            },
+            "media": {
+                "heading": "Media"
+            },
+            "page": {
+                "size_capped": "Max {max} px – proportionerna behålls"
+            },
+            "pages": {
+                "title": "Sidor"
+            },
+            "photo_slot": {
+                "enable": "Använd som fotoplats",
+                "key_field": "Nyckel (unik)",
+                "key_required": "Nyckel krävs",
+                "key_taken": "Nyckeln används redan av en annan plats",
+                "label_field": "Etikett (visas för slutanvändaren)",
+                "on": "Fotoplats",
+                "remove": "Ta bort fotoplats"
+            },
+            "qr": {
+                "add_logo": "Lägg till logotyp",
+                "background_colour": "Bakgrundsfärg",
+                "code": "Kod",
+                "code_colour": "Kodfärg",
+                "link": "Länk",
+                "link_input": "Länk till QR-kod",
+                "logo": "Logotyp",
+                "remove_logo": "Ta bort logotyp"
+            },
+            "root": {
+                "background_image": "Bakgrundsbild",
+                "edit_background": "Redigera bakgrundsbild",
+                "fill": "Fyllning",
+                "fill_gradient": "Toning",
+                "page_height": "Sidhöjd",
+                "page_width": "Sidbredd",
+                "ratio_lock": "Lås bildförhållandet",
+                "ratio_unlock": "Lås upp bildförhållandet",
+                "rotate_left": "Rotera bakgrunden åt vänster",
+                "rotate_right": "Rotera bakgrunden åt höger"
+            },
+            "scalar": {
+                "clip_length": "Längd",
+                "corner_radius": "Hörnradie",
+                "font_size": "Teckenstorlek",
+                "layer_blur": "Lageroskärpa",
+                "letter_spacing": "Teckenavstånd",
+                "line_height": "Radhöjd",
+                "opacity": "Opacitet",
+                "speed": "Hastighet",
+                "stroke_width": "Konturbredd",
+                "volume": "Volym"
+            },
+            "shape": {
+                "corner_radius": "Hörnradie",
+                "corner_radius_stepper": "Hörnradie",
+                "fill": "Fyllning",
+                "fill_gradient": "Toning",
+                "fill_mixed": "Blandad",
+                "fill_transparent": "Genomskinlig",
+                "stroke": "Kontur",
+                "stroke_color": "Konturfärg",
+                "stroke_style": {
+                    "dots": "Punkter",
+                    "long_dashes": "Långa streck",
+                    "short_dashes": "Korta streck",
+                    "solid": "Heldragen"
+                },
+                "stroke_style_select": "Konturstil",
+                "stroke_transparent": "Genomskinlig",
+                "stroke_weight": "Konturtjocklek"
+            },
+            "svg": {
+                "path_colour": "Färg {index}"
+            },
+            "swatch": {
+                "more_colours": "Fler färger"
+            },
+            "text": {
+                "align": {
+                    "justify": "Marginaljustera"
+                },
+                "alignment": "Justering",
+                "edit_text": "Redigera text",
+                "font_family": "Typsnitt",
+                "font_family_select": "Typsnitt",
+                "font_size": "Teckenstorlek",
+                "italic_unavailable": "Det här typsnittet har ingen kursiv i den här tjockleken",
+                "letter_spacing_stepper": "Teckenavstånd",
+                "line_height": "Radhöjd",
+                "line_height_stepper": "Radhöjd",
+                "list": "Lista",
+                "list_bulleted": "Punktlista",
+                "list_numbered": "Numrerad lista",
+                "list_style": "Liststil",
+                "text_case": "Versaler\/gemener",
+                "text_color": "Textfärg",
+                "text_style": "Textstil",
+                "weight": "Tjocklek"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Justera nedtill",
+                    "center_x": "Centrera horisontellt",
+                    "center_y": "Centrera vertikalt",
+                    "left": "Justera till vänster",
+                    "right": "Justera till höger",
+                    "top": "Justera upptill"
+                },
+                "align_to_page": "Justera mot sidan",
+                "opacity": "Opacitet",
+                "position": "Position",
+                "position_x": "Position X",
+                "position_y": "Position Y",
+                "rotation": "Rotation",
+                "scale": "Skala"
+            },
+            "video": {
+                "adjust": "Justera",
+                "audio": "Ljud",
+                "clip_runs": "klippet varar {length}",
+                "corner_radius": "Hörnradie",
+                "corner_radius_stepper": "Hörnradie",
+                "green_screen": "Greenscreen",
+                "loop": "Upprepa tills designen slutar",
+                "mute": "Ljud av",
+                "muted": "Ljudet är av",
+                "no_audio": "Den här videon har inget ljud.",
+                "playback": "Uppspelning",
+                "replace": "Ersätt video",
+                "speed": "Hastighet",
+                "speed_custom_input": "Anpassad uppspelningshastighet",
+                "speed_presets": "Uppspelningshastighet",
+                "speed_range": "Mellan {min}× och {max}×",
+                "tools": "Verktyg",
+                "unmute": "Ljud på",
+                "volume": "Volym",
+                "volume_level": "Volymnivå"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Pil",
+            "arrow_down": "Pil nedåt",
+            "arrow_left": "Pil åt vänster",
+            "arrow_pentagon": "Femhörnig pil",
+            "arrow_right": "Pil åt höger",
+            "arrow_up": "Pil uppåt",
+            "chevron": "Vinkel",
+            "circle": "Cirkel",
+            "cross": "Kors",
+            "diamond": "Romb",
+            "hexagon": "Sexhörning",
+            "hexagon_wide": "Bred sexhörning",
+            "line": "Linje",
+            "octagon": "Åttahörning",
+            "parallelogram": "Parallellogram",
+            "parallelogram_mirrored": "Speglad parallellogram",
+            "pentagon": "Femhörning",
+            "square": "Kvadrat",
+            "trapezoid": "Trapets",
+            "trapezoid_upside_down": "Upp-och-nedvänd trapets",
+            "triangle": "Triangel",
+            "triangle_upside_down": "Upp-och-nedvänd triangel"
+        },
+        "shapes_panel": {
+            "basic": "Grundläggande",
+            "lines": "Linjer och pilar"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Lägg till keyframe",
+                "back_to_animations": "Tillbaka till animationer",
+                "basic": "Grundläggande",
+                "basic_opacity": "Opacitet",
+                "basic_position": "Position",
+                "basic_rotation": "Rotation",
+                "basic_scale": "Skala",
+                "keyframe": "Keyframe",
+                "pick_property_hint": "Välj egenskapen som ska få en keyframe. När du trycker på en stängs bladet och dess panel öppnas, med keyframen redan placerad vid uppspelningsmarkören med lagrets nuvarande värde.",
+                "presets_need_one": "Animationsförval kräver ett element. Markera ett enskilt lager för att se dem.",
+                "title": "Animera"
+            },
+            "easing": {
+                "title": "Easing"
+            },
+            "font_weight": {
+                "title": "Teckentjocklek"
+            },
+            "speed": {
+                "title": "Hastighet"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Standardfärger",
+                "eyedropper": "Välj färg från skärmen",
+                "eyedropper_unsupported": "Din webbläsare stöder inte pipetten",
+                "fill_linear": "linjär",
+                "fill_radial": "radiell",
+                "fill_solid": "enfärgad",
+                "fill_type": "Fyllningstyp",
+                "gradients_in_design": "Toningar i designen",
+                "hex": "Hex-färg",
+                "in_design": "I designen",
+                "title": "Fyllningsfärg",
+                "use_color": "Använd {color}",
+                "use_gradient": "Använd {style} toning",
+                "use_transparent": "Genomskinlig"
+            },
+            "crop": {
+                "adjust_shape": "Justera beskärningsformen",
+                "aspect": "Bildförhållande",
+                "framing": "Utsnitt",
+                "framing_hint": "Dra i fotot för att ändra utsnittet, eller i ett hörn för att ändra storlek på beskärningsfönstret. Scrolla för att zooma.",
+                "scale": "Skala"
+            },
+            "filters": {
+                "show_earlier": "Visa tidigare filter",
+                "show_more": "Visa fler filter",
+                "swatch": "{label}-färg: {color}",
+                "title": "Filter"
+            },
+            "font": {
+                "all_fonts": "ALLA TYPSNITT",
+                "applying": "Tillämpar typsnitt",
+                "back": "Tillbaka till textalternativ",
+                "clear_search": "Rensa sökning",
+                "clear_search_action": "Rensa sökning",
+                "in_this_design": "I DEN HÄR DESIGNEN",
+                "no_match": "Inga typsnitt matchar “{query}”",
+                "no_match_hint": "Twibbonize hämtar från katalogen Google Fonts, och den här typsnittsfamiljen finns inte där. Prova ett kortare sökord.",
+                "search_label": "Sök typsnittsfamiljer",
+                "search_placeholder": "Sök typsnitt",
+                "title": "Typsnitt",
+                "weight": "Teckentjocklek"
+            },
+            "gradient": {
+                "add_stop": "Lägg till toningsstopp",
+                "angle": "Vinkel",
+                "angle_dial": "Toningens vinkel, {degrees} grader. Dra för att ändra",
+                "angle_dial_hint": "Dra för att ändra toningens vinkel",
+                "angle_input": "Toningens vinkel i grader",
+                "centre_unsupported": "Toningens mittpunkt stöds inte av renderaren ännu",
+                "stop": "Toningsstopp {index} vid {percent}%, {color}",
+                "stop_hint": "Dra för att flytta, dubbelklicka för att ta bort"
+            },
+            "image": {
+                "adjustment": "Justering",
+                "adjustments": "Justeringar",
+                "back_to_edit": "Tillbaka till fliken Redigera",
+                "background_removal": "Borttagning av bakgrund",
+                "compare": "Jämför med originalet",
+                "removing": "Tar bort…",
+                "removing_background": "Tar bort bakgrunden",
+                "reset_adjustments": "Återställ justeringar",
+                "tools": "Verktyg"
+            },
+            "keyframe": {
+                "add": "Lägg till keyframe",
+                "add_at_playhead": "Lägg till {property}-keyframe vid uppspelningsmarkören",
+                "add_at_playhead_short": "Lägg till en keyframe vid uppspelningsmarkören",
+                "add_lane_at_playhead": "Lägg till en {lane}-keyframe vid uppspelningsmarkören",
+                "add_property": "Lägg till egenskap att animera",
+                "all_lanes_added": "Alla egenskaper som det här lagret kan animera med keyframes har redan ett spår",
+                "delete": "Ta bort den här keyframen",
+                "diamond": "{lane}-keyframe vid {seconds} s",
+                "easing": "Easing",
+                "easing_caps": "EASING",
+                "first_no_easing": "Den första keyframen har ingen easing",
+                "hex": "Hex-färg",
+                "layer_blur": "Lageroskärpa",
+                "letter_spacing": "Teckenavstånd",
+                "line_height": "Radhöjd",
+                "opacity": "Opacitet",
+                "opacity_percent": "Opacitet i procent",
+                "position_x": "Position X",
+                "position_y": "Position Y",
+                "radius_bottom_left": "Hörnradie nere till vänster",
+                "radius_bottom_right": "Hörnradie nere till höger",
+                "radius_top_left": "Hörnradie uppe till vänster",
+                "radius_top_right": "Hörnradie uppe till höger",
+                "remove": "Ta bort keyframe",
+                "remove_at_playhead": "Ta bort {property}-keyframe vid uppspelningsmarkören",
+                "rotation": "Rotation",
+                "scale": "Skala",
+                "shadow_blur": "Skuggoskärpa",
+                "shadow_color": "Skuggfärg",
+                "shadow_offset_x": "Skuggförskjutning X",
+                "shadow_offset_y": "Skuggförskjutning Y",
+                "shadow_spread": "Skuggspridning",
+                "stroke_color": "Konturfärg",
+                "stroke_weight": "Konturtjocklek"
+            },
+            "layer": {
+                "page_background": "Sidbakgrund",
+                "tab_animate": "Animera",
+                "tabs_label": "Lagerpanel",
+                "title": "Lager"
+            },
+            "page_preset": {
+                "group_label": "Förinställda storlekar för arbetsytan",
+                "landscape": "Liggande",
+                "portrait": "Stående",
+                "square": "Kvadrat",
+                "story": "Story",
+                "tile_aria": "{name}, {width} gånger {height} pixlar"
+            },
+            "personalization": {
+                "act_as_placeholder": "Fungera som platshållare",
+                "allow_adjust_framing": "Tillåt justering av utsnitt",
+                "allow_adjust_framing_hint": "Supportrar kan zooma och flytta sitt foto inuti ramen.",
+                "allow_change_adjustments": "Tillåt ändring av justeringar",
+                "allow_change_adjustments_hint": "Supportrar kan ändra ljusstyrka, kontrast och andra justeringar.",
+                "allow_change_effect": "Tillåt ändring av effekt",
+                "allow_change_effect_hint": "Supportrar kan välja en annan effekt för det här lagret.",
+                "allow_change_filter": "Tillåt ändring av filter",
+                "allow_change_filter_hint": "Supportrar kan välja ett annat filter för det här lagret.",
+                "allow_edit_text": "Tillåt redigering av text",
+                "allow_edit_text_hint": "Supportrar kan skriva sina egna ord i den här texten.",
+                "allow_flip": "Tillåt vändning",
+                "allow_flip_hint": "Supportrar kan spegla det här lagret.",
+                "allow_move": "Tillåt flytt",
+                "allow_move_hint": "Supportrar kan dra det här lagret till en ny plats.",
+                "allow_replace_media": "Tillåt byte av media",
+                "allow_replace_media_hint": "Supportrar kan byta ut den här bilden mot sitt eget foto.",
+                "allow_resize": "Tillåt ändring av storlek",
+                "allow_resize_hint": "Supportrar kan ändra storlek på det här lagret genom att dra i hörn och sidor.",
+                "allow_rotate": "Tillåt rotation",
+                "allow_rotate_hint": "Supportrar kan vrida det här lagret till valfri vinkel.",
+                "group_appearance": "Utseende",
+                "group_arrange": "Ordna",
+                "group_media": "Media",
+                "placeholder_hint": "Visar en tom plats som supportrar kan trycka på för att lägga till sitt foto.",
+                "remove_background": "Ta bort bakgrunden från deras foto",
+                "remove_background_hint": "Friställer supportern från fotot så att din design syns runt personen.",
+                "text_placeholder_hint": "Visar den här texten som ett exempel som supportrar ersätter med sin egen."
+            },
+            "shape_effect": {
+                "colour": "Effektfärg",
+                "distance": "Avstånd",
+                "echo": "Eko",
+                "first_color": "Första färgen",
+                "first_colour": "Första effektfärgen",
+                "glitch": "Glitch",
+                "glow": "Sken",
+                "group_label": "Formeffekt",
+                "second_color": "Andra färgen",
+                "second_colour": "Andra effektfärgen",
+                "section": "Effekt",
+                "shadow": "Skugga"
+            },
+            "text_effect": {
+                "colour": "Effektfärg",
+                "curve": "Kurva",
+                "distance": "Avstånd",
+                "echo": "Eko",
+                "glow": "Sken",
+                "group_label": "Texteffekt",
+                "outline": "Kontur",
+                "section": "Effekt",
+                "shape_group_label": "Textform",
+                "splice": "Splice",
+                "title": "Texteffekter"
+            }
+        },
+        "templates": {
+            "empty_body": "Prova ett kortare eller mer allmänt ord.",
+            "empty_title": "Inga mallar matchar “{query}”",
+            "error_title": "Mallar kunde inte läsas in",
+            "none_body": "Sök efter ett tema, som födelsedag eller examen.",
+            "none_title": "Inga mallar för den här designen ännu",
+            "search_label": "Sök mallar",
+            "search_placeholder": "Sök mallar"
+        },
+        "text_panel": {
+            "add_template": "Lägg till textmall: {name}",
+            "add_text_box": "Lägg till en textruta",
+            "empty_body": "Prova ett kortare eller mer allmänt ord.",
+            "empty_title": "Inga textmallar matchar “{query}”",
+            "error_title": "Textmallar kunde inte läsas in",
+            "none_body": "Börja i stället med en vanlig textruta.",
+            "none_title": "Inga textmallar att visa",
+            "search_label": "Sök textmallar",
+            "search_placeholder": "Sök textmallar"
+        },
+        "text_preset": {
+            "seed": "Lägg till din text här"
+        },
+        "textures": {
+            "apply_texture": "Använd {name}",
+            "category": {
+                "fabric": "Tyg",
+                "grain": "Korn",
+                "grunge": "Grunge",
+                "paper": "Papper",
+                "print": "Tryck"
+            },
+            "category_group_label": "Texturkategori",
+            "empty_body": "Vi bygger det här biblioteket – titta tillbaka snart.",
+            "empty_title": "Inga texturer här ännu",
+            "most_used": "Mest använda",
+            "search_placeholder": "Sök texturer"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Lägg till ljud",
+                "add_tooltip": "Lägg till ett bakgrundsljudspår",
+                "bar_aria": "{name} vid {start} i {duration}",
+                "decoding": "Avkodar ljud…",
+                "decoding_waveform": "Avkodar vågform…",
+                "default_name": "Ljud",
+                "drop_to_add": "Släpp för att lägga till ljud",
+                "kind_suffix": "· Ljud",
+                "mute": "Stäng av ljudet för spåret",
+                "unmute": "Slå på ljudet för spåret",
+                "volume": "Spårets volym",
+                "waveform_error": "Det gick inte att läsa in det här spårets vågform."
+            },
+            "keyframe": {
+                "add": "Lägg till keyframe",
+                "add_at_playhead": "Lägg till keyframe vid uppspelningsmarkören",
+                "add_tooltip": "Animera en egenskap på det här lagret med keyframes",
+                "diamond_aria": "{lane}-keyframe vid {time}",
+                "diamond_hint": " · dra för att ändra timing, högerklicka för att ta bort",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Hörnradie",
+                    "layer_blur": "Lageroskärpa",
+                    "line_height": "Radhöjd",
+                    "opacity": "Opacitet",
+                    "position": "Position",
+                    "rotation": "Rotation",
+                    "scale": "Skala",
+                    "stroke": "Kontur"
+                },
+                "remove_lane": "Ta bort {lane}-keyframes",
+                "remove_lane_from_layer": "Ta bort {lane}-keyframes från {layer}",
+                "segment_easing_aria": "{lane}-timingfunktion mellan {from} och {to}, för närvarande {easing}",
+                "segment_easing_title": "Timingfunktion · {easing}",
+                "welded_aria": ", låst till lagrets kant",
+                "welded_title": " · låst till lagrets kant"
+            },
+            "menu": {
+                "repeat_until_end": "Upprepa till slutet"
+            },
+            "track": {
+                "bar_aria": "{name} vid {start} i {duration}",
+                "bar_aria_end_glued": ", slutet är låst till lagret",
+                "bar_aria_start_glued": ", början är låst till lagret",
+                "bar_tooltip": "{name} · {start} i {duration} ms · dra för att flytta, dra i en kant för att ändra storlek (Alt = ingen magnetisk justering)",
+                "bar_tooltip_sole": " · om du drar i den här kanten flyttas lagret",
+                "clip_aria": "Klippet {name}",
+                "clip_tooltip": "Dra för att flytta lagret i tid · dra i en ände för att trimma (Alt = ingen magnetisk justering)",
+                "collapse": "Fäll ihop",
+                "collapse_all": "Fäll ihop alla lager",
+                "collapse_named": "Fäll ihop {name}",
+                "delete_layer": "Ta bort lager",
+                "delete_named": "Ta bort {name}",
+                "ends_at": "Slutar vid",
+                "expand": "Fäll ut",
+                "expand_named": "Fäll ut {name}",
+                "hidden_lane_one": "{count} dolt spår",
+                "hidden_lane_other": "{count} dolda spår",
+                "hide": "Dölj",
+                "hide_named": "Dölj {name}",
+                "lane_reorder_tooltip": "Dra för att ändra ordning – det översta spåret vinner där animationer överlappar",
+                "layer_animations": "Lageranimationer",
+                "lock_layer": "Lås lager",
+                "lock_named": "Lås {name}",
+                "remove_animation": "Ta bort animation",
+                "remove_animation_aria": "Ta bort animationen {name} från {layer}",
+                "reorder_tooltip": "Dra för att ändra ordning på spår – staplingsordningen på arbetsytan ställs in i lagerpanelen",
+                "show": "Visa",
+                "show_named": "Visa {name}",
+                "split": "Dela",
+                "starts_at": "Börjar vid",
+                "trim_end": "Trimma slutet",
+                "trim_start": "Trimma början",
+                "trim_to": "Trimma till {time}",
+                "unlock_layer": "Lås upp lager",
+                "unlock_named": "Lås upp {name}"
+            },
+            "transport": {
+                "current_time_field": "Aktuell tid i millisekunder",
+                "duration_edge_aria": "Sidlängd {seconds} sekunder",
+                "duration_edge_tooltip": "Sidlängd {seconds} s · dra för att ändra, klicka för det exakta värdet (Alt = ingen magnetisk justering)",
+                "duration_max": "Högst {seconds} s",
+                "fit_to_width": "Anpassa till bredd",
+                "forward": "Framåt",
+                "lengthen_page": "Förläng sidan",
+                "loop": "Upprepa uppspelning",
+                "page_duration": "Sidlängd",
+                "page_duration_field": "Sidlängd i millisekunder",
+                "resize_dock": "Ändra storlek på tidslinjen",
+                "rewind": "Spola tillbaka",
+                "shorten_page": "Förkorta sidan",
+                "zoom": "Tidslinjezoom"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
