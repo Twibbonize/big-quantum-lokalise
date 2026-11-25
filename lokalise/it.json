@@ -2842,7 +2842,9 @@
             "type": "Tipo:",
             "size": "Dimensioni:",
             "type_image": "JPG, PNG o SVG",
-            "maximum_size": "Massimo 5 MB"
+            "maximum_size": "Massimo 5 MB",
+            "abandoned": "Caricamento interrotto perché il livello è stato rimosso. Riprova per conservarlo nella tua libreria.",
+            "failed": "Caricamento non riuscito. Controlla la connessione e riprova."
         },
         "toolbar": {
             "copy": "Copia",
@@ -2871,7 +2873,119 @@
             "border_weight": "Peso del bordo",
             "corner_rounding": "Arrotondamento degli angoli",
             "align": "Allineare",
-            "effects": "Effetti"
+            "effects": "Effetti",
+            "animate": {
+                "amount": "Quantità",
+                "angle": "Angolo",
+                "close": "Chiudi impostazioni animazione",
+                "delete_animation": "Elimina animazione",
+                "distance": "Distanza",
+                "easing": "Andamento",
+                "fade": "Dissolvenza",
+                "settings_aria": "Impostazioni animazione"
+            },
+            "audio": {
+                "replace": "Sostituisci",
+                "tools_aria": "Strumenti traccia audio",
+                "trim": "Taglia",
+                "volume": "Volume"
+            },
+            "clip": {
+                "length": "Durata",
+                "split": "Dividi",
+                "trim": "Taglia"
+            },
+            "entry": {
+                "animate": "Anima"
+            },
+            "image": {
+                "adjust": "Regola",
+                "background_removal_unavailable": "La rimozione dello sfondo non è ancora disponibile",
+                "remove_background": "Rimuovi sfondo",
+                "remove_background_short": "Ritaglio",
+                "replace": "Sostituisci"
+            },
+            "keyframe": {
+                "blur": "Sfocatura livello",
+                "close": "Chiudi proprietà del fotogramma chiave",
+                "delete_keyframe": "Elimina fotogramma chiave",
+                "letter_spacing": "Spaziatura",
+                "line_height": "Interlinea",
+                "opacity": "Opacità",
+                "position": "Posizione",
+                "properties_aria": "Proprietà del fotogramma chiave",
+                "rotation": "Rotazione",
+                "scale": "Scala"
+            },
+            "layer_tools": {
+                "deselect": "Deseleziona livello",
+                "tools_aria": "Strumenti livello"
+            },
+            "media": {
+                "adjust": "Regola",
+                "green_screen": "Green screen",
+                "replace": "Sostituisci",
+                "trim": "Taglia"
+            },
+            "misc": {
+                "background_fill": "Riempimento sfondo",
+                "background_fill_short": "Riempimento",
+                "configure_qr": "Configura codice QR",
+                "edit_background_image": "Modifica immagine di sfondo",
+                "no_background_image": "Ancora nessuna immagine di sfondo",
+                "replace_unavailable": "Sostituisci (non ancora disponibile)"
+            },
+            "opacity": {
+                "label": "Opacità"
+            },
+            "shape": {
+                "corner_radius": "Raggio angoli",
+                "corner_radius_short": "Raggio",
+                "fill": "Riempimento",
+                "line_color": "Colore linea",
+                "line_style_dots": "Punti",
+                "line_style_long_dashes": "Trattini lunghi",
+                "line_style_named": "Stile linea: {style}",
+                "line_style_short_dashes": "Trattini corti",
+                "line_style_solid": "Continua",
+                "line_weight": "Spessore linea",
+                "stroke_color": "Colore contorno",
+                "stroke_color_short": "Contorno",
+                "stroke_weight": "Spessore contorno",
+                "stroke_weight_short": "Spessore"
+            },
+            "speed": {
+                "custom_input": "Velocità di riproduzione personalizzata",
+                "label": "Velocità",
+                "playback_length": "Durata riproduzione",
+                "playback_speed": "Velocità di riproduzione",
+                "range_hint": "Tra {min}× e {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Riduci dimensione carattere",
+                "font_family": "Famiglia di caratteri",
+                "font_family_named": "Famiglia di caratteri: {value}",
+                "font_size": "Dimensione carattere",
+                "font_weight": "Spessore carattere",
+                "font_weight_named": "Spessore carattere: {value}",
+                "increase_font_size": "Aumenta dimensione carattere",
+                "keyboard": "Tastiera",
+                "line_height": "Interlinea",
+                "spacing": "Spaziatura",
+                "text_color": "Colore testo",
+                "weight": "Spessore"
+            },
+            "volume": {
+                "clip_hint": "Solo questa clip. L’audio posizionato sulla timeline mantiene il proprio livello.",
+                "label": "Volume",
+                "level": "Livello",
+                "mute": "Disattiva audio",
+                "muted": "Audio disattivato",
+                "muted_hint": "Il livello viene mantenuto. Riattiva l’audio e la clip torna al {percent}%.",
+                "no_audio": "Questo video non ha audio.",
+                "slider": "Livello volume",
+                "unmute": "Riattiva audio"
+            }
         },
         "confirmation": {
             "cancel": "Scartare",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Colori del documento",
             "default_colors": "Colori predefiniti"
         },
-        "graphic": "Grafica"
+        "graphic": "Grafica",
+        "animate": {
+            "anchor": {
+                "bottom_center": "In basso al centro",
+                "bottom_left": "In basso a sinistra",
+                "bottom_right": "In basso a destra",
+                "center_left": "Centro sinistra",
+                "center_right": "Centro destra",
+                "top_center": "In alto al centro",
+                "top_left": "In alto a sinistra",
+                "top_right": "In alto a destra"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Fine",
+                "more_options": "Altre opzioni"
+            },
+            "direction": {
+                "bottom_left": "In basso a sinistra",
+                "bottom_right": "In basso a destra",
+                "clockwise": "Senso orario",
+                "counter_clockwise": "Senso antiorario",
+                "from_the": "Da {place}",
+                "to_the": "Verso {place}",
+                "top_left": "In alto a sinistra",
+                "top_right": "In alto a destra"
+            },
+            "easing": {
+                "accelerate": "Accelera",
+                "bounce": "Rimbalzo",
+                "elastic": "Elastico",
+                "impulse": "Impulso",
+                "natural": "Naturale",
+                "overshoot": "Overshoot",
+                "slow_down": "Rallenta",
+                "smooth": "Fluido",
+                "swing": "Oscillazione"
+            },
+            "field": {
+                "amount": "Quantità",
+                "anchor_group": "Punto di ancoraggio",
+                "anchor_point": "Punto di ancoraggio",
+                "angle": "Angolo",
+                "apply_effect_to": "Applica effetto a",
+                "axis": "Asse",
+                "choose_easing": "Scegli andamento",
+                "distance": "Distanza",
+                "duration": "Durata",
+                "edge": "Bordo",
+                "fade": "Dissolvenza",
+                "from_noun": "Da {noun}",
+                "horizontal": "Orizzontale",
+                "noun_blur": "sfocatura",
+                "noun_opacity": "opacità",
+                "noun_size": "dimensione",
+                "opacity": "Opacità",
+                "order": "Ordine",
+                "position": "Posizione",
+                "rotation": "Rotazione",
+                "rotation_direction": "Direzione di rotazione",
+                "scale": "Scala",
+                "smoothing": "Smussatura",
+                "to_noun": "A {noun}",
+                "vertical": "Verticale"
+            },
+            "mode": {
+                "arrives": "Entra",
+                "departs": "Esce",
+                "in": "Entrata",
+                "out": "Uscita"
+            },
+            "panel": {
+                "animation": "Animazione",
+                "animations_tab": "Animazioni",
+                "basic": "Base",
+                "changing_note": "Scegli un sostituto. Prende il posto e la durata dell’animazione che stai cambiando.",
+                "corner_radius": "Raggio angoli",
+                "easing": "Andamento",
+                "fade": "Dissolvenza",
+                "keyframe_tab": "Fotogramma chiave",
+                "layer_blur": "Sfocatura livello",
+                "line_height": "Interlinea",
+                "more_options": "Altre opzioni",
+                "motion": "Movimento",
+                "needs_one_element": "Le animazioni predefinite richiedono un solo elemento. Seleziona un singolo livello per vederle.",
+                "paste_animation": "Incolla animazione",
+                "scale": "Scala",
+                "slide": "Scorrimento",
+                "stroke": "Contorno",
+                "text_animation": "Animazione testo"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Appari",
+                    "label": "Appari"
+                },
+                "blur": {
+                    "label": "Sfocatura in entrata"
+                },
+                "blur_scale": {
+                    "caption": "Sfocatura e scala",
+                    "label": "Sfocatura in entrata con scala"
+                },
+                "blur_slide": {
+                    "caption": "Sfocatura e scorrimento",
+                    "label": "Sfocatura in entrata con scorrimento"
+                },
+                "fade": {
+                    "caption": "Dissolvenza",
+                    "label": "Dissolvenza"
+                },
+                "grow": {
+                    "caption": "Pop",
+                    "label": "Entrata pop"
+                },
+                "mask_center": {
+                    "caption": "Maschera dal centro",
+                    "label": "Rivelazione con maschera dal centro"
+                },
+                "mask_reveal": {
+                    "caption": "Rivelazione con maschera",
+                    "label": "Rivelazione con maschera da un bordo"
+                },
+                "mask_slide": {
+                    "caption": "Maschera e scorrimento",
+                    "label": "Rivelazione con maschera e scorrimento"
+                },
+                "move_scale": {
+                    "caption": "Sposta e scala",
+                    "label": "Entrata con spostamento e scala"
+                },
+                "rotate_left": {
+                    "label": "Rotazione da sinistra"
+                },
+                "rotate_right": {
+                    "label": "Rotazione da destra"
+                },
+                "shrink": {
+                    "caption": "Grande",
+                    "label": "Entrata in grande"
+                },
+                "slide": {
+                    "caption": "Scorrimento",
+                    "label": "Entrata scorrevole"
+                },
+                "slide_from_bottom": {
+                    "label": "Scorri dal basso"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "In basso a sinistra",
+                    "label": "Scorri dal basso a sinistra"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "In basso a destra",
+                    "label": "Scorri dal basso a destra"
+                },
+                "slide_from_left": {
+                    "label": "Scorri da sinistra"
+                },
+                "slide_from_right": {
+                    "label": "Scorri da destra"
+                },
+                "slide_from_top": {
+                    "label": "Scorri dall’alto"
+                },
+                "slide_from_top_left": {
+                    "caption": "In alto a sinistra",
+                    "label": "Scorri dall’alto a sinistra"
+                },
+                "slide_from_top_right": {
+                    "caption": "In alto a destra",
+                    "label": "Scorri dall’alto a destra"
+                },
+                "spin": {
+                    "caption": "Rotazione",
+                    "label": "Entrata rotante"
+                },
+                "spin_scale": {
+                    "caption": "Rotazione e scala",
+                    "label": "Entrata rotante con scala"
+                },
+                "twist": {
+                    "caption": "Torsione",
+                    "label": "Entrata con torsione"
+                }
+            },
+            "property": {
+                "change_text": "Cambia testo",
+                "morph": "Morph",
+                "move": "Sposta",
+                "opacity": "Opacità",
+                "scale": "Scala"
+            },
+            "section": {
+                "fade": "Dissolvenza",
+                "mask": "Maschera",
+                "scale": "Scala",
+                "slide": "Scorrimento",
+                "transform": "Trasforma"
+            },
+            "text": {
+                "backward": "Indietro",
+                "forward": "Avanti",
+                "letters": "Lettere",
+                "summary_overlap": "Ogni {unit} parte quando il precedente è al {percent}%.",
+                "summary_sequential": "Ogni {unit} termina prima che inizi il successivo.",
+                "summary_together": "Ogni {unit} si muove insieme.",
+                "summary_whole": "L’intero blocco di testo si anima come uno solo.",
+                "words": "Parole"
+            },
+            "type": {
+                "fade_in": "Dissolvenza in entrata",
+                "fade_out": "Dissolvenza in uscita",
+                "line_height": "Interlinea",
+                "radius": "Raggio",
+                "resize_in": "Ridimensiona in entrata",
+                "resize_out": "Ridimensiona in uscita",
+                "rotate_in": "Ruota in entrata",
+                "rotate_out": "Ruota in uscita",
+                "scale_in": "Scala in entrata",
+                "scale_out": "Scala in uscita",
+                "slide_in": "Scorrimento in entrata",
+                "slide_out": "Scorrimento in uscita",
+                "spacing": "Spaziatura",
+                "stroke": "Contorno"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Aggiungi la tua foto per continuare.",
+                    "gesture": {
+                        "frameDesktop": "Trascina per riposizionare · Scorri per ingrandire",
+                        "frameMobile": "Trascina per riposizionare, pizzica per ingrandire",
+                        "handles": "Ridimensiona dagli angoli e dai lati, ruota dall’alto",
+                        "move": "Trascina per spostare",
+                        "moveOrHandles": "Trascina per spostare o usa le maniglie",
+                        "resize": "Trascina un angolo o un lato per ridimensionare",
+                        "rotate": "Trascina la maniglia in alto per ruotare",
+                        "rotateDesktop": "Trascina il righello o usa i tasti freccia",
+                        "rotateMobile": "Trascina il righello per ruotare"
+                    },
+                    "hint": {
+                        "pickDesktop": "Clicca su un’area contrassegnata o scegli un livello a sinistra",
+                        "pickMobile": "Tocca un’area contrassegnata o scegli un livello qui sotto",
+                        "previewDesktop": "Anteprima del tuo design. Cliccaci sopra per continuare a modificare.",
+                        "previewMobile": "Anteprima del tuo design. Toccalo per continuare a modificare."
+                    },
+                    "layer": {
+                        "addPhoto": "Aggiungi la tua foto",
+                        "text": "Testo: {text}",
+                        "yourPhoto": "La tua foto",
+                        "yourText": "Il tuo testo"
+                    },
+                    "layers": {
+                        "all": "Tutti i livelli",
+                        "photo": "Foto",
+                        "sheetDescription": "Tutto ciò che puoi modificare in questo design.",
+                        "title": "Livelli"
+                    },
+                    "photoError": "Non siamo riusciti a usare quella foto. Prova con un’altra immagine.",
+                    "preview": {
+                        "backToEditing": "Torna alla modifica"
+                    },
+                    "rotation": {
+                        "aria": "Rotazione",
+                        "value": "one:# grado|other:# gradi"
+                    },
+                    "tools": {
+                        "adjust": "Regola",
+                        "aria": "Strumenti livello",
+                        "editText": "Modifica testo",
+                        "flip": "Capovolgi",
+                        "locked": "Dimensione e posizione sono impostate dal creatore",
+                        "replace": "Sostituisci",
+                        "textAria": "Strumenti testo",
+                        "zoomIn": "Ingrandisci",
+                        "zoomOut": "Riduci"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} aggiunto alla timeline.",
+                "too_big": "{name} supera {limit}.",
+                "too_long": "{name} dura più di {minutes} minuti.",
+                "too_many": "Solo {count} file alla volta.",
+                "wrong_type": "Impossibile aggiungere {name}: solo immagini, video e file SVG."
+            }
+        },
+        "catalogue": {
+            "error_body": "Controlla la connessione, poi riprova.",
+            "loading_more": "Caricamento di altri elementi"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Elimina bozza",
+                "description_unsaved": "Questo design non è salvato. Tornando indietro verrà eliminato definitivamente, inclusi livelli, stili e animazioni.",
+                "title": "Eliminare la bozza “{title}”?"
+            },
+            "save": {
+                "description": "Una volta salvato, non sarà più possibile modificarlo.",
+                "saving": "Salvataggio…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Adatta allo schermo"
+        },
+        "graphic_panel": {
+            "add": "Aggiungi {name}",
+            "add_failed": "Impossibile aggiungere questa grafica. Riprova.",
+            "empty_body": "Prova con una parola più breve o più generica, come stella o cuore.",
+            "empty_title": "Nessuna grafica corrisponde a “{query}”",
+            "error_title": "Impossibile caricare le grafiche",
+            "none_title": "Nessuna grafica da mostrare",
+            "search_label": "Cerca grafiche",
+            "search_placeholder": "Cerca grafiche"
+        },
+        "header": {
+            "redo": "Ripeti",
+            "saving": "Salvataggio…",
+            "undo": "Annulla",
+            "untitled_design": "Design senza titolo"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Spazio foto"
+            },
+            "menu": {
+                "align_center": "Centra",
+                "bring_forward": "Porta avanti",
+                "bring_to_front": "Porta in primo piano",
+                "detach_image": "Scollega immagine",
+                "flip_horizontal": "Rifletti orizzontalmente",
+                "flip_vertical": "Rifletti verticalmente",
+                "replace_image": "Sostituisci immagine",
+                "send_backward": "Manda indietro",
+                "send_to_back": "Manda in secondo piano",
+                "set_as_background_image": "Imposta come immagine di sfondo",
+                "set_as_background_video": "Imposta come video di sfondo",
+                "set_background_as_image_layer": "Imposta lo sfondo come livello immagine",
+                "set_background_as_video_layer": "Imposta lo sfondo come livello video",
+                "sheet_title": "Opzioni livello",
+                "show_layers": "Mostra livelli"
+            },
+            "pill": {
+                "duplicate": "Duplica livello",
+                "more": "Altre azioni sul livello",
+                "remove": "Rimuovi livello",
+                "toolbar": "Azioni livello"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Codice di abbinamento pronto: {code}. Daglielo al tuo client IA.",
+                "connecting": "Creazione di un codice di abbinamento.",
+                "failed": "Impossibile connettersi. {reason}",
+                "reconnecting": "Connessione interrotta. Provo a riconnettere."
+            },
+            "clipboard_blocked": "Il browser ha bloccato gli appunti. {hint}",
+            "connect": "Connetti",
+            "connecting": "Connessione…",
+            "copied_address_announcement": "Indirizzo del server copiato",
+            "copied_code_announcement": "Codice di abbinamento copiato",
+            "copy_address_hint": "Seleziona l’indirizzo e copialo manualmente.",
+            "copy_code": "Copia codice",
+            "copy_code_hint": "Seleziona il codice e copialo manualmente.",
+            "copy_server_address": "Copia l’indirizzo del server MCP",
+            "disconnect": "Disconnetti",
+            "error_fallback": "Il servizio di abbinamento non ha risposto. Controlla la connessione e riprova.",
+            "guide": {
+                "fresh_code": "Se un codice smette di funzionare, premi Disconnetti e riconnettiti per ottenerne uno nuovo.",
+                "how_to_set_up": "Come configurarlo",
+                "step_add_body": "Aggiungi Twibbonize al tuo client IA usando l’indirizzo qui sotto. In Claude Code, esegui",
+                "step_add_title": "Aggiungi Twibbonize al tuo client IA",
+                "step_pair_body": "Di’ “abbinati all’editor di Twibbonize” e dagli il codice qui sopra.",
+                "step_pair_title": "Chiedigli di abbinarsi",
+                "where_to_paste": "Dove incollo questo codice?"
+            },
+            "lead": {
+                "code_ready_sentence": "Incollalo in Claude e chiedigli di abbinarsi. L’area di lavoro disegna un anello attorno alla pagina mentre Claude lavora.",
+                "code_ready_title": "Dai questo codice al tuo client IA",
+                "connecting_sentence": "Ci vuole un attimo.",
+                "connecting_title": "Creazione di un codice di abbinamento",
+                "disconnected_sentence": "Claude Desktop e Claude Code possono aggiungere livelli, scrivere testo, impostare animazioni e leggere ciò che c’è sull’area di lavoro.",
+                "disconnected_title": "Porta un client IA in questo design",
+                "failed_title": "Impossibile connettersi",
+                "reconnecting_sentence": "Il collegamento con il tuo client IA si è interrotto. Provo a ripristinarlo.",
+                "reconnecting_title": "Riconnessione",
+                "unavailable_sentence": "Questa versione dell’editor non ha alcuna connessione IA configurata, quindi non c’è ancora nulla a cui connettersi.",
+                "unavailable_title": "MCP non è attivo qui"
+            },
+            "pairing_code_label": "Codice di abbinamento: {code}"
+        },
+        "media": {
+            "add_asset": "Aggiungi {name}",
+            "dismiss_error": "Chiudi",
+            "empty_body": "Aggiungi qui sotto un’immagine, un video o un file audio e resterà qui per il resto di questa sessione.",
+            "empty_narrowed_body": "Cancella la ricerca o scegli un altro tipo per vedere tutto ciò che hai aggiunto.",
+            "empty_narrowed_title": "Nessuna corrispondenza",
+            "empty_title": "Ancora nulla di caricato",
+            "filter": {
+                "audio": "Audio",
+                "images": "Immagini"
+            },
+            "filter_group_label": "Tipo di contenuto",
+            "make_an_image": "Crea un’immagine",
+            "make_image_unavailable": "La generazione di immagini non è ancora disponibile",
+            "search_placeholder": "Cerca contenuti",
+            "upload_button": "Carica immagine, video o audio",
+            "uploads_heading": "Caricamenti"
+        },
+        "page_bar": {
+            "group_label": "Controlli dello zoom",
+            "zoom_menu": "Livello di zoom, {percent}%"
+        },
+        "panel": {
+            "loading": "Caricamento di {panel}…"
+        },
+        "photo": {
+            "add_by": "Aggiungi foto di {name}",
+            "add_described": "Aggiungi foto: {description}",
+            "credit": "Foto fornite da",
+            "empty_body": "Prova con una parola più breve o più generica, come spiaggia o città.",
+            "empty_title": "Nessuna foto corrisponde a “{query}”",
+            "error_title": "Impossibile caricare le foto",
+            "none_title": "Nessuna foto da mostrare",
+            "search_label": "Cerca foto",
+            "search_placeholder": "Cerca foto"
+        },
+        "qr": {
+            "add_logo": "Aggiungi logo",
+            "add_to_design": "Aggiungi al design",
+            "background_colour_label": "Colore sfondo",
+            "code_colour_label": "Colore codice",
+            "code_label": "Codice",
+            "link_input_label": "Link del codice QR",
+            "link_label": "Link",
+            "logo_fallback_name": "Immagine del logo",
+            "logo_label": "Logo",
+            "remove_logo": "Rimuovi logo"
+        },
+        "rail": {
+            "aria_label": "Librerie del design",
+            "graphic": "Grafiche",
+            "help": "Aiuto",
+            "layers": "Livelli",
+            "mcp": "MCP",
+            "media": "Contenuti",
+            "photo": "Foto",
+            "qr_code": "Codice QR",
+            "shapes": "Forme",
+            "templates": "Modelli",
+            "textures": "Texture",
+            "tools": "Strumenti"
+        },
+        "save": {
+            "failed": "Impossibile salvare il tuo design. Riprova."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Luminosità",
+                "compare": "Confronta con l’originale",
+                "contrast": "Contrasto",
+                "grayscale": "Scala di grigi",
+                "group": {
+                    "basic": "Base",
+                    "refinements": "Rifiniture"
+                },
+                "hue_rotate": "Rotazione tonalità",
+                "reset": "Reimposta regolazioni",
+                "saturation": "Saturazione",
+                "title": "Regolazioni"
+            },
+            "color": {
+                "trigger": "Colore"
+            },
+            "common": {
+                "layer_blur": "Sfocatura livello",
+                "layer_blur_stepper": "Sfocatura livello"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Forma libera",
+                    "landscape": "Orizzontale",
+                    "original": "Originale",
+                    "portrait": "Verticale",
+                    "square": "Quadrato",
+                    "story": "Storia",
+                    "widescreen": "Widescreen"
+                },
+                "shape": {
+                    "circle": "Cerchio",
+                    "diamond": "Rombo",
+                    "half_circle": "Semicerchio",
+                    "oval": "Ovale",
+                    "parallelogram": "Parallelogramma",
+                    "rounded": "Arrotondato"
+                }
+            },
+            "filter": {
+                "cool": "Freddo",
+                "duotone": "Duotone",
+                "mono": "Mono",
+                "original": "Originale",
+                "vivid": "Vivido",
+                "warm": "Caldo"
+            },
+            "font_weight": {
+                "black": "Black",
+                "extra_bold": "ExtraBold",
+                "extra_light": "ExtraLight",
+                "medium": "Medium",
+                "regular": "Regular",
+                "semibold": "SemiBold",
+                "thin": "Thin"
+            },
+            "frame": {
+                "colour": "Colore cornice"
+            },
+            "green_screen": {
+                "choose_colour": "Scegli un colore",
+                "colour": "Colore",
+                "compare": "Confronta con l’originale",
+                "eyedropper": "Scegli un colore dall’area di lavoro",
+                "key_colour": "Colore chiave {hex}",
+                "loose": "Ampio",
+                "nothing_found": "Nessun colore di sfondo trovato.",
+                "precise": "Preciso",
+                "preset": {
+                    "bright_blue": "Blu brillante",
+                    "bright_green": "Verde brillante",
+                    "chroma_blue": "Blu chroma",
+                    "chroma_green": "Verde chroma"
+                },
+                "presets": "Colori di sfondo comuni",
+                "remove": "Rimuovi green screen",
+                "title": "Green screen"
+            },
+            "image": {
+                "corner_radius": "Raggio angoli",
+                "corner_radius_stepper": "Raggio angoli",
+                "per_corner": "Modifica gli angoli singolarmente",
+                "per_corner_unavailable": "La modifica dei singoli angoli non è ancora disponibile"
+            },
+            "keypad": {
+                "value_field": "Valore di {label}"
+            },
+            "line": {
+                "colour": "Colore linea",
+                "style": {
+                    "dots": "Punti",
+                    "long_dashes": "Trattini lunghi",
+                    "short_dashes": "Trattini corti",
+                    "solid": "Continua"
+                },
+                "style_trigger": "Stile linea: {style}",
+                "weight": "Spessore linea",
+                "weight_trigger": "Spessore linea {weight}"
+            },
+            "media": {
+                "heading": "Contenuti"
+            },
+            "page": {
+                "size_capped": "Max {max} px — proporzioni mantenute"
+            },
+            "pages": {
+                "title": "Pagine"
+            },
+            "photo_slot": {
+                "enable": "Usa come spazio foto",
+                "key_field": "Chiave (univoca)",
+                "key_required": "La chiave è obbligatoria",
+                "key_taken": "Chiave già usata da un altro spazio",
+                "label_field": "Etichetta (mostrata all’utente finale)",
+                "on": "Spazio foto",
+                "remove": "Rimuovi spazio foto"
+            },
+            "qr": {
+                "add_logo": "Aggiungi logo",
+                "background_colour": "Colore sfondo",
+                "code": "Codice",
+                "code_colour": "Colore codice",
+                "link": "Link",
+                "link_input": "Link del codice QR",
+                "logo": "Logo",
+                "remove_logo": "Rimuovi logo"
+            },
+            "root": {
+                "background_image": "Immagine di sfondo",
+                "edit_background": "Modifica immagine di sfondo",
+                "fill": "Riempimento",
+                "fill_gradient": "Gradiente",
+                "page_height": "Altezza pagina",
+                "page_width": "Larghezza pagina",
+                "ratio_lock": "Blocca le proporzioni",
+                "ratio_unlock": "Sblocca le proporzioni",
+                "rotate_left": "Ruota lo sfondo a sinistra",
+                "rotate_right": "Ruota lo sfondo a destra"
+            },
+            "scalar": {
+                "clip_length": "Durata",
+                "corner_radius": "Raggio angoli",
+                "font_size": "Dimensione carattere",
+                "layer_blur": "Sfocatura livello",
+                "letter_spacing": "Spaziatura caratteri",
+                "line_height": "Interlinea",
+                "opacity": "Opacità",
+                "speed": "Velocità",
+                "stroke_width": "Spessore contorno",
+                "volume": "Volume"
+            },
+            "shape": {
+                "corner_radius": "Raggio angoli",
+                "corner_radius_stepper": "Raggio angoli",
+                "fill": "Riempimento",
+                "fill_gradient": "Gradiente",
+                "fill_mixed": "Misto",
+                "fill_transparent": "Trasparente",
+                "stroke": "Contorno",
+                "stroke_color": "Colore contorno",
+                "stroke_style": {
+                    "dots": "Punti",
+                    "long_dashes": "Trattini lunghi",
+                    "short_dashes": "Trattini corti",
+                    "solid": "Continua"
+                },
+                "stroke_style_select": "Stile contorno",
+                "stroke_transparent": "Trasparente",
+                "stroke_weight": "Spessore contorno"
+            },
+            "svg": {
+                "path_colour": "Colore {index}"
+            },
+            "swatch": {
+                "more_colours": "Altri colori"
+            },
+            "text": {
+                "align": {
+                    "justify": "Giustificato"
+                },
+                "alignment": "Allineamento",
+                "edit_text": "Modifica testo",
+                "font_family": "Famiglia di caratteri",
+                "font_family_select": "Famiglia di caratteri",
+                "font_size": "Dimensione carattere",
+                "italic_unavailable": "Questo carattere non include il corsivo con questo spessore",
+                "letter_spacing_stepper": "Spaziatura caratteri",
+                "line_height": "Interlinea",
+                "line_height_stepper": "Interlinea",
+                "list": "Elenco",
+                "list_bulleted": "Elenco puntato",
+                "list_numbered": "Elenco numerato",
+                "list_style": "Stile elenco",
+                "text_case": "Maiuscole\/minuscole",
+                "text_color": "Colore testo",
+                "text_style": "Stile testo",
+                "weight": "Spessore"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Allinea in basso",
+                    "center_x": "Allinea centri orizzontali",
+                    "center_y": "Allinea centri verticali",
+                    "left": "Allinea a sinistra",
+                    "right": "Allinea a destra",
+                    "top": "Allinea in alto"
+                },
+                "align_to_page": "Allinea alla pagina",
+                "opacity": "Opacità",
+                "position": "Posizione",
+                "position_x": "Posizione X",
+                "position_y": "Posizione Y",
+                "rotation": "Rotazione",
+                "scale": "Scala"
+            },
+            "video": {
+                "adjust": "Regola",
+                "audio": "Audio",
+                "clip_runs": "la clip dura {length}",
+                "corner_radius": "Raggio angoli",
+                "corner_radius_stepper": "Raggio angoli",
+                "green_screen": "Green screen",
+                "loop": "Ripeti fino alla fine del design",
+                "mute": "Disattiva audio",
+                "muted": "Audio disattivato",
+                "no_audio": "Questo video non ha audio.",
+                "playback": "Riproduzione",
+                "replace": "Sostituisci video",
+                "speed": "Velocità",
+                "speed_custom_input": "Velocità di riproduzione personalizzata",
+                "speed_presets": "Velocità di riproduzione",
+                "speed_range": "Tra {min}× e {max}×",
+                "tools": "Strumenti",
+                "unmute": "Riattiva audio",
+                "volume": "Volume",
+                "volume_level": "Livello volume"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Freccia",
+            "arrow_down": "Freccia in basso",
+            "arrow_left": "Freccia a sinistra",
+            "arrow_pentagon": "Freccia pentagonale",
+            "arrow_right": "Freccia a destra",
+            "arrow_up": "Freccia in alto",
+            "chevron": "Chevron",
+            "circle": "Cerchio",
+            "cross": "Croce",
+            "diamond": "Rombo",
+            "hexagon": "Esagono",
+            "hexagon_wide": "Esagono largo",
+            "line": "Linea",
+            "octagon": "Ottagono",
+            "parallelogram": "Parallelogramma",
+            "parallelogram_mirrored": "Parallelogramma speculare",
+            "pentagon": "Pentagono",
+            "square": "Quadrato",
+            "trapezoid": "Trapezio",
+            "trapezoid_upside_down": "Trapezio capovolto",
+            "triangle": "Triangolo",
+            "triangle_upside_down": "Triangolo capovolto"
+        },
+        "shapes_panel": {
+            "basic": "Base",
+            "lines": "Linee e frecce"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Aggiungi fotogramma chiave",
+                "back_to_animations": "Torna alle animazioni",
+                "basic": "Base",
+                "basic_opacity": "Opacità",
+                "basic_position": "Posizione",
+                "basic_rotation": "Rotazione",
+                "basic_scale": "Scala",
+                "keyframe": "Fotogramma chiave",
+                "pick_property_hint": "Scegli la proprietà da animare con un fotogramma chiave. Toccandone una, il pannello si chiude e si apre il suo riquadro, con il fotogramma chiave già posizionato sull’indicatore di riproduzione con il valore attuale del livello.",
+                "presets_need_one": "Le animazioni predefinite richiedono un solo elemento. Seleziona un singolo livello per vederle.",
+                "title": "Anima"
+            },
+            "easing": {
+                "title": "Andamento"
+            },
+            "font_weight": {
+                "title": "Spessore carattere"
+            },
+            "speed": {
+                "title": "Velocità"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Colori predefiniti",
+                "eyedropper": "Scegli colore dallo schermo",
+                "eyedropper_unsupported": "Il tuo browser non supporta il contagocce",
+                "fill_linear": "lineare",
+                "fill_radial": "radiale",
+                "fill_solid": "tinta unita",
+                "fill_type": "Tipo di riempimento",
+                "gradients_in_design": "Gradienti nel design",
+                "hex": "Colore esadecimale",
+                "in_design": "Nel design",
+                "title": "Colore di riempimento",
+                "use_color": "Usa {color}",
+                "use_gradient": "Usa gradiente {style}",
+                "use_transparent": "Trasparente"
+            },
+            "crop": {
+                "adjust_shape": "Regola la forma del ritaglio",
+                "aspect": "Proporzioni",
+                "framing": "Inquadratura",
+                "framing_hint": "Trascina la foto per reinquadrarla o un angolo per ridimensionare l’area di ritaglio. Scorri per ingrandire.",
+                "scale": "Scala"
+            },
+            "filters": {
+                "show_earlier": "Mostra filtri precedenti",
+                "show_more": "Mostra altri filtri",
+                "swatch": "{label} colore: {color}",
+                "title": "Filtri"
+            },
+            "font": {
+                "all_fonts": "TUTTI I CARATTERI",
+                "applying": "Applicazione del carattere",
+                "back": "Torna alle opzioni del testo",
+                "clear_search": "Cancella ricerca",
+                "clear_search_action": "Cancella ricerca",
+                "in_this_design": "IN QUESTO DESIGN",
+                "no_match": "Nessun carattere corrisponde a “{query}”",
+                "no_match_hint": "Twibbonize attinge dal catalogo di Google Fonts e questa famiglia non ne fa parte. Prova con un termine di ricerca più breve.",
+                "search_label": "Cerca famiglie di caratteri",
+                "search_placeholder": "Cerca caratteri",
+                "title": "Famiglia di caratteri",
+                "weight": "Spessore carattere"
+            },
+            "gradient": {
+                "add_stop": "Aggiungi punto del gradiente",
+                "angle": "Angolo",
+                "angle_dial": "Angolo del gradiente, {degrees} gradi. Trascina per cambiarlo",
+                "angle_dial_hint": "Trascina per cambiare l’angolo del gradiente",
+                "angle_input": "Angolo del gradiente in gradi",
+                "centre_unsupported": "Il centro del gradiente non è ancora supportato dal motore di rendering",
+                "stop": "Punto del gradiente {index} al {percent}%, {color}",
+                "stop_hint": "Trascina per spostare, doppio clic per rimuovere"
+            },
+            "image": {
+                "adjustment": "Regolazione",
+                "adjustments": "Regolazioni",
+                "back_to_edit": "Torna alla scheda Modifica",
+                "background_removal": "Rimozione sfondo",
+                "compare": "Confronta con l’originale",
+                "removing": "Rimozione…",
+                "removing_background": "Rimozione dello sfondo",
+                "reset_adjustments": "Reimposta regolazioni",
+                "tools": "Strumenti"
+            },
+            "keyframe": {
+                "add": "Aggiungi fotogramma chiave",
+                "add_at_playhead": "Aggiungi fotogramma chiave {property} sull’indicatore di riproduzione",
+                "add_at_playhead_short": "Aggiungi un fotogramma chiave sull’indicatore di riproduzione",
+                "add_lane_at_playhead": "Aggiungi un fotogramma chiave {lane} sull’indicatore di riproduzione",
+                "add_property": "Aggiungi proprietà da animare",
+                "all_lanes_added": "Ogni proprietà che questo livello può animare ha già una traccia",
+                "delete": "Elimina questo fotogramma chiave",
+                "diamond": "Fotogramma chiave {lane} a {seconds} s",
+                "easing": "Andamento",
+                "easing_caps": "ANDAMENTO",
+                "first_no_easing": "Il primo fotogramma chiave non ha andamento",
+                "hex": "Colore esadecimale",
+                "layer_blur": "Sfocatura livello",
+                "letter_spacing": "Spaziatura caratteri",
+                "line_height": "Interlinea",
+                "opacity": "Opacità",
+                "opacity_percent": "Percentuale di opacità",
+                "position_x": "Posizione X",
+                "position_y": "Posizione Y",
+                "radius_bottom_left": "Raggio dell’angolo in basso a sinistra",
+                "radius_bottom_right": "Raggio dell’angolo in basso a destra",
+                "radius_top_left": "Raggio dell’angolo in alto a sinistra",
+                "radius_top_right": "Raggio dell’angolo in alto a destra",
+                "remove": "Rimuovi fotogramma chiave",
+                "remove_at_playhead": "Rimuovi fotogramma chiave {property} dall’indicatore di riproduzione",
+                "rotation": "Rotazione",
+                "scale": "Scala",
+                "shadow_blur": "Sfocatura ombra",
+                "shadow_color": "Colore ombra",
+                "shadow_offset_x": "Scostamento X ombra",
+                "shadow_offset_y": "Scostamento Y ombra",
+                "shadow_spread": "Espansione ombra",
+                "stroke_color": "Colore contorno",
+                "stroke_weight": "Spessore contorno"
+            },
+            "layer": {
+                "page_background": "Sfondo della pagina",
+                "tab_animate": "Anima",
+                "tabs_label": "Pannello livelli",
+                "title": "Livelli"
+            },
+            "page_preset": {
+                "group_label": "Dimensioni predefinite dell’area di lavoro",
+                "landscape": "Orizzontale",
+                "portrait": "Verticale",
+                "square": "Quadrato",
+                "story": "Storia",
+                "tile_aria": "{name}, {width} per {height} pixel"
+            },
+            "personalization": {
+                "act_as_placeholder": "Funziona da segnaposto",
+                "allow_adjust_framing": "Consenti di regolare l’inquadratura",
+                "allow_adjust_framing_hint": "I sostenitori possono ingrandire e spostare la propria foto all’interno della cornice.",
+                "allow_change_adjustments": "Consenti di cambiare le regolazioni",
+                "allow_change_adjustments_hint": "I sostenitori possono cambiare luminosità, contrasto e altre regolazioni.",
+                "allow_change_effect": "Consenti di cambiare l’effetto",
+                "allow_change_effect_hint": "I sostenitori possono scegliere un altro effetto per questo livello.",
+                "allow_change_filter": "Consenti di cambiare il filtro",
+                "allow_change_filter_hint": "I sostenitori possono scegliere un altro filtro per questo livello.",
+                "allow_edit_text": "Consenti di modificare il testo",
+                "allow_edit_text_hint": "I sostenitori possono scrivere le proprie parole in questo testo.",
+                "allow_flip": "Consenti di capovolgere",
+                "allow_flip_hint": "I sostenitori possono specchiare questo livello.",
+                "allow_move": "Consenti di spostare",
+                "allow_move_hint": "I sostenitori possono trascinare questo livello in un altro punto.",
+                "allow_replace_media": "Consenti di sostituire i contenuti",
+                "allow_replace_media_hint": "I sostenitori possono sostituire questa immagine con la propria foto.",
+                "allow_resize": "Consenti di ridimensionare",
+                "allow_resize_hint": "I sostenitori possono ridimensionare questo livello trascinandone gli angoli e i lati.",
+                "allow_rotate": "Consenti di ruotare",
+                "allow_rotate_hint": "I sostenitori possono ruotare questo livello di qualsiasi angolo.",
+                "group_appearance": "Aspetto",
+                "group_arrange": "Disposizione",
+                "group_media": "Contenuti",
+                "placeholder_hint": "Mostra uno spazio vuoto che i sostenitori possono toccare per aggiungere la propria foto.",
+                "remove_background": "Rimuovi lo sfondo dalla loro foto",
+                "remove_background_hint": "Ritaglia il sostenitore dalla sua foto così il tuo design appare tutto intorno.",
+                "text_placeholder_hint": "Mostra questo testo come esempio che i sostenitori sostituiscono con il proprio."
+            },
+            "shape_effect": {
+                "colour": "Colore effetto",
+                "distance": "Distanza",
+                "echo": "Eco",
+                "first_color": "Primo colore",
+                "first_colour": "Primo colore dell’effetto",
+                "glitch": "Glitch",
+                "glow": "Bagliore",
+                "group_label": "Effetto forma",
+                "second_color": "Secondo colore",
+                "second_colour": "Secondo colore dell’effetto",
+                "section": "Effetto",
+                "shadow": "Ombra esterna"
+            },
+            "text_effect": {
+                "colour": "Colore effetto",
+                "curve": "Curva",
+                "distance": "Distanza",
+                "echo": "Eco",
+                "glow": "Bagliore",
+                "group_label": "Effetto testo",
+                "outline": "Contorno",
+                "section": "Effetto",
+                "shape_group_label": "Forma del testo",
+                "splice": "Giunzione",
+                "title": "Effetti testo"
+            }
+        },
+        "templates": {
+            "empty_body": "Prova con una parola più breve o più generica.",
+            "empty_title": "Nessun modello corrisponde a “{query}”",
+            "error_title": "Impossibile caricare i modelli",
+            "none_body": "Cerca un tema, come compleanno o laurea.",
+            "none_title": "Ancora nessun modello per questo design",
+            "search_label": "Cerca modelli",
+            "search_placeholder": "Cerca modelli"
+        },
+        "text_panel": {
+            "add_template": "Aggiungi modello di testo: {name}",
+            "add_text_box": "Aggiungi una casella di testo",
+            "empty_body": "Prova con una parola più breve o più generica.",
+            "empty_title": "Nessun modello di testo corrisponde a “{query}”",
+            "error_title": "Impossibile caricare i modelli di testo",
+            "none_body": "Parti invece da una semplice casella di testo.",
+            "none_title": "Nessun modello di testo da mostrare",
+            "search_label": "Cerca modelli di testo",
+            "search_placeholder": "Cerca modelli di testo"
+        },
+        "text_preset": {
+            "seed": "Aggiungi qui il tuo testo"
+        },
+        "textures": {
+            "apply_texture": "Applica {name}",
+            "category": {
+                "fabric": "Tessuto",
+                "grain": "Grana",
+                "grunge": "Grunge",
+                "paper": "Carta",
+                "print": "Stampa"
+            },
+            "category_group_label": "Categoria di texture",
+            "empty_body": "Stiamo costruendo questa libreria, torna presto.",
+            "empty_title": "Ancora nessuna texture",
+            "most_used": "Più usate",
+            "search_placeholder": "Cerca texture"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Aggiungi audio",
+                "add_tooltip": "Aggiungi una traccia audio di sottofondo",
+                "bar_aria": "{name} a {start} per {duration}",
+                "decoding": "Decodifica dell’audio…",
+                "decoding_waveform": "Decodifica della forma d’onda…",
+                "default_name": "Audio",
+                "drop_to_add": "Rilascia per aggiungere audio",
+                "kind_suffix": "· Audio",
+                "mute": "Disattiva traccia",
+                "unmute": "Riattiva traccia",
+                "volume": "Volume della traccia",
+                "waveform_error": "Impossibile caricare la forma d’onda di questa traccia."
+            },
+            "keyframe": {
+                "add": "Aggiungi fotogramma chiave",
+                "add_at_playhead": "Aggiungi fotogramma chiave sull’indicatore di riproduzione",
+                "add_tooltip": "Aggiungi un fotogramma chiave a una proprietà di questo livello",
+                "diamond_aria": "Fotogramma chiave {lane} a {time}",
+                "diamond_hint": " · trascina per cambiare il tempo, clic destro per eliminare",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Raggio angoli",
+                    "layer_blur": "Sfocatura livello",
+                    "line_height": "Interlinea",
+                    "opacity": "Opacità",
+                    "position": "Posizione",
+                    "rotation": "Rotazione",
+                    "scale": "Scala",
+                    "stroke": "Contorno"
+                },
+                "remove_lane": "Rimuovi fotogrammi chiave {lane}",
+                "remove_lane_from_layer": "Rimuovi fotogrammi chiave {lane} da {layer}",
+                "segment_easing_aria": "Funzione di temporizzazione {lane} tra {from} e {to}, attualmente {easing}",
+                "segment_easing_title": "Funzione di temporizzazione · {easing}",
+                "welded_aria": ", agganciato al bordo del livello",
+                "welded_title": " · agganciato al bordo del livello"
+            },
+            "menu": {
+                "repeat_until_end": "Ripeti fino alla fine"
+            },
+            "track": {
+                "bar_aria": "{name} a {start} per {duration}",
+                "bar_aria_end_glued": ", fine agganciata al livello",
+                "bar_aria_start_glued": ", inizio agganciato al livello",
+                "bar_tooltip": "{name} · {start} per {duration} ms · trascina per spostare, trascina un bordo per ridimensionare (Alt = senza aggancio)",
+                "bar_tooltip_sole": " · trascinando questo bordo si sposta il livello",
+                "clip_aria": "Clip {name}",
+                "clip_tooltip": "Trascina per spostare il livello nel tempo · trascina un’estremità per tagliare (Alt = senza aggancio)",
+                "collapse": "Comprimi",
+                "collapse_all": "Comprimi tutti i livelli",
+                "collapse_named": "Comprimi {name}",
+                "delete_layer": "Elimina livello",
+                "delete_named": "Elimina {name}",
+                "ends_at": "Termina a",
+                "expand": "Espandi",
+                "expand_named": "Espandi {name}",
+                "hidden_lane_one": "{count} traccia nascosta",
+                "hidden_lane_other": "{count} tracce nascoste",
+                "hide": "Nascondi",
+                "hide_named": "Nascondi {name}",
+                "lane_reorder_tooltip": "Trascina per riordinare: la traccia in alto prevale dove le animazioni si sovrappongono",
+                "layer_animations": "Animazioni del livello",
+                "lock_layer": "Blocca livello",
+                "lock_named": "Blocca {name}",
+                "remove_animation": "Rimuovi animazione",
+                "remove_animation_aria": "Rimuovi l’animazione {name} da {layer}",
+                "reorder_tooltip": "Trascina per riordinare le tracce. La sovrapposizione sull’area di lavoro si imposta nel pannello livelli",
+                "show": "Mostra",
+                "show_named": "Mostra {name}",
+                "split": "Dividi",
+                "starts_at": "Inizia a",
+                "trim_end": "Taglia la fine",
+                "trim_start": "Taglia l’inizio",
+                "trim_to": "Taglia a {time}",
+                "unlock_layer": "Sblocca livello",
+                "unlock_named": "Sblocca {name}"
+            },
+            "transport": {
+                "current_time_field": "Tempo attuale in millisecondi",
+                "duration_edge_aria": "Durata della pagina {seconds} secondi",
+                "duration_edge_tooltip": "Durata della pagina {seconds} s · trascina per cambiare, clicca per il valore esatto (Alt = senza aggancio)",
+                "duration_max": "Massimo {seconds} s",
+                "fit_to_width": "Adatta alla larghezza",
+                "forward": "Avanti",
+                "lengthen_page": "Allunga la pagina",
+                "loop": "Riproduzione in loop",
+                "page_duration": "Durata della pagina",
+                "page_duration_field": "Durata della pagina in millisecondi",
+                "resize_dock": "Ridimensiona timeline",
+                "rewind": "Indietro",
+                "shorten_page": "Accorcia la pagina",
+                "zoom": "Zoom della timeline"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "Troppe richieste",
             "CN-4003": "URL non valido",
             "C-4090": "Il link della campagna è già in uso. Provate con un altro.",
+            "C-4094": "La campagna è già nel cestino",
+            "C-4095": "La campagna non è nel cestino",
             "SUB-403": "L'invio è vietato dalle impostazioni della campagna",
             "A-40091": "Usa l'email della tua scuola o università",
             "PB-4011": "Questo link non è valido o è scaduto",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "Scorri verso il basso per scegliere la tua cornice",
         "editor_single": "Scorri verso il basso per regolare la tua foto",
         "editor_multiple": "Scorri verso il basso per modificare e cambiare cornice"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "Ripristino delle campagne…"
+        }
     }
 }

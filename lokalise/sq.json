@@ -2842,7 +2842,9 @@
             "type": "Lloji:",
             "size": "Madhësia:",
             "type_image": "JPG, PNG ose SVG",
-            "maximum_size": "Maksimumi 5 MB"
+            "maximum_size": "Maksimumi 5 MB",
+            "abandoned": "Ngarkimi u ndal kur shtresa u hoq. Provo përsëri për ta mbajtur në bibliotekën tënde.",
+            "failed": "Ngarkimi dështoi. Kontrollo lidhjen dhe provo përsëri."
         },
         "toolbar": {
             "copy": "Kopjo",
@@ -2871,7 +2873,119 @@
             "border_weight": "Pesha kufitare",
             "corner_rounding": "Rrumbullakimi i këndit",
             "align": "Rreshto",
-            "effects": "Efektet"
+            "effects": "Efektet",
+            "animate": {
+                "amount": "Sasia",
+                "angle": "Këndi",
+                "close": "Mbyll cilësimet e animacionit",
+                "delete_animation": "Fshi animacionin",
+                "distance": "Distanca",
+                "easing": "Zbutja",
+                "fade": "Venitje",
+                "settings_aria": "Cilësimet e animacionit"
+            },
+            "audio": {
+                "replace": "Zëvendëso",
+                "tools_aria": "Mjetet e pistës audio",
+                "trim": "Shkurto",
+                "volume": "Volumi"
+            },
+            "clip": {
+                "length": "Gjatësia",
+                "split": "Ndaj",
+                "trim": "Shkurto"
+            },
+            "entry": {
+                "animate": "Animo"
+            },
+            "image": {
+                "adjust": "Rregullo",
+                "background_removal_unavailable": "Heqja e sfondit nuk është ende e disponueshme",
+                "remove_background": "Hiq sfondin",
+                "remove_background_short": "Prerje",
+                "replace": "Zëvendëso"
+            },
+            "keyframe": {
+                "blur": "Turbullim i shtresës",
+                "close": "Mbyll vetitë e kuadrit kyç",
+                "delete_keyframe": "Fshi kuadrin kyç",
+                "letter_spacing": "Hapësira",
+                "line_height": "Lartësia e rreshtit",
+                "opacity": "Tejdukshmëria",
+                "position": "Pozicioni",
+                "properties_aria": "Vetitë e kuadrit kyç",
+                "rotation": "Rrotullimi",
+                "scale": "Shkalla"
+            },
+            "layer_tools": {
+                "deselect": "Hiq zgjedhjen e shtresës",
+                "tools_aria": "Mjetet e shtresës"
+            },
+            "media": {
+                "adjust": "Rregullo",
+                "green_screen": "Ekran i gjelbër",
+                "replace": "Zëvendëso",
+                "trim": "Shkurto"
+            },
+            "misc": {
+                "background_fill": "Mbushja e sfondit",
+                "background_fill_short": "Mbushja",
+                "configure_qr": "Konfiguro kodin QR",
+                "edit_background_image": "Redakto imazhin e sfondit",
+                "no_background_image": "Ende pa imazh sfondi",
+                "replace_unavailable": "Zëvendëso (ende i padisponueshëm)"
+            },
+            "opacity": {
+                "label": "Tejdukshmëria"
+            },
+            "shape": {
+                "corner_radius": "Rrezja e këndit",
+                "corner_radius_short": "Rrezja",
+                "fill": "Mbushja",
+                "line_color": "Ngjyra e vijës",
+                "line_style_dots": "Pika",
+                "line_style_long_dashes": "Viza të gjata",
+                "line_style_named": "Stili i vijës: {style}",
+                "line_style_short_dashes": "Viza të shkurtra",
+                "line_style_solid": "E plotë",
+                "line_weight": "Trashësia e vijës",
+                "stroke_color": "Ngjyra e konturit",
+                "stroke_color_short": "Konturi",
+                "stroke_weight": "Trashësia e konturit",
+                "stroke_weight_short": "Trashësia"
+            },
+            "speed": {
+                "custom_input": "Shpejtësi e personalizuar e luajtjes",
+                "label": "Shpejtësia",
+                "playback_length": "Gjatësia e luajtjes",
+                "playback_speed": "Shpejtësia e luajtjes",
+                "range_hint": "Midis {min}× dhe {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Zvogëlo madhësinë e shkronjave",
+                "font_family": "Familja e fontit",
+                "font_family_named": "Familja e fontit: {value}",
+                "font_size": "Madhësia e fontit",
+                "font_weight": "Pesha e fontit",
+                "font_weight_named": "Pesha e fontit: {value}",
+                "increase_font_size": "Zmadho madhësinë e shkronjave",
+                "keyboard": "Tastiera",
+                "line_height": "Lartësia e rreshtit",
+                "spacing": "Hapësira",
+                "text_color": "Ngjyra e tekstit",
+                "weight": "Pesha"
+            },
+            "volume": {
+                "clip_hint": "Vetëm ky klip. Audioja e vendosur në vijën kohore mban nivelin e vet.",
+                "label": "Volumi",
+                "level": "Niveli",
+                "mute": "Hesht",
+                "muted": "I heshtur",
+                "muted_hint": "Niveli ruhet. Hiq heshtjen dhe klipi kthehet në {percent}%.",
+                "no_audio": "Ky video nuk ka audio.",
+                "slider": "Niveli i volumit",
+                "unmute": "Hiq heshtjen"
+            }
         },
         "confirmation": {
             "cancel": "Hidhni",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Ngjyrat e dokumentit",
             "default_colors": "Ngjyrat e parazgjedhura"
         },
-        "graphic": "Grafike"
+        "graphic": "Grafike",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Poshtë në qendër",
+                "bottom_left": "Poshtë majtas",
+                "bottom_right": "Poshtë djathtas",
+                "center_left": "Majtas në qendër",
+                "center_right": "Djathtas në qendër",
+                "top_center": "Lart në qendër",
+                "top_left": "Lart majtas",
+                "top_right": "Lart djathtas"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Fundi",
+                "more_options": "Më shumë opsione"
+            },
+            "direction": {
+                "bottom_left": "Poshtë majtas",
+                "bottom_right": "Poshtë djathtas",
+                "clockwise": "Në drejtim orar",
+                "counter_clockwise": "Në drejtim kundërorar",
+                "from_the": "Nga {place}",
+                "to_the": "Drejt {place}",
+                "top_left": "Lart majtas",
+                "top_right": "Lart djathtas"
+            },
+            "easing": {
+                "accelerate": "Përshpejto",
+                "bounce": "Kërcim",
+                "elastic": "Elastik",
+                "impulse": "Impuls",
+                "natural": "Natyral",
+                "overshoot": "Tejkalim",
+                "slow_down": "Ngadalëso",
+                "smooth": "I butë",
+                "swing": "Lëkundje"
+            },
+            "field": {
+                "amount": "Sasia",
+                "anchor_group": "Pika e ankorimit",
+                "anchor_point": "Pika e ankorimit",
+                "angle": "Këndi",
+                "apply_effect_to": "Apliko efektin te",
+                "axis": "Boshti",
+                "choose_easing": "Zgjidh zbutjen",
+                "distance": "Distanca",
+                "duration": "Kohëzgjatja",
+                "edge": "Skaji",
+                "fade": "Venitje",
+                "from_noun": "Nga {noun}",
+                "horizontal": "Horizontale",
+                "noun_blur": "turbullimi",
+                "noun_opacity": "tejdukshmëria",
+                "noun_size": "madhësia",
+                "opacity": "Tejdukshmëria",
+                "order": "Renditja",
+                "position": "Pozicioni",
+                "rotation": "Rrotullimi",
+                "rotation_direction": "Drejtimi i rrotullimit",
+                "scale": "Shkalla",
+                "smoothing": "Zbutja",
+                "to_noun": "Në {noun}",
+                "vertical": "Vertikale"
+            },
+            "mode": {
+                "arrives": "Arrin",
+                "departs": "Largohet",
+                "in": "Hyrje",
+                "out": "Dalje"
+            },
+            "panel": {
+                "animation": "Animacioni",
+                "animations_tab": "Animacionet",
+                "basic": "Bazë",
+                "changing_note": "Zgjidh një zëvendësim. Ai zë vendin dhe gjatësinë e animacionit që po ndryshon.",
+                "corner_radius": "Rrezja e këndit",
+                "easing": "Zbutja",
+                "fade": "Venitje",
+                "keyframe_tab": "Kuadri kyç",
+                "layer_blur": "Turbullim i shtresës",
+                "line_height": "Lartësia e rreshtit",
+                "more_options": "Më shumë opsione",
+                "motion": "Lëvizje",
+                "needs_one_element": "Paravendosjet e animacionit kërkojnë një element. Zgjidh një shtresë të vetme për t'i parë.",
+                "paste_animation": "Ngjit animacionin",
+                "scale": "Shkalla",
+                "slide": "Rrëshqitje",
+                "stroke": "Konturi",
+                "text_animation": "Animacion teksti"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Shfaqje",
+                    "label": "Shfaqje"
+                },
+                "blur": {
+                    "label": "Hyrje me turbullim"
+                },
+                "blur_scale": {
+                    "caption": "Turbullim dhe shkallë",
+                    "label": "Hyrje me turbullim dhe shkallë"
+                },
+                "blur_slide": {
+                    "caption": "Turbullim dhe rrëshqitje",
+                    "label": "Hyrje me turbullim dhe rrëshqitje"
+                },
+                "fade": {
+                    "caption": "Venitje",
+                    "label": "Venitje"
+                },
+                "grow": {
+                    "caption": "Kërcim",
+                    "label": "Hyrje me kërcim"
+                },
+                "mask_center": {
+                    "caption": "Maskë nga qendra",
+                    "label": "Zbulim me maskë nga qendra"
+                },
+                "mask_reveal": {
+                    "caption": "Zbulim me maskë",
+                    "label": "Zbulim me maskë nga një skaj"
+                },
+                "mask_slide": {
+                    "caption": "Maskë dhe rrëshqitje",
+                    "label": "Zbulim me maskë dhe rrëshqitje"
+                },
+                "move_scale": {
+                    "caption": "Lëviz dhe shkallëzo",
+                    "label": "Hyrje me lëvizje dhe shkallëzim"
+                },
+                "rotate_left": {
+                    "label": "Rrotullim nga e majta"
+                },
+                "rotate_right": {
+                    "label": "Rrotullim nga e djathta"
+                },
+                "shrink": {
+                    "caption": "E madhe",
+                    "label": "Hyrje e madhe"
+                },
+                "slide": {
+                    "caption": "Rrëshqitje",
+                    "label": "Hyrje me rrëshqitje"
+                },
+                "slide_from_bottom": {
+                    "label": "Rrëshqitje nga poshtë"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Poshtë majtas",
+                    "label": "Rrëshqitje nga poshtë majtas"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Poshtë djathtas",
+                    "label": "Rrëshqitje nga poshtë djathtas"
+                },
+                "slide_from_left": {
+                    "label": "Rrëshqitje nga e majta"
+                },
+                "slide_from_right": {
+                    "label": "Rrëshqitje nga e djathta"
+                },
+                "slide_from_top": {
+                    "label": "Rrëshqitje nga lart"
+                },
+                "slide_from_top_left": {
+                    "caption": "Lart majtas",
+                    "label": "Rrëshqitje nga lart majtas"
+                },
+                "slide_from_top_right": {
+                    "caption": "Lart djathtas",
+                    "label": "Rrëshqitje nga lart djathtas"
+                },
+                "spin": {
+                    "caption": "Rrotullim",
+                    "label": "Hyrje me rrotullim"
+                },
+                "spin_scale": {
+                    "caption": "Rrotullim dhe shkallë",
+                    "label": "Hyrje me rrotullim dhe shkallëzim"
+                },
+                "twist": {
+                    "caption": "Përdredhje",
+                    "label": "Hyrje me përdredhje"
+                }
+            },
+            "property": {
+                "change_text": "Ndrysho tekstin",
+                "morph": "Transformim",
+                "move": "Lëviz",
+                "opacity": "Tejdukshmëria",
+                "scale": "Shkalla"
+            },
+            "section": {
+                "fade": "Venitje",
+                "mask": "Maskë",
+                "scale": "Shkalla",
+                "slide": "Rrëshqitje",
+                "transform": "Transformo"
+            },
+            "text": {
+                "backward": "Mbrapsht",
+                "forward": "Përpara",
+                "letters": "Shkronja",
+                "summary_overlap": "Çdo {unit} fillon kur ai para tij ka kaluar {percent}%.",
+                "summary_sequential": "Çdo {unit} mbaron para se të fillojë tjetri.",
+                "summary_together": "Çdo {unit} lëviz së bashku.",
+                "summary_whole": "I gjithë blloku i tekstit animohet si një.",
+                "words": "Fjalë"
+            },
+            "type": {
+                "fade_in": "Venitje hyrëse",
+                "fade_out": "Venitje dalëse",
+                "line_height": "Lartësia e rreshtit",
+                "radius": "Rrezja",
+                "resize_in": "Ndryshim madhësie hyrës",
+                "resize_out": "Ndryshim madhësie dalës",
+                "rotate_in": "Rrotullim hyrës",
+                "rotate_out": "Rrotullim dalës",
+                "scale_in": "Shkallëzim hyrës",
+                "scale_out": "Shkallëzim dalës",
+                "slide_in": "Rrëshqitje hyrëse",
+                "slide_out": "Rrëshqitje dalëse",
+                "spacing": "Hapësira",
+                "stroke": "Konturi"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Shto fotografinë tënde për të vazhduar.",
+                    "gesture": {
+                        "frameDesktop": "Zvarrit për të ripozicionuar · Rrotullo për zmadhim",
+                        "frameMobile": "Zvarrit për të ripozicionuar, ngjit gishtat për zmadhim",
+                        "handles": "Ndrysho madhësinë nga këndet dhe anët, rrotullo nga maja",
+                        "move": "Zvarrit për të lëvizur",
+                        "moveOrHandles": "Zvarrit për të lëvizur, ose përdor doreza",
+                        "resize": "Zvarrit një kënd ose anë për të ndryshuar madhësinë",
+                        "rotate": "Zvarrit dorezën e sipërme për të rrotulluar",
+                        "rotateDesktop": "Zvarrit vizoren, ose përdor shigjetat e tastierës",
+                        "rotateMobile": "Zvarrit vizoren për të rrotulluar"
+                    },
+                    "hint": {
+                        "pickDesktop": "Kliko një zonë të shënuar, ose zgjidh një shtresë në të majtë",
+                        "pickMobile": "Prek një zonë të shënuar, ose zgjidh një shtresë më poshtë",
+                        "previewDesktop": "Po shikon paraprakisht dizajnin tënd. Kliko mbi të për të vazhduar redaktimin.",
+                        "previewMobile": "Po shikon paraprakisht dizajnin tënd. Prek mbi të për të vazhduar redaktimin."
+                    },
+                    "layer": {
+                        "addPhoto": "Shto fotografinë tënde",
+                        "text": "Teksti: {text}",
+                        "yourPhoto": "Fotoja jote",
+                        "yourText": "Teksti yt"
+                    },
+                    "layers": {
+                        "all": "Të gjitha shtresat",
+                        "photo": "Foto",
+                        "sheetDescription": "Gjithçka në këtë dizajn që mund ta ndryshosh.",
+                        "title": "Shtresat"
+                    },
+                    "photoError": "Nuk e përdorëm dot atë fotografi. Provo një imazh tjetër.",
+                    "preview": {
+                        "backToEditing": "Kthehu te redaktimi"
+                    },
+                    "rotation": {
+                        "aria": "Rrotullimi",
+                        "value": "one:# gradë|other:# gradë"
+                    },
+                    "tools": {
+                        "adjust": "Rregullo",
+                        "aria": "Mjetet e shtresës",
+                        "editText": "Redakto tekstin",
+                        "flip": "Pasqyro",
+                        "locked": "Madhësia dhe pozicioni caktohen nga krijuesi",
+                        "replace": "Zëvendëso",
+                        "textAria": "Mjetet e tekstit",
+                        "zoomIn": "Zmadho",
+                        "zoomOut": "Zvogëlo"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} u shtua në vijën kohore.",
+                "too_big": "{name} tejkalon {limit}.",
+                "too_long": "{name} është më e gjatë se {minutes} minuta.",
+                "too_many": "Vetëm {count} skedarë në një kohë.",
+                "wrong_type": "{name} nuk mund të shtohet — vetëm imazhe, video dhe skedarë SVG."
+            }
+        },
+        "catalogue": {
+            "error_body": "Kontrollo lidhjen, pastaj provo përsëri.",
+            "loading_more": "Po ngarkohen më shumë"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Hidh skicën",
+                "description_unsaved": "Ky dizajn nuk është ruajtur. Nëse kthehesh mbrapa, fshihet përgjithmonë — me shtresa, stile dhe animacion.",
+                "title": "Të hidhet skica “{title}”?"
+            },
+            "save": {
+                "description": "Pasi të ruhet, redaktimi nuk është më i disponueshëm.",
+                "saving": "Po ruhet…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Përshtat me ekranin"
+        },
+        "graphic_panel": {
+            "add": "Shto {name}",
+            "add_failed": "Ky grafik nuk u shtua dot. Provo përsëri.",
+            "empty_body": "Provo një fjalë më të shkurtër ose më të përgjithshme, si yll ose zemër.",
+            "empty_title": "Asnjë grafik nuk përputhet me “{query}”",
+            "error_title": "Grafikët nuk u ngarkuan dot",
+            "none_title": "Nuk ka grafikë për të shfaqur",
+            "search_label": "Kërko grafikë",
+            "search_placeholder": "Kërko grafikë"
+        },
+        "header": {
+            "redo": "Ribëj",
+            "saving": "Po ruhet…",
+            "undo": "Zhbëj",
+            "untitled_design": "Dizajn pa titull"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Vend për foto"
+            },
+            "menu": {
+                "align_center": "Qendër",
+                "bring_forward": "Sillni përpara",
+                "bring_to_front": "Sillni në krye",
+                "detach_image": "Shkëput imazhin",
+                "flip_horizontal": "Pasqyro horizontalisht",
+                "flip_vertical": "Pasqyro vertikalisht",
+                "replace_image": "Zëvendëso imazhin",
+                "send_backward": "Dërgo mbrapa",
+                "send_to_back": "Dërgo në fund",
+                "set_as_background_image": "Cakto si imazh sfondi",
+                "set_as_background_video": "Cakto si video sfondi",
+                "set_background_as_image_layer": "Cakto sfondin si shtresë imazhi",
+                "set_background_as_video_layer": "Cakto sfondin si shtresë videoje",
+                "sheet_title": "Opsionet e shtresës",
+                "show_layers": "Shfaq shtresat"
+            },
+            "pill": {
+                "duplicate": "Dyfisho shtresën",
+                "more": "Më shumë veprime për shtresën",
+                "remove": "Hiq shtresën",
+                "toolbar": "Veprimet e shtresës"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Kodi i çiftimit është gati: {code}. Jepja klientit tënd të AI-së.",
+                "connecting": "Po përgatitet një kod çiftimi.",
+                "failed": "Nuk u lidh dot. {reason}",
+                "reconnecting": "Lidhja u ndërpre. Po provohet të rilidhet."
+            },
+            "clipboard_blocked": "Shfletuesi yt bllokoi kujtesën e kopjimit. {hint}",
+            "connect": "Lidhu",
+            "connecting": "Po lidhet…",
+            "copied_address_announcement": "Adresa e serverit u kopjua",
+            "copied_code_announcement": "Kodi i çiftimit u kopjua",
+            "copy_address_hint": "Zgjidh adresën dhe kopjoje manualisht.",
+            "copy_code": "Kopjo kodin",
+            "copy_code_hint": "Zgjidh kodin dhe kopjoje manualisht.",
+            "copy_server_address": "Kopjo adresën e serverit MCP",
+            "disconnect": "Shkëputu",
+            "error_fallback": "Shërbimi i çiftimit nuk u përgjigj. Kontrollo lidhjen dhe provo përsëri.",
+            "guide": {
+                "fresh_code": "Nëse një kod ndalon së punuari, shtyp Shkëputu dhe lidhu përsëri për një të ri.",
+                "how_to_set_up": "Si ta konfigurosh",
+                "step_add_body": "Shto Twibbonize te klienti yt i AI-së me adresën më poshtë. Në Claude Code, ekzekuto",
+                "step_add_title": "Shto Twibbonize te klienti yt i AI-së",
+                "step_pair_body": "Thuaj “pair with the Twibbonize editor” dhe jepi kodin e mësipërm.",
+                "step_pair_title": "Kërkoji të çiftohet",
+                "where_to_paste": "Ku e ngjis këtë kod?"
+            },
+            "lead": {
+                "code_ready_sentence": "Ngjite në Claude dhe kërkoji të çiftohet. Kanavacja vizaton një unazë rreth faqes ndërsa Claude punon.",
+                "code_ready_title": "Jepi këtë kod klientit tënd të AI-së",
+                "connecting_sentence": "Kjo zgjat një moment.",
+                "connecting_title": "Po përgatitet një kod çiftimi",
+                "disconnected_sentence": "Claude Desktop dhe Claude Code mund të shtojnë shtresa, të shkruajnë tekst, të vendosin animacione dhe të lexojnë çfarë ka në kanavacë.",
+                "disconnected_title": "Sill një klient AI në këtë dizajn",
+                "failed_title": "Nuk u lidh dot",
+                "reconnecting_sentence": "Lidhja me klientin tënd të AI-së u ndërpre. Po provohet ta rikthejmë.",
+                "reconnecting_title": "Po rilidhet",
+                "unavailable_sentence": "Ky version i redaktuesit nuk ka lidhje AI të konfiguruar, ndaj nuk ka ende çfarë të lidhet.",
+                "unavailable_title": "MCP nuk është aktivizuar këtu"
+            },
+            "pairing_code_label": "Kodi i çiftimit: {code}"
+        },
+        "media": {
+            "add_asset": "Shto {name}",
+            "dismiss_error": "Mbyll",
+            "empty_body": "Shto më poshtë një skedar imazhi, videoje ose audioje dhe ai qëndron këtu gjatë kësaj seance.",
+            "empty_narrowed_body": "Pastro kërkimin ose zgjidh një lloj tjetër për të parë gjithçka që ke shtuar.",
+            "empty_narrowed_title": "Asgjë nuk përputhet",
+            "empty_title": "Ende nuk është ngarkuar asgjë",
+            "filter": {
+                "audio": "Audio",
+                "images": "Imazhe"
+            },
+            "filter_group_label": "Lloji i medias",
+            "make_an_image": "Krijo një imazh",
+            "make_image_unavailable": "Gjenerimi i imazheve nuk është ende i disponueshëm",
+            "search_placeholder": "Kërko media",
+            "upload_button": "Ngarko imazh, video ose audio",
+            "uploads_heading": "Ngarkimet"
+        },
+        "page_bar": {
+            "group_label": "Kontrollet e zmadhimit",
+            "zoom_menu": "Niveli i zmadhimit, {percent}%"
+        },
+        "panel": {
+            "loading": "Po ngarkohet {panel}…"
+        },
+        "photo": {
+            "add_by": "Shto foto nga {name}",
+            "add_described": "Shto foto: {description}",
+            "credit": "Fotot ofrohen nga",
+            "empty_body": "Provo një fjalë më të shkurtër ose më të përgjithshme, si plazh ose qytet.",
+            "empty_title": "Asnjë foto nuk përputhet me “{query}”",
+            "error_title": "Fotot nuk u ngarkuan dot",
+            "none_title": "Nuk ka foto për të shfaqur",
+            "search_label": "Kërko foto",
+            "search_placeholder": "Kërko foto"
+        },
+        "qr": {
+            "add_logo": "Shto logo",
+            "add_to_design": "Shto në dizajn",
+            "background_colour_label": "Ngjyra e sfondit",
+            "code_colour_label": "Ngjyra e kodit",
+            "code_label": "Kodi",
+            "link_input_label": "Lidhja e kodit QR",
+            "link_label": "Lidhja",
+            "logo_fallback_name": "Imazhi i logos",
+            "logo_label": "Logoja",
+            "remove_logo": "Hiq logon"
+        },
+        "rail": {
+            "aria_label": "Bibliotekat e dizajnit",
+            "graphic": "Grafikë",
+            "help": "Ndihmë",
+            "layers": "Shtresat",
+            "mcp": "MCP",
+            "media": "Media",
+            "photo": "Foto",
+            "qr_code": "Kodi QR",
+            "shapes": "Forma",
+            "templates": "Shabllone",
+            "textures": "Tekstura",
+            "tools": "Mjete"
+        },
+        "save": {
+            "failed": "Dizajni yt nuk u ruajt dot. Provo përsëri."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Ndriçimi",
+                "compare": "Krahaso me origjinalin",
+                "contrast": "Kontrasti",
+                "grayscale": "Në gri",
+                "group": {
+                    "basic": "Bazë",
+                    "refinements": "Përmirësime"
+                },
+                "hue_rotate": "Rrotullim i nuancës",
+                "reset": "Rivendos rregullimet",
+                "saturation": "Ngopja",
+                "title": "Rregullimet"
+            },
+            "color": {
+                "trigger": "Ngjyra"
+            },
+            "common": {
+                "layer_blur": "Turbullim i shtresës",
+                "layer_blur_stepper": "Turbullim i shtresës"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Formë e lirë",
+                    "landscape": "Horizontal",
+                    "original": "Origjinal",
+                    "portrait": "Vertikal",
+                    "square": "Katror",
+                    "story": "Story",
+                    "widescreen": "Ekran i gjerë"
+                },
+                "shape": {
+                    "circle": "Rreth",
+                    "diamond": "Romb",
+                    "half_circle": "Gjysmërreth",
+                    "oval": "Ovale",
+                    "parallelogram": "Paralelogram",
+                    "rounded": "I rrumbullakosur"
+                }
+            },
+            "filter": {
+                "cool": "E ftohtë",
+                "duotone": "Dyngjyrësh",
+                "mono": "Monokrom",
+                "original": "Origjinal",
+                "vivid": "I gjallë",
+                "warm": "E ngrohtë"
+            },
+            "font_weight": {
+                "black": "Shumë i trashë",
+                "extra_bold": "Ekstra i trashë",
+                "extra_light": "Ekstra i hollë",
+                "medium": "Mesatar",
+                "regular": "Normal",
+                "semibold": "Gjysmë i trashë",
+                "thin": "I hollë"
+            },
+            "frame": {
+                "colour": "Ngjyra e kornizës"
+            },
+            "green_screen": {
+                "choose_colour": "Zgjidh një ngjyrë",
+                "colour": "Ngjyra",
+                "compare": "Krahaso me origjinalin",
+                "eyedropper": "Zgjidh një ngjyrë nga kanavaca",
+                "key_colour": "Ngjyra kyç {hex}",
+                "loose": "E lirshme",
+                "nothing_found": "Nuk u gjet ngjyrë sfondi.",
+                "precise": "E saktë",
+                "preset": {
+                    "bright_blue": "Blu e ndezur",
+                    "bright_green": "E gjelbër e ndezur",
+                    "chroma_blue": "Blu chroma",
+                    "chroma_green": "E gjelbër chroma"
+                },
+                "presets": "Ngjyra të zakonshme sfondi",
+                "remove": "Hiq ekranin e gjelbër",
+                "title": "Ekran i gjelbër"
+            },
+            "image": {
+                "corner_radius": "Rrezja e këndit",
+                "corner_radius_stepper": "Rrezja e këndit",
+                "per_corner": "Redakto këndet një nga një",
+                "per_corner_unavailable": "Redaktimi i këndeve një nga një nuk është ende i disponueshëm"
+            },
+            "keypad": {
+                "value_field": "Vlera e {label}"
+            },
+            "line": {
+                "colour": "Ngjyra e vijës",
+                "style": {
+                    "dots": "Pika",
+                    "long_dashes": "Viza të gjata",
+                    "short_dashes": "Viza të shkurtra",
+                    "solid": "E plotë"
+                },
+                "style_trigger": "Stili i vijës: {style}",
+                "weight": "Trashësia e vijës",
+                "weight_trigger": "Trashësia e vijës {weight}"
+            },
+            "media": {
+                "heading": "Media"
+            },
+            "page": {
+                "size_capped": "Maks. {max} px — raporti ruhet"
+            },
+            "pages": {
+                "title": "Faqet"
+            },
+            "photo_slot": {
+                "enable": "Përdore si vend për foto",
+                "key_field": "Çelësi (unik)",
+                "key_required": "Çelësi është i detyrueshëm",
+                "key_taken": "Çelësi përdoret tashmë nga një vend tjetër",
+                "label_field": "Etiketa (shfaqet te përdoruesi fundor)",
+                "on": "Vend për foto",
+                "remove": "Hiq vendin për foto"
+            },
+            "qr": {
+                "add_logo": "Shto logo",
+                "background_colour": "Ngjyra e sfondit",
+                "code": "Kodi",
+                "code_colour": "Ngjyra e kodit",
+                "link": "Lidhja",
+                "link_input": "Lidhja e kodit QR",
+                "logo": "Logoja",
+                "remove_logo": "Hiq logon"
+            },
+            "root": {
+                "background_image": "Imazhi i sfondit",
+                "edit_background": "Redakto imazhin e sfondit",
+                "fill": "Mbushja",
+                "fill_gradient": "Gradient",
+                "page_height": "Lartësia e faqes",
+                "page_width": "Gjerësia e faqes",
+                "ratio_lock": "Kyç raportin e pamjes",
+                "ratio_unlock": "Zhbllokoje raportin e pamjes",
+                "rotate_left": "Rrotullo sfondin majtas",
+                "rotate_right": "Rrotullo sfondin djathtas"
+            },
+            "scalar": {
+                "clip_length": "Gjatësia",
+                "corner_radius": "Rrezja e këndit",
+                "font_size": "Madhësia e fontit",
+                "layer_blur": "Turbullim i shtresës",
+                "letter_spacing": "Hapësira e shkronjave",
+                "line_height": "Lartësia e rreshtit",
+                "opacity": "Tejdukshmëria",
+                "speed": "Shpejtësia",
+                "stroke_width": "Trashësia e konturit",
+                "volume": "Volumi"
+            },
+            "shape": {
+                "corner_radius": "Rrezja e këndit",
+                "corner_radius_stepper": "Rrezja e këndit",
+                "fill": "Mbushja",
+                "fill_gradient": "Gradient",
+                "fill_mixed": "E përzier",
+                "fill_transparent": "Transparente",
+                "stroke": "Konturi",
+                "stroke_color": "Ngjyra e konturit",
+                "stroke_style": {
+                    "dots": "Pika",
+                    "long_dashes": "Viza të gjata",
+                    "short_dashes": "Viza të shkurtra",
+                    "solid": "E plotë"
+                },
+                "stroke_style_select": "Stili i konturit",
+                "stroke_transparent": "Transparent",
+                "stroke_weight": "Trashësia e konturit"
+            },
+            "svg": {
+                "path_colour": "Ngjyra {index}"
+            },
+            "swatch": {
+                "more_colours": "Më shumë ngjyra"
+            },
+            "text": {
+                "align": {
+                    "justify": "Drejtvënie e plotë"
+                },
+                "alignment": "Rreshtimi",
+                "edit_text": "Redakto tekstin",
+                "font_family": "Familja e fontit",
+                "font_family_select": "Familja e fontit",
+                "font_size": "Madhësia e fontit",
+                "italic_unavailable": "Ky font nuk ka shkrim të pjerrët në këtë peshë",
+                "letter_spacing_stepper": "Hapësira e shkronjave",
+                "line_height": "Lartësia e rreshtit",
+                "line_height_stepper": "Lartësia e rreshtit",
+                "list": "Listë",
+                "list_bulleted": "Listë me pika",
+                "list_numbered": "Listë e numëruar",
+                "list_style": "Stili i listës",
+                "text_case": "Shkronjat e mëdha\/të vogla",
+                "text_color": "Ngjyra e tekstit",
+                "text_style": "Stili i tekstit",
+                "weight": "Pesha"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Rreshto poshtë",
+                    "center_x": "Rreshto qendrat horizontale",
+                    "center_y": "Rreshto qendrat vertikale",
+                    "left": "Rreshto majtas",
+                    "right": "Rreshto djathtas",
+                    "top": "Rreshto lart"
+                },
+                "align_to_page": "Rreshto me faqen",
+                "opacity": "Tejdukshmëria",
+                "position": "Pozicioni",
+                "position_x": "Pozicioni X",
+                "position_y": "Pozicioni Y",
+                "rotation": "Rrotullimi",
+                "scale": "Shkalla"
+            },
+            "video": {
+                "adjust": "Rregullo",
+                "audio": "Audio",
+                "clip_runs": "klipi zgjat {length}",
+                "corner_radius": "Rrezja e këndit",
+                "corner_radius_stepper": "Rrezja e këndit",
+                "green_screen": "Ekran i gjelbër",
+                "loop": "Përsërit deri në fund të dizajnit",
+                "mute": "Hesht",
+                "muted": "I heshtur",
+                "no_audio": "Ky video nuk ka audio.",
+                "playback": "Luajtja",
+                "replace": "Zëvendëso videon",
+                "speed": "Shpejtësia",
+                "speed_custom_input": "Shpejtësi e personalizuar e luajtjes",
+                "speed_presets": "Shpejtësia e luajtjes",
+                "speed_range": "Midis {min}× dhe {max}×",
+                "tools": "Mjete",
+                "unmute": "Hiq heshtjen",
+                "volume": "Volumi",
+                "volume_level": "Niveli i volumit"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Shigjetë",
+            "arrow_down": "Shigjetë poshtë",
+            "arrow_left": "Shigjetë majtas",
+            "arrow_pentagon": "Shigjetë pesëkëndëshe",
+            "arrow_right": "Shigjetë djathtas",
+            "arrow_up": "Shigjetë lart",
+            "chevron": "Chevron",
+            "circle": "Rreth",
+            "cross": "Kryq",
+            "diamond": "Romb",
+            "hexagon": "Gjashtëkëndësh",
+            "hexagon_wide": "Gjashtëkëndësh i gjerë",
+            "line": "Vijë",
+            "octagon": "Tetëkëndësh",
+            "parallelogram": "Paralelogram",
+            "parallelogram_mirrored": "Paralelogram i pasqyruar",
+            "pentagon": "Pesëkëndësh",
+            "square": "Katror",
+            "trapezoid": "Trapez",
+            "trapezoid_upside_down": "Trapez i përmbysur",
+            "triangle": "Trekëndësh",
+            "triangle_upside_down": "Trekëndësh i përmbysur"
+        },
+        "shapes_panel": {
+            "basic": "Bazë",
+            "lines": "Vija dhe shigjeta"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Shto kuadër kyç",
+                "back_to_animations": "Kthehu te animacionet",
+                "basic": "Bazë",
+                "basic_opacity": "Tejdukshmëria",
+                "basic_position": "Pozicioni",
+                "basic_rotation": "Rrotullimi",
+                "basic_scale": "Shkalla",
+                "keyframe": "Kuadri kyç",
+                "pick_property_hint": "Zgjidh vetinë për kuadër kyç. Prekja e njërës mbyll fletën dhe hap panelin e saj, me kuadrin kyç të vendosur te koka e luajtjes me vlerën aktuale të shtresës.",
+                "presets_need_one": "Paravendosjet e animacionit kërkojnë një element. Zgjidh një shtresë të vetme për t'i parë.",
+                "title": "Animo"
+            },
+            "easing": {
+                "title": "Zbutja"
+            },
+            "font_weight": {
+                "title": "Pesha e fontit"
+            },
+            "speed": {
+                "title": "Shpejtësia"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Ngjyrat e paracaktuara",
+                "eyedropper": "Zgjidh ngjyrë nga ekrani",
+                "eyedropper_unsupported": "Shfletuesi yt nuk e mbështet pipetën",
+                "fill_linear": "lineare",
+                "fill_radial": "radiale",
+                "fill_solid": "e plotë",
+                "fill_type": "Lloji i mbushjes",
+                "gradients_in_design": "Gradientë në dizajn",
+                "hex": "Ngjyra hex",
+                "in_design": "Në dizajn",
+                "title": "Ngjyra e mbushjes",
+                "use_color": "Përdor {color}",
+                "use_gradient": "Përdor gradientin {style}",
+                "use_transparent": "Transparente"
+            },
+            "crop": {
+                "adjust_shape": "Rregullo formën e prerjes",
+                "aspect": "Raporti",
+                "framing": "Kuadrimi",
+                "framing_hint": "Zvarrit foton për ta ricuar, ose një kënd për të ndryshuar madhësinë e dritares së prerjes. Rrotullo për zmadhim.",
+                "scale": "Shkalla"
+            },
+            "filters": {
+                "show_earlier": "Shfaq filtrat e mëparshëm",
+                "show_more": "Shfaq më shumë filtra",
+                "swatch": "Ngjyra e {label}: {color}",
+                "title": "Filtrat"
+            },
+            "font": {
+                "all_fonts": "TË GJITHA FONTET",
+                "applying": "Po aplikohet fonti",
+                "back": "Kthehu te opsionet e tekstit",
+                "clear_search": "Pastro kërkimin",
+                "clear_search_action": "Pastro kërkimin",
+                "in_this_design": "NË KËTË DIZAJN",
+                "no_match": "Asnjë font nuk përputhet me “{query}”",
+                "no_match_hint": "Twibbonize merr nga katalogu i Google Fonts, dhe kjo familje nuk është pjesë e tij. Provo një term më të shkurtër kërkimi.",
+                "search_label": "Kërko familje fontesh",
+                "search_placeholder": "Kërko fonte",
+                "title": "Familja e fontit",
+                "weight": "Pesha e fontit"
+            },
+            "gradient": {
+                "add_stop": "Shto pikë gradienti",
+                "angle": "Këndi",
+                "angle_dial": "Këndi i gradientit, {degrees} gradë. Zvarrit për ta ndryshuar",
+                "angle_dial_hint": "Zvarrit për të ndryshuar këndin e gradientit",
+                "angle_input": "Këndi i gradientit në gradë",
+                "centre_unsupported": "Qendra e gradientit nuk mbështetet ende nga paraqitësi",
+                "stop": "Pika e gradientit {index} te {percent}%, {color}",
+                "stop_hint": "Zvarrit për të lëvizur, kliko dy herë për të hequr"
+            },
+            "image": {
+                "adjustment": "Rregullimi",
+                "adjustments": "Rregullimet",
+                "back_to_edit": "Kthehu te skeda Redakto",
+                "background_removal": "Heqja e sfondit",
+                "compare": "Krahaso me origjinalin",
+                "removing": "Po hiqet…",
+                "removing_background": "Po hiqet sfondi",
+                "reset_adjustments": "Rivendos rregullimet",
+                "tools": "Mjete"
+            },
+            "keyframe": {
+                "add": "Shto kuadër kyç",
+                "add_at_playhead": "Shto kuadër kyç {property} te koka e luajtjes",
+                "add_at_playhead_short": "Shto një kuadër kyç te koka e luajtjes",
+                "add_lane_at_playhead": "Shto një kuadër kyç {lane} te koka e luajtjes",
+                "add_property": "Shto veti për animim",
+                "all_lanes_added": "Çdo veti që kjo shtresë mund ta animojë ka tashmë një shirit",
+                "delete": "Fshi këtë kuadër kyç",
+                "diamond": "Kuadër kyç {lane} te {seconds}s",
+                "easing": "Zbutja",
+                "easing_caps": "ZBUTJA",
+                "first_no_easing": "Kuadri i parë kyç nuk ka zbutje",
+                "hex": "Ngjyra hex",
+                "layer_blur": "Turbullim i shtresës",
+                "letter_spacing": "Hapësira e shkronjave",
+                "line_height": "Lartësia e rreshtit",
+                "opacity": "Tejdukshmëria",
+                "opacity_percent": "Përqindja e tejdukshmërisë",
+                "position_x": "Pozicioni X",
+                "position_y": "Pozicioni Y",
+                "radius_bottom_left": "Rrezja e këndit poshtë majtas",
+                "radius_bottom_right": "Rrezja e këndit poshtë djathtas",
+                "radius_top_left": "Rrezja e këndit lart majtas",
+                "radius_top_right": "Rrezja e këndit lart djathtas",
+                "remove": "Hiq kuadrin kyç",
+                "remove_at_playhead": "Hiq kuadrin kyç {property} te koka e luajtjes",
+                "rotation": "Rrotullimi",
+                "scale": "Shkalla",
+                "shadow_blur": "Turbullim i hijes",
+                "shadow_color": "Ngjyra e hijes",
+                "shadow_offset_x": "Zhvendosja e hijes X",
+                "shadow_offset_y": "Zhvendosja e hijes Y",
+                "shadow_spread": "Përhapja e hijes",
+                "stroke_color": "Ngjyra e konturit",
+                "stroke_weight": "Trashësia e konturit"
+            },
+            "layer": {
+                "page_background": "Sfondi i faqes",
+                "tab_animate": "Animo",
+                "tabs_label": "Paneli i shtresave",
+                "title": "Shtresat"
+            },
+            "page_preset": {
+                "group_label": "Paravendosje të madhësisë së kanavacës",
+                "landscape": "Horizontal",
+                "portrait": "Vertikal",
+                "square": "Katror",
+                "story": "Story",
+                "tile_aria": "{name}, {width} me {height} piksele"
+            },
+            "personalization": {
+                "act_as_placeholder": "Vepro si vendmbajtës",
+                "allow_adjust_framing": "Lejo rregullimin e kuadrimit",
+                "allow_adjust_framing_hint": "Mbështetësit mund të zmadhojnë dhe lëvizin fotot e tyre brenda kornizës.",
+                "allow_change_adjustments": "Lejo ndryshimin e rregullimeve",
+                "allow_change_adjustments_hint": "Mbështetësit mund të ndryshojnë ndriçimin, kontrastin dhe rregullime të tjera.",
+                "allow_change_effect": "Lejo ndryshimin e efektit",
+                "allow_change_effect_hint": "Mbështetësit mund të zgjedhin një efekt tjetër për këtë shtresë.",
+                "allow_change_filter": "Lejo ndryshimin e filtrit",
+                "allow_change_filter_hint": "Mbështetësit mund të zgjedhin një filtër tjetër për këtë shtresë.",
+                "allow_edit_text": "Lejo redaktimin e tekstit",
+                "allow_edit_text_hint": "Mbështetësit mund të shkruajnë fjalët e tyre në këtë tekst.",
+                "allow_flip": "Lejo pasqyrimin",
+                "allow_flip_hint": "Mbështetësit mund ta pasqyrojnë këtë shtresë.",
+                "allow_move": "Lejo lëvizjen",
+                "allow_move_hint": "Mbështetësit mund ta zvarrisin këtë shtresë në një vend tjetër.",
+                "allow_replace_media": "Lejo zëvendësimin e medias",
+                "allow_replace_media_hint": "Mbështetësit mund ta ndërrojnë këtë imazh me foton e tyre.",
+                "allow_resize": "Lejo ndryshimin e madhësisë",
+                "allow_resize_hint": "Mbështetësit mund ta ndryshojnë madhësinë e kësaj shtrese duke zvarritur këndet dhe anët.",
+                "allow_rotate": "Lejo rrotullimin",
+                "allow_rotate_hint": "Mbështetësit mund ta rrotullojnë këtë shtresë në çdo kënd.",
+                "group_appearance": "Pamja",
+                "group_arrange": "Rregullo",
+                "group_media": "Media",
+                "placeholder_hint": "Shfaq një vend të zbrazët ku mbështetësit mund të prekin për të shtuar fotot e tyre.",
+                "remove_background": "Hiq sfondin nga fotoja e tyre",
+                "remove_background_hint": "E pret mbështetësin nga fotoja e tij, që dizajni yt të shfaqet rreth tij.",
+                "text_placeholder_hint": "Shfaq këtë tekst si shembull që mbështetësit e zëvendësojnë me tekstin e tyre."
+            },
+            "shape_effect": {
+                "colour": "Ngjyra e efektit",
+                "distance": "Distanca",
+                "echo": "Jehonë",
+                "first_color": "Ngjyra e parë",
+                "first_colour": "Ngjyra e parë e efektit",
+                "glitch": "Glitch",
+                "glow": "Shkëlqim",
+                "group_label": "Efekti i formës",
+                "second_color": "Ngjyra e dytë",
+                "second_colour": "Ngjyra e dytë e efektit",
+                "section": "Efekti",
+                "shadow": "Hije"
+            },
+            "text_effect": {
+                "colour": "Ngjyra e efektit",
+                "curve": "Lakim",
+                "distance": "Distanca",
+                "echo": "Jehonë",
+                "glow": "Shkëlqim",
+                "group_label": "Efekti i tekstit",
+                "outline": "Kontur",
+                "section": "Efekti",
+                "shape_group_label": "Forma e tekstit",
+                "splice": "Ndarje",
+                "title": "Efektet e tekstit"
+            }
+        },
+        "templates": {
+            "empty_body": "Provo një fjalë më të shkurtër ose më të përgjithshme.",
+            "empty_title": "Asnjë shabllon nuk përputhet me “{query}”",
+            "error_title": "Shabllonet nuk u ngarkuan dot",
+            "none_body": "Kërko një temë, si ditëlindje ose diplomim.",
+            "none_title": "Ende pa shabllone për këtë dizajn",
+            "search_label": "Kërko shabllone",
+            "search_placeholder": "Kërko shabllone"
+        },
+        "text_panel": {
+            "add_template": "Shto shabllon teksti: {name}",
+            "add_text_box": "Shto një kuti teksti",
+            "empty_body": "Provo një fjalë më të shkurtër ose më të përgjithshme.",
+            "empty_title": "Asnjë shabllon teksti nuk përputhet me “{query}”",
+            "error_title": "Shabllonet e tekstit nuk u ngarkuan dot",
+            "none_body": "Fillo me një kuti teksti të thjeshtë.",
+            "none_title": "Nuk ka shabllone teksti për të shfaqur",
+            "search_label": "Kërko shabllone teksti",
+            "search_placeholder": "Kërko shabllone teksti"
+        },
+        "text_preset": {
+            "seed": "Shto tekstin tënd këtu"
+        },
+        "textures": {
+            "apply_texture": "Apliko {name}",
+            "category": {
+                "fabric": "Pëlhurë",
+                "grain": "Kokrriza",
+                "grunge": "Grunge",
+                "paper": "Letër",
+                "print": "Shtypje"
+            },
+            "category_group_label": "Kategoria e teksturës",
+            "empty_body": "Po e ndërtojmë këtë bibliotekë — kthehu së shpejti.",
+            "empty_title": "Teksturat nuk janë ende këtu",
+            "most_used": "Më të përdorurat",
+            "search_placeholder": "Kërko tekstura"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Shto audio",
+                "add_tooltip": "Shto një pistë audio sfondi",
+                "bar_aria": "{name} te {start} për {duration}",
+                "decoding": "Po dekodohet audioja…",
+                "decoding_waveform": "Po dekodohet forma e valës…",
+                "default_name": "Audio",
+                "drop_to_add": "Lësho për të shtuar audio",
+                "kind_suffix": "· Audio",
+                "mute": "Hesht pistën",
+                "unmute": "Hiq heshtjen e pistës",
+                "volume": "Volumi i pistës",
+                "waveform_error": "Forma e valës së kësaj pistë nuk u ngarkua dot."
+            },
+            "keyframe": {
+                "add": "Shto kuadër kyç",
+                "add_at_playhead": "Shto kuadër kyç te koka e luajtjes",
+                "add_tooltip": "Vendos kuadër kyç te një veti e kësaj shtrese",
+                "diamond_aria": "Kuadër kyç {lane} te {time}",
+                "diamond_hint": " · zvarrit për të ndryshuar kohën, kliko djathtas për të fshirë",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Rrezja e këndit",
+                    "layer_blur": "Turbullim i shtresës",
+                    "line_height": "Lartësia e rreshtit",
+                    "opacity": "Tejdukshmëria",
+                    "position": "Pozicioni",
+                    "rotation": "Rrotullimi",
+                    "scale": "Shkalla",
+                    "stroke": "Konturi"
+                },
+                "remove_lane": "Hiq kuadrot kyç {lane}",
+                "remove_lane_from_layer": "Hiq kuadrot kyç {lane} nga {layer}",
+                "segment_easing_aria": "Funksioni i kohës {lane} mes {from} dhe {to}, aktualisht {easing}",
+                "segment_easing_title": "Funksioni i kohës · {easing}",
+                "welded_aria": ", ngjitur me skajin e shtresës",
+                "welded_title": " · ngjitur me skajin e shtresës"
+            },
+            "menu": {
+                "repeat_until_end": "Përsërit deri në fund"
+            },
+            "track": {
+                "bar_aria": "{name} te {start} për {duration}",
+                "bar_aria_end_glued": ", fundi ngjitur me shtresën",
+                "bar_aria_start_glued": ", fillimi ngjitur me shtresën",
+                "bar_tooltip": "{name} · {start} për {duration}ms · zvarrit për të lëvizur, zvarrit një skaj për të ndryshuar madhësinë (Alt = pa shtrëngim)",
+                "bar_tooltip_sole": " · zvarritja e këtij skaji e lëviz shtresën",
+                "clip_aria": "Klipi {name}",
+                "clip_tooltip": "Zvarrit për të lëvizur shtresën në kohë · zvarrit një skaj për të shkurtuar (Alt = pa shtrëngim)",
+                "collapse": "Palos",
+                "collapse_all": "Palos të gjitha shtresat",
+                "collapse_named": "Palos {name}",
+                "delete_layer": "Fshi shtresën",
+                "delete_named": "Fshi {name}",
+                "ends_at": "Mbaron në",
+                "expand": "Zgjero",
+                "expand_named": "Zgjero {name}",
+                "hidden_lane_one": "{count} shirit i fshehur",
+                "hidden_lane_other": "{count} shirita të fshehur",
+                "hide": "Fshih",
+                "hide_named": "Fshih {name}",
+                "lane_reorder_tooltip": "Zvarrit për të rirenditur — shiriti i sipërm fiton kur animacionet përputhen",
+                "layer_animations": "Animacionet e shtresës",
+                "lock_layer": "Kyç shtresën",
+                "lock_named": "Kyç {name}",
+                "remove_animation": "Hiq animacionin",
+                "remove_animation_aria": "Hiq animacionin {name} nga {layer}",
+                "reorder_tooltip": "Zvarrit për të rirenditur pistat — renditja në kanavacë caktohet te paneli i shtresave",
+                "show": "Shfaq",
+                "show_named": "Shfaq {name}",
+                "split": "Ndaj",
+                "starts_at": "Fillon në",
+                "trim_end": "Shkurto fundin",
+                "trim_start": "Shkurto fillimin",
+                "trim_to": "Shkurto deri në {time}",
+                "unlock_layer": "Zhbllokoje shtresën",
+                "unlock_named": "Zhbllokoje {name}"
+            },
+            "transport": {
+                "current_time_field": "Koha aktuale në milisekonda",
+                "duration_edge_aria": "Kohëzgjatja e faqes {seconds} sekonda",
+                "duration_edge_tooltip": "Kohëzgjatja e faqes {seconds}s · zvarrit për ta ndryshuar, kliko për vlerën e saktë (Alt = pa shtrëngim)",
+                "duration_max": "Maksimumi {seconds} s",
+                "fit_to_width": "Përshtat me gjerësinë",
+                "forward": "Përpara",
+                "lengthen_page": "Zgjat faqen",
+                "loop": "Luajtje në cikël",
+                "page_duration": "Kohëzgjatja e faqes",
+                "page_duration_field": "Kohëzgjatja e faqes në milisekonda",
+                "resize_dock": "Ndrysho madhësinë e vijës kohore",
+                "rewind": "Kthe mbrapa",
+                "shorten_page": "Shkurto faqen",
+                "zoom": "Zmadhimi i vijës kohore"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "Shumë kërkesa",
             "CN-4003": "Url e pavlefshme",
             "C-4090": "Lidhja e fushatës suaj është tashmë në përdorim. Provoni një tjetër.",
+            "C-4094": "Fushata është tashmë në kosh",
+            "C-4095": "Fushata nuk është në kosh",
             "SUB-403": "Dorëzimet janë të ndaluara nga cilësimet e fushatës",
             "A-40091": "Të lutemi përdor email-in e shkollës ose universitetit tënd",
             "PB-4011": "Kjo lidhje është e pavlefshme ose ka skaduar",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "Lëviz poshtë për të zgjedhur kornizën",
         "editor_single": "Lëviz poshtë për të rregulluar foton tënde",
         "editor_multiple": "Lëviz poshtë për të modifikuar dhe ndërruar kornizat"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "Duke rikthyer fushatat…"
+        }
     }
 }

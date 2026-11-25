@@ -2842,7 +2842,9 @@
             "type": "Type:",
             "size": "Size:",
             "type_image": "JPG, PNG or SVG",
-            "maximum_size": "Maximum 5 MB"
+            "maximum_size": "Maximum 5 MB",
+            "abandoned": "Upload stopped when its layer was removed. Retry to keep this in your library.",
+            "failed": "Upload failed. Check your connection and try again."
         },
         "toolbar": {
             "copy": "Copy",
@@ -2871,7 +2873,119 @@
             "border_weight": "Border Weight",
             "corner_rounding": "Corner Rounding",
             "align": "Align",
-            "effects": "Effects"
+            "effects": "Effects",
+            "animate": {
+                "amount": "Amount",
+                "angle": "Angle",
+                "close": "Close animation settings",
+                "delete_animation": "Delete animation",
+                "distance": "Distance",
+                "easing": "Easing",
+                "fade": "Fade",
+                "settings_aria": "Animation settings"
+            },
+            "audio": {
+                "replace": "Replace",
+                "tools_aria": "Audio track tools",
+                "trim": "Trim",
+                "volume": "Volume"
+            },
+            "clip": {
+                "length": "Length",
+                "split": "Split",
+                "trim": "Trim"
+            },
+            "entry": {
+                "animate": "Animate"
+            },
+            "image": {
+                "adjust": "Adjust",
+                "background_removal_unavailable": "Background removal is not available yet",
+                "remove_background": "Remove background",
+                "remove_background_short": "Cutout",
+                "replace": "Replace"
+            },
+            "keyframe": {
+                "blur": "Layer Blur",
+                "close": "Close keyframe properties",
+                "delete_keyframe": "Delete keyframe",
+                "letter_spacing": "Spacing",
+                "line_height": "Line Height",
+                "opacity": "Opacity",
+                "position": "Position",
+                "properties_aria": "Keyframe properties",
+                "rotation": "Rotation",
+                "scale": "Scale"
+            },
+            "layer_tools": {
+                "deselect": "Deselect layer",
+                "tools_aria": "Layer tools"
+            },
+            "media": {
+                "adjust": "Adjust",
+                "green_screen": "Green screen",
+                "replace": "Replace",
+                "trim": "Trim"
+            },
+            "misc": {
+                "background_fill": "Background fill",
+                "background_fill_short": "Fill",
+                "configure_qr": "Configure QR code",
+                "edit_background_image": "Edit background image",
+                "no_background_image": "No background image yet",
+                "replace_unavailable": "Replace (not available yet)"
+            },
+            "opacity": {
+                "label": "Opacity"
+            },
+            "shape": {
+                "corner_radius": "Corner radius",
+                "corner_radius_short": "Radius",
+                "fill": "Fill",
+                "line_color": "Line color",
+                "line_style_dots": "Dots",
+                "line_style_long_dashes": "Long dashes",
+                "line_style_named": "Line style: {style}",
+                "line_style_short_dashes": "Short dashes",
+                "line_style_solid": "Solid",
+                "line_weight": "Line weight",
+                "stroke_color": "Stroke color",
+                "stroke_color_short": "Stroke",
+                "stroke_weight": "Stroke weight",
+                "stroke_weight_short": "Weight"
+            },
+            "speed": {
+                "custom_input": "Custom playback speed",
+                "label": "Speed",
+                "playback_length": "Playback length",
+                "playback_speed": "Playback speed",
+                "range_hint": "Between {min}× and {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Decrease font size",
+                "font_family": "Font family",
+                "font_family_named": "Font family: {value}",
+                "font_size": "Font size",
+                "font_weight": "Font weight",
+                "font_weight_named": "Font weight: {value}",
+                "increase_font_size": "Increase font size",
+                "keyboard": "Keyboard",
+                "line_height": "Line height",
+                "spacing": "Spacing",
+                "text_color": "Text color",
+                "weight": "Weight"
+            },
+            "volume": {
+                "clip_hint": "Only this clip. Audio placed on the timeline keeps its own level.",
+                "label": "Volume",
+                "level": "Level",
+                "mute": "Mute",
+                "muted": "Muted",
+                "muted_hint": "Level is kept. Un-mute and the clip returns to {percent}%.",
+                "no_audio": "This video has no audio.",
+                "slider": "Volume level",
+                "unmute": "Unmute"
+            }
         },
         "confirmation": {
             "cancel": "Discard",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Document Colors",
             "default_colors": "Default Colors"
         },
-        "graphic": "Graphic"
+        "graphic": "Graphic",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Bottom center",
+                "bottom_left": "Bottom left",
+                "bottom_right": "Bottom right",
+                "center_left": "Center left",
+                "center_right": "Center right",
+                "top_center": "Top center",
+                "top_left": "Top left",
+                "top_right": "Top right"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "End",
+                "more_options": "More options"
+            },
+            "direction": {
+                "bottom_left": "Bottom left",
+                "bottom_right": "Bottom right",
+                "clockwise": "Clockwise",
+                "counter_clockwise": "Counter-clockwise",
+                "from_the": "From the {place}",
+                "to_the": "To the {place}",
+                "top_left": "Top left",
+                "top_right": "Top right"
+            },
+            "easing": {
+                "accelerate": "Accelerate",
+                "bounce": "Bounce",
+                "elastic": "Elastic",
+                "impulse": "Impulse",
+                "natural": "Natural",
+                "overshoot": "Overshoot",
+                "slow_down": "Slow Down",
+                "smooth": "Smooth",
+                "swing": "Swing"
+            },
+            "field": {
+                "amount": "Amount",
+                "anchor_group": "Anchor point",
+                "anchor_point": "Anchor Point",
+                "angle": "Angle",
+                "apply_effect_to": "Apply Effect To",
+                "axis": "Axis",
+                "choose_easing": "Choose easing",
+                "distance": "Distance",
+                "duration": "Duration",
+                "edge": "Edge",
+                "fade": "Fade",
+                "from_noun": "From {noun}",
+                "horizontal": "Horizontal",
+                "noun_blur": "blur",
+                "noun_opacity": "opacity",
+                "noun_size": "size",
+                "opacity": "Opacity",
+                "order": "Order",
+                "position": "Position",
+                "rotation": "Rotation",
+                "rotation_direction": "Rotation direction",
+                "scale": "Scale",
+                "smoothing": "Smoothing",
+                "to_noun": "To {noun}",
+                "vertical": "Vertical"
+            },
+            "mode": {
+                "arrives": "Arrives",
+                "departs": "Departs",
+                "in": "In",
+                "out": "Out"
+            },
+            "panel": {
+                "animation": "Animation",
+                "animations_tab": "Animations",
+                "basic": "Basic",
+                "changing_note": "Pick a replacement. It takes the place and the length of the animation you are changing.",
+                "corner_radius": "Corner Radius",
+                "easing": "Easing",
+                "fade": "Fade",
+                "keyframe_tab": "Keyframe",
+                "layer_blur": "Layer Blur",
+                "line_height": "Line Height",
+                "more_options": "More options",
+                "motion": "Motion",
+                "needs_one_element": "Animation presets need one element. Select a single layer to see them.",
+                "paste_animation": "Paste Animation",
+                "scale": "Scale",
+                "slide": "Slide",
+                "stroke": "Stroke",
+                "text_animation": "Text Animation"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Appear",
+                    "label": "Appear"
+                },
+                "blur": {
+                    "label": "Blur in"
+                },
+                "blur_scale": {
+                    "caption": "Blur & Scale",
+                    "label": "Blur in with a scale"
+                },
+                "blur_slide": {
+                    "caption": "Blur & Slide",
+                    "label": "Blur in with a slide"
+                },
+                "fade": {
+                    "caption": "Fade",
+                    "label": "Fade"
+                },
+                "grow": {
+                    "caption": "Pop",
+                    "label": "Pop in"
+                },
+                "mask_center": {
+                    "caption": "Mask Center",
+                    "label": "Mask reveal from the centre"
+                },
+                "mask_reveal": {
+                    "caption": "Mask Reveal",
+                    "label": "Mask reveal from an edge"
+                },
+                "mask_slide": {
+                    "caption": "Mask & Slide",
+                    "label": "Mask reveal with a slide"
+                },
+                "move_scale": {
+                    "caption": "Move & Scale",
+                    "label": "Move and scale in"
+                },
+                "rotate_left": {
+                    "label": "Rotate from the left"
+                },
+                "rotate_right": {
+                    "label": "Rotate from the right"
+                },
+                "shrink": {
+                    "caption": "Big",
+                    "label": "Big in"
+                },
+                "slide": {
+                    "caption": "Slide",
+                    "label": "Slide in"
+                },
+                "slide_from_bottom": {
+                    "label": "Slide from bottom"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Bottom Left",
+                    "label": "Slide from bottom left"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Bottom Right",
+                    "label": "Slide from bottom right"
+                },
+                "slide_from_left": {
+                    "label": "Slide from left"
+                },
+                "slide_from_right": {
+                    "label": "Slide from right"
+                },
+                "slide_from_top": {
+                    "label": "Slide from top"
+                },
+                "slide_from_top_left": {
+                    "caption": "Top Left",
+                    "label": "Slide from top left"
+                },
+                "slide_from_top_right": {
+                    "caption": "Top Right",
+                    "label": "Slide from top right"
+                },
+                "spin": {
+                    "caption": "Spin",
+                    "label": "Spin in"
+                },
+                "spin_scale": {
+                    "caption": "Spin & Scale",
+                    "label": "Spin and scale in"
+                },
+                "twist": {
+                    "caption": "Twist",
+                    "label": "Twist in"
+                }
+            },
+            "property": {
+                "change_text": "Change Text",
+                "morph": "Morph",
+                "move": "Move",
+                "opacity": "Opacity",
+                "scale": "Scale"
+            },
+            "section": {
+                "fade": "Fade",
+                "mask": "Mask",
+                "scale": "Scale",
+                "slide": "Slide",
+                "transform": "Transform"
+            },
+            "text": {
+                "backward": "Backward",
+                "forward": "Forward",
+                "letters": "Letters",
+                "summary_overlap": "Each {unit} starts when the one before it is {percent}% through.",
+                "summary_sequential": "Each {unit} finishes before the next starts.",
+                "summary_together": "Every {unit} moves together.",
+                "summary_whole": "The whole text block animates as one.",
+                "words": "Words"
+            },
+            "type": {
+                "fade_in": "Fade in",
+                "fade_out": "Fade out",
+                "line_height": "Line Height",
+                "radius": "Radius",
+                "resize_in": "Resize in",
+                "resize_out": "Resize out",
+                "rotate_in": "Rotate in",
+                "rotate_out": "Rotate out",
+                "scale_in": "Scale in",
+                "scale_out": "Scale out",
+                "slide_in": "Slide in",
+                "slide_out": "Slide out",
+                "spacing": "Spacing",
+                "stroke": "Stroke"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Add your photo to continue.",
+                    "gesture": {
+                        "frameDesktop": "Drag to reposition · Scroll to zoom",
+                        "frameMobile": "Drag to reposition, pinch to zoom",
+                        "handles": "Resize from corners and sides, rotate from the top",
+                        "move": "Drag to move",
+                        "moveOrHandles": "Drag to move, or use the handles",
+                        "resize": "Drag a corner or side to resize",
+                        "rotate": "Drag the top handle to rotate",
+                        "rotateDesktop": "Drag the ruler, or use the arrow keys",
+                        "rotateMobile": "Drag the ruler to rotate"
+                    },
+                    "hint": {
+                        "pickDesktop": "Click a marked area, or pick a layer on the left",
+                        "pickMobile": "Tap a marked area, or pick a layer below",
+                        "previewDesktop": "Previewing your design. Click it to keep editing.",
+                        "previewMobile": "Previewing your design. Tap it to keep editing."
+                    },
+                    "layer": {
+                        "addPhoto": "Add your photo",
+                        "text": "Text: {text}",
+                        "yourPhoto": "Your photo",
+                        "yourText": "Your text"
+                    },
+                    "layers": {
+                        "all": "All layers",
+                        "photo": "Photo",
+                        "sheetDescription": "Everything in this design you can change.",
+                        "title": "Layers"
+                    },
+                    "photoError": "We couldn't use that photo. Try a different image.",
+                    "preview": {
+                        "backToEditing": "Back to editing"
+                    },
+                    "rotation": {
+                        "aria": "Rotation",
+                        "value": "one:# degree|other:# degrees"
+                    },
+                    "tools": {
+                        "adjust": "Adjust",
+                        "aria": "Layer tools",
+                        "editText": "Edit text",
+                        "flip": "Flip",
+                        "locked": "Size and position are set by the creator",
+                        "replace": "Replace",
+                        "textAria": "Text tools",
+                        "zoomIn": "Zoom in",
+                        "zoomOut": "Zoom out"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} added to the timeline.",
+                "too_big": "{name} is over {limit}.",
+                "too_long": "{name} is longer than {minutes} minutes.",
+                "too_many": "Only {count} files at a time.",
+                "wrong_type": "{name} can't be added — only images, videos and SVG files."
+            }
+        },
+        "catalogue": {
+            "error_body": "Check your connection, then try again.",
+            "loading_more": "Loading more"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Discard Draft",
+                "description_unsaved": "This design is not saved. Going back deletes it for good — layers, styles and animation included.",
+                "title": "Discard the “{title}” draft?"
+            },
+            "save": {
+                "description": "Once it is saved, editing is no longer available.",
+                "saving": "Saving…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Fit to screen"
+        },
+        "graphic_panel": {
+            "add": "Add {name}",
+            "add_failed": "This graphic could not be added. Try again.",
+            "empty_body": "Try a shorter or more general word, like star or heart.",
+            "empty_title": "No graphics match “{query}”",
+            "error_title": "Graphics could not load",
+            "none_title": "No graphics to show",
+            "search_label": "Search graphics",
+            "search_placeholder": "Search graphics"
+        },
+        "header": {
+            "redo": "Redo",
+            "saving": "Saving…",
+            "undo": "Undo",
+            "untitled_design": "Untitled design"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Photo slot"
+            },
+            "menu": {
+                "align_center": "Centre",
+                "bring_forward": "Bring forward",
+                "bring_to_front": "Bring to front",
+                "detach_image": "Detach image",
+                "flip_horizontal": "Flip horizontal",
+                "flip_vertical": "Flip vertical",
+                "replace_image": "Replace image",
+                "send_backward": "Send backward",
+                "send_to_back": "Send to back",
+                "set_as_background_image": "Set as background image",
+                "set_as_background_video": "Set as background video",
+                "set_background_as_image_layer": "Set background as image layer",
+                "set_background_as_video_layer": "Set background as video layer",
+                "sheet_title": "Layer options",
+                "show_layers": "Show layers"
+            },
+            "pill": {
+                "duplicate": "Duplicate layer",
+                "more": "More layer actions",
+                "remove": "Remove layer",
+                "toolbar": "Layer actions"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Pairing code ready: {code}. Give it to your AI client.",
+                "connecting": "Setting up a pairing code.",
+                "failed": "Couldn't connect. {reason}",
+                "reconnecting": "Connection dropped. Trying to reconnect."
+            },
+            "clipboard_blocked": "Your browser blocked the clipboard. {hint}",
+            "connect": "Connect",
+            "connecting": "Connecting…",
+            "copied_address_announcement": "Server address copied",
+            "copied_code_announcement": "Pairing code copied",
+            "copy_address_hint": "Select the address and copy it manually.",
+            "copy_code": "Copy code",
+            "copy_code_hint": "Select the code and copy it manually.",
+            "copy_server_address": "Copy the MCP server address",
+            "disconnect": "Disconnect",
+            "error_fallback": "The pairing service didn't respond. Check your connection and try again.",
+            "guide": {
+                "fresh_code": "If a code stops working, press Disconnect and connect again for a fresh one.",
+                "how_to_set_up": "How to set this up",
+                "step_add_body": "Add Twibbonize to your AI client using the address below. In Claude Code, run",
+                "step_add_title": "Add Twibbonize to your AI client",
+                "step_pair_body": "Say “pair with the Twibbonize editor” and give it the code above.",
+                "step_pair_title": "Ask it to pair",
+                "where_to_paste": "Where do I paste this code?"
+            },
+            "lead": {
+                "code_ready_sentence": "Paste it into Claude and ask it to pair. The canvas draws a ring around the page while Claude works.",
+                "code_ready_title": "Give this code to your AI client",
+                "connecting_sentence": "This takes a moment.",
+                "connecting_title": "Setting up a pairing code",
+                "disconnected_sentence": "Claude Desktop and Claude Code can add layers, write text, set animations and read what is on the canvas.",
+                "disconnected_title": "Bring an AI client into this design",
+                "failed_title": "Couldn't connect",
+                "reconnecting_sentence": "The link to your AI client dropped. Trying to restore it.",
+                "reconnecting_title": "Reconnecting",
+                "unavailable_sentence": "This editor build has no AI connection configured, so there is nothing to connect to yet.",
+                "unavailable_title": "MCP isn't switched on here"
+            },
+            "pairing_code_label": "Pairing code: {code}"
+        },
+        "media": {
+            "add_asset": "Add {name}",
+            "dismiss_error": "Dismiss",
+            "empty_body": "Add an image, video or audio file below and it stays here for the rest of this session.",
+            "empty_narrowed_body": "Clear the search or pick another type to see everything you have added.",
+            "empty_narrowed_title": "Nothing matches",
+            "empty_title": "Nothing uploaded yet",
+            "filter": {
+                "audio": "Audio",
+                "images": "Images"
+            },
+            "filter_group_label": "Media type",
+            "make_an_image": "Make an Image",
+            "make_image_unavailable": "Generating images isn't available yet",
+            "search_placeholder": "Search media",
+            "upload_button": "Upload Image, Video or Audio",
+            "uploads_heading": "Uploads"
+        },
+        "page_bar": {
+            "group_label": "Zoom controls",
+            "zoom_menu": "Zoom level, {percent}%"
+        },
+        "panel": {
+            "loading": "Loading {panel}…"
+        },
+        "photo": {
+            "add_by": "Add photo by {name}",
+            "add_described": "Add photo: {description}",
+            "credit": "Photos provided by",
+            "empty_body": "Try a shorter or more general word, like beach or city.",
+            "empty_title": "No photos match “{query}”",
+            "error_title": "Photos could not load",
+            "none_title": "No photos to show",
+            "search_label": "Search photos",
+            "search_placeholder": "Search photos"
+        },
+        "qr": {
+            "add_logo": "Add logo",
+            "add_to_design": "Add to design",
+            "background_colour_label": "Background colour",
+            "code_colour_label": "Code colour",
+            "code_label": "Code",
+            "link_input_label": "QR code link",
+            "link_label": "Link",
+            "logo_fallback_name": "Logo image",
+            "logo_label": "Logo",
+            "remove_logo": "Remove logo"
+        },
+        "rail": {
+            "aria_label": "Design libraries",
+            "graphic": "Graphics",
+            "help": "Help",
+            "layers": "Layers",
+            "mcp": "MCP",
+            "media": "Media",
+            "photo": "Photos",
+            "qr_code": "QR code",
+            "shapes": "Shapes",
+            "templates": "Templates",
+            "textures": "Textures",
+            "tools": "Tools"
+        },
+        "save": {
+            "failed": "Your design could not be saved. Try again."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Brightness",
+                "compare": "Compare with original",
+                "contrast": "Contrast",
+                "grayscale": "Grayscale",
+                "group": {
+                    "basic": "Basic",
+                    "refinements": "Refinements"
+                },
+                "hue_rotate": "Hue Rotate",
+                "reset": "Reset Adjustments",
+                "saturation": "Saturation",
+                "title": "Adjustments"
+            },
+            "color": {
+                "trigger": "Colour"
+            },
+            "common": {
+                "layer_blur": "Layer Blur",
+                "layer_blur_stepper": "Layer blur"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Free Form",
+                    "landscape": "Landscape",
+                    "original": "Original",
+                    "portrait": "Portrait",
+                    "square": "Square",
+                    "story": "Story",
+                    "widescreen": "Widescreen"
+                },
+                "shape": {
+                    "circle": "Circle",
+                    "diamond": "Diamond",
+                    "half_circle": "Half Circle",
+                    "oval": "Oval",
+                    "parallelogram": "Parallelogram",
+                    "rounded": "Rounded"
+                }
+            },
+            "filter": {
+                "cool": "Cool",
+                "duotone": "Duotone",
+                "mono": "Mono",
+                "original": "Original",
+                "vivid": "Vivid",
+                "warm": "Warm"
+            },
+            "font_weight": {
+                "black": "Black",
+                "extra_bold": "ExtraBold",
+                "extra_light": "ExtraLight",
+                "medium": "Medium",
+                "regular": "Regular",
+                "semibold": "SemiBold",
+                "thin": "Thin"
+            },
+            "frame": {
+                "colour": "Frame colour"
+            },
+            "green_screen": {
+                "choose_colour": "Choose a colour",
+                "colour": "Colour",
+                "compare": "Compare with the original",
+                "eyedropper": "Pick a colour from the canvas",
+                "key_colour": "Key colour {hex}",
+                "loose": "Loose",
+                "nothing_found": "No background colour found.",
+                "precise": "Precise",
+                "preset": {
+                    "bright_blue": "Bright blue",
+                    "bright_green": "Bright green",
+                    "chroma_blue": "Chroma blue",
+                    "chroma_green": "Chroma green"
+                },
+                "presets": "Common backdrop colours",
+                "remove": "Remove Green Screen",
+                "title": "Green screen"
+            },
+            "image": {
+                "corner_radius": "Corner Radius",
+                "corner_radius_stepper": "Corner radius",
+                "per_corner": "Edit individual corners",
+                "per_corner_unavailable": "Individual corner editing is not available yet"
+            },
+            "keypad": {
+                "value_field": "{label} value"
+            },
+            "line": {
+                "colour": "Line colour",
+                "style": {
+                    "dots": "Dots",
+                    "long_dashes": "Long dashes",
+                    "short_dashes": "Short dashes",
+                    "solid": "Solid"
+                },
+                "style_trigger": "Line style: {style}",
+                "weight": "Line weight",
+                "weight_trigger": "Line weight {weight}"
+            },
+            "media": {
+                "heading": "Media"
+            },
+            "page": {
+                "size_capped": "Max {max} px — ratio kept"
+            },
+            "pages": {
+                "title": "Pages"
+            },
+            "photo_slot": {
+                "enable": "Use as photo slot",
+                "key_field": "Key (unique)",
+                "key_required": "Key is required",
+                "key_taken": "Key already used by another slot",
+                "label_field": "Label (shown to end user)",
+                "on": "Photo slot",
+                "remove": "Remove Photo Slot"
+            },
+            "qr": {
+                "add_logo": "Add logo",
+                "background_colour": "Background colour",
+                "code": "Code",
+                "code_colour": "Code colour",
+                "link": "Link",
+                "link_input": "QR code link",
+                "logo": "Logo",
+                "remove_logo": "Remove logo"
+            },
+            "root": {
+                "background_image": "Background image",
+                "edit_background": "Edit background image",
+                "fill": "Fill",
+                "fill_gradient": "Gradient",
+                "page_height": "Page height",
+                "page_width": "Page width",
+                "ratio_lock": "Lock the aspect ratio",
+                "ratio_unlock": "Unlock the aspect ratio",
+                "rotate_left": "Rotate background left",
+                "rotate_right": "Rotate background right"
+            },
+            "scalar": {
+                "clip_length": "Length",
+                "corner_radius": "Corner radius",
+                "font_size": "Font size",
+                "layer_blur": "Layer blur",
+                "letter_spacing": "Letter spacing",
+                "line_height": "Line height",
+                "opacity": "Opacity",
+                "speed": "Speed",
+                "stroke_width": "Stroke width",
+                "volume": "Volume"
+            },
+            "shape": {
+                "corner_radius": "Corner Radius",
+                "corner_radius_stepper": "Corner radius",
+                "fill": "Fill",
+                "fill_gradient": "Gradient",
+                "fill_mixed": "Mixed",
+                "fill_transparent": "Transparent",
+                "stroke": "Stroke",
+                "stroke_color": "Stroke color",
+                "stroke_style": {
+                    "dots": "Dots",
+                    "long_dashes": "Long dashes",
+                    "short_dashes": "Short dashes",
+                    "solid": "Solid"
+                },
+                "stroke_style_select": "Stroke style",
+                "stroke_transparent": "Transparent",
+                "stroke_weight": "Stroke weight"
+            },
+            "svg": {
+                "path_colour": "Colour {index}"
+            },
+            "swatch": {
+                "more_colours": "More colours"
+            },
+            "text": {
+                "align": {
+                    "justify": "Justify"
+                },
+                "alignment": "Alignment",
+                "edit_text": "Edit text",
+                "font_family": "Font Family",
+                "font_family_select": "Font family",
+                "font_size": "Font size",
+                "italic_unavailable": "This font doesn't ship an italic at this weight",
+                "letter_spacing_stepper": "Letter spacing",
+                "line_height": "Line Height",
+                "line_height_stepper": "Line height",
+                "list": "List",
+                "list_bulleted": "Bulleted list",
+                "list_numbered": "Numbered list",
+                "list_style": "List style",
+                "text_case": "Text case",
+                "text_color": "Text color",
+                "text_style": "Text style",
+                "weight": "Weight"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Align bottom",
+                    "center_x": "Align horizontal centres",
+                    "center_y": "Align vertical centres",
+                    "left": "Align left",
+                    "right": "Align right",
+                    "top": "Align top"
+                },
+                "align_to_page": "Align to page",
+                "opacity": "Opacity",
+                "position": "Position",
+                "position_x": "Position X",
+                "position_y": "Position Y",
+                "rotation": "Rotation",
+                "scale": "Scale"
+            },
+            "video": {
+                "adjust": "Adjust",
+                "audio": "Audio",
+                "clip_runs": "clip runs {length}",
+                "corner_radius": "Corner Radius",
+                "corner_radius_stepper": "Corner radius",
+                "green_screen": "Green screen",
+                "loop": "Loop until the design ends",
+                "mute": "Mute",
+                "muted": "Muted",
+                "no_audio": "This video has no audio.",
+                "playback": "Playback",
+                "replace": "Replace Video",
+                "speed": "Speed",
+                "speed_custom_input": "Custom playback speed",
+                "speed_presets": "Playback speed",
+                "speed_range": "Between {min}× and {max}×",
+                "tools": "Tools",
+                "unmute": "Unmute",
+                "volume": "Volume",
+                "volume_level": "Volume level"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Arrow",
+            "arrow_down": "Down arrow",
+            "arrow_left": "Left arrow",
+            "arrow_pentagon": "Pentagon arrow",
+            "arrow_right": "Right arrow",
+            "arrow_up": "Up arrow",
+            "chevron": "Chevron",
+            "circle": "Circle",
+            "cross": "Cross",
+            "diamond": "Diamond",
+            "hexagon": "Hexagon",
+            "hexagon_wide": "Wide hexagon",
+            "line": "Line",
+            "octagon": "Octagon",
+            "parallelogram": "Parallelogram",
+            "parallelogram_mirrored": "Mirrored parallelogram",
+            "pentagon": "Pentagon",
+            "square": "Square",
+            "trapezoid": "Trapezoid",
+            "trapezoid_upside_down": "Upside-down trapezoid",
+            "triangle": "Triangle",
+            "triangle_upside_down": "Upside-down triangle"
+        },
+        "shapes_panel": {
+            "basic": "Basic",
+            "lines": "Lines and arrows"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Add keyframe",
+                "back_to_animations": "Back to animations",
+                "basic": "Basic",
+                "basic_opacity": "Opacity",
+                "basic_position": "Position",
+                "basic_rotation": "Rotation",
+                "basic_scale": "Scale",
+                "keyframe": "Keyframe",
+                "pick_property_hint": "Pick the property to keyframe. Tapping one closes the sheet and opens its panel, with the keyframe already placed at the playhead holding the layer's current value.",
+                "presets_need_one": "Animation presets need one element. Select a single layer to see them.",
+                "title": "Animate"
+            },
+            "easing": {
+                "title": "Easing"
+            },
+            "font_weight": {
+                "title": "Font weight"
+            },
+            "speed": {
+                "title": "Speed"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Default colors",
+                "eyedropper": "Pick colour from screen",
+                "eyedropper_unsupported": "Your browser doesn't support the eyedropper",
+                "fill_linear": "linear",
+                "fill_radial": "radial",
+                "fill_solid": "solid",
+                "fill_type": "Fill type",
+                "gradients_in_design": "Gradients in design",
+                "hex": "Hex colour",
+                "in_design": "In design",
+                "title": "Fill colour",
+                "use_color": "Use {color}",
+                "use_gradient": "Use {style} gradient",
+                "use_transparent": "Transparent"
+            },
+            "crop": {
+                "adjust_shape": "Adjust the crop shape",
+                "aspect": "Aspect",
+                "framing": "Framing",
+                "framing_hint": "Drag the photo to reframe it, or a corner to resize the crop window. Scroll to zoom.",
+                "scale": "Scale"
+            },
+            "filters": {
+                "show_earlier": "Show earlier filters",
+                "show_more": "Show more filters",
+                "swatch": "{label} colour: {color}",
+                "title": "Filters"
+            },
+            "font": {
+                "all_fonts": "ALL FONTS",
+                "applying": "Applying font",
+                "back": "Back to text options",
+                "clear_search": "Clear search",
+                "clear_search_action": "Clear Search",
+                "in_this_design": "IN THIS DESIGN",
+                "no_match": "No fonts match “{query}”",
+                "no_match_hint": "Twibbonize draws from the Google Fonts catalog, and this family is not part of it. Try a shorter search term.",
+                "search_label": "Search font families",
+                "search_placeholder": "Search fonts",
+                "title": "Font family",
+                "weight": "Font weight"
+            },
+            "gradient": {
+                "add_stop": "Add gradient stop",
+                "angle": "Angle",
+                "angle_dial": "Gradient angle, {degrees} degrees. Drag to change",
+                "angle_dial_hint": "Drag to change the gradient angle",
+                "angle_input": "Gradient angle in degrees",
+                "centre_unsupported": "Gradient centre isn't supported by the renderer yet",
+                "stop": "Gradient stop {index} at {percent}%, {color}",
+                "stop_hint": "Drag to move, double-click to remove"
+            },
+            "image": {
+                "adjustment": "Adjustment",
+                "adjustments": "Adjustments",
+                "back_to_edit": "Back to Edit tab",
+                "background_removal": "Background Removal",
+                "compare": "Compare with original",
+                "removing": "Removing…",
+                "removing_background": "Removing the background",
+                "reset_adjustments": "Reset Adjustments",
+                "tools": "Tools"
+            },
+            "keyframe": {
+                "add": "Add keyframe",
+                "add_at_playhead": "Add {property} keyframe at the playhead",
+                "add_at_playhead_short": "Add a keyframe at the playhead",
+                "add_lane_at_playhead": "Add a {lane} keyframe at the playhead",
+                "add_property": "Add Property to Animate",
+                "all_lanes_added": "Every property this layer can keyframe already has a lane",
+                "delete": "Delete this keyframe",
+                "diamond": "{lane} keyframe at {seconds}s",
+                "easing": "Easing",
+                "easing_caps": "EASING",
+                "first_no_easing": "The first keyframe has no easing",
+                "hex": "Hex colour",
+                "layer_blur": "Layer blur",
+                "letter_spacing": "Letter spacing",
+                "line_height": "Line height",
+                "opacity": "Opacity",
+                "opacity_percent": "Opacity percent",
+                "position_x": "Position X",
+                "position_y": "Position Y",
+                "radius_bottom_left": "Bottom-left corner radius",
+                "radius_bottom_right": "Bottom-right corner radius",
+                "radius_top_left": "Top-left corner radius",
+                "radius_top_right": "Top-right corner radius",
+                "remove": "Remove keyframe",
+                "remove_at_playhead": "Remove {property} keyframe at the playhead",
+                "rotation": "Rotation",
+                "scale": "Scale",
+                "shadow_blur": "Shadow blur",
+                "shadow_color": "Shadow color",
+                "shadow_offset_x": "Shadow offset X",
+                "shadow_offset_y": "Shadow offset Y",
+                "shadow_spread": "Shadow spread",
+                "stroke_color": "Stroke color",
+                "stroke_weight": "Stroke weight"
+            },
+            "layer": {
+                "page_background": "Page background",
+                "tab_animate": "Animate",
+                "tabs_label": "Layer panel",
+                "title": "Layers"
+            },
+            "page_preset": {
+                "group_label": "Canvas size presets",
+                "landscape": "Landscape",
+                "portrait": "Portrait",
+                "square": "Square",
+                "story": "Story",
+                "tile_aria": "{name}, {width} by {height} pixels"
+            },
+            "personalization": {
+                "act_as_placeholder": "Act as Placeholder",
+                "allow_adjust_framing": "Allow to Adjust Framing",
+                "allow_adjust_framing_hint": "Supporters can zoom and move their photo inside the frame.",
+                "allow_change_adjustments": "Allow to Change Adjustments",
+                "allow_change_adjustments_hint": "Supporters can change brightness, contrast, and other adjustments.",
+                "allow_change_effect": "Allow to Change Effect",
+                "allow_change_effect_hint": "Supporters can pick a different effect for this layer.",
+                "allow_change_filter": "Allow to Change Filter",
+                "allow_change_filter_hint": "Supporters can pick a different filter for this layer.",
+                "allow_edit_text": "Allow to Edit Text",
+                "allow_edit_text_hint": "Supporters can type their own words in this text.",
+                "allow_flip": "Allow to Flip",
+                "allow_flip_hint": "Supporters can mirror this layer.",
+                "allow_move": "Allow to Move",
+                "allow_move_hint": "Supporters can drag this layer to a new spot.",
+                "allow_replace_media": "Allow to Replace Media",
+                "allow_replace_media_hint": "Supporters can swap this image for their own photo.",
+                "allow_resize": "Allow to Resize",
+                "allow_resize_hint": "Supporters can resize this layer by dragging its corners and sides.",
+                "allow_rotate": "Allow to Rotate",
+                "allow_rotate_hint": "Supporters can turn this layer to any angle.",
+                "group_appearance": "Appearance",
+                "group_arrange": "Arrange",
+                "group_media": "Media",
+                "placeholder_hint": "Shows an empty slot supporters can tap to add their photo.",
+                "remove_background": "Remove the background from their photo",
+                "remove_background_hint": "Cuts the supporter out of their photo so your design shows around them.",
+                "text_placeholder_hint": "Shows this text as a sample that supporters replace with their own."
+            },
+            "shape_effect": {
+                "colour": "Effect colour",
+                "distance": "Distance",
+                "echo": "Echo",
+                "first_color": "First color",
+                "first_colour": "First effect colour",
+                "glitch": "Glitch",
+                "glow": "Glow",
+                "group_label": "Shape effect",
+                "second_color": "Second color",
+                "second_colour": "Second effect colour",
+                "section": "Effect",
+                "shadow": "Drop shadow"
+            },
+            "text_effect": {
+                "colour": "Effect colour",
+                "curve": "Curve",
+                "distance": "Distance",
+                "echo": "Echo",
+                "glow": "Glow",
+                "group_label": "Text effect",
+                "outline": "Outline",
+                "section": "Effect",
+                "shape_group_label": "Text shape",
+                "splice": "Splice",
+                "title": "Text effects"
+            }
+        },
+        "templates": {
+            "empty_body": "Try a shorter or more general word.",
+            "empty_title": "No templates match “{query}”",
+            "error_title": "Templates could not load",
+            "none_body": "Search for a theme, like birthday or graduation.",
+            "none_title": "No templates for this design yet",
+            "search_label": "Search templates",
+            "search_placeholder": "Search templates"
+        },
+        "text_panel": {
+            "add_template": "Add text template: {name}",
+            "add_text_box": "Add a Text Box",
+            "empty_body": "Try a shorter or more general word.",
+            "empty_title": "No text templates match “{query}”",
+            "error_title": "Text templates could not load",
+            "none_body": "Start with a plain text box instead.",
+            "none_title": "No text templates to show",
+            "search_label": "Search text templates",
+            "search_placeholder": "Search text templates"
+        },
+        "text_preset": {
+            "seed": "Add your text here"
+        },
+        "textures": {
+            "apply_texture": "Apply {name}",
+            "category": {
+                "fabric": "Fabric",
+                "grain": "Grain",
+                "grunge": "Grunge",
+                "paper": "Paper",
+                "print": "Print"
+            },
+            "category_group_label": "Texture category",
+            "empty_body": "We're building this library — check back soon.",
+            "empty_title": "Textures aren't here yet",
+            "most_used": "Most used",
+            "search_placeholder": "Search textures"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Add Audio",
+                "add_tooltip": "Add a background audio track",
+                "bar_aria": "{name} at {start} for {duration}",
+                "decoding": "Decoding audio…",
+                "decoding_waveform": "Decoding waveform…",
+                "default_name": "Audio",
+                "drop_to_add": "Drop to add audio",
+                "kind_suffix": "· Audio",
+                "mute": "Mute track",
+                "unmute": "Unmute track",
+                "volume": "Track volume",
+                "waveform_error": "Could not load this track’s waveform."
+            },
+            "keyframe": {
+                "add": "Add Keyframe",
+                "add_at_playhead": "Add keyframe at the playhead",
+                "add_tooltip": "Keyframe a property of this layer",
+                "diamond_aria": "{lane} keyframe at {time}",
+                "diamond_hint": " · drag to retime, right-click to delete",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Corner Radius",
+                    "layer_blur": "Layer Blur",
+                    "line_height": "Line Height",
+                    "opacity": "Opacity",
+                    "position": "Position",
+                    "rotation": "Rotation",
+                    "scale": "Scale",
+                    "stroke": "Stroke"
+                },
+                "remove_lane": "Remove {lane} keyframes",
+                "remove_lane_from_layer": "Remove {lane} keyframes from {layer}",
+                "segment_easing_aria": "{lane} timing function between {from} and {to}, currently {easing}",
+                "segment_easing_title": "Timing function · {easing}",
+                "welded_aria": ", glued to the layer edge",
+                "welded_title": " · glued to the layer edge"
+            },
+            "menu": {
+                "repeat_until_end": "Repeat until end"
+            },
+            "track": {
+                "bar_aria": "{name} at {start} for {duration}",
+                "bar_aria_end_glued": ", end glued to the layer",
+                "bar_aria_start_glued": ", start glued to the layer",
+                "bar_tooltip": "{name} · {start} for {duration}ms · drag to move, drag an edge to resize (Alt = no snap)",
+                "bar_tooltip_sole": " · dragging this edge moves the layer",
+                "clip_aria": "{name} clip",
+                "clip_tooltip": "Drag to move the layer in time · drag an end to trim (Alt = no snap)",
+                "collapse": "Collapse",
+                "collapse_all": "Collapse all layers",
+                "collapse_named": "Collapse {name}",
+                "delete_layer": "Delete Layer",
+                "delete_named": "Delete {name}",
+                "ends_at": "Ends at",
+                "expand": "Expand",
+                "expand_named": "Expand {name}",
+                "hidden_lane_one": "{count} hidden lane",
+                "hidden_lane_other": "{count} hidden lanes",
+                "hide": "Hide",
+                "hide_named": "Hide {name}",
+                "lane_reorder_tooltip": "Drag to reorder — the top lane wins where animations overlap",
+                "layer_animations": "Layer animations",
+                "lock_layer": "Lock layer",
+                "lock_named": "Lock {name}",
+                "remove_animation": "Remove Animation",
+                "remove_animation_aria": "Remove {name} animation from {layer}",
+                "reorder_tooltip": "Drag to reorder tracks — canvas stacking is set in the layer panel",
+                "show": "Show",
+                "show_named": "Show {name}",
+                "split": "Split",
+                "starts_at": "Starts at",
+                "trim_end": "Trim end",
+                "trim_start": "Trim start",
+                "trim_to": "Trim to {time}",
+                "unlock_layer": "Unlock layer",
+                "unlock_named": "Unlock {name}"
+            },
+            "transport": {
+                "current_time_field": "Current time in milliseconds",
+                "duration_edge_aria": "Page duration {seconds} seconds",
+                "duration_edge_tooltip": "Page duration {seconds}s · drag to change, click for the exact value (Alt = no snap)",
+                "duration_max": "Maximum {seconds} s",
+                "fit_to_width": "Fit to width",
+                "forward": "Forward",
+                "lengthen_page": "Lengthen the page",
+                "loop": "Loop playback",
+                "page_duration": "Page duration",
+                "page_duration_field": "Page duration in milliseconds",
+                "resize_dock": "Resize timeline",
+                "rewind": "Rewind",
+                "shorten_page": "Shorten the page",
+                "zoom": "Timeline zoom"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "Too many requests",
             "CN-4003": "Invalid URL",
             "C-4090": "Your campaign link is already in use. Try a different one.",
+            "C-4094": "Campaign is already in the trash",
+            "C-4095": "Campaign is not in the trash",
             "SUB-403": "Submissions are forbidden by campaign settings",
             "A-40091": "Please use your school or university email address",
             "PB-4011": "This link is invalid or has expired",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "Scroll down to choose your frame",
         "editor_single": "Scroll down to adjust your photo",
         "editor_multiple": "Scroll down to edit and switch frames"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "Restoring campaigns…"
+        }
     }
 }

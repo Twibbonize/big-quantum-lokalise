@@ -2842,7 +2842,9 @@
             "type": "类型：",
             "size": "尺寸：",
             "type_image": "JPG、PNG 或 SVG",
-            "maximum_size": "最大 5 MB"
+            "maximum_size": "最大 5 MB",
+            "abandoned": "图层已被移除，上传已停止。请重试以将其保留在素材库中。",
+            "failed": "上传失败。请检查网络连接后重试。"
         },
         "toolbar": {
             "copy": "复制",
@@ -2871,7 +2873,119 @@
             "border_weight": "边框粗细",
             "corner_rounding": "圆角",
             "align": "对齐",
-            "effects": "效果"
+            "effects": "效果",
+            "animate": {
+                "amount": "数量",
+                "angle": "角度",
+                "close": "关闭动画设置",
+                "delete_animation": "删除动画",
+                "distance": "距离",
+                "easing": "缓动",
+                "fade": "淡入淡出",
+                "settings_aria": "动画设置"
+            },
+            "audio": {
+                "replace": "替换",
+                "tools_aria": "音轨工具",
+                "trim": "修剪",
+                "volume": "音量"
+            },
+            "clip": {
+                "length": "时长",
+                "split": "拆分",
+                "trim": "修剪"
+            },
+            "entry": {
+                "animate": "动画"
+            },
+            "image": {
+                "adjust": "调整",
+                "background_removal_unavailable": "暂不支持移除背景",
+                "remove_background": "移除背景",
+                "remove_background_short": "抠图",
+                "replace": "替换"
+            },
+            "keyframe": {
+                "blur": "图层模糊",
+                "close": "关闭关键帧属性",
+                "delete_keyframe": "删除关键帧",
+                "letter_spacing": "间距",
+                "line_height": "行高",
+                "opacity": "不透明度",
+                "position": "位置",
+                "properties_aria": "关键帧属性",
+                "rotation": "旋转",
+                "scale": "缩放"
+            },
+            "layer_tools": {
+                "deselect": "取消选择图层",
+                "tools_aria": "图层工具"
+            },
+            "media": {
+                "adjust": "调整",
+                "green_screen": "绿幕",
+                "replace": "替换",
+                "trim": "修剪"
+            },
+            "misc": {
+                "background_fill": "背景填充",
+                "background_fill_short": "填充",
+                "configure_qr": "设置二维码",
+                "edit_background_image": "编辑背景图片",
+                "no_background_image": "暂无背景图片",
+                "replace_unavailable": "替换（暂不可用）"
+            },
+            "opacity": {
+                "label": "不透明度"
+            },
+            "shape": {
+                "corner_radius": "圆角半径",
+                "corner_radius_short": "半径",
+                "fill": "填充",
+                "line_color": "线条颜色",
+                "line_style_dots": "点线",
+                "line_style_long_dashes": "长虚线",
+                "line_style_named": "线条样式：{style}",
+                "line_style_short_dashes": "短虚线",
+                "line_style_solid": "实线",
+                "line_weight": "线条粗细",
+                "stroke_color": "描边颜色",
+                "stroke_color_short": "描边",
+                "stroke_weight": "描边粗细",
+                "stroke_weight_short": "粗细"
+            },
+            "speed": {
+                "custom_input": "自定义播放速度",
+                "label": "速度",
+                "playback_length": "播放时长",
+                "playback_speed": "播放速度",
+                "range_hint": "介于 {min}× 和 {max}× 之间"
+            },
+            "text": {
+                "decrease_font_size": "减小字号",
+                "font_family": "字体",
+                "font_family_named": "字体：{value}",
+                "font_size": "字号",
+                "font_weight": "字重",
+                "font_weight_named": "字重：{value}",
+                "increase_font_size": "增大字号",
+                "keyboard": "键盘",
+                "line_height": "行高",
+                "spacing": "间距",
+                "text_color": "文字颜色",
+                "weight": "字重"
+            },
+            "volume": {
+                "clip_hint": "仅对此片段生效。放置在时间轴上的音频保持自己的音量。",
+                "label": "音量",
+                "level": "音量大小",
+                "mute": "静音",
+                "muted": "已静音",
+                "muted_hint": "音量设置已保留。取消静音后，片段将恢复到 {percent}%。",
+                "no_audio": "此视频没有音频。",
+                "slider": "音量大小",
+                "unmute": "取消静音"
+            }
         },
         "confirmation": {
             "cancel": "丢弃",
@@ -2918,7 +3032,1066 @@
             "document_colors": "文档颜色",
             "default_colors": "默认颜色"
         },
-        "graphic": "形象的"
+        "graphic": "形象的",
+        "animate": {
+            "anchor": {
+                "bottom_center": "底部居中",
+                "bottom_left": "左下",
+                "bottom_right": "右下",
+                "center_left": "左侧居中",
+                "center_right": "右侧居中",
+                "top_center": "顶部居中",
+                "top_left": "左上",
+                "top_right": "右上"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "结束",
+                "more_options": "更多选项"
+            },
+            "direction": {
+                "bottom_left": "左下",
+                "bottom_right": "右下",
+                "clockwise": "顺时针",
+                "counter_clockwise": "逆时针",
+                "from_the": "从{place}",
+                "to_the": "向{place}",
+                "top_left": "左上",
+                "top_right": "右上"
+            },
+            "easing": {
+                "accelerate": "加速",
+                "bounce": "弹跳",
+                "elastic": "弹性",
+                "impulse": "脉冲",
+                "natural": "自然",
+                "overshoot": "过冲",
+                "slow_down": "减速",
+                "smooth": "平滑",
+                "swing": "摆动"
+            },
+            "field": {
+                "amount": "数量",
+                "anchor_group": "锚点",
+                "anchor_point": "锚点",
+                "angle": "角度",
+                "apply_effect_to": "应用效果到",
+                "axis": "轴",
+                "choose_easing": "选择缓动",
+                "distance": "距离",
+                "duration": "时长",
+                "edge": "边缘",
+                "fade": "淡入淡出",
+                "from_noun": "起始{noun}",
+                "horizontal": "水平",
+                "noun_blur": "模糊",
+                "noun_opacity": "不透明度",
+                "noun_size": "大小",
+                "opacity": "不透明度",
+                "order": "顺序",
+                "position": "位置",
+                "rotation": "旋转",
+                "rotation_direction": "旋转方向",
+                "scale": "缩放",
+                "smoothing": "平滑度",
+                "to_noun": "结束{noun}",
+                "vertical": "垂直"
+            },
+            "mode": {
+                "arrives": "进入",
+                "departs": "离开",
+                "in": "入场",
+                "out": "出场"
+            },
+            "panel": {
+                "animation": "动画",
+                "animations_tab": "动画",
+                "basic": "基础",
+                "changing_note": "请选择一个替换项。它将沿用你要更改的动画的位置和时长。",
+                "corner_radius": "圆角半径",
+                "easing": "缓动",
+                "fade": "淡入淡出",
+                "keyframe_tab": "关键帧",
+                "layer_blur": "图层模糊",
+                "line_height": "行高",
+                "more_options": "更多选项",
+                "motion": "动态",
+                "needs_one_element": "动画预设需要选中一个元素。请选择单个图层以查看。",
+                "paste_animation": "粘贴动画",
+                "scale": "缩放",
+                "slide": "滑动",
+                "stroke": "描边",
+                "text_animation": "文字动画"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "出现",
+                    "label": "出现"
+                },
+                "blur": {
+                    "label": "模糊入场"
+                },
+                "blur_scale": {
+                    "caption": "模糊与缩放",
+                    "label": "模糊并缩放入场"
+                },
+                "blur_slide": {
+                    "caption": "模糊与滑动",
+                    "label": "模糊并滑动入场"
+                },
+                "fade": {
+                    "caption": "淡入淡出",
+                    "label": "淡入淡出"
+                },
+                "grow": {
+                    "caption": "弹出",
+                    "label": "弹出入场"
+                },
+                "mask_center": {
+                    "caption": "中心蒙版",
+                    "label": "从中心蒙版显现"
+                },
+                "mask_reveal": {
+                    "caption": "蒙版显现",
+                    "label": "从边缘蒙版显现"
+                },
+                "mask_slide": {
+                    "caption": "蒙版与滑动",
+                    "label": "蒙版显现并滑动"
+                },
+                "move_scale": {
+                    "caption": "移动与缩放",
+                    "label": "移动并缩放入场"
+                },
+                "rotate_left": {
+                    "label": "从左旋转"
+                },
+                "rotate_right": {
+                    "label": "从右旋转"
+                },
+                "shrink": {
+                    "caption": "放大",
+                    "label": "放大入场"
+                },
+                "slide": {
+                    "caption": "滑动",
+                    "label": "滑入"
+                },
+                "slide_from_bottom": {
+                    "label": "从底部滑入"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "左下",
+                    "label": "从左下滑入"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "右下",
+                    "label": "从右下滑入"
+                },
+                "slide_from_left": {
+                    "label": "从左侧滑入"
+                },
+                "slide_from_right": {
+                    "label": "从右侧滑入"
+                },
+                "slide_from_top": {
+                    "label": "从顶部滑入"
+                },
+                "slide_from_top_left": {
+                    "caption": "左上",
+                    "label": "从左上滑入"
+                },
+                "slide_from_top_right": {
+                    "caption": "右上",
+                    "label": "从右上滑入"
+                },
+                "spin": {
+                    "caption": "旋转",
+                    "label": "旋转入场"
+                },
+                "spin_scale": {
+                    "caption": "旋转与缩放",
+                    "label": "旋转并缩放入场"
+                },
+                "twist": {
+                    "caption": "扭转",
+                    "label": "扭转入场"
+                }
+            },
+            "property": {
+                "change_text": "更改文字",
+                "morph": "变形",
+                "move": "移动",
+                "opacity": "不透明度",
+                "scale": "缩放"
+            },
+            "section": {
+                "fade": "淡入淡出",
+                "mask": "蒙版",
+                "scale": "缩放",
+                "slide": "滑动",
+                "transform": "变换"
+            },
+            "text": {
+                "backward": "倒序",
+                "forward": "正序",
+                "letters": "字母",
+                "summary_overlap": "每个{unit}在前一个进行到 {percent}% 时开始。",
+                "summary_sequential": "每个{unit}在前一个结束后才开始。",
+                "summary_together": "所有{unit}同时运动。",
+                "summary_whole": "整个文字块作为一个整体做动画。",
+                "words": "单词"
+            },
+            "type": {
+                "fade_in": "淡入",
+                "fade_out": "淡出",
+                "line_height": "行高",
+                "radius": "半径",
+                "resize_in": "缩放入场",
+                "resize_out": "缩放出场",
+                "rotate_in": "旋转入场",
+                "rotate_out": "旋转出场",
+                "scale_in": "放大入场",
+                "scale_out": "放大出场",
+                "slide_in": "滑入",
+                "slide_out": "滑出",
+                "spacing": "间距",
+                "stroke": "描边"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "添加你的照片以继续。",
+                    "gesture": {
+                        "frameDesktop": "拖动以调整位置 · 滚动以缩放",
+                        "frameMobile": "拖动以调整位置，双指捏合以缩放",
+                        "handles": "拖动角点和边缘调整大小，拖动顶部旋转",
+                        "move": "拖动以移动",
+                        "moveOrHandles": "拖动以移动，或使用控制点",
+                        "resize": "拖动角点或边缘以调整大小",
+                        "rotate": "拖动顶部控制点以旋转",
+                        "rotateDesktop": "拖动标尺，或使用方向键",
+                        "rotateMobile": "拖动标尺以旋转"
+                    },
+                    "hint": {
+                        "pickDesktop": "点击标记区域，或在左侧选择图层",
+                        "pickMobile": "点按标记区域，或在下方选择图层",
+                        "previewDesktop": "正在预览你的设计。点击即可继续编辑。",
+                        "previewMobile": "正在预览你的设计。轻点即可继续编辑。"
+                    },
+                    "layer": {
+                        "addPhoto": "添加你的照片",
+                        "text": "文字：{text}",
+                        "yourPhoto": "你的照片",
+                        "yourText": "你的文字"
+                    },
+                    "layers": {
+                        "all": "所有图层",
+                        "photo": "照片",
+                        "sheetDescription": "此设计中你可以更改的所有内容。",
+                        "title": "图层"
+                    },
+                    "photoError": "无法使用该照片。请尝试其他图片。",
+                    "preview": {
+                        "backToEditing": "返回编辑"
+                    },
+                    "rotation": {
+                        "aria": "旋转",
+                        "value": "one:#度|other:#度"
+                    },
+                    "tools": {
+                        "adjust": "调整",
+                        "aria": "图层工具",
+                        "editText": "编辑文字",
+                        "flip": "翻转",
+                        "locked": "大小和位置由创作者设定",
+                        "replace": "替换",
+                        "textAria": "文字工具",
+                        "zoomIn": "放大",
+                        "zoomOut": "缩小"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name}已添加到时间轴。",
+                "too_big": "{name}超过了{limit}。",
+                "too_long": "{name}时长超过 {minutes} 分钟。",
+                "too_many": "一次最多 {count} 个文件。",
+                "wrong_type": "无法添加{name}，仅支持图片、视频和 SVG 文件。"
+            }
+        },
+        "catalogue": {
+            "error_body": "请检查网络连接后重试。",
+            "loading_more": "正在加载更多"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "放弃草稿",
+                "description_unsaved": "此设计尚未保存。返回将永久删除它，包括图层、样式和动画。",
+                "title": "放弃“{title}”草稿？"
+            },
+            "save": {
+                "description": "保存后将无法再编辑。",
+                "saving": "正在保存…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "适应屏幕"
+        },
+        "graphic_panel": {
+            "add": "添加{name}",
+            "add_failed": "无法添加此图形。请重试。",
+            "empty_body": "请尝试更短或更通用的词，例如星星或爱心。",
+            "empty_title": "没有与“{query}”匹配的图形",
+            "error_title": "无法加载图形",
+            "none_title": "没有可显示的图形",
+            "search_label": "搜索图形",
+            "search_placeholder": "搜索图形"
+        },
+        "header": {
+            "redo": "重做",
+            "saving": "正在保存…",
+            "undo": "撤销",
+            "untitled_design": "未命名设计"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "照片位"
+            },
+            "menu": {
+                "align_center": "居中",
+                "bring_forward": "上移一层",
+                "bring_to_front": "置于顶层",
+                "detach_image": "分离图片",
+                "flip_horizontal": "水平翻转",
+                "flip_vertical": "垂直翻转",
+                "replace_image": "替换图片",
+                "send_backward": "下移一层",
+                "send_to_back": "置于底层",
+                "set_as_background_image": "设为背景图片",
+                "set_as_background_video": "设为背景视频",
+                "set_background_as_image_layer": "将背景设为图片图层",
+                "set_background_as_video_layer": "将背景设为视频图层",
+                "sheet_title": "图层选项",
+                "show_layers": "显示图层"
+            },
+            "pill": {
+                "duplicate": "复制图层",
+                "more": "更多图层操作",
+                "remove": "删除图层",
+                "toolbar": "图层操作"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "配对码已就绪：{code}。请将其提供给你的 AI 客户端。",
+                "connecting": "正在生成配对码。",
+                "failed": "无法连接。{reason}",
+                "reconnecting": "连接已断开。正在尝试重新连接。"
+            },
+            "clipboard_blocked": "你的浏览器阻止了剪贴板。{hint}",
+            "connect": "连接",
+            "connecting": "正在连接…",
+            "copied_address_announcement": "已复制服务器地址",
+            "copied_code_announcement": "已复制配对码",
+            "copy_address_hint": "请选中地址并手动复制。",
+            "copy_code": "复制代码",
+            "copy_code_hint": "请选中代码并手动复制。",
+            "copy_server_address": "复制 MCP 服务器地址",
+            "disconnect": "断开连接",
+            "error_fallback": "配对服务没有响应。请检查网络连接后重试。",
+            "guide": {
+                "fresh_code": "如果代码失效，请点击“断开连接”，然后重新连接以获取新代码。",
+                "how_to_set_up": "设置方法",
+                "step_add_body": "使用下方地址将 Twibbonize 添加到你的 AI 客户端。在 Claude Code 中，请运行",
+                "step_add_title": "将 Twibbonize 添加到你的 AI 客户端",
+                "step_pair_body": "说“与 Twibbonize 编辑器配对”，并提供上方的代码。",
+                "step_pair_title": "请求配对",
+                "where_to_paste": "在哪里粘贴此代码？"
+            },
+            "lead": {
+                "code_ready_sentence": "将其粘贴到 Claude 并让它配对。Claude 工作时，画布会在页面周围显示一圈边框。",
+                "code_ready_title": "将此代码提供给你的 AI 客户端",
+                "connecting_sentence": "请稍候。",
+                "connecting_title": "正在生成配对码",
+                "disconnected_sentence": "Claude Desktop 和 Claude Code 可以添加图层、编写文字、设置动画，并读取画布上的内容。",
+                "disconnected_title": "将 AI 客户端接入此设计",
+                "failed_title": "无法连接",
+                "reconnecting_sentence": "与 AI 客户端的连接已断开。正在尝试恢复。",
+                "reconnecting_title": "正在重新连接",
+                "unavailable_sentence": "此编辑器版本未配置 AI 连接，因此暂时没有可连接的对象。",
+                "unavailable_title": "此处未启用 MCP"
+            },
+            "pairing_code_label": "配对码：{code}"
+        },
+        "media": {
+            "add_asset": "添加{name}",
+            "dismiss_error": "关闭",
+            "empty_body": "在下方添加图片、视频或音频文件，它会在本次会话期间保留在此处。",
+            "empty_narrowed_body": "清除搜索或选择其他类型，即可查看你添加的全部内容。",
+            "empty_narrowed_title": "没有匹配项",
+            "empty_title": "尚未上传任何内容",
+            "filter": {
+                "audio": "音频",
+                "images": "图片"
+            },
+            "filter_group_label": "媒体类型",
+            "make_an_image": "生成图片",
+            "make_image_unavailable": "暂不支持生成图片",
+            "search_placeholder": "搜索媒体",
+            "upload_button": "上传图片、视频或音频",
+            "uploads_heading": "上传"
+        },
+        "page_bar": {
+            "group_label": "缩放控件",
+            "zoom_menu": "缩放比例，{percent}%"
+        },
+        "panel": {
+            "loading": "正在加载{panel}…"
+        },
+        "photo": {
+            "add_by": "添加{name}的照片",
+            "add_described": "添加照片：{description}",
+            "credit": "照片提供方：",
+            "empty_body": "请尝试更短或更通用的词，例如海滩或城市。",
+            "empty_title": "没有与“{query}”匹配的照片",
+            "error_title": "无法加载照片",
+            "none_title": "没有可显示的照片",
+            "search_label": "搜索照片",
+            "search_placeholder": "搜索照片"
+        },
+        "qr": {
+            "add_logo": "添加标志",
+            "add_to_design": "添加到设计",
+            "background_colour_label": "背景颜色",
+            "code_colour_label": "二维码颜色",
+            "code_label": "二维码",
+            "link_input_label": "二维码链接",
+            "link_label": "链接",
+            "logo_fallback_name": "标志图片",
+            "logo_label": "标志",
+            "remove_logo": "移除标志"
+        },
+        "rail": {
+            "aria_label": "设计素材库",
+            "graphic": "图形",
+            "help": "帮助",
+            "layers": "图层",
+            "mcp": "MCP",
+            "media": "媒体",
+            "photo": "照片",
+            "qr_code": "二维码",
+            "shapes": "形状",
+            "templates": "模板",
+            "textures": "纹理",
+            "tools": "工具"
+        },
+        "save": {
+            "failed": "无法保存你的设计。请重试。"
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "亮度",
+                "compare": "与原图对比",
+                "contrast": "对比度",
+                "grayscale": "灰度",
+                "group": {
+                    "basic": "基础",
+                    "refinements": "精修"
+                },
+                "hue_rotate": "色相旋转",
+                "reset": "重置调整",
+                "saturation": "饱和度",
+                "title": "调整"
+            },
+            "color": {
+                "trigger": "颜色"
+            },
+            "common": {
+                "layer_blur": "图层模糊",
+                "layer_blur_stepper": "图层模糊"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "自由裁剪",
+                    "landscape": "横向",
+                    "original": "原始",
+                    "portrait": "纵向",
+                    "square": "正方形",
+                    "story": "竖屏故事",
+                    "widescreen": "宽屏"
+                },
+                "shape": {
+                    "circle": "圆形",
+                    "diamond": "菱形",
+                    "half_circle": "半圆",
+                    "oval": "椭圆",
+                    "parallelogram": "平行四边形",
+                    "rounded": "圆角"
+                }
+            },
+            "filter": {
+                "cool": "冷色",
+                "duotone": "双色调",
+                "mono": "单色",
+                "original": "原始",
+                "vivid": "鲜艳",
+                "warm": "暖色"
+            },
+            "font_weight": {
+                "black": "特黑",
+                "extra_bold": "特粗",
+                "extra_light": "特细",
+                "medium": "中等",
+                "regular": "常规",
+                "semibold": "半粗",
+                "thin": "极细"
+            },
+            "frame": {
+                "colour": "边框颜色"
+            },
+            "green_screen": {
+                "choose_colour": "选择颜色",
+                "colour": "颜色",
+                "compare": "与原图对比",
+                "eyedropper": "从画布中取色",
+                "key_colour": "键控颜色 {hex}",
+                "loose": "宽松",
+                "nothing_found": "未找到背景颜色。",
+                "precise": "精确",
+                "preset": {
+                    "bright_blue": "亮蓝色",
+                    "bright_green": "亮绿色",
+                    "chroma_blue": "色键蓝",
+                    "chroma_green": "色键绿"
+                },
+                "presets": "常见背景颜色",
+                "remove": "移除绿幕",
+                "title": "绿幕"
+            },
+            "image": {
+                "corner_radius": "圆角半径",
+                "corner_radius_stepper": "圆角半径",
+                "per_corner": "单独编辑各个角",
+                "per_corner_unavailable": "暂不支持单独编辑各个角"
+            },
+            "keypad": {
+                "value_field": "{label}值"
+            },
+            "line": {
+                "colour": "线条颜色",
+                "style": {
+                    "dots": "点线",
+                    "long_dashes": "长虚线",
+                    "short_dashes": "短虚线",
+                    "solid": "实线"
+                },
+                "style_trigger": "线条样式：{style}",
+                "weight": "线条粗细",
+                "weight_trigger": "线条粗细 {weight}"
+            },
+            "media": {
+                "heading": "媒体"
+            },
+            "page": {
+                "size_capped": "最大 {max} px，保持比例"
+            },
+            "pages": {
+                "title": "页面"
+            },
+            "photo_slot": {
+                "enable": "用作照片位",
+                "key_field": "键（唯一）",
+                "key_required": "必须填写键",
+                "key_taken": "该键已被其他照片位使用",
+                "label_field": "标签（显示给最终用户）",
+                "on": "照片位",
+                "remove": "移除照片位"
+            },
+            "qr": {
+                "add_logo": "添加标志",
+                "background_colour": "背景颜色",
+                "code": "二维码",
+                "code_colour": "二维码颜色",
+                "link": "链接",
+                "link_input": "二维码链接",
+                "logo": "标志",
+                "remove_logo": "移除标志"
+            },
+            "root": {
+                "background_image": "背景图片",
+                "edit_background": "编辑背景图片",
+                "fill": "填充",
+                "fill_gradient": "渐变",
+                "page_height": "页面高度",
+                "page_width": "页面宽度",
+                "ratio_lock": "锁定宽高比",
+                "ratio_unlock": "解锁宽高比",
+                "rotate_left": "向左旋转背景",
+                "rotate_right": "向右旋转背景"
+            },
+            "scalar": {
+                "clip_length": "时长",
+                "corner_radius": "圆角半径",
+                "font_size": "字号",
+                "layer_blur": "图层模糊",
+                "letter_spacing": "字间距",
+                "line_height": "行高",
+                "opacity": "不透明度",
+                "speed": "速度",
+                "stroke_width": "描边宽度",
+                "volume": "音量"
+            },
+            "shape": {
+                "corner_radius": "圆角半径",
+                "corner_radius_stepper": "圆角半径",
+                "fill": "填充",
+                "fill_gradient": "渐变",
+                "fill_mixed": "混合",
+                "fill_transparent": "透明",
+                "stroke": "描边",
+                "stroke_color": "描边颜色",
+                "stroke_style": {
+                    "dots": "点线",
+                    "long_dashes": "长虚线",
+                    "short_dashes": "短虚线",
+                    "solid": "实线"
+                },
+                "stroke_style_select": "描边样式",
+                "stroke_transparent": "透明",
+                "stroke_weight": "描边粗细"
+            },
+            "svg": {
+                "path_colour": "颜色 {index}"
+            },
+            "swatch": {
+                "more_colours": "更多颜色"
+            },
+            "text": {
+                "align": {
+                    "justify": "两端对齐"
+                },
+                "alignment": "对齐方式",
+                "edit_text": "编辑文字",
+                "font_family": "字体",
+                "font_family_select": "字体",
+                "font_size": "字号",
+                "italic_unavailable": "此字体在该字重下没有斜体",
+                "letter_spacing_stepper": "字间距",
+                "line_height": "行高",
+                "line_height_stepper": "行高",
+                "list": "列表",
+                "list_bulleted": "项目符号列表",
+                "list_numbered": "编号列表",
+                "list_style": "列表样式",
+                "text_case": "大小写",
+                "text_color": "文字颜色",
+                "text_style": "文字样式",
+                "weight": "字重"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "底部对齐",
+                    "center_x": "水平居中对齐",
+                    "center_y": "垂直居中对齐",
+                    "left": "左对齐",
+                    "right": "右对齐",
+                    "top": "顶部对齐"
+                },
+                "align_to_page": "对齐到页面",
+                "opacity": "不透明度",
+                "position": "位置",
+                "position_x": "位置 X",
+                "position_y": "位置 Y",
+                "rotation": "旋转",
+                "scale": "缩放"
+            },
+            "video": {
+                "adjust": "调整",
+                "audio": "音频",
+                "clip_runs": "片段时长 {length}",
+                "corner_radius": "圆角半径",
+                "corner_radius_stepper": "圆角半径",
+                "green_screen": "绿幕",
+                "loop": "循环播放至设计结束",
+                "mute": "静音",
+                "muted": "已静音",
+                "no_audio": "此视频没有音频。",
+                "playback": "播放",
+                "replace": "替换视频",
+                "speed": "速度",
+                "speed_custom_input": "自定义播放速度",
+                "speed_presets": "播放速度",
+                "speed_range": "介于 {min}× 和 {max}× 之间",
+                "tools": "工具",
+                "unmute": "取消静音",
+                "volume": "音量",
+                "volume_level": "音量大小"
+            }
+        },
+        "shape_preset": {
+            "arrow": "箭头",
+            "arrow_down": "向下箭头",
+            "arrow_left": "向左箭头",
+            "arrow_pentagon": "五边形箭头",
+            "arrow_right": "向右箭头",
+            "arrow_up": "向上箭头",
+            "chevron": "V 形",
+            "circle": "圆形",
+            "cross": "十字",
+            "diamond": "菱形",
+            "hexagon": "六边形",
+            "hexagon_wide": "宽六边形",
+            "line": "线条",
+            "octagon": "八边形",
+            "parallelogram": "平行四边形",
+            "parallelogram_mirrored": "镜像平行四边形",
+            "pentagon": "五边形",
+            "square": "正方形",
+            "trapezoid": "梯形",
+            "trapezoid_upside_down": "倒梯形",
+            "triangle": "三角形",
+            "triangle_upside_down": "倒三角形"
+        },
+        "shapes_panel": {
+            "basic": "基础",
+            "lines": "线条和箭头"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "添加关键帧",
+                "back_to_animations": "返回动画",
+                "basic": "基础",
+                "basic_opacity": "不透明度",
+                "basic_position": "位置",
+                "basic_rotation": "旋转",
+                "basic_scale": "缩放",
+                "keyframe": "关键帧",
+                "pick_property_hint": "选择要添加关键帧的属性。点按后会关闭面板并打开该属性的面板，同时在播放头位置添加一个保持图层当前值的关键帧。",
+                "presets_need_one": "动画预设需要选中一个元素。请选择单个图层以查看。",
+                "title": "动画"
+            },
+            "easing": {
+                "title": "缓动"
+            },
+            "font_weight": {
+                "title": "字重"
+            },
+            "speed": {
+                "title": "速度"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "默认颜色",
+                "eyedropper": "从屏幕取色",
+                "eyedropper_unsupported": "你的浏览器不支持吸管工具",
+                "fill_linear": "线性",
+                "fill_radial": "径向",
+                "fill_solid": "纯色",
+                "fill_type": "填充类型",
+                "gradients_in_design": "设计中的渐变",
+                "hex": "十六进制颜色",
+                "in_design": "设计中使用",
+                "title": "填充颜色",
+                "use_color": "使用{color}",
+                "use_gradient": "使用{style}渐变",
+                "use_transparent": "透明"
+            },
+            "crop": {
+                "adjust_shape": "调整裁剪形状",
+                "aspect": "比例",
+                "framing": "取景",
+                "framing_hint": "拖动照片可重新取景，拖动角点可调整裁剪框大小。滚动可缩放。",
+                "scale": "缩放"
+            },
+            "filters": {
+                "show_earlier": "显示前面的滤镜",
+                "show_more": "显示更多滤镜",
+                "swatch": "{label}颜色：{color}",
+                "title": "滤镜"
+            },
+            "font": {
+                "all_fonts": "所有字体",
+                "applying": "正在应用字体",
+                "back": "返回文字选项",
+                "clear_search": "清除搜索",
+                "clear_search_action": "清除搜索",
+                "in_this_design": "此设计中使用",
+                "no_match": "没有与“{query}”匹配的字体",
+                "no_match_hint": "Twibbonize 使用 Google Fonts 字库，而此字体不在其中。请尝试更短的搜索词。",
+                "search_label": "搜索字体",
+                "search_placeholder": "搜索字体",
+                "title": "字体",
+                "weight": "字重"
+            },
+            "gradient": {
+                "add_stop": "添加渐变色标",
+                "angle": "角度",
+                "angle_dial": "渐变角度，{degrees} 度。拖动以更改",
+                "angle_dial_hint": "拖动以更改渐变角度",
+                "angle_input": "渐变角度（度）",
+                "centre_unsupported": "渲染器暂不支持渐变中心",
+                "stop": "渐变色标 {index}，位置 {percent}%，{color}",
+                "stop_hint": "拖动以移动，双击以移除"
+            },
+            "image": {
+                "adjustment": "调整",
+                "adjustments": "调整",
+                "back_to_edit": "返回“编辑”标签页",
+                "background_removal": "移除背景",
+                "compare": "与原图对比",
+                "removing": "正在移除…",
+                "removing_background": "正在移除背景",
+                "reset_adjustments": "重置调整",
+                "tools": "工具"
+            },
+            "keyframe": {
+                "add": "添加关键帧",
+                "add_at_playhead": "在播放头位置添加{property}关键帧",
+                "add_at_playhead_short": "在播放头位置添加关键帧",
+                "add_lane_at_playhead": "在播放头位置添加{lane}关键帧",
+                "add_property": "添加要做动画的属性",
+                "all_lanes_added": "此图层可设置关键帧的所有属性都已有轨道",
+                "delete": "删除此关键帧",
+                "diamond": "{seconds} 秒处的{lane}关键帧",
+                "easing": "缓动",
+                "easing_caps": "缓动",
+                "first_no_easing": "第一个关键帧没有缓动",
+                "hex": "十六进制颜色",
+                "layer_blur": "图层模糊",
+                "letter_spacing": "字间距",
+                "line_height": "行高",
+                "opacity": "不透明度",
+                "opacity_percent": "不透明度百分比",
+                "position_x": "位置 X",
+                "position_y": "位置 Y",
+                "radius_bottom_left": "左下角圆角半径",
+                "radius_bottom_right": "右下角圆角半径",
+                "radius_top_left": "左上角圆角半径",
+                "radius_top_right": "右上角圆角半径",
+                "remove": "删除关键帧",
+                "remove_at_playhead": "删除播放头位置的{property}关键帧",
+                "rotation": "旋转",
+                "scale": "缩放",
+                "shadow_blur": "阴影模糊",
+                "shadow_color": "阴影颜色",
+                "shadow_offset_x": "阴影偏移 X",
+                "shadow_offset_y": "阴影偏移 Y",
+                "shadow_spread": "阴影扩展",
+                "stroke_color": "描边颜色",
+                "stroke_weight": "描边粗细"
+            },
+            "layer": {
+                "page_background": "页面背景",
+                "tab_animate": "动画",
+                "tabs_label": "图层面板",
+                "title": "图层"
+            },
+            "page_preset": {
+                "group_label": "画布尺寸预设",
+                "landscape": "横向",
+                "portrait": "纵向",
+                "square": "正方形",
+                "story": "竖屏故事",
+                "tile_aria": "{name}，{width} × {height} 像素"
+            },
+            "personalization": {
+                "act_as_placeholder": "用作占位符",
+                "allow_adjust_framing": "允许调整取景",
+                "allow_adjust_framing_hint": "支持者可以在边框内缩放和移动自己的照片。",
+                "allow_change_adjustments": "允许更改调整",
+                "allow_change_adjustments_hint": "支持者可以更改亮度、对比度及其他调整。",
+                "allow_change_effect": "允许更改效果",
+                "allow_change_effect_hint": "支持者可以为此图层选择其他效果。",
+                "allow_change_filter": "允许更改滤镜",
+                "allow_change_filter_hint": "支持者可以为此图层选择其他滤镜。",
+                "allow_edit_text": "允许编辑文字",
+                "allow_edit_text_hint": "支持者可以在此文字中输入自己的内容。",
+                "allow_flip": "允许翻转",
+                "allow_flip_hint": "支持者可以镜像此图层。",
+                "allow_move": "允许移动",
+                "allow_move_hint": "支持者可以将此图层拖动到新位置。",
+                "allow_replace_media": "允许替换媒体",
+                "allow_replace_media_hint": "支持者可以将此图片换成自己的照片。",
+                "allow_resize": "允许调整大小",
+                "allow_resize_hint": "支持者可以拖动图层的角点和边缘来调整其大小。",
+                "allow_rotate": "允许旋转",
+                "allow_rotate_hint": "支持者可以将此图层旋转到任意角度。",
+                "group_appearance": "外观",
+                "group_arrange": "排列",
+                "group_media": "媒体",
+                "placeholder_hint": "显示一个空位，支持者可以点按它来添加自己的照片。",
+                "remove_background": "移除其照片的背景",
+                "remove_background_hint": "将支持者从照片中抠出，使你的设计显示在其周围。",
+                "text_placeholder_hint": "将此文字显示为示例，支持者会替换成自己的文字。"
+            },
+            "shape_effect": {
+                "colour": "效果颜色",
+                "distance": "距离",
+                "echo": "回声",
+                "first_color": "第一种颜色",
+                "first_colour": "第一种效果颜色",
+                "glitch": "故障",
+                "glow": "发光",
+                "group_label": "形状效果",
+                "second_color": "第二种颜色",
+                "second_colour": "第二种效果颜色",
+                "section": "效果",
+                "shadow": "投影"
+            },
+            "text_effect": {
+                "colour": "效果颜色",
+                "curve": "弯曲",
+                "distance": "距离",
+                "echo": "回声",
+                "glow": "发光",
+                "group_label": "文字效果",
+                "outline": "轮廓",
+                "section": "效果",
+                "shape_group_label": "文字形状",
+                "splice": "拼接",
+                "title": "文字效果"
+            }
+        },
+        "templates": {
+            "empty_body": "请尝试更短或更通用的词。",
+            "empty_title": "没有与“{query}”匹配的模板",
+            "error_title": "无法加载模板",
+            "none_body": "搜索主题，例如生日或毕业。",
+            "none_title": "此设计暂无模板",
+            "search_label": "搜索模板",
+            "search_placeholder": "搜索模板"
+        },
+        "text_panel": {
+            "add_template": "添加文字模板：{name}",
+            "add_text_box": "添加文本框",
+            "empty_body": "请尝试更短或更通用的词。",
+            "empty_title": "没有与“{query}”匹配的文字模板",
+            "error_title": "无法加载文字模板",
+            "none_body": "不妨先从一个普通文本框开始。",
+            "none_title": "没有可显示的文字模板",
+            "search_label": "搜索文字模板",
+            "search_placeholder": "搜索文字模板"
+        },
+        "text_preset": {
+            "seed": "在此添加你的文字"
+        },
+        "textures": {
+            "apply_texture": "应用{name}",
+            "category": {
+                "fabric": "织物",
+                "grain": "颗粒",
+                "grunge": "垃圾风",
+                "paper": "纸张",
+                "print": "印刷"
+            },
+            "category_group_label": "纹理类别",
+            "empty_body": "我们正在建设此素材库，请稍后再来看看。",
+            "empty_title": "暂无纹理",
+            "most_used": "最常用",
+            "search_placeholder": "搜索纹理"
+        },
+        "timeline": {
+            "audio": {
+                "add": "添加音频",
+                "add_tooltip": "添加背景音轨",
+                "bar_aria": "{name}，开始于 {start}，时长 {duration}",
+                "decoding": "正在解码音频…",
+                "decoding_waveform": "正在解码波形…",
+                "default_name": "音频",
+                "drop_to_add": "拖放以添加音频",
+                "kind_suffix": "· 音频",
+                "mute": "轨道静音",
+                "unmute": "取消轨道静音",
+                "volume": "轨道音量",
+                "waveform_error": "无法加载此轨道的波形。"
+            },
+            "keyframe": {
+                "add": "添加关键帧",
+                "add_at_playhead": "在播放头位置添加关键帧",
+                "add_tooltip": "为此图层的属性设置关键帧",
+                "diamond_aria": "{time} 处的{lane}关键帧",
+                "diamond_hint": " · 拖动以调整时间，右键单击以删除",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "圆角半径",
+                    "layer_blur": "图层模糊",
+                    "line_height": "行高",
+                    "opacity": "不透明度",
+                    "position": "位置",
+                    "rotation": "旋转",
+                    "scale": "缩放",
+                    "stroke": "描边"
+                },
+                "remove_lane": "删除{lane}关键帧",
+                "remove_lane_from_layer": "从{layer}中删除{lane}关键帧",
+                "segment_easing_aria": "{from}到{to}之间的{lane}时间函数，当前为{easing}",
+                "segment_easing_title": "时间函数 · {easing}",
+                "welded_aria": "，已吸附到图层边缘",
+                "welded_title": " · 已吸附到图层边缘"
+            },
+            "menu": {
+                "repeat_until_end": "重复到结尾"
+            },
+            "track": {
+                "bar_aria": "{name}，开始于 {start}，时长 {duration}",
+                "bar_aria_end_glued": "，结束点已吸附到图层",
+                "bar_aria_start_glued": "，起始点已吸附到图层",
+                "bar_tooltip": "{name} · 从 {start} 起 {duration}ms · 拖动以移动，拖动边缘以调整大小（Alt = 不吸附）",
+                "bar_tooltip_sole": " · 拖动此边缘会移动图层",
+                "clip_aria": "{name}片段",
+                "clip_tooltip": "拖动以在时间上移动图层 · 拖动末端以修剪（Alt = 不吸附）",
+                "collapse": "折叠",
+                "collapse_all": "折叠所有图层",
+                "collapse_named": "折叠{name}",
+                "delete_layer": "删除图层",
+                "delete_named": "删除{name}",
+                "ends_at": "结束于",
+                "expand": "展开",
+                "expand_named": "展开{name}",
+                "hidden_lane_one": "{count} 条隐藏轨道",
+                "hidden_lane_other": "{count} 条隐藏轨道",
+                "hide": "隐藏",
+                "hide_named": "隐藏{name}",
+                "lane_reorder_tooltip": "拖动以重新排序 — 动画重叠时，顶部轨道优先",
+                "layer_animations": "图层动画",
+                "lock_layer": "锁定图层",
+                "lock_named": "锁定{name}",
+                "remove_animation": "移除动画",
+                "remove_animation_aria": "从{layer}中移除{name}动画",
+                "reorder_tooltip": "拖动以重新排序轨道 — 画布上的叠放顺序在图层面板中设置",
+                "show": "显示",
+                "show_named": "显示{name}",
+                "split": "拆分",
+                "starts_at": "开始于",
+                "trim_end": "修剪结尾",
+                "trim_start": "修剪开头",
+                "trim_to": "修剪到 {time}",
+                "unlock_layer": "解锁图层",
+                "unlock_named": "解锁{name}"
+            },
+            "transport": {
+                "current_time_field": "当前时间（毫秒）",
+                "duration_edge_aria": "页面时长 {seconds} 秒",
+                "duration_edge_tooltip": "页面时长 {seconds} 秒 · 拖动以更改，点击输入精确值（Alt = 不吸附）",
+                "duration_max": "最长 {seconds} 秒",
+                "fit_to_width": "适应宽度",
+                "forward": "快进",
+                "lengthen_page": "延长页面",
+                "loop": "循环播放",
+                "page_duration": "页面时长",
+                "page_duration_field": "页面时长（毫秒）",
+                "resize_dock": "调整时间轴大小",
+                "rewind": "倒带",
+                "shorten_page": "缩短页面",
+                "zoom": "时间轴缩放"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "请求过多",
             "CN-4003": "网址无效",
             "C-4090": "您的活动链接已被使用。请尝试其他链接。",
+            "C-4094": "活动已在回收站中",
+            "C-4095": "活动不在回收站中",
             "SUB-403": "活动设置禁止提交",
             "A-40091": "请使用您的学校或大学邮箱地址",
             "PB-4011": "此链接无效或已过期",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "向下滚动以选择框架",
         "editor_single": "向下滚动以调整照片",
         "editor_multiple": "向下滚动以编辑和切换框架"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "正在恢复活动…"
+        }
     }
 }

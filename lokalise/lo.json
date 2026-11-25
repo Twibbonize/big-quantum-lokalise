@@ -2842,7 +2842,9 @@
             "type": "ປະເພດ:",
             "size": "ຂະໜາດ:",
             "type_image": "JPG, PNG ຫຼື SVG",
-            "maximum_size": "ສູງສຸດ 5 MB"
+            "maximum_size": "ສູງສຸດ 5 MB",
+            "abandoned": "ການອັບໂຫຼດຢຸດລົງເມື່ອຊັ້ນຖືກລຶບ. ລອງໃໝ່ເພື່ອເກັບໄວ້ໃນຄັງຂອງທ່ານ.",
+            "failed": "ອັບໂຫຼດບໍ່ສຳເລັດ. ກວດສອບການເຊື່ອມຕໍ່ແລ້ວລອງໃໝ່."
         },
         "toolbar": {
             "copy": "ສຳເນົາ",
@@ -2871,7 +2873,119 @@
             "border_weight": "ນ້ຳໜັກຊາຍແດນ",
             "corner_rounding": "ມຸມມົນ",
             "align": "ຈັດຮຽງ",
-            "effects": "ຜົນກະທົບ"
+            "effects": "ຜົນກະທົບ",
+            "animate": {
+                "amount": "ປະລິມານ",
+                "angle": "ມຸມ",
+                "close": "ປິດການຕັ້ງຄ່າອະນິເມຊັນ",
+                "delete_animation": "ລຶບອະນິເມຊັນ",
+                "distance": "ໄລຍະທາງ",
+                "easing": "ອີຊິງ",
+                "fade": "ຈາງ",
+                "settings_aria": "ການຕັ້ງຄ່າອະນິເມຊັນ"
+            },
+            "audio": {
+                "replace": "ປ່ຽນ",
+                "tools_aria": "ເຄື່ອງມືແທຣັກສຽງ",
+                "trim": "ຕັດ",
+                "volume": "ລະດັບສຽງ"
+            },
+            "clip": {
+                "length": "ຄວາມຍາວ",
+                "split": "ແບ່ງ",
+                "trim": "ຕັດ"
+            },
+            "entry": {
+                "animate": "ອະນິເມຊັນ"
+            },
+            "image": {
+                "adjust": "ປັບແຕ່ງ",
+                "background_removal_unavailable": "ຍັງບໍ່ສາມາດລົບພື້ນຫຼັງໄດ້",
+                "remove_background": "ລົບພື້ນຫຼັງ",
+                "remove_background_short": "ຕັດພື້ນຫຼັງ",
+                "replace": "ປ່ຽນ"
+            },
+            "keyframe": {
+                "blur": "ຄວາມມົວຂອງຊັ້ນ",
+                "close": "ປິດຄຸນສົມບັດຄີເຟຣມ",
+                "delete_keyframe": "ລຶບຄີເຟຣມ",
+                "letter_spacing": "ໄລຍະຫ່າງ",
+                "line_height": "ລະຫວ່າງແຖວ",
+                "opacity": "ຄວາມໂປ່ງໃສ",
+                "position": "ຕຳແໜ່ງ",
+                "properties_aria": "ຄຸນສົມບັດຄີເຟຣມ",
+                "rotation": "ການໝຸນ",
+                "scale": "ຂະໜາດ"
+            },
+            "layer_tools": {
+                "deselect": "ຍົກເລີກການເລືອກຊັ້ນ",
+                "tools_aria": "ເຄື່ອງມືຊັ້ນ"
+            },
+            "media": {
+                "adjust": "ປັບແຕ່ງ",
+                "green_screen": "ກຣີນສະກຣີນ",
+                "replace": "ປ່ຽນ",
+                "trim": "ຕັດ"
+            },
+            "misc": {
+                "background_fill": "ສີພື້ນຫຼັງ",
+                "background_fill_short": "ຕື່ມສີ",
+                "configure_qr": "ຕັ້ງຄ່າ QR code",
+                "edit_background_image": "ແກ້ໄຂຮູບພື້ນຫຼັງ",
+                "no_background_image": "ຍັງບໍ່ມີຮູບພື້ນຫຼັງ",
+                "replace_unavailable": "ປ່ຽນ (ຍັງບໍ່ພ້ອມໃຊ້)"
+            },
+            "opacity": {
+                "label": "ຄວາມໂປ່ງໃສ"
+            },
+            "shape": {
+                "corner_radius": "ຄວາມມົນຂອງມຸມ",
+                "corner_radius_short": "ຄວາມມົນ",
+                "fill": "ຕື່ມສີ",
+                "line_color": "ສີເສັ້ນ",
+                "line_style_dots": "ຈຸດ",
+                "line_style_long_dashes": "ຂີດຍາວ",
+                "line_style_named": "ຮູບແບບເສັ້ນ: {style}",
+                "line_style_short_dashes": "ຂີດສັ້ນ",
+                "line_style_solid": "ເສັ້ນຕັນ",
+                "line_weight": "ຄວາມໜາເສັ້ນ",
+                "stroke_color": "ສີຂອບ",
+                "stroke_color_short": "ຂອບ",
+                "stroke_weight": "ຄວາມໜາຂອບ",
+                "stroke_weight_short": "ຄວາມໜາ"
+            },
+            "speed": {
+                "custom_input": "ຄວາມໄວການຫຼິ້ນກຳນົດເອງ",
+                "label": "ຄວາມໄວ",
+                "playback_length": "ຄວາມຍາວການຫຼິ້ນ",
+                "playback_speed": "ຄວາມໄວການຫຼິ້ນ",
+                "range_hint": "ລະຫວ່າງ {min}× ແລະ {max}×"
+            },
+            "text": {
+                "decrease_font_size": "ຫຼຸດຂະໜາດຟອນ",
+                "font_family": "ຕະກູນຟອນ",
+                "font_family_named": "ຕະກູນຟອນ: {value}",
+                "font_size": "ຂະໜາດຟອນ",
+                "font_weight": "ຄວາມໜາຟອນ",
+                "font_weight_named": "ຄວາມໜາຟອນ: {value}",
+                "increase_font_size": "ເພີ່ມຂະໜາດຟອນ",
+                "keyboard": "ແປ້ນພິມ",
+                "line_height": "ລະຫວ່າງແຖວ",
+                "spacing": "ໄລຍະຫ່າງ",
+                "text_color": "ສີຂໍ້ຄວາມ",
+                "weight": "ຄວາມໜາ"
+            },
+            "volume": {
+                "clip_hint": "ສະເພາະຄລິບນີ້. ສຽງທີ່ວາງໃນໄທມ໌ໄລນ໌ຈະຮັກສາລະດັບຂອງມັນເອງ.",
+                "label": "ລະດັບສຽງ",
+                "level": "ລະດັບ",
+                "mute": "ປິດສຽງ",
+                "muted": "ປິດສຽງແລ້ວ",
+                "muted_hint": "ລະດັບຖືກເກັບໄວ້. ເປີດສຽງແລ້ວຄລິບຈະກັບໄປເປັນ {percent}%.",
+                "no_audio": "ວິດີໂອນີ້ບໍ່ມີສຽງ.",
+                "slider": "ລະດັບສຽງ",
+                "unmute": "ເປີດສຽງ"
+            }
         },
         "confirmation": {
             "cancel": "ຖິ້ມ",
@@ -2918,7 +3032,1066 @@
             "document_colors": "ສີເອກະສານ",
             "default_colors": "ສີເລີ່ມຕົ້ນ"
         },
-        "graphic": "ຮູບພາບ"
+        "graphic": "ຮູບພາບ",
+        "animate": {
+            "anchor": {
+                "bottom_center": "ລຸ່ມກາງ",
+                "bottom_left": "ລຸ່ມຊ້າຍ",
+                "bottom_right": "ລຸ່ມຂວາ",
+                "center_left": "ກາງຊ້າຍ",
+                "center_right": "ກາງຂວາ",
+                "top_center": "ເທິງກາງ",
+                "top_left": "ເທິງຊ້າຍ",
+                "top_right": "ເທິງຂວາ"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "ສິ້ນສຸດ",
+                "more_options": "ຕົວເລືອກເພີ່ມເຕີມ"
+            },
+            "direction": {
+                "bottom_left": "ລຸ່ມຊ້າຍ",
+                "bottom_right": "ລຸ່ມຂວາ",
+                "clockwise": "ຕາມເຂັມໂມງ",
+                "counter_clockwise": "ທວນເຂັມໂມງ",
+                "from_the": "ຈາກ{place}",
+                "to_the": "ໄປ{place}",
+                "top_left": "ເທິງຊ້າຍ",
+                "top_right": "ເທິງຂວາ"
+            },
+            "easing": {
+                "accelerate": "ເລັ່ງ",
+                "bounce": "ເດັ້ງ",
+                "elastic": "ຢືດຫຍຸ່ນ",
+                "impulse": "ກະຊາກ",
+                "natural": "ທຳມະຊາດ",
+                "overshoot": "ເດັ້ງເກີນ",
+                "slow_down": "ຊ້າລົງ",
+                "smooth": "ລຽບ",
+                "swing": "ແກວ່ງ"
+            },
+            "field": {
+                "amount": "ປະລິມານ",
+                "anchor_group": "ຈຸດຢຶດ",
+                "anchor_point": "ຈຸດຢຶດ",
+                "angle": "ມຸມ",
+                "apply_effect_to": "ນຳໃຊ້ເອັບເຟັກກັບ",
+                "axis": "ແກນ",
+                "choose_easing": "ເລືອກອີຊິງ",
+                "distance": "ໄລຍະທາງ",
+                "duration": "ໄລຍະເວລາ",
+                "edge": "ຂອບ",
+                "fade": "ຈາງ",
+                "from_noun": "ຈາກ{noun}",
+                "horizontal": "ແນວນອນ",
+                "noun_blur": "ຄວາມມົວ",
+                "noun_opacity": "ຄວາມໂປ່ງໃສ",
+                "noun_size": "ຂະໜາດ",
+                "opacity": "ຄວາມໂປ່ງໃສ",
+                "order": "ລຳດັບ",
+                "position": "ຕຳແໜ່ງ",
+                "rotation": "ການໝຸນ",
+                "rotation_direction": "ທິດທາງການໝຸນ",
+                "scale": "ຂະໜາດ",
+                "smoothing": "ຄວາມລຽບ",
+                "to_noun": "ເຖິງ{noun}",
+                "vertical": "ແນວຕັ້ງ"
+            },
+            "mode": {
+                "arrives": "ເຂົ້າມາ",
+                "departs": "ອອກໄປ",
+                "in": "ເຂົ້າ",
+                "out": "ອອກ"
+            },
+            "panel": {
+                "animation": "ອະນິເມຊັນ",
+                "animations_tab": "ອະນິເມຊັນ",
+                "basic": "ພື້ນຖານ",
+                "changing_note": "ເລືອກອັນທີ່ຈະແທນ. ມັນຈະມາແທນທີ່ ແລະ ມີຄວາມຍາວເທົ່າກັບອະນິເມຊັນທີ່ທ່ານກຳລັງປ່ຽນ.",
+                "corner_radius": "ຄວາມມົນຂອງມຸມ",
+                "easing": "ອີຊິງ",
+                "fade": "ຈາງ",
+                "keyframe_tab": "ຄີເຟຣມ",
+                "layer_blur": "ຄວາມມົວຂອງຊັ້ນ",
+                "line_height": "ລະຫວ່າງແຖວ",
+                "more_options": "ຕົວເລືອກເພີ່ມເຕີມ",
+                "motion": "ການເຄື່ອນໄຫວ",
+                "needs_one_element": "ອະນິເມຊັນພຣີເຊັດຕ້ອງໃຊ້ອົງປະກອບດຽວ. ເລືອກຊັ້ນດຽວເພື່ອເບິ່ງ.",
+                "paste_animation": "ວາງອະນິເມຊັນ",
+                "scale": "ຂະໜາດ",
+                "slide": "ເລື່ອນ",
+                "stroke": "ຂອບ",
+                "text_animation": "ອະນິເມຊັນຂໍ້ຄວາມ"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "ປາກົດ",
+                    "label": "ປາກົດ"
+                },
+                "blur": {
+                    "label": "ມົວເຂົ້າ"
+                },
+                "blur_scale": {
+                    "caption": "ມົວ ແລະ ຂະໜາດ",
+                    "label": "ມົວເຂົ້າພ້ອມປ່ຽນຂະໜາດ"
+                },
+                "blur_slide": {
+                    "caption": "ມົວ ແລະ ເລື່ອນ",
+                    "label": "ມົວເຂົ້າພ້ອມເລື່ອນ"
+                },
+                "fade": {
+                    "caption": "ຈາງ",
+                    "label": "ຈາງ"
+                },
+                "grow": {
+                    "caption": "ປ໊ອບ",
+                    "label": "ປ໊ອບເຂົ້າ"
+                },
+                "mask_center": {
+                    "caption": "ມາສກ໌ກາງ",
+                    "label": "ເປີດເຜີຍດ້ວຍມາສກ໌ຈາກກາງ"
+                },
+                "mask_reveal": {
+                    "caption": "ເປີດເຜີຍມາສກ໌",
+                    "label": "ເປີດເຜີຍດ້ວຍມາສກ໌ຈາກຂອບ"
+                },
+                "mask_slide": {
+                    "caption": "ມາສກ໌ ແລະ ເລື່ອນ",
+                    "label": "ເປີດເຜີຍດ້ວຍມາສກ໌ພ້ອມເລື່ອນ"
+                },
+                "move_scale": {
+                    "caption": "ຍ້າຍ ແລະ ຂະໜາດ",
+                    "label": "ຍ້າຍ ແລະ ປ່ຽນຂະໜາດເຂົ້າ"
+                },
+                "rotate_left": {
+                    "label": "ໝຸນຈາກຊ້າຍ"
+                },
+                "rotate_right": {
+                    "label": "ໝຸນຈາກຂວາ"
+                },
+                "shrink": {
+                    "caption": "ໃຫຍ່",
+                    "label": "ໃຫຍ່ເຂົ້າ"
+                },
+                "slide": {
+                    "caption": "ເລື່ອນ",
+                    "label": "ເລື່ອນເຂົ້າ"
+                },
+                "slide_from_bottom": {
+                    "label": "ເລື່ອນຈາກລຸ່ມ"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "ລຸ່ມຊ້າຍ",
+                    "label": "ເລື່ອນຈາກລຸ່ມຊ້າຍ"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "ລຸ່ມຂວາ",
+                    "label": "ເລື່ອນຈາກລຸ່ມຂວາ"
+                },
+                "slide_from_left": {
+                    "label": "ເລື່ອນຈາກຊ້າຍ"
+                },
+                "slide_from_right": {
+                    "label": "ເລື່ອນຈາກຂວາ"
+                },
+                "slide_from_top": {
+                    "label": "ເລື່ອນຈາກເທິງ"
+                },
+                "slide_from_top_left": {
+                    "caption": "ເທິງຊ້າຍ",
+                    "label": "ເລື່ອນຈາກເທິງຊ້າຍ"
+                },
+                "slide_from_top_right": {
+                    "caption": "ເທິງຂວາ",
+                    "label": "ເລື່ອນຈາກເທິງຂວາ"
+                },
+                "spin": {
+                    "caption": "ໝຸນ",
+                    "label": "ໝຸນເຂົ້າ"
+                },
+                "spin_scale": {
+                    "caption": "ໝຸນ ແລະ ຂະໜາດ",
+                    "label": "ໝຸນແລະປ່ຽນຂະໜາດເຂົ້າ"
+                },
+                "twist": {
+                    "caption": "ບິດ",
+                    "label": "ບິດເຂົ້າ"
+                }
+            },
+            "property": {
+                "change_text": "ປ່ຽນຂໍ້ຄວາມ",
+                "morph": "ມໍຟ",
+                "move": "ຍ້າຍ",
+                "opacity": "ຄວາມໂປ່ງໃສ",
+                "scale": "ຂະໜາດ"
+            },
+            "section": {
+                "fade": "ຈາງ",
+                "mask": "ມາສກ໌",
+                "scale": "ຂະໜາດ",
+                "slide": "ເລື່ອນ",
+                "transform": "ການປ່ຽນຮູບ"
+            },
+            "text": {
+                "backward": "ຖອຍຫຼັງ",
+                "forward": "ໄປໜ້າ",
+                "letters": "ຕົວອັກສອນ",
+                "summary_overlap": "ແຕ່ລະ{unit}ເລີ່ມເມື່ອອັນກ່ອນໜ້າໄປໄດ້ {percent}%.",
+                "summary_sequential": "ແຕ່ລະ{unit}ຈົບກ່ອນອັນຕໍ່ໄປຈະເລີ່ມ.",
+                "summary_together": "ທຸກ{unit}ເຄື່ອນໄຫວພ້ອມກັນ.",
+                "summary_whole": "ທັງກ້ອນຂໍ້ຄວາມເຄື່ອນໄຫວເປັນອັນດຽວ.",
+                "words": "ຄຳ"
+            },
+            "type": {
+                "fade_in": "ຈາງເຂົ້າ",
+                "fade_out": "ຈາງອອກ",
+                "line_height": "ລະຫວ່າງແຖວ",
+                "radius": "ຄວາມມົນ",
+                "resize_in": "ປ່ຽນຂະໜາດເຂົ້າ",
+                "resize_out": "ປ່ຽນຂະໜາດອອກ",
+                "rotate_in": "ໝຸນເຂົ້າ",
+                "rotate_out": "ໝຸນອອກ",
+                "scale_in": "ຂະໜາດເຂົ້າ",
+                "scale_out": "ຂະໜາດອອກ",
+                "slide_in": "ເລື່ອນເຂົ້າ",
+                "slide_out": "ເລື່ອນອອກ",
+                "spacing": "ໄລຍະຫ່າງ",
+                "stroke": "ຂອບ"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "ເພີ່ມຮູບຂອງທ່ານເພື່ອສືບຕໍ່.",
+                    "gesture": {
+                        "frameDesktop": "ລາກເພື່ອຍ້າຍຕຳແໜ່ງ · ເລື່ອນເພື່ອຊູມ",
+                        "frameMobile": "ລາກເພື່ອຍ້າຍຕຳແໜ່ງ, ຖ່າງນິ້ວເພື່ອຊູມ",
+                        "handles": "ປັບຂະໜາດຈາກມຸມ ແລະ ດ້ານຂ້າງ, ໝຸນຈາກດ້ານເທິງ",
+                        "move": "ລາກເພື່ອຍ້າຍ",
+                        "moveOrHandles": "ລາກເພື່ອຍ້າຍ ຫຼື ໃຊ້ຈຸດຈັບ",
+                        "resize": "ລາກມຸມ ຫຼື ດ້ານຂ້າງເພື່ອປັບຂະໜາດ",
+                        "rotate": "ລາກຈຸດຈັບດ້ານເທິງເພື່ອໝຸນ",
+                        "rotateDesktop": "ລາກໄມ້ບັນທັດ ຫຼື ໃຊ້ປຸ່ມລູກສອນ",
+                        "rotateMobile": "ລາກໄມ້ບັນທັດເພື່ອໝຸນ"
+                    },
+                    "hint": {
+                        "pickDesktop": "ຄລິກບໍລິເວນທີ່ໝາຍໄວ້ ຫຼື ເລືອກຊັ້ນທາງຊ້າຍ",
+                        "pickMobile": "ແຕະບໍລິເວນທີ່ໝາຍໄວ້ ຫຼື ເລືອກຊັ້ນດ້ານລຸ່ມ",
+                        "previewDesktop": "ກຳລັງເບິ່ງຕົວຢ່າງການອອກແບບຂອງທ່ານ. ຄລິກມັນເພື່ອແກ້ໄຂຕໍ່.",
+                        "previewMobile": "ກຳລັງເບິ່ງຕົວຢ່າງການອອກແບບຂອງທ່ານ. ແຕະມັນເພື່ອແກ້ໄຂຕໍ່."
+                    },
+                    "layer": {
+                        "addPhoto": "ເພີ່ມຮູບຂອງທ່ານ",
+                        "text": "ຂໍ້ຄວາມ: {text}",
+                        "yourPhoto": "ຮູບຂອງທ່ານ",
+                        "yourText": "ຂໍ້ຄວາມຂອງທ່ານ"
+                    },
+                    "layers": {
+                        "all": "ທຸກຊັ້ນ",
+                        "photo": "ຮູບ",
+                        "sheetDescription": "ທຸກຢ່າງໃນການອອກແບບນີ້ທີ່ທ່ານສາມາດປ່ຽນໄດ້.",
+                        "title": "ຊັ້ນ"
+                    },
+                    "photoError": "ພວກເຮົາບໍ່ສາມາດໃຊ້ຮູບນັ້ນໄດ້. ລອງຮູບອື່ນ.",
+                    "preview": {
+                        "backToEditing": "ກັບໄປແກ້ໄຂ"
+                    },
+                    "rotation": {
+                        "aria": "ການໝຸນ",
+                        "value": "one:# ອົງສາ|other:# ອົງສາ"
+                    },
+                    "tools": {
+                        "adjust": "ປັບແຕ່ງ",
+                        "aria": "ເຄື່ອງມືຊັ້ນ",
+                        "editText": "ແກ້ໄຂຂໍ້ຄວາມ",
+                        "flip": "ພິກ",
+                        "locked": "ຂະໜາດ ແລະ ຕຳແໜ່ງຖືກກຳນົດໂດຍຜູ້ສ້າງ",
+                        "replace": "ປ່ຽນ",
+                        "textAria": "ເຄື່ອງມືຂໍ້ຄວາມ",
+                        "zoomIn": "ຊູມເຂົ້າ",
+                        "zoomOut": "ຊູມອອກ"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "ເພີ່ມ {name} ໃນໄທມ໌ໄລນ໌ແລ້ວ.",
+                "too_big": "{name} ໃຫຍ່ກວ່າ {limit}.",
+                "too_long": "{name} ຍາວກວ່າ {minutes} ນາທີ.",
+                "too_many": "ໄດ້ເທື່ອລະ {count} ໄຟລ໌ເທົ່ານັ້ນ.",
+                "wrong_type": "ບໍ່ສາມາດເພີ່ມ {name} ໄດ້ — ຮອງຮັບສະເພາະຮູບພາບ, ວິດີໂອ ແລະ ໄຟລ໌ SVG."
+            }
+        },
+        "catalogue": {
+            "error_body": "ກວດສອບການເຊື່ອມຕໍ່ ແລ້ວລອງໃໝ່.",
+            "loading_more": "ກຳລັງໂຫຼດເພີ່ມເຕີມ"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "ຖິ້ມຮ່າງ",
+                "description_unsaved": "ການອອກແບບນີ້ຍັງບໍ່ໄດ້ບັນທຶກ. ການກັບຄືນຈະລຶບມັນຖາວອນ — ລວມທັງຊັ້ນ, ສະໄຕລ໌ ແລະ ອະນິເມຊັນ.",
+                "title": "ຖິ້ມຮ່າງ “{title}” ບໍ?"
+            },
+            "save": {
+                "description": "ເມື່ອບັນທຶກແລ້ວ, ຈະບໍ່ສາມາດແກ້ໄຂໄດ້ອີກ.",
+                "saving": "ກຳລັງບັນທຶກ…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "ພໍດີໜ້າຈໍ"
+        },
+        "graphic_panel": {
+            "add": "ເພີ່ມ {name}",
+            "add_failed": "ບໍ່ສາມາດເພີ່ມກຣາຟິກນີ້ໄດ້. ລອງໃໝ່.",
+            "empty_body": "ລອງຄຳທີ່ສັ້ນກວ່າ ຫຼື ທົ່ວໄປກວ່າ, ເຊັ່ນ ດາວ ຫຼື ຫົວໃຈ.",
+            "empty_title": "ບໍ່ມີກຣາຟິກທີ່ກົງກັບ “{query}”",
+            "error_title": "ໂຫຼດກຣາຟິກບໍ່ໄດ້",
+            "none_title": "ບໍ່ມີກຣາຟິກໃຫ້ສະແດງ",
+            "search_label": "ຊອກຫາກຣາຟິກ",
+            "search_placeholder": "ຊອກຫາກຣາຟິກ"
+        },
+        "header": {
+            "redo": "ເຮັດຊ້ຳ",
+            "saving": "ກຳລັງບັນທຶກ…",
+            "undo": "ຍົກເລີກ",
+            "untitled_design": "ການອອກແບບບໍ່ມີຊື່"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "ຊ່ອງຮູບ"
+            },
+            "menu": {
+                "align_center": "ກາງ",
+                "bring_forward": "ເອົາຂຶ້ນໜຶ່ງຊັ້ນ",
+                "bring_to_front": "ເອົາໄປດ້ານໜ້າສຸດ",
+                "detach_image": "ແຍກຮູບອອກ",
+                "flip_horizontal": "ພິກແນວນອນ",
+                "flip_vertical": "ພິກແນວຕັ້ງ",
+                "replace_image": "ປ່ຽນຮູບ",
+                "send_backward": "ເອົາລົງໜຶ່ງຊັ້ນ",
+                "send_to_back": "ເອົາໄປດ້ານຫຼັງສຸດ",
+                "set_as_background_image": "ຕັ້ງເປັນຮູບພື້ນຫຼັງ",
+                "set_as_background_video": "ຕັ້ງເປັນວິດີໂອພື້ນຫຼັງ",
+                "set_background_as_image_layer": "ຕັ້ງພື້ນຫຼັງເປັນຊັ້ນຮູບ",
+                "set_background_as_video_layer": "ຕັ້ງພື້ນຫຼັງເປັນຊັ້ນວິດີໂອ",
+                "sheet_title": "ຕົວເລືອກຊັ້ນ",
+                "show_layers": "ສະແດງຊັ້ນ"
+            },
+            "pill": {
+                "duplicate": "ສຳເນົາຊັ້ນ",
+                "more": "ການດຳເນີນການຊັ້ນເພີ່ມເຕີມ",
+                "remove": "ລຶບຊັ້ນ",
+                "toolbar": "ການດຳເນີນການຊັ້ນ"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "ລະຫັດຈັບຄູ່ພ້ອມແລ້ວ: {code}. ໃຫ້ລະຫັດນີ້ແກ່ AI client ຂອງທ່ານ.",
+                "connecting": "ກຳລັງສ້າງລະຫັດຈັບຄູ່.",
+                "failed": "ເຊື່ອມຕໍ່ບໍ່ໄດ້. {reason}",
+                "reconnecting": "ການເຊື່ອມຕໍ່ຂາດ. ກຳລັງພະຍາຍາມເຊື່ອມຕໍ່ໃໝ່."
+            },
+            "clipboard_blocked": "ບຣາວເຊີຂອງທ່ານບລັອກຄລິບບອດ. {hint}",
+            "connect": "ເຊື່ອມຕໍ່",
+            "connecting": "ກຳລັງເຊື່ອມຕໍ່…",
+            "copied_address_announcement": "ສຳເນົາທີ່ຢູ່ເຊີບເວີແລ້ວ",
+            "copied_code_announcement": "ສຳເນົາລະຫັດຈັບຄູ່ແລ້ວ",
+            "copy_address_hint": "ເລືອກທີ່ຢູ່ແລ້ວສຳເນົາດ້ວຍຕົນເອງ.",
+            "copy_code": "ສຳເນົາລະຫັດ",
+            "copy_code_hint": "ເລືອກລະຫັດແລ້ວສຳເນົາດ້ວຍຕົນເອງ.",
+            "copy_server_address": "ສຳເນົາທີ່ຢູ່ເຊີບເວີ MCP",
+            "disconnect": "ຕັດການເຊື່ອມຕໍ່",
+            "error_fallback": "ບໍລິການຈັບຄູ່ບໍ່ຕອບສະໜອງ. ກວດສອບການເຊື່ອມຕໍ່ ແລ້ວລອງໃໝ່.",
+            "guide": {
+                "fresh_code": "ຖ້າລະຫັດໃຊ້ບໍ່ໄດ້, ກົດຕັດການເຊື່ອມຕໍ່ ແລ້ວເຊື່ອມຕໍ່ໃໝ່ເພື່ອຮັບລະຫັດໃໝ່.",
+                "how_to_set_up": "ວິທີຕັ້ງຄ່າ",
+                "step_add_body": "ເພີ່ມ Twibbonize ໃສ່ AI client ຂອງທ່ານໂດຍໃຊ້ທີ່ຢູ່ດ້ານລຸ່ມ. ໃນ Claude Code, ໃຫ້ຣັນ",
+                "step_add_title": "ເພີ່ມ Twibbonize ໃສ່ AI client ຂອງທ່ານ",
+                "step_pair_body": "ບອກວ່າ “pair with the Twibbonize editor” ແລ້ວໃຫ້ລະຫັດຂ້າງເທິງ.",
+                "step_pair_title": "ບອກໃຫ້ຈັບຄູ່",
+                "where_to_paste": "ຈະວາງລະຫັດນີ້ບ່ອນໃດ?"
+            },
+            "lead": {
+                "code_ready_sentence": "ວາງມັນໃນ Claude ແລ້ວບອກໃຫ້ຈັບຄູ່. ແຄນວາສຈະແຕ້ມວົງແຫວນອ້ອມໜ້າໃນຂະນະທີ່ Claude ເຮັດວຽກ.",
+                "code_ready_title": "ໃຫ້ລະຫັດນີ້ແກ່ AI client ຂອງທ່ານ",
+                "connecting_sentence": "ໃຊ້ເວລາຈັກໜ້ອຍ.",
+                "connecting_title": "ກຳລັງສ້າງລະຫັດຈັບຄູ່",
+                "disconnected_sentence": "Claude Desktop ແລະ Claude Code ສາມາດເພີ່ມຊັ້ນ, ຂຽນຂໍ້ຄວາມ, ຕັ້ງອະນິເມຊັນ ແລະ ອ່ານສິ່ງທີ່ຢູ່ໃນແຄນວາສ.",
+                "disconnected_title": "ນຳ AI client ເຂົ້າມາໃນການອອກແບບນີ້",
+                "failed_title": "ເຊື່ອມຕໍ່ບໍ່ໄດ້",
+                "reconnecting_sentence": "ການເຊື່ອມຕໍ່ກັບ AI client ຂອງທ່ານຂາດ. ກຳລັງພະຍາຍາມກູ້ຄືນ.",
+                "reconnecting_title": "ກຳລັງເຊື່ອມຕໍ່ໃໝ່",
+                "unavailable_sentence": "ຕົວແກ້ໄຂນີ້ບໍ່ໄດ້ຕັ້ງຄ່າການເຊື່ອມຕໍ່ AI, ດັ່ງນັ້ນຍັງບໍ່ມີຫຍັງໃຫ້ເຊື່ອມຕໍ່.",
+                "unavailable_title": "MCP ບໍ່ໄດ້ເປີດໃຊ້ຢູ່ບ່ອນນີ້"
+            },
+            "pairing_code_label": "ລະຫັດຈັບຄູ່: {code}"
+        },
+        "media": {
+            "add_asset": "ເພີ່ມ {name}",
+            "dismiss_error": "ປິດ",
+            "empty_body": "ເພີ່ມຮູບ, ວິດີໂອ ຫຼື ໄຟລ໌ສຽງດ້ານລຸ່ມ ແລ້ວມັນຈະຢູ່ບ່ອນນີ້ຕະຫຼອດເຊດຊັນນີ້.",
+            "empty_narrowed_body": "ລຶບການຄົ້ນຫາ ຫຼື ເລືອກປະເພດອື່ນເພື່ອເບິ່ງທຸກຢ່າງທີ່ທ່ານເພີ່ມ.",
+            "empty_narrowed_title": "ບໍ່ມີຫຍັງກົງກັນ",
+            "empty_title": "ຍັງບໍ່ມີຫຍັງອັບໂຫຼດ",
+            "filter": {
+                "audio": "ສຽງ",
+                "images": "ຮູບພາບ"
+            },
+            "filter_group_label": "ປະເພດມີເດຍ",
+            "make_an_image": "ສ້າງຮູບ",
+            "make_image_unavailable": "ຍັງບໍ່ສາມາດສ້າງຮູບໄດ້",
+            "search_placeholder": "ຊອກຫາມີເດຍ",
+            "upload_button": "ອັບໂຫຼດຮູບ, ວິດີໂອ ຫຼື ສຽງ",
+            "uploads_heading": "ການອັບໂຫຼດ"
+        },
+        "page_bar": {
+            "group_label": "ຕົວຄວບຄຸມການຊູມ",
+            "zoom_menu": "ລະດັບການຊູມ, {percent}%"
+        },
+        "panel": {
+            "loading": "ກຳລັງໂຫຼດ {panel}…"
+        },
+        "photo": {
+            "add_by": "ເພີ່ມຮູບໂດຍ {name}",
+            "add_described": "ເພີ່ມຮູບ: {description}",
+            "credit": "ຮູບພາບໂດຍ",
+            "empty_body": "ລອງຄຳທີ່ສັ້ນກວ່າ ຫຼື ທົ່ວໄປກວ່າ, ເຊັ່ນ ຫາດຊາຍ ຫຼື ເມືອງ.",
+            "empty_title": "ບໍ່ມີຮູບທີ່ກົງກັບ “{query}”",
+            "error_title": "ໂຫຼດຮູບບໍ່ໄດ້",
+            "none_title": "ບໍ່ມີຮູບໃຫ້ສະແດງ",
+            "search_label": "ຊອກຫາຮູບ",
+            "search_placeholder": "ຊອກຫາຮູບ"
+        },
+        "qr": {
+            "add_logo": "ເພີ່ມໂລໂກ້",
+            "add_to_design": "ເພີ່ມໃສ່ການອອກແບບ",
+            "background_colour_label": "ສີພື້ນຫຼັງ",
+            "code_colour_label": "ສີໂຄ້ດ",
+            "code_label": "ໂຄ້ດ",
+            "link_input_label": "ລິ້ງ QR code",
+            "link_label": "ລິ້ງ",
+            "logo_fallback_name": "ຮູບໂລໂກ້",
+            "logo_label": "ໂລໂກ້",
+            "remove_logo": "ລຶບໂລໂກ້"
+        },
+        "rail": {
+            "aria_label": "ຄັງການອອກແບບ",
+            "graphic": "ກຣາຟິກ",
+            "help": "ຊ່ວຍເຫຼືອ",
+            "layers": "ຊັ້ນ",
+            "mcp": "MCP",
+            "media": "ມີເດຍ",
+            "photo": "ຮູບ",
+            "qr_code": "QR code",
+            "shapes": "ຮູບຮ່າງ",
+            "templates": "ແມ່ແບບ",
+            "textures": "ພື້ນຜິວ",
+            "tools": "ເຄື່ອງມື"
+        },
+        "save": {
+            "failed": "ບໍ່ສາມາດບັນທຶກການອອກແບບຂອງທ່ານໄດ້. ລອງໃໝ່."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "ຄວາມສະຫວ່າງ",
+                "compare": "ປຽບທຽບກັບຕົ້ນສະບັບ",
+                "contrast": "ຄອນຕຣາສ",
+                "grayscale": "ສີເທົາ",
+                "group": {
+                    "basic": "ພື້ນຖານ",
+                    "refinements": "ປັບລະອຽດ"
+                },
+                "hue_rotate": "ໝຸນສີ",
+                "reset": "ຣີເຊັດການປັບແຕ່ງ",
+                "saturation": "ຄວາມອີ່ມຕົວ",
+                "title": "ການປັບແຕ່ງ"
+            },
+            "color": {
+                "trigger": "ສີ"
+            },
+            "common": {
+                "layer_blur": "ຄວາມມົວຂອງຊັ້ນ",
+                "layer_blur_stepper": "ຄວາມມົວຂອງຊັ້ນ"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "ອິດສະຫຼະ",
+                    "landscape": "ແນວນອນ",
+                    "original": "ຕົ້ນສະບັບ",
+                    "portrait": "ແນວຕັ້ງ",
+                    "square": "ສີ່ຫຼ່ຽມຈັດຕຸລັດ",
+                    "story": "ສະຕໍຣີ",
+                    "widescreen": "ຈໍກວ້າງ"
+                },
+                "shape": {
+                    "circle": "ວົງມົນ",
+                    "diamond": "ຮູບເພັດ",
+                    "half_circle": "ເຄິ່ງວົງມົນ",
+                    "oval": "ຮູບໄຂ່",
+                    "parallelogram": "ສີ່ຫຼ່ຽມຂະໜານ",
+                    "rounded": "ມົນ"
+                }
+            },
+            "filter": {
+                "cool": "ເຢັນ",
+                "duotone": "ດູໂອໂທນ",
+                "mono": "ໂມໂນ",
+                "original": "ຕົ້ນສະບັບ",
+                "vivid": "ສົດໃສ",
+                "warm": "ອຸ່ນ"
+            },
+            "font_weight": {
+                "black": "ແບລັກ",
+                "extra_bold": "ເອັກຊຕຣາໂບລ໌ດ",
+                "extra_light": "ເອັກຊຕຣາໄລຕ໌",
+                "medium": "ປານກາງ",
+                "regular": "ປົກກະຕິ",
+                "semibold": "ເຊມີໂບລ໌ດ",
+                "thin": "ບາງ"
+            },
+            "frame": {
+                "colour": "ສີກອບ"
+            },
+            "green_screen": {
+                "choose_colour": "ເລືອກສີ",
+                "colour": "ສີ",
+                "compare": "ປຽບທຽບກັບຕົ້ນສະບັບ",
+                "eyedropper": "ເລືອກສີຈາກແຄນວາສ",
+                "key_colour": "ສີຄີ {hex}",
+                "loose": "ຫຼວມ",
+                "nothing_found": "ບໍ່ພົບສີພື້ນຫຼັງ.",
+                "precise": "ແມ່ນຢຳ",
+                "preset": {
+                    "bright_blue": "ຟ້າສົດ",
+                    "bright_green": "ຂຽວສົດ",
+                    "chroma_blue": "ໂຄຣມາຟ້າ",
+                    "chroma_green": "ໂຄຣມາຂຽວ"
+                },
+                "presets": "ສີພື້ນຫຼັງທົ່ວໄປ",
+                "remove": "ລຶບກຣີນສະກຣີນ",
+                "title": "ກຣີນສະກຣີນ"
+            },
+            "image": {
+                "corner_radius": "ຄວາມມົນຂອງມຸມ",
+                "corner_radius_stepper": "ຄວາມມົນຂອງມຸມ",
+                "per_corner": "ແກ້ໄຂແຕ່ລະມຸມ",
+                "per_corner_unavailable": "ຍັງບໍ່ສາມາດແກ້ໄຂແຕ່ລະມຸມໄດ້"
+            },
+            "keypad": {
+                "value_field": "ຄ່າ {label}"
+            },
+            "line": {
+                "colour": "ສີເສັ້ນ",
+                "style": {
+                    "dots": "ຈຸດ",
+                    "long_dashes": "ຂີດຍາວ",
+                    "short_dashes": "ຂີດສັ້ນ",
+                    "solid": "ເສັ້ນຕັນ"
+                },
+                "style_trigger": "ຮູບແບບເສັ້ນ: {style}",
+                "weight": "ຄວາມໜາເສັ້ນ",
+                "weight_trigger": "ຄວາມໜາເສັ້ນ {weight}"
+            },
+            "media": {
+                "heading": "ມີເດຍ"
+            },
+            "page": {
+                "size_capped": "ສູງສຸດ {max} px — ຮັກສາອັດຕາສ່ວນ"
+            },
+            "pages": {
+                "title": "ໜ້າ"
+            },
+            "photo_slot": {
+                "enable": "ໃຊ້ເປັນຊ່ອງຮູບ",
+                "key_field": "ຄີ (ບໍ່ຊ້ຳກັນ)",
+                "key_required": "ຕ້ອງມີຄີ",
+                "key_taken": "ຄີນີ້ຖືກໃຊ້ໂດຍຊ່ອງອື່ນແລ້ວ",
+                "label_field": "ປ້າຍ (ສະແດງໃຫ້ຜູ້ໃຊ້ເຫັນ)",
+                "on": "ຊ່ອງຮູບ",
+                "remove": "ລຶບຊ່ອງຮູບ"
+            },
+            "qr": {
+                "add_logo": "ເພີ່ມໂລໂກ້",
+                "background_colour": "ສີພື້ນຫຼັງ",
+                "code": "ໂຄ້ດ",
+                "code_colour": "ສີໂຄ້ດ",
+                "link": "ລິ້ງ",
+                "link_input": "ລິ້ງ QR code",
+                "logo": "ໂລໂກ້",
+                "remove_logo": "ລຶບໂລໂກ້"
+            },
+            "root": {
+                "background_image": "ຮູບພື້ນຫຼັງ",
+                "edit_background": "ແກ້ໄຂຮູບພື້ນຫຼັງ",
+                "fill": "ຕື່ມສີ",
+                "fill_gradient": "ໄລ່ສີ",
+                "page_height": "ຄວາມສູງຂອງໜ້າ",
+                "page_width": "ຄວາມກວ້າງຂອງໜ້າ",
+                "ratio_lock": "ລັອກອັດຕາສ່ວນ",
+                "ratio_unlock": "ປົດລັອກອັດຕາສ່ວນ",
+                "rotate_left": "ໝຸນພື້ນຫຼັງໄປຊ້າຍ",
+                "rotate_right": "ໝຸນພື້ນຫຼັງໄປຂວາ"
+            },
+            "scalar": {
+                "clip_length": "ຄວາມຍາວ",
+                "corner_radius": "ຄວາມມົນຂອງມຸມ",
+                "font_size": "ຂະໜາດຟອນ",
+                "layer_blur": "ຄວາມມົວຂອງຊັ້ນ",
+                "letter_spacing": "ໄລຍະຫ່າງຕົວອັກສອນ",
+                "line_height": "ລະຫວ່າງແຖວ",
+                "opacity": "ຄວາມໂປ່ງໃສ",
+                "speed": "ຄວາມໄວ",
+                "stroke_width": "ຄວາມໜາຂອບ",
+                "volume": "ລະດັບສຽງ"
+            },
+            "shape": {
+                "corner_radius": "ຄວາມມົນຂອງມຸມ",
+                "corner_radius_stepper": "ຄວາມມົນຂອງມຸມ",
+                "fill": "ຕື່ມສີ",
+                "fill_gradient": "ໄລ່ສີ",
+                "fill_mixed": "ປະສົມ",
+                "fill_transparent": "ໂປ່ງໃສ",
+                "stroke": "ຂອບ",
+                "stroke_color": "ສີຂອບ",
+                "stroke_style": {
+                    "dots": "ຈຸດ",
+                    "long_dashes": "ຂີດຍາວ",
+                    "short_dashes": "ຂີດສັ້ນ",
+                    "solid": "ເສັ້ນຕັນ"
+                },
+                "stroke_style_select": "ຮູບແບບຂອບ",
+                "stroke_transparent": "ໂປ່ງໃສ",
+                "stroke_weight": "ຄວາມໜາຂອບ"
+            },
+            "svg": {
+                "path_colour": "ສີ {index}"
+            },
+            "swatch": {
+                "more_colours": "ສີເພີ່ມເຕີມ"
+            },
+            "text": {
+                "align": {
+                    "justify": "ຈັດຊິດຂອບ"
+                },
+                "alignment": "ການຈັດຕຳແໜ່ງ",
+                "edit_text": "ແກ້ໄຂຂໍ້ຄວາມ",
+                "font_family": "ຕະກູນຟອນ",
+                "font_family_select": "ຕະກູນຟອນ",
+                "font_size": "ຂະໜາດຟອນ",
+                "italic_unavailable": "ຟອນນີ້ບໍ່ມີຕົວອຽງໃນຄວາມໜາລະດັບນີ້",
+                "letter_spacing_stepper": "ໄລຍະຫ່າງຕົວອັກສອນ",
+                "line_height": "ລະຫວ່າງແຖວ",
+                "line_height_stepper": "ລະຫວ່າງແຖວ",
+                "list": "ລາຍການ",
+                "list_bulleted": "ລາຍການຫົວຂໍ້ຍ່ອຍ",
+                "list_numbered": "ລາຍການມີເລກ",
+                "list_style": "ຮູບແບບລາຍການ",
+                "text_case": "ຕົວພິມໃຫຍ່\/ນ້ອຍ",
+                "text_color": "ສີຂໍ້ຄວາມ",
+                "text_style": "ຮູບແບບຂໍ້ຄວາມ",
+                "weight": "ຄວາມໜາ"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "ຈັດຊິດລຸ່ມ",
+                    "center_x": "ຈັດກາງແນວນອນ",
+                    "center_y": "ຈັດກາງແນວຕັ້ງ",
+                    "left": "ຈັດຊິດຊ້າຍ",
+                    "right": "ຈັດຊິດຂວາ",
+                    "top": "ຈັດຊິດເທິງ"
+                },
+                "align_to_page": "ຈັດຕາມໜ້າ",
+                "opacity": "ຄວາມໂປ່ງໃສ",
+                "position": "ຕຳແໜ່ງ",
+                "position_x": "ຕຳແໜ່ງ X",
+                "position_y": "ຕຳແໜ່ງ Y",
+                "rotation": "ການໝຸນ",
+                "scale": "ຂະໜາດ"
+            },
+            "video": {
+                "adjust": "ປັບແຕ່ງ",
+                "audio": "ສຽງ",
+                "clip_runs": "ຄລິບຍາວ {length}",
+                "corner_radius": "ຄວາມມົນຂອງມຸມ",
+                "corner_radius_stepper": "ຄວາມມົນຂອງມຸມ",
+                "green_screen": "ກຣີນສະກຣີນ",
+                "loop": "ຫຼິ້ນວົນຈົນກວ່າການອອກແບບຈະຈົບ",
+                "mute": "ປິດສຽງ",
+                "muted": "ປິດສຽງແລ້ວ",
+                "no_audio": "ວິດີໂອນີ້ບໍ່ມີສຽງ.",
+                "playback": "ການຫຼິ້ນ",
+                "replace": "ປ່ຽນວິດີໂອ",
+                "speed": "ຄວາມໄວ",
+                "speed_custom_input": "ຄວາມໄວການຫຼິ້ນກຳນົດເອງ",
+                "speed_presets": "ຄວາມໄວການຫຼິ້ນ",
+                "speed_range": "ລະຫວ່າງ {min}× ແລະ {max}×",
+                "tools": "ເຄື່ອງມື",
+                "unmute": "ເປີດສຽງ",
+                "volume": "ລະດັບສຽງ",
+                "volume_level": "ລະດັບສຽງ"
+            }
+        },
+        "shape_preset": {
+            "arrow": "ລູກສອນ",
+            "arrow_down": "ລູກສອນລົງ",
+            "arrow_left": "ລູກສອນຊ້າຍ",
+            "arrow_pentagon": "ລູກສອນຫ້າແຈ",
+            "arrow_right": "ລູກສອນຂວາ",
+            "arrow_up": "ລູກສອນຂຶ້ນ",
+            "chevron": "ເຊບຣອນ",
+            "circle": "ວົງມົນ",
+            "cross": "ກາກະບາດ",
+            "diamond": "ຮູບເພັດ",
+            "hexagon": "ຫົກແຈ",
+            "hexagon_wide": "ຫົກແຈກວ້າງ",
+            "line": "ເສັ້ນ",
+            "octagon": "ແປດແຈ",
+            "parallelogram": "ສີ່ຫຼ່ຽມຂະໜານ",
+            "parallelogram_mirrored": "ສີ່ຫຼ່ຽມຂະໜານກັບດ້ານ",
+            "pentagon": "ຫ້າແຈ",
+            "square": "ສີ່ຫຼ່ຽມຈັດຕຸລັດ",
+            "trapezoid": "ສີ່ຫຼ່ຽມຄາງໝູ",
+            "trapezoid_upside_down": "ສີ່ຫຼ່ຽມຄາງໝູກົງກັນຂ້າມ",
+            "triangle": "ສາມແຈ",
+            "triangle_upside_down": "ສາມແຈກົງກັນຂ້າມ"
+        },
+        "shapes_panel": {
+            "basic": "ພື້ນຖານ",
+            "lines": "ເສັ້ນ ແລະ ລູກສອນ"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "ເພີ່ມຄີເຟຣມ",
+                "back_to_animations": "ກັບໄປອະນິເມຊັນ",
+                "basic": "ພື້ນຖານ",
+                "basic_opacity": "ຄວາມໂປ່ງໃສ",
+                "basic_position": "ຕຳແໜ່ງ",
+                "basic_rotation": "ການໝຸນ",
+                "basic_scale": "ຂະໜາດ",
+                "keyframe": "ຄີເຟຣມ",
+                "pick_property_hint": "ເລືອກຄຸນສົມບັດທີ່ຈະໃສ່ຄີເຟຣມ. ເມື່ອແຕະອັນໃດອັນໜຶ່ງ ແຜ່ນຈະປິດ ແລະ ເປີດແຜງຂອງມັນ, ພ້ອມຄີເຟຣມທີ່ວາງໄວ້ທີ່ຕຳແໜ່ງຫຼິ້ນແລ້ວ ໂດຍມີຄ່າປັດຈຸບັນຂອງຊັ້ນ.",
+                "presets_need_one": "ອະນິເມຊັນພຣີເຊັດຕ້ອງໃຊ້ອົງປະກອບດຽວ. ເລືອກຊັ້ນດຽວເພື່ອເບິ່ງ.",
+                "title": "ອະນິເມຊັນ"
+            },
+            "easing": {
+                "title": "ອີຊິງ"
+            },
+            "font_weight": {
+                "title": "ຄວາມໜາຟອນ"
+            },
+            "speed": {
+                "title": "ຄວາມໄວ"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "ສີເລີ່ມຕົ້ນ",
+                "eyedropper": "ເລືອກສີຈາກໜ້າຈໍ",
+                "eyedropper_unsupported": "ບຣາວເຊີຂອງທ່ານບໍ່ຮອງຮັບເຄື່ອງມືດູດສີ",
+                "fill_linear": "ເສັ້ນຊື່",
+                "fill_radial": "ວົງກົມ",
+                "fill_solid": "ສີດຽວ",
+                "fill_type": "ປະເພດການຕື່ມສີ",
+                "gradients_in_design": "ການໄລ່ສີໃນການອອກແບບ",
+                "hex": "ສີ Hex",
+                "in_design": "ໃນການອອກແບບ",
+                "title": "ສີຕື່ມ",
+                "use_color": "ໃຊ້ {color}",
+                "use_gradient": "ໃຊ້ການໄລ່ສີ {style}",
+                "use_transparent": "ໂປ່ງໃສ"
+            },
+            "crop": {
+                "adjust_shape": "ປັບຮູບຮ່າງການຄັດຕັດ",
+                "aspect": "ອັດຕາສ່ວນ",
+                "framing": "ການຈັດກອບ",
+                "framing_hint": "ລາກຮູບເພື່ອຈັດກອບໃໝ່, ຫຼື ລາກມຸມເພື່ອປັບຂະໜາດໜ້າຕ່າງຄັດຕັດ. ເລື່ອນເພື່ອຊູມ.",
+                "scale": "ຂະໜາດ"
+            },
+            "filters": {
+                "show_earlier": "ສະແດງຟິວເຕີກ່ອນໜ້າ",
+                "show_more": "ສະແດງຟິວເຕີເພີ່ມເຕີມ",
+                "swatch": "{label} ສີ: {color}",
+                "title": "ຟິວເຕີ"
+            },
+            "font": {
+                "all_fonts": "ຟອນທັງໝົດ",
+                "applying": "ກຳລັງນຳໃຊ້ຟອນ",
+                "back": "ກັບໄປຕົວເລືອກຂໍ້ຄວາມ",
+                "clear_search": "ລຶບການຄົ້ນຫາ",
+                "clear_search_action": "ລຶບການຄົ້ນຫາ",
+                "in_this_design": "ໃນການອອກແບບນີ້",
+                "no_match": "ບໍ່ມີຟອນທີ່ກົງກັບ “{query}”",
+                "no_match_hint": "Twibbonize ດຶງຟອນຈາກຄັງ Google Fonts ແລະ ຕະກູນຟອນນີ້ບໍ່ຢູ່ໃນນັ້ນ. ລອງຄຳຄົ້ນຫາທີ່ສັ້ນກວ່າ.",
+                "search_label": "ຊອກຫາຕະກູນຟອນ",
+                "search_placeholder": "ຊອກຫາຟອນ",
+                "title": "ຕະກູນຟອນ",
+                "weight": "ຄວາມໜາຟອນ"
+            },
+            "gradient": {
+                "add_stop": "ເພີ່ມຈຸດໄລ່ສີ",
+                "angle": "ມຸມ",
+                "angle_dial": "ມຸມໄລ່ສີ, {degrees} ອົງສາ. ລາກເພື່ອປ່ຽນ",
+                "angle_dial_hint": "ລາກເພື່ອປ່ຽນມຸມໄລ່ສີ",
+                "angle_input": "ມຸມໄລ່ສີເປັນອົງສາ",
+                "centre_unsupported": "ຕົວເຣນເດີຍັງບໍ່ຮອງຮັບຈຸດສູນກາງຂອງການໄລ່ສີ",
+                "stop": "ຈຸດໄລ່ສີ {index} ທີ່ {percent}%, {color}",
+                "stop_hint": "ລາກເພື່ອຍ້າຍ, ຄລິກສອງຄັ້ງເພື່ອລຶບ"
+            },
+            "image": {
+                "adjustment": "ການປັບແຕ່ງ",
+                "adjustments": "ການປັບແຕ່ງ",
+                "back_to_edit": "ກັບໄປແທັບແກ້ໄຂ",
+                "background_removal": "ການລົບພື້ນຫຼັງ",
+                "compare": "ປຽບທຽບກັບຕົ້ນສະບັບ",
+                "removing": "ກຳລັງລົບ…",
+                "removing_background": "ກຳລັງລົບພື້ນຫຼັງ",
+                "reset_adjustments": "ຣີເຊັດການປັບແຕ່ງ",
+                "tools": "ເຄື່ອງມື"
+            },
+            "keyframe": {
+                "add": "ເພີ່ມຄີເຟຣມ",
+                "add_at_playhead": "ເພີ່ມຄີເຟຣມ {property} ທີ່ຕຳແໜ່ງຫຼິ້ນ",
+                "add_at_playhead_short": "ເພີ່ມຄີເຟຣມທີ່ຕຳແໜ່ງຫຼິ້ນ",
+                "add_lane_at_playhead": "ເພີ່ມຄີເຟຣມ {lane} ທີ່ຕຳແໜ່ງຫຼິ້ນ",
+                "add_property": "ເພີ່ມຄຸນສົມບັດທີ່ຈະເຮັດອະນິເມຊັນ",
+                "all_lanes_added": "ທຸກຄຸນສົມບັດທີ່ຊັ້ນນີ້ໃສ່ຄີເຟຣມໄດ້ມີເລນແລ້ວ",
+                "delete": "ລຶບຄີເຟຣມນີ້",
+                "diamond": "ຄີເຟຣມ {lane} ທີ່ {seconds}s",
+                "easing": "ອີຊິງ",
+                "easing_caps": "ອີຊິງ",
+                "first_no_easing": "ຄີເຟຣມທຳອິດບໍ່ມີອີຊິງ",
+                "hex": "ສີ Hex",
+                "layer_blur": "ຄວາມມົວຂອງຊັ້ນ",
+                "letter_spacing": "ໄລຍະຫ່າງຕົວອັກສອນ",
+                "line_height": "ລະຫວ່າງແຖວ",
+                "opacity": "ຄວາມໂປ່ງໃສ",
+                "opacity_percent": "ເປີເຊັນຄວາມໂປ່ງໃສ",
+                "position_x": "ຕຳແໜ່ງ X",
+                "position_y": "ຕຳແໜ່ງ Y",
+                "radius_bottom_left": "ຄວາມມົນມຸມລຸ່ມຊ້າຍ",
+                "radius_bottom_right": "ຄວາມມົນມຸມລຸ່ມຂວາ",
+                "radius_top_left": "ຄວາມມົນມຸມເທິງຊ້າຍ",
+                "radius_top_right": "ຄວາມມົນມຸມເທິງຂວາ",
+                "remove": "ລຶບຄີເຟຣມ",
+                "remove_at_playhead": "ລຶບຄີເຟຣມ {property} ທີ່ຕຳແໜ່ງຫຼິ້ນ",
+                "rotation": "ການໝຸນ",
+                "scale": "ຂະໜາດ",
+                "shadow_blur": "ຄວາມມົວຂອງເງົາ",
+                "shadow_color": "ສີເງົາ",
+                "shadow_offset_x": "ໄລຍະເງົາ X",
+                "shadow_offset_y": "ໄລຍະເງົາ Y",
+                "shadow_spread": "ການກະຈາຍຂອງເງົາ",
+                "stroke_color": "ສີຂອບ",
+                "stroke_weight": "ຄວາມໜາຂອບ"
+            },
+            "layer": {
+                "page_background": "ພື້ນຫຼັງຂອງໜ້າ",
+                "tab_animate": "ອະນິເມຊັນ",
+                "tabs_label": "ແຜງຊັ້ນ",
+                "title": "ຊັ້ນ"
+            },
+            "page_preset": {
+                "group_label": "ຂະໜາດແຄນວາສທີ່ຕັ້ງໄວ້ລ່ວງໜ້າ",
+                "landscape": "ແນວນອນ",
+                "portrait": "ແນວຕັ້ງ",
+                "square": "ຈັດຕຸລັດ",
+                "story": "ສະຕໍຣີ",
+                "tile_aria": "{name}, {width} x {height} ພິກເຊວ"
+            },
+            "personalization": {
+                "act_as_placeholder": "ເຮັດໜ້າທີ່ເປັນຕົວແທນ",
+                "allow_adjust_framing": "ອະນຸຍາດໃຫ້ປັບການຈັດກອບ",
+                "allow_adjust_framing_hint": "ຜູ້ສະໜັບສະໜູນສາມາດຊູມ ແລະ ຍ້າຍຮູບຂອງເຂົາເຈົ້າພາຍໃນກອບໄດ້.",
+                "allow_change_adjustments": "ອະນຸຍາດໃຫ້ປ່ຽນການປັບແຕ່ງ",
+                "allow_change_adjustments_hint": "ຜູ້ສະໜັບສະໜູນສາມາດປ່ຽນຄວາມສະຫວ່າງ, ຄອນຕຣາສ ແລະ ການປັບແຕ່ງອື່ນໆໄດ້.",
+                "allow_change_effect": "ອະນຸຍາດໃຫ້ປ່ຽນເອັບເຟັກ",
+                "allow_change_effect_hint": "ຜູ້ສະໜັບສະໜູນສາມາດເລືອກເອັບເຟັກອື່ນສຳລັບຊັ້ນນີ້ໄດ້.",
+                "allow_change_filter": "ອະນຸຍາດໃຫ້ປ່ຽນຟິວເຕີ",
+                "allow_change_filter_hint": "ຜູ້ສະໜັບສະໜູນສາມາດເລືອກຟິວເຕີອື່ນສຳລັບຊັ້ນນີ້ໄດ້.",
+                "allow_edit_text": "ອະນຸຍາດໃຫ້ແກ້ໄຂຂໍ້ຄວາມ",
+                "allow_edit_text_hint": "ຜູ້ສະໜັບສະໜູນສາມາດພິມຂໍ້ຄວາມຂອງຕົນເອງໃນຂໍ້ຄວາມນີ້ໄດ້.",
+                "allow_flip": "ອະນຸຍາດໃຫ້ພິກ",
+                "allow_flip_hint": "ຜູ້ສະໜັບສະໜູນສາມາດພິກຊັ້ນນີ້ເປັນພາບສະທ້ອນໄດ້.",
+                "allow_move": "ອະນຸຍາດໃຫ້ຍ້າຍ",
+                "allow_move_hint": "ຜູ້ສະໜັບສະໜູນສາມາດລາກຊັ້ນນີ້ໄປຕຳແໜ່ງໃໝ່ໄດ້.",
+                "allow_replace_media": "ອະນຸຍາດໃຫ້ປ່ຽນມີເດຍ",
+                "allow_replace_media_hint": "ຜູ້ສະໜັບສະໜູນສາມາດປ່ຽນຮູບນີ້ເປັນຮູບຂອງຕົນເອງໄດ້.",
+                "allow_resize": "ອະນຸຍາດໃຫ້ປັບຂະໜາດ",
+                "allow_resize_hint": "ຜູ້ສະໜັບສະໜູນສາມາດປັບຂະໜາດຊັ້ນນີ້ໂດຍການລາກມຸມ ແລະ ດ້ານຂ້າງໄດ້.",
+                "allow_rotate": "ອະນຸຍາດໃຫ້ໝຸນ",
+                "allow_rotate_hint": "ຜູ້ສະໜັບສະໜູນສາມາດໝຸນຊັ້ນນີ້ໄປທຸກມຸມໄດ້.",
+                "group_appearance": "ຮູບລັກສະນະ",
+                "group_arrange": "ຈັດລຽງ",
+                "group_media": "ມີເດຍ",
+                "placeholder_hint": "ສະແດງຊ່ອງຫວ່າງທີ່ຜູ້ສະໜັບສະໜູນແຕະເພື່ອເພີ່ມຮູບຂອງຕົນໄດ້.",
+                "remove_background": "ລົບພື້ນຫຼັງຈາກຮູບຂອງເຂົາເຈົ້າ",
+                "remove_background_hint": "ຕັດຜູ້ສະໜັບສະໜູນອອກຈາກຮູບ ເພື່ອໃຫ້ການອອກແບບຂອງທ່ານສະແດງຢູ່ອ້ອມຕົວເຂົາເຈົ້າ.",
+                "text_placeholder_hint": "ສະແດງຂໍ້ຄວາມນີ້ເປັນຕົວຢ່າງທີ່ຜູ້ສະໜັບສະໜູນຈະປ່ຽນເປັນຂໍ້ຄວາມຂອງຕົນເອງ."
+            },
+            "shape_effect": {
+                "colour": "ສີເອັບເຟັກ",
+                "distance": "ໄລຍະທາງ",
+                "echo": "ເອັກໂຄ",
+                "first_color": "ສີທຳອິດ",
+                "first_colour": "ສີເອັບເຟັກທຳອິດ",
+                "glitch": "ກລິດຊ໌",
+                "glow": "ເລືອງແສງ",
+                "group_label": "ເອັບເຟັກຮູບຮ່າງ",
+                "second_color": "ສີທີສອງ",
+                "second_colour": "ສີເອັບເຟັກທີສອງ",
+                "section": "ເອັບເຟັກ",
+                "shadow": "ເງົາ"
+            },
+            "text_effect": {
+                "colour": "ສີເອັບເຟັກ",
+                "curve": "ໂຄ້ງ",
+                "distance": "ໄລຍະທາງ",
+                "echo": "ເອັກໂຄ",
+                "glow": "ເລືອງແສງ",
+                "group_label": "ເອັບເຟັກຂໍ້ຄວາມ",
+                "outline": "ເສັ້ນຂອບ",
+                "section": "ເອັບເຟັກ",
+                "shape_group_label": "ຮູບຮ່າງຂໍ້ຄວາມ",
+                "splice": "ສະໄປຊ໌",
+                "title": "ເອັບເຟັກຂໍ້ຄວາມ"
+            }
+        },
+        "templates": {
+            "empty_body": "ລອງຄຳທີ່ສັ້ນກວ່າ ຫຼື ທົ່ວໄປກວ່າ.",
+            "empty_title": "ບໍ່ມີແມ່ແບບທີ່ກົງກັບ “{query}”",
+            "error_title": "ໂຫຼດແມ່ແບບບໍ່ໄດ້",
+            "none_body": "ຄົ້ນຫາຕາມຫົວຂໍ້, ເຊັ່ນ ວັນເກີດ ຫຼື ຈົບການສຶກສາ.",
+            "none_title": "ຍັງບໍ່ມີແມ່ແບບສຳລັບການອອກແບບນີ້",
+            "search_label": "ຊອກຫາແມ່ແບບ",
+            "search_placeholder": "ຊອກຫາແມ່ແບບ"
+        },
+        "text_panel": {
+            "add_template": "ເພີ່ມແມ່ແບບຂໍ້ຄວາມ: {name}",
+            "add_text_box": "ເພີ່ມກ່ອງຂໍ້ຄວາມ",
+            "empty_body": "ລອງຄຳທີ່ສັ້ນກວ່າ ຫຼື ທົ່ວໄປກວ່າ.",
+            "empty_title": "ບໍ່ມີແມ່ແບບຂໍ້ຄວາມທີ່ກົງກັບ “{query}”",
+            "error_title": "ໂຫຼດແມ່ແບບຂໍ້ຄວາມບໍ່ໄດ້",
+            "none_body": "ເລີ່ມຕົ້ນດ້ວຍກ່ອງຂໍ້ຄວາມທຳມະດາແທນ.",
+            "none_title": "ບໍ່ມີແມ່ແບບຂໍ້ຄວາມໃຫ້ສະແດງ",
+            "search_label": "ຊອກຫາແມ່ແບບຂໍ້ຄວາມ",
+            "search_placeholder": "ຊອກຫາແມ່ແບບຂໍ້ຄວາມ"
+        },
+        "text_preset": {
+            "seed": "ເພີ່ມຂໍ້ຄວາມຂອງທ່ານບ່ອນນີ້"
+        },
+        "textures": {
+            "apply_texture": "ນຳໃຊ້ {name}",
+            "category": {
+                "fabric": "ຜ້າ",
+                "grain": "ເມັດ",
+                "grunge": "ກຣັນຈ໌",
+                "paper": "ເຈ້ຍ",
+                "print": "ພິມ"
+            },
+            "category_group_label": "ໝວດພື້ນຜິວ",
+            "empty_body": "ພວກເຮົາກຳລັງສ້າງຄັງນີ້ — ກັບມາເບິ່ງໃໝ່ໄວໆນີ້.",
+            "empty_title": "ຍັງບໍ່ມີພື້ນຜິວ",
+            "most_used": "ໃຊ້ຫຼາຍສຸດ",
+            "search_placeholder": "ຊອກຫາພື້ນຜິວ"
+        },
+        "timeline": {
+            "audio": {
+                "add": "ເພີ່ມສຽງ",
+                "add_tooltip": "ເພີ່ມແທຣັກສຽງພື້ນຫຼັງ",
+                "bar_aria": "{name} ທີ່ {start} ເປັນເວລາ {duration}",
+                "decoding": "ກຳລັງຖອດລະຫັດສຽງ…",
+                "decoding_waveform": "ກຳລັງຖອດລະຫັດຄື້ນສຽງ…",
+                "default_name": "ສຽງ",
+                "drop_to_add": "ປ່ອຍເພື່ອເພີ່ມສຽງ",
+                "kind_suffix": "· ສຽງ",
+                "mute": "ປິດສຽງແທຣັກ",
+                "unmute": "ເປີດສຽງແທຣັກ",
+                "volume": "ລະດັບສຽງແທຣັກ",
+                "waveform_error": "ໂຫຼດຄື້ນສຽງຂອງແທຣັກນີ້ບໍ່ໄດ້."
+            },
+            "keyframe": {
+                "add": "ເພີ່ມຄີເຟຣມ",
+                "add_at_playhead": "ເພີ່ມຄີເຟຣມທີ່ຕຳແໜ່ງຫຼິ້ນ",
+                "add_tooltip": "ໃສ່ຄີເຟຣມໃຫ້ຄຸນສົມບັດຂອງຊັ້ນນີ້",
+                "diamond_aria": "ຄີເຟຣມ {lane} ທີ່ {time}",
+                "diamond_hint": " · ລາກເພື່ອປັບເວລາ, ຄລິກຂວາເພື່ອລຶບ",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "ຄວາມມົນຂອງມຸມ",
+                    "layer_blur": "ຄວາມມົວຂອງຊັ້ນ",
+                    "line_height": "ລະຫວ່າງແຖວ",
+                    "opacity": "ຄວາມໂປ່ງໃສ",
+                    "position": "ຕຳແໜ່ງ",
+                    "rotation": "ການໝຸນ",
+                    "scale": "ຂະໜາດ",
+                    "stroke": "ຂອບ"
+                },
+                "remove_lane": "ລຶບຄີເຟຣມ {lane}",
+                "remove_lane_from_layer": "ລຶບຄີເຟຣມ {lane} ອອກຈາກ {layer}",
+                "segment_easing_aria": "ຟັງຊັນເວລາ {lane} ລະຫວ່າງ {from} ແລະ {to}, ປັດຈຸບັນແມ່ນ {easing}",
+                "segment_easing_title": "ຟັງຊັນເວລາ · {easing}",
+                "welded_aria": ", ຕິດກັບຂອບຊັ້ນ",
+                "welded_title": " · ຕິດກັບຂອບຊັ້ນ"
+            },
+            "menu": {
+                "repeat_until_end": "ຫຼິ້ນຊ້ຳຈົນຈົບ"
+            },
+            "track": {
+                "bar_aria": "{name} ທີ່ {start} ເປັນເວລາ {duration}",
+                "bar_aria_end_glued": ", ທ້າຍຕິດກັບຊັ້ນ",
+                "bar_aria_start_glued": ", ຕົ້ນຕິດກັບຊັ້ນ",
+                "bar_tooltip": "{name} · {start} ເປັນເວລາ {duration}ms · ລາກເພື່ອຍ້າຍ, ລາກຂອບເພື່ອປັບຂະໜາດ (Alt = ບໍ່ດູດຕິດ)",
+                "bar_tooltip_sole": " · ການລາກຂອບນີ້ຈະຍ້າຍຊັ້ນ",
+                "clip_aria": "ຄລິບ {name}",
+                "clip_tooltip": "ລາກເພື່ອຍ້າຍຊັ້ນຕາມເວລາ · ລາກປາຍເພື່ອຕັດ (Alt = ບໍ່ດູດຕິດ)",
+                "collapse": "ຫຍໍ້",
+                "collapse_all": "ຫຍໍ້ທຸກຊັ້ນ",
+                "collapse_named": "ຫຍໍ້ {name}",
+                "delete_layer": "ລຶບຊັ້ນ",
+                "delete_named": "ລຶບ {name}",
+                "ends_at": "ສິ້ນສຸດທີ່",
+                "expand": "ຂະຫຍາຍ",
+                "expand_named": "ຂະຫຍາຍ {name}",
+                "hidden_lane_one": "ເລນທີ່ເຊື່ອງ {count} ເລນ",
+                "hidden_lane_other": "ເລນທີ່ເຊື່ອງ {count} ເລນ",
+                "hide": "ເຊື່ອງ",
+                "hide_named": "ເຊື່ອງ {name}",
+                "lane_reorder_tooltip": "ລາກເພື່ອຈັດລຽງໃໝ່ — ເລນເທິງສຸດຊະນະເມື່ອອະນິເມຊັນຊ້ອນກັນ",
+                "layer_animations": "ອະນິເມຊັນຂອງຊັ້ນ",
+                "lock_layer": "ລັອກຊັ້ນ",
+                "lock_named": "ລັອກ {name}",
+                "remove_animation": "ລຶບອະນິເມຊັນ",
+                "remove_animation_aria": "ລຶບອະນິເມຊັນ {name} ອອກຈາກ {layer}",
+                "reorder_tooltip": "ລາກເພື່ອຈັດລຽງແທຣັກໃໝ່ — ລຳດັບຊ້ອນຂອງແຄນວາສຕັ້ງຄ່າໃນແຜງຊັ້ນ",
+                "show": "ສະແດງ",
+                "show_named": "ສະແດງ {name}",
+                "split": "ແບ່ງ",
+                "starts_at": "ເລີ່ມທີ່",
+                "trim_end": "ຕັດທ້າຍ",
+                "trim_start": "ຕັດຕົ້ນ",
+                "trim_to": "ຕັດຮອດ {time}",
+                "unlock_layer": "ປົດລັອກຊັ້ນ",
+                "unlock_named": "ປົດລັອກ {name}"
+            },
+            "transport": {
+                "current_time_field": "ເວລາປັດຈຸບັນເປັນມິນລິວິນາທີ",
+                "duration_edge_aria": "ໄລຍະເວລາຂອງໜ້າ {seconds} ວິນາທີ",
+                "duration_edge_tooltip": "ໄລຍະເວລາຂອງໜ້າ {seconds}s · ລາກເພື່ອປ່ຽນ, ຄລິກເພື່ອໃສ່ຄ່າທີ່ແນ່ນອນ (Alt = ບໍ່ດູດຕິດ)",
+                "duration_max": "ສູງສຸດ {seconds} s",
+                "fit_to_width": "ພໍດີຄວາມກວ້າງ",
+                "forward": "ໄປໜ້າ",
+                "lengthen_page": "ເພີ່ມຄວາມຍາວໜ້າ",
+                "loop": "ຫຼິ້ນວົນ",
+                "page_duration": "ໄລຍະເວລາຂອງໜ້າ",
+                "page_duration_field": "ໄລຍະເວລາຂອງໜ້າເປັນມິນລິວິນາທີ",
+                "resize_dock": "ປັບຂະໜາດໄທມ໌ໄລນ໌",
+                "rewind": "ຣີວາຍ",
+                "shorten_page": "ຫຼຸດຄວາມຍາວໜ້າ",
+                "zoom": "ຊູມໄທມ໌ໄລນ໌"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "ການຮ້ອງຂໍຫຼາຍເກີນໄປ",
             "CN-4003": "URL ບໍ່ຖືກຕ້ອງ",
             "C-4090": "ລິ້ງແຄມເປນຂອງທ່ານຖືກໃຊ້ແລ້ວ. ລອງອັນອື່ນ.",
+            "C-4094": "ແຄມເປນຢູ່ໃນຖັງຂີ້ເຫຍື້ອແລ້ວ",
+            "C-4095": "ແຄມເປນບໍ່ໄດ້ຢູ່ໃນຖັງຂີ້ເຫຍື້ອ",
             "SUB-403": "ການຍື່ນສະເຫນີແມ່ນຖືກຫ້າມໂດຍການຕັ້ງຄ່າແຄມເປນ",
             "A-40091": "ກະລຸນາໃຊ້ອີເມວຂອງໂຮງຮຽນ ຫຼື ມະຫາວິທະຍາໄລຂອງທ່ານ",
             "PB-4011": "ລິ້ງນີ້ບໍ່ຖືກຕ້ອງ ຫຼື ໝົດອາຍຸແລ້ວ",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "ເລື່ອນລົງເພື່ອເລືອກກອບຂອງທ່ານ",
         "editor_single": "ເລື່ອນລົງເພື່ອປັບຮູບຂອງທ່ານ",
         "editor_multiple": "ເລື່ອນລົງເພື່ອແກ້ໄຂ ແລະ ສະຫຼັບກອບ"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "ກຳລັງກູ້ຄືນແຄມເປນ…"
+        }
     }
 }

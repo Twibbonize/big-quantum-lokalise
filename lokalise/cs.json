@@ -2842,7 +2842,9 @@
             "type": "Typ:",
             "size": "Velikost:",
             "type_image": "JPG, PNG nebo SVG",
-            "maximum_size": "Maximálně 5 MB"
+            "maximum_size": "Maximálně 5 MB",
+            "abandoned": "Nahrávání se zastavilo, když byla vrstva odstraněna. Zkuste to znovu, pokud ji chcete zachovat ve své knihovně.",
+            "failed": "Nahrávání se nezdařilo. Zkontrolujte připojení a zkuste to znovu."
         },
         "toolbar": {
             "copy": "Kopírovat",
@@ -2871,7 +2873,119 @@
             "border_weight": "Hmotnost okraje",
             "corner_rounding": "Zaoblení rohů",
             "align": "Zarovnat",
-            "effects": "Účinky"
+            "effects": "Účinky",
+            "animate": {
+                "amount": "Množství",
+                "angle": "Úhel",
+                "close": "Zavřít nastavení animace",
+                "delete_animation": "Smazat animaci",
+                "distance": "Vzdálenost",
+                "easing": "Zjemnění",
+                "fade": "Prolnutí",
+                "settings_aria": "Nastavení animace"
+            },
+            "audio": {
+                "replace": "Nahradit",
+                "tools_aria": "Nástroje zvukové stopy",
+                "trim": "Oříznout",
+                "volume": "Hlasitost"
+            },
+            "clip": {
+                "length": "Délka",
+                "split": "Rozdělit",
+                "trim": "Oříznout"
+            },
+            "entry": {
+                "animate": "Animovat"
+            },
+            "image": {
+                "adjust": "Upravit",
+                "background_removal_unavailable": "Odstranění pozadí zatím není k dispozici",
+                "remove_background": "Odstranit pozadí",
+                "remove_background_short": "Výřez",
+                "replace": "Nahradit"
+            },
+            "keyframe": {
+                "blur": "Rozmazání vrstvy",
+                "close": "Zavřít vlastnosti klíčového snímku",
+                "delete_keyframe": "Smazat klíčový snímek",
+                "letter_spacing": "Rozestup",
+                "line_height": "Řádkování",
+                "opacity": "Průhlednost",
+                "position": "Pozice",
+                "properties_aria": "Vlastnosti klíčového snímku",
+                "rotation": "Rotace",
+                "scale": "Měřítko"
+            },
+            "layer_tools": {
+                "deselect": "Zrušit výběr vrstvy",
+                "tools_aria": "Nástroje vrstvy"
+            },
+            "media": {
+                "adjust": "Upravit",
+                "green_screen": "Zelené pozadí",
+                "replace": "Nahradit",
+                "trim": "Oříznout"
+            },
+            "misc": {
+                "background_fill": "Výplň pozadí",
+                "background_fill_short": "Výplň",
+                "configure_qr": "Nastavit QR kód",
+                "edit_background_image": "Upravit obrázek na pozadí",
+                "no_background_image": "Zatím žádný obrázek na pozadí",
+                "replace_unavailable": "Nahradit (zatím nedostupné)"
+            },
+            "opacity": {
+                "label": "Průhlednost"
+            },
+            "shape": {
+                "corner_radius": "Poloměr rohů",
+                "corner_radius_short": "Poloměr",
+                "fill": "Výplň",
+                "line_color": "Barva čáry",
+                "line_style_dots": "Tečky",
+                "line_style_long_dashes": "Dlouhé čárky",
+                "line_style_named": "Styl čáry: {style}",
+                "line_style_short_dashes": "Krátké čárky",
+                "line_style_solid": "Plná",
+                "line_weight": "Tloušťka čáry",
+                "stroke_color": "Barva obrysu",
+                "stroke_color_short": "Obrys",
+                "stroke_weight": "Tloušťka obrysu",
+                "stroke_weight_short": "Tloušťka"
+            },
+            "speed": {
+                "custom_input": "Vlastní rychlost přehrávání",
+                "label": "Rychlost",
+                "playback_length": "Délka přehrávání",
+                "playback_speed": "Rychlost přehrávání",
+                "range_hint": "Od {min}× do {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Zmenšit velikost písma",
+                "font_family": "Písmo",
+                "font_family_named": "Písmo: {value}",
+                "font_size": "Velikost písma",
+                "font_weight": "Tloušťka písma",
+                "font_weight_named": "Tloušťka písma: {value}",
+                "increase_font_size": "Zvětšit velikost písma",
+                "keyboard": "Klávesnice",
+                "line_height": "Řádkování",
+                "spacing": "Rozestup",
+                "text_color": "Barva textu",
+                "weight": "Tloušťka"
+            },
+            "volume": {
+                "clip_hint": "Pouze tento klip. Zvuk umístěný na časové ose si zachovává vlastní úroveň.",
+                "label": "Hlasitost",
+                "level": "Úroveň",
+                "mute": "Ztlumit",
+                "muted": "Ztlumeno",
+                "muted_hint": "Úroveň zůstává zachována. Po zrušení ztlumení se klip vrátí na {percent} %.",
+                "no_audio": "Toto video nemá zvuk.",
+                "slider": "Úroveň hlasitosti",
+                "unmute": "Zrušit ztlumení"
+            }
         },
         "confirmation": {
             "cancel": "Vyřazení",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Barvy dokumentů",
             "default_colors": "Výchozí barvy"
         },
-        "graphic": "Grafika"
+        "graphic": "Grafika",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Dole uprostřed",
+                "bottom_left": "Vlevo dole",
+                "bottom_right": "Vpravo dole",
+                "center_left": "Vlevo uprostřed",
+                "center_right": "Vpravo uprostřed",
+                "top_center": "Nahoře uprostřed",
+                "top_left": "Vlevo nahoře",
+                "top_right": "Vpravo nahoře"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Konec",
+                "more_options": "Další možnosti"
+            },
+            "direction": {
+                "bottom_left": "Vlevo dole",
+                "bottom_right": "Vpravo dole",
+                "clockwise": "Po směru hodinových ručiček",
+                "counter_clockwise": "Proti směru hodinových ručiček",
+                "from_the": "Z: {place}",
+                "to_the": "Do: {place}",
+                "top_left": "Vlevo nahoře",
+                "top_right": "Vpravo nahoře"
+            },
+            "easing": {
+                "accelerate": "Zrychlení",
+                "bounce": "Odraz",
+                "elastic": "Pružnost",
+                "impulse": "Impuls",
+                "natural": "Přirozené",
+                "overshoot": "Překmit",
+                "slow_down": "Zpomalení",
+                "smooth": "Plynulé",
+                "swing": "Kyv"
+            },
+            "field": {
+                "amount": "Množství",
+                "anchor_group": "Kotevní bod",
+                "anchor_point": "Kotevní bod",
+                "angle": "Úhel",
+                "apply_effect_to": "Použít efekt na",
+                "axis": "Osa",
+                "choose_easing": "Vyberte zjemnění",
+                "distance": "Vzdálenost",
+                "duration": "Trvání",
+                "edge": "Okraj",
+                "fade": "Prolnutí",
+                "from_noun": "Od: {noun}",
+                "horizontal": "Vodorovně",
+                "noun_blur": "rozmazání",
+                "noun_opacity": "průhlednost",
+                "noun_size": "velikost",
+                "opacity": "Průhlednost",
+                "order": "Pořadí",
+                "position": "Pozice",
+                "rotation": "Rotace",
+                "rotation_direction": "Směr rotace",
+                "scale": "Měřítko",
+                "smoothing": "Vyhlazení",
+                "to_noun": "Do: {noun}",
+                "vertical": "Svisle"
+            },
+            "mode": {
+                "arrives": "Příchod",
+                "departs": "Odchod",
+                "in": "Vstup",
+                "out": "Výstup"
+            },
+            "panel": {
+                "animation": "Animace",
+                "animations_tab": "Animace",
+                "basic": "Základní",
+                "changing_note": "Vyberte náhradu. Převezme místo a délku animace, kterou měníte.",
+                "corner_radius": "Poloměr rohů",
+                "easing": "Zjemnění",
+                "fade": "Prolnutí",
+                "keyframe_tab": "Klíčový snímek",
+                "layer_blur": "Rozmazání vrstvy",
+                "line_height": "Řádkování",
+                "more_options": "Další možnosti",
+                "motion": "Pohyb",
+                "needs_one_element": "Předvolby animací vyžadují jeden prvek. Vyberte jednu vrstvu, aby se zobrazily.",
+                "paste_animation": "Vložit animaci",
+                "scale": "Měřítko",
+                "slide": "Posun",
+                "stroke": "Obrys",
+                "text_animation": "Animace textu"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Objevení",
+                    "label": "Objevení"
+                },
+                "blur": {
+                    "label": "Vstup s rozmazáním"
+                },
+                "blur_scale": {
+                    "caption": "Rozmazání a měřítko",
+                    "label": "Vstup s rozmazáním a změnou měřítka"
+                },
+                "blur_slide": {
+                    "caption": "Rozmazání a posun",
+                    "label": "Vstup s rozmazáním a posunem"
+                },
+                "fade": {
+                    "caption": "Prolnutí",
+                    "label": "Prolnutí"
+                },
+                "grow": {
+                    "caption": "Vyskočení",
+                    "label": "Vyskočení při vstupu"
+                },
+                "mask_center": {
+                    "caption": "Maska od středu",
+                    "label": "Odkrytí maskou od středu"
+                },
+                "mask_reveal": {
+                    "caption": "Odkrytí maskou",
+                    "label": "Odkrytí maskou od okraje"
+                },
+                "mask_slide": {
+                    "caption": "Maska a posun",
+                    "label": "Odkrytí maskou s posunem"
+                },
+                "move_scale": {
+                    "caption": "Pohyb a měřítko",
+                    "label": "Vstup s pohybem a změnou měřítka"
+                },
+                "rotate_left": {
+                    "label": "Rotace zleva"
+                },
+                "rotate_right": {
+                    "label": "Rotace zprava"
+                },
+                "shrink": {
+                    "caption": "Velké",
+                    "label": "Vstup ve velkém"
+                },
+                "slide": {
+                    "caption": "Posun",
+                    "label": "Vjezd"
+                },
+                "slide_from_bottom": {
+                    "label": "Vjezd zdola"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Vlevo dole",
+                    "label": "Vjezd zleva dole"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Vpravo dole",
+                    "label": "Vjezd zprava dole"
+                },
+                "slide_from_left": {
+                    "label": "Vjezd zleva"
+                },
+                "slide_from_right": {
+                    "label": "Vjezd zprava"
+                },
+                "slide_from_top": {
+                    "label": "Vjezd shora"
+                },
+                "slide_from_top_left": {
+                    "caption": "Vlevo nahoře",
+                    "label": "Vjezd zleva nahoře"
+                },
+                "slide_from_top_right": {
+                    "caption": "Vpravo nahoře",
+                    "label": "Vjezd zprava nahoře"
+                },
+                "spin": {
+                    "caption": "Roztočení",
+                    "label": "Vstup s roztočením"
+                },
+                "spin_scale": {
+                    "caption": "Roztočení a měřítko",
+                    "label": "Vstup s roztočením a změnou měřítka"
+                },
+                "twist": {
+                    "caption": "Překroucení",
+                    "label": "Vstup s překroucením"
+                }
+            },
+            "property": {
+                "change_text": "Změnit text",
+                "morph": "Morfování",
+                "move": "Pohyb",
+                "opacity": "Průhlednost",
+                "scale": "Měřítko"
+            },
+            "section": {
+                "fade": "Prolnutí",
+                "mask": "Maska",
+                "scale": "Měřítko",
+                "slide": "Posun",
+                "transform": "Transformace"
+            },
+            "text": {
+                "backward": "Pozpátku",
+                "forward": "Dopředu",
+                "letters": "Písmena",
+                "summary_overlap": "Každé: {unit} začne, když předchozí dosáhne {percent} %.",
+                "summary_sequential": "Každé: {unit} skončí, než začne další.",
+                "summary_together": "Všechna ({unit}) se pohybují společně.",
+                "summary_whole": "Celý textový blok se animuje jako celek.",
+                "words": "Slova"
+            },
+            "type": {
+                "fade_in": "Prolnutí při vstupu",
+                "fade_out": "Prolnutí při výstupu",
+                "line_height": "Řádkování",
+                "radius": "Poloměr",
+                "resize_in": "Změna velikosti při vstupu",
+                "resize_out": "Změna velikosti při výstupu",
+                "rotate_in": "Rotace při vstupu",
+                "rotate_out": "Rotace při výstupu",
+                "scale_in": "Změna měřítka při vstupu",
+                "scale_out": "Změna měřítka při výstupu",
+                "slide_in": "Vjezd",
+                "slide_out": "Výjezd",
+                "spacing": "Rozestup",
+                "stroke": "Obrys"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Chcete-li pokračovat, přidejte svou fotku.",
+                    "gesture": {
+                        "frameDesktop": "Přetažením změníte polohu · Posunutím kolečka přiblížíte",
+                        "frameMobile": "Přetažením změníte polohu, stažením prstů přiblížíte",
+                        "handles": "Velikost měňte z rohů a stran, otáčejte shora",
+                        "move": "Přetažením přesunete",
+                        "moveOrHandles": "Přetažením přesunete, nebo použijte úchyty",
+                        "resize": "Přetažením rohu nebo strany změníte velikost",
+                        "rotate": "Přetažením horního úchytu otočíte",
+                        "rotateDesktop": "Přetáhněte pravítko nebo použijte klávesy se šipkami",
+                        "rotateMobile": "Přetažením pravítka otočíte"
+                    },
+                    "hint": {
+                        "pickDesktop": "Klikněte na označenou oblast nebo vyberte vrstvu vlevo",
+                        "pickMobile": "Klepněte na označenou oblast nebo vyberte vrstvu níže",
+                        "previewDesktop": "Náhled vašeho návrhu. Kliknutím na něj budete pokračovat v úpravách.",
+                        "previewMobile": "Náhled vašeho návrhu. Klepnutím na něj budete pokračovat v úpravách."
+                    },
+                    "layer": {
+                        "addPhoto": "Přidejte svou fotku",
+                        "text": "Text: {text}",
+                        "yourPhoto": "Vaše fotka",
+                        "yourText": "Váš text"
+                    },
+                    "layers": {
+                        "all": "Všechny vrstvy",
+                        "photo": "Fotka",
+                        "sheetDescription": "Vše v tomto návrhu, co můžete změnit.",
+                        "title": "Vrstvy"
+                    },
+                    "photoError": "Tuto fotku se nepodařilo použít. Zkuste jiný obrázek.",
+                    "preview": {
+                        "backToEditing": "Zpět k úpravám"
+                    },
+                    "rotation": {
+                        "aria": "Rotace",
+                        "value": "one:# stupeň|few:# stupně|other:# stupňů"
+                    },
+                    "tools": {
+                        "adjust": "Upravit",
+                        "aria": "Nástroje vrstvy",
+                        "editText": "Upravit text",
+                        "flip": "Překlopit",
+                        "locked": "Velikost a pozici nastavil tvůrce",
+                        "replace": "Nahradit",
+                        "textAria": "Nástroje textu",
+                        "zoomIn": "Přiblížit",
+                        "zoomOut": "Oddálit"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "Soubor {name} byl přidán na časovou osu.",
+                "too_big": "Soubor {name} přesahuje {limit}.",
+                "too_long": "Soubor {name} je delší než {minutes} min.",
+                "too_many": "Najednou lze přidat jen tolik souborů: {count}.",
+                "wrong_type": "Soubor {name} nelze přidat — pouze obrázky, videa a soubory SVG."
+            }
+        },
+        "catalogue": {
+            "error_body": "Zkontrolujte připojení a zkuste to znovu.",
+            "loading_more": "Načítání dalších"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Zahodit koncept",
+                "description_unsaved": "Tento návrh není uložen. Návrat zpět jej trvale smaže — včetně vrstev, stylů a animací.",
+                "title": "Zahodit koncept „{title}“?"
+            },
+            "save": {
+                "description": "Po uložení již nebude úprava možná.",
+                "saving": "Ukládání…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Přizpůsobit obrazovce"
+        },
+        "graphic_panel": {
+            "add": "Přidat: {name}",
+            "add_failed": "Tuto grafiku se nepodařilo přidat. Zkuste to znovu.",
+            "empty_body": "Zkuste kratší nebo obecnější slovo, například hvězda nebo srdce.",
+            "empty_title": "Žádné grafiky neodpovídají „{query}“",
+            "error_title": "Grafiky se nepodařilo načíst",
+            "none_title": "Žádné grafiky k zobrazení",
+            "search_label": "Hledat grafiky",
+            "search_placeholder": "Hledat grafiky"
+        },
+        "header": {
+            "redo": "Znovu",
+            "saving": "Ukládání…",
+            "undo": "Zpět",
+            "untitled_design": "Návrh bez názvu"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Místo pro fotku"
+            },
+            "menu": {
+                "align_center": "Na střed",
+                "bring_forward": "Posunout výše",
+                "bring_to_front": "Přesunout navrch",
+                "detach_image": "Odpojit obrázek",
+                "flip_horizontal": "Překlopit vodorovně",
+                "flip_vertical": "Překlopit svisle",
+                "replace_image": "Nahradit obrázek",
+                "send_backward": "Posunout níže",
+                "send_to_back": "Přesunout dospodu",
+                "set_as_background_image": "Nastavit jako obrázek na pozadí",
+                "set_as_background_video": "Nastavit jako video na pozadí",
+                "set_background_as_image_layer": "Nastavit pozadí jako vrstvu obrázku",
+                "set_background_as_video_layer": "Nastavit pozadí jako vrstvu videa",
+                "sheet_title": "Možnosti vrstvy",
+                "show_layers": "Zobrazit vrstvy"
+            },
+            "pill": {
+                "duplicate": "Duplikovat vrstvu",
+                "more": "Další akce vrstvy",
+                "remove": "Odstranit vrstvu",
+                "toolbar": "Akce vrstvy"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Párovací kód je připraven: {code}. Předejte jej svému AI klientovi.",
+                "connecting": "Vytváří se párovací kód.",
+                "failed": "Připojení se nezdařilo. {reason}",
+                "reconnecting": "Připojení se přerušilo. Zkouším se znovu připojit."
+            },
+            "clipboard_blocked": "Váš prohlížeč zablokoval schránku. {hint}",
+            "connect": "Připojit",
+            "connecting": "Připojování…",
+            "copied_address_announcement": "Adresa serveru zkopírována",
+            "copied_code_announcement": "Párovací kód zkopírován",
+            "copy_address_hint": "Vyberte adresu a zkopírujte ji ručně.",
+            "copy_code": "Kopírovat kód",
+            "copy_code_hint": "Vyberte kód a zkopírujte jej ručně.",
+            "copy_server_address": "Kopírovat adresu serveru MCP",
+            "disconnect": "Odpojit",
+            "error_fallback": "Služba párování neodpověděla. Zkontrolujte připojení a zkuste to znovu.",
+            "guide": {
+                "fresh_code": "Pokud kód přestane fungovat, klikněte na Odpojit a připojte se znovu pro nový kód.",
+                "how_to_set_up": "Jak to nastavit",
+                "step_add_body": "Přidejte Twibbonize do svého AI klienta pomocí níže uvedené adresy. V Claude Code spusťte",
+                "step_add_title": "Přidejte Twibbonize do svého AI klienta",
+                "step_pair_body": "Řekněte „spáruj s editorem Twibbonize“ a předejte mu kód výše.",
+                "step_pair_title": "Požádejte o spárování",
+                "where_to_paste": "Kam mám tento kód vložit?"
+            },
+            "lead": {
+                "code_ready_sentence": "Vložte jej do Claude a požádejte o spárování. Plátno kolem stránky vykreslí rámeček, dokud Claude pracuje.",
+                "code_ready_title": "Předejte tento kód svému AI klientovi",
+                "connecting_sentence": "Chvíli to potrvá.",
+                "connecting_title": "Vytváří se párovací kód",
+                "disconnected_sentence": "Claude Desktop a Claude Code mohou přidávat vrstvy, psát text, nastavovat animace a číst, co je na plátně.",
+                "disconnected_title": "Přiveďte AI klienta do tohoto návrhu",
+                "failed_title": "Připojení se nezdařilo",
+                "reconnecting_sentence": "Spojení s vaším AI klientem se přerušilo. Zkouším ho obnovit.",
+                "reconnecting_title": "Opětovné připojování",
+                "unavailable_sentence": "Tato verze editoru nemá nastavené AI připojení, takže se zatím není k čemu připojit.",
+                "unavailable_title": "MCP zde není zapnuto"
+            },
+            "pairing_code_label": "Párovací kód: {code}"
+        },
+        "media": {
+            "add_asset": "Přidat: {name}",
+            "dismiss_error": "Zavřít",
+            "empty_body": "Níže přidejte obrázek, video nebo zvukový soubor a zůstane zde po zbytek této relace.",
+            "empty_narrowed_body": "Vymažte hledání nebo vyberte jiný typ, aby se zobrazilo vše, co jste přidali.",
+            "empty_narrowed_title": "Nic nenalezeno",
+            "empty_title": "Zatím nic nenahráno",
+            "filter": {
+                "audio": "Zvuk",
+                "images": "Obrázky"
+            },
+            "filter_group_label": "Typ média",
+            "make_an_image": "Vytvořit obrázek",
+            "make_image_unavailable": "Generování obrázků zatím není k dispozici",
+            "search_placeholder": "Hledat média",
+            "upload_button": "Nahrát obrázek, video nebo zvuk",
+            "uploads_heading": "Nahrané"
+        },
+        "page_bar": {
+            "group_label": "Ovládání přiblížení",
+            "zoom_menu": "Úroveň přiblížení: {percent} %"
+        },
+        "panel": {
+            "loading": "Načítání: {panel}…"
+        },
+        "photo": {
+            "add_by": "Přidat fotku od autora {name}",
+            "add_described": "Přidat fotku: {description}",
+            "credit": "Fotky poskytuje",
+            "empty_body": "Zkuste kratší nebo obecnější slovo, například pláž nebo město.",
+            "empty_title": "Žádné fotky neodpovídají „{query}“",
+            "error_title": "Fotky se nepodařilo načíst",
+            "none_title": "Žádné fotky k zobrazení",
+            "search_label": "Hledat fotky",
+            "search_placeholder": "Hledat fotky"
+        },
+        "qr": {
+            "add_logo": "Přidat logo",
+            "add_to_design": "Přidat do návrhu",
+            "background_colour_label": "Barva pozadí",
+            "code_colour_label": "Barva kódu",
+            "code_label": "Kód",
+            "link_input_label": "Odkaz QR kódu",
+            "link_label": "Odkaz",
+            "logo_fallback_name": "Obrázek loga",
+            "logo_label": "Logo",
+            "remove_logo": "Odstranit logo"
+        },
+        "rail": {
+            "aria_label": "Knihovny návrhu",
+            "graphic": "Grafiky",
+            "help": "Nápověda",
+            "layers": "Vrstvy",
+            "mcp": "MCP",
+            "media": "Média",
+            "photo": "Fotky",
+            "qr_code": "QR kód",
+            "shapes": "Tvary",
+            "templates": "Šablony",
+            "textures": "Textury",
+            "tools": "Nástroje"
+        },
+        "save": {
+            "failed": "Návrh se nepodařilo uložit. Zkuste to znovu."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Jas",
+                "compare": "Porovnat s originálem",
+                "contrast": "Kontrast",
+                "grayscale": "Odstíny šedi",
+                "group": {
+                    "basic": "Základní",
+                    "refinements": "Doladění"
+                },
+                "hue_rotate": "Posun odstínu",
+                "reset": "Obnovit úpravy",
+                "saturation": "Sytost",
+                "title": "Úpravy"
+            },
+            "color": {
+                "trigger": "Barva"
+            },
+            "common": {
+                "layer_blur": "Rozmazání vrstvy",
+                "layer_blur_stepper": "Rozmazání vrstvy"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Volný tvar",
+                    "landscape": "Na šířku",
+                    "original": "Originál",
+                    "portrait": "Na výšku",
+                    "square": "Čtverec",
+                    "story": "Příběh",
+                    "widescreen": "Širokoúhlé"
+                },
+                "shape": {
+                    "circle": "Kruh",
+                    "diamond": "Kosočtverec",
+                    "half_circle": "Půlkruh",
+                    "oval": "Ovál",
+                    "parallelogram": "Rovnoběžník",
+                    "rounded": "Zaoblené"
+                }
+            },
+            "filter": {
+                "cool": "Studené",
+                "duotone": "Duotone",
+                "mono": "Mono",
+                "original": "Originál",
+                "vivid": "Živé",
+                "warm": "Teplé"
+            },
+            "font_weight": {
+                "black": "Black",
+                "extra_bold": "ExtraBold",
+                "extra_light": "ExtraLight",
+                "medium": "Medium",
+                "regular": "Regular",
+                "semibold": "SemiBold",
+                "thin": "Thin"
+            },
+            "frame": {
+                "colour": "Barva rámu"
+            },
+            "green_screen": {
+                "choose_colour": "Vyberte barvu",
+                "colour": "Barva",
+                "compare": "Porovnat s originálem",
+                "eyedropper": "Vybrat barvu z plátna",
+                "key_colour": "Klíčová barva {hex}",
+                "loose": "Volně",
+                "nothing_found": "Nenalezena žádná barva pozadí.",
+                "precise": "Přesně",
+                "preset": {
+                    "bright_blue": "Jasně modrá",
+                    "bright_green": "Jasně zelená",
+                    "chroma_blue": "Modrá chroma",
+                    "chroma_green": "Zelená chroma"
+                },
+                "presets": "Běžné barvy pozadí",
+                "remove": "Odstranit zelené pozadí",
+                "title": "Zelené pozadí"
+            },
+            "image": {
+                "corner_radius": "Poloměr rohů",
+                "corner_radius_stepper": "Poloměr rohů",
+                "per_corner": "Upravit jednotlivé rohy",
+                "per_corner_unavailable": "Úprava jednotlivých rohů zatím není k dispozici"
+            },
+            "keypad": {
+                "value_field": "Hodnota: {label}"
+            },
+            "line": {
+                "colour": "Barva čáry",
+                "style": {
+                    "dots": "Tečky",
+                    "long_dashes": "Dlouhé čárky",
+                    "short_dashes": "Krátké čárky",
+                    "solid": "Plná"
+                },
+                "style_trigger": "Styl čáry: {style}",
+                "weight": "Tloušťka čáry",
+                "weight_trigger": "Tloušťka čáry {weight}"
+            },
+            "media": {
+                "heading": "Média"
+            },
+            "page": {
+                "size_capped": "Max. {max} px — poměr zachován"
+            },
+            "pages": {
+                "title": "Stránky"
+            },
+            "photo_slot": {
+                "enable": "Použít jako místo pro fotku",
+                "key_field": "Klíč (jedinečný)",
+                "key_required": "Klíč je povinný",
+                "key_taken": "Klíč už používá jiné místo",
+                "label_field": "Popisek (zobrazuje se koncovému uživateli)",
+                "on": "Místo pro fotku",
+                "remove": "Odstranit místo pro fotku"
+            },
+            "qr": {
+                "add_logo": "Přidat logo",
+                "background_colour": "Barva pozadí",
+                "code": "Kód",
+                "code_colour": "Barva kódu",
+                "link": "Odkaz",
+                "link_input": "Odkaz QR kódu",
+                "logo": "Logo",
+                "remove_logo": "Odstranit logo"
+            },
+            "root": {
+                "background_image": "Obrázek na pozadí",
+                "edit_background": "Upravit obrázek na pozadí",
+                "fill": "Výplň",
+                "fill_gradient": "Přechod",
+                "page_height": "Výška stránky",
+                "page_width": "Šířka stránky",
+                "ratio_lock": "Zamknout poměr stran",
+                "ratio_unlock": "Odemknout poměr stran",
+                "rotate_left": "Otočit pozadí doleva",
+                "rotate_right": "Otočit pozadí doprava"
+            },
+            "scalar": {
+                "clip_length": "Délka",
+                "corner_radius": "Poloměr rohů",
+                "font_size": "Velikost písma",
+                "layer_blur": "Rozmazání vrstvy",
+                "letter_spacing": "Rozestup písmen",
+                "line_height": "Řádkování",
+                "opacity": "Průhlednost",
+                "speed": "Rychlost",
+                "stroke_width": "Šířka obrysu",
+                "volume": "Hlasitost"
+            },
+            "shape": {
+                "corner_radius": "Poloměr rohů",
+                "corner_radius_stepper": "Poloměr rohů",
+                "fill": "Výplň",
+                "fill_gradient": "Přechod",
+                "fill_mixed": "Smíšené",
+                "fill_transparent": "Průhledná",
+                "stroke": "Obrys",
+                "stroke_color": "Barva obrysu",
+                "stroke_style": {
+                    "dots": "Tečky",
+                    "long_dashes": "Dlouhé čárky",
+                    "short_dashes": "Krátké čárky",
+                    "solid": "Plný"
+                },
+                "stroke_style_select": "Styl obrysu",
+                "stroke_transparent": "Průhledný",
+                "stroke_weight": "Tloušťka obrysu"
+            },
+            "svg": {
+                "path_colour": "Barva {index}"
+            },
+            "swatch": {
+                "more_colours": "Další barvy"
+            },
+            "text": {
+                "align": {
+                    "justify": "Do bloku"
+                },
+                "alignment": "Zarovnání",
+                "edit_text": "Upravit text",
+                "font_family": "Písmo",
+                "font_family_select": "Písmo",
+                "font_size": "Velikost písma",
+                "italic_unavailable": "Toto písmo nemá v této tloušťce kurzívu",
+                "letter_spacing_stepper": "Rozestup písmen",
+                "line_height": "Řádkování",
+                "line_height_stepper": "Řádkování",
+                "list": "Seznam",
+                "list_bulleted": "Odrážkový seznam",
+                "list_numbered": "Číslovaný seznam",
+                "list_style": "Styl seznamu",
+                "text_case": "Velikost písmen",
+                "text_color": "Barva textu",
+                "text_style": "Styl textu",
+                "weight": "Tloušťka"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Zarovnat dolů",
+                    "center_x": "Zarovnat na vodorovný střed",
+                    "center_y": "Zarovnat na svislý střed",
+                    "left": "Zarovnat doleva",
+                    "right": "Zarovnat doprava",
+                    "top": "Zarovnat nahoru"
+                },
+                "align_to_page": "Zarovnat na stránku",
+                "opacity": "Průhlednost",
+                "position": "Pozice",
+                "position_x": "Pozice X",
+                "position_y": "Pozice Y",
+                "rotation": "Rotace",
+                "scale": "Měřítko"
+            },
+            "video": {
+                "adjust": "Upravit",
+                "audio": "Zvuk",
+                "clip_runs": "Klip trvá {length}",
+                "corner_radius": "Poloměr rohů",
+                "corner_radius_stepper": "Poloměr rohů",
+                "green_screen": "Zelené pozadí",
+                "loop": "Opakovat do konce návrhu",
+                "mute": "Ztlumit",
+                "muted": "Ztlumeno",
+                "no_audio": "Toto video nemá zvuk.",
+                "playback": "Přehrávání",
+                "replace": "Nahradit video",
+                "speed": "Rychlost",
+                "speed_custom_input": "Vlastní rychlost přehrávání",
+                "speed_presets": "Rychlost přehrávání",
+                "speed_range": "Od {min}× do {max}×",
+                "tools": "Nástroje",
+                "unmute": "Zrušit ztlumení",
+                "volume": "Hlasitost",
+                "volume_level": "Úroveň hlasitosti"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Šipka",
+            "arrow_down": "Šipka dolů",
+            "arrow_left": "Šipka doleva",
+            "arrow_pentagon": "Pětiúhelníková šipka",
+            "arrow_right": "Šipka doprava",
+            "arrow_up": "Šipka nahoru",
+            "chevron": "Chevron",
+            "circle": "Kruh",
+            "cross": "Kříž",
+            "diamond": "Kosočtverec",
+            "hexagon": "Šestiúhelník",
+            "hexagon_wide": "Široký šestiúhelník",
+            "line": "Čára",
+            "octagon": "Osmiúhelník",
+            "parallelogram": "Rovnoběžník",
+            "parallelogram_mirrored": "Zrcadlený rovnoběžník",
+            "pentagon": "Pětiúhelník",
+            "square": "Čtverec",
+            "trapezoid": "Lichoběžník",
+            "trapezoid_upside_down": "Obrácený lichoběžník",
+            "triangle": "Trojúhelník",
+            "triangle_upside_down": "Obrácený trojúhelník"
+        },
+        "shapes_panel": {
+            "basic": "Základní",
+            "lines": "Čáry a šipky"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Přidat klíčový snímek",
+                "back_to_animations": "Zpět na animace",
+                "basic": "Základní",
+                "basic_opacity": "Průhlednost",
+                "basic_position": "Pozice",
+                "basic_rotation": "Rotace",
+                "basic_scale": "Měřítko",
+                "keyframe": "Klíčový snímek",
+                "pick_property_hint": "Vyberte vlastnost pro klíčový snímek. Klepnutím se panel zavře a otevře se její nastavení, přičemž klíčový snímek bude umístěn na ukazateli přehrávání s aktuální hodnotou vrstvy.",
+                "presets_need_one": "Předvolby animací vyžadují jeden prvek. Vyberte jednu vrstvu, aby se zobrazily.",
+                "title": "Animovat"
+            },
+            "easing": {
+                "title": "Zjemnění"
+            },
+            "font_weight": {
+                "title": "Tloušťka písma"
+            },
+            "speed": {
+                "title": "Rychlost"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Výchozí barvy",
+                "eyedropper": "Vybrat barvu z obrazovky",
+                "eyedropper_unsupported": "Váš prohlížeč nepodporuje kapátko",
+                "fill_linear": "lineární",
+                "fill_radial": "radiální",
+                "fill_solid": "plná",
+                "fill_type": "Typ výplně",
+                "gradients_in_design": "Přechody v návrhu",
+                "hex": "Barva hex",
+                "in_design": "V návrhu",
+                "title": "Barva výplně",
+                "use_color": "Použít: {color}",
+                "use_gradient": "Použít přechod: {style}",
+                "use_transparent": "Průhledná"
+            },
+            "crop": {
+                "adjust_shape": "Upravit tvar ořezu",
+                "aspect": "Poměr stran",
+                "framing": "Kompozice",
+                "framing_hint": "Přetažením fotky změníte výřez, přetažením rohu změníte velikost okna ořezu. Posunutím kolečka přiblížíte.",
+                "scale": "Měřítko"
+            },
+            "filters": {
+                "show_earlier": "Zobrazit dřívější filtry",
+                "show_more": "Zobrazit další filtry",
+                "swatch": "{label}, barva: {color}",
+                "title": "Filtry"
+            },
+            "font": {
+                "all_fonts": "VŠECHNA PÍSMA",
+                "applying": "Použití písma",
+                "back": "Zpět na možnosti textu",
+                "clear_search": "Vymazat hledání",
+                "clear_search_action": "Vymazat hledání",
+                "in_this_design": "V TOMTO NÁVRHU",
+                "no_match": "Žádná písma neodpovídají „{query}“",
+                "no_match_hint": "Twibbonize čerpá z katalogu Google Fonts a tato rodina v něm není. Zkuste kratší hledaný výraz.",
+                "search_label": "Hledat rodiny písem",
+                "search_placeholder": "Hledat písma",
+                "title": "Písmo",
+                "weight": "Tloušťka písma"
+            },
+            "gradient": {
+                "add_stop": "Přidat zarážku přechodu",
+                "angle": "Úhel",
+                "angle_dial": "Úhel přechodu: {degrees} stupňů. Přetažením změníte",
+                "angle_dial_hint": "Přetažením změníte úhel přechodu",
+                "angle_input": "Úhel přechodu ve stupních",
+                "centre_unsupported": "Střed přechodu zatím není vykreslovačem podporován",
+                "stop": "Zarážka přechodu {index} na {percent} %, {color}",
+                "stop_hint": "Přetažením přesunete, dvojitým kliknutím odstraníte"
+            },
+            "image": {
+                "adjustment": "Úprava",
+                "adjustments": "Úpravy",
+                "back_to_edit": "Zpět na kartu Úpravy",
+                "background_removal": "Odstranění pozadí",
+                "compare": "Porovnat s originálem",
+                "removing": "Odstraňování…",
+                "removing_background": "Odstraňování pozadí",
+                "reset_adjustments": "Obnovit úpravy",
+                "tools": "Nástroje"
+            },
+            "keyframe": {
+                "add": "Přidat klíčový snímek",
+                "add_at_playhead": "Přidat klíčový snímek ({property}) na ukazatel přehrávání",
+                "add_at_playhead_short": "Přidat klíčový snímek na ukazatel přehrávání",
+                "add_lane_at_playhead": "Přidat klíčový snímek ({lane}) na ukazatel přehrávání",
+                "add_property": "Přidat vlastnost k animaci",
+                "all_lanes_added": "Každá vlastnost, kterou lze u této vrstvy animovat, už má dráhu",
+                "delete": "Smazat tento klíčový snímek",
+                "diamond": "Klíčový snímek ({lane}) v {seconds} s",
+                "easing": "Zjemnění",
+                "easing_caps": "ZJEMNĚNÍ",
+                "first_no_easing": "První klíčový snímek nemá zjemnění",
+                "hex": "Barva hex",
+                "layer_blur": "Rozmazání vrstvy",
+                "letter_spacing": "Rozestup písmen",
+                "line_height": "Řádkování",
+                "opacity": "Průhlednost",
+                "opacity_percent": "Průhlednost v procentech",
+                "position_x": "Pozice X",
+                "position_y": "Pozice Y",
+                "radius_bottom_left": "Poloměr levého dolního rohu",
+                "radius_bottom_right": "Poloměr pravého dolního rohu",
+                "radius_top_left": "Poloměr levého horního rohu",
+                "radius_top_right": "Poloměr pravého horního rohu",
+                "remove": "Odstranit klíčový snímek",
+                "remove_at_playhead": "Odstranit klíčový snímek ({property}) z ukazatele přehrávání",
+                "rotation": "Rotace",
+                "scale": "Měřítko",
+                "shadow_blur": "Rozmazání stínu",
+                "shadow_color": "Barva stínu",
+                "shadow_offset_x": "Posun stínu X",
+                "shadow_offset_y": "Posun stínu Y",
+                "shadow_spread": "Rozptyl stínu",
+                "stroke_color": "Barva obrysu",
+                "stroke_weight": "Tloušťka obrysu"
+            },
+            "layer": {
+                "page_background": "Pozadí stránky",
+                "tab_animate": "Animovat",
+                "tabs_label": "Panel vrstev",
+                "title": "Vrstvy"
+            },
+            "page_preset": {
+                "group_label": "Předvolby velikosti plátna",
+                "landscape": "Na šířku",
+                "portrait": "Na výšku",
+                "square": "Čtverec",
+                "story": "Příběh",
+                "tile_aria": "{name}, {width} × {height} pixelů"
+            },
+            "personalization": {
+                "act_as_placeholder": "Fungovat jako zástupný prvek",
+                "allow_adjust_framing": "Povolit úpravu výřezu",
+                "allow_adjust_framing_hint": "Podporovatelé mohou svou fotku v rámu přibližovat a posouvat.",
+                "allow_change_adjustments": "Povolit změnu úprav",
+                "allow_change_adjustments_hint": "Podporovatelé mohou měnit jas, kontrast a další úpravy.",
+                "allow_change_effect": "Povolit změnu efektu",
+                "allow_change_effect_hint": "Podporovatelé mohou pro tuto vrstvu zvolit jiný efekt.",
+                "allow_change_filter": "Povolit změnu filtru",
+                "allow_change_filter_hint": "Podporovatelé mohou pro tuto vrstvu zvolit jiný filtr.",
+                "allow_edit_text": "Povolit úpravu textu",
+                "allow_edit_text_hint": "Podporovatelé mohou do tohoto textu napsat vlastní slova.",
+                "allow_flip": "Povolit překlopení",
+                "allow_flip_hint": "Podporovatelé mohou tuto vrstvu zrcadlově překlopit.",
+                "allow_move": "Povolit přesun",
+                "allow_move_hint": "Podporovatelé mohou tuto vrstvu přetáhnout na nové místo.",
+                "allow_replace_media": "Povolit výměnu média",
+                "allow_replace_media_hint": "Podporovatelé mohou tento obrázek nahradit vlastní fotkou.",
+                "allow_resize": "Povolit změnu velikosti",
+                "allow_resize_hint": "Podporovatelé mohou měnit velikost této vrstvy přetažením jejích rohů a stran.",
+                "allow_rotate": "Povolit otáčení",
+                "allow_rotate_hint": "Podporovatelé mohou tuto vrstvu otočit do libovolného úhlu.",
+                "group_appearance": "Vzhled",
+                "group_arrange": "Uspořádání",
+                "group_media": "Média",
+                "placeholder_hint": "Zobrazí prázdné místo, na které mohou podporovatelé klepnout a přidat svou fotku.",
+                "remove_background": "Odstranit pozadí z jejich fotky",
+                "remove_background_hint": "Vystřihne podporovatele z jeho fotky, aby se kolem něj zobrazil váš návrh.",
+                "text_placeholder_hint": "Zobrazí tento text jako ukázku, kterou podporovatelé nahradí vlastním."
+            },
+            "shape_effect": {
+                "colour": "Barva efektu",
+                "distance": "Vzdálenost",
+                "echo": "Echo",
+                "first_color": "První barva",
+                "first_colour": "První barva efektu",
+                "glitch": "Glitch",
+                "glow": "Záře",
+                "group_label": "Efekt tvaru",
+                "second_color": "Druhá barva",
+                "second_colour": "Druhá barva efektu",
+                "section": "Efekt",
+                "shadow": "Vržený stín"
+            },
+            "text_effect": {
+                "colour": "Barva efektu",
+                "curve": "Zakřivení",
+                "distance": "Vzdálenost",
+                "echo": "Echo",
+                "glow": "Záře",
+                "group_label": "Efekt textu",
+                "outline": "Obrys",
+                "section": "Efekt",
+                "shape_group_label": "Tvar textu",
+                "splice": "Střih",
+                "title": "Efekty textu"
+            }
+        },
+        "templates": {
+            "empty_body": "Zkuste kratší nebo obecnější slovo.",
+            "empty_title": "Žádné šablony neodpovídají „{query}“",
+            "error_title": "Šablony se nepodařilo načíst",
+            "none_body": "Vyhledejte téma, například narozeniny nebo promoce.",
+            "none_title": "Pro tento návrh zatím nejsou žádné šablony",
+            "search_label": "Hledat šablony",
+            "search_placeholder": "Hledat šablony"
+        },
+        "text_panel": {
+            "add_template": "Přidat šablonu textu: {name}",
+            "add_text_box": "Přidat textové pole",
+            "empty_body": "Zkuste kratší nebo obecnější slovo.",
+            "empty_title": "Žádné šablony textu neodpovídají „{query}“",
+            "error_title": "Šablony textu se nepodařilo načíst",
+            "none_body": "Začněte raději obyčejným textovým polem.",
+            "none_title": "Žádné šablony textu k zobrazení",
+            "search_label": "Hledat šablony textu",
+            "search_placeholder": "Hledat šablony textu"
+        },
+        "text_preset": {
+            "seed": "Sem přidejte svůj text"
+        },
+        "textures": {
+            "apply_texture": "Použít: {name}",
+            "category": {
+                "fabric": "Látka",
+                "grain": "Zrno",
+                "grunge": "Grunge",
+                "paper": "Papír",
+                "print": "Tisk"
+            },
+            "category_group_label": "Kategorie textur",
+            "empty_body": "Tuto knihovnu budujeme — brzy se sem vraťte.",
+            "empty_title": "Textury tu zatím nejsou",
+            "most_used": "Nejpoužívanější",
+            "search_placeholder": "Hledat textury"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Přidat zvuk",
+                "add_tooltip": "Přidat zvukovou stopu na pozadí",
+                "bar_aria": "{name} od {start}, délka {duration}",
+                "decoding": "Dekódování zvuku…",
+                "decoding_waveform": "Dekódování průběhu vlny…",
+                "default_name": "Zvuk",
+                "drop_to_add": "Pustením přidáte zvuk",
+                "kind_suffix": "· Zvuk",
+                "mute": "Ztlumit stopu",
+                "unmute": "Zrušit ztlumení stopy",
+                "volume": "Hlasitost stopy",
+                "waveform_error": "Průběh vlny této stopy se nepodařilo načíst."
+            },
+            "keyframe": {
+                "add": "Přidat klíčový snímek",
+                "add_at_playhead": "Přidat klíčový snímek na ukazatel přehrávání",
+                "add_tooltip": "Přidat klíčový snímek pro vlastnost této vrstvy",
+                "diamond_aria": "Klíčový snímek ({lane}) v {time}",
+                "diamond_hint": " · přetažením změníte čas, kliknutím pravým tlačítkem smažete",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Poloměr rohů",
+                    "layer_blur": "Rozmazání vrstvy",
+                    "line_height": "Řádkování",
+                    "opacity": "Průhlednost",
+                    "position": "Pozice",
+                    "rotation": "Rotace",
+                    "scale": "Měřítko",
+                    "stroke": "Obrys"
+                },
+                "remove_lane": "Odstranit klíčové snímky ({lane})",
+                "remove_lane_from_layer": "Odstranit klíčové snímky ({lane}) z vrstvy {layer}",
+                "segment_easing_aria": "Časovací funkce ({lane}) mezi {from} a {to}, aktuálně {easing}",
+                "segment_easing_title": "Časovací funkce · {easing}",
+                "welded_aria": ", přichyceno k okraji vrstvy",
+                "welded_title": " · přichyceno k okraji vrstvy"
+            },
+            "menu": {
+                "repeat_until_end": "Opakovat do konce"
+            },
+            "track": {
+                "bar_aria": "{name} od {start}, délka {duration}",
+                "bar_aria_end_glued": ", konec přichycen k vrstvě",
+                "bar_aria_start_glued": ", začátek přichycen k vrstvě",
+                "bar_tooltip": "{name} · {start}, {duration} ms · přetažením přesunete, přetažením okraje změníte velikost (Alt = bez přichycení)",
+                "bar_tooltip_sole": " · přetažením tohoto okraje se přesune vrstva",
+                "clip_aria": "Klip {name}",
+                "clip_tooltip": "Přetažením posunete vrstvu v čase · přetažením konce oříznete (Alt = bez přichycení)",
+                "collapse": "Sbalit",
+                "collapse_all": "Sbalit všechny vrstvy",
+                "collapse_named": "Sbalit: {name}",
+                "delete_layer": "Smazat vrstvu",
+                "delete_named": "Smazat: {name}",
+                "ends_at": "Končí v",
+                "expand": "Rozbalit",
+                "expand_named": "Rozbalit: {name}",
+                "hidden_lane_one": "{count} skrytá dráha",
+                "hidden_lane_other": "Skryté dráhy: {count}",
+                "hide": "Skrýt",
+                "hide_named": "Skrýt: {name}",
+                "lane_reorder_tooltip": "Přetažením změníte pořadí — vyšší dráha má přednost tam, kde se animace překrývají",
+                "layer_animations": "Animace vrstvy",
+                "lock_layer": "Zamknout vrstvu",
+                "lock_named": "Zamknout: {name}",
+                "remove_animation": "Odstranit animaci",
+                "remove_animation_aria": "Odstranit animaci {name} z vrstvy {layer}",
+                "reorder_tooltip": "Přetažením změníte pořadí stop — pořadí na plátně se nastavuje v panelu vrstev",
+                "show": "Zobrazit",
+                "show_named": "Zobrazit: {name}",
+                "split": "Rozdělit",
+                "starts_at": "Začíná v",
+                "trim_end": "Oříznout konec",
+                "trim_start": "Oříznout začátek",
+                "trim_to": "Oříznout na {time}",
+                "unlock_layer": "Odemknout vrstvu",
+                "unlock_named": "Odemknout: {name}"
+            },
+            "transport": {
+                "current_time_field": "Aktuální čas v milisekundách",
+                "duration_edge_aria": "Délka stránky {seconds} sekund",
+                "duration_edge_tooltip": "Délka stránky {seconds} s · přetažením změníte, kliknutím zadáte přesnou hodnotu (Alt = bez přichycení)",
+                "duration_max": "Maximálně {seconds} s",
+                "fit_to_width": "Přizpůsobit šířce",
+                "forward": "Vpřed",
+                "lengthen_page": "Prodloužit stránku",
+                "loop": "Přehrávání ve smyčce",
+                "page_duration": "Délka stránky",
+                "page_duration_field": "Délka stránky v milisekundách",
+                "resize_dock": "Změnit velikost časové osy",
+                "rewind": "Přetočit zpět",
+                "shorten_page": "Zkrátit stránku",
+                "zoom": "Přiblížení časové osy"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "Příliš mnoho požadavků",
             "CN-4003": "Neplatná adresa URL",
             "C-4090": "Váš odkaz na kampaň je již používán. Zkuste jiný.",
+            "C-4094": "Kampaň už je v koši",
+            "C-4095": "Kampaň není v koši",
             "SUB-403": "Odesílání je zakázáno nastavením kampaně",
             "A-40091": "Použijte prosím e-mail své školy nebo univerzity",
             "PB-4011": "Tento odkaz je neplatný nebo jeho platnost vypršela",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "Přejděte dolů a vyberte si rámeček",
         "editor_single": "Přejděte dolů a upravte svou fotku",
         "editor_multiple": "Přejděte dolů a upravujte a přepínejte rámečky"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "Obnovování kampaní…"
+        }
     }
 }

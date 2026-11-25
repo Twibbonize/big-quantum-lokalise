@@ -2842,7 +2842,9 @@
             "type": "Друкуй:",
             "size": "Розмір:",
             "type_image": "JPG, PNG або SVG",
-            "maximum_size": "Максимум 5 МБ"
+            "maximum_size": "Максимум 5 МБ",
+            "abandoned": "Завантаження зупинено, бо шар видалили. Повторіть, щоб зберегти це у вашій бібліотеці.",
+            "failed": "Не вдалося завантажити. Перевірте з’єднання та спробуйте ще раз."
         },
         "toolbar": {
             "copy": "Зрозумів.",
@@ -2871,7 +2873,119 @@
             "border_weight": "Вага кордону",
             "corner_rounding": "Заокруглення кутів",
             "align": "Вирівняти",
-            "effects": "Ефекти"
+            "effects": "Ефекти",
+            "animate": {
+                "amount": "Кількість",
+                "angle": "Кут",
+                "close": "Закрити налаштування анімації",
+                "delete_animation": "Видалити анімацію",
+                "distance": "Відстань",
+                "easing": "Плавність",
+                "fade": "Згасання",
+                "settings_aria": "Налаштування анімації"
+            },
+            "audio": {
+                "replace": "Замінити",
+                "tools_aria": "Інструменти аудіодоріжки",
+                "trim": "Обрізати",
+                "volume": "Гучність"
+            },
+            "clip": {
+                "length": "Тривалість",
+                "split": "Розділити",
+                "trim": "Обрізати"
+            },
+            "entry": {
+                "animate": "Анімувати"
+            },
+            "image": {
+                "adjust": "Коригувати",
+                "background_removal_unavailable": "Видалення фону поки що недоступне",
+                "remove_background": "Видалити фон",
+                "remove_background_short": "Вирізати",
+                "replace": "Замінити"
+            },
+            "keyframe": {
+                "blur": "Розмиття шару",
+                "close": "Закрити властивості ключового кадру",
+                "delete_keyframe": "Видалити ключовий кадр",
+                "letter_spacing": "Інтервал",
+                "line_height": "Висота рядка",
+                "opacity": "Непрозорість",
+                "position": "Позиція",
+                "properties_aria": "Властивості ключового кадру",
+                "rotation": "Обертання",
+                "scale": "Масштаб"
+            },
+            "layer_tools": {
+                "deselect": "Скасувати вибір шару",
+                "tools_aria": "Інструменти шару"
+            },
+            "media": {
+                "adjust": "Коригувати",
+                "green_screen": "Зелений екран",
+                "replace": "Замінити",
+                "trim": "Обрізати"
+            },
+            "misc": {
+                "background_fill": "Заливка фону",
+                "background_fill_short": "Заливка",
+                "configure_qr": "Налаштувати QR-код",
+                "edit_background_image": "Редагувати фонове зображення",
+                "no_background_image": "Фонового зображення ще немає",
+                "replace_unavailable": "Замінити (поки що недоступно)"
+            },
+            "opacity": {
+                "label": "Непрозорість"
+            },
+            "shape": {
+                "corner_radius": "Радіус кутів",
+                "corner_radius_short": "Радіус",
+                "fill": "Заливка",
+                "line_color": "Колір лінії",
+                "line_style_dots": "Крапки",
+                "line_style_long_dashes": "Довгі штрихи",
+                "line_style_named": "Стиль лінії: {style}",
+                "line_style_short_dashes": "Короткі штрихи",
+                "line_style_solid": "Суцільна",
+                "line_weight": "Товщина лінії",
+                "stroke_color": "Колір контуру",
+                "stroke_color_short": "Контур",
+                "stroke_weight": "Товщина контуру",
+                "stroke_weight_short": "Товщина"
+            },
+            "speed": {
+                "custom_input": "Власна швидкість відтворення",
+                "label": "Швидкість",
+                "playback_length": "Тривалість відтворення",
+                "playback_speed": "Швидкість відтворення",
+                "range_hint": "Від {min}× до {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Зменшити розмір шрифту",
+                "font_family": "Шрифт",
+                "font_family_named": "Шрифт: {value}",
+                "font_size": "Розмір шрифту",
+                "font_weight": "Насиченість шрифту",
+                "font_weight_named": "Насиченість шрифту: {value}",
+                "increase_font_size": "Збільшити розмір шрифту",
+                "keyboard": "Клавіатура",
+                "line_height": "Висота рядка",
+                "spacing": "Інтервал",
+                "text_color": "Колір тексту",
+                "weight": "Насиченість"
+            },
+            "volume": {
+                "clip_hint": "Лише для цього кліпу. Аудіо на часовій шкалі зберігає власний рівень.",
+                "label": "Гучність",
+                "level": "Рівень",
+                "mute": "Вимкнути звук",
+                "muted": "Звук вимкнено",
+                "muted_hint": "Рівень збережено. Увімкніть звук, і кліп повернеться до {percent}%.",
+                "no_audio": "У цьому відео немає звуку.",
+                "slider": "Рівень гучності",
+                "unmute": "Увімкнути звук"
+            }
         },
         "confirmation": {
             "cancel": "Викинути",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Кольори документів",
             "default_colors": "Кольори за замовчуванням"
         },
-        "graphic": "Графіка"
+        "graphic": "Графіка",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Знизу по центру",
+                "bottom_left": "Знизу ліворуч",
+                "bottom_right": "Знизу праворуч",
+                "center_left": "Ліворуч по центру",
+                "center_right": "Праворуч по центру",
+                "top_center": "Зверху по центру",
+                "top_left": "Зверху ліворуч",
+                "top_right": "Зверху праворуч"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Кінець",
+                "more_options": "Більше опцій"
+            },
+            "direction": {
+                "bottom_left": "Знизу ліворуч",
+                "bottom_right": "Знизу праворуч",
+                "clockwise": "За годинниковою стрілкою",
+                "counter_clockwise": "Проти годинникової стрілки",
+                "from_the": "Із позиції: {place}",
+                "to_the": "До позиції: {place}",
+                "top_left": "Зверху ліворуч",
+                "top_right": "Зверху праворуч"
+            },
+            "easing": {
+                "accelerate": "Прискорення",
+                "bounce": "Відскок",
+                "elastic": "Пружність",
+                "impulse": "Імпульс",
+                "natural": "Природна",
+                "overshoot": "Перебір",
+                "slow_down": "Сповільнення",
+                "smooth": "Плавна",
+                "swing": "Розмах"
+            },
+            "field": {
+                "amount": "Кількість",
+                "anchor_group": "Точка прив’язки",
+                "anchor_point": "Точка прив’язки",
+                "angle": "Кут",
+                "apply_effect_to": "Застосувати ефект до",
+                "axis": "Вісь",
+                "choose_easing": "Виберіть плавність",
+                "distance": "Відстань",
+                "duration": "Тривалість",
+                "edge": "Край",
+                "fade": "Згасання",
+                "from_noun": "Від: {noun}",
+                "horizontal": "По горизонталі",
+                "noun_blur": "розмиття",
+                "noun_opacity": "непрозорість",
+                "noun_size": "розмір",
+                "opacity": "Непрозорість",
+                "order": "Порядок",
+                "position": "Позиція",
+                "rotation": "Обертання",
+                "rotation_direction": "Напрямок обертання",
+                "scale": "Масштаб",
+                "smoothing": "Згладжування",
+                "to_noun": "До: {noun}",
+                "vertical": "По вертикалі"
+            },
+            "mode": {
+                "arrives": "Поява",
+                "departs": "Зникнення",
+                "in": "Вхід",
+                "out": "Вихід"
+            },
+            "panel": {
+                "animation": "Анімація",
+                "animations_tab": "Анімації",
+                "basic": "Основні",
+                "changing_note": "Виберіть заміну. Вона займе місце й тривалість анімації, яку ви змінюєте.",
+                "corner_radius": "Радіус кутів",
+                "easing": "Плавність",
+                "fade": "Згасання",
+                "keyframe_tab": "Ключовий кадр",
+                "layer_blur": "Розмиття шару",
+                "line_height": "Висота рядка",
+                "more_options": "Більше опцій",
+                "motion": "Рух",
+                "needs_one_element": "Пресети анімації потребують одного елемента. Виберіть один шар, щоб їх побачити.",
+                "paste_animation": "Вставити анімацію",
+                "scale": "Масштаб",
+                "slide": "Зсув",
+                "stroke": "Контур",
+                "text_animation": "Анімація тексту"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Поява",
+                    "label": "Поява"
+                },
+                "blur": {
+                    "label": "Поява з розмиттям"
+                },
+                "blur_scale": {
+                    "caption": "Розмиття й масштаб",
+                    "label": "Поява з розмиттям і масштабом"
+                },
+                "blur_slide": {
+                    "caption": "Розмиття й зсув",
+                    "label": "Поява з розмиттям і зсувом"
+                },
+                "fade": {
+                    "caption": "Згасання",
+                    "label": "Згасання"
+                },
+                "grow": {
+                    "caption": "Виринання",
+                    "label": "Виринання"
+                },
+                "mask_center": {
+                    "caption": "Маска від центру",
+                    "label": "Розкриття маски від центру"
+                },
+                "mask_reveal": {
+                    "caption": "Розкриття маски",
+                    "label": "Розкриття маски від краю"
+                },
+                "mask_slide": {
+                    "caption": "Маска й зсув",
+                    "label": "Розкриття маски зі зсувом"
+                },
+                "move_scale": {
+                    "caption": "Рух і масштаб",
+                    "label": "Поява з рухом і масштабом"
+                },
+                "rotate_left": {
+                    "label": "Обертання зліва"
+                },
+                "rotate_right": {
+                    "label": "Обертання справа"
+                },
+                "shrink": {
+                    "caption": "Збільшення",
+                    "label": "Поява зі збільшенням"
+                },
+                "slide": {
+                    "caption": "Зсув",
+                    "label": "Поява зі зсувом"
+                },
+                "slide_from_bottom": {
+                    "label": "Зсув знизу"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Знизу ліворуч",
+                    "label": "Зсув знизу ліворуч"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Знизу праворуч",
+                    "label": "Зсув знизу праворуч"
+                },
+                "slide_from_left": {
+                    "label": "Зсув зліва"
+                },
+                "slide_from_right": {
+                    "label": "Зсув справа"
+                },
+                "slide_from_top": {
+                    "label": "Зсув зверху"
+                },
+                "slide_from_top_left": {
+                    "caption": "Зверху ліворуч",
+                    "label": "Зсув зверху ліворуч"
+                },
+                "slide_from_top_right": {
+                    "caption": "Зверху праворуч",
+                    "label": "Зсув зверху праворуч"
+                },
+                "spin": {
+                    "caption": "Обертання",
+                    "label": "Поява з обертанням"
+                },
+                "spin_scale": {
+                    "caption": "Обертання й масштаб",
+                    "label": "Поява з обертанням і масштабом"
+                },
+                "twist": {
+                    "caption": "Скручування",
+                    "label": "Поява зі скручуванням"
+                }
+            },
+            "property": {
+                "change_text": "Змінити текст",
+                "morph": "Морфінг",
+                "move": "Переміщення",
+                "opacity": "Непрозорість",
+                "scale": "Масштаб"
+            },
+            "section": {
+                "fade": "Згасання",
+                "mask": "Маска",
+                "scale": "Масштаб",
+                "slide": "Зсув",
+                "transform": "Трансформація"
+            },
+            "text": {
+                "backward": "Назад",
+                "forward": "Вперед",
+                "letters": "Літери",
+                "summary_overlap": "Кожен елемент ({unit}) починається, коли попередній досягає {percent}%.",
+                "summary_sequential": "Кожен елемент ({unit}) завершується до початку наступного.",
+                "summary_together": "Усі елементи ({unit}) рухаються разом.",
+                "summary_whole": "Увесь текстовий блок анімується як єдине ціле.",
+                "words": "Слова"
+            },
+            "type": {
+                "fade_in": "Поява",
+                "fade_out": "Згасання",
+                "line_height": "Висота рядка",
+                "radius": "Радіус",
+                "resize_in": "Збільшення на вході",
+                "resize_out": "Зменшення на виході",
+                "rotate_in": "Обертання на вході",
+                "rotate_out": "Обертання на виході",
+                "scale_in": "Масштаб на вході",
+                "scale_out": "Масштаб на виході",
+                "slide_in": "Зсув на вході",
+                "slide_out": "Зсув на виході",
+                "spacing": "Інтервал",
+                "stroke": "Контур"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Додайте своє фото, щоб продовжити.",
+                    "gesture": {
+                        "frameDesktop": "Перетягніть, щоб змінити позицію · Прокрутіть, щоб масштабувати",
+                        "frameMobile": "Перетягніть, щоб змінити позицію, розведіть пальці, щоб масштабувати",
+                        "handles": "Змінюйте розмір за кути й сторони, обертайте за верхній маркер",
+                        "move": "Перетягніть, щоб перемістити",
+                        "moveOrHandles": "Перетягніть, щоб перемістити, або скористайтеся маркерами",
+                        "resize": "Потягніть за кут або сторону, щоб змінити розмір",
+                        "rotate": "Потягніть за верхній маркер, щоб повернути",
+                        "rotateDesktop": "Потягніть лінійку або скористайтеся стрілками на клавіатурі",
+                        "rotateMobile": "Потягніть лінійку, щоб повернути"
+                    },
+                    "hint": {
+                        "pickDesktop": "Клацніть позначену ділянку або виберіть шар ліворуч",
+                        "pickMobile": "Торкніться позначеної ділянки або виберіть шар нижче",
+                        "previewDesktop": "Попередній перегляд вашого дизайну. Клацніть, щоб продовжити редагування.",
+                        "previewMobile": "Попередній перегляд вашого дизайну. Торкніться, щоб продовжити редагування."
+                    },
+                    "layer": {
+                        "addPhoto": "Додайте своє фото",
+                        "text": "Текст: {text}",
+                        "yourPhoto": "Ваше фото",
+                        "yourText": "Ваш текст"
+                    },
+                    "layers": {
+                        "all": "Усі шари",
+                        "photo": "Фото",
+                        "sheetDescription": "Усе в цьому дизайні, що можна змінити.",
+                        "title": "Шари"
+                    },
+                    "photoError": "Не вдалося використати це фото. Спробуйте інше зображення.",
+                    "preview": {
+                        "backToEditing": "Назад до редагування"
+                    },
+                    "rotation": {
+                        "aria": "Обертання",
+                        "value": "one:# градус|few:# градуси|many:# градусів|other:# градуса"
+                    },
+                    "tools": {
+                        "adjust": "Коригувати",
+                        "aria": "Інструменти шару",
+                        "editText": "Редагувати текст",
+                        "flip": "Віддзеркалити",
+                        "locked": "Розмір і позицію задає автор",
+                        "replace": "Замінити",
+                        "textAria": "Інструменти тексту",
+                        "zoomIn": "Збільшити",
+                        "zoomOut": "Зменшити"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} додано на часову шкалу.",
+                "too_big": "{name} перевищує {limit}.",
+                "too_long": "{name} довше за {minutes} хв.",
+                "too_many": "Одночасно можна лише {count} файлів.",
+                "wrong_type": "Не вдається додати {name} — лише зображення, відео та файли SVG."
+            }
+        },
+        "catalogue": {
+            "error_body": "Перевірте з’єднання та спробуйте ще раз.",
+            "loading_more": "Завантаження ще"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Відхилити чернетку",
+                "description_unsaved": "Цей дизайн не збережено. Якщо повернутися, його буде видалено назавжди — разом із шарами, стилями й анімацією.",
+                "title": "Відхилити чернетку «{title}»?"
+            },
+            "save": {
+                "description": "Після збереження редагування буде недоступне.",
+                "saving": "Збереження…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Підігнати під екран"
+        },
+        "graphic_panel": {
+            "add": "Додати: {name}",
+            "add_failed": "Не вдалося додати цю графіку. Спробуйте ще раз.",
+            "empty_body": "Спробуйте коротше або загальніше слово, наприклад зірка чи серце.",
+            "empty_title": "Немає графіки за запитом «{query}»",
+            "error_title": "Не вдалося завантажити графіку",
+            "none_title": "Немає графіки для показу",
+            "search_label": "Пошук графіки",
+            "search_placeholder": "Пошук графіки"
+        },
+        "header": {
+            "redo": "Повторити",
+            "saving": "Збереження…",
+            "undo": "Скасувати",
+            "untitled_design": "Дизайн без назви"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Місце для фото"
+            },
+            "menu": {
+                "align_center": "По центру",
+                "bring_forward": "Перемістити вперед",
+                "bring_to_front": "Перемістити на передній план",
+                "detach_image": "Від’єднати зображення",
+                "flip_horizontal": "Віддзеркалити по горизонталі",
+                "flip_vertical": "Віддзеркалити по вертикалі",
+                "replace_image": "Замінити зображення",
+                "send_backward": "Перемістити назад",
+                "send_to_back": "Перемістити на задній план",
+                "set_as_background_image": "Зробити фоновим зображенням",
+                "set_as_background_video": "Зробити фоновим відео",
+                "set_background_as_image_layer": "Зробити фон шаром зображення",
+                "set_background_as_video_layer": "Зробити фон шаром відео",
+                "sheet_title": "Параметри шару",
+                "show_layers": "Показати шари"
+            },
+            "pill": {
+                "duplicate": "Дублювати шар",
+                "more": "Більше дій із шаром",
+                "remove": "Видалити шар",
+                "toolbar": "Дії із шаром"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Код сполучення готовий: {code}. Передайте його своєму ШІ-клієнту.",
+                "connecting": "Створюємо код сполучення.",
+                "failed": "Не вдалося підключитися. {reason}",
+                "reconnecting": "З’єднання перервано. Намагаємося підключитися знову."
+            },
+            "clipboard_blocked": "Ваш браузер заблокував буфер обміну. {hint}",
+            "connect": "Підключити",
+            "connecting": "Підключення…",
+            "copied_address_announcement": "Адресу сервера скопійовано",
+            "copied_code_announcement": "Код сполучення скопійовано",
+            "copy_address_hint": "Виділіть адресу й скопіюйте її вручну.",
+            "copy_code": "Копіювати код",
+            "copy_code_hint": "Виділіть код і скопіюйте його вручну.",
+            "copy_server_address": "Копіювати адресу сервера MCP",
+            "disconnect": "Відключити",
+            "error_fallback": "Служба сполучення не відповіла. Перевірте з’єднання та спробуйте ще раз.",
+            "guide": {
+                "fresh_code": "Якщо код перестав працювати, натисніть «Відключити» й підключіться знову, щоб отримати новий.",
+                "how_to_set_up": "Як це налаштувати",
+                "step_add_body": "Додайте Twibbonize у свій ШІ-клієнт за адресою нижче. У Claude Code виконайте",
+                "step_add_title": "Додайте Twibbonize у свій ШІ-клієнт",
+                "step_pair_body": "Скажіть «pair with the Twibbonize editor» і надайте йому код вище.",
+                "step_pair_title": "Попросіть виконати сполучення",
+                "where_to_paste": "Куди вставити цей код?"
+            },
+            "lead": {
+                "code_ready_sentence": "Вставте його в Claude і попросіть виконати сполучення. Поки Claude працює, полотно обводить сторінку рамкою.",
+                "code_ready_title": "Передайте цей код своєму ШІ-клієнту",
+                "connecting_sentence": "Це займе мить.",
+                "connecting_title": "Створюємо код сполучення",
+                "disconnected_sentence": "Claude Desktop і Claude Code можуть додавати шари, писати текст, налаштовувати анімації та зчитувати вміст полотна.",
+                "disconnected_title": "Підключіть ШІ-клієнт до цього дизайну",
+                "failed_title": "Не вдалося підключитися",
+                "reconnecting_sentence": "Зв’язок із вашим ШІ-клієнтом перервано. Намагаємося його відновити.",
+                "reconnecting_title": "Повторне підключення",
+                "unavailable_sentence": "У цій збірці редактора не налаштовано ШІ-підключення, тож підключатися поки нема до чого.",
+                "unavailable_title": "MCP тут не ввімкнено"
+            },
+            "pairing_code_label": "Код сполучення: {code}"
+        },
+        "media": {
+            "add_asset": "Додати: {name}",
+            "dismiss_error": "Закрити",
+            "empty_body": "Додайте нижче зображення, відео або аудіофайл, і він залишиться тут до кінця цього сеансу.",
+            "empty_narrowed_body": "Очистьте пошук або виберіть інший тип, щоб побачити все, що ви додали.",
+            "empty_narrowed_title": "Нічого не знайдено",
+            "empty_title": "Ще нічого не завантажено",
+            "filter": {
+                "audio": "Аудіо",
+                "images": "Зображення"
+            },
+            "filter_group_label": "Тип медіа",
+            "make_an_image": "Створити зображення",
+            "make_image_unavailable": "Створення зображень поки що недоступне",
+            "search_placeholder": "Пошук медіа",
+            "upload_button": "Завантажити зображення, відео або аудіо",
+            "uploads_heading": "Завантаження"
+        },
+        "page_bar": {
+            "group_label": "Керування масштабом",
+            "zoom_menu": "Рівень масштабу, {percent}%"
+        },
+        "panel": {
+            "loading": "Завантаження: {panel}…"
+        },
+        "photo": {
+            "add_by": "Додати фото від {name}",
+            "add_described": "Додати фото: {description}",
+            "credit": "Фото надано",
+            "empty_body": "Спробуйте коротше або загальніше слово, наприклад пляж чи місто.",
+            "empty_title": "Немає фото за запитом «{query}»",
+            "error_title": "Не вдалося завантажити фото",
+            "none_title": "Немає фото для показу",
+            "search_label": "Пошук фото",
+            "search_placeholder": "Пошук фото"
+        },
+        "qr": {
+            "add_logo": "Додати логотип",
+            "add_to_design": "Додати до дизайну",
+            "background_colour_label": "Колір фону",
+            "code_colour_label": "Колір коду",
+            "code_label": "Код",
+            "link_input_label": "Посилання QR-коду",
+            "link_label": "Посилання",
+            "logo_fallback_name": "Зображення логотипу",
+            "logo_label": "Логотип",
+            "remove_logo": "Видалити логотип"
+        },
+        "rail": {
+            "aria_label": "Бібліотеки дизайну",
+            "graphic": "Графіка",
+            "help": "Довідка",
+            "layers": "Шари",
+            "mcp": "MCP",
+            "media": "Медіа",
+            "photo": "Фото",
+            "qr_code": "QR-код",
+            "shapes": "Фігури",
+            "templates": "Шаблони",
+            "textures": "Текстури",
+            "tools": "Інструменти"
+        },
+        "save": {
+            "failed": "Не вдалося зберегти ваш дизайн. Спробуйте ще раз."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Яскравість",
+                "compare": "Порівняти з оригіналом",
+                "contrast": "Контраст",
+                "grayscale": "Відтінки сірого",
+                "group": {
+                    "basic": "Основні",
+                    "refinements": "Уточнення"
+                },
+                "hue_rotate": "Зсув відтінку",
+                "reset": "Скинути коригування",
+                "saturation": "Насиченість",
+                "title": "Коригування"
+            },
+            "color": {
+                "trigger": "Колір"
+            },
+            "common": {
+                "layer_blur": "Розмиття шару",
+                "layer_blur_stepper": "Розмиття шару"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Довільна",
+                    "landscape": "Альбомна",
+                    "original": "Оригінал",
+                    "portrait": "Книжкова",
+                    "square": "Квадрат",
+                    "story": "Сторіс",
+                    "widescreen": "Широкоекранна"
+                },
+                "shape": {
+                    "circle": "Коло",
+                    "diamond": "Ромб",
+                    "half_circle": "Півколо",
+                    "oval": "Овал",
+                    "parallelogram": "Паралелограм",
+                    "rounded": "Закруглена"
+                }
+            },
+            "filter": {
+                "cool": "Холодний",
+                "duotone": "Дуотон",
+                "mono": "Моно",
+                "original": "Оригінал",
+                "vivid": "Яскравий",
+                "warm": "Теплий"
+            },
+            "font_weight": {
+                "black": "Чорний",
+                "extra_bold": "Дуже жирний",
+                "extra_light": "Дуже тонкий",
+                "medium": "Середній",
+                "regular": "Звичайний",
+                "semibold": "Напівжирний",
+                "thin": "Тонкий"
+            },
+            "frame": {
+                "colour": "Колір рамки"
+            },
+            "green_screen": {
+                "choose_colour": "Виберіть колір",
+                "colour": "Колір",
+                "compare": "Порівняти з оригіналом",
+                "eyedropper": "Вибрати колір із полотна",
+                "key_colour": "Ключовий колір {hex}",
+                "loose": "М’яко",
+                "nothing_found": "Колір фону не знайдено.",
+                "precise": "Точно",
+                "preset": {
+                    "bright_blue": "Яскраво-синій",
+                    "bright_green": "Яскраво-зелений",
+                    "chroma_blue": "Хромакей синій",
+                    "chroma_green": "Хромакей зелений"
+                },
+                "presets": "Поширені кольори фону",
+                "remove": "Видалити зелений екран",
+                "title": "Зелений екран"
+            },
+            "image": {
+                "corner_radius": "Радіус кутів",
+                "corner_radius_stepper": "Радіус кутів",
+                "per_corner": "Редагувати кути окремо",
+                "per_corner_unavailable": "Окреме редагування кутів поки що недоступне"
+            },
+            "keypad": {
+                "value_field": "Значення: {label}"
+            },
+            "line": {
+                "colour": "Колір лінії",
+                "style": {
+                    "dots": "Крапки",
+                    "long_dashes": "Довгі штрихи",
+                    "short_dashes": "Короткі штрихи",
+                    "solid": "Суцільна"
+                },
+                "style_trigger": "Стиль лінії: {style}",
+                "weight": "Товщина лінії",
+                "weight_trigger": "Товщина лінії {weight}"
+            },
+            "media": {
+                "heading": "Медіа"
+            },
+            "page": {
+                "size_capped": "Макс. {max} px — пропорції збережено"
+            },
+            "pages": {
+                "title": "Сторінки"
+            },
+            "photo_slot": {
+                "enable": "Використати як місце для фото",
+                "key_field": "Ключ (унікальний)",
+                "key_required": "Потрібен ключ",
+                "key_taken": "Ключ уже використовує інше місце",
+                "label_field": "Підпис (бачить кінцевий користувач)",
+                "on": "Місце для фото",
+                "remove": "Видалити місце для фото"
+            },
+            "qr": {
+                "add_logo": "Додати логотип",
+                "background_colour": "Колір фону",
+                "code": "Код",
+                "code_colour": "Колір коду",
+                "link": "Посилання",
+                "link_input": "Посилання QR-коду",
+                "logo": "Логотип",
+                "remove_logo": "Видалити логотип"
+            },
+            "root": {
+                "background_image": "Фонове зображення",
+                "edit_background": "Редагувати фонове зображення",
+                "fill": "Заливка",
+                "fill_gradient": "Градієнт",
+                "page_height": "Висота сторінки",
+                "page_width": "Ширина сторінки",
+                "ratio_lock": "Заблокувати пропорції",
+                "ratio_unlock": "Розблокувати пропорції",
+                "rotate_left": "Повернути фон ліворуч",
+                "rotate_right": "Повернути фон праворуч"
+            },
+            "scalar": {
+                "clip_length": "Тривалість",
+                "corner_radius": "Радіус кутів",
+                "font_size": "Розмір шрифту",
+                "layer_blur": "Розмиття шару",
+                "letter_spacing": "Інтервал між літерами",
+                "line_height": "Висота рядка",
+                "opacity": "Непрозорість",
+                "speed": "Швидкість",
+                "stroke_width": "Товщина контуру",
+                "volume": "Гучність"
+            },
+            "shape": {
+                "corner_radius": "Радіус кутів",
+                "corner_radius_stepper": "Радіус кутів",
+                "fill": "Заливка",
+                "fill_gradient": "Градієнт",
+                "fill_mixed": "Змішана",
+                "fill_transparent": "Прозора",
+                "stroke": "Контур",
+                "stroke_color": "Колір контуру",
+                "stroke_style": {
+                    "dots": "Крапки",
+                    "long_dashes": "Довгі штрихи",
+                    "short_dashes": "Короткі штрихи",
+                    "solid": "Суцільний"
+                },
+                "stroke_style_select": "Стиль контуру",
+                "stroke_transparent": "Прозорий",
+                "stroke_weight": "Товщина контуру"
+            },
+            "svg": {
+                "path_colour": "Колір {index}"
+            },
+            "swatch": {
+                "more_colours": "Більше кольорів"
+            },
+            "text": {
+                "align": {
+                    "justify": "По ширині"
+                },
+                "alignment": "Вирівнювання",
+                "edit_text": "Редагувати текст",
+                "font_family": "Шрифт",
+                "font_family_select": "Шрифт",
+                "font_size": "Розмір шрифту",
+                "italic_unavailable": "У цього шрифту немає курсиву для такої насиченості",
+                "letter_spacing_stepper": "Інтервал між літерами",
+                "line_height": "Висота рядка",
+                "line_height_stepper": "Висота рядка",
+                "list": "Список",
+                "list_bulleted": "Маркований список",
+                "list_numbered": "Нумерований список",
+                "list_style": "Стиль списку",
+                "text_case": "Регістр тексту",
+                "text_color": "Колір тексту",
+                "text_style": "Стиль тексту",
+                "weight": "Насиченість"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Вирівняти за нижнім краєм",
+                    "center_x": "Вирівняти за горизонтальним центром",
+                    "center_y": "Вирівняти за вертикальним центром",
+                    "left": "Вирівняти за лівим краєм",
+                    "right": "Вирівняти за правим краєм",
+                    "top": "Вирівняти за верхнім краєм"
+                },
+                "align_to_page": "Вирівняти за сторінкою",
+                "opacity": "Непрозорість",
+                "position": "Позиція",
+                "position_x": "Позиція X",
+                "position_y": "Позиція Y",
+                "rotation": "Обертання",
+                "scale": "Масштаб"
+            },
+            "video": {
+                "adjust": "Коригувати",
+                "audio": "Аудіо",
+                "clip_runs": "тривалість кліпу {length}",
+                "corner_radius": "Радіус кутів",
+                "corner_radius_stepper": "Радіус кутів",
+                "green_screen": "Зелений екран",
+                "loop": "Повторювати до кінця дизайну",
+                "mute": "Вимкнути звук",
+                "muted": "Звук вимкнено",
+                "no_audio": "У цьому відео немає звуку.",
+                "playback": "Відтворення",
+                "replace": "Замінити відео",
+                "speed": "Швидкість",
+                "speed_custom_input": "Власна швидкість відтворення",
+                "speed_presets": "Швидкість відтворення",
+                "speed_range": "Від {min}× до {max}×",
+                "tools": "Інструменти",
+                "unmute": "Увімкнути звук",
+                "volume": "Гучність",
+                "volume_level": "Рівень гучності"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Стрілка",
+            "arrow_down": "Стрілка вниз",
+            "arrow_left": "Стрілка вліво",
+            "arrow_pentagon": "П’ятикутна стрілка",
+            "arrow_right": "Стрілка вправо",
+            "arrow_up": "Стрілка вгору",
+            "chevron": "Шеврон",
+            "circle": "Коло",
+            "cross": "Хрест",
+            "diamond": "Ромб",
+            "hexagon": "Шестикутник",
+            "hexagon_wide": "Широкий шестикутник",
+            "line": "Лінія",
+            "octagon": "Восьмикутник",
+            "parallelogram": "Паралелограм",
+            "parallelogram_mirrored": "Дзеркальний паралелограм",
+            "pentagon": "П’ятикутник",
+            "square": "Квадрат",
+            "trapezoid": "Трапеція",
+            "trapezoid_upside_down": "Перевернута трапеція",
+            "triangle": "Трикутник",
+            "triangle_upside_down": "Перевернутий трикутник"
+        },
+        "shapes_panel": {
+            "basic": "Основні",
+            "lines": "Лінії та стрілки"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Додати ключовий кадр",
+                "back_to_animations": "Назад до анімацій",
+                "basic": "Основні",
+                "basic_opacity": "Непрозорість",
+                "basic_position": "Позиція",
+                "basic_rotation": "Обертання",
+                "basic_scale": "Масштаб",
+                "keyframe": "Ключовий кадр",
+                "pick_property_hint": "Виберіть властивість для ключового кадру. Після торкання панель закриється й відкриється панель цієї властивості, а ключовий кадр уже буде на голівці відтворення з поточним значенням шару.",
+                "presets_need_one": "Пресети анімації потребують одного елемента. Виберіть один шар, щоб їх побачити.",
+                "title": "Анімувати"
+            },
+            "easing": {
+                "title": "Плавність"
+            },
+            "font_weight": {
+                "title": "Насиченість шрифту"
+            },
+            "speed": {
+                "title": "Швидкість"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Кольори за замовчуванням",
+                "eyedropper": "Вибрати колір з екрана",
+                "eyedropper_unsupported": "Ваш браузер не підтримує піпетку",
+                "fill_linear": "лінійна",
+                "fill_radial": "радіальна",
+                "fill_solid": "суцільна",
+                "fill_type": "Тип заливки",
+                "gradients_in_design": "Градієнти в дизайні",
+                "hex": "Hex-колір",
+                "in_design": "У дизайні",
+                "title": "Колір заливки",
+                "use_color": "Використати {color}",
+                "use_gradient": "Використати градієнт: {style}",
+                "use_transparent": "Прозорий"
+            },
+            "crop": {
+                "adjust_shape": "Налаштувати форму обрізання",
+                "aspect": "Пропорції",
+                "framing": "Кадрування",
+                "framing_hint": "Перетягніть фото, щоб змінити кадр, або кут, щоб змінити розмір області обрізання. Прокрутіть, щоб масштабувати.",
+                "scale": "Масштаб"
+            },
+            "filters": {
+                "show_earlier": "Показати попередні фільтри",
+                "show_more": "Показати більше фільтрів",
+                "swatch": "{label}, колір: {color}",
+                "title": "Фільтри"
+            },
+            "font": {
+                "all_fonts": "УСІ ШРИФТИ",
+                "applying": "Застосування шрифту",
+                "back": "Назад до параметрів тексту",
+                "clear_search": "Очистити пошук",
+                "clear_search_action": "Очистити пошук",
+                "in_this_design": "У ЦЬОМУ ДИЗАЙНІ",
+                "no_match": "Немає шрифтів за запитом «{query}»",
+                "no_match_hint": "Twibbonize використовує каталог Google Fonts, а цього шрифту в ньому немає. Спробуйте коротший запит.",
+                "search_label": "Пошук шрифтів",
+                "search_placeholder": "Пошук шрифтів",
+                "title": "Шрифт",
+                "weight": "Насиченість шрифту"
+            },
+            "gradient": {
+                "add_stop": "Додати опорну точку градієнта",
+                "angle": "Кут",
+                "angle_dial": "Кут градієнта, {degrees} градусів. Перетягніть, щоб змінити",
+                "angle_dial_hint": "Перетягніть, щоб змінити кут градієнта",
+                "angle_input": "Кут градієнта в градусах",
+                "centre_unsupported": "Центр градієнта поки що не підтримується рендерером",
+                "stop": "Опорна точка градієнта {index} на {percent}%, {color}",
+                "stop_hint": "Перетягніть, щоб перемістити, двічі клацніть, щоб видалити"
+            },
+            "image": {
+                "adjustment": "Коригування",
+                "adjustments": "Коригування",
+                "back_to_edit": "Назад до вкладки «Редагування»",
+                "background_removal": "Видалення фону",
+                "compare": "Порівняти з оригіналом",
+                "removing": "Видалення…",
+                "removing_background": "Видалення фону",
+                "reset_adjustments": "Скинути коригування",
+                "tools": "Інструменти"
+            },
+            "keyframe": {
+                "add": "Додати ключовий кадр",
+                "add_at_playhead": "Додати ключовий кадр ({property}) на голівці відтворення",
+                "add_at_playhead_short": "Додати ключовий кадр на голівці відтворення",
+                "add_lane_at_playhead": "Додати ключовий кадр ({lane}) на голівці відтворення",
+                "add_property": "Додати властивість для анімації",
+                "all_lanes_added": "Для кожної властивості цього шару, яку можна анімувати, вже є доріжка",
+                "delete": "Видалити цей ключовий кадр",
+                "diamond": "Ключовий кадр ({lane}) на {seconds} с",
+                "easing": "Плавність",
+                "easing_caps": "ПЛАВНІСТЬ",
+                "first_no_easing": "Перший ключовий кадр не має плавності",
+                "hex": "Hex-колір",
+                "layer_blur": "Розмиття шару",
+                "letter_spacing": "Інтервал між літерами",
+                "line_height": "Висота рядка",
+                "opacity": "Непрозорість",
+                "opacity_percent": "Непрозорість у відсотках",
+                "position_x": "Позиція X",
+                "position_y": "Позиція Y",
+                "radius_bottom_left": "Радіус лівого нижнього кута",
+                "radius_bottom_right": "Радіус правого нижнього кута",
+                "radius_top_left": "Радіус лівого верхнього кута",
+                "radius_top_right": "Радіус правого верхнього кута",
+                "remove": "Видалити ключовий кадр",
+                "remove_at_playhead": "Видалити ключовий кадр ({property}) на голівці відтворення",
+                "rotation": "Обертання",
+                "scale": "Масштаб",
+                "shadow_blur": "Розмиття тіні",
+                "shadow_color": "Колір тіні",
+                "shadow_offset_x": "Зміщення тіні X",
+                "shadow_offset_y": "Зміщення тіні Y",
+                "shadow_spread": "Розтягнення тіні",
+                "stroke_color": "Колір контуру",
+                "stroke_weight": "Товщина контуру"
+            },
+            "layer": {
+                "page_background": "Фон сторінки",
+                "tab_animate": "Анімувати",
+                "tabs_label": "Панель шару",
+                "title": "Шари"
+            },
+            "page_preset": {
+                "group_label": "Пресети розміру полотна",
+                "landscape": "Альбомна",
+                "portrait": "Книжкова",
+                "square": "Квадрат",
+                "story": "Сторіс",
+                "tile_aria": "{name}, {width} на {height} пікселів"
+            },
+            "personalization": {
+                "act_as_placeholder": "Діяти як заповнювач",
+                "allow_adjust_framing": "Дозволити змінювати кадрування",
+                "allow_adjust_framing_hint": "Прихильники можуть масштабувати й переміщувати своє фото всередині рамки.",
+                "allow_change_adjustments": "Дозволити змінювати коригування",
+                "allow_change_adjustments_hint": "Прихильники можуть змінювати яскравість, контраст та інші коригування.",
+                "allow_change_effect": "Дозволити змінювати ефект",
+                "allow_change_effect_hint": "Прихильники можуть вибрати інший ефект для цього шару.",
+                "allow_change_filter": "Дозволити змінювати фільтр",
+                "allow_change_filter_hint": "Прихильники можуть вибрати інший фільтр для цього шару.",
+                "allow_edit_text": "Дозволити редагувати текст",
+                "allow_edit_text_hint": "Прихильники можуть вводити власні слова в цей текст.",
+                "allow_flip": "Дозволити віддзеркалення",
+                "allow_flip_hint": "Прихильники можуть віддзеркалити цей шар.",
+                "allow_move": "Дозволити переміщення",
+                "allow_move_hint": "Прихильники можуть перетягнути цей шар в інше місце.",
+                "allow_replace_media": "Дозволити заміну медіа",
+                "allow_replace_media_hint": "Прихильники можуть замінити це зображення власним фото.",
+                "allow_resize": "Дозволити змінювати розмір",
+                "allow_resize_hint": "Прихильники можуть змінювати розмір цього шару, потягнувши за кути й сторони.",
+                "allow_rotate": "Дозволити обертання",
+                "allow_rotate_hint": "Прихильники можуть повернути цей шар на будь-який кут.",
+                "group_appearance": "Вигляд",
+                "group_arrange": "Розташування",
+                "group_media": "Медіа",
+                "placeholder_hint": "Показує порожнє місце, торкнувшись якого прихильники додають своє фото.",
+                "remove_background": "Видаляти фон із їхнього фото",
+                "remove_background_hint": "Вирізає прихильника з фото, щоб ваш дизайн було видно навколо нього.",
+                "text_placeholder_hint": "Показує цей текст як зразок, який прихильники замінюють власним."
+            },
+            "shape_effect": {
+                "colour": "Колір ефекту",
+                "distance": "Відстань",
+                "echo": "Відлуння",
+                "first_color": "Перший колір",
+                "first_colour": "Перший колір ефекту",
+                "glitch": "Глітч",
+                "glow": "Сяйво",
+                "group_label": "Ефект фігури",
+                "second_color": "Другий колір",
+                "second_colour": "Другий колір ефекту",
+                "section": "Ефект",
+                "shadow": "Тінь"
+            },
+            "text_effect": {
+                "colour": "Колір ефекту",
+                "curve": "Вигин",
+                "distance": "Відстань",
+                "echo": "Відлуння",
+                "glow": "Сяйво",
+                "group_label": "Ефект тексту",
+                "outline": "Контур",
+                "section": "Ефект",
+                "shape_group_label": "Форма тексту",
+                "splice": "Розріз",
+                "title": "Текстові ефекти"
+            }
+        },
+        "templates": {
+            "empty_body": "Спробуйте коротше або загальніше слово.",
+            "empty_title": "Немає шаблонів за запитом «{query}»",
+            "error_title": "Не вдалося завантажити шаблони",
+            "none_body": "Знайдіть тему, наприклад день народження чи випускний.",
+            "none_title": "Для цього дизайну ще немає шаблонів",
+            "search_label": "Пошук шаблонів",
+            "search_placeholder": "Пошук шаблонів"
+        },
+        "text_panel": {
+            "add_template": "Додати текстовий шаблон: {name}",
+            "add_text_box": "Додати текстове поле",
+            "empty_body": "Спробуйте коротше або загальніше слово.",
+            "empty_title": "Немає текстових шаблонів за запитом «{query}»",
+            "error_title": "Не вдалося завантажити текстові шаблони",
+            "none_body": "Натомість почніть зі звичайного текстового поля.",
+            "none_title": "Немає текстових шаблонів для показу",
+            "search_label": "Пошук текстових шаблонів",
+            "search_placeholder": "Пошук текстових шаблонів"
+        },
+        "text_preset": {
+            "seed": "Додайте свій текст тут"
+        },
+        "textures": {
+            "apply_texture": "Застосувати: {name}",
+            "category": {
+                "fabric": "Тканина",
+                "grain": "Зерно",
+                "grunge": "Ґрандж",
+                "paper": "Папір",
+                "print": "Друк"
+            },
+            "category_group_label": "Категорія текстур",
+            "empty_body": "Ми наповнюємо цю бібліотеку — зазирніть згодом.",
+            "empty_title": "Текстур поки що немає",
+            "most_used": "Найпопулярніші",
+            "search_placeholder": "Пошук текстур"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Додати аудіо",
+                "add_tooltip": "Додати фонову аудіодоріжку",
+                "bar_aria": "{name}: початок {start}, тривалість {duration}",
+                "decoding": "Декодування аудіо…",
+                "decoding_waveform": "Декодування хвилі…",
+                "default_name": "Аудіо",
+                "drop_to_add": "Скиньте, щоб додати аудіо",
+                "kind_suffix": "· Аудіо",
+                "mute": "Вимкнути звук доріжки",
+                "unmute": "Увімкнути звук доріжки",
+                "volume": "Гучність доріжки",
+                "waveform_error": "Не вдалося завантажити хвилю цієї доріжки."
+            },
+            "keyframe": {
+                "add": "Додати ключовий кадр",
+                "add_at_playhead": "Додати ключовий кадр на голівці відтворення",
+                "add_tooltip": "Ключовий кадр для властивості цього шару",
+                "diamond_aria": "Ключовий кадр ({lane}) на {time}",
+                "diamond_hint": " · перетягніть, щоб змінити час, клацніть правою кнопкою, щоб видалити",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Радіус кутів",
+                    "layer_blur": "Розмиття шару",
+                    "line_height": "Висота рядка",
+                    "opacity": "Непрозорість",
+                    "position": "Позиція",
+                    "rotation": "Обертання",
+                    "scale": "Масштаб",
+                    "stroke": "Контур"
+                },
+                "remove_lane": "Видалити ключові кадри ({lane})",
+                "remove_lane_from_layer": "Видалити ключові кадри ({lane}) із шару {layer}",
+                "segment_easing_aria": "Функція часу ({lane}) між {from} і {to}, зараз: {easing}",
+                "segment_easing_title": "Функція часу · {easing}",
+                "welded_aria": ", прикріплено до краю шару",
+                "welded_title": " · прикріплено до краю шару"
+            },
+            "menu": {
+                "repeat_until_end": "Повторювати до кінця"
+            },
+            "track": {
+                "bar_aria": "{name}: початок {start}, тривалість {duration}",
+                "bar_aria_end_glued": ", кінець прикріплено до шару",
+                "bar_aria_start_glued": ", початок прикріплено до шару",
+                "bar_tooltip": "{name} · {start}, тривалість {duration} мс · перетягніть, щоб перемістити, потягніть за край, щоб змінити розмір (Alt = без прилипання)",
+                "bar_tooltip_sole": " · перетягування цього краю переміщує шар",
+                "clip_aria": "Кліп {name}",
+                "clip_tooltip": "Перетягніть, щоб перемістити шар у часі · потягніть за кінець, щоб обрізати (Alt = без прилипання)",
+                "collapse": "Згорнути",
+                "collapse_all": "Згорнути всі шари",
+                "collapse_named": "Згорнути: {name}",
+                "delete_layer": "Видалити шар",
+                "delete_named": "Видалити: {name}",
+                "ends_at": "Закінчується о",
+                "expand": "Розгорнути",
+                "expand_named": "Розгорнути: {name}",
+                "hidden_lane_one": "{count} прихована доріжка",
+                "hidden_lane_other": "Прихованих доріжок: {count}",
+                "hide": "Приховати",
+                "hide_named": "Приховати: {name}",
+                "lane_reorder_tooltip": "Перетягніть, щоб змінити порядок — верхня доріжка має пріоритет там, де анімації перекриваються",
+                "layer_animations": "Анімації шару",
+                "lock_layer": "Заблокувати шар",
+                "lock_named": "Заблокувати: {name}",
+                "remove_animation": "Видалити анімацію",
+                "remove_animation_aria": "Видалити анімацію {name} із шару {layer}",
+                "reorder_tooltip": "Перетягніть, щоб змінити порядок доріжок — порядок накладання на полотні задається на панелі шарів",
+                "show": "Показати",
+                "show_named": "Показати: {name}",
+                "split": "Розділити",
+                "starts_at": "Починається о",
+                "trim_end": "Обрізати кінець",
+                "trim_start": "Обрізати початок",
+                "trim_to": "Обрізати до {time}",
+                "unlock_layer": "Розблокувати шар",
+                "unlock_named": "Розблокувати: {name}"
+            },
+            "transport": {
+                "current_time_field": "Поточний час у мілісекундах",
+                "duration_edge_aria": "Тривалість сторінки: {seconds} с",
+                "duration_edge_tooltip": "Тривалість сторінки: {seconds} с · перетягніть, щоб змінити, клацніть, щоб ввести точне значення (Alt = без прилипання)",
+                "duration_max": "Максимум {seconds} с",
+                "fit_to_width": "За шириною",
+                "forward": "Вперед",
+                "lengthen_page": "Подовжити сторінку",
+                "loop": "Циклічне відтворення",
+                "page_duration": "Тривалість сторінки",
+                "page_duration_field": "Тривалість сторінки в мілісекундах",
+                "resize_dock": "Змінити розмір часової шкали",
+                "rewind": "Перемотати назад",
+                "shorten_page": "Скоротити сторінку",
+                "zoom": "Масштаб часової шкали"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "Забагато запитів",
             "CN-4003": "Недійсна URL-адреса",
             "C-4090": "Ваше посилання на кампанію вже використовується. Спробуйте інше.",
+            "C-4094": "Кампанія вже в кошику",
+            "C-4095": "Кампанії немає в кошику",
             "SUB-403": "Надсилання заборонено налаштуваннями кампанії",
             "A-40091": "Використовуйте email вашої школи або університету",
             "PB-4011": "Це посилання недійсне або застаріле",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "Прокрутіть униз, щоб вибрати рамку",
         "editor_single": "Прокрутіть униз, щоб налаштувати фото",
         "editor_multiple": "Прокрутіть униз, щоб редагувати та перемикати рамки"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "Відновлення кампаній…"
+        }
     }
 }

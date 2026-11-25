@@ -2842,7 +2842,9 @@
             "type": "પ્રકાર:",
             "size": "કદ:",
             "type_image": "JPG, PNG અથવા SVG",
-            "maximum_size": "મહત્તમ 5 MB"
+            "maximum_size": "મહત્તમ 5 MB",
+            "abandoned": "લેયર દૂર થવાથી અપલોડ અટકી ગયું. તેને તમારી લાઇબ્રેરીમાં રાખવા ફરી પ્રયાસ કરો.",
+            "failed": "અપલોડ નિષ્ફળ ગયું. તમારું કનેક્શન તપાસો અને ફરી પ્રયાસ કરો."
         },
         "toolbar": {
             "copy": "કૉપિ કરો",
@@ -2871,7 +2873,119 @@
             "border_weight": "બોર્ડર વેઇટ",
             "corner_rounding": "ખૂણા રાઉન્ડિંગ",
             "align": "સંરેખિત કરો",
-            "effects": "અસરો"
+            "effects": "અસરો",
+            "animate": {
+                "amount": "માત્રા",
+                "angle": "ખૂણો",
+                "close": "એનિમેશન સેટિંગ્સ બંધ કરો",
+                "delete_animation": "એનિમેશન કાઢી નાખો",
+                "distance": "અંતર",
+                "easing": "ઇઝિંગ",
+                "fade": "ફેડ",
+                "settings_aria": "એનિમેશન સેટિંગ્સ"
+            },
+            "audio": {
+                "replace": "બદલો",
+                "tools_aria": "ઑડિયો ટ્રૅક ટૂલ્સ",
+                "trim": "ટ્રિમ કરો",
+                "volume": "વૉલ્યુમ"
+            },
+            "clip": {
+                "length": "લંબાઈ",
+                "split": "વિભાજિત કરો",
+                "trim": "ટ્રિમ કરો"
+            },
+            "entry": {
+                "animate": "એનિમેટ કરો"
+            },
+            "image": {
+                "adjust": "એડજસ્ટ કરો",
+                "background_removal_unavailable": "બૅકગ્રાઉન્ડ દૂર કરવું હજી ઉપલબ્ધ નથી",
+                "remove_background": "બૅકગ્રાઉન્ડ દૂર કરો",
+                "remove_background_short": "કટઆઉટ",
+                "replace": "બદલો"
+            },
+            "keyframe": {
+                "blur": "લેયર બ્લર",
+                "close": "કીફ્રેમ પ્રોપર્ટીઝ બંધ કરો",
+                "delete_keyframe": "કીફ્રેમ કાઢી નાખો",
+                "letter_spacing": "સ્પેસિંગ",
+                "line_height": "લાઇનની ઊંચાઈ",
+                "opacity": "પારદર્શકતા",
+                "position": "સ્થાન",
+                "properties_aria": "કીફ્રેમ પ્રોપર્ટીઝ",
+                "rotation": "ફેરવવું",
+                "scale": "સ્કેલ"
+            },
+            "layer_tools": {
+                "deselect": "લેયરની પસંદગી રદ કરો",
+                "tools_aria": "લેયર ટૂલ્સ"
+            },
+            "media": {
+                "adjust": "એડજસ્ટ કરો",
+                "green_screen": "ગ્રીન સ્ક્રીન",
+                "replace": "બદલો",
+                "trim": "ટ્રિમ કરો"
+            },
+            "misc": {
+                "background_fill": "બૅકગ્રાઉન્ડ ફિલ",
+                "background_fill_short": "ફિલ",
+                "configure_qr": "QR કોડ કન્ફિગર કરો",
+                "edit_background_image": "બૅકગ્રાઉન્ડ ઇમેજ એડિટ કરો",
+                "no_background_image": "હજી કોઈ બૅકગ્રાઉન્ડ ઇમેજ નથી",
+                "replace_unavailable": "બદલો (હજી ઉપલબ્ધ નથી)"
+            },
+            "opacity": {
+                "label": "પારદર્શકતા"
+            },
+            "shape": {
+                "corner_radius": "ખૂણાની ત્રિજ્યા",
+                "corner_radius_short": "ત્રિજ્યા",
+                "fill": "ફિલ",
+                "line_color": "લાઇનનો રંગ",
+                "line_style_dots": "ટપકાં",
+                "line_style_long_dashes": "લાંબા ડૅશ",
+                "line_style_named": "લાઇન સ્ટાઇલ: {style}",
+                "line_style_short_dashes": "ટૂંકા ડૅશ",
+                "line_style_solid": "ઘન",
+                "line_weight": "લાઇનની જાડાઈ",
+                "stroke_color": "સ્ટ્રોકનો રંગ",
+                "stroke_color_short": "સ્ટ્રોક",
+                "stroke_weight": "સ્ટ્રોકની જાડાઈ",
+                "stroke_weight_short": "જાડાઈ"
+            },
+            "speed": {
+                "custom_input": "કસ્ટમ પ્લેબૅક સ્પીડ",
+                "label": "સ્પીડ",
+                "playback_length": "પ્લેબૅકની લંબાઈ",
+                "playback_speed": "પ્લેબૅક સ્પીડ",
+                "range_hint": "{min}× અને {max}× વચ્ચે"
+            },
+            "text": {
+                "decrease_font_size": "ફોન્ટ સાઇઝ ઘટાડો",
+                "font_family": "ફોન્ટ ફૅમિલી",
+                "font_family_named": "ફોન્ટ ફૅમિલી: {value}",
+                "font_size": "ફોન્ટ સાઇઝ",
+                "font_weight": "ફોન્ટ વેઇટ",
+                "font_weight_named": "ફોન્ટ વેઇટ: {value}",
+                "increase_font_size": "ફોન્ટ સાઇઝ વધારો",
+                "keyboard": "કીબોર્ડ",
+                "line_height": "લાઇનની ઊંચાઈ",
+                "spacing": "સ્પેસિંગ",
+                "text_color": "ટેક્સ્ટનો રંગ",
+                "weight": "વેઇટ"
+            },
+            "volume": {
+                "clip_hint": "ફક્ત આ ક્લિપ. ટાઇમલાઇન પર મૂકેલો ઑડિયો પોતાનું લેવલ જાળવે છે.",
+                "label": "વૉલ્યુમ",
+                "level": "લેવલ",
+                "mute": "મ્યૂટ કરો",
+                "muted": "મ્યૂટ",
+                "muted_hint": "લેવલ સાચવેલું છે. અનમ્યૂટ કરતાં ક્લિપ {percent}% પર પાછી આવશે.",
+                "no_audio": "આ વીડિયોમાં ઑડિયો નથી.",
+                "slider": "વૉલ્યુમ લેવલ",
+                "unmute": "અનમ્યૂટ કરો"
+            }
         },
         "confirmation": {
             "cancel": "કાઢી નાખો",
@@ -2918,7 +3032,1066 @@
             "document_colors": "દસ્તાવેજ રંગો",
             "default_colors": "ડિફૉલ્ટ રંગો"
         },
-        "graphic": "ગ્રાફિક"
+        "graphic": "ગ્રાફિક",
+        "animate": {
+            "anchor": {
+                "bottom_center": "નીચે મધ્યમાં",
+                "bottom_left": "નીચે ડાબે",
+                "bottom_right": "નીચે જમણે",
+                "center_left": "મધ્યમાં ડાબે",
+                "center_right": "મધ્યમાં જમણે",
+                "top_center": "ઉપર મધ્યમાં",
+                "top_left": "ઉપર ડાબે",
+                "top_right": "ઉપર જમણે"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "અંત",
+                "more_options": "વધુ વિકલ્પો"
+            },
+            "direction": {
+                "bottom_left": "નીચે ડાબે",
+                "bottom_right": "નીચે જમણે",
+                "clockwise": "ઘડિયાળની દિશામાં",
+                "counter_clockwise": "ઘડિયાળની વિરુદ્ધ દિશામાં",
+                "from_the": "{place} થી",
+                "to_the": "{place} તરફ",
+                "top_left": "ઉપર ડાબે",
+                "top_right": "ઉપર જમણે"
+            },
+            "easing": {
+                "accelerate": "એક્સેલરેટ",
+                "bounce": "બાઉન્સ",
+                "elastic": "ઇલાસ્ટિક",
+                "impulse": "ઇમ્પલ્સ",
+                "natural": "કુદરતી",
+                "overshoot": "ઓવરશૂટ",
+                "slow_down": "સ્લો ડાઉન",
+                "smooth": "સ્મૂથ",
+                "swing": "સ્વિંગ"
+            },
+            "field": {
+                "amount": "માત્રા",
+                "anchor_group": "એન્કર પૉઇન્ટ",
+                "anchor_point": "એન્કર પૉઇન્ટ",
+                "angle": "ખૂણો",
+                "apply_effect_to": "ઇફેક્ટ લાગુ કરો",
+                "axis": "અક્ષ",
+                "choose_easing": "ઇઝિંગ પસંદ કરો",
+                "distance": "અંતર",
+                "duration": "સમયગાળો",
+                "edge": "ધાર",
+                "fade": "ફેડ",
+                "from_noun": "{noun} થી",
+                "horizontal": "આડું",
+                "noun_blur": "બ્લર",
+                "noun_opacity": "પારદર્શકતા",
+                "noun_size": "કદ",
+                "opacity": "પારદર્શકતા",
+                "order": "ક્રમ",
+                "position": "સ્થાન",
+                "rotation": "ફેરવવું",
+                "rotation_direction": "ફેરવવાની દિશા",
+                "scale": "સ્કેલ",
+                "smoothing": "સ્મૂધિંગ",
+                "to_noun": "{noun} સુધી",
+                "vertical": "ઊભું"
+            },
+            "mode": {
+                "arrives": "આગમન",
+                "departs": "પ્રસ્થાન",
+                "in": "ઇન",
+                "out": "આઉટ"
+            },
+            "panel": {
+                "animation": "એનિમેશન",
+                "animations_tab": "એનિમેશન",
+                "basic": "બેઝિક",
+                "changing_note": "બદલવા માટે વિકલ્પ પસંદ કરો. તે બદલાઈ રહેલા એનિમેશનની જગ્યા અને લંબાઈ લેશે.",
+                "corner_radius": "ખૂણાની ત્રિજ્યા",
+                "easing": "ઇઝિંગ",
+                "fade": "ફેડ",
+                "keyframe_tab": "કીફ્રેમ",
+                "layer_blur": "લેયર બ્લર",
+                "line_height": "લાઇનની ઊંચાઈ",
+                "more_options": "વધુ વિકલ્પો",
+                "motion": "મોશન",
+                "needs_one_element": "એનિમેશન પ્રીસેટ માટે એક એલિમેન્ટ જોઈએ. તે જોવા માટે એક જ લેયર પસંદ કરો.",
+                "paste_animation": "એનિમેશન પેસ્ટ કરો",
+                "scale": "સ્કેલ",
+                "slide": "સ્લાઇડ",
+                "stroke": "સ્ટ્રોક",
+                "text_animation": "ટેક્સ્ટ એનિમેશન"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "દેખાવ",
+                    "label": "દેખાવ"
+                },
+                "blur": {
+                    "label": "બ્લર થઈને આવો"
+                },
+                "blur_scale": {
+                    "caption": "બ્લર અને સ્કેલ",
+                    "label": "સ્કેલ સાથે બ્લર થઈને આવો"
+                },
+                "blur_slide": {
+                    "caption": "બ્લર અને સ્લાઇડ",
+                    "label": "સ્લાઇડ સાથે બ્લર થઈને આવો"
+                },
+                "fade": {
+                    "caption": "ફેડ",
+                    "label": "ફેડ"
+                },
+                "grow": {
+                    "caption": "પૉપ",
+                    "label": "પૉપ થઈને આવો"
+                },
+                "mask_center": {
+                    "caption": "માસ્ક સેન્ટર",
+                    "label": "કેન્દ્રમાંથી માસ્ક રિવીલ"
+                },
+                "mask_reveal": {
+                    "caption": "માસ્ક રિવીલ",
+                    "label": "ધારથી માસ્ક રિવીલ"
+                },
+                "mask_slide": {
+                    "caption": "માસ્ક અને સ્લાઇડ",
+                    "label": "સ્લાઇડ સાથે માસ્ક રિવીલ"
+                },
+                "move_scale": {
+                    "caption": "મૂવ અને સ્કેલ",
+                    "label": "મૂવ અને સ્કેલ કરીને આવો"
+                },
+                "rotate_left": {
+                    "label": "ડાબેથી ફેરવો"
+                },
+                "rotate_right": {
+                    "label": "જમણેથી ફેરવો"
+                },
+                "shrink": {
+                    "caption": "મોટું",
+                    "label": "મોટા થઈને આવો"
+                },
+                "slide": {
+                    "caption": "સ્લાઇડ",
+                    "label": "સ્લાઇડ કરીને આવો"
+                },
+                "slide_from_bottom": {
+                    "label": "નીચેથી સ્લાઇડ કરો"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "નીચે ડાબે",
+                    "label": "નીચે ડાબેથી સ્લાઇડ કરો"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "નીચે જમણે",
+                    "label": "નીચે જમણેથી સ્લાઇડ કરો"
+                },
+                "slide_from_left": {
+                    "label": "ડાબેથી સ્લાઇડ કરો"
+                },
+                "slide_from_right": {
+                    "label": "જમણેથી સ્લાઇડ કરો"
+                },
+                "slide_from_top": {
+                    "label": "ઉપરથી સ્લાઇડ કરો"
+                },
+                "slide_from_top_left": {
+                    "caption": "ઉપર ડાબે",
+                    "label": "ઉપર ડાબેથી સ્લાઇડ કરો"
+                },
+                "slide_from_top_right": {
+                    "caption": "ઉપર જમણે",
+                    "label": "ઉપર જમણેથી સ્લાઇડ કરો"
+                },
+                "spin": {
+                    "caption": "સ્પિન",
+                    "label": "સ્પિન થઈને આવો"
+                },
+                "spin_scale": {
+                    "caption": "સ્પિન અને સ્કેલ",
+                    "label": "સ્પિન અને સ્કેલ કરીને આવો"
+                },
+                "twist": {
+                    "caption": "ટ્વિસ્ટ",
+                    "label": "ટ્વિસ્ટ થઈને આવો"
+                }
+            },
+            "property": {
+                "change_text": "ટેક્સ્ટ બદલો",
+                "morph": "મૉર્ફ",
+                "move": "મૂવ",
+                "opacity": "પારદર્શકતા",
+                "scale": "સ્કેલ"
+            },
+            "section": {
+                "fade": "ફેડ",
+                "mask": "માસ્ક",
+                "scale": "સ્કેલ",
+                "slide": "સ્લાઇડ",
+                "transform": "ટ્રાન્સફોર્મ"
+            },
+            "text": {
+                "backward": "પાછળની તરફ",
+                "forward": "આગળની તરફ",
+                "letters": "અક્ષરો",
+                "summary_overlap": "દરેક {unit} પહેલાનો {percent}% પૂરો થાય ત્યારે શરૂ થાય છે.",
+                "summary_sequential": "દરેક {unit} આગળનો શરૂ થાય તે પહેલાં પૂરો થાય છે.",
+                "summary_together": "દરેક {unit} સાથે ચાલે છે.",
+                "summary_whole": "આખો ટેક્સ્ટ બ્લૉક એકસાથે એનિમેટ થાય છે.",
+                "words": "શબ્દો"
+            },
+            "type": {
+                "fade_in": "ફેડ ઇન",
+                "fade_out": "ફેડ આઉટ",
+                "line_height": "લાઇનની ઊંચાઈ",
+                "radius": "ત્રિજ્યા",
+                "resize_in": "રીસાઇઝ ઇન",
+                "resize_out": "રીસાઇઝ આઉટ",
+                "rotate_in": "રોટેટ ઇન",
+                "rotate_out": "રોટેટ આઉટ",
+                "scale_in": "સ્કેલ ઇન",
+                "scale_out": "સ્કેલ આઉટ",
+                "slide_in": "સ્લાઇડ ઇન",
+                "slide_out": "સ્લાઇડ આઉટ",
+                "spacing": "સ્પેસિંગ",
+                "stroke": "સ્ટ્રોક"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "આગળ વધવા માટે તમારો ફોટો ઉમેરો.",
+                    "gesture": {
+                        "frameDesktop": "સ્થાન બદલવા ખેંચો · ઝૂમ કરવા સ્ક્રોલ કરો",
+                        "frameMobile": "સ્થાન બદલવા ખેંચો, ઝૂમ કરવા પિંચ કરો",
+                        "handles": "ખૂણા અને બાજુઓથી કદ બદલો, ઉપરથી ફેરવો",
+                        "move": "ખસેડવા ખેંચો",
+                        "moveOrHandles": "ખસેડવા ખેંચો, અથવા હૅન્ડલ વાપરો",
+                        "resize": "કદ બદલવા ખૂણો અથવા બાજુ ખેંચો",
+                        "rotate": "ફેરવવા ઉપરનું હૅન્ડલ ખેંચો",
+                        "rotateDesktop": "રૂલર ખેંચો, અથવા ઍરો કી વાપરો",
+                        "rotateMobile": "ફેરવવા રૂલર ખેંચો"
+                    },
+                    "hint": {
+                        "pickDesktop": "ચિહ્નિત જગ્યા પર ક્લિક કરો, અથવા ડાબેથી લેયર પસંદ કરો",
+                        "pickMobile": "ચિહ્નિત જગ્યા પર ટેપ કરો, અથવા નીચેથી લેયર પસંદ કરો",
+                        "previewDesktop": "તમારી ડિઝાઇનનું પ્રીવ્યૂ દેખાય છે. એડિટ ચાલુ રાખવા તેના પર ક્લિક કરો.",
+                        "previewMobile": "તમારી ડિઝાઇનનું પ્રીવ્યૂ દેખાય છે. એડિટ ચાલુ રાખવા તેના પર ટેપ કરો."
+                    },
+                    "layer": {
+                        "addPhoto": "તમારો ફોટો ઉમેરો",
+                        "text": "ટેક્સ્ટ: {text}",
+                        "yourPhoto": "તમારો ફોટો",
+                        "yourText": "તમારો ટેક્સ્ટ"
+                    },
+                    "layers": {
+                        "all": "બધા લેયર",
+                        "photo": "ફોટો",
+                        "sheetDescription": "આ ડિઝાઇનમાં તમે બદલી શકો તે બધું.",
+                        "title": "લેયર"
+                    },
+                    "photoError": "અમે તે ફોટો વાપરી શક્યા નહીં. બીજી ઇમેજ અજમાવો.",
+                    "preview": {
+                        "backToEditing": "એડિટિંગ પર પાછા"
+                    },
+                    "rotation": {
+                        "aria": "ફેરવવું",
+                        "value": "one:# અંશ|other:# અંશ"
+                    },
+                    "tools": {
+                        "adjust": "એડજસ્ટ કરો",
+                        "aria": "લેયર ટૂલ્સ",
+                        "editText": "ટેક્સ્ટ એડિટ કરો",
+                        "flip": "ફ્લિપ કરો",
+                        "locked": "કદ અને સ્થાન ક્રિએટરે નક્કી કર્યા છે",
+                        "replace": "બદલો",
+                        "textAria": "ટેક્સ્ટ ટૂલ્સ",
+                        "zoomIn": "ઝૂમ ઇન",
+                        "zoomOut": "ઝૂમ આઉટ"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} ટાઇમલાઇનમાં ઉમેરાયું.",
+                "too_big": "{name} {limit} કરતાં મોટું છે.",
+                "too_long": "{name} {minutes} મિનિટથી લાંબું છે.",
+                "too_many": "એક સમયે માત્ર {count} ફાઇલ.",
+                "wrong_type": "{name} ઉમેરી શકાતું નથી — માત્ર ઇમેજ, વીડિયો અને SVG ફાઇલ."
+            }
+        },
+        "catalogue": {
+            "error_body": "તમારું કનેક્શન તપાસો, પછી ફરી પ્રયાસ કરો.",
+            "loading_more": "વધુ લોડ થઈ રહ્યું છે"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "ડ્રાફ્ટ રદ કરો",
+                "description_unsaved": "આ ડિઝાઇન સાચવેલી નથી. પાછા જવાથી તે કાયમ માટે કાઢી નંખાશે — લેયર, સ્ટાઇલ અને એનિમેશન સહિત.",
+                "title": "“{title}” ડ્રાફ્ટ રદ કરવો છે?"
+            },
+            "save": {
+                "description": "સાચવ્યા પછી એડિટિંગ ઉપલબ્ધ રહેશે નહીં.",
+                "saving": "સાચવી રહ્યા છીએ…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "સ્ક્રીનમાં ફિટ કરો"
+        },
+        "graphic_panel": {
+            "add": "{name} ઉમેરો",
+            "add_failed": "આ ગ્રાફિક ઉમેરી શકાયું નથી. ફરી પ્રયાસ કરો.",
+            "empty_body": "ટૂંકો કે સામાન્ય શબ્દ અજમાવો, જેમ કે તારો અથવા હૃદય.",
+            "empty_title": "“{query}” સાથે મેળ ખાતું કોઈ ગ્રાફિક નથી",
+            "error_title": "ગ્રાફિક્સ લોડ થઈ શક્યાં નથી",
+            "none_title": "બતાવવા માટે કોઈ ગ્રાફિક્સ નથી",
+            "search_label": "ગ્રાફિક્સ શોધો",
+            "search_placeholder": "ગ્રાફિક્સ શોધો"
+        },
+        "header": {
+            "redo": "રીડુ",
+            "saving": "સાચવી રહ્યા છીએ…",
+            "undo": "અનડુ",
+            "untitled_design": "શીર્ષક વિનાની ડિઝાઇન"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "ફોટો સ્લૉટ"
+            },
+            "menu": {
+                "align_center": "કેન્દ્ર",
+                "bring_forward": "આગળ લાવો",
+                "bring_to_front": "સૌથી આગળ લાવો",
+                "detach_image": "ઇમેજ અલગ કરો",
+                "flip_horizontal": "આડું ફ્લિપ",
+                "flip_vertical": "ઊભું ફ્લિપ",
+                "replace_image": "ઇમેજ બદલો",
+                "send_backward": "પાછળ મોકલો",
+                "send_to_back": "સૌથી પાછળ મોકલો",
+                "set_as_background_image": "બૅકગ્રાઉન્ડ ઇમેજ તરીકે સેટ કરો",
+                "set_as_background_video": "બૅકગ્રાઉન્ડ વીડિયો તરીકે સેટ કરો",
+                "set_background_as_image_layer": "બૅકગ્રાઉન્ડને ઇમેજ લેયર તરીકે સેટ કરો",
+                "set_background_as_video_layer": "બૅકગ્રાઉન્ડને વીડિયો લેયર તરીકે સેટ કરો",
+                "sheet_title": "લેયર વિકલ્પો",
+                "show_layers": "લેયર બતાવો"
+            },
+            "pill": {
+                "duplicate": "લેયર ડુપ્લિકેટ કરો",
+                "more": "લેયરની વધુ ક્રિયાઓ",
+                "remove": "લેયર દૂર કરો",
+                "toolbar": "લેયર ક્રિયાઓ"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "પેરિંગ કોડ તૈયાર: {code}. તે તમારા AI ક્લાયન્ટને આપો.",
+                "connecting": "પેરિંગ કોડ બનાવી રહ્યા છીએ.",
+                "failed": "કનેક્ટ થઈ શક્યું નહીં. {reason}",
+                "reconnecting": "કનેક્શન તૂટી ગયું. ફરી કનેક્ટ કરવાનો પ્રયાસ ચાલુ છે."
+            },
+            "clipboard_blocked": "તમારા બ્રાઉઝરે ક્લિપબોર્ડ બ્લૉક કર્યું. {hint}",
+            "connect": "કનેક્ટ કરો",
+            "connecting": "કનેક્ટ થઈ રહ્યું છે…",
+            "copied_address_announcement": "સર્વરનું સરનામું કૉપિ થયું",
+            "copied_code_announcement": "પેરિંગ કોડ કૉપિ થયો",
+            "copy_address_hint": "સરનામું પસંદ કરો અને જાતે કૉપિ કરો.",
+            "copy_code": "કોડ કૉપિ કરો",
+            "copy_code_hint": "કોડ પસંદ કરો અને જાતે કૉપિ કરો.",
+            "copy_server_address": "MCP સર્વરનું સરનામું કૉપિ કરો",
+            "disconnect": "ડિસ્કનેક્ટ કરો",
+            "error_fallback": "પેરિંગ સેવાએ જવાબ આપ્યો નહીં. તમારું કનેક્શન તપાસો અને ફરી પ્રયાસ કરો.",
+            "guide": {
+                "fresh_code": "કોડ કામ કરવાનું બંધ કરે તો ડિસ્કનેક્ટ દબાવો અને નવો કોડ મેળવવા ફરી કનેક્ટ કરો.",
+                "how_to_set_up": "આ કેવી રીતે સેટ કરવું",
+                "step_add_body": "નીચેનું સરનામું વાપરીને Twibbonize ને તમારા AI ક્લાયન્ટમાં ઉમેરો. Claude Code માં, આ ચલાવો",
+                "step_add_title": "Twibbonize ને તમારા AI ક્લાયન્ટમાં ઉમેરો",
+                "step_pair_body": "“Twibbonize એડિટર સાથે પેર કરો” કહો અને ઉપરનો કોડ આપો.",
+                "step_pair_title": "પેર કરવા કહો",
+                "where_to_paste": "આ કોડ ક્યાં પેસ્ટ કરવો?"
+            },
+            "lead": {
+                "code_ready_sentence": "તેને Claude માં પેસ્ટ કરો અને પેર કરવા કહો. Claude કામ કરે ત્યારે કૅનવાસ પેજની આસપાસ રિંગ દોરે છે.",
+                "code_ready_title": "આ કોડ તમારા AI ક્લાયન્ટને આપો",
+                "connecting_sentence": "આમાં થોડો સમય લાગે છે.",
+                "connecting_title": "પેરિંગ કોડ બનાવી રહ્યા છીએ",
+                "disconnected_sentence": "Claude Desktop અને Claude Code લેયર ઉમેરી શકે છે, ટેક્સ્ટ લખી શકે છે, એનિમેશન સેટ કરી શકે છે અને કૅનવાસ પર જે છે તે વાંચી શકે છે.",
+                "disconnected_title": "આ ડિઝાઇનમાં AI ક્લાયન્ટને લાવો",
+                "failed_title": "કનેક્ટ થઈ શક્યું નહીં",
+                "reconnecting_sentence": "તમારા AI ક્લાયન્ટ સાથેની લિંક તૂટી ગઈ. તેને પાછી લાવવાનો પ્રયાસ ચાલુ છે.",
+                "reconnecting_title": "ફરી કનેક્ટ થઈ રહ્યું છે",
+                "unavailable_sentence": "આ એડિટર બિલ્ડમાં કોઈ AI કનેક્શન કન્ફિગર કરેલું નથી, તેથી હજી કનેક્ટ કરવા જેવું કંઈ નથી.",
+                "unavailable_title": "અહીં MCP ચાલુ નથી"
+            },
+            "pairing_code_label": "પેરિંગ કોડ: {code}"
+        },
+        "media": {
+            "add_asset": "{name} ઉમેરો",
+            "dismiss_error": "બંધ કરો",
+            "empty_body": "નીચે ઇમેજ, વીડિયો અથવા ઑડિયો ફાઇલ ઉમેરો, તે આ સત્રના બાકીના સમય માટે અહીં રહેશે.",
+            "empty_narrowed_body": "તમે ઉમેરેલું બધું જોવા શોધ સાફ કરો અથવા બીજો પ્રકાર પસંદ કરો.",
+            "empty_narrowed_title": "કંઈ મેળ ખાતું નથી",
+            "empty_title": "હજી કંઈ અપલોડ થયું નથી",
+            "filter": {
+                "audio": "ઑડિયો",
+                "images": "ઇમેજ"
+            },
+            "filter_group_label": "મીડિયા પ્રકાર",
+            "make_an_image": "ઇમેજ બનાવો",
+            "make_image_unavailable": "ઇમેજ જનરેટ કરવી હજી ઉપલબ્ધ નથી",
+            "search_placeholder": "મીડિયા શોધો",
+            "upload_button": "ઇમેજ, વીડિયો અથવા ઑડિયો અપલોડ કરો",
+            "uploads_heading": "અપલોડ"
+        },
+        "page_bar": {
+            "group_label": "ઝૂમ કંટ્રોલ્સ",
+            "zoom_menu": "ઝૂમ લેવલ, {percent}%"
+        },
+        "panel": {
+            "loading": "{panel} લોડ થઈ રહ્યું છે…"
+        },
+        "photo": {
+            "add_by": "{name} નો ફોટો ઉમેરો",
+            "add_described": "ફોટો ઉમેરો: {description}",
+            "credit": "ફોટા પૂરા પાડનાર",
+            "empty_body": "ટૂંકો કે સામાન્ય શબ્દ અજમાવો, જેમ કે બીચ અથવા શહેર.",
+            "empty_title": "“{query}” સાથે મેળ ખાતો કોઈ ફોટો નથી",
+            "error_title": "ફોટા લોડ થઈ શક્યા નથી",
+            "none_title": "બતાવવા માટે કોઈ ફોટા નથી",
+            "search_label": "ફોટા શોધો",
+            "search_placeholder": "ફોટા શોધો"
+        },
+        "qr": {
+            "add_logo": "લોગો ઉમેરો",
+            "add_to_design": "ડિઝાઇનમાં ઉમેરો",
+            "background_colour_label": "બૅકગ્રાઉન્ડનો રંગ",
+            "code_colour_label": "કોડનો રંગ",
+            "code_label": "કોડ",
+            "link_input_label": "QR કોડ લિંક",
+            "link_label": "લિંક",
+            "logo_fallback_name": "લોગો ઇમેજ",
+            "logo_label": "લોગો",
+            "remove_logo": "લોગો દૂર કરો"
+        },
+        "rail": {
+            "aria_label": "ડિઝાઇન લાઇબ્રેરી",
+            "graphic": "ગ્રાફિક્સ",
+            "help": "મદદ",
+            "layers": "લેયર",
+            "mcp": "MCP",
+            "media": "મીડિયા",
+            "photo": "ફોટા",
+            "qr_code": "QR કોડ",
+            "shapes": "આકારો",
+            "templates": "ટેમ્પ્લેટ",
+            "textures": "ટેક્સ્ચર",
+            "tools": "ટૂલ્સ"
+        },
+        "save": {
+            "failed": "તમારી ડિઝાઇન સાચવી શકાઈ નથી. ફરી પ્રયાસ કરો."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "બ્રાઇટનેસ",
+                "compare": "મૂળ સાથે સરખામણી કરો",
+                "contrast": "કૉન્ટ્રાસ્ટ",
+                "grayscale": "ગ્રેસ્કેલ",
+                "group": {
+                    "basic": "બેઝિક",
+                    "refinements": "રિફાઇનમેન્ટ્સ"
+                },
+                "hue_rotate": "હ્યુ રોટેટ",
+                "reset": "એડજસ્ટમેન્ટ્સ રીસેટ કરો",
+                "saturation": "સેચ્યુરેશન",
+                "title": "એડજસ્ટમેન્ટ્સ"
+            },
+            "color": {
+                "trigger": "રંગ"
+            },
+            "common": {
+                "layer_blur": "લેયર બ્લર",
+                "layer_blur_stepper": "લેયર બ્લર"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "ફ્રી ફોર્મ",
+                    "landscape": "લેન્ડસ્કેપ",
+                    "original": "મૂળ",
+                    "portrait": "પોર્ટ્રેટ",
+                    "square": "ચોરસ",
+                    "story": "સ્ટોરી",
+                    "widescreen": "વાઇડસ્ક્રીન"
+                },
+                "shape": {
+                    "circle": "વર્તુળ",
+                    "diamond": "ડાયમંડ",
+                    "half_circle": "અર્ધવર્તુળ",
+                    "oval": "અંડાકાર",
+                    "parallelogram": "સમાંતરભુજ ચતુષ્કોણ",
+                    "rounded": "ગોળાકાર"
+                }
+            },
+            "filter": {
+                "cool": "કૂલ",
+                "duotone": "ડ્યુઓટોન",
+                "mono": "મોનો",
+                "original": "મૂળ",
+                "vivid": "વિવિડ",
+                "warm": "વૉર્મ"
+            },
+            "font_weight": {
+                "black": "બ્લૅક",
+                "extra_bold": "એક્સ્ટ્રાબોલ્ડ",
+                "extra_light": "એક્સ્ટ્રાલાઇટ",
+                "medium": "મીડિયમ",
+                "regular": "રેગ્યુલર",
+                "semibold": "સેમીબોલ્ડ",
+                "thin": "થિન"
+            },
+            "frame": {
+                "colour": "ફ્રેમનો રંગ"
+            },
+            "green_screen": {
+                "choose_colour": "રંગ પસંદ કરો",
+                "colour": "રંગ",
+                "compare": "મૂળ સાથે સરખામણી કરો",
+                "eyedropper": "કૅનવાસ પરથી રંગ પસંદ કરો",
+                "key_colour": "કી કલર {hex}",
+                "loose": "ઢીલું",
+                "nothing_found": "બૅકગ્રાઉન્ડનો રંગ મળ્યો નથી.",
+                "precise": "ચોક્કસ",
+                "preset": {
+                    "bright_blue": "તેજસ્વી વાદળી",
+                    "bright_green": "તેજસ્વી લીલો",
+                    "chroma_blue": "ક્રોમા બ્લૂ",
+                    "chroma_green": "ક્રોમા ગ્રીન"
+                },
+                "presets": "સામાન્ય બૅકડ્રૉપ રંગો",
+                "remove": "ગ્રીન સ્ક્રીન દૂર કરો",
+                "title": "ગ્રીન સ્ક્રીન"
+            },
+            "image": {
+                "corner_radius": "ખૂણાની ત્રિજ્યા",
+                "corner_radius_stepper": "ખૂણાની ત્રિજ્યા",
+                "per_corner": "દરેક ખૂણો અલગથી એડિટ કરો",
+                "per_corner_unavailable": "દરેક ખૂણો અલગથી એડિટ કરવું હજી ઉપલબ્ધ નથી"
+            },
+            "keypad": {
+                "value_field": "{label} મૂલ્ય"
+            },
+            "line": {
+                "colour": "લાઇનનો રંગ",
+                "style": {
+                    "dots": "ટપકાં",
+                    "long_dashes": "લાંબા ડૅશ",
+                    "short_dashes": "ટૂંકા ડૅશ",
+                    "solid": "ઘન"
+                },
+                "style_trigger": "લાઇન સ્ટાઇલ: {style}",
+                "weight": "લાઇનની જાડાઈ",
+                "weight_trigger": "લાઇનની જાડાઈ {weight}"
+            },
+            "media": {
+                "heading": "મીડિયા"
+            },
+            "page": {
+                "size_capped": "મહત્તમ {max} px — ગુણોત્તર જળવાશે"
+            },
+            "pages": {
+                "title": "પેજ"
+            },
+            "photo_slot": {
+                "enable": "ફોટો સ્લૉટ તરીકે વાપરો",
+                "key_field": "કી (અનન્ય)",
+                "key_required": "કી જરૂરી છે",
+                "key_taken": "આ કી બીજા સ્લૉટ દ્વારા વપરાયેલી છે",
+                "label_field": "લેબલ (એન્ડ યુઝરને દેખાશે)",
+                "on": "ફોટો સ્લૉટ",
+                "remove": "ફોટો સ્લૉટ દૂર કરો"
+            },
+            "qr": {
+                "add_logo": "લોગો ઉમેરો",
+                "background_colour": "બૅકગ્રાઉન્ડનો રંગ",
+                "code": "કોડ",
+                "code_colour": "કોડનો રંગ",
+                "link": "લિંક",
+                "link_input": "QR કોડ લિંક",
+                "logo": "લોગો",
+                "remove_logo": "લોગો દૂર કરો"
+            },
+            "root": {
+                "background_image": "બૅકગ્રાઉન્ડ ઇમેજ",
+                "edit_background": "બૅકગ્રાઉન્ડ ઇમેજ એડિટ કરો",
+                "fill": "ફિલ",
+                "fill_gradient": "ગ્રેડિએન્ટ",
+                "page_height": "પેજની ઊંચાઈ",
+                "page_width": "પેજની પહોળાઈ",
+                "ratio_lock": "એસ્પેક્ટ રેશિયો લૉક કરો",
+                "ratio_unlock": "એસ્પેક્ટ રેશિયો અનલૉક કરો",
+                "rotate_left": "બૅકગ્રાઉન્ડ ડાબે ફેરવો",
+                "rotate_right": "બૅકગ્રાઉન્ડ જમણે ફેરવો"
+            },
+            "scalar": {
+                "clip_length": "લંબાઈ",
+                "corner_radius": "ખૂણાની ત્રિજ્યા",
+                "font_size": "ફોન્ટ સાઇઝ",
+                "layer_blur": "લેયર બ્લર",
+                "letter_spacing": "અક્ષર સ્પેસિંગ",
+                "line_height": "લાઇનની ઊંચાઈ",
+                "opacity": "પારદર્શકતા",
+                "speed": "સ્પીડ",
+                "stroke_width": "સ્ટ્રોકની પહોળાઈ",
+                "volume": "વૉલ્યુમ"
+            },
+            "shape": {
+                "corner_radius": "ખૂણાની ત્રિજ્યા",
+                "corner_radius_stepper": "ખૂણાની ત્રિજ્યા",
+                "fill": "ફિલ",
+                "fill_gradient": "ગ્રેડિએન્ટ",
+                "fill_mixed": "મિશ્ર",
+                "fill_transparent": "પારદર્શક",
+                "stroke": "સ્ટ્રોક",
+                "stroke_color": "સ્ટ્રોકનો રંગ",
+                "stroke_style": {
+                    "dots": "ટપકાં",
+                    "long_dashes": "લાંબા ડૅશ",
+                    "short_dashes": "ટૂંકા ડૅશ",
+                    "solid": "ઘન"
+                },
+                "stroke_style_select": "સ્ટ્રોક સ્ટાઇલ",
+                "stroke_transparent": "પારદર્શક",
+                "stroke_weight": "સ્ટ્રોકની જાડાઈ"
+            },
+            "svg": {
+                "path_colour": "રંગ {index}"
+            },
+            "swatch": {
+                "more_colours": "વધુ રંગો"
+            },
+            "text": {
+                "align": {
+                    "justify": "જસ્ટિફાઇ"
+                },
+                "alignment": "એલાઇનમેન્ટ",
+                "edit_text": "ટેક્સ્ટ એડિટ કરો",
+                "font_family": "ફોન્ટ ફૅમિલી",
+                "font_family_select": "ફોન્ટ ફૅમિલી",
+                "font_size": "ફોન્ટ સાઇઝ",
+                "italic_unavailable": "આ ફોન્ટમાં આ વેઇટ પર ઇટાલિક નથી",
+                "letter_spacing_stepper": "અક્ષર સ્પેસિંગ",
+                "line_height": "લાઇનની ઊંચાઈ",
+                "line_height_stepper": "લાઇનની ઊંચાઈ",
+                "list": "યાદી",
+                "list_bulleted": "બુલેટ યાદી",
+                "list_numbered": "ક્રમાંકિત યાદી",
+                "list_style": "યાદીની સ્ટાઇલ",
+                "text_case": "ટેક્સ્ટ કેસ",
+                "text_color": "ટેક્સ્ટનો રંગ",
+                "text_style": "ટેક્સ્ટ સ્ટાઇલ",
+                "weight": "વેઇટ"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "નીચે એલાઇન કરો",
+                    "center_x": "આડું કેન્દ્ર એલાઇન કરો",
+                    "center_y": "ઊભું કેન્દ્ર એલાઇન કરો",
+                    "left": "ડાબે એલાઇન કરો",
+                    "right": "જમણે એલાઇન કરો",
+                    "top": "ઉપર એલાઇન કરો"
+                },
+                "align_to_page": "પેજ પ્રમાણે એલાઇન કરો",
+                "opacity": "પારદર્શકતા",
+                "position": "સ્થાન",
+                "position_x": "સ્થાન X",
+                "position_y": "સ્થાન Y",
+                "rotation": "ફેરવવું",
+                "scale": "સ્કેલ"
+            },
+            "video": {
+                "adjust": "એડજસ્ટ કરો",
+                "audio": "ઑડિયો",
+                "clip_runs": "ક્લિપ {length} ચાલે છે",
+                "corner_radius": "ખૂણાની ત્રિજ્યા",
+                "corner_radius_stepper": "ખૂણાની ત્રિજ્યા",
+                "green_screen": "ગ્રીન સ્ક્રીન",
+                "loop": "ડિઝાઇન પૂરી થાય ત્યાં સુધી લૂપ કરો",
+                "mute": "મ્યૂટ કરો",
+                "muted": "મ્યૂટ",
+                "no_audio": "આ વીડિયોમાં ઑડિયો નથી.",
+                "playback": "પ્લેબૅક",
+                "replace": "વીડિયો બદલો",
+                "speed": "સ્પીડ",
+                "speed_custom_input": "કસ્ટમ પ્લેબૅક સ્પીડ",
+                "speed_presets": "પ્લેબૅક સ્પીડ",
+                "speed_range": "{min}× અને {max}× વચ્ચે",
+                "tools": "ટૂલ્સ",
+                "unmute": "અનમ્યૂટ કરો",
+                "volume": "વૉલ્યુમ",
+                "volume_level": "વૉલ્યુમ લેવલ"
+            }
+        },
+        "shape_preset": {
+            "arrow": "ઍરો",
+            "arrow_down": "નીચેનો ઍરો",
+            "arrow_left": "ડાબો ઍરો",
+            "arrow_pentagon": "પેન્ટાગોન ઍરો",
+            "arrow_right": "જમણો ઍરો",
+            "arrow_up": "ઉપરનો ઍરો",
+            "chevron": "શેવરોન",
+            "circle": "વર્તુળ",
+            "cross": "ક્રોસ",
+            "diamond": "ડાયમંડ",
+            "hexagon": "ષટ્કોણ",
+            "hexagon_wide": "પહોળો ષટ્કોણ",
+            "line": "લાઇન",
+            "octagon": "અષ્ટકોણ",
+            "parallelogram": "સમાંતરભુજ ચતુષ્કોણ",
+            "parallelogram_mirrored": "ઊલટો સમાંતરભુજ ચતુષ્કોણ",
+            "pentagon": "પંચકોણ",
+            "square": "ચોરસ",
+            "trapezoid": "સમલંબ ચતુષ્કોણ",
+            "trapezoid_upside_down": "ઊલટો સમલંબ ચતુષ્કોણ",
+            "triangle": "ત્રિકોણ",
+            "triangle_upside_down": "ઊલટો ત્રિકોણ"
+        },
+        "shapes_panel": {
+            "basic": "બેઝિક",
+            "lines": "લાઇન અને ઍરો"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "કીફ્રેમ ઉમેરો",
+                "back_to_animations": "એનિમેશન પર પાછા",
+                "basic": "બેઝિક",
+                "basic_opacity": "પારદર્શકતા",
+                "basic_position": "સ્થાન",
+                "basic_rotation": "ફેરવવું",
+                "basic_scale": "સ્કેલ",
+                "keyframe": "કીફ્રેમ",
+                "pick_property_hint": "કીફ્રેમ કરવાની પ્રોપર્ટી પસંદ કરો. એક પર ટેપ કરવાથી શીટ બંધ થાય છે અને તેની પૅનલ ખુલે છે, જેમાં કીફ્રેમ પ્લેહેડ પર લેયરના હાલના મૂલ્ય સાથે પહેલેથી મૂકેલી હોય છે.",
+                "presets_need_one": "એનિમેશન પ્રીસેટ માટે એક એલિમેન્ટ જોઈએ. તે જોવા માટે એક જ લેયર પસંદ કરો.",
+                "title": "એનિમેટ કરો"
+            },
+            "easing": {
+                "title": "ઇઝિંગ"
+            },
+            "font_weight": {
+                "title": "ફોન્ટ વેઇટ"
+            },
+            "speed": {
+                "title": "સ્પીડ"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "ડિફૉલ્ટ રંગો",
+                "eyedropper": "સ્ક્રીન પરથી રંગ પસંદ કરો",
+                "eyedropper_unsupported": "તમારું બ્રાઉઝર આઇડ્રૉપરને સપોર્ટ કરતું નથી",
+                "fill_linear": "લિનિયર",
+                "fill_radial": "રેડિયલ",
+                "fill_solid": "સૉલિડ",
+                "fill_type": "ફિલનો પ્રકાર",
+                "gradients_in_design": "ડિઝાઇનમાંના ગ્રેડિએન્ટ્સ",
+                "hex": "હેક્સ કલર",
+                "in_design": "ડિઝાઇનમાં",
+                "title": "ફિલનો રંગ",
+                "use_color": "{color} વાપરો",
+                "use_gradient": "{style} ગ્રેડિએન્ટ વાપરો",
+                "use_transparent": "પારદર્શક"
+            },
+            "crop": {
+                "adjust_shape": "ક્રૉપનો આકાર એડજસ્ટ કરો",
+                "aspect": "એસ્પેક્ટ",
+                "framing": "ફ્રેમિંગ",
+                "framing_hint": "ફોટો ફરી ફ્રેમ કરવા ખેંચો, અથવા ક્રૉપ વિન્ડોનું કદ બદલવા ખૂણો ખેંચો. ઝૂમ કરવા સ્ક્રોલ કરો.",
+                "scale": "સ્કેલ"
+            },
+            "filters": {
+                "show_earlier": "પહેલાંના ફિલ્ટર બતાવો",
+                "show_more": "વધુ ફિલ્ટર બતાવો",
+                "swatch": "{label} રંગ: {color}",
+                "title": "ફિલ્ટર"
+            },
+            "font": {
+                "all_fonts": "બધા ફોન્ટ",
+                "applying": "ફોન્ટ લાગુ થઈ રહ્યો છે",
+                "back": "ટેક્સ્ટ વિકલ્પો પર પાછા",
+                "clear_search": "શોધ સાફ કરો",
+                "clear_search_action": "શોધ સાફ કરો",
+                "in_this_design": "આ ડિઝાઇનમાં",
+                "no_match": "“{query}” સાથે મેળ ખાતો કોઈ ફોન્ટ નથી",
+                "no_match_hint": "Twibbonize Google Fonts કૅટલૉગમાંથી ફોન્ટ લે છે, અને આ ફૅમિલી તેમાં નથી. ટૂંકો શોધ શબ્દ અજમાવો.",
+                "search_label": "ફોન્ટ ફૅમિલી શોધો",
+                "search_placeholder": "ફોન્ટ શોધો",
+                "title": "ફોન્ટ ફૅમિલી",
+                "weight": "ફોન્ટ વેઇટ"
+            },
+            "gradient": {
+                "add_stop": "ગ્રેડિએન્ટ સ્ટૉપ ઉમેરો",
+                "angle": "ખૂણો",
+                "angle_dial": "ગ્રેડિએન્ટ ખૂણો, {degrees} અંશ. બદલવા ખેંચો",
+                "angle_dial_hint": "ગ્રેડિએન્ટ ખૂણો બદલવા ખેંચો",
+                "angle_input": "અંશમાં ગ્રેડિએન્ટ ખૂણો",
+                "centre_unsupported": "ગ્રેડિએન્ટનું કેન્દ્ર રેન્ડરર હજી સપોર્ટ કરતું નથી",
+                "stop": "ગ્રેડિએન્ટ સ્ટૉપ {index}, {percent}% પર, {color}",
+                "stop_hint": "ખસેડવા ખેંચો, દૂર કરવા ડબલ-ક્લિક કરો"
+            },
+            "image": {
+                "adjustment": "એડજસ્ટમેન્ટ",
+                "adjustments": "એડજસ્ટમેન્ટ્સ",
+                "back_to_edit": "એડિટ ટૅબ પર પાછા",
+                "background_removal": "બૅકગ્રાઉન્ડ દૂર કરવું",
+                "compare": "મૂળ સાથે સરખામણી કરો",
+                "removing": "દૂર કરી રહ્યા છીએ…",
+                "removing_background": "બૅકગ્રાઉન્ડ દૂર કરી રહ્યા છીએ",
+                "reset_adjustments": "એડજસ્ટમેન્ટ્સ રીસેટ કરો",
+                "tools": "ટૂલ્સ"
+            },
+            "keyframe": {
+                "add": "કીફ્રેમ ઉમેરો",
+                "add_at_playhead": "પ્લેહેડ પર {property} કીફ્રેમ ઉમેરો",
+                "add_at_playhead_short": "પ્લેહેડ પર કીફ્રેમ ઉમેરો",
+                "add_lane_at_playhead": "પ્લેહેડ પર {lane} કીફ્રેમ ઉમેરો",
+                "add_property": "એનિમેટ કરવા પ્રોપર્ટી ઉમેરો",
+                "all_lanes_added": "આ લેયરની કીફ્રેમ કરી શકાય તેવી દરેક પ્રોપર્ટીની લેન પહેલેથી છે",
+                "delete": "આ કીફ્રેમ કાઢી નાખો",
+                "diamond": "{lane} કીફ્રેમ {seconds}s પર",
+                "easing": "ઇઝિંગ",
+                "easing_caps": "ઇઝિંગ",
+                "first_no_easing": "પહેલી કીફ્રેમમાં ઇઝિંગ હોતું નથી",
+                "hex": "હેક્સ કલર",
+                "layer_blur": "લેયર બ્લર",
+                "letter_spacing": "અક્ષર સ્પેસિંગ",
+                "line_height": "લાઇનની ઊંચાઈ",
+                "opacity": "પારદર્શકતા",
+                "opacity_percent": "પારદર્શકતાની ટકાવારી",
+                "position_x": "સ્થાન X",
+                "position_y": "સ્થાન Y",
+                "radius_bottom_left": "નીચે ડાબા ખૂણાની ત્રિજ્યા",
+                "radius_bottom_right": "નીચે જમણા ખૂણાની ત્રિજ્યા",
+                "radius_top_left": "ઉપર ડાબા ખૂણાની ત્રિજ્યા",
+                "radius_top_right": "ઉપર જમણા ખૂણાની ત્રિજ્યા",
+                "remove": "કીફ્રેમ દૂર કરો",
+                "remove_at_playhead": "પ્લેહેડ પરની {property} કીફ્રેમ દૂર કરો",
+                "rotation": "ફેરવવું",
+                "scale": "સ્કેલ",
+                "shadow_blur": "શૅડો બ્લર",
+                "shadow_color": "શૅડોનો રંગ",
+                "shadow_offset_x": "શૅડો ઑફસેટ X",
+                "shadow_offset_y": "શૅડો ઑફસેટ Y",
+                "shadow_spread": "શૅડો સ્પ્રેડ",
+                "stroke_color": "સ્ટ્રોકનો રંગ",
+                "stroke_weight": "સ્ટ્રોકની જાડાઈ"
+            },
+            "layer": {
+                "page_background": "પેજ બૅકગ્રાઉન્ડ",
+                "tab_animate": "એનિમેટ કરો",
+                "tabs_label": "લેયર પૅનલ",
+                "title": "લેયર"
+            },
+            "page_preset": {
+                "group_label": "કૅનવાસ સાઇઝ પ્રીસેટ્સ",
+                "landscape": "લેન્ડસ્કેપ",
+                "portrait": "પોર્ટ્રેટ",
+                "square": "ચોરસ",
+                "story": "સ્ટોરી",
+                "tile_aria": "{name}, {width} બાય {height} પિક્સેલ"
+            },
+            "personalization": {
+                "act_as_placeholder": "પ્લેસહોલ્ડર તરીકે કામ કરે",
+                "allow_adjust_framing": "ફ્રેમિંગ એડજસ્ટ કરવા દો",
+                "allow_adjust_framing_hint": "સમર્થકો ફ્રેમની અંદર પોતાનો ફોટો ઝૂમ અને મૂવ કરી શકે છે.",
+                "allow_change_adjustments": "એડજસ્ટમેન્ટ્સ બદલવા દો",
+                "allow_change_adjustments_hint": "સમર્થકો બ્રાઇટનેસ, કૉન્ટ્રાસ્ટ અને અન્ય એડજસ્ટમેન્ટ્સ બદલી શકે છે.",
+                "allow_change_effect": "ઇફેક્ટ બદલવા દો",
+                "allow_change_effect_hint": "સમર્થકો આ લેયર માટે બીજી ઇફેક્ટ પસંદ કરી શકે છે.",
+                "allow_change_filter": "ફિલ્ટર બદલવા દો",
+                "allow_change_filter_hint": "સમર્થકો આ લેયર માટે બીજું ફિલ્ટર પસંદ કરી શકે છે.",
+                "allow_edit_text": "ટેક્સ્ટ એડિટ કરવા દો",
+                "allow_edit_text_hint": "સમર્થકો આ ટેક્સ્ટમાં પોતાના શબ્દો લખી શકે છે.",
+                "allow_flip": "ફ્લિપ કરવા દો",
+                "allow_flip_hint": "સમર્થકો આ લેયરને મિરર કરી શકે છે.",
+                "allow_move": "મૂવ કરવા દો",
+                "allow_move_hint": "સમર્થકો આ લેયરને ખેંચીને નવી જગ્યાએ મૂકી શકે છે.",
+                "allow_replace_media": "મીડિયા બદલવા દો",
+                "allow_replace_media_hint": "સમર્થકો આ ઇમેજની જગ્યાએ પોતાનો ફોટો મૂકી શકે છે.",
+                "allow_resize": "રીસાઇઝ કરવા દો",
+                "allow_resize_hint": "સમર્થકો ખૂણા અને બાજુઓ ખેંચીને આ લેયરનું કદ બદલી શકે છે.",
+                "allow_rotate": "રોટેટ કરવા દો",
+                "allow_rotate_hint": "સમર્થકો આ લેયરને કોઈપણ ખૂણે ફેરવી શકે છે.",
+                "group_appearance": "દેખાવ",
+                "group_arrange": "ગોઠવણ",
+                "group_media": "મીડિયા",
+                "placeholder_hint": "ખાલી સ્લૉટ બતાવે છે, જેના પર ટેપ કરીને સમર્થકો પોતાનો ફોટો ઉમેરી શકે છે.",
+                "remove_background": "તેમના ફોટામાંથી બૅકગ્રાઉન્ડ દૂર કરો",
+                "remove_background_hint": "સમર્થકને તેમના ફોટામાંથી અલગ કરે છે, જેથી તમારી ડિઝાઇન તેમની આસપાસ દેખાય.",
+                "text_placeholder_hint": "આ ટેક્સ્ટ નમૂના તરીકે બતાવે છે, જેને સમર્થકો પોતાના ટેક્સ્ટથી બદલે છે."
+            },
+            "shape_effect": {
+                "colour": "ઇફેક્ટનો રંગ",
+                "distance": "અંતર",
+                "echo": "ઇકો",
+                "first_color": "પહેલો રંગ",
+                "first_colour": "પહેલો ઇફેક્ટ રંગ",
+                "glitch": "ગ્લિચ",
+                "glow": "ગ્લો",
+                "group_label": "શેપ ઇફેક્ટ",
+                "second_color": "બીજો રંગ",
+                "second_colour": "બીજો ઇફેક્ટ રંગ",
+                "section": "ઇફેક્ટ",
+                "shadow": "ડ્રૉપ શૅડો"
+            },
+            "text_effect": {
+                "colour": "ઇફેક્ટનો રંગ",
+                "curve": "કર્વ",
+                "distance": "અંતર",
+                "echo": "ઇકો",
+                "glow": "ગ્લો",
+                "group_label": "ટેક્સ્ટ ઇફેક્ટ",
+                "outline": "આઉટલાઇન",
+                "section": "ઇફેક્ટ",
+                "shape_group_label": "ટેક્સ્ટ શેપ",
+                "splice": "સ્પ્લાઇસ",
+                "title": "ટેક્સ્ટ ઇફેક્ટ્સ"
+            }
+        },
+        "templates": {
+            "empty_body": "ટૂંકો કે સામાન્ય શબ્દ અજમાવો.",
+            "empty_title": "“{query}” સાથે મેળ ખાતું કોઈ ટેમ્પ્લેટ નથી",
+            "error_title": "ટેમ્પ્લેટ્સ લોડ થઈ શક્યા નથી",
+            "none_body": "થીમ શોધો, જેમ કે જન્મદિવસ અથવા ગ્રૅજ્યુએશન.",
+            "none_title": "આ ડિઝાઇન માટે હજી કોઈ ટેમ્પ્લેટ નથી",
+            "search_label": "ટેમ્પ્લેટ શોધો",
+            "search_placeholder": "ટેમ્પ્લેટ શોધો"
+        },
+        "text_panel": {
+            "add_template": "ટેક્સ્ટ ટેમ્પ્લેટ ઉમેરો: {name}",
+            "add_text_box": "ટેક્સ્ટ બૉક્સ ઉમેરો",
+            "empty_body": "ટૂંકો કે સામાન્ય શબ્દ અજમાવો.",
+            "empty_title": "“{query}” સાથે મેળ ખાતું કોઈ ટેક્સ્ટ ટેમ્પ્લેટ નથી",
+            "error_title": "ટેક્સ્ટ ટેમ્પ્લેટ્સ લોડ થઈ શક્યા નથી",
+            "none_body": "તેના બદલે સાદા ટેક્સ્ટ બૉક્સથી શરૂઆત કરો.",
+            "none_title": "બતાવવા માટે કોઈ ટેક્સ્ટ ટેમ્પ્લેટ્સ નથી",
+            "search_label": "ટેક્સ્ટ ટેમ્પ્લેટ શોધો",
+            "search_placeholder": "ટેક્સ્ટ ટેમ્પ્લેટ શોધો"
+        },
+        "text_preset": {
+            "seed": "તમારો ટેક્સ્ટ અહીં ઉમેરો"
+        },
+        "textures": {
+            "apply_texture": "{name} લાગુ કરો",
+            "category": {
+                "fabric": "ફૅબ્રિક",
+                "grain": "ગ્રેન",
+                "grunge": "ગ્રન્જ",
+                "paper": "પેપર",
+                "print": "પ્રિન્ટ"
+            },
+            "category_group_label": "ટેક્સ્ચર શ્રેણી",
+            "empty_body": "અમે આ લાઇબ્રેરી બનાવી રહ્યા છીએ — જલદી ફરી જુઓ.",
+            "empty_title": "ટેક્સ્ચર હજી અહીં નથી",
+            "most_used": "સૌથી વધુ વપરાયેલા",
+            "search_placeholder": "ટેક્સ્ચર શોધો"
+        },
+        "timeline": {
+            "audio": {
+                "add": "ઑડિયો ઉમેરો",
+                "add_tooltip": "બૅકગ્રાઉન્ડ ઑડિયો ટ્રૅક ઉમેરો",
+                "bar_aria": "{name}, {start} પર, {duration} માટે",
+                "decoding": "ઑડિયો ડિકોડ થઈ રહ્યો છે…",
+                "decoding_waveform": "વેવફૉર્મ ડિકોડ થઈ રહ્યો છે…",
+                "default_name": "ઑડિયો",
+                "drop_to_add": "ઑડિયો ઉમેરવા અહીં છોડો",
+                "kind_suffix": "· ઑડિયો",
+                "mute": "ટ્રૅક મ્યૂટ કરો",
+                "unmute": "ટ્રૅક અનમ્યૂટ કરો",
+                "volume": "ટ્રૅક વૉલ્યુમ",
+                "waveform_error": "આ ટ્રૅકનો વેવફૉર્મ લોડ થઈ શક્યો નથી."
+            },
+            "keyframe": {
+                "add": "કીફ્રેમ ઉમેરો",
+                "add_at_playhead": "પ્લેહેડ પર કીફ્રેમ ઉમેરો",
+                "add_tooltip": "આ લેયરની પ્રોપર્ટીની કીફ્રેમ કરો",
+                "diamond_aria": "{lane} કીફ્રેમ {time} પર",
+                "diamond_hint": " · સમય બદલવા ખેંચો, કાઢી નાખવા રાઇટ-ક્લિક કરો",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "ખૂણાની ત્રિજ્યા",
+                    "layer_blur": "લેયર બ્લર",
+                    "line_height": "લાઇનની ઊંચાઈ",
+                    "opacity": "પારદર્શકતા",
+                    "position": "સ્થાન",
+                    "rotation": "ફેરવવું",
+                    "scale": "સ્કેલ",
+                    "stroke": "સ્ટ્રોક"
+                },
+                "remove_lane": "{lane} કીફ્રેમ દૂર કરો",
+                "remove_lane_from_layer": "{layer} માંથી {lane} કીફ્રેમ દૂર કરો",
+                "segment_easing_aria": "{from} અને {to} વચ્ચે {lane} ટાઇમિંગ ફંક્શન, હાલમાં {easing}",
+                "segment_easing_title": "ટાઇમિંગ ફંક્શન · {easing}",
+                "welded_aria": ", લેયરની ધાર સાથે જોડાયેલું",
+                "welded_title": " · લેયરની ધાર સાથે જોડાયેલું"
+            },
+            "menu": {
+                "repeat_until_end": "અંત સુધી પુનરાવર્તન કરો"
+            },
+            "track": {
+                "bar_aria": "{name}, {start} પર, {duration} માટે",
+                "bar_aria_end_glued": ", અંત લેયર સાથે જોડાયેલો",
+                "bar_aria_start_glued": ", શરૂઆત લેયર સાથે જોડાયેલી",
+                "bar_tooltip": "{name} · {start} પર {duration}ms માટે · ખસેડવા ખેંચો, કદ બદલવા ધાર ખેંચો (Alt = સ્નૅપ નહીં)",
+                "bar_tooltip_sole": " · આ ધાર ખેંચવાથી લેયર ખસે છે",
+                "clip_aria": "{name} ક્લિપ",
+                "clip_tooltip": "સમયમાં લેયર ખસેડવા ખેંચો · ટ્રિમ કરવા છેડો ખેંચો (Alt = સ્નૅપ નહીં)",
+                "collapse": "સંકેલો",
+                "collapse_all": "બધા લેયર સંકેલો",
+                "collapse_named": "{name} સંકેલો",
+                "delete_layer": "લેયર કાઢી નાખો",
+                "delete_named": "{name} કાઢી નાખો",
+                "ends_at": "પૂરું થાય છે",
+                "expand": "વિસ્તારો",
+                "expand_named": "{name} વિસ્તારો",
+                "hidden_lane_one": "{count} છુપાયેલી લેન",
+                "hidden_lane_other": "{count} છુપાયેલી લેન",
+                "hide": "છુપાવો",
+                "hide_named": "{name} છુપાવો",
+                "lane_reorder_tooltip": "ક્રમ બદલવા ખેંચો — જ્યાં એનિમેશન ઓવરલૅપ થાય ત્યાં ઉપરની લેન લાગુ થાય છે",
+                "layer_animations": "લેયર એનિમેશન",
+                "lock_layer": "લેયર લૉક કરો",
+                "lock_named": "{name} લૉક કરો",
+                "remove_animation": "એનિમેશન દૂર કરો",
+                "remove_animation_aria": "{layer} માંથી {name} એનિમેશન દૂર કરો",
+                "reorder_tooltip": "ટ્રૅકનો ક્રમ બદલવા ખેંચો — કૅનવાસ પરનું સ્ટૅકિંગ લેયર પૅનલમાં નક્કી થાય છે",
+                "show": "બતાવો",
+                "show_named": "{name} બતાવો",
+                "split": "વિભાજિત કરો",
+                "starts_at": "શરૂ થાય છે",
+                "trim_end": "અંત ટ્રિમ કરો",
+                "trim_start": "શરૂઆત ટ્રિમ કરો",
+                "trim_to": "{time} સુધી ટ્રિમ કરો",
+                "unlock_layer": "લેયર અનલૉક કરો",
+                "unlock_named": "{name} અનલૉક કરો"
+            },
+            "transport": {
+                "current_time_field": "હાલનો સમય મિલિસેકન્ડમાં",
+                "duration_edge_aria": "પેજનો સમયગાળો {seconds} સેકન્ડ",
+                "duration_edge_tooltip": "પેજનો સમયગાળો {seconds}s · બદલવા ખેંચો, ચોક્કસ મૂલ્ય માટે ક્લિક કરો (Alt = સ્નૅપ નહીં)",
+                "duration_max": "મહત્તમ {seconds} s",
+                "fit_to_width": "પહોળાઈ પ્રમાણે ફિટ કરો",
+                "forward": "આગળ",
+                "lengthen_page": "પેજ લાંબું કરો",
+                "loop": "પ્લેબૅક લૂપ કરો",
+                "page_duration": "પેજનો સમયગાળો",
+                "page_duration_field": "પેજનો સમયગાળો મિલિસેકન્ડમાં",
+                "resize_dock": "ટાઇમલાઇનનું કદ બદલો",
+                "rewind": "પાછળ",
+                "shorten_page": "પેજ ટૂંકું કરો",
+                "zoom": "ટાઇમલાઇન ઝૂમ"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "ઘણી બધી વિનંતીઓ",
             "CN-4003": "અમાન્ય URL",
             "C-4090": "તમારી ઝુંબેશ લિંક પહેલેથી જ ઉપયોગમાં છે. બીજી લિંક અજમાવી જુઓ.",
+            "C-4094": "કેમ્પેઇન પહેલેથી જ ટ્રેશમાં છે",
+            "C-4095": "કેમ્પેઇન ટ્રેશમાં નથી",
             "SUB-403": "ઝુંબેશ સેટિંગ્સ દ્વારા સબમિશન પ્રતિબંધિત છે.",
             "A-40091": "કૃપા કરીને તમારી શાળા અથવા યુનિવર્સિટીનું ઇમેઇલ સરનામું વાપરો",
             "PB-4011": "આ લિંક અમાન્ય છે અથવા સમાપ્ત થઈ ગઈ છે",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "તમારી ફ્રેમ પસંદ કરવા નીચે સ્ક્રોલ કરો",
         "editor_single": "તમારો ફોટો ગોઠવવા નીચે સ્ક્રોલ કરો",
         "editor_multiple": "ફ્રેમ એડિટ કરવા અને બદલવા નીચે સ્ક્રોલ કરો"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "કેમ્પેઇન પુનઃસ્થાપિત થઈ રહ્યાં છે…"
+        }
     }
 }

@@ -2842,7 +2842,9 @@
             "type": "พิมพ์:",
             "size": "ขนาด:",
             "type_image": "JPG, PNG หรือ SVG",
-            "maximum_size": "สูงสุด 5 เมกะไบต์"
+            "maximum_size": "สูงสุด 5 เมกะไบต์",
+            "abandoned": "การอัปโหลดหยุดลงเพราะเลเยอร์ถูกลบแล้ว ลองอัปโหลดอีกครั้งเพื่อเก็บไว้ในคลังของคุณ",
+            "failed": "อัปโหลดไม่สำเร็จ ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง"
         },
         "toolbar": {
             "copy": "สำเนา",
@@ -2871,7 +2873,119 @@
             "border_weight": "น้ำหนักเส้นขอบ",
             "corner_rounding": "การปัดเศษมุม",
             "align": "จัดแนว",
-            "effects": "ผลกระทบ"
+            "effects": "ผลกระทบ",
+            "animate": {
+                "amount": "ปริมาณ",
+                "angle": "มุม",
+                "close": "ปิดการตั้งค่าแอนิเมชัน",
+                "delete_animation": "ลบแอนิเมชัน",
+                "distance": "ระยะทาง",
+                "easing": "อีซซิง",
+                "fade": "เฟด",
+                "settings_aria": "การตั้งค่าแอนิเมชัน"
+            },
+            "audio": {
+                "replace": "แทนที่",
+                "tools_aria": "เครื่องมือแทร็กเสียง",
+                "trim": "ตัด",
+                "volume": "ระดับเสียง"
+            },
+            "clip": {
+                "length": "ความยาว",
+                "split": "แยกคลิป",
+                "trim": "ตัด"
+            },
+            "entry": {
+                "animate": "แอนิเมต"
+            },
+            "image": {
+                "adjust": "ปรับแต่ง",
+                "background_removal_unavailable": "ยังไม่รองรับการลบพื้นหลัง",
+                "remove_background": "ลบพื้นหลัง",
+                "remove_background_short": "ตัดภาพ",
+                "replace": "แทนที่"
+            },
+            "keyframe": {
+                "blur": "เบลอเลเยอร์",
+                "close": "ปิดคุณสมบัติคีย์เฟรม",
+                "delete_keyframe": "ลบคีย์เฟรม",
+                "letter_spacing": "ระยะห่าง",
+                "line_height": "ความสูงบรรทัด",
+                "opacity": "ความทึบ",
+                "position": "ตำแหน่ง",
+                "properties_aria": "คุณสมบัติคีย์เฟรม",
+                "rotation": "การหมุน",
+                "scale": "ขนาด"
+            },
+            "layer_tools": {
+                "deselect": "ยกเลิกการเลือกเลเยอร์",
+                "tools_aria": "เครื่องมือเลเยอร์"
+            },
+            "media": {
+                "adjust": "ปรับแต่ง",
+                "green_screen": "กรีนสกรีน",
+                "replace": "แทนที่",
+                "trim": "ตัด"
+            },
+            "misc": {
+                "background_fill": "สีพื้นหลัง",
+                "background_fill_short": "สีพื้น",
+                "configure_qr": "ตั้งค่ารหัส QR",
+                "edit_background_image": "แก้ไขภาพพื้นหลัง",
+                "no_background_image": "ยังไม่มีภาพพื้นหลัง",
+                "replace_unavailable": "แทนที่ (ยังไม่พร้อมใช้งาน)"
+            },
+            "opacity": {
+                "label": "ความทึบ"
+            },
+            "shape": {
+                "corner_radius": "ความโค้งของมุม",
+                "corner_radius_short": "ความโค้ง",
+                "fill": "สีเติม",
+                "line_color": "สีเส้น",
+                "line_style_dots": "จุด",
+                "line_style_long_dashes": "เส้นประยาว",
+                "line_style_named": "ลักษณะเส้น: {style}",
+                "line_style_short_dashes": "เส้นประสั้น",
+                "line_style_solid": "เส้นทึบ",
+                "line_weight": "ความหนาเส้น",
+                "stroke_color": "สีเส้นขอบ",
+                "stroke_color_short": "เส้นขอบ",
+                "stroke_weight": "ความหนาเส้นขอบ",
+                "stroke_weight_short": "ความหนา"
+            },
+            "speed": {
+                "custom_input": "ความเร็วในการเล่นแบบกำหนดเอง",
+                "label": "ความเร็ว",
+                "playback_length": "ความยาวการเล่น",
+                "playback_speed": "ความเร็วในการเล่น",
+                "range_hint": "ระหว่าง {min}× ถึง {max}×"
+            },
+            "text": {
+                "decrease_font_size": "ลดขนาดตัวอักษร",
+                "font_family": "แบบอักษร",
+                "font_family_named": "แบบอักษร: {value}",
+                "font_size": "ขนาดตัวอักษร",
+                "font_weight": "น้ำหนักตัวอักษร",
+                "font_weight_named": "น้ำหนักตัวอักษร: {value}",
+                "increase_font_size": "เพิ่มขนาดตัวอักษร",
+                "keyboard": "แป้นพิมพ์",
+                "line_height": "ความสูงบรรทัด",
+                "spacing": "ระยะห่าง",
+                "text_color": "สีข้อความ",
+                "weight": "น้ำหนัก"
+            },
+            "volume": {
+                "clip_hint": "ใช้กับคลิปนี้เท่านั้น เสียงที่วางบนไทม์ไลน์จะคงระดับเสียงของตัวเอง",
+                "label": "ระดับเสียง",
+                "level": "ระดับ",
+                "mute": "ปิดเสียง",
+                "muted": "ปิดเสียงอยู่",
+                "muted_hint": "ระดับเสียงยังคงเดิม เปิดเสียงแล้วคลิปจะกลับมาที่ {percent}%",
+                "no_audio": "วิดีโอนี้ไม่มีเสียง",
+                "slider": "ระดับเสียง",
+                "unmute": "เปิดเสียง"
+            }
         },
         "confirmation": {
             "cancel": "ทิ้ง",
@@ -2918,7 +3032,1066 @@
             "document_colors": "สีของเอกสาร",
             "default_colors": "สีเริ่มต้น"
         },
-        "graphic": "กราฟิก"
+        "graphic": "กราฟิก",
+        "animate": {
+            "anchor": {
+                "bottom_center": "ล่างกลาง",
+                "bottom_left": "ล่างซ้าย",
+                "bottom_right": "ล่างขวา",
+                "center_left": "กลางซ้าย",
+                "center_right": "กลางขวา",
+                "top_center": "บนกลาง",
+                "top_left": "บนซ้าย",
+                "top_right": "บนขวา"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "จบ",
+                "more_options": "ตัวเลือกเพิ่มเติม"
+            },
+            "direction": {
+                "bottom_left": "ล่างซ้าย",
+                "bottom_right": "ล่างขวา",
+                "clockwise": "ตามเข็มนาฬิกา",
+                "counter_clockwise": "ทวนเข็มนาฬิกา",
+                "from_the": "จาก{place}",
+                "to_the": "ไปทาง{place}",
+                "top_left": "บนซ้าย",
+                "top_right": "บนขวา"
+            },
+            "easing": {
+                "accelerate": "เร่งความเร็ว",
+                "bounce": "เด้ง",
+                "elastic": "ยืดหยุ่น",
+                "impulse": "กระชาก",
+                "natural": "ธรรมชาติ",
+                "overshoot": "เลยจุดหมาย",
+                "slow_down": "ช้าลง",
+                "smooth": "นุ่มนวล",
+                "swing": "แกว่ง"
+            },
+            "field": {
+                "amount": "ปริมาณ",
+                "anchor_group": "จุดยึด",
+                "anchor_point": "จุดยึด",
+                "angle": "มุม",
+                "apply_effect_to": "ใช้เอฟเฟกต์กับ",
+                "axis": "แกน",
+                "choose_easing": "เลือกอีซซิง",
+                "distance": "ระยะทาง",
+                "duration": "ระยะเวลา",
+                "edge": "ขอบ",
+                "fade": "เฟด",
+                "from_noun": "จาก{noun}",
+                "horizontal": "แนวนอน",
+                "noun_blur": "ความเบลอ",
+                "noun_opacity": "ความทึบ",
+                "noun_size": "ขนาด",
+                "opacity": "ความทึบ",
+                "order": "ลำดับ",
+                "position": "ตำแหน่ง",
+                "rotation": "การหมุน",
+                "rotation_direction": "ทิศทางการหมุน",
+                "scale": "ขนาด",
+                "smoothing": "ความเรียบ",
+                "to_noun": "ถึง{noun}",
+                "vertical": "แนวตั้ง"
+            },
+            "mode": {
+                "arrives": "เข้ามา",
+                "departs": "ออกไป",
+                "in": "เข้า",
+                "out": "ออก"
+            },
+            "panel": {
+                "animation": "แอนิเมชัน",
+                "animations_tab": "แอนิเมชัน",
+                "basic": "พื้นฐาน",
+                "changing_note": "เลือกแอนิเมชันใหม่ จะมาแทนที่ทั้งตำแหน่งและความยาวของแอนิเมชันที่คุณกำลังเปลี่ยน",
+                "corner_radius": "ความโค้งของมุม",
+                "easing": "อีซซิง",
+                "fade": "เฟด",
+                "keyframe_tab": "คีย์เฟรม",
+                "layer_blur": "เบลอเลเยอร์",
+                "line_height": "ความสูงบรรทัด",
+                "more_options": "ตัวเลือกเพิ่มเติม",
+                "motion": "การเคลื่อนไหว",
+                "needs_one_element": "พรีเซ็ตแอนิเมชันใช้ได้กับหนึ่งองค์ประกอบ เลือกเลเยอร์เดียวเพื่อดูพรีเซ็ต",
+                "paste_animation": "วางแอนิเมชัน",
+                "scale": "ขนาด",
+                "slide": "เลื่อน",
+                "stroke": "เส้นขอบ",
+                "text_animation": "แอนิเมชันข้อความ"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "ปรากฏ",
+                    "label": "ปรากฏ"
+                },
+                "blur": {
+                    "label": "เบลอเข้า"
+                },
+                "blur_scale": {
+                    "caption": "เบลอและขยาย",
+                    "label": "เบลอเข้าพร้อมปรับขนาด"
+                },
+                "blur_slide": {
+                    "caption": "เบลอและเลื่อน",
+                    "label": "เบลอเข้าพร้อมเลื่อน"
+                },
+                "fade": {
+                    "caption": "เฟด",
+                    "label": "เฟด"
+                },
+                "grow": {
+                    "caption": "ป๊อป",
+                    "label": "ป๊อปเข้า"
+                },
+                "mask_center": {
+                    "caption": "มาสก์กลาง",
+                    "label": "เผยด้วยมาสก์จากตรงกลาง"
+                },
+                "mask_reveal": {
+                    "caption": "เผยด้วยมาสก์",
+                    "label": "เผยด้วยมาสก์จากขอบ"
+                },
+                "mask_slide": {
+                    "caption": "มาสก์และเลื่อน",
+                    "label": "เผยด้วยมาสก์พร้อมเลื่อน"
+                },
+                "move_scale": {
+                    "caption": "เลื่อนและปรับขนาด",
+                    "label": "เลื่อนและปรับขนาดเข้า"
+                },
+                "rotate_left": {
+                    "label": "หมุนจากซ้าย"
+                },
+                "rotate_right": {
+                    "label": "หมุนจากขวา"
+                },
+                "shrink": {
+                    "caption": "ใหญ่",
+                    "label": "ใหญ่เข้า"
+                },
+                "slide": {
+                    "caption": "เลื่อน",
+                    "label": "เลื่อนเข้า"
+                },
+                "slide_from_bottom": {
+                    "label": "เลื่อนจากล่าง"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "ล่างซ้าย",
+                    "label": "เลื่อนจากล่างซ้าย"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "ล่างขวา",
+                    "label": "เลื่อนจากล่างขวา"
+                },
+                "slide_from_left": {
+                    "label": "เลื่อนจากซ้าย"
+                },
+                "slide_from_right": {
+                    "label": "เลื่อนจากขวา"
+                },
+                "slide_from_top": {
+                    "label": "เลื่อนจากบน"
+                },
+                "slide_from_top_left": {
+                    "caption": "บนซ้าย",
+                    "label": "เลื่อนจากบนซ้าย"
+                },
+                "slide_from_top_right": {
+                    "caption": "บนขวา",
+                    "label": "เลื่อนจากบนขวา"
+                },
+                "spin": {
+                    "caption": "หมุน",
+                    "label": "หมุนเข้า"
+                },
+                "spin_scale": {
+                    "caption": "หมุนและปรับขนาด",
+                    "label": "หมุนและปรับขนาดเข้า"
+                },
+                "twist": {
+                    "caption": "บิด",
+                    "label": "บิดเข้า"
+                }
+            },
+            "property": {
+                "change_text": "เปลี่ยนข้อความ",
+                "morph": "มอร์ฟ",
+                "move": "เคลื่อนที่",
+                "opacity": "ความทึบ",
+                "scale": "ขนาด"
+            },
+            "section": {
+                "fade": "เฟด",
+                "mask": "มาสก์",
+                "scale": "ขนาด",
+                "slide": "เลื่อน",
+                "transform": "แปลงรูป"
+            },
+            "text": {
+                "backward": "ย้อนกลับ",
+                "forward": "ไปข้างหน้า",
+                "letters": "ตัวอักษร",
+                "summary_overlap": "แต่ละ{unit}จะเริ่มเมื่อตัวก่อนหน้าเล่นไปแล้ว {percent}%",
+                "summary_sequential": "แต่ละ{unit}จะเล่นจบก่อนตัวถัดไปจะเริ่ม",
+                "summary_together": "ทุก{unit}เคลื่อนไหวพร้อมกัน",
+                "summary_whole": "ทั้งกล่องข้อความเคลื่อนไหวเป็นหนึ่งเดียว",
+                "words": "คำ"
+            },
+            "type": {
+                "fade_in": "เฟดเข้า",
+                "fade_out": "เฟดออก",
+                "line_height": "ความสูงบรรทัด",
+                "radius": "รัศมี",
+                "resize_in": "ปรับขนาดเข้า",
+                "resize_out": "ปรับขนาดออก",
+                "rotate_in": "หมุนเข้า",
+                "rotate_out": "หมุนออก",
+                "scale_in": "ขยายเข้า",
+                "scale_out": "ขยายออก",
+                "slide_in": "เลื่อนเข้า",
+                "slide_out": "เลื่อนออก",
+                "spacing": "ระยะห่าง",
+                "stroke": "เส้นขอบ"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "เพิ่มรูปของคุณเพื่อดำเนินการต่อ",
+                    "gesture": {
+                        "frameDesktop": "ลากเพื่อย้ายตำแหน่ง · เลื่อนเพื่อซูม",
+                        "frameMobile": "ลากเพื่อย้ายตำแหน่ง ถ่างนิ้วเพื่อซูม",
+                        "handles": "ปรับขนาดจากมุมและด้านข้าง หมุนจากด้านบน",
+                        "move": "ลากเพื่อย้าย",
+                        "moveOrHandles": "ลากเพื่อย้าย หรือใช้ปุ่มจับ",
+                        "resize": "ลากมุมหรือด้านข้างเพื่อปรับขนาด",
+                        "rotate": "ลากปุ่มจับด้านบนเพื่อหมุน",
+                        "rotateDesktop": "ลากไม้บรรทัด หรือใช้ปุ่มลูกศร",
+                        "rotateMobile": "ลากไม้บรรทัดเพื่อหมุน"
+                    },
+                    "hint": {
+                        "pickDesktop": "คลิกที่พื้นที่ที่มีเครื่องหมาย หรือเลือกเลเยอร์ทางซ้าย",
+                        "pickMobile": "แตะที่พื้นที่ที่มีเครื่องหมาย หรือเลือกเลเยอร์ด้านล่าง",
+                        "previewDesktop": "กำลังดูตัวอย่างดีไซน์ของคุณ คลิกเพื่อแก้ไขต่อ",
+                        "previewMobile": "กำลังดูตัวอย่างดีไซน์ของคุณ แตะเพื่อแก้ไขต่อ"
+                    },
+                    "layer": {
+                        "addPhoto": "เพิ่มรูปของคุณ",
+                        "text": "ข้อความ: {text}",
+                        "yourPhoto": "รูปของคุณ",
+                        "yourText": "ข้อความของคุณ"
+                    },
+                    "layers": {
+                        "all": "เลเยอร์ทั้งหมด",
+                        "photo": "รูปภาพ",
+                        "sheetDescription": "ทุกอย่างในดีไซน์นี้ที่คุณเปลี่ยนได้",
+                        "title": "เลเยอร์"
+                    },
+                    "photoError": "เราใช้รูปนั้นไม่ได้ ลองใช้รูปอื่น",
+                    "preview": {
+                        "backToEditing": "กลับไปแก้ไข"
+                    },
+                    "rotation": {
+                        "aria": "การหมุน",
+                        "value": "one:# องศา|other:# องศา"
+                    },
+                    "tools": {
+                        "adjust": "ปรับแต่ง",
+                        "aria": "เครื่องมือเลเยอร์",
+                        "editText": "แก้ไขข้อความ",
+                        "flip": "พลิก",
+                        "locked": "ขนาดและตำแหน่งถูกกำหนดโดยผู้สร้าง",
+                        "replace": "แทนที่",
+                        "textAria": "เครื่องมือข้อความ",
+                        "zoomIn": "ซูมเข้า",
+                        "zoomOut": "ซูมออก"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "เพิ่ม {name} ลงในไทม์ไลน์แล้ว",
+                "too_big": "{name} ใหญ่เกิน {limit}",
+                "too_long": "{name} ยาวเกิน {minutes} นาที",
+                "too_many": "ครั้งละ {count} ไฟล์เท่านั้น",
+                "wrong_type": "เพิ่ม {name} ไม่ได้ — รองรับเฉพาะรูปภาพ วิดีโอ และไฟล์ SVG"
+            }
+        },
+        "catalogue": {
+            "error_body": "ตรวจสอบการเชื่อมต่อ แล้วลองอีกครั้ง",
+            "loading_more": "กำลังโหลดเพิ่มเติม"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "ทิ้งฉบับร่าง",
+                "description_unsaved": "ดีไซน์นี้ยังไม่ได้บันทึก หากย้อนกลับจะถูกลบถาวร รวมถึงเลเยอร์ สไตล์ และแอนิเมชัน",
+                "title": "ทิ้งฉบับร่าง “{title}” ใช่ไหม"
+            },
+            "save": {
+                "description": "เมื่อบันทึกแล้ว จะแก้ไขไม่ได้อีก",
+                "saving": "กำลังบันทึก…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "พอดีหน้าจอ"
+        },
+        "graphic_panel": {
+            "add": "เพิ่ม {name}",
+            "add_failed": "เพิ่มกราฟิกนี้ไม่ได้ ลองอีกครั้ง",
+            "empty_body": "ลองใช้คำที่สั้นหรือกว้างกว่านี้ เช่น ดาว หรือ หัวใจ",
+            "empty_title": "ไม่พบกราฟิกที่ตรงกับ “{query}”",
+            "error_title": "โหลดกราฟิกไม่สำเร็จ",
+            "none_title": "ไม่มีกราฟิกให้แสดง",
+            "search_label": "ค้นหากราฟิก",
+            "search_placeholder": "ค้นหากราฟิก"
+        },
+        "header": {
+            "redo": "ทำซ้ำ",
+            "saving": "กำลังบันทึก…",
+            "undo": "เลิกทำ",
+            "untitled_design": "ดีไซน์ที่ยังไม่ตั้งชื่อ"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "ช่องใส่รูป"
+            },
+            "menu": {
+                "align_center": "กึ่งกลาง",
+                "bring_forward": "เลื่อนไปข้างหน้า",
+                "bring_to_front": "นำมาไว้หน้าสุด",
+                "detach_image": "แยกรูปภาพ",
+                "flip_horizontal": "พลิกแนวนอน",
+                "flip_vertical": "พลิกแนวตั้ง",
+                "replace_image": "แทนที่รูปภาพ",
+                "send_backward": "เลื่อนไปข้างหลัง",
+                "send_to_back": "ส่งไปไว้หลังสุด",
+                "set_as_background_image": "ตั้งเป็นภาพพื้นหลัง",
+                "set_as_background_video": "ตั้งเป็นวิดีโอพื้นหลัง",
+                "set_background_as_image_layer": "ตั้งพื้นหลังเป็นเลเยอร์รูปภาพ",
+                "set_background_as_video_layer": "ตั้งพื้นหลังเป็นเลเยอร์วิดีโอ",
+                "sheet_title": "ตัวเลือกเลเยอร์",
+                "show_layers": "แสดงเลเยอร์"
+            },
+            "pill": {
+                "duplicate": "ทำซ้ำเลเยอร์",
+                "more": "การทำงานเพิ่มเติมของเลเยอร์",
+                "remove": "ลบเลเยอร์",
+                "toolbar": "การทำงานของเลเยอร์"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "รหัสเชื่อมต่อพร้อมแล้ว: {code} ส่งให้ไคลเอนต์ AI ของคุณ",
+                "connecting": "กำลังสร้างรหัสเชื่อมต่อ",
+                "failed": "เชื่อมต่อไม่ได้ {reason}",
+                "reconnecting": "การเชื่อมต่อหลุด กำลังลองเชื่อมต่อใหม่"
+            },
+            "clipboard_blocked": "เบราว์เซอร์ของคุณบล็อกคลิปบอร์ด {hint}",
+            "connect": "เชื่อมต่อ",
+            "connecting": "กำลังเชื่อมต่อ…",
+            "copied_address_announcement": "คัดลอกที่อยู่เซิร์ฟเวอร์แล้ว",
+            "copied_code_announcement": "คัดลอกรหัสเชื่อมต่อแล้ว",
+            "copy_address_hint": "เลือกที่อยู่แล้วคัดลอกด้วยตนเอง",
+            "copy_code": "คัดลอกรหัส",
+            "copy_code_hint": "เลือกรหัสแล้วคัดลอกด้วยตนเอง",
+            "copy_server_address": "คัดลอกที่อยู่เซิร์ฟเวอร์ MCP",
+            "disconnect": "ยกเลิกการเชื่อมต่อ",
+            "error_fallback": "บริการเชื่อมต่อไม่ตอบสนอง ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง",
+            "guide": {
+                "fresh_code": "หากรหัสใช้ไม่ได้ ให้กดยกเลิกการเชื่อมต่อแล้วเชื่อมต่อใหม่เพื่อรับรหัสใหม่",
+                "how_to_set_up": "วิธีตั้งค่า",
+                "step_add_body": "เพิ่ม Twibbonize ลงในไคลเอนต์ AI ของคุณโดยใช้ที่อยู่ด้านล่าง ใน Claude Code ให้รันคำสั่ง",
+                "step_add_title": "เพิ่ม Twibbonize ลงในไคลเอนต์ AI ของคุณ",
+                "step_pair_body": "พูดว่า “เชื่อมต่อกับตัวแก้ไข Twibbonize” แล้วให้รหัสด้านบนกับมัน",
+                "step_pair_title": "ให้มันเชื่อมต่อ",
+                "where_to_paste": "ต้องวางรหัสนี้ที่ไหน"
+            },
+            "lead": {
+                "code_ready_sentence": "วางลงใน Claude แล้วบอกให้เชื่อมต่อ แคนวาสจะแสดงกรอบรอบหน้าขณะที่ Claude ทำงาน",
+                "code_ready_title": "ส่งรหัสนี้ให้ไคลเอนต์ AI ของคุณ",
+                "connecting_sentence": "ใช้เวลาสักครู่",
+                "connecting_title": "กำลังสร้างรหัสเชื่อมต่อ",
+                "disconnected_sentence": "Claude Desktop และ Claude Code เพิ่มเลเยอร์ เขียนข้อความ ตั้งค่าแอนิเมชัน และอ่านสิ่งที่อยู่บนแคนวาสได้",
+                "disconnected_title": "เชิญไคลเอนต์ AI เข้ามาในดีไซน์นี้",
+                "failed_title": "เชื่อมต่อไม่ได้",
+                "reconnecting_sentence": "การเชื่อมต่อกับไคลเอนต์ AI ของคุณหลุด กำลังพยายามกู้คืน",
+                "reconnecting_title": "กำลังเชื่อมต่อใหม่",
+                "unavailable_sentence": "ตัวแก้ไขเวอร์ชันนี้ไม่ได้ตั้งค่าการเชื่อมต่อ AI จึงยังไม่มีอะไรให้เชื่อมต่อ",
+                "unavailable_title": "ยังไม่เปิดใช้ MCP ที่นี่"
+            },
+            "pairing_code_label": "รหัสเชื่อมต่อ: {code}"
+        },
+        "media": {
+            "add_asset": "เพิ่ม {name}",
+            "dismiss_error": "ปิด",
+            "empty_body": "เพิ่มรูปภาพ วิดีโอ หรือไฟล์เสียงด้านล่าง แล้วไฟล์จะอยู่ที่นี่ตลอดเซสชันนี้",
+            "empty_narrowed_body": "ล้างการค้นหาหรือเลือกประเภทอื่นเพื่อดูทุกอย่างที่คุณเพิ่มไว้",
+            "empty_narrowed_title": "ไม่พบรายการที่ตรงกัน",
+            "empty_title": "ยังไม่มีไฟล์ที่อัปโหลด",
+            "filter": {
+                "audio": "เสียง",
+                "images": "รูปภาพ"
+            },
+            "filter_group_label": "ประเภทสื่อ",
+            "make_an_image": "สร้างรูปภาพ",
+            "make_image_unavailable": "ยังไม่รองรับการสร้างรูปภาพ",
+            "search_placeholder": "ค้นหาสื่อ",
+            "upload_button": "อัปโหลดรูปภาพ วิดีโอ หรือเสียง",
+            "uploads_heading": "ไฟล์อัปโหลด"
+        },
+        "page_bar": {
+            "group_label": "ตัวควบคุมการซูม",
+            "zoom_menu": "ระดับการซูม {percent}%"
+        },
+        "panel": {
+            "loading": "กำลังโหลด{panel}…"
+        },
+        "photo": {
+            "add_by": "เพิ่มรูปโดย {name}",
+            "add_described": "เพิ่มรูป: {description}",
+            "credit": "รูปภาพจาก",
+            "empty_body": "ลองใช้คำที่สั้นหรือกว้างกว่านี้ เช่น ชายหาด หรือ เมือง",
+            "empty_title": "ไม่พบรูปภาพที่ตรงกับ “{query}”",
+            "error_title": "โหลดรูปภาพไม่สำเร็จ",
+            "none_title": "ไม่มีรูปภาพให้แสดง",
+            "search_label": "ค้นหารูปภาพ",
+            "search_placeholder": "ค้นหารูปภาพ"
+        },
+        "qr": {
+            "add_logo": "เพิ่มโลโก้",
+            "add_to_design": "เพิ่มลงในดีไซน์",
+            "background_colour_label": "สีพื้นหลัง",
+            "code_colour_label": "สีของโค้ด",
+            "code_label": "โค้ด",
+            "link_input_label": "ลิงก์ QR code",
+            "link_label": "ลิงก์",
+            "logo_fallback_name": "รูปโลโก้",
+            "logo_label": "โลโก้",
+            "remove_logo": "ลบโลโก้"
+        },
+        "rail": {
+            "aria_label": "คลังดีไซน์",
+            "graphic": "กราฟิก",
+            "help": "ช่วยเหลือ",
+            "layers": "เลเยอร์",
+            "mcp": "MCP",
+            "media": "สื่อ",
+            "photo": "รูปภาพ",
+            "qr_code": "QR code",
+            "shapes": "รูปร่าง",
+            "templates": "เทมเพลต",
+            "textures": "พื้นผิว",
+            "tools": "เครื่องมือ"
+        },
+        "save": {
+            "failed": "บันทึกดีไซน์ของคุณไม่สำเร็จ ลองอีกครั้ง"
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "ความสว่าง",
+                "compare": "เปรียบเทียบกับต้นฉบับ",
+                "contrast": "คอนทราสต์",
+                "grayscale": "ขาวดำ",
+                "group": {
+                    "basic": "พื้นฐาน",
+                    "refinements": "ปรับละเอียด"
+                },
+                "hue_rotate": "หมุนเฉดสี",
+                "reset": "รีเซ็ตการปรับแต่ง",
+                "saturation": "ความอิ่มตัว",
+                "title": "การปรับแต่ง"
+            },
+            "color": {
+                "trigger": "สี"
+            },
+            "common": {
+                "layer_blur": "เบลอเลเยอร์",
+                "layer_blur_stepper": "เบลอเลเยอร์"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "อิสระ",
+                    "landscape": "แนวนอน",
+                    "original": "ต้นฉบับ",
+                    "portrait": "แนวตั้ง",
+                    "square": "สี่เหลี่ยมจัตุรัส",
+                    "story": "สตอรี่",
+                    "widescreen": "จอกว้าง"
+                },
+                "shape": {
+                    "circle": "วงกลม",
+                    "diamond": "สี่เหลี่ยมข้าวหลามตัด",
+                    "half_circle": "ครึ่งวงกลม",
+                    "oval": "วงรี",
+                    "parallelogram": "สี่เหลี่ยมด้านขนาน",
+                    "rounded": "มุมมน"
+                }
+            },
+            "filter": {
+                "cool": "โทนเย็น",
+                "duotone": "ดูโอโทน",
+                "mono": "โมโน",
+                "original": "ต้นฉบับ",
+                "vivid": "สดใส",
+                "warm": "โทนอุ่น"
+            },
+            "font_weight": {
+                "black": "Black",
+                "extra_bold": "ExtraBold",
+                "extra_light": "ExtraLight",
+                "medium": "Medium",
+                "regular": "Regular",
+                "semibold": "SemiBold",
+                "thin": "Thin"
+            },
+            "frame": {
+                "colour": "สีเฟรม"
+            },
+            "green_screen": {
+                "choose_colour": "เลือกสี",
+                "colour": "สี",
+                "compare": "เปรียบเทียบกับต้นฉบับ",
+                "eyedropper": "เลือกสีจากแคนวาส",
+                "key_colour": "สีคีย์ {hex}",
+                "loose": "หลวม",
+                "nothing_found": "ไม่พบสีพื้นหลัง",
+                "precise": "แม่นยำ",
+                "preset": {
+                    "bright_blue": "น้ำเงินสด",
+                    "bright_green": "เขียวสด",
+                    "chroma_blue": "โครมาน้ำเงิน",
+                    "chroma_green": "โครมาเขียว"
+                },
+                "presets": "สีฉากหลังที่พบบ่อย",
+                "remove": "ลบกรีนสกรีน",
+                "title": "กรีนสกรีน"
+            },
+            "image": {
+                "corner_radius": "ความโค้งของมุม",
+                "corner_radius_stepper": "ความโค้งของมุม",
+                "per_corner": "แก้ไขแต่ละมุม",
+                "per_corner_unavailable": "ยังไม่รองรับการแก้ไขแต่ละมุม"
+            },
+            "keypad": {
+                "value_field": "ค่า{label}"
+            },
+            "line": {
+                "colour": "สีเส้น",
+                "style": {
+                    "dots": "จุด",
+                    "long_dashes": "เส้นประยาว",
+                    "short_dashes": "เส้นประสั้น",
+                    "solid": "เส้นทึบ"
+                },
+                "style_trigger": "ลักษณะเส้น: {style}",
+                "weight": "ความหนาเส้น",
+                "weight_trigger": "ความหนาเส้น {weight}"
+            },
+            "media": {
+                "heading": "สื่อ"
+            },
+            "page": {
+                "size_capped": "สูงสุด {max} px — คงอัตราส่วนไว้"
+            },
+            "pages": {
+                "title": "หน้า"
+            },
+            "photo_slot": {
+                "enable": "ใช้เป็นช่องใส่รูป",
+                "key_field": "คีย์ (ไม่ซ้ำกัน)",
+                "key_required": "ต้องระบุคีย์",
+                "key_taken": "คีย์นี้ถูกใช้โดยช่องอื่นแล้ว",
+                "label_field": "ป้ายชื่อ (แสดงให้ผู้ใช้เห็น)",
+                "on": "ช่องใส่รูป",
+                "remove": "ลบช่องใส่รูป"
+            },
+            "qr": {
+                "add_logo": "เพิ่มโลโก้",
+                "background_colour": "สีพื้นหลัง",
+                "code": "โค้ด",
+                "code_colour": "สีของโค้ด",
+                "link": "ลิงก์",
+                "link_input": "ลิงก์ QR code",
+                "logo": "โลโก้",
+                "remove_logo": "ลบโลโก้"
+            },
+            "root": {
+                "background_image": "ภาพพื้นหลัง",
+                "edit_background": "แก้ไขภาพพื้นหลัง",
+                "fill": "สีพื้น",
+                "fill_gradient": "ไล่เฉด",
+                "page_height": "ความสูงของหน้า",
+                "page_width": "ความกว้างของหน้า",
+                "ratio_lock": "ล็อกอัตราส่วน",
+                "ratio_unlock": "ปลดล็อกอัตราส่วน",
+                "rotate_left": "หมุนพื้นหลังไปทางซ้าย",
+                "rotate_right": "หมุนพื้นหลังไปทางขวา"
+            },
+            "scalar": {
+                "clip_length": "ความยาว",
+                "corner_radius": "ความโค้งของมุม",
+                "font_size": "ขนาดตัวอักษร",
+                "layer_blur": "เบลอเลเยอร์",
+                "letter_spacing": "ระยะห่างตัวอักษร",
+                "line_height": "ความสูงบรรทัด",
+                "opacity": "ความทึบ",
+                "speed": "ความเร็ว",
+                "stroke_width": "ความหนาเส้น",
+                "volume": "ระดับเสียง"
+            },
+            "shape": {
+                "corner_radius": "ความโค้งของมุม",
+                "corner_radius_stepper": "ความโค้งของมุม",
+                "fill": "สีเติม",
+                "fill_gradient": "ไล่เฉด",
+                "fill_mixed": "หลายแบบ",
+                "fill_transparent": "โปร่งใส",
+                "stroke": "เส้นขอบ",
+                "stroke_color": "สีเส้นขอบ",
+                "stroke_style": {
+                    "dots": "จุด",
+                    "long_dashes": "เส้นประยาว",
+                    "short_dashes": "เส้นประสั้น",
+                    "solid": "เส้นทึบ"
+                },
+                "stroke_style_select": "ลักษณะเส้นขอบ",
+                "stroke_transparent": "โปร่งใส",
+                "stroke_weight": "ความหนาเส้นขอบ"
+            },
+            "svg": {
+                "path_colour": "สี {index}"
+            },
+            "swatch": {
+                "more_colours": "สีเพิ่มเติม"
+            },
+            "text": {
+                "align": {
+                    "justify": "จัดชิดสองข้าง"
+                },
+                "alignment": "การจัดแนว",
+                "edit_text": "แก้ไขข้อความ",
+                "font_family": "แบบอักษร",
+                "font_family_select": "แบบอักษร",
+                "font_size": "ขนาดตัวอักษร",
+                "italic_unavailable": "แบบอักษรนี้ไม่มีตัวเอียงในน้ำหนักนี้",
+                "letter_spacing_stepper": "ระยะห่างตัวอักษร",
+                "line_height": "ความสูงบรรทัด",
+                "line_height_stepper": "ความสูงบรรทัด",
+                "list": "รายการ",
+                "list_bulleted": "รายการแบบสัญลักษณ์",
+                "list_numbered": "รายการแบบตัวเลข",
+                "list_style": "รูปแบบรายการ",
+                "text_case": "ตัวพิมพ์",
+                "text_color": "สีข้อความ",
+                "text_style": "สไตล์ข้อความ",
+                "weight": "น้ำหนัก"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "จัดชิดด้านล่าง",
+                    "center_x": "จัดกึ่งกลางแนวนอน",
+                    "center_y": "จัดกึ่งกลางแนวตั้ง",
+                    "left": "จัดชิดซ้าย",
+                    "right": "จัดชิดขวา",
+                    "top": "จัดชิดด้านบน"
+                },
+                "align_to_page": "จัดตามหน้า",
+                "opacity": "ความทึบ",
+                "position": "ตำแหน่ง",
+                "position_x": "ตำแหน่ง X",
+                "position_y": "ตำแหน่ง Y",
+                "rotation": "การหมุน",
+                "scale": "ขนาด"
+            },
+            "video": {
+                "adjust": "ปรับแต่ง",
+                "audio": "เสียง",
+                "clip_runs": "คลิปยาว {length}",
+                "corner_radius": "ความโค้งของมุม",
+                "corner_radius_stepper": "ความโค้งของมุม",
+                "green_screen": "กรีนสกรีน",
+                "loop": "เล่นวนจนกว่าดีไซน์จะจบ",
+                "mute": "ปิดเสียง",
+                "muted": "ปิดเสียงอยู่",
+                "no_audio": "วิดีโอนี้ไม่มีเสียง",
+                "playback": "การเล่น",
+                "replace": "แทนที่วิดีโอ",
+                "speed": "ความเร็ว",
+                "speed_custom_input": "ความเร็วในการเล่นแบบกำหนดเอง",
+                "speed_presets": "ความเร็วในการเล่น",
+                "speed_range": "ระหว่าง {min}× ถึง {max}×",
+                "tools": "เครื่องมือ",
+                "unmute": "เปิดเสียง",
+                "volume": "ระดับเสียง",
+                "volume_level": "ระดับเสียง"
+            }
+        },
+        "shape_preset": {
+            "arrow": "ลูกศร",
+            "arrow_down": "ลูกศรลง",
+            "arrow_left": "ลูกศรซ้าย",
+            "arrow_pentagon": "ลูกศรห้าเหลี่ยม",
+            "arrow_right": "ลูกศรขวา",
+            "arrow_up": "ลูกศรขึ้น",
+            "chevron": "เครื่องหมายเชฟรอน",
+            "circle": "วงกลม",
+            "cross": "กากบาท",
+            "diamond": "สี่เหลี่ยมข้าวหลามตัด",
+            "hexagon": "หกเหลี่ยม",
+            "hexagon_wide": "หกเหลี่ยมกว้าง",
+            "line": "เส้น",
+            "octagon": "แปดเหลี่ยม",
+            "parallelogram": "สี่เหลี่ยมด้านขนาน",
+            "parallelogram_mirrored": "สี่เหลี่ยมด้านขนานกลับด้าน",
+            "pentagon": "ห้าเหลี่ยม",
+            "square": "สี่เหลี่ยมจัตุรัส",
+            "trapezoid": "สี่เหลี่ยมคางหมู",
+            "trapezoid_upside_down": "สี่เหลี่ยมคางหมูหัวกลับ",
+            "triangle": "สามเหลี่ยม",
+            "triangle_upside_down": "สามเหลี่ยมหัวกลับ"
+        },
+        "shapes_panel": {
+            "basic": "พื้นฐาน",
+            "lines": "เส้นและลูกศร"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "เพิ่มคีย์เฟรม",
+                "back_to_animations": "กลับไปที่แอนิเมชัน",
+                "basic": "พื้นฐาน",
+                "basic_opacity": "ความทึบ",
+                "basic_position": "ตำแหน่ง",
+                "basic_rotation": "การหมุน",
+                "basic_scale": "ขนาด",
+                "keyframe": "คีย์เฟรม",
+                "pick_property_hint": "เลือกคุณสมบัติที่จะใส่คีย์เฟรม เมื่อแตะ แผงนี้จะปิดและเปิดแผงของคุณสมบัตินั้น พร้อมวางคีย์เฟรมที่เพลย์เฮดด้วยค่าปัจจุบันของเลเยอร์",
+                "presets_need_one": "พรีเซ็ตแอนิเมชันใช้ได้กับหนึ่งองค์ประกอบ เลือกเลเยอร์เดียวเพื่อดูพรีเซ็ต",
+                "title": "แอนิเมต"
+            },
+            "easing": {
+                "title": "อีซซิง"
+            },
+            "font_weight": {
+                "title": "น้ำหนักตัวอักษร"
+            },
+            "speed": {
+                "title": "ความเร็ว"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "สีเริ่มต้น",
+                "eyedropper": "เลือกสีจากหน้าจอ",
+                "eyedropper_unsupported": "เบราว์เซอร์ของคุณไม่รองรับเครื่องมือหยดสี",
+                "fill_linear": "เชิงเส้น",
+                "fill_radial": "แบบวงกลม",
+                "fill_solid": "สีเดียว",
+                "fill_type": "ประเภทการเติมสี",
+                "gradients_in_design": "ไล่เฉดในดีไซน์",
+                "hex": "สีรหัสฐานสิบหก",
+                "in_design": "ในดีไซน์",
+                "title": "สีเติม",
+                "use_color": "ใช้ {color}",
+                "use_gradient": "ใช้การไล่เฉดแบบ{style}",
+                "use_transparent": "โปร่งใส"
+            },
+            "crop": {
+                "adjust_shape": "ปรับรูปร่างการครอป",
+                "aspect": "สัดส่วน",
+                "framing": "การจัดกรอบ",
+                "framing_hint": "ลากรูปเพื่อจัดกรอบใหม่ หรือลากมุมเพื่อปรับขนาดกรอบครอป เลื่อนเพื่อซูม",
+                "scale": "ขนาด"
+            },
+            "filters": {
+                "show_earlier": "แสดงฟิลเตอร์ก่อนหน้า",
+                "show_more": "แสดงฟิลเตอร์เพิ่มเติม",
+                "swatch": "{label} สี: {color}",
+                "title": "ฟิลเตอร์"
+            },
+            "font": {
+                "all_fonts": "แบบอักษรทั้งหมด",
+                "applying": "กำลังใช้แบบอักษร",
+                "back": "กลับไปที่ตัวเลือกข้อความ",
+                "clear_search": "ล้างการค้นหา",
+                "clear_search_action": "ล้างการค้นหา",
+                "in_this_design": "ในดีไซน์นี้",
+                "no_match": "ไม่พบแบบอักษรที่ตรงกับ “{query}”",
+                "no_match_hint": "Twibbonize ใช้แบบอักษรจากคลัง Google Fonts และแบบอักษรนี้ไม่อยู่ในคลังดังกล่าว ลองใช้คำค้นหาที่สั้นลง",
+                "search_label": "ค้นหาแบบอักษร",
+                "search_placeholder": "ค้นหาแบบอักษร",
+                "title": "แบบอักษร",
+                "weight": "น้ำหนักตัวอักษร"
+            },
+            "gradient": {
+                "add_stop": "เพิ่มจุดไล่เฉด",
+                "angle": "มุม",
+                "angle_dial": "มุมการไล่เฉด {degrees} องศา ลากเพื่อเปลี่ยน",
+                "angle_dial_hint": "ลากเพื่อเปลี่ยนมุมการไล่เฉด",
+                "angle_input": "มุมการไล่เฉดเป็นองศา",
+                "centre_unsupported": "ตัวเรนเดอร์ยังไม่รองรับจุดศูนย์กลางของการไล่เฉด",
+                "stop": "จุดไล่เฉดที่ {index} ที่ {percent}% {color}",
+                "stop_hint": "ลากเพื่อย้าย ดับเบิลคลิกเพื่อลบ"
+            },
+            "image": {
+                "adjustment": "การปรับแต่ง",
+                "adjustments": "การปรับแต่ง",
+                "back_to_edit": "กลับไปที่แท็บแก้ไข",
+                "background_removal": "การลบพื้นหลัง",
+                "compare": "เปรียบเทียบกับต้นฉบับ",
+                "removing": "กำลังลบ…",
+                "removing_background": "กำลังลบพื้นหลัง",
+                "reset_adjustments": "รีเซ็ตการปรับแต่ง",
+                "tools": "เครื่องมือ"
+            },
+            "keyframe": {
+                "add": "เพิ่มคีย์เฟรม",
+                "add_at_playhead": "เพิ่มคีย์เฟรม{property}ที่เพลย์เฮด",
+                "add_at_playhead_short": "เพิ่มคีย์เฟรมที่เพลย์เฮด",
+                "add_lane_at_playhead": "เพิ่มคีย์เฟรม{lane}ที่เพลย์เฮด",
+                "add_property": "เพิ่มคุณสมบัติที่จะทำแอนิเมชัน",
+                "all_lanes_added": "ทุกคุณสมบัติที่เลเยอร์นี้ใส่คีย์เฟรมได้มีเลนอยู่แล้ว",
+                "delete": "ลบคีย์เฟรมนี้",
+                "diamond": "คีย์เฟรม{lane}ที่ {seconds} วินาที",
+                "easing": "อีซซิง",
+                "easing_caps": "อีซซิง",
+                "first_no_easing": "คีย์เฟรมแรกไม่มีอีซซิง",
+                "hex": "สีรหัสฐานสิบหก",
+                "layer_blur": "เบลอเลเยอร์",
+                "letter_spacing": "ระยะห่างตัวอักษร",
+                "line_height": "ความสูงบรรทัด",
+                "opacity": "ความทึบ",
+                "opacity_percent": "เปอร์เซ็นต์ความทึบ",
+                "position_x": "ตำแหน่ง X",
+                "position_y": "ตำแหน่ง Y",
+                "radius_bottom_left": "ความโค้งมุมล่างซ้าย",
+                "radius_bottom_right": "ความโค้งมุมล่างขวา",
+                "radius_top_left": "ความโค้งมุมบนซ้าย",
+                "radius_top_right": "ความโค้งมุมบนขวา",
+                "remove": "ลบคีย์เฟรม",
+                "remove_at_playhead": "ลบคีย์เฟรม{property}ที่เพลย์เฮด",
+                "rotation": "การหมุน",
+                "scale": "ขนาด",
+                "shadow_blur": "ความเบลอของเงา",
+                "shadow_color": "สีเงา",
+                "shadow_offset_x": "ระยะเงา X",
+                "shadow_offset_y": "ระยะเงา Y",
+                "shadow_spread": "การกระจายของเงา",
+                "stroke_color": "สีเส้นขอบ",
+                "stroke_weight": "ความหนาเส้นขอบ"
+            },
+            "layer": {
+                "page_background": "พื้นหลังของหน้า",
+                "tab_animate": "แอนิเมต",
+                "tabs_label": "แผงเลเยอร์",
+                "title": "เลเยอร์"
+            },
+            "page_preset": {
+                "group_label": "ขนาดแคนวาสที่ตั้งไว้",
+                "landscape": "แนวนอน",
+                "portrait": "แนวตั้ง",
+                "square": "สี่เหลี่ยมจัตุรัส",
+                "story": "สตอรี่",
+                "tile_aria": "{name} {width} คูณ {height} พิกเซล"
+            },
+            "personalization": {
+                "act_as_placeholder": "ทำหน้าที่เป็นตัวแทน",
+                "allow_adjust_framing": "อนุญาตให้ปรับกรอบ",
+                "allow_adjust_framing_hint": "ผู้สนับสนุนซูมและย้ายรูปของตนภายในเฟรมได้",
+                "allow_change_adjustments": "อนุญาตให้เปลี่ยนการปรับแต่ง",
+                "allow_change_adjustments_hint": "ผู้สนับสนุนเปลี่ยนความสว่าง คอนทราสต์ และการปรับแต่งอื่น ๆ ได้",
+                "allow_change_effect": "อนุญาตให้เปลี่ยนเอฟเฟกต์",
+                "allow_change_effect_hint": "ผู้สนับสนุนเลือกเอฟเฟกต์อื่นสำหรับเลเยอร์นี้ได้",
+                "allow_change_filter": "อนุญาตให้เปลี่ยนฟิลเตอร์",
+                "allow_change_filter_hint": "ผู้สนับสนุนเลือกฟิลเตอร์อื่นสำหรับเลเยอร์นี้ได้",
+                "allow_edit_text": "อนุญาตให้แก้ไขข้อความ",
+                "allow_edit_text_hint": "ผู้สนับสนุนพิมพ์ข้อความของตนเองในข้อความนี้ได้",
+                "allow_flip": "อนุญาตให้พลิก",
+                "allow_flip_hint": "ผู้สนับสนุนพลิกกลับด้านเลเยอร์นี้ได้",
+                "allow_move": "อนุญาตให้ย้าย",
+                "allow_move_hint": "ผู้สนับสนุนลากเลเยอร์นี้ไปยังตำแหน่งใหม่ได้",
+                "allow_replace_media": "อนุญาตให้แทนที่สื่อ",
+                "allow_replace_media_hint": "ผู้สนับสนุนเปลี่ยนรูปนี้เป็นรูปของตนเองได้",
+                "allow_resize": "อนุญาตให้ปรับขนาด",
+                "allow_resize_hint": "ผู้สนับสนุนปรับขนาดเลเยอร์นี้ได้โดยลากที่มุมและด้านข้าง",
+                "allow_rotate": "อนุญาตให้หมุน",
+                "allow_rotate_hint": "ผู้สนับสนุนหมุนเลเยอร์นี้ไปในมุมใดก็ได้",
+                "group_appearance": "การแสดงผล",
+                "group_arrange": "การจัดเรียง",
+                "group_media": "สื่อ",
+                "placeholder_hint": "แสดงช่องว่างที่ผู้สนับสนุนแตะเพื่อเพิ่มรูปของตน",
+                "remove_background": "ลบพื้นหลังจากรูปของพวกเขา",
+                "remove_background_hint": "ตัดผู้สนับสนุนออกจากรูป เพื่อให้ดีไซน์ของคุณแสดงอยู่รอบตัวพวกเขา",
+                "text_placeholder_hint": "แสดงข้อความนี้เป็นตัวอย่างที่ผู้สนับสนุนจะแทนที่ด้วยข้อความของตนเอง"
+            },
+            "shape_effect": {
+                "colour": "สีเอฟเฟกต์",
+                "distance": "ระยะทาง",
+                "echo": "เอคโค",
+                "first_color": "สีแรก",
+                "first_colour": "สีเอฟเฟกต์แรก",
+                "glitch": "กลิตช์",
+                "glow": "เรืองแสง",
+                "group_label": "เอฟเฟกต์รูปร่าง",
+                "second_color": "สีที่สอง",
+                "second_colour": "สีเอฟเฟกต์ที่สอง",
+                "section": "เอฟเฟกต์",
+                "shadow": "เงา"
+            },
+            "text_effect": {
+                "colour": "สีเอฟเฟกต์",
+                "curve": "โค้ง",
+                "distance": "ระยะทาง",
+                "echo": "เอคโค",
+                "glow": "เรืองแสง",
+                "group_label": "เอฟเฟกต์ข้อความ",
+                "outline": "เส้นขอบ",
+                "section": "เอฟเฟกต์",
+                "shape_group_label": "รูปทรงข้อความ",
+                "splice": "สไปลซ์",
+                "title": "เอฟเฟกต์ข้อความ"
+            }
+        },
+        "templates": {
+            "empty_body": "ลองใช้คำที่สั้นหรือกว้างกว่านี้",
+            "empty_title": "ไม่พบเทมเพลตที่ตรงกับ “{query}”",
+            "error_title": "โหลดเทมเพลตไม่สำเร็จ",
+            "none_body": "ค้นหาธีม เช่น วันเกิด หรือ รับปริญญา",
+            "none_title": "ยังไม่มีเทมเพลตสำหรับดีไซน์นี้",
+            "search_label": "ค้นหาเทมเพลต",
+            "search_placeholder": "ค้นหาเทมเพลต"
+        },
+        "text_panel": {
+            "add_template": "เพิ่มเทมเพลตข้อความ: {name}",
+            "add_text_box": "เพิ่มกล่องข้อความ",
+            "empty_body": "ลองใช้คำที่สั้นหรือกว้างกว่านี้",
+            "empty_title": "ไม่พบเทมเพลตข้อความที่ตรงกับ “{query}”",
+            "error_title": "โหลดเทมเพลตข้อความไม่สำเร็จ",
+            "none_body": "เริ่มต้นด้วยกล่องข้อความธรรมดาแทน",
+            "none_title": "ไม่มีเทมเพลตข้อความให้แสดง",
+            "search_label": "ค้นหาเทมเพลตข้อความ",
+            "search_placeholder": "ค้นหาเทมเพลตข้อความ"
+        },
+        "text_preset": {
+            "seed": "เพิ่มข้อความของคุณที่นี่"
+        },
+        "textures": {
+            "apply_texture": "ใช้ {name}",
+            "category": {
+                "fabric": "ผ้า",
+                "grain": "เกรน",
+                "grunge": "กรันจ์",
+                "paper": "กระดาษ",
+                "print": "งานพิมพ์"
+            },
+            "category_group_label": "หมวดหมู่พื้นผิว",
+            "empty_body": "เรากำลังสร้างคลังนี้ — กลับมาดูใหม่เร็ว ๆ นี้",
+            "empty_title": "ยังไม่มีพื้นผิว",
+            "most_used": "ใช้บ่อยที่สุด",
+            "search_placeholder": "ค้นหาพื้นผิว"
+        },
+        "timeline": {
+            "audio": {
+                "add": "เพิ่มเสียง",
+                "add_tooltip": "เพิ่มแทร็กเสียงพื้นหลัง",
+                "bar_aria": "{name} ที่ {start} ยาว {duration}",
+                "decoding": "กำลังถอดรหัสเสียง…",
+                "decoding_waveform": "กำลังถอดรหัสรูปคลื่นเสียง…",
+                "default_name": "เสียง",
+                "drop_to_add": "วางเพื่อเพิ่มเสียง",
+                "kind_suffix": "· เสียง",
+                "mute": "ปิดเสียงแทร็ก",
+                "unmute": "เปิดเสียงแทร็ก",
+                "volume": "ระดับเสียงแทร็ก",
+                "waveform_error": "โหลดรูปคลื่นเสียงของแทร็กนี้ไม่ได้"
+            },
+            "keyframe": {
+                "add": "เพิ่มคีย์เฟรม",
+                "add_at_playhead": "เพิ่มคีย์เฟรมที่เพลย์เฮด",
+                "add_tooltip": "ใส่คีย์เฟรมให้คุณสมบัติของเลเยอร์นี้",
+                "diamond_aria": "คีย์เฟรม{lane}ที่ {time}",
+                "diamond_hint": " · ลากเพื่อปรับเวลา คลิกขวาเพื่อลบ",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "ความโค้งของมุม",
+                    "layer_blur": "เบลอเลเยอร์",
+                    "line_height": "ความสูงบรรทัด",
+                    "opacity": "ความทึบ",
+                    "position": "ตำแหน่ง",
+                    "rotation": "การหมุน",
+                    "scale": "ขนาด",
+                    "stroke": "เส้นขอบ"
+                },
+                "remove_lane": "ลบคีย์เฟรม{lane}",
+                "remove_lane_from_layer": "ลบคีย์เฟรม{lane}จาก {layer}",
+                "segment_easing_aria": "ฟังก์ชันจังหวะของ{lane}ระหว่าง {from} และ {to} ปัจจุบันเป็น {easing}",
+                "segment_easing_title": "ฟังก์ชันจังหวะ · {easing}",
+                "welded_aria": " ติดกับขอบเลเยอร์",
+                "welded_title": " · ติดกับขอบเลเยอร์"
+            },
+            "menu": {
+                "repeat_until_end": "เล่นซ้ำจนจบ"
+            },
+            "track": {
+                "bar_aria": "{name} ที่ {start} ยาว {duration}",
+                "bar_aria_end_glued": " ปลายติดกับเลเยอร์",
+                "bar_aria_start_glued": " ต้นติดกับเลเยอร์",
+                "bar_tooltip": "{name} · {start} ยาว {duration}ms · ลากเพื่อย้าย ลากที่ขอบเพื่อปรับขนาด (Alt = ไม่ยึดติด)",
+                "bar_tooltip_sole": " · การลากขอบนี้จะย้ายเลเยอร์",
+                "clip_aria": "คลิป {name}",
+                "clip_tooltip": "ลากเพื่อย้ายเลเยอร์ตามเวลา · ลากที่ปลายเพื่อตัด (Alt = ไม่ยึดติด)",
+                "collapse": "ยุบ",
+                "collapse_all": "ยุบเลเยอร์ทั้งหมด",
+                "collapse_named": "ยุบ {name}",
+                "delete_layer": "ลบเลเยอร์",
+                "delete_named": "ลบ {name}",
+                "ends_at": "จบที่",
+                "expand": "ขยาย",
+                "expand_named": "ขยาย {name}",
+                "hidden_lane_one": "ซ่อนอยู่ {count} เลน",
+                "hidden_lane_other": "ซ่อนอยู่ {count} เลน",
+                "hide": "ซ่อน",
+                "hide_named": "ซ่อน {name}",
+                "lane_reorder_tooltip": "ลากเพื่อจัดลำดับใหม่ — เลนบนสุดมีผลก่อนเมื่อแอนิเมชันทับซ้อนกัน",
+                "layer_animations": "แอนิเมชันของเลเยอร์",
+                "lock_layer": "ล็อกเลเยอร์",
+                "lock_named": "ล็อก {name}",
+                "remove_animation": "ลบแอนิเมชัน",
+                "remove_animation_aria": "ลบแอนิเมชัน {name} จาก {layer}",
+                "reorder_tooltip": "ลากเพื่อจัดลำดับแทร็กใหม่ — ลำดับการซ้อนบนแคนวาสตั้งค่าในแผงเลเยอร์",
+                "show": "แสดง",
+                "show_named": "แสดง {name}",
+                "split": "แยก",
+                "starts_at": "เริ่มที่",
+                "trim_end": "ตัดส่วนท้าย",
+                "trim_start": "ตัดส่วนต้น",
+                "trim_to": "ตัดถึง {time}",
+                "unlock_layer": "ปลดล็อกเลเยอร์",
+                "unlock_named": "ปลดล็อก {name}"
+            },
+            "transport": {
+                "current_time_field": "เวลาปัจจุบันเป็นมิลลิวินาที",
+                "duration_edge_aria": "ความยาวหน้า {seconds} วินาที",
+                "duration_edge_tooltip": "ความยาวหน้า {seconds}s · ลากเพื่อเปลี่ยน คลิกเพื่อระบุค่าที่แน่นอน (Alt = ไม่ยึดติด)",
+                "duration_max": "สูงสุด {seconds} s",
+                "fit_to_width": "พอดีความกว้าง",
+                "forward": "เดินหน้า",
+                "lengthen_page": "ขยายความยาวหน้า",
+                "loop": "เล่นวน",
+                "page_duration": "ความยาวหน้า",
+                "page_duration_field": "ความยาวหน้าเป็นมิลลิวินาที",
+                "resize_dock": "ปรับขนาดไทม์ไลน์",
+                "rewind": "ย้อนกลับ",
+                "shorten_page": "ลดความยาวหน้า",
+                "zoom": "ซูมไทม์ไลน์"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "มีการร้องขอมากเกินไป",
             "CN-4003": "URL ไม่ถูกต้อง",
             "C-4090": "ลิงก์แคมเปญของคุณถูกใช้งานแล้ว ลองใช้ลิงก์อื่น",
+            "C-4094": "แคมเปญอยู่ในถังขยะแล้ว",
+            "C-4095": "แคมเปญไม่ได้อยู่ในถังขยะ",
             "SUB-403": "การตั้งค่าแคมเปญห้ามส่งผลงาน",
             "A-40091": "โปรดใช้อีเมลของโรงเรียนหรือมหาวิทยาลัยของคุณ",
             "PB-4011": "ลิงก์นี้ไม่ถูกต้องหรือหมดอายุแล้ว",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "เลื่อนลงเพื่อเลือกกรอบของคุณ",
         "editor_single": "เลื่อนลงเพื่อปรับรูปภาพของคุณ",
         "editor_multiple": "เลื่อนลงเพื่อแก้ไขและสลับกรอบ"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "กำลังกู้คืนแคมเปญ…"
+        }
     }
 }

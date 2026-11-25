@@ -2842,7 +2842,9 @@
             "type": "Type:",
             "size": "Grootte:",
             "type_image": "JPG, PNG of SVG",
-            "maximum_size": "Maximaal 5 MB"
+            "maximum_size": "Maximaal 5 MB",
+            "abandoned": "De upload is gestopt omdat de laag is verwijderd. Probeer het opnieuw om het in je bibliotheek te bewaren.",
+            "failed": "Uploaden mislukt. Controleer je verbinding en probeer het opnieuw."
         },
         "toolbar": {
             "copy": "Kopie",
@@ -2871,7 +2873,119 @@
             "border_weight": "Grensgewicht",
             "corner_rounding": "Hoekafronding",
             "align": "Uitlijnen",
-            "effects": "Effecten"
+            "effects": "Effecten",
+            "animate": {
+                "amount": "Hoeveelheid",
+                "angle": "Hoek",
+                "close": "Animatie-instellingen sluiten",
+                "delete_animation": "Animatie verwijderen",
+                "distance": "Afstand",
+                "easing": "Easing",
+                "fade": "Vervagen",
+                "settings_aria": "Animatie-instellingen"
+            },
+            "audio": {
+                "replace": "Vervangen",
+                "tools_aria": "Audiotrackhulpmiddelen",
+                "trim": "Bijsnijden",
+                "volume": "Volume"
+            },
+            "clip": {
+                "length": "Lengte",
+                "split": "Splitsen",
+                "trim": "Bijsnijden"
+            },
+            "entry": {
+                "animate": "Animeren"
+            },
+            "image": {
+                "adjust": "Aanpassen",
+                "background_removal_unavailable": "Achtergrond verwijderen is nog niet beschikbaar",
+                "remove_background": "Achtergrond verwijderen",
+                "remove_background_short": "Uitknippen",
+                "replace": "Vervangen"
+            },
+            "keyframe": {
+                "blur": "Laagvervaging",
+                "close": "Keyframe-eigenschappen sluiten",
+                "delete_keyframe": "Keyframe verwijderen",
+                "letter_spacing": "Spatiëring",
+                "line_height": "Regelhoogte",
+                "opacity": "Dekking",
+                "position": "Positie",
+                "properties_aria": "Keyframe-eigenschappen",
+                "rotation": "Rotatie",
+                "scale": "Schaal"
+            },
+            "layer_tools": {
+                "deselect": "Laag deselecteren",
+                "tools_aria": "Laaghulpmiddelen"
+            },
+            "media": {
+                "adjust": "Aanpassen",
+                "green_screen": "Greenscreen",
+                "replace": "Vervangen",
+                "trim": "Bijsnijden"
+            },
+            "misc": {
+                "background_fill": "Achtergrondvulling",
+                "background_fill_short": "Vulling",
+                "configure_qr": "QR-code configureren",
+                "edit_background_image": "Achtergrondafbeelding bewerken",
+                "no_background_image": "Nog geen achtergrondafbeelding",
+                "replace_unavailable": "Vervangen (nog niet beschikbaar)"
+            },
+            "opacity": {
+                "label": "Dekking"
+            },
+            "shape": {
+                "corner_radius": "Hoekradius",
+                "corner_radius_short": "Radius",
+                "fill": "Vulling",
+                "line_color": "Lijnkleur",
+                "line_style_dots": "Stippen",
+                "line_style_long_dashes": "Lange streepjes",
+                "line_style_named": "Lijnstijl: {style}",
+                "line_style_short_dashes": "Korte streepjes",
+                "line_style_solid": "Doorlopend",
+                "line_weight": "Lijndikte",
+                "stroke_color": "Omlijningskleur",
+                "stroke_color_short": "Omlijning",
+                "stroke_weight": "Omlijningsdikte",
+                "stroke_weight_short": "Dikte"
+            },
+            "speed": {
+                "custom_input": "Aangepaste afspeelsnelheid",
+                "label": "Snelheid",
+                "playback_length": "Afspeelduur",
+                "playback_speed": "Afspeelsnelheid",
+                "range_hint": "Tussen {min}× en {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Lettergrootte verkleinen",
+                "font_family": "Lettertype",
+                "font_family_named": "Lettertype: {value}",
+                "font_size": "Lettergrootte",
+                "font_weight": "Letterdikte",
+                "font_weight_named": "Letterdikte: {value}",
+                "increase_font_size": "Lettergrootte vergroten",
+                "keyboard": "Toetsenbord",
+                "line_height": "Regelhoogte",
+                "spacing": "Spatiëring",
+                "text_color": "Tekstkleur",
+                "weight": "Dikte"
+            },
+            "volume": {
+                "clip_hint": "Alleen deze clip. Audio op de tijdlijn behoudt zijn eigen niveau.",
+                "label": "Volume",
+                "level": "Niveau",
+                "mute": "Dempen",
+                "muted": "Gedempt",
+                "muted_hint": "Het niveau blijft behouden. Zet het geluid weer aan en de clip keert terug naar {percent}%.",
+                "no_audio": "Deze video heeft geen geluid.",
+                "slider": "Volumeniveau",
+                "unmute": "Dempen opheffen"
+            }
         },
         "confirmation": {
             "cancel": "Gooi weg",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Document kleuren",
             "default_colors": "Standaard kleuren"
         },
-        "graphic": "Grafisch"
+        "graphic": "Grafisch",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Onder midden",
+                "bottom_left": "Linksonder",
+                "bottom_right": "Rechtsonder",
+                "center_left": "Midden links",
+                "center_right": "Midden rechts",
+                "top_center": "Boven midden",
+                "top_left": "Linksboven",
+                "top_right": "Rechtsboven"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Einde",
+                "more_options": "Meer opties"
+            },
+            "direction": {
+                "bottom_left": "Linksonder",
+                "bottom_right": "Rechtsonder",
+                "clockwise": "Met de klok mee",
+                "counter_clockwise": "Tegen de klok in",
+                "from_the": "Vanaf {place}",
+                "to_the": "Naar {place}",
+                "top_left": "Linksboven",
+                "top_right": "Rechtsboven"
+            },
+            "easing": {
+                "accelerate": "Versnellen",
+                "bounce": "Stuiteren",
+                "elastic": "Elastisch",
+                "impulse": "Impuls",
+                "natural": "Natuurlijk",
+                "overshoot": "Overshoot",
+                "slow_down": "Vertragen",
+                "smooth": "Vloeiend",
+                "swing": "Zwaaien"
+            },
+            "field": {
+                "amount": "Hoeveelheid",
+                "anchor_group": "Ankerpunt",
+                "anchor_point": "Ankerpunt",
+                "angle": "Hoek",
+                "apply_effect_to": "Effect toepassen op",
+                "axis": "As",
+                "choose_easing": "Easing kiezen",
+                "distance": "Afstand",
+                "duration": "Duur",
+                "edge": "Rand",
+                "fade": "Vervagen",
+                "from_noun": "Van {noun}",
+                "horizontal": "Horizontaal",
+                "noun_blur": "vervaging",
+                "noun_opacity": "dekking",
+                "noun_size": "grootte",
+                "opacity": "Dekking",
+                "order": "Volgorde",
+                "position": "Positie",
+                "rotation": "Rotatie",
+                "rotation_direction": "Rotatierichting",
+                "scale": "Schaal",
+                "smoothing": "Afvlakking",
+                "to_noun": "Naar {noun}",
+                "vertical": "Verticaal"
+            },
+            "mode": {
+                "arrives": "Verschijnt",
+                "departs": "Verdwijnt",
+                "in": "In",
+                "out": "Uit"
+            },
+            "panel": {
+                "animation": "Animatie",
+                "animations_tab": "Animaties",
+                "basic": "Basis",
+                "changing_note": "Kies een vervanger. Die neemt de plaats en de lengte over van de animatie die je wijzigt.",
+                "corner_radius": "Hoekradius",
+                "easing": "Easing",
+                "fade": "Vervagen",
+                "keyframe_tab": "Keyframe",
+                "layer_blur": "Laagvervaging",
+                "line_height": "Regelhoogte",
+                "more_options": "Meer opties",
+                "motion": "Beweging",
+                "needs_one_element": "Animatievoorinstellingen hebben één element nodig. Selecteer één laag om ze te zien.",
+                "paste_animation": "Animatie plakken",
+                "scale": "Schaal",
+                "slide": "Schuiven",
+                "stroke": "Omlijning",
+                "text_animation": "Tekstanimatie"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Verschijnen",
+                    "label": "Verschijnen"
+                },
+                "blur": {
+                    "label": "Invervagen"
+                },
+                "blur_scale": {
+                    "caption": "Vervaging & schaal",
+                    "label": "Invervagen met schaal"
+                },
+                "blur_slide": {
+                    "caption": "Vervaging & schuiven",
+                    "label": "Invervagen met schuiven"
+                },
+                "fade": {
+                    "caption": "Vervagen",
+                    "label": "Vervagen"
+                },
+                "grow": {
+                    "caption": "Pop",
+                    "label": "Erin poppen"
+                },
+                "mask_center": {
+                    "caption": "Masker midden",
+                    "label": "Masker onthullen vanuit het midden"
+                },
+                "mask_reveal": {
+                    "caption": "Masker onthullen",
+                    "label": "Masker onthullen vanaf een rand"
+                },
+                "mask_slide": {
+                    "caption": "Masker & schuiven",
+                    "label": "Masker onthullen met schuiven"
+                },
+                "move_scale": {
+                    "caption": "Verplaatsen & schalen",
+                    "label": "Verplaatsen en inschalen"
+                },
+                "rotate_left": {
+                    "label": "Roteren vanaf links"
+                },
+                "rotate_right": {
+                    "label": "Roteren vanaf rechts"
+                },
+                "shrink": {
+                    "caption": "Groot",
+                    "label": "Groot erin"
+                },
+                "slide": {
+                    "caption": "Schuiven",
+                    "label": "Erin schuiven"
+                },
+                "slide_from_bottom": {
+                    "label": "Schuiven van onder"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Linksonder",
+                    "label": "Schuiven van linksonder"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Rechtsonder",
+                    "label": "Schuiven van rechtsonder"
+                },
+                "slide_from_left": {
+                    "label": "Schuiven van links"
+                },
+                "slide_from_right": {
+                    "label": "Schuiven van rechts"
+                },
+                "slide_from_top": {
+                    "label": "Schuiven van boven"
+                },
+                "slide_from_top_left": {
+                    "caption": "Linksboven",
+                    "label": "Schuiven van linksboven"
+                },
+                "slide_from_top_right": {
+                    "caption": "Rechtsboven",
+                    "label": "Schuiven van rechtsboven"
+                },
+                "spin": {
+                    "caption": "Draaien",
+                    "label": "Erin draaien"
+                },
+                "spin_scale": {
+                    "caption": "Draaien & schalen",
+                    "label": "Erin draaien en schalen"
+                },
+                "twist": {
+                    "caption": "Wringen",
+                    "label": "Erin wringen"
+                }
+            },
+            "property": {
+                "change_text": "Tekst wijzigen",
+                "morph": "Morphen",
+                "move": "Verplaatsen",
+                "opacity": "Dekking",
+                "scale": "Schaal"
+            },
+            "section": {
+                "fade": "Vervagen",
+                "mask": "Masker",
+                "scale": "Schaal",
+                "slide": "Schuiven",
+                "transform": "Transformeren"
+            },
+            "text": {
+                "backward": "Achteruit",
+                "forward": "Vooruit",
+                "letters": "Letters",
+                "summary_overlap": "Elke {unit} begint zodra de vorige voor {percent}% klaar is.",
+                "summary_sequential": "Elke {unit} is klaar voordat de volgende begint.",
+                "summary_together": "Elke {unit} beweegt tegelijk.",
+                "summary_whole": "Het hele tekstblok wordt als één geheel geanimeerd.",
+                "words": "Woorden"
+            },
+            "type": {
+                "fade_in": "Invervagen",
+                "fade_out": "Uitvervagen",
+                "line_height": "Regelhoogte",
+                "radius": "Radius",
+                "resize_in": "Formaat in",
+                "resize_out": "Formaat uit",
+                "rotate_in": "Erin roteren",
+                "rotate_out": "Eruit roteren",
+                "scale_in": "Inschalen",
+                "scale_out": "Uitschalen",
+                "slide_in": "Erin schuiven",
+                "slide_out": "Eruit schuiven",
+                "spacing": "Spatiëring",
+                "stroke": "Omlijning"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Voeg je foto toe om verder te gaan.",
+                    "gesture": {
+                        "frameDesktop": "Sleep om te verplaatsen · Scroll om te zoomen",
+                        "frameMobile": "Sleep om te verplaatsen, knijp om te zoomen",
+                        "handles": "Wijzig het formaat via hoeken en zijkanten, roteer via de bovenkant",
+                        "move": "Sleep om te verplaatsen",
+                        "moveOrHandles": "Sleep om te verplaatsen, of gebruik de handvatten",
+                        "resize": "Sleep een hoek of zijkant om het formaat te wijzigen",
+                        "rotate": "Sleep het bovenste handvat om te roteren",
+                        "rotateDesktop": "Sleep de liniaal of gebruik de pijltjestoetsen",
+                        "rotateMobile": "Sleep de liniaal om te roteren"
+                    },
+                    "hint": {
+                        "pickDesktop": "Klik op een gemarkeerd gebied of kies links een laag",
+                        "pickMobile": "Tik op een gemarkeerd gebied of kies hieronder een laag",
+                        "previewDesktop": "Voorbeeld van je ontwerp. Klik erop om verder te bewerken.",
+                        "previewMobile": "Voorbeeld van je ontwerp. Tik erop om verder te bewerken."
+                    },
+                    "layer": {
+                        "addPhoto": "Voeg je foto toe",
+                        "text": "Tekst: {text}",
+                        "yourPhoto": "Jouw foto",
+                        "yourText": "Jouw tekst"
+                    },
+                    "layers": {
+                        "all": "Alle lagen",
+                        "photo": "Foto",
+                        "sheetDescription": "Alles in dit ontwerp wat je kunt wijzigen.",
+                        "title": "Lagen"
+                    },
+                    "photoError": "We konden die foto niet gebruiken. Probeer een andere afbeelding.",
+                    "preview": {
+                        "backToEditing": "Terug naar bewerken"
+                    },
+                    "rotation": {
+                        "aria": "Rotatie",
+                        "value": "one:# graad|other:# graden"
+                    },
+                    "tools": {
+                        "adjust": "Aanpassen",
+                        "aria": "Laaghulpmiddelen",
+                        "editText": "Tekst bewerken",
+                        "flip": "Spiegelen",
+                        "locked": "Formaat en positie zijn door de maker vastgelegd",
+                        "replace": "Vervangen",
+                        "textAria": "Teksthulpmiddelen",
+                        "zoomIn": "Inzoomen",
+                        "zoomOut": "Uitzoomen"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} is toegevoegd aan de tijdlijn.",
+                "too_big": "{name} is groter dan {limit}.",
+                "too_long": "{name} is langer dan {minutes} minuten.",
+                "too_many": "Slechts {count} bestanden tegelijk.",
+                "wrong_type": "{name} kan niet worden toegevoegd – alleen afbeeldingen, video's en SVG-bestanden."
+            }
+        },
+        "catalogue": {
+            "error_body": "Controleer je verbinding en probeer het opnieuw.",
+            "loading_more": "Meer laden"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Concept verwijderen",
+                "description_unsaved": "Dit ontwerp is niet opgeslagen. Teruggaan verwijdert het definitief – inclusief lagen, stijlen en animatie.",
+                "title": "Het concept “{title}” verwijderen?"
+            },
+            "save": {
+                "description": "Zodra het is opgeslagen, kun je het niet meer bewerken.",
+                "saving": "Opslaan…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Aanpassen aan scherm"
+        },
+        "graphic_panel": {
+            "add": "{name} toevoegen",
+            "add_failed": "Deze afbeelding kon niet worden toegevoegd. Probeer het opnieuw.",
+            "empty_body": "Probeer een korter of algemener woord, zoals ster of hart.",
+            "empty_title": "Geen afbeeldingen gevonden voor “{query}”",
+            "error_title": "Afbeeldingen konden niet worden geladen",
+            "none_title": "Geen afbeeldingen om te tonen",
+            "search_label": "Afbeeldingen zoeken",
+            "search_placeholder": "Afbeeldingen zoeken"
+        },
+        "header": {
+            "redo": "Opnieuw",
+            "saving": "Opslaan…",
+            "undo": "Ongedaan maken",
+            "untitled_design": "Naamloos ontwerp"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Fotovak"
+            },
+            "menu": {
+                "align_center": "Centreren",
+                "bring_forward": "Naar voren",
+                "bring_to_front": "Op de voorgrond",
+                "detach_image": "Afbeelding loskoppelen",
+                "flip_horizontal": "Horizontaal spiegelen",
+                "flip_vertical": "Verticaal spiegelen",
+                "replace_image": "Afbeelding vervangen",
+                "send_backward": "Naar achteren",
+                "send_to_back": "Naar de achtergrond",
+                "set_as_background_image": "Instellen als achtergrondafbeelding",
+                "set_as_background_video": "Instellen als achtergrondvideo",
+                "set_background_as_image_layer": "Achtergrond instellen als afbeeldingslaag",
+                "set_background_as_video_layer": "Achtergrond instellen als videolaag",
+                "sheet_title": "Laagopties",
+                "show_layers": "Lagen tonen"
+            },
+            "pill": {
+                "duplicate": "Laag dupliceren",
+                "more": "Meer laagacties",
+                "remove": "Laag verwijderen",
+                "toolbar": "Laagacties"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Koppelcode klaar: {code}. Geef hem aan je AI-client.",
+                "connecting": "Koppelcode wordt aangemaakt.",
+                "failed": "Verbinden mislukt. {reason}",
+                "reconnecting": "Verbinding verbroken. Opnieuw verbinden."
+            },
+            "clipboard_blocked": "Je browser heeft het klembord geblokkeerd. {hint}",
+            "connect": "Verbinden",
+            "connecting": "Verbinden…",
+            "copied_address_announcement": "Serveradres gekopieerd",
+            "copied_code_announcement": "Koppelcode gekopieerd",
+            "copy_address_hint": "Selecteer het adres en kopieer het handmatig.",
+            "copy_code": "Code kopiëren",
+            "copy_code_hint": "Selecteer de code en kopieer hem handmatig.",
+            "copy_server_address": "MCP-serveradres kopiëren",
+            "disconnect": "Verbinding verbreken",
+            "error_fallback": "De koppelservice reageerde niet. Controleer je verbinding en probeer het opnieuw.",
+            "guide": {
+                "fresh_code": "Als een code niet meer werkt, klik je op Verbinding verbreken en verbind je opnieuw voor een nieuwe.",
+                "how_to_set_up": "Zo stel je het in",
+                "step_add_body": "Voeg Twibbonize toe aan je AI-client met het adres hieronder. In Claude Code voer je uit:",
+                "step_add_title": "Voeg Twibbonize toe aan je AI-client",
+                "step_pair_body": "Zeg “koppel met de Twibbonize-editor” en geef de code hierboven door.",
+                "step_pair_title": "Vraag om te koppelen",
+                "where_to_paste": "Waar plak ik deze code?"
+            },
+            "lead": {
+                "code_ready_sentence": "Plak hem in Claude en vraag om te koppelen. Het canvas tekent een rand om de pagina terwijl Claude aan het werk is.",
+                "code_ready_title": "Geef deze code aan je AI-client",
+                "connecting_sentence": "Dit duurt even.",
+                "connecting_title": "Koppelcode wordt aangemaakt",
+                "disconnected_sentence": "Claude Desktop en Claude Code kunnen lagen toevoegen, tekst schrijven, animaties instellen en lezen wat er op het canvas staat.",
+                "disconnected_title": "Haal een AI-client in dit ontwerp",
+                "failed_title": "Verbinden mislukt",
+                "reconnecting_sentence": "De verbinding met je AI-client is verbroken. We proberen die te herstellen.",
+                "reconnecting_title": "Opnieuw verbinden",
+                "unavailable_sentence": "In deze editorversie is geen AI-verbinding ingesteld, dus er is nog niets om mee te verbinden.",
+                "unavailable_title": "MCP staat hier niet aan"
+            },
+            "pairing_code_label": "Koppelcode: {code}"
+        },
+        "media": {
+            "add_asset": "{name} toevoegen",
+            "dismiss_error": "Sluiten",
+            "empty_body": "Voeg hieronder een afbeelding, video of audiobestand toe en het blijft hier voor de rest van deze sessie.",
+            "empty_narrowed_body": "Wis de zoekopdracht of kies een ander type om alles te zien wat je hebt toegevoegd.",
+            "empty_narrowed_title": "Niets gevonden",
+            "empty_title": "Nog niets geüpload",
+            "filter": {
+                "audio": "Audio",
+                "images": "Afbeeldingen"
+            },
+            "filter_group_label": "Mediatype",
+            "make_an_image": "Afbeelding maken",
+            "make_image_unavailable": "Afbeeldingen genereren is nog niet beschikbaar",
+            "search_placeholder": "Media zoeken",
+            "upload_button": "Afbeelding, video of audio uploaden",
+            "uploads_heading": "Uploads"
+        },
+        "page_bar": {
+            "group_label": "Zoombediening",
+            "zoom_menu": "Zoomniveau, {percent}%"
+        },
+        "panel": {
+            "loading": "{panel} laden…"
+        },
+        "photo": {
+            "add_by": "Foto van {name} toevoegen",
+            "add_described": "Foto toevoegen: {description}",
+            "credit": "Foto's van",
+            "empty_body": "Probeer een korter of algemener woord, zoals strand of stad.",
+            "empty_title": "Geen foto's gevonden voor “{query}”",
+            "error_title": "Foto's konden niet worden geladen",
+            "none_title": "Geen foto's om te tonen",
+            "search_label": "Foto's zoeken",
+            "search_placeholder": "Foto's zoeken"
+        },
+        "qr": {
+            "add_logo": "Logo toevoegen",
+            "add_to_design": "Toevoegen aan ontwerp",
+            "background_colour_label": "Achtergrondkleur",
+            "code_colour_label": "Codekleur",
+            "code_label": "Code",
+            "link_input_label": "QR-codelink",
+            "link_label": "Link",
+            "logo_fallback_name": "Logoafbeelding",
+            "logo_label": "Logo",
+            "remove_logo": "Logo verwijderen"
+        },
+        "rail": {
+            "aria_label": "Ontwerpbibliotheken",
+            "graphic": "Afbeeldingen",
+            "help": "Help",
+            "layers": "Lagen",
+            "mcp": "MCP",
+            "media": "Media",
+            "photo": "Foto's",
+            "qr_code": "QR-code",
+            "shapes": "Vormen",
+            "templates": "Sjablonen",
+            "textures": "Texturen",
+            "tools": "Hulpmiddelen"
+        },
+        "save": {
+            "failed": "Je ontwerp kon niet worden opgeslagen. Probeer het opnieuw."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Helderheid",
+                "compare": "Vergelijken met origineel",
+                "contrast": "Contrast",
+                "grayscale": "Grijstinten",
+                "group": {
+                    "basic": "Basis",
+                    "refinements": "Verfijning"
+                },
+                "hue_rotate": "Tint draaien",
+                "reset": "Aanpassingen resetten",
+                "saturation": "Verzadiging",
+                "title": "Aanpassingen"
+            },
+            "color": {
+                "trigger": "Kleur"
+            },
+            "common": {
+                "layer_blur": "Laagvervaging",
+                "layer_blur_stepper": "Laagvervaging"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Vrije vorm",
+                    "landscape": "Liggend",
+                    "original": "Origineel",
+                    "portrait": "Staand",
+                    "square": "Vierkant",
+                    "story": "Story",
+                    "widescreen": "Breedbeeld"
+                },
+                "shape": {
+                    "circle": "Cirkel",
+                    "diamond": "Ruit",
+                    "half_circle": "Halve cirkel",
+                    "oval": "Ovaal",
+                    "parallelogram": "Parallellogram",
+                    "rounded": "Afgerond"
+                }
+            },
+            "filter": {
+                "cool": "Koel",
+                "duotone": "Duotone",
+                "mono": "Mono",
+                "original": "Origineel",
+                "vivid": "Levendig",
+                "warm": "Warm"
+            },
+            "font_weight": {
+                "black": "Black",
+                "extra_bold": "ExtraBold",
+                "extra_light": "ExtraLight",
+                "medium": "Medium",
+                "regular": "Regular",
+                "semibold": "SemiBold",
+                "thin": "Thin"
+            },
+            "frame": {
+                "colour": "Framekleur"
+            },
+            "green_screen": {
+                "choose_colour": "Kies een kleur",
+                "colour": "Kleur",
+                "compare": "Vergelijken met het origineel",
+                "eyedropper": "Kies een kleur van het canvas",
+                "key_colour": "Keykleur {hex}",
+                "loose": "Ruim",
+                "nothing_found": "Geen achtergrondkleur gevonden.",
+                "precise": "Nauwkeurig",
+                "preset": {
+                    "bright_blue": "Felblauw",
+                    "bright_green": "Felgroen",
+                    "chroma_blue": "Chromablauw",
+                    "chroma_green": "Chromagroen"
+                },
+                "presets": "Veelgebruikte achtergrondkleuren",
+                "remove": "Greenscreen verwijderen",
+                "title": "Greenscreen"
+            },
+            "image": {
+                "corner_radius": "Hoekradius",
+                "corner_radius_stepper": "Hoekradius",
+                "per_corner": "Afzonderlijke hoeken bewerken",
+                "per_corner_unavailable": "Afzonderlijke hoeken bewerken is nog niet beschikbaar"
+            },
+            "keypad": {
+                "value_field": "Waarde voor {label}"
+            },
+            "line": {
+                "colour": "Lijnkleur",
+                "style": {
+                    "dots": "Stippen",
+                    "long_dashes": "Lange streepjes",
+                    "short_dashes": "Korte streepjes",
+                    "solid": "Doorlopend"
+                },
+                "style_trigger": "Lijnstijl: {style}",
+                "weight": "Lijndikte",
+                "weight_trigger": "Lijndikte {weight}"
+            },
+            "media": {
+                "heading": "Media"
+            },
+            "page": {
+                "size_capped": "Max. {max} px – verhouding behouden"
+            },
+            "pages": {
+                "title": "Pagina's"
+            },
+            "photo_slot": {
+                "enable": "Gebruiken als fotovak",
+                "key_field": "Sleutel (uniek)",
+                "key_required": "Sleutel is verplicht",
+                "key_taken": "Sleutel wordt al door een ander vak gebruikt",
+                "label_field": "Label (zichtbaar voor de eindgebruiker)",
+                "on": "Fotovak",
+                "remove": "Fotovak verwijderen"
+            },
+            "qr": {
+                "add_logo": "Logo toevoegen",
+                "background_colour": "Achtergrondkleur",
+                "code": "Code",
+                "code_colour": "Codekleur",
+                "link": "Link",
+                "link_input": "QR-codelink",
+                "logo": "Logo",
+                "remove_logo": "Logo verwijderen"
+            },
+            "root": {
+                "background_image": "Achtergrondafbeelding",
+                "edit_background": "Achtergrondafbeelding bewerken",
+                "fill": "Vulling",
+                "fill_gradient": "Verloop",
+                "page_height": "Paginahoogte",
+                "page_width": "Paginabreedte",
+                "ratio_lock": "Beeldverhouding vergrendelen",
+                "ratio_unlock": "Beeldverhouding ontgrendelen",
+                "rotate_left": "Achtergrond naar links roteren",
+                "rotate_right": "Achtergrond naar rechts roteren"
+            },
+            "scalar": {
+                "clip_length": "Lengte",
+                "corner_radius": "Hoekradius",
+                "font_size": "Lettergrootte",
+                "layer_blur": "Laagvervaging",
+                "letter_spacing": "Letterspatiëring",
+                "line_height": "Regelhoogte",
+                "opacity": "Dekking",
+                "speed": "Snelheid",
+                "stroke_width": "Omlijningsbreedte",
+                "volume": "Volume"
+            },
+            "shape": {
+                "corner_radius": "Hoekradius",
+                "corner_radius_stepper": "Hoekradius",
+                "fill": "Vulling",
+                "fill_gradient": "Verloop",
+                "fill_mixed": "Gemengd",
+                "fill_transparent": "Transparant",
+                "stroke": "Omlijning",
+                "stroke_color": "Omlijningskleur",
+                "stroke_style": {
+                    "dots": "Stippen",
+                    "long_dashes": "Lange streepjes",
+                    "short_dashes": "Korte streepjes",
+                    "solid": "Doorlopend"
+                },
+                "stroke_style_select": "Omlijningsstijl",
+                "stroke_transparent": "Transparant",
+                "stroke_weight": "Omlijningsdikte"
+            },
+            "svg": {
+                "path_colour": "Kleur {index}"
+            },
+            "swatch": {
+                "more_colours": "Meer kleuren"
+            },
+            "text": {
+                "align": {
+                    "justify": "Uitvullen"
+                },
+                "alignment": "Uitlijning",
+                "edit_text": "Tekst bewerken",
+                "font_family": "Lettertype",
+                "font_family_select": "Lettertype",
+                "font_size": "Lettergrootte",
+                "italic_unavailable": "Dit lettertype heeft geen cursief bij deze dikte",
+                "letter_spacing_stepper": "Letterspatiëring",
+                "line_height": "Regelhoogte",
+                "line_height_stepper": "Regelhoogte",
+                "list": "Lijst",
+                "list_bulleted": "Lijst met opsommingstekens",
+                "list_numbered": "Genummerde lijst",
+                "list_style": "Lijststijl",
+                "text_case": "Hoofdlettergebruik",
+                "text_color": "Tekstkleur",
+                "text_style": "Tekststijl",
+                "weight": "Dikte"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Onder uitlijnen",
+                    "center_x": "Horizontaal centreren",
+                    "center_y": "Verticaal centreren",
+                    "left": "Links uitlijnen",
+                    "right": "Rechts uitlijnen",
+                    "top": "Boven uitlijnen"
+                },
+                "align_to_page": "Uitlijnen op pagina",
+                "opacity": "Dekking",
+                "position": "Positie",
+                "position_x": "Positie X",
+                "position_y": "Positie Y",
+                "rotation": "Rotatie",
+                "scale": "Schaal"
+            },
+            "video": {
+                "adjust": "Aanpassen",
+                "audio": "Audio",
+                "clip_runs": "clip duurt {length}",
+                "corner_radius": "Hoekradius",
+                "corner_radius_stepper": "Hoekradius",
+                "green_screen": "Greenscreen",
+                "loop": "Herhalen tot het ontwerp eindigt",
+                "mute": "Dempen",
+                "muted": "Gedempt",
+                "no_audio": "Deze video heeft geen geluid.",
+                "playback": "Afspelen",
+                "replace": "Video vervangen",
+                "speed": "Snelheid",
+                "speed_custom_input": "Aangepaste afspeelsnelheid",
+                "speed_presets": "Afspeelsnelheid",
+                "speed_range": "Tussen {min}× en {max}×",
+                "tools": "Hulpmiddelen",
+                "unmute": "Dempen opheffen",
+                "volume": "Volume",
+                "volume_level": "Volumeniveau"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Pijl",
+            "arrow_down": "Pijl omlaag",
+            "arrow_left": "Pijl naar links",
+            "arrow_pentagon": "Vijfhoekige pijl",
+            "arrow_right": "Pijl naar rechts",
+            "arrow_up": "Pijl omhoog",
+            "chevron": "Chevron",
+            "circle": "Cirkel",
+            "cross": "Kruis",
+            "diamond": "Ruit",
+            "hexagon": "Zeshoek",
+            "hexagon_wide": "Brede zeshoek",
+            "line": "Lijn",
+            "octagon": "Achthoek",
+            "parallelogram": "Parallellogram",
+            "parallelogram_mirrored": "Gespiegeld parallellogram",
+            "pentagon": "Vijfhoek",
+            "square": "Vierkant",
+            "trapezoid": "Trapezium",
+            "trapezoid_upside_down": "Omgekeerd trapezium",
+            "triangle": "Driehoek",
+            "triangle_upside_down": "Omgekeerde driehoek"
+        },
+        "shapes_panel": {
+            "basic": "Basis",
+            "lines": "Lijnen en pijlen"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Keyframe toevoegen",
+                "back_to_animations": "Terug naar animaties",
+                "basic": "Basis",
+                "basic_opacity": "Dekking",
+                "basic_position": "Positie",
+                "basic_rotation": "Rotatie",
+                "basic_scale": "Schaal",
+                "keyframe": "Keyframe",
+                "pick_property_hint": "Kies de eigenschap voor de keyframe. Door erop te tikken sluit het blad en opent het bijbehorende paneel, met de keyframe al geplaatst op de afspeelkop met de huidige waarde van de laag.",
+                "presets_need_one": "Animatievoorinstellingen hebben één element nodig. Selecteer één laag om ze te zien.",
+                "title": "Animeren"
+            },
+            "easing": {
+                "title": "Easing"
+            },
+            "font_weight": {
+                "title": "Letterdikte"
+            },
+            "speed": {
+                "title": "Snelheid"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Standaardkleuren",
+                "eyedropper": "Kleur van scherm kiezen",
+                "eyedropper_unsupported": "Je browser ondersteunt de pipet niet",
+                "fill_linear": "lineair",
+                "fill_radial": "radiaal",
+                "fill_solid": "effen",
+                "fill_type": "Vultype",
+                "gradients_in_design": "Verlopen in ontwerp",
+                "hex": "Hex-kleur",
+                "in_design": "In ontwerp",
+                "title": "Vulkleur",
+                "use_color": "{color} gebruiken",
+                "use_gradient": "{style} verloop gebruiken",
+                "use_transparent": "Transparant"
+            },
+            "crop": {
+                "adjust_shape": "De uitsnedevorm aanpassen",
+                "aspect": "Verhouding",
+                "framing": "Uitsnede",
+                "framing_hint": "Sleep de foto om de uitsnede te wijzigen, of een hoek om het uitsnedevenster te vergroten of verkleinen. Scroll om te zoomen.",
+                "scale": "Schaal"
+            },
+            "filters": {
+                "show_earlier": "Eerdere filters tonen",
+                "show_more": "Meer filters tonen",
+                "swatch": "{label}-kleur: {color}",
+                "title": "Filters"
+            },
+            "font": {
+                "all_fonts": "ALLE LETTERTYPEN",
+                "applying": "Lettertype toepassen",
+                "back": "Terug naar tekstopties",
+                "clear_search": "Zoekopdracht wissen",
+                "clear_search_action": "Zoekopdracht wissen",
+                "in_this_design": "IN DIT ONTWERP",
+                "no_match": "Geen lettertypen gevonden voor “{query}”",
+                "no_match_hint": "Twibbonize gebruikt de Google Fonts-catalogus en dit lettertype maakt daar geen deel van uit. Probeer een kortere zoekterm.",
+                "search_label": "Lettertypefamilies zoeken",
+                "search_placeholder": "Lettertypen zoeken",
+                "title": "Lettertype",
+                "weight": "Letterdikte"
+            },
+            "gradient": {
+                "add_stop": "Verloopstop toevoegen",
+                "angle": "Hoek",
+                "angle_dial": "Verloophoek, {degrees} graden. Sleep om te wijzigen",
+                "angle_dial_hint": "Sleep om de verloophoek te wijzigen",
+                "angle_input": "Verloophoek in graden",
+                "centre_unsupported": "Het verloopmidden wordt nog niet ondersteund door de renderer",
+                "stop": "Verloopstop {index} op {percent}%, {color}",
+                "stop_hint": "Sleep om te verplaatsen, dubbelklik om te verwijderen"
+            },
+            "image": {
+                "adjustment": "Aanpassing",
+                "adjustments": "Aanpassingen",
+                "back_to_edit": "Terug naar tabblad Bewerken",
+                "background_removal": "Achtergrond verwijderen",
+                "compare": "Vergelijken met origineel",
+                "removing": "Verwijderen…",
+                "removing_background": "Achtergrond wordt verwijderd",
+                "reset_adjustments": "Aanpassingen resetten",
+                "tools": "Hulpmiddelen"
+            },
+            "keyframe": {
+                "add": "Keyframe toevoegen",
+                "add_at_playhead": "{property}-keyframe toevoegen op de afspeelkop",
+                "add_at_playhead_short": "Keyframe toevoegen op de afspeelkop",
+                "add_lane_at_playhead": "{lane}-keyframe toevoegen op de afspeelkop",
+                "add_property": "Eigenschap om te animeren toevoegen",
+                "all_lanes_added": "Elke eigenschap die deze laag kan keyframen heeft al een spoor",
+                "delete": "Deze keyframe verwijderen",
+                "diamond": "{lane}-keyframe op {seconds} s",
+                "easing": "Easing",
+                "easing_caps": "EASING",
+                "first_no_easing": "De eerste keyframe heeft geen easing",
+                "hex": "Hex-kleur",
+                "layer_blur": "Laagvervaging",
+                "letter_spacing": "Letterspatiëring",
+                "line_height": "Regelhoogte",
+                "opacity": "Dekking",
+                "opacity_percent": "Dekking in procenten",
+                "position_x": "Positie X",
+                "position_y": "Positie Y",
+                "radius_bottom_left": "Hoekradius linksonder",
+                "radius_bottom_right": "Hoekradius rechtsonder",
+                "radius_top_left": "Hoekradius linksboven",
+                "radius_top_right": "Hoekradius rechtsboven",
+                "remove": "Keyframe verwijderen",
+                "remove_at_playhead": "{property}-keyframe op de afspeelkop verwijderen",
+                "rotation": "Rotatie",
+                "scale": "Schaal",
+                "shadow_blur": "Schaduwvervaging",
+                "shadow_color": "Schaduwkleur",
+                "shadow_offset_x": "Schaduwverschuiving X",
+                "shadow_offset_y": "Schaduwverschuiving Y",
+                "shadow_spread": "Schaduwspreiding",
+                "stroke_color": "Omlijningskleur",
+                "stroke_weight": "Omlijningsdikte"
+            },
+            "layer": {
+                "page_background": "Paginaachtergrond",
+                "tab_animate": "Animeren",
+                "tabs_label": "Laagpaneel",
+                "title": "Lagen"
+            },
+            "page_preset": {
+                "group_label": "Canvasformaten",
+                "landscape": "Liggend",
+                "portrait": "Staand",
+                "square": "Vierkant",
+                "story": "Story",
+                "tile_aria": "{name}, {width} bij {height} pixels"
+            },
+            "personalization": {
+                "act_as_placeholder": "Als tijdelijke aanduiding gebruiken",
+                "allow_adjust_framing": "Uitsnede aanpassen toestaan",
+                "allow_adjust_framing_hint": "Supporters kunnen hun foto in het frame zoomen en verplaatsen.",
+                "allow_change_adjustments": "Aanpassingen wijzigen toestaan",
+                "allow_change_adjustments_hint": "Supporters kunnen helderheid, contrast en andere aanpassingen wijzigen.",
+                "allow_change_effect": "Effect wijzigen toestaan",
+                "allow_change_effect_hint": "Supporters kunnen een ander effect voor deze laag kiezen.",
+                "allow_change_filter": "Filter wijzigen toestaan",
+                "allow_change_filter_hint": "Supporters kunnen een ander filter voor deze laag kiezen.",
+                "allow_edit_text": "Tekst bewerken toestaan",
+                "allow_edit_text_hint": "Supporters kunnen hun eigen woorden in deze tekst typen.",
+                "allow_flip": "Spiegelen toestaan",
+                "allow_flip_hint": "Supporters kunnen deze laag spiegelen.",
+                "allow_move": "Verplaatsen toestaan",
+                "allow_move_hint": "Supporters kunnen deze laag naar een andere plek slepen.",
+                "allow_replace_media": "Media vervangen toestaan",
+                "allow_replace_media_hint": "Supporters kunnen deze afbeelding door hun eigen foto vervangen.",
+                "allow_resize": "Formaat wijzigen toestaan",
+                "allow_resize_hint": "Supporters kunnen het formaat van deze laag wijzigen door aan de hoeken en zijkanten te slepen.",
+                "allow_rotate": "Roteren toestaan",
+                "allow_rotate_hint": "Supporters kunnen deze laag onder elke hoek draaien.",
+                "group_appearance": "Uiterlijk",
+                "group_arrange": "Schikken",
+                "group_media": "Media",
+                "placeholder_hint": "Toont een leeg vak waarop supporters kunnen tikken om hun foto toe te voegen.",
+                "remove_background": "De achtergrond van hun foto verwijderen",
+                "remove_background_hint": "Knipt de supporter uit zijn foto uit, zodat je ontwerp eromheen zichtbaar is.",
+                "text_placeholder_hint": "Toont deze tekst als voorbeeld dat supporters door hun eigen tekst vervangen."
+            },
+            "shape_effect": {
+                "colour": "Effectkleur",
+                "distance": "Afstand",
+                "echo": "Echo",
+                "first_color": "Eerste kleur",
+                "first_colour": "Eerste effectkleur",
+                "glitch": "Glitch",
+                "glow": "Gloed",
+                "group_label": "Vormeffect",
+                "second_color": "Tweede kleur",
+                "second_colour": "Tweede effectkleur",
+                "section": "Effect",
+                "shadow": "Slagschaduw"
+            },
+            "text_effect": {
+                "colour": "Effectkleur",
+                "curve": "Boog",
+                "distance": "Afstand",
+                "echo": "Echo",
+                "glow": "Gloed",
+                "group_label": "Teksteffect",
+                "outline": "Contour",
+                "section": "Effect",
+                "shape_group_label": "Tekstvorm",
+                "splice": "Splice",
+                "title": "Teksteffecten"
+            }
+        },
+        "templates": {
+            "empty_body": "Probeer een korter of algemener woord.",
+            "empty_title": "Geen sjablonen gevonden voor “{query}”",
+            "error_title": "Sjablonen konden niet worden geladen",
+            "none_body": "Zoek op een thema, zoals verjaardag of afstuderen.",
+            "none_title": "Nog geen sjablonen voor dit ontwerp",
+            "search_label": "Sjablonen zoeken",
+            "search_placeholder": "Sjablonen zoeken"
+        },
+        "text_panel": {
+            "add_template": "Tekstsjabloon toevoegen: {name}",
+            "add_text_box": "Tekstvak toevoegen",
+            "empty_body": "Probeer een korter of algemener woord.",
+            "empty_title": "Geen tekstsjablonen gevonden voor “{query}”",
+            "error_title": "Tekstsjablonen konden niet worden geladen",
+            "none_body": "Begin in plaats daarvan met een gewoon tekstvak.",
+            "none_title": "Geen tekstsjablonen om te tonen",
+            "search_label": "Tekstsjablonen zoeken",
+            "search_placeholder": "Tekstsjablonen zoeken"
+        },
+        "text_preset": {
+            "seed": "Voeg hier je tekst toe"
+        },
+        "textures": {
+            "apply_texture": "{name} toepassen",
+            "category": {
+                "fabric": "Stof",
+                "grain": "Korrel",
+                "grunge": "Grunge",
+                "paper": "Papier",
+                "print": "Druk"
+            },
+            "category_group_label": "Texturcategorie",
+            "empty_body": "We bouwen deze bibliotheek op – kom snel terug.",
+            "empty_title": "Nog geen texturen",
+            "most_used": "Meest gebruikt",
+            "search_placeholder": "Texturen zoeken"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Audio toevoegen",
+                "add_tooltip": "Een audiotrack voor op de achtergrond toevoegen",
+                "bar_aria": "{name} op {start} gedurende {duration}",
+                "decoding": "Audio decoderen…",
+                "decoding_waveform": "Golfvorm decoderen…",
+                "default_name": "Audio",
+                "drop_to_add": "Loslaten om audio toe te voegen",
+                "kind_suffix": "· Audio",
+                "mute": "Track dempen",
+                "unmute": "Dempen van track opheffen",
+                "volume": "Trackvolume",
+                "waveform_error": "De golfvorm van deze track kon niet worden geladen."
+            },
+            "keyframe": {
+                "add": "Keyframe toevoegen",
+                "add_at_playhead": "Keyframe toevoegen op de afspeelkop",
+                "add_tooltip": "Een eigenschap van deze laag keyframen",
+                "diamond_aria": "{lane}-keyframe op {time}",
+                "diamond_hint": " · sleep om de timing te wijzigen, klik met rechts om te verwijderen",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Hoekradius",
+                    "layer_blur": "Laagvervaging",
+                    "line_height": "Regelhoogte",
+                    "opacity": "Dekking",
+                    "position": "Positie",
+                    "rotation": "Rotatie",
+                    "scale": "Schaal",
+                    "stroke": "Omlijning"
+                },
+                "remove_lane": "{lane}-keyframes verwijderen",
+                "remove_lane_from_layer": "{lane}-keyframes van {layer} verwijderen",
+                "segment_easing_aria": "{lane}-timingfunctie tussen {from} en {to}, momenteel {easing}",
+                "segment_easing_title": "Timingfunctie · {easing}",
+                "welded_aria": ", vastgekoppeld aan de laagrand",
+                "welded_title": " · vastgekoppeld aan de laagrand"
+            },
+            "menu": {
+                "repeat_until_end": "Herhalen tot het einde"
+            },
+            "track": {
+                "bar_aria": "{name} op {start} gedurende {duration}",
+                "bar_aria_end_glued": ", einde vastgekoppeld aan de laag",
+                "bar_aria_start_glued": ", begin vastgekoppeld aan de laag",
+                "bar_tooltip": "{name} · {start} gedurende {duration} ms · sleep om te verplaatsen, sleep een rand om het formaat te wijzigen (Alt = niet uitlijnen)",
+                "bar_tooltip_sole": " · deze rand slepen verplaatst de laag",
+                "clip_aria": "Clip {name}",
+                "clip_tooltip": "Sleep om de laag in de tijd te verplaatsen · sleep een uiteinde om bij te snijden (Alt = niet uitlijnen)",
+                "collapse": "Samenvouwen",
+                "collapse_all": "Alle lagen samenvouwen",
+                "collapse_named": "{name} samenvouwen",
+                "delete_layer": "Laag verwijderen",
+                "delete_named": "{name} verwijderen",
+                "ends_at": "Eindigt op",
+                "expand": "Uitvouwen",
+                "expand_named": "{name} uitvouwen",
+                "hidden_lane_one": "{count} verborgen spoor",
+                "hidden_lane_other": "{count} verborgen sporen",
+                "hide": "Verbergen",
+                "hide_named": "{name} verbergen",
+                "lane_reorder_tooltip": "Sleep om te herschikken – het bovenste spoor wint waar animaties elkaar overlappen",
+                "layer_animations": "Laaganimaties",
+                "lock_layer": "Laag vergrendelen",
+                "lock_named": "{name} vergrendelen",
+                "remove_animation": "Animatie verwijderen",
+                "remove_animation_aria": "{name}-animatie van {layer} verwijderen",
+                "reorder_tooltip": "Sleep om tracks te herschikken – de stapelvolgorde op het canvas stel je in in het laagpaneel",
+                "show": "Tonen",
+                "show_named": "{name} tonen",
+                "split": "Splitsen",
+                "starts_at": "Begint op",
+                "trim_end": "Einde bijsnijden",
+                "trim_start": "Begin bijsnijden",
+                "trim_to": "Bijsnijden tot {time}",
+                "unlock_layer": "Laag ontgrendelen",
+                "unlock_named": "{name} ontgrendelen"
+            },
+            "transport": {
+                "current_time_field": "Huidige tijd in milliseconden",
+                "duration_edge_aria": "Paginaduur {seconds} seconden",
+                "duration_edge_tooltip": "Paginaduur {seconds} s · sleep om te wijzigen, klik voor de exacte waarde (Alt = niet uitlijnen)",
+                "duration_max": "Maximaal {seconds} s",
+                "fit_to_width": "Aanpassen aan breedte",
+                "forward": "Vooruit",
+                "lengthen_page": "De pagina verlengen",
+                "loop": "Afspelen herhalen",
+                "page_duration": "Paginaduur",
+                "page_duration_field": "Paginaduur in milliseconden",
+                "resize_dock": "Formaat van tijdlijn wijzigen",
+                "rewind": "Terugspoelen",
+                "shorten_page": "De pagina inkorten",
+                "zoom": "Tijdlijnzoom"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "Te veel verzoeken",
             "CN-4003": "Ongeldige URL",
             "C-4090": "Je campagnelink is al in gebruik. Probeer een andere.",
+            "C-4094": "Campagne staat al in de prullenbak",
+            "C-4095": "Campagne staat niet in de prullenbak",
             "SUB-403": "Inzendingen zijn verboden door campagne-instellingen",
             "A-40091": "Gebruik het e-mailadres van je school of universiteit",
             "PB-4011": "Deze link is ongeldig of verlopen",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "Scroll omlaag om je frame te kiezen",
         "editor_single": "Scroll omlaag om je foto aan te passen",
         "editor_multiple": "Scroll omlaag om frames te bewerken en te wisselen"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "Campagnes worden hersteld…"
+        }
     }
 }

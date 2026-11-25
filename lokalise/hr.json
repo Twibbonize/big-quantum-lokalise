@@ -2842,7 +2842,9 @@
             "type": "Tip:",
             "size": "Veličina:",
             "type_image": "JPG, PNG ili SVG",
-            "maximum_size": "Maksimalno 5 MB"
+            "maximum_size": "Maksimalno 5 MB",
+            "abandoned": "Učitavanje je zaustavljeno jer je sloj uklonjen. Pokušajte ponovno ako ga želite zadržati u knjižnici.",
+            "failed": "Učitavanje nije uspjelo. Provjerite vezu i pokušajte ponovno."
         },
         "toolbar": {
             "copy": "Kopirati",
@@ -2871,7 +2873,119 @@
             "border_weight": "Težina granice",
             "corner_rounding": "Zaokruživanje kutova",
             "align": "Poravnati",
-            "effects": "Efekti"
+            "effects": "Efekti",
+            "animate": {
+                "amount": "Količina",
+                "angle": "Kut",
+                "close": "Zatvori postavke animacije",
+                "delete_animation": "Izbriši animaciju",
+                "distance": "Udaljenost",
+                "easing": "Easing",
+                "fade": "Pojavljivanje",
+                "settings_aria": "Postavke animacije"
+            },
+            "audio": {
+                "replace": "Zamijeni",
+                "tools_aria": "Alati audiozapisa",
+                "trim": "Obreži",
+                "volume": "Glasnoća"
+            },
+            "clip": {
+                "length": "Duljina",
+                "split": "Podijeli",
+                "trim": "Obreži"
+            },
+            "entry": {
+                "animate": "Animiraj"
+            },
+            "image": {
+                "adjust": "Prilagodi",
+                "background_removal_unavailable": "Uklanjanje pozadine još nije dostupno",
+                "remove_background": "Ukloni pozadinu",
+                "remove_background_short": "Izrezak",
+                "replace": "Zamijeni"
+            },
+            "keyframe": {
+                "blur": "Zamućenje sloja",
+                "close": "Zatvori svojstva ključnog kadra",
+                "delete_keyframe": "Izbriši ključni kadar",
+                "letter_spacing": "Razmak",
+                "line_height": "Visina retka",
+                "opacity": "Prozirnost",
+                "position": "Položaj",
+                "properties_aria": "Svojstva ključnog kadra",
+                "rotation": "Rotacija",
+                "scale": "Razmjer"
+            },
+            "layer_tools": {
+                "deselect": "Poništi odabir sloja",
+                "tools_aria": "Alati sloja"
+            },
+            "media": {
+                "adjust": "Prilagodi",
+                "green_screen": "Zeleni ekran",
+                "replace": "Zamijeni",
+                "trim": "Obreži"
+            },
+            "misc": {
+                "background_fill": "Ispuna pozadine",
+                "background_fill_short": "Ispuna",
+                "configure_qr": "Postavi QR kôd",
+                "edit_background_image": "Uredi sliku pozadine",
+                "no_background_image": "Još nema slike pozadine",
+                "replace_unavailable": "Zamijeni (još nije dostupno)"
+            },
+            "opacity": {
+                "label": "Prozirnost"
+            },
+            "shape": {
+                "corner_radius": "Polumjer kutova",
+                "corner_radius_short": "Polumjer",
+                "fill": "Ispuna",
+                "line_color": "Boja linije",
+                "line_style_dots": "Točkice",
+                "line_style_long_dashes": "Duge crtice",
+                "line_style_named": "Stil linije: {style}",
+                "line_style_short_dashes": "Kratke crtice",
+                "line_style_solid": "Puna",
+                "line_weight": "Debljina linije",
+                "stroke_color": "Boja obruba",
+                "stroke_color_short": "Obrub",
+                "stroke_weight": "Debljina obruba",
+                "stroke_weight_short": "Debljina"
+            },
+            "speed": {
+                "custom_input": "Prilagođena brzina reprodukcije",
+                "label": "Brzina",
+                "playback_length": "Trajanje reprodukcije",
+                "playback_speed": "Brzina reprodukcije",
+                "range_hint": "Između {min}× i {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Smanji veličinu fonta",
+                "font_family": "Obitelj fonta",
+                "font_family_named": "Obitelj fonta: {value}",
+                "font_size": "Veličina fonta",
+                "font_weight": "Debljina fonta",
+                "font_weight_named": "Debljina fonta: {value}",
+                "increase_font_size": "Povećaj veličinu fonta",
+                "keyboard": "Tipkovnica",
+                "line_height": "Visina retka",
+                "spacing": "Razmak",
+                "text_color": "Boja teksta",
+                "weight": "Debljina"
+            },
+            "volume": {
+                "clip_hint": "Samo ovaj isječak. Audio postavljen na vremensku traku zadržava vlastitu razinu.",
+                "label": "Glasnoća",
+                "level": "Razina",
+                "mute": "Isključi zvuk",
+                "muted": "Zvuk isključen",
+                "muted_hint": "Razina je zadržana. Uključite zvuk i isječak će se vratiti na {percent} %.",
+                "no_audio": "Ovaj videozapis nema zvuk.",
+                "slider": "Razina glasnoće",
+                "unmute": "Uključi zvuk"
+            }
         },
         "confirmation": {
             "cancel": "Odbaciti",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Boje dokumenata",
             "default_colors": "Zadane boje"
         },
-        "graphic": "Grafički"
+        "graphic": "Grafički",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Dolje u sredini",
+                "bottom_left": "Dolje lijevo",
+                "bottom_right": "Dolje desno",
+                "center_left": "Lijevo u sredini",
+                "center_right": "Desno u sredini",
+                "top_center": "Gore u sredini",
+                "top_left": "Gore lijevo",
+                "top_right": "Gore desno"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Kraj",
+                "more_options": "Više opcija"
+            },
+            "direction": {
+                "bottom_left": "Dolje lijevo",
+                "bottom_right": "Dolje desno",
+                "clockwise": "U smjeru kazaljki na satu",
+                "counter_clockwise": "Suprotno od smjera kazaljki na satu",
+                "from_the": "Iz: {place}",
+                "to_the": "Prema: {place}",
+                "top_left": "Gore lijevo",
+                "top_right": "Gore desno"
+            },
+            "easing": {
+                "accelerate": "Ubrzanje",
+                "bounce": "Odskok",
+                "elastic": "Elastično",
+                "impulse": "Impuls",
+                "natural": "Prirodno",
+                "overshoot": "Preskok",
+                "slow_down": "Usporavanje",
+                "smooth": "Glatko",
+                "swing": "Njihanje"
+            },
+            "field": {
+                "amount": "Količina",
+                "anchor_group": "Sidrišna točka",
+                "anchor_point": "Sidrišna točka",
+                "angle": "Kut",
+                "apply_effect_to": "Primijeni efekt na",
+                "axis": "Os",
+                "choose_easing": "Odaberi easing",
+                "distance": "Udaljenost",
+                "duration": "Trajanje",
+                "edge": "Rub",
+                "fade": "Pojavljivanje",
+                "from_noun": "Od: {noun}",
+                "horizontal": "Vodoravno",
+                "noun_blur": "zamućenje",
+                "noun_opacity": "prozirnost",
+                "noun_size": "veličina",
+                "opacity": "Prozirnost",
+                "order": "Redoslijed",
+                "position": "Položaj",
+                "rotation": "Rotacija",
+                "rotation_direction": "Smjer rotacije",
+                "scale": "Razmjer",
+                "smoothing": "Zaglađivanje",
+                "to_noun": "Do: {noun}",
+                "vertical": "Okomito"
+            },
+            "mode": {
+                "arrives": "Ulazak",
+                "departs": "Izlazak",
+                "in": "Ulaz",
+                "out": "Izlaz"
+            },
+            "panel": {
+                "animation": "Animacija",
+                "animations_tab": "Animacije",
+                "basic": "Osnovno",
+                "changing_note": "Odaberite zamjenu. Preuzet će mjesto i trajanje animacije koju mijenjate.",
+                "corner_radius": "Polumjer kutova",
+                "easing": "Easing",
+                "fade": "Pojavljivanje",
+                "keyframe_tab": "Ključni kadar",
+                "layer_blur": "Zamućenje sloja",
+                "line_height": "Visina retka",
+                "more_options": "Više opcija",
+                "motion": "Kretanje",
+                "needs_one_element": "Gotove animacije zahtijevaju jedan element. Odaberite jedan sloj da ih vidite.",
+                "paste_animation": "Zalijepi animaciju",
+                "scale": "Razmjer",
+                "slide": "Klizanje",
+                "stroke": "Obrub",
+                "text_animation": "Animacija teksta"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Pojavljivanje",
+                    "label": "Pojavljivanje"
+                },
+                "blur": {
+                    "label": "Ulaz sa zamućenjem"
+                },
+                "blur_scale": {
+                    "caption": "Zamućenje i razmjer",
+                    "label": "Ulaz sa zamućenjem i promjenom razmjera"
+                },
+                "blur_slide": {
+                    "caption": "Zamućenje i klizanje",
+                    "label": "Ulaz sa zamućenjem i klizanjem"
+                },
+                "fade": {
+                    "caption": "Pojavljivanje",
+                    "label": "Pojavljivanje"
+                },
+                "grow": {
+                    "caption": "Iskakanje",
+                    "label": "Iskakanje pri ulazu"
+                },
+                "mask_center": {
+                    "caption": "Maska od središta",
+                    "label": "Otkrivanje maskom od središta"
+                },
+                "mask_reveal": {
+                    "caption": "Otkrivanje maskom",
+                    "label": "Otkrivanje maskom od ruba"
+                },
+                "mask_slide": {
+                    "caption": "Maska i klizanje",
+                    "label": "Otkrivanje maskom uz klizanje"
+                },
+                "move_scale": {
+                    "caption": "Pomak i razmjer",
+                    "label": "Ulaz s pomakom i promjenom razmjera"
+                },
+                "rotate_left": {
+                    "label": "Rotacija slijeva"
+                },
+                "rotate_right": {
+                    "label": "Rotacija zdesna"
+                },
+                "shrink": {
+                    "caption": "Veliko",
+                    "label": "Ulaz u velikom"
+                },
+                "slide": {
+                    "caption": "Klizanje",
+                    "label": "Ulet"
+                },
+                "slide_from_bottom": {
+                    "label": "Ulet odozdo"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Dolje lijevo",
+                    "label": "Ulet iz donjeg lijevog kuta"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Dolje desno",
+                    "label": "Ulet iz donjeg desnog kuta"
+                },
+                "slide_from_left": {
+                    "label": "Ulet slijeva"
+                },
+                "slide_from_right": {
+                    "label": "Ulet zdesna"
+                },
+                "slide_from_top": {
+                    "label": "Ulet odozgo"
+                },
+                "slide_from_top_left": {
+                    "caption": "Gore lijevo",
+                    "label": "Ulet iz gornjeg lijevog kuta"
+                },
+                "slide_from_top_right": {
+                    "caption": "Gore desno",
+                    "label": "Ulet iz gornjeg desnog kuta"
+                },
+                "spin": {
+                    "caption": "Vrtnja",
+                    "label": "Ulaz s vrtnjom"
+                },
+                "spin_scale": {
+                    "caption": "Vrtnja i razmjer",
+                    "label": "Ulaz s vrtnjom i promjenom razmjera"
+                },
+                "twist": {
+                    "caption": "Uvijanje",
+                    "label": "Ulaz s uvijanjem"
+                }
+            },
+            "property": {
+                "change_text": "Promijeni tekst",
+                "morph": "Morfiranje",
+                "move": "Pomak",
+                "opacity": "Prozirnost",
+                "scale": "Razmjer"
+            },
+            "section": {
+                "fade": "Pojavljivanje",
+                "mask": "Maska",
+                "scale": "Razmjer",
+                "slide": "Klizanje",
+                "transform": "Transformacija"
+            },
+            "text": {
+                "backward": "Unatrag",
+                "forward": "Naprijed",
+                "letters": "Slova",
+                "summary_overlap": "Svaki element ({unit}) počinje kad prethodni dođe do {percent} %.",
+                "summary_sequential": "Svaki element ({unit}) završi prije početka sljedećeg.",
+                "summary_together": "Svi elementi ({unit}) kreću se zajedno.",
+                "summary_whole": "Cijeli tekstni blok animira se kao cjelina.",
+                "words": "Riječi"
+            },
+            "type": {
+                "fade_in": "Pojavljivanje",
+                "fade_out": "Nestajanje",
+                "line_height": "Visina retka",
+                "radius": "Polumjer",
+                "resize_in": "Promjena veličine pri ulazu",
+                "resize_out": "Promjena veličine pri izlazu",
+                "rotate_in": "Rotacija pri ulazu",
+                "rotate_out": "Rotacija pri izlazu",
+                "scale_in": "Promjena razmjera pri ulazu",
+                "scale_out": "Promjena razmjera pri izlazu",
+                "slide_in": "Ulet",
+                "slide_out": "Izlet",
+                "spacing": "Razmak",
+                "stroke": "Obrub"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Dodajte svoju fotografiju za nastavak.",
+                    "gesture": {
+                        "frameDesktop": "Povucite za promjenu položaja · Pomaknite kotačić za zumiranje",
+                        "frameMobile": "Povucite za promjenu položaja, približite prste za zumiranje",
+                        "handles": "Mijenjajte veličinu s kutova i stranica, rotirajte odozgo",
+                        "move": "Povucite za pomicanje",
+                        "moveOrHandles": "Povucite za pomicanje ili upotrijebite ručke",
+                        "resize": "Povucite kut ili stranu za promjenu veličine",
+                        "rotate": "Povucite gornju ručku za rotiranje",
+                        "rotateDesktop": "Povucite ravnalo ili upotrijebite tipke sa strelicama",
+                        "rotateMobile": "Povucite ravnalo za rotiranje"
+                    },
+                    "hint": {
+                        "pickDesktop": "Kliknite označeno područje ili odaberite sloj lijevo",
+                        "pickMobile": "Dodirnite označeno područje ili odaberite sloj ispod",
+                        "previewDesktop": "Pregled vašeg dizajna. Kliknite ga za nastavak uređivanja.",
+                        "previewMobile": "Pregled vašeg dizajna. Dodirnite ga za nastavak uređivanja."
+                    },
+                    "layer": {
+                        "addPhoto": "Dodajte svoju fotografiju",
+                        "text": "Tekst: {text}",
+                        "yourPhoto": "Vaša fotografija",
+                        "yourText": "Vaš tekst"
+                    },
+                    "layers": {
+                        "all": "Svi slojevi",
+                        "photo": "Fotografija",
+                        "sheetDescription": "Sve u ovom dizajnu što možete promijeniti.",
+                        "title": "Slojevi"
+                    },
+                    "photoError": "Nismo mogli upotrijebiti tu fotografiju. Pokušajte s drugom slikom.",
+                    "preview": {
+                        "backToEditing": "Natrag na uređivanje"
+                    },
+                    "rotation": {
+                        "aria": "Rotacija",
+                        "value": "one:# stupanj|few:# stupnja|other:# stupnjeva"
+                    },
+                    "tools": {
+                        "adjust": "Prilagodi",
+                        "aria": "Alati sloja",
+                        "editText": "Uredi tekst",
+                        "flip": "Zrcali",
+                        "locked": "Veličinu i položaj određuje autor",
+                        "replace": "Zamijeni",
+                        "textAria": "Alati teksta",
+                        "zoomIn": "Povećaj",
+                        "zoomOut": "Smanji"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "Datoteka {name} dodana je na vremensku traku.",
+                "too_big": "Datoteka {name} premašuje {limit}.",
+                "too_long": "Datoteka {name} dulja je od {minutes} min.",
+                "too_many": "Odjednom je moguće dodati samo ovoliko datoteka: {count}.",
+                "wrong_type": "Datoteku {name} nije moguće dodati — samo slike, videozapisi i SVG datoteke."
+            }
+        },
+        "catalogue": {
+            "error_body": "Provjerite vezu, zatim pokušajte ponovno.",
+            "loading_more": "Učitavanje još"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Odbaci skicu",
+                "description_unsaved": "Ovaj dizajn nije spremljen. Povratak će ga trajno izbrisati — zajedno sa slojevima, stilovima i animacijom.",
+                "title": "Odbaciti skicu „{title}“?"
+            },
+            "save": {
+                "description": "Nakon spremanja uređivanje više neće biti dostupno.",
+                "saving": "Spremanje…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Prilagodi zaslonu"
+        },
+        "graphic_panel": {
+            "add": "Dodaj: {name}",
+            "add_failed": "Ovu grafiku nije bilo moguće dodati. Pokušajte ponovno.",
+            "empty_body": "Pokušajte s kraćom ili općenitijom riječi, poput zvijezde ili srca.",
+            "empty_title": "Nema grafika koje odgovaraju upitu „{query}“",
+            "error_title": "Grafike nije bilo moguće učitati",
+            "none_title": "Nema grafika za prikaz",
+            "search_label": "Traži grafike",
+            "search_placeholder": "Traži grafike"
+        },
+        "header": {
+            "redo": "Ponovi",
+            "saving": "Spremanje…",
+            "undo": "Poništi",
+            "untitled_design": "Dizajn bez naslova"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Mjesto za fotografiju"
+            },
+            "menu": {
+                "align_center": "Središte",
+                "bring_forward": "Pomakni naprijed",
+                "bring_to_front": "Dovedi u prvi plan",
+                "detach_image": "Odvoji sliku",
+                "flip_horizontal": "Zrcali vodoravno",
+                "flip_vertical": "Zrcali okomito",
+                "replace_image": "Zamijeni sliku",
+                "send_backward": "Pomakni unatrag",
+                "send_to_back": "Pošalji u pozadinu",
+                "set_as_background_image": "Postavi kao sliku pozadine",
+                "set_as_background_video": "Postavi kao videozapis pozadine",
+                "set_background_as_image_layer": "Postavi pozadinu kao sloj slike",
+                "set_background_as_video_layer": "Postavi pozadinu kao sloj videozapisa",
+                "sheet_title": "Opcije sloja",
+                "show_layers": "Prikaži slojeve"
+            },
+            "pill": {
+                "duplicate": "Dupliciraj sloj",
+                "more": "Više radnji sloja",
+                "remove": "Ukloni sloj",
+                "toolbar": "Radnje sloja"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Kôd za uparivanje spreman: {code}. Predajte ga svom AI klijentu.",
+                "connecting": "Priprema kôda za uparivanje.",
+                "failed": "Povezivanje nije uspjelo. {reason}",
+                "reconnecting": "Veza je prekinuta. Pokušavam se ponovno povezati."
+            },
+            "clipboard_blocked": "Vaš je preglednik blokirao međuspremnik. {hint}",
+            "connect": "Poveži",
+            "connecting": "Povezivanje…",
+            "copied_address_announcement": "Adresa poslužitelja kopirana",
+            "copied_code_announcement": "Kôd za uparivanje kopiran",
+            "copy_address_hint": "Odaberite adresu i kopirajte je ručno.",
+            "copy_code": "Kopiraj kôd",
+            "copy_code_hint": "Odaberite kôd i kopirajte ga ručno.",
+            "copy_server_address": "Kopiraj adresu MCP poslužitelja",
+            "disconnect": "Prekini vezu",
+            "error_fallback": "Usluga uparivanja nije odgovorila. Provjerite vezu i pokušajte ponovno.",
+            "guide": {
+                "fresh_code": "Ako kôd prestane raditi, kliknite Prekini vezu i povežite se ponovno za novi.",
+                "how_to_set_up": "Kako to postaviti",
+                "step_add_body": "Dodajte Twibbonize svom AI klijentu pomoću adrese u nastavku. U Claude Codeu pokrenite",
+                "step_add_title": "Dodajte Twibbonize svom AI klijentu",
+                "step_pair_body": "Recite „upari s Twibbonize uređivačem“ i dajte mu kôd iznad.",
+                "step_pair_title": "Zatražite uparivanje",
+                "where_to_paste": "Gdje da zalijepim ovaj kôd?"
+            },
+            "lead": {
+                "code_ready_sentence": "Zalijepite ga u Claude i zatražite uparivanje. Platno crta okvir oko stranice dok Claude radi.",
+                "code_ready_title": "Predajte ovaj kôd svom AI klijentu",
+                "connecting_sentence": "Ovo traje trenutak.",
+                "connecting_title": "Priprema kôda za uparivanje",
+                "disconnected_sentence": "Claude Desktop i Claude Code mogu dodavati slojeve, pisati tekst, postavljati animacije i čitati što je na platnu.",
+                "disconnected_title": "Uključite AI klijent u ovaj dizajn",
+                "failed_title": "Povezivanje nije uspjelo",
+                "reconnecting_sentence": "Veza s vašim AI klijentom je prekinuta. Pokušavam je obnoviti.",
+                "reconnecting_title": "Ponovno povezivanje",
+                "unavailable_sentence": "Ova verzija uređivača nema postavljenu AI vezu, pa se još nema na što povezati.",
+                "unavailable_title": "MCP ovdje nije uključen"
+            },
+            "pairing_code_label": "Kôd za uparivanje: {code}"
+        },
+        "media": {
+            "add_asset": "Dodaj: {name}",
+            "dismiss_error": "Odbaci",
+            "empty_body": "Dodajte sliku, videozapis ili audiodatoteku ispod i ostat će ovdje do kraja ove sesije.",
+            "empty_narrowed_body": "Očistite pretraživanje ili odaberite drugu vrstu da vidite sve što ste dodali.",
+            "empty_narrowed_title": "Nema rezultata",
+            "empty_title": "Još ništa nije učitano",
+            "filter": {
+                "audio": "Audio",
+                "images": "Slike"
+            },
+            "filter_group_label": "Vrsta medija",
+            "make_an_image": "Izradi sliku",
+            "make_image_unavailable": "Generiranje slika još nije dostupno",
+            "search_placeholder": "Traži medije",
+            "upload_button": "Učitaj sliku, videozapis ili audio",
+            "uploads_heading": "Učitano"
+        },
+        "page_bar": {
+            "group_label": "Kontrole zumiranja",
+            "zoom_menu": "Razina zumiranja, {percent} %"
+        },
+        "panel": {
+            "loading": "Učitavanje: {panel}…"
+        },
+        "photo": {
+            "add_by": "Dodaj fotografiju autora {name}",
+            "add_described": "Dodaj fotografiju: {description}",
+            "credit": "Fotografije osigurava",
+            "empty_body": "Pokušajte s kraćom ili općenitijom riječi, poput plaže ili grada.",
+            "empty_title": "Nema fotografija koje odgovaraju upitu „{query}“",
+            "error_title": "Fotografije nije bilo moguće učitati",
+            "none_title": "Nema fotografija za prikaz",
+            "search_label": "Traži fotografije",
+            "search_placeholder": "Traži fotografije"
+        },
+        "qr": {
+            "add_logo": "Dodaj logotip",
+            "add_to_design": "Dodaj u dizajn",
+            "background_colour_label": "Boja pozadine",
+            "code_colour_label": "Boja kôda",
+            "code_label": "Kôd",
+            "link_input_label": "Poveznica QR kôda",
+            "link_label": "Poveznica",
+            "logo_fallback_name": "Slika logotipa",
+            "logo_label": "Logotip",
+            "remove_logo": "Ukloni logotip"
+        },
+        "rail": {
+            "aria_label": "Knjižnice dizajna",
+            "graphic": "Grafike",
+            "help": "Pomoć",
+            "layers": "Slojevi",
+            "mcp": "MCP",
+            "media": "Mediji",
+            "photo": "Fotografije",
+            "qr_code": "QR kôd",
+            "shapes": "Oblici",
+            "templates": "Predlošci",
+            "textures": "Teksture",
+            "tools": "Alati"
+        },
+        "save": {
+            "failed": "Dizajn nije bilo moguće spremiti. Pokušajte ponovno."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Svjetlina",
+                "compare": "Usporedi s originalom",
+                "contrast": "Kontrast",
+                "grayscale": "Nijanse sive",
+                "group": {
+                    "basic": "Osnovno",
+                    "refinements": "Dorade"
+                },
+                "hue_rotate": "Rotacija nijanse",
+                "reset": "Poništi prilagodbe",
+                "saturation": "Zasićenost",
+                "title": "Prilagodbe"
+            },
+            "color": {
+                "trigger": "Boja"
+            },
+            "common": {
+                "layer_blur": "Zamućenje sloja",
+                "layer_blur_stepper": "Zamućenje sloja"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Slobodan oblik",
+                    "landscape": "Pejzaž",
+                    "original": "Original",
+                    "portrait": "Portret",
+                    "square": "Kvadrat",
+                    "story": "Priča",
+                    "widescreen": "Široki zaslon"
+                },
+                "shape": {
+                    "circle": "Krug",
+                    "diamond": "Romb",
+                    "half_circle": "Polukrug",
+                    "oval": "Oval",
+                    "parallelogram": "Paralelogram",
+                    "rounded": "Zaobljeno"
+                }
+            },
+            "filter": {
+                "cool": "Hladno",
+                "duotone": "Duotone",
+                "mono": "Mono",
+                "original": "Original",
+                "vivid": "Živo",
+                "warm": "Toplo"
+            },
+            "font_weight": {
+                "black": "Black",
+                "extra_bold": "ExtraBold",
+                "extra_light": "ExtraLight",
+                "medium": "Medium",
+                "regular": "Regular",
+                "semibold": "SemiBold",
+                "thin": "Thin"
+            },
+            "frame": {
+                "colour": "Boja okvira"
+            },
+            "green_screen": {
+                "choose_colour": "Odaberite boju",
+                "colour": "Boja",
+                "compare": "Usporedi s originalom",
+                "eyedropper": "Odaberi boju s platna",
+                "key_colour": "Ključna boja {hex}",
+                "loose": "Labavo",
+                "nothing_found": "Nije pronađena boja pozadine.",
+                "precise": "Precizno",
+                "preset": {
+                    "bright_blue": "Svijetloplava",
+                    "bright_green": "Svijetlozelena",
+                    "chroma_blue": "Chroma plava",
+                    "chroma_green": "Chroma zelena"
+                },
+                "presets": "Uobičajene boje pozadine",
+                "remove": "Ukloni zeleni ekran",
+                "title": "Zeleni ekran"
+            },
+            "image": {
+                "corner_radius": "Polumjer kutova",
+                "corner_radius_stepper": "Polumjer kutova",
+                "per_corner": "Uredi pojedinačne kutove",
+                "per_corner_unavailable": "Uređivanje pojedinačnih kutova još nije dostupno"
+            },
+            "keypad": {
+                "value_field": "Vrijednost: {label}"
+            },
+            "line": {
+                "colour": "Boja linije",
+                "style": {
+                    "dots": "Točkice",
+                    "long_dashes": "Duge crtice",
+                    "short_dashes": "Kratke crtice",
+                    "solid": "Puna"
+                },
+                "style_trigger": "Stil linije: {style}",
+                "weight": "Debljina linije",
+                "weight_trigger": "Debljina linije {weight}"
+            },
+            "media": {
+                "heading": "Mediji"
+            },
+            "page": {
+                "size_capped": "Maks. {max} px — omjer zadržan"
+            },
+            "pages": {
+                "title": "Stranice"
+            },
+            "photo_slot": {
+                "enable": "Koristi kao mjesto za fotografiju",
+                "key_field": "Ključ (jedinstven)",
+                "key_required": "Ključ je obavezan",
+                "key_taken": "Ključ već koristi drugo mjesto",
+                "label_field": "Oznaka (prikazuje se krajnjem korisniku)",
+                "on": "Mjesto za fotografiju",
+                "remove": "Ukloni mjesto za fotografiju"
+            },
+            "qr": {
+                "add_logo": "Dodaj logotip",
+                "background_colour": "Boja pozadine",
+                "code": "Kôd",
+                "code_colour": "Boja kôda",
+                "link": "Poveznica",
+                "link_input": "Poveznica QR kôda",
+                "logo": "Logotip",
+                "remove_logo": "Ukloni logotip"
+            },
+            "root": {
+                "background_image": "Slika pozadine",
+                "edit_background": "Uredi sliku pozadine",
+                "fill": "Ispuna",
+                "fill_gradient": "Gradijent",
+                "page_height": "Visina stranice",
+                "page_width": "Širina stranice",
+                "ratio_lock": "Zaključaj omjer stranica",
+                "ratio_unlock": "Otključaj omjer stranica",
+                "rotate_left": "Zakreni pozadinu ulijevo",
+                "rotate_right": "Zakreni pozadinu udesno"
+            },
+            "scalar": {
+                "clip_length": "Duljina",
+                "corner_radius": "Polumjer kutova",
+                "font_size": "Veličina fonta",
+                "layer_blur": "Zamućenje sloja",
+                "letter_spacing": "Razmak slova",
+                "line_height": "Visina retka",
+                "opacity": "Prozirnost",
+                "speed": "Brzina",
+                "stroke_width": "Širina obruba",
+                "volume": "Glasnoća"
+            },
+            "shape": {
+                "corner_radius": "Polumjer kutova",
+                "corner_radius_stepper": "Polumjer kutova",
+                "fill": "Ispuna",
+                "fill_gradient": "Gradijent",
+                "fill_mixed": "Miješano",
+                "fill_transparent": "Prozirno",
+                "stroke": "Obrub",
+                "stroke_color": "Boja obruba",
+                "stroke_style": {
+                    "dots": "Točkice",
+                    "long_dashes": "Duge crtice",
+                    "short_dashes": "Kratke crtice",
+                    "solid": "Puna"
+                },
+                "stroke_style_select": "Stil obruba",
+                "stroke_transparent": "Prozirno",
+                "stroke_weight": "Debljina obruba"
+            },
+            "svg": {
+                "path_colour": "Boja {index}"
+            },
+            "swatch": {
+                "more_colours": "Više boja"
+            },
+            "text": {
+                "align": {
+                    "justify": "Obostrano"
+                },
+                "alignment": "Poravnanje",
+                "edit_text": "Uredi tekst",
+                "font_family": "Obitelj fonta",
+                "font_family_select": "Obitelj fonta",
+                "font_size": "Veličina fonta",
+                "italic_unavailable": "Ovaj font nema kurziv u ovoj debljini",
+                "letter_spacing_stepper": "Razmak slova",
+                "line_height": "Visina retka",
+                "line_height_stepper": "Visina retka",
+                "list": "Popis",
+                "list_bulleted": "Popis s grafičkim oznakama",
+                "list_numbered": "Numerirani popis",
+                "list_style": "Stil popisa",
+                "text_case": "Velika i mala slova",
+                "text_color": "Boja teksta",
+                "text_style": "Stil teksta",
+                "weight": "Debljina"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Poravnaj dolje",
+                    "center_x": "Poravnaj po vodoravnom središtu",
+                    "center_y": "Poravnaj po okomitom središtu",
+                    "left": "Poravnaj lijevo",
+                    "right": "Poravnaj desno",
+                    "top": "Poravnaj gore"
+                },
+                "align_to_page": "Poravnaj prema stranici",
+                "opacity": "Prozirnost",
+                "position": "Položaj",
+                "position_x": "Položaj X",
+                "position_y": "Položaj Y",
+                "rotation": "Rotacija",
+                "scale": "Razmjer"
+            },
+            "video": {
+                "adjust": "Prilagodi",
+                "audio": "Audio",
+                "clip_runs": "Isječak traje {length}",
+                "corner_radius": "Polumjer kutova",
+                "corner_radius_stepper": "Polumjer kutova",
+                "green_screen": "Zeleni ekran",
+                "loop": "Ponavljaj do kraja dizajna",
+                "mute": "Isključi zvuk",
+                "muted": "Zvuk isključen",
+                "no_audio": "Ovaj videozapis nema zvuk.",
+                "playback": "Reprodukcija",
+                "replace": "Zamijeni videozapis",
+                "speed": "Brzina",
+                "speed_custom_input": "Prilagođena brzina reprodukcije",
+                "speed_presets": "Brzina reprodukcije",
+                "speed_range": "Između {min}× i {max}×",
+                "tools": "Alati",
+                "unmute": "Uključi zvuk",
+                "volume": "Glasnoća",
+                "volume_level": "Razina glasnoće"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Strelica",
+            "arrow_down": "Strelica prema dolje",
+            "arrow_left": "Strelica ulijevo",
+            "arrow_pentagon": "Peterokutna strelica",
+            "arrow_right": "Strelica udesno",
+            "arrow_up": "Strelica prema gore",
+            "chevron": "Chevron",
+            "circle": "Krug",
+            "cross": "Križ",
+            "diamond": "Romb",
+            "hexagon": "Šesterokut",
+            "hexagon_wide": "Široki šesterokut",
+            "line": "Linija",
+            "octagon": "Osmerokut",
+            "parallelogram": "Paralelogram",
+            "parallelogram_mirrored": "Zrcaljeni paralelogram",
+            "pentagon": "Peterokut",
+            "square": "Kvadrat",
+            "trapezoid": "Trapez",
+            "trapezoid_upside_down": "Obrnuti trapez",
+            "triangle": "Trokut",
+            "triangle_upside_down": "Obrnuti trokut"
+        },
+        "shapes_panel": {
+            "basic": "Osnovno",
+            "lines": "Linije i strelice"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Dodaj ključni kadar",
+                "back_to_animations": "Natrag na animacije",
+                "basic": "Osnovno",
+                "basic_opacity": "Prozirnost",
+                "basic_position": "Položaj",
+                "basic_rotation": "Rotacija",
+                "basic_scale": "Razmjer",
+                "keyframe": "Ključni kadar",
+                "pick_property_hint": "Odaberite svojstvo za ključni kadar. Dodir zatvara listu i otvara njezin panel, a ključni kadar već je postavljen na pokazivač reprodukcije s trenutačnom vrijednošću sloja.",
+                "presets_need_one": "Gotove animacije zahtijevaju jedan element. Odaberite jedan sloj da ih vidite.",
+                "title": "Animiraj"
+            },
+            "easing": {
+                "title": "Easing"
+            },
+            "font_weight": {
+                "title": "Debljina fonta"
+            },
+            "speed": {
+                "title": "Brzina"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Zadane boje",
+                "eyedropper": "Odaberi boju sa zaslona",
+                "eyedropper_unsupported": "Vaš preglednik ne podržava pipetu",
+                "fill_linear": "linearni",
+                "fill_radial": "radijalni",
+                "fill_solid": "puni",
+                "fill_type": "Vrsta ispune",
+                "gradients_in_design": "Gradijenti u dizajnu",
+                "hex": "Heksadecimalna boja",
+                "in_design": "U dizajnu",
+                "title": "Boja ispune",
+                "use_color": "Koristi: {color}",
+                "use_gradient": "Koristi gradijent: {style}",
+                "use_transparent": "Prozirno"
+            },
+            "crop": {
+                "adjust_shape": "Prilagodi oblik izrezivanja",
+                "aspect": "Omjer",
+                "framing": "Kadriranje",
+                "framing_hint": "Povucite fotografiju za promjenu kadra ili kut za promjenu veličine prozora izrezivanja. Pomaknite kotačić za zumiranje.",
+                "scale": "Razmjer"
+            },
+            "filters": {
+                "show_earlier": "Prikaži ranije filtre",
+                "show_more": "Prikaži više filtara",
+                "swatch": "{label}, boja: {color}",
+                "title": "Filtri"
+            },
+            "font": {
+                "all_fonts": "SVI FONTOVI",
+                "applying": "Primjena fonta",
+                "back": "Natrag na opcije teksta",
+                "clear_search": "Očisti pretraživanje",
+                "clear_search_action": "Očisti pretraživanje",
+                "in_this_design": "U OVOM DIZAJNU",
+                "no_match": "Nema fontova koji odgovaraju upitu „{query}“",
+                "no_match_hint": "Twibbonize koristi katalog Google Fonts, a ova obitelj nije u njemu. Pokušajte s kraćim izrazom.",
+                "search_label": "Traži obitelji fontova",
+                "search_placeholder": "Traži fontove",
+                "title": "Obitelj fonta",
+                "weight": "Debljina fonta"
+            },
+            "gradient": {
+                "add_stop": "Dodaj točku gradijenta",
+                "angle": "Kut",
+                "angle_dial": "Kut gradijenta: {degrees} stupnjeva. Povucite za promjenu",
+                "angle_dial_hint": "Povucite za promjenu kuta gradijenta",
+                "angle_input": "Kut gradijenta u stupnjevima",
+                "centre_unsupported": "Središte gradijenta renderer još ne podržava",
+                "stop": "Točka gradijenta {index} na {percent} %, {color}",
+                "stop_hint": "Povucite za pomicanje, dvaput kliknite za uklanjanje"
+            },
+            "image": {
+                "adjustment": "Prilagodba",
+                "adjustments": "Prilagodbe",
+                "back_to_edit": "Natrag na karticu Uređivanje",
+                "background_removal": "Uklanjanje pozadine",
+                "compare": "Usporedi s originalom",
+                "removing": "Uklanjanje…",
+                "removing_background": "Uklanjanje pozadine",
+                "reset_adjustments": "Poništi prilagodbe",
+                "tools": "Alati"
+            },
+            "keyframe": {
+                "add": "Dodaj ključni kadar",
+                "add_at_playhead": "Dodaj ključni kadar ({property}) na pokazivač reprodukcije",
+                "add_at_playhead_short": "Dodaj ključni kadar na pokazivač reprodukcije",
+                "add_lane_at_playhead": "Dodaj ključni kadar ({lane}) na pokazivač reprodukcije",
+                "add_property": "Dodaj svojstvo za animaciju",
+                "all_lanes_added": "Svako svojstvo koje ovaj sloj može animirati već ima traku",
+                "delete": "Izbriši ovaj ključni kadar",
+                "diamond": "Ključni kadar ({lane}) na {seconds} s",
+                "easing": "Easing",
+                "easing_caps": "EASING",
+                "first_no_easing": "Prvi ključni kadar nema easing",
+                "hex": "Heksadecimalna boja",
+                "layer_blur": "Zamućenje sloja",
+                "letter_spacing": "Razmak slova",
+                "line_height": "Visina retka",
+                "opacity": "Prozirnost",
+                "opacity_percent": "Postotak prozirnosti",
+                "position_x": "Položaj X",
+                "position_y": "Položaj Y",
+                "radius_bottom_left": "Polumjer donjeg lijevog kuta",
+                "radius_bottom_right": "Polumjer donjeg desnog kuta",
+                "radius_top_left": "Polumjer gornjeg lijevog kuta",
+                "radius_top_right": "Polumjer gornjeg desnog kuta",
+                "remove": "Ukloni ključni kadar",
+                "remove_at_playhead": "Ukloni ključni kadar ({property}) s pokazivača reprodukcije",
+                "rotation": "Rotacija",
+                "scale": "Razmjer",
+                "shadow_blur": "Zamućenje sjene",
+                "shadow_color": "Boja sjene",
+                "shadow_offset_x": "Pomak sjene X",
+                "shadow_offset_y": "Pomak sjene Y",
+                "shadow_spread": "Širenje sjene",
+                "stroke_color": "Boja obruba",
+                "stroke_weight": "Debljina obruba"
+            },
+            "layer": {
+                "page_background": "Pozadina stranice",
+                "tab_animate": "Animiraj",
+                "tabs_label": "Ploča slojeva",
+                "title": "Slojevi"
+            },
+            "page_preset": {
+                "group_label": "Unaprijed zadane veličine platna",
+                "landscape": "Pejzaž",
+                "portrait": "Portret",
+                "square": "Kvadrat",
+                "story": "Priča",
+                "tile_aria": "{name}, {width} × {height} piksela"
+            },
+            "personalization": {
+                "act_as_placeholder": "Ponašaj se kao rezervirano mjesto",
+                "allow_adjust_framing": "Dopusti prilagodbu kadra",
+                "allow_adjust_framing_hint": "Pristalice mogu zumirati i pomicati svoju fotografiju unutar okvira.",
+                "allow_change_adjustments": "Dopusti promjenu prilagodbi",
+                "allow_change_adjustments_hint": "Pristalice mogu mijenjati svjetlinu, kontrast i druge prilagodbe.",
+                "allow_change_effect": "Dopusti promjenu efekta",
+                "allow_change_effect_hint": "Pristalice mogu odabrati drugi efekt za ovaj sloj.",
+                "allow_change_filter": "Dopusti promjenu filtra",
+                "allow_change_filter_hint": "Pristalice mogu odabrati drugi filtar za ovaj sloj.",
+                "allow_edit_text": "Dopusti uređivanje teksta",
+                "allow_edit_text_hint": "Pristalice mogu upisati vlastite riječi u ovaj tekst.",
+                "allow_flip": "Dopusti zrcaljenje",
+                "allow_flip_hint": "Pristalice mogu zrcaliti ovaj sloj.",
+                "allow_move": "Dopusti pomicanje",
+                "allow_move_hint": "Pristalice mogu povući ovaj sloj na novo mjesto.",
+                "allow_replace_media": "Dopusti zamjenu medija",
+                "allow_replace_media_hint": "Pristalice mogu zamijeniti ovu sliku vlastitom fotografijom.",
+                "allow_resize": "Dopusti promjenu veličine",
+                "allow_resize_hint": "Pristalice mogu mijenjati veličinu ovog sloja povlačenjem njegovih kutova i stranica.",
+                "allow_rotate": "Dopusti rotiranje",
+                "allow_rotate_hint": "Pristalice mogu zakrenuti ovaj sloj pod bilo kojim kutom.",
+                "group_appearance": "Izgled",
+                "group_arrange": "Raspored",
+                "group_media": "Mediji",
+                "placeholder_hint": "Prikazuje prazno mjesto koje pristalice mogu dodirnuti da dodaju svoju fotografiju.",
+                "remove_background": "Ukloni pozadinu s njihove fotografije",
+                "remove_background_hint": "Izrezuje pristalicu iz njezine fotografije kako bi se vaš dizajn vidio oko nje.",
+                "text_placeholder_hint": "Prikazuje ovaj tekst kao primjer koji će pristalice zamijeniti vlastitim."
+            },
+            "shape_effect": {
+                "colour": "Boja efekta",
+                "distance": "Udaljenost",
+                "echo": "Jeka",
+                "first_color": "Prva boja",
+                "first_colour": "Prva boja efekta",
+                "glitch": "Glitch",
+                "glow": "Sjaj",
+                "group_label": "Efekt oblika",
+                "second_color": "Druga boja",
+                "second_colour": "Druga boja efekta",
+                "section": "Efekt",
+                "shadow": "Padajuća sjena"
+            },
+            "text_effect": {
+                "colour": "Boja efekta",
+                "curve": "Zakrivljenost",
+                "distance": "Udaljenost",
+                "echo": "Jeka",
+                "glow": "Sjaj",
+                "group_label": "Efekt teksta",
+                "outline": "Kontura",
+                "section": "Efekt",
+                "shape_group_label": "Oblik teksta",
+                "splice": "Spajanje",
+                "title": "Efekti teksta"
+            }
+        },
+        "templates": {
+            "empty_body": "Pokušajte s kraćom ili općenitijom riječi.",
+            "empty_title": "Nema predložaka koji odgovaraju upitu „{query}“",
+            "error_title": "Predloške nije bilo moguće učitati",
+            "none_body": "Potražite temu, poput rođendana ili mature.",
+            "none_title": "Još nema predložaka za ovaj dizajn",
+            "search_label": "Traži predloške",
+            "search_placeholder": "Traži predloške"
+        },
+        "text_panel": {
+            "add_template": "Dodaj predložak teksta: {name}",
+            "add_text_box": "Dodaj tekstni okvir",
+            "empty_body": "Pokušajte s kraćom ili općenitijom riječi.",
+            "empty_title": "Nema predložaka teksta koji odgovaraju upitu „{query}“",
+            "error_title": "Predloške teksta nije bilo moguće učitati",
+            "none_body": "Umjesto toga počnite s običnim tekstnim okvirom.",
+            "none_title": "Nema predložaka teksta za prikaz",
+            "search_label": "Traži predloške teksta",
+            "search_placeholder": "Traži predloške teksta"
+        },
+        "text_preset": {
+            "seed": "Ovdje dodajte svoj tekst"
+        },
+        "textures": {
+            "apply_texture": "Primijeni: {name}",
+            "category": {
+                "fabric": "Tkanina",
+                "grain": "Zrno",
+                "grunge": "Grunge",
+                "paper": "Papir",
+                "print": "Tisak"
+            },
+            "category_group_label": "Kategorija tekstura",
+            "empty_body": "Gradimo ovu knjižnicu — vratite se uskoro.",
+            "empty_title": "Tekstura još nema",
+            "most_used": "Najčešće korišteno",
+            "search_placeholder": "Traži teksture"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Dodaj audio",
+                "add_tooltip": "Dodaj audiozapis u pozadini",
+                "bar_aria": "{name} od {start}, trajanje {duration}",
+                "decoding": "Dekodiranje zvuka…",
+                "decoding_waveform": "Dekodiranje valnog oblika…",
+                "default_name": "Audio",
+                "drop_to_add": "Ispustite za dodavanje zvuka",
+                "kind_suffix": "· Audio",
+                "mute": "Isključi zvuk zapisa",
+                "unmute": "Uključi zvuk zapisa",
+                "volume": "Glasnoća zapisa",
+                "waveform_error": "Valni oblik ovog zapisa nije bilo moguće učitati."
+            },
+            "keyframe": {
+                "add": "Dodaj ključni kadar",
+                "add_at_playhead": "Dodaj ključni kadar na pokazivač reprodukcije",
+                "add_tooltip": "Dodaj ključni kadar za svojstvo ovog sloja",
+                "diamond_aria": "Ključni kadar ({lane}) na {time}",
+                "diamond_hint": " · povucite za promjenu vremena, desni klik za brisanje",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Polumjer kutova",
+                    "layer_blur": "Zamućenje sloja",
+                    "line_height": "Visina retka",
+                    "opacity": "Prozirnost",
+                    "position": "Položaj",
+                    "rotation": "Rotacija",
+                    "scale": "Razmjer",
+                    "stroke": "Obrub"
+                },
+                "remove_lane": "Ukloni ključne kadrove ({lane})",
+                "remove_lane_from_layer": "Ukloni ključne kadrove ({lane}) sa sloja {layer}",
+                "segment_easing_aria": "Vremenska funkcija ({lane}) između {from} i {to}, trenutačno {easing}",
+                "segment_easing_title": "Vremenska funkcija · {easing}",
+                "welded_aria": ", zalijepljeno za rub sloja",
+                "welded_title": " · zalijepljeno za rub sloja"
+            },
+            "menu": {
+                "repeat_until_end": "Ponavljaj do kraja"
+            },
+            "track": {
+                "bar_aria": "{name} od {start}, trajanje {duration}",
+                "bar_aria_end_glued": ", kraj zalijepljen za sloj",
+                "bar_aria_start_glued": ", početak zalijepljen za sloj",
+                "bar_tooltip": "{name} · {start}, {duration} ms · povucite za pomicanje, povucite rub za promjenu veličine (Alt = bez prianjanja)",
+                "bar_tooltip_sole": " · povlačenjem ovog ruba pomiče se sloj",
+                "clip_aria": "Isječak {name}",
+                "clip_tooltip": "Povucite za pomicanje sloja u vremenu · povucite kraj za obrezivanje (Alt = bez prianjanja)",
+                "collapse": "Sažmi",
+                "collapse_all": "Sažmi sve slojeve",
+                "collapse_named": "Sažmi: {name}",
+                "delete_layer": "Izbriši sloj",
+                "delete_named": "Izbriši: {name}",
+                "ends_at": "Završava u",
+                "expand": "Proširi",
+                "expand_named": "Proširi: {name}",
+                "hidden_lane_one": "{count} skrivena traka",
+                "hidden_lane_other": "Skrivene trake: {count}",
+                "hide": "Sakrij",
+                "hide_named": "Sakrij: {name}",
+                "lane_reorder_tooltip": "Povucite za promjenu redoslijeda — gornja traka ima prednost gdje se animacije preklapaju",
+                "layer_animations": "Animacije sloja",
+                "lock_layer": "Zaključaj sloj",
+                "lock_named": "Zaključaj: {name}",
+                "remove_animation": "Ukloni animaciju",
+                "remove_animation_aria": "Ukloni animaciju {name} sa sloja {layer}",
+                "reorder_tooltip": "Povucite za promjenu redoslijeda zapisa — slaganje na platnu postavlja se u ploči slojeva",
+                "show": "Prikaži",
+                "show_named": "Prikaži: {name}",
+                "split": "Podijeli",
+                "starts_at": "Počinje u",
+                "trim_end": "Obreži kraj",
+                "trim_start": "Obreži početak",
+                "trim_to": "Obreži na {time}",
+                "unlock_layer": "Otključaj sloj",
+                "unlock_named": "Otključaj: {name}"
+            },
+            "transport": {
+                "current_time_field": "Trenutačno vrijeme u milisekundama",
+                "duration_edge_aria": "Trajanje stranice {seconds} sekundi",
+                "duration_edge_tooltip": "Trajanje stranice {seconds} s · povucite za promjenu, kliknite za točnu vrijednost (Alt = bez prianjanja)",
+                "duration_max": "Najviše {seconds} s",
+                "fit_to_width": "Prilagodi širini",
+                "forward": "Naprijed",
+                "lengthen_page": "Produlji stranicu",
+                "loop": "Reprodukcija u petlji",
+                "page_duration": "Trajanje stranice",
+                "page_duration_field": "Trajanje stranice u milisekundama",
+                "resize_dock": "Promijeni veličinu vremenske trake",
+                "rewind": "Premotaj unatrag",
+                "shorten_page": "Skrati stranicu",
+                "zoom": "Zumiranje vremenske trake"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "Previše zahtjeva",
             "CN-4003": "Nevažeći URL",
             "C-4090": "Vaša veza kampanje već je u upotrebi. Pokušajte s drugom.",
+            "C-4094": "Kampanja je već u smeću",
+            "C-4095": "Kampanja nije u smeću",
             "SUB-403": "Postavke kampanje zabranjuju slanje sadržaja",
             "A-40091": "Koristite e-mail svoje škole ili sveučilišta",
             "PB-4011": "Ovaj link nije važeći ili je istekao",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "Pomaknite se prema dolje da biste odabrali okvir",
         "editor_single": "Pomaknite se prema dolje da biste prilagodili svoju fotografiju",
         "editor_multiple": "Pomaknite se prema dolje da biste uređivali i mijenjali okvire"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "Vraćanje kampanja…"
+        }
     }
 }

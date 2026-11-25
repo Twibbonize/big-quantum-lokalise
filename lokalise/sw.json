@@ -2842,7 +2842,9 @@
             "type": "Aina:",
             "size": "Ukubwa:",
             "type_image": "JPG, PNG au SVG",
-            "maximum_size": "Upeo wa 5 MB"
+            "maximum_size": "Upeo wa 5 MB",
+            "abandoned": "Upakiaji ulisimama tabaka lilipoondolewa. Jaribu tena ili kuhifadhi hii kwenye maktaba yako.",
+            "failed": "Upakiaji umeshindwa. Angalia muunganisho wako kisha ujaribu tena."
         },
         "toolbar": {
             "copy": "Nakili",
@@ -2871,7 +2873,119 @@
             "border_weight": "Uzito wa Mpaka",
             "corner_rounding": "Mzunguko wa Pembe",
             "align": "Pangilia",
-            "effects": "Madhara"
+            "effects": "Madhara",
+            "animate": {
+                "amount": "Kiasi",
+                "angle": "Pembe",
+                "close": "Funga mipangilio ya uhuishaji",
+                "delete_animation": "Futa uhuishaji",
+                "distance": "Umbali",
+                "easing": "Easing",
+                "fade": "Fifisha",
+                "settings_aria": "Mipangilio ya uhuishaji"
+            },
+            "audio": {
+                "replace": "Badilisha",
+                "tools_aria": "Zana za wimbo wa sauti",
+                "trim": "Kata",
+                "volume": "Sauti"
+            },
+            "clip": {
+                "length": "Urefu",
+                "split": "Gawanya",
+                "trim": "Kata"
+            },
+            "entry": {
+                "animate": "Huisha"
+            },
+            "image": {
+                "adjust": "Rekebisha",
+                "background_removal_unavailable": "Kuondoa mandharinyuma bado hakupatikani",
+                "remove_background": "Ondoa mandharinyuma",
+                "remove_background_short": "Kata nje",
+                "replace": "Badilisha"
+            },
+            "keyframe": {
+                "blur": "Ukungu wa tabaka",
+                "close": "Funga sifa za keyframe",
+                "delete_keyframe": "Futa keyframe",
+                "letter_spacing": "Nafasi",
+                "line_height": "Urefu wa mstari",
+                "opacity": "Uwazi",
+                "position": "Nafasi",
+                "properties_aria": "Sifa za keyframe",
+                "rotation": "Mzunguko",
+                "scale": "Kipimo"
+            },
+            "layer_tools": {
+                "deselect": "Acha kuchagua tabaka",
+                "tools_aria": "Zana za tabaka"
+            },
+            "media": {
+                "adjust": "Rekebisha",
+                "green_screen": "Skrini ya kijani",
+                "replace": "Badilisha",
+                "trim": "Kata"
+            },
+            "misc": {
+                "background_fill": "Ujazo wa mandharinyuma",
+                "background_fill_short": "Ujazo",
+                "configure_qr": "Weka mipangilio ya msimbo wa QR",
+                "edit_background_image": "Hariri picha ya mandharinyuma",
+                "no_background_image": "Bado hakuna picha ya mandharinyuma",
+                "replace_unavailable": "Badilisha (bado haipatikani)"
+            },
+            "opacity": {
+                "label": "Uwazi"
+            },
+            "shape": {
+                "corner_radius": "Radius ya pembe",
+                "corner_radius_short": "Radius",
+                "fill": "Ujazo",
+                "line_color": "Rangi ya mstari",
+                "line_style_dots": "Vitone",
+                "line_style_long_dashes": "Vistari virefu",
+                "line_style_named": "Mtindo wa mstari: {style}",
+                "line_style_short_dashes": "Vistari vifupi",
+                "line_style_solid": "Imara",
+                "line_weight": "Unene wa mstari",
+                "stroke_color": "Rangi ya mpaka",
+                "stroke_color_short": "Mpaka",
+                "stroke_weight": "Unene wa mpaka",
+                "stroke_weight_short": "Unene"
+            },
+            "speed": {
+                "custom_input": "Kasi ya uchezaji maalum",
+                "label": "Kasi",
+                "playback_length": "Urefu wa uchezaji",
+                "playback_speed": "Kasi ya uchezaji",
+                "range_hint": "Kati ya {min}× na {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Punguza ukubwa wa fonti",
+                "font_family": "Familia ya fonti",
+                "font_family_named": "Familia ya fonti: {value}",
+                "font_size": "Ukubwa wa fonti",
+                "font_weight": "Uzito wa fonti",
+                "font_weight_named": "Uzito wa fonti: {value}",
+                "increase_font_size": "Ongeza ukubwa wa fonti",
+                "keyboard": "Kibodi",
+                "line_height": "Urefu wa mstari",
+                "spacing": "Nafasi",
+                "text_color": "Rangi ya maandishi",
+                "weight": "Uzito"
+            },
+            "volume": {
+                "clip_hint": "Klipu hii pekee. Sauti iliyowekwa kwenye timeline huhifadhi kiwango chake yenyewe.",
+                "label": "Sauti",
+                "level": "Kiwango",
+                "mute": "Nyamazisha",
+                "muted": "Imenyamazishwa",
+                "muted_hint": "Kiwango kimehifadhiwa. Ondoa unyamazishaji na klipu itarudi kwenye {percent}%.",
+                "no_audio": "Video hii haina sauti.",
+                "slider": "Kiwango cha sauti",
+                "unmute": "Ondoa unyamazishaji"
+            }
         },
         "confirmation": {
             "cancel": "Tupa",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Rangi za Nyaraka",
             "default_colors": "Rangi Chaguomsingi"
         },
-        "graphic": "Mchoro"
+        "graphic": "Mchoro",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Chini katikati",
+                "bottom_left": "Chini kushoto",
+                "bottom_right": "Chini kulia",
+                "center_left": "Kushoto katikati",
+                "center_right": "Kulia katikati",
+                "top_center": "Juu katikati",
+                "top_left": "Juu kushoto",
+                "top_right": "Juu kulia"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Mwisho",
+                "more_options": "Chaguo zaidi"
+            },
+            "direction": {
+                "bottom_left": "Chini kushoto",
+                "bottom_right": "Chini kulia",
+                "clockwise": "Kisaa",
+                "counter_clockwise": "Kinyume cha saa",
+                "from_the": "Kutoka {place}",
+                "to_the": "Kwenda {place}",
+                "top_left": "Juu kushoto",
+                "top_right": "Juu kulia"
+            },
+            "easing": {
+                "accelerate": "Kasi inaongezeka",
+                "bounce": "Kudunda",
+                "elastic": "Kunyumbuka",
+                "impulse": "Msukumo",
+                "natural": "Asili",
+                "overshoot": "Kuvuka kikomo",
+                "slow_down": "Kupunguza kasi",
+                "smooth": "Laini",
+                "swing": "Kuyumba"
+            },
+            "field": {
+                "amount": "Kiasi",
+                "anchor_group": "Nukta ya nanga",
+                "anchor_point": "Nukta ya nanga",
+                "angle": "Pembe",
+                "apply_effect_to": "Tumia athari kwa",
+                "axis": "Mhimili",
+                "choose_easing": "Chagua easing",
+                "distance": "Umbali",
+                "duration": "Muda",
+                "edge": "Ukingo",
+                "fade": "Fifisha",
+                "from_noun": "Kutoka {noun}",
+                "horizontal": "Mlalo",
+                "noun_blur": "ukungu",
+                "noun_opacity": "uwazi",
+                "noun_size": "ukubwa",
+                "opacity": "Uwazi",
+                "order": "Mpangilio",
+                "position": "Nafasi",
+                "rotation": "Mzunguko",
+                "rotation_direction": "Mwelekeo wa mzunguko",
+                "scale": "Kipimo",
+                "smoothing": "Ulainishaji",
+                "to_noun": "Hadi {noun}",
+                "vertical": "Wima"
+            },
+            "mode": {
+                "arrives": "Inawasili",
+                "departs": "Inaondoka",
+                "in": "Ingia",
+                "out": "Toka"
+            },
+            "panel": {
+                "animation": "Uhuishaji",
+                "animations_tab": "Uhuishaji",
+                "basic": "Msingi",
+                "changing_note": "Chagua mbadala. Unachukua nafasi na urefu wa uhuishaji unaobadilisha.",
+                "corner_radius": "Radius ya pembe",
+                "easing": "Easing",
+                "fade": "Fifisha",
+                "keyframe_tab": "Keyframe",
+                "layer_blur": "Ukungu wa tabaka",
+                "line_height": "Urefu wa mstari",
+                "more_options": "Chaguo zaidi",
+                "motion": "Mwendo",
+                "needs_one_element": "Uhuishaji uliowekwa awali unahitaji kipengele kimoja. Chagua tabaka moja ili uuone.",
+                "paste_animation": "Bandika uhuishaji",
+                "scale": "Kipimo",
+                "slide": "Telezesha",
+                "stroke": "Mpaka",
+                "text_animation": "Uhuishaji wa maandishi"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Onekana",
+                    "label": "Onekana"
+                },
+                "blur": {
+                    "label": "Ingia kwa ukungu"
+                },
+                "blur_scale": {
+                    "caption": "Ukungu na kipimo",
+                    "label": "Ingia kwa ukungu na kipimo"
+                },
+                "blur_slide": {
+                    "caption": "Ukungu na kutelezesha",
+                    "label": "Ingia kwa ukungu na kutelezesha"
+                },
+                "fade": {
+                    "caption": "Fifisha",
+                    "label": "Fifisha"
+                },
+                "grow": {
+                    "caption": "Pop",
+                    "label": "Ingia kwa pop"
+                },
+                "mask_center": {
+                    "caption": "Barakoa kutoka katikati",
+                    "label": "Fichua kwa barakoa kutoka katikati"
+                },
+                "mask_reveal": {
+                    "caption": "Fichua kwa barakoa",
+                    "label": "Fichua kwa barakoa kutoka ukingoni"
+                },
+                "mask_slide": {
+                    "caption": "Barakoa na kutelezesha",
+                    "label": "Fichua kwa barakoa na kutelezesha"
+                },
+                "move_scale": {
+                    "caption": "Sogeza na kipimo",
+                    "label": "Ingia kwa kusogeza na kipimo"
+                },
+                "rotate_left": {
+                    "label": "Zungusha kutoka kushoto"
+                },
+                "rotate_right": {
+                    "label": "Zungusha kutoka kulia"
+                },
+                "shrink": {
+                    "caption": "Kubwa",
+                    "label": "Ingia kubwa"
+                },
+                "slide": {
+                    "caption": "Telezesha",
+                    "label": "Ingia kwa kutelezesha"
+                },
+                "slide_from_bottom": {
+                    "label": "Telezesha kutoka chini"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Chini kushoto",
+                    "label": "Telezesha kutoka chini kushoto"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Chini kulia",
+                    "label": "Telezesha kutoka chini kulia"
+                },
+                "slide_from_left": {
+                    "label": "Telezesha kutoka kushoto"
+                },
+                "slide_from_right": {
+                    "label": "Telezesha kutoka kulia"
+                },
+                "slide_from_top": {
+                    "label": "Telezesha kutoka juu"
+                },
+                "slide_from_top_left": {
+                    "caption": "Juu kushoto",
+                    "label": "Telezesha kutoka juu kushoto"
+                },
+                "slide_from_top_right": {
+                    "caption": "Juu kulia",
+                    "label": "Telezesha kutoka juu kulia"
+                },
+                "spin": {
+                    "caption": "Zunguka",
+                    "label": "Ingia kwa kuzunguka"
+                },
+                "spin_scale": {
+                    "caption": "Zunguka na kipimo",
+                    "label": "Ingia kwa kuzunguka na kipimo"
+                },
+                "twist": {
+                    "caption": "Pindisha",
+                    "label": "Ingia kwa kupindisha"
+                }
+            },
+            "property": {
+                "change_text": "Badilisha maandishi",
+                "morph": "Morph",
+                "move": "Sogeza",
+                "opacity": "Uwazi",
+                "scale": "Kipimo"
+            },
+            "section": {
+                "fade": "Fifisha",
+                "mask": "Barakoa",
+                "scale": "Kipimo",
+                "slide": "Telezesha",
+                "transform": "Badilisha umbo"
+            },
+            "text": {
+                "backward": "Nyuma",
+                "forward": "Mbele",
+                "letters": "Herufi",
+                "summary_overlap": "Kila {unit} huanza ule wa kabla yake ukiwa umefika {percent}%.",
+                "summary_sequential": "Kila {unit} humaliza kabla ya unaofuata kuanza.",
+                "summary_together": "Kila {unit} husogea pamoja.",
+                "summary_whole": "Kizuizi kizima cha maandishi huhuishwa kama kimoja.",
+                "words": "Maneno"
+            },
+            "type": {
+                "fade_in": "Fifisha kuingia",
+                "fade_out": "Fifisha kutoka",
+                "line_height": "Urefu wa mstari",
+                "radius": "Radius",
+                "resize_in": "Badilisha ukubwa kuingia",
+                "resize_out": "Badilisha ukubwa kutoka",
+                "rotate_in": "Zungusha kuingia",
+                "rotate_out": "Zungusha kutoka",
+                "scale_in": "Kipimo kuingia",
+                "scale_out": "Kipimo kutoka",
+                "slide_in": "Telezesha kuingia",
+                "slide_out": "Telezesha kutoka",
+                "spacing": "Nafasi",
+                "stroke": "Mpaka"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Ongeza picha yako ili kuendelea.",
+                    "gesture": {
+                        "frameDesktop": "Buruta ili kuhamisha · Tembeza ili kukuza",
+                        "frameMobile": "Buruta ili kuhamisha, bana ili kukuza",
+                        "handles": "Badilisha ukubwa kutoka pembe na pande, zungusha kutoka juu",
+                        "move": "Buruta ili kusogeza",
+                        "moveOrHandles": "Buruta ili kusogeza, au tumia vishikio",
+                        "resize": "Buruta pembe au upande ili kubadilisha ukubwa",
+                        "rotate": "Buruta kishikio cha juu ili kuzungusha",
+                        "rotateDesktop": "Buruta rula, au tumia vitufe vya mishale",
+                        "rotateMobile": "Buruta rula ili kuzungusha"
+                    },
+                    "hint": {
+                        "pickDesktop": "Bofya eneo lililowekwa alama, au chagua tabaka upande wa kushoto",
+                        "pickMobile": "Gusa eneo lililowekwa alama, au chagua tabaka hapa chini",
+                        "previewDesktop": "Inaonyesha onyesho la kukagua la muundo wako. Bofya ili kuendelea kuhariri.",
+                        "previewMobile": "Inaonyesha onyesho la kukagua la muundo wako. Gusa ili kuendelea kuhariri."
+                    },
+                    "layer": {
+                        "addPhoto": "Ongeza picha yako",
+                        "text": "Maandishi: {text}",
+                        "yourPhoto": "Picha yako",
+                        "yourText": "Maandishi yako"
+                    },
+                    "layers": {
+                        "all": "Tabaka zote",
+                        "photo": "Picha",
+                        "sheetDescription": "Kila kitu katika muundo huu unachoweza kubadilisha.",
+                        "title": "Tabaka"
+                    },
+                    "photoError": "Hatukuweza kutumia picha hiyo. Jaribu picha nyingine.",
+                    "preview": {
+                        "backToEditing": "Rudi kuhariri"
+                    },
+                    "rotation": {
+                        "aria": "Mzunguko",
+                        "value": "one:# digrii|other:# digrii"
+                    },
+                    "tools": {
+                        "adjust": "Rekebisha",
+                        "aria": "Zana za tabaka",
+                        "editText": "Hariri maandishi",
+                        "flip": "Geuza",
+                        "locked": "Ukubwa na nafasi vimewekwa na mtayarishaji",
+                        "replace": "Badilisha",
+                        "textAria": "Zana za maandishi",
+                        "zoomIn": "Kuza",
+                        "zoomOut": "Punguza"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} imeongezwa kwenye timeline.",
+                "too_big": "{name} inazidi {limit}.",
+                "too_long": "{name} ni ndefu kuliko dakika {minutes}.",
+                "too_many": "Faili {count} tu kwa wakati mmoja.",
+                "wrong_type": "{name} haiwezi kuongezwa — picha, video na faili za SVG pekee."
+            }
+        },
+        "catalogue": {
+            "error_body": "Angalia muunganisho wako, kisha ujaribu tena.",
+            "loading_more": "Inapakia zaidi"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Tupa rasimu",
+                "description_unsaved": "Muundo huu haujahifadhiwa. Kurudi nyuma kunaufuta kabisa — tabaka, mitindo na uhuishaji vikiwemo.",
+                "title": "Tupa rasimu ya “{title}”?"
+            },
+            "save": {
+                "description": "Ikishahifadhiwa, uhariri haupatikani tena.",
+                "saving": "Inahifadhi…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Ilingane na skrini"
+        },
+        "graphic_panel": {
+            "add": "Ongeza {name}",
+            "add_failed": "Mchoro huu haukuweza kuongezwa. Jaribu tena.",
+            "empty_body": "Jaribu neno fupi au la jumla zaidi, kama nyota au moyo.",
+            "empty_title": "Hakuna michoro inayolingana na “{query}”",
+            "error_title": "Michoro haikuweza kupakia",
+            "none_title": "Hakuna michoro ya kuonyesha",
+            "search_label": "Tafuta michoro",
+            "search_placeholder": "Tafuta michoro"
+        },
+        "header": {
+            "redo": "Fanya tena",
+            "saving": "Inahifadhi…",
+            "undo": "Tendua",
+            "untitled_design": "Muundo usio na jina"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Nafasi ya picha"
+            },
+            "menu": {
+                "align_center": "Katikati",
+                "bring_forward": "Leta mbele",
+                "bring_to_front": "Leta mbele kabisa",
+                "detach_image": "Tenganisha picha",
+                "flip_horizontal": "Geuza mlalo",
+                "flip_vertical": "Geuza wima",
+                "replace_image": "Badilisha picha",
+                "send_backward": "Tuma nyuma",
+                "send_to_back": "Tuma nyuma kabisa",
+                "set_as_background_image": "Weka kama picha ya mandharinyuma",
+                "set_as_background_video": "Weka kama video ya mandharinyuma",
+                "set_background_as_image_layer": "Weka mandharinyuma kama tabaka la picha",
+                "set_background_as_video_layer": "Weka mandharinyuma kama tabaka la video",
+                "sheet_title": "Chaguo za tabaka",
+                "show_layers": "Onyesha tabaka"
+            },
+            "pill": {
+                "duplicate": "Rudufu tabaka",
+                "more": "Vitendo zaidi vya tabaka",
+                "remove": "Ondoa tabaka",
+                "toolbar": "Vitendo vya tabaka"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Msimbo wa kuoanisha uko tayari: {code}. Uupe mteja wako wa AI.",
+                "connecting": "Inaandaa msimbo wa kuoanisha.",
+                "failed": "Imeshindwa kuunganisha. {reason}",
+                "reconnecting": "Muunganisho umekatika. Inajaribu kuunganisha tena."
+            },
+            "clipboard_blocked": "Kivinjari chako kimezuia ubao wa kunakili. {hint}",
+            "connect": "Unganisha",
+            "connecting": "Inaunganisha…",
+            "copied_address_announcement": "Anwani ya seva imenakiliwa",
+            "copied_code_announcement": "Msimbo wa kuoanisha umenakiliwa",
+            "copy_address_hint": "Chagua anwani kisha uinakili mwenyewe.",
+            "copy_code": "Nakili msimbo",
+            "copy_code_hint": "Chagua msimbo kisha uunakili mwenyewe.",
+            "copy_server_address": "Nakili anwani ya seva ya MCP",
+            "disconnect": "Tenganisha",
+            "error_fallback": "Huduma ya kuoanisha haikujibu. Angalia muunganisho wako kisha ujaribu tena.",
+            "guide": {
+                "fresh_code": "Msimbo ukiacha kufanya kazi, bonyeza Tenganisha kisha uunganishe tena upate mpya.",
+                "how_to_set_up": "Jinsi ya kusanidi hili",
+                "step_add_body": "Ongeza Twibbonize kwenye mteja wako wa AI ukitumia anwani iliyo hapa chini. Katika Claude Code, endesha",
+                "step_add_title": "Ongeza Twibbonize kwenye mteja wako wa AI",
+                "step_pair_body": "Sema “pair with the Twibbonize editor” kisha uipe msimbo ulio hapo juu.",
+                "step_pair_title": "Iombe ioanishe",
+                "where_to_paste": "Ninabandika msimbo huu wapi?"
+            },
+            "lead": {
+                "code_ready_sentence": "Ubandike kwenye Claude kisha uiombe ioanishe. Canvas huchora duara kuzunguka ukurasa Claude anapofanya kazi.",
+                "code_ready_title": "Mpe mteja wako wa AI msimbo huu",
+                "connecting_sentence": "Hii inachukua muda mfupi.",
+                "connecting_title": "Inaandaa msimbo wa kuoanisha",
+                "disconnected_sentence": "Claude Desktop na Claude Code zinaweza kuongeza tabaka, kuandika maandishi, kuweka uhuishaji na kusoma kilicho kwenye canvas.",
+                "disconnected_title": "Mlete mteja wa AI kwenye muundo huu",
+                "failed_title": "Imeshindwa kuunganisha",
+                "reconnecting_sentence": "Kiungo cha mteja wako wa AI kimekatika. Inajaribu kukirejesha.",
+                "reconnecting_title": "Inaunganisha tena",
+                "unavailable_sentence": "Toleo hili la kihariri halina muunganisho wa AI uliosanidiwa, kwa hivyo bado hakuna cha kuunganisha.",
+                "unavailable_title": "MCP haijawashwa hapa"
+            },
+            "pairing_code_label": "Msimbo wa kuoanisha: {code}"
+        },
+        "media": {
+            "add_asset": "Ongeza {name}",
+            "dismiss_error": "Ondoa",
+            "empty_body": "Ongeza faili ya picha, video au sauti hapa chini nayo itabaki hapa kwa kipindi hiki chote.",
+            "empty_narrowed_body": "Futa utafutaji au chagua aina nyingine ili kuona kila kitu ulichoongeza.",
+            "empty_narrowed_title": "Hakuna kinacholingana",
+            "empty_title": "Bado hakuna kilichopakiwa",
+            "filter": {
+                "audio": "Sauti",
+                "images": "Picha"
+            },
+            "filter_group_label": "Aina ya media",
+            "make_an_image": "Tengeneza picha",
+            "make_image_unavailable": "Kutengeneza picha bado hakupatikani",
+            "search_placeholder": "Tafuta media",
+            "upload_button": "Pakia picha, video au sauti",
+            "uploads_heading": "Vilivyopakiwa"
+        },
+        "page_bar": {
+            "group_label": "Vidhibiti vya kukuza",
+            "zoom_menu": "Kiwango cha kukuza, {percent}%"
+        },
+        "panel": {
+            "loading": "Inapakia {panel}…"
+        },
+        "photo": {
+            "add_by": "Ongeza picha ya {name}",
+            "add_described": "Ongeza picha: {description}",
+            "credit": "Picha zinatolewa na",
+            "empty_body": "Jaribu neno fupi au la jumla zaidi, kama ufuo au jiji.",
+            "empty_title": "Hakuna picha zinazolingana na “{query}”",
+            "error_title": "Picha hazikuweza kupakia",
+            "none_title": "Hakuna picha za kuonyesha",
+            "search_label": "Tafuta picha",
+            "search_placeholder": "Tafuta picha"
+        },
+        "qr": {
+            "add_logo": "Ongeza nembo",
+            "add_to_design": "Ongeza kwenye muundo",
+            "background_colour_label": "Rangi ya mandharinyuma",
+            "code_colour_label": "Rangi ya msimbo",
+            "code_label": "Msimbo",
+            "link_input_label": "Kiungo cha msimbo wa QR",
+            "link_label": "Kiungo",
+            "logo_fallback_name": "Picha ya nembo",
+            "logo_label": "Nembo",
+            "remove_logo": "Ondoa nembo"
+        },
+        "rail": {
+            "aria_label": "Maktaba za muundo",
+            "graphic": "Michoro",
+            "help": "Msaada",
+            "layers": "Tabaka",
+            "mcp": "MCP",
+            "media": "Media",
+            "photo": "Picha",
+            "qr_code": "Msimbo wa QR",
+            "shapes": "Maumbo",
+            "templates": "Violezo",
+            "textures": "Textures",
+            "tools": "Zana"
+        },
+        "save": {
+            "failed": "Muundo wako haukuweza kuhifadhiwa. Jaribu tena."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Mwangaza",
+                "compare": "Linganisha na asili",
+                "contrast": "Utofautishaji",
+                "grayscale": "Rangi za kijivu",
+                "group": {
+                    "basic": "Msingi",
+                    "refinements": "Maboresho"
+                },
+                "hue_rotate": "Zungusha hue",
+                "reset": "Weka upya marekebisho",
+                "saturation": "Msisimko wa rangi",
+                "title": "Marekebisho"
+            },
+            "color": {
+                "trigger": "Rangi"
+            },
+            "common": {
+                "layer_blur": "Ukungu wa tabaka",
+                "layer_blur_stepper": "Ukungu wa tabaka"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Umbo huru",
+                    "landscape": "Mlalo",
+                    "original": "Asili",
+                    "portrait": "Wima",
+                    "square": "Mraba",
+                    "story": "Hadithi",
+                    "widescreen": "Skrini pana"
+                },
+                "shape": {
+                    "circle": "Mduara",
+                    "diamond": "Almasi",
+                    "half_circle": "Nusu duara",
+                    "oval": "Mviringo",
+                    "parallelogram": "Msambamba",
+                    "rounded": "Iliyozungushwa"
+                }
+            },
+            "filter": {
+                "cool": "Baridi",
+                "duotone": "Duotone",
+                "mono": "Mono",
+                "original": "Asili",
+                "vivid": "Angavu",
+                "warm": "Joto"
+            },
+            "font_weight": {
+                "black": "Nzito sana",
+                "extra_bold": "Nzito zaidi",
+                "extra_light": "Nyepesi zaidi",
+                "medium": "Wastani",
+                "regular": "Kawaida",
+                "semibold": "Nzito kiasi",
+                "thin": "Nyembamba"
+            },
+            "frame": {
+                "colour": "Rangi ya fremu"
+            },
+            "green_screen": {
+                "choose_colour": "Chagua rangi",
+                "colour": "Rangi",
+                "compare": "Linganisha na asili",
+                "eyedropper": "Chagua rangi kutoka canvas",
+                "key_colour": "Rangi ya key {hex}",
+                "loose": "Pana",
+                "nothing_found": "Hakuna rangi ya mandharinyuma iliyopatikana.",
+                "precise": "Sahihi",
+                "preset": {
+                    "bright_blue": "Buluu angavu",
+                    "bright_green": "Kijani angavu",
+                    "chroma_blue": "Buluu ya chroma",
+                    "chroma_green": "Kijani cha chroma"
+                },
+                "presets": "Rangi za kawaida za mandharinyuma",
+                "remove": "Ondoa skrini ya kijani",
+                "title": "Skrini ya kijani"
+            },
+            "image": {
+                "corner_radius": "Radius ya pembe",
+                "corner_radius_stepper": "Radius ya pembe",
+                "per_corner": "Hariri pembe moja moja",
+                "per_corner_unavailable": "Kuhariri pembe moja moja bado hakupatikani"
+            },
+            "keypad": {
+                "value_field": "Thamani ya {label}"
+            },
+            "line": {
+                "colour": "Rangi ya mstari",
+                "style": {
+                    "dots": "Vitone",
+                    "long_dashes": "Vistari virefu",
+                    "short_dashes": "Vistari vifupi",
+                    "solid": "Imara"
+                },
+                "style_trigger": "Mtindo wa mstari: {style}",
+                "weight": "Unene wa mstari",
+                "weight_trigger": "Unene wa mstari {weight}"
+            },
+            "media": {
+                "heading": "Media"
+            },
+            "page": {
+                "size_capped": "Upeo {max} px — uwiano unahifadhiwa"
+            },
+            "pages": {
+                "title": "Kurasa"
+            },
+            "photo_slot": {
+                "enable": "Tumia kama nafasi ya picha",
+                "key_field": "Ufunguo (wa kipekee)",
+                "key_required": "Ufunguo unahitajika",
+                "key_taken": "Ufunguo tayari unatumika na nafasi nyingine",
+                "label_field": "Lebo (inayoonyeshwa kwa mtumiaji wa mwisho)",
+                "on": "Nafasi ya picha",
+                "remove": "Ondoa nafasi ya picha"
+            },
+            "qr": {
+                "add_logo": "Ongeza nembo",
+                "background_colour": "Rangi ya mandharinyuma",
+                "code": "Msimbo",
+                "code_colour": "Rangi ya msimbo",
+                "link": "Kiungo",
+                "link_input": "Kiungo cha msimbo wa QR",
+                "logo": "Nembo",
+                "remove_logo": "Ondoa nembo"
+            },
+            "root": {
+                "background_image": "Picha ya mandharinyuma",
+                "edit_background": "Hariri picha ya mandharinyuma",
+                "fill": "Ujazo",
+                "fill_gradient": "Gradient",
+                "page_height": "Urefu wa ukurasa",
+                "page_width": "Upana wa ukurasa",
+                "ratio_lock": "Funga uwiano wa vipimo",
+                "ratio_unlock": "Fungua uwiano wa vipimo",
+                "rotate_left": "Zungusha mandharinyuma kushoto",
+                "rotate_right": "Zungusha mandharinyuma kulia"
+            },
+            "scalar": {
+                "clip_length": "Urefu",
+                "corner_radius": "Radius ya pembe",
+                "font_size": "Ukubwa wa fonti",
+                "layer_blur": "Ukungu wa tabaka",
+                "letter_spacing": "Nafasi ya herufi",
+                "line_height": "Urefu wa mstari",
+                "opacity": "Uwazi",
+                "speed": "Kasi",
+                "stroke_width": "Unene wa mpaka",
+                "volume": "Sauti"
+            },
+            "shape": {
+                "corner_radius": "Radius ya pembe",
+                "corner_radius_stepper": "Radius ya pembe",
+                "fill": "Ujazo",
+                "fill_gradient": "Gradient",
+                "fill_mixed": "Mchanganyiko",
+                "fill_transparent": "Uwazi kamili",
+                "stroke": "Mpaka",
+                "stroke_color": "Rangi ya mpaka",
+                "stroke_style": {
+                    "dots": "Vitone",
+                    "long_dashes": "Vistari virefu",
+                    "short_dashes": "Vistari vifupi",
+                    "solid": "Imara"
+                },
+                "stroke_style_select": "Mtindo wa mpaka",
+                "stroke_transparent": "Uwazi kamili",
+                "stroke_weight": "Unene wa mpaka"
+            },
+            "svg": {
+                "path_colour": "Rangi {index}"
+            },
+            "swatch": {
+                "more_colours": "Rangi zaidi"
+            },
+            "text": {
+                "align": {
+                    "justify": "Sawazisha pande zote"
+                },
+                "alignment": "Mpangilio",
+                "edit_text": "Hariri maandishi",
+                "font_family": "Familia ya fonti",
+                "font_family_select": "Familia ya fonti",
+                "font_size": "Ukubwa wa fonti",
+                "italic_unavailable": "Fonti hii haina italiki kwa uzito huu",
+                "letter_spacing_stepper": "Nafasi ya herufi",
+                "line_height": "Urefu wa mstari",
+                "line_height_stepper": "Urefu wa mstari",
+                "list": "Orodha",
+                "list_bulleted": "Orodha ya vitone",
+                "list_numbered": "Orodha ya namba",
+                "list_style": "Mtindo wa orodha",
+                "text_case": "Herufi kubwa\/ndogo",
+                "text_color": "Rangi ya maandishi",
+                "text_style": "Mtindo wa maandishi",
+                "weight": "Uzito"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Pangilia chini",
+                    "center_x": "Pangilia katikati kwa mlalo",
+                    "center_y": "Pangilia katikati kwa wima",
+                    "left": "Pangilia kushoto",
+                    "right": "Pangilia kulia",
+                    "top": "Pangilia juu"
+                },
+                "align_to_page": "Pangilia na ukurasa",
+                "opacity": "Uwazi",
+                "position": "Nafasi",
+                "position_x": "Nafasi X",
+                "position_y": "Nafasi Y",
+                "rotation": "Mzunguko",
+                "scale": "Kipimo"
+            },
+            "video": {
+                "adjust": "Rekebisha",
+                "audio": "Sauti",
+                "clip_runs": "klipu inachukua {length}",
+                "corner_radius": "Radius ya pembe",
+                "corner_radius_stepper": "Radius ya pembe",
+                "green_screen": "Skrini ya kijani",
+                "loop": "Rudia hadi muundo uishe",
+                "mute": "Nyamazisha",
+                "muted": "Imenyamazishwa",
+                "no_audio": "Video hii haina sauti.",
+                "playback": "Uchezaji",
+                "replace": "Badilisha video",
+                "speed": "Kasi",
+                "speed_custom_input": "Kasi ya uchezaji maalum",
+                "speed_presets": "Kasi ya uchezaji",
+                "speed_range": "Kati ya {min}× na {max}×",
+                "tools": "Zana",
+                "unmute": "Ondoa unyamazishaji",
+                "volume": "Sauti",
+                "volume_level": "Kiwango cha sauti"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Mshale",
+            "arrow_down": "Mshale wa chini",
+            "arrow_left": "Mshale wa kushoto",
+            "arrow_pentagon": "Mshale wa pentagoni",
+            "arrow_right": "Mshale wa kulia",
+            "arrow_up": "Mshale wa juu",
+            "chevron": "Chevron",
+            "circle": "Mduara",
+            "cross": "Msalaba",
+            "diamond": "Almasi",
+            "hexagon": "Hexagoni",
+            "hexagon_wide": "Hexagoni pana",
+            "line": "Mstari",
+            "octagon": "Oktagoni",
+            "parallelogram": "Msambamba",
+            "parallelogram_mirrored": "Msambamba uliogeuzwa",
+            "pentagon": "Pentagoni",
+            "square": "Mraba",
+            "trapezoid": "Trapezoidi",
+            "trapezoid_upside_down": "Trapezoidi iliyopinduliwa",
+            "triangle": "Pembetatu",
+            "triangle_upside_down": "Pembetatu iliyopinduliwa"
+        },
+        "shapes_panel": {
+            "basic": "Msingi",
+            "lines": "Mistari na mishale"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Ongeza keyframe",
+                "back_to_animations": "Rudi kwenye uhuishaji",
+                "basic": "Msingi",
+                "basic_opacity": "Uwazi",
+                "basic_position": "Nafasi",
+                "basic_rotation": "Mzunguko",
+                "basic_scale": "Kipimo",
+                "keyframe": "Keyframe",
+                "pick_property_hint": "Chagua sifa ya kuweka keyframe. Ukigusa moja, karatasi hufungwa na paneli yake hufunguka, huku keyframe ikiwa tayari imewekwa kwenye playhead ikishikilia thamani ya sasa ya tabaka.",
+                "presets_need_one": "Uhuishaji uliowekwa awali unahitaji kipengele kimoja. Chagua tabaka moja ili uuone.",
+                "title": "Huisha"
+            },
+            "easing": {
+                "title": "Easing"
+            },
+            "font_weight": {
+                "title": "Uzito wa fonti"
+            },
+            "speed": {
+                "title": "Kasi"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Rangi chaguo-msingi",
+                "eyedropper": "Chagua rangi kutoka skrini",
+                "eyedropper_unsupported": "Kivinjari chako hakitumii kichagua rangi",
+                "fill_linear": "mstari",
+                "fill_radial": "mviringo",
+                "fill_solid": "imara",
+                "fill_type": "Aina ya ujazo",
+                "gradients_in_design": "Gradient katika muundo",
+                "hex": "Rangi ya hex",
+                "in_design": "Katika muundo",
+                "title": "Rangi ya ujazo",
+                "use_color": "Tumia {color}",
+                "use_gradient": "Tumia gradient ya {style}",
+                "use_transparent": "Uwazi kamili"
+            },
+            "crop": {
+                "adjust_shape": "Rekebisha umbo la kukata",
+                "aspect": "Uwiano",
+                "framing": "Fremu",
+                "framing_hint": "Buruta picha ili kuipanga upya, au pembe ili kubadilisha ukubwa wa dirisha la kukata. Tembeza ili kukuza.",
+                "scale": "Kipimo"
+            },
+            "filters": {
+                "show_earlier": "Onyesha vichujio vya awali",
+                "show_more": "Onyesha vichujio zaidi",
+                "swatch": "Rangi ya {label}: {color}",
+                "title": "Vichujio"
+            },
+            "font": {
+                "all_fonts": "FONTI ZOTE",
+                "applying": "Inatumia fonti",
+                "back": "Rudi kwenye chaguo za maandishi",
+                "clear_search": "Futa utafutaji",
+                "clear_search_action": "Futa utafutaji",
+                "in_this_design": "KATIKA MUUNDO HUU",
+                "no_match": "Hakuna fonti zinazolingana na “{query}”",
+                "no_match_hint": "Twibbonize huchukua kutoka katalogi ya Google Fonts, na familia hii haimo ndani yake. Jaribu neno fupi zaidi la utafutaji.",
+                "search_label": "Tafuta familia za fonti",
+                "search_placeholder": "Tafuta fonti",
+                "title": "Familia ya fonti",
+                "weight": "Uzito wa fonti"
+            },
+            "gradient": {
+                "add_stop": "Ongeza kituo cha gradient",
+                "angle": "Pembe",
+                "angle_dial": "Pembe ya gradient, digrii {degrees}. Buruta ili kubadilisha",
+                "angle_dial_hint": "Buruta ili kubadilisha pembe ya gradient",
+                "angle_input": "Pembe ya gradient kwa digrii",
+                "centre_unsupported": "Kituo cha gradient bado hakitumiki na kionyeshaji",
+                "stop": "Kituo cha gradient {index} kwenye {percent}%, {color}",
+                "stop_hint": "Buruta ili kusogeza, bofya mara mbili ili kuondoa"
+            },
+            "image": {
+                "adjustment": "Marekebisho",
+                "adjustments": "Marekebisho",
+                "back_to_edit": "Rudi kwenye kichupo cha Hariri",
+                "background_removal": "Kuondoa mandharinyuma",
+                "compare": "Linganisha na asili",
+                "removing": "Inaondoa…",
+                "removing_background": "Inaondoa mandharinyuma",
+                "reset_adjustments": "Weka upya marekebisho",
+                "tools": "Zana"
+            },
+            "keyframe": {
+                "add": "Ongeza keyframe",
+                "add_at_playhead": "Ongeza keyframe ya {property} kwenye playhead",
+                "add_at_playhead_short": "Ongeza keyframe kwenye playhead",
+                "add_lane_at_playhead": "Ongeza keyframe ya {lane} kwenye playhead",
+                "add_property": "Ongeza sifa ya kuhuisha",
+                "all_lanes_added": "Kila sifa ambayo tabaka hili linaweza kuwekea keyframe tayari ina lane",
+                "delete": "Futa keyframe hii",
+                "diamond": "Keyframe ya {lane} kwenye {seconds}s",
+                "easing": "Easing",
+                "easing_caps": "EASING",
+                "first_no_easing": "Keyframe ya kwanza haina easing",
+                "hex": "Rangi ya hex",
+                "layer_blur": "Ukungu wa tabaka",
+                "letter_spacing": "Nafasi ya herufi",
+                "line_height": "Urefu wa mstari",
+                "opacity": "Uwazi",
+                "opacity_percent": "Asilimia ya uwazi",
+                "position_x": "Nafasi X",
+                "position_y": "Nafasi Y",
+                "radius_bottom_left": "Radius ya pembe ya chini kushoto",
+                "radius_bottom_right": "Radius ya pembe ya chini kulia",
+                "radius_top_left": "Radius ya pembe ya juu kushoto",
+                "radius_top_right": "Radius ya pembe ya juu kulia",
+                "remove": "Ondoa keyframe",
+                "remove_at_playhead": "Ondoa keyframe ya {property} kwenye playhead",
+                "rotation": "Mzunguko",
+                "scale": "Kipimo",
+                "shadow_blur": "Ukungu wa kivuli",
+                "shadow_color": "Rangi ya kivuli",
+                "shadow_offset_x": "Mkengeuko wa kivuli X",
+                "shadow_offset_y": "Mkengeuko wa kivuli Y",
+                "shadow_spread": "Mtawanyiko wa kivuli",
+                "stroke_color": "Rangi ya mpaka",
+                "stroke_weight": "Unene wa mpaka"
+            },
+            "layer": {
+                "page_background": "Mandharinyuma ya ukurasa",
+                "tab_animate": "Huisha",
+                "tabs_label": "Paneli ya tabaka",
+                "title": "Tabaka"
+            },
+            "page_preset": {
+                "group_label": "Ukubwa uliowekwa awali wa canvas",
+                "landscape": "Mlalo",
+                "portrait": "Wima",
+                "square": "Mraba",
+                "story": "Hadithi",
+                "tile_aria": "{name}, pikseli {width} kwa {height}"
+            },
+            "personalization": {
+                "act_as_placeholder": "Tenda kama kishikilia nafasi",
+                "allow_adjust_framing": "Ruhusu kurekebisha fremu",
+                "allow_adjust_framing_hint": "Wafuasi wanaweza kukuza na kusogeza picha yao ndani ya fremu.",
+                "allow_change_adjustments": "Ruhusu kubadilisha marekebisho",
+                "allow_change_adjustments_hint": "Wafuasi wanaweza kubadilisha mwangaza, utofautishaji na marekebisho mengine.",
+                "allow_change_effect": "Ruhusu kubadilisha athari",
+                "allow_change_effect_hint": "Wafuasi wanaweza kuchagua athari tofauti kwa tabaka hili.",
+                "allow_change_filter": "Ruhusu kubadilisha kichujio",
+                "allow_change_filter_hint": "Wafuasi wanaweza kuchagua kichujio tofauti kwa tabaka hili.",
+                "allow_edit_text": "Ruhusu kuhariri maandishi",
+                "allow_edit_text_hint": "Wafuasi wanaweza kuandika maneno yao wenyewe katika maandishi haya.",
+                "allow_flip": "Ruhusu kugeuza",
+                "allow_flip_hint": "Wafuasi wanaweza kugeuza tabaka hili kama kioo.",
+                "allow_move": "Ruhusu kusogeza",
+                "allow_move_hint": "Wafuasi wanaweza kuburuta tabaka hili hadi mahali pengine.",
+                "allow_replace_media": "Ruhusu kubadilisha media",
+                "allow_replace_media_hint": "Wafuasi wanaweza kubadilisha picha hii na picha yao wenyewe.",
+                "allow_resize": "Ruhusu kubadilisha ukubwa",
+                "allow_resize_hint": "Wafuasi wanaweza kubadilisha ukubwa wa tabaka hili kwa kuburuta pembe na pande zake.",
+                "allow_rotate": "Ruhusu kuzungusha",
+                "allow_rotate_hint": "Wafuasi wanaweza kuzungusha tabaka hili hadi pembe yoyote.",
+                "group_appearance": "Mwonekano",
+                "group_arrange": "Panga",
+                "group_media": "Media",
+                "placeholder_hint": "Inaonyesha nafasi tupu ambayo wafuasi wanaweza kugusa ili kuongeza picha yao.",
+                "remove_background": "Ondoa mandharinyuma ya picha yao",
+                "remove_background_hint": "Humkata mfuasi kutoka kwenye picha yake ili muundo wako uonekane kumzunguka.",
+                "text_placeholder_hint": "Inaonyesha maandishi haya kama mfano ambao wafuasi huyabadilisha na yao wenyewe."
+            },
+            "shape_effect": {
+                "colour": "Rangi ya athari",
+                "distance": "Umbali",
+                "echo": "Mwangwi",
+                "first_color": "Rangi ya kwanza",
+                "first_colour": "Rangi ya kwanza ya athari",
+                "glitch": "Glitch",
+                "glow": "Mng'ao",
+                "group_label": "Athari ya umbo",
+                "second_color": "Rangi ya pili",
+                "second_colour": "Rangi ya pili ya athari",
+                "section": "Athari",
+                "shadow": "Kivuli"
+            },
+            "text_effect": {
+                "colour": "Rangi ya athari",
+                "curve": "Mkunjo",
+                "distance": "Umbali",
+                "echo": "Mwangwi",
+                "glow": "Mng'ao",
+                "group_label": "Athari ya maandishi",
+                "outline": "Muhtasari",
+                "section": "Athari",
+                "shape_group_label": "Umbo la maandishi",
+                "splice": "Splice",
+                "title": "Athari za maandishi"
+            }
+        },
+        "templates": {
+            "empty_body": "Jaribu neno fupi au la jumla zaidi.",
+            "empty_title": "Hakuna violezo vinavyolingana na “{query}”",
+            "error_title": "Violezo havikuweza kupakia",
+            "none_body": "Tafuta mandhari, kama siku ya kuzaliwa au mahafali.",
+            "none_title": "Bado hakuna violezo vya muundo huu",
+            "search_label": "Tafuta violezo",
+            "search_placeholder": "Tafuta violezo"
+        },
+        "text_panel": {
+            "add_template": "Ongeza kiolezo cha maandishi: {name}",
+            "add_text_box": "Ongeza kisanduku cha maandishi",
+            "empty_body": "Jaribu neno fupi au la jumla zaidi.",
+            "empty_title": "Hakuna violezo vya maandishi vinavyolingana na “{query}”",
+            "error_title": "Violezo vya maandishi havikuweza kupakia",
+            "none_body": "Anza na kisanduku cha maandishi cha kawaida badala yake.",
+            "none_title": "Hakuna violezo vya maandishi vya kuonyesha",
+            "search_label": "Tafuta violezo vya maandishi",
+            "search_placeholder": "Tafuta violezo vya maandishi"
+        },
+        "text_preset": {
+            "seed": "Ongeza maandishi yako hapa"
+        },
+        "textures": {
+            "apply_texture": "Tumia {name}",
+            "category": {
+                "fabric": "Kitambaa",
+                "grain": "Chembechembe",
+                "grunge": "Grunge",
+                "paper": "Karatasi",
+                "print": "Chapa"
+            },
+            "category_group_label": "Kategoria ya texture",
+            "empty_body": "Tunajenga maktaba hii — rudi baadaye.",
+            "empty_title": "Textures bado hazipo hapa",
+            "most_used": "Zinazotumika zaidi",
+            "search_placeholder": "Tafuta textures"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Ongeza sauti",
+                "add_tooltip": "Ongeza wimbo wa sauti wa mandharinyuma",
+                "bar_aria": "{name} kwenye {start} kwa {duration}",
+                "decoding": "Inasimbua sauti…",
+                "decoding_waveform": "Inasimbua waveform…",
+                "default_name": "Sauti",
+                "drop_to_add": "Achilia ili kuongeza sauti",
+                "kind_suffix": "· Sauti",
+                "mute": "Nyamazisha wimbo",
+                "unmute": "Ondoa unyamazishaji wa wimbo",
+                "volume": "Sauti ya wimbo",
+                "waveform_error": "Haikuweza kupakia waveform ya wimbo huu."
+            },
+            "keyframe": {
+                "add": "Ongeza keyframe",
+                "add_at_playhead": "Ongeza keyframe kwenye playhead",
+                "add_tooltip": "Weka keyframe kwenye sifa ya tabaka hili",
+                "diamond_aria": "Keyframe ya {lane} kwenye {time}",
+                "diamond_hint": " · buruta ili kubadilisha muda, bofya kulia ili kufuta",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Radius ya pembe",
+                    "layer_blur": "Ukungu wa tabaka",
+                    "line_height": "Urefu wa mstari",
+                    "opacity": "Uwazi",
+                    "position": "Nafasi",
+                    "rotation": "Mzunguko",
+                    "scale": "Kipimo",
+                    "stroke": "Mpaka"
+                },
+                "remove_lane": "Ondoa keyframe za {lane}",
+                "remove_lane_from_layer": "Ondoa keyframe za {lane} kutoka {layer}",
+                "segment_easing_aria": "Kipengele cha muda cha {lane} kati ya {from} na {to}, kwa sasa {easing}",
+                "segment_easing_title": "Kipengele cha muda · {easing}",
+                "welded_aria": ", imeunganishwa na ukingo wa tabaka",
+                "welded_title": " · imeunganishwa na ukingo wa tabaka"
+            },
+            "menu": {
+                "repeat_until_end": "Rudia hadi mwisho"
+            },
+            "track": {
+                "bar_aria": "{name} kwenye {start} kwa {duration}",
+                "bar_aria_end_glued": ", mwisho umeunganishwa na tabaka",
+                "bar_aria_start_glued": ", mwanzo umeunganishwa na tabaka",
+                "bar_tooltip": "{name} · {start} kwa {duration}ms · buruta ili kusogeza, buruta ukingo ili kubadilisha ukubwa (Alt = bila kushikamana)",
+                "bar_tooltip_sole": " · kuburuta ukingo huu husogeza tabaka",
+                "clip_aria": "Klipu ya {name}",
+                "clip_tooltip": "Buruta ili kusogeza tabaka kwa wakati · buruta ncha ili kukata (Alt = bila kushikamana)",
+                "collapse": "Kunja",
+                "collapse_all": "Kunja tabaka zote",
+                "collapse_named": "Kunja {name}",
+                "delete_layer": "Futa tabaka",
+                "delete_named": "Futa {name}",
+                "ends_at": "Inaisha saa",
+                "expand": "Panua",
+                "expand_named": "Panua {name}",
+                "hidden_lane_one": "Lane {count} iliyofichwa",
+                "hidden_lane_other": "Lane {count} zilizofichwa",
+                "hide": "Ficha",
+                "hide_named": "Ficha {name}",
+                "lane_reorder_tooltip": "Buruta ili kupanga upya — lane ya juu hushinda pale uhuishaji unapopishana",
+                "layer_animations": "Uhuishaji wa tabaka",
+                "lock_layer": "Funga tabaka",
+                "lock_named": "Funga {name}",
+                "remove_animation": "Ondoa uhuishaji",
+                "remove_animation_aria": "Ondoa uhuishaji wa {name} kutoka {layer}",
+                "reorder_tooltip": "Buruta ili kupanga upya nyimbo — mpangilio wa canvas huwekwa kwenye paneli ya tabaka",
+                "show": "Onyesha",
+                "show_named": "Onyesha {name}",
+                "split": "Gawanya",
+                "starts_at": "Inaanza saa",
+                "trim_end": "Kata mwisho",
+                "trim_start": "Kata mwanzo",
+                "trim_to": "Kata hadi {time}",
+                "unlock_layer": "Fungua tabaka",
+                "unlock_named": "Fungua {name}"
+            },
+            "transport": {
+                "current_time_field": "Muda wa sasa kwa milisekunde",
+                "duration_edge_aria": "Muda wa ukurasa sekunde {seconds}",
+                "duration_edge_tooltip": "Muda wa ukurasa {seconds}s · buruta ili kubadilisha, bofya kwa thamani kamili (Alt = bila kushikamana)",
+                "duration_max": "Upeo wa sekunde {seconds}",
+                "fit_to_width": "Ilingane na upana",
+                "forward": "Mbele",
+                "lengthen_page": "Ongeza urefu wa ukurasa",
+                "loop": "Rudia uchezaji",
+                "page_duration": "Muda wa ukurasa",
+                "page_duration_field": "Muda wa ukurasa kwa milisekunde",
+                "resize_dock": "Badilisha ukubwa wa timeline",
+                "rewind": "Rudisha nyuma",
+                "shorten_page": "Punguza urefu wa ukurasa",
+                "zoom": "Ukuzaji wa timeline"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "Maombi mengi sana",
             "CN-4003": "Url batili",
             "C-4090": "Kiungo chako cha kampeni tayari kinatumika. Jaribu nyingine tofauti.",
+            "C-4094": "Kampeni tayari iko kwenye tupio",
+            "C-4095": "Kampeni haiko kwenye tupio",
             "SUB-403": "Mawasilisho yamekatazwa na mipangilio ya kampeni",
             "A-40091": "Tafadhali tumia barua pepe ya shule au chuo kikuu chako",
             "PB-4011": "Kiungo hiki si sahihi au kimeisha muda",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "Sogeza chini ili kuchagua fremu yako",
         "editor_single": "Sogeza chini ili kurekebisha picha yako",
         "editor_multiple": "Sogeza chini ili kuhariri na kubadilisha fremu"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "Inarejesha kampeni…"
+        }
     }
 }

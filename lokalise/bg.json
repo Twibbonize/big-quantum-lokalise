@@ -2842,7 +2842,9 @@
             "type": "Тип:",
             "size": "Размер:",
             "type_image": "JPG, PNG или SVG",
-            "maximum_size": "Максимум 5 MB"
+            "maximum_size": "Максимум 5 MB",
+            "abandoned": "Качването спря, защото слоят беше премахнат. Опитайте отново, за да го запазите в библиотеката.",
+            "failed": "Качването не бе успешно. Проверете връзката си и опитайте отново."
         },
         "toolbar": {
             "copy": "Копие",
@@ -2871,7 +2873,119 @@
             "border_weight": "Тегло на границата",
             "corner_rounding": "Заобляне на ъгли",
             "align": "Подравняване",
-            "effects": "Ефекти"
+            "effects": "Ефекти",
+            "animate": {
+                "amount": "Количество",
+                "angle": "Ъгъл",
+                "close": "Затваряне на настройките за анимация",
+                "delete_animation": "Изтриване на анимацията",
+                "distance": "Разстояние",
+                "easing": "Смекчаване",
+                "fade": "Избледняване",
+                "settings_aria": "Настройки за анимация"
+            },
+            "audio": {
+                "replace": "Замяна",
+                "tools_aria": "Инструменти за аудио пистата",
+                "trim": "Изрязване",
+                "volume": "Сила на звука"
+            },
+            "clip": {
+                "length": "Дължина",
+                "split": "Разделяне",
+                "trim": "Изрязване"
+            },
+            "entry": {
+                "animate": "Анимиране"
+            },
+            "image": {
+                "adjust": "Корекции",
+                "background_removal_unavailable": "Премахването на фона още не е налично",
+                "remove_background": "Премахване на фона",
+                "remove_background_short": "Изрязване",
+                "replace": "Замяна"
+            },
+            "keyframe": {
+                "blur": "Размазване на слоя",
+                "close": "Затваряне на свойствата на ключовия кадър",
+                "delete_keyframe": "Изтриване на ключовия кадър",
+                "letter_spacing": "Разстояние",
+                "line_height": "Междуредие",
+                "opacity": "Непрозрачност",
+                "position": "Позиция",
+                "properties_aria": "Свойства на ключовия кадър",
+                "rotation": "Завъртане",
+                "scale": "Мащаб"
+            },
+            "layer_tools": {
+                "deselect": "Отмяна на избора на слоя",
+                "tools_aria": "Инструменти за слоя"
+            },
+            "media": {
+                "adjust": "Корекции",
+                "green_screen": "Зелен екран",
+                "replace": "Замяна",
+                "trim": "Изрязване"
+            },
+            "misc": {
+                "background_fill": "Запълване на фона",
+                "background_fill_short": "Запълване",
+                "configure_qr": "Настройка на QR кода",
+                "edit_background_image": "Редактиране на фоновото изображение",
+                "no_background_image": "Още няма фоново изображение",
+                "replace_unavailable": "Замяна (още не е налична)"
+            },
+            "opacity": {
+                "label": "Непрозрачност"
+            },
+            "shape": {
+                "corner_radius": "Радиус на ъглите",
+                "corner_radius_short": "Радиус",
+                "fill": "Запълване",
+                "line_color": "Цвят на линията",
+                "line_style_dots": "Точки",
+                "line_style_long_dashes": "Дълги тирета",
+                "line_style_named": "Стил на линията: {style}",
+                "line_style_short_dashes": "Къси тирета",
+                "line_style_solid": "Плътна",
+                "line_weight": "Дебелина на линията",
+                "stroke_color": "Цвят на контура",
+                "stroke_color_short": "Контур",
+                "stroke_weight": "Дебелина на контура",
+                "stroke_weight_short": "Дебелина"
+            },
+            "speed": {
+                "custom_input": "Персонализирана скорост на възпроизвеждане",
+                "label": "Скорост",
+                "playback_length": "Продължителност на възпроизвеждането",
+                "playback_speed": "Скорост на възпроизвеждане",
+                "range_hint": "Между {min}× и {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Намаляване на размера на шрифта",
+                "font_family": "Шрифт",
+                "font_family_named": "Шрифт: {value}",
+                "font_size": "Размер на шрифта",
+                "font_weight": "Дебелина на шрифта",
+                "font_weight_named": "Дебелина на шрифта: {value}",
+                "increase_font_size": "Увеличаване на размера на шрифта",
+                "keyboard": "Клавиатура",
+                "line_height": "Междуредие",
+                "spacing": "Разстояние",
+                "text_color": "Цвят на текста",
+                "weight": "Дебелина"
+            },
+            "volume": {
+                "clip_hint": "Само за този клип. Аудиото на времевата линия запазва собственото си ниво.",
+                "label": "Сила на звука",
+                "level": "Ниво",
+                "mute": "Заглушаване",
+                "muted": "Заглушено",
+                "muted_hint": "Нивото е запазено. Включете звука и клипът се връща на {percent}%.",
+                "no_audio": "Това видео няма звук.",
+                "slider": "Ниво на звука",
+                "unmute": "Включване на звука"
+            }
         },
         "confirmation": {
             "cancel": "Изхвърляне",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Цветове на документите",
             "default_colors": "Цветове по подразбиране"
         },
-        "graphic": "Графика"
+        "graphic": "Графика",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Долу в центъра",
+                "bottom_left": "Долу вляво",
+                "bottom_right": "Долу вдясно",
+                "center_left": "В центъра вляво",
+                "center_right": "В центъра вдясно",
+                "top_center": "Горе в центъра",
+                "top_left": "Горе вляво",
+                "top_right": "Горе вдясно"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Край",
+                "more_options": "Още опции"
+            },
+            "direction": {
+                "bottom_left": "Долу вляво",
+                "bottom_right": "Долу вдясно",
+                "clockwise": "По часовниковата стрелка",
+                "counter_clockwise": "Обратно на часовниковата стрелка",
+                "from_the": "От {place}",
+                "to_the": "Към {place}",
+                "top_left": "Горе вляво",
+                "top_right": "Горе вдясно"
+            },
+            "easing": {
+                "accelerate": "Ускоряване",
+                "bounce": "Отскачане",
+                "elastic": "Еластично",
+                "impulse": "Импулс",
+                "natural": "Естествено",
+                "overshoot": "Надхвърляне",
+                "slow_down": "Забавяне",
+                "smooth": "Плавно",
+                "swing": "Люлеене"
+            },
+            "field": {
+                "amount": "Количество",
+                "anchor_group": "Опорна точка",
+                "anchor_point": "Опорна точка",
+                "angle": "Ъгъл",
+                "apply_effect_to": "Прилагане на ефекта към",
+                "axis": "Ос",
+                "choose_easing": "Изберете смекчаване",
+                "distance": "Разстояние",
+                "duration": "Продължителност",
+                "edge": "Край",
+                "fade": "Избледняване",
+                "from_noun": "От {noun}",
+                "horizontal": "Хоризонтално",
+                "noun_blur": "размазване",
+                "noun_opacity": "непрозрачност",
+                "noun_size": "размер",
+                "opacity": "Непрозрачност",
+                "order": "Ред",
+                "position": "Позиция",
+                "rotation": "Завъртане",
+                "rotation_direction": "Посока на завъртане",
+                "scale": "Мащаб",
+                "smoothing": "Изглаждане",
+                "to_noun": "Към {noun}",
+                "vertical": "Вертикално"
+            },
+            "mode": {
+                "arrives": "Появява се",
+                "departs": "Изчезва",
+                "in": "Вход",
+                "out": "Изход"
+            },
+            "panel": {
+                "animation": "Анимация",
+                "animations_tab": "Анимации",
+                "basic": "Основни",
+                "changing_note": "Изберете замяна. Тя поема мястото и продължителността на анимацията, която променяте.",
+                "corner_radius": "Радиус на ъглите",
+                "easing": "Смекчаване",
+                "fade": "Избледняване",
+                "keyframe_tab": "Ключов кадър",
+                "layer_blur": "Размазване на слоя",
+                "line_height": "Междуредие",
+                "more_options": "Още опции",
+                "motion": "Движение",
+                "needs_one_element": "Готовите анимации изискват един елемент. Изберете един слой, за да ги видите.",
+                "paste_animation": "Поставяне на анимация",
+                "scale": "Мащаб",
+                "slide": "Плъзгане",
+                "stroke": "Контур",
+                "text_animation": "Анимация на текста"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Поява",
+                    "label": "Поява"
+                },
+                "blur": {
+                    "label": "Поява с размазване"
+                },
+                "blur_scale": {
+                    "caption": "Размазване и мащаб",
+                    "label": "Поява с размазване и мащаб"
+                },
+                "blur_slide": {
+                    "caption": "Размазване и плъзгане",
+                    "label": "Поява с размазване и плъзгане"
+                },
+                "fade": {
+                    "caption": "Избледняване",
+                    "label": "Избледняване"
+                },
+                "grow": {
+                    "caption": "Изскачане",
+                    "label": "Изскачане"
+                },
+                "mask_center": {
+                    "caption": "Маска от центъра",
+                    "label": "Разкриване с маска от центъра"
+                },
+                "mask_reveal": {
+                    "caption": "Разкриване с маска",
+                    "label": "Разкриване с маска от ръба"
+                },
+                "mask_slide": {
+                    "caption": "Маска и плъзгане",
+                    "label": "Разкриване с маска и плъзгане"
+                },
+                "move_scale": {
+                    "caption": "Движение и мащаб",
+                    "label": "Поява с движение и мащаб"
+                },
+                "rotate_left": {
+                    "label": "Завъртане отляво"
+                },
+                "rotate_right": {
+                    "label": "Завъртане отдясно"
+                },
+                "shrink": {
+                    "caption": "Голямо",
+                    "label": "Поява от голямо"
+                },
+                "slide": {
+                    "caption": "Плъзгане",
+                    "label": "Плъзгане навътре"
+                },
+                "slide_from_bottom": {
+                    "label": "Плъзгане отдолу"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Долу вляво",
+                    "label": "Плъзгане отдолу вляво"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Долу вдясно",
+                    "label": "Плъзгане отдолу вдясно"
+                },
+                "slide_from_left": {
+                    "label": "Плъзгане отляво"
+                },
+                "slide_from_right": {
+                    "label": "Плъзгане отдясно"
+                },
+                "slide_from_top": {
+                    "label": "Плъзгане отгоре"
+                },
+                "slide_from_top_left": {
+                    "caption": "Горе вляво",
+                    "label": "Плъзгане отгоре вляво"
+                },
+                "slide_from_top_right": {
+                    "caption": "Горе вдясно",
+                    "label": "Плъзгане отгоре вдясно"
+                },
+                "spin": {
+                    "caption": "Въртене",
+                    "label": "Поява с въртене"
+                },
+                "spin_scale": {
+                    "caption": "Въртене и мащаб",
+                    "label": "Поява с въртене и мащаб"
+                },
+                "twist": {
+                    "caption": "Усукване",
+                    "label": "Поява с усукване"
+                }
+            },
+            "property": {
+                "change_text": "Промяна на текста",
+                "morph": "Трансформация",
+                "move": "Преместване",
+                "opacity": "Непрозрачност",
+                "scale": "Мащаб"
+            },
+            "section": {
+                "fade": "Избледняване",
+                "mask": "Маска",
+                "scale": "Мащаб",
+                "slide": "Плъзгане",
+                "transform": "Трансформиране"
+            },
+            "text": {
+                "backward": "Назад",
+                "forward": "Напред",
+                "letters": "Букви",
+                "summary_overlap": "Всеки {unit} започва, когато предходният е на {percent}%.",
+                "summary_sequential": "Всеки {unit} завършва, преди да започне следващият.",
+                "summary_together": "Всеки {unit} се движи заедно с останалите.",
+                "summary_whole": "Целият текстов блок се анимира като едно цяло.",
+                "words": "Думи"
+            },
+            "type": {
+                "fade_in": "Появяване с избледняване",
+                "fade_out": "Изчезване с избледняване",
+                "line_height": "Междуредие",
+                "radius": "Радиус",
+                "resize_in": "Увеличаване навътре",
+                "resize_out": "Намаляване навън",
+                "rotate_in": "Завъртане навътре",
+                "rotate_out": "Завъртане навън",
+                "scale_in": "Мащабиране навътре",
+                "scale_out": "Мащабиране навън",
+                "slide_in": "Плъзгане навътре",
+                "slide_out": "Плъзгане навън",
+                "spacing": "Разстояние",
+                "stroke": "Контур"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Добавете своя снимка, за да продължите.",
+                    "gesture": {
+                        "frameDesktop": "Плъзнете за преместване · Превъртете за мащабиране",
+                        "frameMobile": "Плъзнете за преместване, ощипете за мащабиране",
+                        "handles": "Променяйте размера от ъглите и страните, завъртайте от върха",
+                        "move": "Плъзнете за преместване",
+                        "moveOrHandles": "Плъзнете за преместване или използвайте манипулаторите",
+                        "resize": "Плъзнете ъгъл или страна за промяна на размера",
+                        "rotate": "Плъзнете горния манипулатор за завъртане",
+                        "rotateDesktop": "Плъзнете линийката или използвайте стрелките",
+                        "rotateMobile": "Плъзнете линийката за завъртане"
+                    },
+                    "hint": {
+                        "pickDesktop": "Щракнете върху маркирана област или изберете слой отляво",
+                        "pickMobile": "Докоснете маркирана област или изберете слой отдолу",
+                        "previewDesktop": "Преглед на дизайна. Щракнете върху него, за да продължите редактирането.",
+                        "previewMobile": "Преглед на дизайна. Докоснете го, за да продължите редактирането."
+                    },
+                    "layer": {
+                        "addPhoto": "Добавете снимката си",
+                        "text": "Текст: {text}",
+                        "yourPhoto": "Вашата снимка",
+                        "yourText": "Вашият текст"
+                    },
+                    "layers": {
+                        "all": "Всички слоеве",
+                        "photo": "Снимка",
+                        "sheetDescription": "Всичко в този дизайн, което можете да промените.",
+                        "title": "Слоеве"
+                    },
+                    "photoError": "Не можахме да използваме тази снимка. Опитайте с друго изображение.",
+                    "preview": {
+                        "backToEditing": "Назад към редактирането"
+                    },
+                    "rotation": {
+                        "aria": "Завъртане",
+                        "value": "one:# градус|other:# градуса"
+                    },
+                    "tools": {
+                        "adjust": "Корекции",
+                        "aria": "Инструменти за слоя",
+                        "editText": "Редактиране на текста",
+                        "flip": "Обръщане",
+                        "locked": "Размерът и позицията са зададени от автора",
+                        "replace": "Замяна",
+                        "textAria": "Инструменти за текста",
+                        "zoomIn": "Увеличаване",
+                        "zoomOut": "Намаляване"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} е добавен към времевата линия.",
+                "too_big": "{name} надвишава {limit}.",
+                "too_long": "{name} е по-дълъг от {minutes} минути.",
+                "too_many": "Само {count} файла наведнъж.",
+                "wrong_type": "{name} не може да бъде добавен — само изображения, видеа и SVG файлове."
+            }
+        },
+        "catalogue": {
+            "error_body": "Проверете връзката си и опитайте отново.",
+            "loading_more": "Зареждане на още"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Отхвърляне на черновата",
+                "description_unsaved": "Този дизайн не е запазен. Ако се върнете назад, той се изтрива завинаги — слоеве, стилове и анимации.",
+                "title": "Отхвърляне на черновата „{title}“?"
+            },
+            "save": {
+                "description": "След като бъде запазен, редактирането вече не е налично.",
+                "saving": "Запазване…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Побиране в екрана"
+        },
+        "graphic_panel": {
+            "add": "Добавяне на {name}",
+            "add_failed": "Тази графика не можа да бъде добавена. Опитайте отново.",
+            "empty_body": "Опитайте с по-кратка или по-обща дума, например звезда или сърце.",
+            "empty_title": "Няма графики, отговарящи на „{query}“",
+            "error_title": "Графиките не можаха да се заредят",
+            "none_title": "Няма графики за показване",
+            "search_label": "Търсене на графики",
+            "search_placeholder": "Търсене на графики"
+        },
+        "header": {
+            "redo": "Повторно",
+            "saving": "Запазване…",
+            "undo": "Отмяна",
+            "untitled_design": "Дизайн без име"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Място за снимка"
+            },
+            "menu": {
+                "align_center": "Център",
+                "bring_forward": "Преместване напред",
+                "bring_to_front": "Преместване най-отпред",
+                "detach_image": "Отделяне на изображението",
+                "flip_horizontal": "Обръщане хоризонтално",
+                "flip_vertical": "Обръщане вертикално",
+                "replace_image": "Замяна на изображението",
+                "send_backward": "Преместване назад",
+                "send_to_back": "Преместване най-отзад",
+                "set_as_background_image": "Задаване като фоново изображение",
+                "set_as_background_video": "Задаване като фоново видео",
+                "set_background_as_image_layer": "Задаване на фона като слой с изображение",
+                "set_background_as_video_layer": "Задаване на фона като слой с видео",
+                "sheet_title": "Опции за слоя",
+                "show_layers": "Показване на слоевете"
+            },
+            "pill": {
+                "duplicate": "Дублиране на слоя",
+                "more": "Още действия със слоя",
+                "remove": "Премахване на слоя",
+                "toolbar": "Действия със слоя"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Кодът за сдвояване е готов: {code}. Дайте го на своя ИИ клиент.",
+                "connecting": "Създаване на код за сдвояване.",
+                "failed": "Свързването не успя. {reason}",
+                "reconnecting": "Връзката прекъсна. Опит за повторно свързване."
+            },
+            "clipboard_blocked": "Браузърът ви блокира клипборда. {hint}",
+            "connect": "Свързване",
+            "connecting": "Свързване…",
+            "copied_address_announcement": "Адресът на сървъра е копиран",
+            "copied_code_announcement": "Кодът за сдвояване е копиран",
+            "copy_address_hint": "Изберете адреса и го копирайте ръчно.",
+            "copy_code": "Копиране на кода",
+            "copy_code_hint": "Изберете кода и го копирайте ръчно.",
+            "copy_server_address": "Копиране на адреса на MCP сървъра",
+            "disconnect": "Прекъсване",
+            "error_fallback": "Услугата за сдвояване не отговори. Проверете връзката си и опитайте отново.",
+            "guide": {
+                "fresh_code": "Ако кодът спре да работи, натиснете „Прекъсване“ и се свържете отново за нов.",
+                "how_to_set_up": "Как да го настроите",
+                "step_add_body": "Добавете Twibbonize към своя ИИ клиент чрез адреса по-долу. В Claude Code изпълнете",
+                "step_add_title": "Добавете Twibbonize към своя ИИ клиент",
+                "step_pair_body": "Кажете „сдвои се с редактора на Twibbonize“ и му дайте кода по-горе.",
+                "step_pair_title": "Поискайте сдвояване",
+                "where_to_paste": "Къде да поставя този код?"
+            },
+            "lead": {
+                "code_ready_sentence": "Поставете го в Claude и поискайте сдвояване. Платното очертава рамка около страницата, докато Claude работи.",
+                "code_ready_title": "Дайте този код на своя ИИ клиент",
+                "connecting_sentence": "Това отнема само миг.",
+                "connecting_title": "Създаване на код за сдвояване",
+                "disconnected_sentence": "Claude Desktop и Claude Code могат да добавят слоеве, да пишат текст, да задават анимации и да четат какво има на платното.",
+                "disconnected_title": "Включете ИИ клиент в този дизайн",
+                "failed_title": "Свързването не успя",
+                "reconnecting_sentence": "Връзката с вашия ИИ клиент прекъсна. Опит за възстановяване.",
+                "reconnecting_title": "Повторно свързване",
+                "unavailable_sentence": "Тази версия на редактора няма настроена ИИ връзка, така че още няма към какво да се свържете.",
+                "unavailable_title": "MCP не е включен тук"
+            },
+            "pairing_code_label": "Код за сдвояване: {code}"
+        },
+        "media": {
+            "add_asset": "Добавяне на {name}",
+            "dismiss_error": "Затваряне",
+            "empty_body": "Добавете изображение, видео или аудио файл по-долу и той ще остане тук до края на тази сесия.",
+            "empty_narrowed_body": "Изчистете търсенето или изберете друг тип, за да видите всичко добавено.",
+            "empty_narrowed_title": "Няма съвпадения",
+            "empty_title": "Още няма качени файлове",
+            "filter": {
+                "audio": "Аудио",
+                "images": "Изображения"
+            },
+            "filter_group_label": "Тип медия",
+            "make_an_image": "Създаване на изображение",
+            "make_image_unavailable": "Генерирането на изображения още не е налично",
+            "search_placeholder": "Търсене в медията",
+            "upload_button": "Качване на изображение, видео или аудио",
+            "uploads_heading": "Качени"
+        },
+        "page_bar": {
+            "group_label": "Управление на мащаба",
+            "zoom_menu": "Ниво на мащаба, {percent}%"
+        },
+        "panel": {
+            "loading": "Зареждане на {panel}…"
+        },
+        "photo": {
+            "add_by": "Добавяне на снимка от {name}",
+            "add_described": "Добавяне на снимка: {description}",
+            "credit": "Снимки от",
+            "empty_body": "Опитайте с по-кратка или по-обща дума, например плаж или град.",
+            "empty_title": "Няма снимки, отговарящи на „{query}“",
+            "error_title": "Снимките не можаха да се заредят",
+            "none_title": "Няма снимки за показване",
+            "search_label": "Търсене на снимки",
+            "search_placeholder": "Търсене на снимки"
+        },
+        "qr": {
+            "add_logo": "Добавяне на лого",
+            "add_to_design": "Добавяне към дизайна",
+            "background_colour_label": "Цвят на фона",
+            "code_colour_label": "Цвят на кода",
+            "code_label": "Код",
+            "link_input_label": "Връзка на QR кода",
+            "link_label": "Връзка",
+            "logo_fallback_name": "Изображение на лого",
+            "logo_label": "Лого",
+            "remove_logo": "Премахване на логото"
+        },
+        "rail": {
+            "aria_label": "Библиотеки за дизайна",
+            "graphic": "Графики",
+            "help": "Помощ",
+            "layers": "Слоеве",
+            "mcp": "MCP",
+            "media": "Медия",
+            "photo": "Снимки",
+            "qr_code": "QR код",
+            "shapes": "Форми",
+            "templates": "Шаблони",
+            "textures": "Текстури",
+            "tools": "Инструменти"
+        },
+        "save": {
+            "failed": "Дизайнът ви не можа да бъде запазен. Опитайте отново."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Яркост",
+                "compare": "Сравнение с оригинала",
+                "contrast": "Контраст",
+                "grayscale": "Нюанси на сивото",
+                "group": {
+                    "basic": "Основни",
+                    "refinements": "Фини настройки"
+                },
+                "hue_rotate": "Завъртане на нюанса",
+                "reset": "Нулиране на корекциите",
+                "saturation": "Наситеност",
+                "title": "Корекции"
+            },
+            "color": {
+                "trigger": "Цвят"
+            },
+            "common": {
+                "layer_blur": "Размазване на слоя",
+                "layer_blur_stepper": "Размазване на слоя"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Свободна форма",
+                    "landscape": "Пейзаж",
+                    "original": "Оригинал",
+                    "portrait": "Портрет",
+                    "square": "Квадрат",
+                    "story": "История",
+                    "widescreen": "Широк екран"
+                },
+                "shape": {
+                    "circle": "Кръг",
+                    "diamond": "Ромб",
+                    "half_circle": "Полукръг",
+                    "oval": "Овал",
+                    "parallelogram": "Успоредник",
+                    "rounded": "Закръглена"
+                }
+            },
+            "filter": {
+                "cool": "Студен",
+                "duotone": "Дуотон",
+                "mono": "Моно",
+                "original": "Оригинал",
+                "vivid": "Наситен",
+                "warm": "Топъл"
+            },
+            "font_weight": {
+                "black": "Черен",
+                "extra_bold": "Много удебелен",
+                "extra_light": "Много тънък",
+                "medium": "Среден",
+                "regular": "Нормален",
+                "semibold": "Полуудебелен",
+                "thin": "Тънък"
+            },
+            "frame": {
+                "colour": "Цвят на рамката"
+            },
+            "green_screen": {
+                "choose_colour": "Изберете цвят",
+                "colour": "Цвят",
+                "compare": "Сравнение с оригинала",
+                "eyedropper": "Вземане на цвят от платното",
+                "key_colour": "Ключов цвят {hex}",
+                "loose": "Свободно",
+                "nothing_found": "Не е намерен цвят на фона.",
+                "precise": "Точно",
+                "preset": {
+                    "bright_blue": "Ярко синьо",
+                    "bright_green": "Ярко зелено",
+                    "chroma_blue": "Хромакей синьо",
+                    "chroma_green": "Хромакей зелено"
+                },
+                "presets": "Често използвани цветове на фона",
+                "remove": "Премахване на зеления екран",
+                "title": "Зелен екран"
+            },
+            "image": {
+                "corner_radius": "Радиус на ъглите",
+                "corner_radius_stepper": "Радиус на ъглите",
+                "per_corner": "Редактиране на отделните ъгли",
+                "per_corner_unavailable": "Редактирането на отделни ъгли още не е налично"
+            },
+            "keypad": {
+                "value_field": "Стойност на {label}"
+            },
+            "line": {
+                "colour": "Цвят на линията",
+                "style": {
+                    "dots": "Точки",
+                    "long_dashes": "Дълги тирета",
+                    "short_dashes": "Къси тирета",
+                    "solid": "Плътна"
+                },
+                "style_trigger": "Стил на линията: {style}",
+                "weight": "Дебелина на линията",
+                "weight_trigger": "Дебелина на линията {weight}"
+            },
+            "media": {
+                "heading": "Медия"
+            },
+            "page": {
+                "size_capped": "Макс. {max} px — съотношението се запазва"
+            },
+            "pages": {
+                "title": "Страници"
+            },
+            "photo_slot": {
+                "enable": "Използване като място за снимка",
+                "key_field": "Ключ (уникален)",
+                "key_required": "Ключът е задължителен",
+                "key_taken": "Ключът вече се използва от друго място",
+                "label_field": "Етикет (показва се на крайния потребител)",
+                "on": "Място за снимка",
+                "remove": "Премахване на мястото за снимка"
+            },
+            "qr": {
+                "add_logo": "Добавяне на лого",
+                "background_colour": "Цвят на фона",
+                "code": "Код",
+                "code_colour": "Цвят на кода",
+                "link": "Връзка",
+                "link_input": "Връзка на QR кода",
+                "logo": "Лого",
+                "remove_logo": "Премахване на логото"
+            },
+            "root": {
+                "background_image": "Фоново изображение",
+                "edit_background": "Редактиране на фоновото изображение",
+                "fill": "Запълване",
+                "fill_gradient": "Градиент",
+                "page_height": "Височина на страницата",
+                "page_width": "Ширина на страницата",
+                "ratio_lock": "Заключване на съотношението",
+                "ratio_unlock": "Отключване на съотношението",
+                "rotate_left": "Завъртане на фона наляво",
+                "rotate_right": "Завъртане на фона надясно"
+            },
+            "scalar": {
+                "clip_length": "Дължина",
+                "corner_radius": "Радиус на ъглите",
+                "font_size": "Размер на шрифта",
+                "layer_blur": "Размазване на слоя",
+                "letter_spacing": "Разстояние между буквите",
+                "line_height": "Междуредие",
+                "opacity": "Непрозрачност",
+                "speed": "Скорост",
+                "stroke_width": "Ширина на контура",
+                "volume": "Сила на звука"
+            },
+            "shape": {
+                "corner_radius": "Радиус на ъглите",
+                "corner_radius_stepper": "Радиус на ъглите",
+                "fill": "Запълване",
+                "fill_gradient": "Градиент",
+                "fill_mixed": "Смесено",
+                "fill_transparent": "Прозрачно",
+                "stroke": "Контур",
+                "stroke_color": "Цвят на контура",
+                "stroke_style": {
+                    "dots": "Точки",
+                    "long_dashes": "Дълги тирета",
+                    "short_dashes": "Къси тирета",
+                    "solid": "Плътна"
+                },
+                "stroke_style_select": "Стил на контура",
+                "stroke_transparent": "Прозрачен",
+                "stroke_weight": "Дебелина на контура"
+            },
+            "svg": {
+                "path_colour": "Цвят {index}"
+            },
+            "swatch": {
+                "more_colours": "Още цветове"
+            },
+            "text": {
+                "align": {
+                    "justify": "Двустранно"
+                },
+                "alignment": "Подравняване",
+                "edit_text": "Редактиране на текста",
+                "font_family": "Шрифт",
+                "font_family_select": "Шрифт",
+                "font_size": "Размер на шрифта",
+                "italic_unavailable": "Този шрифт няма курсив при тази дебелина",
+                "letter_spacing_stepper": "Разстояние между буквите",
+                "line_height": "Междуредие",
+                "line_height_stepper": "Междуредие",
+                "list": "Списък",
+                "list_bulleted": "Списък с водещи символи",
+                "list_numbered": "Номериран списък",
+                "list_style": "Стил на списъка",
+                "text_case": "Регистър на текста",
+                "text_color": "Цвят на текста",
+                "text_style": "Стил на текста",
+                "weight": "Дебелина"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Подравняване долу",
+                    "center_x": "Подравняване по хоризонталните центрове",
+                    "center_y": "Подравняване по вертикалните центрове",
+                    "left": "Подравняване вляво",
+                    "right": "Подравняване вдясно",
+                    "top": "Подравняване горе"
+                },
+                "align_to_page": "Подравняване към страницата",
+                "opacity": "Непрозрачност",
+                "position": "Позиция",
+                "position_x": "Позиция X",
+                "position_y": "Позиция Y",
+                "rotation": "Завъртане",
+                "scale": "Мащаб"
+            },
+            "video": {
+                "adjust": "Корекции",
+                "audio": "Аудио",
+                "clip_runs": "клипът е с продължителност {length}",
+                "corner_radius": "Радиус на ъглите",
+                "corner_radius_stepper": "Радиус на ъглите",
+                "green_screen": "Зелен екран",
+                "loop": "Повторение до края на дизайна",
+                "mute": "Заглушаване",
+                "muted": "Заглушено",
+                "no_audio": "Това видео няма звук.",
+                "playback": "Възпроизвеждане",
+                "replace": "Замяна на видеото",
+                "speed": "Скорост",
+                "speed_custom_input": "Персонализирана скорост на възпроизвеждане",
+                "speed_presets": "Скорост на възпроизвеждане",
+                "speed_range": "Между {min}× и {max}×",
+                "tools": "Инструменти",
+                "unmute": "Включване на звука",
+                "volume": "Сила на звука",
+                "volume_level": "Ниво на звука"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Стрелка",
+            "arrow_down": "Стрелка надолу",
+            "arrow_left": "Стрелка наляво",
+            "arrow_pentagon": "Петоъгълна стрелка",
+            "arrow_right": "Стрелка надясно",
+            "arrow_up": "Стрелка нагоре",
+            "chevron": "Шеврон",
+            "circle": "Кръг",
+            "cross": "Кръст",
+            "diamond": "Ромб",
+            "hexagon": "Шестоъгълник",
+            "hexagon_wide": "Широк шестоъгълник",
+            "line": "Линия",
+            "octagon": "Осмоъгълник",
+            "parallelogram": "Успоредник",
+            "parallelogram_mirrored": "Огледален успоредник",
+            "pentagon": "Петоъгълник",
+            "square": "Квадрат",
+            "trapezoid": "Трапец",
+            "trapezoid_upside_down": "Обърнат трапец",
+            "triangle": "Триъгълник",
+            "triangle_upside_down": "Обърнат триъгълник"
+        },
+        "shapes_panel": {
+            "basic": "Основни",
+            "lines": "Линии и стрелки"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Добавяне на ключов кадър",
+                "back_to_animations": "Назад към анимациите",
+                "basic": "Основни",
+                "basic_opacity": "Непрозрачност",
+                "basic_position": "Позиция",
+                "basic_rotation": "Завъртане",
+                "basic_scale": "Мащаб",
+                "keyframe": "Ключов кадър",
+                "pick_property_hint": "Изберете свойството за ключов кадър. Докосването му затваря панела и отваря неговия панел, като ключовият кадър вече е поставен върху курсора със сегашната стойност на слоя.",
+                "presets_need_one": "Готовите анимации изискват един елемент. Изберете един слой, за да ги видите.",
+                "title": "Анимиране"
+            },
+            "easing": {
+                "title": "Смекчаване"
+            },
+            "font_weight": {
+                "title": "Дебелина на шрифта"
+            },
+            "speed": {
+                "title": "Скорост"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Цветове по подразбиране",
+                "eyedropper": "Вземане на цвят от екрана",
+                "eyedropper_unsupported": "Браузърът ви не поддържа пипетата",
+                "fill_linear": "линеен",
+                "fill_radial": "радиален",
+                "fill_solid": "плътен",
+                "fill_type": "Тип запълване",
+                "gradients_in_design": "Градиенти в дизайна",
+                "hex": "Hex цвят",
+                "in_design": "В дизайна",
+                "title": "Цвят на запълване",
+                "use_color": "Използване на {color}",
+                "use_gradient": "Използване на градиент {style}",
+                "use_transparent": "Прозрачно"
+            },
+            "crop": {
+                "adjust_shape": "Настройване на формата на изрязване",
+                "aspect": "Съотношение",
+                "framing": "Кадриране",
+                "framing_hint": "Плъзнете снимката, за да я преместите, или ъгъл, за да промените размера на рамката. Превъртете за мащабиране.",
+                "scale": "Мащаб"
+            },
+            "filters": {
+                "show_earlier": "Показване на по-ранните филтри",
+                "show_more": "Показване на още филтри",
+                "swatch": "{label} цвят: {color}",
+                "title": "Филтри"
+            },
+            "font": {
+                "all_fonts": "ВСИЧКИ ШРИФТОВЕ",
+                "applying": "Прилагане на шрифта",
+                "back": "Назад към опциите за текста",
+                "clear_search": "Изчистване на търсенето",
+                "clear_search_action": "Изчистване на търсенето",
+                "in_this_design": "В ТОЗИ ДИЗАЙН",
+                "no_match": "Няма шрифтове, отговарящи на „{query}“",
+                "no_match_hint": "Twibbonize използва каталога на Google Fonts, а това семейство не е част от него. Опитайте с по-кратка дума за търсене.",
+                "search_label": "Търсене на шрифтове",
+                "search_placeholder": "Търсене на шрифтове",
+                "title": "Шрифт",
+                "weight": "Дебелина на шрифта"
+            },
+            "gradient": {
+                "add_stop": "Добавяне на опорна точка на градиента",
+                "angle": "Ъгъл",
+                "angle_dial": "Ъгъл на градиента, {degrees} градуса. Плъзнете за промяна",
+                "angle_dial_hint": "Плъзнете за промяна на ъгъла на градиента",
+                "angle_input": "Ъгъл на градиента в градуси",
+                "centre_unsupported": "Центърът на градиента още не се поддържа от рендера",
+                "stop": "Опорна точка {index} на градиента на {percent}%, {color}",
+                "stop_hint": "Плъзнете за преместване, щракнете двукратно за премахване"
+            },
+            "image": {
+                "adjustment": "Корекция",
+                "adjustments": "Корекции",
+                "back_to_edit": "Назад към раздела Редактиране",
+                "background_removal": "Премахване на фона",
+                "compare": "Сравнение с оригинала",
+                "removing": "Премахване…",
+                "removing_background": "Премахване на фона",
+                "reset_adjustments": "Нулиране на корекциите",
+                "tools": "Инструменти"
+            },
+            "keyframe": {
+                "add": "Добавяне на ключов кадър",
+                "add_at_playhead": "Добавяне на ключов кадър за {property} на курсора",
+                "add_at_playhead_short": "Добавяне на ключов кадър на курсора",
+                "add_lane_at_playhead": "Добавяне на ключов кадър за {lane} на курсора",
+                "add_property": "Добавяне на свойство за анимиране",
+                "all_lanes_added": "Всяко свойство, което този слой може да анимира, вече има писта",
+                "delete": "Изтриване на този ключов кадър",
+                "diamond": "Ключов кадър за {lane} на {seconds} с",
+                "easing": "Смекчаване",
+                "easing_caps": "СМЕКЧАВАНЕ",
+                "first_no_easing": "Първият ключов кадър няма смекчаване",
+                "hex": "Hex цвят",
+                "layer_blur": "Размазване на слоя",
+                "letter_spacing": "Разстояние между буквите",
+                "line_height": "Междуредие",
+                "opacity": "Непрозрачност",
+                "opacity_percent": "Непрозрачност в проценти",
+                "position_x": "Позиция X",
+                "position_y": "Позиция Y",
+                "radius_bottom_left": "Радиус на долния ляв ъгъл",
+                "radius_bottom_right": "Радиус на долния десен ъгъл",
+                "radius_top_left": "Радиус на горния ляв ъгъл",
+                "radius_top_right": "Радиус на горния десен ъгъл",
+                "remove": "Премахване на ключовия кадър",
+                "remove_at_playhead": "Премахване на ключовия кадър за {property} на курсора",
+                "rotation": "Завъртане",
+                "scale": "Мащаб",
+                "shadow_blur": "Размазване на сянката",
+                "shadow_color": "Цвят на сянката",
+                "shadow_offset_x": "Отместване на сянката по X",
+                "shadow_offset_y": "Отместване на сянката по Y",
+                "shadow_spread": "Разпръскване на сянката",
+                "stroke_color": "Цвят на контура",
+                "stroke_weight": "Дебелина на контура"
+            },
+            "layer": {
+                "page_background": "Фон на страницата",
+                "tab_animate": "Анимиране",
+                "tabs_label": "Панел със слоеве",
+                "title": "Слоеве"
+            },
+            "page_preset": {
+                "group_label": "Готови размери на платното",
+                "landscape": "Пейзаж",
+                "portrait": "Портрет",
+                "square": "Квадрат",
+                "story": "История",
+                "tile_aria": "{name}, {width} на {height} пиксела"
+            },
+            "personalization": {
+                "act_as_placeholder": "Да служи като заместител",
+                "allow_adjust_framing": "Позволяване на промяна на кадрирането",
+                "allow_adjust_framing_hint": "Поддръжниците могат да мащабират и местят снимката си в рамката.",
+                "allow_change_adjustments": "Позволяване на промяна на корекциите",
+                "allow_change_adjustments_hint": "Поддръжниците могат да променят яркостта, контраста и други корекции.",
+                "allow_change_effect": "Позволяване на промяна на ефекта",
+                "allow_change_effect_hint": "Поддръжниците могат да изберат друг ефект за този слой.",
+                "allow_change_filter": "Позволяване на промяна на филтъра",
+                "allow_change_filter_hint": "Поддръжниците могат да изберат друг филтър за този слой.",
+                "allow_edit_text": "Позволяване на редактиране на текста",
+                "allow_edit_text_hint": "Поддръжниците могат да напишат собствени думи в този текст.",
+                "allow_flip": "Позволяване на обръщане",
+                "allow_flip_hint": "Поддръжниците могат да обръщат огледално този слой.",
+                "allow_move": "Позволяване на преместване",
+                "allow_move_hint": "Поддръжниците могат да плъзгат този слой на ново място.",
+                "allow_replace_media": "Позволяване на замяна на медията",
+                "allow_replace_media_hint": "Поддръжниците могат да заменят това изображение със своя снимка.",
+                "allow_resize": "Позволяване на промяна на размера",
+                "allow_resize_hint": "Поддръжниците могат да променят размера на този слой, като плъзгат ъглите и страните му.",
+                "allow_rotate": "Позволяване на завъртане",
+                "allow_rotate_hint": "Поддръжниците могат да завъртят този слой под всякакъв ъгъл.",
+                "group_appearance": "Външен вид",
+                "group_arrange": "Подреждане",
+                "group_media": "Медия",
+                "placeholder_hint": "Показва празно място, което поддръжниците могат да докоснат, за да добавят снимката си.",
+                "remove_background": "Премахване на фона от тяхната снимка",
+                "remove_background_hint": "Изрязва поддръжника от снимката му, така че дизайнът ви да се вижда около него.",
+                "text_placeholder_hint": "Показва този текст като пример, който поддръжниците заменят със свой."
+            },
+            "shape_effect": {
+                "colour": "Цвят на ефекта",
+                "distance": "Разстояние",
+                "echo": "Ехо",
+                "first_color": "Първи цвят",
+                "first_colour": "Първи цвят на ефекта",
+                "glitch": "Глич",
+                "glow": "Сияние",
+                "group_label": "Ефект на формата",
+                "second_color": "Втори цвят",
+                "second_colour": "Втори цвят на ефекта",
+                "section": "Ефект",
+                "shadow": "Сянка"
+            },
+            "text_effect": {
+                "colour": "Цвят на ефекта",
+                "curve": "Крива",
+                "distance": "Разстояние",
+                "echo": "Ехо",
+                "glow": "Сияние",
+                "group_label": "Ефект на текста",
+                "outline": "Контур",
+                "section": "Ефект",
+                "shape_group_label": "Форма на текста",
+                "splice": "Разделяне",
+                "title": "Текстови ефекти"
+            }
+        },
+        "templates": {
+            "empty_body": "Опитайте с по-кратка или по-обща дума.",
+            "empty_title": "Няма шаблони, отговарящи на „{query}“",
+            "error_title": "Шаблоните не можаха да се заредят",
+            "none_body": "Потърсете тема, например рожден ден или абитуриентски бал.",
+            "none_title": "Още няма шаблони за този дизайн",
+            "search_label": "Търсене на шаблони",
+            "search_placeholder": "Търсене на шаблони"
+        },
+        "text_panel": {
+            "add_template": "Добавяне на текстов шаблон: {name}",
+            "add_text_box": "Добавяне на текстово поле",
+            "empty_body": "Опитайте с по-кратка или по-обща дума.",
+            "empty_title": "Няма текстови шаблони, отговарящи на „{query}“",
+            "error_title": "Текстовите шаблони не можаха да се заредят",
+            "none_body": "Започнете с обикновено текстово поле.",
+            "none_title": "Няма текстови шаблони за показване",
+            "search_label": "Търсене на текстови шаблони",
+            "search_placeholder": "Търсене на текстови шаблони"
+        },
+        "text_preset": {
+            "seed": "Добавете текста си тук"
+        },
+        "textures": {
+            "apply_texture": "Прилагане на {name}",
+            "category": {
+                "fabric": "Плат",
+                "grain": "Зърно",
+                "grunge": "Грънж",
+                "paper": "Хартия",
+                "print": "Печат"
+            },
+            "category_group_label": "Категория текстури",
+            "empty_body": "Изграждаме тази библиотека — проверете отново скоро.",
+            "empty_title": "Все още няма текстури",
+            "most_used": "Най-използвани",
+            "search_placeholder": "Търсене на текстури"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Добавяне на аудио",
+                "add_tooltip": "Добавяне на фонова аудио писта",
+                "bar_aria": "{name} в {start} за {duration}",
+                "decoding": "Декодиране на аудиото…",
+                "decoding_waveform": "Декодиране на вълновата форма…",
+                "default_name": "Аудио",
+                "drop_to_add": "Пуснете, за да добавите аудио",
+                "kind_suffix": "· Аудио",
+                "mute": "Заглушаване на пистата",
+                "unmute": "Включване на звука на пистата",
+                "volume": "Сила на звука на пистата",
+                "waveform_error": "Вълновата форма на тази писта не можа да се зареди."
+            },
+            "keyframe": {
+                "add": "Добавяне на ключов кадър",
+                "add_at_playhead": "Добавяне на ключов кадър на курсора",
+                "add_tooltip": "Ключов кадър за свойство на този слой",
+                "diamond_aria": "Ключов кадър за {lane} в {time}",
+                "diamond_hint": " · плъзнете за пренасрочване, щракнете с десен бутон за изтриване",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Радиус на ъглите",
+                    "layer_blur": "Размазване на слоя",
+                    "line_height": "Междуредие",
+                    "opacity": "Непрозрачност",
+                    "position": "Позиция",
+                    "rotation": "Завъртане",
+                    "scale": "Мащаб",
+                    "stroke": "Контур"
+                },
+                "remove_lane": "Премахване на ключовите кадри за {lane}",
+                "remove_lane_from_layer": "Премахване на ключовите кадри за {lane} от {layer}",
+                "segment_easing_aria": "Функция на времето за {lane} между {from} и {to}, понастоящем {easing}",
+                "segment_easing_title": "Функция на времето · {easing}",
+                "welded_aria": ", прилепен към ръба на слоя",
+                "welded_title": " · прилепен към ръба на слоя"
+            },
+            "menu": {
+                "repeat_until_end": "Повторение до края"
+            },
+            "track": {
+                "bar_aria": "{name} в {start} за {duration}",
+                "bar_aria_end_glued": ", краят е прилепен към слоя",
+                "bar_aria_start_glued": ", началото е прилепено към слоя",
+                "bar_tooltip": "{name} · {start} за {duration}ms · плъзнете за преместване, плъзнете ръб за промяна на размера (Alt = без прилепване)",
+                "bar_tooltip_sole": " · плъзгането на този ръб премества слоя",
+                "clip_aria": "Клип {name}",
+                "clip_tooltip": "Плъзнете за преместване на слоя във времето · плъзнете край за изрязване (Alt = без прилепване)",
+                "collapse": "Свиване",
+                "collapse_all": "Свиване на всички слоеве",
+                "collapse_named": "Свиване на {name}",
+                "delete_layer": "Изтриване на слоя",
+                "delete_named": "Изтриване на {name}",
+                "ends_at": "Свършва в",
+                "expand": "Разгъване",
+                "expand_named": "Разгъване на {name}",
+                "hidden_lane_one": "{count} скрита писта",
+                "hidden_lane_other": "{count} скрити писти",
+                "hide": "Скриване",
+                "hide_named": "Скриване на {name}",
+                "lane_reorder_tooltip": "Плъзнете за пренареждане — горната писта печели там, където анимациите се припокриват",
+                "layer_animations": "Анимации на слоя",
+                "lock_layer": "Заключване на слоя",
+                "lock_named": "Заключване на {name}",
+                "remove_animation": "Премахване на анимацията",
+                "remove_animation_aria": "Премахване на анимацията {name} от {layer}",
+                "reorder_tooltip": "Плъзнете за пренареждане на пистите — подредбата на платното се задава в панела със слоеве",
+                "show": "Показване",
+                "show_named": "Показване на {name}",
+                "split": "Разделяне",
+                "starts_at": "Започва в",
+                "trim_end": "Изрязване на края",
+                "trim_start": "Изрязване на началото",
+                "trim_to": "Изрязване до {time}",
+                "unlock_layer": "Отключване на слоя",
+                "unlock_named": "Отключване на {name}"
+            },
+            "transport": {
+                "current_time_field": "Текущо време в милисекунди",
+                "duration_edge_aria": "Продължителност на страницата {seconds} секунди",
+                "duration_edge_tooltip": "Продължителност на страницата {seconds} с · плъзнете за промяна, щракнете за точна стойност (Alt = без прилепване)",
+                "duration_max": "Максимум {seconds} с",
+                "fit_to_width": "Побиране по ширина",
+                "forward": "Напред",
+                "lengthen_page": "Удължаване на страницата",
+                "loop": "Циклично възпроизвеждане",
+                "page_duration": "Продължителност на страницата",
+                "page_duration_field": "Продължителност на страницата в милисекунди",
+                "resize_dock": "Промяна на размера на времевата линия",
+                "rewind": "Превъртане назад",
+                "shorten_page": "Скъсяване на страницата",
+                "zoom": "Мащаб на времевата линия"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "Твърде много заявки",
             "CN-4003": "Невалиден URL адрес",
             "C-4090": "Връзката на кампанията ви вече се използва. Опитайте с друга.",
+            "C-4094": "Кампанията вече е в кошчето",
+            "C-4095": "Кампанията не е в кошчето",
             "SUB-403": "Подаването на данни е забранено от настройките на кампанията",
             "A-40091": "Моля, използвайте имейла на вашето училище или университет",
             "PB-4011": "Този линк е невалиден или е изтекъл",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "Превъртете надолу, за да изберете рамка",
         "editor_single": "Превъртете надолу, за да настроите снимката си",
         "editor_multiple": "Превъртете надолу, за да редактирате и сменяте рамки"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "Възстановяване на кампаниите…"
+        }
     }
 }

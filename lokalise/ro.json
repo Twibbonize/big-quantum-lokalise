@@ -2842,7 +2842,9 @@
             "type": "Tip:",
             "size": "Dimensiune:",
             "type_image": "JPG, PNG sau SVG",
-            "maximum_size": "Maximum 5 MB"
+            "maximum_size": "Maximum 5 MB",
+            "abandoned": "Încărcarea s-a oprit deoarece stratul a fost eliminat. Încercați din nou pentru a o păstra în bibliotecă.",
+            "failed": "Încărcarea a eșuat. Verificați conexiunea și încercați din nou."
         },
         "toolbar": {
             "copy": "Copiați",
@@ -2871,7 +2873,119 @@
             "border_weight": "Greutatea chenarului",
             "corner_rounding": "Rotunjirea colțului",
             "align": "Aliniază",
-            "effects": "Efecte"
+            "effects": "Efecte",
+            "animate": {
+                "amount": "Cantitate",
+                "angle": "Unghi",
+                "close": "Închideți setările animației",
+                "delete_animation": "Ștergeți animația",
+                "distance": "Distanță",
+                "easing": "Interpolare",
+                "fade": "Estompare",
+                "settings_aria": "Setările animației"
+            },
+            "audio": {
+                "replace": "Înlocuiți",
+                "tools_aria": "Instrumente pentru pista audio",
+                "trim": "Tăiere",
+                "volume": "Volum"
+            },
+            "clip": {
+                "length": "Durată",
+                "split": "Împărțire",
+                "trim": "Tăiere"
+            },
+            "entry": {
+                "animate": "Animați"
+            },
+            "image": {
+                "adjust": "Ajustați",
+                "background_removal_unavailable": "Eliminarea fundalului nu este încă disponibilă",
+                "remove_background": "Eliminați fundalul",
+                "remove_background_short": "Decupare",
+                "replace": "Înlocuiți"
+            },
+            "keyframe": {
+                "blur": "Neclaritate strat",
+                "close": "Închideți proprietățile cadrului cheie",
+                "delete_keyframe": "Ștergeți cadrul cheie",
+                "letter_spacing": "Spațiere",
+                "line_height": "Înălțimea liniei",
+                "opacity": "Opacitate",
+                "position": "Poziție",
+                "properties_aria": "Proprietățile cadrului cheie",
+                "rotation": "Rotație",
+                "scale": "Scală"
+            },
+            "layer_tools": {
+                "deselect": "Deselectați stratul",
+                "tools_aria": "Instrumente pentru strat"
+            },
+            "media": {
+                "adjust": "Ajustați",
+                "green_screen": "Fundal verde",
+                "replace": "Înlocuiți",
+                "trim": "Tăiere"
+            },
+            "misc": {
+                "background_fill": "Umplerea fundalului",
+                "background_fill_short": "Umplere",
+                "configure_qr": "Configurați codul QR",
+                "edit_background_image": "Editați imaginea de fundal",
+                "no_background_image": "Încă nu există imagine de fundal",
+                "replace_unavailable": "Înlocuiți (indisponibil încă)"
+            },
+            "opacity": {
+                "label": "Opacitate"
+            },
+            "shape": {
+                "corner_radius": "Raza colțurilor",
+                "corner_radius_short": "Rază",
+                "fill": "Umplere",
+                "line_color": "Culoarea liniei",
+                "line_style_dots": "Puncte",
+                "line_style_long_dashes": "Liniuțe lungi",
+                "line_style_named": "Stilul liniei: {style}",
+                "line_style_short_dashes": "Liniuțe scurte",
+                "line_style_solid": "Continuă",
+                "line_weight": "Grosimea liniei",
+                "stroke_color": "Culoarea conturului",
+                "stroke_color_short": "Contur",
+                "stroke_weight": "Grosimea conturului",
+                "stroke_weight_short": "Grosime"
+            },
+            "speed": {
+                "custom_input": "Viteză de redare personalizată",
+                "label": "Viteză",
+                "playback_length": "Durata redării",
+                "playback_speed": "Viteza de redare",
+                "range_hint": "Între {min}× și {max}×"
+            },
+            "text": {
+                "decrease_font_size": "Micșorați dimensiunea fontului",
+                "font_family": "Familia de fonturi",
+                "font_family_named": "Familia de fonturi: {value}",
+                "font_size": "Dimensiunea fontului",
+                "font_weight": "Grosimea fontului",
+                "font_weight_named": "Grosimea fontului: {value}",
+                "increase_font_size": "Măriți dimensiunea fontului",
+                "keyboard": "Tastatură",
+                "line_height": "Înălțimea liniei",
+                "spacing": "Spațiere",
+                "text_color": "Culoarea textului",
+                "weight": "Grosime"
+            },
+            "volume": {
+                "clip_hint": "Doar acest clip. Sunetul plasat pe cronologie își păstrează propriul nivel.",
+                "label": "Volum",
+                "level": "Nivel",
+                "mute": "Dezactivați sunetul",
+                "muted": "Sunet dezactivat",
+                "muted_hint": "Nivelul este păstrat. Reactivați sunetul și clipul revine la {percent}%.",
+                "no_audio": "Acest videoclip nu are sunet.",
+                "slider": "Nivelul volumului",
+                "unmute": "Reactivați sunetul"
+            }
         },
         "confirmation": {
             "cancel": "Aruncă",
@@ -2918,7 +3032,1066 @@
             "document_colors": "Culorile documentelor",
             "default_colors": "Culori implicite"
         },
-        "graphic": "Grafică"
+        "graphic": "Grafică",
+        "animate": {
+            "anchor": {
+                "bottom_center": "Jos, centru",
+                "bottom_left": "Jos, stânga",
+                "bottom_right": "Jos, dreapta",
+                "center_left": "Centru, stânga",
+                "center_right": "Centru, dreapta",
+                "top_center": "Sus, centru",
+                "top_left": "Sus, stânga",
+                "top_right": "Sus, dreapta"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "Sfârșit",
+                "more_options": "Mai multe opțiuni"
+            },
+            "direction": {
+                "bottom_left": "Jos, stânga",
+                "bottom_right": "Jos, dreapta",
+                "clockwise": "În sensul acelor de ceasornic",
+                "counter_clockwise": "În sens invers acelor de ceasornic",
+                "from_the": "Din {place}",
+                "to_the": "Spre {place}",
+                "top_left": "Sus, stânga",
+                "top_right": "Sus, dreapta"
+            },
+            "easing": {
+                "accelerate": "Accelerare",
+                "bounce": "Săritură",
+                "elastic": "Elastic",
+                "impulse": "Impuls",
+                "natural": "Natural",
+                "overshoot": "Depășire",
+                "slow_down": "Decelerare",
+                "smooth": "Fluid",
+                "swing": "Balans"
+            },
+            "field": {
+                "amount": "Cantitate",
+                "anchor_group": "Punct de ancorare",
+                "anchor_point": "Punct de ancorare",
+                "angle": "Unghi",
+                "apply_effect_to": "Aplicați efectul la",
+                "axis": "Axă",
+                "choose_easing": "Alegeți interpolarea",
+                "distance": "Distanță",
+                "duration": "Durată",
+                "edge": "Margine",
+                "fade": "Estompare",
+                "from_noun": "De la {noun}",
+                "horizontal": "Orizontal",
+                "noun_blur": "neclaritate",
+                "noun_opacity": "opacitate",
+                "noun_size": "dimensiune",
+                "opacity": "Opacitate",
+                "order": "Ordine",
+                "position": "Poziție",
+                "rotation": "Rotație",
+                "rotation_direction": "Direcția rotației",
+                "scale": "Scală",
+                "smoothing": "Netezire",
+                "to_noun": "La {noun}",
+                "vertical": "Vertical"
+            },
+            "mode": {
+                "arrives": "Apare",
+                "departs": "Dispare",
+                "in": "Intrare",
+                "out": "Ieșire"
+            },
+            "panel": {
+                "animation": "Animație",
+                "animations_tab": "Animații",
+                "basic": "De bază",
+                "changing_note": "Alegeți un înlocuitor. Acesta preia locul și durata animației pe care o schimbați.",
+                "corner_radius": "Raza colțurilor",
+                "easing": "Interpolare",
+                "fade": "Estompare",
+                "keyframe_tab": "Cadru cheie",
+                "layer_blur": "Neclaritate strat",
+                "line_height": "Înălțimea liniei",
+                "more_options": "Mai multe opțiuni",
+                "motion": "Mișcare",
+                "needs_one_element": "Presetările de animație necesită un singur element. Selectați un singur strat pentru a le vedea.",
+                "paste_animation": "Lipiți animația",
+                "scale": "Scală",
+                "slide": "Glisare",
+                "stroke": "Contur",
+                "text_animation": "Animație text"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "Apariție",
+                    "label": "Apariție"
+                },
+                "blur": {
+                    "label": "Intrare cu neclaritate"
+                },
+                "blur_scale": {
+                    "caption": "Neclaritate și scalare",
+                    "label": "Intrare cu neclaritate și scalare"
+                },
+                "blur_slide": {
+                    "caption": "Neclaritate și glisare",
+                    "label": "Intrare cu neclaritate și glisare"
+                },
+                "fade": {
+                    "caption": "Estompare",
+                    "label": "Estompare"
+                },
+                "grow": {
+                    "caption": "Pop",
+                    "label": "Intrare pop"
+                },
+                "mask_center": {
+                    "caption": "Mască din centru",
+                    "label": "Dezvăluire cu mască din centru"
+                },
+                "mask_reveal": {
+                    "caption": "Dezvăluire cu mască",
+                    "label": "Dezvăluire cu mască de la o margine"
+                },
+                "mask_slide": {
+                    "caption": "Mască și glisare",
+                    "label": "Dezvăluire cu mască și glisare"
+                },
+                "move_scale": {
+                    "caption": "Mutare și scalare",
+                    "label": "Intrare cu mutare și scalare"
+                },
+                "rotate_left": {
+                    "label": "Rotire din stânga"
+                },
+                "rotate_right": {
+                    "label": "Rotire din dreapta"
+                },
+                "shrink": {
+                    "caption": "Mare",
+                    "label": "Intrare mare"
+                },
+                "slide": {
+                    "caption": "Glisare",
+                    "label": "Intrare prin glisare"
+                },
+                "slide_from_bottom": {
+                    "label": "Glisare de jos"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "Jos stânga",
+                    "label": "Glisare din stânga jos"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "Jos dreapta",
+                    "label": "Glisare din dreapta jos"
+                },
+                "slide_from_left": {
+                    "label": "Glisare din stânga"
+                },
+                "slide_from_right": {
+                    "label": "Glisare din dreapta"
+                },
+                "slide_from_top": {
+                    "label": "Glisare de sus"
+                },
+                "slide_from_top_left": {
+                    "caption": "Sus stânga",
+                    "label": "Glisare din stânga sus"
+                },
+                "slide_from_top_right": {
+                    "caption": "Sus dreapta",
+                    "label": "Glisare din dreapta sus"
+                },
+                "spin": {
+                    "caption": "Învârtire",
+                    "label": "Intrare prin învârtire"
+                },
+                "spin_scale": {
+                    "caption": "Învârtire și scalare",
+                    "label": "Intrare prin învârtire și scalare"
+                },
+                "twist": {
+                    "caption": "Răsucire",
+                    "label": "Intrare prin răsucire"
+                }
+            },
+            "property": {
+                "change_text": "Schimbați textul",
+                "morph": "Morfare",
+                "move": "Mutare",
+                "opacity": "Opacitate",
+                "scale": "Scală"
+            },
+            "section": {
+                "fade": "Estompare",
+                "mask": "Mască",
+                "scale": "Scală",
+                "slide": "Glisare",
+                "transform": "Transformare"
+            },
+            "text": {
+                "backward": "Înapoi",
+                "forward": "Înainte",
+                "letters": "Litere",
+                "summary_overlap": "Fiecare {unit} începe când cel dinainte a ajuns la {percent}%.",
+                "summary_sequential": "Fiecare {unit} se termină înainte să înceapă următorul.",
+                "summary_together": "Toate {unit} se mișcă împreună.",
+                "summary_whole": "Întregul bloc de text se animă ca unul singur.",
+                "words": "Cuvinte"
+            },
+            "type": {
+                "fade_in": "Apariție treptată",
+                "fade_out": "Dispariție treptată",
+                "line_height": "Înălțimea liniei",
+                "radius": "Rază",
+                "resize_in": "Redimensionare la intrare",
+                "resize_out": "Redimensionare la ieșire",
+                "rotate_in": "Rotire la intrare",
+                "rotate_out": "Rotire la ieșire",
+                "scale_in": "Scalare la intrare",
+                "scale_out": "Scalare la ieșire",
+                "slide_in": "Glisare la intrare",
+                "slide_out": "Glisare la ieșire",
+                "spacing": "Spațiere",
+                "stroke": "Contur"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "Adăugați fotografia pentru a continua.",
+                    "gesture": {
+                        "frameDesktop": "Trageți pentru a repoziționa · Derulați pentru a mări",
+                        "frameMobile": "Trageți pentru a repoziționa, ciupiți pentru a mări",
+                        "handles": "Redimensionați din colțuri și laterale, rotiți de sus",
+                        "move": "Trageți pentru a muta",
+                        "moveOrHandles": "Trageți pentru a muta sau folosiți mânerele",
+                        "resize": "Trageți un colț sau o latură pentru a redimensiona",
+                        "rotate": "Trageți mânerul de sus pentru a roti",
+                        "rotateDesktop": "Trageți rigla sau folosiți tastele săgeată",
+                        "rotateMobile": "Trageți rigla pentru a roti"
+                    },
+                    "hint": {
+                        "pickDesktop": "Faceți clic pe o zonă marcată sau alegeți un strat din stânga",
+                        "pickMobile": "Atingeți o zonă marcată sau alegeți un strat de mai jos",
+                        "previewDesktop": "Previzualizare a designului. Faceți clic pe el pentru a continua editarea.",
+                        "previewMobile": "Previzualizare a designului. Atingeți-l pentru a continua editarea."
+                    },
+                    "layer": {
+                        "addPhoto": "Adăugați fotografia",
+                        "text": "Text: {text}",
+                        "yourPhoto": "Fotografia dvs.",
+                        "yourText": "Textul dvs."
+                    },
+                    "layers": {
+                        "all": "Toate straturile",
+                        "photo": "Fotografie",
+                        "sheetDescription": "Tot ce puteți schimba în acest design.",
+                        "title": "Straturi"
+                    },
+                    "photoError": "Nu am putut folosi acea fotografie. Încercați o altă imagine.",
+                    "preview": {
+                        "backToEditing": "Înapoi la editare"
+                    },
+                    "rotation": {
+                        "aria": "Rotație",
+                        "value": "one:# grad|few:# grade|other:# de grade"
+                    },
+                    "tools": {
+                        "adjust": "Ajustați",
+                        "aria": "Instrumente pentru strat",
+                        "editText": "Editați textul",
+                        "flip": "Răsturnați",
+                        "locked": "Dimensiunea și poziția sunt stabilite de creator",
+                        "replace": "Înlocuiți",
+                        "textAria": "Instrumente pentru text",
+                        "zoomIn": "Mărire",
+                        "zoomOut": "Micșorare"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name} a fost adăugat pe cronologie.",
+                "too_big": "{name} depășește {limit}.",
+                "too_long": "{name} durează mai mult de {minutes} minute.",
+                "too_many": "Doar {count} fișiere odată.",
+                "wrong_type": "{name} nu poate fi adăugat: sunt acceptate doar imagini, videoclipuri și fișiere SVG."
+            }
+        },
+        "catalogue": {
+            "error_body": "Verificați conexiunea, apoi încercați din nou.",
+            "loading_more": "Se încarcă mai multe"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "Renunțați la ciornă",
+                "description_unsaved": "Acest design nu este salvat. Dacă reveniți, va fi șters definitiv, împreună cu straturile, stilurile și animațiile.",
+                "title": "Renunțați la ciorna „{title}”?"
+            },
+            "save": {
+                "description": "După salvare, editarea nu mai este posibilă.",
+                "saving": "Se salvează…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "Potriviți pe ecran"
+        },
+        "graphic_panel": {
+            "add": "Adăugați {name}",
+            "add_failed": "Acest element grafic nu a putut fi adăugat. Încercați din nou.",
+            "empty_body": "Încercați un cuvânt mai scurt sau mai general, precum stea sau inimă.",
+            "empty_title": "Niciun element grafic nu corespunde cu „{query}”",
+            "error_title": "Elementele grafice nu au putut fi încărcate",
+            "none_title": "Nu există elemente grafice de afișat",
+            "search_label": "Căutați elemente grafice",
+            "search_placeholder": "Căutați elemente grafice"
+        },
+        "header": {
+            "redo": "Refaceți",
+            "saving": "Se salvează…",
+            "undo": "Anulați",
+            "untitled_design": "Design fără titlu"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "Spațiu foto"
+            },
+            "menu": {
+                "align_center": "Centrați",
+                "bring_forward": "Aduceți mai în față",
+                "bring_to_front": "Aduceți în față",
+                "detach_image": "Detașați imaginea",
+                "flip_horizontal": "Răsturnați orizontal",
+                "flip_vertical": "Răsturnați vertical",
+                "replace_image": "Înlocuiți imaginea",
+                "send_backward": "Trimiteți mai în spate",
+                "send_to_back": "Trimiteți în spate",
+                "set_as_background_image": "Setați ca imagine de fundal",
+                "set_as_background_video": "Setați ca videoclip de fundal",
+                "set_background_as_image_layer": "Setați fundalul ca strat de imagine",
+                "set_background_as_video_layer": "Setați fundalul ca strat video",
+                "sheet_title": "Opțiuni strat",
+                "show_layers": "Afișați straturile"
+            },
+            "pill": {
+                "duplicate": "Duplicați stratul",
+                "more": "Mai multe acțiuni pentru strat",
+                "remove": "Eliminați stratul",
+                "toolbar": "Acțiuni pentru strat"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "Codul de asociere este gata: {code}. Dați-l clientului dvs. AI.",
+                "connecting": "Se creează un cod de asociere.",
+                "failed": "Conectarea nu a reușit. {reason}",
+                "reconnecting": "Conexiunea s-a întrerupt. Se încearcă reconectarea."
+            },
+            "clipboard_blocked": "Browserul a blocat clipboardul. {hint}",
+            "connect": "Conectați",
+            "connecting": "Se conectează…",
+            "copied_address_announcement": "Adresa serverului a fost copiată",
+            "copied_code_announcement": "Codul de asociere a fost copiat",
+            "copy_address_hint": "Selectați adresa și copiați-o manual.",
+            "copy_code": "Copiați codul",
+            "copy_code_hint": "Selectați codul și copiați-l manual.",
+            "copy_server_address": "Copiați adresa serverului MCP",
+            "disconnect": "Deconectați",
+            "error_fallback": "Serviciul de asociere nu a răspuns. Verificați conexiunea și încercați din nou.",
+            "guide": {
+                "fresh_code": "Dacă un cod nu mai funcționează, apăsați Deconectați și conectați-vă din nou pentru unul nou.",
+                "how_to_set_up": "Cum se configurează",
+                "step_add_body": "Adăugați Twibbonize la clientul dvs. AI folosind adresa de mai jos. În Claude Code, rulați",
+                "step_add_title": "Adăugați Twibbonize la clientul dvs. AI",
+                "step_pair_body": "Spuneți „asociază-te cu editorul Twibbonize” și dați-i codul de mai sus.",
+                "step_pair_title": "Cereți-i să se asocieze",
+                "where_to_paste": "Unde lipesc acest cod?"
+            },
+            "lead": {
+                "code_ready_sentence": "Lipiți-l în Claude și cereți-i să se asocieze. Pânza desenează un inel în jurul paginii cât timp lucrează Claude.",
+                "code_ready_title": "Dați acest cod clientului dvs. AI",
+                "connecting_sentence": "Durează un moment.",
+                "connecting_title": "Se creează un cod de asociere",
+                "disconnected_sentence": "Claude Desktop și Claude Code pot adăuga straturi, scrie text, seta animații și citi ce se află pe pânză.",
+                "disconnected_title": "Aduceți un client AI în acest design",
+                "failed_title": "Conectarea nu a reușit",
+                "reconnecting_sentence": "Legătura cu clientul dvs. AI s-a întrerupt. Se încearcă restabilirea.",
+                "reconnecting_title": "Se reconectează",
+                "unavailable_sentence": "Această versiune a editorului nu are nicio conexiune AI configurată, deci nu există încă nimic la care să vă conectați.",
+                "unavailable_title": "MCP nu este activat aici"
+            },
+            "pairing_code_label": "Cod de asociere: {code}"
+        },
+        "media": {
+            "add_asset": "Adăugați {name}",
+            "dismiss_error": "Închideți",
+            "empty_body": "Adăugați mai jos o imagine, un videoclip sau un fișier audio și va rămâne aici pe tot restul sesiunii.",
+            "empty_narrowed_body": "Ștergeți căutarea sau alegeți alt tip pentru a vedea tot ce ați adăugat.",
+            "empty_narrowed_title": "Nicio potrivire",
+            "empty_title": "Nimic încărcat încă",
+            "filter": {
+                "audio": "Audio",
+                "images": "Imagini"
+            },
+            "filter_group_label": "Tip de media",
+            "make_an_image": "Creați o imagine",
+            "make_image_unavailable": "Generarea de imagini nu este încă disponibilă",
+            "search_placeholder": "Căutați media",
+            "upload_button": "Încărcați imagine, videoclip sau audio",
+            "uploads_heading": "Încărcări"
+        },
+        "page_bar": {
+            "group_label": "Comenzi de zoom",
+            "zoom_menu": "Nivel de zoom, {percent}%"
+        },
+        "panel": {
+            "loading": "Se încarcă {panel}…"
+        },
+        "photo": {
+            "add_by": "Adăugați fotografia de la {name}",
+            "add_described": "Adăugați fotografia: {description}",
+            "credit": "Fotografii furnizate de",
+            "empty_body": "Încercați un cuvânt mai scurt sau mai general, precum plajă sau oraș.",
+            "empty_title": "Nicio fotografie nu corespunde cu „{query}”",
+            "error_title": "Fotografiile nu au putut fi încărcate",
+            "none_title": "Nu există fotografii de afișat",
+            "search_label": "Căutați fotografii",
+            "search_placeholder": "Căutați fotografii"
+        },
+        "qr": {
+            "add_logo": "Adăugați logo",
+            "add_to_design": "Adăugați la design",
+            "background_colour_label": "Culoarea fundalului",
+            "code_colour_label": "Culoarea codului",
+            "code_label": "Cod",
+            "link_input_label": "Linkul codului QR",
+            "link_label": "Link",
+            "logo_fallback_name": "Imaginea logoului",
+            "logo_label": "Logo",
+            "remove_logo": "Eliminați logoul"
+        },
+        "rail": {
+            "aria_label": "Biblioteci de design",
+            "graphic": "Elemente grafice",
+            "help": "Ajutor",
+            "layers": "Straturi",
+            "mcp": "MCP",
+            "media": "Media",
+            "photo": "Fotografii",
+            "qr_code": "Cod QR",
+            "shapes": "Forme",
+            "templates": "Șabloane",
+            "textures": "Texturi",
+            "tools": "Instrumente"
+        },
+        "save": {
+            "failed": "Designul nu a putut fi salvat. Încercați din nou."
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "Luminozitate",
+                "compare": "Comparați cu originalul",
+                "contrast": "Contrast",
+                "grayscale": "Tonuri de gri",
+                "group": {
+                    "basic": "De bază",
+                    "refinements": "Rafinări"
+                },
+                "hue_rotate": "Rotirea nuanței",
+                "reset": "Resetați ajustările",
+                "saturation": "Saturație",
+                "title": "Ajustări"
+            },
+            "color": {
+                "trigger": "Culoare"
+            },
+            "common": {
+                "layer_blur": "Neclaritate strat",
+                "layer_blur_stepper": "Neclaritate strat"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "Formă liberă",
+                    "landscape": "Peisaj",
+                    "original": "Original",
+                    "portrait": "Portret",
+                    "square": "Pătrat",
+                    "story": "Story",
+                    "widescreen": "Ecran lat"
+                },
+                "shape": {
+                    "circle": "Cerc",
+                    "diamond": "Romb",
+                    "half_circle": "Semicerc",
+                    "oval": "Oval",
+                    "parallelogram": "Paralelogram",
+                    "rounded": "Rotunjit"
+                }
+            },
+            "filter": {
+                "cool": "Rece",
+                "duotone": "Duoton",
+                "mono": "Mono",
+                "original": "Original",
+                "vivid": "Intens",
+                "warm": "Cald"
+            },
+            "font_weight": {
+                "black": "Black",
+                "extra_bold": "ExtraBold",
+                "extra_light": "ExtraLight",
+                "medium": "Medium",
+                "regular": "Regular",
+                "semibold": "SemiBold",
+                "thin": "Thin"
+            },
+            "frame": {
+                "colour": "Culoarea cadrului"
+            },
+            "green_screen": {
+                "choose_colour": "Alegeți o culoare",
+                "colour": "Culoare",
+                "compare": "Comparați cu originalul",
+                "eyedropper": "Alegeți o culoare de pe pânză",
+                "key_colour": "Culoare cheie {hex}",
+                "loose": "Larg",
+                "nothing_found": "Nu s-a găsit nicio culoare de fundal.",
+                "precise": "Precis",
+                "preset": {
+                    "bright_blue": "Albastru intens",
+                    "bright_green": "Verde intens",
+                    "chroma_blue": "Albastru chroma",
+                    "chroma_green": "Verde chroma"
+                },
+                "presets": "Culori de fundal uzuale",
+                "remove": "Eliminați fundalul verde",
+                "title": "Fundal verde"
+            },
+            "image": {
+                "corner_radius": "Raza colțurilor",
+                "corner_radius_stepper": "Raza colțurilor",
+                "per_corner": "Editați colțurile individual",
+                "per_corner_unavailable": "Editarea individuală a colțurilor nu este încă disponibilă"
+            },
+            "keypad": {
+                "value_field": "Valoare {label}"
+            },
+            "line": {
+                "colour": "Culoarea liniei",
+                "style": {
+                    "dots": "Puncte",
+                    "long_dashes": "Liniuțe lungi",
+                    "short_dashes": "Liniuțe scurte",
+                    "solid": "Continuă"
+                },
+                "style_trigger": "Stilul liniei: {style}",
+                "weight": "Grosimea liniei",
+                "weight_trigger": "Grosimea liniei {weight}"
+            },
+            "media": {
+                "heading": "Media"
+            },
+            "page": {
+                "size_capped": "Max. {max} px — raportul este păstrat"
+            },
+            "pages": {
+                "title": "Pagini"
+            },
+            "photo_slot": {
+                "enable": "Folosiți ca spațiu foto",
+                "key_field": "Cheie (unică)",
+                "key_required": "Cheia este obligatorie",
+                "key_taken": "Cheia este deja folosită de alt spațiu",
+                "label_field": "Etichetă (afișată utilizatorului final)",
+                "on": "Spațiu foto",
+                "remove": "Eliminați spațiul foto"
+            },
+            "qr": {
+                "add_logo": "Adăugați logo",
+                "background_colour": "Culoarea fundalului",
+                "code": "Cod",
+                "code_colour": "Culoarea codului",
+                "link": "Link",
+                "link_input": "Linkul codului QR",
+                "logo": "Logo",
+                "remove_logo": "Eliminați logoul"
+            },
+            "root": {
+                "background_image": "Imagine de fundal",
+                "edit_background": "Editați imaginea de fundal",
+                "fill": "Umplere",
+                "fill_gradient": "Gradient",
+                "page_height": "Înălțimea paginii",
+                "page_width": "Lățimea paginii",
+                "ratio_lock": "Blocați raportul de aspect",
+                "ratio_unlock": "Deblocați raportul de aspect",
+                "rotate_left": "Rotiți fundalul la stânga",
+                "rotate_right": "Rotiți fundalul la dreapta"
+            },
+            "scalar": {
+                "clip_length": "Durată",
+                "corner_radius": "Raza colțurilor",
+                "font_size": "Dimensiunea fontului",
+                "layer_blur": "Neclaritate strat",
+                "letter_spacing": "Spațierea literelor",
+                "line_height": "Înălțimea liniei",
+                "opacity": "Opacitate",
+                "speed": "Viteză",
+                "stroke_width": "Grosimea conturului",
+                "volume": "Volum"
+            },
+            "shape": {
+                "corner_radius": "Raza colțurilor",
+                "corner_radius_stepper": "Raza colțurilor",
+                "fill": "Umplere",
+                "fill_gradient": "Gradient",
+                "fill_mixed": "Mixt",
+                "fill_transparent": "Transparent",
+                "stroke": "Contur",
+                "stroke_color": "Culoarea conturului",
+                "stroke_style": {
+                    "dots": "Puncte",
+                    "long_dashes": "Liniuțe lungi",
+                    "short_dashes": "Liniuțe scurte",
+                    "solid": "Continuă"
+                },
+                "stroke_style_select": "Stilul conturului",
+                "stroke_transparent": "Transparent",
+                "stroke_weight": "Grosimea conturului"
+            },
+            "svg": {
+                "path_colour": "Culoarea {index}"
+            },
+            "swatch": {
+                "more_colours": "Mai multe culori"
+            },
+            "text": {
+                "align": {
+                    "justify": "Aliniat stânga-dreapta"
+                },
+                "alignment": "Aliniere",
+                "edit_text": "Editați textul",
+                "font_family": "Familia de fonturi",
+                "font_family_select": "Familia de fonturi",
+                "font_size": "Dimensiunea fontului",
+                "italic_unavailable": "Acest font nu are italic la această grosime",
+                "letter_spacing_stepper": "Spațierea literelor",
+                "line_height": "Înălțimea liniei",
+                "line_height_stepper": "Înălțimea liniei",
+                "list": "Listă",
+                "list_bulleted": "Listă cu buline",
+                "list_numbered": "Listă numerotată",
+                "list_style": "Stilul listei",
+                "text_case": "Majuscule\/minuscule",
+                "text_color": "Culoarea textului",
+                "text_style": "Stilul textului",
+                "weight": "Grosime"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "Aliniați jos",
+                    "center_x": "Aliniați centrele orizontale",
+                    "center_y": "Aliniați centrele verticale",
+                    "left": "Aliniați la stânga",
+                    "right": "Aliniați la dreapta",
+                    "top": "Aliniați sus"
+                },
+                "align_to_page": "Aliniați la pagină",
+                "opacity": "Opacitate",
+                "position": "Poziție",
+                "position_x": "Poziția X",
+                "position_y": "Poziția Y",
+                "rotation": "Rotație",
+                "scale": "Scală"
+            },
+            "video": {
+                "adjust": "Ajustați",
+                "audio": "Audio",
+                "clip_runs": "clipul durează {length}",
+                "corner_radius": "Raza colțurilor",
+                "corner_radius_stepper": "Raza colțurilor",
+                "green_screen": "Fundal verde",
+                "loop": "Repetă până la sfârșitul designului",
+                "mute": "Dezactivați sunetul",
+                "muted": "Sunet dezactivat",
+                "no_audio": "Acest videoclip nu are sunet.",
+                "playback": "Redare",
+                "replace": "Înlocuiți videoclipul",
+                "speed": "Viteză",
+                "speed_custom_input": "Viteză de redare personalizată",
+                "speed_presets": "Viteza de redare",
+                "speed_range": "Între {min}× și {max}×",
+                "tools": "Instrumente",
+                "unmute": "Reactivați sunetul",
+                "volume": "Volum",
+                "volume_level": "Nivelul volumului"
+            }
+        },
+        "shape_preset": {
+            "arrow": "Săgeată",
+            "arrow_down": "Săgeată în jos",
+            "arrow_left": "Săgeată la stânga",
+            "arrow_pentagon": "Săgeată pentagonală",
+            "arrow_right": "Săgeată la dreapta",
+            "arrow_up": "Săgeată în sus",
+            "chevron": "Chevron",
+            "circle": "Cerc",
+            "cross": "Cruce",
+            "diamond": "Romb",
+            "hexagon": "Hexagon",
+            "hexagon_wide": "Hexagon lat",
+            "line": "Linie",
+            "octagon": "Octogon",
+            "parallelogram": "Paralelogram",
+            "parallelogram_mirrored": "Paralelogram oglindit",
+            "pentagon": "Pentagon",
+            "square": "Pătrat",
+            "trapezoid": "Trapez",
+            "trapezoid_upside_down": "Trapez răsturnat",
+            "triangle": "Triunghi",
+            "triangle_upside_down": "Triunghi răsturnat"
+        },
+        "shapes_panel": {
+            "basic": "De bază",
+            "lines": "Linii și săgeți"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "Adăugați cadru cheie",
+                "back_to_animations": "Înapoi la animații",
+                "basic": "De bază",
+                "basic_opacity": "Opacitate",
+                "basic_position": "Poziție",
+                "basic_rotation": "Rotație",
+                "basic_scale": "Scală",
+                "keyframe": "Cadru cheie",
+                "pick_property_hint": "Alegeți proprietatea pentru cadrul cheie. Atingerea uneia închide foaia și deschide panoul ei, cu cadrul cheie deja plasat la capul de redare, cu valoarea curentă a stratului.",
+                "presets_need_one": "Presetările de animație necesită un singur element. Selectați un singur strat pentru a le vedea.",
+                "title": "Animați"
+            },
+            "easing": {
+                "title": "Interpolare"
+            },
+            "font_weight": {
+                "title": "Grosimea fontului"
+            },
+            "speed": {
+                "title": "Viteză"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "Culori implicite",
+                "eyedropper": "Alegeți o culoare de pe ecran",
+                "eyedropper_unsupported": "Browserul dvs. nu acceptă pipeta",
+                "fill_linear": "liniar",
+                "fill_radial": "radial",
+                "fill_solid": "uniform",
+                "fill_type": "Tip de umplere",
+                "gradients_in_design": "Gradiente în design",
+                "hex": "Culoare hexazecimală",
+                "in_design": "În design",
+                "title": "Culoare de umplere",
+                "use_color": "Folosiți {color}",
+                "use_gradient": "Folosiți gradientul {style}",
+                "use_transparent": "Transparent"
+            },
+            "crop": {
+                "adjust_shape": "Ajustați forma decupării",
+                "aspect": "Raport",
+                "framing": "Încadrare",
+                "framing_hint": "Trageți fotografia pentru a o reîncadra sau un colț pentru a redimensiona fereastra de decupare. Derulați pentru a mări.",
+                "scale": "Scală"
+            },
+            "filters": {
+                "show_earlier": "Afișați filtrele anterioare",
+                "show_more": "Afișați mai multe filtre",
+                "swatch": "{label} culoare: {color}",
+                "title": "Filtre"
+            },
+            "font": {
+                "all_fonts": "TOATE FONTURILE",
+                "applying": "Se aplică fontul",
+                "back": "Înapoi la opțiunile de text",
+                "clear_search": "Ștergeți căutarea",
+                "clear_search_action": "Ștergeți căutarea",
+                "in_this_design": "ÎN ACEST DESIGN",
+                "no_match": "Niciun font nu corespunde cu „{query}”",
+                "no_match_hint": "Twibbonize folosește catalogul Google Fonts, iar această familie nu face parte din el. Încercați un termen de căutare mai scurt.",
+                "search_label": "Căutați familii de fonturi",
+                "search_placeholder": "Căutați fonturi",
+                "title": "Familia de fonturi",
+                "weight": "Grosimea fontului"
+            },
+            "gradient": {
+                "add_stop": "Adăugați un punct de gradient",
+                "angle": "Unghi",
+                "angle_dial": "Unghiul gradientului, {degrees} de grade. Trageți pentru a-l schimba",
+                "angle_dial_hint": "Trageți pentru a schimba unghiul gradientului",
+                "angle_input": "Unghiul gradientului în grade",
+                "centre_unsupported": "Centrul gradientului nu este încă acceptat de motorul de randare",
+                "stop": "Punctul de gradient {index} la {percent}%, {color}",
+                "stop_hint": "Trageți pentru a muta, faceți dublu clic pentru a elimina"
+            },
+            "image": {
+                "adjustment": "Ajustare",
+                "adjustments": "Ajustări",
+                "back_to_edit": "Înapoi la fila Editare",
+                "background_removal": "Eliminarea fundalului",
+                "compare": "Comparați cu originalul",
+                "removing": "Se elimină…",
+                "removing_background": "Se elimină fundalul",
+                "reset_adjustments": "Resetați ajustările",
+                "tools": "Instrumente"
+            },
+            "keyframe": {
+                "add": "Adăugați cadru cheie",
+                "add_at_playhead": "Adăugați cadru cheie {property} la capul de redare",
+                "add_at_playhead_short": "Adăugați un cadru cheie la capul de redare",
+                "add_lane_at_playhead": "Adăugați un cadru cheie {lane} la capul de redare",
+                "add_property": "Adăugați o proprietate de animat",
+                "all_lanes_added": "Fiecare proprietate pe care acest strat o poate anima are deja o pistă",
+                "delete": "Ștergeți acest cadru cheie",
+                "diamond": "Cadru cheie {lane} la {seconds} s",
+                "easing": "Interpolare",
+                "easing_caps": "INTERPOLARE",
+                "first_no_easing": "Primul cadru cheie nu are interpolare",
+                "hex": "Culoare hexazecimală",
+                "layer_blur": "Neclaritate strat",
+                "letter_spacing": "Spațierea literelor",
+                "line_height": "Înălțimea liniei",
+                "opacity": "Opacitate",
+                "opacity_percent": "Procent de opacitate",
+                "position_x": "Poziția X",
+                "position_y": "Poziția Y",
+                "radius_bottom_left": "Raza colțului din stânga jos",
+                "radius_bottom_right": "Raza colțului din dreapta jos",
+                "radius_top_left": "Raza colțului din stânga sus",
+                "radius_top_right": "Raza colțului din dreapta sus",
+                "remove": "Eliminați cadrul cheie",
+                "remove_at_playhead": "Eliminați cadrul cheie {property} de la capul de redare",
+                "rotation": "Rotație",
+                "scale": "Scală",
+                "shadow_blur": "Neclaritatea umbrei",
+                "shadow_color": "Culoarea umbrei",
+                "shadow_offset_x": "Decalaj X al umbrei",
+                "shadow_offset_y": "Decalaj Y al umbrei",
+                "shadow_spread": "Întinderea umbrei",
+                "stroke_color": "Culoarea conturului",
+                "stroke_weight": "Grosimea conturului"
+            },
+            "layer": {
+                "page_background": "Fundalul paginii",
+                "tab_animate": "Animați",
+                "tabs_label": "Panoul straturilor",
+                "title": "Straturi"
+            },
+            "page_preset": {
+                "group_label": "Dimensiuni presetate pentru pânză",
+                "landscape": "Peisaj",
+                "portrait": "Portret",
+                "square": "Pătrat",
+                "story": "Story",
+                "tile_aria": "{name}, {width} pe {height} pixeli"
+            },
+            "personalization": {
+                "act_as_placeholder": "Folosiți ca substituent",
+                "allow_adjust_framing": "Permiteți ajustarea încadrării",
+                "allow_adjust_framing_hint": "Susținătorii pot mări și muta fotografia în cadru.",
+                "allow_change_adjustments": "Permiteți schimbarea ajustărilor",
+                "allow_change_adjustments_hint": "Susținătorii pot schimba luminozitatea, contrastul și alte ajustări.",
+                "allow_change_effect": "Permiteți schimbarea efectului",
+                "allow_change_effect_hint": "Susținătorii pot alege un alt efect pentru acest strat.",
+                "allow_change_filter": "Permiteți schimbarea filtrului",
+                "allow_change_filter_hint": "Susținătorii pot alege un alt filtru pentru acest strat.",
+                "allow_edit_text": "Permiteți editarea textului",
+                "allow_edit_text_hint": "Susținătorii își pot scrie propriile cuvinte în acest text.",
+                "allow_flip": "Permiteți răsturnarea",
+                "allow_flip_hint": "Susținătorii pot oglindi acest strat.",
+                "allow_move": "Permiteți mutarea",
+                "allow_move_hint": "Susținătorii pot trage acest strat în alt loc.",
+                "allow_replace_media": "Permiteți înlocuirea media",
+                "allow_replace_media_hint": "Susținătorii pot schimba această imagine cu propria fotografie.",
+                "allow_resize": "Permiteți redimensionarea",
+                "allow_resize_hint": "Susținătorii pot redimensiona acest strat trăgând de colțuri și laterale.",
+                "allow_rotate": "Permiteți rotirea",
+                "allow_rotate_hint": "Susținătorii pot roti acest strat la orice unghi.",
+                "group_appearance": "Aspect",
+                "group_arrange": "Aranjare",
+                "group_media": "Media",
+                "placeholder_hint": "Afișează un spațiu gol pe care susținătorii îl pot atinge pentru a-și adăuga fotografia.",
+                "remove_background": "Eliminați fundalul din fotografia lor",
+                "remove_background_hint": "Decupează susținătorul din fotografie, astfel încât designul dvs. să apară în jurul lui.",
+                "text_placeholder_hint": "Afișează acest text ca exemplu pe care susținătorii îl înlocuiesc cu al lor."
+            },
+            "shape_effect": {
+                "colour": "Culoarea efectului",
+                "distance": "Distanță",
+                "echo": "Ecou",
+                "first_color": "Prima culoare",
+                "first_colour": "Prima culoare a efectului",
+                "glitch": "Glitch",
+                "glow": "Strălucire",
+                "group_label": "Efect de formă",
+                "second_color": "A doua culoare",
+                "second_colour": "A doua culoare a efectului",
+                "section": "Efect",
+                "shadow": "Umbră"
+            },
+            "text_effect": {
+                "colour": "Culoarea efectului",
+                "curve": "Curbă",
+                "distance": "Distanță",
+                "echo": "Ecou",
+                "glow": "Strălucire",
+                "group_label": "Efect de text",
+                "outline": "Contur",
+                "section": "Efect",
+                "shape_group_label": "Forma textului",
+                "splice": "Îmbinare",
+                "title": "Efecte de text"
+            }
+        },
+        "templates": {
+            "empty_body": "Încercați un cuvânt mai scurt sau mai general.",
+            "empty_title": "Niciun șablon nu corespunde cu „{query}”",
+            "error_title": "Șabloanele nu au putut fi încărcate",
+            "none_body": "Căutați o temă, precum zi de naștere sau absolvire.",
+            "none_title": "Încă nu există șabloane pentru acest design",
+            "search_label": "Căutați șabloane",
+            "search_placeholder": "Căutați șabloane"
+        },
+        "text_panel": {
+            "add_template": "Adăugați șablonul de text: {name}",
+            "add_text_box": "Adăugați o casetă de text",
+            "empty_body": "Încercați un cuvânt mai scurt sau mai general.",
+            "empty_title": "Niciun șablon de text nu corespunde cu „{query}”",
+            "error_title": "Șabloanele de text nu au putut fi încărcate",
+            "none_body": "Începeți în schimb cu o simplă casetă de text.",
+            "none_title": "Nu există șabloane de text de afișat",
+            "search_label": "Căutați șabloane de text",
+            "search_placeholder": "Căutați șabloane de text"
+        },
+        "text_preset": {
+            "seed": "Adăugați textul aici"
+        },
+        "textures": {
+            "apply_texture": "Aplicați {name}",
+            "category": {
+                "fabric": "Țesătură",
+                "grain": "Granulație",
+                "grunge": "Grunge",
+                "paper": "Hârtie",
+                "print": "Tipar"
+            },
+            "category_group_label": "Categoria texturii",
+            "empty_body": "Construim această bibliotecă. Reveniți în curând.",
+            "empty_title": "Încă nu există texturi",
+            "most_used": "Cele mai folosite",
+            "search_placeholder": "Căutați texturi"
+        },
+        "timeline": {
+            "audio": {
+                "add": "Adăugați audio",
+                "add_tooltip": "Adăugați o pistă audio de fundal",
+                "bar_aria": "{name} la {start}, durată {duration}",
+                "decoding": "Se decodifică sunetul…",
+                "decoding_waveform": "Se decodifică forma de undă…",
+                "default_name": "Audio",
+                "drop_to_add": "Plasați aici pentru a adăuga audio",
+                "kind_suffix": "· Audio",
+                "mute": "Dezactivați sunetul pistei",
+                "unmute": "Reactivați sunetul pistei",
+                "volume": "Volumul pistei",
+                "waveform_error": "Forma de undă a acestei piste nu a putut fi încărcată."
+            },
+            "keyframe": {
+                "add": "Adăugați cadru cheie",
+                "add_at_playhead": "Adăugați cadru cheie la capul de redare",
+                "add_tooltip": "Creați un cadru cheie pentru o proprietate a acestui strat",
+                "diamond_aria": "Cadru cheie {lane} la {time}",
+                "diamond_hint": " · trageți pentru a modifica momentul, clic dreapta pentru a șterge",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "Raza colțurilor",
+                    "layer_blur": "Neclaritate strat",
+                    "line_height": "Înălțimea liniei",
+                    "opacity": "Opacitate",
+                    "position": "Poziție",
+                    "rotation": "Rotație",
+                    "scale": "Scală",
+                    "stroke": "Contur"
+                },
+                "remove_lane": "Eliminați cadrele cheie {lane}",
+                "remove_lane_from_layer": "Eliminați cadrele cheie {lane} din {layer}",
+                "segment_easing_aria": "Funcția de temporizare {lane} între {from} și {to}, în prezent {easing}",
+                "segment_easing_title": "Funcția de temporizare · {easing}",
+                "welded_aria": ", lipit de marginea stratului",
+                "welded_title": " · lipit de marginea stratului"
+            },
+            "menu": {
+                "repeat_until_end": "Repetă până la sfârșit"
+            },
+            "track": {
+                "bar_aria": "{name} la {start}, durată {duration}",
+                "bar_aria_end_glued": ", sfârșit lipit de strat",
+                "bar_aria_start_glued": ", început lipit de strat",
+                "bar_tooltip": "{name} · {start}, durată {duration} ms · trageți pentru a muta, trageți de o margine pentru a redimensiona (Alt = fără aliniere)",
+                "bar_tooltip_sole": " · tragerea acestei margini mută stratul",
+                "clip_aria": "Clip {name}",
+                "clip_tooltip": "Trageți pentru a muta stratul în timp · trageți de un capăt pentru a tăia (Alt = fără aliniere)",
+                "collapse": "Restrângeți",
+                "collapse_all": "Restrângeți toate straturile",
+                "collapse_named": "Restrângeți {name}",
+                "delete_layer": "Ștergeți stratul",
+                "delete_named": "Ștergeți {name}",
+                "ends_at": "Se termină la",
+                "expand": "Extindeți",
+                "expand_named": "Extindeți {name}",
+                "hidden_lane_one": "{count} pistă ascunsă",
+                "hidden_lane_other": "{count} piste ascunse",
+                "hide": "Ascundeți",
+                "hide_named": "Ascundeți {name}",
+                "lane_reorder_tooltip": "Trageți pentru a reordona: pista de sus are prioritate unde animațiile se suprapun",
+                "layer_animations": "Animațiile stratului",
+                "lock_layer": "Blocați stratul",
+                "lock_named": "Blocați {name}",
+                "remove_animation": "Eliminați animația",
+                "remove_animation_aria": "Eliminați animația {name} din {layer}",
+                "reorder_tooltip": "Trageți pentru a reordona pistele. Ordinea pe pânză se stabilește în panoul straturilor",
+                "show": "Afișați",
+                "show_named": "Afișați {name}",
+                "split": "Împărțire",
+                "starts_at": "Începe la",
+                "trim_end": "Tăiați sfârșitul",
+                "trim_start": "Tăiați începutul",
+                "trim_to": "Tăiați la {time}",
+                "unlock_layer": "Deblocați stratul",
+                "unlock_named": "Deblocați {name}"
+            },
+            "transport": {
+                "current_time_field": "Timpul curent în milisecunde",
+                "duration_edge_aria": "Durata paginii: {seconds} secunde",
+                "duration_edge_tooltip": "Durata paginii: {seconds} s · trageți pentru a schimba, faceți clic pentru valoarea exactă (Alt = fără aliniere)",
+                "duration_max": "Maximum {seconds} s",
+                "fit_to_width": "Potriviți pe lățime",
+                "forward": "Înainte",
+                "lengthen_page": "Prelungiți pagina",
+                "loop": "Redare în buclă",
+                "page_duration": "Durata paginii",
+                "page_duration_field": "Durata paginii în milisecunde",
+                "resize_dock": "Redimensionați cronologia",
+                "rewind": "Înapoi",
+                "shorten_page": "Scurtați pagina",
+                "zoom": "Zoom cronologie"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "Prea multe cereri",
             "CN-4003": "Adresa URL nevalidă",
             "C-4090": "Linkul campaniei dvs. este deja utilizat. Încercați una diferită.",
+            "C-4094": "Campania este deja în coșul de gunoi",
+            "C-4095": "Campania nu este în coșul de gunoi",
             "SUB-403": "Propunerile sunt interzise de setările campaniei",
             "A-40091": "Folosește adresa de e-mail a școlii sau universității tale",
             "PB-4011": "Acest link este invalid sau a expirat",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "Derulează în jos pentru a alege cadrul",
         "editor_single": "Derulează în jos pentru a ajusta fotografia ta",
         "editor_multiple": "Derulează în jos pentru a edita și schimba cadrele"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "Se restaurează campaniile…"
+        }
     }
 }

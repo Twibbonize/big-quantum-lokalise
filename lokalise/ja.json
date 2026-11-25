@@ -2842,7 +2842,9 @@
             "type": "タイプ",
             "size": "サイズ",
             "type_image": "JPG、PNGまたはSVG",
-            "maximum_size": "最大5MB"
+            "maximum_size": "最大5MB",
+            "abandoned": "レイヤーが削除されたため、アップロードが停止しました。ライブラリに保存するには再試行してください。",
+            "failed": "アップロードに失敗しました。接続を確認して、もう一度お試しください。"
         },
         "toolbar": {
             "copy": "コピー",
@@ -2871,7 +2873,119 @@
             "border_weight": "境界線の太さ",
             "corner_rounding": "コーナーの丸め",
             "align": "整列",
-            "effects": "エフェクト"
+            "effects": "エフェクト",
+            "animate": {
+                "amount": "量",
+                "angle": "角度",
+                "close": "アニメーション設定を閉じる",
+                "delete_animation": "アニメーションを削除",
+                "distance": "距離",
+                "easing": "イージング",
+                "fade": "フェード",
+                "settings_aria": "アニメーション設定"
+            },
+            "audio": {
+                "replace": "置き換え",
+                "tools_aria": "オーディオトラックツール",
+                "trim": "トリミング",
+                "volume": "音量"
+            },
+            "clip": {
+                "length": "長さ",
+                "split": "分割",
+                "trim": "トリミング"
+            },
+            "entry": {
+                "animate": "アニメーション"
+            },
+            "image": {
+                "adjust": "調整",
+                "background_removal_unavailable": "背景の削除はまだ利用できません",
+                "remove_background": "背景を削除",
+                "remove_background_short": "切り抜き",
+                "replace": "置き換え"
+            },
+            "keyframe": {
+                "blur": "レイヤーぼかし",
+                "close": "キーフレームのプロパティを閉じる",
+                "delete_keyframe": "キーフレームを削除",
+                "letter_spacing": "文字間隔",
+                "line_height": "行の高さ",
+                "opacity": "不透明度",
+                "position": "位置",
+                "properties_aria": "キーフレームのプロパティ",
+                "rotation": "回転",
+                "scale": "スケール"
+            },
+            "layer_tools": {
+                "deselect": "レイヤーの選択を解除",
+                "tools_aria": "レイヤーツール"
+            },
+            "media": {
+                "adjust": "調整",
+                "green_screen": "グリーンスクリーン",
+                "replace": "置き換え",
+                "trim": "トリミング"
+            },
+            "misc": {
+                "background_fill": "背景の塗りつぶし",
+                "background_fill_short": "塗りつぶし",
+                "configure_qr": "QRコードを設定",
+                "edit_background_image": "背景画像を編集",
+                "no_background_image": "背景画像はまだありません",
+                "replace_unavailable": "置き換え（まだ利用できません）"
+            },
+            "opacity": {
+                "label": "不透明度"
+            },
+            "shape": {
+                "corner_radius": "角丸の半径",
+                "corner_radius_short": "半径",
+                "fill": "塗りつぶし",
+                "line_color": "線の色",
+                "line_style_dots": "点線",
+                "line_style_long_dashes": "長い破線",
+                "line_style_named": "線のスタイル：{style}",
+                "line_style_short_dashes": "短い破線",
+                "line_style_solid": "実線",
+                "line_weight": "線の太さ",
+                "stroke_color": "線の色",
+                "stroke_color_short": "線",
+                "stroke_weight": "線の太さ",
+                "stroke_weight_short": "太さ"
+            },
+            "speed": {
+                "custom_input": "カスタム再生速度",
+                "label": "速度",
+                "playback_length": "再生時間",
+                "playback_speed": "再生速度",
+                "range_hint": "{min}×〜{max}×の間"
+            },
+            "text": {
+                "decrease_font_size": "フォントサイズを小さくする",
+                "font_family": "フォントファミリー",
+                "font_family_named": "フォントファミリー：{value}",
+                "font_size": "フォントサイズ",
+                "font_weight": "フォントの太さ",
+                "font_weight_named": "フォントの太さ：{value}",
+                "increase_font_size": "フォントサイズを大きくする",
+                "keyboard": "キーボード",
+                "line_height": "行の高さ",
+                "spacing": "間隔",
+                "text_color": "テキストの色",
+                "weight": "太さ"
+            },
+            "volume": {
+                "clip_hint": "このクリップのみ。タイムラインに配置したオーディオは独自のレベルを保持します。",
+                "label": "音量",
+                "level": "レベル",
+                "mute": "ミュート",
+                "muted": "ミュート中",
+                "muted_hint": "レベルは保持されます。ミュートを解除するとクリップは{percent}%に戻ります。",
+                "no_audio": "この動画には音声がありません。",
+                "slider": "音量レベル",
+                "unmute": "ミュート解除"
+            }
         },
         "confirmation": {
             "cancel": "廃棄",
@@ -2918,7 +3032,1066 @@
             "document_colors": "ドキュメントの色",
             "default_colors": "デフォルトカラー"
         },
-        "graphic": "グラフィック"
+        "graphic": "グラフィック",
+        "animate": {
+            "anchor": {
+                "bottom_center": "下中央",
+                "bottom_left": "左下",
+                "bottom_right": "右下",
+                "center_left": "左中央",
+                "center_right": "右中央",
+                "top_center": "上中央",
+                "top_left": "左上",
+                "top_right": "右上"
+            },
+            "curve": {
+                "axis_x": "{row} x",
+                "axis_y": "{row} y",
+                "end": "終了",
+                "more_options": "その他のオプション"
+            },
+            "direction": {
+                "bottom_left": "左下",
+                "bottom_right": "右下",
+                "clockwise": "時計回り",
+                "counter_clockwise": "反時計回り",
+                "from_the": "{place}から",
+                "to_the": "{place}へ",
+                "top_left": "左上",
+                "top_right": "右上"
+            },
+            "easing": {
+                "accelerate": "加速",
+                "bounce": "バウンス",
+                "elastic": "エラスティック",
+                "impulse": "インパルス",
+                "natural": "ナチュラル",
+                "overshoot": "オーバーシュート",
+                "slow_down": "減速",
+                "smooth": "スムーズ",
+                "swing": "スイング"
+            },
+            "field": {
+                "amount": "量",
+                "anchor_group": "アンカーポイント",
+                "anchor_point": "アンカーポイント",
+                "angle": "角度",
+                "apply_effect_to": "エフェクトの適用先",
+                "axis": "軸",
+                "choose_easing": "イージングを選択",
+                "distance": "距離",
+                "duration": "継続時間",
+                "edge": "端",
+                "fade": "フェード",
+                "from_noun": "開始時の{noun}",
+                "horizontal": "水平",
+                "noun_blur": "ぼかし",
+                "noun_opacity": "不透明度",
+                "noun_size": "サイズ",
+                "opacity": "不透明度",
+                "order": "順序",
+                "position": "位置",
+                "rotation": "回転",
+                "rotation_direction": "回転方向",
+                "scale": "スケール",
+                "smoothing": "スムージング",
+                "to_noun": "終了時の{noun}",
+                "vertical": "垂直"
+            },
+            "mode": {
+                "arrives": "到着",
+                "departs": "退場",
+                "in": "イン",
+                "out": "アウト"
+            },
+            "panel": {
+                "animation": "アニメーション",
+                "animations_tab": "アニメーション",
+                "basic": "基本",
+                "changing_note": "置き換えるものを選んでください。変更するアニメーションの位置と長さが引き継がれます。",
+                "corner_radius": "角丸の半径",
+                "easing": "イージング",
+                "fade": "フェード",
+                "keyframe_tab": "キーフレーム",
+                "layer_blur": "レイヤーぼかし",
+                "line_height": "行の高さ",
+                "more_options": "その他のオプション",
+                "motion": "モーション",
+                "needs_one_element": "アニメーションプリセットを使うには要素を1つ選ぶ必要があります。レイヤーを1つ選択してください。",
+                "paste_animation": "アニメーションをペースト",
+                "scale": "スケール",
+                "slide": "スライド",
+                "stroke": "線",
+                "text_animation": "テキストアニメーション"
+            },
+            "preset": {
+                "appear": {
+                    "caption": "出現",
+                    "label": "出現"
+                },
+                "blur": {
+                    "label": "ぼかしイン"
+                },
+                "blur_scale": {
+                    "caption": "ぼかし＆スケール",
+                    "label": "スケールしながらぼかしイン"
+                },
+                "blur_slide": {
+                    "caption": "ぼかし＆スライド",
+                    "label": "スライドしながらぼかしイン"
+                },
+                "fade": {
+                    "caption": "フェード",
+                    "label": "フェード"
+                },
+                "grow": {
+                    "caption": "ポップ",
+                    "label": "ポップイン"
+                },
+                "mask_center": {
+                    "caption": "中央マスク",
+                    "label": "中央からマスクで表示"
+                },
+                "mask_reveal": {
+                    "caption": "マスク表示",
+                    "label": "端からマスクで表示"
+                },
+                "mask_slide": {
+                    "caption": "マスク＆スライド",
+                    "label": "スライドしながらマスクで表示"
+                },
+                "move_scale": {
+                    "caption": "移動＆スケール",
+                    "label": "移動しながらスケールイン"
+                },
+                "rotate_left": {
+                    "label": "左から回転"
+                },
+                "rotate_right": {
+                    "label": "右から回転"
+                },
+                "shrink": {
+                    "caption": "ビッグ",
+                    "label": "ビッグイン"
+                },
+                "slide": {
+                    "caption": "スライド",
+                    "label": "スライドイン"
+                },
+                "slide_from_bottom": {
+                    "label": "下からスライド"
+                },
+                "slide_from_bottom_left": {
+                    "caption": "左下",
+                    "label": "左下からスライド"
+                },
+                "slide_from_bottom_right": {
+                    "caption": "右下",
+                    "label": "右下からスライド"
+                },
+                "slide_from_left": {
+                    "label": "左からスライド"
+                },
+                "slide_from_right": {
+                    "label": "右からスライド"
+                },
+                "slide_from_top": {
+                    "label": "上からスライド"
+                },
+                "slide_from_top_left": {
+                    "caption": "左上",
+                    "label": "左上からスライド"
+                },
+                "slide_from_top_right": {
+                    "caption": "右上",
+                    "label": "右上からスライド"
+                },
+                "spin": {
+                    "caption": "スピン",
+                    "label": "スピンイン"
+                },
+                "spin_scale": {
+                    "caption": "スピン＆スケール",
+                    "label": "スピンしながらスケールイン"
+                },
+                "twist": {
+                    "caption": "ツイスト",
+                    "label": "ツイストイン"
+                }
+            },
+            "property": {
+                "change_text": "テキストを変更",
+                "morph": "モーフ",
+                "move": "移動",
+                "opacity": "不透明度",
+                "scale": "スケール"
+            },
+            "section": {
+                "fade": "フェード",
+                "mask": "マスク",
+                "scale": "スケール",
+                "slide": "スライド",
+                "transform": "変形"
+            },
+            "text": {
+                "backward": "後方",
+                "forward": "前方",
+                "letters": "文字",
+                "summary_overlap": "各{unit}は、直前のものが{percent}%進んだ時点で始まります。",
+                "summary_sequential": "各{unit}は、前のものが終わってから始まります。",
+                "summary_together": "すべての{unit}が同時に動きます。",
+                "summary_whole": "テキスト全体が1つのまとまりとしてアニメーションします。",
+                "words": "単語"
+            },
+            "type": {
+                "fade_in": "フェードイン",
+                "fade_out": "フェードアウト",
+                "line_height": "行の高さ",
+                "radius": "半径",
+                "resize_in": "リサイズイン",
+                "resize_out": "リサイズアウト",
+                "rotate_in": "回転イン",
+                "rotate_out": "回転アウト",
+                "scale_in": "スケールイン",
+                "scale_out": "スケールアウト",
+                "slide_in": "スライドイン",
+                "slide_out": "スライドアウト",
+                "spacing": "間隔",
+                "stroke": "線"
+            }
+        },
+        "campaign": {
+            "editor": {
+                "template": {
+                    "continueHint": "続けるには写真を追加してください。",
+                    "gesture": {
+                        "frameDesktop": "ドラッグで位置を調整・スクロールでズーム",
+                        "frameMobile": "ドラッグで位置を調整、ピンチでズーム",
+                        "handles": "角や辺でサイズ変更、上部で回転",
+                        "move": "ドラッグして移動",
+                        "moveOrHandles": "ドラッグして移動、またはハンドルを使用",
+                        "resize": "角または辺をドラッグしてサイズ変更",
+                        "rotate": "上部のハンドルをドラッグして回転",
+                        "rotateDesktop": "ルーラーをドラッグするか、矢印キーを使用",
+                        "rotateMobile": "ルーラーをドラッグして回転"
+                    },
+                    "hint": {
+                        "pickDesktop": "マークされた領域をクリックするか、左側でレイヤーを選択",
+                        "pickMobile": "マークされた領域をタップするか、下でレイヤーを選択",
+                        "previewDesktop": "デザインをプレビュー中です。クリックすると編集を続けられます。",
+                        "previewMobile": "デザインをプレビュー中です。タップすると編集を続けられます。"
+                    },
+                    "layer": {
+                        "addPhoto": "写真を追加",
+                        "text": "テキスト：{text}",
+                        "yourPhoto": "あなたの写真",
+                        "yourText": "あなたのテキスト"
+                    },
+                    "layers": {
+                        "all": "すべてのレイヤー",
+                        "photo": "写真",
+                        "sheetDescription": "このデザインで変更できるものがすべて表示されます。",
+                        "title": "レイヤー"
+                    },
+                    "photoError": "この写真は使用できませんでした。別の画像をお試しください。",
+                    "preview": {
+                        "backToEditing": "編集に戻る"
+                    },
+                    "rotation": {
+                        "aria": "回転",
+                        "value": "one:#度|other:#度"
+                    },
+                    "tools": {
+                        "adjust": "調整",
+                        "aria": "レイヤーツール",
+                        "editText": "テキストを編集",
+                        "flip": "反転",
+                        "locked": "サイズと位置は作成者によって設定されています",
+                        "replace": "置き換え",
+                        "textAria": "テキストツール",
+                        "zoomIn": "ズームイン",
+                        "zoomOut": "ズームアウト"
+                    }
+                }
+            }
+        },
+        "canvas": {
+            "drop": {
+                "audio_added": "{name}をタイムラインに追加しました。",
+                "too_big": "{name}が{limit}を超えています。",
+                "too_long": "{name}が{minutes}分を超えています。",
+                "too_many": "一度に追加できるのは{count}ファイルまでです。",
+                "wrong_type": "{name}は追加できません。画像、動画、SVGファイルのみ対応しています。"
+            }
+        },
+        "catalogue": {
+            "error_body": "接続を確認して、もう一度お試しください。",
+            "loading_more": "さらに読み込み中"
+        },
+        "dialog": {
+            "discard": {
+                "confirm": "下書きを破棄",
+                "description_unsaved": "このデザインは保存されていません。戻ると、レイヤー、スタイル、アニメーションを含めて完全に削除されます。",
+                "title": "「{title}」の下書きを破棄しますか？"
+            },
+            "save": {
+                "description": "保存すると、編集はできなくなります。",
+                "saving": "保存中…"
+            }
+        },
+        "dock": {
+            "fit_to_screen": "画面に合わせる"
+        },
+        "graphic_panel": {
+            "add": "{name}を追加",
+            "add_failed": "このグラフィックを追加できませんでした。もう一度お試しください。",
+            "empty_body": "星やハートなど、より短い一般的な言葉をお試しください。",
+            "empty_title": "「{query}」に一致するグラフィックはありません",
+            "error_title": "グラフィックを読み込めませんでした",
+            "none_title": "表示するグラフィックがありません",
+            "search_label": "グラフィックを検索",
+            "search_placeholder": "グラフィックを検索"
+        },
+        "header": {
+            "redo": "やり直し",
+            "saving": "保存中…",
+            "undo": "元に戻す",
+            "untitled_design": "無題のデザイン"
+        },
+        "layer": {
+            "frame": {
+                "photo_slot": "写真スロット"
+            },
+            "menu": {
+                "align_center": "中央揃え",
+                "bring_forward": "1つ前面へ",
+                "bring_to_front": "最前面へ",
+                "detach_image": "画像を切り離す",
+                "flip_horizontal": "左右反転",
+                "flip_vertical": "上下反転",
+                "replace_image": "画像を置き換え",
+                "send_backward": "1つ背面へ",
+                "send_to_back": "最背面へ",
+                "set_as_background_image": "背景画像に設定",
+                "set_as_background_video": "背景動画に設定",
+                "set_background_as_image_layer": "背景を画像レイヤーに設定",
+                "set_background_as_video_layer": "背景を動画レイヤーに設定",
+                "sheet_title": "レイヤーのオプション",
+                "show_layers": "レイヤーを表示"
+            },
+            "pill": {
+                "duplicate": "レイヤーを複製",
+                "more": "レイヤーのその他の操作",
+                "remove": "レイヤーを削除",
+                "toolbar": "レイヤー操作"
+            }
+        },
+        "mcp": {
+            "announce": {
+                "code_ready": "ペアリングコードの準備ができました：{code}。AIクライアントに渡してください。",
+                "connecting": "ペアリングコードを準備しています。",
+                "failed": "接続できませんでした。{reason}",
+                "reconnecting": "接続が切断されました。再接続を試みています。"
+            },
+            "clipboard_blocked": "ブラウザがクリップボードをブロックしました。{hint}",
+            "connect": "接続",
+            "connecting": "接続中…",
+            "copied_address_announcement": "サーバーアドレスをコピーしました",
+            "copied_code_announcement": "ペアリングコードをコピーしました",
+            "copy_address_hint": "アドレスを選択して、手動でコピーしてください。",
+            "copy_code": "コードをコピー",
+            "copy_code_hint": "コードを選択して、手動でコピーしてください。",
+            "copy_server_address": "MCPサーバーのアドレスをコピー",
+            "disconnect": "切断",
+            "error_fallback": "ペアリングサービスが応答しませんでした。接続を確認して、もう一度お試しください。",
+            "guide": {
+                "fresh_code": "コードが使えなくなった場合は、「切断」を押してもう一度接続すると新しいコードが発行されます。",
+                "how_to_set_up": "設定方法",
+                "step_add_body": "下のアドレスを使って、AIクライアントにTwibbonizeを追加します。Claude Codeでは、次を実行してください",
+                "step_add_title": "AIクライアントにTwibbonizeを追加",
+                "step_pair_body": "「Twibbonizeエディタとペアリングして」と伝えて、上のコードを渡してください。",
+                "step_pair_title": "ペアリングを依頼",
+                "where_to_paste": "このコードはどこに貼り付けますか？"
+            },
+            "lead": {
+                "code_ready_sentence": "Claudeに貼り付けて、ペアリングを依頼してください。Claudeの作業中は、キャンバスのページの周りにリングが表示されます。",
+                "code_ready_title": "このコードをAIクライアントに渡してください",
+                "connecting_sentence": "少々お待ちください。",
+                "connecting_title": "ペアリングコードを準備しています",
+                "disconnected_sentence": "Claude DesktopとClaude Codeは、レイヤーの追加、テキストの入力、アニメーションの設定、キャンバス上の内容の読み取りができます。",
+                "disconnected_title": "AIクライアントをこのデザインに招待",
+                "failed_title": "接続できませんでした",
+                "reconnecting_sentence": "AIクライアントとの接続が切断されました。復旧を試みています。",
+                "reconnecting_title": "再接続中",
+                "unavailable_sentence": "このエディタのビルドにはAI接続が設定されていないため、接続できるものがまだありません。",
+                "unavailable_title": "MCPはここでは有効になっていません"
+            },
+            "pairing_code_label": "ペアリングコード：{code}"
+        },
+        "media": {
+            "add_asset": "{name}を追加",
+            "dismiss_error": "閉じる",
+            "empty_body": "下で画像、動画、オーディオファイルを追加すると、このセッションの間ここに残ります。",
+            "empty_narrowed_body": "検索をクリアするか、別のタイプを選ぶと、追加したものがすべて表示されます。",
+            "empty_narrowed_title": "一致するものがありません",
+            "empty_title": "アップロードはまだありません",
+            "filter": {
+                "audio": "オーディオ",
+                "images": "画像"
+            },
+            "filter_group_label": "メディアの種類",
+            "make_an_image": "画像を作成",
+            "make_image_unavailable": "画像の生成はまだ利用できません",
+            "search_placeholder": "メディアを検索",
+            "upload_button": "画像、動画、オーディオをアップロード",
+            "uploads_heading": "アップロード"
+        },
+        "page_bar": {
+            "group_label": "ズームコントロール",
+            "zoom_menu": "ズームレベル、{percent}%"
+        },
+        "panel": {
+            "loading": "{panel}を読み込み中…"
+        },
+        "photo": {
+            "add_by": "{name}さんの写真を追加",
+            "add_described": "写真を追加：{description}",
+            "credit": "写真提供：",
+            "empty_body": "ビーチや街など、より短い一般的な言葉をお試しください。",
+            "empty_title": "「{query}」に一致する写真はありません",
+            "error_title": "写真を読み込めませんでした",
+            "none_title": "表示する写真がありません",
+            "search_label": "写真を検索",
+            "search_placeholder": "写真を検索"
+        },
+        "qr": {
+            "add_logo": "ロゴを追加",
+            "add_to_design": "デザインに追加",
+            "background_colour_label": "背景色",
+            "code_colour_label": "コードの色",
+            "code_label": "コード",
+            "link_input_label": "QRコードのリンク",
+            "link_label": "リンク",
+            "logo_fallback_name": "ロゴ画像",
+            "logo_label": "ロゴ",
+            "remove_logo": "ロゴを削除"
+        },
+        "rail": {
+            "aria_label": "デザインライブラリ",
+            "graphic": "グラフィック",
+            "help": "ヘルプ",
+            "layers": "レイヤー",
+            "mcp": "MCP",
+            "media": "メディア",
+            "photo": "写真",
+            "qr_code": "QRコード",
+            "shapes": "図形",
+            "templates": "テンプレート",
+            "textures": "テクスチャ",
+            "tools": "ツール"
+        },
+        "save": {
+            "failed": "デザインを保存できませんでした。もう一度お試しください。"
+        },
+        "settings": {
+            "adjust": {
+                "brightness": "明るさ",
+                "compare": "元の画像と比較",
+                "contrast": "コントラスト",
+                "grayscale": "グレースケール",
+                "group": {
+                    "basic": "基本",
+                    "refinements": "詳細設定"
+                },
+                "hue_rotate": "色相",
+                "reset": "調整をリセット",
+                "saturation": "彩度",
+                "title": "調整"
+            },
+            "color": {
+                "trigger": "色"
+            },
+            "common": {
+                "layer_blur": "レイヤーぼかし",
+                "layer_blur_stepper": "レイヤーぼかし"
+            },
+            "crop": {
+                "aspect": {
+                    "free": "フリーフォーム",
+                    "landscape": "横長",
+                    "original": "オリジナル",
+                    "portrait": "縦長",
+                    "square": "正方形",
+                    "story": "ストーリー",
+                    "widescreen": "ワイドスクリーン"
+                },
+                "shape": {
+                    "circle": "円",
+                    "diamond": "ひし形",
+                    "half_circle": "半円",
+                    "oval": "楕円",
+                    "parallelogram": "平行四辺形",
+                    "rounded": "角丸"
+                }
+            },
+            "filter": {
+                "cool": "クール",
+                "duotone": "デュオトーン",
+                "mono": "モノ",
+                "original": "オリジナル",
+                "vivid": "ビビッド",
+                "warm": "ウォーム"
+            },
+            "font_weight": {
+                "black": "ブラック",
+                "extra_bold": "エクストラボールド",
+                "extra_light": "エクストラライト",
+                "medium": "ミディアム",
+                "regular": "レギュラー",
+                "semibold": "セミボールド",
+                "thin": "シン"
+            },
+            "frame": {
+                "colour": "フレームの色"
+            },
+            "green_screen": {
+                "choose_colour": "色を選択",
+                "colour": "色",
+                "compare": "元の画像と比較",
+                "eyedropper": "キャンバスから色を選択",
+                "key_colour": "キーカラー {hex}",
+                "loose": "ゆるい",
+                "nothing_found": "背景色が見つかりませんでした。",
+                "precise": "精密",
+                "preset": {
+                    "bright_blue": "明るい青",
+                    "bright_green": "明るい緑",
+                    "chroma_blue": "クロマブルー",
+                    "chroma_green": "クロマグリーン"
+                },
+                "presets": "一般的な背景色",
+                "remove": "グリーンスクリーンを削除",
+                "title": "グリーンスクリーン"
+            },
+            "image": {
+                "corner_radius": "角丸の半径",
+                "corner_radius_stepper": "角丸の半径",
+                "per_corner": "個別の角を編集",
+                "per_corner_unavailable": "個別の角の編集はまだ利用できません"
+            },
+            "keypad": {
+                "value_field": "{label}の値"
+            },
+            "line": {
+                "colour": "線の色",
+                "style": {
+                    "dots": "点線",
+                    "long_dashes": "長い破線",
+                    "short_dashes": "短い破線",
+                    "solid": "実線"
+                },
+                "style_trigger": "線のスタイル：{style}",
+                "weight": "線の太さ",
+                "weight_trigger": "線の太さ {weight}"
+            },
+            "media": {
+                "heading": "メディア"
+            },
+            "page": {
+                "size_capped": "最大{max}px、比率は維持されます"
+            },
+            "pages": {
+                "title": "ページ"
+            },
+            "photo_slot": {
+                "enable": "写真スロットとして使用",
+                "key_field": "キー（一意）",
+                "key_required": "キーは必須です",
+                "key_taken": "このキーは別のスロットで使用されています",
+                "label_field": "ラベル（エンドユーザーに表示）",
+                "on": "写真スロット",
+                "remove": "写真スロットを削除"
+            },
+            "qr": {
+                "add_logo": "ロゴを追加",
+                "background_colour": "背景色",
+                "code": "コード",
+                "code_colour": "コードの色",
+                "link": "リンク",
+                "link_input": "QRコードのリンク",
+                "logo": "ロゴ",
+                "remove_logo": "ロゴを削除"
+            },
+            "root": {
+                "background_image": "背景画像",
+                "edit_background": "背景画像を編集",
+                "fill": "塗りつぶし",
+                "fill_gradient": "グラデーション",
+                "page_height": "ページの高さ",
+                "page_width": "ページの幅",
+                "ratio_lock": "縦横比をロック",
+                "ratio_unlock": "縦横比のロックを解除",
+                "rotate_left": "背景を左に回転",
+                "rotate_right": "背景を右に回転"
+            },
+            "scalar": {
+                "clip_length": "長さ",
+                "corner_radius": "角丸の半径",
+                "font_size": "フォントサイズ",
+                "layer_blur": "レイヤーぼかし",
+                "letter_spacing": "文字間隔",
+                "line_height": "行の高さ",
+                "opacity": "不透明度",
+                "speed": "速度",
+                "stroke_width": "線の幅",
+                "volume": "音量"
+            },
+            "shape": {
+                "corner_radius": "角丸の半径",
+                "corner_radius_stepper": "角丸の半径",
+                "fill": "塗りつぶし",
+                "fill_gradient": "グラデーション",
+                "fill_mixed": "複数",
+                "fill_transparent": "透明",
+                "stroke": "線",
+                "stroke_color": "線の色",
+                "stroke_style": {
+                    "dots": "点線",
+                    "long_dashes": "長い破線",
+                    "short_dashes": "短い破線",
+                    "solid": "実線"
+                },
+                "stroke_style_select": "線のスタイル",
+                "stroke_transparent": "透明",
+                "stroke_weight": "線の太さ"
+            },
+            "svg": {
+                "path_colour": "色 {index}"
+            },
+            "swatch": {
+                "more_colours": "その他の色"
+            },
+            "text": {
+                "align": {
+                    "justify": "両端揃え"
+                },
+                "alignment": "配置",
+                "edit_text": "テキストを編集",
+                "font_family": "フォントファミリー",
+                "font_family_select": "フォントファミリー",
+                "font_size": "フォントサイズ",
+                "italic_unavailable": "このフォントには、この太さのイタリック体がありません",
+                "letter_spacing_stepper": "文字間隔",
+                "line_height": "行の高さ",
+                "line_height_stepper": "行の高さ",
+                "list": "リスト",
+                "list_bulleted": "箇条書きリスト",
+                "list_numbered": "番号付きリスト",
+                "list_style": "リストのスタイル",
+                "text_case": "大文字・小文字",
+                "text_color": "テキストの色",
+                "text_style": "テキストスタイル",
+                "weight": "太さ"
+            },
+            "transform": {
+                "align": {
+                    "bottom": "下揃え",
+                    "center_x": "左右中央揃え",
+                    "center_y": "上下中央揃え",
+                    "left": "左揃え",
+                    "right": "右揃え",
+                    "top": "上揃え"
+                },
+                "align_to_page": "ページに揃える",
+                "opacity": "不透明度",
+                "position": "位置",
+                "position_x": "位置 X",
+                "position_y": "位置 Y",
+                "rotation": "回転",
+                "scale": "スケール"
+            },
+            "video": {
+                "adjust": "調整",
+                "audio": "オーディオ",
+                "clip_runs": "クリップの長さ {length}",
+                "corner_radius": "角丸の半径",
+                "corner_radius_stepper": "角丸の半径",
+                "green_screen": "グリーンスクリーン",
+                "loop": "デザインの終わりまでループ",
+                "mute": "ミュート",
+                "muted": "ミュート中",
+                "no_audio": "この動画には音声がありません。",
+                "playback": "再生",
+                "replace": "動画を置き換え",
+                "speed": "速度",
+                "speed_custom_input": "カスタム再生速度",
+                "speed_presets": "再生速度",
+                "speed_range": "{min}×〜{max}×の間",
+                "tools": "ツール",
+                "unmute": "ミュート解除",
+                "volume": "音量",
+                "volume_level": "音量レベル"
+            }
+        },
+        "shape_preset": {
+            "arrow": "矢印",
+            "arrow_down": "下向き矢印",
+            "arrow_left": "左向き矢印",
+            "arrow_pentagon": "五角形の矢印",
+            "arrow_right": "右向き矢印",
+            "arrow_up": "上向き矢印",
+            "chevron": "シェブロン",
+            "circle": "円",
+            "cross": "十字",
+            "diamond": "ひし形",
+            "hexagon": "六角形",
+            "hexagon_wide": "幅広の六角形",
+            "line": "線",
+            "octagon": "八角形",
+            "parallelogram": "平行四辺形",
+            "parallelogram_mirrored": "反転した平行四辺形",
+            "pentagon": "五角形",
+            "square": "正方形",
+            "trapezoid": "台形",
+            "trapezoid_upside_down": "逆さの台形",
+            "triangle": "三角形",
+            "triangle_upside_down": "逆さの三角形"
+        },
+        "shapes_panel": {
+            "basic": "基本",
+            "lines": "線と矢印"
+        },
+        "sheet": {
+            "animate": {
+                "add_keyframe": "キーフレームを追加",
+                "back_to_animations": "アニメーションに戻る",
+                "basic": "基本",
+                "basic_opacity": "不透明度",
+                "basic_position": "位置",
+                "basic_rotation": "回転",
+                "basic_scale": "スケール",
+                "keyframe": "キーフレーム",
+                "pick_property_hint": "キーフレームを設定するプロパティを選択してください。タップするとシートが閉じてパネルが開き、再生ヘッドの位置にレイヤーの現在の値でキーフレームが追加されます。",
+                "presets_need_one": "アニメーションプリセットを使うには要素を1つ選ぶ必要があります。レイヤーを1つ選択してください。",
+                "title": "アニメーション"
+            },
+            "easing": {
+                "title": "イージング"
+            },
+            "font_weight": {
+                "title": "フォントの太さ"
+            },
+            "speed": {
+                "title": "速度"
+            }
+        },
+        "sidebar": {
+            "color": {
+                "default_colors": "デフォルトの色",
+                "eyedropper": "画面から色を選択",
+                "eyedropper_unsupported": "お使いのブラウザはスポイトに対応していません",
+                "fill_linear": "リニア",
+                "fill_radial": "円形",
+                "fill_solid": "単色",
+                "fill_type": "塗りの種類",
+                "gradients_in_design": "デザイン内のグラデーション",
+                "hex": "16進カラー",
+                "in_design": "デザイン内",
+                "title": "塗りつぶしの色",
+                "use_color": "{color}を使用",
+                "use_gradient": "{style}グラデーションを使用",
+                "use_transparent": "透明"
+            },
+            "crop": {
+                "adjust_shape": "クロップの形を調整",
+                "aspect": "縦横比",
+                "framing": "フレーミング",
+                "framing_hint": "写真をドラッグして位置を調整するか、角をドラッグしてクロップ範囲のサイズを変更します。スクロールでズームできます。",
+                "scale": "スケール"
+            },
+            "filters": {
+                "show_earlier": "前のフィルターを表示",
+                "show_more": "さらにフィルターを表示",
+                "swatch": "{label}の色：{color}",
+                "title": "フィルター"
+            },
+            "font": {
+                "all_fonts": "すべてのフォント",
+                "applying": "フォントを適用中",
+                "back": "テキストオプションに戻る",
+                "clear_search": "検索をクリア",
+                "clear_search_action": "検索をクリア",
+                "in_this_design": "このデザイン内",
+                "no_match": "「{query}」に一致するフォントはありません",
+                "no_match_hint": "TwibbonizeはGoogle Fontsのカタログを使用しており、このフォントファミリーは含まれていません。より短い検索語をお試しください。",
+                "search_label": "フォントファミリーを検索",
+                "search_placeholder": "フォントを検索",
+                "title": "フォントファミリー",
+                "weight": "フォントの太さ"
+            },
+            "gradient": {
+                "add_stop": "グラデーションストップを追加",
+                "angle": "角度",
+                "angle_dial": "グラデーションの角度、{degrees}度。ドラッグで変更",
+                "angle_dial_hint": "ドラッグしてグラデーションの角度を変更",
+                "angle_input": "グラデーションの角度（度）",
+                "centre_unsupported": "グラデーションの中心は、レンダラーではまだサポートされていません",
+                "stop": "グラデーションストップ {index}、位置 {percent}%、{color}",
+                "stop_hint": "ドラッグで移動、ダブルクリックで削除"
+            },
+            "image": {
+                "adjustment": "調整",
+                "adjustments": "調整",
+                "back_to_edit": "「編集」タブに戻る",
+                "background_removal": "背景の削除",
+                "compare": "元の画像と比較",
+                "removing": "削除中…",
+                "removing_background": "背景を削除中",
+                "reset_adjustments": "調整をリセット",
+                "tools": "ツール"
+            },
+            "keyframe": {
+                "add": "キーフレームを追加",
+                "add_at_playhead": "再生ヘッドに{property}のキーフレームを追加",
+                "add_at_playhead_short": "再生ヘッドにキーフレームを追加",
+                "add_lane_at_playhead": "再生ヘッドに{lane}のキーフレームを追加",
+                "add_property": "アニメーションさせるプロパティを追加",
+                "all_lanes_added": "このレイヤーでキーフレームを設定できるプロパティはすべてレーンに追加済みです",
+                "delete": "このキーフレームを削除",
+                "diamond": "{seconds}秒の{lane}キーフレーム",
+                "easing": "イージング",
+                "easing_caps": "イージング",
+                "first_no_easing": "最初のキーフレームにはイージングがありません",
+                "hex": "16進カラー",
+                "layer_blur": "レイヤーぼかし",
+                "letter_spacing": "文字間隔",
+                "line_height": "行の高さ",
+                "opacity": "不透明度",
+                "opacity_percent": "不透明度（％）",
+                "position_x": "位置 X",
+                "position_y": "位置 Y",
+                "radius_bottom_left": "左下の角丸の半径",
+                "radius_bottom_right": "右下の角丸の半径",
+                "radius_top_left": "左上の角丸の半径",
+                "radius_top_right": "右上の角丸の半径",
+                "remove": "キーフレームを削除",
+                "remove_at_playhead": "再生ヘッドの{property}キーフレームを削除",
+                "rotation": "回転",
+                "scale": "スケール",
+                "shadow_blur": "シャドウのぼかし",
+                "shadow_color": "シャドウの色",
+                "shadow_offset_x": "シャドウのオフセット X",
+                "shadow_offset_y": "シャドウのオフセット Y",
+                "shadow_spread": "シャドウの広がり",
+                "stroke_color": "線の色",
+                "stroke_weight": "線の太さ"
+            },
+            "layer": {
+                "page_background": "ページ背景",
+                "tab_animate": "アニメーション",
+                "tabs_label": "レイヤーパネル",
+                "title": "レイヤー"
+            },
+            "page_preset": {
+                "group_label": "キャンバスサイズのプリセット",
+                "landscape": "横長",
+                "portrait": "縦長",
+                "square": "正方形",
+                "story": "ストーリー",
+                "tile_aria": "{name}、{width}×{height}ピクセル"
+            },
+            "personalization": {
+                "act_as_placeholder": "プレースホルダーにする",
+                "allow_adjust_framing": "フレーミングの調整を許可",
+                "allow_adjust_framing_hint": "サポーターが枠内で写真をズームしたり移動したりできます。",
+                "allow_change_adjustments": "調整の変更を許可",
+                "allow_change_adjustments_hint": "サポーターが明るさ、コントラストなどの調整を変更できます。",
+                "allow_change_effect": "エフェクトの変更を許可",
+                "allow_change_effect_hint": "サポーターがこのレイヤーのエフェクトを変更できます。",
+                "allow_change_filter": "フィルターの変更を許可",
+                "allow_change_filter_hint": "サポーターがこのレイヤーのフィルターを変更できます。",
+                "allow_edit_text": "テキストの編集を許可",
+                "allow_edit_text_hint": "サポーターがこのテキストに自分の言葉を入力できます。",
+                "allow_flip": "反転を許可",
+                "allow_flip_hint": "サポーターがこのレイヤーを反転できます。",
+                "allow_move": "移動を許可",
+                "allow_move_hint": "サポーターがこのレイヤーをドラッグして移動できます。",
+                "allow_replace_media": "メディアの置き換えを許可",
+                "allow_replace_media_hint": "サポーターがこの画像を自分の写真に差し替えられます。",
+                "allow_resize": "サイズ変更を許可",
+                "allow_resize_hint": "サポーターが角や辺をドラッグしてこのレイヤーのサイズを変更できます。",
+                "allow_rotate": "回転を許可",
+                "allow_rotate_hint": "サポーターがこのレイヤーを任意の角度に回転できます。",
+                "group_appearance": "外観",
+                "group_arrange": "配置",
+                "group_media": "メディア",
+                "placeholder_hint": "サポーターがタップして写真を追加できる空のスロットを表示します。",
+                "remove_background": "写真の背景を削除",
+                "remove_background_hint": "サポーターを写真から切り抜き、デザインがその周りに表示されるようにします。",
+                "text_placeholder_hint": "このテキストをサンプルとして表示し、サポーターが自分のテキストに置き換えます。"
+            },
+            "shape_effect": {
+                "colour": "エフェクトの色",
+                "distance": "距離",
+                "echo": "エコー",
+                "first_color": "1色目",
+                "first_colour": "1つ目のエフェクトの色",
+                "glitch": "グリッチ",
+                "glow": "グロー",
+                "group_label": "図形エフェクト",
+                "second_color": "2色目",
+                "second_colour": "2つ目のエフェクトの色",
+                "section": "エフェクト",
+                "shadow": "ドロップシャドウ"
+            },
+            "text_effect": {
+                "colour": "エフェクトの色",
+                "curve": "カーブ",
+                "distance": "距離",
+                "echo": "エコー",
+                "glow": "グロー",
+                "group_label": "テキストエフェクト",
+                "outline": "アウトライン",
+                "section": "エフェクト",
+                "shape_group_label": "テキストの形",
+                "splice": "スプライス",
+                "title": "テキストエフェクト"
+            }
+        },
+        "templates": {
+            "empty_body": "短い言葉でお試しください。",
+            "empty_title": "「{query}」に一致するテンプレートはありません",
+            "error_title": "テンプレートを読み込めませんでした",
+            "none_body": "誕生日や卒業など、テーマで検索してください。",
+            "none_title": "このデザイン用のテンプレートはまだありません",
+            "search_label": "テンプレートを検索",
+            "search_placeholder": "テンプレートを検索"
+        },
+        "text_panel": {
+            "add_template": "テキストテンプレートを追加：{name}",
+            "add_text_box": "テキストボックスを追加",
+            "empty_body": "より短い一般的な言葉をお試しください。",
+            "empty_title": "「{query}」に一致するテキストテンプレートはありません",
+            "error_title": "テキストテンプレートを読み込めませんでした",
+            "none_body": "代わりにシンプルなテキストボックスから始めましょう。",
+            "none_title": "表示するテキストテンプレートがありません",
+            "search_label": "テキストテンプレートを検索",
+            "search_placeholder": "テキストテンプレートを検索"
+        },
+        "text_preset": {
+            "seed": "ここにテキストを追加"
+        },
+        "textures": {
+            "apply_texture": "{name}を適用",
+            "category": {
+                "fabric": "ファブリック",
+                "grain": "グレイン",
+                "grunge": "グランジ",
+                "paper": "ペーパー",
+                "print": "プリント"
+            },
+            "category_group_label": "テクスチャのカテゴリ",
+            "empty_body": "このライブラリは準備中です。もうしばらくお待ちください。",
+            "empty_title": "テクスチャはまだありません",
+            "most_used": "よく使われる",
+            "search_placeholder": "テクスチャを検索"
+        },
+        "timeline": {
+            "audio": {
+                "add": "オーディオを追加",
+                "add_tooltip": "BGMトラックを追加",
+                "bar_aria": "{name}、開始 {start}、長さ {duration}",
+                "decoding": "オーディオをデコード中…",
+                "decoding_waveform": "波形をデコード中…",
+                "default_name": "オーディオ",
+                "drop_to_add": "ドロップしてオーディオを追加",
+                "kind_suffix": "· オーディオ",
+                "mute": "トラックをミュート",
+                "unmute": "トラックのミュートを解除",
+                "volume": "トラックの音量",
+                "waveform_error": "このトラックの波形を読み込めませんでした。"
+            },
+            "keyframe": {
+                "add": "キーフレームを追加",
+                "add_at_playhead": "再生ヘッドにキーフレームを追加",
+                "add_tooltip": "このレイヤーのプロパティにキーフレームを設定",
+                "diamond_aria": "{time}の{lane}キーフレーム",
+                "diamond_hint": " · ドラッグでタイミング調整、右クリックで削除",
+                "diamond_title": "{lane} · {time}",
+                "lane": {
+                    "corner_radius": "角丸の半径",
+                    "layer_blur": "レイヤーぼかし",
+                    "line_height": "行の高さ",
+                    "opacity": "不透明度",
+                    "position": "位置",
+                    "rotation": "回転",
+                    "scale": "スケール",
+                    "stroke": "線"
+                },
+                "remove_lane": "{lane}のキーフレームを削除",
+                "remove_lane_from_layer": "{layer}から{lane}のキーフレームを削除",
+                "segment_easing_aria": "{from}から{to}までの{lane}のタイミング関数、現在は{easing}",
+                "segment_easing_title": "タイミング関数 · {easing}",
+                "welded_aria": "、レイヤーの端に固定",
+                "welded_title": " · レイヤーの端に固定"
+            },
+            "menu": {
+                "repeat_until_end": "終了までリピート"
+            },
+            "track": {
+                "bar_aria": "{name}、開始 {start}、長さ {duration}",
+                "bar_aria_end_glued": "、終了位置がレイヤーに固定",
+                "bar_aria_start_glued": "、開始位置がレイヤーに固定",
+                "bar_tooltip": "{name} · {start}から{duration}ms · ドラッグで移動、端をドラッグでサイズ変更（Alt = スナップなし）",
+                "bar_tooltip_sole": " · この端をドラッグするとレイヤーが移動します",
+                "clip_aria": "{name}クリップ",
+                "clip_tooltip": "ドラッグでレイヤーを時間軸上で移動 · 端をドラッグでトリミング（Alt = スナップなし）",
+                "collapse": "折りたたむ",
+                "collapse_all": "すべてのレイヤーを折りたたむ",
+                "collapse_named": "{name}を折りたたむ",
+                "delete_layer": "レイヤーを削除",
+                "delete_named": "{name}を削除",
+                "ends_at": "終了時刻",
+                "expand": "展開",
+                "expand_named": "{name}を展開",
+                "hidden_lane_one": "非表示のレーン {count} 件",
+                "hidden_lane_other": "非表示のレーン {count} 件",
+                "hide": "非表示",
+                "hide_named": "{name}を非表示",
+                "lane_reorder_tooltip": "ドラッグして並べ替え · アニメーションが重なる場合は上のレーンが優先されます",
+                "layer_animations": "レイヤーのアニメーション",
+                "lock_layer": "レイヤーをロック",
+                "lock_named": "{name}をロック",
+                "remove_animation": "アニメーションを削除",
+                "remove_animation_aria": "{layer}から{name}のアニメーションを削除",
+                "reorder_tooltip": "ドラッグしてトラックを並べ替え · キャンバス上の重なり順はレイヤーパネルで設定します",
+                "show": "表示",
+                "show_named": "{name}を表示",
+                "split": "分割",
+                "starts_at": "開始時刻",
+                "trim_end": "終了位置でトリミング",
+                "trim_start": "開始位置でトリミング",
+                "trim_to": "{time}でトリミング",
+                "unlock_layer": "レイヤーのロックを解除",
+                "unlock_named": "{name}のロックを解除"
+            },
+            "transport": {
+                "current_time_field": "現在の時刻（ミリ秒）",
+                "duration_edge_aria": "ページの長さ {seconds}秒",
+                "duration_edge_tooltip": "ページの長さ {seconds}秒 · ドラッグで変更、クリックで正確な値を入力（Alt = スナップなし）",
+                "duration_max": "最大 {seconds}秒",
+                "fit_to_width": "幅に合わせる",
+                "forward": "早送り",
+                "lengthen_page": "ページを長くする",
+                "loop": "ループ再生",
+                "page_duration": "ページの長さ",
+                "page_duration_field": "ページの長さ（ミリ秒）",
+                "resize_dock": "タイムラインのサイズを変更",
+                "rewind": "巻き戻し",
+                "shorten_page": "ページを短くする",
+                "zoom": "タイムラインのズーム"
+            }
+        }
     },
     "page__campaign_creation": {
         "campaign_preview": {
@@ -3433,6 +4606,8 @@
             "A-4290": "リクエストが多すぎます",
             "CN-4003": "無効な URL",
             "C-4090": "キャンペーンリンクはすでに使用されています。別のリンクをお試しください。",
+            "C-4094": "キャンペーンはすでにゴミ箱にあります",
+            "C-4095": "キャンペーンはゴミ箱にありません",
             "SUB-403": "キャンペーン設定により投稿が禁止されている",
             "A-40091": "学校または大学のメールアドレスをご利用ください",
             "PB-4011": "このリンクは無効か、有効期限が切れています",
@@ -4254,5 +5429,10 @@
         "campaign_multiple": "下にスクロールしてフレームを選択",
         "editor_single": "下にスクロールして写真を調整",
         "editor_multiple": "下にスクロールしてフレームを編集・切り替え"
+    },
+    "page_trash": {
+        "restore_all": {
+            "in_progress": "キャンペーンを復元中…"
+        }
     }
 }
